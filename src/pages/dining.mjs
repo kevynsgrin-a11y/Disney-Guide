@@ -19,8 +19,14 @@ export function diningHub (park, data) {
   for (const restaurant of park.dining) {
     (byService[restaurant.service] = byService[restaurant.service] || []).push(restaurant)
   }
+  // Preferred order first, then anything else the data uses. A service value that fell outside the
+  // list would otherwise vanish from the card sections while still showing in the table above —
+  // a silent omission rather than a visible error.
   const serviceOrder = ['table-service', 'quick-service', 'lounge', 'bakery', 'snack-cart', 'food-truck']
-  const groups = serviceOrder.filter((key) => byService[key] && byService[key].length)
+  const groups = [
+    ...serviceOrder.filter((key) => byService[key] && byService[key].length),
+    ...Object.keys(byService).filter((key) => !serviceOrder.includes(key)).sort(),
+  ]
 
   const body = html`
     ${C.breadcrumbs(trail)}

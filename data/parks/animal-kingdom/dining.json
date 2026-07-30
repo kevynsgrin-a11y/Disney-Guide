@@ -1,0 +1,257 @@
+{
+  "park": "animal-kingdom",
+  "dining": [
+    {
+      "slug": "tiffins-restaurant",
+      "name": "Tiffins Restaurant",
+      "land": "discovery-island",
+      "service": "table-service",
+      "cuisine": "Global with African, Asian and Latin American influences",
+      "priceTier": "$$$$",
+      "priceNote": "Entrees generally run about $38-62 as of July 2026; a full dinner with an appetizer and a drink lands well over $75 per adult.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Animal Kingdom's signature restaurant, built as a gallery of the artwork and field research behind the park, with the most ambitious cooking on site.",
+      "description": [
+        "Tiffins opened in 2016 as the park's fine-dining anchor and it is the only restaurant at Animal Kingdom that behaves like a real restaurant. Three dining rooms display concept art, field sketches, photographs and objects collected by the Imagineering teams who researched Africa, Asia and Pandora - the Trek gallery in particular is worth arriving early to walk. Ask a server to explain a piece and most of them can.",
+        "The kitchen cooks globally without doing the theme park thing of gesturing at cuisines. Expect whole fried fish, wagyu, seafood curries, and vegetable plates built with actual technique rather than as an afterthought. Portions are moderate and plating is careful, which is the correct approach at this price and also the reason people who came expecting a huge plate leave grumbling.",
+        "The name refers to the stacked tin lunch containers used across South Asia, which is a better fit than it sounds - the menu is assembled from parts that travel."
+      ],
+      "signatureItems": [
+        "Whole-fried sustainable fish",
+        "Wagyu strip loin",
+        "Charred octopus",
+        "Bread service with house spreads",
+        "Vegetable tasting plate"
+      ],
+      "goodFor": ["date-night", "special-occasion", "splurge", "air-conditioned-break", "vegetarian"],
+      "tips": [
+        "Book a late lunch instead of dinner. The menu overlaps heavily, the room is quieter, and you are not fighting the park's early closing time.",
+        "Ask for a table in the Trek gallery. The three rooms are not equal - that one has the field research material and the best light.",
+        "Tiffins is signature dining, which means it costs two dining plan credits and a jacket-free but grown-up atmosphere. It is not a room for a restless four-year-old at 7 PM.",
+        "Repeat-visitor note: you can order the full Tiffins menu next door at Nomad Lounge in most cases. If you want the food without the price of the room or a reservation you cannot get, that is the move.",
+        "Animal Kingdom closes early. Check the park's closing time before booking dinner - the restaurant stays open past close, but you will be walking out of an empty park."
+      ],
+      "verdict": "The best food at Animal Kingdom by a wide margin and genuinely good by non-park standards, but you are paying signature prices in a park that shuts at dinnertime. Book lunch, or eat at Nomad Lounge instead and spend the difference on the safari tour.",
+      "faqs": [
+        { "q": "Is Tiffins worth the price?", "a": "For food quality, yes - it is a real restaurant, not a themed cafeteria. For value, it is a hard sell in a park with the shortest operating day at Walt Disney World. A late lunch gets you most of the experience for less disruption to your day." },
+        { "q": "Can I get Tiffins food without a reservation?", "a": "Usually, at Nomad Lounge next door, which shares a kitchen and serves most of the Tiffins menu alongside its own smaller plates. Walk-ups at Nomad are possible, though you may wait." },
+        { "q": "Is Tiffins good for kids?", "a": "There is a children's menu and nobody will be rude to you, but the room is quiet, the pacing is slow and the food is aimed at adults. Families with young children generally have a better time at Tusker House." },
+        { "q": "Does Tiffins use two dining plan credits?", "a": "Yes, it is a signature restaurant on the dining plan. Whether that is good value depends entirely on how you order - it is only worth two credits if you take an appetizer and dessert." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "nomad-lounge",
+      "name": "Nomad Lounge",
+      "land": "discovery-island",
+      "service": "lounge",
+      "cuisine": "Global small plates and cocktails",
+      "priceTier": "$$$",
+      "priceNote": "Small plates roughly $14-26 and cocktails around $16-19 as of July 2026; two people can eat well for about $80 with drinks.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best bar at Walt Disney World: a shaded veranda over the water, serious cocktails, and access to most of the Tiffins kitchen.",
+      "description": [
+        "Nomad Lounge shares a building and a kitchen with Tiffins, and it is the better room. Inside it is dark wood, ceiling fans and travel ephemera; outside is a covered veranda with rattan chairs looking over the Discovery River toward Asia. The breeze off the water is real. On a park-wide bad-weather day this is where you want to be.",
+        "The drink program is the strongest in the park and one of the strongest on property - genuine cocktails made by bartenders who understand balance, alongside a wine and beer list that is not embarrassing. The food is small plates plus, in most cases, the full Tiffins menu if you ask.",
+        "The banner flags hanging from the ceiling were written by cast members and guests describing journeys that mattered to them. It is a quiet detail nobody points out and it makes the room feel like something other than a theme park bar."
+      ],
+      "signatureItems": [
+        "Bread service with house spreads",
+        "Braised beef short rib",
+        "Duck confit small plate",
+        "Signature cocktails",
+        "Seasonal cheese and charcuterie board"
+      ],
+      "goodFor": ["date-night", "solo", "air-conditioned-break", "splurge", "view"],
+      "tips": [
+        "Ask whether you can order from the Tiffins menu. You usually can, and it turns a lounge visit into a full dinner without a signature reservation.",
+        "The covered veranda seats are the best in the park - shade, a water view and a breeze. Ask for outside specifically; the host will default to inside.",
+        "Walk-ups work if you arrive before 5 PM or after the early-closing rush. A reservation is still the safer play on a busy day.",
+        "Repeat-visitor note: this is the single best place in Animal Kingdom to spend a rainstorm. The veranda is covered, the crowd thins, and the park empties out around you.",
+        "Order the bread service even if it sounds like a throwaway. It is a proper plate with multiple spreads and it is the best-value thing on the menu."
+      ],
+      "verdict": "The most enjoyable seat in Animal Kingdom, full stop. Better value than Tiffins, better atmosphere than anywhere else on property at this price, and it is the one place here worth lingering when the park is otherwise miserable.",
+      "faqs": [
+        { "q": "Do I need a reservation for Nomad Lounge?", "a": "Not strictly, but it fills through the afternoon. Walk-ups have a decent chance before 5 PM. If you want the covered veranda on a nice evening, book ahead and ask for outdoor seating when you arrive." },
+        { "q": "Can I order Tiffins food at Nomad Lounge?", "a": "In most cases, yes. The two share a kitchen and Nomad will generally serve the Tiffins menu on request, which is the best-known workaround for a fully booked signature restaurant." },
+        { "q": "Is Nomad Lounge good for families?", "a": "It works better than you would expect - it is a lounge, not a bar, and children are welcome. The pacing is relaxed and the outdoor seating gives restless kids something to look at." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "flame-tree-barbecue",
+      "name": "Flame Tree Barbecue",
+      "land": "discovery-island",
+      "service": "quick-service",
+      "cuisine": "American barbecue",
+      "priceTier": "$$",
+      "priceNote": "Platters roughly $14-24 as of July 2026; the ribs and chicken combo is the biggest plate and the best value.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Smoked ribs and pulled pork with the best outdoor seating at Walt Disney World - covered pavilions on the water, hidden behind the ordering windows.",
+      "description": [
+        "Flame Tree serves genuine smoked barbecue: pork ribs, pulled pork, half chicken, smoked turkey, and a few sandwiches, with sides that are better than the category demands. For a Disney quick service it is unusually honest food - the ribs have bark, the smoke is real, and the portions are large enough that two people can share the combo platter.",
+        "The seating is the actual attraction. Behind the ordering area, a series of covered pavilions steps down toward the Discovery River, each carved and painted in a predator-and-prey motif that repeats through the whole complex. The lowest pavilions have a direct view across the water to Expedition Everest, they catch the breeze, and almost nobody finds them because you have to walk past three closer options to get there.",
+        "There is no indoor air conditioning anywhere in this complex, which is the honest downside in July. Shade and a breeze are what you get."
+      ],
+      "signatureItems": [
+        "Ribs and chicken combo platter",
+        "Pulled pork sandwich",
+        "Smoked half chicken",
+        "Baked beans",
+        "Watermelon salad"
+      ],
+      "goodFor": ["families", "big-appetites", "budget", "groups", "view"],
+      "tips": [
+        "Walk all the way down to the lower pavilions by the water. Most guests stop at the first covered area they see and eat next to the queue.",
+        "The ribs and chicken combo feeds two adults who are not starving, or one adult who is. Splitting it is the cheapest good meal in the park.",
+        "Mobile order well before you are hungry. The kitchen backs up hard between noon and 1:30 PM and the pickup window is a scrum.",
+        "Repeat-visitor note: look at the carvings in the pavilions. Each shelter follows a specific predator-and-prey pairing carried through the woodwork, the ironwork and the paint. It is the most detailed theming attached to any quick service at Walt Disney World and there is no sign anywhere telling you it exists.",
+        "No air conditioning. If someone in your group needs to get out of the heat, eat here and then go sit in the Tree of Life Theater queue."
+      ],
+      "verdict": "The best quick-service value at Animal Kingdom and the best barbecue on Disney property that is not a specialty restaurant. Its only real flaw is that there is no indoor seating, which in a Florida August is not a small flaw.",
+      "faqs": [
+        { "q": "Is Flame Tree Barbecue worth it?", "a": "Yes. It is real smoked barbecue at quick-service prices with the best outdoor seating in the park, and the combo platter split between two people is the cheapest satisfying meal at Animal Kingdom." },
+        { "q": "Is there air conditioning at Flame Tree?", "a": "No. All seating is outdoors under covered pavilions. They are well shaded and catch the breeze off the water, but on a 95-degree afternoon this is still an outdoor meal." },
+        { "q": "Where is the best seating?", "a": "The lowest pavilions closest to the Discovery River, which look across at Expedition Everest. Most guests never walk that far and eat within thirty feet of the ordering window instead." },
+        { "q": "Can I mobile order at Flame Tree?", "a": "Yes, and you should. Between noon and 1:30 PM the walk-up line is long and the pickup area is chaotic. Order an hour ahead and choose your arrival window." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "satuli-canteen",
+      "name": "Satu'li Canteen",
+      "land": "pandora",
+      "service": "quick-service",
+      "cuisine": "Build-your-own bowls with global flavors",
+      "priceTier": "$$",
+      "priceNote": "Bowls roughly $14-18 and the cheeseburger steamed pods around $13 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best quick-service restaurant at Walt Disney World: build-your-own bowls with real vegetables, in an air-conditioned room dressed as a repurposed mess hall.",
+      "description": [
+        "Satu'li Canteen serves bowls. You choose a protein - chargrilled beef, wood-grilled chicken, sustainable fish, or a chili-spiced tofu or vegetable option - then a base of quinoa and vegetable salad, rice and beans, or noodles, then a sauce. The result is a genuinely balanced plate with crunch and acidity, which is close to unheard of in a theme park.",
+        "There is also a cheeseburger served inside steamed bao-style pods, which is the item children order and adults regret not ordering, and a dessert of blueberry cream cheese mousse in a cube shape that has been on the menu since opening for good reason.",
+        "The room is themed as a former RDA mess hall taken over by the Pandora Conservation Initiative, with Na'vi artwork on the walls and light fixtures made from repurposed equipment. It is indoors, it is air-conditioned, and it holds a lot of people - which in this park matters enormously."
+      ],
+      "signatureItems": [
+        "Chargrilled beef bowl",
+        "Cheeseburger steamed pods",
+        "Chili-spiced fried tofu bowl",
+        "Blueberry cream cheese mousse",
+        "Wood-grilled chicken bowl"
+      ],
+      "goodFor": ["families", "vegetarian", "quick-bite", "air-conditioned-break", "picky-eaters"],
+      "tips": [
+        "Mobile order before you get in the Flight of Passage line, not after. The lunch rush here runs from about 11:30 AM to 2 PM and the pickup window backs up badly.",
+        "The quinoa and vegetable base is the one that makes the bowl work. Rice and beans is fine; the quinoa base has the acid and crunch that everything else is built around.",
+        "Vegan and gluten-free guests can eat a genuinely good meal here, not a consolation plate. The tofu bowl on the quinoa base is one of the best plant-based options in any park.",
+        "Repeat-visitor note: the seating wraps around behind the ordering area into rooms most people never find. If the front dining room looks full, keep walking - there are quieter tables at the back with a view out into Pandora.",
+        "The cheeseburger pods are a shareable appetizer for two, not a meal for one. Order them alongside a bowl rather than instead of one."
+      ],
+      "verdict": "The best quick service at Walt Disney World and it is not close. Real vegetables, real balance, genuine vegan and gluten-free options, and air conditioning in the hottest land of the hottest park.",
+      "faqs": [
+        { "q": "What should I order at Satu'li Canteen?", "a": "A chargrilled beef bowl on the quinoa and vegetable base, plus cheeseburger steamed pods to share. That is the standard recommendation for a reason - the acid and crunch in the quinoa base is what makes the bowls work." },
+        { "q": "Is Satu'li Canteen good for vegans?", "a": "Genuinely, yes. The chili-spiced fried tofu and the vegetable options are built as real dishes rather than substitutions, and multiple bases and sauces are plant-based. It is one of the best vegan quick-service meals on Disney property." },
+        { "q": "Can I mobile order?", "a": "Yes, and you should. The restaurant is small relative to Pandora's crowds and the midday walk-up line is unpleasant. Order at least thirty minutes before you want to eat." },
+        { "q": "Is there air conditioning?", "a": "Yes, throughout the indoor dining rooms, and there is more seating behind the front room than most guests realize. There is also outdoor seating with a view into the valley if you prefer the heat." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pongu-pongu",
+      "name": "Pongu Pongu",
+      "land": "pandora",
+      "service": "snack-cart",
+      "cuisine": "Specialty drinks and snacks",
+      "priceTier": "$",
+      "priceNote": "Specialty drinks roughly $7-8 non-alcoholic and $12-15 with alcohol as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": ["vegetarian", "vegan"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A walk-up drink window in Pandora serving the Night Blossom, the park's most photographed drink and one of its few genuinely good ones.",
+      "description": [
+        "Pongu Pongu is a tiny window run by a fictional human expat who stayed on Pandora, with a queue that spills into the walkway and a hand-lettered aesthetic that rewards reading the signage. It sells four or five things and one of them is the reason the line exists.",
+        "The Night Blossom is a frozen layered drink - apple and limeade slushes with a limeade foam and passion fruit boba - served with a glowing something-or-other on top depending on the day. It is non-alcoholic, it is genuinely refreshing rather than just colorful, and it is vegan. The pineapple cream cheese lumpia is the food item and it is also good.",
+        "The alcoholic options include a beer served with a blue foam topping, which photographs better than it drinks. Manage expectations accordingly."
+      ],
+      "signatureItems": [
+        "Night Blossom",
+        "Pineapple cream cheese lumpia",
+        "Frozen specialty cocktails",
+        "Beer with foam topping"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "vegetarian"],
+      "tips": [
+        "Order the Night Blossom, not the beer. The blue-foam beer is a photograph; the Night Blossom is a drink.",
+        "There is no mobile ordering and the window is small. The line is shortest in the first hour and after dark once the dinner crowd disperses.",
+        "The lumpia is hot, greasy and excellent, and it is the only real food here. Do not plan a meal around this window.",
+        "Repeat-visitor note: ask for the Night Blossom without the foam if you actually want to taste the fruit layers. The foam is the photogenic part and it flattens everything under it.",
+        "Drink it in the valley after dark rather than walking with it. The bioluminescence and a cold drink is the whole point of Pandora at night."
+      ],
+      "verdict": "Worth the line for the Night Blossom, which is one of the few Disney specialty drinks that is genuinely refreshing rather than just brightly colored. Everything else here is optional.",
+      "faqs": [
+        { "q": "What is the Night Blossom?", "a": "A layered frozen non-alcoholic drink of apple and limeade slush with a limeade foam and passion fruit boba. It is vegan, it is the most photographed item in Pandora, and unlike most novelty park drinks it actually tastes good." },
+        { "q": "Is there alcohol at Pongu Pongu?", "a": "Yes, several frozen cocktails and a beer served with a blue foam topping. The beer is the more famous item and the less satisfying one." },
+        { "q": "Can I mobile order at Pongu Pongu?", "a": "No. It is a walk-up window only, and the line is at its longest through the evening. Go in the first hour of the day or late at night." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}
