@@ -151,7 +151,8 @@ export function parkHub (park, data) {
       site,
       page: {
         url: park.url,
-        title: `${park.name}: rides, heights, food & a real plan`,
+        title: `${park.name} guide`,
+        titleTail: ': rides, heights & food',
         description: C.truncate(park.summary, 155),
         trail: park.breadcrumbTrail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -266,7 +267,8 @@ export function ridesPage (park, data) {
       site,
       page: {
         url: urls.rides(park),
-        title: `All ${open.length} ${park.shortName || park.name} rides & attractions`,
+        title: `${park.shortLabel} rides & attractions`,
+        titleTail: `: all ${open.length}`,
         description: `The complete ${park.name} attraction list with height requirements, intensity, scare factor, and Lightning Lane status for every ride, show, and experience.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -406,8 +408,11 @@ export function attractionPage (attraction, data) {
       site,
       page: {
         url: attraction.url,
-        title: `${attraction.name}: height, scare factor & tips`,
-        description: C.truncate(`${attraction.summary} ${attraction.heightIn ? `Minimum height ${attraction.heightIn} inches.` : 'No height requirement.'}`, 155),
+        // The park must appear in the title: Space Mountain, Haunted Mansion, Pirates and a dozen
+        // others exist at both resorts, and undifferentiated titles cannibalise each other.
+        title: `${attraction.name} (${park.shortLabel})`,
+        titleTail: attraction.heightIn ? ': height & scares' : ': is it scary?',
+        description: C.truncate(`${attraction.summary} ${attraction.heightIn ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `No height requirement at ${park.name}.`}`, 155),
         trail,
         modified: `${attraction.lastVerified || '2026-07'}-01`,
         ogType: 'article',
@@ -491,8 +496,8 @@ export function landPage (land, data) {
       site,
       page: {
         url: land.url,
-        title: `${land.name} at ${park.shortName || park.name}`,
-        description: C.truncate(land.summary, 155),
+        title: `${land.name} at ${park.shortLabel}`,
+        description: C.truncate(`${land.summary} ${open.length} attractions and ${land.dining.length} places to eat.`, 155),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -626,7 +631,8 @@ export function heightsPage (park, data) {
       site,
       page: {
         url: urls.heights(park),
-        title: `${park.shortName || park.name} height requirements (2026)`,
+        title: `${park.shortLabel} height requirements`,
+        titleTail: ' (2026)',
         description: `All ${park.heightAttractions.length} ${park.name} rides with a minimum height, plus exactly what a child can ride at each height band. Verified July 2026.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -744,7 +750,8 @@ export function accessibilityPage (park, data) {
       site,
       page: {
         url: urls.accessibility(park),
-        title: `${park.shortName || park.name} accessibility guide`,
+        title: `${park.shortLabel} accessibility guide`,
+        titleTail: '',
         description: `Wheelchair and ECV rentals, ride transfer requirements, quiet spaces, and sensory notes for ${park.name}. Written for planning, not for reassurance.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -856,7 +863,8 @@ export function firstTimerPage (park, data) {
       site,
       page: {
         url: urls.firstTimer(park),
-        title: `${park.shortName || park.name} first-timer guide`,
+        title: `${park.shortLabel} first-timer guide`,
+        titleTail: ': a plan that works',
         description: `A hour-by-hour first-visit plan for ${park.name}: what to book, what order to ride, where to eat, and the rookie mistakes that cost you two hours.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -955,7 +963,8 @@ export function mapPage (park, data) {
       site,
       page: {
         url: urls.map(park),
-        title: `${park.shortName || park.name} map (printable)`,
+        title: `${park.shortLabel} map`,
+        titleTail: ' (printable & offline)',
         description: `A clean, printable schematic map of ${park.name} showing every land and its headliner attractions. Works offline once you have opened it.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,

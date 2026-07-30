@@ -128,6 +128,9 @@ function index (data) {
   for (const park of parks) {
     park.resortInfo = data.resortBySlug.get(park.resort) || null
     park.url = urls.park(park)
+    // A compact label for titles and table cells. Attraction names repeat across resorts
+    // (Space Mountain, Haunted Mansion, Pirates), so titles must disambiguate by park.
+    park.shortLabel = (park.shortName || park.name).replace(/^Disney's\s+/, '').replace(/^Disney\s+/, '')
 
     park.landBySlug = new Map((park.lands || []).map((l) => [l.slug, l]))
     park.attractionBySlug = new Map(park.attractions.map((a) => [a.slug, a]))

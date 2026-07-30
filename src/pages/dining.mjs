@@ -35,7 +35,7 @@ export function diningHub (park, data) {
         { label: 'Quick service', value: String((byService['quick-service'] || []).length) },
         { label: 'Tracked snacks', value: String(park.food.length) },
       ],
-      actions: [{ href: urls.snacks(park), label: `Best snacks at ${park.shortName || park.name}`, primary: true }],
+      actions: [{ href: urls.snacks(park), label: `Best snacks at ${park.shortLabel}`, primary: true }],
     })}
 
     ${C.section({
@@ -83,7 +83,7 @@ export function diningHub (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.snacks(park), label: `Best snacks at ${park.shortName || park.name}`, summary: 'Ranked, priced, trackable' },
+      { href: urls.snacks(park), label: `Best snacks at ${park.shortLabel}`, summary: 'Ranked, priced, trackable' },
       { href: urls.foodTracker(), label: 'Food Tracker', summary: 'Build a list that saves offline' },
       { href: urls.guide('mobile-order-and-dining'), label: 'Mobile order & reservations', summary: 'How to actually get a table' },
       { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'We settle it' },
@@ -96,7 +96,8 @@ export function diningHub (park, data) {
       site,
       page: {
         url: urls.dining(park),
-        title: `${park.shortName || park.name} dining: every restaurant, honestly`,
+        title: `${park.shortLabel} dining`,
+        titleTail: ': every restaurant, honestly',
         description: `All ${park.dining.length} places to eat at ${park.name}, with service style, price tier, reservation advice, and a candid verdict on each.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
@@ -182,7 +183,7 @@ export function restaurantPage (restaurant, data) {
             }) : ''}
             ${restaurant.landInfo ? C.linkGrid([
               { href: restaurant.landInfo.url, label: `More in ${restaurant.landInfo.name}` },
-              { href: urls.dining(park), label: `All ${park.shortName || park.name} dining` },
+              { href: urls.dining(park), label: `All ${park.shortLabel} dining` },
               { href: urls.snacks(park), label: 'Best snacks in this park' },
             ], { columns: 1 }) : ''}
           </div>
@@ -200,7 +201,7 @@ export function restaurantPage (restaurant, data) {
     ${C.faqSection(restaurant.faqs, { title: `${restaurant.name}: common questions` })}
 
     ${C.relatedLinks([
-      { href: urls.dining(park), label: `All ${park.shortName || park.name} dining`, summary: 'Every option, compared' },
+      { href: urls.dining(park), label: `All ${park.shortLabel} dining`, summary: 'Every option, compared' },
       { href: urls.foodTracker(), label: 'Food Tracker', summary: 'Plan what you will eat' },
       { href: urls.guide('mobile-order-and-dining'), label: 'Reservations & mobile order', summary: 'How to get a table' },
       { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'The verdict' },
@@ -213,7 +214,8 @@ export function restaurantPage (restaurant, data) {
       site,
       page: {
         url: restaurant.url,
-        title: `${restaurant.name} (${park.shortName || park.name}): worth it?`,
+        title: `${restaurant.name} (${park.shortLabel})`,
+        titleTail: ': is it worth it?',
         description: C.truncate(`${restaurant.summary} ${restaurant.verdict || ''}`, 155),
         trail,
         modified: `${restaurant.lastVerified || '2026-07'}-01`,
@@ -318,7 +320,7 @@ export function snacksPage (park, data) {
 
     ${C.relatedLinks([
       { href: urls.foodTracker(), label: 'Food Tracker', summary: 'All six parks in one list' },
-      { href: urls.dining(park), label: `${park.shortName || park.name} dining`, summary: 'Restaurants, not snacks' },
+      { href: urls.dining(park), label: `${park.shortLabel} dining`, summary: 'Restaurants, not snacks' },
       { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'Where this park lands' },
       { href: urls.map(park), label: 'Park map', summary: 'Find these on the ground' },
     ])}
@@ -330,7 +332,8 @@ export function snacksPage (park, data) {
       site,
       page: {
         url: urls.snacks(park),
-        title: `Best snacks at ${park.shortName || park.name} (with prices)`,
+        title: `Best snacks at ${park.shortLabel}`,
+        titleTail: ' (with 2026 prices)',
         description: `${items.length} snacks at ${park.name} with checked prices and honest verdicts — including the ones we think are overrated. Track what you want to try.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,

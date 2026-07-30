@@ -110,6 +110,7 @@ export function foodTrackerPage (data) {
 
     ${C.section({
       title: 'How this works, and what it does with your data',
+      hide: 'checklist',
       children: html`
         <div class="split split--even">
           <div class="prose">
@@ -136,9 +137,11 @@ export function foodTrackerPage (data) {
       `,
     })}
 
-    ${C.relatedLinks(parks.slice(0, 4).map((p) => ({
-      href: urls.snacks(p), label: `Best snacks at ${p.shortName || p.name}`, summary: `${p.food.length} items, ranked`,
-    })), { title: 'Park by park' })}
+    <div data-checklist-hide>
+      ${C.relatedLinks(parks.slice(0, 4).map((p) => ({
+        href: urls.snacks(p), label: `Best snacks at ${p.shortLabel}`, summary: `${p.food.length} items, ranked`,
+      })), { title: 'Park by park' })}
+    </div>
 
     <script type="application/json" id="food-order">${raw(JSON.stringify(order))}</script>
   `
@@ -149,7 +152,8 @@ export function foodTrackerPage (data) {
       site,
       page: {
         url: urls.foodTracker(),
-        title: 'Disney Food Tracker — all six parks',
+        title: 'Disney Food Tracker',
+        titleTail: ' — all six US parks',
         description: `Track ${total} Disney park snacks across all six US parks. Saves to your device, shares as a link, prints as a checklist, and works offline in the park.`,
         trail,
         modified: '2026-07-01',
@@ -255,7 +259,7 @@ export function heightCheckerPage (data) {
             .sort((a, b) => a.heightIn - b.heightIn || a.park.name.localeCompare(b.park.name))
             .map((a) => [
               a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
-              html`<a href="${a.park.url}">${a.park.shortName || a.park.name}</a>`,
+              html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
               html`<span data-value="${a.heightIn}">${a.heightIn}"</span>`,
               html`<span data-value="${Math.round(a.heightIn * 2.54)}">${Math.round(a.heightIn * 2.54)}</span>`,
               f.attractionType(a.type),
@@ -307,7 +311,8 @@ export function heightCheckerPage (data) {
       site,
       page: {
         url: urls.heightChecker(),
-        title: 'Disney height checker: what can my kid ride?',
+        title: 'Disney height checker',
+        titleTail: ': what can my kid ride?',
         description: 'Set one slider to your child’s height and see every ride they can and cannot do at all six US Disney parks — including the ones they miss by an inch.',
         trail,
         modified: '2026-07-01',

@@ -151,7 +151,8 @@ export function homePage (data) {
       site,
       page: {
         url: '/',
-        title: 'Height requirements, honest ride reviews & food tracking',
+        title: 'Honest guides to the six US Disney parks',
+        titleTail: '',
         description: site.meta.defaultDescription,
         modified: '2026-07-01',
       },
@@ -287,7 +288,7 @@ export function resortPages (data) {
               .sort((a, b) => a.heightIn - b.heightIn || a.name.localeCompare(b.name))
               .map((a) => [
                 a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
-                html`<a href="${a.park.url}">${a.park.shortName || a.park.name}</a>`,
+                html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
                 html`<span data-value="${a.heightIn}">${a.heightIn}" · ${Math.round(a.heightIn * 2.54)}cm</span>`,
                 f.attractionType(a.type),
               ]),
@@ -328,7 +329,8 @@ export function resortPages (data) {
         site,
         page: {
           url: urls.resort(resort.slug),
-          title: `${resort.name}: an honest planning guide`,
+          title: `${resort.name} planning guide`,
+          titleTail: ': honest and unofficial',
           description: C.truncate(resort.summary, 155),
           trail,
           modified: '2026-07-01',

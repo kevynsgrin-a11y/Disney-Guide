@@ -56,9 +56,9 @@ export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', a
   `
 }
 
-export function section ({ id, title, kicker, intro, children, tone = '', wide = false }) {
+export function section ({ id, title, kicker, intro, children, tone = '', wide = false, hide }) {
   return html`
-    <section class="band ${tone ? `band--${tone}` : ''}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}>
+    <section class="band ${tone ? `band--${tone}` : ''}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}${hide === 'checklist' ? raw(' data-checklist-hide') : raw('')}>
       <div class="shell ${wide ? 'shell--wide' : ''}">
         ${title ? html`
           <header class="band__head">
@@ -338,7 +338,7 @@ export function diningCard (restaurant) {
  */
 export function foodCard (item, { tracker = false, showPark = false } = {}) {
   return html`
-    <article class="food-card" data-food-id="${item.id}" data-park="${item.parkSlug || ''}" data-category="${item.category}" data-price="${item.price ?? ''}" data-musttry="${item.mustTry || 0}" data-diet="${(item.dietaryTags || []).join(' ')}">
+    <article class="food-card" id="${item.id}" data-food-id="${item.id}" data-park="${item.parkSlug || ''}" data-category="${item.category}" data-price="${item.price ?? ''}" data-musttry="${item.mustTry || 0}" data-diet="${(item.dietaryTags || []).join(' ')}">
       <div class="food-card__head">
         <div>
           <h3 class="food-card__name">${item.name}</h3>

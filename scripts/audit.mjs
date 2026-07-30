@@ -50,7 +50,12 @@ const titles = new Map()
 const descriptions = new Map()
 let totalLinks = 0
 
-const pick = (html, re) => { const m = html.match(re); return m ? m[1] : null }
+/** Entities inflate a length check five-fold — measure what a search engine would render. */
+const decode = (s) => String(s)
+  .replace(/&#(\d+);/g, (_m, n) => String.fromCharCode(Number(n)))
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+
+const pick = (html, re) => { const m = html.match(re); return m ? decode(m[1]) : null }
 
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8')

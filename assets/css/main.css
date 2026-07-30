@@ -129,6 +129,10 @@
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; }
 
+/* Components below set explicit display values, which would otherwise beat the UA rule for
+   [hidden]. Filtering in the food tracker and the map controls both depend on this. */
+[hidden] { display: none !important; }
+
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;

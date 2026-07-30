@@ -70,8 +70,10 @@ export function website (site) {
 
 export function breadcrumbs (site, trail) {
   if (!trail || trail.length < 2) return null
+  const url = trail[trail.length - 1].href
   return {
     '@type': 'BreadcrumbList',
+    '@id': abs(site, url) + '#breadcrumb',
     itemListElement: trail.map((crumb, i) => ({
       '@type': 'ListItem',
       position: i + 1,
@@ -91,7 +93,7 @@ export function webPage (site, { url, title, description, trail, modified }) {
     isPartOf: { '@id': abs(site, '/#website') },
     inLanguage: site.brand.locale,
     dateModified: modified,
-    breadcrumb: trail && trail.length > 1 ? { '@type': 'BreadcrumbList' } : undefined,
+    breadcrumb: trail && trail.length > 1 ? { '@id': abs(site, url) + '#breadcrumb' } : undefined,
   }
 }
 

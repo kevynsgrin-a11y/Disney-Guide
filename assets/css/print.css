@@ -102,6 +102,15 @@ details { display: block !important; }
 
 /* ---------- Food Tracker checklist ------------------------------------- */
 
+/* In checklist mode the page is a thing you carry, not a thing you read. */
+body.print-checklist .hero__lede,
+body.print-checklist .hero__eyebrow,
+body.print-checklist .band__intro,
+body.print-checklist .kicker,
+body.print-checklist [data-checklist-hide] { display: none !important; }
+body.print-checklist .hero { padding-bottom: 2mm; }
+body.print-checklist .band { padding-block: 2mm; }
+
 body.print-checklist .food-grid { display: block; column-count: 2; column-gap: 8mm; }
 body.print-checklist .food-card {
   break-inside: avoid; border: 0 !important; border-bottom: .5pt dotted #999 !important;

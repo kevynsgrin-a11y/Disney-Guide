@@ -11,10 +11,24 @@ const v = (path) => `${path}?v=${ASSET_VERSION}`
  */
 const THEME_BOOTSTRAP = `try{var t=localStorage.getItem('rrg-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}`
 
+/**
+ * Compose the <title> to fit.
+ *
+ * Attraction names run from "Dumbo" to "Under the Sea ~ Journey of the Little Mermaid", so a fixed
+ * template either wastes the pixel budget or blows past it. `page.title` is the part that must
+ * always survive; `page.titleTail` is the keyword descriptor and the brand suffix is the least
+ * important — each is appended only while it still fits inside roughly what Google renders.
+ */
+function composeTitle (site, page) {
+  let out = page.title || site.brand.name
+  if (page.titleTail && (out + page.titleTail).length <= 60) out += page.titleTail
+  const suffix = ` | ${site.meta.defaultTitleSuffix}`
+  if ((out + suffix).length <= 66) out += suffix
+  return out
+}
+
 function metaTags (site, page) {
-  const title = page.title
-    ? `${page.title} | ${site.meta.defaultTitleSuffix}`
-    : site.meta.defaultTitleSuffix
+  const title = composeTitle(site, page)
   const description = truncate(page.description || site.meta.defaultDescription, 300)
   const canonical = `${site.brand.origin}${page.url}`
   return html`
