@@ -221,6 +221,9 @@ without `_redirects` support, port the legacy path rules from `src/build.mjs` to
 
 ### Before going live
 
+`docs/LAUNCH.md` has the full plan — blockers, deploy steps, what to build next, and the decision
+points that should change the plan. The short version:
+
 1. Register the domain and update `data/site.json → brand.domain` and `brand.origin`. Every canonical
    URL, `og:url`, sitemap entry, and JSON-LD `@id` derives from that one value.
 2. Have an IP attorney review `/privacy/`, `/terms/`, `/affiliate-disclosure/`, and the image policy.
