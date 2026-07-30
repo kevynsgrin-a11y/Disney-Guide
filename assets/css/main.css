@@ -806,7 +806,9 @@ main:focus { outline: none; }
 
 .map-legend { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); font-size: .84rem; color: var(--muted); }
 .map-legend span { display: inline-flex; align-items: center; gap: .4rem; }
-.map-legend i { width: .75rem; height: .75rem; border-radius: 50%; display: inline-block; }
+/* Swatches are inline SVG rather than CSS backgrounds so they survive printing, where
+   background colours are stripped but SVG fill attributes are not. */
+.map-legend svg { flex: 0 0 auto; stroke-width: 2; }
 
 .map-attribution { font-size: .78rem; color: var(--muted); margin-top: var(--space-3); }
 

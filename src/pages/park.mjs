@@ -921,10 +921,17 @@ export function mapPage (park, data) {
               ${rendered ? rendered.svg : html`<p class="muted">Map coming soon for this park.</p>`}
             </div>
             <div class="map-legend" aria-hidden="true">
-              <span><i style="background:var(--accent)"></i> Headliner attraction</span>
-              <span><i style="background:var(--surface);border:2px solid var(--ink)"></i> Other attraction</span>
-              <span><i style="background:var(--brand-2)"></i> Notable food</span>
-              <span><i style="background:var(--brand)"></i> Entrance</span>
+              ${[
+                ['var(--accent)', 'var(--accent)', 'Headliner attraction'],
+                ['var(--surface)', 'var(--ink)', 'Other attraction'],
+                ['var(--brand-2)', 'var(--brand-2)', 'Notable food'],
+                ['var(--brand)', 'var(--brand)', 'Entrance'],
+              ].map(([fill, stroke, label]) => html`
+                <span>
+                  <svg viewBox="0 0 12 12" width="12" height="12" focusable="false"><circle cx="6" cy="6" r="5" fill="${fill}" stroke="${stroke}" stroke-width="2"/></svg>
+                  ${label}
+                </span>
+              `)}
             </div>
             <div class="mt-4" data-print-hide>
               <button class="btn btn--ghost btn--small" type="button" data-map-zoom="in">Zoom in</button>
