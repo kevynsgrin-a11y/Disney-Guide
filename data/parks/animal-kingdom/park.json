@@ -1,0 +1,370 @@
+{
+  "slug": "animal-kingdom",
+  "name": "Disney's Animal Kingdom",
+  "shortName": "Animal Kingdom",
+  "resort": "walt-disney-world",
+  "resortName": "Walt Disney World",
+  "opened": "1998-04-22",
+  "sizeAcres": 580,
+  "location": "Bay Lake, Florida",
+  "coordinates": { "lat": 28.3553, "lng": -81.5901 },
+
+  "tagline": "A working zoo with a Disney budget - and the shortest, hottest day at Walt Disney World.",
+  "summary": "Disney's Animal Kingdom is an accredited zoological park wrapped around a handful of world-class rides, with more live animals than any other theme park on earth and the shortest operating day at Walt Disney World.",
+  "intro": [
+    "Animal Kingdom is the odd one out at Walt Disney World, and that is its entire value. It is a genuine zoological institution - accredited by the Association of Zoos and Aquariums, employing veterinarians and animal-care staff, funding conservation work in the field - that happens to also operate a 200-foot roller coaster and the best flight simulator Disney has ever built. Everything good about a day here follows from taking the zoo half seriously.",
+    "At 580 acres it is the largest theme park in the world by a wide margin, though a great deal of that is savanna habitat and backstage animal facilities rather than places you can walk. The layout is a hub and spoke: you enter through the Oasis, cross to Discovery Island and the Tree of Life at the center, and radiate out to Pandora, Africa, Asia and DinoLand U.S.A. There is no loop. You will cross the middle repeatedly, and the middle is where the shade is.",
+    "The headliners are real. Avatar Flight of Passage is the best ride at Walt Disney World and has been since 2017. Expedition Everest is the most completely realized roller coaster Disney has built. Kilimanjaro Safaris crosses 110 acres of open savanna holding elephants, lions, rhinos and giraffes in habitats bigger than most zoos possess outright. Festival of the Lion King is the best stage show on property. That is a strong four for a park people still describe as a half-day.",
+    "It is also the hottest park and the shortest day. There is no nighttime spectacular, closing times frequently land in the late afternoon or early evening, and the walkways in Pandora and Asia offer almost no shade between 11 AM and 4 PM. A first-time visitor who plans an Animal Kingdom day like a Magic Kingdom day will be miserable by 2 PM. A visitor who front-loads the animals in the cool morning hours, hides indoors at midday and comes back for Pandora after dark will have the best day of their trip.",
+    "One structural change is worth knowing before you arrive: DinoLand U.S.A. is going away. DINOSAUR and Restaurantosaurus both closed permanently on February 2, 2026, and the area is being rebuilt as Tropical Americas, which Disney says will open in 2027 with an Encanto ride-through, an Indiana Jones adventure and a village called Pueblo Esperanza. Until then, that quarter of the park is a construction wall with a theater and a playground behind it."
+  ],
+
+  "bestFor": [
+    "Anyone who genuinely likes animals",
+    "Thrill riders who want the resort's best simulator and best coaster",
+    "Photographers",
+    "Half-day visitors and park hoppers",
+    "Families with kids over 44 inches"
+  ],
+  "notIdealFor": [
+    "Guests who need a full 12-hour park day",
+    "Anyone who wilts in heat",
+    "Toddlers looking for rides they can actually go on",
+    "People expecting a nighttime fireworks show"
+  ],
+
+  "stats": {
+    "attractionCount": 39,
+    "ridesWithHeightRequirements": 3,
+    "tallestRequirement": 44,
+    "typicalFullDayHours": "7-9 hours",
+    "minimumDaysRecommended": 1
+  },
+
+  "lands": [
+    {
+      "slug": "discovery-island",
+      "name": "Discovery Island",
+      "order": 1,
+      "opened": 1998,
+      "summary": "The park's hub, built around the 145-foot Tree of Life, holding the best food and the only routes to everywhere else.",
+      "description": [
+        "Discovery Island is the crossroads. Every path from every land runs through it, the Tree of Life stands in the middle of it, and if you get turned around anywhere in this park the fix is to walk toward the tree. The architecture is a mix of hand-painted folk art, carved animal motifs and saturated color that reads as nowhere in particular by design.",
+        "It carries the park's dining. Tiffins and Nomad Lounge share a building on the Asia side and are the two best places to eat here by a distance. Flame Tree Barbecue hides the best outdoor seating at Walt Disney World behind its ordering windows - covered pavilions stepping down to the water with a view across at Expedition Everest. Pizzafari has mediocre food and the largest block of air-conditioned seats on the island, which is its own kind of value.",
+        "Around the base of the tree run the Discovery Island Trails, short animal paths with otters, lemurs and a tortoise that the overwhelming majority of guests walk past on their way to Pandora. They have no queue, no showtime and no capacity limit. They are also, at 1 PM in July, some of the only shade on this side of the park."
+      ],
+      "vibe": "A carved, painted crossroads under a 145-foot tree, with more shade and better food than anyone expects.",
+      "anchorAttraction": "tree-of-life",
+      "highlights": [
+        "The Tree of Life and its 300-plus animal carvings",
+        "The 4D theater built into the tree's root system",
+        "Flame Tree Barbecue's hidden waterfront pavilions",
+        "Nomad Lounge's covered veranda - the best seat in the park",
+        "Wilderness Explorers headquarters near the Oasis bridge"
+      ],
+      "eatHere": ["flame-tree-barbecue", "tiffins-restaurant", "nomad-lounge", "pizzafari"],
+      "tips": [
+        "Walk the Discovery Island Trails at least once. Twenty minutes, no queue, otters underwater, and almost nobody on them.",
+        "The lower Flame Tree pavilions by the water are the coolest outdoor seating in the park and require walking past three closer options to find.",
+        "Photograph the Tree of Life from the Asia bridge in late afternoon with the sun behind you. Morning shots of the west face are backlit and flat."
+      ]
+    },
+    {
+      "slug": "pandora",
+      "name": "Pandora - The World of Avatar",
+      "order": 2,
+      "opened": 2017,
+      "summary": "Eleven floating mountains, the best ride at Walt Disney World, and bioluminescent paint that only exists after dark.",
+      "description": [
+        "Pandora opened in 2017 and reset expectations for what a Disney land could be. Floating mountains hang over the walkways on hidden supports - the tallest around 130 feet - with vines and waterfalls dropping from their undersides. The planting mixes real tropical species with sculpted alien ones, and the paths are laid out so each view is hidden until you are standing in it.",
+        "The critical thing nobody tells first-timers: half of this land does not exist in daylight. The bioluminescent paint on the paths, rocks and plant sculptures is invisible in the sun and remarkable after dark. Guests who see Pandora at 10 AM and never return have seen maybe sixty percent of what was built here, and the sixty percent they saw was the hot part.",
+        "Avatar Flight of Passage is the headliner and the longest line in the park, running an hour or more from mid-morning until the final hour of the night. Na'vi River Journey is the gentle counterpart: four and a half minutes of glowing forest ending at the most sophisticated audio-animatronic figure Disney has ever built in Florida. Satu'li Canteen, meanwhile, is quietly the best quick-service restaurant at Walt Disney World.",
+        "The honest warning is heat. Pandora has almost no shade between 11 AM and 4 PM, the walkways funnel crowds into narrow points, and the Flight of Passage standby queue spends a stretch outdoors. This is the hottest land in the hottest park."
+      ],
+      "vibe": "Floating rock and dense alien planting by day, glowing paint and drum tones after dark - two different lands on one plot.",
+      "anchorAttraction": "avatar-flight-of-passage",
+      "highlights": [
+        "Avatar Flight of Passage, the best ride at Walt Disney World",
+        "The Shaman of Songs animatronic on Na'vi River Journey",
+        "Bioluminescent walkways after dark",
+        "Satu'li Canteen, the resort's best quick service",
+        "The Night Blossom at Pongu Pongu"
+      ],
+      "eatHere": ["satuli-canteen", "pongu-pongu"],
+      "tips": [
+        "Come back after dark. This is not a preference - the land is designed to be seen twice and most guests only see it once.",
+        "Rope drop Flight of Passage or ride it in the final hour. Between those windows the wait rarely drops below an hour.",
+        "The drums near the Na'vi River Journey side respond to rhythm and the surrounding plants answer them. Play a pattern rather than hitting one drum and walking off."
+      ]
+    },
+    {
+      "slug": "africa",
+      "name": "Africa",
+      "order": 3,
+      "opened": 1998,
+      "summary": "The port town of Harambe, a 110-acre savanna full of real animals, and the best stage show at Walt Disney World.",
+      "description": [
+        "Harambe is the finest piece of place-making at Animal Kingdom and one of the best anywhere in the resort. It is built as a working East African coastal town on the edge of a wildlife reserve, right down to the layered paint, the peeling stucco, the hand-lettered advertisements and the deliberately mismatched signage. Cast members are briefed on which pieces of set dressing are real objects sourced in Kenya and Tanzania and which were made in Florida. Ask them.",
+        "Kilimanjaro Safaris runs from here across 110 acres of savanna holding elephants, white and black rhinos, giraffes, lions, cheetahs, hippos, crocodiles, wild dogs and more, separated from the road by hidden moats rather than visible fences. It is the largest animal habitat of its kind attached to a theme park anywhere on earth, and how good your ride is depends almost entirely on what time you take it. Behind the town, Gorilla Falls Exploration Trail holds two gorilla troops, an underwater hippo window and a walk-through aviary, with no queue at any hour.",
+        "Festival of the Lion King plays in the purpose-built Harambe Theatre - thirty minutes of acrobats, aerialists, fire batons and live vocals in the round, in air conditioning, and the single best show at Walt Disney World. The Wildlife Express Train departs from a station behind the safari for Rafiki's Planet Watch, and it is the only way to get there."
+      ],
+      "vibe": "A sun-bleached port town with drums in the square and a savanna full of real animals ten steps behind it.",
+      "anchorAttraction": "kilimanjaro-safaris",
+      "highlights": [
+        "Kilimanjaro Safaris across 110 acres of open savanna",
+        "Festival of the Lion King in the Harambe Theatre",
+        "Gorilla Falls Exploration Trail and its underwater hippo window",
+        "Harambe's street performers and drum troupes",
+        "Tusker House, the park's character meal"
+      ],
+      "eatHere": ["tusker-house-restaurant", "harambe-market", "tamu-tamu-refreshments", "dawa-bar"],
+      "tips": [
+        "Ride the safari in the first ninety minutes of the day or the last ninety minutes of daylight. Midday animal activity in Florida heat is a fraction of what it is in the cool hours.",
+        "Ask your safari driver which elephant is youngest and how the herd is structured. Drivers are briefed on animal news daily and that question unlocks the good version of the narration.",
+        "Tamu Tamu is the only Walt Disney World park location that serves Dole Whip with rum, and the shaded courtyard behind the counter almost always has an open table."
+      ]
+    },
+    {
+      "slug": "rafikis-planet-watch",
+      "name": "Rafiki's Planet Watch",
+      "order": 4,
+      "opened": 1998,
+      "summary": "A train ride out to the park's working animal-care complex, with a window into the veterinary treatment room and no crowds at all.",
+      "description": [
+        "Rafiki's Planet Watch is the part of Animal Kingdom that most guests never see, and it is the part that most clearly explains what the park is. It is reachable only by the Wildlife Express Train from Harambe - no walking path, no bus - and the train route runs deliberately behind the scenes, past the barns and holding yards where elephants, rhinos and savanna animals are housed and cared for overnight.",
+        "At the far end, Conservation Station is the on-site animal health complex with a glass wall looking into the veterinary treatment room. When a procedure is scheduled you watch it happen with a cast member narrating. When one is not, you watch an empty room. There is no schedule, because medicine does not run on showtimes, and that gamble is the honest proposition. Alongside it are animal cams pointed at habitats across the park, a nutrition kitchen window, cast members circulating with animal ambassadors, and The Animation Experience, a free 25-minute drawing class taught by a Disney artist.",
+        "Outside, Affection Section is a genuine petting yard with goats and sheep and brushes children can actually use - the only hands-on animal contact in the park. Habitat Habit!, the short connector path, holds critically endangered cotton-top tamarins that almost everyone walks under without seeing.",
+        "The operational catch matters: the train stops running well before the park closes, sometimes by an hour or more. Go at midday and treat the whole loop as your heat break, or do not go at all."
+      ],
+      "vibe": "Air conditioning, animal cams and a veterinary window, ninety minutes away from every queue in the park.",
+      "anchorAttraction": "conservation-station",
+      "highlights": [
+        "The veterinary treatment room viewing window",
+        "The Animation Experience, a free drawing class",
+        "Affection Section, the park's only petting yard",
+        "The backstage animal barns visible from the train",
+        "Cotton-top tamarins on Habitat Habit!"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Check the last train time in the app before you commit. There is no other way back and guests do get caught out.",
+        "Ride the train out mid-morning if you want backstage activity - keepers are moving animals to the savanna and cleaning yards, and by 3 PM there is far less to see.",
+        "Look at the animal cam wall before you leave. If the gorillas or tigers are visible on the cams, walk their trails as soon as you are back."
+      ]
+    },
+    {
+      "slug": "asia",
+      "name": "Asia",
+      "order": 5,
+      "opened": 1999,
+      "summary": "The village of Anandapur, a 200-foot Himalayan coaster, a river rapids ride and the best-themed animal trail in the park.",
+      "description": [
+        "Asia is set in the fictional kingdom of Anandapur, and it is the most textually dense land in the resort. Prayer flags, hand-painted signs in invented and real scripts, layered mural work, deliberately crumbling stonework, litter and repair that look accumulated rather than placed. Reading the walls here is a legitimate activity.",
+        "Expedition Everest rises 200 feet over the village. Its queue runs through a Nepalese booking office and a two-room museum of yeti evidence filled with genuine artifacts sourced in Nepal, and the ride itself has an 80-foot drop, a long backwards section in the dark and no inversions. The single rider line is the most underused time save in the park. Kali River Rapids is next door, five minutes long, one real drop, and a soaking that ranges from damp to complete.",
+        "Maharajah Jungle Trek runs behind the village through a ruined palace with Sumatran tigers, Komodo dragons, giant flying foxes and one of the best walk-through aviaries anywhere. It has no queue and no capacity limit, and it is where guests who skip animal trails miss the most. The Caravan Stage nearby hosts Feathered Friends in Flight!, twenty-five minutes of free-flying birds passing low over the audience, and it is the most consistently under-attended good show at Walt Disney World."
+      ],
+      "vibe": "Prayer flags and peeling murals under a fake mountain, with tigers behind the buildings and a coaster on top.",
+      "anchorAttraction": "expedition-everest",
+      "highlights": [
+        "Expedition Everest and its yeti museum queue",
+        "Maharajah Jungle Trek's tigers and walk-through aviary",
+        "Kali River Rapids and the water cannons on the exit bridge",
+        "Feathered Friends in Flight! at the Caravan Stage",
+        "Yak and Yeti's fried wontons"
+      ],
+      "eatHere": ["yak-and-yeti-restaurant", "yak-and-yeti-local-food-cafes", "thirsty-river-bar-and-trek-snacks", "royal-anandapur-tea-company"],
+      "tips": [
+        "Use the Expedition Everest single rider line. It routinely turns a 60-minute posted wait into 15 and almost nobody at this park thinks to look for it.",
+        "Ride Kali River Rapids between 1 PM and 4 PM. Being soaked is a benefit in the afternoon and a misery at 9 AM.",
+        "After you ride Kali, walk up onto the exit bridge and use the guest-operated water cannons on the next raft. They are free and roughly ninety percent of guests never notice them."
+      ]
+    },
+    {
+      "slug": "dinoland",
+      "name": "DinoLand U.S.A.",
+      "order": 6,
+      "opened": 1998,
+      "summary": "A shrinking corner of the park being rebuilt as Tropical Americas, with a puppet show, a playground and a spinner left standing.",
+      "description": [
+        "DinoLand U.S.A. is on its way out. DINOSAUR, the park's dark ride since opening day, took its last riders on February 2, 2026, and Restaurantosaurus closed the same day. Primeval Whirl had already gone in 2020. What remains open is Theater in the Wild, where Finding Nemo: The Big Blue... and Beyond! plays; The Boneyard, still the best playground at Walt Disney World; and TriceraTop Spin, a hub spinner with a shorter line than its Magic Kingdom equivalent.",
+        "Replacing it is Tropical Americas, which Disney has said will open in 2027 - the only future date anywhere on this park's construction slate with official backing behind it. The announced components are an Encanto ride-through built around the Madrigal casita, an Indiana Jones adventure using the same enhanced motion vehicle system as Disneyland's Indiana Jones Adventure, a carousel, and a village setting called Pueblo Esperanza tying it together.",
+        "In the meantime this quarter is the least rewarding walk in the park. Construction walls, no dining at all now that Restaurantosaurus is gone, and a route to the Nemo theater that used to be interesting and currently is not. Plan food before you come over, not after.",
+        "The original DinoLand was a deliberate joke - a roadside tourist trap built by fictional graduate students next to a serious paleontology institute, with carnival games and a spinning coaster that were supposed to look cheap. Plenty of guests never got the joke, which is part of why it is being replaced."
+      ],
+      "vibe": "A construction wall with a great playground and a great puppet show hiding behind it.",
+      "anchorAttraction": "finding-nemo-the-big-blue-and-beyond",
+      "highlights": [
+        "Finding Nemo: The Big Blue... and Beyond! and its Michael Curry puppets",
+        "The Boneyard playground and its mammoth dig pit",
+        "TriceraTop Spin, a Dumbo-style spinner with no wait",
+        "Tropical Americas taking shape behind the walls for 2027"
+      ],
+      "eatHere": [],
+      "tips": [
+        "There is no dining left in DinoLand. Eat before you walk over, or plan a ten-minute walk back to Discovery Island.",
+        "Theater in the Wild almost never fills. Arriving ten minutes before the Nemo show is plenty - do not treat it like Festival of the Lion King.",
+        "The Boneyard is shaded through most of the afternoon, which makes it the best place to park young children while the rest of your group rides Expedition Everest."
+      ]
+    }
+  ],
+
+  "firstTimer": {
+    "intro": [
+      "Animal Kingdom rewards a different plan than the other three Walt Disney World parks, and the reason is temperature. This is the hottest park on property, the one with the least shade on its main walkways, and the one with the shortest operating day. Everything worth doing outdoors - the safari, the animal trails, the walk through Pandora - is dramatically better before 11 AM and after 4 PM. Everything in the middle of the day should happen indoors if you can arrange it.",
+      "The second thing to understand is that the animal attractions have no queues. Gorilla Falls Exploration Trail, Maharajah Jungle Trek, the Discovery Island Trails and Conservation Station all have zero wait at any hour, which means guests who plan by wait time skip them entirely and then complain that this is a half-day park. It is a half-day park if you only ride the rides. It is a full and genuinely different day if you do not.",
+      "Third: this park has exactly three height requirements and two of them are 44 inches. If your child is under 44 inches, Avatar Flight of Passage and Expedition Everest are both out, and your day should be built around Kilimanjaro Safaris, Na'vi River Journey, the animal trails, the shows and The Boneyard - all of which are excellent and none of which measure anybody."
+    ],
+    "beforeYouGo": [
+      { "title": "Check the closing time before anything else", "body": "Animal Kingdom frequently closes in the late afternoon or early evening, far earlier than the other parks. This single number determines whether you get Pandora after dark, whether Rafiki's Planet Watch is worth the trip, and whether an evening dining reservation makes sense. Check it when you book and again the week of your trip." },
+      { "title": "Decide about Lightning Lane Single Pass for Flight of Passage", "body": "Avatar Flight of Passage is the park's only Lightning Lane Single Pass attraction, sold à la carte at roughly $12-25 per person as of July 2026 depending on date. It is the biggest single time sink in the park. If you cannot rope drop it, this is the one Single Pass at Walt Disney World that reliably pays for itself." },
+      { "title": "Use the test seat if anyone might not fit", "body": "Flight of Passage requires a padded back clamp to close and lock while you straddle a bike-style seat. Tall, broad-chested or larger guests are occasionally unable to ride. A test seat sits outside the entrance and it is the same hardware - check it before spending ninety minutes in line, not after." },
+      { "title": "Pack for heat, not for weather", "body": "Two things matter here more than at any other park: a real refillable water bottle and a hat. Free ice water is available at every quick-service counter, which makes a bottle the single biggest money saver inside the gates. Sunscreen at 8 AM and again at noon, not once at 8 AM." },
+      { "title": "Book Tusker House or Tiffins early if you want them", "body": "The park has only three table-service restaurants and two of them are worth planning around. Tusker House is the character meal and books out furthest ahead; Tiffins is the fine dining and is easier to get at lunch than dinner. Yak and Yeti frequently has same-day availability when nothing else does." },
+      { "title": "Bring or plan a bag strategy for Kali River Rapids", "body": "Kali soaks people properly, and water comes over the raft wall as well as from above. Lockers sit at the entrance. A spare pair of socks in the locker is the difference between a wet ten minutes and a wet ten hours." },
+      { "title": "Download the app and turn on mobile ordering", "body": "Satu'li Canteen, Flame Tree Barbecue and Harambe Market all back up badly between noon and 1:30 PM. Mobile ordering an hour ahead is the single most effective piece of planning at this park after rope drop." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "Be at the turnstiles thirty minutes before official opening. Walk - do not run - straight through the Oasis to Pandora and ride Avatar Flight of Passage in standby. The queue is worth seeing once and at this hour it is 20-40 minutes rather than 90." },
+      { "time": "Right after Flight of Passage", "body": "Stay in Pandora and ride Na'vi River Journey while the wait is still short. It is four and a half minutes long and it will cost you an hour if you leave it until midday." },
+      { "time": "About 9:30 AM", "body": "Cross to Africa and ride Kilimanjaro Safaris. Animal activity in the first ninety minutes is dramatically better than anything you will see at 1 PM, and no Lightning Lane can fix that. Ask for the back two rows." },
+      { "time": "About 10:30 AM", "body": "Walk Gorilla Falls Exploration Trail directly from the safari exit. No queue, both gorilla troops are still active, and the underwater hippo window is a genuine break from the sun." },
+      { "time": "About 11:15 AM", "body": "Head to Asia and ride Expedition Everest, using the single rider line unless it is your first ride - in which case do standby once for the yeti museum queue." },
+      { "time": "Late morning", "body": "Walk Maharajah Jungle Trek while the tigers are still moving. Pick up the free bird identification card at the aviary and actually use it; it turns a two-minute walk into a good fifteen." },
+      { "time": "Just before noon", "body": "Mobile order lunch now for a pickup window around 12:30. Satu'li Canteen if you want the best food, Flame Tree Barbecue if you want the best seats and the best value." }
+    ],
+    "middayPlan": [
+      { "time": "12:30 PM", "body": "Eat. If you chose Flame Tree, walk all the way down to the lower waterfront pavilions rather than sitting at the first covered table you see - they are shaded, breezy and looking across at Expedition Everest." },
+      { "time": "1:15 PM", "body": "Get indoors and stay there. Festival of the Lion King is the best use of a hot hour anywhere at Walt Disney World: thirty minutes of acrobats, aerialists and live vocals in air conditioning. Arrive twenty-five minutes before showtime for center seating." },
+      { "time": "2:15 PM", "body": "Ride Kali River Rapids. This is the correct time - being soaked at 2 PM is a benefit and being soaked at 9 AM is a mistake. Lockers at the entrance, and use the water cannons on the exit bridge afterward." },
+      { "time": "3:00 PM", "body": "Take the Wildlife Express Train to Rafiki's Planet Watch. It is the quietest, coolest block of the park, the veterinary window is a genuine gamble worth taking, and The Animation Experience is a free drawing class in air conditioning. Confirm the last train time before you go." },
+      { "time": "4:30 PM", "body": "Back on Discovery Island, walk the Tree of Life and the Discovery Island Trails. The light is improving, the otters are waking up, and the trails are the shadiest thing left in your day." }
+    ],
+    "eveningPlan": [
+      { "time": "5:00 PM", "body": "See Finding Nemo: The Big Blue... and Beyond! at Theater in the Wild if the schedule allows, or Feathered Friends in Flight! at the Caravan Stage. Both rarely fill and neither needs more than ten minutes of arrival buffer." },
+      { "time": "Late afternoon", "body": "Ride Kilimanjaro Safaris a second time if the park is open past dusk. The savanna in the last ninety minutes of daylight is a completely different attraction from the one you rode this morning, and several species become active as the temperature drops." },
+      { "time": "Blue hour", "body": "Walk into Pandora about twenty minutes after sunset. That is when the sky still has color, the land lighting is up, and the floating mountains photograph properly from the bridge on the approach from Discovery Island." },
+      { "time": "After dark", "body": "Spend real time in the Valley of Mo'ara. The bioluminescent paint on paths and rockwork only exists now, the drums respond to rhythm, and the land is functionally a second attraction most guests never experience." },
+      { "time": "Final 45 minutes", "body": "Ride Na'vi River Journey or Flight of Passage again. Waits collapse at the end of the night here more reliably than at any other Walt Disney World park because there is no nighttime spectacular holding people in place." },
+      { "time": "On the way out", "body": "Slow down through the Oasis. It is the quietest place inside the turnstiles, the animals are active at dusk, and there are two parallel routes - take the one you did not take this morning." }
+    ],
+    "rookieMistakes": [
+      "Treating this as a half-day park because the ride count is low. The animal trails, shows and Conservation Station have no queues, which is exactly why wait-time planning misses them.",
+      "Doing Kilimanjaro Safaris at 1 PM. The animals are in shade, the elephants are two hundred yards out, and you will conclude the safari is overrated when the problem was your timing.",
+      "Skipping Pandora after dark. Half the land's design is invisible in daylight, and a huge number of guests leave without ever seeing it.",
+      "Riding Kali River Rapids first thing in the morning and then spending eleven hours in wet shoes.",
+      "Arriving at Rafiki's Planet Watch late in the day and finding the train has stopped running. It closes earlier than the park, sometimes by more than an hour.",
+      "Assuming Expedition Everest has no single rider line because this park has no other one. It does, and it is the biggest time save available here.",
+      "Planning dinner in the park without checking the closing time. Animal Kingdom regularly shuts before other parks are halfway through their evening.",
+      "Booking Tusker House breakfast because everyone says to. Lunch and dinner at the same restaurant have a substantially better spread for marginally more money."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Rope drop Avatar Flight of Passage in standby, then ride Na'vi River Journey immediately after.",
+      "Ride Kilimanjaro Safaris before 10:30 AM and ask for the back two rows.",
+      "Walk Gorilla Falls Exploration Trail straight off the safari exit while the gorillas are active.",
+      "Ride Expedition Everest, standby the first time for the yeti museum queue and single rider thereafter.",
+      "Walk Maharajah Jungle Trek before noon, and take the free bird card at the aviary.",
+      "Eat lunch at Satu'li Canteen or Flame Tree Barbecue, ordered on your phone at least thirty minutes ahead.",
+      "See Festival of the Lion King in the middle of the afternoon, arriving twenty-five minutes early.",
+      "Ride Kali River Rapids at peak heat, then use the water cannons on the exit bridge.",
+      "Take the Wildlife Express Train to Conservation Station in the mid-afternoon, checking the last train time first.",
+      "Return to Pandora twenty minutes after sunset and stay until the park closes."
+    ]
+  },
+
+  "accessibility": {
+    "intro": [
+      "Animal Kingdom is the most walkable Disney park in one sense and the hardest in another. Nearly everything is paved, step-free and wide, and the animal trails, shows and transportation are all designed for wheelchair and ECV access without transfer. But the park is enormous, the grades are real - Pandora in particular climbs - and the heat is a mobility issue in its own right for anyone whose stamina is limited.",
+      "Only three attractions require a full transfer out of a wheelchair: Avatar Flight of Passage, Expedition Everest and Kali River Rapids. Kilimanjaro Safaris and the Wildlife Express Train both board wheelchairs directly on dedicated vehicles, and every walking trail is step-free end to end. The single biggest accessibility factor here is not any individual ride - it is shade, distance and whether you have planned indoor breaks.",
+      "Service animals are permitted in most of the park but not on or near live animal attractions, which is a larger restriction here than at any other Walt Disney World park. Kilimanjaro Safaris, the animal trails' contact areas, the bird show and the theater in the Tree of Life all exclude them, and kennel facilities are available."
+    ],
+    "wheelchairRental": { "available": true, "location": "Garden Gate Gifts, just inside the main entrance on the right", "priceNote": "Manual wheelchairs rent for roughly $12-15 per day as of July 2026, with a length-of-stay rate available across parks.", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Garden Gate Gifts, just inside the main entrance", "priceNote": "ECVs run roughly $65-70 per day plus a refundable deposit as of July 2026. They sell out on busy mornings; third-party rentals delivered to your resort avoid that risk.", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Garden Gate Gifts, just inside the main entrance", "priceNote": "Single strollers roughly $18 per day and doubles roughly $31 per day as of July 2026, with multi-day rates lower per day.", "lastVerified": "2026-07" },
+    "companionRestrooms": [
+      "Just inside the main entrance near Garden Gate Gifts",
+      "Discovery Island, near the bridge toward Africa",
+      "Africa, in Harambe near the Tusker House entrance",
+      "Asia, near the Kali River Rapids exit",
+      "Rafiki's Planet Watch, inside Conservation Station",
+      "Pandora, adjacent to Satu'li Canteen"
+    ],
+    "quietSpaces": [
+      { "name": "The Oasis benches", "where": "Along either of the two parallel entry paths, just inside the turnstiles", "note": "The quietest place inside the park. Dense planting, moving water, real shade from late morning, and almost nobody stops here after the opening rush passes." },
+      { "name": "Discovery Island Trails, west spur", "where": "Behind the Tree of Life on the Flame Tree Barbecue side", "note": "Shaded from about 1 PM with benches that go unused. Low noise, no music piped in at high volume, and animals to look at while decompressing." },
+      { "name": "Conservation Station", "where": "Rafiki's Planet Watch, via the Wildlife Express Train", "note": "The calmest indoor space in the park - air-conditioned, wide, uncrowded, and staffed by people who are not in a hurry. Getting there takes a train ride, which is itself a low-stimulation twenty minutes." },
+      { "name": "Nomad Lounge veranda", "where": "Discovery Island, attached to Tiffins", "note": "Covered outdoor seating over the water with a breeze and no ride noise. It costs the price of a drink, and it is the best reset available to adults in this park." },
+      { "name": "Rivers of Light amphitheater walkway", "where": "The Discovery River path between Asia and DinoLand U.S.A.", "note": "Built for a show that no longer runs, so the seating sits empty. Shade, a water breeze and very little foot traffic outside peak transit times." }
+    ],
+    "serviceAnimalRelief": [
+      "Behind the Garden Gate Gifts building near the main entrance",
+      "Discovery Island, near the walkway toward Asia",
+      "Africa, on the path between Harambe and the Wildlife Express station",
+      "Asia, near the Expedition Everest exit"
+    ],
+    "sensoryNotes": [
+      "The Tree of Life Theater is the park's biggest sensory hazard: total blackout, high volume, air blasts, water mist and mechanisms built into the seat backs and bottoms that physically touch you. The wheelchair rows have no in-seat effects, which is the only way to opt out.",
+      "Festival of the Lion King is genuinely loud - heavy drums, brass and amplified live vocals in an enclosed theater. Ear defenders make it accessible for most noise-sensitive guests, and sitting higher in a section helps.",
+      "Expedition Everest includes an extended backwards section in complete darkness, which unsettles more riders than the drop does. Kali River Rapids has a forest-fire sequence with radiant heat, smoke smell and chainsaw sound effects.",
+      "Feathered Friends in Flight! sends large birds low and fast over the audience without much warning. Sitting further back and to the side keeps the flight paths above rather than beside you.",
+      "Rainforest Cafe at the entrance runs a simulated thunderstorm with lightning and loud animal sounds roughly every twenty minutes, and there is no quiet section that avoids it.",
+      "Pandora after dark is dim, crowded and narrow in places. It is beautiful and it is a difficult environment for anyone who needs clear sightlines and personal space."
+    ],
+    "mobilityNotes": [
+      "Only three attractions require a full transfer: Avatar Flight of Passage, Expedition Everest and Kali River Rapids. Flight of Passage additionally requires straddling a seat and leaning forward against a chest pad for four and a half minutes, which needs real core stability.",
+      "Kilimanjaro Safaris boards wheelchairs directly on a dedicated vehicle without transfer, but the ride is deliberately rough - simulated washouts and hard lateral jolts. Guests with back or neck conditions should sit toward the front or skip it.",
+      "Pandora has sustained inclines, particularly on the approach to Flight of Passage. Pushing a manual wheelchair up that stretch in the heat is genuinely hard work; an ECV is the better choice for a full day here.",
+      "The animal trails are all step-free but include narrow viewing bays at the otter window, the hippo blind and the gorilla overlooks where a wheelchair fills the space and passing is difficult. Going early avoids the congestion entirely.",
+      "The Wildlife Express Train boards level with a dedicated car, but strollers must be parked at the platform rather than carried aboard.",
+      "Distances here are the longest of any Walt Disney World park. The walk from Rafiki's Planet Watch back to Pandora is well over a mile in practice; plan seated breaks rather than assuming you can push through."
+    ],
+    "visionHearingNotes": [
+      "Handheld captioning is available for the Tree of Life Theater; assistive listening devices work at the theater, Festival of the Lion King, Finding Nemo: The Big Blue... and Beyond! and Feathered Friends in Flight!.",
+      "Sign language interpretation is offered at Festival of the Lion King, the Nemo show and Feathered Friends in Flight! on a published weekly rotation rather than at every performance - check the schedule at Guest Relations on arrival, not on the day you want it.",
+      "Audio description devices cover Kilimanjaro Safaris, Avatar Flight of Passage, Na'vi River Journey and the Tree of Life Theater, and are collected at Guest Relations just inside the main entrance.",
+      "The animal trails have no audio component at all, which makes them among the most accessible attractions in the resort for deaf and hard-of-hearing guests - signage carries everything, and keepers will happily write or type answers.",
+      "Kilimanjaro Safaris narration is live from the driver rather than recorded, so captioning is not available for it. Asking the driver to repeat something is normal and they will.",
+      "Pandora after dark is very dimly lit by design, which is a real navigation problem for low-vision guests. The paths are wide and even, but contrast between path and planting is deliberately minimal."
+    ]
+  },
+
+  "tips": [
+    { "title": "The animal trails are the park, not a consolation prize", "body": "Gorilla Falls Exploration Trail, Maharajah Jungle Trek and the Discovery Island Trails have no queue, no showtime and no capacity limit, which is precisely why guests planning by wait time skip all three. Between them they hold two gorilla troops, Sumatran tigers, an underwater hippo window, Komodo dragons and two walk-through aviaries. Doing them in the cool hours is the difference between a good day and a half day." },
+    { "title": "Everything animal is a morning or evening activity", "body": "Florida heat flattens animal activity from roughly 11 AM to 4 PM. The same safari that shows you rhinos crossing the road at 9 AM shows you distant shapes under trees at 1 PM. Build your outdoor animal viewing into the first two hours and the last two hours, and put your indoor shows and air conditioning in the middle." },
+    { "title": "Expedition Everest has a single rider line and nobody uses it", "body": "This is the only single rider queue at Animal Kingdom and guests do not expect one at this park, so it stays short. It typically converts a 60-minute posted wait into 10-15 minutes. Ride standby once for the yeti museum in the queue, then use single rider for every ride after that." },
+    { "title": "Pandora is two different lands and most people see one", "body": "The bioluminescent paint on paths, rocks and plant sculptures is invisible in daylight. If the park is open past sunset, coming back into Pandora twenty minutes after dark is the single highest-value thing you can do here, and it costs nothing but timing." },
+    { "title": "The park closes early and that changes everything", "body": "Animal Kingdom regularly closes hours before the other Walt Disney World parks and has no nighttime spectacular. That means two things: waits in the final hour collapse further here than anywhere else on property, and you should check the closing time before booking dinner, planning Pandora after dark, or heading to Rafiki's Planet Watch." },
+    { "title": "Free ice water is the biggest saving inside the gates", "body": "Every quick-service counter will hand you a cup of ice water at no charge. In the hottest park at Walt Disney World, with a family of four, that is a genuine double-digit daily saving over bottled water, and it works at every counter including the ones with no visible menu." },
+    { "title": "Ask cast members about the animals, not the rides", "body": "Keepers stand at the gorilla overlook, the meerkat mound, the aviaries and Conservation Station with no queue in front of them and time to talk. Animal Kingdom's cast is briefed daily on animal news. A specific question - which elephant is youngest, what is the troop structure right now - reliably produces the best five minutes of the day." },
+    { "title": "Wilderness Explorers is the best free thing at Walt Disney World", "body": "The badge game headquartered near the Oasis bridge covers more than thirty badges across every land, costs nothing, and is written by people who take the park's conservation mission seriously. It is aimed at kids six to twelve, adults play it without embarrassment, and the booklet carries over between trips." },
+    { "title": "DinoLand has no food at all now", "body": "Restaurantosaurus closed permanently on February 2, 2026, alongside DINOSAUR. There is no dining location left in DinoLand U.S.A. If you are heading to the Nemo show or The Boneyard, eat before you cross, or plan a ten-minute walk back to Discovery Island." },
+    { "title": "Rope drop Flight of Passage or buy the Single Pass, but pick one", "body": "Avatar Flight of Passage is the largest time sink at Animal Kingdom and it does not have a soft spot in the middle of the day. Either you are through the turnstiles thirty minutes before opening and walking straight to Pandora, or you are paying roughly $12-25 per person for Lightning Lane Single Pass, or you are riding in the last hour. Any other plan costs you ninety minutes." }
+  ],
+
+  "faqs": [
+    { "q": "How many days do you need at Animal Kingdom?", "a": "One full day covers everything comfortably if you include the animal trails and Rafiki's Planet Watch. People who describe it as a half-day park are counting rides only - there are just eight or so of those. Doing the zoo half properly turns it into a genuine full day, and it is still the park where a single day is most defensible." },
+    { "q": "What is the best time of day to visit Animal Kingdom?", "a": "Early morning and late afternoon, for the same reason: animal activity and heat. The first ninety minutes after opening are the best of the day for Kilimanjaro Safaris and every walking trail, and the last two hours give you the same animals plus Pandora after dark and collapsing ride waits." },
+    { "q": "What are the height requirements at Animal Kingdom?", "a": "Three attractions have them: Avatar Flight of Passage at 44 inches, Expedition Everest at 44 inches, and Kali River Rapids at 38 inches. That is the entire list. Measurement is taken with shoes on and hats off against a fixed stick, and borderline children receive a colored wristband so they are not re-measured all day." },
+    { "q": "Is Animal Kingdom good for toddlers?", "a": "Better than its reputation, with a caveat. There is only one ride a toddler can do without a height conversation - TriceraTop Spin - but Kilimanjaro Safaris, Na'vi River Journey, every animal trail, The Boneyard playground and all the shows have no height requirement at all. The real obstacle is heat, not eligibility." },
+    { "q": "Are the animals real?", "a": "Yes. Animal Kingdom is an accredited zoological institution with veterinarians, animal-care staff and field conservation programs, holding one of the largest living collections at any park in the world. Kilimanjaro Safaris contains a single animatronic figure near the end of the route; everything else you see is a live animal in a managed habitat." },
+    { "q": "Does Animal Kingdom have a nighttime show?", "a": "No regular one. Rivers of Light ran from 2017 to 2021 and never returned. Tree of Life Awakenings - short projection vignettes on the trunk, looping every ten minutes or so - is the closest thing, and it only happens on nights the park is open well past sunset." },
+    { "q": "What closed at Animal Kingdom in 2026?", "a": "DINOSAUR and Restaurantosaurus both closed permanently on February 2, 2026, to clear ground for Tropical Americas. That leaves DinoLand U.S.A. with the Finding Nemo show, The Boneyard playground and TriceraTop Spin, and no dining at all." },
+    { "q": "What is Tropical Americas and when does it open?", "a": "The land replacing DinoLand U.S.A. Disney has said it opens in 2027 - the only future date on this park with official backing. It will include an Encanto ride-through built around the Madrigal casita, an Indiana Jones adventure using the same ride system as Disneyland's Indiana Jones Adventure, a carousel, and a village called Pueblo Esperanza." },
+    { "q": "Is Avatar Flight of Passage worth the wait?", "a": "Yes, and it is the one ride at Walt Disney World where that answer is close to unanimous. It is the most physically convincing simulator Disney has built. Ride it at rope drop, in the last hour, or with Lightning Lane Single Pass - the middle of the day routinely runs 90 minutes or more." },
+    { "q": "Should I buy Lightning Lane at Animal Kingdom?", "a": "Multi Pass is a weaker buy here than at other parks because so many of the best attractions have no queue at all. Single Pass for Avatar Flight of Passage, at roughly $12-25 per person as of July 2026, is the exception and is genuinely worth it if you cannot rope drop. If you can rope drop, skip both and spend the money on an animal tour." },
+    { "q": "Where should I eat at Animal Kingdom?", "a": "Satu'li Canteen in Pandora is the best quick service at Walt Disney World. Flame Tree Barbecue is the best value and has the best outdoor seating in the resort. Nomad Lounge is the nicest place to sit in the park, and Tusker House is a character meal with genuinely good food rather than one you endure." },
+    { "q": "How hot does Animal Kingdom actually get?", "a": "Hotter than the other parks, and it feels worse because the main walkways in Pandora and Asia have almost no shade between 11 AM and 4 PM. Plan indoor blocks - Festival of the Lion King, the Tree of Life Theater, Conservation Station, Pizzafari's air conditioning - rather than assuming you will push through it." }
+  ],
+
+  "gettingThere": {
+    "parking": "Standard parking runs about $30 per day as of July 2026 and is included for Disney resort guests. The lot is large and flat with a tram to the entrance; the animal-themed lot sections are genuinely useful to photograph, since the tram queue at closing makes rows blur together. Preferred parking closer to the entrance costs more and saves perhaps five minutes.",
+    "transportation": [
+      "Disney bus service runs to Animal Kingdom from every Walt Disney World resort hotel and from the other three parks. There is no monorail, no boat and no Skyliner connection - buses are the only Disney transport option here.",
+      "Driving is straightforward from anywhere on property or from Orlando, and the entrance road is well signed off Osceola Parkway.",
+      "Rideshare drop-off is at a dedicated area near the bus loops, close enough to the entrance that it is a genuine option on a hot afternoon when you want to leave quickly.",
+      "Disney's Animal Kingdom Lodge is the closest resort but is not walkable - there is no pedestrian path, and the bus is the only route."
+    ],
+    "entranceNote": "Security screening sits before the turnstiles and moves faster here than at Magic Kingdom. Once inside, the Oasis splits into two parallel paths to Discovery Island; both take about the same time and pass different animal habitats. Rainforest Cafe has doors both inside and outside the turnstiles, which makes it the only park restaurant usable without a ticket."
+  },
+
+  "lastVerified": "2026-07"
+}

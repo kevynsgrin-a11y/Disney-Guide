@@ -141,6 +141,7 @@ body.print-checklist .park-group h2 {
 
 .parkmap-wrap { border: .5pt solid #999; padding: 0; break-inside: avoid; }
 .parkmap { width: 100%; max-height: 190mm; }
+.parkmap .ground { fill: #f4f4f4; stroke: #ccc; }
 .parkmap .land-shape { stroke: #fff; stroke-width: 2; }
 .parkmap .land-label { fill: #000; stroke: #fff; }
 .parkmap .marker text { fill: #000; stroke: #fff; }

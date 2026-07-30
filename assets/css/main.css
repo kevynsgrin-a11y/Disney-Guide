@@ -784,6 +784,7 @@ main:focus { outline: none; }
 }
 .parkmap { width: 100%; height: auto; display: block; touch-action: pan-y; }
 .parkmap text { stroke: none; }
+.parkmap .ground { fill: var(--surface-2); stroke: var(--line); stroke-width: 2; }
 .parkmap .land-shape { stroke: var(--surface); stroke-width: 3; transition: filter .15s ease; }
 .parkmap .land-label {
   font-family: var(--font-display); font-weight: 700; font-size: 15px;

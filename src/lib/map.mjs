@@ -35,6 +35,41 @@ function centroid (points) {
 }
 
 /**
+ * Convex hull (Andrew's monotone chain) over every land vertex, pushed outward from its centre.
+ *
+ * Land polygons are authored with gaps between them so each shape reads as distinct. Against a
+ * white page those gaps look like holes in the park; against a ground shape they read as the
+ * walkways and plazas they actually are. The hull is derived, not authored, so it stays correct
+ * whatever geometry a park supplies.
+ */
+function groundShape (lands, pad = 26) {
+  const pts = lands.flatMap((l) => l.points || [])
+  if (pts.length < 3) return null
+
+  const sorted = pts.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1])
+  const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+  const half = (input) => {
+    const out = []
+    for (const p of input) {
+      while (out.length >= 2 && cross(out[out.length - 2], out[out.length - 1], p) <= 0) out.pop()
+      out.push(p)
+    }
+    out.pop()
+    return out
+  }
+  const hull = [...half(sorted), ...half(sorted.slice().reverse())]
+  if (hull.length < 3) return null
+
+  const [cx, cy] = centroid(hull)
+  return hull.map(([x, y]) => {
+    const dx = x - cx
+    const dy = y - cy
+    const len = Math.hypot(dx, dy) || 1
+    return [x + (dx / len) * pad, y + (dy / len) * pad]
+  })
+}
+
+/**
  * Fallback geometry: a hub-and-spoke schematic derived from the park's declared land order.
  * Honest but generic — used only when a park has no authored map.json yet, and labelled as a
  * layout diagram rather than a map.
@@ -133,6 +168,11 @@ export function renderParkMap (park) {
          xmlns="http://www.w3.org/2000/svg">
       <title>${park.name} — schematic park map</title>
       <desc>${map.note || 'Schematic layout of each land and its major attractions. Not to scale.'}</desc>
+
+      ${(() => {
+        const ground = groundShape(lands)
+        return ground ? html`<polygon class="ground" points="${pointsAttr(ground)}"/>` : ''
+      })()}
 
       <g class="lands">
         ${lands.map((land, i) => html`

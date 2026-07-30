@@ -1,0 +1,89 @@
+{
+  "park": "magic-kingdom",
+  "viewBox": [0, 0, 1000, 900],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    {
+      "points": [[0, 900], [0, 876], [140, 868], [330, 872], [500, 866], [680, 872], [860, 868], [1000, 878], [1000, 900]]
+    }
+  ],
+  "paths": [
+    {
+      "points": [[500, 845], [500, 760], [500, 690], [500, 620], [500, 555]]
+    },
+    {
+      "points": [[500, 555], [500, 490], [505, 430], [520, 370], [540, 300]]
+    },
+    {
+      "points": [[470, 585], [415, 610], [350, 648], [285, 690]]
+    },
+    {
+      "points": [[545, 585], [625, 585], [700, 570], [790, 555]]
+    },
+    {
+      "points": [[285, 690], [235, 605], [205, 520], [212, 440], [242, 360], [285, 292], [365, 252], [440, 222]]
+    },
+    {
+      "points": [[560, 195], [660, 188], [745, 205], [790, 275], [802, 360], [820, 435]]
+    }
+  ],
+  "lands": [
+    {
+      "slug": "main-street-usa",
+      "label": "Main Street U.S.A.",
+      "points": [[430, 860], [572, 860], [572, 700], [600, 645], [606, 575], [572, 528], [502, 508], [432, 528], [398, 575], [404, 645], [432, 700]],
+      "labelAt": [500, 775]
+    },
+    {
+      "slug": "adventureland",
+      "label": "Adventureland",
+      "points": [[90, 640], [175, 655], [270, 640], [350, 600], [390, 640], [395, 720], [360, 790], [270, 830], [165, 820], [100, 750]],
+      "labelAt": [232, 726]
+    },
+    {
+      "slug": "frontierland",
+      "label": "Frontierland",
+      "points": [[80, 400], [155, 398], [270, 420], [335, 400], [352, 470], [340, 555], [280, 620], [170, 640], [70, 600], [58, 470]],
+      "labelAt": [186, 452]
+    },
+    {
+      "slug": "liberty-square",
+      "label": "Liberty Square",
+      "points": [[120, 300], [150, 210], [230, 165], [320, 190], [340, 270], [335, 360], [270, 405], [165, 385]],
+      "labelAt": [238, 312]
+    },
+    {
+      "slug": "fantasyland",
+      "label": "Fantasyland",
+      "points": [[365, 470], [355, 300], [390, 190], [470, 120], [580, 95], [700, 105], [800, 140], [845, 230], [840, 330], [790, 380], [700, 390], [640, 440], [610, 500], [470, 490]],
+      "labelAt": [516, 158]
+    },
+    {
+      "slug": "tomorrowland",
+      "label": "Tomorrowland",
+      "points": [[625, 545], [648, 462], [720, 415], [800, 395], [900, 420], [960, 500], [955, 620], [900, 710], [790, 760], [680, 700]],
+      "labelAt": [812, 630]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [500, 832] },
+    { "slug": "nighttime-fireworks", "kind": "headliner", "at": [500, 552] },
+    { "slug": "caseys-corner", "kind": "dining", "at": [458, 702] },
+    { "slug": "pirates-of-the-caribbean", "kind": "headliner", "at": [190, 742] },
+    { "slug": "jungle-cruise", "kind": "attraction", "at": [292, 692] },
+    { "slug": "aloha-isle", "kind": "dining", "at": [342, 662] },
+    { "slug": "big-thunder-mountain-railroad", "kind": "headliner", "at": [128, 502] },
+    { "slug": "tianas-bayou-adventure", "kind": "headliner", "at": [226, 562] },
+    { "slug": "pecos-bill-tall-tale-inn-and-cafe", "kind": "dining", "at": [284, 486] },
+    { "slug": "haunted-mansion", "kind": "headliner", "at": [176, 236] },
+    { "slug": "columbia-harbour-house", "kind": "dining", "at": [286, 352] },
+    { "slug": "its-a-small-world", "kind": "attraction", "at": [402, 402] },
+    { "slug": "peter-pans-flight", "kind": "attraction", "at": [432, 318] },
+    { "slug": "seven-dwarfs-mine-train", "kind": "headliner", "at": [566, 252] },
+    { "slug": "be-our-guest-restaurant", "kind": "dining", "at": [642, 178] },
+    { "slug": "dumbo-the-flying-elephant", "kind": "attraction", "at": [772, 252] },
+    { "slug": "tron-lightcycle-run", "kind": "headliner", "at": [822, 436] },
+    { "slug": "space-mountain", "kind": "headliner", "at": [862, 486] },
+    { "slug": "buzz-lightyears-space-ranger-spin", "kind": "attraction", "at": [722, 552] }
+  ]
+}
