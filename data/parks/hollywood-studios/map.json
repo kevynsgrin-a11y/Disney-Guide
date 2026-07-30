@@ -1,0 +1,221 @@
+{
+  "park": "hollywood-studios",
+  "viewBox": [0, 0, 1000, 900],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    {
+      "points": [
+        [305, 600],
+        [350, 612],
+        [368, 645],
+        [352, 682],
+        [305, 695],
+        [258, 682],
+        [242, 645],
+        [260, 612]
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "points": [
+        [500, 865],
+        [500, 780],
+        [502, 700],
+        [505, 632]
+      ]
+    },
+    {
+      "points": [
+        [520, 640],
+        [640, 668],
+        [760, 692],
+        [878, 702],
+        [938, 730]
+      ]
+    },
+    {
+      "points": [
+        [482, 634],
+        [398, 648],
+        [340, 702],
+        [276, 714],
+        [232, 658]
+      ]
+    },
+    {
+      "points": [
+        [232, 658],
+        [176, 604],
+        [136, 532],
+        [152, 452],
+        [192, 388],
+        [232, 318],
+        [220, 236]
+      ]
+    },
+    {
+      "points": [
+        [502, 596],
+        [500, 520],
+        [500, 438],
+        [498, 352]
+      ]
+    },
+    {
+      "points": [
+        [532, 424],
+        [630, 404],
+        [722, 386],
+        [802, 362]
+      ]
+    }
+  ],
+  "lands": [
+    {
+      "slug": "star-wars-galaxys-edge",
+      "label": "Star Wars: Galaxy's Edge",
+      "points": [
+        [60, 90],
+        [170, 55],
+        [290, 70],
+        [355, 140],
+        [368, 240],
+        [340, 330],
+        [275, 405],
+        [180, 425],
+        [95, 400],
+        [42, 330],
+        [30, 220]
+      ],
+      "labelAt": [196, 235]
+    },
+    {
+      "slug": "grand-avenue",
+      "label": "Grand Avenue",
+      "points": [
+        [55, 470],
+        [150, 448],
+        [200, 490],
+        [205, 560],
+        [195, 635],
+        [160, 695],
+        [95, 705],
+        [50, 660],
+        [38, 570]
+      ],
+      "labelAt": [118, 552]
+    },
+    {
+      "slug": "echo-lake",
+      "label": "Echo Lake",
+      "points": [
+        [240, 480],
+        [330, 470],
+        [388, 510],
+        [398, 600],
+        [392, 690],
+        [370, 760],
+        [310, 800],
+        [240, 790],
+        [205, 720],
+        [200, 620],
+        [212, 540]
+      ],
+      "labelAt": [298, 748]
+    },
+    {
+      "slug": "animation-courtyard",
+      "label": "Animation Courtyard",
+      "points": [
+        [400, 300],
+        [470, 255],
+        [560, 248],
+        [618, 300],
+        [628, 390],
+        [610, 470],
+        [545, 528],
+        [460, 532],
+        [405, 480],
+        [388, 395]
+      ],
+      "labelAt": [502, 372]
+    },
+    {
+      "slug": "toy-story-land",
+      "label": "Toy Story Land",
+      "points": [
+        [680, 230],
+        [790, 200],
+        [895, 215],
+        [958, 275],
+        [968, 370],
+        [935, 460],
+        [860, 520],
+        [760, 528],
+        [680, 480],
+        [650, 390],
+        [652, 300]
+      ],
+      "labelAt": [795, 368]
+    },
+    {
+      "slug": "hollywood-boulevard",
+      "label": "Hollywood Boulevard",
+      "points": [
+        [425, 885],
+        [575, 885],
+        [578, 805],
+        [588, 725],
+        [612, 662],
+        [600, 605],
+        [520, 580],
+        [440, 592],
+        [408, 655],
+        [402, 735],
+        [410, 815]
+      ],
+      "labelAt": [492, 782]
+    },
+    {
+      "slug": "sunset-boulevard",
+      "label": "Sunset Boulevard",
+      "points": [
+        [648, 648],
+        [760, 618],
+        [872, 620],
+        [952, 662],
+        [976, 748],
+        [948, 832],
+        [862, 882],
+        [730, 884],
+        [652, 846],
+        [618, 762],
+        [622, 692]
+      ],
+      "labelAt": [790, 752]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [500, 862] },
+    { "slug": "mickey-and-minnies-runaway-railway", "kind": "headliner", "at": [512, 625] },
+    { "slug": "the-hollywood-brown-derby", "kind": "dining", "at": [455, 690] },
+    { "slug": "the-twilight-zone-tower-of-terror", "kind": "headliner", "at": [905, 700] },
+    { "slug": "rock-n-roller-coaster-starring-the-muppets", "kind": "headliner", "at": [910, 800] },
+    { "slug": "fantasmic", "kind": "headliner", "at": [788, 845] },
+    { "slug": "beauty-and-the-beast-live-on-stage", "kind": "attraction", "at": [700, 700] },
+    { "slug": "star-tours-the-adventures-continue", "kind": "attraction", "at": [355, 555] },
+    { "slug": "indiana-jones-epic-stunt-spectacular", "kind": "attraction", "at": [250, 530] },
+    { "slug": "50s-prime-time-cafe", "kind": "dining", "at": [252, 722] },
+    { "slug": "baseline-tap-house", "kind": "dining", "at": [118, 642] },
+    { "slug": "star-wars-rise-of-the-resistance", "kind": "headliner", "at": [120, 165] },
+    { "slug": "millennium-falcon-smugglers-run", "kind": "headliner", "at": [255, 275] },
+    { "slug": "savis-workshop-handbuilt-lightsabers", "kind": "attraction", "at": [300, 170] },
+    { "slug": "ogas-cantina", "kind": "dining", "at": [172, 342] },
+    { "slug": "walt-disney-presents", "kind": "attraction", "at": [468, 336] },
+    { "slug": "slinky-dog-dash", "kind": "headliner", "at": [750, 265] },
+    { "slug": "toy-story-midway-mania", "kind": "headliner", "at": [688, 425] },
+    { "slug": "alien-swirling-saucers", "kind": "attraction", "at": [903, 315] },
+    { "slug": "woodys-lunch-box", "kind": "dining", "at": [875, 455] }
+  ]
+}

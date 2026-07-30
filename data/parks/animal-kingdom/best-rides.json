@@ -1,0 +1,250 @@
+{
+  "park": "animal-kingdom",
+  "criteria": "Ranked on what the experience actually delivers once you are inside it: quality of the animal viewing, ride engineering, staging, and how much of the park's stated purpose it carries. Wait times, Lightning Lane tier and ticket add-on cost were deliberately excluded from the ordering, and trails and theater shows were included because at this park they are the main event, not filler.",
+  "intro": [
+    "Animal Kingdom has four rides most people would call major and about thirty other things worth doing, which makes a straight ride ranking the wrong shape for the park. Rank only the attractions with a track and a restraint and you end up with a four-item list that misrepresents the day. So this list mixes ride systems, stage shows and walking trails, and defends each placement on the same terms: what did the twenty minutes give you that nothing else at Walt Disney World does.",
+    "Two things shape the order more than anything else. The first is that the animal exhibits here are genuinely world-class zoo work rather than set dressing, so the good ones outrank mediocre rides on merit. The second is that the park's peak-hour heat is punishing enough that shade, seating and air conditioning are part of the experience, not a footnote. A show that runs thirty minutes in a covered theater at 1 PM is doing more for your day than a five-minute outdoor spinner, and the ranking reflects that.",
+    "One structural caveat: DinoLand U.S.A. is mid-demolition. DINOSAUR is gone permanently, Primeval Whirl went years ago, and the Tropical Americas rebuild with its Indiana Jones and Encanto attractions is not due until 2027. That quarter of the park currently contributes one stage show, one playground and one spinner to this list, and nothing else."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "avatar-flight-of-passage",
+      "headline": "The best ride at Walt Disney World, and the gap between it and second place is not small.",
+      "why": [
+        "The trick is the seat. You straddle a motorcycle-shaped rig, a back brace clamps down against your spine, and from that moment the ride is delivering force to your body rather than just images to your eyes. The banshee breathes underneath you, the brace pulses in time, and the screen is close enough and bright enough that the peripheral cheating other simulators rely on never becomes visible. Nothing else in Florida sells motion this convincingly.",
+        "It also holds up on repeat. Soarin' is a slideshow you have memorized after two rides; Flight of Passage has enough happening at the edges of the frame, and enough physical variation in the pitch and roll, that the tenth ride still registers as flying. The Individual Lightning Lane price is real money and the standby line is the longest in the park most days, but neither is why it is ranked first. It is ranked first because the ride is better engineered than anything else on property."
+      ],
+      "skipIf": "Skip it if you are prone to motion sickness with wide-field 3D, or if the chest brace on a stiff-backed rig sounds like a problem for your back."
+    },
+    {
+      "rank": 2,
+      "slug": "kilimanjaro-safaris",
+      "headline": "Twenty minutes across 110 acres of real savanna. No other theme park attraction is remotely like it.",
+      "why": [
+        "This is the reason the park was built, and it is still the single most unusual thing Disney operates. The savanna loop is larger than most entire American zoos, and the animals are not on cue: elephants cross the road when they feel like it, lions are usually asleep on the kopje, and a giraffe herd can stall your truck for four minutes at a range of about ten feet. The variability that frustrates people expecting a scripted ride is exactly what makes it worth doing twice in one day.",
+        "Ride it in the first ninety minutes after opening and you get cooler air, active animals and a truck that has not yet been baked. The same loop at 2 PM in July is a tour of sleeping shapes in the far distance. It is the one attraction at this park where timing changes the content of the ride rather than just the length of the wait, which is a much better argument for rope-dropping it than any queue statistic."
+      ],
+      "skipIf": "Skip it if you need a guaranteed payoff — some loops genuinely underdeliver, and the truck bounces hard on the rough sections."
+    },
+    {
+      "rank": 3,
+      "slug": "expedition-everest",
+      "headline": "Disney's most completely realized coaster, carrying a broken headline effect with total confidence.",
+      "why": [
+        "The mountain works from every angle in the park, the queue is the best piece of environmental storytelling Disney has assembled outside of Rise of the Resistance, and the layout is properly designed rather than merely themed: a long lift, a torn-track reveal, a genuinely disorienting backwards run in the dark, then an 80-foot drop into a fast, well-shaped finish. The ride reads as a mountain expedition rather than a steel coaster wearing a costume.",
+        "The Yeti has been in its stationary strobe-lit mode for the better part of two decades, and it is worth naming rather than tiptoeing around. The animatronic was supposed to swipe at the train; instead a light flickers over a figure that does not move. It costs the ride its climax, and it is the single biggest reason Everest lands third rather than first. Everything around that failure is strong enough that the ride survives it, which is its own kind of argument for how well built it is."
+      ],
+      "skipIf": "Skip it if 44 inches is a problem, or if a long backwards section in complete darkness is the specific thing that makes you unwell."
+    },
+    {
+      "rank": 4,
+      "slug": "festival-of-the-lion-king",
+      "headline": "The best stage show at Walt Disney World, and it is not a close vote either.",
+      "why": [
+        "Thirty minutes, in the round, with four float-mounted characters, an aerial ballet, fire batons, a tumbling troupe and a live vocal cast singing without a safety net. The staging is built for a theater that seats about 1,500 and puts nobody more than a few rows from something happening, and the performers work at a level that would carry a paid ticket outside a theme park. The Simba float alone is a better piece of engineering than several rides on this list.",
+        "It also solves the hardest problem of an Animal Kingdom day. The show runs in a covered, seated, air-conditioned theater in the middle of Harambe, and a midday slot converts the worst half hour of your day into the best one. Book it against the 1 PM heat rather than against the morning, when you should be outdoors with the animals."
+      ],
+      "skipIf": "Skip it if loud percussion and sustained volume are a sensory problem — the drum sections are genuinely loud in a hard-walled room."
+    },
+    {
+      "rank": 5,
+      "slug": "maharajah-jungle-trek",
+      "headline": "Better tiger viewing than most accredited zoos, on a path with no queue and no showtime.",
+      "why": [
+        "The trek runs through a set of invented palace ruins that are among the best-drawn spaces Disney has built, and the animal work inside them is serious: tigers with real sightlines and elevation changes, Komodo dragons, banteng, and a bat enclosure where flying foxes with five-foot wingspans hang close enough to see the veins in the membrane. The aviary at the end is one of the two or three best walk-through bird houses in North America.",
+        "Because it has no ride vehicle and no wait posted on the app, most guests walk past the entrance without registering that it exists. That is a mistake worth correcting: on a day when Everest is a 70-minute standby, the tiger yard is twenty feet of empty railing. Go slowly, use the shaded sections, and let the keepers stationed along the path do their job — they answer questions properly."
+      ],
+      "skipIf": "Skip it if you cannot manage twenty to thirty minutes of continuous walking with limited seating."
+    },
+    {
+      "rank": 6,
+      "slug": "gorilla-falls-exploration-trail",
+      "headline": "Two gorilla troops, an underwater hippo window and a free aviary, all for zero wait.",
+      "why": [
+        "The trail is built around a bachelor group and a family troop of western lowland gorillas viewed from two very different angles, and gorillas being gorillas, one of those viewpoints usually has something going on. The underwater hippo glass is the best animal viewing in the park after the safari — a two-ton animal walking along the bottom of a tank a metre from your face is not a sight the other three Florida parks can match at any price.",
+        "It suffers from being the second-best trail in a park where people have already decided the trails are optional. Meerkats, okapi, naked mole-rats and a well-stocked aviary sit at the back and are routinely walked through in ninety seconds. Give it twenty-five minutes and it beats most of the park's ride slate on interest per minute."
+      ],
+      "skipIf": "Skip it if you have already done Maharajah and only have time for one trail — take the tigers."
+    },
+    {
+      "rank": 7,
+      "slug": "navi-river-journey",
+      "headline": "Four minutes of the best-lit ride environment Disney owns, ending at its finest animatronic.",
+      "why": [
+        "The Shaman of Songs is the most advanced figure Disney has ever installed in an operating attraction: fluid at the shoulders, correct through the neck, breathing between phrases, with none of the mechanical hitch that gives away every other humanoid in the resort. The bioluminescent forest leading up to her is the best pure lighting design on property, and the boat drifts slowly enough that you can actually look at it.",
+        "It is also over almost as soon as it starts, and there is no story, no incident and nothing at stake. That is a legitimate criticism and it is why this sits at 7 rather than in the top three. It is a gallery you float through, and it is a superb one — just be clear about what you are queueing for. It is also listed under overrated below, for exactly this reason: great ride, indefensible queue economics."
+      ],
+      "skipIf": "Skip it if a long standby wait for a four-minute boat ride with no plot will annoy you more than the visuals will please you."
+    },
+    {
+      "rank": 8,
+      "slug": "wild-africa-trek",
+      "headline": "Three harnessed hours over hippos and crocodiles — the best thing at this park you have to pay extra for.",
+      "why": [
+        "You are clipped into a harness line, walked across rope bridges above a hippo pool and a Nile crocodile enclosure, and taken to a private savanna platform for food with the herds in front of you. The guide-to-guest ratio is small enough that you get real answers about animal management, and the vantage points are ones the safari trucks never reach. As a piece of animal experience design it is the strongest thing the park operates.",
+        "The reason it is not higher is money. The tour runs into the low-to-mid hundreds per person on top of park admission, which puts it outside the reach of most trips and makes it a poor first recommendation. If the budget exists and you care about the animals more than the rides, it is the best three hours available and it beats everything below it comfortably."
+      ],
+      "skipIf": "Skip it if you are uneasy with heights, harnesses, and open-grate bridges, or if the price would come out of your park-ticket budget."
+    },
+    {
+      "rank": 9,
+      "slug": "kali-river-rapids",
+      "headline": "One excellent drop, a real conservation argument, and a five-minute runtime that never stops being short.",
+      "why": [
+        "The queue and the loading area are among the most detailed spaces in the park, and the logging-devastation section past the drop is one of the few times a Disney attraction makes an argument at you rather than a joke. The drop itself is properly steep and the raft rotation means nobody can predict who takes the wall of water at the bottom, which is most of the fun.",
+        "Then it ends. Five minutes, one significant drop, and a long dry stretch on either side of it. It rates ninth because the parts that work are very good and because a soaking is worth real money at 2 PM in August — not because the ride is substantial. Bring a poncho or accept that your shoes are done for the day; the lockers are cheaper than replacing a phone."
+      ],
+      "skipIf": "Skip it if getting genuinely soaked would end your day, or if you are under 38 inches."
+    },
+    {
+      "rank": 10,
+      "slug": "finding-nemo-the-big-blue-and-beyond",
+      "headline": "World-class puppetry at close range, in the coldest theater in a park that badly needs one.",
+      "why": [
+        "The puppets are the reason to go. Full-body rod work with visible performers, articulated jellyfish and rays, and a Bruce sequence built at a scale that reads from the back row — this is Broadway-grade puppet design running six times a day for free. The Lopez score is stronger than it needs to be, and the tightened runtime cut the flab out of the older, longer version of the show.",
+        "It lands at ten because the storytelling is compressed to the point of being a highlights reel if you do not already know the film, and because the theater is stranded in a construction zone that most guests are now skipping entirely. That last part is an argument for going, not against it: seats are easy and the room is cold."
+      ],
+      "skipIf": "Skip it if you have no interest in puppetry and would rather spend twenty-five minutes on a trail."
+    },
+    {
+      "rank": 11,
+      "slug": "feathered-friends-in-flight",
+      "headline": "Free-flight birds crossing inches over your head, with handlers who actually explain what you are seeing.",
+      "why": [
+        "Twenty-five minutes at the Caravan Stage with macaws, hornbills, owls and raptors flown across the audience rather than paraded in front of it. The birds work the whole theater, the trainers narrate the behaviour rather than performing around it, and the conservation content is specific — species, ranges, threats — instead of a slogan. For anyone who likes animals, this is the best-value half hour in Asia.",
+        "The show is outdoors and partly shaded, which caps how well it does against the midday heat, and the pacing sags in the middle when the handlers switch birds. Neither is fatal. Sit in the middle rows, high enough that a hornbill passes over you rather than beside you."
+      ],
+      "skipIf": "Skip it if uncaged birds flying directly overhead would put you on edge."
+    },
+    {
+      "rank": 12,
+      "slug": "tree-of-life",
+      "headline": "The best park icon Disney has built, and the only one that rewards standing still for ten minutes.",
+      "why": [
+        "A hundred and forty-five feet of artificial tree carrying more than three hundred carved animals, all of them different, most of them only visible from one particular spot on one particular path. Cinderella Castle and Spaceship Earth are photographs; this is a thing you walk around and keep finding new detail in. The sculptural work at the root level is the strongest craft anywhere in the four Florida parks.",
+        "It ranks twelfth only because it is scenery rather than an attraction with a start and an end. Treat it properly and it earns more: walk the full circuit at ground level, then come back at dusk when the light rakes across the carvings from the side and the animals stop reading as texture."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 13,
+      "slug": "the-boneyard",
+      "headline": "The best playground at Walt Disney World, and the only place in the park a child can run.",
+      "why": [
+        "A multi-level dig site with slides, cargo nets, tunnels and a sand pit where children uncover a buried mammoth skeleton with brushes. It is a real playground rather than a themed corridor, with enough vertical structure to absorb an hour of a seven-year-old and enough shade and seating for the adults not doing the climbing. Nothing else on property serves that function nearly as well.",
+        "It is on this list because for families it does more work than several rides above it. An hour here at 1 PM buys back an entire afternoon of cooperation, and it costs nothing but the willingness to sit down."
+      ],
+      "skipIf": "Skip it if you are visiting without children — there is nothing here for you."
+    },
+    {
+      "rank": 14,
+      "slug": "wilderness-explorers",
+      "headline": "A free park-wide badge hunt that quietly turns the whole zoo into something kids want to look at.",
+      "why": [
+        "Pick up the handbook near the entrance bridge and there are roughly thirty badges scattered across every land, each earned by finding a cast member and doing something small and specific: identifying a bird call, learning a Swahili greeting, working out what a track in the mud belongs to. The design is smart — most badges point you at an animal exhibit you would otherwise walk past, which is exactly the problem this park has with its own guests.",
+        "It costs nothing, has no queue, and it is the single most effective tool available for making a child care about the trails. Start it in the Oasis at opening rather than discovering it at 3 PM with four badges' worth of day left."
+      ],
+      "skipIf": "Skip it if you are on a one-day tour focused on the headliners — the game only pays off with a slow schedule."
+    },
+    {
+      "rank": 15,
+      "slug": "discovery-island-trails",
+      "headline": "The park's best twenty minutes of walking, threaded through the roots of the icon everyone photographs.",
+      "why": [
+        "The paths around the base of the Tree of Life hold otters, lemurs, macaws, storks, a Galapagos-style tortoise yard and the closest views of the tree's carvings available anywhere. They are also the quietest walkable space in the park, because virtually every guest crosses Discovery Island in a straight line between two bridges and never turns off it.",
+        "Nothing here is spectacular on its own. What it offers is a genuinely pleasant, shaded, low-effort circuit five minutes from the entrance, which makes it the best thing to do while a Lightning Lane window ticks over or while someone in your group finishes lunch."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 16,
+      "slug": "conservation-station",
+      "headline": "A window into a working veterinary suite, plus the strongest air conditioning at Animal Kingdom.",
+      "why": [
+        "The building is the park's actual animal-care facility, and the treatment room window is not a set: if a procedure is happening, you watch it happen, with a cast member explaining what the team is doing. There is no schedule and no guarantee, which means a visit can be a routine dental exam on a warthog or an empty room. When it lands, it is the most interesting thing in the park.",
+        "It ranks here because of the coin-flip and because of the trek involved — the only way in is the Wildlife Express Train, which turns a twenty-minute visit into an hour-long round trip. Go mid-afternoon, when the round trip becomes an advantage rather than a cost."
+      ],
+      "skipIf": "Skip it if your day is short — the travel time is not worth it on a compressed schedule."
+    },
+    {
+      "rank": 17,
+      "slug": "tree-of-life-awakenings",
+      "headline": "Projection vignettes on the icon after dark, with no showtime, no queue and no crowd to fight.",
+      "why": [
+        "Short animated sequences map onto the trunk and root structure of the tree, using the carvings as anchors rather than treating the surface as a blank screen. They run on a loop through the evening, so you catch one by standing on Discovery Island for a few minutes rather than by planning around a schedule. The animation quality is high and the projection alignment is precise enough that the effects appear to be inside the wood.",
+        "It ranks low because it is a few minutes long, easy to miss entirely, and heavily dependent on the park still being open after dark, which at Animal Kingdom it frequently is not. When closing is at 8 PM in summer, it is the best possible use of the last twenty minutes of the day."
+      ],
+      "skipIf": "Skip it if the park closes before dark on your date, which happens often outside peak season."
+    },
+    {
+      "rank": 18,
+      "slug": "wildlife-express-train",
+      "headline": "A seven-minute look at the backstage barns where the park's animals actually sleep.",
+      "why": [
+        "It is transport, not an attraction, and the ranking treats it that way. What lifts it above the spinner and the character meet is the view out the left side: the night houses, the feed stores and the holding yards where the savanna animals are brought in every evening. Disney shows you its backstage almost nowhere else, and there is something clarifying about seeing that this operation is a zoo with a maintenance schedule.",
+        "The trains are open-sided and unshaded, the narration is thin, and in the middle of the afternoon the ride is hot. Take it as the price of Conservation Station rather than as a destination, and take the outbound leg early enough that the light is still good."
+      ],
+      "skipIf": "Skip it if you are not going to Rafiki's Planet Watch — as a round trip on its own it is not worth the time."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "navi-river-journey",
+      "why": "Ranked 7th on this list and still overrated, which is a deliberate contradiction. The ride itself is excellent — the Shaman is Disney's finest animatronic and the lighting is unmatched. But it is four and a half minutes long with no story, and people routinely spend 60 to 80 minutes of standby or a Multi Pass slot on it. Good ride, bad queue economics, and the two judgements are separate."
+    },
+    {
+      "slug": "tree-of-life-theater",
+      "why": "The 4D theater under the tree trades on the reputation of the space it occupies rather than what it currently shows. The effects package is the same set of seat pokes, air blasts and water sprays it has always been, the runtime is short, and it burns a Multi Pass reservation that Safaris or Everest would use far better. Fine if you walk on; not worth planning around."
+    },
+    {
+      "slug": "triceratop-spin",
+      "why": "It is Dumbo with a dinosaur shell — identical hub-and-spoke mechanics, identical up-and-down lever, a fraction of the theming budget. Families queue for it out of habit because it looks like a ride for small children, and it is, but it delivers about ninety seconds of nothing while the Boneyard sits fifty yards away offering an hour of actual play for the same zero dollars."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "maharajah-jungle-trek",
+      "why": "Ranked fifth here and skipped by most of the park. Because it has no posted wait and no ride vehicle, planning apps do not surface it and touring plans do not route through it, so guests walk past the entrance arch without registering that the best tiger viewing in Florida is thirty seconds down the path."
+    },
+    {
+      "slug": "the-oasis-exhibits",
+      "why": "A dozen small habitats sit in the planted corridor between the turnstiles and Discovery Island, and essentially everybody power-walks through them at 9:02 AM heading for Pandora. Do them on the way out instead, when the light is low, the animals are active again and you have no reason to hurry. It converts a dead ten minutes into the calmest part of the day."
+    },
+    {
+      "slug": "the-animation-experience",
+      "why": "A free 25-minute drawing class taught by an actual Disney artist, indoors and seated, where you leave with the page you drew. It is the only hands-on creative activity at Animal Kingdom and one of very few anywhere on property, and it is buried at the far end of a train ride where almost nobody finds it."
+    },
+    {
+      "slug": "discovery-island-trails",
+      "why": "Thousands of people cross Discovery Island every hour and a tiny fraction step off the main path onto the trails around the tree roots. They are shaded, short, well-stocked with animals and almost always empty, which makes them the best filler in the park and the only quiet place near the middle of it."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the single best ride at Animal Kingdom?",
+      "a": "Avatar Flight of Passage, and it is the best ride at Walt Disney World generally. The combination of the linked seat, the back brace and the breathing banshee produces a sensation of flight that no other simulator on property matches. If you only ride one thing here, make it that."
+    },
+    {
+      "q": "How do I ride Flight of Passage without a two-hour wait?",
+      "a": "There are three viable approaches. Be at the tapstiles thirty minutes before official opening and walk straight to Pandora, buy the Individual Lightning Lane the moment it goes on sale, or queue in the last hour before park close when posted times usually fall sharply. Mid-morning through late afternoon is the worst window and there is no trick that fixes it."
+    },
+    {
+      "q": "Is Animal Kingdom really a half-day park?",
+      "a": "Only if you treat it as four rides. The ride count is low, but the trails, the trek, two stage shows and the safari add up to a full day of content if you engage with the animal side of the park. Where the half-day reputation is fair is the operating calendar — Animal Kingdom frequently closes earlier than the other three parks, so a full day here is a shorter day than a full day at Magic Kingdom."
+    },
+    {
+      "q": "How wet do you get on Kali River Rapids?",
+      "a": "Anywhere between damp and completely soaked, and you cannot predict which because the raft rotates freely. Assume at least one person in your boat takes a direct wall of water at the bottom of the drop. Use the lockers for phones and anything leather, and either wear a poncho or plan to be wet for an hour."
+    },
+    {
+      "q": "Is Expedition Everest too intense for younger kids?",
+      "a": "The height requirement is 44 inches, which rules out most under-sevens anyway. For those tall enough, the deciding factors are the 80-foot drop and the long backwards section in near-total darkness, which is the part that catches people out. A child comfortable with Big Thunder Mountain will usually be fine; a child who found Big Thunder a lot should wait a year."
+    },
+    {
+      "q": "What happened to DinoLand U.S.A. and DINOSAUR?",
+      "a": "DINOSAUR closed permanently in early 2026, Primeval Whirl went several years before that, and the area is being rebuilt as Tropical Americas with an Indiana Jones adventure, an Encanto ride-through and a village called Pueblo Esperanza. Disney has said 2027 for the opening. Until then the only things operating in that corner are Finding Nemo: The Big Blue... and Beyond!, the Boneyard playground and TriceraTop Spin."
+    }
+  ],
+  "lastVerified": "2026-07"
+}
