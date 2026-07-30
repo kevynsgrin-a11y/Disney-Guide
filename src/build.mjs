@@ -11,7 +11,7 @@ import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 
-import { loadData, urls, DIST_DIR, ASSETS_DIR, ROOT } from './lib/data.mjs'
+import { loadData, urls, foodTrackerOrder, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import * as core from './pages/core.mjs'
 import * as parkPages from './pages/park.mjs'
@@ -292,6 +292,17 @@ async function main () {
   await rm(DIST_DIR, { recursive: true, force: true })
   await mkdir(DIST_DIR, { recursive: true })
 
+  // Persist any newly-added food ids before rendering, so the tracker page and the manifest on
+  // disk always encode against the same ordering.
+  const order = foodTrackerOrder(data)
+  if (order.changed) {
+    await writeFile(join(DATA_DIR, 'food-order.json'), JSON.stringify({
+      version: 1,
+      note: 'Canonical, APPEND-ONLY order for Food Tracker share links. Never reorder or remove an id — share links encode positions in this array. Ids of removed items stay as tombstones on purpose.',
+      ids: order.ids,
+    }, null, 2) + '\n', 'utf8')
+  }
+
   const pages = buildPages(data)
 
   const seen = new Set()
@@ -346,6 +357,7 @@ async function main () {
     ${counts.foodItems} tracked food items
     ${counts.guides} guides · ${counts.comparisons} comparisons
     ${searchIndex.count} search index entries · ${precacheCount} precached URLs
+    food share order: ${order.ids.length} slots${order.appended.length ? `, ${order.appended.length} appended this build` : ''}${order.tombstones.length ? `, ${order.tombstones.length} tombstoned` : ''}
 `)
 }
 

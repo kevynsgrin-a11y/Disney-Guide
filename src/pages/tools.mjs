@@ -17,8 +17,8 @@ export function foodTrackerPage (data) {
     { label: 'Food Tracker', href: urls.foodTracker() },
   ]
 
-  const order = foodTrackerOrder(data)
-  const total = order.length
+  const order = foodTrackerOrder(data).ids
+  const total = data.allFood.length
   const categories = [...new Set(data.allFood.map((i) => i.category))]
   const diets = [...new Set(data.allFood.flatMap((i) => i.dietaryTags || []))]
 

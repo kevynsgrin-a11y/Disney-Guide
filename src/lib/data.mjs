@@ -109,8 +109,10 @@ export async function loadData () {
   const compare = (await readJsonDir(join(DATA_DIR, 'compare'))).filter((c) => c && c.slug)
   const legalPath = join(DATA_DIR, 'legal.json')
   const legal = existsSync(legalPath) ? await readJson(legalPath) : { pages: [] }
+  const orderPath = join(DATA_DIR, 'food-order.json')
+  const foodOrder = existsSync(orderPath) ? await readJson(orderPath) : { version: 1, ids: [] }
 
-  return index({ site, parks, guides, compare, legal })
+  return index({ site, parks, guides, compare, legal, foodOrder })
 }
 
 /* ------------------------------------------------------------------ *
@@ -220,17 +222,33 @@ function index (data) {
 
 /**
  * Canonical, append-only ordering of every food item id on the site.
- * The Food Tracker encodes saved state as a bitfield over this exact order, so the order must be
- * derived deterministically and must never be reshuffled by editing content. Sorting by park order
- * then by id guarantees that adding an item only ever appends within its park block; the tracker
- * tolerates unknown ids and treats new ids as unset, so older share links still decode.
+ *
+ * The Food Tracker encodes saved state as two bits per id over this exact order, so a share link is
+ * only readable against the same ordering that produced it. Deriving the order from the current
+ * dataset — even sorted deterministically — is NOT append-only: inserting "mk-apple" ahead of
+ * "mk-banana" shifts every position after it and silently corrupts every link ever shared.
+ *
+ * So the order is persisted in data/food-order.json and only ever grows. New ids are appended;
+ * removed ids stay as tombstones so nothing behind them moves. `changed` tells the build whether to
+ * write the manifest back.
  */
 export function foodTrackerOrder (data) {
-  const out = []
+  const manifest = data.foodOrder && Array.isArray(data.foodOrder.ids) ? data.foodOrder : { version: 1, ids: [] }
+  const known = new Set(manifest.ids)
+  const ids = manifest.ids.slice()
+
+  const fresh = []
   for (const slug of PARK_ORDER) {
     const park = data.parkBySlug.get(slug)
     if (!park) continue
-    out.push(...park.food.map((f) => f.id).sort())
+    for (const id of park.food.map((f) => f.id).sort()) {
+      if (!known.has(id)) { fresh.push(id); known.add(id) }
+    }
   }
-  return out
+  ids.push(...fresh)
+
+  const live = new Set(data.allFood.map((f) => f.id))
+  const tombstones = ids.filter((id) => !live.has(id))
+
+  return { ids, appended: fresh, tombstones, changed: fresh.length > 0 }
 }
