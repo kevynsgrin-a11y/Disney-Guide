@@ -710,7 +710,7 @@
       "restaurant": "Club Cool",
       "restaurantSlug": null,
       "land": "world-celebration",
-      "price": 0,
+      "price": null,
       "priceVerified": "2026-07",
       "category": "drink",
       "dietaryTags": ["vegan", "gluten-free"],
@@ -719,7 +719,7 @@
       "shareable": true,
       "portable": false,
       "seasonal": false,
-      "description": "A bitter Italian aperitivo soda available as a free self-serve sample at Club Cool, where it sits on the fountain among the sweet international flavors.",
+      "description": "A bitter Italian aperitivo soda poured free from the self-serve fountain at Club Cool, where it sits among the sweet international flavors and costs nothing at all.",
       "verdict": "It tastes like grapefruit rind and regret, and drinking it is a genuine EPCOT rite of passage. Free, so the only cost is your dignity. Do it once, never twice.",
       "image": null
     },
