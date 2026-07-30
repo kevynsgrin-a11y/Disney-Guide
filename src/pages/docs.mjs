@@ -287,7 +287,9 @@ function comparisonTable (page) {
   const dims = page.dimensions || []
   if (!dims.length || !contenders.length) return raw('')
 
-  const columns = ['', ...contenders.map((c) => c.name)]
+  // An empty corner cell is the visual convention, but it reads as an unlabelled column to a
+  // screen reader — and on mobile the stacked layout uses these labels as the row prefixes.
+  const columns = [raw('<span class="visually-hidden">Comparison point</span>'), ...contenders.map((c) => c.name)]
   const rows = dims.map((dim) => {
     const cells = contenders.map((c) => {
       const value = (dim.cells || {})[c.key]
@@ -457,8 +459,22 @@ export function comparePage (page, data) {
           modified: `${page.lastVerified || '2026-07'}-01`,
           section: 'Comparisons',
         }),
+        page.ranking && page.ranking.length
+          ? S.itemList(site, {
+            url: urls.compare(page.slug),
+            name: page.h1 || page.title,
+            items: page.ranking
+              .slice()
+              .sort((a, b) => a.rank - b.rank)
+              .map((entry) => {
+                const park = data.parkBySlug.get(entry.key)
+                const contender = (page.contenders || []).find((c) => c.key === entry.key)
+                return { name: park ? park.name : (contender ? contender.name : entry.key), url: park ? park.url : null }
+              }),
+          })
+          : null,
         S.faqPage(site, { url: urls.compare(page.slug), faqs: page.faqs }),
-      ],
+      ].filter(Boolean),
     }),
   }
 }
