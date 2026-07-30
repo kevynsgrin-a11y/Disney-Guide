@@ -11,7 +11,7 @@
     "build": "node scripts/validate.mjs && node scripts/factcheck.mjs && node src/build.mjs",
     "build:fast": "node src/build.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "serve": "node scripts/serve.mjs",
     "dev": "npm run build && npm run serve",
     "audit:site": "node scripts/audit.mjs",

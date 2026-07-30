@@ -296,6 +296,45 @@ async function checkProse () {
   }
 }
 
+/**
+ * Guide prose that states a count the dataset also computes.
+ *
+ * The height guide renders a generated appendix from the live data on the same page as its authored
+ * prose, so a stale hard-coded number is not merely wrong — it visibly contradicts the table beside
+ * it. These are the only counts worth pinning; everything else in that guide is qualitative.
+ */
+async function checkGuideCounts () {
+  const path = join(DATA, 'guides', 'height-requirements.json')
+  if (!existsSync(path)) return
+
+  const { readdir } = await import('node:fs/promises')
+  let total = 0
+  const byHeight = new Map()
+  for (const slug of PARKS) {
+    const file = join(DATA, 'parks', slug, 'attractions.json')
+    if (!existsSync(file)) return // incomplete dataset — counts would be misleading
+    for (const a of (await readJson(file)).attractions || []) {
+      if (a.heightIn == null || (a.status || 'open') !== 'open') continue
+      total++
+      byHeight.set(a.heightIn, (byHeight.get(a.heightIn) || 0) + 1)
+    }
+  }
+
+  const text = [...strings(await readJson(path))].map(([, v]) => v).join(' ')
+  const stated = text.match(/There are (\d+) height-restricted attractions/)
+  if (stated && Number(stated[1]) !== total) {
+    fail('guides/height-requirements.json',
+      `prose says ${stated[1]} height-restricted attractions but the dataset has ${total} — the generated table on the same page will contradict it`)
+  }
+  const at40 = byHeight.get(40) || 0
+  for (const m of text.matchAll(/unlocks (\d+) attractions/g)) {
+    if (Number(m[1]) !== at40) {
+      fail('guides/height-requirements.json',
+        `prose says 40 inches unlocks ${m[1]} attractions but the dataset has ${at40} at exactly 40in`)
+    }
+  }
+}
+
 async function checkLightningLaneClaims () {
   const base = join(DATA, 'guides')
   if (!existsSync(base)) return
@@ -321,6 +360,7 @@ async function checkLightningLaneClaims () {
 
 for (const slug of PARKS) await checkPark(slug)
 await checkProse()
+await checkGuideCounts()
 await checkLightningLaneClaims()
 
 if (notes.length) {
