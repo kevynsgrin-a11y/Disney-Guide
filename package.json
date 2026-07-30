@@ -1,0 +1,19 @@
+{
+  "name": "evergreen-theme-park-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Evergreen Theme Park Guide — a static, data-driven guide to the six US Disney parks.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/validate.mjs && node src/build.mjs",
+    "build:fast": "node src/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "npm run build && npm run serve",
+    "audit:site": "node scripts/audit.mjs"
+  },
+  "license": "UNLICENSED"
+}
