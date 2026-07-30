@@ -92,8 +92,11 @@ function buildPages (data) {
 
 function buildSearchIndex (data) {
   const items = []
+  // The index is fetched lazily on first search, so it should stay small. Titles carry almost all
+  // the matching weight; keywords only exist to catch "40 inch" or "vegan" style queries, so they
+  // are capped rather than carrying whole summaries.
   const push = (title, url, context, keywords) => {
-    items.push({ t: title, u: url, c: context, k: (keywords || '').toLowerCase() })
+    items.push({ t: title, u: url, c: context, k: (keywords || '').toLowerCase().slice(0, 110).trim() })
   }
 
   for (const park of data.parks) {
