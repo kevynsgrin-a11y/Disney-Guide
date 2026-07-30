@@ -8,14 +8,15 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "node scripts/validate.mjs && node src/build.mjs",
+    "build": "node scripts/validate.mjs && node scripts/factcheck.mjs && node src/build.mjs",
     "build:fast": "node src/build.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "node --test test/",
     "serve": "node scripts/serve.mjs",
     "dev": "npm run build && npm run serve",
     "audit:site": "node scripts/audit.mjs",
-    "check": "npm run test && npm run build && npm run audit:site"
+    "check": "npm run test && npm run build && npm run audit:site",
+    "factcheck": "node scripts/factcheck.mjs"
   },
   "license": "UNLICENSED"
 }

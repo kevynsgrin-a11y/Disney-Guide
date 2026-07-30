@@ -17,6 +17,7 @@ npm test              # unit tests (node:test, no dependencies)
 npm run build         # validate data, then render dist/
 npm run serve         # preview dist/ at http://localhost:4321
 npm run dev           # build + serve
+npm run factcheck     # assert the data against the July 2026 reference tables
 npm run audit:site    # post-build QA: links, titles, JSON-LD, disclaimers
 npm run check         # test + build + audit, the full gate
 ```
@@ -112,6 +113,18 @@ actually matters — referential integrity across files:
 - guide and comparison `related` arrays resolve
 
 Errors block the build. Warnings (volume targets, missing maps) print and do not.
+
+### Fact checking
+
+`scripts/factcheck.mjs` is a separate, deliberately independent check. The validator proves the data
+is *well-formed*; this proves it is *correct* on the facts that are easiest to get wrong and worst
+to get wrong: every height requirement, the 2026 closures and rethemes, Test Track's Lightning Lane
+tier, the absence of permanent virtual queues, verified snack prices, and evergreen scope.
+
+Its reference tables are hard-coded on purpose. Checking the dataset against itself proves nothing —
+the point is a second source of truth that has to be edited deliberately, in the same commit, when
+reality changes. It also flags marketing filler and paragraph openers like "Whether you…" that are
+the tell of generated travel copy.
 
 ### Editing content
 

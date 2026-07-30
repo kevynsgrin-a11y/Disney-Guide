@@ -22,6 +22,9 @@ jobs:
       - name: Validate data
         run: npm run validate
 
+      - name: Fact check against the reference tables
+        run: npm run factcheck
+
       - name: Build site
         run: npm run build:fast
 
