@@ -1,0 +1,216 @@
+{
+  "slug": "rider-switch",
+  "title": "Rider Switch: How Child Swap Works at Disney",
+  "h1": "Rider Switch at Walt Disney World and Disneyland",
+  "metaDescription": "Rider Switch explained with worked examples for parties of two, three and four, plus how it stacks with Lightning Lane and the attractions where it quietly fails.",
+  "summary": "Rider Switch lets one adult wait with a non-rider while the rest of the party rides, then swap without queueing again. Used properly it turns a height requirement from a trip-wrecker into a scheduling detail.",
+  "category": "families",
+  "readingTimeMinutes": 9,
+  "intro": [
+    "Rider Switch is free, available at both US Disney resorts, and it is the best value in the park for any family with a child too short to ride. One adult waits with the non-rider while the rest of the party goes through the queue. When they come back, the adult who waited walks the Lightning Lane entrance with up to two other people and rides without queueing again.",
+    "That phrase — up to two other people — is where the value hides, and it is the part most families never exploit. It means an older sibling who already rode can ride a second time on the swap, at no cost, without standing in the line twice. A party of four with one short child can extract three rides from one queue. Nobody tells you this at the entrance.",
+    "It is also the accommodation with the most name confusion. Cast Members and older guides call it Child Swap, Baby Swap, or Parent Swap; the official name at both resorts is Rider Switch. If you use any of those phrases at an attraction entrance you will be understood, but the term to search for in the app is Rider Switch.",
+    "One structural limitation worth knowing before you plan: it needs two adults. A single adult travelling with a child too short to ride cannot use Rider Switch at all, because there is nobody to swap with. That case is covered further down, honestly, because it is the situation Disney's own guidance quietly ignores."
+  ],
+  "keyPoints": [
+    "Rider Switch is free at both resorts and requires no booking, no app, and no advance planning.",
+    "The waiting adult can bring up to two additional people on the swap — which lets a taller sibling ride twice for one queue.",
+    "You must ask at the attraction entrance before the first group joins the line, with the whole party present including the non-rider.",
+    "The return is through the Lightning Lane entrance, so the second group's wait is minutes rather than an hour.",
+    "It stacks with paid Lightning Lane. The highest-value play is riding standby at rope drop and taking the swap through Lightning Lane afterwards.",
+    "Entitlements are for that attraction, that day. They expire at park close and do not transfer between rides or between resorts.",
+    "It does not work for a solo adult with a non-riding child. There is no version of Rider Switch with one grown-up."
+  ],
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": "How Rider Switch works",
+      "body": [
+        "You tell the Cast Member at the attraction entrance that you need Rider Switch, and they set it up before anyone joins the line. The whole party has to be there — including the person who is not riding, because that is what the accommodation is for and Cast Members verify it. At Walt Disney World the entitlement is applied digitally to the waiting guests' tickets or bands; at Disneyland Resort you are given a return pass.",
+        "Group one then rides normally, standby or Lightning Lane, whichever you were doing. Group two waits somewhere sensible — a bench, a shop, an air-conditioned queue-adjacent building — and when group one returns, the adult who waited plus up to two others go to the Lightning Lane entrance and ride. That second wait is typically five to fifteen minutes.",
+        "The whole thing costs nothing and consumes nothing. It does not use a Lightning Lane booking, it does not affect your DAS return time, and it does not count against anything. It is one of the last genuinely free advantages left in a Disney park."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Approach the attraction entrance with your entire party, including the non-rider.",
+          "Tell the Cast Member you need Rider Switch, and say who is riding first and who is waiting.",
+          "Let them scan or check every ticket in the party. This is the step people skip and then find the entitlement missing.",
+          "Group one queues and rides.",
+          "Group two — the waiting adult plus up to two others — goes to the Lightning Lane entrance when group one returns.",
+          "Confirm the expiry before you walk away. The entitlement is same-day and same-attraction only."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "warning",
+        "title": "Ask before anyone joins the line",
+        "body": "Rider Switch has to be set up at the entrance, before the first group enters the queue. Trying to arrange it after your partner has already vanished into a 60-minute switchback is the single most common failure, and the answer is usually that the whole party has to come back and start again. Thirty seconds of conversation at the front prevents an hour of frustration."
+      }
+    },
+    {
+      "id": "worked-examples",
+      "heading": "Worked examples: parties of two, three, and four",
+      "body": [
+        "The value of Rider Switch changes completely with the shape of your party. Here is exactly what happens in each case, with the ride count spelled out.",
+        "A party of two — one adult, one child too short — gets nothing. There is nobody to swap with, so the accommodation does not apply. This is a real gap and it is worth planning around: solo adults with a short child should build the day around attractions with no height requirement, use the single rider line for a solo ride while a travelling companion watches the child, or simply accept that the headliners are not happening on this trip. Do not turn up at Tower of Terror hoping a Cast Member will improvise a solution.",
+        "A party of three — two adults, one short child — is the classic case and a straight swap. Adult A rides while Adult B waits with the child; Adult A returns; Adult B rides via the Lightning Lane entrance. Two rides, one queue, and the child never waits alone. This is what most people picture when they hear the term.",
+        "A party of four — two adults, one tall child, one short child — is where the accommodation gets genuinely good. Adult A and the tall child ride standby. Adult B then takes the Rider Switch return and brings the tall child along again. That is three rides from a single trip through the queue, and the tall child rides the headliner twice while their sibling has spent the whole time with a parent rather than alone.",
+        "A party of five or six with two adults and multiple tall children is the maximum-value case. Adult A takes both tall children through standby. Adult B takes the Rider Switch return and brings both of them again. Four rides for two people's queue time, and everybody who can ride has ridden twice."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Rider Switch outcomes by party shape",
+        "columns": ["Your party", "Group one", "Group two (the swap)", "Total rides from one queue"],
+        "rows": [
+          ["1 adult, 1 short child", "Nobody can ride", "Not available — Rider Switch needs two adults", "0"],
+          ["2 adults, 1 short child", "Adult A", "Adult B", "2"],
+          ["2 adults, 1 tall child, 1 short child", "Adult A and the tall child", "Adult B and the tall child again", "3"],
+          ["2 adults, 2 tall children, 1 short child", "Adult A and both tall children", "Adult B and both tall children again", "4"],
+          ["3 adults, 1 short child", "Adults A and B", "Adult C plus one of A or B riding again", "4"],
+          ["2 adults, 1 short child, plus grandparents not riding", "Adult A", "Adult B (grandparents can hold the fort but do not need entitlements)", "2"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "The move nobody uses",
+        "body": "The waiting adult can bring up to two other guests on the swap, and those guests do not have to be people who sat out. A child who already rode with group one can go again with group two. On Slinky Dog Dash or Radiator Springs Racers, that is a second ride on the park's hardest-to-queue attraction for free, and most families never realise they are entitled to it."
+      }
+    },
+    {
+      "id": "lightning-lane",
+      "heading": "How it interacts with Lightning Lane",
+      "body": [
+        "Rider Switch and Lightning Lane are separate systems, and combining them correctly is the difference between a good tactic and a great one. The core rule that has held consistently at both resorts: the swap group returns through the Lightning Lane entrance using the Rider Switch entitlement itself. They do not need to have queued, and they do not consume a Multi Pass booking to walk that entrance.",
+        "The highest-value sequence, then, is to send group one through standby early in the morning when the wait is short, and take the Rider Switch return through the Lightning Lane afterwards. You have paid nothing, waited once, and both halves of your party have ridden — one of them via the short queue. Save your purchased Lightning Lane bookings for attractions where nobody in the party is sitting out.",
+        "If group one rides using a purchased Lightning Lane booking, the practical handling has varied between attractions and over time. Some Cast Members have asked the swap party to hold their own entitlement; others simply honour the Rider Switch. Ask at the entrance when you set it up rather than discovering the answer when you return. It is a thirty-second question and the answer is binding for that attraction that day.",
+        "One thing that is unambiguous: buying a Lightning Lane for a person who is going to sit out with a child is pure waste. Deselect non-riders on the booking screen. Families do this by accident constantly because the app defaults to selecting everybody."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Best play: standby at rope drop for group one, Rider Switch through the Lightning Lane for group two.",
+          "Do not buy Lightning Lane for a guest who will be holding a toddler. Deselect them at booking.",
+          "Ask at the entrance how the attraction handles a swap when group one used a purchased Lightning Lane. Practice varies.",
+          "Rider Switch does not consume a Multi Pass booking, so your next selection window is unaffected.",
+          "A DAS return time and a Rider Switch entitlement can both be active. They are independent systems."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "resort-differences",
+      "heading": "Walt Disney World vs Disneyland Resort",
+      "body": [
+        "The accommodation works the same way at both resorts and the differences are procedural rather than substantive. Florida runs it digitally through the app and your ticket media; California is more likely to hand you something.",
+        "The more meaningful difference is where you need it. Hollywood Studios is the Rider Switch park — seven attractions with height requirements, four of them at 40 inches or above, and very little for a preschooler to do while they wait. California Adventure is its Anaheim equivalent. Magic Kingdom and Disneyland Park need it much less, because most of what those parks do best has no requirement at all."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Rider Switch by resort",
+        "columns": ["", "Walt Disney World", "Disneyland Resort"],
+        "rows": [
+          ["What you receive", "A digital entitlement applied to the waiting guests' tickets or bands", "A return pass issued at the attraction"],
+          ["Guests on the swap", "The waiting adult plus up to two others", "The waiting adult plus up to two others"],
+          ["Where you ask", "The attraction entrance, whole party present", "The attraction entrance, whole party present"],
+          ["Return entrance", "Lightning Lane", "Lightning Lane"],
+          ["Validity", "Same attraction, same day, expires at park close", "Same attraction, same day, expires at park close"],
+          ["The park where it matters most", "Hollywood Studios", "California Adventure"],
+          ["The park where you barely need it", "Magic Kingdom", "Disneyland Park"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "where-it-works",
+      "heading": "Which attractions offer it",
+      "body": [
+        "As a rule of thumb, any attraction with a height requirement offers Rider Switch, and that rule is right nearly all of the time. Both resorts also extend it at some attractions without a height requirement where a guest genuinely cannot or will not ride — Cast Members have discretion, and asking politely costs nothing.",
+        "What Rider Switch does not cover is shows, parades, walkthroughs, character meets, and anything where the whole party could simply go in together. It also does not apply to attractions that have no Lightning Lane entrance to return through, which in practice is a small list.",
+        "Do not assume it is only for short children. It is equally available when an adult cannot ride for medical reasons, when someone is pregnant, when a guest has decided a particular attraction is not for them, or when someone needs to stay with a service animal that cannot board. The framing on the sign is about height because that is the common case, not because it is the only one."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Available at essentially every attraction with a posted height requirement at both resorts.",
+          "Frequently available at attractions without one, at Cast Member discretion, when a party member genuinely cannot ride.",
+          "Not available for shows, parades, walkthroughs, or character meets.",
+          "Works for adults who are sitting out for medical reasons, pregnancy, or personal preference — not just for short children.",
+          "Works when someone has to stay with a service animal that cannot board the ride."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "mistakes",
+      "heading": "Mistakes that cost you the swap",
+      "body": [
+        "Nearly every Rider Switch failure is procedural and happens in the first ninety seconds. The accommodation itself is robust; the request is where it goes wrong.",
+        "The subtlest error is timing the swap badly rather than losing it. A Rider Switch entitlement is valid until park close, so there is no need to burn it immediately — but there is also no way to carry it to tomorrow, and families routinely walk out of a park at 9 PM holding one they forgot about."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Asking after the first group has already joined the queue. Set it up at the entrance, every time.",
+          "Not having the non-rider present. Cast Members verify who is sitting out, and a photo on your phone is not the same thing.",
+          "Not getting every ticket scanned. If a guest is not included at setup, they cannot ride on the swap.",
+          "Forgetting that the swap group can be three people, not one. This is the most valuable and most missed part of the whole system.",
+          "Buying Lightning Lane for the adult who will be sitting out. Deselect non-riders on the booking screen.",
+          "Holding an entitlement until park close. Use it, or lose it — they do not roll over."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "tip",
+        "title": "The lunch-break swap",
+        "body": "Set up Rider Switch just before your lunch reservation. Group one rides, everyone eats together, and group two takes the swap on the way out of the restaurant. You have converted an hour you were going to spend sitting down anyway into a second trip through the park's hardest attraction, and nobody has queued twice."
+      }
+    },
+    {
+      "id": "alternatives",
+      "heading": "When Rider Switch is not the answer",
+      "body": [
+        "Single rider lines solve a different problem and solve it well. If your party does not mind being split across separate rows, a single rider queue routinely runs at a fraction of the standby wait, and it costs nothing. Test Track at EPCOT, Expedition Everest at Animal Kingdom, Millennium Falcon: Smugglers Run at both resorts, Matterhorn Bobsleds at Disneyland Park, and Radiator Springs Racers, Grizzly River Run, Incredicoaster and Goofy's Sky School at California Adventure have all offered single rider queues. Availability is at the discretion of the attraction on the day, so check when you arrive.",
+        "For a solo adult with a non-riding child, the honest answer is that no Disney system fixes this. Build the day around unrestricted attractions, which at Magic Kingdom and Disneyland Park is most of the park. Consider travelling with another family and trading childcare for an hour. And accept that the coasters are next trip's problem — it is a better outcome than spending the day resenting a ride.",
+        "For a child who clears the height but does not want to ride, do not use Rider Switch as a way to talk them into it. Use it so that the adults can take turns and the child is never made to feel that they cost anyone their day. That framing matters more than the ride does."
+      ],
+      "list": null,
+      "table": null,
+      "callout": null
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Rider Switch cost anything?",
+      "a": "No. It is free at both resorts, requires no booking, and does not consume a Lightning Lane entitlement or count against any purchase. It is one of the few remaining advantages in a Disney park that you cannot buy and do not have to."
+    },
+    {
+      "q": "How many people can ride on the swap?",
+      "a": "The adult who waited plus up to two additional guests, at both resorts. Those additional guests do not have to be people who sat out — a child who already rode with the first group can ride again on the swap. This is the part of the system most families never use."
+    },
+    {
+      "q": "When do I have to ask for it?",
+      "a": "At the attraction entrance, before anyone in your party joins the queue, with the whole party present including the non-rider. Asking after the first group has entered the line almost always means starting over. It takes about thirty seconds if you do it in the right order."
+    },
+    {
+      "q": "Can I use Rider Switch if I am the only adult?",
+      "a": "No. The accommodation is built on one adult waiting while another rides, so a solo adult with a non-riding child has nobody to swap with. Plan around attractions with no height requirement, look at single rider lines if a companion can watch the child, and treat the headliners as a future trip."
+    },
+    {
+      "q": "Does the entitlement expire?",
+      "a": "Yes — it is valid for that attraction on that day only and expires at park close. There is no rollover to another ride or another day. You can hold it for hours if you want to time it around a meal or a break, but do not walk out of the park still holding one."
+    },
+    {
+      "q": "Does it work with Lightning Lane?",
+      "a": "Yes, and the best sequence is to send the first group through standby early and take the swap through the Lightning Lane entrance afterwards. If your first group rides on a purchased Lightning Lane booking, ask the Cast Member at setup how that attraction handles the swap, because the handling has varied."
+    },
+    {
+      "q": "Is it only for children who are too short?",
+      "a": "No. Cast Members grant it whenever a party member genuinely cannot ride — medical reasons, pregnancy, staying with a service animal that cannot board, or simply choosing not to. The sign talks about height because that is the common case, not the only one."
+    }
+  ],
+  "related": ["height-requirements", "lightning-lane", "disability-access-service", "is-it-scary"],
+  "lastVerified": "2026-07"
+}

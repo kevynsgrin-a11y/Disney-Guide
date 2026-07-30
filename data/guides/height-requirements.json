@@ -1,0 +1,277 @@
+{
+  "slug": "height-requirements",
+  "title": "Disney Height Requirements: All Six Parks",
+  "h1": "Disney Height Requirements at All Six US Parks",
+  "metaDescription": "Every height requirement at Walt Disney World and Disneyland in one table, plus what a 32, 38, 40 or 44 inch child can actually ride and how measuring really works.",
+  "summary": "The complete height chart for all six US Disney parks, plus milestone-by-milestone breakdowns of what each inch unlocks, how Cast Members measure, and honest advice for borderline kids.",
+  "category": "families",
+  "readingTimeMinutes": 12,
+  "intro": [
+    "There are 40 height-restricted attractions across the six US Disney parks, and the difference between a good family trip and a miserable one often comes down to knowing which side of a threshold your child sits on before you book flights. Every requirement at both resorts is listed below, taken from the current posted signage as of July 2026.",
+    "Two numbers matter more than the rest. Forty inches is the biggest single jump in the chart — clearing it unlocks 17 attractions in one step, more than any other threshold, and it is the line between riding family attractions and riding headliners. Thirty-eight inches is the second, because it opens Seven Dwarfs Mine Train, Slinky Dog Dash, and, since May 2026, Big Thunder Mountain Railroad at Magic Kingdom.",
+    "Two things to know before you read the tables. Both resorts measure with shoes on and hats off, against a fixed stick, at the attraction entrance — so a chunky sole is legitimate and a spiky hairstyle is not. And a child measured at 8 AM is measurably taller than the same child at 8 PM, because spines compress over a long day on your feet. If your kid is within a quarter inch of a threshold, ride that attraction in the morning.",
+    "Requirements do change. Big Thunder Mountain Railroad at Magic Kingdom dropped from 40 inches to 38 inches when it reopened on 3 May 2026, which is a rare and welcome direction of travel. Anything you read that predates that is wrong about the most family-relevant coaster in Florida."
+  ],
+  "keyPoints": [
+    "40in is the single biggest threshold at either resort: clearing it unlocks 17 attractions at once.",
+    "The lowest requirement anywhere is 32in — Tomorrowland Speedway and Alien Swirling Saucers in Florida, Autopia in California.",
+    "The tallest requirement is 48in: TRON Lightcycle / Run, Rock 'n' Roller Coaster Starring The Muppets, and Incredicoaster.",
+    "Big Thunder Mountain Railroad at Magic Kingdom is now 38in, reduced from 40in when it reopened on 3 May 2026. The Disneyland version is still 40in.",
+    "Space Mountain is 44in in Florida but only 40in in California — the same name, a four-inch difference, and the most common family planning mistake between the two resorts.",
+    "Measuring is done with shoes on, hats off, against a fixed stick. Borderline guests get an all-day wristband so they are not re-measured at every ride.",
+    "Under 32 inches, there is not a single height-restricted attraction available — but the overwhelming majority of rides at both resorts have no requirement at all."
+  ],
+  "sections": [
+    {
+      "id": "wdw-table",
+      "heading": "Every height requirement at Walt Disney World",
+      "body": [
+        "Twenty-one attractions across the four Florida parks carry a height requirement. Everything else — and that is well over a hundred attractions, shows, and experiences — has no minimum at all.",
+        "Hollywood Studios is the toughest park for short riders: seven of its attractions are restricted and four of them sit at 40 inches or above, which means a family with a preschooler will spend a lot of that day using Rider Switch. Magic Kingdom is the friendliest, with three attractions available below 38 inches."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Walt Disney World height requirements, verified July 2026",
+        "columns": ["Park", "Attraction", "Height"],
+        "rows": [
+          ["Magic Kingdom", "Tomorrowland Speedway", "32in (54in to drive alone)"],
+          ["Magic Kingdom", "The Barnstormer", "35in"],
+          ["Magic Kingdom", "Seven Dwarfs Mine Train", "38in"],
+          ["Magic Kingdom", "Big Thunder Mountain Railroad", "38in (reduced from 40in on 3 May 2026)"],
+          ["Magic Kingdom", "Tiana's Bayou Adventure", "40in"],
+          ["Magic Kingdom", "Space Mountain", "44in"],
+          ["Magic Kingdom", "TRON Lightcycle / Run", "48in"],
+          ["EPCOT", "Soarin' Around the World", "40in"],
+          ["EPCOT", "Test Track", "40in"],
+          ["EPCOT", "Mission: SPACE", "40in (Green) / 44in (Orange)"],
+          ["EPCOT", "Guardians of the Galaxy: Cosmic Rewind", "42in"],
+          ["Hollywood Studios", "Alien Swirling Saucers", "32in"],
+          ["Hollywood Studios", "Slinky Dog Dash", "38in"],
+          ["Hollywood Studios", "Millennium Falcon: Smugglers Run", "38in"],
+          ["Hollywood Studios", "Star Tours", "40in"],
+          ["Hollywood Studios", "Star Wars: Rise of the Resistance", "40in"],
+          ["Hollywood Studios", "The Twilight Zone Tower of Terror", "40in"],
+          ["Hollywood Studios", "Rock 'n' Roller Coaster Starring The Muppets", "48in"],
+          ["Animal Kingdom", "Kali River Rapids", "38in"],
+          ["Animal Kingdom", "Avatar Flight of Passage", "44in"],
+          ["Animal Kingdom", "Expedition Everest", "44in"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "disneyland-table",
+      "heading": "Every height requirement at Disneyland Resort",
+      "body": [
+        "Nineteen attractions across the two California parks carry a height requirement, and the split between the parks is stark. Disneyland Park restricts nine attractions out of a very large roster, which is why it is the best park in the country for families with small children. California Adventure restricts ten out of a much smaller roster, and seven of those sit at 40 inches or above.",
+        "California Adventure also holds the only attraction at either resort with a maximum height: the zip line on Redwood Creek Challenge Trail requires guests to be between 42 and 63 inches and under 13 years old. It is the one place where being tall works against you."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Disneyland Resort height requirements, verified July 2026",
+        "columns": ["Park", "Attraction", "Height"],
+        "rows": [
+          ["Disneyland Park", "Autopia", "32in (54in to drive alone)"],
+          ["Disneyland Park", "Gadget's Go Coaster", "35in"],
+          ["Disneyland Park", "Big Thunder Mountain Railroad", "40in"],
+          ["Disneyland Park", "Space Mountain", "40in"],
+          ["Disneyland Park", "Tiana's Bayou Adventure", "40in"],
+          ["Disneyland Park", "Star Wars: Rise of the Resistance", "40in"],
+          ["Disneyland Park", "Millennium Falcon: Smugglers Run", "40in"],
+          ["Disneyland Park", "Matterhorn Bobsleds", "42in"],
+          ["Disneyland Park", "Indiana Jones Adventure", "46in"],
+          ["California Adventure", "Jumpin' Jellyfish", "40in"],
+          ["California Adventure", "Silly Symphony Swings", "40in (48in for the solo and tandem variation)"],
+          ["California Adventure", "Inside Out Emotional Whirlwind", "40in"],
+          ["California Adventure", "Guardians of the Galaxy - Mission: BREAKOUT!", "40in"],
+          ["California Adventure", "Radiator Springs Racers", "40in"],
+          ["California Adventure", "Goofy's Sky School", "42in"],
+          ["California Adventure", "Grizzly River Run", "42in"],
+          ["California Adventure", "Golden Zephyr", "42in"],
+          ["California Adventure", "Redwood Creek Challenge Trail (zip line)", "42-63in, and under 13 years old"],
+          ["California Adventure", "Incredicoaster", "48in"]
+        ]
+      },
+      "callout": {
+        "type": "warning",
+        "title": "Same ride, different rules",
+        "body": "Three attractions share a name across the two resorts and do not share a height requirement. Space Mountain is 44in in Florida and 40in in California. Big Thunder Mountain Railroad is 38in in Florida and 40in in California. Millennium Falcon: Smugglers Run is 38in in Florida and 40in in California. A family who did one resort last year will get at least one of these wrong."
+      }
+    },
+    {
+      "id": "milestones",
+      "heading": "What a child can ride at each height",
+      "body": [
+        "This is the table most parents actually want. Each row shows what newly opens up at that height, and the running total counts every height-restricted attraction across all six parks that a child of that height can board. The two split-requirement attractions — Mission: SPACE and Silly Symphony Swings — appear at both of their thresholds, which is why the final total is 42 rather than 40.",
+        "Keep the denominator in mind. Even a child too short for every one of these can ride the great majority of attractions at both resorts: every dark ride at Fantasyland, every boat, every train, every show, Pirates, Haunted Mansion, Jungle Cruise, the carousels, the spinners, the safari, and the entire World Showcase. The height chart describes the exceptions, not the parks."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Height milestones and what each one unlocks",
+        "columns": ["Height", "Newly unlocked", "Running total"],
+        "rows": [
+          ["Under 32in", "Nothing on the height chart — but well over a hundred unrestricted attractions across the six parks", "0 of 42"],
+          ["32in", "Tomorrowland Speedway (MK), Alien Swirling Saucers (DHS), Autopia (DL)", "3 of 42"],
+          ["35in", "The Barnstormer (MK), Gadget's Go Coaster (DL)", "5 of 42"],
+          ["38in", "Seven Dwarfs Mine Train (MK), Big Thunder Mountain Railroad (MK), Slinky Dog Dash (DHS), Millennium Falcon: Smugglers Run (DHS), Kali River Rapids (DAK)", "10 of 42"],
+          ["40in", "Tiana's Bayou Adventure (MK and DL), Soarin' Around the World, Test Track, Mission: SPACE Green (EPCOT), Star Tours, Rise of the Resistance (DHS and DL), Tower of Terror (DHS), Big Thunder Mountain Railroad (DL), Space Mountain (DL), Millennium Falcon: Smugglers Run (DL), Jumpin' Jellyfish, Silly Symphony Swings, Inside Out Emotional Whirlwind, Mission: BREAKOUT!, Radiator Springs Racers (DCA)", "27 of 42"],
+          ["42in", "Guardians of the Galaxy: Cosmic Rewind (EPCOT), Matterhorn Bobsleds (DL), Goofy's Sky School, Grizzly River Run, Golden Zephyr, Redwood Creek zip line (DCA)", "33 of 42"],
+          ["44in", "Space Mountain (MK), Mission: SPACE Orange (EPCOT), Avatar Flight of Passage, Expedition Everest (DAK)", "37 of 42"],
+          ["46in", "Indiana Jones Adventure (DL)", "38 of 42"],
+          ["48in", "TRON Lightcycle / Run (MK), Rock 'n' Roller Coaster Starring The Muppets (DHS), Incredicoaster (DCA), the solo and tandem variation of Silly Symphony Swings (DCA)", "42 of 42"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "The 40-inch cliff",
+        "body": "Going from 39 to 40 inches is worth more than any other inch in the chart — it takes a child from 10 available attractions to 27. If your child is close and your trip is flexible, delaying by six months can genuinely change which parks are worth visiting. If the trip is fixed, plan the Florida days around Magic Kingdom and Animal Kingdom rather than Hollywood Studios."
+      }
+    },
+    {
+      "id": "how-measuring-works",
+      "heading": "How measuring actually works",
+      "body": [
+        "Both resorts measure against a fixed stick or bar at the attraction entrance, with shoes on and hats off. A Cast Member does the measuring; you do not self-certify. On many attractions there is a second check at the load platform, which exists specifically to catch kids who slouched at the first one.",
+        "Shoes count, and that is official rather than a loophole — the requirement is set for a person wearing footwear, because everyone rides in shoes. A thick-soled trainer is entirely legitimate and can be worth a genuine quarter to half an inch. Hats, headbands, ears, and teased hair do not count and will be flattened or removed by the Cast Member's hand on the measuring bar.",
+        "Posture matters more than parents expect. Kids slouch when they are nervous and slouch harder when they are tired. Stand your child straight against the stick, feet flat, heels together, chin level. Do not lift them, do not have them stand on tiptoes, and do not argue with the result — the Cast Member measuring is following a written standard and has no discretion."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Shoes on, hats off, heels flat on the floor, back against the stick.",
+          "Measure at the entrance and expect a second check at the boarding platform on most thrill attractions.",
+          "Nobody is measured by eye. If a Cast Member waves you through, they have already made a judgement, but the platform check still happens.",
+          "The measurement stands for that attraction on that day. Growing an inch between your Tuesday and Friday park days will not be believed.",
+          "Cast Members cannot make exceptions. Asking places them in a position where the only available answer is no."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "wristbands",
+      "heading": "The wristband system",
+      "body": [
+        "Both resorts issue a coloured wristband to guests who measure at a borderline height, so they do not have to be measured again at every attraction. It is genuinely a kindness: the alternative is a child getting stood against a stick eight times a day, which turns into a running commentary on their body.",
+        "The band is colour-coded to the threshold the child cleared and is valid for the day. Ask for one at the first attraction where your child is measured — Cast Members will usually offer, but not always, and it is a five-second request that saves an enormous amount of friction.",
+        "Two things the band does not do. It does not override a second measurement if a Cast Member has a genuine concern at the load platform, and it does not carry over to tomorrow. It also does not travel between resorts, which is obvious but catches out families doing a coast-to-coast trip."
+      ],
+      "list": null,
+      "table": null,
+      "callout": {
+        "type": "tip",
+        "title": "Ask for the band at the tallest ride they clear",
+        "body": "Get your child measured first at the highest threshold you think they will clear, not the lowest. A band for the higher number carries them into every attraction below it, whereas a band issued at a 38in ride still leaves them being measured at every 40in attraction for the rest of the day."
+      }
+    },
+    {
+      "id": "borderline-kids",
+      "heading": "Honest advice about borderline kids",
+      "body": [
+        "Measure at home before you book, on a hard floor, against a doorframe, in the shoes they will wear. Then subtract a quarter inch for the difference between a relaxed home measurement and a Cast Member's stick after eight hours of walking. If your child clears the threshold at home by less than half an inch, plan for the possibility that they will be turned away at least once.",
+        "Do not pad. Insoles, lifts, hidden platforms, and teased hair are all tried constantly and all get caught, usually at the load platform after your child has queued for fifty minutes and got excited. The failure mode is genuinely awful: a child who was told they could ride, standing at the front of the line, in front of everyone, being sent back. That is a much worse day than being told no at the entrance.",
+        "Do have the conversation before the queue, not during it. A child who knows in advance that they are close to the line, and that there is a plan for what happens either way, handles a no far better than one who is blindsided. Have a specific, appealing alternative ready — not a vague promise, an actual named thing you will do instead in the next twenty minutes.",
+        "And be honest with yourself about whether they should ride even if they clear. Height is a safety measurement about restraint fit; it is not a readiness assessment. A just-40-inch child can legally ride Tower of Terror and will not enjoy it. Our guide to what actually frightens young children is a better tool for that decision than the measuring stick."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Measure at home in the actual park shoes, on a hard floor, first thing in the morning.",
+          "Ride the borderline attractions early in the day, when your child is at their tallest and freshest.",
+          "Get a wristband at the first measurement and get it for the highest threshold they clear.",
+          "Tell the child in advance if they are borderline, and agree the alternative plan before you get to the entrance.",
+          "Never pad shoes or hair. The platform re-check exists to catch exactly that, and the cost of getting caught falls entirely on the child.",
+          "If they are turned away, do not appeal to the Cast Member. Leave, do the alternative, and come back next trip."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "oddities",
+      "heading": "The exceptions and oddities",
+      "body": [
+        "Six attractions do not follow the simple one-number pattern, and every one of them catches families out.",
+        "Tomorrowland Speedway and Autopia both have two numbers: 32 inches to ride as a passenger with an adult, and 54 inches to drive the car alone. That second number is the tallest threshold at either resort and it surprises parents of nine-year-olds every day of the week. Mission: SPACE at EPCOT runs two versions of the same ride from one queue at two different requirements — the milder Green side at 40 inches and the spinning Orange side at 44. Silly Symphony Swings has a standard requirement of 40 inches and a higher 48-inch bar for its solo and tandem seating variation.",
+        "The Redwood Creek Challenge Trail zip line at California Adventure is the strangest one at either resort: guests must be between 42 and 63 inches tall and under 13 years old. It is an attraction adults are explicitly too tall and too old for, which makes it one of the few genuinely kid-only experiences at a Disney park and a good reason to send a seven-year-old off with one parent while the other rides Incredicoaster."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Attractions with more than one height rule",
+        "columns": ["Attraction", "Park", "The rule"],
+        "rows": [
+          ["Tomorrowland Speedway", "Magic Kingdom", "32in to ride as a passenger, 54in to drive alone"],
+          ["Autopia", "Disneyland Park", "32in to ride as a passenger, 54in to drive alone"],
+          ["Mission: SPACE", "EPCOT", "40in for the Green version, 44in for the Orange version"],
+          ["Silly Symphony Swings", "California Adventure", "40in standard, 48in for the solo and tandem variation"],
+          ["Redwood Creek Challenge Trail zip line", "California Adventure", "42-63in and under 13 years old — the only maximum height at either resort"],
+          ["Big Thunder Mountain Railroad", "Magic Kingdom vs Disneyland Park", "38in in Florida, 40in in California, for what is nominally the same ride"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "planning-by-height",
+      "heading": "Planning a trip around a short rider",
+      "body": [
+        "Pick your parks by your shortest rider, not your tallest. A family whose youngest is 36 inches will have a far better time at Magic Kingdom and Disneyland Park than at Hollywood Studios or California Adventure, and the difference is not marginal — it is the difference between a park where three attractions are off-limits and one where seven are.",
+        "For Walt Disney World with a child under 40 inches, weight your days toward Magic Kingdom and Animal Kingdom. Animal Kingdom is particularly good value here because its trails, shows, and the safari have no requirements at all, so a small child does close to the full park. Hollywood Studios is the hardest sell and is best done as a half day with heavy Rider Switch use.",
+        "For Disneyland Resort with a child under 40 inches, spend the bulk of your time in Disneyland Park, which has the deepest catalogue of unrestricted classics anywhere — the Fantasyland dark rides, the Storybook Land Canal Boats, Casey Jr., the Jungle Cruise, Pirates, and the Haunted Mansion all take any height. California Adventure is a half day at that height, and Rider Switch does the heavy lifting.",
+        "Finally: everybody underestimates how much a five-year-old enjoys the things without height requirements. Parents fixate on the coasters their child cannot ride and forget that the carousel, the train, the riverboat, and a slow boat through Pirates are often the memories that stick."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Under 32in: go to Magic Kingdom and Disneyland Park. Skip Hollywood Studios entirely unless you are using Rider Switch aggressively.",
+          "32in to 37in: add Alien Swirling Saucers and the two kiddie coasters. Animal Kingdom becomes excellent value.",
+          "38in to 39in: Seven Dwarfs Mine Train, Slinky Dog Dash, and Big Thunder in Florida turn Magic Kingdom and Hollywood Studios into real days out.",
+          "40in and up: every park is fully in play. This is where a park hopper starts earning its money.",
+          "44in and up: Animal Kingdom stops being a half day and becomes a full one, because Flight of Passage and Expedition Everest open.",
+          "48in and up: you are done. Every attraction at both resorts is available."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "money",
+        "title": "Rider Switch changes the math",
+        "body": "Before you write off a park because of a height requirement, read our Rider Switch guide. It lets one adult wait with the short rider while the other rides, then swaps without queueing again — and at both resorts a third party member can usually ride twice as a result. For a family of four with one child too short, Rider Switch turns Hollywood Studios from a bad day into a workable one."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the lowest height requirement at a Disney park?",
+      "a": "Thirty-two inches. Tomorrowland Speedway at Magic Kingdom, Alien Swirling Saucers at Hollywood Studios, and Autopia at Disneyland Park all sit at 32in. Below that height there is no attraction with a posted requirement that a child can ride, though the overwhelming majority of attractions at both resorts have no requirement at all."
+    },
+    {
+      "q": "What is the tallest height requirement?",
+      "a": "For riding, 48 inches: TRON Lightcycle / Run at Magic Kingdom, Rock 'n' Roller Coaster Starring The Muppets at Hollywood Studios, Incredicoaster at California Adventure, and the solo and tandem variation of Silly Symphony Swings. The single tallest number posted anywhere is 54 inches, which is what you need to drive a car alone on Tomorrowland Speedway or Autopia."
+    },
+    {
+      "q": "Do they really measure with shoes on?",
+      "a": "Yes, at both resorts, and it is the official standard rather than a loophole. Requirements are set assuming a guest is wearing footwear. A supportive trainer with a substantial sole is entirely fair game; a lift hidden inside one is not, and the check at the boarding platform is there to catch it."
+    },
+    {
+      "q": "Why is Space Mountain 44 inches in Florida but 40 in California?",
+      "a": "They are different rides that share a name. The Florida version has a different track layout, different vehicles, and a different restraint system from the Disneyland one, and each gets its own requirement from the ride manufacturer. It is the most consequential difference between the two resorts for families, because it means a 40-inch child rides Space Mountain in Anaheim and not in Orlando."
+    },
+    {
+      "q": "Can my child be re-measured if they are turned away?",
+      "a": "Practically, no. Cast Members measure to a written standard against a fixed stick and have no discretion to round up. Asking a second Cast Member at the same attraction will produce the same answer and puts everyone in an unpleasant position. If your child is genuinely borderline, come back first thing the next morning when they are at their tallest."
+    },
+    {
+      "q": "What is the wristband for?",
+      "a": "It records that your child has already been measured at a given threshold so they are not stood against a stick at every attraction for the rest of the day. Ask for one at the tallest ride they clear, because a band for a higher threshold covers everything below it. It lasts for the day and does not carry over."
+    },
+    {
+      "q": "Are height requirements ever lowered?",
+      "a": "Occasionally, and usually only when a ride is rebuilt. Big Thunder Mountain Railroad at Magic Kingdom went from 40 inches to 38 inches when it reopened on 3 May 2026 after a major refurbishment. That is the exception rather than the rule — the direction of travel on new attractions has generally been upward."
+    },
+    {
+      "q": "My child clears the height but is nervous. Should they ride?",
+      "a": "Height is a restraint-fit measurement, not a readiness assessment, and the two are unrelated. A just-tall-enough child can legally board Tower of Terror or Expedition Everest and have a genuinely bad time. Read our guide to what frightens young children and use that to decide, then use Rider Switch so nobody in the party misses out either way."
+    }
+  ],
+  "related": ["rider-switch", "is-it-scary", "motion-sickness", "first-disney-trip"],
+  "lastVerified": "2026-07"
+}

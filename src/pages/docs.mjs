@@ -203,7 +203,7 @@ export function guidePage (guide, data) {
       page: {
         url: urls.guide(guide.slug),
         title: guide.title,
-        description: guide.metaDescription,
+        description: C.truncate(guide.metaDescription, 158),
         trail,
         modified: `${guide.lastVerified || '2026-07'}-01`,
         ogType: 'article',
@@ -213,7 +213,7 @@ export function guidePage (guide, data) {
         S.article(site, {
           url: urls.guide(guide.slug),
           title: guide.h1 || guide.title,
-          description: guide.metaDescription,
+          description: C.truncate(guide.metaDescription, 158),
           modified: `${guide.lastVerified || '2026-07'}-01`,
           section: CATEGORY_LABEL[guide.category] || 'Planning',
         }),
@@ -445,7 +445,7 @@ export function comparePage (page, data) {
       page: {
         url: urls.compare(page.slug),
         title: page.title,
-        description: page.metaDescription,
+        description: C.truncate(page.metaDescription, 158),
         trail,
         modified: `${page.lastVerified || '2026-07'}-01`,
         ogType: 'article',
@@ -455,7 +455,7 @@ export function comparePage (page, data) {
         S.article(site, {
           url: urls.compare(page.slug),
           title: page.h1 || page.title,
-          description: page.metaDescription,
+          description: C.truncate(page.metaDescription, 158),
           modified: `${page.lastVerified || '2026-07'}-01`,
           section: 'Comparisons',
         }),

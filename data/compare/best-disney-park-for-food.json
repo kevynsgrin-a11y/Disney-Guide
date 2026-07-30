@@ -1,0 +1,403 @@
+{
+  "slug": "best-disney-park-for-food",
+  "title": "Best Disney Park for Food: All Six Ranked",
+  "h1": "The Best Disney Park for Food",
+  "metaDescription": "EPCOT versus California Adventure is the real fight, and we settle it. All six US Disney parks ranked on table service, quick service, bars, snacks, and honest value.",
+  "summary": "EPCOT wins on breadth — eleven pavilions and sixteen table-service kitchens. California Adventure wins on hit rate and has the best bar program at any Disney park. Magic Kingdom is last, and it is not close.",
+  "readingTimeMinutes": 11,
+  "contenders": [
+    { "key": "epcot", "name": "EPCOT", "subtitle": "Walt Disney World" },
+    { "key": "california-adventure", "name": "Disney California Adventure", "subtitle": "Disneyland Resort" },
+    { "key": "disneyland-park", "name": "Disneyland Park", "subtitle": "Disneyland Resort" },
+    { "key": "animal-kingdom", "name": "Disney's Animal Kingdom", "subtitle": "Walt Disney World" },
+    { "key": "hollywood-studios", "name": "Disney's Hollywood Studios", "subtitle": "Walt Disney World" },
+    { "key": "magic-kingdom", "name": "Magic Kingdom", "subtitle": "Walt Disney World" }
+  ],
+  "verdict": {
+    "short": "EPCOT wins on sheer breadth: eleven pavilions, sixteen table-service kitchens, and the only park where eating is the main event. California Adventure has the higher hit rate and the best bar.",
+    "body": [
+      "This is the closest ranking on the site and the two contenders are exactly who you expect. EPCOT and Disney California Adventure are the only two Disney parks where an adult would plan a day around the food, and the gap between them is narrower than the internet believes.",
+      "EPCOT wins, but it wins on volume rather than quality. Sixteen table-service restaurants, eleven country pavilions with their own quick-service windows, and a lap around a lake where each stop is a different cuisine. Nothing else in American theme parks is structured that way. Graze around World Showcase — School Bread at $4.99 in Norway, a jambon-beurre baguette at $12.50 in France, cheddar cheese soup at $13 in Canada — and you get a genuinely good eating day that costs less than one sit-down meal.",
+      "But EPCOT's floor is low and people do not say so. Several of its sit-down restaurants are expensive, ordinary, and coasting on their pavilion. A $60 dinner in World Showcase is frequently worse than a $20 lunch across the esplanade in Anaheim. And a meaningful share of what people love about eating at EPCOT comes from the rotating booths the park runs for much of the year, which are outside the scope of a permanent-operations ranking like this one.",
+      "California Adventure has the better average meal, the better bar program, and the better quick service. Lamplight Lounge does real cooking, Carthay Circle is the best special-occasion room at either resort, Pym Test Kitchen is genuinely inventive, and the walk-up tier — Cozy Cone's Chili Cone Queso at $11.49, the hand-dipped corn dog at $11.29, Smokejumpers Grill — beats anything on the Florida quick-service list. It loses to EPCOT because three table-service restaurants is a thin bench, not because the food is worse."
+    ]
+  },
+  "intro": [
+    "Ranking Disney parks on food requires deciding what you are ranking. Best single meal? Best average meal? Most interesting snacks? Best place to drink? Those produce four different orders, and most articles pick whichever supports the answer they already wanted.",
+    "Here is the weighting used below: 30 percent table-service depth and quality, 30 percent quick-service and snack quality, 20 percent bar and drinks program, 20 percent value — how good the food is relative to what it costs. Theming counts for nothing. A restaurant with a spectacular room and mediocre food is a photo opportunity, and it is graded as one.",
+    "One scope note. This site covers permanent operations only, so the rotating booth events EPCOT runs for much of the year are not counted. That is not a technicality — it is the single biggest reason EPCOT's lead here is narrower than its reputation. Strip out the temporary booths and the contest with California Adventure gets genuinely close.",
+    "Prices below were verified in July 2026 and move regularly. Treat them as calibration, not as a budget."
+  ],
+  "dimensions": [
+    {
+      "name": "Table-service depth",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Sixteen table-service restaurants, one or more in most World Showcase pavilions. Le Cellier, Via Napoli, Teppan Edo, Biergarten, and Space 220 are the ones worth the reservation.",
+        "california-adventure": "Three: Carthay Circle, Lamplight Lounge, and Wine Country Trattoria. Small bench, high hit rate.",
+        "disneyland-park": "Four, including Blue Bayou inside the Pirates ride building and Cafe Orleans next door. Club 33 is members-only.",
+        "animal-kingdom": "Four: Tiffins, Tusker House, Yak and Yeti, and Rainforest Cafe. Tiffins is the most underbooked good restaurant at Walt Disney World.",
+        "hollywood-studios": "Five, led by The Hollywood Brown Derby. 50's Prime Time Cafe and Sci-Fi Dine-In are theme rooms first.",
+        "magic-kingdom": "Seven, and the weakest seven of the six parks. Skipper Canteen is the one that deserves your money."
+      },
+      "note": "Restaurant count and restaurant quality are different things. Magic Kingdom has almost twice California Adventure's table-service count and loses this category on quality."
+    },
+    {
+      "name": "Best single meal",
+      "winner": "california-adventure",
+      "cells": {
+        "epcot": "Le Cellier's steak or a Via Napoli margherita pizza at about $22 for a shareable pie. Space 220 is a room you pay for rather than a meal.",
+        "california-adventure": "Carthay Circle. It is the best restaurant either resort operates inside a park gate, and the fried biscuits at $16.99 are the appetizer people order twice.",
+        "disneyland-park": "The Monte Cristo at Cafe Orleans, $25.99 — a deep-fried ham and cheese sandwich dusted with powdered sugar, and one of the two or three most famous single dishes in any Disney park.",
+        "animal-kingdom": "Tiffins. A genuinely serious restaurant with an African, Asian, and South American menu, and the quietest good dining room at Walt Disney World.",
+        "hollywood-studios": "The Hollywood Brown Derby's grapefruit cake at $14 is the thing to order; the rest of the menu is competent and expensive.",
+        "magic-kingdom": "Jungle Navigation Co. Ltd. Skipper Canteen, which is both the best food in the park and the easiest reservation to get."
+      },
+      "note": "Cafe Orleans and Skipper Canteen are the two best value-for-quality table-service meals at either resort. Both are routinely available at short notice."
+    },
+    {
+      "name": "Quick service",
+      "winner": "california-adventure",
+      "cells": {
+        "epcot": "Strong and scattered. Kringla Bakeri in Norway, Les Halles in France, and Katsura Grill in Japan are the reliable ones; the pavilion windows beat most of the sit-downs.",
+        "california-adventure": "The best of the six. Cozy Cone's Chili Cone Queso at $11.49, Corn Dog Castle at $11.29, Smokejumpers Grill, Pym Test Kitchen, and Lamplight's downstairs window.",
+        "disneyland-park": "Very good. Bengal Barbecue skewers, the Ronto Wrap at $14.49 in Galaxy's Edge, Jolly Holiday's sandwiches, and the Matterhorn Macaroon at about $3.49.",
+        "animal-kingdom": "Satu'li Canteen in Pandora is the best quick service at Walt Disney World — build-your-own bowls that are actually good, with the chargrilled beef bowl at $16.49. Flame Tree Barbecue has the best shaded seating on property.",
+        "hollywood-studios": "Docking Bay 7 and Woody's Lunch Box carry the park. Totchos at $12.49, the Ronto Wrap at $13.99, and lunch box tarts at $6.49.",
+        "magic-kingdom": "The weakest at either resort. Columbia Harbour House is the honest recommendation, mostly because it is quiet and upstairs."
+      },
+      "note": "Satu'li Canteen and Woody's Lunch Box are the two Florida quick-service spots worth building a day around. Neither is in the park most people would guess."
+    },
+    {
+      "name": "Bar and drinks program",
+      "winner": "california-adventure",
+      "cells": {
+        "epcot": "Broad and pleasant — a drink in each pavilion is the classic World Showcase afternoon. The avocado margarita in Mexico at $18 and the Grand Marnier orange slush in France at $14.50 are the two people actually come for.",
+        "california-adventure": "The best at any Disney park. Lamplight Lounge, the Carthay Circle lounge, Bayside Brews, Sonoma Terrace, and a real cocktail list rather than a novelty list.",
+        "disneyland-park": "Almost nothing. Alcohol is limited to Oga's Cantina in Galaxy's Edge, Blue Bayou, and members-only Club 33. This is the park's biggest food-and-drink weakness.",
+        "animal-kingdom": "Better than expected. Nomad Lounge is one of the best bars at Walt Disney World, and the Night Blossom at $7.49 in Pandora is the non-alcoholic drink worth the queue.",
+        "hollywood-studios": "Oga's Cantina is a legitimately good bar with a hard reservation. Beyond it, the park is thin.",
+        "magic-kingdom": "The most restricted of the six. Alcohol is served only in the table-service restaurants, and there is no bar to sit at."
+      },
+      "note": "If having a drink during your park day matters, this row eliminates two parks outright. Magic Kingdom and Disneyland Park are both effectively dry outside a handful of rooms."
+    },
+    {
+      "name": "Snacks",
+      "winner": "disneyland-park",
+      "cells": {
+        "epcot": "The grazing park. School Bread at $4.99 in Norway is the best-value snack at either resort, and the Fife & Drum turkey leg at $13.25 is the priciest version of that item on property.",
+        "california-adventure": "Corn dogs at $11.29, Jack-Jack Cookie Num Nums at $6.49, and the Chili Cone Queso at $11.49 served in a bread cone shaped like a traffic cone.",
+        "disneyland-park": "The strongest snack lineup of the six. The hand-dipped corn dog at $11.29, Mickey-shaped beignets at $7.49, Dole Whip at $6.49 or a float at $7.29, the Matterhorn Macaroon at about $3.49, and a turkey leg at $12.99.",
+        "animal-kingdom": "Zebra Domes at $5.99 from Tusker House's kiosk are the sleeper. Fried wontons with pineapple and cream cheese at $13.99 at Yak and Yeti's counter are the other one.",
+        "hollywood-studios": "The carrot cake cookie at $6.99 and the lunch box tart at $6.49 are both genuinely good. Ronto Wrap at $13.99 is a meal disguised as a snack.",
+        "magic-kingdom": "Dole Whip at $6.49, the Citrus Swirl at $6.29, the Cheshire Cat tail at $6.29, and a warm cinnamon roll at $7.49 from Gaston's. Solid, and about as far as it goes."
+      },
+      "note": "Standard cart snacks are consistent across Walt Disney World: a Mickey pretzel runs $8.50, a churro $5.50, a turkey leg $11.75, and a Mickey premium bar around $5.75 to $6.00 at either resort."
+    },
+    {
+      "name": "Value",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Best if you graze and worst if you sit down. Five pavilion snacks across the promenade costs less than one table-service entree and produces a better day.",
+        "california-adventure": "Consistently fair. Quick-service portions are large, Lamplight Lounge is priced sensibly for what it is, and Carthay Circle earns its premium.",
+        "disneyland-park": "Good at the counter, limited at the table. Four table-service restaurants means most of your meals will be quick service, which is fine because it is good.",
+        "animal-kingdom": "The best quick-service value at Walt Disney World. A $16.49 bowl at Satu'li Canteen is a real meal and beats most $30 entrees on property.",
+        "hollywood-studios": "Poor. Fried chicken at 50's Prime Time runs $26.99 for food you would pay $18 for anywhere else, and you are paying for the room.",
+        "magic-kingdom": "The worst of the six. Prix fixe pricing at the headline restaurants buys you a room and a character visit rather than a meal."
+      },
+      "note": "The single best value move at any Disney park: skip one table-service reservation and spend the same money on five snacks. This is especially true at EPCOT and Disneyland Park."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "epcot",
+      "headline": "Eleven pavilions, sixteen table-service kitchens, and the only Disney park where eating is the main event.",
+      "body": [
+        "No other theme park in America is built the way EPCOT is. World Showcase gives you eleven country pavilions around a lake, most with both a sit-down restaurant and a quick-service window, and the practical result is that you can eat five small things from five cuisines in an afternoon without ever queuing for a ride.",
+        "The right way to do it is grazing, not reservations. School Bread from Kringla Bakeri in Norway at $4.99 is the best-value item at either resort — a cardamom bun with custard and coconut. A jambon-beurre baguette at Les Halles in France runs $12.50 and is a better lunch than most $30 entrees on property. Canadian cheddar cheese soup at $13 is the thing people come back for. Add a drink in two or three pavilions and you have spent forty dollars on a genuinely good day of eating.",
+        "The table-service tier is where EPCOT's reputation outruns its performance. Le Cellier and Via Napoli are good. Teppan Edo and Biergarten are fun in a group. Space 220 is a room you pay a premium to sit in. And several pavilion restaurants are ordinary food at high prices, sustained by the fact that they are the only restaurant in their country.",
+        "It still wins, because breadth is the whole proposition. Sixteen kitchens beats three, and no other park lets you eat your way around a lake."
+      ],
+      "pros": [
+        "Sixteen table-service restaurants — more than triple any other park's serious count.",
+        "The grazing structure means you can eat well without a single reservation.",
+        "The best drinking lap at either resort, with something in nearly every pavilion.",
+        "School Bread at $4.99 is the best value item at any Disney park.",
+        "Quick-service windows in the pavilions are consistently better than the sit-downs they sit beside."
+      ],
+      "cons": [
+        "The floor is low. Several pavilion restaurants are ordinary food at premium prices.",
+        "A lot of EPCOT's food reputation rests on rotating booth events rather than permanent kitchens.",
+        "Reservations open 60 days out and the good ones go immediately.",
+        "The 1.2-mile promenade means your dinner is a fifteen-minute walk from your appetizer."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "california-adventure",
+      "headline": "The best average meal and the best bar at any Disney park, held back only by a three-restaurant bench.",
+      "body": [
+        "If this ranking measured hit rate rather than breadth, California Adventure would win outright. Its three table-service restaurants are all good, which no other park can say, and its quick-service tier is the strongest of the six.",
+        "Carthay Circle is the best restaurant inside a park gate at either resort — a proper dining room doing proper cooking, with fried biscuits stuffed with cheese and bacon at $16.99 that people order as a second appetizer. Lamplight Lounge on Pixar Pier is the one to book if you only get one: an actual bar with an actual kitchen, and the lobster nachos at $28.99 are a shareable that lives up to the price. Wine Country Trattoria is the weak link and it is still fine.",
+        "The counter tier is where the park separates itself. Cozy Cone's Chili Cone Queso at $11.49 is served in a bread cone shaped like a traffic cone and is better than that description suggests. Corn Dog Castle's hand-dipped corn dog at $11.29 is the same recipe as the famous Disneyland Park one with a fraction of the line. Pym Test Kitchen does scale-play food that is more interesting than most park cooking. Smokejumpers Grill is the best burger at either resort.",
+        "The bar program is the clincher. Disneyland Park is effectively dry; California Adventure has real cocktail lists, beer gardens, and a wine terrace. On a hot afternoon, that alone moves the day across the esplanade."
+      ],
+      "pros": [
+        "The highest quality-per-restaurant of the six — every table-service option is worth eating at.",
+        "The best bar program at any American Disney park.",
+        "Best quick-service tier of the six, led by Cozy Cone and Corn Dog Castle.",
+        "Corn Dog Castle at $11.29 has a fraction of the wait of the Disneyland Park version of the same item.",
+        "Carthay Circle's lounge takes walk-ups when the dining room is booked, which almost nobody knows."
+      ],
+      "cons": [
+        "Only three table-service restaurants. You will run out of new sit-down options on day two.",
+        "Pixar Pier and Cars Land, where much of the food is, have almost no shaded seating.",
+        "Lamplight Lounge is one of the hardest reservations at the resort.",
+        "Prices at the top end are Disney prices — the lobster nachos at $28.99 are a splurge, not a lunch."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "disneyland-park",
+      "headline": "The best snack lineup of the six and two genuinely good restaurants, undone by having almost nowhere to drink.",
+      "body": [
+        "Disneyland Park's food is better than its four-restaurant count suggests, because the counter and cart tier is the strongest at either resort. The hand-dipped corn dog at $11.29 is the single most famous item at Disneyland Resort and deserves it. Mickey-shaped beignets from Mint Julep Bar at $7.49 are the other one. Dole Whip runs $6.49 for a cup and $7.29 for a float. The Matterhorn Macaroon at Jolly Holiday is about $3.49 and is the best cheap sweet at either resort. Bengal Barbecue's skewers in Adventureland are a real lunch for under $10.",
+        "At the table, Cafe Orleans and Blue Bayou carry the park. The Monte Cristo at Cafe Orleans, $25.99, is a deep-fried ham and cheese sandwich dusted with powdered sugar and served with berry preserves, and it is worth ordering once even if it sounds like a dare. Blue Bayou sits inside the Pirates of the Caribbean show building, dining in permanent twilight beside the bayou scene — the room is the draw and the food is decent.",
+        "What holds it back is drinking. Outside Oga's Cantina in Galaxy's Edge, Blue Bayou, and members-only Club 33, Disneyland Park does not serve alcohol. For a park that ranks first on snacks, that is a real gap, and it is why the food-focused move at Disneyland Resort is to eat at California Adventure and ride at Disneyland Park."
+      ],
+      "pros": [
+        "The best snack and cart tier at either resort.",
+        "The Monte Cristo at Cafe Orleans is one of the two or three most famous dishes in any Disney park.",
+        "Blue Bayou's dining room is the best-looking restaurant space Disney operates.",
+        "The Ronto Wrap at $14.49 in Galaxy's Edge is a proper meal for counter money.",
+        "Bengal Barbecue's skewer line moves faster than any other lunch option in the park."
+      ],
+      "cons": [
+        "Effectively dry outside three locations.",
+        "Only four table-service restaurants, and one of them is members-only.",
+        "Blue Bayou is a room you are paying for; the cooking is not the reason to book it.",
+        "Counter seating throughout the park is scarce and largely unshaded at midday."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "animal-kingdom",
+      "headline": "The best quick service at Walt Disney World and the most underbooked good restaurant on property.",
+      "body": [
+        "Animal Kingdom is the sleeper on this list and the park most likely to surprise you. Satu'li Canteen in Pandora is the best quick service at Walt Disney World, full stop: build-your-own bowls with real spice and real vegetables, with the chargrilled beef bowl at $16.49. It is the rare theme park counter meal you would order again in a city.",
+        "Tiffins is the other pillar — a genuinely serious restaurant with African, Asian, and South American influences and the quietest good dining room at the resort. It is chronically underbooked because it sits at the back of a park most people leave by 6 PM. Next door, Nomad Lounge is among the best bars at Walt Disney World and takes walk-ups more often than it should.",
+        "The snack tier is quietly excellent too. Zebra Domes at $5.99 from the Tusker House kiosk are small dome-shaped cakes with a coffee cream filling, and they are the best-value sweet at Walt Disney World. The Night Blossom at $7.49 in Pandora is a layered non-alcoholic drink that is worth the queue once. Flame Tree Barbecue has ribs and chicken at $23.99 and, more importantly, the best shaded waterfront seating at any Walt Disney World park.",
+        "It ranks fourth only because the park is small and the day is short. There are fewer places to eat than at the parks above it, and the good ones are spread far apart."
+      ],
+      "pros": [
+        "Satu'li Canteen is the best quick service at Walt Disney World.",
+        "Tiffins is a serious restaurant that is easy to book because nobody thinks to look here.",
+        "Nomad Lounge is one of the best bars on property and often takes walk-ups.",
+        "Flame Tree Barbecue's shaded waterfront seating is the best outdoor dining space at the resort.",
+        "Zebra Domes at $5.99 are the best-value sweet at Walt Disney World."
+      ],
+      "cons": [
+        "Only four table-service restaurants, and Rainforest Cafe is a chain.",
+        "The park's shorter operating hours mean dinner service is limited.",
+        "Restaurantosaurus closed in February 2026 along with DINOSAUR, thinning the middle of the park.",
+        "Good options are spread far apart across a 580-acre park."
+      ]
+    },
+    {
+      "rank": 5,
+      "key": "hollywood-studios",
+      "headline": "Two strong quick-service spots, one very good bar, and a lot of expensive theme rooms.",
+      "body": [
+        "Hollywood Studios has a real food identity in exactly two places. Woody's Lunch Box in Toy Story Land does totchos at $12.49 and lunch box tarts at $6.49, both of which are better than they need to be. Docking Bay 7 in Galaxy's Edge does the Ronto Wrap at $13.99 and the Felucian garden spread at $16.49, which is the plant-based option people order on purpose rather than by necessity.",
+        "Oga's Cantina is the park's best asset and one of the better bars Disney runs — a genuine cocktail program in a loud, crowded room with a hard reservation. Book it for late afternoon rather than evening; it is easier to get and the light in Galaxy's Edge is better on the way out.",
+        "The table-service tier is where the park loses ground. The Hollywood Brown Derby is competent and expensive, and its grapefruit cake at $14 is the item worth ordering. 50's Prime Time Cafe and Sci-Fi Dine-In Theater are theme experiences with food attached — the fried chicken at $26.99 at Prime Time is fine, and you are paying for the server's bit and the room, which is a legitimate thing to buy as long as you know that is the purchase.",
+        "The carrot cake cookie at $6.99 from the Trolley Car Cafe is the park's best snack and one of the best at Walt Disney World."
+      ],
+      "pros": [
+        "Woody's Lunch Box and Docking Bay 7 are two of the best quick-service spots in Florida.",
+        "Oga's Cantina is a real bar with a real cocktail list.",
+        "The carrot cake cookie at $6.99 is among the best snacks at Walt Disney World.",
+        "The Felucian garden spread at $16.49 is the strongest plant-based main at either resort."
+      ],
+      "cons": [
+        "Two of the five table-service restaurants are theme rooms priced as restaurants.",
+        "Poor value across the board — the fried chicken at $26.99 is the clearest example.",
+        "Almost no shaded outdoor seating.",
+        "Oga's Cantina is one of the hardest reservations at Walt Disney World."
+      ]
+    },
+    {
+      "rank": 6,
+      "key": "magic-kingdom",
+      "headline": "The most-visited park in the world has the worst food of the six, and it is not particularly close.",
+      "body": [
+        "Magic Kingdom has seven table-service restaurants — more than California Adventure, Disneyland Park, or Animal Kingdom — and finishes last anyway. The count is not the problem. The problem is that the headline restaurants sell rooms and character appearances rather than cooking, at prix fixe prices that assume you are not comparing.",
+        "Be Our Guest and Cinderella's Royal Table are the clearest examples. Both are memorable spaces, both are experiences worth buying if the experience is what you want, and neither is a meal you would pay those prices for anywhere else. The Crystal Palace and Tony's Town Square are ordinary. Liberty Tree Tavern's family-style Thanksgiving-style meal is solid and unexciting.",
+        "The exception, and the honest recommendation, is Jungle Navigation Co. Ltd. Skipper Canteen in Adventureland. It has the most interesting menu in the park, the room is well done without being the point, the servers do the Jungle Cruise bit without overdoing it, and it is the easiest reservation to get in Magic Kingdom because most guests walk past it.",
+        "Quick service is the real weakness. Columbia Harbour House is the pick, largely because the upstairs seating is quiet and air conditioned. Everything else is the chicken-tenders-and-flatbread tier. The snacks are fine — Dole Whip at $6.49, the Citrus Swirl at $6.29, the Cheshire Cat tail at $6.29, Gaston's warm cinnamon roll at $7.49 — but fine snacks do not carry a park.",
+        "There is one structural cause worth naming: Magic Kingdom serves alcohol only inside its table-service restaurants, and there is no bar to sit at anywhere in the park. That constrains what its kitchens can be."
+      ],
+      "pros": [
+        "Skipper Canteen is genuinely good and the easiest good reservation at Walt Disney World to get.",
+        "Solid, dependable snacks: Dole Whip at $6.49, Citrus Swirl at $6.29, Cheshire Cat tail at $6.29.",
+        "Columbia Harbour House's upstairs seating is one of the best quiet spots in the park.",
+        "Seven table-service restaurants means you can almost always find a table somewhere."
+      ],
+      "cons": [
+        "The headline restaurants sell rooms and character visits at meal prices.",
+        "The weakest quick-service tier at either resort.",
+        "No bar anywhere in the park; alcohol is restricted to table service.",
+        "Prix fixe pricing at the top end makes comparison shopping impossible, which is the point."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "settling-it",
+      "heading": "EPCOT vs California Adventure, settled",
+      "body": [
+        "Both parks deserve their reputations and they earn them in opposite ways. Here is the specific case, because \"they're both great\" is not an answer.",
+        "EPCOT wins on structure. Eleven pavilions, sixteen table-service kitchens, and a physical layout that turns eating into an activity rather than a break from one. There is no other theme park on earth where a full day of eating is a coherent plan. If you have one park day and food is the reason for it, EPCOT.",
+        "California Adventure wins on execution. Every one of its table-service restaurants is worth eating at, which EPCOT cannot claim. Its quick-service tier is stronger. Its bar program is far stronger. And its prices, at the counter tier especially, are more honest — an $11.29 corn dog and an $11.49 chili cone are real food at real portions.",
+        "The tiebreak that decides it: on a second visit, EPCOT still has fourteen restaurants you have not tried and California Adventure has zero. Breadth compounds; hit rate does not.",
+        "And the caveat that keeps it close: much of EPCOT's food reputation comes from the rotating booth events it runs for a large share of the year, which are not permanent operations and are not counted here. Judged only on the kitchens that are open every day, the gap is a couple of points, not a chasm."
+      ],
+      "callout": {
+        "type": "money",
+        "body": "The best-value eating strategy at either park is the same: skip one table-service reservation and spend that money on five or six counter items instead. At EPCOT that means five pavilions; at California Adventure it means Cozy Cone, Corn Dog Castle, and Smokejumpers. You will eat better and spend less."
+      }
+    },
+    {
+      "id": "best-of-list",
+      "heading": "The twelve things to eat across all six parks",
+      "body": [
+        "If you were assembling one eating itinerary out of all six parks, this is the list. Prices verified July 2026."
+      ],
+      "table": {
+        "columns": ["Item", "Where", "Price", "Verdict"],
+        "rows": [
+          ["School Bread", "Kringla Bakeri, EPCOT", "$4.99", "Best value item at either resort"],
+          ["Hand-dipped corn dog", "Disneyland Park / Corn Dog Castle, DCA", "$11.29", "Worth the reputation; DCA has the shorter line"],
+          ["Monte Cristo", "Cafe Orleans, Disneyland Park", "$25.99", "Order it once; share it"],
+          ["Chargrilled beef bowl", "Satu'li Canteen, Animal Kingdom", "$16.49", "Best quick service at Walt Disney World"],
+          ["Chili Cone Queso", "Cozy Cone, California Adventure", "$11.49", "Better than a bread cone has any right to be"],
+          ["Zebra Domes", "Animal Kingdom", "$5.99", "Best-value sweet in Florida"],
+          ["Ronto Wrap", "Galaxy's Edge", "$14.49 DL / $13.99 HS", "A full meal at snack prices"],
+          ["Carrot cake cookie", "Trolley Car Cafe, Hollywood Studios", "$6.99", "Best cookie at either resort"],
+          ["Mickey-shaped beignets", "Mint Julep Bar, Disneyland Park", "$7.49", "Get them hot or do not bother"],
+          ["Fried biscuits", "Carthay Circle, California Adventure", "$16.99", "The appetizer people order twice"],
+          ["Canadian cheddar cheese soup", "Le Cellier / Canada, EPCOT", "$13.00", "Worth a walk across World Showcase"],
+          ["Dole Whip", "Both resorts", "$6.49 cup / $7.29 float", "The float is the better purchase"]
+        ]
+      }
+    },
+    {
+      "id": "overrated",
+      "heading": "What is overrated, and what to order instead",
+      "body": [
+        "Honest verdicts are the point of this site, so here are the ones people push back on.",
+        "**Character dining is a photo package with food attached.** Cinderella's Royal Table, The Crystal Palace, and Tusker House all charge restaurant prices for buffet or fixed-menu food and deliver their value in character interactions. If the interactions are what you want, buy it happily. If you want a good meal, book Skipper Canteen or Tiffins instead and meet characters in the park for free.",
+        "**Be Our Guest is a dining room, not a restaurant.** The West Wing is a genuinely impressive space. The prix fixe pricing is high for what arrives. Go for the room, at lunch if the option exists, and adjust expectations for the plate.",
+        "**Space 220 sells a view.** The conceit — dining in low orbit — is executed well, and the food is priced as though the room were free. It is a fun one-time booking and a poor recommendation for a first EPCOT meal.",
+        "**Blue Bayou's food is the second reason to go.** The room, sitting inside the Pirates ride building in permanent twilight, is the first reason and it is a very good one. Book it for the setting, order the gumbo, and do not expect the kitchen to be the story.",
+        "**The turkey leg is not a meal.** It is $11.75 at Walt Disney World, $13.25 at EPCOT's Fife & Drum, and $12.99 at Disneyland, and it is mostly a photograph. If you want a real portable meal for that money, a Ronto Wrap does the job better.",
+        "**Underrated, in exchange:** Satu'li Canteen, Skipper Canteen, Nomad Lounge, Cafe Orleans, Flame Tree Barbecue's seating, and the pavilion quick-service windows at EPCOT that everyone walks past on the way to a reservation."
+      ]
+    },
+    {
+      "id": "booking",
+      "heading": "How to book without wasting a day",
+      "body": [
+        "Reservations at Walt Disney World open 60 days in advance, and the handful of restaurants that are genuinely hard — Space 220, Oga's Cantina, Lamplight Lounge on the California side — go within minutes. Everything else is available far later than people assume.",
+        "The practical approach: book one reservation per park day, at a time that suits your ride plan rather than your appetite, and fill the rest with counter service. Two table-service meals in a single park day burns three hours and most of that time is in a chair, not in the park.",
+        "The best booking window nobody uses is the day-of window. Cancellations release constantly, especially in the two hours before a seating, and Skipper Canteen, Tiffins, Cafe Orleans, and the Carthay Circle lounge are all regularly available same-day. Check the app while you are standing in a queue.",
+        "Lounges are the loophole. The Carthay Circle lounge, Nomad Lounge, and Lamplight Lounge's bar seating all serve the full or near-full menu, take walk-ups far more often than the dining rooms, and do not require a 60-day plan. That is the single most useful piece of dining advice on this page for a repeat visitor."
+      ],
+      "callout": {
+        "type": "tip",
+        "body": "Mobile ordering is available at most quick-service locations and almost nobody places the order early enough. Put the order in an hour before you want to eat, from the queue of whatever you are riding, and pick a pickup window. You walk past the line."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "epcot": [
+      "You want a full day where eating is the activity, not the intermission.",
+      "You would rather graze five countries than sit down once.",
+      "You want the widest table-service selection at either resort.",
+      "You want a drink in your hand for most of the afternoon."
+    ],
+    "california-adventure": [
+      "You want the best average meal quality of the six parks.",
+      "A real cocktail program matters to you.",
+      "You are eating mostly at counters and want those counters to be good.",
+      "You want one excellent special-occasion dinner at Carthay Circle."
+    ],
+    "disneyland-park": [
+      "You care more about snacks and carts than about sit-down meals.",
+      "The Monte Cristo at Cafe Orleans is on your list.",
+      "You want to eat inside the Pirates of the Caribbean show building at Blue Bayou.",
+      "You do not need a drink with lunch, because you will not get one here."
+    ],
+    "animal-kingdom": [
+      "You want the best quick-service meal at Walt Disney World.",
+      "You want a serious sit-down dinner without a 60-day booking fight.",
+      "Shaded outdoor seating matters to you — Flame Tree Barbecue is the best on property.",
+      "You would rather find the underrated option than the famous one."
+    ],
+    "hollywood-studios": [
+      "Oga's Cantina is on your list and you got the reservation.",
+      "You want the two strongest quick-service spots in Florida in one park.",
+      "You are buying the room at 50's Prime Time or Sci-Fi and you know that is the purchase.",
+      "The carrot cake cookie is reason enough for you, which is fair."
+    ],
+    "magic-kingdom": [
+      "You want character dining and are buying the interactions, not the food.",
+      "Skipper Canteen is on your list — it is the one genuinely good meal here.",
+      "You are eating snacks all day and having a real dinner outside the park.",
+      "You value seat availability over quality; there are seven table-service rooms here."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which Disney park has the best food?",
+      "a": "EPCOT, on breadth — eleven country pavilions, sixteen table-service restaurants, and a layout that makes eating the activity rather than a break from it. Disney California Adventure has the better average meal and a far better bar program, and it would win a ranking based on hit rate rather than selection."
+    },
+    {
+      "q": "Is EPCOT really better than California Adventure for food?",
+      "a": "Yes, but by less than its reputation suggests. Every one of California Adventure's three table-service restaurants is good, which EPCOT cannot say about its sixteen, and its counter tier is stronger. EPCOT wins because breadth compounds: on a second visit it still has fourteen restaurants you have not tried."
+    },
+    {
+      "q": "Which Disney park has the worst food?",
+      "a": "Magic Kingdom, despite having seven table-service restaurants. The headline rooms sell atmosphere and character appearances at prix fixe prices, the quick-service tier is the weakest at either resort, and there is no bar anywhere in the park. Jungle Navigation Co. Ltd. Skipper Canteen is the genuine exception and the easiest good reservation at Walt Disney World to get."
+    },
+    {
+      "q": "What is the single best thing to eat at a Disney park?",
+      "a": "For value, School Bread at Kringla Bakeri in EPCOT's Norway pavilion at $4.99. For a full meal, the chargrilled beef bowl at Satu'li Canteen in Animal Kingdom at $16.49. For the one dish people fly in for, the Monte Cristo at Cafe Orleans in Disneyland Park at $25.99 — share it, it is enormous."
+    },
+    {
+      "q": "Is character dining worth the money?",
+      "a": "Only if you are buying the character interactions. Character meals charge full restaurant prices for buffet or fixed-menu food, and the cooking is rarely the reason anyone books. If you want the interactions and the guaranteed photos, it is a fair trade. If you want a good meal, book a regular restaurant and meet characters elsewhere in the park for free."
+    },
+    {
+      "q": "How far in advance do I need dining reservations?",
+      "a": "Walt Disney World opens reservations 60 days out, and only a handful — Space 220, Oga's Cantina, and the character meals — actually require that. Most restaurants are available much later, and the day-of cancellation window is genuinely productive. Check the app while you are standing in a ride queue."
+    },
+    {
+      "q": "Can you drink alcohol at all six Disney parks?",
+      "a": "Effectively, no. Magic Kingdom serves alcohol only inside its table-service restaurants and has no bar. Disneyland Park is limited to Oga's Cantina, Blue Bayou, and members-only Club 33. California Adventure, EPCOT, Hollywood Studios, and Animal Kingdom all have real bar programs, with California Adventure's the strongest of the six."
+    },
+    {
+      "q": "What are the standard snack prices at the parks?",
+      "a": "As of July 2026, a Mickey pretzel runs $8.50 and a churro $5.50 at Walt Disney World carts, a turkey leg is $11.75 in Florida and $12.99 at Disneyland, a Dole Whip cup is $6.49 with the float at $7.29, and a Mickey premium ice cream bar is roughly $5.75 to $6.00 at either resort. These move regularly, so treat them as calibration."
+    }
+  ],
+  "related": [
+    "epcot-vs-hollywood-studios",
+    "disneyland-vs-california-adventure",
+    "which-disney-park-should-i-visit",
+    "disney-park-rankings",
+    "disneyland-vs-disney-world"
+  ],
+  "lastVerified": "2026-07"
+}

@@ -1,0 +1,244 @@
+{
+  "slug": "epcot-vs-hollywood-studios",
+  "title": "EPCOT vs Hollywood Studios: Which Second Day to Pick",
+  "h1": "EPCOT vs Disney's Hollywood Studios",
+  "metaDescription": "Which park should get your second Walt Disney World day? EPCOT and Hollywood Studios compared on rides, height limits, food, pace, and who each one is really for.",
+  "summary": "Hollywood Studios is the better single day and the harder one. EPCOT is the better park and needs a day and a half you probably do not have. Height requirements usually decide it.",
+  "readingTimeMinutes": 10,
+  "contenders": [
+    { "key": "epcot", "name": "EPCOT", "subtitle": "Walt Disney World, 300 acres" },
+    { "key": "hollywood-studios", "name": "Disney's Hollywood Studios", "subtitle": "Walt Disney World, 135 acres" }
+  ],
+  "verdict": {
+    "short": "First WDW trip and everyone clears 40 inches: Hollywood Studios. Toddlers, adults-only, or a group that would rather eat than queue: EPCOT.",
+    "body": [
+      "Hollywood Studios has the highest concentration of modern headliners at Walt Disney World. Star Wars: Rise of the Resistance, The Twilight Zone Tower of Terror, Slinky Dog Dash, Rock 'n' Roller Coaster Starring The Muppets, Mickey & Minnie's Runaway Railway, Millennium Falcon: Smugglers Run, and Toy Story Midway Mania are all in one 135-acre park, and a well-run day gets you most of them. That is why it is the right second day for most first-timers.",
+      "It is also the least pleasant day at the resort. Nearly everything worth riding has a height requirement of 38 inches or more, the park has very little shade between Sunset Boulevard and Toy Story Land, and a large share of the day is spent in queues on hot concrete. Take a three-year-old there and you will find perhaps four things they can do.",
+      "EPCOT is the better park and the more forgiving day. Guardians of the Galaxy: Cosmic Rewind is the best coaster at Walt Disney World. Test Track, which reopened on July 22, 2025 as its third version, hits the highest speed on property. Soarin', Remy's Ratatouille Adventure, Frozen Ever After, Spaceship Earth, and the Living Seas pavilion fill out a roster with far more that a small child can ride. And World Showcase is the only place at Walt Disney World where the eating and drinking is genuinely the attraction.",
+      "The catch is that EPCOT is 300 acres and does not compress. A single EPCOT day means choosing between riding and eating, and most people who try both do neither well. If you have one day, take Hollywood Studios and its higher hit rate. If you have a day and a half, or if your group has toddlers or no interest in queueing, take EPCOT."
+    ]
+  },
+  "intro": [
+    "This is the second-day question at Walt Disney World. Nearly everyone gives day one to Magic Kingdom. Day two goes to EPCOT or Hollywood Studios, and the choice changes the character of the whole trip.",
+    "The two parks are almost opposites. Hollywood Studios is compact, ride-dense, and punishing: seven attractions carry height requirements, the tallest is 48 inches, and the standby waits are the worst on property. EPCOT is enormous, gentle, and slow: five attractions carry height requirements, the park has eleven country pavilions with sixteen table-service restaurants, and you can spend a full day there without riding anything.",
+    "As of July 2026, both parks are missing pieces. Hollywood Studios lost Muppet*Vision 3D and the Muppets Courtyard in 2025 to make room for the Monstropolis project, which has no announced opening date. Rock 'n' Roller Coaster reopened on May 26, 2026 rethemed around the Muppets, still 48 inches and still the strongest coaster in the park. EPCOT is more or less complete after a long rebuild of its front half."
+  ],
+  "dimensions": [
+    {
+      "name": "Headliner strength",
+      "winner": "hollywood-studios",
+      "cells": {
+        "epcot": "Guardians of the Galaxy: Cosmic Rewind (42in), Test Track (40in), Soarin' Around the World (40in), Frozen Ever After, Remy's Ratatouille Adventure. Two genuinely top-tier, three very good.",
+        "hollywood-studios": "Star Wars: Rise of the Resistance (40in), The Twilight Zone Tower of Terror (40in), Rock 'n' Roller Coaster Starring The Muppets (48in), Slinky Dog Dash (38in), Mickey & Minnie's Runaway Railway, Millennium Falcon: Smugglers Run (38in), Toy Story Midway Mania. Seven attractions people plan a day around."
+      },
+      "note": "Rise of the Resistance is the single best attraction at Walt Disney World that is not Avatar Flight of Passage. If your group wants one big thing, this is it."
+    },
+    {
+      "name": "Height barriers",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Five attractions with height sticks (40, 40, 40, 42, 44 inches). Everything else — Spaceship Earth, The Seas with Nemo & Friends, Living with the Land, Gran Fiesta Tour, Frozen Ever After, Remy, Journey Into Imagination, Turtle Talk, Journey of Water — is open to any height.",
+        "hollywood-studios": "Seven attractions with height sticks, from 32 up to 48 inches. Under 38 inches, a child's ride list is Toy Story Midway Mania, Mickey & Minnie's Runaway Railway, Alien Swirling Saucers at 32 inches, and shows."
+      },
+      "note": "This row decides the comparison for most families with a child under 40 inches. It is not close."
+    },
+    {
+      "name": "Standby waits",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Concentrated on three rides — Cosmic Rewind, Test Track, and Frozen Ever After — while the rest of the park runs 5 to 25 minutes most of the day. Remy is the sleeper long wait people forget to plan for.",
+        "hollywood-studios": "The worst in the resort. Rise of the Resistance, Slinky Dog Dash, and Mickey & Minnie's Runaway Railway routinely stack up, and there is almost no low-wait filler to fall back on between them."
+      },
+      "note": "EPCOT gives you somewhere to go when the wait is bad. Hollywood Studios mostly gives you another queue."
+    },
+    {
+      "name": "Food and drink",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Sixteen table-service restaurants plus quick service in eleven pavilions, and the only lap around a lake in American theme parks where each stop is a different cuisine. The best drinking day of the six US Disney parks.",
+        "hollywood-studios": "The Hollywood Brown Derby is legitimately good, Oga's Cantina is one of the better bars Disney runs, and Docking Bay 7 and Woody's Lunch Box are strong quick service. Beyond that, thin."
+      },
+      "note": "EPCOT wins on breadth and drinking. Hollywood Studios' 50's Prime Time Cafe and Sci-Fi Dine-In are theme experiences first and restaurants second — book them for the room, not the food."
+    },
+    {
+      "name": "Shows and non-ride content",
+      "winner": "hollywood-studios",
+      "cells": {
+        "epcot": "The American Adventure, Impressions de France, Turtle Talk with Crush, and a nighttime spectacular on World Showcase Lagoon with excellent sightlines from almost anywhere on the promenade.",
+        "hollywood-studios": "Fantasmic!, Indiana Jones Epic Stunt Spectacular, Beauty and the Beast: Live on Stage, the Frozen Sing-Along, Walt Disney Presents, and Disney Junior Play and Dance. More theater seating than any other park at the resort."
+      },
+      "note": "Hollywood Studios' shows are the reason its day works at all — they are the only reliable way to sit down in air conditioning between queues."
+    },
+    {
+      "name": "Walking and shade",
+      "winner": "hollywood-studios",
+      "cells": {
+        "epcot": "300 acres, and the World Showcase promenade alone is roughly 1.2 miles around. Shade is scarce between pavilions and the walk from the front of the park to the back of World Showcase is genuinely long.",
+        "hollywood-studios": "135 acres, so total distance is much lower. But Sunset Boulevard, Toy Story Land, and the Galaxy's Edge marketplace are wide open pavement with very little cover."
+      },
+      "note": "Neither park is shaded. EPCOT at least has more indoor pavilions to hide inside; Hollywood Studios has theaters."
+    },
+    {
+      "name": "Ideal length of visit",
+      "winner": "hollywood-studios",
+      "cells": {
+        "epcot": "A day and a half. Rides in the morning of day one, World Showcase in the evening of day one and the afternoon of day two. A single day forces you to pick a half of the park.",
+        "hollywood-studios": "One long day, opening to close. The must-do list is finite and a well-run day genuinely completes it."
+      },
+      "note": "If your trip has an odd half-day in it, give it to EPCOT. If you have exactly one day, give it to Hollywood Studios."
+    },
+    {
+      "name": "Toddlers and preschoolers",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Nine-plus rides with no height requirement, the Nemo pavilion's aquariums, the Journey of Water splash walk, and enough air-conditioned space to survive an afternoon. Distances are the only real problem.",
+        "hollywood-studios": "Four things and a couple of shows. Toy Story Land is the only area built for small kids, and two of its three rides carry height sticks."
+      },
+      "note": "This is the sharpest split on the page. Under 40 inches, EPCOT is a park and Hollywood Studios is a day of waiting for other people."
+    },
+    {
+      "name": "Thrill level",
+      "winner": "hollywood-studios",
+      "cells": {
+        "epcot": "Cosmic Rewind is a reverse-launch coaster with rotating vehicles and the best ride in the park. Test Track is the fastest thing at Walt Disney World. Mission: SPACE Orange (44in) is the most physically demanding attraction Disney operates.",
+        "hollywood-studios": "Rock 'n' Roller Coaster Starring The Muppets is a launched coaster with inversions and a 48-inch stick. Tower of Terror drops you repeatedly in a randomized sequence. Slinky Dog Dash is the family coaster."
+      },
+      "note": "For pure intensity, Hollywood Studios edges it. For the single best coaster, EPCOT has it in Cosmic Rewind."
+    },
+    {
+      "name": "Cost of a good day",
+      "winner": "epcot",
+      "cells": {
+        "epcot": "Lightning Lane helps but is not required — three rides need it and the rest of the park is walk-on. Where the money goes is food and drink, which is optional and entirely up to you.",
+        "hollywood-studios": "The park where paid line-skipping matters most. Without Lightning Lane Multi Pass, and likely a Single Pass for Rise of the Resistance, a peak-season day here means three or four rides total."
+      },
+      "note": "As of July 2026, Multi Pass ran roughly $15 to $45 per person per day depending on park and date, with Hollywood Studios usually at the top of that band."
+    }
+  ],
+  "ranking": null,
+  "sections": [
+    {
+      "id": "how-to-choose",
+      "heading": "The three questions that settle it",
+      "body": [
+        "Skip the ride lists for a moment. Three facts about your group decide this, and everything else is noise."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Is anyone in your party under 40 inches? Then EPCOT. Hollywood Studios will give that child four attractions and a lot of standing.",
+          "Is this your first Walt Disney World trip and does everyone clear 40 inches? Then Hollywood Studios. Rise of the Resistance and Tower of Terror are the two rides people talk about afterward.",
+          "Do you have a spare half-day anywhere in the trip? Then EPCOT gets the full day and the half-day both, because it is the only park at the resort that improves when you split it across two visits."
+        ]
+      },
+      "callout": {
+        "type": "note",
+        "body": "If your trip is exactly two park days and your group is all adults, take Hollywood Studios for the rides and give EPCOT an evening on a park hopper. World Showcase after 6 PM is the best two hours at Walt Disney World that does not require a queue."
+      }
+    },
+    {
+      "id": "epcot-day",
+      "heading": "How to run a good EPCOT day",
+      "body": [
+        "EPCOT punishes people who wander. The park is two halves with a long walk between them, and the trick is to do each half once rather than crossing back and forth.",
+        "Start at the front: Guardians of the Galaxy: Cosmic Rewind or Test Track at opening, whichever your Lightning Lane setup does not cover, then Soarin' and the Living Seas pavilion while the crowd is still concentrated up front. Remy's Ratatouille Adventure is at the far end in the France pavilion and is worth booking a return time for rather than walking to twice.",
+        "Move into World Showcase around noon and stay there. Eat in stages rather than sitting down for one large meal — the pavilion quick-service windows are where the interesting food is, and grazing across four or five countries beats a $60 sit-down almost every time.",
+        "Watch the nighttime show from the promenade rather than fighting for a front-row spot. Because it plays on the lagoon rather than against a castle, sightlines from three-quarters of the way around are perfectly good, and you will be twenty minutes closer to the exit."
+      ]
+    },
+    {
+      "id": "hs-day",
+      "heading": "How to survive a Hollywood Studios day",
+      "body": [
+        "The park's problem is that its seven headliners are all in demand at the same time and there is very little in between. The plan has to be aggressive.",
+        "Be at the gate 45 minutes before opening. Rise of the Resistance first if you do not have a Single Pass for it, Slinky Dog Dash first if you do. Mickey & Minnie's Runaway Railway builds a wait faster than anything else in the park and should be done in the first two hours or last hour, never midday.",
+        "Use the theaters deliberately. Indiana Jones Epic Stunt Spectacular, Beauty and the Beast: Live on Stage, and the Frozen Sing-Along are each 25 to 30 minutes of seated air conditioning, and running one of them in the 1 PM to 3 PM window is a better use of that time than standing in a 90-minute queue in direct sun.",
+        "Book Oga's Cantina for late afternoon rather than evening. It is easier to get, the room is less crowded, and it puts you inside Galaxy's Edge right when the light gets good — the land photographs far better in the last hour before sunset than at midday.",
+        "Fantasmic! runs in a dedicated amphitheater with real seating. Arriving 30 minutes early gets you a fine seat; arriving 75 minutes early, as a lot of guides suggest, mostly buys you a longer sit."
+      ],
+      "callout": {
+        "type": "warning",
+        "body": "Rock 'n' Roller Coaster Starring The Muppets is 48 inches — the tallest requirement at either Florida park outside TRON. Measure your kid before you build a day around it. Borderline guests get a colored wristband at the first measurement so they are not re-measured all day."
+      }
+    },
+    {
+      "id": "what-is-gone",
+      "heading": "What changed, and what it means for your plan",
+      "body": [
+        "Hollywood Studios lost Muppet*Vision 3D and the surrounding Muppets Courtyard in 2025. That removed the park's most reliable low-wait, air-conditioned filler attraction, and its absence is felt in the middle of the day more than the ride count suggests. The Monstropolis project taking that space has no announced opening date, and any timeline you see quoted is speculation.",
+        "Rock 'n' Roller Coaster reopened on May 26, 2026 as Rock 'n' Roller Coaster Starring The Muppets. The layout, the launch, and the 48-inch requirement are unchanged; the theme and soundtrack are not. It does not use a virtual queue.",
+        "EPCOT's Test Track reopened on July 22, 2025 as the third version of the ride, with a General Motors sponsorship and a redesigned pre-show. It is still 40 inches, still runs about five minutes, and it uses Lightning Lane Multi Pass rather than Single Pass — a detail that trips up people working from older advice.",
+        "No attraction at either park permanently uses a virtual queue as of mid-2026. Cosmic Rewind dropped its queue, and so did TRON and Tiana's Bayou Adventure over at Magic Kingdom. If someone tells you to set an alarm for a 7 AM boarding group, that advice is out of date."
+      ]
+    },
+    {
+      "id": "verdict-by-group",
+      "heading": "The answer for your specific group",
+      "body": [
+        "Families with a child under 40 inches: EPCOT, and it is not a close call. Nine-plus rides with no height stick versus four.",
+        "Families with kids aged eight to fifteen: Hollywood Studios. This is the park that age group talks about on the flight home, and Slinky Dog Dash at 38 inches lets younger siblings in.",
+        "Adults with no kids: EPCOT if you like eating and drinking, Hollywood Studios if you want the biggest rides. If you can only pick one and you have never been, take Hollywood Studios — you can get an EPCOT evening on a hopper, but you cannot get a Rise of the Resistance evening.",
+        "Repeat visitors on their fourth or fifth trip: EPCOT, comfortably. Hollywood Studios does not change and its day is the same grind every time. EPCOT's World Showcase rewards the unhurried pace only a repeat visitor can afford.",
+        "Anyone with mobility limitations or heat sensitivity: EPCOT, with the caveat that you should plan a rented electric conveyance vehicle. The distances are longer but the indoor pavilions are far more frequent, and Hollywood Studios' queues involve long stretches of standing on unshaded pavement."
+      ]
+    }
+  ],
+  "pickThisIf": {
+    "epcot": [
+      "Anyone in your group is under 40 inches tall.",
+      "You would rather eat and drink your way around a lake than stand in three long queues.",
+      "You want the best coaster at Walt Disney World — Guardians of the Galaxy: Cosmic Rewind.",
+      "You have a half-day to spare and want a park that splits well across two visits.",
+      "This is your fourth trip and Hollywood Studios has stopped surprising you."
+    ],
+    "hollywood-studios": [
+      "It is your first Walt Disney World trip and your group all clears 40 inches.",
+      "Star Wars matters to anyone in the party — Galaxy's Edge here is the Florida version.",
+      "You want the biggest single attraction on property after Flight of Passage: Rise of the Resistance.",
+      "You have exactly one day and want it to feel complete rather than sampled.",
+      "Your kids are eight to fifteen and want coasters, drops, and Toy Story Land."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which is better, EPCOT or Hollywood Studios?",
+      "a": "EPCOT is the better park and Hollywood Studios is the better single day. EPCOT has more variety, far fewer height barriers, and the best food and drink at Walt Disney World, but it needs a day and a half to work properly. Hollywood Studios packs seven headliners into 135 acres and completes in one long, tiring day."
+    },
+    {
+      "q": "Which park should I do on my second day at Walt Disney World?",
+      "a": "Hollywood Studios, if everyone in your group is at least 40 inches and this is your first trip — Rise of the Resistance and Tower of Terror are the attractions people remember. Switch to EPCOT if you have a child under 40 inches, if you are traveling as adults who would rather eat than queue, or if you have already done Hollywood Studios on a previous trip."
+    },
+    {
+      "q": "Can you do EPCOT in one day?",
+      "a": "You can cover the rides or you can cover World Showcase, but doing both well in one day is difficult. The park is 300 acres and the World Showcase promenade alone is about 1.2 miles around. If your trip has a spare half-day, EPCOT is the park to split it across."
+    },
+    {
+      "q": "Is Hollywood Studios good for toddlers?",
+      "a": "Not really. Under 38 inches, the ride list is Toy Story Midway Mania, Mickey & Minnie's Runaway Railway, and Alien Swirling Saucers at 32 inches, plus the Disney Junior show and a couple of theaters. Everything else in the park carries a height requirement of 38 to 48 inches. EPCOT is dramatically better for that age."
+    },
+    {
+      "q": "Which park has worse waits?",
+      "a": "Hollywood Studios, by a wide margin. Rise of the Resistance, Slinky Dog Dash, and Mickey & Minnie's Runaway Railway all build long standby lines and the park has little low-wait content to absorb the overflow. EPCOT concentrates its waits on three attractions and runs 5 to 25 minutes almost everywhere else."
+    },
+    {
+      "q": "Do I need Lightning Lane at either park?",
+      "a": "It matters far more at Hollywood Studios, where a peak-season day without it can mean three or four attractions total. At EPCOT, Multi Pass is useful for Cosmic Rewind, Test Track, and Frozen Ever After but the rest of the park does not need it. As of July 2026, Multi Pass ran roughly $15 to $45 per person per day depending on park and date."
+    },
+    {
+      "q": "Is Test Track still a Single Pass ride?",
+      "a": "No. The version that reopened on July 22, 2025 uses Lightning Lane Multi Pass, not Single Pass. This is a common error in older trip-planning advice, and it changes how you build a Multi Pass day at EPCOT because Test Track is now included rather than an extra purchase."
+    },
+    {
+      "q": "What happened to Muppet*Vision 3D?",
+      "a": "It closed permanently in 2025 along with the Muppets Courtyard, to make room for the Monstropolis project, which has no announced opening date. Practically, that removed the park's most useful low-wait air-conditioned break, so plan on using the theater shows for your midday rest instead."
+    }
+  ],
+  "related": [
+    "disneyland-vs-disney-world",
+    "which-disney-park-should-i-visit",
+    "best-disney-park-for-food",
+    "best-disney-park-for-thrill-seekers",
+    "disney-park-rankings"
+  ],
+  "lastVerified": "2026-07"
+}

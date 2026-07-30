@@ -1,0 +1,302 @@
+{
+  "slug": "lightning-lane",
+  "title": "Lightning Lane Explained: Is It Actually Worth It?",
+  "h1": "Lightning Lane at Walt Disney World and Disneyland",
+  "metaDescription": "Multi Pass, Single Pass and Premier Pass explained without the sales pitch: what each costs, when to book, how to stack, and the days you should skip it.",
+  "summary": "The complete, honest breakdown of Disney's three paid line-skipping products at both US resorts — how each one works, what they cost as of July 2026, and the specific days they are a waste of money.",
+  "category": "money",
+  "readingTimeMinutes": 14,
+  "intro": [
+    "Lightning Lane is Disney's paid line-skipping system, and at both US resorts it comes in three separate products that do three different jobs. Multi Pass is the day-long pass covering most of the ride list. Single Pass is a la carte access to the handful of headliners Disney deliberately holds back. Premier Pass is the expensive all-in version that removes the booking game entirely. Buying the wrong one — or buying any of them on the wrong day — is the easiest way to burn a hundred dollars at a Disney park without getting anything for it.",
+    "The system replaced Genie+ at Walt Disney World in July 2024 and is now priced dynamically, which means the same park can cost twice as much on a March Saturday as it does on a September Tuesday. That is why every number on this page is a range with an as-of date attached. As of July 2026, Walt Disney World Multi Pass runs roughly $15 to $45 per person per day depending on park and date, and Disneyland Resort Multi Pass starts at $34 per person per day. Treat those as the shape of the pricing, not as a quote — check the app for your specific date before you budget.",
+    "The short verdict, before the mechanics: Multi Pass earns its money at Magic Kingdom and Disney's Hollywood Studios on a busy day, is a coin flip at EPCOT and Disneyland Park, and is usually a waste at Animal Kingdom. Single Pass is worth it for exactly two or three rides in the country. Premier Pass makes sense for a very specific type of visitor, and if you are reading a guide about whether it is worth it, you are probably not that visitor.",
+    "Everything below describes permanent mechanics. Disney adjusts the details — which rides sit in which tier, how far ahead you can buy — more often than any other part of the parks, so the app on your park day is always the final authority."
+  ],
+  "keyPoints": [
+    "Three products, not one: Multi Pass (most rides, all day), Single Pass (one headliner, one ride), Premier Pass (everything, no return windows).",
+    "Pricing is dynamic and date-based. As of July 2026, Walt Disney World Multi Pass runs roughly $15 to $45 per person per day; Disneyland Resort starts at $34.",
+    "Walt Disney World on-site guests book 7 days out at 7 AM Eastern; off-site guests get 3 days. That gap is the biggest remaining on-site perk.",
+    "Walt Disney World lets you hold three selections from the start; Disneyland gives you one at a time. The two resorts need genuinely different strategies.",
+    "Premier Pass at Disneyland Resort covers both parks in one purchase. At Walt Disney World it covers one park for one day.",
+    "Multi Pass at Walt Disney World includes your PhotoPass photo downloads for the day, which changes the math for anyone who was considering Memory Maker.",
+    "Skip it at Animal Kingdom, on genuine low-crowd weekdays, and on any day your party is too short for the headliners it covers."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What Lightning Lane actually is",
+      "body": [
+        "Lightning Lane is a second, shorter queue at most major attractions, and paying for access to it is the only way in. You book a one-hour return window in the Disney app, show up inside that window, tap your ticket or band at the entrance, and walk a line that typically runs 5 to 20 minutes instead of 40 to 90. It is not a front-of-line pass and it is not unlimited: with Multi Pass you are managing a small number of bookings across a long day.",
+        "The practical thing to understand is that Lightning Lane does not create capacity. Every person who walks the short line is a person who did not walk the long one, which is why standby waits at Lightning Lane attractions have gotten longer since the free FastPass era ended. If you buy nothing, you are queuing behind everybody who did.",
+        "Both resorts run the same three-tier structure with the same product names, but the rules underneath differ enough that strategy does not transfer between coasts. Read the resort-specific sections below rather than assuming your Florida habits work in Anaheim."
+      ],
+      "list": null,
+      "table": {
+        "caption": "The three Lightning Lane products at a glance",
+        "columns": ["Product", "What it covers", "How you use it", "Who it suits"],
+        "rows": [
+          ["Multi Pass", "The broad list of attractions — 40+ across the four Walt Disney World parks, 15+ across the two Disneyland Resort parks", "Book a return window, redeem it, book the next one; repeat all day", "Families and first-timers on a crowded day at a ride-dense park"],
+          ["Single Pass", "One ride, one time, at a headliner deliberately excluded from Multi Pass", "Buy the ride, pick a window, ride it once", "Anyone who cannot face a 90-minute standby for one specific attraction"],
+          ["Premier Pass", "Everything in one purchase, with no return windows to manage", "Walk up to any Lightning Lane entrance and tap in", "Short trips, big budgets, and people who hate their phone"]
+        ]
+      },
+      "callout": {
+        "type": "note",
+        "title": "Genie+ is gone",
+        "body": "If a guide or a relative is still telling you to buy Genie+, they are working from pre-July-2024 information. Genie+ was replaced by Lightning Lane Multi Pass, and the booking rules changed at the same time. The free Genie tip-board feature that came bundled with it also no longer works the way it did."
+      }
+    },
+    {
+      "id": "multi-pass",
+      "heading": "Multi Pass: the one most people should consider",
+      "body": [
+        "Multi Pass is the day-long product that covers the widest slice of the ride list, and it is the only Lightning Lane purchase that most visitors ever need to think about. You buy it per person, per park, per day. There is no multi-day discount and no partial refund if it rains.",
+        "At Walt Disney World you make up to three advance selections when your booking window opens, then add another each time you redeem one. That front-loaded structure is why Florida rewards planning: the three you pick at 7 AM are usually the three hardest rides of your day, and everything after that is opportunistic. At Disneyland Resort you hold one selection at a time and can book your next after you redeem it or after two hours have passed, whichever comes first. That two-hour clock is the entire Disneyland strategy in one sentence.",
+        "A realistic yield: at Walt Disney World, a family working the app properly gets 4 to 7 Lightning Lane rides out of a Multi Pass day at Magic Kingdom, and 2 to 4 if they treat it casually. At Disneyland the ceiling is lower — call it 3 to 5 — because the two-hour clock caps how fast you can cycle bookings. Anyone promising you ten rides is selling something.",
+        "Walt Disney World Multi Pass includes your PhotoPass photo downloads for that day, which genuinely matters for families who were otherwise weighing Memory Maker. Disneyland Resort Multi Pass does not include photo downloads."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Link every ticket in your party to one Disney account before booking day, including the grandparents travelling with you. One person books for everyone.",
+          "Have your park day, park, and preferred attractions decided the night before. The booking screen is not the place to hold a family discussion.",
+          "Book your hardest ride first, not your earliest. The system hands out the good return windows in the first ninety seconds.",
+          "After you tap in for a redemption, open the app immediately and book the next one while you are still walking down the exit ramp.",
+          "Check back around 1 PM and again around 4 PM. Cancelled bookings drop back into inventory in visible waves."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "money",
+        "title": "Price framing, as of July 2026",
+        "body": "Walt Disney World Multi Pass ran roughly $15 to $45 per person per day as of July 2026, priced by park and date — Magic Kingdom and Hollywood Studios sit at the top of that range, Animal Kingdom at the bottom. Disneyland Resort Multi Pass started at $34 per person per day. A family of four at a peak-price Florida park is therefore looking at roughly $180 before they have bought a churro."
+      }
+    },
+    {
+      "id": "single-pass",
+      "heading": "Single Pass: one ride, one purchase",
+      "body": [
+        "Single Pass is how Disney monetises the handful of attractions with demand so far above capacity that folding them into Multi Pass would break it. You buy access to one specific ride, one time, choose a return window, and that is the whole transaction. As of July 2026 the going rate at Walt Disney World is roughly $12 to $25 per ride per person, again varying by park and date.",
+        "You can buy Single Pass whether or not you own Multi Pass — the two are unrelated purchases. Magic Kingdom is the only Walt Disney World park where you can hold two Single Passes at once, because it is the only park with two attractions in that tier.",
+        "The roster moves. Disney has promoted rides into the Single Pass tier and quietly dropped them back out again, usually within a year of an opening. One verified example worth correcting: Test Track at EPCOT reopened in July 2025 and sits in Multi Pass, not Single Pass, despite what older guides say. Always confirm the tier in the app before you assume you need a separate purchase."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Attractions Disney has consistently held in the Single Pass tier — confirm in the app on your park day",
+        "columns": ["Park", "Attraction", "Note"],
+        "rows": [
+          ["Magic Kingdom", "TRON Lightcycle / Run", "48in requirement; the shortest headliner ride in Florida at under a minute of actual coaster"],
+          ["Magic Kingdom", "Seven Dwarfs Mine Train", "38in; the only family-friendly ride in the whole Single Pass tier, which is why it prices well"],
+          ["EPCOT", "Guardians of the Galaxy: Cosmic Rewind", "42in; dropped its virtual queue and moved to paid access"],
+          ["Hollywood Studios", "Star Wars: Rise of the Resistance", "40in; the one Single Pass purchase we would defend on a first trip"],
+          ["Animal Kingdom", "Avatar Flight of Passage", "44in; the reason a Multi Pass at this park is usually pointless"],
+          ["Disneyland Park", "Star Wars: Rise of the Resistance", "40in; the constant in Anaheim's Single Pass slot"],
+          ["California Adventure", "Roster varies", "Disney has moved this park's top headliner between tiers more than once — check the app rather than a guide"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "The one Single Pass worth defending",
+        "body": "If you buy exactly one Single Pass on a Florida trip, make it Rise of the Resistance at Hollywood Studios. It is a 20-minute, multi-scene attraction with a standby line that regularly runs past 90 minutes, and the ride has enough downtime history that a booked return window also buys you a rain check if it breaks."
+      }
+    },
+    {
+      "id": "premier-pass",
+      "heading": "Premier Pass: the expensive shortcut",
+      "body": [
+        "Premier Pass is the all-in option: one purchase, every Lightning Lane attraction in the park, no return windows, no app management. You walk up, you tap, you ride. It sells out — quantities are deliberately limited so the Lightning Lane queues do not collapse under it.",
+        "At Walt Disney World it is sold per park, per day. At Disneyland Resort it covers both parks in a single purchase, which is a meaningfully better product because hopping between Disneyland Park and California Adventure is a five-minute walk. As of July 2026 the Disneyland Resort version ran roughly $300 to $400 per person, higher on holiday dates, and was purchasable up to 7 days in advance in the app.",
+        "Who it is genuinely for: someone on a one-day trip who will not be back, a party that cannot physically stand in long queues, and people whose time is worth more than the price gap. Who it is not for: a family of four on a five-day trip, where the same money buys two extra park days."
+      ],
+      "list": null,
+      "table": null,
+      "callout": {
+        "type": "warning",
+        "title": "Premier Pass still has one queue",
+        "body": "Premier Pass does not cover attractions that are not on the Lightning Lane list at all, and it does not cover the Single Pass ride at a park where Disney has excluded it. It also does not get you into a virtual queue for a brand-new attraction. Read the product page's exclusions before you buy — it is the one Lightning Lane product where the fine print costs real money."
+      }
+    },
+    {
+      "id": "booking-windows",
+      "heading": "When you can actually book",
+      "body": [
+        "Booking windows are where the two resorts diverge hardest, and getting this wrong is why people wake up at 7 AM for nothing. At Walt Disney World, guests staying at a Disney-owned hotel — plus the Swan, Dolphin, Swan Reserve, and Shades of Green — can buy and book Multi Pass for their entire trip starting 7 days before check-in, at 7 AM Eastern. Everybody else books up to 3 days out, also at 7 AM Eastern.",
+        "That four-day head start is the most valuable on-site hotel perk left at Walt Disney World, and it is the reason the good return windows on Slinky Dog Dash or Remy's Ratatouille Adventure look picked over when an off-site guest logs in. If you are staying off-site, do not expect to book the same attractions your on-site friends did.",
+        "At Disneyland Resort, your first Multi Pass selection opens at 7 AM Pacific on your park day. Since 5 January 2026, guests at the three Disneyland Resort hotels also receive one bonus Multi Pass per person per stay — a single free day of it, not the whole trip. Premier Pass at Disneyland Resort is the one product you can lock in up to 7 days ahead."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Booking and purchase windows, as of July 2026",
+        "columns": ["Resort", "Who you are", "When you can book Multi Pass", "Clock"],
+        "rows": [
+          ["Walt Disney World", "Disney hotel, Swan, Dolphin, Swan Reserve, Shades of Green", "7 days before check-in, for every day of the trip at once", "7 AM Eastern"],
+          ["Walt Disney World", "Off-site or day guest", "Up to 3 days before each park day", "7 AM Eastern"],
+          ["Disneyland Resort", "Any guest", "Morning of your park day", "7 AM Pacific"],
+          ["Disneyland Resort", "Disneyland Resort hotel guest", "Same, plus one complimentary Multi Pass per person per stay since 5 January 2026", "7 AM Pacific"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "Set the alarm for 6:57, not 7:00",
+        "body": "Open the app three minutes early, get to the selection screen, and let it sit. The inventory that matters is gone inside ninety seconds on a busy morning, and the app's cold-start load time is long enough to cost you a good window. Do it on hotel wifi or cell data, never on the parks' public network."
+      }
+    },
+    {
+      "id": "wdw-vs-disneyland",
+      "heading": "Walt Disney World vs Disneyland: every difference that matters",
+      "body": [
+        "The names are the same and almost nothing else is. If you have done one resort and are planning the other, this table is the section to read twice.",
+        "The structural difference driving all of it: Walt Disney World has four parks, more attractions on the list, and a hotel-guest advance window, so its system rewards planning weeks out. Disneyland has two adjacent parks and a same-day booking window, so its system rewards being awake at 7 AM and knowing the two-hour rule."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Lightning Lane differences by resort, as of July 2026",
+        "columns": ["Feature", "Walt Disney World", "Disneyland Resort"],
+        "rows": [
+          ["Multi Pass price", "Roughly $15 to $45 per person per day, by park and date", "From $34 per person per day"],
+          ["Attractions on Multi Pass", "40+ across four parks", "15+ across two parks"],
+          ["Advance booking", "7 days out for on-site hotel guests, 3 days for everyone else", "Morning of your park day"],
+          ["Selections you hold at once", "Up to three, then one more per redemption", "One at a time"],
+          ["Next-booking rule", "Book again after you redeem", "Book again after you redeem or after two hours, whichever comes first"],
+          ["Single Pass price", "Roughly $12 to $25 per ride per person", "Comparable per-ride pricing, fewer eligible rides"],
+          ["Two Single Passes at once", "Magic Kingdom only", "Not applicable"],
+          ["Premier Pass scope", "One park, one day", "Both parks, one day"],
+          ["Premier Pass advance purchase", "Sold in limited quantities, sells out", "Up to 7 days ahead in the app, limited quantities"],
+          ["PhotoPass downloads included", "Yes, with Multi Pass", "No"],
+          ["Hotel guest bonus", "The 7-day booking window itself", "One complimentary Multi Pass per person per stay since 5 January 2026"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "stacking",
+      "heading": "Stacking: the strategy that doubles your value",
+      "body": [
+        "Stacking means deliberately accumulating unredeemed Lightning Lane bookings so you can spend them in a block later in the day, and it is the single technique that separates people who get their money's worth from people who do not. It works differently at each resort because the booking rules differ.",
+        "At Walt Disney World, stacking is front-loaded. When your window opens at 7 AM, book all three advance selections for the afternoon and evening — 2 PM onward — rather than the morning. Then rope drop the park and ride two or three headliners standby before the crowd arrives. By 1 PM, when standby waits peak and the heat is worst, you have three Lightning Lanes queued up and you burn them back to back.",
+        "At Disneyland, stacking runs on the two-hour clock. Book your first selection at 7 AM for a late return window, then simply do not redeem it. Two hours later the app lets you book a second. Two hours after that, a third. If you arrive at the park at noon and have been booking since 7 AM, you can walk in with two or three passes already in hand. The trade-off is that you spend the morning riding standby, which at Disneyland is fine — the park has enough capacity that mornings genuinely move.",
+        "The thing nobody tells you: return windows have a grace period at both resorts, and Cast Members routinely honour a pass a few minutes past its end. Do not plan around it, but do not panic-sprint across the park either. What is genuinely enforced is the start of the window — turning up early gets you turned away."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Stack toward the hours you actually want to skip: 12 PM to 5 PM, when standby is longest and outdoor queues are hottest.",
+          "Never stack a ride you could walk onto. Burning a booking on a 15-minute standby is the most common way visitors waste Multi Pass.",
+          "At Walt Disney World, one of your three advance picks should be a ride you would otherwise refuse to queue for at all — that is where the value hides.",
+          "Do not stack past park closing. Return windows do not extend, and an unredeemed booking is worth nothing.",
+          "If your party splits, the app books for whoever is selected on the screen. Deselect the people who are staying at the pool or you will hand out passes nobody uses.",
+          "Refresh a fully-booked attraction every few minutes rather than every few seconds. Inventory returns in clumps as other guests cancel, not continuously."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "worth-it-by-park",
+      "heading": "Is it worth it? A park-by-park verdict",
+      "body": [
+        "Buy Multi Pass at Magic Kingdom and Hollywood Studios on a crowded day; think hard everywhere else. The variable that decides it is the ratio of high-demand attractions to overall capacity, and that ratio is wildly different across the six parks.",
+        "Crowd level matters as much as the park. On a genuinely quiet weekday in early February or the first half of May, standby waits at every park drop far enough that Multi Pass stops paying for itself. On a Saturday in spring break, it is the difference between eight rides and three."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Multi Pass verdict by park",
+        "columns": ["Park", "Verdict", "Why"],
+        "rows": [
+          ["Magic Kingdom", "Buy on any busy day", "The most Multi Pass attractions of any park and the longest standby lines. A family covers more ground per dollar here than anywhere else."],
+          ["Hollywood Studios", "Buy", "The worst ratio of capacity to demand at either resort. Four attractions can all sit above 60 minutes simultaneously, and there is nothing else to do while you wait."],
+          ["EPCOT", "Marginal", "Only a handful of lines are worth skipping, and the park's back half empties out after 8 PM. Rope drop plus a late lap often beats a purchase."],
+          ["Animal Kingdom", "Skip", "The park's best attraction is a Single Pass, its second-best is a walk-on before 10 AM, and the rest of the day is trails and shows that have no line at all."],
+          ["Disneyland Park", "Marginal", "Enormous ride count means standby actually moves. Buy on weekends and school holidays; skip on a rainy Tuesday."],
+          ["California Adventure", "Situational", "Worth it on a weekend if you want the coaster-and-simulator cluster without an hour each. On a weekday the park is the easiest of the six to do standby."]
+        ]
+      },
+      "callout": {
+        "type": "money",
+        "title": "The break-even test",
+        "body": "Multi Pass pays for itself when it saves you more time than you could buy another way. Rough rule: if you will redeem four or more passes on attractions whose standby is above 40 minutes, buy it. If you are honestly going to redeem two, spend the money on a table-service lunch with air conditioning instead — you will enjoy the day more."
+      }
+    },
+    {
+      "id": "when-to-skip",
+      "heading": "When to keep your money",
+      "body": [
+        "There are five situations where Lightning Lane is a bad purchase regardless of how the app markets it, and recognising yourself in one of them is worth more than any stacking trick.",
+        "The one people resist hearest is the height one. If your party's shortest member is under 40 inches, a large share of the Multi Pass roster is unavailable to your group, and every pass you book for the rides they can do is a pass on an attraction with a short standby anyway. Families with toddlers routinely buy Multi Pass and redeem it on rides they could have walked onto."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "You are at Animal Kingdom. The math almost never works.",
+          "Your shortest rider is under 40 inches. Most of what Multi Pass unlocks has a height requirement above that.",
+          "You are doing a half day, arriving after 3 PM, or hopping in for dinner and a show. There is not enough day left to redeem enough passes.",
+          "It is a genuine low-crowd weekday. Check historical crowd patterns for your date rather than assuming.",
+          "Your party will not tolerate the phone management. Multi Pass demands someone check the app roughly every 30 minutes all day. If nobody in your group wants that job, you are buying a product you will not use."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "mistakes",
+      "heading": "Mistakes even repeat visitors make",
+      "body": [
+        "Most Lightning Lane money is wasted through small procedural errors, not big strategic ones. These are the ones we watch happen in the queue every trip.",
+        "The subtlest is tier confusion at a park you know well. Disney moves attractions between Multi Pass and Single Pass, and a repeat visitor operating from a two-year-old mental model will either buy a Single Pass they did not need or fail to book a ride that quietly joined Multi Pass."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Booking a return window that overlaps your dining reservation. The app will happily let you do it and neither one will forgive you.",
+          "Buying Multi Pass for a park hopping day and then hopping. Multi Pass is park-specific; your afternoon park needs its own purchase or its own selections, depending on the resort's current hopping rules.",
+          "Forgetting that a Single Pass purchase is per person, not per party. The total on the confirmation screen is easy to misread when you are half asleep at 7 AM.",
+          "Assuming Rider Switch and Lightning Lane do not combine. They do, and used together they are the best value in the park for families with a child too short to ride.",
+          "Redeeming a pass on a ride that just reopened after a breakdown. The standby line is at its shortest in the twenty minutes after a reopening because everybody already left.",
+          "Not checking whether a park has a second Single Pass attraction. Magic Kingdom's two-pass allowance is a genuine advantage that most people never use."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "tip",
+        "title": "The repeat-visitor move",
+        "body": "If an attraction goes down while you hold a Lightning Lane for it, do not cancel. In most cases the system converts your booking into a flexible pass usable at a range of other attractions later that day, which is frequently worth more than the original ride. Cancelling out of frustration throws that away."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need Lightning Lane to have a good day?",
+      "a": "No. Millions of people visit both resorts every year without buying anything, and a well-run rope drop plus a willingness to ride things in the last hour before closing gets you most of the way there. Lightning Lane buys you flexibility in the middle of the day, which is worth the most on hot, crowded dates and worth very little on quiet ones."
+    },
+    {
+      "q": "Can I buy Lightning Lane after I am already in the park?",
+      "a": "Yes, at both resorts, for as long as inventory lasts. Multi Pass sometimes sells out on peak days at Walt Disney World, and the return windows still available at 2 PM will be late in the evening. Buying in-park is a legitimate fallback but it is a worse deal than buying at your window."
+    },
+    {
+      "q": "Does Lightning Lane cover shows, parades, or fireworks?",
+      "a": "Occasionally, and it varies by park. Some parks put a show or a nighttime spectacular seating area into the Multi Pass list. It is generally a poor use of a booking, because show capacity is measured in thousands and turning up 25 minutes early achieves the same thing for free."
+    },
+    {
+      "q": "What happens if the ride breaks down during my return window?",
+      "a": "You keep the entitlement. In most cases it converts to a pass you can use at a range of other attractions for the rest of the day, and it usually stays valid past your original window. Do not cancel the booking out of frustration — check the app an hour later and see what it turned into."
+    },
+    {
+      "q": "Is Premier Pass ever worth $300 to $400?",
+      "a": "For a one-day Disneyland Resort visit by an adult who will not return for years, and who would otherwise spend the day watching a phone, it can be defensible — it covers both parks in one purchase. For a family on a multi-day trip it is close to indefensible, because the same money buys additional park days that deliver more rides per dollar."
+    },
+    {
+      "q": "Can two people share one Multi Pass?",
+      "a": "No. Every pass is tied to an individual ticket and validated at the tap point. You buy it per person for every person who wants to walk the Lightning Lane, including children who need a ticket at all. A parent who plans to sit out can be left off the purchase."
+    },
+    {
+      "q": "Why do the prices in this guide not match what I see in the app?",
+      "a": "Because Disney prices Lightning Lane dynamically by park and by date, and has moved pricing more than once a year since 2024. The ranges here are framed as of July 2026 to show the shape of the pricing, not to quote your date. Always confirm in the app before budgeting."
+    },
+    {
+      "q": "Does Multi Pass work at both Disneyland parks in one purchase?",
+      "a": "No — Multi Pass is park-specific at Disneyland Resort just as it is in Florida. Premier Pass is the only Disneyland Resort product that spans both parks in a single purchase, which is one of the few areas where the Anaheim version of a product is straightforwardly better than the Florida one."
+    }
+  ],
+  "related": ["rope-drop-strategy", "virtual-queues", "rider-switch", "first-disney-trip"],
+  "lastVerified": "2026-07"
+}
