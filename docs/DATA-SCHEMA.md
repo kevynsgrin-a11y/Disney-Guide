@@ -488,7 +488,19 @@ ranking.
 
 ## Validation
 
-`node scripts/validate.mjs` enforces this schema. It must exit 0 before any commit.
+Two checkers run before every build, and they check different things.
+
+**`node scripts/validate.mjs`** enforces this schema. It must exit 0 before any commit.
 It checks required fields, enum values, slug uniqueness, cross-file referential integrity
 (attraction `land` → park land slug; food `restaurantSlug` → dining slug; `relatedSlugs` →
 attraction slugs), prose length floors, and `lastVerified` format.
+
+**`node scripts/factcheck.mjs`** enforces the *verified reference tables above*. It carries its own
+hard-coded copy of every height requirement, every 2026 closure and retheme, Test Track's Lightning
+Lane tier, the verified snack prices, and the ban on permanent virtual queues. That duplication is
+deliberate: checking the dataset against itself proves nothing, so the reference lives in two places
+and both have to be changed, on purpose, in the same commit, when reality changes. It also flags
+marketing filler and generated-copy paragraph openers.
+
+**When you update a fact, update `scripts/factcheck.mjs` and this document together.** A reference
+table that silently drifts is worse than no reference table.
