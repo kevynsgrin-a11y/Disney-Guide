@@ -15,6 +15,136 @@ const CATEGORY_LABEL = {
 }
 
 /* ------------------------------------------------------------------ *
+ * Live data appendices
+ *
+ * Three guides make cross-park factual claims that would silently drift from the dataset if they
+ * were only prose. Each gets a generated appendix rendered straight from the same fields the ride
+ * pages use, so a height correction in one JSON file propagates here automatically. The authored
+ * sections still carry the explanation; these carry the numbers.
+ * ------------------------------------------------------------------ */
+
+function heightAppendix (data) {
+  const rows = data.allHeightAttractions
+    .slice()
+    .sort((a, b) => a.heightIn - b.heightIn || a.park.name.localeCompare(b.park.name))
+    .map((a) => [
+      a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
+      html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
+      html`<span data-value="${a.heightIn}">${a.heightIn}"</span>`,
+      html`<span data-value="${Math.round(a.heightIn * 2.54)}">${Math.round(a.heightIn * 2.54)}</span>`,
+      f.attractionType(a.type),
+    ])
+
+  const bands = data.heightThresholds.map((threshold) => {
+    const unlocked = data.allHeightAttractions.filter((a) => a.heightIn <= threshold)
+    const justNow = data.allHeightAttractions.filter((a) => a.heightIn === threshold)
+    return [
+      html`<span data-value="${threshold}">${threshold}" · ${Math.round(threshold * 2.54)}cm</span>`,
+      html`<span data-value="${unlocked.length}">${unlocked.length}</span>`,
+      f.list(justNow.map((a) => `${a.name} (${a.park.shortLabel})`)),
+    ]
+  })
+
+  return C.section({
+    id: 'every-height-requirement',
+    tone: 'tint',
+    title: 'Every height requirement at all six parks',
+    kicker: 'Generated from our live dataset',
+    intro: `All ${data.allHeightAttractions.length} attractions with a minimum height, shortest first. This table is generated from the same data as every ride page on the site, so it cannot drift out of step with them.`,
+    children: html`
+      ${C.dataTable({
+        sortable: true,
+        className: 'data-table--stack',
+        columns: ['Attraction', 'Park', { label: 'Inches', align: 'num', sort: 'number' }, { label: 'cm', align: 'num', sort: 'number' }, 'Type'],
+        rows,
+      })}
+      <h3 class="mt-6">What unlocks at each height</h3>
+      ${C.dataTable({
+        className: 'data-table--stack',
+        caption: 'Counting only rides that have a requirement — every attraction with no requirement is rideable at any height.',
+        columns: [{ label: 'Height', align: 'num', sort: 'number' }, { label: 'Rides now open to them', align: 'num', sort: 'number' }, 'Newly unlocked at this height'],
+        rows: bands,
+      })}
+      <p class="mt-5"><a class="btn btn--primary" href="${urls.heightChecker()}">Try the interactive height checker</a></p>
+    `,
+  })
+}
+
+function scaryAppendix (data) {
+  const rows = data.allAttractions
+    .filter((a) => a.isOpen && a.scary && a.scary.score >= 3)
+    .sort((a, b) => b.scary.score - a.scary.score || a.park.name.localeCompare(b.park.name))
+    .map((a) => [
+      a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
+      html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
+      html`<span data-value="${a.scary.score}">${a.scary.score}/5</span>`,
+      html`<span data-value="${a.scary.darkness || 0}">${a.scary.darkness ?? '—'}</span>`,
+      html`<span data-value="${a.scary.drops || 0}">${a.scary.drops ?? '—'}</span>`,
+      html`<span data-value="${a.scary.loudness || 0}">${a.scary.loudness ?? '—'}</span>`,
+      html`<span data-value="${a.scary.startles || 0}">${a.scary.startles ?? '—'}</span>`,
+      a.heightIn ? `${a.heightIn}"` : 'Any',
+    ])
+  if (!rows.length) return raw('')
+
+  return C.section({
+    id: 'scariest-attractions',
+    tone: 'tint',
+    title: 'Every attraction we rate 3 out of 5 or scarier',
+    kicker: 'Generated from our live dataset',
+    intro: 'Scored against what frightens a typical four- to seven-year-old, not an adult. Darkness, drops, loudness, and sudden effects are broken out separately, because a child scared of the dark and a child scared of drops need different advice.',
+    children: C.dataTable({
+      sortable: true,
+      className: 'data-table--stack',
+      columns: [
+        'Attraction', 'Park',
+        { label: 'Overall', align: 'center', sort: 'number' },
+        { label: 'Dark', align: 'center', sort: 'number' },
+        { label: 'Drops', align: 'center', sort: 'number' },
+        { label: 'Loud', align: 'center', sort: 'number' },
+        { label: 'Startles', align: 'center', sort: 'number' },
+        { label: 'Height', align: 'center' },
+      ],
+      rows,
+    }),
+  })
+}
+
+function motionAppendix (data) {
+  const rank = { high: 3, moderate: 2, low: 1, none: 0 }
+  const rows = data.allAttractions
+    .filter((a) => a.isOpen && rank[a.motionSickness] >= 2)
+    .sort((a, b) => rank[b.motionSickness] - rank[a.motionSickness] || a.park.name.localeCompare(b.park.name))
+    .map((a) => [
+      a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
+      html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
+      html`<span data-value="${rank[a.motionSickness]}">${f.motion(a.motionSickness)}</span>`,
+      f.attractionType(a.type),
+      html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
+    ])
+  if (!rows.length) return raw('')
+
+  return C.section({
+    id: 'motion-risk-by-ride',
+    tone: 'tint',
+    title: 'Every ride we flag for motion sickness',
+    kicker: 'Generated from our live dataset',
+    intro: 'Moderate and high risk only. Simulators and spinners dominate the top of this list; roller coasters, counter-intuitively, cause far fewer problems because your inner ear and your eyes agree about what is happening.',
+    children: C.dataTable({
+      sortable: true,
+      className: 'data-table--stack',
+      columns: ['Attraction', 'Park', 'Risk', 'Type', { label: 'Intensity', align: 'center', sort: 'number' }],
+      rows,
+    }),
+  })
+}
+
+const APPENDICES = {
+  'height-requirements': heightAppendix,
+  'is-it-scary': scaryAppendix,
+  'motion-sickness': motionAppendix,
+}
+
+/* ------------------------------------------------------------------ *
  * Guides
  * ------------------------------------------------------------------ */
 
@@ -56,6 +186,8 @@ export function guidePage (guide, data) {
         </div>
       `,
     })}
+
+    ${APPENDICES[guide.slug] ? APPENDICES[guide.slug](data) : ''}
 
     ${C.faqSection(guide.faqs)}
 
