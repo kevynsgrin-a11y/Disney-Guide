@@ -172,6 +172,10 @@ actually needs.
   clear entities. With AI Overviews suppressing informational click-through hard, the durable plays
   are (a) be the cited source, and (b) own interactive tools an AI answer cannot reproduce. That is
   why the food tracker and height checker are first-class products rather than blog embellishments.
+- **`/llms.txt`** is generated on every build: a plain-text index for answer engines that states the
+  licence, the unaffiliated status, the verification date, and the evergreen/seasonal boundary up
+  front, then points machine readers at the structured pages. It costs nothing and it is on-strategy
+  for a site whose realistic upside is being cited rather than clicked.
 
 Performance: static output on a CDN, one CSS file, three small JS files, zero third-party requests
 at build time, explicit `_headers` for immutable asset caching. Ads are the main future threat to

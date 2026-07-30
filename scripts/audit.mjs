@@ -133,7 +133,7 @@ for (const file of htmlFiles) {
 }
 
 /* -- required files -- */
-for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.webmanifest', '/sw.js', '/search-index.json', '/404.html', '/_headers', '/_redirects']) {
+for (const required of ['/sitemap.xml', '/robots.txt', '/llms.txt', '/manifest.webmanifest', '/sw.js', '/search-index.json', '/404.html', '/_headers', '/_redirects']) {
   if (!served.has(required)) fail('build', `missing required output ${required}`)
 }
 

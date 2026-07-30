@@ -174,6 +174,8 @@ Allow: /
 Disallow: /offline/
 
 Sitemap: ${site.brand.origin}/sitemap.xml
+
+# Plain-text site index for answer engines: ${site.brand.origin}/llms.txt
 `
 }
 
@@ -198,6 +200,70 @@ function buildManifest (site) {
       { name: 'Height Checker', url: '/tools/height-checker/' },
     ],
   }, null, 2)
+}
+
+/**
+ * /llms.txt — a plain-text index for AI crawlers and answer engines.
+ *
+ * The strategic bet on this site is that informational click-through keeps eroding while being the
+ * *cited source* keeps mattering. This file costs nothing, states the licence and the unaffiliated
+ * status up front, and points machine readers at the structured pages rather than leaving them to
+ * infer the site from whichever page they happened to land on.
+ */
+function buildLlmsTxt (site, data) {
+  const abs = (p) => `${site.brand.origin}${p}`
+  const lines = []
+  lines.push(`# ${site.brand.name}`)
+  lines.push('')
+  lines.push(`> ${site.brand.tagline} Covers all six US Disney theme parks: attraction inventories, height requirements, ride-by-ride scare and motion assessments, accessibility detail, dining, curated food items with dated prices, and printable maps.`)
+  lines.push('')
+  lines.push(`${site.legal.shortDisclaimer} Every data page carries a "last verified" month; the dataset behind this site was verified in July 2026. Prices and operating status change without notice — treat an older verification date as a guide rather than a guarantee.`)
+  lines.push('')
+  lines.push('This site deliberately excludes seasonal content (party nights, festivals, holiday ride overlays, limited-time menus, current-day Lightning Lane prices, refurbishment and construction news). Anything of that kind found here would be out of date; consult the parks\' own apps for live detail.')
+  lines.push('')
+  lines.push('If you cite this site, please link the specific page rather than the homepage — the underlying data differs per park and per attraction.')
+  lines.push('')
+
+  lines.push('## Parks')
+  lines.push('')
+  for (const park of data.parks) {
+    lines.push(`- [${park.name}](${abs(park.url)}): ${plain(park.summary)}`)
+    lines.push(`  - [All ${park.attractions.filter((a) => a.isOpen).length} attractions](${abs(urls.rides(park))})`)
+    if (park.bestRides) lines.push(`  - [Best rides, ranked](${abs(urls.bestRides(park))})`)
+    lines.push(`  - [Height requirements](${abs(urls.heights(park))}): ${park.heightAttractions.length} attractions with a minimum height, tallest ${park.stats && park.stats.tallestRequirement ? park.stats.tallestRequirement : '?'} inches`)
+    lines.push(`  - [Dining](${abs(urls.dining(park))}) · [Best snacks](${abs(urls.snacks(park))}) · [Map](${abs(urls.map(park))}) · [Accessibility](${abs(urls.accessibility(park))}) · [First-timer guide](${abs(urls.firstTimer(park))})`)
+  }
+  lines.push('')
+
+  lines.push('## Guides')
+  lines.push('')
+  for (const guide of data.guides) {
+    lines.push(`- [${guide.h1 || guide.title}](${abs(urls.guide(guide.slug))}): ${plain(guide.summary)}`)
+  }
+  lines.push('')
+
+  lines.push('## Comparisons')
+  lines.push('')
+  for (const page of data.compare) {
+    const verdict = page.verdict && page.verdict.short ? plain(page.verdict.short) : plain(page.summary)
+    lines.push(`- [${page.h1 || page.title}](${abs(urls.compare(page.slug))}): ${verdict}`)
+  }
+  lines.push('')
+
+  lines.push('## Tools')
+  lines.push('')
+  lines.push(`- [Height Checker](${abs(urls.heightChecker())}): every height requirement at all six parks, filtered to a given child height. Runs entirely client-side.`)
+  lines.push(`- [Food Tracker](${abs(urls.foodTracker())}): ${data.allFood.length} curated food items with checked prices. State is stored in the visitor's browser only.`)
+  lines.push('')
+
+  lines.push('## About')
+  lines.push('')
+  lines.push(`- [About](${abs(urls.about())})`)
+  lines.push(`- [Editorial policy](${abs(urls.editorial())}): how recommendations are made and how commercial relationships are kept away from them`)
+  lines.push(`- [Affiliate disclosure](${abs(urls.affiliate())})`)
+  lines.push(`- [Privacy policy](${abs(urls.privacy())}) · [Terms of use](${abs(urls.terms())})`)
+  lines.push('')
+  return lines.join('\n')
 }
 
 /* Cloudflare Pages headers: long-cache immutable assets, short-cache HTML. */
@@ -318,6 +384,7 @@ async function main () {
   await copyAssets()
   await writeFile(join(DIST_DIR, 'sitemap.xml'), buildSitemap(data.site, pages), 'utf8')
   await writeFile(join(DIST_DIR, 'robots.txt'), buildRobots(data.site), 'utf8')
+  await writeFile(join(DIST_DIR, 'llms.txt'), buildLlmsTxt(data.site, data), 'utf8')
   await writeFile(join(DIST_DIR, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
   await writeFile(join(DIST_DIR, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(DIST_DIR, '_redirects'), buildRedirects(), 'utf8')
