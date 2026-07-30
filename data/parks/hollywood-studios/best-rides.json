@@ -1,244 +1,238 @@
 {
   "park": "hollywood-studios",
-  "criteria": "Ranked on the experience itself: what the attraction does to you in the seat, how much of it is built rather than projected, and how well it survives a fifth ride. Queue length, Lightning Lane tier and how hard something is to get on were deliberately ignored when setting the order — they are discussed in the prose, but they never moved a placement.",
+  "criteria": "Ranked on what an attraction does to you between the load and the unload, how much of it is physically built rather than projected, and whether it holds up on a second and fifth go. Posted waits, Lightning Lane tier and how hard something is to book were kept out of the ordering entirely; where they matter they are argued in the text instead.",
   "intro": [
-    "Hollywood Studios is the strangest park at Walt Disney World to rank, because it only has nine actual rides. The rest of the roster is stage shows, walkthroughs, films and paid workshops. Any honest ranking has to mix those in rather than pretend the park is a ride park, so this list does — a 30-minute stunt show that has run since 1989 gets judged against a coaster on the same terms.",
-    "The other thing worth saying up front: this park's reputation is distorted by scarcity. Three of its attractions are among the hardest things to get on at the resort, and people reliably confuse difficulty with quality. Two of them earn the fuss. One of them does not, and it is ranked here where the ride deserves rather than where the queue implies."
+    "Hollywood Studios has nine rides. Everything else worth your time is a stage show, a walkthrough, a film or a paid workshop, and a list that only counted rides would be nine entries and a shrug. So the shows are ranked against the rides on identical terms: what is built, what happens to you, and whether you would go back. A stunt show running since 1989 gets judged the same way a launch coaster does.",
+    "The other thing shaping this list is that the park punishes the middle of the day. It is small, large stretches of it have no shade, and the ride list runs dry by about two in the afternoon. That is why two theatres and a walkthrough sit higher here than spectacle alone would put them. A cold room with something good in it is doing real work at this park, and the ranking reflects the day you will actually have rather than a ride count."
   ],
   "ranking": [
     {
       "rank": 1,
-      "slug": "star-wars-rise-of-the-resistance",
-      "headline": "Four ride systems in eighteen minutes, and not one of them is the weak link.",
+      "slug": "the-twilight-zone-tower-of-terror",
+      "headline": "Randomized drops, a ten-minute build-up, and the only ride here that changes every single cycle.",
       "why": [
-        "The structure is what makes it. You are briefed in a rebel base, loaded into a troop transport, intercepted by a Star Destroyer, marched out into a hangar bay under two rows of stormtroopers, put into a trackless vehicle, chased through corridors, and finally dropped out the bottom of the ship. Most large Disney attractions have one good idea and stretch it across three minutes. This one changes its method four times and never loses the thread between them.",
-        "It is also the only attraction in the park where the money is visible. The hangar bay is the best sight line built in Florida this century, and it is a physical set rather than a screen. The tradeoffs are real and worth naming: it breaks down more than anything else here, it is the one ride sold as an individual Lightning Lane purchase instead of being included with Multi Pass, and standby regularly runs double the next-longest queue. None of that changes what happens once you are aboard. Minimum height is 40 inches."
+        "The shaft is the only ride system at Walt Disney World that can pull you downward faster than gravity, and it does not use itself the same way twice. The drop profile is chosen per cycle, so the count of falls, the height of the rises and the timing of the doors all shift. You cannot brace correctly because you do not know what is next, and after a dozen rides that is still true. Every other headliner in this park is identical on the second go.",
+        "The rest is craft. An overgrown garden, a lobby dressed as though the guests walked out mid-drink in 1939, a library that sets the premise in under two minutes, and a boiler room corridor that is deliberately unpleasant to stand in. By the time the vehicle rolls out of the loading bay you have been inside the building for ten minutes and the tone has not slipped once. It is 40 inches, it runs almost every day, and it is what I would put a first-timer on if I only got one. Take it after dark for the view when the doors open over Sunset Boulevard."
       ],
-      "skipIf": "Skip it if you are prone to motion sickness — the simulator segment and the closing drop both arrive fifteen minutes in, with no early exit."
+      "skipIf": "Skip it if falling frightens you rather than thrills you; there is no toned-down version and the drops are the entire attraction."
     },
     {
       "rank": 2,
-      "slug": "the-twilight-zone-tower-of-terror",
-      "headline": "The best queue Disney has ever built, attached to a drop sequence that still won't tell you what's next.",
+      "slug": "star-wars-rise-of-the-resistance",
+      "headline": "Eighteen minutes, four ride systems, and a hangar bay that justifies the whole land.",
       "why": [
-        "Everything before the drop is the argument. The garden is overgrown on purpose, the lobby is dressed as if the guests walked out mid-drink in 1939, the boiler room corridor is genuinely unpleasant to stand in, and the library pre-show does its exposition in under two minutes without a single wasted line. By the time you are strapped into the service elevator you have been inside the story for ten minutes, which is why the first lurch upward lands harder here than on any other drop tower in the world.",
-        "The ride itself is a randomized sequence, so the number of drops and the order of the rises change between cycles. That is what keeps it re-rideable in a way that fixed-program drop towers are not — you cannot brace correctly because you do not know what is coming. It sits at 40 inches and is the most intense ride in the park for anyone who dislikes falling, well ahead of the coasters. Ride it at night if you can; the moment the doors open on the Sunset Boulevard view is better after dark."
+        "Rise is the bigger achievement and Tower of Terror is still the better ride. What Rise has is scale: a briefing, a transport that gets intercepted, a full-size hangar lined with troopers under an AT-AT, a trackless vehicle chased through corridors, and a drop out the underside of the ship. Four systems, roughly eighteen minutes, and the hangar reveal is the best single sight line built in Florida this century. It deserves a day planned around it.",
+        "It is second because it is fixed. Every beat lands in the same order at the same second, and by the third ride you are admiring something you have memorised rather than reacting to it. A fair share of those eighteen minutes is also spent standing in rooms rather than moving, and the transport leg is a screen. Two things that did not affect the placement: it is the attraction most likely to be down when you walk up, and it is sold on its own rather than included in the Multi Pass selection. Minimum height is 40 inches."
       ],
-      "skipIf": "Skip it if free-fall genuinely frightens you rather than thrills you — there is no gentle version of this and the drop is the whole point."
+      "skipIf": "Skip it if motion sickness is a genuine problem; the simulator leg and the closing drop both arrive late, with no way out once you are loaded."
     },
     {
       "rank": 3,
       "slug": "rock-n-roller-coaster-starring-the-muppets",
-      "headline": "Zero to highway speed in under three seconds, in the dark, with three inversions.",
+      "headline": "Still the only inversions at Walt Disney World, and the launch is the hardest hit at the resort.",
       "why": [
-        "This is the only real thrill coaster at Walt Disney World with inversions, and the launch is still the best single moment of physical sensation in the park. The layout is unchanged from the original build: a linear-induction launch out of the loading bay, straight into a rollover, then a corkscrew, then a sustained dark run with almost no visual reference to tell you where the track is going. Riding without knowing the layout is a completely different experience from riding it for the fifth time, and it holds up either way because the forces are doing the work.",
-        "The Muppets retheme replaced the old rock-tour framing without touching the track, and that is the correct read on what people actually come for. The new material is funnier than what it replaced and the pre-show is a clear improvement, but nobody is queuing for the story. Two practical notes: at 48 inches it has the tallest height requirement in the park, and the ride is noticeably rougher in the back rows than the front, so if you have a bad neck ask for row one."
+        "Zero to about 57 miles an hour in under three seconds, straight into a rollover and then two corkscrews, all indoors with almost nothing to tell you where the track goes next. It remains the only coaster at Walt Disney World with inversions. The layout is short and does not pretend otherwise: the first four seconds and the disorientation that follows are the product, and they are still better than anything else in the park at that particular job.",
+        "The Muppets retheme arrived in May 2026 and changed the queue, the pre-show and the soundtrack while leaving the track, the launch and the restraints exactly as they were. If you rode it in its previous form, you have ridden this. Two practical notes: at 48 inches it carries the tallest height requirement in the park and splits families more often than anything else, and the rear of the train tracks noticeably rougher than the front. Ask for row one if your neck is at all fragile."
       ],
-      "skipIf": "Skip it if you have back or neck problems — the launch and the transitions are abrupt and it is the roughest ride here."
+      "skipIf": "Skip it if you have neck or back trouble; the launch and the transitions are abrupt and this is the least forgiving ride here."
     },
     {
       "rank": 4,
       "slug": "mickey-and-minnies-runaway-railway",
-      "headline": "The best family dark ride in the park, and the rare headliner with no height requirement at all.",
+      "headline": "Five minutes of gags at a pace nothing else here sustains, and no height stick at the door.",
       "why": [
-        "The trackless system is used well rather than just used. Vehicles split, converge, spin to redirect your attention and stall in the middle of a room so the gag lands where the designers want it — the salsa factory and the carnival room in particular do things a fixed-track ride physically cannot. The gag density is very high; the ride runs about five minutes and there is no dead space in it, which is more than most dark rides its size can claim.",
-        "The reason it is not higher is that it never risks anything. Every room is bright, cheerful and resolves within twenty seconds, and there is no equivalent to the hangar bay or the elevator drop — no moment where you stop reading it as a series of jokes. That is a defensible design choice for the one park headliner that anyone of any height can ride, and it is why this is the correct first ride of the day for a family with small children. It just means the ceiling is lower than the three above it."
+        "It is the one headliner anyone of any height can ride and it does not coast on that. The trackless vehicles split, regroup, rotate to aim you at a gag and stall in the middle of a room when a joke needs the beat. The salsa factory and the carnival sequences do things a fixed track physically cannot. Five minutes with no dead air and a higher joke rate per minute than anything else in the park.",
+        "What keeps it out of the top three is that it never puts anything at stake. Every room is bright, every problem resolves inside twenty seconds, and there is no point where it stops being a run of jokes and becomes something you feel in your body. That is the correct decision for the ride an entire family boards together, and it makes this the right first attraction of the morning with small children. It just caps how high it can go on a list ranked on what happens to you in the seat."
       ],
       "skipIf": null
     },
     {
       "rank": 5,
       "slug": "toy-story-midway-mania",
-      "headline": "A carnival shooter with enough hidden scoring depth to survive a hundred rides.",
+      "headline": "The scoring is deep enough that the tenth ride is better than the first.",
       "why": [
-        "The competitive hook is why this outranks several more expensive attractions. Every scene has high-value targets that only open if you hit a specific trigger first, so the gap between a casual player and someone who knows the ride is enormous — roughly a factor of three on the final score. That turns a five-minute family ride into something with a skill curve, and skill curves are the cheapest re-rideability a park can buy.",
-        "The physical execution helps: the vehicles spin to face each screen, the 3D is clean, and the spring-action shooters give real feedback instead of a plastic trigger. What holds it back is that it is entirely screens, and the pre-show and queue are thin compared with what surrounds them. Practically, it takes a lot of guests per hour and the queue moves faster than its posted time suggests, so a 45-minute board is often closer to 25."
+        "The hidden scoring is why this outranks more expensive attractions. Most scenes lock their high-value targets behind a trigger you have to hit first, so someone who knows the ride finishes with roughly three times the score of someone shooting at whatever moves. That gives a five-minute family ride a real skill curve, and a skill curve is the cheapest repeat value a park can buy.",
+        "The hardware helps. The cars rotate to square you up with each screen, the 3D is clean, and the pull-string shooters give physical feedback rather than a plastic click. The limit is that it is screens from end to end, and both the queue and the pre-show are thin compared with what surrounds them. It also loads a large number of guests per hour, so the posted wait usually overstates the real one by a wide margin."
       ],
-      "skipIf": "Skip it if 3D glasses give you headaches, or if nobody in your party cares about a score."
+      "skipIf": "Skip it if 3D glasses give you headaches, or if nobody in your group has any interest in competing over a number."
     },
     {
       "rank": 6,
-      "slug": "fantasmic",
-      "headline": "Thirty minutes of water, fire and boats that earns the seat you gave up an hour for.",
+      "slug": "millennium-falcon-smugglers-run",
+      "headline": "One of three jobs in that cockpit is worth having; draw it and this is a top-five ride.",
       "why": [
-        "The Hollywood Hills Amphitheater seats around 6,900 people and the show is built for that scale: water-screen projection across a full lagoon, live performers on a rockwork island, fire effects on the water, and a finale with a riverboat that reads as genuinely large. The best segments are the ones with physical staging rather than projection, and the sheer amount of water in play makes it a different category of spectacle from a fireworks show.",
-        "It is ranked here rather than higher because the middle sags. Several sequences run long, a couple of the projection segments have aged badly against the newer effects around them, and the show's structure is a loosely-connected clip reel more than a story. The bigger cost is time: getting a good seat means arriving well before the posted start, so the real commitment is closer to ninety minutes than thirty. It is worth it once per trip, not once per night."
+        "Sitting down on that flight deck is one of the genuine moments in the park. The full-size ship outside, the crew lounge with the chess table, and then a cockpit built to dimensions people have carried in their heads for decades. The build quality is not in question. The flight is a six-person cooperative: two pilots steering, two gunners firing, two engineers patching damage, and the run really does go differently depending on whether your pilots can fly.",
+        "The problem is that four of the six seats reduce to pressing a button when a light comes on. Gunner and engineer both mean watching other people play a game, and the motion base is choppy enough that being a passenger makes the queasiness worse rather than better. Ranked sixth because the pilot version is excellent, the other version is not, and you do not get to choose. Single rider is usually the fastest way on, at the cost of any control over the seat. Minimum height is 38 inches."
       ],
-      "skipIf": "Skip it if you are travelling with someone who cannot sit still for a long pre-show wait on a hard bench."
+      "skipIf": "Skip it if you get motion sick and cannot be sure of a pilot seat; the four passive jobs are the ones that make people ill."
     },
     {
       "rank": 7,
-      "slug": "millennium-falcon-smugglers-run",
-      "headline": "The cockpit is the best set in the park; how good the ride is depends on your seat assignment.",
+      "slug": "slinky-dog-dash",
+      "headline": "The best first launch coaster a child can ride, and about ninety seconds shorter than its reputation.",
       "why": [
-        "The queue and the boarding are excellent — the full-scale ship outside, the crew lounge with the chess table, and then a cockpit built to the exact dimensions people have known for fifty years. Sitting down in it is the payoff, and it is a real payoff. The ride is a six-person cooperative simulator: two pilots, two gunners, two engineers, and the flight you get is genuinely determined by whether the pilots can steer.",
-        "The problem is that only two of the six jobs are interesting. Gunners press a button when a target appears; engineers press a button when a panel flashes. If you draw either, you are watching other people play a game, and the motion base is jerky enough that watching rather than driving makes the nausea worse. It is a headliner with a one-in-three chance of being the good version of itself, which is exactly why it sits below rides with no lottery in them. It is 38 inches, and the single rider line is usually the fastest way on — at the cost of any control over which seat you get."
+        "As coaster design for its intended job it is well judged. Two launches instead of a lift hill, a first drop with real airtime, a layout that runs over the roofs of the land so the sight lines beat anything else in Toy Story Land, and a 38-inch stick that lets most of a family ride together. For a cautious seven-year-old it is the best introduction to launched coasters in Florida, and it is better after dark when the lighting comes up.",
+        "It is also two minutes long, never gets past moderate speed, and has no single element anyone describes at dinner. Seventh is where the ride belongs. It is worth saying plainly that its reputation is a queue artifact: this is routinely the longest standby board in the park and the first Lightning Lane return window to sell out, and people who have given up an hour do not enjoy concluding that what they queued for was pleasant."
       ],
-      "skipIf": "Skip it if motion sickness is a concern and you cannot be guaranteed a pilot seat."
+      "skipIf": "Skip it if riding would cost you the first two hours of a single park day; nothing about it earns that trade."
     },
     {
       "rank": 8,
       "slug": "indiana-jones-epic-stunt-spectacular",
-      "headline": "A 1989 stunt show that still explains movie-making better than anything built since.",
+      "headline": "Practical stunts, real fire, and a show that stops to explain how the trick was done.",
       "why": [
-        "The framing is the thing that has kept it alive for nearly forty years: it stages an action sequence, stops, shows you the rigging and the safety mats, resets, and does it again for the cameras. You watch a stunt performer take a fall, and then you watch the crew explain how the fall was survivable. That is a documentary about craft disguised as a 30-minute show, and it is the only place in the park that does it.",
-        "The set pieces still land — the rolling boulder, the Cairo street with real fire, the plane. It is loud, the amphitheater is covered but not air-conditioned, and the audience-participation bit at the start goes on longer than it needs to. Most guests walk past this to queue an extra forty minutes for a ride, which is a bad trade. Go to a mid-afternoon performance, sit in the middle, and understand that the pacing is 1989 pacing — patient by modern standards, and better for it."
+        "It stages an action sequence, halts it, walks you through the rigging and the mats, resets and shoots it again for the cameras. That is a working explanation of how stunt work is done, wrapped inside a thirty-minute performance, and nothing else at the resort attempts it. The set pieces still land: the rolling boulder, the Cairo street with live fire, the aeroplane. The pyrotechnics here are bigger than anything else staged in this park.",
+        "It has run since 1989 and the pacing shows. The volunteer recruitment at the top takes longer than it needs to, and audiences trained on four-minute rides find the patience unfamiliar. The amphitheatre is roofed but open at the sides, so it buys you shade rather than air conditioning. Most guests walk past it in order to add forty minutes to a coaster queue, which is a poor exchange. Sit centre, go mid-afternoon."
       ],
-      "skipIf": "Skip it if loud pyrotechnics upset small children — the explosions are close and they are not subtle."
+      "skipIf": "Skip it if loud pyrotechnics frighten young children; the explosions are close and they are not gentle."
     },
     {
       "rank": 9,
-      "slug": "slinky-dog-dash",
-      "headline": "A genuinely good family coaster carrying a reputation about two tiers above what it delivers.",
+      "slug": "fantasmic",
+      "headline": "The biggest thing the park stages, priced at roughly ninety minutes of your evening.",
       "why": [
-        "Taken purely as a ride, it is well made. Two launches instead of a lift hill, a first drop with real airtime for a family coaster, a layout that runs over the top of the whole land so you get sight lines nobody else in Toy Story Land has, and a 38-inch requirement that lets most of a family on together. It is the best introduction to launch coasters in Florida for a nervous seven-year-old, and it is genuinely fun after dark when the lights come on.",
-        "But it is about two minutes long, it never exceeds moderate speed, and there is not a single element on it that you will still be thinking about at dinner. Its reputation comes from the fact that it is the hardest ride in this park to get on — often the first Lightning Lane return to sell out and routinely posting the longest Multi Pass wait in the park — and people rationalise a long wait by deciding what they waited for must have been extraordinary. It is a solid family coaster. Ranked on the ride, that is ninth here, and I would rather do the Indiana Jones show than queue an hour for it."
+        "The Hollywood Hills Amphitheater seats close to seven thousand and the show is built for that room: water-screen projection across the full lagoon, live performers on a rockwork island, fire effects on the water, and a finale with a boat that reads as properly large. The passages with physical staging are excellent, and the sheer volume of water in play puts it in a different category from a fireworks show.",
+        "The middle third is the weakness. Several sequences run long, some of the projection work has aged badly against the effects around it, and the structure is a loosely tied clip reel rather than a story. The real cost is time, since a decent seat means arriving well before the posted start, which turns thirty minutes of show into ninety minutes of evening. Worth doing once on a trip. Not worth building a second night around."
       ],
-      "skipIf": "Skip it if you only have one park day and it would cost you your first two hours — there is no version of this ride worth that."
+      "skipIf": "Skip it if someone in your group cannot manage a long wait on a hard bench before anything starts happening."
     },
     {
       "rank": 10,
       "slug": "star-tours-the-adventures-continue",
-      "headline": "Randomized scene combinations keep a 1989 simulator worth re-riding, if your stomach allows it.",
+      "headline": "The only ride here that can hand you a flight you have never seen before.",
       "why": [
-        "The randomization is doing all the heavy lifting, and it works. Each flight assembles an opening, a planet, a hologram message and a destination from a large pool, so consecutive rides genuinely differ, and the roster has been expanded repeatedly over the years. That plus the queue — the droid workshop, the departure boards, the security scanner gag — makes this the most re-rideable thing in the park after Midway Mania.",
-        "The limits are the hardware. It is a screen in front of a motion base, and after Rise of the Resistance opened a hundred metres away the ceiling on that format is obvious. The motion is also aggressive relative to the visuals, which is a bad combination for anyone susceptible; this causes more sickness than anything else here. At 40 inches with a rider switch available, it is the ride most likely to split a family in half."
+        "The randomisation is the whole case and it holds up. Each flight assembles an opening, a planet, a hologram message and a destination from a pool that has been expanded repeatedly since 2011, so consecutive rides genuinely differ. Add a queue that is still funny after thirty-odd years, with the droid workshop, the departure boards and the security scanner, and it is the second most repeatable thing in the park after Midway Mania.",
+        "The format is what limits it. A screen in front of a motion base was state of the art a long time ago, and Rise of the Resistance opening a few hundred metres away made that ceiling obvious. The motion is also strong relative to what your eyes are being given, which is exactly the combination that makes people ill; this causes more sickness than anything else here. It is 40 inches with rider switch available, so it splits parties often."
       ],
-      "skipIf": "Skip it if simulators reliably make you queasy — this is the worst offender in the park for that."
+      "skipIf": "Skip it if simulators reliably turn your stomach; this is the worst offender at the park for that."
     },
     {
       "rank": 11,
-      "slug": "beauty-and-the-beast-live-on-stage",
-      "headline": "Twenty-five minutes of real singing under a roof, and the best seated rest in the park.",
+      "slug": "walt-disney-presents",
+      "headline": "Original art, the first Florida model, and a cold room in the middle of the afternoon.",
       "why": [
-        "This is a condensed stage production of the 1991 film, and it is performed live rather than lip-synced, which puts it in a different category from most park stage shows. The ballroom sequence is properly staged, the costume work is good, and it runs 25 minutes, which is enough to feel like a show rather than a set piece. It has been running since the park's early years and the production values have been maintained rather than allowed to decay.",
-        "It is ranked here because it is a straight adaptation with nothing to say that the film did not — you are watching a very competent compression, not a reinterpretation. That is fine. Its practical value is high: the Theater of the Stars is covered, the benches are shaded, and slotting a performance into the early afternoon is the single best heat-management decision available on Sunset Boulevard."
+        "It is a self-guided museum with real objects in it: original concept art, awards, correspondence, a multiplane camera, and the scale model of the Florida project as it was first pitched. There is a film at the end and usually a look at whatever is under construction. Nobody moves you along, so it takes fifteen minutes or three quarters of an hour depending entirely on how much you stop to read.",
+        "Eleventh because it asks for an interest you may not have. Without it, this is a corridor of glass cases. But the hit rate among people who actually go in is very high, it is properly cold, it is effectively never busy, and it is the one place in the park where you can hear yourself think at two in the afternoon. Animation Courtyard has little else worth the walk; this is the reason to make it."
       ],
-      "skipIf": "Skip it if you do not like the film — the show adds nothing that would change your mind."
+      "skipIf": "Skip it if nobody in your group cares how any of this got made."
     },
     {
       "rank": 12,
-      "slug": "walt-disney-presents",
-      "headline": "The quietest room in the park, with original artwork and models almost nobody queues to see.",
+      "slug": "beauty-and-the-beast-live-on-stage",
+      "headline": "Live singing, twenty-five minutes, under a roof, and the best-produced stage show at the park.",
       "why": [
-        "This is a self-paced museum of Walt Disney's career, and the artifacts in it are real: original concept art, a scale model of the Florida project as it was first pitched, awards, correspondence, and a working piece of early animation equipment. There is a short film at the end and usually a preview of whatever is in construction. You can walk it in fifteen minutes or spend forty-five, and no part of it moves you along on a schedule.",
-        "It sits at twelve because it asks something of you — if you are not interested in the history it is a series of glass cases. But the hit rate on people who try it is very high, and it is air-conditioned, effectively never busy, and the one place in this park where you can hear yourself think in the middle of the afternoon."
+        "It is a compressed stage version of the 1991 film, sung live rather than to playback, which puts it above most park stage shows on execution alone. Twenty-five minutes, serious costume work, and a ballroom sequence that is staged properly instead of gestured at. It has run at the Theater of the Stars since the park's early years and the production has been maintained rather than allowed to slide.",
+        "The reason it is not higher is that it is a faithful compression with nothing of its own to add. You are watching a good adaptation, not an interpretation of anything. Its practical value is high: the theatre is roofed, the benches are shaded, and dropping a performance into the early afternoon is the single best heat decision available on Sunset Boulevard."
       ],
-      "skipIf": "Skip it if nobody in your group cares how any of this was made."
+      "skipIf": "Skip it if you do not like the film; nothing in the staging will change your mind about it."
     },
     {
       "rank": 13,
       "slug": "savis-workshop-handbuilt-lightsabers",
-      "headline": "The best twenty minutes money can buy here, at a price that makes it a hard recommendation.",
+      "headline": "The best-staged twenty minutes in Galaxy's Edge, and the most expensive thing you can do here.",
       "why": [
-        "The build is a staged ceremony, not a retail transaction. The room is dark, a host runs the group through choosing one of four design themes, the parts are laid out on a moving belt, and the assembly ends with the hilt actually powering on in your hands. The staging is disciplined — no photography during the ceremony, no upselling in the room — and it produces something people keep for years rather than a souvenir cup.",
-        "It costs around $250 plus tax as of July 2026, and reservations are required and go quickly. That price is why it is ranked here rather than in the top ten: this is the one attraction on the list where I would tell most people the money is better spent elsewhere unless the person building it will genuinely care. If they will, it is the strongest memory the park sells."
+        "The build is run as a ceremony rather than a transaction. The room is dark, a host takes the group through four design themes, the parts come round on a belt, and the hilt lights in your hands at the end. No photography during the ceremony and no upselling inside the room, and that discipline is what separates it from the shop next door. Twenty minutes, and people keep the result for years rather than a week.",
+        "It is also the most expensive thing on offer here short of a signature meal, and it needs a reservation booked well ahead of the trip. That is why it sits at thirteen rather than in the top ten: for most groups the same money buys more elsewhere in the park. For someone who will genuinely care about the object, it is the strongest thing this park sells."
       ],
-      "skipIf": "Skip it if $250 is a meaningful amount of money on this trip, or if the recipient is unlikely to keep the thing."
+      "skipIf": "Skip it if the cost is a real consideration on this trip, or if the person building it will have lost interest by the flight home."
     },
     {
       "rank": 14,
       "slug": "dok-ondars-den-of-antiquities",
-      "headline": "A free walkthrough with more real set dressing than most rides, and no line to get in.",
+      "headline": "An animatronic shopkeeper and a room of built props, free, with no queue and no ride time.",
       "why": [
-        "It is nominally a shop, but it is built as an attraction: a full-size animatronic proprietor working behind the counter, shelves of aged props that were designed rather than bought, crates and jars with genuine backstory, and lighting that is committed enough to be dim. Ten minutes in here does more for the sense of place in Black Spire Outpost than either ride does.",
-        "The catch is obvious — the exit is a cash register, and the prices are steep. Go in with the intention of looking. It is ranked above several things with longer queues because it costs you nothing, takes ten minutes, and is one of the few places in the park where standing still is the point."
+        "It is nominally a shop and it is constructed like an attraction: a full-size animatronic proprietor working behind the counter, shelves of aged props designed for the room rather than sourced from a catalogue, crates and jars with actual backstory, and lighting committed enough to be genuinely dim. Ten minutes in here does more for the sense of place in Black Spire Outpost than either of the two rides manages.",
+        "The catch is the till at the exit and the prices on the shelves. Go in intending to look. It ranks above things with far longer queues because it costs nothing, takes ten minutes, and is one of very few places at this park where standing still and reading the room is the entire point of being there."
       ],
       "skipIf": null
     },
     {
       "rank": 15,
-      "slug": "for-the-first-time-in-forever-a-frozen-sing-along-celebration",
-      "headline": "Air conditioning, thirty minutes off your feet, and two hosts doing better work than the material.",
+      "slug": "alien-swirling-saucers",
+      "headline": "Ninety seconds with a real snap to it, and nothing whatsoever behind that.",
       "why": [
-        "The show works because the writing gives the two royal historians hosting it room to play, and the performers do — the between-song patter is genuinely funny and pitched over the heads of the children it is nominally for. The songs run with on-screen lyrics and the character appearances are brief and well-timed rather than dragged out.",
-        "As entertainment it is slight, and if you have no interest in the film it will feel like thirty minutes. As a scheduling tool in a park with almost no indoor seating it is close to essential: the Hyperion Theater is large, properly cold, and it can absorb the worst hour of the afternoon without a queue worth mentioning."
+        "It is a well-dressed flat ride: saucers on a whip mechanism under a canopy, aliens overhead, a decent track playing, and at 32 inches the lowest height requirement in the park. That makes it the first thing many small children get to do without an adult wedged in beside them, and the lateral snap when a saucer changes direction is sharper than the look of the thing suggests.",
+        "That is the whole attraction. Ride time is about ninety seconds, throughput is poor even by flat-ride standards, and it regularly posts half-hour waits purely because Toy Story Land has three attractions and far more guests than three attractions can absorb. Under fifteen minutes, ride it. Over that, keep walking; a second ride reveals nothing the first did not."
       ],
-      "skipIf": "Skip it if nobody in your party wants to hear the songs — the comedy alone will not carry you through."
+      "skipIf": "Skip it if the posted wait is above fifteen minutes and there is anything else still on your list."
     },
     {
       "rank": 16,
-      "slug": "alien-swirling-saucers",
-      "headline": "Ninety seconds of pleasant whipping, with a queue that has never once been worth it.",
+      "slug": "for-the-first-time-in-forever-a-frozen-sing-along-celebration",
+      "headline": "A cold theatre, a big room, and two hosts who are funnier than the format requires.",
       "why": [
-        "It is a well-dressed flat ride: saucers on a whip mechanism under a canopy, the aliens overhead, a decent soundtrack, and at 32 inches it is the lowest height requirement in the park, so it is often the first ride a small child gets to do alone with a parent. The lateral snap when the saucer changes direction is genuinely more forceful than the visuals suggest.",
-        "That is the whole attraction. Ride time is roughly ninety seconds, the throughput is poor for a flat ride, and it routinely posts waits over half an hour because it is one of only three things in Toy Story Land. If it is under fifteen minutes, ride it. If it is not, walk on. Nothing in it changes on a second ride."
+        "The show works because the script leaves the two royal historians hosting it room to improvise and the performers use it. The patter between numbers is pitched over the heads of the children it is nominally aimed at and it is genuinely funny. Songs run with lyrics on screen, the character appearances are short and well timed rather than dragged out, and the whole thing is done in thirty minutes.",
+        "As entertainment it is light, and with no interest in the film you will feel every one of those minutes. As a scheduling tool it is close to essential at a park with very little indoor seating: the Hyperion Theater is large, properly cold, and it will absorb the worst hour of the afternoon without a wait worth mentioning."
       ],
-      "skipIf": "Skip it if the posted wait is above fifteen minutes and you have anything else left to do."
+      "skipIf": "Skip it if nobody in your party wants to hear the songs; the comedy will not carry it on its own."
     },
     {
       "rank": 17,
-      "slug": "droid-depot",
-      "headline": "A build-your-own workshop that is more toy store than attraction, but the toy actually works.",
-      "why": [
-        "You pick parts off a conveyor belt, assemble a unit at a bench in about fifteen minutes, and leave with a remote-controlled droid that responds to beacons planted around Galaxy's Edge — which is the part people underrate, because the droid keeps doing things for the rest of the day rather than sitting in a bag. Staff help without taking over, and the choice between the two chassis types is a real choice.",
-        "It ranks below Savi's because the ceremony is not there: it is a bench, a belt and a build, closer to a retail experience with a theme than a staged one. It is also expensive, and the droid is fragile enough that it wants careful packing. Worth it for a child who will play with it at home; skippable for anyone who wants the moment more than the object."
-      ],
-      "skipIf": "Skip it if you are not buying — unlike Dok-Ondar's, there is nothing here to look at."
-    },
-    {
-      "rank": 18,
       "slug": "star-wars-launch-bay",
-      "headline": "Props, replicas and short character lines in an air-conditioned hall almost nobody walks into.",
+      "headline": "The shortest character lines in the park, in a hall most guests never open the door on.",
       "why": [
-        "It is an exhibition space: film props and replicas, production material, a short behind-the-scenes film, and character greetings at the back with queues that are usually a fraction of what the same characters draw elsewhere. On a hot afternoon it is the fastest character meet in the park and one of the easiest places to disappear into for twenty minutes.",
-        "It is last on this list because it is a holding room with good contents rather than a designed experience, and it has been visibly overtaken by what Galaxy's Edge does across the park. But it is free, indoor and empty, and those three things together are rarer here than they should be."
+        "It is an exhibition space: film props and replicas, production material, a short behind-the-scenes film, and character greetings at the back with queues that run a fraction of what the same characters pull elsewhere on property. On a hot afternoon it is the fastest character meet available here and one of the easiest places to disappear into for twenty minutes.",
+        "It is last because it is a holding room with good contents rather than something designed to be walked through, and Galaxy's Edge across the park has plainly overtaken it. But it is free, indoor and empty, and that combination is rarer at this park than it has any right to be."
       ],
-      "skipIf": "Skip it if you have already done Galaxy's Edge properly — this will feel like a smaller version of it."
+      "skipIf": "Skip it if you have already spent real time in Galaxy's Edge; this will read as a smaller version of the same idea."
     }
   ],
   "overrated": [
     {
       "slug": "slinky-dog-dash",
-      "why": "Ranked ninth above and still overrated — that is the point. It is a good family coaster with bad queue economics: routinely the longest Multi Pass wait in the park and the first return window to disappear, for a two-minute ride with no standout element. The scarcity is doing the reputational work, not the layout."
+      "why": "Ranked seventh above and listed here on purpose, which is not a contradiction. It is a good family coaster with bad queue economics: routinely the longest standby board in the park and the first Lightning Lane return to disappear, for two minutes of moderate-speed track. The scarcity built the reputation, not the layout."
     },
     {
       "slug": "millennium-falcon-smugglers-run",
-      "why": "Four of the six seats are button-pressing jobs, and the ride sells itself on a cockpit you experience for about four minutes. Ranked seventh because the pilot version is very good, but most guests never draw it and are quietly disappointed without being able to say why."
+      "why": "Also ranked well above and still overrated. Four of the six seats amount to pressing a button when a light comes on, so the version of the ride people describe to each other is one that two guests in six actually get to have. The cockpit is superb and you are only in it for about four minutes."
+    },
+    {
+      "slug": "fantasmic",
+      "why": "Thirty minutes of show that costs most people ninety minutes of their evening, with a middle third leaning on projection work that has not aged well against the effects surrounding it. Worth seeing once. It should not be the fixed point that the rest of the night gets planned around."
     },
     {
       "slug": "alien-swirling-saucers",
-      "why": "Ninety seconds of ride behind a queue that regularly exceeds thirty minutes. It is a competent flat ride carried entirely by being one of three attractions in a land that draws far more people than it can process."
+      "why": "Ninety seconds of ride sitting behind waits that regularly clear half an hour. It is a competent flat ride carried entirely by being one of three things in a land that pulls several times more guests than it can process."
     }
   ],
   "underrated": [
     {
       "slug": "indiana-jones-epic-stunt-spectacular",
-      "why": "It has been running since 1989 and is written off as an old show, which is exactly backwards — it is the only attraction at Walt Disney World that stops mid-sequence to show you the rigging, and the fire effects are still bigger than anything else on stage here."
+      "why": "Written off as an old show, which gets it exactly backwards. It is the only attraction at the resort that stops in the middle of a sequence to show you the rigging and the landing mats, and its fire effects are larger than anything else staged in this park."
     },
     {
       "slug": "walt-disney-presents",
-      "why": "Original artwork, the original Florida project model and a genuinely quiet room, with effectively no wait at any hour. Most guests walk past the door without registering that it is an attraction at all."
-    },
-    {
-      "slug": "dok-ondars-den-of-antiquities",
-      "why": "A full-size animatronic proprietor and a room of purpose-built props, free to walk into, no queue, and better set dressing than plenty of things people wait an hour for two hundred metres away."
+      "why": "Original artwork, the first Florida project model, a multiplane camera and a quiet cold room with effectively no wait at any hour of any day. Most guests walk past the entrance without registering that it is an attraction rather than a corridor to somewhere else."
     },
     {
       "slug": "star-tours-the-adventures-continue",
-      "why": "The randomization means the ride you get today may share nothing with the one you rode last trip, which almost nobody accounts for when they say they have already done it. It is the second most re-rideable attraction in the park."
+      "why": "People say they have already done it, which is a strange claim about a ride that assembles a different flight each cycle from a pool that keeps growing. It is the second most repeatable attraction here and usually one of the shortest waits among the nine rides."
+    },
+    {
+      "slug": "beauty-and-the-beast-live-on-stage",
+      "why": "Sung live, twenty-five minutes, properly staged, and dismissed as filler because it is old and never has a queue. It is the best-produced piece of theatre at the park and the most useful half hour on Sunset Boulevard once the afternoon heat sets in."
     }
   ],
   "faqs": [
     {
-      "q": "What is the single best ride at Hollywood Studios?",
-      "a": "Star Wars: Rise of the Resistance, and it is not a close call. It runs about eighteen minutes across four different ride systems, and the hangar bay set is the most impressive physical space Disney has built in Florida in decades. The caveats are that it breaks down more than anything else in the park and that it is sold as a separate Lightning Lane purchase rather than being included with Multi Pass."
+      "q": "What is the best ride at Hollywood Studios?",
+      "a": "Tower of Terror, and I will defend that against the consensus. Rise of the Resistance is the more ambitious build, but it plays the same eighteen minutes in the same order every time, while Tower selects a different drop profile on every cycle and is therefore still surprising on ride five. If you are riding each exactly once, Rise probably wins the day. If you are riding anything twice, Tower is the better use of the second go."
     },
     {
-      "q": "What should I ride first at rope drop?",
-      "a": "Slinky Dog Dash or Rise of the Resistance, depending on what you have bought. If you are paying for Rise separately, go to Slinky Dog Dash at opening, because it is the ride whose standby wait deteriorates fastest and the one that is hardest to fix later in the day. If you are not paying, walk straight to Rise and take the shortest standby line it will ever have."
+      "q": "What should I do first at opening?",
+      "a": "Rise of the Resistance, if you are not paying separately to skip it, because its standby line will never be shorter than in the first twenty minutes of the day. If you have already bought a return time for Rise, go to Slinky Dog Dash instead; that is the wait that degrades fastest and the hardest one to repair later. Either way be through the gates before the posted opening time rather than at it."
     },
     {
-      "q": "How many actual rides does this park have?",
-      "a": "Nine: Rise of the Resistance, Millennium Falcon: Smugglers Run, Slinky Dog Dash, Toy Story Midway Mania, Alien Swirling Saucers, Tower of Terror, Rock 'n' Roller Coaster, Star Tours and Mickey & Minnie's Runaway Railway. Everything else is a show, a walkthrough, a film or a paid workshop. Plan for a park where sitting down in a theater is a normal part of the day rather than a fallback."
+      "q": "Did the Muppets retheme change Rock 'n' Roller Coaster?",
+      "a": "The track, the launch, the three inversions and the 48-inch height requirement are all unchanged. It reopened in May 2026 with a new queue, pre-show and soundtrack wrapped around the identical layout. If you rode it in its earlier form, you have ridden this one. The swap is a real change to the twenty minutes before you board and no change at all to the ninety seconds that matter."
     },
     {
-      "q": "Which rides have height requirements?",
-      "a": "Alien Swirling Saucers is 32 inches, Slinky Dog Dash and Millennium Falcon: Smugglers Run are 38, Star Tours, Rise of the Resistance and Tower of Terror are 40, and Rock 'n' Roller Coaster is 48 — the tallest requirement in the park. Runaway Railway and Toy Story Midway Mania have no requirement at all, which makes them the two headliners a whole family can do together. Rider switch is available on most of the rest."
+      "q": "What can a child under 40 inches ride?",
+      "a": "Mickey and Minnie's Runaway Railway and Toy Story Midway Mania have no height requirement at all. Alien Swirling Saucers starts at 32 inches, and both Slinky Dog Dash and Millennium Falcon: Smugglers Run start at 38. That rules out Star Tours, Rise of the Resistance and Tower of Terror at 40 inches and Rock 'n' Roller Coaster at 48, which is why the shows carry more of the day here than at any other park on property."
     },
     {
       "q": "Is one day enough for Hollywood Studios?",
-      "a": "One long day covers the nine rides and two or three of the shows if you arrive at opening and stay to close. It is not enough to do Galaxy's Edge at walking pace, see Fantasmic and eat a sit-down meal. If you only have one day, decide in advance whether you are prioritising rides or Galaxy's Edge itself, because trying to do both properly is the most common way people leave this park frustrated."
+      "a": "One long day covers the nine rides and two or three shows if you are there at opening and stay until closing. It is not enough to also walk Galaxy's Edge at a browsing pace, sit down for a table-service meal and watch Fantasmic. Decide before you arrive which of those three you are giving up, because trying to hold on to all of them is the most common way people leave this park irritated."
     }
   ],
   "lastVerified": "2026-07"

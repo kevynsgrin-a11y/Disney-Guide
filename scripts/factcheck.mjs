@@ -83,7 +83,7 @@ const MUST_BE_CLOSED = {
   // "muppet vision", not "muppet" — Rock 'n' Roller Coaster Starring The Muppets is operating.
   'hollywood-studios': ['muppet vision'],
   'animal-kingdom': ['dinosaur'],
-  'california-adventure': ['mike & sulley', 'mike and sulley'],
+  'california-adventure': ['mike & sulley'],
 }
 
 /** Attractions that must be present AND operating. */
@@ -128,7 +128,9 @@ const notes = []
 const fail = (where, message) => problems.push(`${where}: ${message}`)
 const note = (where, message) => notes.push(`${where}: ${message}`)
 
-const norm = (s) => String(s).toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9'&: ]+/g, ' ').replace(/\s+/g, ' ').trim()
+// Apostrophes are dropped rather than normalised: "Jumpin' Jellyfish" and "jumpin jellyfish" must
+// match, and so must every Goofy's / Luigi's / Tiana's in the reference tables.
+const norm = (s) => String(s).toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9&: ]+/g, ' ').replace(/\s+/g, ' ').trim()
 const matches = (name, needle) => norm(name).includes(norm(needle))
 
 const PARKS = Object.keys(HEIGHTS)

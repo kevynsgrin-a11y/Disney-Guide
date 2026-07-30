@@ -1,0 +1,2452 @@
+{
+  "park": "california-adventure",
+  "attractions": [
+    {
+      "slug": "red-car-trolley",
+      "name": "Red Car Trolley",
+      "land": "buena-vista-street",
+      "type": "transportation",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "There is nothing here to frighten anyone. The only surprise is the bell, which the operator rings loudly and often, and which can startle a sleeping infant. Toddlers usually love standing at the front window."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "One trolley in the fleet has a ramp-equipped car; cast members will hold you for that vehicle if you ask, which can mean a longer wait than the posted one. Wheelchairs and ECVs board through the rear."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A working replica of a 1920s Pacific Electric streetcar that shuttles between the park entrance and Hollywood Land.",
+      "description": [
+        "The Red Car Trolley opened with the 2012 Buena Vista Street overhaul, and it exists mostly to make a short walk feel like a period piece. The cars are modern reproductions of the Pacific Electric Railway streetcars that once ran across Los Angeles, complete with wooden bench seats, brass fittings, and a live operator who works the controls by hand.",
+        "The route is short: from the loading platform just inside the main gate, up Buena Vista Street, past Carthay Circle, and around to the Hollywood Land stop near the Disney Animation building. Trolleys run in both directions. It is transportation in name only — walking the same distance takes about three minutes and you will pass more shop windows doing it."
+      ],
+      "experience": [
+        "Boarding is casual. You queue at a small covered platform, the trolley pulls in, everybody piles onto slatted benches, and the operator clangs the bell before easing forward. The cars run on real rails embedded in the street, so pedestrians cross in front of you constantly and the driver stops for them. Expect the trip to take longer than the timetable suggests.",
+        "The view is the point. From the upper deck of Buena Vista Street you get the Carthay Circle tower framed straight down the road, which is the single best composition in the park and almost nobody photographs it from the trolley. Sit on the right-hand side heading toward Hollywood Land for that angle."
+      ],
+      "tips": [
+        "Ride it in the direction of Hollywood Land in the first hour of the day — the light is behind you and the streets are empty enough that the trolley actually moves.",
+        "Skip it entirely between noon and 5pm. The line is often longer than the walk and the benches bake in direct sun.",
+        "The Hollywood Land stop is a two-minute walk from Avengers Campus, which makes the trolley a genuinely reasonable way to cross the park with a tired preschooler.",
+        "Ask the operator about the car number. Each trolley is named and numbered after a real Pacific Electric line, and the operators know the history cold if you give them an opening."
+      ],
+      "bestTime": "First hour after opening or the last hour before close, when it runs freely.",
+      "typicalWait": "Usually walk-on to 10 minutes; can reach 20 minutes midday when a car goes down for service.",
+      "faqs": [],
+      "relatedSlugs": ["five-and-dime", "buena-vista-street-character-greetings"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "five-and-dime",
+      "name": "Five & Dime",
+      "land": "buena-vista-street",
+      "type": "show",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 20,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "A live band with amplified brass. Nothing frightening, but the horns are genuinely loud if you stand within a few feet of the truck, which matters for sound-sensitive kids."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Performed in the open street with no fixed seating, so wheelchair users can position anywhere along the curb. Sightlines get blocked fast once a crowd forms three deep."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A jazz-age band that rolls onto Buena Vista Street in a battered flatbed truck and plays swing arrangements of Disney standards.",
+      "description": [
+        "Five & Dime is the resident street act on Buena Vista Street: a small brass-and-rhythm ensemble fronted by a vocalist, delivered from the back of a period delivery truck that parks itself near Carthay Circle. The conceit is that they are a struggling group of musicians who have driven cross-country to break into pictures in 1920s Los Angeles.",
+        "The arrangements are hot jazz and early swing versions of Disney songs, played by working musicians rather than to a track. The set changes over time and the group leans into audience interaction, pulling people into a Charleston line if the crowd is willing. It is the best live music in either Disneyland Resort park on a normal afternoon."
+      ],
+      "experience": [
+        "The truck rumbles in, the band members unfold themselves out of the cab in character, and the drummer sets up on the tailgate. Sets run roughly twenty minutes with a lot of banter between numbers. The vocalist works the crowd hard and will absolutely single out someone standing in front with a stroller.",
+        "Watch the trombone player. In every configuration of this band the trombone gets the showiest solo, and the sightline for it is from the shaded side of the street rather than the sunny curb where everyone else stands."
+      ],
+      "tips": [
+        "Check the times board at the entrance turnstiles rather than the app — street entertainment is more reliably posted on the physical board.",
+        "Stand on the shop side of the street, not the truck side. You get shade, better sound because the horns project outward, and you are not in the path of the trolley.",
+        "If you are eating at Fiddler, Fifer & Practical Cafe, take an outdoor table around the posted set time. You will get the entire show sitting down with a cold drink.",
+        "The group performs a different holiday-season book of arrangements; the standard set described here is what runs the rest of the year."
+      ],
+      "bestTime": "Late morning and mid-afternoon sets, when Buena Vista Street is not a walking corridor for people leaving.",
+      "typicalWait": "No queue — arrive five minutes before a posted set for a front position.",
+      "faqs": [],
+      "relatedSlugs": ["red-car-trolley", "paradise-garden-bandstand", "buena-vista-street-character-greetings"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "buena-vista-street-character-greetings",
+      "name": "Buena Vista Street Character Greetings",
+      "land": "buena-vista-street",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Some toddlers are wary of full-costume characters at close range regardless of who it is. The greeting spots here are outdoors and open, so a nervous child can watch from a distance first, which helps enormously."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Greetings happen on flat pavement with no queue building to navigate. Face characters like Mickey do not speak; fur characters interact non-verbally, which suits some guests better than a scripted meet."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Mickey, Minnie, Goofy, Donald and friends appear in 1920s Los Angeles outfits along the park's entrance street.",
+      "description": [
+        "Disney California Adventure's entrance street is where the classic characters appear, and they appear here in clothes you will not see anywhere else at the resort — period Los Angeles daywear rather than the standard costumes. Mickey Mouse, Minnie Mouse, Goofy, Donald Duck, Daisy Duck and Pluto all rotate through the area near Carthay Circle and the Buena Vista Street plaza.",
+        "There is no dedicated building and no permanent queue structure. Cast members set up a rope line wherever the character stops, which means the location shifts and the whole thing can vanish for a character break with little warning. Check the Disneyland app's character listing, which is more accurate for these greetings than any printed schedule."
+      ],
+      "experience": [
+        "You wait in a short outdoor line, you get maybe ninety seconds, a PhotoPass photographer takes a set of shots, and you move on. The pace is faster than at Disneyland Park's dedicated meet locations because there is no indoor room to manage.",
+        "The upside of the loose setup is that these greetings are almost never crowded before 10am. Walking in at rope drop and turning right toward Carthay Circle instead of charging toward Cars Land gets you a two-minute wait for a character that would be a forty-minute line across the esplanade."
+      ],
+      "tips": [
+        "Do these in the first thirty minutes of the day. Everyone else sprints past to Radiator Springs Racers, and the entrance street is the emptiest it will be until closing.",
+        "Ask the PhotoPass photographer to also take a shot on your own phone. They will, and it means you get the image immediately rather than after you link the card.",
+        "The last hour before park close is the second-best window — the crowd has migrated to Paradise Bay for the nighttime show.",
+        "If a specific character matters to your kid, ask any Buena Vista Street cast member what the rotation looks like. They know and they will tell you honestly if it is a long shot."
+      ],
+      "bestTime": "The first thirty minutes after opening, or the final hour of the night.",
+      "typicalWait": "5 to 25 minutes depending on character; Mickey and Minnie draw the longest lines.",
+      "faqs": [],
+      "relatedSlugs": ["red-car-trolley", "pixar-pier-character-greetings", "character-close-up"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "monsters-inc-mike-and-sulley-to-the-rescue",
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "land": "hollywood-land",
+      "type": "dark-ride",
+      "opened": 2006,
+      "status": "closed",
+      "closedNote": "Closed in early 2026 so the show building and surrounding Hollywood Land footprint can be turned over to Disney's Avatar project. There is no reopening — the ride is gone permanently. The Avatar experience itself remains in early development with no official opening date announced.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "While it operated, the only genuinely tense beat was the Randall sequence in the darkened corridor, which startled a small number of preschoolers. Otherwise it was one of the gentlest dark rides at the resort."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": true,
+        "handheldCaptioning": true,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "The ride offered a wheelchair-accessible vehicle loaded from a separate platform. This information is retained for reference only; the attraction no longer operates."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The Hollywood Land taxi-cab dark ride through Monstropolis, permanently closed in early 2026 for the Avatar project.",
+      "description": [
+        "Mike & Sulley to the Rescue! opened in January 2006 in the show building that had housed Superstar Limo, and it retold the last act of the 2001 Pixar film from the seat of a Monstropolis taxi. The ride was a straightforward trackless-free omnimover-style dark ride: continuous loading, slow speed, a lot of animated figures and painted flats, and a closing gag where a monster guessed something about your group.",
+        "It was never a headliner and it was never meant to be. What it was, reliably, was a five-minute air-conditioned sit-down in the middle of a hot afternoon that a three-year-old and a grandparent could both do. Losing it takes a real chunk out of the park's thin roster of gentle indoor rides, and there is currently nothing in Hollywood Land that replaces that function.",
+        "Disney closed the attraction in early 2026 to clear the site for an Avatar-themed development. That project is in early development and Disney has not announced an opening date or a specific attraction lineup, so treat anything you read about what replaces this building as speculation."
+      ],
+      "experience": [
+        "You boarded a taxi two or three across, rolled past the Monsters, Inc. factory floor, and worked through the film's chase sequence at walking pace. The scenes were bright and busy, with strong practical lighting and a lot of small sight gags on the walls that rewarded a second ride.",
+        "The final beat was the ride's best trick: a monster in a booth made a personalized comment about the riders in the vehicle, generated live by a cast member watching a monitor. It was the sort of low-tech touch that made an otherwise ordinary ride worth doing once per trip."
+      ],
+      "tips": [
+        "Do not plan around this ride. If you are working from an older guidebook, a printed map, or a blog post that has not been updated, it is gone.",
+        "The nearest surviving equivalent for a gentle indoor ride with no height requirement is The Little Mermaid ~ Ariel's Undersea Adventure in Paradise Gardens Park.",
+        "Hollywood Land now has no ride at all. Budget your time in that land for the Animation building and the theaters rather than assuming there is a ride queue to burn.",
+        "Construction walls in this corner of the park change the walking route between Hollywood Land and Avengers Campus; the Red Car Trolley stop remains the reliable landmark."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["the-little-mermaid-ariels-undersea-adventure", "animation-academy", "guardians-of-the-galaxy-mission-breakout"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "animation-academy",
+      "name": "Animation Academy",
+      "land": "hollywood-land",
+      "type": "show",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "The room is dimmed so the projection reads clearly, but never dark. There is nothing here that frightens anyone; the main risk is a bored four-year-old who cannot yet hold a pencil steadily."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Tiered bench seating with drawing boards; wheelchair spaces are at the back row where the screen angle is actually better. Ask for a clipboard if a drawing board does not suit your reach."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "A working Disney animator walks a roomful of guests through drawing one character, start to finish, in about 25 minutes.",
+      "description": [
+        "Animation Academy is a live class inside the Disney Animation building, and it is the most underrated hour in the park. A real instructor stands at a lit drawing desk projected onto a screen and takes the room through constructing a single character step by step, from basic shapes to final line. You get paper, a pencil, and a hard surface. You keep the drawing.",
+        "The instructors rotate and so does the character on offer — the schedule outside the door lists which character each session will teach. They are working artists, they are funny about it, and the good ones spend the class explaining why an animator builds a head out of a sphere and a wedge rather than just telling you where to put the lines.",
+        "The room is cool, dim, quiet, and seated. On a 95-degree August afternoon that combination alone justifies the twenty-five minutes, and you walk out with something your kid will actually keep."
+      ],
+      "experience": [
+        "Sessions run roughly every half hour and are posted on a board at the entrance to the Animation building. You queue in the main animation hall — a cavernous room with film footage projected across every wall, worth ten minutes on its own — and are seated in one go.",
+        "The class itself moves fast. The instructor draws a step, you draw the step, they walk the room. Nobody is graded, nobody is put on the spot, and adults who insist they cannot draw generally leave surprised. The last two minutes are a quick tips-and-tricks segment that changes by instructor.",
+        "Sit toward the middle of a row rather than the aisle. The instructor's camera projects a mirror-accurate view from the center, and from the far edges the perspective on the drawing board is subtly skewed."
+      ],
+      "tips": [
+        "Check the posted schedule when you first walk into the Animation building in the morning, then plan your afternoon around a specific session — the character taught differs by class and the good ones fill up.",
+        "Ask an instructor which class of the day is teaching the hardest character. Late-afternoon sessions frequently get the more ambitious ones because the crowd skews older.",
+        "Take the paper home flat. The gift shops sell tube mailers, but a park map folded around the drawing works and costs nothing.",
+        "Repeat visitors: ask the instructor what they worked on. Many rotate in from production work, and the answers are genuinely interesting if you catch them between sessions."
+      ],
+      "bestTime": "Mid-afternoon, when the heat peaks and you want an air-conditioned sit-down that is not a ride.",
+      "typicalWait": "Sessions rarely fill; arrive 10 minutes before a posted start for a center seat.",
+      "faqs": [],
+      "relatedSlugs": ["the-magic-of-disney-animation", "character-close-up", "mickeys-philharmagic"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-magic-of-disney-animation",
+      "name": "The Magic of Disney Animation",
+      "land": "hollywood-land",
+      "type": "show",
+      "status": "under-construction",
+      "closedNote": "Disney has announced that The Magic of Disney Animation returns to the Disney Animation building in September 2026. That month is Disney-stated rather than independently verified, and opening dates for returning experiences move; treat it as an announcement, not a guarantee, until it is actually operating.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 15,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A theatrical presentation in a dimmed room. Nothing frightening is expected based on how the experience has historically been staged."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Housed in the Disney Animation building, which is step-free throughout with wide doorways and level theater entrances. Specific captioning provisions for the returning version have not been detailed."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "A presentation on how Disney animation is made, announced by Disney to return to the Animation building in September 2026.",
+      "description": [
+        "The Disney Animation building at California Adventure has always been the park's quiet strength: a set of rooms devoted to how animated films actually get made rather than to the characters in them. The Magic of Disney Animation is the anchor presentation for that idea, and Disney has said it comes back to the building in September 2026.",
+        "Because it is not operating as of July 2026, treat every detail about the returning version as provisional. What Disney has said is the name and the month. Anything about run time, seating, or content specifics circulating before it opens is inference. The 15-minute duration listed here reflects how the experience has historically been staged and should be checked against the app once it is live.",
+        "What is worth planning around is the building itself, which remains open. Animation Academy and the character greeting rooms run on their normal schedules regardless, so a stop here is already worth making."
+      ],
+      "experience": [
+        "Presentations of this kind at the Animation building are seated theater experiences in the round or in a fixed house, combining film footage with an explanation of the animation pipeline — story, layout, voice, character design, final render.",
+        "Once it opens, expect it to slot into the same rhythm as Animation Academy: posted showtimes on the board at the building entrance, a short queue in the main animation hall, and a house that clears completely between shows."
+      ],
+      "tips": [
+        "Check the Disneyland app on the morning of your visit rather than relying on any pre-trip article. A September 2026 target means the first months of operation will have unstable showtimes.",
+        "If it is running, pair it with an Animation Academy session in the same visit to the building — one is a lecture, one is a workshop, and they complement each other.",
+        "The main animation hall is worth sitting in for a full projection cycle whether or not any theater is running. It is the coolest and quietest room in Hollywood Land.",
+        "Do not schedule this against your nighttime show slot. Indoor theater capacity at this building is generous and it will not be the thing you miss."
+      ],
+      "bestTime": "Once open, mid-afternoon alongside an Animation Academy class.",
+      "typicalWait": "Unknown until it opens; historically these presentations seated everyone in the posted queue.",
+      "faqs": [],
+      "relatedSlugs": ["animation-academy", "character-close-up", "mickeys-philharmagic"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "character-close-up",
+      "name": "Character Close-Up",
+      "land": "hollywood-land",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Indoors and softly lit. Face characters here speak and hold conversation, which some anxious children handle far better than a silent costumed character, and a few handle worse."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Level indoor queue with no stairs, and the greeting room is climate controlled — a meaningful advantage over the outdoor greetings for anyone who overheats."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The indoor character greeting rooms inside the Disney Animation building, with a rotating lineup and no sun.",
+      "description": [
+        "Character Close-Up is the greeting space off the main hall of the Disney Animation building. The lineup rotates and is posted on the app; over the years it has hosted characters from Frozen, Moana, Encanto and other animated features, generally two at a time in separate rooms.",
+        "The reason to care is the environment. Every other character greeting at this park is outside, on hot pavement, with no shade. This one is indoors, air conditioned, carpeted, and staged against painted backdrops from the relevant film. If you are doing character meets with a small child in July, this is the one that will not end in tears."
+      ],
+      "experience": [
+        "You queue along a wall inside the animation hall, with the film projections playing overhead the entire time, which makes the wait far less painful than a standard switchback. Cast members manage the line tightly and greetings run three to four minutes each.",
+        "The face characters here hold real conversations and are given room to do it, so a child who wants to tell someone a long story about their day gets to. Bring an autograph book — this is one of the few spots at the park with enough time to actually sign one."
+      ],
+      "tips": [
+        "Check the app's character list before walking over. The lineup changes and the building has more than one greeting room active at a time.",
+        "The queue is shortest immediately after a nighttime show ends in the last thirty minutes of operation, when everyone else is walking toward the exit.",
+        "Bring a permanent marker rather than the pen that comes with an autograph book. Costumed characters with gloved hands manage a fat marker far better.",
+        "If your child is nervous, do this greeting before any outdoor one. The controlled indoor setting is a much gentler first encounter."
+      ],
+      "bestTime": "Late morning before lunch, or the last half hour of the operating day.",
+      "typicalWait": "10 to 35 minutes depending on which characters are out.",
+      "faqs": [],
+      "relatedSlugs": ["animation-academy", "buena-vista-street-character-greetings", "the-magic-of-disney-animation"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "disney-junior-dream-factory",
+      "name": "Disney Junior Dream Factory",
+      "land": "hollywood-land",
+      "type": "stage-show",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 20,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Aimed squarely at toddlers and preschoolers. The house lights dim and the music is amplified to dance-party volume, and there are confetti and bubble effects that can surprise a sensitive two-year-old on first exposure."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Floor seating on carpet for kids with a raised bench area around the perimeter for adults and wheelchair users. Ask a cast member for the bench line if standing or sitting on the floor is not workable."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A 20-minute sing-and-dance show for preschoolers, staged indoors with puppet characters from the Disney Junior lineup.",
+      "description": [
+        "The Disney Theater in Hollywood Land has held some version of a Disney Junior show since the park's early years, and the current production is Disney Junior Dream Factory. The framing is a workshop where a host and a rotating cast of Disney Junior characters build things — songs, dances, a party — with the audience doing the work alongside them.",
+        "Characters appear as large puppets operated in full view, in the style Disney has used for these shows for two decades. Recent lineups have drawn from Mickey Mouse Funhouse, Spidey and his Amazing Friends, Alice's Wonderland Bakery and similar current Disney Junior properties; the specific roster shifts as the network's slate does.",
+        "Be clear-eyed about the audience. If your youngest is six, they will be bored. If your youngest is three, this is likely the single best twenty minutes of their day, and it is one of only a handful of indoor sit-downs at this park."
+      ],
+      "experience": [
+        "You wait in a covered outdoor queue, then file into a carpeted room with no fixed chairs. Kids sit on the floor at the front, adults take the benches at the back or sit on the carpet with them. The show starts within a few minutes of the posted time.",
+        "It is participatory throughout — standing, clapping, shouting answers. The finale involves bubbles and confetti and a genuinely loud burst of music. Kids who like being in the middle of things should be down front; kids who need a perimeter should be on a back bench where they can watch first and join if they want."
+      ],
+      "tips": [
+        "Arrive fifteen minutes before showtime for the first performance of the day and you will walk straight in; later shows can fill and turn people away.",
+        "The back bench is the parent's seat. You can see over every head, your bag is off the floor, and you are two steps from the exit if it goes badly.",
+        "There is no stroller parking inside — leave it in the marked area outside and take valuables with you.",
+        "Repeat visitors should note that the character roster is refreshed periodically to track the current Disney Junior slate, so a show you saw two years ago is unlikely to be the same one now."
+      ],
+      "bestTime": "The first or second show of the day, before nap schedules collapse.",
+      "typicalWait": "Arrive 15 to 20 minutes before a posted showtime; the house clears fully between performances.",
+      "faqs": [],
+      "relatedSlugs": ["animation-academy", "mickeys-philharmagic", "character-close-up"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mickeys-philharmagic",
+      "name": "Mickey's PhilharMagic",
+      "land": "hollywood-land",
+      "type": "film",
+      "opened": 2013,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 12,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "The theater goes properly dark and the 3D effects are designed to come at your face — a swarm of objects, a rush of air, a spray of water scent. Toddlers who dislike 3D glasses or sudden dark rooms find this harder than the running time suggests. Nothing in it is menacing."
+      },
+      "motionSickness": "low",
+      "getsWet": "light",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": true,
+        "handheldCaptioning": true,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Wheelchair spots are along the back row with companion seating. The 3D glasses fit over most prescription frames; ask for the clip-on style if they do not."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "A 3D film in which Donald Duck loses Mickey's magic hat and falls through a run of Disney musical numbers.",
+      "description": [
+        "PhilharMagic is a 12-minute 3D feature built around Donald Duck being catastrophically bad at his job. He commandeers a conductor's hat, sets off a chain of events, and is flung through set pieces built on Disney animated musical sequences before being deposited, humiliated, back where he started.",
+        "The film is genuinely well made. The 3D is used with restraint for most of the running time and then aggressively at a few specific beats, and the practical in-theater effects — scent, air, a mist — are timed well enough that people who have seen it a dozen times still flinch.",
+        "It is the most reliably comfortable twelve minutes in Hollywood Land: a big house, deep air conditioning, and enough capacity that you almost never wait through two show cycles."
+      ],
+      "experience": [
+        "You get glasses on the way in and pick a seat in a wide theater. Sit in the middle third, roughly two-thirds of the way back — the 3D convergence is calibrated for the center of the house and the effects at the edges read flat.",
+        "The film moves through musical sequences quickly, and the transitions are where the animation work is strongest. Watch the way objects break the plane of the screen right at a cut; it is the trick that makes the whole thing work.",
+        "The last gag lands behind the audience. Do not stand up the second the lights come back — you will miss it, and everyone who has seen it before will be looking at you standing there."
+      ],
+      "tips": [
+        "Sit center, two-thirds back. Front rows put the 3D effects uncomfortably close and the side sections lose the depth entirely.",
+        "This is the best rainy-day and heat-of-the-day attraction in the park's north half. The house is huge and the wait almost never exceeds one show cycle.",
+        "Kids under four often do better without the glasses. The image still reads and the effects still land, and it avoids the fight.",
+        "Hang back for the final beat after the film ends — the joke is placed behind the seating, not on the screen."
+      ],
+      "bestTime": "Between 1pm and 4pm when the outdoor lands are unbearable.",
+      "typicalWait": "10 to 25 minutes, essentially never longer than one show cycle.",
+      "faqs": [],
+      "relatedSlugs": ["animation-academy", "disney-junior-dream-factory", "hyperion-theater"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hyperion-theater",
+      "name": "Hyperion Theater",
+      "land": "hollywood-land",
+      "type": "stage-show",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 35,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "A full-scale theater with a professional sound system, which means the musical numbers are loud. The house goes dark between scenes. Nothing in the programming is designed to frighten, but the volume is a real consideration for noise-sensitive guests."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": true,
+        "serviceAnimals": true,
+        "notes": "A conventional 2,000-seat house with wheelchair positions on the orchestra level and in the loge. Sign language interpretation is offered on a published schedule for resort stage productions; check with Guest Relations on arrival."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The park's 2,000-seat proscenium theater, home to limited-run Broadway-scale stage productions that change every few years.",
+      "description": [
+        "The Hyperion is a real theater — a full fly tower, an orchestra pit, a balcony, and around two thousand seats. It has housed a series of large-scale productions since the park opened in 2001, each running for a period of years before being retired and replaced.",
+        "Because the programming rotates, what is playing when you visit is not something a guide written in advance can promise. What is evergreen is the venue: when the Hyperion has a show up, it is the most technically ambitious live entertainment at the Disneyland Resort, staged and performed at a standard that has nothing to do with the word theme park.",
+        "Check the Disneyland app or the entrance times board for the current production and its schedule. Some runs perform daily; others play only on certain days, and a few have been ticketed or limited-capacity."
+      ],
+      "experience": [
+        "Doors open roughly twenty minutes before curtain and the house fills front to back by section. Cast members will seat you where there is room rather than letting you choose, so arriving early is the only lever you have on seat quality.",
+        "Center orchestra, roughly ten rows back, is the sweet spot for the sightlines these productions are staged for. The front two rows sit below the stage lip and lose the floor choreography entirely.",
+        "The balcony is the underrated option: it is emptier, it is cooler, and productions here typically use aerial or projection elements that read far better from above."
+      ],
+      "tips": [
+        "Confirm what is playing on the day you go. There are stretches when the theater is dark between productions and no amount of planning fixes that.",
+        "Queue thirty minutes before curtain for a center-orchestra seat; twenty minutes gets you the sides.",
+        "The balcony line is usually shorter than the orchestra line and often gives you the better view of large ensemble numbers.",
+        "This theater is the single best air-conditioned escape in the park, but you are committing 35 to 55 minutes — do not start the queue if your nighttime show viewing spot matters to you."
+      ],
+      "bestTime": "An early-afternoon performance, which frees your evening for Paradise Bay.",
+      "typicalWait": "Arrive 20 to 30 minutes before curtain; popular runs fill the house on weekends.",
+      "faqs": [],
+      "relatedSlugs": ["mickeys-philharmagic", "disney-junior-dream-factory", "world-of-color"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "guardians-of-the-galaxy-mission-breakout",
+      "name": "Guardians of the Galaxy – Mission: BREAKOUT!",
+      "land": "avengers-campus",
+      "type": "simulator",
+      "opened": 2017,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 4,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 5,
+        "startles": 4,
+        "notes": "This is a free-fall drop tower with a story wrapped around it, and the drops are severe — repeated, unpredictable, and with real airtime. The randomized ride profile means you cannot learn the pattern, which is exactly what makes it frightening for people who need to know what is coming. The theming is comic-book bright rather than menacing, so the fear here is physical, not psychological."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": true,
+        "handheldCaptioning": true,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer from a wheelchair or ECV to the ride vehicle and be able to hold an upright seated position against significant vertical forces. There is a stationary test seat near the entrance; use it. The pre-show gantry involves a substantial walk with a moderate incline."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A randomized free-fall drop tower through a collector's fortress, with a soundtrack that fires on every ascent.",
+      "description": [
+        "Mission: BREAKOUT! took over the drop tower that had operated as The Twilight Zone Tower of Terror since 2004 and reopened in May 2017 with a completely new exterior, queue, story and ride profile. The premise: the Collector has the Guardians of the Galaxy locked in his private museum, and Rocket wants your help springing them.",
+        "The engineering is largely the same Otis-built vertical motion system, but the programming is not. Instead of one fixed sequence, the ride runs several different randomized profiles, each paired with its own song and its own set of animated windows on the way up. Two consecutive rides genuinely differ, which is why the single-rider line at this attraction gets used harder than at any other ride in the resort.",
+        "The exterior remains the most argued-about building at the Disneyland Resort — a riveted metal collector's fortress bolted onto the skyline where a stucco hotel used to be. Whatever you think of it against Hollywood Land's period architecture, the ride inside is the strongest thrill attraction at this park and the fastest to reride."
+      ],
+      "experience": [
+        "The queue is the best-decorated part of the attraction and it is worth walking rather than sprinting: the Collector's office is packed with objects that reward a slow read, including cases referencing other Marvel properties and one very large occupant of a tank on the left as you enter the main room. Then Rocket appears in an animatronic figure that is among the best Disney has built.",
+        "You board a gantry vehicle, harnesses come down over your shoulders, and you rise. The doors open on animated scenes at different heights, then the floor drops out from under you. The drops are hard and repeated, with a distinct pause at the top that varies by profile. Airtime is real — you leave the seat.",
+        "Sit on the left side of the vehicle if you want the strongest view of the ride's central set piece, and the right side if you want the better window scenes. Front row on either side has the clearest sightline for both. The onboard photo fires on a drop, so commit to a face."
+      ],
+      "tips": [
+        "Use the single rider line without hesitation. It typically cuts a 60-minute posted wait to well under 15, and because the ride profile is randomized you are not sacrificing anything by splitting your group.",
+        "Do this first or last. Posted waits build fast after 10am and stay high until the final hour, when they collapse.",
+        "Empty your pockets in the queue lockers area — loose phones do not survive vertical airtime, and there is nowhere to secure them in the vehicle.",
+        "The 40-inch requirement is measured with shoes on at the stick outside the entrance. If your child is borderline, get measured at the park entrance in the morning and take the wristband, which stops the re-measure argument at every ride.",
+        "Repeat visitors: the songs are tied to specific ride profiles, so if you are chasing a particular sequence, listening for the opening bars in the loading area tells you what you are about to get.",
+        "There is a seasonal overlay version of this attraction during part of the year. The permanent, year-round version is the one described here."
+      ],
+      "bestTime": "Within the first 45 minutes of park opening, or the last hour before close.",
+      "typicalWait": "Standby commonly runs 40 to 80 minutes midday; single rider is usually under 20.",
+      "faqs": [
+        {
+          "q": "How scary is Mission: BREAKOUT! compared to a normal drop tower?",
+          "a": "Physically it is at the top end of what Disney builds — multiple hard drops with real airtime and a randomized sequence you cannot anticipate. Tonally it is the opposite of frightening: bright, loud, comedic, with a rock soundtrack. If your fear is heights and falling, this will be difficult. If your fear is dark and creepy, this is fine."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "40 inches. It is measured with shoes on and hats off at a fixed stick near the entrance. Borderline guests can get a colored wristband at the park entrance in the morning so they are not re-measured at every attraction."
+        },
+        {
+          "q": "Is the single rider line worth using?",
+          "a": "It is the best single rider line at the Disneyland Resort. Waits are routinely a quarter of standby. The only cost is riding apart from your group, and since the ride runs randomized profiles, riding separately is a legitimate way to sample two different versions in a row."
+        },
+        {
+          "q": "Can I ride if I get motion sick?",
+          "a": "Vertical drops trigger a different response than spinning does, so people who cannot handle a teacup ride sometimes handle this fine. But if you are prone to stomach drop nausea, this is the worst offender in the park. It is only three minutes, which limits the damage."
+        },
+        {
+          "q": "Do the ride profiles really change?",
+          "a": "Yes. There are several distinct drop sequences, each with its own song and its own set of scenes revealed on the way up. Which one you get is assigned by the ride system, not chosen."
+        },
+        {
+          "q": "Is this the old Tower of Terror?",
+          "a": "It uses the same drop tower structure and much of the same vertical motion hardware, rebuilt and reprogrammed. Everything a guest sees — the exterior, the queue, the vehicles, the sequence, the soundtrack — is new as of 2017. The Twilight Zone version closed permanently in January 2017."
+        }
+      ],
+      "relatedSlugs": ["incredicoaster", "web-slingers-a-spider-man-adventure", "the-twilight-zone-tower-of-terror", "radiator-springs-racers"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "web-slingers-a-spider-man-adventure",
+      "name": "WEB SLINGERS: A Spider-Man Adventure",
+      "land": "avengers-campus",
+      "type": "interactive-game",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A slow-moving trackless dark ride with 3D glasses. The rooms are dim and the vehicle rotates and reverses unexpectedly, which unsettles some riders more than the content does. The spider-bots swarming toward you in 3D are the only element that reliably startles young kids."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": true,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Wheelchair-accessible vehicles load from a separate bay; ask at the merge point rather than at the entrance. The gameplay is arm-motion based, and there is a lower-effort mode using smaller gestures if full arm extension is not possible — tell a cast member at load."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A trackless 3D shooter where you sling webs with your bare arms instead of a trigger, and your score is entirely a function of technique.",
+      "description": [
+        "WEB SLINGERS opened with Avengers Campus in June 2021 and is the only ride at the Disneyland Resort where the control input is your own body. There is no blaster. A gesture-tracking system reads your arm motion, and a flick forward launches a web on screen. Spider-Man has lost control of an army of spider-bots and you are recruited to sling them back into containment.",
+        "It is a competitive scoring ride first and a story ride second. The screens are large, dense, and busy, and the difference between a rider who understands the scoring and one who does not is enormous — first-timers routinely finish under 100,000 while people who know what they are doing clear a million.",
+        "The ride is also the anchor of a broader Avengers Campus gimmick: the physical spider-bot toys sold nearby interact with elements around the land, and wearing a WEB-branded suit jacket unlocks in-ride bonuses. None of that is required to enjoy it, but it explains the merchandise you will see people carrying."
+      ],
+      "experience": [
+        "The queue winds through the WEB workshop with real props and a genuinely good pre-show featuring a Spider-Man animatronic that performs a stunt Disney had not attempted at this scale before. Do not rush it.",
+        "You put on 3D glasses and board a trackless vehicle that seats four. The vehicle glides, spins and reverses through a series of screen rooms, and the spider-bots come from every direction including behind you. Two-handed slinging doubles your output — throw both arms, not one. Aim for the bots clustered near mechanical objects, because chain reactions score far higher than single hits.",
+        "The best seat is the outside of the vehicle rather than the inside, because your throwing arm has clear space. On the final room, stop chasing individual bots and just sling continuously into the middle of the screen; volume beats accuracy in the last thirty seconds."
+      ],
+      "tips": [
+        "Sling with both arms simultaneously, at chest height, with a short sharp flick. Big windmill motions register worse than small precise ones and wear your shoulders out by the second room.",
+        "Target bots that are attached to or near objects. Knocking one into a stack triggers a cascade worth many times a direct hit.",
+        "Sit on the outside seats if you care about your score — the inside seats have a person's arm in your throwing lane.",
+        "There is no single rider line here, and standby builds early because the land opens with the park. If you are not doing this in the first hour, use Lightning Lane Multi Pass or accept a long afternoon wait.",
+        "Repeat visitors: the ride tracks a cumulative score if you keep the same account linked, and wearing a WEB Suppliers suit jacket enables extra in-ride effects. Neither is advertised anywhere on the ride itself."
+      ],
+      "bestTime": "First hour of the day; Avengers Campus fills fast and this is the bottleneck.",
+      "typicalWait": "Frequently 45 to 75 minutes from late morning onward; walk-on only right at open.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement for WEB SLINGERS?",
+          "a": "No. There is no minimum height, which makes it one of the few attractions in Avengers Campus the whole family can do together. Small children can ride with an adult and simply watch if they cannot manage the arm motion."
+        },
+        {
+          "q": "How do I get a high score?",
+          "a": "Use both arms, keep the motions small and fast, and prioritize bots near stacked objects to trigger chain reactions. Hitting the same target repeatedly builds a multiplier. In the final room, sling continuously rather than aiming."
+        },
+        {
+          "q": "Will this make me motion sick?",
+          "a": "It can. The vehicle rotates and travels backward while you are wearing 3D glasses and focusing on a moving screen, which is the classic recipe. If Star Tours or Toy Story Midway Mania bothers you, take the same precautions here — look at a fixed point in the vehicle if you feel it starting."
+        },
+        {
+          "q": "Do I need to buy a spider-bot or a jacket?",
+          "a": "No. They are optional merchandise. The jackets do unlock additional in-ride effects and the physical spider-bots interact with elements elsewhere in Avengers Campus, but the ride is complete without either."
+        },
+        {
+          "q": "Is it scary for young children?",
+          "a": "Mildly. The rooms are dim and the 3D swarm effects come at your face, which surprises toddlers on first ride. There is no threat, no drop, and nothing menacing. Most four-year-olds handle it fine after being told what to expect."
+        }
+      ],
+      "relatedSlugs": ["toy-story-midway-mania", "guardians-of-the-galaxy-mission-breakout", "spider-bot-battles", "avengers-campus-character-encounters"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "doctor-strange-mysteries-of-the-mystic-arts",
+      "name": "Doctor Strange: Mysteries of the Mystic Arts",
+      "land": "avengers-campus",
+      "type": "show",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 12,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "Staged in a walled outdoor sanctum with heavy fog, sudden lighting changes and pyrotechnic-style effects. There is a moment where an antagonist force intrudes, accompanied by a bang and a rush of fog, and that reliably makes small children jump. Nothing follows it."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Standing-room show in a walled courtyard with a level floor. Wheelchair users are placed at the front of the standing area; ask a cast member as you enter rather than after the crowd forms."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A live stage show in the Ancient Sanctum where Doctor Strange teaches sorcery to recruits and something goes wrong.",
+      "description": [
+        "The Ancient Sanctum sits at the back corner of Avengers Campus, and several times a day it becomes a classroom. Doctor Strange appears and runs a short lesson in the mystic arts, drawing on volunteers from the audience and demonstrating spellwork with a combination of practical illusion, projection mapping, fog and lighting.",
+        "It is the most theatrical of the Avengers Campus live offerings and by far the best-performed. The actor carries the whole thing, and the technical effects are used sparingly enough that when the big one lands it actually surprises people. The stone-and-timber sanctum set is the best-built structure in the land.",
+        "Showtimes are posted on the app and on the board at the land entrance. It runs on a schedule with substantial gaps, so this is one to plan for rather than stumble into."
+      ],
+      "experience": [
+        "The courtyard fills as standing room. There are no seats and no shade to speak of, so a midday show in summer is an endurance exercise. Aim for the first show of the day or one after 5pm.",
+        "Stand toward the center rather than the sides. Several effects are designed to be read straight on and lose their trick from an angle, and the audience-participation moments are chosen from the middle of the crowd.",
+        "The show ends abruptly by design and the courtyard clears within a minute. If you want a photo of the sanctum set without a hundred people in it, wait ninety seconds after the crowd leaves."
+      ],
+      "tips": [
+        "Check showtimes early — there are only a handful per day and missing the last one means missing it entirely.",
+        "Take the first show of the day. The courtyard is in shade at that hour and the crowd is a third the size of an afternoon show.",
+        "Kids who want to be picked should be at the front and visibly enthusiastic; the performer chooses from the front two rows of standing guests.",
+        "Repeat visitors: the performer varies and the between-effect patter is largely improvised, so a second viewing with a different actor is a meaningfully different show."
+      ],
+      "bestTime": "The first posted show of the day, or an evening show after the sun drops behind the buildings.",
+      "typicalWait": "No queue; arrive 10 to 15 minutes early for a center standing position.",
+      "faqs": [],
+      "relatedSlugs": ["avengers-campus-character-encounters", "web-slingers-a-spider-man-adventure", "spider-bot-battles"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "avengers-campus-character-encounters",
+      "name": "Avengers Campus Character Encounters",
+      "land": "avengers-campus",
+      "type": "character-meet",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "Marvel characters here are played as in-universe personnel rather than as costumed greeters, and several arrive with a small stunt or a loud entrance. Groot is a very large puppet at close range, which surprises toddlers."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "All encounters happen on flat paved ground. Almost none of the standing areas are shaded, which is the practical accessibility issue here for anyone with heat sensitivity."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "Spider-Man, Black Panther, Thor, Captain America, Loki, Ant-Man, the Wasp, Doctor Strange and Groot appear across the land on a rotating schedule.",
+      "description": [
+        "Avengers Campus was designed around the idea that the heroes are staff, not attractions, so they arrive and depart from the land's buildings rather than standing at a marked photo spot with a rope line. Some do form a proper queue — Spider-Man and Black Panther usually do — while others simply appear, do something, and go.",
+        "The roster rotates and has included Spider-Man, Captain America, Black Panther, Thor, Loki, Doctor Strange, Ant-Man and the Wasp, Black Widow, Captain Marvel and Groot. The face characters are cast as performers who talk in character at length and handle a genuinely hard job well; the Groot puppet is one of the best pieces of character engineering Disney operates.",
+        "The land's signature moment is a Spider-Man aerial stunt performed above the WEB building. It runs on an unpublished schedule several times a day and lasts about thirty seconds. It is the best thirty seconds in Avengers Campus and most people walk right under it without looking up."
+      ],
+      "experience": [
+        "The pattern is: crowd gathers, cast members clear a lane, a character comes out of a doorway or down a stair, does a short bit of business, and then either poses for a line or works the crowd freely. There is no reliable posted schedule for most of it.",
+        "The aerial stunt happens on the rooftop of the WEB building and is announced only by cast members clearing the plaza a minute or two beforehand. If you see rope lines going up in the middle of the walkway for no obvious reason, stop and look up.",
+        "Photo lines here move faster than at Buena Vista Street because the interactions are shorter and more physical — a handshake, a pose, a line of dialogue."
+      ],
+      "tips": [
+        "If cast members start clearing the central plaza and you cannot see why, stay put. That is the tell for the rooftop stunt, and it is over in half a minute.",
+        "Ask any Avengers Campus cast member which hero is out next. They generally know the next thirty minutes of the rotation and will tell you.",
+        "There is essentially no shade in this land. Do these encounters before 11am or after 5pm and you will have a much better time than the people doing them at 2pm.",
+        "Repeat visitors: the performers here improvise heavily and stay in character through anything, so bringing a specific in-universe question rather than asking for a photo produces a much better interaction."
+      ],
+      "bestTime": "Before 11am or after 5pm — the land is unshaded and brutally hot in between.",
+      "typicalWait": "Formal queues run 20 to 45 minutes; roaming encounters have no wait at all.",
+      "faqs": [],
+      "relatedSlugs": ["web-slingers-a-spider-man-adventure", "doctor-strange-mysteries-of-the-mystic-arts", "guardians-of-the-galaxy-mission-breakout"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "spider-bot-battles",
+      "name": "Spider-Bot Battles",
+      "land": "avengers-campus",
+      "type": "interactive-game",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Two toy robots knock each other over on a table. There is nothing here that could frighten anyone."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The battle arenas are standard table height, which is workable from a seated position but tight. Gameplay requires fine motor control of a small remote."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Remote-control spider-bots bought at WEB Suppliers fight each other in arenas set up around the land.",
+      "description": [
+        "The spider-bots sold at WEB Suppliers are not just toys with a Marvel logo on them. Each is a small remote-controlled robot with an attack mode, and Avengers Campus has arenas where two owners can face off. Cast members referee, other guests gather to watch, and the whole thing takes about five minutes per bout.",
+        "It is a merchandise-driven activity — you have to buy a bot to participate, and they are not cheap — but it is a genuine piece of interactive design rather than a photo op, and it is the thing kids in this land remember. The bots also trigger effects at various points around Avengers Campus, so the toy keeps working after the battle ends."
+      ],
+      "experience": [
+        "You buy a bot, a cast member gets it paired and running, and you carry it to an arena. Bouts are short: two bots circle, you trigger the attack, and the first to be knocked over loses. The controls take about two minutes to learn.",
+        "The best arena is the one near the WEB building rather than the quieter ones, because it draws a crowd and cast members lean into refereeing it like a title fight."
+      ],
+      "tips": [
+        "Ask a cast member at WEB Suppliers to demonstrate the attack trigger before you leave the shop. The instructions are minimal and half the kids in the arenas never work out that there is one.",
+        "Carry your bot around the land — it reacts to specific spots in Avengers Campus that are not signposted anywhere.",
+        "Battles are free once you own a bot, so this is a way to get repeated value out of one purchase across a multi-day trip.",
+        "Bots go through batteries. Buy spares in the shop rather than hunting for them later, because nothing else in the park sells the right size."
+      ],
+      "bestTime": "Any time; the arenas are busiest right after the shop's morning rush.",
+      "typicalWait": "A few minutes for an open arena spot.",
+      "faqs": [],
+      "relatedSlugs": ["web-slingers-a-spider-man-adventure", "avengers-campus-character-encounters", "games-of-the-boardwalk"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "avengers-infinity-defense",
+      "name": "Avengers Infinity Defense",
+      "land": "avengers-campus",
+      "type": "dark-ride",
+      "status": "under-construction",
+      "closedNote": "Announced as the E-ticket centerpiece of the Avengers Campus expansion. The commonly reported 2027 to 2028 window is a projection based on construction pace and Disney's investment announcements, not a Disney-stated opening date. No official date has been given. Treat everything about ride system, capacity and height requirement as unconfirmed until Disney publishes it.",
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 3,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "No ride experience exists yet, so these numbers are placeholders based on the announced concept of a large-scale Avengers action attraction. Do not plan around them. Check back once the attraction actually operates."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Accessibility provisions have not been published. Nothing here is confirmed."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The announced E-ticket anchor of the Avengers Campus expansion, with no official opening date — 2027 to 2028 is an estimate.",
+      "description": [
+        "Disney has announced a major expansion of Avengers Campus centered on a large new attraction called Avengers Infinity Defense, in which guests join the Avengers against a multiversal threat. It is positioned as the E-ticket the land has lacked since it opened in 2021 with only WEB SLINGERS and the repurposed drop tower.",
+        "The widely cited 2027 to 2028 window is an estimate. Disney has not stated an opening date for this attraction. Construction is visible in the southeast corner of the park and the project is real, but any specific month or year you see attached to it is inference from permit filings and construction progress, not an announcement.",
+        "The practical consequence for planning is simple: do not build a trip around it, and be skeptical of any source that gives you a confident date. The site work does mean walls, altered walking routes and noise in this corner of the park in the meantime."
+      ],
+      "experience": [
+        "There is no ride to describe. The attraction does not operate and no guest has experienced it.",
+        "What you can see today is the construction footprint from parts of Avengers Campus and from the walkway toward Cars Land. Sound walls and cranes are visible over the land's back edge."
+      ],
+      "tips": [
+        "Do not schedule a trip around this opening. No official date exists and projected windows for Disney attractions routinely slip by a year or more.",
+        "Expect construction walls and altered pathways along the southeast edge of the park; the route between Avengers Campus and Cars Land is the one most likely to be affected.",
+        "If you want the current version of Avengers Campus without the expansion crowds, visiting before it opens is the window — the land is small and will be overwhelmed for its first year of operation.",
+        "Watch Disney's own parks announcements for a date rather than aggregator sites. Everything circulating now is a projection."
+      ],
+      "bestTime": "Not applicable — not yet open.",
+      "typicalWait": "Not applicable — not yet open.",
+      "faqs": [],
+      "relatedSlugs": ["stark-flight-lab", "web-slingers-a-spider-man-adventure", "guardians-of-the-galaxy-mission-breakout"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "stark-flight-lab",
+      "name": "Stark Flight Lab",
+      "land": "avengers-campus",
+      "type": "simulator",
+      "status": "under-construction",
+      "closedNote": "Announced as the second attraction in the Avengers Campus expansion alongside Avengers Infinity Defense. The 2027 to 2028 window reported for the expansion is a projection, not a Disney-stated date. No official opening date has been announced and no ride details have been confirmed.",
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 2,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Placeholder values only. Nothing about this attraction's ride profile has been confirmed by Disney, and no guest has experienced it."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Accessibility provisions have not been published. Nothing here is confirmed."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "A second announced attraction in the Avengers Campus expansion, themed to Stark flight technology, with no official opening date.",
+      "description": [
+        "Stark Flight Lab is the smaller of the two attractions Disney has announced for the Avengers Campus expansion, themed around testing Stark Industries flight technology. It is expected to pair with the larger Avengers Infinity Defense as the land roughly doubles in footprint.",
+        "As with the E-ticket, no opening date has been announced. The 2027 to 2028 window attached to this project in coverage is an estimate derived from construction timelines, not a statement from Disney. Ride system, height requirement and capacity are all unconfirmed.",
+        "The one thing worth knowing now is what it implies about the land's future crowding. Avengers Campus currently has two rides and gets congested by mid-morning; adding two attractions on an expanded footprint should relieve that meaningfully, but not before the opening-year crowds work through."
+      ],
+      "experience": [
+        "There is no ride to describe. The attraction does not operate.",
+        "Construction is visible from the southeastern side of Avengers Campus, behind sound walls."
+      ],
+      "tips": [
+        "Ignore any specific opening date you see for this attraction. Disney has not given one.",
+        "If a height requirement matters to your family's planning, wait for Disney to publish it rather than trusting an early report.",
+        "Avengers Campus is at its least crowded in the first thirty minutes of the day right now; that will be truer, not less true, once the expansion opens and disperses guests.",
+        "The construction affects walking routes between Avengers Campus, Cars Land and Hollywood Land. Give yourself an extra five minutes crossing that corner of the park."
+      ],
+      "bestTime": "Not applicable — not yet open.",
+      "typicalWait": "Not applicable — not yet open.",
+      "faqs": [],
+      "relatedSlugs": ["avengers-infinity-defense", "web-slingers-a-spider-man-adventure", "avengers-campus-character-encounters"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "radiator-springs-racers",
+      "name": "Radiator Springs Racers",
+      "land": "cars-land",
+      "type": "dark-ride",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "single-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "The dark-ride half is gentle apart from one moment in the tractor-tipping scene where a large figure lunges and a horn blares — that is the beat that startles small children. The outdoor race is fast but smooth, with banked turns and no drops. Most kids who clear 40 inches handle it."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": true,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer from a wheelchair or ECV into the vehicle, stepping down into a low bench seat. The queue is long, largely uncovered in its outer sections, and includes gentle grade changes throughout."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The park's best ride: a slow-moving trip through Radiator Springs that ends in a side-by-side outdoor race across the rockwork.",
+      "description": [
+        "Radiator Springs Racers opened with Cars Land in June 2012 and remains the most expensive and most technically accomplished attraction the Disneyland Resort has ever built. It runs on the same enhanced motion vehicle system as Test Track at EPCOT, but where that ride is a proving ground, this one is a narrative dark ride that happens to end with a race.",
+        "The setting is the reason it works. Ornament Valley — the range of red rock buttes behind the ride — is a scaled recreation of the Cadillac Range from the film, built out of steel and shotcrete at a size that reads as real from anywhere in the land. The ride weaves through it, and at night, when the neon comes on across Cars Land, the whole thing is the best-looking place at either Disneyland Resort park.",
+        "The other reason it works is pacing. You spend three minutes in unhurried scenes with excellent animatronics, get a moment of setup, then launch. The contrast is the entire design and it is why people who do not care about the movie still rank this first in the park."
+      ],
+      "experience": [
+        "You board a six-seat open car and roll out into the desert at dawn light, past a waterfall and through a canyon before entering the town. The scenes — the tractor field, the courthouse, Luigi's tire shop or Ramone's body shop — feature full-size animatronic cars with real facial articulation. Which of the two outfitting scenes you get is randomized, and they are meaningfully different.",
+        "Then you pull up beside another car at a starting line, a countdown runs, and both vehicles launch onto the outdoor track. The race is roughly forty seconds of banked curves and hills at about 40 miles per hour, with a photo fired on the first turn. The outcome is not fixed; the two cars genuinely trade wins.",
+        "Sit on the left side if you want the better view of the town scenes and the closer pass to Ornament Valley's rockwork on the race. The right side gets the stronger look at the racing partner. Back row takes the hills with more force than the front."
+      ],
+      "tips": [
+        "This is a Lightning Lane Single Pass attraction, meaning it is bought per ride rather than covered by Multi Pass. If you only buy one Single Pass all day at this park, buy it for this.",
+        "The single rider line is excellent and badly underused — routinely 15 to 25 minutes against a 90-minute standby. Groups of two who ride separately lose almost nothing.",
+        "Ride once in daylight and once after dark if you can. The outdoor race section is a completely different experience under the neon, and the queue collapses in the final hour of the night.",
+        "The standby queue is the longest walk in the park and the outer switchbacks have no shade. If it is over 85 degrees, use single rider or Lightning Lane rather than standing in it.",
+        "Repeat visitors: the ride randomly sends you to either Ramone's paint shop or Luigi's tire shop before the race. Riding twice back to back is the only reliable way to see both, and the single rider line makes that cheap."
+      ],
+      "bestTime": "In the first 20 minutes of park opening, or in the last hour before close when waits collapse.",
+      "typicalWait": "Routinely 60 to 120 minutes standby from mid-morning; single rider usually 15 to 30 minutes.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Radiator Springs Racers?",
+          "a": "40 inches, measured at a fixed stick with shoes on and hats off. If your child is borderline, get measured at the park entrance in the morning and take the colored wristband so you are not re-measured at each attraction."
+        },
+        {
+          "q": "Is Radiator Springs Racers scary?",
+          "a": "Not really. There are no drops and nothing dark for long. The one beat that startles young children is the tractor scene, where a large figure lunges toward the car with a loud horn. The outdoor race is fast but smooth, more like a highway than a roller coaster."
+        },
+        {
+          "q": "Is it worth buying Lightning Lane Single Pass for this ride?",
+          "a": "For most people, yes — it is the one attraction at this park where the standby wait is consistently punishing and the ride genuinely justifies the money. As of July 2026, Disneyland Resort prices Single Pass per ride and the cost varies by date, so check the app the morning of your visit."
+        },
+        {
+          "q": "How fast does the race go?",
+          "a": "Around 40 miles per hour on the outdoor section, which lasts roughly forty seconds. It is the fastest sustained speed at either Disneyland Resort park outside of Incredicoaster's launch."
+        },
+        {
+          "q": "Which side of the car should I sit on?",
+          "a": "Left for the better dark-ride scenes and the closest pass to the rockwork during the race. Right for the best view of the car you are racing. Back row feels the hills more; front row has the clearest forward view."
+        },
+        {
+          "q": "Does the ride change between rides?",
+          "a": "Yes. Before the race you are routed to one of two pit-stop scenes at random, and the race result is not predetermined. Two consecutive rides will differ."
+        }
+      ],
+      "relatedSlugs": ["luigis-rollickin-roadsters", "maters-junkyard-jamboree", "incredicoaster", "soarin-around-the-world"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "maters-junkyard-jamboree",
+      "name": "Mater's Junkyard Jamboree",
+      "land": "cars-land",
+      "type": "spinner",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 32,
+      "heightNote": "Children under 7 must ride with a guest age 14 or older.",
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Nothing frightening at all — it is bright, outdoors, and lasts ninety seconds. The only complaint anyone has is centrifugal: the whip at the end of each swing throws you sideways into your seatmate harder than the ride's gentle looks suggest."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You transfer into a low trailer seat and step down into it, which is awkward for anyone with limited hip mobility. There is no accessible vehicle. The lateral forces require the ability to brace yourself."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A whip-style ride where tractor-drawn trailers swing between turntables — far more forceful than it looks.",
+      "description": [
+        "Mater's Junkyard Jamboree is a Disney reworking of a classic carnival whip. Twenty-two small trailers are towed by baby tractors around a set of interlocking turntables, and every time the tractor changes turntables the trailer behind it slings out to the side. The result is a sequence of snapping lateral swings, one after another, for ninety seconds.",
+        "The theme is that Mater is running a barn dance in the junkyard. Each of the seven tractors plays a different short song, so which tractor you get determines your soundtrack — a detail that people who ride repeatedly track obsessively and everyone else never notices.",
+        "It is quietly one of the most physical rides in the park. Grandparents get on expecting a kiddie ride and get off holding their ribs. It is genuinely fun, and it is not the gentle option families assume from the outside."
+      ],
+      "experience": [
+        "You sit two across in a trailer with a lap bar and a shared bench. As the tractor pulls you across the turntable pattern, the trailer snaps left, then right, then left, with real force. Whoever is on the outside of a given swing takes the weight of the other rider.",
+        "The whip is strongest in the first thirty seconds while the ride is at full pattern speed. Put the heavier rider on whichever side gets the first swing if you want to avoid a squashed child — or accept that the squashing is the entire joke of the ride.",
+        "The best time to ride is after dark. Cars Land's neon comes on across the whole land and you are swinging through the middle of it with a country song playing."
+      ],
+      "tips": [
+        "Ride it at night. Cars Land's neon lighting is the best thing in the park after dark and this ride puts you in the middle of it for ninety seconds.",
+        "Put the smaller rider on the inside of the bench. The outside rider absorbs the swing; the inside rider gets crushed.",
+        "Each of the seven tractors has its own song. If you are riding with a kid who cares, ask the loading cast member which tractor is which — they know.",
+        "The queue is almost entirely unshaded and moves slowly for its length. In summer, do this after 6pm rather than in the afternoon.",
+        "It has a holiday overlay for part of the year with different music and decor; the version described here is the permanent one."
+      ],
+      "bestTime": "After dark, when Cars Land's neon is lit and the queue has thinned.",
+      "typicalWait": "20 to 45 minutes midday; often under 15 in the last hour of the night.",
+      "faqs": [
+        {
+          "q": "Is Mater's Junkyard Jamboree too rough for young kids?",
+          "a": "It is rougher than it looks. The lateral swings are sharp and repeated, and a small child on the outside of the bench gets thrown against the side. Most kids find that hilarious, but if yours dislikes being jostled, this is not the gentle Cars Land option people assume."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "32 inches. Children under 7 years old must ride with someone 14 or older. It is the lowest height requirement of the three Cars Land rides."
+        },
+        {
+          "q": "Will it make me motion sick?",
+          "a": "It can. The motion is lateral rather than rotational, which some people tolerate better than a teacup and others tolerate much worse. It is only ninety seconds, so the exposure is short."
+        },
+        {
+          "q": "Do the tractors really play different songs?",
+          "a": "Yes — there are seven tractors, each with its own short number. Which one you get is a matter of where you land in the queue, and it is the only real variation between rides."
+        }
+      ],
+      "relatedSlugs": ["luigis-rollickin-roadsters", "radiator-springs-racers", "jessies-critter-carousel"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "luigis-rollickin-roadsters",
+      "name": "Luigi's Rollickin' Roadsters",
+      "land": "cars-land",
+      "type": "spinner",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 32,
+      "heightNote": "Children under 7 must ride with a guest age 14 or older.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Completely benign. Bright, outdoors, no drops, no dark, moderate speed. The unpredictable trackless movement is the only thing that occasionally bothers a rider who wants to know where they are going."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer required into a bench seat set fairly low to the ground. The ride surface is a flat open floor, so the walk to your vehicle is short and level once you are through the queue."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "Trackless dancing cars that pair off and swing through a choreographed routine on an open floor.",
+      "description": [
+        "Luigi's Rollickin' Roadsters replaced Luigi's Flying Tires in 2016, and the swap was a straight upgrade. The original was an air-hockey-style ride that broke down constantly and moved slower than most people could walk. The replacement uses trackless vehicle technology to send cars gliding across an open plaza in a choreographed dance, pairing up, circling and reversing in patterns.",
+        "The story is that Luigi's cousins from Carsoli, Italy have come to visit and are putting on a dance. There are three separate routines set to different Italian songs, assigned to you at load, so which dance you get is luck of the draw.",
+        "The trackless system is what makes it. The cars move without any visible guidance, and watching from the queue you cannot work out how they avoid each other. It is the most technically interesting cheap thrill at the park and it is one of the few rides where the queue view is genuinely part of the fun."
+      ],
+      "experience": [
+        "You board a small car with a bench seat and no restraint beyond a lap bar. There is no steering and no controls — the car does the work. Then it glides off, finds a partner car, and the two of them circle each other, back up, sway and swing through a routine timed to the music.",
+        "The strongest sensation is the swaying, which is a suspension effect built into the vehicle rather than a track motion. It reads as the car dancing rather than the car turning.",
+        "Sit in a car near the middle of the loading batch if you want to be in the center of the pattern for most of the routine. Cars at the edges spend more of the dance on the perimeter, where the choreography is less interesting."
+      ],
+      "tips": [
+        "There are three different dance routines with different music. If you want to see them all, ride back to back in the last hour of the night when the wait drops under fifteen minutes.",
+        "Watch from the queue rail before you ride. Seeing the pattern from outside is half the appeal and you cannot see it from inside a car.",
+        "The queue passes through Luigi's tire shop, which is packed with sight gags and Italian-language jokes on the wall calendars and posters. Read them rather than looking at your phone.",
+        "Under-7s need a rider 14 or older with them even though the height requirement is only 32 inches — a detail that catches out groups sending two kids together.",
+        "It runs a holiday overlay for part of the year with different music. The permanent, year-round version is what is described here."
+      ],
+      "bestTime": "Last 90 minutes of the operating day, or immediately at rope drop while everyone runs to Racers.",
+      "typicalWait": "20 to 40 minutes midday, often 10 to 15 minutes late at night.",
+      "faqs": [
+        {
+          "q": "Is Luigi's Rollickin' Roadsters the same as Luigi's Flying Tires?",
+          "a": "No. Flying Tires closed in 2015 and was replaced by this ride in 2016. Same building and same theme, completely different ride system — trackless dancing cars instead of hovering tires."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "32 inches, and children under 7 must ride with someone age 14 or older."
+        },
+        {
+          "q": "Does it spin enough to make people sick?",
+          "a": "Rarely. The motion is a gentle sway and slow circling rather than fast rotation. It is one of the safer picks in the park for someone who cannot handle spinners."
+        },
+        {
+          "q": "Are the dances actually different each time?",
+          "a": "Yes — there are three routines with different music, assigned when you load. Most guests never notice because they only ride once."
+        }
+      ],
+      "relatedSlugs": ["maters-junkyard-jamboree", "radiator-springs-racers", "jessies-critter-carousel"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "meet-baymax",
+      "name": "Meet Baymax",
+      "land": "san-fransokyo-square",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Baymax is large, soft, slow-moving and silent, which makes him one of the easiest character encounters in either park for a nervous child. Kids who will not go near a face character will often hug this one."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Level pavement, short line, and a character who moves slowly and predictably. There is partial shade from the surrounding buildings for most of the day."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The only character greeting in San Fransokyo Square, and the gentlest one in the park for anxious kids.",
+      "description": [
+        "San Fransokyo Square replaced Pacific Wharf in 2023, rethemed to the hybrid city from Big Hero 6, and its one non-food offering is a greeting with Baymax near the center of the district. He appears on a posted rotation with breaks, so check the app rather than wandering over hopefully.",
+        "This is worth going out of your way for if you have a child who finds characters overwhelming. Baymax does not talk, does not move quickly, and is built to be hugged. The interaction is slow and physical rather than verbal, which removes the pressure that makes some kids freeze up at a standard meet."
+      ],
+      "experience": [
+        "A short rope line forms on the pavement. Baymax greets a family at a time with a cast member attending, and the whole thing takes two or three minutes. There is a PhotoPass photographer most of the time.",
+        "The surrounding district is worth ten minutes on its own — the retheme layered Japanese signage, wiring and street detail over the old Monterey wharf buildings, and the results reward looking up at rooflines rather than straight ahead."
+      ],
+      "tips": [
+        "Check the app for his appearance times. This is a rotation with real gaps, not a continuous meet.",
+        "Line up here between 2pm and 4pm, when the rest of the park is at its busiest and this district is mostly people eating.",
+        "This is the greeting to start with if your child is character-shy — no face, no voice, no pressure.",
+        "San Fransokyo Square has no rides at all. Budget it as a food-and-photo stop rather than an attraction land, and it will not disappoint you."
+      ],
+      "bestTime": "Mid-afternoon, when the district is a food stop and the queue is short.",
+      "typicalWait": "10 to 25 minutes when he is out.",
+      "faqs": [],
+      "relatedSlugs": ["character-close-up", "buena-vista-street-character-greetings", "pixar-pier-character-greetings"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-little-mermaid-ariels-undersea-adventure",
+      "name": "The Little Mermaid ~ Ariel's Undersea Adventure",
+      "land": "paradise-gardens-park",
+      "type": "dark-ride",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 6,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "One scene features Ursula as a very large animatronic in a darkened chamber with deep bass on the vocal, and that is the single beat that upsets toddlers. It lasts under a minute and the room after it is bright and cheerful. Everything else is calm and slow."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": true,
+        "handheldCaptioning": true,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Omnimover loading on a moving walkway, with the belt slowed or stopped on request. There is a wheelchair-accessible vehicle loaded from a separate position; ask at the entrance, not at the merge."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A six-minute omnimover through the 1989 film, and the best air-conditioned refuge in the park's southern half.",
+      "description": [
+        "Ariel's Undersea Adventure opened in 2011 in a building fronted by a giant clamshell facade on Paradise Gardens Park. It is a continuous-loading omnimover — the same vehicle system as the Haunted Mansion — running through the story of the 1989 film in a series of tableau scenes.",
+        "The animatronic count is high and the figures are good, particularly in the underwater musical number where dozens of sea creatures move in time. Ursula is the standout: a large, well-articulated figure with genuine presence in a darkened chamber.",
+        "It is chronically underrated by adults and rightly loved by everyone traveling with a preschooler. There is no height requirement, no drop, no dark tunnel of any length, and the whole thing is heavily air conditioned. Capacity is high enough that it rarely posts a serious wait even on a busy Saturday, which makes it the single most efficient attraction in the park."
+      ],
+      "experience": [
+        "You board a clamshell vehicle from a moving belt — tell the cast member if you need it slowed. The ride opens with a descent effect using scrim and lighting to suggest going underwater, which is the best trick in the attraction and the one most people miss because they are still getting settled.",
+        "The middle third is the musical set piece: a wide room packed with animated figures, bubbles and color. Look up. A significant amount of the animation is above the vehicle's natural sightline and the ceiling work is better than the floor work.",
+        "Then the Ursula chamber, dark and loud, followed by a bright resolution and the unload. Sit on the left side for the best angle on the Ursula figure; the right side gets a better view of the finale."
+      ],
+      "tips": [
+        "This is the park's best midday reset: six minutes, air conditioned, seated, and rarely more than a 15-minute wait even when everything else is an hour.",
+        "Look at the ceiling during the big musical scene. Half the animation is up there and the vehicle does not tilt you toward it.",
+        "If Ursula is the concern with a small child, tell them ahead of time that the loud purple octopus is in one room and then it is over. Warning them almost always works better than distracting them.",
+        "The queue is indoors and air conditioned past the first switchback, which is unusual for this park — even a 25-minute posted wait here is more comfortable than a 10-minute wait almost anywhere else.",
+        "Repeat visitors: watch for the scrim-and-lighting descent effect right after load. It is a genuinely clever piece of theater that reads as a special effect only if you are looking for it."
+      ],
+      "bestTime": "Any time — but its value is highest between 1pm and 4pm as a heat break.",
+      "typicalWait": "Usually 5 to 20 minutes; among the shortest waits in the park for a full dark ride.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement for Ariel's Undersea Adventure?",
+          "a": "No. There is no minimum height and no minimum age. Infants can ride on a lap, and the vehicles are enclosed clamshells with a lap bar."
+        },
+        {
+          "q": "Is the Ursula scene too scary for toddlers?",
+          "a": "It is the only questionable moment. The room is dark, Ursula is a large figure close to the vehicle, and the vocal has heavy bass. It lasts well under a minute and is immediately followed by a bright scene. Telling a child in advance that it is coming is far more effective than hoping they miss it."
+        },
+        {
+          "q": "Does it have a Lightning Lane?",
+          "a": "No, and it does not need one. Capacity is high enough that standby waits usually stay under twenty minutes even on crowded days."
+        },
+        {
+          "q": "Can I stay in a wheelchair?",
+          "a": "There is a wheelchair-accessible vehicle. Ask at the attraction entrance rather than waiting until the loading area, since it loads from a separate position and cast members need advance notice."
+        }
+      ],
+      "relatedSlugs": ["toy-story-midway-mania", "jessies-critter-carousel", "golden-zephyr"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "goofys-sky-school",
+      "name": "Goofy's Sky School",
+      "land": "paradise-gardens-park",
+      "type": "roller-coaster",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 3,
+        "notes": "This is a wild mouse coaster, which means flat hairpin turns taken at speed with no banking. The car appears to run off the edge of the track on every corner. It reads as a kids' coaster from the queue and it is not one — the lateral snap surprises adults far more than the small drops do."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer required into a small car with a shared lap bar and limited legroom. Riders must be able to brace against sharp lateral forces. The queue includes a set of stairs to the loading platform with an elevator alternative on request."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A wild mouse coaster disguised as a kids' ride — the hairpin turns are the real attraction, and they are nastier than they look.",
+      "description": [
+        "Goofy's Sky School opened in 2011 as a retheme of Mulholland Madness, which had been on the pier since the park's 2001 opening. The layout is a classic Mavericks-style wild mouse: a lift hill, a series of flat 180-degree hairpin turns at the top, then a run of short dipping drops back to the station.",
+        "The theme is a flight school run badly, based on a 1940 Goofy short, with signage of increasingly alarming flight instructions along the route. It is charming and completely beside the point once the car starts moving.",
+        "The reputation problem is that it looks small. Parents put a 42-inch-tall child on it expecting a gentle first coaster and the child comes off rattled, because wild mouse cars take unbanked corners fast enough that you get thrown hard against the side. It is the single most-underestimated ride in the park."
+      ],
+      "experience": [
+        "You climb into a small four-seat car, two rows of two, with a lap bar and not much room. The chain lift takes you up over the walkway, giving a good view across Paradise Bay toward Pixar Pier — the last calm moment you get.",
+        "At the top the car makes a sequence of flat hairpins. There is no banking, so on each corner you slide sideways into whoever is next to you while the front of the car appears to hang out over nothing. This is the ride. The drops that follow are short and comparatively mild.",
+        "Back row takes the corners harder because it whips through last. Front row gives you the view over the edge, which is the more frightening seat for anyone bothered by heights."
+      ],
+      "tips": [
+        "Do not treat this as a starter coaster. If a nervous child's first coaster matters, Incredicoaster's smooth launch is actually easier on them than this ride's snapping corners, height requirement aside.",
+        "Sit in the front row if the height bothers you less than the lateral force, and the back row if it is the other way around.",
+        "This is one of the worst rides in the park for motion sickness — flat, fast corners are the exact trigger. Do not do it right after eating at Corn Dog Castle.",
+        "Waits are short all day and shortest in the last hour. This is never worth queueing more than twenty minutes for.",
+        "Repeat visitors: read the flight-instruction signage in the queue. It is one continuous escalating joke and almost nobody gets to the end of it."
+      ],
+      "bestTime": "Late evening, when the wait drops under 10 minutes and the bay is lit.",
+      "typicalWait": "15 to 35 minutes; the ride's low capacity keeps the line moving slowly even when it is short.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Goofy's Sky School?",
+          "a": "42 inches. That is higher than Radiator Springs Racers and Mission: BREAKOUT!, which surprises people who assume it is the kiddie ride of the group."
+        },
+        {
+          "q": "Is Goofy's Sky School scary?",
+          "a": "More than it looks. There are no big drops and it never goes upside down, but the unbanked hairpin turns at the top throw you sideways with real force and give the impression the car is about to leave the track. Adults are routinely more rattled by it than children are."
+        },
+        {
+          "q": "Is it a good first roller coaster for a child?",
+          "a": "Not especially. The jolting is sharp and unpredictable and the cars are cramped. A smoother ride is a better introduction, even if the theme here looks friendlier."
+        },
+        {
+          "q": "Will it make me motion sick?",
+          "a": "It is the worst offender in the park for that. Fast flat cornering is a classic nausea trigger. If teacups bother you, skip this."
+        }
+      ],
+      "relatedSlugs": ["incredicoaster", "silly-symphony-swings", "golden-zephyr"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "silly-symphony-swings",
+      "name": "Silly Symphony Swings",
+      "land": "paradise-gardens-park",
+      "type": "spinner",
+      "opened": 2010,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": "40in for the standard tandem swings with an adult; 48in to ride the single-rider swings alone.",
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "You are in an open swing seat with a chain restraint, tilted outward at height, which is the entire fear factor. There is no drop and no speed to speak of. People afraid of heights find it much harder than people afraid of coasters do."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into an open swing seat with a chain and a belt; riders need enough trunk control to sit upright unsupported for ninety seconds. There is no adaptive seat."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A classic chain swing ride set to a 1935 cartoon soundtrack, with the best free view of Paradise Bay in the park.",
+      "description": [
+        "Silly Symphony Swings opened in 2010 as a retheme of the Orange Stinger, which had been on the pier since 2001 and enclosed the same swings inside a giant orange. Removing the shell was the best decision anyone made in the park's first decade — the ride went from a claustrophobic spin inside a fruit to an open-air swing over the water.",
+        "The theme is the 1935 Silly Symphony short The Band Concert, in which Mickey conducts an orchestra through a tornado, and the soundtrack is arranged accordingly. There are two swing configurations on the same tower: standard tandem swings that take a small child alongside an adult, and single swings for solo riders.",
+        "It is a carnival ride and makes no pretense otherwise. What justifies it is the view. At the top of the rotation you are looking straight across Paradise Bay at Pixar Pier and the Incredicoaster, and after dark that is the best free vantage point in the park."
+      ],
+      "experience": [
+        "You are strapped into an open chair on chains, the tower rises, and the whole array spins outward. Ninety seconds of gentle centrifugal lean at maybe forty feet up. There is nothing sudden about it at any point.",
+        "The view rotates continuously: Paradise Bay and Pixar Pier on one side, Grizzly Peak's rockwork on another, Cars Land's buttes behind that. Pick a side to face at load and you will get every angle anyway.",
+        "The tandem swings ride noticeably heavier and swing wider than the singles because of the combined weight. If you want the more forceful version, take a tandem with another adult."
+      ],
+      "tips": [
+        "Ride this right after sunset. The view across Paradise Bay with the pier lit is the reason to do it, and the wait at that hour is usually under fifteen minutes.",
+        "The 40-inch requirement applies to the tandem swings ridden with an adult. Riding alone in a single swing needs 48 inches — a distinction that catches out a lot of families at the loading gate.",
+        "Take nothing loose. Phones, hats and sunglasses do come out of pockets on this ride and the recovery area under the tower is not accessible during operation.",
+        "Tandem swings with two adults swing harder than the singles. If you want more out of it, that is the configuration.",
+        "Repeat visitors: the soundtrack is an arrangement of the score from a 1935 short, and there is a storm sequence in the music that lines up with the fastest part of the rotation."
+      ],
+      "bestTime": "The half hour after sunset, for the view across the bay.",
+      "typicalWait": "10 to 30 minutes; capacity is decent and the queue moves in visible batches.",
+      "faqs": [
+        {
+          "q": "What are the height requirements for Silly Symphony Swings?",
+          "a": "40 inches to ride the tandem swings with an adult, and 48 inches to ride the single swings alone. Cast members enforce the distinction at the loading gate, so a child between 40 and 48 inches needs an adult riding in the same tandem swing."
+        },
+        {
+          "q": "Is it scary?",
+          "a": "Only if heights bother you. There is no drop, no rapid acceleration and no sudden movement — just an open chair tilting outward about forty feet up for ninety seconds. Guests who hate coasters often find this fine; guests who hate heights often do not."
+        },
+        {
+          "q": "What is the best time to ride?",
+          "a": "Just after sunset. You get the full view across Paradise Bay with Pixar Pier lit, and the queue is short because most people are staking out spots for the nighttime show."
+        },
+        {
+          "q": "Was this the Orange Stinger?",
+          "a": "Yes. The same swing tower was enclosed inside a giant orange from 2001 until 2009. It was rethemed and reopened without the shell in 2010, which turned a mediocre ride into a good one."
+        }
+      ],
+      "relatedSlugs": ["golden-zephyr", "jumpin-jellyfish", "goofys-sky-school", "pixar-pal-a-round"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "golden-zephyr",
+      "name": "Golden Zephyr",
+      "land": "paradise-gardens-park",
+      "type": "spinner",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Among the tamest rides at either Disneyland Resort park. Enclosed rockets on cables swing gently outward over the water. Nothing sudden happens at any point."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into a rocket with a fairly high step over the sill and a bench inside. The ride does not operate in high wind, which happens more often than you would expect on afternoons near the water."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Polished-steel rockets on cables that swing out over Paradise Bay, straight out of a 1928 world's fair.",
+      "description": [
+        "Golden Zephyr is a reproduction of a 1920s amusement pier ride, the kind built when rocket travel was a magazine-cover fantasy rather than a thing anyone had done. Six burnished silver rockets hang from cables off a central tower, and when the tower rotates they swing outward over the edge of Paradise Bay.",
+        "It has been on the pier since opening day in 2001 and it survived the Paradise Pier to Paradise Gardens Park transition intact, which is more than most of its neighbors managed. The art deco styling makes it the best-looking ride vehicle in the park sitting still.",
+        "It is also the ride most likely to be closed when you walk up. The cables mean it cannot run in wind, and the afternoon breeze off the bay shuts it down regularly. If you see it running, ride it then rather than planning to come back."
+      ],
+      "experience": [
+        "You step up into an enclosed rocket with bench seating and windows, the tower spins up, and the rockets drift outward until they are hanging over the water. That is the whole ride. It lasts about ninety seconds and never gets faster than a brisk walk in terms of felt motion.",
+        "The reason to bother is the sightline: from the outward swing you are looking across the bay at Pixar Pier with nothing in the way. It is the calmest way to get that view, and unlike Silly Symphony Swings you are enclosed, so hats stay on."
+      ],
+      "tips": [
+        "Ride it when you see it running. Wind closures are frequent and unannounced, and there is no way to predict them from the app.",
+        "This is the gentlest height-restricted ride in the park at 42 inches — which is oddly high for how tame it is, and it disappoints a lot of five-year-olds who could easily handle it.",
+        "Face outward toward the bay at load if you want the view; the inward-facing bench looks at the tower.",
+        "Waits are almost always under ten minutes even at peak. It is one of the few genuinely low-friction things to do in the middle of the afternoon."
+      ],
+      "bestTime": "Late afternoon into evening; ride it opportunistically whenever it is running.",
+      "typicalWait": "Usually under 15 minutes.",
+      "faqs": [],
+      "relatedSlugs": ["silly-symphony-swings", "jumpin-jellyfish", "pixar-pal-a-round"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jumpin-jellyfish",
+      "name": "Jumpin' Jellyfish",
+      "land": "paradise-gardens-park",
+      "type": "spinner",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 1,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A parachute-drop tower scaled for children. You are lifted about forty feet and then float down in a series of soft bounces. The lift is slow, the descent is cushioned, and there is no free fall. Heights are the only issue, and the open seat means a scared child can see the whole way down."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into an open dangling seat with a shoulder harness; riders need enough trunk control to sit unsupported. Like Golden Zephyr, it closes in high wind."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A gentle parachute tower where jellyfish-shaped canopies lift you forty feet and let you drift back down.",
+      "description": [
+        "Jumpin' Jellyfish has been on the pier since 2001 and is one of only two original Paradise Pier flat rides still operating unchanged. Two towers, each with a set of open seats suspended beneath a translucent jellyfish canopy, lift riders up and then release them into a slow, cushioned descent with a few soft bounces at the bottom.",
+        "It is often described as a kiddie version of a drop tower, and that undersells how thoughtfully it is set up. The lift is slow enough that a nervous child gets a full look at where they are going, and the descent is genuinely soft — nothing like the free fall of Mission: BREAKOUT!.",
+        "The 40-inch requirement is the frustrating part. It is a tall bar for a ride this mild, and it means a lot of four- and five-year-olds are turned away from one of the few things in this park built precisely for them."
+      ],
+      "experience": [
+        "You sit in an open seat with your feet dangling and a shoulder harness clicked down. The canopy above you inflates as you rise. The lift takes maybe fifteen seconds.",
+        "At the top there is a pause of a second or two, and then you come down in a controlled descent that decelerates and bounces twice near the bottom. The whole cycle is about a minute.",
+        "The view at the top is straight across Paradise Bay. It is a lower vantage than Silly Symphony Swings but the seat faces outward the whole time, so it is easier to actually look."
+      ],
+      "tips": [
+        "It closes in wind, like Golden Zephyr next door. Ride when you see it running rather than saving it for later.",
+        "For a child nervous about heights, this is the right stepping stone before Silly Symphony Swings — the seat is secure, the pace is slow, and it is over in a minute.",
+        "Waits look longer than they are because the tower is visible from the whole walkway; capacity per cycle is small but cycles are fast.",
+        "Sunset is the best light for the translucent canopies, which glow from underneath at that hour.",
+        "Repeat visitors: the two towers run independently and one is consistently faster to load than the other. Watch for a minute at the split and pick the moving side."
+      ],
+      "bestTime": "Around sunset, or any time the wind is calm and the queue is short.",
+      "typicalWait": "10 to 25 minutes.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Jumpin' Jellyfish?",
+          "a": "40 inches. It is a high bar relative to how gentle the ride is, and it is the same requirement as Radiator Springs Racers and Mission: BREAKOUT!."
+        },
+        {
+          "q": "Is Jumpin' Jellyfish a real drop ride?",
+          "a": "No. There is no free fall. The seats are lifted about forty feet and then lowered on a controlled, cushioned descent with a couple of soft bounces. It is a parachute tower, not a drop tower."
+        },
+        {
+          "q": "Is it good for a child scared of heights?",
+          "a": "It is the best stepping stone in the park. The seat has a full shoulder harness, the lift is slow, the view is unobstructed so nothing is a surprise, and the whole ride is over in about a minute."
+        },
+        {
+          "q": "Why is it closed so often?",
+          "a": "Wind. The suspended-seat design means it stops operating in gusts, and Paradise Bay gets a reliable afternoon breeze. There is no advance notice — if you see it cycling, ride it then."
+        }
+      ],
+      "relatedSlugs": ["silly-symphony-swings", "golden-zephyr", "guardians-of-the-galaxy-mission-breakout"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "world-of-color",
+      "name": "World of Color",
+      "land": "paradise-gardens-park",
+      "type": "show",
+      "opened": 2010,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "You stand outdoors in the dark in a dense crowd for twenty-five minutes, which is the real issue for small children rather than anything on screen. The show uses flame effects with audible bursts and heat you can feel from the front rows, and the mist-screen imagery gets briefly intense during villain sequences."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": true,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Designated accessible viewing areas exist in the standing zones around Paradise Bay; ask a cast member at least 45 minutes before showtime because they fill. The soundtrack is broadcast to the area and to the app, and the audio description track is available through the Disneyland app."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The park's nighttime show: a 25-minute water, light, fire and projection production staged on Paradise Bay.",
+      "description": [
+        "World of Color debuted in 2010 and remains the largest piece of nighttime entertainment at the Disneyland Resort. It is built on roughly 1,200 programmable fountains in Paradise Bay, which project water screens that film is then mapped onto, combined with lasers, flame effects, lighting on the surrounding structures, and a full orchestral soundtrack.",
+        "The show's content has been reworked several times over its run, and Disney rotates in special versions tied to particular films or anniversaries. What is constant is the technology and the venue: water screens rising out of the bay with the Pixar Pier arcade and Incredicoaster lit behind them.",
+        "It is the single best reason to stay at this park until close, and it is also the most logistically annoying thing at either Disneyland Resort park. Getting a good spot costs you between forty-five minutes and two hours of standing, and the difference between a good spot and a bad one is enormous."
+      ],
+      "experience": [
+        "The viewing area is a series of terraced standing zones along the curve of Paradise Bay, roped into sections. The center-back zones give you the whole width of the water screens; the front rows give you scale but you lose the top of the projection and you will be misted.",
+        "The show opens with the fountains alone, which is genuinely worth watching before any film appears — the choreography of a thousand jets in the dark is the part people forget. Then the water screens form and the projected sequences run, punctuated by flame bursts that you feel as heat from anywhere in the first several rows.",
+        "Sound is directional and best in the center sections. From the far ends near Grizzly Peak or the pier the audio arrives slightly out of sync with the visuals, which is subtle but grating once you notice it."
+      ],
+      "tips": [
+        "The best free standing spot is the center-back of the main terraced viewing area, not the front rail. You want to see the full width of the water screens, and the front rows lose the top of the image and get soaked in mist.",
+        "A Lightning Lane Multi Pass reservation for the show gets you into a reserved section without the two-hour standing commitment, and it is the single most valuable use of a Multi Pass selection at this park.",
+        "Dining packages at some park restaurants include a reserved viewing area. Do the arithmetic honestly: you are paying a premium on the meal for a location that is good but not the best in the venue.",
+        "If you skip it, leave the park before it ends, not after. The exit surge after the finale takes 30 to 40 minutes to clear the esplanade.",
+        "Bring a layer. Anaheim after dark near a body of water with a thousand fountains running is meaningfully colder than the same spot at 4pm, and the mist compounds it.",
+        "There is a seasonal version of the show for part of the year. The permanent production is the one described here."
+      ],
+      "bestTime": "The later showing if two are scheduled — the crowd for the second is consistently thinner.",
+      "typicalWait": "Standing 45 to 90 minutes ahead for a good free spot; reserved sections require a Multi Pass selection or a dining package.",
+      "faqs": [
+        {
+          "q": "Where is the best place to watch World of Color?",
+          "a": "The center-back of the main terraced viewing area facing Paradise Bay. You get the full width of the water screens and stay out of the mist. The front rail looks appealing but cuts off the top of the projections and soaks you."
+        },
+        {
+          "q": "How early do I need to get a spot?",
+          "a": "For a good free spot, 45 to 90 minutes before showtime on a normal night, longer on weekends and holidays. With a Lightning Lane Multi Pass reservation for the show, arriving 20 minutes early is usually enough."
+        },
+        {
+          "q": "Will I get wet?",
+          "a": "In the first several rows, yes — a fine mist, and more than a fine mist if there is any breeze. Further back it is negligible. Phones survive it but a camera lens will need wiping between shots."
+        },
+        {
+          "q": "Is it too scary or too loud for young children?",
+          "a": "The show itself is not frightening, but standing outdoors in the dark in a packed crowd for 25 minutes is a lot for a toddler. The flame effects are loud and produce felt heat. Consider watching from the back where a child can sit on your shoulders and leave easily."
+        },
+        {
+          "q": "Is a dining package worth it?",
+          "a": "Only if you were going to eat at that restaurant anyway. The reserved areas are good, not spectacular, and the premium on the meal is real. A Multi Pass reservation delivers a comparable location for less."
+        },
+        {
+          "q": "Does the show change?",
+          "a": "Yes. Disney has rotated several different productions through the same venue since 2010, and there are seasonal versions during parts of the year. The fountain system, venue and viewing strategy stay the same regardless of which version is running."
+        }
+      ],
+      "relatedSlugs": ["incredicoaster", "pixar-pal-a-round", "silly-symphony-swings", "hyperion-theater"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "paradise-garden-bandstand",
+      "name": "Paradise Garden Bandstand",
+      "land": "paradise-gardens-park",
+      "type": "show",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Live acoustic and amplified music in an open garden. There is nothing here that could frighten anyone, and the volume is moderate enough to hold a conversation at the back."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Loose seating on a level garden terrace with plenty of room to position a wheelchair anywhere with a sightline. One of the easiest entertainment venues in the park to use."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A small covered bandstand in the gardens off Paradise Bay hosting rotating live musical acts.",
+      "description": [
+        "The Paradise Garden Bandstand sits in the planted area between the walkway and the water, and it hosts live music on a rotating schedule — mariachi ensembles, steel drum groups, jazz combos and similar acts depending on the day and the season. The programming is not fixed and is posted on the entertainment times board.",
+        "This is the most pleasant place to sit down in the park that costs nothing. There are shaded benches and low walls under mature trees, a food window and a beer stand a few steps away, and a view across the water toward Pixar Pier. On a hot afternoon it does more for you than most of the rides."
+      ],
+      "experience": [
+        "Sets run twenty to thirty minutes with breaks between. There is no queue and no assigned seating; you sit on a bench or the low wall and listen, or you keep walking.",
+        "The garden itself is worth noticing. The Paradise Gardens Park retheme in 2018 replaced a lot of the old boardwalk hardscape with real planting, and this corner got the most of it. The shade here is genuine tree shade rather than a canvas sail."
+      ],
+      "tips": [
+        "This is the best free shaded seating in the park's southern half. Bring food from Paradise Garden Grill and eat here rather than at a picnic table in the sun.",
+        "Check the entertainment board at the park entrance for the day's acts — the app is less reliable for atmosphere entertainment.",
+        "It is a good waiting spot before the nighttime show, since it is a two-minute walk from the main viewing terraces.",
+        "Repeat visitors: the act rotation varies by day of the week rather than randomly, so if you saw a group you liked, the same slot on the same weekday is your best chance of catching them again."
+      ],
+      "bestTime": "Mid-afternoon, when the shade matters and the crowd is elsewhere.",
+      "typicalWait": "No queue.",
+      "faqs": [],
+      "relatedSlugs": ["five-and-dime", "world-of-color", "golden-zephyr"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "incredicoaster",
+      "name": "Incredicoaster",
+      "land": "pixar-pier",
+      "type": "roller-coaster",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 2,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "The launch is the whole story: zero to about 55 miles per hour in under five seconds, which is the fastest acceleration at either Disneyland Resort park. After that it is a large, smooth steel coaster with one inversion and sustained airtime hills. Riders who are fine with speed but hate the loop should know the loop is early and brief."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer required into a coaster train with individual lap restraints. Riders must be able to sit upright unassisted and brace against a hard launch. A stationary test seat is available near the entrance; use it if restraint fit is a question."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The resort's fastest ride: a launched steel coaster around Paradise Bay with one loop and a lot of airtime.",
+      "description": [
+        "Incredicoaster is the 2018 retheme of California Screamin', the coaster that opened with the park in 2001 and defined its skyline for seventeen years. The track layout is unchanged — same launch, same loop, same 6,000-foot circuit around Paradise Bay — but the theming, the tunnels, the audio and the on-ride show scenes are all new, built around the Parr family chasing Jack-Jack.",
+        "The launch remains the headline. A linear induction motor takes the train from a standstill to roughly 55 miles per hour in under five seconds, up the first hill and straight into the layout. Nothing else at the Disneyland Resort accelerates like it.",
+        "As a coaster it is genuinely good: long, smooth, fast, with several strong airtime moments and a loop placed early enough that riders who are nervous about inversions get it out of the way in the first thirty seconds. As a piece of theming, the retheme is a mixed success — the show scenes inside the tunnels are fun, but you pass them at speed and most riders never register what they saw."
+      ],
+      "experience": [
+        "You board in the station under the pier structure, restraints lock, and the train rolls into the launch tunnel. There is a short countdown and then the launch, which pins you back hard and carries you over the first hill with real ejector force at the top.",
+        "The loop comes early, right after the first big hill, and it is smooth and quick. What follows is the long circuit around the bay: a run of hills with sustained airtime, several helix turns, and passes through tunnels containing the Jack-Jack show scenes. The ride is remarkably smooth for its age, which speaks to how well the original steel track was built.",
+        "Sit in the back row for the strongest launch and the most airtime over the hills — the back of the train gets whipped over each crest. Front row gives you the clean forward view of the layout and the tunnels. The middle is the compromise nobody should choose."
+      ],
+      "tips": [
+        "Ride in the back row. The launch is harder and every hill produces more airtime because the train is already moving when the back car crests.",
+        "The single rider line is short and consistently overlooked, often turning an hour standby into fifteen minutes.",
+        "After dark this ride is transformed. The entire circuit runs above the water with the pier lit, and the launch into darkness is significantly more intense than the daytime version.",
+        "Secure everything. Loose items leave pockets on the launch, and the recovery process for something dropped over the water is not quick.",
+        "Repeat visitors: the tunnel show scenes are timed to the train, and you can only really read one or two per ride. Front row on the right side gives the best look at the mid-circuit scene most people never see."
+      ],
+      "bestTime": "First 30 minutes of the day, or after the nighttime show when the crowd disperses toward the exit.",
+      "typicalWait": "40 to 70 minutes midday; single rider often under 20.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Incredicoaster?",
+          "a": "48 inches, the tallest requirement at Disney California Adventure. It is measured with shoes on at the stick near the entrance."
+        },
+        {
+          "q": "Does Incredicoaster go upside down?",
+          "a": "Yes, once — a vertical loop early in the layout, right after the first hill. It is smooth and lasts about two seconds. Everything after it is right side up."
+        },
+        {
+          "q": "How fast is it?",
+          "a": "Roughly 55 miles per hour, reached in under five seconds off a linear induction launch. It is the fastest ride at the Disneyland Resort."
+        },
+        {
+          "q": "Is it rough?",
+          "a": "No. It is a smooth steel coaster and it has aged well since the track was built in 2000. The forces are strong but the ride does not rattle or jar the way older steel coasters often do."
+        },
+        {
+          "q": "Is this the same ride as California Screamin'?",
+          "a": "Same track and same ride system, entirely new theme. California Screamin' operated from 2001 to 2018; Incredicoaster opened in June 2018 with new tunnels, show scenes, audio and station theming on the identical layout."
+        },
+        {
+          "q": "Which seat is best?",
+          "a": "Back row for the most forceful launch and the strongest airtime. Front row for the view and the clearest look at the tunnel scenes. Avoid the middle if you have a preference either way."
+        }
+      ],
+      "relatedSlugs": ["radiator-springs-racers", "guardians-of-the-galaxy-mission-breakout", "california-screamin", "goofys-sky-school"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "toy-story-midway-mania",
+      "name": "Toy Story Midway Mania!",
+      "land": "pixar-pier",
+      "type": "interactive-game",
+      "opened": 2008,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A slow-moving 3D shooting gallery with cartoon targets. The rooms are dim but never dark, and the only startle is a spring-loaded effect in one scene. This is about as safe a pick as exists for a cautious child who still wants to do something active."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "A wheelchair-accessible vehicle is available and loads from a dedicated position; request it at the attraction entrance. The pull-string cannon requires repeated arm motion, and cast members can offer a modified setup for riders with limited grip."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A 3D carnival shooting gallery on a spinning tracked vehicle — the most replayable ride in the park.",
+      "description": [
+        "Toy Story Midway Mania! opened at this park in June 2008 in the pier's old shooting-gallery building, and it has been near-permanently busy ever since. You ride a tracked vehicle that rotates to face a series of screens, each running a different carnival midway game, and fire a spring-loaded cannon at 3D targets.",
+        "The games are genuinely different from each other — rings, darts, plates, baseballs — and each has hidden high-value targets that only appear if you hit a specific object first. That layered scoring is why people ride this six times in a trip and why the gap between a first-timer's score and a regular's is a factor of five.",
+        "It is also the most reliable family attraction in the park: no height requirement, no darkness worth mentioning, air conditioned, six minutes long, and competitive enough that teenagers stay interested. The only real cost is the wait, which is consistently among the longest at this park despite decent capacity."
+      ],
+      "experience": [
+        "You put on 3D glasses and board a vehicle seating four, back to back in pairs, each with a pull-string cannon on a swivel. A practice screen lets you calibrate before the first real game.",
+        "Pull the string fast and repeatedly — the cannon fires as fast as you can cycle it, and volume beats precision on most screens. In the plate-breaking game, aim for the plates at the very edges; in the dart game, hit the balloons in the volcano first to unlock the highest-value targets behind them.",
+        "The final screen is a free-for-all where the multipliers are highest. Do not aim at anything specific there; just fire continuously into the center-left where the target density is greatest."
+      ],
+      "tips": [
+        "Pull the string as fast as your arm allows. Most first-time riders fire a third as often as they could and blame their aim.",
+        "Each game hides bonus targets behind a trigger object — break the plates on the edges, pop the volcano balloons, hit the moving train. Regulars score five times a newcomer purely on knowing where those are.",
+        "The single rider line exists here and is badly underused. It routinely saves 40 minutes.",
+        "If your shoulder gets tired, switch the cannon to your other hand between screens. There is no penalty and the vehicle rotates anyway.",
+        "Repeat visitors: your score is displayed against the ride's daily and all-time averages at unload, and the all-time bar is a legitimate target rather than decoration."
+      ],
+      "bestTime": "In the first hour or in the last hour; midday waits are the worst in the park relative to ride length.",
+      "typicalWait": "45 to 80 minutes for much of the day; single rider frequently under 20.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement for Toy Story Midway Mania?",
+          "a": "No. There is no minimum height, and small children can ride with an adult operating the cannon for them if they cannot manage the pull-string."
+        },
+        {
+          "q": "How do I score higher?",
+          "a": "Fire faster — the cannon cycles as quickly as you can pull. Then learn the trigger objects: each screen hides high-value targets behind something you have to hit first, like the balloons in the volcano or the plates at the edges of the frame."
+        },
+        {
+          "q": "Is it scary for toddlers?",
+          "a": "Barely. The rooms are dim rather than dark, the vehicle moves slowly, and everything on screen is a cartoon carnival game. One scene has a spring-loaded effect that makes a noise. It is one of the safest choices in the park for a cautious child."
+        },
+        {
+          "q": "Can it cause motion sickness?",
+          "a": "Occasionally. The vehicle spins between screens while you are wearing 3D glasses and focusing close, which bothers some people. Looking at the cannon rather than the screen during rotations helps."
+        },
+        {
+          "q": "Is this the same ride as the one at Hollywood Studios?",
+          "a": "The core ride system and most of the games are the same, though the two versions have differed in individual screens and in the queue over the years. Scores do not carry between them."
+        }
+      ],
+      "relatedSlugs": ["web-slingers-a-spider-man-adventure", "incredicoaster", "games-of-the-boardwalk", "the-little-mermaid-ariels-undersea-adventure"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pixar-pal-a-round",
+      "name": "Pixar Pal-A-Round",
+      "land": "pixar-pier",
+      "type": "spinner",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 9,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 2,
+        "notes": "There are two completely different rides here. The non-swinging gondolas are a calm 150-foot observation wheel. The swinging gondolas slide freely along interior rails, dropping and lurching as the wheel turns, and they genuinely frighten people who were expecting a Ferris wheel. Choose the correct queue and this is a 1; choose wrong and it is a 4."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Certain non-swinging gondolas accommodate a wheelchair without transfer; ask at the entrance and expect a longer wait for the right car. The swinging gondolas require transfer and the ability to brace against sudden sliding."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A 150-foot wheel with two separate queues: gondolas that hang still, and gondolas that slide violently along rails.",
+      "description": [
+        "The wheel has been on the pier since the park opened in 2001, originally as the Sun Wheel, rebranded as Mickey's Fun Wheel in 2009, and rethemed again in 2018 as Pixar Pal-A-Round. Through all of it the machine has been the same: a 150-foot eccentric wheel with 24 gondolas, sixteen of which slide along curved interior rails as the wheel rotates and eight of which are fixed in place.",
+        "This is the most important thing to understand about it, and the ride does a poor job of communicating it. There are two separate lines. The swinging line puts you in a gondola that slides along a rail, so as the wheel turns your car slips inward and outward with a genuine free-slide drop each time. The non-swinging line gives you an ordinary, still observation gondola.",
+        "The view from the top is the best in the park — Paradise Bay, the whole of Pixar Pier, Cars Land's rockwork, Grizzly Peak, and on a clear day the mountains behind Anaheim. The ride cycle is long, roughly nine minutes, which is generous by any standard."
+      ],
+      "experience": [
+        "In a non-swinging gondola, this is a slow, quiet observation wheel. The car pauses at various points as others load, you get a long time at height, and it is one of the few genuinely restful things at this park.",
+        "In a swinging gondola, the car begins sliding as soon as you clear the loading platform. The slides are not gentle — the gondola runs down its rail and stops against the end with a bang, repeatedly, for nine minutes. Sitting at the low end of the car as it slides gives you the strongest sensation.",
+        "The swinging version is the single most effective motion-sickness generator at either Disneyland Resort park. Nine minutes is a long time to be sliding back and forth at height."
+      ],
+      "tips": [
+        "Read the queue signs carefully. The two lines split before you reach the platform and cast members will not talk you out of your choice. The swinging side is not a slightly bouncier version — it is a different ride.",
+        "The non-swinging line is almost always the longer wait, because most people want the calm version and there are only eight of those gondolas.",
+        "Ride at dusk. The view across the bay at that hour is the best free photograph in the park, and the wheel's own lighting comes on partway through the cycle.",
+        "Nine minutes with no exit is a long commitment for a small child who might need a bathroom. Go before you queue.",
+        "Repeat visitors: sitting at the outward end of a swinging gondola produces a noticeably stronger slide than sitting at the inward end, because you are the weight that drives it."
+      ],
+      "bestTime": "Dusk, for the light. Waits also drop sharply during the nighttime show.",
+      "typicalWait": "20 to 45 minutes for non-swinging; often half that for swinging.",
+      "faqs": [
+        {
+          "q": "What is the difference between the swinging and non-swinging gondolas?",
+          "a": "Non-swinging gondolas are fixed and behave like an ordinary observation wheel. Swinging gondolas slide freely along curved rails inside the wheel, dropping and slamming against the rail ends repeatedly for the whole nine-minute cycle. They are separate queues and they are genuinely different rides."
+        },
+        {
+          "q": "Is there a height requirement?",
+          "a": "No. Both versions are open to all heights, which is exactly why families accidentally end up in a swinging gondola with a terrified five-year-old. Choose the queue deliberately."
+        },
+        {
+          "q": "Which side makes people motion sick?",
+          "a": "The swinging side, badly. Nine minutes of repeated sliding at height is the worst motion-sickness exposure in the park. The non-swinging side causes no problems for almost anyone."
+        },
+        {
+          "q": "How long is the ride?",
+          "a": "About nine minutes, sometimes longer depending on loading. There is no way off once you are on, which matters for anyone claustrophobic or with a small bladder."
+        },
+        {
+          "q": "Was this Mickey's Fun Wheel?",
+          "a": "Yes. The same wheel has operated since 2001, first as the Sun Wheel, then as Mickey's Fun Wheel from 2009, and as Pixar Pal-A-Round since the 2018 Pixar Pier retheme. The mechanism has never changed."
+        }
+      ],
+      "relatedSlugs": ["incredicoaster", "mickeys-fun-wheel", "silly-symphony-swings", "world-of-color"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "inside-out-emotional-whirlwind",
+      "name": "Inside Out Emotional Whirlwind",
+      "land": "pixar-pier",
+      "type": "spinner",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "An outdoor spinning ride where gondolas swing outward on arms as the hub rotates and tilts slightly. Nothing sudden, nothing dark, no drop. The only discomfort is sustained rotation, which is a problem for people prone to dizziness rather than for people prone to fear."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into a gondola with a bench seat and a lap bar; the step in is moderate. Riders must tolerate two minutes of continuous rotation without needing to exit."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A spinning gondola ride themed to a memory-train tour of Riley's mind, with the highest height requirement of any ride this mild.",
+      "description": [
+        "Inside Out Emotional Whirlwind opened in 2019 as the replacement for Flik's Flyers, which had been moved from a bug's land. It is a standard amusement-park scrambler variant: gondolas on arms extending from a rotating central hub, which lift and swing outward as the ride spins up.",
+        "The theme is a tour through Riley's memories, with the gondolas presented as memory-train cars and the emotion characters from the 2015 film represented in the surrounding structure. It is one of the better-decorated flat rides at the resort, and the queue area on Pixar Pier gives it a genuinely nice setting on the water.",
+        "The problem is the 40-inch requirement on a ride this gentle. It is the same bar as Radiator Springs Racers for a two-minute spin, and it excludes exactly the audience the theme is aimed at. Plan accordingly rather than walking a four-year-old over expecting to ride."
+      ],
+      "experience": [
+        "You sit two or three across in an open gondola with a lap bar. The hub spins up, the arms lift, and the gondolas swing outward and slightly upward for about two minutes before winding back down.",
+        "The forces are mild but continuous, and the outward swing pushes you against your seatmate. It is the sort of motion that bothers people who cannot handle sustained rotation and bothers nobody else.",
+        "Riding after dark gives you the pier lighting sweeping past on every rotation, which is a much better experience than the flat daytime version and adds nothing to the wait."
+      ],
+      "tips": [
+        "The 40-inch requirement is the thing to check before you walk over. It is unusually tall for how mild the ride is and it turns away a lot of preschoolers.",
+        "Ride it at night. The rotating view of the lit pier is the only thing that elevates this above a county-fair ride.",
+        "If anyone in your group is prone to dizziness, this is a harder ride than it looks — two minutes of continuous rotation is more than most spinners give you.",
+        "The wait is nearly always under twenty minutes and drops to nothing during the nighttime show, which makes it a good filler while the crowd is at the bay.",
+        "Repeat visitors: the outward-most seat in each gondola gets meaningfully more swing than the inner seats, which is worth knowing if you are riding with someone who wants either more or less."
+      ],
+      "bestTime": "During the nighttime show, when Pixar Pier empties out and the lighting is at its best.",
+      "typicalWait": "10 to 25 minutes.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Inside Out Emotional Whirlwind?",
+          "a": "40 inches — the same as Radiator Springs Racers and Guardians of the Galaxy – Mission: BREAKOUT!, despite being a far gentler ride. It is the most common disappointment on Pixar Pier for families with preschoolers."
+        },
+        {
+          "q": "Is it scary?",
+          "a": "No. There is no drop, no darkness, no speed and no sudden movement. It is a two-minute outdoor spin with a mild outward lean. The only people who struggle are those who get dizzy easily."
+        },
+        {
+          "q": "What replaced Flik's Flyers?",
+          "a": "This ride. Flik's Flyers operated in a bug's land until that area closed in 2018 to make way for Avengers Campus; the Emotional Whirlwind opened on Pixar Pier in 2019 using a similar ride type with new theming."
+        },
+        {
+          "q": "Is it worth riding?",
+          "a": "As a ride, it is ordinary. As a two-minute night-time spin over a lit pier with a ten-minute wait, it is a fine use of time. Do not queue thirty minutes for it."
+        }
+      ],
+      "relatedSlugs": ["jessies-critter-carousel", "pixar-pal-a-round", "silly-symphony-swings", "toy-story-midway-mania"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    "ZZEND"
+  ]
+}
