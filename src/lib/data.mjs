@@ -46,6 +46,7 @@ export const urls = {
   resort: (resortSlug) => `/${resortSlug}/`,
   park: (park) => `/${park.resort}/${park.slug}/`,
   rides: (park) => `/${park.resort}/${park.slug}/rides/`,
+  bestRides: (park) => `/${park.resort}/${park.slug}/best-rides/`,
   ride: (park, slug) => `/${park.resort}/${park.slug}/rides/${slug}/`,
   land: (park, slug) => `/${park.resort}/${park.slug}/lands/${slug}/`,
   heights: (park) => `/${park.resort}/${park.slug}/height-requirements/`,
@@ -92,11 +93,15 @@ export async function loadData () {
       ? await readJson(join(dir, 'food.json'))
       : { items: [] }
     const map = existsSync(join(dir, 'map.json')) ? await readJson(join(dir, 'map.json')) : null
+    const bestRides = existsSync(join(dir, 'best-rides.json'))
+      ? await readJson(join(dir, 'best-rides.json'))
+      : null
 
     park.attractions = attractionsFile.attractions || []
     park.dining = diningFile.dining || []
     park.food = foodFile.items || []
     park.map = map
+    park.bestRides = bestRides
     parks.push(park)
   }
 

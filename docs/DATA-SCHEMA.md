@@ -11,6 +11,7 @@ data/parks/<park-slug>/attractions.json   every attraction in the park
 data/parks/<park-slug>/dining.json        every table-service / quick-service / notable snack location
 data/parks/<park-slug>/food.json          curated must-try food items (drives the Food Tracker tool)
 data/parks/<park-slug>/map.json           schematic map geometry (authored separately)
+data/parks/<park-slug>/best-rides.json    the park's ranked "best rides" page (authored separately)
 ```
 
 Park slugs (exactly these, no others):
@@ -449,6 +450,39 @@ as if it were fixed.**
 | Chili Cone Queso | $11.49 | Cozy Cone, California Adventure |
 
 Where sources conflict, prefer the number above and stamp `priceVerified: "2026-07"`.
+
+---
+
+## `best-rides.json`
+
+Drives `/<resort>/<park>/best-rides/`, one of the highest-demand searches in the category. It must be
+an actual ranked opinion, defended — not a re-sorted list.
+
+```jsonc
+{
+  "park": "magic-kingdom",
+  "criteria": "…",                 // 1–2 sentences: what you ranked on, and what you ignored
+  "intro": ["para", "para"],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "haunted-mansion",   // must be an operating attraction in this park
+      "headline": "…",             // <= 110 chars, the one-line case for the placement
+      "why": ["para"],
+      "skipIf": "…"                // or null
+    }
+  ],
+  "overrated":  [ { "slug": "…", "why": "…" } ],   // 2–4, honest
+  "underrated": [ { "slug": "…", "why": "…" } ],   // 2–4
+  "faqs": [ { "q": "…", "a": "…" } ],
+  "lastVerified": "2026-07"
+}
+```
+
+15–20 ranked entries. Rank on the experience, not on queue length or Lightning Lane status — those
+are shown alongside each entry but must not move anything up or down. No slug twice in `ranking`,
+and never rank something whose `status` is not `"open"`. Commit to the order; "it depends" is not a
+ranking.
 
 ---
 

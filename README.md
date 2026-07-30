@@ -35,6 +35,7 @@ Six parks, ~300 pages, generated from a validated dataset:
 | `/walt-disney-world/` · `/disneyland/` | Resort hubs |
 | `/<resort>/<park>/` | Park hub |
 | `/<resort>/<park>/rides/` | Full attraction list + inline detail for every attraction |
+| `/<resort>/<park>/best-rides/` | Ranked editorial "best rides at X", with overrated and underrated calls |
 | `/<resort>/<park>/rides/<slug>/` | Standalone page for headliners and high-demand rides |
 | `/<resort>/<park>/lands/<slug>/` | Land page |
 | `/<resort>/<park>/height-requirements/` | Height chart + "what can a 40-inch child ride" bands |
@@ -69,6 +70,7 @@ data/
   parks/<slug>/dining.json      every place to eat
   parks/<slug>/food.json        curated must-try items — drives the Food Tracker
   parks/<slug>/map.json         schematic map geometry
+  parks/<slug>/best-rides.json  the park's ranked best-rides page
   guides/<slug>.json            evergreen guides
   compare/<slug>.json           comparison pages
 docs/DATA-SCHEMA.md             the binding data contract + verified reference tables

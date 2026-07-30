@@ -389,6 +389,48 @@ async function validatePark (meta) {
     requireArray(park.firstTimer, 'ifYouOnlyHaveOneDay', `${P} firstTimer`, { min: 5 })
   }
 
+  /* -- best-rides.json (optional) -- */
+  const bestRidesFile = join(dir, 'best-rides.json')
+  if (existsSync(bestRidesFile)) {
+    const B = `${meta.slug}/best-rides.json`
+    const doc = await readJson(bestRidesFile, B)
+    if (doc) {
+      requireString(doc, 'criteria', B, { min: 30 })
+      requireArray(doc, 'intro', B, { min: 2 })
+      checkFaqs(doc.faqs, B, { min: 3 })
+      checkVerified(doc, 'lastVerified', B)
+      if (!Array.isArray(doc.ranking) || doc.ranking.length < 10) {
+        err(B, `ranking needs at least 10 entries (has ${(doc.ranking || []).length})`)
+      }
+      const ranks = new Set()
+      const rankedSlugs = new Set()
+      for (const [i, entry] of (doc.ranking || []).entries()) {
+        const at = `${B} ranking[${i}]`
+        if (typeof entry.rank !== 'number') err(at, 'rank must be a number')
+        else if (ranks.has(entry.rank)) err(at, `duplicate rank ${entry.rank}`)
+        else ranks.add(entry.rank)
+        if (!attractionSlugs.has(entry.slug)) { err(at, `slug "${entry.slug}" is not an attraction in this park`); continue }
+        if (rankedSlugs.has(entry.slug)) err(at, `"${entry.slug}" is ranked twice`)
+        rankedSlugs.add(entry.slug)
+        const attraction = attractions.find((a) => a.slug === entry.slug)
+        if (attraction && (attraction.status || 'open') !== 'open') {
+          err(at, `"${entry.slug}" is not operating and must not be ranked`)
+        }
+        requireString(entry, 'headline', at, { max: 130 })
+        requireArray(entry, 'why', at, { min: 1 })
+      }
+      for (const key of ['overrated', 'underrated']) {
+        for (const [i, entry] of (doc[key] || []).entries()) {
+          const at = `${B} ${key}[${i}]`
+          if (!attractionSlugs.has(entry.slug)) err(at, `slug "${entry.slug}" is not an attraction in this park`)
+          if (typeof entry.why !== 'string' || entry.why.trim().length < 25) err(at, 'missing or short "why"')
+        }
+      }
+    }
+  } else {
+    warn(`${meta.slug}/best-rides.json`, 'not authored yet — the "best rides at" page will not be generated')
+  }
+
   /* -- map.json (optional) -- */
   const mapFile = join(dir, 'map.json')
   if (existsSync(mapFile)) {

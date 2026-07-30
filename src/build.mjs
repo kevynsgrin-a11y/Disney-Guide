@@ -55,6 +55,7 @@ function buildPages (data) {
   for (const park of data.parks) {
     pages.push(parkPages.parkHub(park, data))
     pages.push(parkPages.ridesPage(park, data))
+    if (park.bestRides) pages.push(parkPages.bestRidesPage(park, data))
     pages.push(parkPages.heightsPage(park, data))
     pages.push(parkPages.accessibilityPage(park, data))
     pages.push(parkPages.firstTimerPage(park, data))
@@ -99,6 +100,7 @@ function buildSearchIndex (data) {
     push(park.name, park.url, 'Park', `${park.resortInfo ? park.resortInfo.name : ''} park guide`)
     push(`${park.name} height requirements`, urls.heights(park), 'Height chart', 'height requirement inches minimum')
     push(`${park.name} rides`, urls.rides(park), 'Attraction list', 'rides attractions list')
+    if (park.bestRides) push(`Best rides at ${park.name}`, urls.bestRides(park), 'Ranking', 'best rides ranked top must do')
     push(`${park.name} dining`, urls.dining(park), 'Dining', 'restaurants eat food')
     push(`Best snacks at ${park.name}`, urls.snacks(park), 'Snacks', 'snacks food treats price')
     push(`${park.name} map`, urls.map(park), 'Map', 'map printable layout')

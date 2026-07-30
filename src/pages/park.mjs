@@ -18,13 +18,14 @@ export function parkHub (park, data) {
 
   const quickLinks = [
     { href: urls.rides(park), label: `All ${open.length} attractions`, summary: 'The complete list, sortable and filterable' },
+    park.bestRides ? { href: urls.bestRides(park), label: 'Best rides, ranked', summary: 'An actual ranking, defended one by one' } : null,
     { href: urls.heights(park), label: 'Height requirements', summary: `${park.heightAttractions.length} rides with a minimum height` },
     { href: urls.dining(park), label: 'Where to eat', summary: `${park.dining.length} restaurants, carts, and lounges` },
     { href: urls.snacks(park), label: 'Best snacks', summary: `${park.food.length} tracked items with prices` },
     { href: urls.map(park), label: 'Park map', summary: 'Printable, works offline' },
     { href: urls.accessibility(park), label: 'Accessibility', summary: 'Transfers, rentals, quiet spaces' },
     { href: urls.firstTimer(park), label: 'First-timer guide', summary: 'A plan you can actually follow' },
-  ]
+  ].filter(Boolean)
 
   const body = html`
     ${C.breadcrumbs(park.breadcrumbTrail)}
@@ -78,7 +79,10 @@ export function parkHub (park, data) {
       title: 'The rides you plan the day around',
       kicker: 'Headliners',
       intro: 'If you only get a handful of long queues in you, spend them here.',
-      children: C.cardGrid(park.headliners.map(C.attractionCard), { columns: 3 }),
+      children: html`
+        ${C.cardGrid(park.headliners.map(C.attractionCard), { columns: 3 })}
+        ${park.bestRides ? html`<p class="mt-5"><a class="btn btn--primary" href="${urls.bestRides(park)}">All ${park.name} rides, ranked</a></p>` : ''}
+      `,
     }) : ''}
 
     ${park.lands.length ? C.section({
@@ -254,7 +258,9 @@ export function ridesPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.heights(park), label: `${park.name} height requirements`, summary: 'The full chart' },
+      park.bestRides
+        ? { href: urls.bestRides(park), label: 'Best rides, ranked', summary: 'Which of these are actually worth it' }
+        : { href: urls.heights(park), label: `${park.name} height requirements`, summary: 'The full chart' },
       { href: urls.map(park), label: 'Park map', summary: 'See where these actually are' },
       { href: urls.snacks(park), label: 'Best snacks', summary: 'What to eat between rides' },
       { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'The order to do them in' },
@@ -971,6 +977,165 @@ export function mapPage (park, data) {
       },
       body,
       scripts: ['/assets/js/map.js'],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Best rides — a ranked editorial page, not a re-sorted list
+ * ------------------------------------------------------------------ */
+
+export function bestRidesPage (park, data) {
+  const { site } = data
+  const doc = park.bestRides
+  const trail = crumbs(park, { label: 'Best rides', href: urls.bestRides(park) })
+  const resolve = (slug) => park.attractionBySlug.get(slug) || null
+
+  const ranked = (doc.ranking || [])
+    .map((entry) => ({ ...entry, attraction: resolve(entry.slug) }))
+    .filter((entry) => entry.attraction)
+    .sort((a, b) => a.rank - b.rank)
+
+  const named = (list) => (list || [])
+    .map((entry) => ({ ...entry, attraction: resolve(entry.slug) }))
+    .filter((entry) => entry.attraction)
+
+  const overrated = named(doc.overrated)
+  const underrated = named(doc.underrated)
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: park.name,
+      title: `The best rides at ${park.name}`,
+      lede: doc.criteria,
+      tone: 'compact',
+      meta: [
+        { label: 'Ranked', value: `${ranked.length} attractions` },
+        { label: 'Best in park', value: ranked.length ? ranked[0].attraction.name : '—' },
+        { label: 'Last verified', value: f.humanDate(doc.lastVerified) },
+      ],
+      actions: [
+        { href: urls.rides(park), label: `All ${park.attractions.filter((a) => a.isOpen).length} attractions`, primary: true },
+        { href: urls.heights(park), label: 'Height requirements' },
+      ],
+    })}
+
+    ${C.section({
+      children: html`
+        <div class="prose prose--lede">${paragraphs(doc.intro)}</div>
+        ${C.callout({
+          type: 'note',
+          title: 'How we ranked these',
+          body: `${doc.criteria} Queue length and Lightning Lane status are noted on each entry but do not move anything up or down — a great ride with a bad queue is still a great ride.`,
+        })}
+      `,
+    })}
+
+    ${C.section({
+      tone: 'tint',
+      title: 'The ranking',
+      children: html`
+        <div class="rank-list">
+          ${ranked.map((entry) => {
+            const a = entry.attraction
+            return html`
+              <article class="rank-item" id="rank-${entry.rank}">
+                <div class="rank-item__head">
+                  <span class="rank-item__num">${entry.rank}</span>
+                  <h3 class="rank-item__name">${a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name}</h3>
+                  ${C.heightBadge(a.heightIn)}
+                </div>
+                <p class="rank-item__headline">${inline(entry.headline)}</p>
+                <p class="inline-attraction__meta">
+                  ${a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a> · ` : ''}
+                  ${f.attractionType(a.type)}
+                  ${a.durationMinutes != null ? html` · ${f.duration(a.durationMinutes)}` : ''}
+                  · ${f.lightningLaneShort(a.lightningLane)}
+                  ${a.scary && a.scary.score ? html` · Scare factor ${a.scary.score}/5` : ''}
+                </p>
+                ${paragraphs(entry.why)}
+                ${entry.skipIf ? html`<p class="small muted"><strong>Skip it if:</strong> ${inline(entry.skipIf)}</p>` : ''}
+              </article>
+            `
+          })}
+        </div>
+      `,
+    })}
+
+    ${overrated.length || underrated.length ? C.section({
+      title: 'The honest bit',
+      intro: 'Every ranking is also a set of arguments. Here are the two we expect to get mail about.',
+      children: html`
+        <div class="split split--even">
+          ${overrated.length ? html`
+            <div>
+              <h3 class="mb-4">Overrated relative to the queue</h3>
+              <div class="stack">
+                ${overrated.map((entry) => C.card({
+                  href: entry.attraction.hasPage ? entry.attraction.url : null,
+                  title: entry.attraction.name,
+                  summary: entry.why,
+                  eyebrow: entry.attraction.landInfo ? entry.attraction.landInfo.name : '',
+                }))}
+              </div>
+            </div>` : ''}
+          ${underrated.length ? html`
+            <div>
+              <h3 class="mb-4">Underrated and routinely walked past</h3>
+              <div class="stack">
+                ${underrated.map((entry) => C.card({
+                  href: entry.attraction.hasPage ? entry.attraction.url : null,
+                  title: entry.attraction.name,
+                  summary: entry.why,
+                  eyebrow: entry.attraction.landInfo ? entry.attraction.landInfo.name : '',
+                }))}
+              </div>
+            </div>` : ''}
+        </div>
+        ${C.lastVerified(doc.lastVerified)}
+      `,
+    }) : ''}
+
+    ${C.faqSection(doc.faqs, { title: `Best rides at ${park.name}: common questions` })}
+
+    ${C.relatedLinks([
+      { href: urls.rides(park), label: 'Every attraction', summary: 'The full list, sortable' },
+      { href: urls.heights(park), label: 'Height requirements', summary: 'What your child clears' },
+      { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'The order to do them in' },
+      { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'Zoom out' },
+    ])}
+  `
+
+  return {
+    url: urls.bestRides(park),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.bestRides(park),
+        title: `Best rides at ${park.shortLabel}`,
+        titleTail: ', ranked',
+        description: C.truncate(`Our ranking of the ${ranked.length} best rides at ${park.name}, defended one by one — plus the ones we think are overrated and the ones everyone walks past.`, 155),
+        trail,
+        modified: `${doc.lastVerified || '2026-07'}-01`,
+        ogType: 'article',
+      },
+      body,
+      schema: [
+        S.itemList(site, {
+          url: urls.bestRides(park),
+          name: `Best rides at ${park.name}`,
+          items: ranked.map((entry) => entry.attraction),
+        }),
+        S.faqPage(site, { url: urls.bestRides(park), faqs: doc.faqs }),
+        S.article(site, {
+          url: urls.bestRides(park),
+          title: `The best rides at ${park.name}`,
+          description: doc.criteria,
+          modified: `${doc.lastVerified || '2026-07'}-01`,
+          section: 'Rides',
+        }),
+      ],
     }),
   }
 }
