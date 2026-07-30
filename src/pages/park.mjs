@@ -658,14 +658,12 @@ export function accessibilityPage (park, data) {
   const a = park.accessibility || {}
   const trail = crumbs(park, { label: 'Accessibility', href: urls.accessibility(park) })
 
-  const transferGroups = {
-    'wheelchair-accessible': [],
-    'ecv-transfer': [],
-    'must-transfer': [],
-  }
+  // Grouped by what the attraction requires. Built from the data rather than a fixed key list, so
+  // an unexpected transfer value shows up on the page instead of quietly vanishing from it.
+  const transferGroups = { 'wheelchair-accessible': [], 'ecv-transfer': [], 'must-transfer': [] }
   for (const attraction of park.attractions.filter((x) => x.isOpen)) {
     const key = (attraction.accessibility && attraction.accessibility.transfer) || 'must-transfer'
-    if (transferGroups[key]) transferGroups[key].push(attraction)
+    ;(transferGroups[key] = transferGroups[key] || []).push(attraction)
   }
 
   const body = html`
