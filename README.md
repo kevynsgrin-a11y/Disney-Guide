@@ -13,10 +13,12 @@ A static, data-driven guide to the six US Disney parks. Every page is generated 
 
 ```bash
 node --version        # 20 or newer
+npm test              # unit tests (node:test, no dependencies)
 npm run build         # validate data, then render dist/
 npm run serve         # preview dist/ at http://localhost:4321
 npm run dev           # build + serve
 npm run audit:site    # post-build QA: links, titles, JSON-LD, disclaimers
+npm run check         # test + build + audit, the full gate
 ```
 
 There is nothing to `npm install`. `package.json` has no dependencies, on purpose — this site has
@@ -80,6 +82,8 @@ src/
   templates/                    page shell and the component library
   pages/                        one module per route family
 assets/                         CSS, JS, service worker, icons — copied verbatim to dist/assets
+test/                           unit tests for the escaping, formatting, schema, map,
+                                and share-link-ordering guarantees
 scripts/
   validate.mjs                  enforces docs/DATA-SCHEMA.md; runs before every build
   audit.mjs                     post-build QA
