@@ -1,0 +1,1798 @@
+{
+  "park": "california-adventure",
+  "dining": [
+    {
+      "slug": "carthay-circle-restaurant",
+      "name": "Carthay Circle Restaurant",
+      "land": "buena-vista-street",
+      "service": "table-service",
+      "cuisine": "Californian with Southern and Mediterranean influences",
+      "priceTier": "$$$",
+      "priceNote": "Most entrees run roughly $34 to $58 as of July 2026; a two-course lunch lands around $60 per adult before drinks",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best restaurant at the Disneyland Resort, upstairs in the tower at the end of Buena Vista Street.",
+      "description": [
+        "Carthay Circle occupies a scaled reproduction of the 1926 Carthay Circle Theatre, the Los Angeles cinema where Snow White premiered in 1937. The ground floor is a lounge; the restaurant is upstairs, reached by an elevator or a staircase, in a set of white-linen dining rooms with tall windows over the street.",
+        "The kitchen is doing genuine work. The menu is Californian with Southern and Mediterranean pulls, changing seasonally, and the execution is a full tier above anything else inside either gate. Fish is cooked properly. Sauces are made rather than dispensed. The bread service is real.",
+        "It is also the only dining room at either park where the noise level lets you have a conversation. That, plus air conditioning and a two-hour seat, is worth as much on a July afternoon as the food is."
+      ],
+      "signatureItems": [
+        "Carthay Circle fried biscuits",
+        "Thyme-roasted chicken",
+        "Pan-seared local fish",
+        "Braised short rib",
+        "Seasonal California vegetable plate"
+      ],
+      "goodFor": ["date-night", "special-occasion", "splurge", "air-conditioned-break", "view"],
+      "tips": [
+        "Book at 60 days out the moment the window opens. Dinner tables on weekends are gone within minutes; a 2pm lunch is by far the easiest reservation to land.",
+        "Ask for a window table on the Buena Vista Street side when you check in. They will not always have one, but nobody who does not ask ever gets one.",
+        "Lunch is the value play. Much of the same kitchen output, noticeably lower prices, and a room that is half as full.",
+        "Nighttime show dining packages are offered here periodically. Do the math honestly — you are paying a premium on an already expensive meal for a viewing area that is good rather than best-in-venue.",
+        "If you cannot get a table, the lounge downstairs serves a shorter version of the same menu with no reservation."
+      ],
+      "verdict": "The only restaurant inside either Disneyland Resort gate that would be worth eating at if it were on a normal street in Anaheim. Expensive, and worth it once per trip.",
+      "faqs": [
+        {
+          "q": "How far in advance should I book Carthay Circle?",
+          "a": "Reservations open 60 days ahead and weekend dinner slots disappear within minutes. Lunch is far easier — a 1:30pm or 2pm table is often available a week out, and the food is the same kitchen."
+        },
+        {
+          "q": "Is there a dress code?",
+          "a": "No formal dress code. People turn up in shorts and it is fine. The room is dressier than the rest of the park, so you will feel slightly more at home in a collared shirt, but nobody is turned away."
+        },
+        {
+          "q": "What is the difference between the restaurant and the lounge?",
+          "a": "The restaurant is upstairs, requires a reservation, and serves the full menu at white-linen tables. The lounge is on the ground floor, takes walk-ups, and serves a shorter menu plus the full bar. The fried biscuits are available at both."
+        },
+        {
+          "q": "Is it worth it with kids?",
+          "a": "With kids old enough to sit through a two-hour meal, yes — the room is calm and the service is patient. With a restless toddler it is an expensive way to be stressed. The lounge downstairs is the better call in that case."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "carthay-circle-lounge",
+      "name": "Carthay Circle Lounge",
+      "land": "buena-vista-street",
+      "service": "lounge",
+      "cuisine": "Small plates and cocktails",
+      "priceTier": "$$",
+      "priceNote": "Small plates roughly $16 to $28, cocktails around $17 to $21 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The ground-floor bar under Carthay Circle Restaurant, with the same fried biscuits and no reservation required.",
+      "description": [
+        "The lounge occupies the ground floor and the shaded terrace of the Carthay Circle building. It runs on walk-ups, serves a condensed version of the upstairs menu, and pours the best cocktails inside either Disneyland Resort park.",
+        "This is the workaround for people who could not get a reservation upstairs, and in some ways it is the better experience. You get the same fried biscuits, a proper bar program with fresh citrus and house infusions, and a terrace looking down Buena Vista Street toward the park entrance.",
+        "Seating is first come, first served and the interior fills first because it is cold. The terrace is shaded from mid-afternoon and is where you want to be from about 4pm onward."
+      ],
+      "signatureItems": [
+        "Carthay Circle fried biscuits",
+        "Seasonal craft cocktails",
+        "Charcuterie and cheese board",
+        "Wine by the glass from a California-weighted list"
+      ],
+      "goodFor": ["date-night", "solo", "air-conditioned-break", "splurge", "late-night"],
+      "tips": [
+        "Put your name in and go do something else. They will text you, and the wait on a Saturday evening runs 30 to 60 minutes.",
+        "Order the fried biscuits even if you are also eating elsewhere. They are the single best savory item at this park and the lounge is the cheapest way to get them.",
+        "The terrace tables come free in waves right after the nighttime show as the crowd heads for the exit — one of the few times of day this park gets easier rather than harder.",
+        "Ask the bartender what they are infusing. The bar program rotates and the off-menu suggestions are consistently better than the printed list."
+      ],
+      "verdict": "The best bar at the Disneyland Resort and the smartest way to eat Carthay Circle's food without a reservation. Go at 4pm before the evening rush.",
+      "faqs": [
+        {
+          "q": "Do I need a reservation for the Carthay Circle Lounge?",
+          "a": "No. It runs entirely on walk-ups with a text-message waitlist. Expect 30 to 60 minutes on a busy evening, and almost no wait mid-afternoon."
+        },
+        {
+          "q": "Can I get the fried biscuits without eating upstairs?",
+          "a": "Yes. They are on the lounge menu, which is the main reason the lounge exists in most people's planning."
+        },
+        {
+          "q": "Is the cocktail list the same as upstairs?",
+          "a": "Effectively yes — both draw on the same bar program. The lounge bartenders make more of the off-menu drinks and are worth asking."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fiddler-fifer-and-practical-cafe",
+      "name": "Fiddler, Fifer & Practical Cafe",
+      "land": "buena-vista-street",
+      "service": "quick-service",
+      "cuisine": "Coffee and bakery",
+      "priceTier": "$",
+      "priceNote": "Espresso drinks roughly $5 to $8; pastries and sandwiches $5 to $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The park's Starbucks, dressed as a 1920s Los Angeles cafe, and the first coffee inside the gate.",
+      "description": [
+        "This is the Starbucks location for Disney California Adventure, operating under a period name and a facade that fits Buena Vista Street rather than a corporate storefront. The menu is the standard Starbucks lineup plus a few Disney-specific bakery items.",
+        "It is the busiest counter in the park between opening and 10am, because it sits fifty yards inside the gate and every adult walking in wants coffee. Mobile ordering is the difference between a five-minute stop and a twenty-five-minute one.",
+        "The outdoor tables face Buena Vista Street and are the best seats for the Five & Dime band's posted sets. That combination — coffee, shade, live jazz, no queue — is one of the better free experiences in the park."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Seasonal espresso drinks",
+        "Butter croissant",
+        "Breakfast sandwiches"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "air-conditioned-break"],
+      "tips": [
+        "Mobile order from the parking tram. Your window will be ready by the time you clear the turnstiles and you will walk past a twenty-minute line.",
+        "Starbucks gift cards and the Starbucks app do not work at this location; it takes standard park payment methods.",
+        "The outdoor tables have the best view of the Five & Dime band's set. Check the times board and plan your coffee stop around it.",
+        "Repeat visitors: the pastry case here carries a few items you will not find at the Disneyland Park Starbucks, and the two locations rotate different bakery stock."
+      ],
+      "verdict": "It is a Starbucks with a good facade. Fine coffee, fair prices by park standards, and the only reason to think about it is the mobile-order time saving.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "clarabelles-hand-scooped-ice-cream",
+      "name": "Clarabelle's Hand-Scooped Ice Cream",
+      "land": "buena-vista-street",
+      "service": "snack-cart",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Scoops and cones roughly $6 to $9; sundaes and ice cream sandwiches $9 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A walk-up ice cream window on Buena Vista Street doing hand-scooped cones and made-to-order sandwiches.",
+      "description": [
+        "Clarabelle's is a small window on the Buena Vista Street corner, serving hand-scooped ice cream rather than soft serve. The differentiator is the ice cream sandwich, built to order between two cookies of your choosing, which is a better product than its price suggests.",
+        "The location is a problem and an opportunity. It is fifty yards from the exit, which means it gets slammed from 8pm onward as people grab a last treat on the way out. Before 6pm it is one of the quietest food windows in the park."
+      ],
+      "signatureItems": [
+        "Made-to-order ice cream sandwich",
+        "Hand-scooped cones",
+        "Hot fudge sundae",
+        "Root beer float"
+      ],
+      "goodFor": ["quick-bite", "families", "budget"],
+      "tips": [
+        "Get the ice cream sandwich, not the cone. Same price bracket, twice the food, and you pick both cookies.",
+        "Skip it entirely after 8pm — this window backs up badly as people leave the park.",
+        "Gluten-free cookie options are usually available for the sandwich; ask rather than assuming from the menu board.",
+        "Repeat visitors: the flavor rotation here is deeper than the board suggests. Ask what is in the case that is not listed."
+      ],
+      "verdict": "Solid, unglamorous, correctly priced. The made-to-order sandwich is genuinely good value; everything else is standard park ice cream.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "trolley-treats",
+      "name": "Trolley Treats",
+      "land": "buena-vista-street",
+      "service": "bakery",
+      "cuisine": "Confectionery",
+      "priceTier": "$",
+      "priceNote": "Most items $5 to $16 as of July 2026; large caramel apples and gift boxes run higher",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The park's candy kitchen, and where you buy churro toffee before it sells out.",
+      "description": [
+        "Trolley Treats is the confectionery on Buena Vista Street: a period candy shop with marble counters, copper kettles visible behind glass, and a mechanical trolley running on a track near the ceiling that most guests never look up to see.",
+        "The reason to go in is churro toffee — a slab of toffee coated in white chocolate and cinnamon sugar that has become the resort's most-chased seasonal-feeling item despite being available year round. It is made in limited batches and it does sell out, generally by mid-afternoon on a busy day.",
+        "The rest of the shop is standard park confectionery at standard park prices: caramel apples, brittle, fudge, rice cereal treats shaped for photographs. Good quality, nothing you will think about again."
+      ],
+      "signatureItems": [
+        "Churro toffee",
+        "Hand-dipped caramel apples",
+        "English toffee",
+        "Chocolate-dipped rice cereal treats"
+      ],
+      "goodFor": ["quick-bite", "families", "budget"],
+      "tips": [
+        "Buy churro toffee in the morning. It is made in batches and the counter regularly runs out by mid-afternoon on weekends.",
+        "The toffee travels well — it survives a day in a bag better than almost any other park treat, which makes it the right souvenir food to take home.",
+        "Look up. There is a working model trolley on a track near the ceiling that runs continuously, and almost nobody in the shop notices it.",
+        "The caramel apples are cut and boxed on request, which turns a $13 apple into something four people can actually share."
+      ],
+      "verdict": "Go for the churro toffee and go early. The rest is competent candy at park prices; the toffee is the only thing here worth planning around.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mortimers-market",
+      "name": "Mortimer's Market",
+      "land": "buena-vista-street",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit and packaged snacks",
+      "priceTier": "$",
+      "priceNote": "Whole fruit roughly $3 to $5; packaged snacks and drinks $4 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A fruit and packaged-snack stand near the park entrance, and the cheapest real food inside the gate.",
+      "description": [
+        "Mortimer's Market is a small open-air stand on Buena Vista Street selling whole fruit, packaged snacks, bottled drinks and grab-and-go items. It exists to catch people on the way in and on the way out.",
+        "It is the answer to the most common complaint about this park's food, which is the price. A banana here costs what a banana costs. If you are feeding a family across a long day, hitting this stand on the way in for fruit and water is the single most effective cost lever available inside the gate."
+      ],
+      "signatureItems": [
+        "Whole seasonal fruit",
+        "Bottled water",
+        "Packaged trail mix and nuts",
+        "Chilled drinks"
+      ],
+      "goodFor": ["budget", "quick-bite", "families", "vegetarian"],
+      "tips": [
+        "Buy fruit and water here on your way in rather than paying vendor-cart prices for the same water at 3pm.",
+        "This is the most reliable vegan and gluten-free stop in the park for someone who just needs to eat something without a conversation about allergens.",
+        "Cast members will refill a water bottle at any quick-service counter for free — buy one bottle here and reuse it all day.",
+        "Repeat visitors: the fruit selection rotates seasonally and the stand often has something better than the standard apple-and-banana pairing if you look past the front rack."
+      ],
+      "verdict": "Not a destination, but the smartest fifteen dollars you will spend in this park. Stop on the way in, every time.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "award-wieners",
+      "name": "Award Wieners",
+      "land": "hollywood-land",
+      "service": "quick-service",
+      "cuisine": "Hot dogs and sausages",
+      "priceTier": "$",
+      "priceNote": "Specialty dogs roughly $12 to $15 with a side as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Loaded specialty hot dogs in Hollywood Land, with covered outdoor seating and a short line.",
+      "description": [
+        "Award Wieners is a counter-service window at the back of Hollywood Land doing hot dogs and sausages with heavy toppings — chili, slaw, chipotle mayonnaise, fried onions, depending on the current menu. The dogs are a step up from the plain grilled item you get from a cart.",
+        "The bigger draw is the seating area, which is covered, shaded, and consistently underused. Hollywood Land has lost its ride and lost most of its foot traffic with it, and the practical result is a shaded lunch spot in the middle of the park where you can always find a table."
+      ],
+      "signatureItems": [
+        "Chili cheese dog",
+        "Loaded specialty sausages",
+        "Garlic fries",
+        "Plant-based dog"
+      ],
+      "goodFor": ["quick-bite", "families", "picky-eaters", "budget"],
+      "tips": [
+        "The seating here is shaded and rarely full, which is worth more than the food. Buy a corn dog elsewhere and eat it at these tables if you want.",
+        "Mobile order works well here and the pickup window is separate from the walk-up line.",
+        "The plant-based dog is a genuine option rather than a token one, and it is on the standard menu board rather than hidden on an allergen sheet.",
+        "Repeat visitors: this is the most reliable place in the park to find a table between 12pm and 1:30pm when everywhere else is full."
+      ],
+      "verdict": "Middle-of-the-road hot dogs, above-average sides, and the best odds of finding a shaded table at lunch. Worth it for the seating alone.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "schmoozies",
+      "name": "Schmoozies!",
+      "land": "hollywood-land",
+      "service": "quick-service",
+      "cuisine": "Smoothies and coffee",
+      "priceTier": "$",
+      "priceNote": "Smoothies roughly $8 to $10; coffee drinks $5 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "breakfast"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A smoothie window in Hollywood Land, and the least-crowded cold drink in the park at 2pm.",
+      "description": [
+        "Schmoozies! has been in Hollywood Land since the park opened, in a building fronted by an oversized mosaic face. It blends fruit smoothies to order and also runs a small coffee menu, which makes it one of the few places in the park where half your group can get iced coffee and the other half a cold fruit drink at the same window.",
+        "It is unglamorous and consistently overlooked, which is precisely its value. On a 95-degree afternoon when every drink cart has a fifteen-minute queue, this window usually has two people in front of you."
+      ],
+      "signatureItems": [
+        "Mango smoothie",
+        "Strawberry banana smoothie",
+        "Iced coffee",
+        "Seasonal fruit blends"
+      ],
+      "goodFor": ["quick-bite", "budget", "vegetarian", "families"],
+      "tips": [
+        "The fruit smoothies are dairy-free by default, which makes this the easiest vegan cold drink in the park.",
+        "It is the shortest drink line in the park between 1pm and 4pm because Hollywood Land has almost no foot traffic now.",
+        "Ask for it blended thicker if you want it to last — the standard pour is thin and gone in five minutes in the heat.",
+        "Repeat visitors: this window opens earlier than most food locations in the land, which makes it a viable first-thing coffee stop if Buena Vista Street is jammed."
+      ],
+      "verdict": "Ordinary smoothies, excellent timing. The drink itself is nothing special; the fact that you can get it in three minutes at 2pm is the point.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fairfax-market",
+      "name": "Fairfax Market",
+      "land": "hollywood-land",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit and snacks",
+      "priceTier": "$",
+      "priceNote": "Whole fruit and cut fruit cups roughly $3 to $7 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A produce-stand-styled snack cart in Hollywood Land selling fruit, veggie cups and cold drinks.",
+      "description": [
+        "Fairfax Market is dressed as a Los Angeles farmers market stall and sells whole fruit, cut fruit, vegetable cups with dip, pickles, and chilled drinks. It is the Hollywood Land counterpart to Mortimer's Market on Buena Vista Street.",
+        "It matters more than it looks because of where it sits: in a corner of the park with almost no other food and, since the closure of the land's ride, very little traffic. If you need something quick and cheap in the middle of the day without joining a queue, this is the stand."
+      ],
+      "signatureItems": [
+        "Whole fruit",
+        "Cut fruit cups",
+        "Vegetable cups with dip",
+        "Whole dill pickle"
+      ],
+      "goodFor": ["budget", "quick-bite", "vegetarian", "toddlers"],
+      "tips": [
+        "The whole dill pickle is the cheapest thing at this park that reads as a snack rather than a health compromise, and it is genuinely refreshing in heat.",
+        "Vegetable cups here are the easiest toddler food in the park that does not require a queue or a mobile order.",
+        "Everything on this cart is vegan and most of it is gluten-free by default, which makes it the fallback when a restaurant cannot accommodate someone.",
+        "Repeat visitors: carts like this one close earlier than the restaurants around them, often by early evening. Do not count on it after dark."
+      ],
+      "verdict": "A fruit cart. Nothing to review, but the right answer when you need to feed someone in ninety seconds without spending fifteen dollars.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pym-test-kitchen",
+      "name": "Pym Test Kitchen",
+      "land": "avengers-campus",
+      "service": "quick-service",
+      "cuisine": "American with a scale gimmick",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $16 to $22; the shareable oversized items run $28 and up as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Avengers Campus's flagship quick-service, built entirely around food that is comically too big or too small.",
+      "description": [
+        "Pym Test Kitchen runs on one joke: Pym Particles have gotten into the food, so everything is either enormous or tiny. A sandwich comes with a full-size pretzel roll the size of a football. Chicken nuggets arrive as one giant nugget or a scattering of miniature ones. Candy is oversized.",
+        "The gimmick is well executed and the kitchen is competent, which is more than the concept required. The pretzel-roll sandwich in particular is a genuinely good sandwich, and the plant-based options here are the most thoughtfully built at the park rather than an afterthought.",
+        "The room is indoors, air conditioned, and large, with an outdoor patio attached. It is one of only three or four places in this park where you can eat a quick-service meal without sitting in the sun, and the indoor tables fill fast at noon."
+      ],
+      "signatureItems": [
+        "PYM-ini sandwich on an oversized pretzel roll",
+        "Not So Little Big Pretzel",
+        "Impossible plant-based meatball sub",
+        "Oversized and miniature candy",
+        "Quantum-themed shareable desserts"
+      ],
+      "goodFor": ["families", "groups", "air-conditioned-break", "vegetarian", "big-appetites"],
+      "tips": [
+        "Mobile order 45 minutes ahead. The walk-up queue at this location is the worst in Avengers Campus and the pickup window is a separate, much shorter line.",
+        "The oversized pretzel is priced as a group item and it is genuinely enough for four people. Ordering one per person is a mistake people make constantly.",
+        "Indoor tables are the prize here. Get there before 11:45am or after 1:30pm; between those times the room is full and you will be outside in the sun.",
+        "The plant-based options are on the main board, not on a separate menu, and the kitchen handles allergen requests better than most quick-service at this park.",
+        "Repeat visitors: the attached tasting lab pours the same drinks and has its own seating, which is usually emptier than the main dining room at lunch."
+      ],
+      "verdict": "The best quick-service in Avengers Campus and one of the better ones in the park, but you are paying a premium for a scale joke. Order fewer items than you think you need.",
+      "faqs": [
+        {
+          "q": "Is Pym Test Kitchen worth the price?",
+          "a": "The food is good and the portions are genuinely large, but you are paying a theming premium. Ordering one oversized shareable item for a family of four costs less and feeds better than four individual entrees."
+        },
+        {
+          "q": "Can I mobile order?",
+          "a": "Yes, and you should. The walk-up line at peak is 25 minutes or more; the mobile pickup window is usually under five. Order at least 45 minutes ahead at lunch."
+        },
+        {
+          "q": "Are there good vegan options?",
+          "a": "Yes — the plant-based items here are built into the main menu rather than tacked on, including a meatball sub that is one of the better vegetarian quick-service items at either park."
+        },
+        {
+          "q": "Is there indoor seating?",
+          "a": "Yes, and it is one of the few air-conditioned quick-service dining rooms at this park. It fills between about 11:45am and 1:30pm; arrive outside that window and you will get a table."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pym-tasting-lab",
+      "name": "Pym Tasting Lab",
+      "land": "avengers-campus",
+      "service": "lounge",
+      "cuisine": "Craft beer and cocktails",
+      "priceTier": "$",
+      "priceNote": "Beer roughly $11 to $14; cocktails $16 to $19 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The bar attached to Pym Test Kitchen, themed as a laboratory and pouring the park's best beer list.",
+      "description": [
+        "The Tasting Lab is the drinking half of the Pym operation: a bar set up as a laboratory, with taps mounted in equipment and drinks served in vessels that continue the shrinking-and-growing conceit. It shares a patio with the Test Kitchen and takes walk-ups only.",
+        "The beer list is the best inside either Disneyland Resort gate — a rotating California-weighted draft selection with genuine variety rather than three macro lagers and a cider. The cocktails lean on the scale gimmick with oversized garnishes and layered presentations, and a couple of them are good enough to order twice.",
+        "This is the most underrated drinking spot at the park because the theming reads as a kids' area from outside. Adults walk past it toward Cars Land without registering that there is a real bar here."
+      ],
+      "signatureItems": [
+        "Rotating California craft drafts",
+        "Scale-themed specialty cocktails",
+        "Shareable snack pairings from the Test Kitchen",
+        "Non-alcoholic laboratory sodas"
+      ],
+      "goodFor": ["date-night", "groups", "solo", "late-night"],
+      "tips": [
+        "Ask what is rotating on draft. The board does not always keep up with the taps and there is usually something better on than what is printed.",
+        "The patio seating is shared with Pym Test Kitchen and is much easier to get after 2pm, when the lunch crowd clears.",
+        "Non-alcoholic options here are a genuine menu rather than a soda gun, which matters if half your group is not drinking.",
+        "Repeat visitors: this bar is consistently the quietest place to drink in the park during peak afternoon, because guests read the Marvel theming as family-only and self-select out."
+      ],
+      "verdict": "The best beer selection at the resort and nobody knows it. Cocktails are gimmicky but sound; go for the draft list.",
+      "faqs": [
+        {
+          "q": "Do I need a reservation for Pym Tasting Lab?",
+          "a": "No. It is walk-up only and shares a patio with Pym Test Kitchen. Seating is easiest after about 2pm."
+        },
+        {
+          "q": "Is the beer selection actually good?",
+          "a": "Yes — it is the best draft list inside either Disneyland Resort park, weighted toward California breweries and rotated regularly. Ask what is on rather than relying on the printed board."
+        },
+        {
+          "q": "Can I order food here?",
+          "a": "Yes, the Test Kitchen menu is available at the shared patio, so you can pair a draft with the oversized pretzel without going through two separate lines."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "shawarma-palace",
+      "name": "Shawarma Palace",
+      "land": "avengers-campus",
+      "service": "food-truck",
+      "cuisine": "Middle Eastern",
+      "priceTier": "$",
+      "priceNote": "Wraps and pockets roughly $13 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A shawarma cart in Avengers Campus, born from a post-credits joke and better than it has any right to be.",
+      "description": [
+        "Shawarma Palace exists because of a thirty-second scene at the end of the 2012 Avengers film in which the team eats shawarma in silence after saving New York. Disney turned the joke into a working food cart, and the food is genuinely decent — spiced meat or plant-based filling in a pocket with garlic sauce and pickled vegetables.",
+        "It is one of the only places at either park serving Middle Eastern food, and for a guest tired of burgers and corn dogs on day three it is a real relief. The plant-based version is not a downgrade."
+      ],
+      "signatureItems": [
+        "Chicken shawarma pocket",
+        "Plant-based shawarma pocket",
+        "Garlic sauce and pickled vegetables",
+        "Side of seasoned chips"
+      ],
+      "goodFor": ["quick-bite", "vegetarian", "solo", "budget"],
+      "tips": [
+        "This cart keeps shorter hours than the restaurants around it and is one of the first Avengers Campus locations to close. Do not save it for dinner.",
+        "The plant-based pocket is as good as the meat version and is often the shorter queue because people assume it is the compromise option.",
+        "There is no dedicated seating; take it to the shaded benches near the Ancient Sanctum rather than eating standing up in the plaza.",
+        "Repeat visitors: portion size here is smaller than it looks on the board. Two pockets is a meal, one is a snack."
+      ],
+      "verdict": "The best non-American food at this park and a genuinely welcome break from the fryer. Small portions for the money, but worth ordering.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "terran-treats",
+      "name": "Terran Treats",
+      "land": "avengers-campus",
+      "service": "snack-cart",
+      "cuisine": "Snacks and novelty treats",
+      "priceTier": "$",
+      "priceNote": "Snacks and novelty desserts roughly $6 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A snack window outside Mission: BREAKOUT! doing novelty desserts and cold drinks.",
+      "description": [
+        "Terran Treats sits at the base of the Mission: BREAKOUT! structure and sells sweet snacks and cold drinks with a Guardians of the Galaxy framing. The lineup rotates and leans on novelty presentation rather than a fixed signature item.",
+        "Its practical function is being the only food outlet in the immediate vicinity of the park's busiest thrill ride, which means it catches everyone coming off the drop tower wanting something cold. Lines build in bursts tied to the ride's unload cycle rather than to mealtimes."
+      ],
+      "signatureItems": [
+        "Novelty frozen desserts",
+        "Cold specialty drinks",
+        "Packaged sweets",
+        "Bottled beverages"
+      ],
+      "goodFor": ["quick-bite", "families", "budget"],
+      "tips": [
+        "The queue here surges every few minutes as Mission: BREAKOUT! unloads. Wait ninety seconds and the line halves.",
+        "The menu rotates more than most carts, so a specific item you had last visit may not be there.",
+        "There is no seating; the shaded steps along the Hollywood Land side are the nearest place to sit down.",
+        "Repeat visitors: this is one of the last snack locations in the land to close at night, which makes it useful after the nighttime show when Avengers Campus is otherwise shut."
+      ],
+      "verdict": "A convenience cart with a good address. Nothing here justifies a walk across the park, but it does the job after a ride.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "flos-v8-cafe",
+      "name": "Flo's V8 Cafe",
+      "land": "cars-land",
+      "service": "quick-service",
+      "cuisine": "American diner",
+      "priceTier": "$$",
+      "priceNote": "Plates roughly $16 to $22 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A 1950s roadside diner in Cars Land serving rotisserie plates, with the best view of Ornament Valley in the park.",
+      "description": [
+        "Flo's V8 Cafe is built as a chrome-and-neon roadside diner from the Route 66 era, and it is the most convincingly executed building at this park. The interior is broken into several rooms with booth seating, and the back patio looks directly across at Ornament Valley and the Radiator Springs Racers track.",
+        "The food is comfort-plate American: rotisserie chicken, slow-cooked beef, a vegetable tater bake, all served on partitioned plates with sides. It is competent rather than exciting, and it is the most substantial sit-down meal you can get at this park without a reservation.",
+        "Breakfast here is the underrated meal. It runs early, the room is quiet, and it is served in a dining room that is empty at 9am and unusable at 1pm."
+      ],
+      "signatureItems": [
+        "Rotisserie chicken plate",
+        "Slow-cooked beef with mashed potatoes",
+        "Veggie tater bake",
+        "Cobb salad",
+        "Milkshakes"
+      ],
+      "goodFor": ["families", "air-conditioned-break", "picky-eaters", "view", "big-appetites"],
+      "tips": [
+        "The back patio faces Ornament Valley and the race track. Ask for it, take your tray out there, and you get the best free view in Cars Land with a meal in front of you.",
+        "Eat breakfast here. Cars Land opens with the park, the dining room is empty before 10am, and it is the only decent sit-down breakfast in the park.",
+        "Mobile order and then walk in — the pickup counter is inside and you can scout for a table while you wait.",
+        "The vegetarian tater bake is a full meal rather than a side, and it is one of the better vegetarian quick-service plates at the resort.",
+        "Repeat visitors: the dining rooms have different atmospheres. The one nearest the entrance is loud and bright; the far room is quieter and has the better booths."
+      ],
+      "verdict": "Reliable rather than remarkable food in the best-looking building at the park. Come for the patio view and the air conditioning, and eat breakfast rather than lunch.",
+      "faqs": [
+        {
+          "q": "Does Flo's V8 Cafe serve breakfast?",
+          "a": "Yes, and it is the quietest and best-value meal here. The dining room is nearly empty before 10am while the rest of Cars Land is queueing for Radiator Springs Racers."
+        },
+        {
+          "q": "Where is the best seating?",
+          "a": "The back patio, which looks directly across at Ornament Valley and the Racers track. Inside, the far dining room is quieter than the one nearest the door."
+        },
+        {
+          "q": "Do I need a reservation?",
+          "a": "No — this is quick-service. Mobile order through the app, then collect at the counter inside. Reservations are not accepted and are not needed."
+        },
+        {
+          "q": "Are there good vegetarian options?",
+          "a": "The veggie tater bake is a proper entree rather than a side, and the kitchen handles allergen requests well. Vegan options are more limited; ask at the counter."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cozy-cone-motel",
+      "name": "Cozy Cone Motel",
+      "land": "cars-land",
+      "service": "quick-service",
+      "cuisine": "Snacks served in cones",
+      "priceTier": "$",
+      "priceNote": "Cone items roughly $8 to $12; Chili Cone Queso is $11.49 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Five orange traffic cones, each a separate food window, serving the park's most-photographed snacks.",
+      "description": [
+        "The Cozy Cone Motel is a motel made of oversized traffic cones, and five of those cones are food windows. Each has its own short menu and its own line, which is the thing most guests do not realize until they have queued at the wrong one. Cone menus have shifted over the years but the format has not.",
+        "The signature item is Chili Cone Queso — chili and queso served inside a bread cone, priced at $11.49 as of July 2026. It is the most-photographed food at this park and, unusually for that category, it is actually good: the bread cone holds up, the chili is properly seasoned, and it eats cleanly while walking.",
+        "The rest of the lineup rotates through soft serve, flavored popcorn, pretzel items and cold drinks. Prices are fair by park standards and the portions are honest."
+      ],
+      "signatureItems": [
+        "Chili Cone Queso",
+        "Bacon mac and cheese cone",
+        "Soft-serve cones",
+        "Flavored popcorn",
+        "Specialty cold drinks"
+      ],
+      "goodFor": ["quick-bite", "families", "budget", "groups"],
+      "tips": [
+        "Read the signs on each cone before joining a line. The five windows have different menus and people routinely queue fifteen minutes at cone three for something sold at cone one with no line.",
+        "Chili Cone Queso is the item to order and it holds together well enough to eat while walking to Radiator Springs Racers.",
+        "The cones close at different times. Late in the evening, two or three will be shuttered and everyone funnels to the one still open.",
+        "Mobile ordering covers some cones and not others, which is worth checking in the app before you walk over.",
+        "Repeat visitors: the seating across from the cones is shaded in the late afternoon by the motel structure itself, which is the only real shade in Cars Land at that hour."
+      ],
+      "verdict": "The Chili Cone Queso earns its reputation, which is rare for a photogenic park snack. Everything else at the cones is fine. Learn which window sells what before you queue.",
+      "faqs": [
+        {
+          "q": "How much is the Chili Cone Queso?",
+          "a": "$11.49 as of July 2026. It is served in an edible bread cone and is substantial enough to work as a light lunch rather than a snack."
+        },
+        {
+          "q": "Why are there five separate lines?",
+          "a": "Each cone at the Cozy Cone Motel is its own window with its own menu. They do not sell the same items, so joining the shortest line is not necessarily useful — check the signage first."
+        },
+        {
+          "q": "Is there seating?",
+          "a": "There is outdoor seating across from the cones, shaded in the late afternoon by the motel structure. There is no indoor seating anywhere in Cars Land."
+        },
+        {
+          "q": "Are there gluten-free options?",
+          "a": "Some, including certain soft-serve and popcorn items, but the bread cone that defines the signature dishes is not gluten-free. Ask at the window rather than assuming from the board."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fillmores-taste-in",
+      "name": "Fillmore's Taste-In",
+      "land": "cars-land",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit and drinks",
+      "priceTier": "$",
+      "priceNote": "Fruit roughly $3 to $5; bottled drinks $4 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A hand-painted fruit and juice stand in Cars Land, themed to a hippie van and mercifully cheap.",
+      "description": [
+        "Fillmore's Taste-In is a small stand at the entrance to Cars Land selling whole fruit, juices, bottled drinks and packaged snacks, dressed in the psychedelic paintwork of the character it is named for. It is the cheapest food in the land by a wide margin.",
+        "Cars Land runs hot. It is a paved canyon with dark rockwork and almost no shade, and a bottle of water from this stand at the right moment is worth more than most of the food in the park. Position it in your plan as a hydration stop rather than a snack stop."
+      ],
+      "signatureItems": [
+        "Whole fresh fruit",
+        "Bottled juices",
+        "Chilled water",
+        "Packaged snacks"
+      ],
+      "goodFor": ["budget", "quick-bite", "vegetarian", "toddlers"],
+      "tips": [
+        "Cars Land has the least shade of any land at this park. Buy water here on the way in rather than three rides later when you actually need it.",
+        "Everything on this stand is vegan and most of it is gluten-free, which makes it the fallback in a land where the signature dishes are chili and queso.",
+        "It sits at the land entrance, so it is easy to grab something on the walk between Cars Land and Pacific Wharf without detouring.",
+        "Repeat visitors: this stand closes earlier than the cones, so it is not a late-night option despite its location."
+      ],
+      "verdict": "A fruit stand with good paint. Use it as a water stop, not a meal — but use it, because Cars Land will cook you.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "aunt-cass-cafe",
+      "name": "Aunt Cass Cafe",
+      "land": "san-fransokyo-square",
+      "service": "quick-service",
+      "cuisine": "Soups in sourdough bread bowls",
+      "priceTier": "$",
+      "priceNote": "Bread bowls roughly $14 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Sourdough bread bowls in San Fransokyo Square, on the site of the park's original Pacific Wharf cafe.",
+      "description": [
+        "Aunt Cass Cafe is the rethemed successor to the Pacific Wharf Cafe, reopened as part of the San Fransokyo Square conversion in 2023 and named for the character who runs the cafe in Big Hero 6. The core product has not changed: soup or chili served in a hollowed sourdough bread bowl.",
+        "The sourdough is the reason this location has survived every retheme. It is proper San Francisco-style sourdough with a real crust and a genuinely sour crumb, and a bread bowl of clam chowder here is one of the few things at this park that would hold up outside it.",
+        "The retheme added Japanese-influenced items to the board alongside the originals, which broadened the menu without breaking what worked. Seating is all outdoors on the waterfront terrace, shaded in patches."
+      ],
+      "signatureItems": [
+        "Clam chowder in a sourdough bread bowl",
+        "Broccoli cheddar soup bread bowl",
+        "Sourdough loaf to go",
+        "Seasonal soup of the day"
+      ],
+      "goodFor": ["quick-bite", "families", "budget", "picky-eaters"],
+      "tips": [
+        "Order the chowder, not the salad. The bread bowl is the entire point of this location and a soup in a cup wastes the trip.",
+        "Buy a plain sourdough loaf to take back to your hotel. It costs a fraction of the bread bowl, it is the same bread, and it makes breakfast the next morning.",
+        "The terrace is shaded on the water side from mid-afternoon. Walk past the first cluster of tables to the far end for the better seats.",
+        "Mobile order here is fast and the pickup window is separate from the main queue.",
+        "Repeat visitors: the soup rotation includes items that never make it onto the outdoor menu boards. Look at the in-app menu, which is more complete."
+      ],
+      "verdict": "The bread carries it, and the bread is genuinely good. The best value lunch in the park at around $15 for something that fills you up.",
+      "faqs": [
+        {
+          "q": "Is this the old Pacific Wharf Cafe?",
+          "a": "Yes. It was rethemed as Aunt Cass Cafe when Pacific Wharf became San Fransokyo Square in 2023. The sourdough bread bowls that defined the original are still the core of the menu."
+        },
+        {
+          "q": "Is the sourdough actually good?",
+          "a": "Yes — it has a real crust and a proper sour crumb rather than the soft supermarket approximation. It is the main reason to eat here rather than anywhere else in this district."
+        },
+        {
+          "q": "Is there indoor seating?",
+          "a": "No. All seating is on the outdoor waterfront terrace. The far end near the water gets afternoon shade; the tables nearest the counter do not."
+        },
+        {
+          "q": "Are there vegetarian bread bowls?",
+          "a": "Yes, typically a broccoli cheddar or a seasonal vegetable soup. Vegan options are limited here — the plant-based choices in this district are better at the rice bowl counter next door."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lucky-fortune-cookery",
+      "name": "Lucky Fortune Cookery",
+      "land": "san-fransokyo-square",
+      "service": "quick-service",
+      "cuisine": "Asian-inspired rice bowls",
+      "priceTier": "$",
+      "priceNote": "Rice bowls roughly $13 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Build-your-own rice bowls with a choice of protein and sauce — the park's most flexible vegan lunch.",
+      "description": [
+        "Lucky Fortune Cookery serves rice bowls assembled from a short set of choices: a protein, a sauce, rice and vegetables. The format has survived the San Fransokyo Square retheme largely intact and it remains the most adaptable quick-service at this park for anyone with dietary restrictions.",
+        "The tofu-and-vegetable configuration is a legitimately good vegan meal rather than a concession, and the counter staff handle substitutions without drama. For a family where one person eats plant-based and the rest do not, this is the location that solves the problem in one line."
+      ],
+      "signatureItems": [
+        "Teriyaki chicken rice bowl",
+        "Tofu and vegetable rice bowl",
+        "Spicy sauce option",
+        "Edamame side"
+      ],
+      "goodFor": ["quick-bite", "vegetarian", "budget", "families"],
+      "tips": [
+        "Ask for sauce on the side. The bowls are over-sauced by default and it turns the rice to paste by the time you find a table.",
+        "This is the easiest vegan meal in the park that is not a salad. The tofu bowl is on the standard board, not a special request.",
+        "Seating is shared with the surrounding district and fills at noon. Order at 11:30am or after 1:30pm.",
+        "Repeat visitors: the sauce lineup rotates more than the protein lineup, so a bowl you liked last year may taste different now."
+      ],
+      "verdict": "Unremarkable food, genuinely useful format. Order it when someone in your group needs a straightforward plant-based meal without a negotiation.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ghirardelli-soda-fountain-and-chocolate-shop",
+      "name": "Ghirardelli Soda Fountain and Chocolate Shop",
+      "land": "san-fransokyo-square",
+      "service": "quick-service",
+      "cuisine": "Ice cream and chocolate",
+      "priceTier": "$$",
+      "priceNote": "Sundaes roughly $12 to $17; shakes $10 to $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A full Ghirardelli soda fountain inside the park, with hot fudge sundaes and free chocolate squares.",
+      "description": [
+        "This is a genuine Ghirardelli operation rather than a Disney approximation, and it has survived every retheme of this district since the park opened. The counter does hot fudge sundaes, shakes, floats and espresso drinks, and the shop side sells chocolate by the bar and by the bag.",
+        "The hot fudge is made on site and it is the differentiator — thick, dark, and applied in a quantity that would be embarrassing anywhere else. A sundae here is comfortably enough for two people.",
+        "The interior is air conditioned with real tables, which puts it in a very short list at this park. On an August afternoon that is worth as much as the ice cream."
+      ],
+      "signatureItems": [
+        "Hot fudge sundae",
+        "Chocolate milkshake",
+        "Ice cream float",
+        "Chocolate squares and bars"
+      ],
+      "goodFor": ["families", "air-conditioned-break", "date-night", "groups", "splurge"],
+      "tips": [
+        "Every guest gets a free chocolate square at the counter. Ask — they do not always offer, and the flavor rotates.",
+        "One sundae split two ways is the correct order. The portions are large enough that ordering one each is a mistake.",
+        "The indoor tables are among the very few air-conditioned seats at this park. Take one and stay twenty minutes.",
+        "Order at the fountain counter rather than the shop counter; the shop line is for packaged chocolate and moves differently.",
+        "Repeat visitors: the seasonal sundae specials change more often than the core menu, and they are usually a better build than the standard hot fudge."
+      ],
+      "verdict": "Real Ghirardelli, real hot fudge, air conditioning, and free chocolate. One of the best-value indulgences at the park if you split it.",
+      "faqs": [
+        {
+          "q": "Do you get a free chocolate square?",
+          "a": "Yes, a sample square is given out at the counter. Ask if it is not offered — the flavor rotates and they do not always hand them out unprompted."
+        },
+        {
+          "q": "Is there air-conditioned seating?",
+          "a": "Yes, which is unusual at this park. The indoor tables are a legitimate midday heat refuge and they fill quickly in summer afternoons."
+        },
+        {
+          "q": "Is a sundae big enough to share?",
+          "a": "Comfortably. Two adults can split one and both leave satisfied. Ordering one per person is more ice cream than most people finish."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "port-of-san-fransokyo-cerveceria",
+      "name": "Port of San Fransokyo Cervecería",
+      "land": "san-fransokyo-square",
+      "service": "lounge",
+      "cuisine": "Beer, margaritas and small bites",
+      "priceTier": "$",
+      "priceNote": "Beer roughly $11 to $14; margaritas $15 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A waterfront beer and margarita bar in San Fransokyo Square, and the best cheap drink in the park.",
+      "description": [
+        "The Cervecería is the rethemed successor to the old Pacific Wharf drinks stand, reopened as part of San Fransokyo Square. It is a walk-up bar on the waterfront pouring draft and bottled beer, margaritas, and a short list of ready-made cocktails, with a few snacks alongside.",
+        "The margaritas are the reason people come. They are made in volume rather than to order, which normally means they are bad, and here it means they are consistent, cold, strong for the price, and served in under two minutes. On a hot afternoon it is the most efficient drink at this park.",
+        "Seating is the waterfront tables shared across the district, and the setting — water on one side, layered San Fransokyo rooflines on the other — is one of the more pleasant places to sit down at the park."
+      ],
+      "signatureItems": [
+        "House margarita",
+        "Rotating draft beer",
+        "Michelada",
+        "Chips and salsa"
+      ],
+      "goodFor": ["quick-bite", "groups", "solo", "budget", "late-night"],
+      "tips": [
+        "The margarita line moves faster than any other alcohol line in the park because the drinks are pre-batched. When Lamplight has a 30-minute wait, this has a three-minute one.",
+        "Take the drink to the far waterfront tables rather than standing by the bar. The view across the water toward Paradise Bay is the whole reason to be in this district.",
+        "This is one of the last drinks locations to close on a normal night, which makes it the reliable post-show stop.",
+        "Repeat visitors: the draft rotation here is smaller than Pym's but the pricing is better, and the bar staff will tell you which keg went on most recently."
+      ],
+      "verdict": "The best drink-to-effort ratio at either Disneyland Resort park. Not craft, not clever, just cold and fast and correctly priced.",
+      "faqs": [
+        {
+          "q": "Are the margaritas made to order?",
+          "a": "No, they are batched in volume, which is why the line moves in a couple of minutes. Consistency is good and the value is better than any made-to-order cocktail in the park."
+        },
+        {
+          "q": "Is there food here?",
+          "a": "A short snack list only. For a real meal, order at Aunt Cass Cafe or the rice bowl counter a few steps away and bring it to the same tables."
+        },
+        {
+          "q": "Does it stay open late?",
+          "a": "It is typically among the last drink locations open in the park, which makes it a practical stop after the nighttime show when much of the park has shut."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "san-fransokyo-makers-market",
+      "name": "San Fransokyo Maker's Market",
+      "land": "san-fransokyo-square",
+      "service": "snack-cart",
+      "cuisine": "Packaged snacks and drinks",
+      "priceTier": "$",
+      "priceNote": "Snacks and drinks roughly $4 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small market stand in San Fransokyo Square selling packaged snacks, sweets and cold drinks.",
+      "description": [
+        "The Maker's Market is a compact stand in the San Fransokyo district selling packaged snacks, sweets and bottled drinks, dressed as a neighborhood shop with hand-lettered signage and stacked crates.",
+        "It is a convenience stop rather than a destination, but the stock skews toward items you will not find on a generic vending cart, and it is the quickest place in the district to grab something for a child who will not wait through a bread bowl queue."
+      ],
+      "signatureItems": [
+        "Packaged sweets",
+        "Savory snack mixes",
+        "Bottled drinks",
+        "Grab-and-go treats"
+      ],
+      "goodFor": ["quick-bite", "budget", "families"],
+      "tips": [
+        "The stock here rotates and includes items not carried elsewhere in the park; it is worth a two-minute look even if you are not hungry.",
+        "Quickest food in San Fransokyo Square by a wide margin when the bread bowl line is out the door.",
+        "It closes earlier than the surrounding restaurants, so do not rely on it after dark.",
+        "Repeat visitors: this is one of the few places in the park stocking packaged items that survive a suitcase, which makes it a better souvenir-food stop than the main gift shops."
+      ],
+      "verdict": "A convenience stand. Useful, forgettable, and occasionally stocking something interesting you cannot get elsewhere in the park.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "wine-country-trattoria",
+      "name": "Wine Country Trattoria",
+      "land": "paradise-gardens-park",
+      "service": "table-service",
+      "cuisine": "Italian-Californian",
+      "priceTier": "$$$",
+      "priceNote": "Pastas and entrees roughly $26 to $44 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A Napa-styled Italian table-service with a shaded courtyard, and the easiest reservation at the park.",
+      "description": [
+        "Wine Country Trattoria sits in a stucco-and-terracotta building modeled on a Napa Valley winery, with an interior dining room and a courtyard under grape arbors. It has been here since the park's early years and it is the most consistently overlooked table-service at the Disneyland Resort.",
+        "The menu is Italian filtered through California: pastas, a few grilled proteins, salads built around whatever is in season, and a wine list that actually justifies the theme. It is not as ambitious as Carthay Circle and it does not pretend to be.",
+        "What it offers is availability. This is the reservation you can usually still get on the day, and a shaded courtyard table here in the middle of the afternoon is one of the better breaks in the park for a party that wants to sit down and drink something without a two-hour wait."
+      ],
+      "signatureItems": [
+        "Handmade pasta of the day",
+        "Chicken parmigiana",
+        "Seasonal California salad",
+        "Wine flights",
+        "Tiramisu"
+      ],
+      "goodFor": ["families", "groups", "air-conditioned-break", "date-night", "vegetarian"],
+      "tips": [
+        "Check for same-day availability rather than assuming you need to book weeks ahead. This is the table-service that actually has openings.",
+        "Ask for the courtyard rather than the indoor room. The arbor shade is genuine and the courtyard is quieter than the dining room.",
+        "The wine list is the real one at this park, and the by-the-glass pours are more interesting than anything at the quick-service bars.",
+        "Nighttime show dining packages have been offered here from time to time. If one is available and you were eating here anyway, it is a better deal than the equivalent at Carthay Circle.",
+        "Repeat visitors: the pasta of the day changes far more often than the printed menu and is usually the best thing the kitchen makes that shift. Ask."
+      ],
+      "verdict": "Solid Italian food in a genuinely pleasant courtyard, and the only table-service at this park you can usually walk into. Not a destination meal; a very good break.",
+      "faqs": [
+        {
+          "q": "Do I need a reservation for Wine Country Trattoria?",
+          "a": "It is recommended but rarely essential. This is the easiest table-service reservation at the Disneyland Resort and same-day availability is common, especially at lunch."
+        },
+        {
+          "q": "Is it better than Carthay Circle?",
+          "a": "No. Carthay Circle's kitchen is a clear tier above. Wine Country Trattoria wins on availability, price and the courtyard, not on food."
+        },
+        {
+          "q": "Is the wine list worth it?",
+          "a": "Yes — it is the most serious list inside either park gate and the by-the-glass selections rotate. A flight here costs less than two cocktails elsewhere in the park."
+        },
+        {
+          "q": "Is there good outdoor seating?",
+          "a": "The courtyard under the arbors is the best seating here, shaded through most of the afternoon and quieter than the indoor room. Request it when you check in."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "alfresco-tasting-terrace",
+      "name": "Alfresco Tasting Terrace",
+      "land": "paradise-gardens-park",
+      "service": "lounge",
+      "cuisine": "Wine, cocktails and small plates",
+      "priceTier": "$$",
+      "priceNote": "Wine by the glass roughly $14 to $22; small plates $14 to $26 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An upstairs terrace wine bar above Wine Country Trattoria, and the quietest place to drink in the park.",
+      "description": [
+        "The Alfresco Tasting Terrace is a covered balcony above Wine Country Trattoria, reached by a staircase most guests never notice. It serves wine by the glass and by the flight, a short cocktail list, and small plates from the kitchen downstairs.",
+        "It is the calmest adult space at either Disneyland Resort park. You are one level up from the walkway, under a roof, with a view over the treetops toward Paradise Bay, and the noise of the park drops away noticeably. On a busy Saturday it can be half empty while the ground below is impassable.",
+        "The wine program is the best at the resort in terms of range, with flights that let you get through several California regions without committing to bottles."
+      ],
+      "signatureItems": [
+        "California wine flights",
+        "Wine by the glass",
+        "Charcuterie and cheese",
+        "Seasonal small plates"
+      ],
+      "goodFor": ["date-night", "solo", "groups", "splurge", "view"],
+      "tips": [
+        "Find the staircase. This is the single most-missed venue at the park precisely because the entrance is not obvious from the walkway.",
+        "Order a flight rather than a glass. It costs marginally more and it is the only place at the resort where you can taste across regions.",
+        "Late afternoon, between about 3pm and 5pm, is when this terrace is emptiest and coolest.",
+        "It closes earlier than the bars near Paradise Bay, so do not plan it as your post-show drink.",
+        "Repeat visitors: the small plates come from the Trattoria kitchen, so you can effectively eat the restaurant's food up here without a reservation."
+      ],
+      "verdict": "The best-kept secret at this park. A quiet, shaded, adults-oriented terrace with the resort's strongest wine list. Go before 5pm.",
+      "faqs": [
+        {
+          "q": "Where is the Alfresco Tasting Terrace?",
+          "a": "Upstairs above Wine Country Trattoria, reached by a staircase off the walkway. The entrance is genuinely easy to miss, which is why the terrace stays quiet even on busy days."
+        },
+        {
+          "q": "Do I need a reservation?",
+          "a": "No, it is walk-up only. Seating is usually available even at peak times, which is unusual for anywhere at this park."
+        },
+        {
+          "q": "Can I get food up here?",
+          "a": "Yes — small plates come from the Wine Country Trattoria kitchen downstairs, so you can eat the restaurant's cooking without booking a table."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "paradise-garden-grill",
+      "name": "Paradise Garden Grill",
+      "land": "paradise-gardens-park",
+      "service": "quick-service",
+      "cuisine": "Mediterranean skewers",
+      "priceTier": "$",
+      "priceNote": "Skewer plates roughly $14 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Grilled skewers with rice and salad, eaten in the shadiest garden seating in the park.",
+      "description": [
+        "Paradise Garden Grill serves marinated skewers — chicken, beef, or a vegetable option — with rice, salad and sauces, from a counter set into the gardens off Paradise Bay. The menu has carried different regional framings over the years, but the format is consistent: grilled protein, starch, greens, sauce.",
+        "The food is better than the location's obscurity suggests. Skewers are grilled to order rather than held, the rice is seasoned, and the plates are gluten-free by default, which makes this one of the easiest places at the park for a guest who cannot eat wheat.",
+        "The real asset is the seating. The garden tables here sit under mature trees with the Paradise Garden Bandstand a few steps away, which makes this the most pleasant place to eat outdoors at the park by a wide margin."
+      ],
+      "signatureItems": [
+        "Chicken skewer plate",
+        "Beef skewer plate",
+        "Vegetable skewer plate",
+        "Herbed rice and salad",
+        "Garlic and yogurt sauces"
+      ],
+      "goodFor": ["quick-bite", "families", "vegetarian", "budget", "groups"],
+      "tips": [
+        "The skewer plates are gluten-free as served, which makes this the simplest celiac-friendly hot meal in the park. Confirm at the counter, but you will not need a special menu.",
+        "Eat at the garden tables near the bandstand rather than the ones by the counter. Real tree shade, live music on a posted schedule, and half the noise.",
+        "The counter keeps shorter hours than the surrounding locations and often closes before dinner. Check the app before you walk over in the evening.",
+        "Beer and wine are available here, which is not obvious from the menu board.",
+        "Repeat visitors: this location has changed its regional theming several times without changing the underlying dish. If you remember it under a different name, the skewers are the same."
+      ],
+      "verdict": "Genuinely good grilled food in the best outdoor seating at the park, and almost nobody goes. The single most underrated quick-service inside either gate.",
+      "faqs": [
+        {
+          "q": "Is Paradise Garden Grill gluten-free friendly?",
+          "a": "It is one of the easiest locations in the park for gluten avoidance — the skewer plates with rice and salad are gluten-free as served. Confirm at the counter, but no special menu is normally required."
+        },
+        {
+          "q": "Where should I sit?",
+          "a": "The garden tables under the trees near the Paradise Garden Bandstand. It is real shade rather than canvas, and it is the most pleasant outdoor seating at the park."
+        },
+        {
+          "q": "Does it serve alcohol?",
+          "a": "Yes, beer and wine, though it is not prominent on the menu board. Ask at the counter."
+        },
+        {
+          "q": "Why is it always so quiet here?",
+          "a": "It sits off the main circulation route between Pixar Pier and Grizzly Peak, so most guests walk past without seeing it. That is exactly why it is worth the detour at lunch."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "corn-dog-castle",
+      "name": "Corn Dog Castle",
+      "land": "paradise-gardens-park",
+      "service": "quick-service",
+      "cuisine": "Hand-dipped corn dogs",
+      "priceTier": "$",
+      "priceNote": "Original hand-dipped corn dog $11.29 as of July 2026; cheddar cheese stick priced similarly",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A corn dog window shaped like a sandcastle, serving the best single item at this park for $11.29.",
+      "description": [
+        "Corn Dog Castle is a small walk-up window on the walkway toward Pixar Pier, built as a sandcastle with turrets. It sells hand-dipped corn dogs and hand-dipped cheddar cheese sticks, made to order in a fryer you can see from the counter.",
+        "The corn dog is the thing. The batter is thick, sweet, and fried until the outside cracks; the sausage inside is well-seasoned and the whole item arrives too hot to eat, which is the correct condition for a corn dog. At $11.29 as of July 2026 it is not cheap, and it is still the best food-per-dollar decision at this park.",
+        "It is the direct counterpart to the Little Red Wagon corn dog at Disneyland Park across the esplanade. The batter recipe is effectively the same; this location has a shorter line and a place to sit."
+      ],
+      "signatureItems": [
+        "Original hand-dipped corn dog",
+        "Hand-dipped cheddar cheese stick",
+        "Side of chips",
+        "Cold drinks"
+      ],
+      "goodFor": ["quick-bite", "families", "picky-eaters", "budget", "big-appetites"],
+      "tips": [
+        "The corn dog is $11.29 as of July 2026 and it is a full meal. Do not order it as a snack alongside something else unless you are sharing.",
+        "The cheddar cheese stick is the vegetarian option and it is genuinely good, but it is molten for a full five minutes after it is handed over. Wait.",
+        "This window has a shorter line than the Little Red Wagon at Disneyland Park for a very similar product, and unlike the Wagon there is seating nearby.",
+        "Batches come out in waves. If the person in front of you gets the last one from the basket, the two-minute wait for the fresh batch is worth it — ask for one from the next drop.",
+        "Repeat visitors: this location closes earlier than most Paradise Gardens Park windows and is frequently shut by the time the nighttime show ends."
+      ],
+      "verdict": "The best single item at this park and one of the best at the resort. $11.29 is a lot for a corn dog and it is still the right order.",
+      "faqs": [
+        {
+          "q": "How much is the corn dog at Corn Dog Castle?",
+          "a": "$11.29 for the original hand-dipped corn dog as of July 2026. It is large enough to be a meal rather than a snack."
+        },
+        {
+          "q": "Is it the same as the Little Red Wagon corn dog at Disneyland Park?",
+          "a": "Effectively the same batter and the same technique. Corn Dog Castle usually has a shorter line and, unlike the Little Red Wagon, has seating within a few steps."
+        },
+        {
+          "q": "Is there a vegetarian option?",
+          "a": "The hand-dipped cheddar cheese stick, which uses the same batter around a block of cheese. It is very good and it is dangerously hot for several minutes after it is served."
+        },
+        {
+          "q": "Can I mobile order?",
+          "a": "No. This is a walk-up window only, and everything is fried to order in batches. If the basket empties as you reach the front, ask for one from the next drop rather than taking a held one."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bayside-brews",
+      "name": "Bayside Brews",
+      "land": "paradise-gardens-park",
+      "service": "snack-cart",
+      "cuisine": "Beer and pretzels",
+      "priceTier": "$",
+      "priceNote": "Draft beer roughly $11 to $13; pretzels $8 to $10 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A beer and pretzel stand on the edge of Paradise Bay, positioned exactly where you want a drink before the nighttime show.",
+      "description": [
+        "Bayside Brews is a small open-air stand on the walkway beside Paradise Bay, pouring draft and canned beer, hard seltzer and a few cocktails, with soft pretzels and light snacks alongside.",
+        "Its value is entirely locational. It is a two-minute walk from the main nighttime-show viewing terraces, which means it is the last place you can get a drink before committing to standing in a crowd for an hour. Regulars know this and the line reflects it from about an hour before showtime."
+      ],
+      "signatureItems": [
+        "Draft beer",
+        "Hard seltzer",
+        "Soft pretzel",
+        "Canned cocktails"
+      ],
+      "goodFor": ["quick-bite", "groups", "solo", "budget", "late-night"],
+      "tips": [
+        "Get your drink here 75 minutes before the nighttime show, not 45. The line triples in the last half hour before showtime.",
+        "The pretzel is the only substantial food within reach of the viewing terraces once you have claimed a spot. Buy it before you commit to standing.",
+        "Cups from here are not permitted in every viewing area — check with the cast member roping off the section before you carry a full drink in.",
+        "Repeat visitors: this stand and the Cervecería in San Fransokyo Square rotate different taps, so it is worth checking both if you are hunting a specific beer."
+      ],
+      "verdict": "An average beer stand in an excellent location. Buy early, not late — the timing is the whole skill here.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "boardwalk-pizza-and-pasta",
+      "name": "Boardwalk Pizza & Pasta",
+      "land": "paradise-gardens-park",
+      "service": "quick-service",
+      "cuisine": "Pizza and pasta",
+      "priceTier": "$",
+      "priceNote": "Personal pizzas roughly $12 to $15; pasta plates $14 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "High-capacity pizza and pasta on the bay, which exists to feed large groups fast rather than to feed them well.",
+      "description": [
+        "Boardwalk Pizza & Pasta is a large quick-service on the Paradise Bay walkway serving personal pizzas, pasta plates, salads and garlic bread. It has the biggest seating footprint of any counter-service at this park and a line that moves quickly even at peak.",
+        "It is honest about what it is. The pizza is held rather than made to order, the pasta is cooked in volume, and nothing on the menu will surprise you. What it does well is turn a group of eight tired people into a group of eight fed people in fifteen minutes, which at 7pm on a Saturday is a real service.",
+        "Its other function is nighttime-show adjacency. The seating area sits close enough to the bay that a table on the right side gives you partial viewing without standing in the crowd."
+      ],
+      "signatureItems": [
+        "Cheese and pepperoni personal pizzas",
+        "Spaghetti with meatballs",
+        "Caesar salad",
+        "Garlic bread",
+        "Gluten-free pizza on request"
+      ],
+      "goodFor": ["families", "groups", "picky-eaters", "budget", "quick-bite"],
+      "tips": [
+        "The pizza is held under heat and it shows. If you want it decent, ask for a fresh pie and accept a wait rather than taking one off the rack.",
+        "Gluten-free pizza is available and needs to be requested at the counter; it is cooked separately and takes an extra ten minutes.",
+        "Tables on the bay side of the seating area give partial nighttime-show views without standing in the viewing terraces. They go early.",
+        "Repeat visitors: this is the highest-capacity counter at this park, which makes it the reliable fallback at 7pm when every mobile order window is showing a 40-minute wait."
+      ],
+      "verdict": "Overrated by anyone who calls it good and underrated by anyone who calls it useless. Mediocre food, excellent throughput. Order the pasta over the pizza.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lamplight-lounge",
+      "name": "Lamplight Lounge",
+      "land": "pixar-pier",
+      "service": "table-service",
+      "cuisine": "Californian gastropub",
+      "priceTier": "$$$",
+      "priceNote": "Shared plates roughly $18 to $30; entrees $26 to $42; cocktails $16 to $19 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["brunch", "lunch", "dinner"],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A two-level gastropub on Pixar Pier with lobster nachos, a serious bar, and the best waterfront tables at the park.",
+      "description": [
+        "Lamplight Lounge opened with Pixar Pier in 2018, replacing Ariel's Grotto, and it is the most successful restaurant conversion this park has done. The conceit is a hangout for Pixar animators, decorated with concept art, models and in-joke props from the studio's films, and the details reward reading rather than glancing.",
+        "There are effectively two venues under one name. Upstairs is a lounge with bar seating and tables; downstairs is a larger dining room opening onto a deck over the water. Both take the same reservation and both serve the same menu.",
+        "The kitchen is doing gastropub food with more care than the format demands — good burgers, decent fish, sharp seasonal vegetables — and the bar program is the second best at the park after Carthay Circle. Prices are firmly in the splurge bracket but the portions are large enough that a table of four sharing plates eats well without ordering per person."
+      ],
+      "signatureItems": [
+        "Lobster nachos",
+        "Seasonal shared plates",
+        "Burger with house condiments",
+        "Craft cocktails",
+        "Brunch-hour specialties"
+      ],
+      "goodFor": ["date-night", "groups", "splurge", "view", "air-conditioned-break", "late-night"],
+      "tips": [
+        "Book the moment the 60-day window opens. This is the second-hardest reservation at the resort after Carthay Circle dinner.",
+        "Ask for the downstairs deck, not the upstairs lounge. The waterfront tables face Paradise Bay and give you a partial view of the nighttime show from your seat.",
+        "The lobster nachos are enormous and are meant to be shared by three or four. Ordering one each is the most common and most expensive mistake here.",
+        "Walk-up bar seating upstairs is released throughout the day. Check in at the podium even without a reservation — it works more often than people expect, especially at 3pm.",
+        "Repeat visitors: the concept art and models on the walls rotate, and several pieces are production artifacts rather than reproductions. The upstairs lounge has the denser collection."
+      ],
+      "verdict": "Expensive, loud, and genuinely good. Share the nachos, sit downstairs by the water, and it is the best value splurge at this park after Carthay Circle.",
+      "faqs": [
+        {
+          "q": "How hard is it to get a Lamplight Lounge reservation?",
+          "a": "Hard. It goes within minutes of the 60-day window opening for dinner. Lunch and mid-afternoon are somewhat easier, and upstairs bar seating is released as walk-up throughout the day."
+        },
+        {
+          "q": "Are the lobster nachos worth it?",
+          "a": "Yes, if you share them. The portion is built for three or four people and there is real lobster on it. One per person is far too much food and far too much money."
+        },
+        {
+          "q": "Can you see the nighttime show from Lamplight Lounge?",
+          "a": "Partially, from the downstairs deck tables on the water side. It is not a substitute for a proper viewing spot, but it beats standing in a crowd if you are already eating there at showtime."
+        },
+        {
+          "q": "Is there a walk-up option?",
+          "a": "The upstairs lounge holds back bar seating for walk-ups. Check in at the podium rather than assuming you need a reservation — mid-afternoon success rates are decent. The room is loud enough that a restless child blends in, though the prices make it a hard sell for most families."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jack-jack-cookie-num-nums",
+      "name": "Jack-Jack Cookie Num Nums",
+      "land": "pixar-pier",
+      "service": "snack-cart",
+      "cuisine": "Cookies",
+      "priceTier": "$",
+      "priceNote": "Cookies roughly $6 to $7 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A one-item cookie window on Pixar Pier, and the best baked good at the Disneyland Resort.",
+      "description": [
+        "Jack-Jack Cookie Num Nums is a small window on Pixar Pier that essentially sells one thing: a warm oatmeal cookie sandwich filled with raspberry jam, referencing the cookie Jack-Jack demands in Incredibles 2. It is served warm, and the warmth is not incidental — it is why the item works.",
+        "It is the best baked good at either Disneyland Resort park and it is not close. The cookie has a proper chew, the oats give it structure, and the jam cuts the sweetness in a way that most park desserts never bother to attempt.",
+        "The window is tiny and the line is often out of proportion to the size of the operation. It sells out on busy days, generally in the evening."
+      ],
+      "signatureItems": [
+        "Warm oatmeal raspberry jam cookie",
+        "Rotating specialty cookie",
+        "Cold milk"
+      ],
+      "goodFor": ["quick-bite", "families", "budget", "date-night"],
+      "tips": [
+        "Buy it warm and eat it immediately. A cold Num Num is a different and much worse product, and there is no reheating it later.",
+        "The window sells out on busy evenings. If it matters to you, buy it in the afternoon rather than saving it for after the nighttime show.",
+        "One cookie is genuinely enough for two people to share as a taste, but nobody who has had one shares it. Buy two.",
+        "The line often looks longer than it is because the window is narrow — it moves faster than the queue length suggests.",
+        "Repeat visitors: a rotating second cookie appears alongside the standard one and is usually gone by mid-afternoon. Ask what else is in the case."
+      ],
+      "verdict": "The best six dollars at the Disneyland Resort. Buy it warm, do not share it, and do not leave the park without one.",
+      "faqs": [
+        {
+          "q": "What is a Jack-Jack Cookie Num Num?",
+          "a": "A warm oatmeal cookie filled with raspberry jam, sold from a small window on Pixar Pier. It references a scene in Incredibles 2 and it is the best baked item at either Disneyland Resort park."
+        },
+        {
+          "q": "Does it sell out?",
+          "a": "Regularly, on busy evenings. Buy it in the afternoon rather than planning it as an after-the-show treat."
+        },
+        {
+          "q": "Is it worth the wait?",
+          "a": "Yes, and the wait is usually shorter than it looks — the window is narrow so the queue stretches out, but it moves quickly."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "angry-dogs",
+      "name": "Angry Dogs",
+      "land": "pixar-pier",
+      "service": "quick-service",
+      "cuisine": "Hot dogs",
+      "priceTier": "$",
+      "priceNote": "Hot dogs roughly $10 to $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An Inside Out-themed hot dog window on Pixar Pier with a spicy signature dog.",
+      "description": [
+        "Angry Dogs is a small counter on Pixar Pier themed to the Anger character from Inside Out, which gives the kitchen license to sell a hot dog with chili and pepper heat as the house special. There is also a plain option for people who do not want their emotions escalated.",
+        "It is a functional pier snack window. The dogs are decent, the line is short because it sits between two bigger draws, and it is one of the few places on the pier where you can get something hot and savory without a mobile order wait."
+      ],
+      "signatureItems": [
+        "Spicy signature hot dog",
+        "Classic hot dog",
+        "Chips",
+        "Cold drinks"
+      ],
+      "goodFor": ["quick-bite", "budget", "picky-eaters", "families"],
+      "tips": [
+        "The spicy dog is genuinely spicy by theme-park standards, which catches out kids who order it because of the name.",
+        "This is the shortest food line on Pixar Pier at dinner because everyone queues at the bigger windows either side of it.",
+        "There is no dedicated seating; the low walls along the pier walkway are the practical option.",
+        "Repeat visitors: this window opens later and closes earlier than the pier's other counters, so it is not the option at either end of the day."
+      ],
+      "verdict": "A perfectly fine hot dog. If you want a corn dog instead, walk five minutes to Corn Dog Castle — it is a substantially better item for two dollars more.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "adorable-snowman-frosted-treats",
+      "name": "Adorable Snowman Frosted Treats",
+      "land": "pixar-pier",
+      "service": "snack-cart",
+      "cuisine": "Soft serve",
+      "priceTier": "$",
+      "priceNote": "Soft serve and sundaes roughly $7 to $11 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A soft-serve window on Pixar Pier themed to the Abominable Snowman from Monsters, Inc.",
+      "description": [
+        "Adorable Snowman Frosted Treats sells soft serve in cups and cones, plus layered sundaes and a signature novelty presentation, from a window on Pixar Pier decorated as a snow-cone stand run by the yeti from Monsters, Inc.",
+        "The soft serve is standard park soft serve. What sells it is the presentation and the location: it sits directly on the pier walkway with the wheel behind it, which makes it the most photographed dessert at this park after the cones in Cars Land."
+      ],
+      "signatureItems": [
+        "Soft-serve cone",
+        "Layered sundae",
+        "Signature novelty presentation",
+        "Cups for sharing"
+      ],
+      "goodFor": ["quick-bite", "families", "budget", "toddlers"],
+      "tips": [
+        "Order it in a cup rather than a cone if you are walking. The pier gets direct afternoon sun and a cone will not survive the walk to the wheel.",
+        "The cup version is gluten-free; the cone is not. Worth knowing if you are managing a wheat allergy rather than a preference.",
+        "This is the closest dessert window to the nighttime show viewing terraces on the pier side, which makes it useful once you have claimed a spot.",
+        "Repeat visitors: this location runs specialty builds that are not on the main board during quieter hours. Ask what the toppings station has out."
+      ],
+      "verdict": "Ordinary soft serve in a good-looking window. Buy it because you are hot and standing there, not because you went looking for it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "poultry-palace",
+      "name": "Poultry Palace",
+      "land": "pixar-pier",
+      "service": "quick-service",
+      "cuisine": "Turkey legs and poultry snacks",
+      "priceTier": "$",
+      "priceNote": "Turkey leg $12.99 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The turkey leg stand on Pixar Pier, built as a Toy Story-era diner and open on a limited schedule.",
+      "description": [
+        "Poultry Palace is a small stand at the far end of Pixar Pier, dressed as a mid-century roadside chicken restaurant scaled as a toy. It sells the resort's turkey leg, priced at $12.99 as of July 2026, plus a short list of poultry snacks and drinks.",
+        "The turkey leg is a Disney institution and it is also, honestly, a mediocre piece of food: heavily brined, extremely salty, difficult to eat, and impossible to share without a knife you do not have. It photographs magnificently and eats poorly.",
+        "The stand keeps limited hours and is frequently closed even when the pier is busy, which surprises people who walked the length of the pier specifically for it."
+      ],
+      "signatureItems": [
+        "Turkey leg",
+        "Chicken snacks",
+        "Cold drinks"
+      ],
+      "goodFor": ["quick-bite", "big-appetites", "budget"],
+      "tips": [
+        "Check the app before walking down here. This stand operates on a reduced schedule and closure mid-afternoon is common.",
+        "The turkey leg is naturally gluten-free, which makes it one of the few walk-up hot items a celiac guest can order without a conversation.",
+        "It is far too salty to eat without a drink in hand. Buy the drink first.",
+        "Repeat visitors: this end of the pier is the quietest place to stand during the nighttime show, and the stand's awning is one of the few bits of shelter out there."
+      ],
+      "verdict": "Overrated, and has been for twenty years. A turkey leg is a salty photograph you have to carry around. Buy it once for the experience, then never again.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "senor-buzz-churros",
+      "name": "Señor Buzz Churros",
+      "land": "pixar-pier",
+      "service": "snack-cart",
+      "cuisine": "Churros",
+      "priceTier": "$",
+      "priceNote": "Flavored churros roughly $7 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A churro cart on Pixar Pier with a rotating flavored coating instead of plain cinnamon sugar.",
+      "description": [
+        "Señor Buzz Churros is a cart on Pixar Pier named for the Spanish-mode version of Buzz Lightyear. Unlike the plain cinnamon-sugar churro carts scattered around both parks, this one runs a specialty coating that changes periodically — chile-lime, spiced sugar and similar variations have all appeared.",
+        "The churro itself is the same product as everywhere else at the resort. The coating is the differentiator, and it is worth seeking out if you have already had the standard version and want something that tastes different."
+      ],
+      "signatureItems": [
+        "Specialty coated churro",
+        "Classic cinnamon sugar churro",
+        "Dipping sauce"
+      ],
+      "goodFor": ["quick-bite", "budget", "families"],
+      "tips": [
+        "The specialty coating rotates. If you had one you liked, it may not be the same flavor on your next visit.",
+        "Churros here come out of the fryer in batches like everywhere else. A fresh one is a completely different item from one that has been sitting; ask when the next batch drops.",
+        "The chile-lime style coating, when it is on, is genuinely good and is the only savory-adjacent churro at the resort.",
+        "Repeat visitors: this cart and the ones at Disneyland Park across the esplanade run different coatings at the same time, which is worth knowing on a park-hopper day."
+      ],
+      "verdict": "The same churro as everywhere with better seasoning. Worth the small premium over a standard cart, but not worth crossing the park for.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bing-bongs-sweet-stuff",
+      "name": "Bing Bong's Sweet Stuff",
+      "land": "pixar-pier",
+      "service": "bakery",
+      "cuisine": "Candy and confectionery",
+      "priceTier": "$",
+      "priceNote": "Most items $6 to $16 as of July 2026; large caramel apples run higher",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Pixar Pier candy shop, doing hand-dipped caramel apples and novelty confectionery.",
+      "description": [
+        "Bing Bong's Sweet Stuff is the confectionery on Pixar Pier, named for the imaginary friend from Inside Out and stocked with hand-dipped caramel apples, chocolate-covered treats, fudge and packaged sweets.",
+        "The apples are the centerpiece — dipped, decorated, and displayed in a case that is engineered to make children stop walking. They are also large, expensive, and much harder to eat than they look, which is a combination worth thinking about before you buy one.",
+        "The shop is air conditioned, which makes it a legitimate ninety-second cooling stop on a pier with no shade at all."
+      ],
+      "signatureItems": [
+        "Hand-dipped caramel apples",
+        "Decorated chocolate treats",
+        "Fudge",
+        "Packaged candy"
+      ],
+      "goodFor": ["families", "quick-bite", "air-conditioned-break"],
+      "tips": [
+        "Ask them to slice and box the caramel apple. They will, and it converts a difficult twelve-dollar object into something four people can actually eat.",
+        "The shop is air conditioned and the pier is not. Two minutes inside is a real break on a hot afternoon.",
+        "Prices here run above Trolley Treats on Buena Vista Street for comparable items — buy candy there instead if you are going that way.",
+        "Repeat visitors: the decorated apple designs change more often than the rest of the case, and the plain caramel version is both cheaper and better eating."
+      ],
+      "verdict": "A pretty candy shop selling overpriced apples. Get them sliced or skip them, and buy your churro toffee at Trolley Treats instead.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "smokejumpers-grill",
+      "name": "Smokejumpers Grill",
+      "land": "grizzly-peak",
+      "service": "quick-service",
+      "cuisine": "Burgers and American grill",
+      "priceTier": "$$",
+      "priceNote": "Burgers and sandwiches roughly $16 to $20 with a side as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's burger counter, themed to a wildland firefighting base, with a genuinely good toppings bar.",
+      "description": [
+        "Smokejumpers Grill sits in Grizzly Peak Airfield, themed as the mess hall of a smokejumper base with real firefighting equipment, parachute rigging and period signage dressed into the building. It is the most convincing service-building theming at this park after Flo's.",
+        "The menu is burgers, chicken sandwiches, a plant-based option and fries. The burgers are cooked properly rather than held, which puts them above the park's baseline, and the self-serve toppings bar is unusually well stocked — grilled onions, several sauces, pickles and peppers at no extra charge.",
+        "It is also the only substantial food in the entire northern half of the park. Once you are past Grizzly River Run there is nothing else until Buena Vista Street, which makes this counter more important to your day than its profile suggests."
+      ],
+      "signatureItems": [
+        "Bacon cheeseburger",
+        "Crispy chicken sandwich",
+        "Plant-based burger",
+        "Loaded fries",
+        "Self-serve toppings bar"
+      ],
+      "goodFor": ["families", "big-appetites", "picky-eaters", "quick-bite", "groups"],
+      "tips": [
+        "Use the toppings bar properly. Grilled onions, sauces and peppers are all included, and most guests take a burger straight to a table without walking past it.",
+        "This is the only real meal in the north half of the park. Plan a Grizzly Peak or Soarin' morning around eating here rather than walking all the way back to the pier.",
+        "Mobile order and collect at the side window — the walk-up line at noon is one of the slowest at the park.",
+        "The covered seating on the far side of the building is shaded and almost always has space; the tables near the counter do not.",
+        "Repeat visitors: the plant-based burger here is the same patty as the one at several other resort locations, but this is the only counter that lets you dress it at the toppings bar."
+      ],
+      "verdict": "The best burger at either Disneyland Resort park, mostly because the toppings bar is free and everyone forgets to use it. Not exciting, but genuinely good.",
+      "faqs": [
+        {
+          "q": "Is the toppings bar free?",
+          "a": "Yes. Grilled onions, sauces, pickles and peppers are all self-serve at no extra charge, and it is the main thing that makes a burger here better than a burger elsewhere at the park."
+        },
+        {
+          "q": "Is there anywhere else to eat in Grizzly Peak?",
+          "a": "Not substantially. Smokejumpers Grill is effectively the only full meal in the northern half of the park, which is worth planning around if you are doing Soarin' and Grizzly River Run in the same stretch."
+        },
+        {
+          "q": "Is there a vegetarian option?",
+          "a": "Yes, a plant-based burger patty, and it can be dressed at the toppings bar like any other burger. Gluten-free buns are available on request at the counter."
+        },
+        {
+          "q": "Where is the best seating?",
+          "a": "The covered tables on the far side of the building away from the counter. They are shaded and usually have space, while the tables in front of the ordering windows fill first and get full sun."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

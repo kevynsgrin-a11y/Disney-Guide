@@ -275,7 +275,7 @@ export function ridesPage (park, data) {
         url: urls.rides(park),
         title: `${park.shortLabel} rides & attractions`,
         titleTail: `: all ${open.length}`,
-        description: `The complete ${park.name} attraction list with height requirements, intensity, scare factor, and Lightning Lane status for every ride, show, and experience.`,
+        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and Lightning Lane status for every ride, show, and experience.`, 158),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },

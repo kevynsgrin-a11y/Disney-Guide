@@ -1,0 +1,100 @@
+{
+  "park": "disneyland-park",
+  "viewBox": [0, 0, 1000, 900],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    {
+      "points": [[242, 366], [291, 386], [322, 438], [322, 502], [291, 554], [242, 574], [193, 554], [162, 502], [162, 438], [193, 386], [242, 366], [243, 426], [220, 439], [211, 470], [220, 501], [243, 514], [266, 501], [275, 470], [266, 439], [243, 426]]
+    },
+    {
+      "points": [[838, 436], [880, 445], [898, 468], [880, 491], [838, 500], [796, 491], [778, 468], [796, 445]]
+    }
+  ],
+  "paths": [
+    { "points": [[500, 850], [500, 780], [500, 700], [500, 640], [500, 606]] },
+    { "points": [[500, 606], [500, 556], [502, 510], [512, 452], [528, 392]] },
+    { "points": [[456, 632], [404, 668], [352, 700], [302, 716]] },
+    { "points": [[560, 626], [628, 642], [698, 626], [760, 600]] },
+    { "points": [[272, 700], [216, 652], [166, 596], [140, 520], [144, 442], [168, 372], [212, 306]] },
+    { "points": [[348, 646], [372, 580], [392, 494], [398, 412], [424, 346], [468, 300]] },
+    { "points": [[586, 232], [598, 200], [606, 172]] }
+  ],
+  "lands": [
+    {
+      "slug": "main-street-usa",
+      "label": "Main Street, U.S.A.",
+      "points": [[446, 866], [556, 866], [556, 704], [580, 662], [586, 614], [558, 574], [502, 558], [446, 574], [418, 614], [422, 662], [446, 704]],
+      "labelAt": [500, 790]
+    },
+    {
+      "slug": "adventureland",
+      "label": "Adventureland",
+      "points": [[204, 760], [212, 700], [268, 676], [344, 678], [402, 708], [418, 762], [400, 818], [336, 850], [256, 846], [212, 812]],
+      "labelAt": [306, 812]
+    },
+    {
+      "slug": "new-orleans-square",
+      "label": "New Orleans Square",
+      "points": [[72, 568], [66, 494], [96, 454], [164, 436], [224, 452], [238, 506], [232, 570], [196, 612], [128, 626], [84, 612]],
+      "labelAt": [130, 532]
+    },
+    {
+      "slug": "critter-country",
+      "label": "Critter Country",
+      "points": [[84, 404], [78, 356], [110, 320], [178, 308], [240, 318], [262, 356], [254, 400], [210, 424], [136, 424]],
+      "labelAt": [148, 384]
+    },
+    {
+      "slug": "frontierland",
+      "label": "Frontierland",
+      "points": [[286, 420], [276, 368], [318, 348], [386, 356], [420, 404], [436, 486], [430, 566], [396, 626], [344, 658], [292, 630], [280, 556], [292, 478]],
+      "labelAt": [366, 490]
+    },
+    {
+      "slug": "star-wars-galaxys-edge",
+      "label": "Star Wars: Galaxy's Edge",
+      "points": [[58, 236], [62, 148], [104, 88], [186, 60], [276, 64], [338, 108], [358, 188], [344, 252], [280, 286], [176, 290], [92, 276]],
+      "labelAt": [196, 108]
+    },
+    {
+      "slug": "fantasyland",
+      "label": "Fantasyland",
+      "points": [[448, 472], [442, 352], [464, 258], [528, 218], [622, 206], [700, 234], [726, 302], [712, 384], [664, 434], [600, 472], [544, 522], [478, 542]],
+      "labelAt": [582, 300]
+    },
+    {
+      "slug": "mickeys-toontown",
+      "label": "Mickey's Toontown",
+      "points": [[398, 150], [406, 90], [470, 62], [600, 54], [736, 60], [818, 84], [838, 132], [796, 174], [672, 188], [520, 186], [434, 174]],
+      "labelAt": [660, 122]
+    },
+    {
+      "slug": "tomorrowland",
+      "label": "Tomorrowland",
+      "points": [[724, 432], [798, 400], [888, 414], [946, 472], [954, 572], [928, 668], [856, 738], [770, 752], [688, 712], [644, 646], [666, 566], [706, 490]],
+      "labelAt": [812, 700]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [500, 842] },
+    { "slug": "disneyland-fireworks", "kind": "headliner", "at": [500, 596] },
+    { "slug": "jolly-holiday-bakery-cafe", "kind": "dining", "at": [478, 690] },
+    { "slug": "indiana-jones-adventure", "kind": "headliner", "at": [268, 742] },
+    { "slug": "jungle-cruise", "kind": "headliner", "at": [348, 728] },
+    { "slug": "pirates-of-the-caribbean", "kind": "headliner", "at": [112, 556] },
+    { "slug": "haunted-mansion", "kind": "headliner", "at": [110, 470] },
+    { "slug": "blue-bayou-restaurant", "kind": "dining", "at": [186, 590] },
+    { "slug": "big-thunder-mountain-railroad", "kind": "headliner", "at": [356, 404] },
+    { "slug": "mark-twain-riverboat", "kind": "attraction", "at": [296, 536] },
+    { "slug": "fantasmic", "kind": "headliner", "at": [340, 602] },
+    { "slug": "tianas-bayou-adventure", "kind": "headliner", "at": [140, 340] },
+    { "slug": "star-wars-rise-of-the-resistance", "kind": "headliner", "at": [140, 192] },
+    { "slug": "millennium-falcon-smugglers-run", "kind": "headliner", "at": [284, 200] },
+    { "slug": "its-a-small-world", "kind": "headliner", "at": [596, 244] },
+    { "slug": "peter-pans-flight", "kind": "attraction", "at": [480, 330] },
+    { "slug": "matterhorn-bobsleds", "kind": "headliner", "at": [668, 392] },
+    { "slug": "mickey-and-minnies-runaway-railway", "kind": "headliner", "at": [490, 118] },
+    { "slug": "space-mountain", "kind": "headliner", "at": [866, 552] },
+    { "slug": "star-tours-the-adventures-continue", "kind": "attraction", "at": [712, 656] }
+  ]
+}

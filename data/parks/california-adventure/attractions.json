@@ -2447,6 +2447,874 @@
       "image": null,
       "lastVerified": "2026-07"
     },
-    "ZZEND"
+    {
+      "slug": "jessies-critter-carousel",
+      "name": "Jessie's Critter Carousel",
+      "land": "pixar-pier",
+      "type": "spinner",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A carousel. There is nothing to be frightened of. The only note worth making is that one of the mounts is a snake that riders sit inside rather than astride, which some very small children find odd rather than alarming."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "There is a wheelchair-accessible chariot that loads via a ramp without transfer, and several stationary mounts for riders who cannot manage a moving one. Ask at the entrance."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A carousel of hand-carved woodland critters from Toy Story 2, replacing the pier's old King Triton's Carousel.",
+      "description": [
+        "Jessie's Critter Carousel opened in 2019 on the site of King Triton's Carousel, which had been on the pier since 2001. The mounts are the woodland animals from the Woody's Roundup segments of Toy Story 2 — a turtle, a skunk, a bat, an armadillo, a snake and more — each rendered with the wide-eyed expression the film used as a joke.",
+        "It is a small carousel with a short cycle and a low profile, tucked at the back of Pixar Pier where a lot of people miss it. That is the point: it is a two-minute, no-height-requirement ride that toddlers can do while everyone else queues for Incredicoaster, and the wait is almost never more than a few minutes."
+      ],
+      "experience": [
+        "Standard carousel operation: pick a mount, a cast member checks the belt, and the platform turns for about two minutes. Most mounts move up and down; a handful are stationary.",
+        "The animal designs are the reason to look rather than just ride. The snake in particular is worth finding — it is not a mount you sit on top of but one you sit inside, and it is the most-photographed animal on the ride for good reason."
+      ],
+      "tips": [
+        "There is no height requirement, making it one of only a handful of Pixar Pier rides a toddler can actually do.",
+        "The queue is short but the loading is slow because families take time choosing mounts. Decide which animal you want while you are still in line.",
+        "The wheelchair-accessible chariot loads by ramp without a transfer, which is unusual for a carousel — ask at the entrance rather than at the platform.",
+        "Repeat visitors: no two animals on this carousel are the same design, which is not true of most Disney carousels where mounts repeat. Walking the platform between cycles is a legitimate two minutes of interest."
+      ],
+      "bestTime": "Any time; it rarely posts a meaningful wait.",
+      "typicalWait": "Usually under 10 minutes.",
+      "faqs": [],
+      "relatedSlugs": ["inside-out-emotional-whirlwind", "the-little-mermaid-ariels-undersea-adventure", "games-of-the-boardwalk"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "games-of-the-boardwalk",
+      "name": "Games of the Boardwalk",
+      "land": "pixar-pier",
+      "type": "interactive-game",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Midway carnival games with bells and buzzers. Nothing here frightens anyone; the loudest element is the win chime."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Counters are at standing height, which is workable but not ideal from a wheelchair; cast members will move the play position for you if asked. Each game requires throwing or aiming with reasonable arm strength."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Four pay-per-play midway games on Pixar Pier, each themed to a Pixar film, with guaranteed-prize pricing.",
+      "description": [
+        "Games of the Boardwalk are the only pay-to-play carnival games at either Disneyland Resort park. Four booths sit along the Pixar Pier walkway, each themed to a different Pixar property — a ring toss, a ball toss, a bottle knockdown and a target game — with a cast member running each one and prizes hanging overhead.",
+        "The pricing model is the important part and it is not the model people expect from a carnival. You pay per play and every play wins a prize; the question is what size. Small plush for a poor round, progressively larger for a good one. That removes the worst part of midway games, which is spending twenty dollars and walking away with nothing.",
+        "It is still not cheap, and it is not included in park admission. Treat it as a souvenir purchase with a game attached rather than as an attraction."
+      ],
+      "experience": [
+        "You hand over payment, the cast member sets up the game, you get a fixed number of throws or attempts, and the result determines your prize tier. A round takes two or three minutes including the transaction.",
+        "The ring toss is the hardest of the four by a wide margin. The ball toss is the most forgiving. If you are playing with a child who will be upset by a small prize, put them on the ball toss."
+      ],
+      "tips": [
+        "Every play wins something. Knowing that in advance changes how you decide whether the price is worth it — you are buying a plush and a game, not gambling on one.",
+        "The ball-toss game gives the best odds of a larger prize; the ring toss gives the worst. Cast members will confirm this if you ask them straight.",
+        "Prices are not covered by any park ticket or pass, and the games do not accept dining plan credits.",
+        "Play in the evening. The booths are quiet after dark, the cast members have time to coach a kid through it, and the pier lighting makes for better photos."
+      ],
+      "bestTime": "Evening, when booths are quiet and cast members have time to coach.",
+      "typicalWait": "Little to none; occasional short queues at the most popular booth.",
+      "faqs": [],
+      "relatedSlugs": ["toy-story-midway-mania", "spider-bot-battles", "jessies-critter-carousel"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pixar-pier-character-greetings",
+      "name": "Pixar Pier Character Greetings",
+      "land": "pixar-pier",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Standard outdoor character meets. The Pixar characters here are large costumed figures, and the scale of some of them at close range is the only thing that unsettles toddlers."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Flat paved greeting areas along the pier walkway. Shade is limited to the awnings of adjacent food windows, so afternoon waits are hot."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Woody, Jessie, Buzz, the Incredibles and the Inside Out emotions appear along the pier on a rotating schedule.",
+      "description": [
+        "Pixar Pier hosts the resort's densest concentration of Pixar character greetings, spread along the walkway between Incredicoaster and the wheel. The rotation has included Woody, Jessie, Buzz Lightyear, Mr. Incredible, Frozone, Edna Mode, Joy, Sadness and Bing Bong, generally two or three out at a time.",
+        "Edna Mode is the standout and the one worth planning around — she is performed with real comic timing and interacts with what people are wearing, which produces a genuinely different encounter every time rather than a pose and a photo."
+      ],
+      "experience": [
+        "Short rope lines form on the walkway. Cast members run them efficiently and greetings last two or three minutes with a PhotoPass photographer present for most of them.",
+        "There is essentially no shade on the pier. A twenty-minute wait here at 2pm in August is materially worse than the same wait almost anywhere else in the park."
+      ],
+      "tips": [
+        "Check the app's character list before crossing the bridge to the pier — the rotation is real and characters take long breaks.",
+        "Do these during the nighttime show if you can bear to skip a viewing. The pier empties and the lines effectively disappear.",
+        "Edna Mode is the best interaction on the pier and reacts to your outfit. Wear something with an opinion.",
+        "The greeting spots have no shade. In summer, morning or evening only."
+      ],
+      "bestTime": "During the nighttime show, or in the first hour of the day.",
+      "typicalWait": "15 to 40 minutes depending on character.",
+      "faqs": [],
+      "relatedSlugs": ["buena-vista-street-character-greetings", "meet-baymax", "avengers-campus-character-encounters"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "soarin-around-the-world",
+      "name": "Soarin' Around the World",
+      "land": "grizzly-peak",
+      "type": "simulator",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "You are lifted about forty feet with your feet dangling in front of a domed screen, and the combination of real height and a moving image is what bothers people. There is no drop and no sudden motion. Fear of heights is the deciding factor here, not fear of rides."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": true,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer required into a seat with a lap belt and a footrest that drops away. Riders must be able to sit upright with feet unsupported for five minutes. Ask for a front-row row assignment if a companion needs help remaining seated."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A hang-glider simulator over a domed screen, flying you across landmarks on five continents in five minutes.",
+      "description": [
+        "Soarin' opened with the park in 2001 as Soarin' Over California, flying a single-state route that is still the version many locals prefer. In 2016 it was replaced with Soarin' Around the World, a globe-spanning film shot in higher resolution that visits sites across five continents.",
+        "The ride system is the real achievement. You sit in a row of seats attached to a giant articulated arm, which lifts your row into position in front of a concave projection dome. Because the rows above and below you are lifted out of your sightline, the dome fills your entire field of view and your feet hang over nothing. Combined with directional wind, scent and a subtle seat tilt, the illusion of gliding is close to total.",
+        "It is one of the best attractions at either Disneyland Resort park and it is also the one where seat assignment matters most. Front row is the whole ride; back rows put other people's feet in your picture."
+      ],
+      "experience": [
+        "The queue winds through an aviation-themed hangar and ends in one of three theaters. Cast members assign you a row and a number, and this is where the ride is won or lost.",
+        "Rows lift, the lights go down, and the dome comes alive. The film opens over a mountain range and moves through a sequence of locations with the seat banking gently into each turn. Scent is piped in at specific moments — grass, sea air, and one that people either love or find heavy-handed.",
+        "Ask for row B and a middle seat. Row B is lifted highest, so no other row's dangling feet appear at the bottom of your view, and the center seats sit at the dome's optical sweet spot where the edges of the screen do not warp. Cast members will accommodate the request if you make it before they assign you, and will tell you honestly if the wait for it is long."
+      ],
+      "tips": [
+        "Ask for row B, center. It is the difference between a good ride and the best ride at the park. Ask at the row-assignment podium, not in the main queue.",
+        "If you are in an outer seat of any row, the edge of the dome curves and the image distorts. It is worth waiting one extra cycle for a center seat if the cast member offers.",
+        "Lightning Lane Multi Pass covers this, and it is a strong pick because the standby wait is long all day and there is no single rider line.",
+        "Anyone bothered by heights should know the sensation is real, not simulated — you are genuinely lifted about forty feet with nothing under your feet. Closing your eyes removes the fear entirely and most people never think to try it.",
+        "Repeat visitors: the 2016 film replaced the original California route, which Disney has periodically brought back for limited runs. The permanent, year-round version is the around-the-world film."
+      ],
+      "bestTime": "First hour of the day, or during the nighttime show.",
+      "typicalWait": "40 to 70 minutes for most of the day; no single rider line, so Multi Pass is the only shortcut.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Soarin'?",
+          "a": "40 inches. Riders below that cannot ride, and there is no lap-riding option because the seat belt and the dangling-feet design require each rider in their own seat."
+        },
+        {
+          "q": "Which row is best on Soarin'?",
+          "a": "Row B, center seats. B is lifted highest, so no other row's feet hang into your field of view, and the center of the row aligns with the dome's optical sweet spot. Ask the cast member at the row-assignment podium before you are assigned."
+        },
+        {
+          "q": "Does Soarin' cause motion sickness?",
+          "a": "For some people, yes. The wide domed image with a banking seat is a classic trigger, and the sensation of height compounds it. Looking at the center of the screen rather than the edges helps significantly, and the ride is only five minutes."
+        },
+        {
+          "q": "Is Soarin' scary if I am afraid of heights?",
+          "a": "The height is real — you are lifted around forty feet with your feet dangling. That is more than the film alone would suggest. Riders with a genuine fear of heights often find the first thirty seconds difficult and are fine after that. Closing your eyes during the lift is a legitimate strategy."
+        },
+        {
+          "q": "Is this the same film as Soarin' at EPCOT?",
+          "a": "The around-the-world film is shared between the two attractions, though the theater and ride system differ slightly. The original Soarin' Over California film ran here from 2001 to 2016 and returns for limited runs from time to time."
+        }
+      ],
+      "relatedSlugs": ["grizzly-river-run", "redwood-creek-challenge-trail", "radiator-springs-racers", "toy-story-midway-mania"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "grizzly-river-run",
+      "name": "Grizzly River Run",
+      "land": "grizzly-peak",
+      "type": "water-ride",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 2,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "Two real drops, including a spinning one taken backwards, plus a geyser field that fires unpredictably. The raft rotates freely so you never know which way you will face for a drop, and that uncertainty is what frightens people more than the drops themselves. Nothing is dark for long."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer required from a wheelchair or ECV onto a moving loading platform and down into a circular raft with a center console. Riders need to step over a raised sill and sit unsupported. The queue includes a long uphill switchback section with limited shade."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A circular-raft rapids ride down a man-made river with two drops, and the wettest ride at either Disneyland Resort park.",
+      "description": [
+        "Grizzly River Run opened with the park in 2001 and runs around the base of Grizzly Peak, the bear-shaped mountain that is the park's original visual anchor. Eight-passenger circular rafts float a course of rapids, past geysers and under waterfalls, with two drops — the second of which is taken while the raft spins.",
+        "It is the most honest attraction at this park. There is no story, no screens, no characters. It is a well-built rapids ride with real water volume and a genuinely good mountain around it, and it does exactly what it promises.",
+        "What it promises is that you will get soaked. Not damp — soaked, in a way that means walking around in wet denim for two hours unless you plan for it. Rafts rotate freely, so which seat gets destroyed is random, and the geyser field near the end sprays the raft on a timer that does not care where you are sitting."
+      ],
+      "experience": [
+        "You board from a moving platform into a round raft with a center console and a lap belt. The raft climbs a lift and then drifts into the rapids, bumping off the walls and rotating slowly the whole way.",
+        "The first drop is straightforward. The second is the one people remember: the raft enters a rotating section, spins, and goes over backwards or sideways depending on where it ends up. You cannot brace because you do not know which way you are facing.",
+        "The last stretch runs through a geyser field where jets fire on a cycle. This is where most of the soaking happens, and there is no seat that reliably avoids it. Ponchos help your torso and do nothing for the seat of your shorts."
+      ],
+      "tips": [
+        "You will get soaked, not splashed. Bring a dry bag or use the lockers at the entrance for anything that must not get wet, including phones — a poncho will not save a pocket.",
+        "The dryer strategy that actually works is a change of socks in your bag. Wet shoes ruin an afternoon far more reliably than a wet shirt.",
+        "Ride it in the early afternoon on a hot day and it is the best attraction in the park. Ride it at 9pm in February and you will be miserable for the rest of the night.",
+        "There is no single rider line here, and Multi Pass is worth using because the queue is long, uphill, and largely unshaded.",
+        "Repeat visitors: the raft's rotation is determined by weight distribution, so a raft with an uneven load spins more and takes the second drop at a wilder angle. Loading with a heavy group on one side is how you get the good version."
+      ],
+      "bestTime": "Between 1pm and 4pm on a hot day; avoid it late in the evening or in cool weather.",
+      "typicalWait": "30 to 60 minutes on warm days, far shorter in cool weather.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Grizzly River Run?",
+          "a": "42 inches. It is one of the higher requirements at the park, above Radiator Springs Racers and Mission: BREAKOUT!."
+        },
+        {
+          "q": "How wet do you actually get?",
+          "a": "Soaked. This is the wettest ride at the Disneyland Resort by a wide margin. Expect wet clothes through to your underlayers, and expect wet shoes. Ponchos reduce the damage but do not prevent it, because the water comes from below and sideways as well as above."
+        },
+        {
+          "q": "Is Grizzly River Run scary?",
+          "a": "Moderately. There are two drops, and the second is taken while the raft spins so you cannot predict which way you will face. That unpredictability is the frightening part rather than the height of the drops. Nothing is dark and there are no enclosed sections of any length."
+        },
+        {
+          "q": "Where should I sit to stay driest?",
+          "a": "There is no such seat. The raft rotates freely throughout the ride, so any position you choose at loading is meaningless thirty seconds later. Treat the whole raft as equally doomed."
+        },
+        {
+          "q": "Are there lockers?",
+          "a": "Yes, near the attraction entrance. Use them for phones, cameras and anything paper. A zip pocket is not adequate protection on this ride."
+        }
+      ],
+      "relatedSlugs": ["soarin-around-the-world", "redwood-creek-challenge-trail", "radiator-springs-racers"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "redwood-creek-challenge-trail",
+      "name": "Redwood Creek Challenge Trail",
+      "land": "grizzly-peak",
+      "type": "play-area",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": "The 42in figure applies to the zip line, which also has a 63in maximum height and is limited to guests under 13. The rest of the trail has no height requirement.",
+      "durationMinutes": 45,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A climbing and exploring trail. The one element that unsettles kids is the cave section, which is genuinely dark for about twenty feet, and the rope bridges, which sway. Neither is dangerous and both can be walked around."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The main trail loop is largely accessible with some grade, but the climbing net, rope bridges, cave and zip line are not. A companion can follow the accessible path and meet a child at each exit point. This is the most shaded area in the park, which matters for heat-sensitive guests."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A free-range climbing, sliding and zip-lining play trail under real trees — the best hour in the park for kids aged 5 to 12.",
+      "description": [
+        "Redwood Creek Challenge Trail opened with the park in 2001 and is the single most underused piece of real estate at the Disneyland Resort. It is a genuine adventure playground: rope bridges, a climbing net, cargo nets, log slides, a rock wall, a cave to crawl through, and two short zip lines, all laid out along a wooded trail on the slope of Grizzly Peak.",
+        "The theming is Wilderness Explorer, tied to the 2009 film Up, with a badge-earning framework and a small trail-guide element. There is also an animatronic show tucked at the top of the trail that most guests never find.",
+        "The reason to care is what it does for a family's day. A seven-year-old who has spent four hours in queues can be turned loose here for an hour while the adults sit on a bench in real shade. Nothing else in the park offers that, and it is completely free of charge and of waits."
+      ],
+      "experience": [
+        "The trail is a loop with multiple entry points and no set route. Kids run it in whatever order they like; adults follow the lower path, which is level and shaded, and intercept them at the exits.",
+        "The zip lines are the headline element and the only part with a height requirement — riders must be at least 42 inches, no more than 63 inches, and under 13 years old. They are short and slow, more of a controlled glide than an actual zip, but children treat them as the main event and the line for them is the only queue on the trail.",
+        "The cave is the other thing worth knowing about. It is properly dark for a stretch of about twenty feet and it surprises a lot of small kids. There is an easy bypass, and it is signposted, but not obviously."
+      ],
+      "tips": [
+        "This is the best shade in the park by a wide margin — real trees, not sail cloth. Use it as your midday base and let the kids burn off two hours of queue frustration.",
+        "The zip line has both a minimum and a maximum: 42 to 63 inches, and riders must be under 13. Tall 11-year-olds get turned away and it is worth warning them in advance.",
+        "The trail closes before park closing, often well before, and it does not always reopen after a weather closure. Do it in the afternoon rather than saving it for the evening.",
+        "Adults can walk the whole trail too, and the upper path gives the best ground-level views of Grizzly Peak's rockwork that exist anywhere in the park.",
+        "Repeat visitors: there is a small animatronic show at the top of the trail that runs on a loop and has essentially no audience. It is a legitimate hidden corner of the park and takes five minutes."
+      ],
+      "bestTime": "Early afternoon, as a shaded reset between morning rides and the evening.",
+      "typicalWait": "No wait to enter; the zip line runs 10 to 25 minutes.",
+      "faqs": [
+        {
+          "q": "What is the height requirement at Redwood Creek Challenge Trail?",
+          "a": "Only the zip line has one: riders must be between 42 and 63 inches tall and under 13 years old. Everything else on the trail — the nets, bridges, slides, cave and rock wall — has no height requirement at all."
+        },
+        {
+          "q": "Can adults go on the trail?",
+          "a": "Yes. Adults can walk the whole loop and use most of the climbing elements, though the zip line is restricted to children under 13. The upper path also gives the best close views of the Grizzly Peak rockwork in the park."
+        },
+        {
+          "q": "Is the cave too dark for small children?",
+          "a": "It is genuinely dark for about twenty feet, and it does catch kids out. There is a marked bypass, but the signage is easy to miss. Walk the entrance with a nervous child the first time rather than sending them in."
+        },
+        {
+          "q": "How long should we allow?",
+          "a": "An hour is typical for a child who is enjoying it, and two is common. There is no queue for the trail itself, so you leave when you decide to leave rather than when the ride ends."
+        },
+        {
+          "q": "Does it close early?",
+          "a": "Yes. The trail typically closes before the park does, sometimes well before, and it can shut in bad weather without reopening. Do not save it for the last hour of your day."
+        }
+      ],
+      "relatedSlugs": ["grizzly-river-run", "soarin-around-the-world", "games-of-the-boardwalk"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-twilight-zone-tower-of-terror",
+      "name": "The Twilight Zone Tower of Terror",
+      "land": "avengers-campus",
+      "type": "simulator",
+      "opened": 2004,
+      "status": "closed",
+      "closedNote": "Closed permanently on January 2 2017. The building and drop system were rebuilt and reopened in May 2017 as Guardians of the Galaxy – Mission: BREAKOUT!. The Twilight Zone version will not return to this park.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 5,
+        "drops": 5,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "The California version leaned hard on dread — a decayed hotel lobby, a long dark boiler-room queue, and a slow build before the first drop. It frightened people psychologically in a way its replacement deliberately does not."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical information only. The attraction no longer operates."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The Hollywood Tower Hotel drop ride that stood here from 2004 to 2017, now rebuilt as Mission: BREAKOUT!.",
+      "description": [
+        "The Twilight Zone Tower of Terror opened at this park in May 2004, a shorter adaptation of the Florida original set in the Hollywood Tower Hotel. The queue ran through a dust-covered lobby and a boiler room, a pre-show played on an old television, and the ride car — a service elevator — carried you up through a haunted hallway before dropping.",
+        "Unlike the Florida version it did not move horizontally out of the shaft. It was a purer drop tower with a stronger emphasis on atmosphere in the queue, and the queue was extraordinary: genuinely unsettling, meticulously dressed, and better than most complete attractions at this park.",
+        "It closed permanently on January 2 2017 and reopened four months later, rebuilt as Guardians of the Galaxy – Mission: BREAKOUT!. The drop hardware survives inside the new attraction; nothing a guest can see does. The retheme remains one of the most argued-about decisions in Disneyland Resort history, and the case for it is straightforward: the new ride is more re-rideable and draws bigger crowds. The case against it is the queue nobody will ever walk through again."
+      ],
+      "experience": [
+        "Riders were seated in rows in a service elevator car with lap bars, taken up in stages through show scenes, and then subjected to a sequence of drops in the dark. The California version's profile was less varied than its replacement's and did not randomize between rides.",
+        "The parts people still talk about are the lobby and the boiler-room queue rather than the drops themselves, which is unusual for a thrill ride and says something about how good the theming was."
+      ],
+      "tips": [
+        "If you are searching for this ride, you are looking for Guardians of the Galaxy – Mission: BREAKOUT!, which occupies the same structure in Avengers Campus.",
+        "The Tower of Terror at Disney's Hollywood Studios in Florida still operates and is a different, longer ride with horizontal movement out of the shaft.",
+        "A handful of exterior details from the hotel structure survive under the new facade if you know where to look at the building's base from the Hollywood Land side.",
+        "Repeat visitors from before 2017: the drop profile you remember does not exist in the replacement, which uses several randomized sequences instead of one fixed one."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["guardians-of-the-galaxy-mission-breakout", "incredicoaster"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "california-screamin",
+      "name": "California Screamin'",
+      "land": "pixar-pier",
+      "type": "roller-coaster",
+      "opened": 2001,
+      "status": "closed",
+      "closedNote": "Closed permanently in January 2018. The same track and launch system reopened in June 2018 as Incredicoaster, with new theming, tunnels, show scenes and audio. The coaster layout is unchanged.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "none",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 2,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "Physically identical to the coaster that runs today under a different name. The launch, the loop and the airtime hills are the same; only the theming changed."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical information only. The attraction operates today as Incredicoaster."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The park's original launched coaster, running from 2001 to 2018 on the track now used by Incredicoaster.",
+      "description": [
+        "California Screamin' opened with the park on February 8 2001 and was, for seventeen years, the defining structure on the Paradise Pier skyline: a white wooden-look steel coaster wrapping the whole of Paradise Bay, with a loop framing a large Mickey Mouse silhouette.",
+        "It was built as a modern steel coaster dressed as a classic seaside woodie, and the trick worked — the silhouette read as period while the ride delivered a linear-induction launch and a smooth 6,000-foot circuit. The onboard soundtrack was piped into the trains, which was unusual at the time.",
+        "It closed in January 2018 for the Pixar Pier conversion and reopened that June as Incredicoaster. The track, the launch, the loop and the layout are identical; the tunnels, the theming, the station and the audio are new. People who miss California Screamin' are, strictly speaking, missing a paint job and a song."
+      ],
+      "experience": [
+        "The ride experience is preserved intact in Incredicoaster: a hard launch to roughly 55 miles per hour, an early vertical loop, and a long run of airtime hills around the water.",
+        "What is gone is the specific character of it — the white structure, the Mickey silhouette in the loop, and the original onboard score, which had a following well beyond the park's regulars."
+      ],
+      "tips": [
+        "If you are looking for this ride, ride Incredicoaster. It is the same coaster on the same track.",
+        "The Mickey silhouette that once sat inside the loop was removed during the 2018 conversion; the loop itself is unchanged.",
+        "Back row still delivers the strongest launch and airtime, as it did under the old name.",
+        "Repeat visitors from before 2018: the queue and station were completely rebuilt, so the walk-up experience will feel unfamiliar even though the ride does not."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["incredicoaster", "pixar-pal-a-round"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "its-tough-to-be-a-bug",
+      "name": "It's Tough to Be a Bug!",
+      "land": "avengers-campus",
+      "type": "film",
+      "opened": 2001,
+      "status": "closed",
+      "closedNote": "Closed permanently on March 19 2018 along with the rest of a bug's land, to clear the site for Avengers Campus. The Disney's Animal Kingdom version in Florida has also since been replaced. This show will not return to California Adventure.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 9,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 4,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 4,
+        "startles": 5,
+        "notes": "This show had a reputation for terrifying small children well out of proportion to its running time. The theater went fully dark, insects appeared to swarm the audience in 3D, seats produced a physical sensation underneath riders, and a large hostile figure loomed over the house. Plenty of adults disliked it too."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical information only. The theater no longer exists."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 3D insect show that anchored a bug's land from 2001 until the area was demolished for Avengers Campus in 2018.",
+      "description": [
+        "It's Tough to Be a Bug! was a 3D film with in-theater effects, presented as an insect-hosted lecture on why bugs deserve more respect. It ran in an underground theater beneath a bug's land, the toddler-focused area that occupied the southeastern corner of the park from opening day.",
+        "The show is remembered for two things: being genuinely funny, and making a remarkable number of preschoolers cry. The effects were physical and unannounced — swarming 3D imagery, a sensation under the seats, a mist, and a large antagonist figure filling the theater in the dark.",
+        "The entire land closed on March 19 2018 to make way for Avengers Campus, taking the show, Flik's Flyers, Francis' Ladybug Boogie, Heimlich's Chew Chew Train and Tuck and Roll's Drive 'Em Buggies with it. Nothing from a bug's land survives at this park, and the loss of five toddler-scale attractions in one stroke is why California Adventure remains thin for the under-40-inch crowd."
+      ],
+      "experience": [
+        "Guests wore 3D glasses in a fixed theater under the ground. The film alternated between comic segments and effects designed to make the audience believe insects were in the room with them.",
+        "The physical effects were the memorable part, and they were also why so many families left early. Nothing about the show telegraphed how intense it was going to get from the queue outside."
+      ],
+      "tips": [
+        "If you are looking for a bug's land on an old map, it is now Avengers Campus. None of its attractions were relocated.",
+        "The closure removed five rides suitable for children under 40 inches. If you are planning with toddlers, this is the historical reason the park feels short on options for them.",
+        "The Florida version of this show has also closed, so there is no longer a place to see it at any Disney park.",
+        "Repeat visitors: the oversized props that themed a bug's land — the giant leaves and the boxes of consumer goods scaled up to insect size — were entirely removed rather than relocated."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["web-slingers-a-spider-man-adventure", "inside-out-emotional-whirlwind"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mickeys-fun-wheel",
+      "name": "Mickey's Fun Wheel",
+      "land": "pixar-pier",
+      "type": "spinner",
+      "opened": 2009,
+      "status": "closed",
+      "closedNote": "Retired as a name and theme in 2018 during the Pixar Pier conversion. The wheel itself never closed permanently — it operates today as Pixar Pal-A-Round with the same swinging and non-swinging gondolas.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 9,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 2,
+        "notes": "Identical to the wheel operating today. The swinging gondolas slid along interior rails and frightened people who expected an ordinary Ferris wheel; the fixed gondolas did not."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Historical information only. The same wheel operates today as Pixar Pal-A-Round."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 2009 to 2018 name and theme for the pier's eccentric wheel, now operating as Pixar Pal-A-Round.",
+      "description": [
+        "The wheel opened with the park in 2001 as the Sun Wheel, was rebranded Mickey's Fun Wheel in 2009 with a large Mickey Mouse face on the hub, and was rethemed again in 2018 as Pixar Pal-A-Round. The mechanism — a 150-foot eccentric wheel with sixteen sliding gondolas and eight fixed ones — has never changed across any of it.",
+        "It is listed here because a great many people search for the Mickey's Fun Wheel name and assume the ride is gone. It is not. Only the paint and the gondola artwork changed."
+      ],
+      "experience": [
+        "Then as now, the swinging gondolas slid along curved rails inside the wheel, producing repeated free-slide drops across a nine-minute cycle, while the fixed gondolas gave an ordinary observation-wheel ride.",
+        "The two separate queues existed under this name too, and guests boarded the wrong one just as often."
+      ],
+      "tips": [
+        "If you are looking for Mickey's Fun Wheel, ride Pixar Pal-A-Round — it is the same wheel with different artwork.",
+        "The swinging and non-swinging distinction has survived every retheme. Choose your queue deliberately.",
+        "The Mickey face on the hub was removed in the 2018 conversion; the structure behind it is unchanged.",
+        "Repeat visitors: the gondola numbering has stayed consistent through the rethemes, so a favorite car from the Fun Wheel era is still out there."
+      ],
+      "bestTime": "Not applicable — the ride operates today under a different name.",
+      "typicalWait": "Not applicable — see Pixar Pal-A-Round.",
+      "faqs": [],
+      "relatedSlugs": ["pixar-pal-a-round", "incredicoaster"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "maliboomer",
+      "name": "Maliboomer",
+      "land": "paradise-gardens-park",
+      "type": "simulator",
+      "opened": 2001,
+      "status": "closed",
+      "closedNote": "Closed permanently on September 7 2010 and dismantled as part of the park's first major overhaul. The three towers were removed from the Paradise Pier skyline entirely and nothing replaced them on the site.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 1,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "A launched shot tower that fired riders 180 feet up in an open seat and let them bounce back down. It was the tallest and most exposed thrill ride the park has ever operated, and the enclosing cages over riders' heads did not help anyone's nerves."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical information only. The attraction was demolished in 2010."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 180-foot shot tower that stood on Paradise Pier from 2001 to 2010, themed to a boardwalk strength-test game.",
+      "description": [
+        "Maliboomer was three launch towers on the edge of Paradise Pier, themed as an oversized carnival high-striker. Riders sat in open seats around each tower, were fired to the top at speed, and bounced back down in decreasing arcs. A bell sounded at the top, completing the strength-test joke.",
+        "It was loud, visible from everywhere, and widely disliked — not for the ride itself, which was a fine shot tower, but for what it did to the skyline of a park already criticized for looking like a county fair. The wire cages over each seat, added for safety and dubbed screaming cages by everyone who rode it, did not improve the impression.",
+        "It closed in September 2010 and the towers came down as part of the wider effort to make Paradise Pier look less like an actual midway. The site was absorbed into the surrounding walkway and gardens; nothing was built to replace it."
+      ],
+      "experience": [
+        "Riders were harnessed into open seats facing outward, launched to the top of the tower in about two seconds, and then bounced through a series of diminishing rises before settling. The whole cycle took under a minute.",
+        "The view from the top was the highest vantage point the park has ever offered guests, well above the wheel, and briefly took in the whole of Anaheim."
+      ],
+      "tips": [
+        "There is no equivalent ride at this park today. Guardians of the Galaxy – Mission: BREAKOUT! is the closest in sensation, though it is a drop tower rather than a launch tower and is indoors.",
+        "The clearest place to see where the towers stood is the stretch of walkway between Golden Zephyr and the bay.",
+        "The 2010 closure was part of the same program that removed the Orange Stinger shell and rethemed Mulholland Madness; that period reshaped the pier more than any change since.",
+        "Repeat visitors from the park's first decade: the ride's absence is the single biggest change to the skyline from that era, more than the coaster retheme."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["guardians-of-the-galaxy-mission-breakout", "golden-zephyr", "jumpin-jellyfish"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "superstar-limo",
+      "name": "Superstar Limo",
+      "land": "hollywood-land",
+      "type": "dark-ride",
+      "opened": 2001,
+      "status": "closed",
+      "closedNote": "Closed permanently on January 11 2002, less than a year after the park opened. The building was rebuilt as Monsters, Inc. Mike & Sulley to the Rescue!, which itself closed in early 2026 for the Avatar project.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Nothing about this ride frightened anybody, which was arguably part of the problem — it had no tension, no jokes that landed, and no reason to exist."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical information only. The attraction closed in 2002."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The park's shortest-lived attraction: a celebrity limousine dark ride that lasted eleven months.",
+      "description": [
+        "Superstar Limo opened with the park on February 8 2001 and closed on January 11 2002. Guests rode a limousine through a caricatured Los Angeles on the way to a premiere, passing crude figures of celebrities of the moment. It was originally conceived with a paparazzi-chase framing, which was rewritten late in development, and what shipped was a ride with no jeopardy and no punchline.",
+        "It is a genuinely instructive failure and worth knowing about if you care how this park got built. California Adventure's opening lineup leaned on ideas that sounded fine in a pitch meeting and had no emotional content, and this ride was the purest example. Almost every change made to the park since 2007 has been a correction of that original approach.",
+        "The show building became Monsters, Inc. Mike & Sulley to the Rescue! in 2006. That ride has now closed too, in early 2026, and the site is being turned over to Disney's Avatar project."
+      ],
+      "experience": [
+        "Riders sat in a limousine vehicle and rolled past static and lightly animated figures representing celebrities, with a phone in the vehicle delivering narration. The tone was intended as satire and read as a corporate video.",
+        "The ride ended with guests being applauded as arriving stars, a beat that depended entirely on a sense of occasion the preceding five minutes had failed to create."
+      ],
+      "tips": [
+        "Nothing of this attraction is visible today. The show building it occupied is now behind construction walls for the Avatar project.",
+        "If you want to understand why this park's early reputation was so poor, this ride and the original Hollywood Pictures Backlot are the two places to start reading.",
+        "The celebrity figures were removed rather than stored; there is no version of this ride anywhere.",
+        "Repeat visitors from 2001: the ride's exit gift shop layout survived into the Monsters, Inc. era, which is the only physical trace that lasted past 2002."
+      ],
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
+      "faqs": [],
+      "relatedSlugs": ["monsters-inc-mike-and-sulley-to-the-rescue", "mickeys-philharmagic"],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
   ]
 }
