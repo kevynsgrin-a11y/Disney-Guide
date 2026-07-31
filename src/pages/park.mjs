@@ -937,6 +937,7 @@ export function mapPage (park, data) {
               <button class="btn btn--ghost btn--small" type="button" data-map-reset hidden>Reset</button>
               <button class="btn btn--ghost btn--small" type="button" onclick="window.print()">Print this map</button>
               <a class="btn btn--ghost btn--small" href="/maps/${park.slug}-map.svg" download>Download SVG</a>
+              <a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>
             </div>
             <p class="map-attribution">
               Original artwork by ${site.brand.name}, drawn from open geographic data including data

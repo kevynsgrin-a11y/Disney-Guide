@@ -176,7 +176,9 @@ export const STANDALONE_CSS = `
   .marker--headliner circle { fill: #b5722a; stroke: #3d2f1c; }
   .marker--dining circle { fill: #4f7350; stroke: #3d2f1c; }
   .marker--entrance circle { fill: #7c2d16; stroke: #3d2f1c; }
-  .marker-hit { fill: none; stroke: none; }
+  /* A .marker circle rule outranks .marker-hit on specificity, so fill:none alone would lose and
+     the 22-unit hit target would paint over its own caption. opacity is not overridden by it. */
+  .marker circle.marker-hit { fill: none; stroke: none; opacity: 0; }
   .ground { fill: #e9dcc0; stroke: #a08a63; stroke-width: 1.6; }
   .land-shape { stroke: #f2e6cd; stroke-width: 2.6; opacity: 0.9; }
   .water { fill: #9dbdc9; opacity: 0.72; }

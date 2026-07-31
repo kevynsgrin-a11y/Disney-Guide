@@ -16,7 +16,11 @@
     "dev": "npm run build && npm run serve",
     "audit:site": "node scripts/audit.mjs",
     "check": "npm run test && npm run build && npm run audit:site",
-    "factcheck": "node scripts/factcheck.mjs"
+    "factcheck": "node scripts/factcheck.mjs",
+    "maps:png": "node scripts/render-map-pngs.mjs"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "playwright-core": "^1.62.1"
+  }
 }

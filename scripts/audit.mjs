@@ -137,6 +137,25 @@ for (const required of ['/sitemap.xml', '/robots.txt', '/llms.txt', '/manifest.w
   if (!served.has(required)) fail('build', `missing required output ${required}`)
 }
 
+/* -- map PNG freshness --
+   The PNG plates are rasterised by a separate script rather than by the build, which keeps the site
+   dependency-free but means they can silently fall behind the geometry or styling they came from. */
+{
+  const styleSrc = join(ROOT, 'src', 'lib', 'map-style.mjs')
+  const styleTime = existsSync(styleSrc) ? (await stat(styleSrc)).mtimeMs : 0
+  for (const svg of files.filter((f) => f.includes('/maps/') && f.endsWith('.svg'))) {
+    const slug = svg.split('/').pop().replace('-map.svg', '')
+    const png = join(ROOT, 'assets', 'img', 'maps', `${slug}-map.png`)
+    const geometry = join(ROOT, 'data', 'parks', slug, 'map.json')
+    if (!existsSync(png)) { note('maps', `${slug} has no PNG plate — run \`npm run maps:png\``); continue }
+    const pngTime = (await stat(png)).mtimeMs
+    const geoTime = existsSync(geometry) ? (await stat(geometry)).mtimeMs : 0
+    if (pngTime < Math.max(geoTime, styleTime)) {
+      note('maps', `${slug} PNG is older than its geometry or the map styling — run \`npm run maps:png\``)
+    }
+  }
+}
+
 /* -- sitemap sanity -- */
 if (served.has('/sitemap.xml')) {
   const sitemap = await readFile(join(DIST, 'sitemap.xml'), 'utf8')

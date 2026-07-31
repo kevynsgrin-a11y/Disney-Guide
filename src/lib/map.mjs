@@ -171,7 +171,7 @@ function wrapLabel (text, max = 16) {
   return lines
 }
 
-function renderMarker (marker, park) {
+function renderMarker (marker, park, standalone = false) {
   const [x, y] = marker.at
   const kind = marker.kind || 'attraction'
   const radius = kind === 'entrance' ? 9 : kind === 'headliner' ? 8 : 6
@@ -186,7 +186,7 @@ function renderMarker (marker, park) {
     <g class="${classes}">
       <circle cx="${round(x)}" cy="${round(y)}" r="${radius}"/>
       ${lines.map((line, i) => html`<text x="${round(x)}" y="${round(y + radius + 12 + i * 11)}">${line}</text>`)}
-      <circle class="marker-hit" cx="${round(x)}" cy="${round(y)}" r="22"/>
+      ${standalone ? '' : html`<circle class="marker-hit" cx="${round(x)}" cy="${round(y)}" r="22"/>`}
     </g>
   `
 
@@ -270,7 +270,7 @@ export function renderParkMap (park, { standalone = false } = {}) {
       </g>
 
       <g class="markers">
-        ${(map.markers || []).map((m) => renderMarker(m, park))}
+        ${(map.markers || []).map((m) => renderMarker(m, park, standalone))}
       </g>
     </svg>
   `

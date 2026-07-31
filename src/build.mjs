@@ -11,7 +11,7 @@ import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 
-import { loadData, urls, foodTrackerOrder, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
+import { loadData, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import { renderParkMap } from './lib/map.mjs'
 import * as core from './pages/core.mjs'
@@ -267,37 +267,84 @@ function buildLlmsTxt (site, data) {
   return lines.join('\n')
 }
 
-/* Cloudflare Pages headers: long-cache immutable assets, short-cache HTML. */
+/* ------------------------------------------------------------------ *
+ * Host configuration
+ *
+ * The same rules are emitted in two dialects because the two hosts we support read different
+ * files, and neither reads the other's. Defining them once here is what keeps a header set on
+ * Cloudflare from silently disagreeing with the one on Vercel.
+ * ------------------------------------------------------------------ */
+
+const CACHE_RULES = [
+  { path: '/assets/*', vercel: '/assets/(.*)', value: 'public, max-age=31536000, immutable' },
+  { path: '/sw.js', vercel: '/sw.js', value: 'public, max-age=0, must-revalidate' },
+  { path: '/search-index.json', vercel: '/search-index.json', value: 'public, max-age=3600' },
+  { path: '/maps/*', vercel: '/maps/(.*)', value: 'public, max-age=86400' },
+]
+
+const SECURITY_HEADERS = {
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'strict-origin-when-cross-origin',
+  'X-Frame-Options': 'SAMEORIGIN',
+  'Permissions-Policy': 'geolocation=(), microphone=(), camera=(), interest-cohort=()',
+}
+
+/** Legacy and convenience paths, as [from, to] with a trailing wildcard where the segment splits. */
+const REDIRECTS = [
+  ['/magic-kingdom', '/walt-disney-world/magic-kingdom'],
+  ['/epcot', '/walt-disney-world/epcot'],
+  ['/hollywood-studios', '/walt-disney-world/hollywood-studios'],
+  ['/animal-kingdom', '/walt-disney-world/animal-kingdom'],
+  ['/disneyland-park', '/disneyland/disneyland-park'],
+  ['/california-adventure', '/disneyland/california-adventure'],
+]
+
+const EXACT_REDIRECTS = [
+  ['/food-tracker/', '/tools/food-tracker/'],
+  ['/height-checker/', '/tools/height-checker/'],
+  ['/heights/', '/guides/height-requirements/'],
+]
+
+/* Cloudflare Pages: _headers and _redirects, plain text. */
 function buildHeaders () {
-  return `/assets/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/sw.js
-  Cache-Control: public, max-age=0, must-revalidate
-
-/search-index.json
-  Cache-Control: public, max-age=3600
-
-/*
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  X-Frame-Options: SAMEORIGIN
-  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
-`
+  const cache = CACHE_RULES.map((r) => `${r.path}\n  Cache-Control: ${r.value}\n`).join('\n')
+  const security = Object.entries(SECURITY_HEADERS).map(([k, v]) => `  ${k}: ${v}`).join('\n')
+  return `${cache}\n/*\n${security}\n`
 }
 
 function buildRedirects () {
-  return `# Legacy / convenience paths
-/magic-kingdom/*            /walt-disney-world/magic-kingdom/:splat  301
-/epcot/*                    /walt-disney-world/epcot/:splat          301
-/hollywood-studios/*        /walt-disney-world/hollywood-studios/:splat 301
-/animal-kingdom/*           /walt-disney-world/animal-kingdom/:splat 301
-/disneyland-park/*          /disneyland/disneyland-park/:splat       301
-/california-adventure/*     /disneyland/california-adventure/:splat  301
-/food-tracker/              /tools/food-tracker/                     301
-/height-checker/            /tools/height-checker/                   301
-/heights/                   /guides/height-requirements/             301
-`
+  const wildcards = REDIRECTS.map(([from, to]) => `${from}/*  ${to}/:splat  301`).join('\n')
+  const exact = EXACT_REDIRECTS.map(([from, to]) => `${from}  ${to}  301`).join('\n')
+  return `# Legacy / convenience paths\n${wildcards}\n${exact}\n`
+}
+
+/**
+ * Vercel: vercel.json at the repository root, since Vercel does not read Cloudflare's _headers or
+ * _redirects. Written to the repo rather than to dist/ because a git-imported build reads it before
+ * the build runs.
+ */
+function buildVercelConfig () {
+  return JSON.stringify({
+    $schema: 'https://openapi.vercel.sh/vercel.json',
+    buildCommand: 'npm run build',
+    outputDirectory: 'dist',
+    cleanUrls: true,
+    trailingSlash: true,
+    headers: [
+      ...CACHE_RULES.map((r) => ({
+        source: r.vercel,
+        headers: [{ key: 'Cache-Control', value: r.value }],
+      })),
+      {
+        source: '/(.*)',
+        headers: Object.entries(SECURITY_HEADERS).map(([key, value]) => ({ key, value })),
+      },
+    ],
+    redirects: [
+      ...REDIRECTS.map(([from, to]) => ({ source: `${from}/:path*`, destination: `${to}/:path*`, permanent: true })),
+      ...EXACT_REDIRECTS.map(([from, to]) => ({ source: from.replace(/\/$/, ''), destination: to, permanent: true })),
+    ],
+  }, null, 2) + '\n'
 }
 
 /* ------------------------------------------------------------------ *
@@ -389,6 +436,7 @@ async function main () {
   await writeFile(join(DIST_DIR, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
   await writeFile(join(DIST_DIR, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(DIST_DIR, '_redirects'), buildRedirects(), 'utf8')
+  await writeFile(join(ROOT, 'vercel.json'), buildVercelConfig(), 'utf8')
 
   // Standalone, downloadable map plates. A downloaded file has no stylesheet, so the renderer
   // inlines one; everything else is already self-contained by design.
