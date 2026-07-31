@@ -367,8 +367,13 @@ Wrong park assignment is the single most common error in this content area — O
 | Lightning Lane Multi Pass, WDW, per day | 15 – 45 | July 2026 |
 | Lightning Lane Single Pass, WDW, per ride | 12 – 27 | July 2026 |
 | Lightning Lane Multi Pass, DLR, per day | 30 – 45 | July 2026 |
-| Standard parking, WDW theme park | 30 | July 2026 |
-| Standard parking, DLR | 35 – 40 | July 2026 |
+| Theme park self-parking, WDW | 30 – 50 | July 2026 |
+| Theme park self-parking, DLR | 35 – 40 | July 2026 |
+
+The WDW parking row was originally written here as a flat `30`, which rule 2 below forbids anyone
+from publishing. Standard parking does sit flat at the floor; preferred parking is what carries the
+figure to the ceiling, so the honest form is the band with a note saying where standard falls. A
+reference table that mandates something the rules prohibit is a bug in the table.
 
 ### 7.4 Hard rules the fact checker enforces
 
