@@ -22,7 +22,7 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { loadData } from '../src/lib/data.mjs'
-import { loadSite1Urls } from '../src/lib/seasonal-data.mjs'
+import { loadSite1Urls, urls } from '../src/lib/seasonal-data.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = join(ROOT, 'data', 'seasonal')
@@ -44,7 +44,18 @@ const EDITION_STATUS = new Set(['announced', 'expected', 'past', 'cancelled'])
 const LEVEL = new Set(['low', 'moderate', 'high', 'peak'])
 const GRADE = new Set(['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'])
 const PRICE_MODEL = new Set(['per-night', 'per-day', 'add-on', 'included'])
-const CLOSURE_STATUS = new Set(['closed', 'refurbishment', 'seasonal', 'reopening'])
+/**
+ * Closure statuses, aligned with Site 1's attraction vocabulary where the two overlap.
+ *
+ * A bare "closed" is deliberately not a value. The distinction a reader actually needs is whether
+ * the thing is coming back, and collapsing "down for six weeks" and "gone forever" into one word is
+ * how a tracker becomes useless at exactly the moment someone consults it.
+ *
+ * "indefinite" exists for the honest middle case: down, no announced return, and no basis for
+ * calling it permanent. Without it an author has to pick between asserting work is underway and
+ * asserting the thing is gone, and both would be claims we cannot support.
+ */
+const CLOSURE_STATUS = new Set(['refurbishment', 'indefinite', 'permanently-closed', 'under-construction', 'seasonal', 'reopening'])
 
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December']
@@ -542,10 +553,49 @@ async function validateCalendar (eventSlugs) {
   }
 }
 
-async function validateSite () {
+/**
+ * Every nav href must resolve to a page this site actually builds.
+ *
+ * The nav is written before the content exists, so its slugs start life as guesses. One that never
+ * gets reconciled produces a 404 in the footer of all 67 pages — the single most visible kind of
+ * breakage, and the kind nobody notices because nobody clicks their own footer.
+ */
+function validateNav (site, where, built) {
+  const links = [
+    ...(site.nav.primary || []),
+    ...(site.nav.footer || []).flatMap((column) => column.links || []),
+  ]
+  for (const link of links) {
+    if (!link || typeof link.href !== 'string') { err(`${where} → nav`, 'nav entry with no href'); continue }
+    if (!link.href.startsWith('/')) continue
+    if (!built.has(link.href)) err(`${where} → nav`, `"${link.label}" links to ${link.href}, which this site does not build`)
+  }
+}
+
+/** The URL set Site 2 will publish, derived from the data rather than from the built output. */
+async function builtUrlSet (eventSlugs) {
+  const set = new Set([
+    urls.home(), urls.calendar(), urls.whenToGoIndex(), urls.eventsIndex(), urls.holidaysIndex(),
+    urls.pricesIndex(), urls.closuresIndex(), urls.toolsIndex(), urls.tripTiming(),
+    urls.about(), urls.editorial(), urls.affiliate(), urls.privacy(), urls.terms(), urls.contact(),
+  ])
+  for (const slug of eventSlugs) set.add(urls.event(slug))
+  for (const file of await listJson(join(DATA, 'months'))) {
+    const month = await readJson(join(DATA, 'months', file), `months/${file}`)
+    if (month && month.slug) set.add(urls.month(month.slug))
+  }
+  for (const [folder, build] of [['holidays', urls.holiday], ['prices', urls.price]]) {
+    for (const file of await listJson(join(DATA, folder))) set.add(build(file.replace(/\.json$/, '')))
+  }
+  for (const file of await listJson(join(DATA, 'closures'))) set.add(urls.closures(file.replace(/\.json$/, '')))
+  return set
+}
+
+async function validateSite (eventSlugs) {
   const where = 'site.json'
   const site = await readJson(join(DATA, 'site.json'), where)
   if (!site) return
+  if (site.nav) validateNav(site, where, await builtUrlSet(eventSlugs))
   for (const key of ['brand', 'meta', 'author', 'nav', 'legal', 'affiliates']) {
     if (!site[key]) err(where, `missing "${key}"`)
   }
@@ -577,8 +627,8 @@ async function main () {
 
   const { set: s1Urls, data: s1Data } = await site1UrlSet()
 
-  await validateSite()
   const eventSlugs = await validateEvents(s1Urls, s1Data)
+  await validateSite(eventSlugs)
   await validateMonths(s1Urls, eventSlugs)
   await validateHolidays(s1Urls, eventSlugs)
   await validatePrices(s1Urls)

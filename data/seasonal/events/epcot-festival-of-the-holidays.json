@@ -46,7 +46,7 @@
 
   "whatYouDont": [
     "The festival's last two weeks sit inside the worst crowd period at Walt Disney World. EPCOT during Christmas week reaches its yearly peak, the promenade does not walk at normal speed, and the festival adds people to a park that has no space for them.",
-    "The festival ends on 30 December, which catches out a surprising number of visitors. New Year's Eve at EPCOT has the decorations and the crowd and no festival at all — the kitchens are gone and the Candlelight Processional has finished.",
+    "The festival closes ahead of New Year's Eve rather than running to the end of the year, which catches out a surprising number of visitors. The last night of the year at EPCOT has the decorations and the crowd and no festival at all — the kitchens are gone and the Candlelight Processional has finished.",
     "The Candlelight Processional is included with admission in the same sense that a concert is included with a city: the show is free and the seat is not. The standby queue for the first performance forms more than an hour ahead and regularly fills before the theatre does.",
     "The narrator lineup is published late, changes, and has been altered after publication. Booking a trip around a specific narrator is the most common way people are disappointed by this festival.",
     "The Cookie Stroll costs around $30 in cookies to earn one free cookie. It is a route-planner sold as a reward, and calling it a deal is not honest.",
@@ -65,7 +65,7 @@
     ],
     "skipIf": [
       "Your dates fall in Christmas week. EPCOT in that window is the busiest park in Florida, the promenade is a standstill after 15:00, and every kitchen line is 25 minutes. The festival is not the problem; the week is.",
-      "You are counting on New Year's Eve. The festival ends on 30 December, so the last night of the year has the crowd and the decorations and none of the event.",
+      "You are counting on New Year's Eve. The festival closes before it, so the last night of the year has the crowd and the decorations and none of the event.",
       "You want to see the Candlelight Processional without either a dining package or a long standby queue. That combination does not exist on a December date, and any page implying otherwise has not queued for it.",
       "You booked around a particular narrator. The lineup is published late and has been changed after publication, and a trip built on one name is a trip built on a variable.",
       "You are traveling with children under about six. This is the least child-oriented of the four EPCOT festivals — no play gardens, no butterfly house, and a food menu built for adults.",
@@ -132,7 +132,7 @@
       },
       {
         "name": "Potato Latke with applesauce",
-        "where": "L'Chaim! Holiday Kitchen",
+        "where": "L'Chaim Holiday Kitchen",
         "priceUsd": 6,
         "verdict": "Near the bottom of the price band, hot, savory, and a welcome break from a promenade that is otherwise mostly sweet in December. This kitchen is one of the more thoughtfully executed on the loop and it consistently runs a shorter line than its neighbors."
       },
@@ -168,7 +168,7 @@
     },
     {
       "q": "Does the festival run over New Year's Eve?",
-      "a": "No. It has historically ended on 30 December, which means the last night of the year at EPCOT has the decorations, the crowd and no festival — the kitchens have closed and the Candlelight Processional has finished. Visitors booking a New Year trip around this festival are the most commonly disappointed group at any EPCOT event."
+      "a": "No. It has historically closed in the final days of December, ahead of New Year's Eve, which means the last night of the year at EPCOT has the decorations, the crowd and no festival — the kitchens have closed and the Candlelight Processional has finished. The typical window on this page gives the end point; visitors booking a New Year trip around this festival are the most commonly disappointed group at any EPCOT event."
     },
     {
       "q": "When in the festival should I go?",
@@ -229,7 +229,7 @@
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",
-    "sourceNote": "The festival has run in the same shape every year since 2017, with the Candlelight Processional running at EPCOT for decades before that: a mid-November start, an end on or around 30 December, and roughly 45 days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates, kitchen lineup and narrator schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and names no narrator and no date.",
+    "sourceNote": "The festival has run in the same shape every year since 2017, with the Candlelight Processional running at EPCOT for decades before that: a mid-November start, an end in the final days of December ahead of New Year's Eve, and roughly 45 days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates, kitchen lineup and narrator schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and names no narrator and no date.",
     "reviewBy": "2026-10",
     "cycle": "annual"
   }

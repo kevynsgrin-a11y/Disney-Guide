@@ -375,7 +375,27 @@ export function calendarGantt (bands, { title } = {}) {
  * Closures
  * ------------------------------------------------------------------ */
 
-const CLOSURE_TONE = { closed: 'closed', refurbishment: 'warn', seasonal: '', reopening: 'good' }
+/**
+ * Whether a closure is coming back is the only thing a reader is really asking, so the tone carries
+ * it: red for gone, amber for down-but-returning, green for a confirmed return.
+ */
+const CLOSURE_TONE = {
+  'permanently-closed': 'closed',
+  indefinite: 'closed',
+  'under-construction': 'warn',
+  refurbishment: 'warn',
+  seasonal: '',
+  reopening: 'good',
+}
+
+const CLOSURE_LABEL = {
+  'permanently-closed': 'Permanently closed',
+  indefinite: 'Closed indefinitely',
+  'under-construction': 'Under construction',
+  refurbishment: 'Refurbishment',
+  seasonal: 'Seasonal',
+  reopening: 'Reopening',
+}
 
 export function closureTable (items, { caption } = {}) {
   const arr = (items || []).filter(Boolean)
@@ -392,8 +412,8 @@ export function closureTable (items, { caption } = {}) {
     rows: arr.map((i) => [
       i.url ? html`<a href="${i.url}">${i.name}</a>` : i.name,
       i.parkName || f.titleize(i.parkSlug || ''),
-      pill(f.titleize(i.status || 'closed'), CLOSURE_TONE[i.status] || ''),
-      i.reopening || 'Not announced',
+      pill(CLOSURE_LABEL[i.status] || f.titleize(i.status || ''), CLOSURE_TONE[i.status] || ''),
+      i.reopening || (i.status === 'permanently-closed' ? 'Not coming back' : 'Not announced'),
       i.note ? inline(i.note) : '',
     ]),
   })

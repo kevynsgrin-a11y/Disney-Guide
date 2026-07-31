@@ -47,7 +47,12 @@ export function monthPage (month, data) {
       `,
     })}
 
-    ${C.section({ children: SC.stalenessBanner(state) })}
+    ${C.section({
+      children: html`
+        ${SC.stalenessBanner(state)}
+        ${SC.freshnessRibbon(month.freshness, state)}
+      `,
+    })}
 
     ${C.section({
       title: 'The verdict',

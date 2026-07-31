@@ -107,6 +107,8 @@ const FROM_TO_OPENER = /^from\s+[^,]{3,40}\s+to\s+[^,]{3,40},/i
 const NAME_EXCLAMATIONS = [
   'Mission: BREAKOUT!',
   'Pop Eats!',
+  "L'Chaim! Holiday Kitchen",
+  "L'Chaim!",
   'Fantasmic!',
   'Turtle Talk!',
   'Wonderful World of Animation!',

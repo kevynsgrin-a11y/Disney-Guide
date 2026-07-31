@@ -81,7 +81,9 @@ export function legalPages (data) {
   /* ---------------- About ---------------- */
   pages.push(docPage(data, {
     url: urls.about(),
-    title: `About ${site.brand.name}`,
+    // The brand arrives via the title suffix, so naming it here too would render "About Park Season
+    // Guide | Park Season Guide" in a result page.
+    title: 'About this site',
     h1: 'About this site',
     description: 'What Park Season Guide covers, why the seasonal and evergreen halves live on separate domains, and why every dated claim here carries a confidence level.',
     lede: 'The seasonal half of a two-site project: what is on, when to go, what it costs, and how much of that anyone has actually announced.',

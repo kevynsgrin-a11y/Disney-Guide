@@ -1,0 +1,127 @@
+{
+  "resort": "disneyland",
+  "slug": "disneyland",
+  "title": "Disneyland Resort Closures and Construction",
+  "titleTail": ": What Is Actually Gone, July 2026",
+  "h1": "Disneyland Resort closures and construction: what is gone and what is being built",
+  "description": "A short, checked list of what is closed or under construction at Disneyland Park and Disney California Adventure as of July 2026, with no invented dates.",
+  "summary": "Six attractions across the two Anaheim parks are closed or under construction as of July 2026, and the one that will actually change your day is the Disneyland Monorail, which our sister site carries as closed with no return date we can verify.",
+  "scope": "This tracker lists attractions that closed from 2023 onward plus anything currently under construction. Older permanent closures and rethemes — Tarzan's Treehouse, the original Tower of Terror — are carried on Ride Ready Guide's park pages with a closed status and are not repeated here.",
+  "items": [
+    {
+      "name": "Disneyland Monorail",
+      "parkSlug": "disneyland-park",
+      "attractionSlug": "disneyland-monorail",
+      "status": "indefinite",
+      "since": "2025",
+      "reopening": "not announced",
+      "reopeningConfidence": "unannounced",
+      "note": "Ride Ready Guide's dataset carries the monorail as closed. We have not seen a return date from Disney and we are not going to estimate one. The practical effect is on transport rather than on rides: plan the walk between Downtown Disney and Tomorrowland, and do not build a Disneyland Hotel day around a monorail hop."
+    },
+    {
+      "name": "Splash Mountain",
+      "parkSlug": "disneyland-park",
+      "attractionSlug": "splash-mountain",
+      "status": "permanently-closed",
+      "since": "2023",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Replaced by Tiana's Bayou Adventure in the same building, which our sister site carries as open. Listed here only because people still search for it and arrive expecting to find it on a map."
+    },
+    {
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue",
+      "parkSlug": "california-adventure",
+      "attractionSlug": "monsters-inc-mike-and-sulley-to-the-rescue",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Closed permanently as Hollywood Land is redeveloped for the Avengers Campus expansion. Disney California Adventure has lost a gentle indoor dark ride, which narrows an already short list of attractions suitable for a three-year-old at that park."
+    },
+    {
+      "name": "The Magic of Disney Animation",
+      "parkSlug": "california-adventure",
+      "attractionSlug": "the-magic-of-disney-animation",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "not verified",
+      "reopeningConfidence": "unannounced",
+      "note": "Our sister site carries this as under construction while Animation Academy, in the same building, remains open. Treat the Animation Building as partly available and check the day's entertainment schedule on arrival rather than planning an afternoon around it."
+    },
+    {
+      "name": "Avengers Infinity Defense",
+      "parkSlug": "california-adventure",
+      "attractionSlug": "avengers-infinity-defense",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "not verified",
+      "reopeningConfidence": "unannounced",
+      "note": "The larger of the two attractions announced for the Avengers Campus expansion. Disney has discussed this project publicly; we have not verified an opening date against the operator's own materials and will not print one until we can. Do not book dates on the assumption it will be open."
+    },
+    {
+      "name": "Stark Flight Lab",
+      "parkSlug": "california-adventure",
+      "attractionSlug": "stark-flight-lab",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "not verified",
+      "reopeningConfidence": "unannounced",
+      "note": "The second announced attraction of the Avengers Campus expansion, expected to open with or near the first. As above, no verified opening date exists on this page because we have not confirmed one."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What this changes about planning an Anaheim trip",
+      "body": [
+        "The monorail is the closure that costs you time rather than an attraction. It functions as transport between the Downtown Disney end of the resort and Tomorrowland, and without it a Disneyland Hotel guest walks. Budget an extra 15 to 20 minutes each way and stop treating a mid-day hotel break as a five-minute proposition.",
+        "Disney California Adventure is the park under real construction, and Hollywood Land is where it is happening. Walls, reduced walkways and a closed dark ride are the current state. The park's headline attractions in Cars Land, Pixar Pier and the existing Avengers Campus are unaffected.",
+        "For families with children under five, the Monsters, Inc. closure matters more than the construction does. Disney California Adventure's list of gentle indoor rides was short before it closed, and the practical consequence is that a toddler day at the Disneyland Resort now leans harder on Disneyland Park than it used to."
+      ]
+    },
+    {
+      "heading": "Why this list is short",
+      "body": [
+        "Every item here is cross-checked against Ride Ready Guide's attraction dataset, which carries the status field this page reports. Nothing appears on this tracker that our sister site does not carry as closed or under construction, and we would rather publish six items we can support than twenty we cannot.",
+        "Attractions that closed before 2023 are excluded by the same rule we apply in Florida. Tarzan's Treehouse became the Adventureland Treehouse and the original Tower of Terror became Guardians of the Galaxy — Mission: BREAKOUT, and both successors are carried as open on our sister site. Those are answered questions rather than planning risks.",
+        "Routine refurbishments are not tracked. Anaheim's major attractions go down for maintenance for two to six weeks at a time, usually in January and February, and those closures are announced weeks rather than months ahead. Check the operator's own refurbishment calendar in the month before you travel."
+      ]
+    },
+    {
+      "heading": "What we will not print",
+      "body": [
+        "No reopening date appears on this page, for any item, because we could not verify one for any item. Three entries are marked as unverified and one as not announced, and that is the honest state of the Anaheim tracker in July 2026.",
+        "The Avengers Campus expansion has been discussed publicly by Disney and it would be easy to publish a year for it. We have not confirmed a date against the operator's own materials, so this page does not carry one. If you are choosing between travel years on the strength of that expansion, treat it as unscheduled.",
+        "Construction walls and sightlines change monthly and are not tracked here. If the concern is photographs rather than attractions, recent visitor reports closer to your dates will tell you more than any published tracker can."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Disneyland Park ride list",
+      "href": "/disneyland/disneyland-park/rides/",
+      "site": 1
+    },
+    {
+      "label": "Disney California Adventure ride list",
+      "href": "/disneyland/california-adventure/rides/",
+      "site": 1
+    },
+    {
+      "label": "Tiana's Bayou Adventure at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/tianas-bayou-adventure/",
+      "site": 1
+    },
+    {
+      "label": "Guardians of the Galaxy — Mission: BREAKOUT at Disney California Adventure",
+      "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Every item on this tracker is cross-checked against Ride Ready Guide's attraction dataset, which carries the status field reported here, and nothing appears that our sister site does not carry as closed or under construction. No reopening date is published for any Anaheim item because we could not verify one for any of them, including the Avengers Campus expansion, which Disney has discussed publicly. Routine short-term refurbishments are not tracked.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

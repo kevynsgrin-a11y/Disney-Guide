@@ -285,8 +285,20 @@ Every figure is a **range** with an `asOf`. Shape: `rows[]` of
 ### `closures/<resort>.json`
 `{ resort, items[] }` where each item is
 `{ name, parkSlug, attractionSlug, status, since, reopening, reopeningConfidence, note }`.
-`attractionSlug` must resolve in Site 1's dataset for that park — the tracker is worthless if it
-lists rides that do not exist. `reopening` is prose ("late 2026"), never a fixed date, unless
+
+`status` is one of `refurbishment`, `indefinite`, `permanently-closed`, `under-construction`,
+`seasonal`, `reopening` — aligned with Site 1's attraction vocabulary where the two overlap. A bare
+`closed` is deliberately not a value: the distinction a reader needs is whether the thing is coming
+back, and collapsing "down for six weeks" and "gone forever" into one word makes the tracker useless
+at exactly the moment somebody consults it.
+
+`indefinite` covers the honest middle case — down, no announced return, no basis for calling it
+permanent. Without it an author must choose between asserting work is underway and asserting the
+thing is gone, and neither is a claim we can support.
+
+`attractionSlug` must resolve in Site 1's dataset for that park — a tracker listing rides that do not
+exist is worse than no tracker, because it is the page a reader checks precisely when they cannot
+verify it themselves. `reopening` is prose ("late 2026"), never a fixed date, unless
 `reopeningConfidence === "confirmed"`.
 
 ### `calendar.json`

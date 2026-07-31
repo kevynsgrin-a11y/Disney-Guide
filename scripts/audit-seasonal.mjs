@@ -163,7 +163,9 @@ for (const file of htmlFiles) {
       continue
     }
     if (!href.startsWith('/') || href.startsWith('//')) continue
-    const [path] = href.split('#')
+    // Asset links carry a cache-busting query and in-page links carry a fragment; neither is part
+    // of the path that has to exist on disk.
+    const [path] = href.split('#')[0].split('?')
     if (!path) continue
     const clean = path.includes('.') ? path : path.endsWith('/') ? path : `${path}/`
     if (!served.has(clean)) fail(url, `broken internal link: ${href}`)
@@ -183,7 +185,10 @@ for (const required of ['/sitemap.xml', '/robots.txt', '/llms.txt', '/manifest.w
 }
 
 const sitemap = await readFile(join(DIST, 'sitemap.xml'), 'utf8')
-const sitemapUrls = [...sitemap.matchAll(/<loc>[^<]*?(\/[^<]*)<\/loc>/g)].map((m) => m[1])
+// Strip the origin by parsing rather than by regex: a non-greedy match for the first "/" lands on
+// the one in "https://", which silently turns every entry into a phantom failure.
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)]
+  .map((m) => { try { return new URL(m[1]).pathname } catch { return m[1] } })
 for (const url of sitemapUrls) {
   if (!served.has(url)) fail('sitemap.xml', `lists ${url}, which is not built`)
 }
