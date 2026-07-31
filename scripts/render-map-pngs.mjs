@@ -20,7 +20,8 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const SRC = join(ROOT, 'dist', 'maps')
+const OPERATOR = process.argv[2] || 'disney'
+const SRC = join(ROOT, 'dist', OPERATOR, 'maps')
 const OUT = join(ROOT, 'assets', 'img', 'maps')
 
 /* Two widths: one for sharing and one that still holds up printed at A4. */
@@ -37,7 +38,7 @@ async function findChromium () {
 
 async function main () {
   if (!existsSync(SRC)) {
-    console.error('\n  dist/maps/ does not exist. Run `npm run build` first.\n')
+    console.error(`\n  dist/${OPERATOR}/maps/ does not exist. Run \`npm run build\` first.\n`)
     process.exit(1)
   }
 

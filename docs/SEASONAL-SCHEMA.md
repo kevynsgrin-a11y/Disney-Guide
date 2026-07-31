@@ -1,6 +1,6 @@
 # Data Schema — the dated dataset
 
-Everything under `data/seasonal/` is authored against this contract. It covers the topics the
+Everything under an operator's `data/<operator>/seasonal/` tree is authored against this contract. It covers the topics the
 evergreen dataset refuses to carry, for one reason: those topics have a shelf life, and a page that
 goes stale silently is worse than no page at all.
 
@@ -13,14 +13,14 @@ violation. Read it before authoring a single JSON file.
 
 ---
 
-## 1. Why this site exists, and what it is allowed to say
+## 1. Why this dataset exists, and what it is allowed to say
 
 The evergreen dataset answers *"how tall must my kid be to ride Space Mountain"* — a fact that will be true in
 2031. This one answers *"is Mickey's Not-So-Scary worth $199 this year"* — a fact with a half-life of
 about nine months.
 
-These were briefly two sites on two domains. They are one site now — a merge that put every
-cross-link back inside one origin, which is where the linking actually pays.
+These two datasets were briefly two sites on two domains. They share one origin per operator now —
+a merge that put every cross-link back inside a single domain, which is where the linking pays.
 
 ### The honesty problem, and the structural answer
 
@@ -54,7 +54,7 @@ current pricing (Lightning Lane, tickets, parking, passes), refurbishment and cl
 crowd and weather timing, "when to go" verdicts.
 
 It does **not** own: height requirements, permanent ride facts, accessibility mechanics, permanent
-dining, park maps. Those live in `data/`, and a dated page links to them. **One canonical owner
+dining, park maps. Those live in the operator's evergreen tree, and a dated page links to them. **One canonical owner
 per topic, contextual links, never duplicated blocks** — in both directions.
 
 Every dated page that touches a permanent fact must link to the evergreen page that owns it, via
@@ -68,7 +68,7 @@ The dated pages reuse `src/lib/` and `src/templates/` **verbatim**. Only the loa
 modules, and the checks are separate.
 
 ```
-data/seasonal/
+data/<operator>/seasonal/
   events/<slug>.json           one per recurring event  (the pattern page + its editions)
   months/<month>.json          one per month, 01–12     (when-to-go)
   holidays/<slug>.json         cross-resort holiday hubs
@@ -85,8 +85,8 @@ scripts/
   audit.mjs                    post-build QA, including the freshness checks
 ```
 
-Everything renders into the one `dist/` from `src/build.mjs`. The recurring maintenance routine is
-in `docs/SEASONAL-MAINTENANCE.md`.
+Everything renders into `dist/<operator>/` from `src/build.mjs`. The recurring maintenance routine
+is in `docs/SEASONAL-MAINTENANCE.md`; onboarding a new operator is in `docs/NEW-OPERATOR.md`.
 
 ---
 
@@ -190,7 +190,7 @@ The **pattern page** is canonical. Editions are subordinate and optional.
   "crossLinks": [                             // ≥ 1 REQUIRED. Root-relative evergreen URLs.
     { "label": "Magic Kingdom ride list", "href": "/walt-disney-world/magic-kingdom/rides/", "site": 1 }
   ],
-  "related": ["mickeys-very-merry-christmas-party"],   // slugs within data/seasonal/events/
+  "related": ["mickeys-very-merry-christmas-party"],   // slugs within this operator's events/
 
   "editions": [                               // optional, newest first
     {
@@ -213,7 +213,7 @@ The **pattern page** is canonical. Editions are subordinate and optional.
 
 **Validator rules**
 
-- `parkSlug`, when non-null, must resolve against `data/parks/`. This is the load-bearing
+- `parkSlug`, when non-null, must resolve against the operator's `parks/`. This is the load-bearing
   cross-site integrity check.
 - Every `crossLinks[].href` must resolve to a real evergreen URL. The validator builds that URL set
   from the shared `urls` builders and checks membership — a broken cross-link is a build failure,

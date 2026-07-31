@@ -17,10 +17,8 @@ import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 
-import { ROOT, loadData, urls } from './data.mjs'
+import { loadData, operatorDir, urls } from './data.mjs'
 import { staleness } from './staleness.mjs'
-
-export const SEASONAL_DATA_DIR = join(ROOT, 'data', 'seasonal')
 
 export const MONTHS = [
   { month: 1, name: 'January', slug: 'january' },
@@ -64,8 +62,8 @@ export { urls }
  * only prove that this file agrees with itself, which is exactly the check that lets a broken
  * cross-link through.
  */
-export async function evergreenUrlSet (site1Data) {
-  const data = site1Data || await loadData()
+export async function evergreenUrlSet (evergreenData) {
+  const data = evergreenData
   const paths = new Set()
   const add = (path) => { if (path) paths.add(path) }
 
@@ -119,19 +117,26 @@ export async function evergreenUrlSet (site1Data) {
  * Loader
  * ------------------------------------------------------------------ */
 
-export async function loadSeasonal () {
-  const events = (await readJsonDir(join(SEASONAL_DATA_DIR, 'events'))).filter((e) => e && e.slug)
-  const months = (await readJsonDir(join(SEASONAL_DATA_DIR, 'months'))).filter((m) => m && m.month)
-  const holidays = (await readJsonDir(join(SEASONAL_DATA_DIR, 'holidays'))).filter((h) => h && h.slug)
-  const prices = (await readJsonDir(join(SEASONAL_DATA_DIR, 'prices'))).filter((p) => p && p.slug)
-  const closures = (await readJsonDir(join(SEASONAL_DATA_DIR, 'closures'))).filter((c) => c && c.resort)
+export async function seasonalDir (operatorSlug) {
+  return join(await operatorDir(operatorSlug), 'seasonal')
+}
 
-  const calendarPath = join(SEASONAL_DATA_DIR, 'calendar.json')
+export async function loadSeasonal (operatorSlug = 'disney', evergreenData) {
+  const dir = await seasonalDir(operatorSlug)
+
+  const events = (await readJsonDir(join(dir, 'events'))).filter((e) => e && e.slug)
+  const months = (await readJsonDir(join(dir, 'months'))).filter((m) => m && m.month)
+  const holidays = (await readJsonDir(join(dir, 'holidays'))).filter((h) => h && h.slug)
+  const prices = (await readJsonDir(join(dir, 'prices'))).filter((p) => p && p.slug)
+  const closures = (await readJsonDir(join(dir, 'closures'))).filter((c) => c && c.resort)
+
+  const calendarPath = join(dir, 'calendar.json')
   const calendar = existsSync(calendarPath) ? await readJson(calendarPath) : { bands: [] }
 
   // The evergreen dataset is loaded unconditionally: park slugs, attraction slugs, and cross-link
-  // targets all resolve against it, and a check that can be skipped is a check that will be.
-  const site1Data = await loadData()
+  // targets all resolve against it, and a check that can be skipped is a check that will be. The
+  // caller may pass one in to avoid reading the same operator's data twice in one build.
+  const site1Data = evergreenData || await loadData(operatorSlug)
   const site1Urls = await evergreenUrlSet(site1Data)
 
   return index({ site: site1Data.site, events, months, holidays, prices, closures, calendar, site1Data, site1Urls })

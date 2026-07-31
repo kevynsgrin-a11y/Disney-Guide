@@ -14,10 +14,37 @@
 import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const DATA = join(ROOT, 'data', 'seasonal')
+
+/**
+ * Reference tables live in scripts/reference/<operator>-seasonal.mjs, loaded per run — still
+ * hard-coded, just no longer hard-coded here, so a new operator writes its own rather than editing
+ * everyone else's.
+ */
+let DATA = join(ROOT, 'data')
+let EVENTS = {}
+let WINDOWS = {}
+let PRICE_BANDS = {}
+let FOOD_BANDS = {}
+let NAME_EXCLAMATIONS = []
+
+async function loadReference (operatorSlug) {
+  const { seasonalDir } = await import('../src/lib/seasonal-data.mjs')
+  DATA = await seasonalDir(operatorSlug)
+
+  const path = join(ROOT, 'scripts', 'reference', `${operatorSlug}-seasonal.mjs`)
+  if (!existsSync(path)) {
+    throw new Error(`No seasonal reference tables at scripts/reference/${operatorSlug}-seasonal.mjs. Every operator needs its own — a dataset checked against nothing is not checked.`)
+  }
+  const ref = await import(pathToFileURL(path).href)
+  EVENTS = ref.EVENTS || {}
+  WINDOWS = ref.WINDOWS || {}
+  PRICE_BANDS = ref.PRICE_BANDS || {}
+  FOOD_BANDS = ref.FOOD_BANDS || {}
+  NAME_EXCLAMATIONS = ref.NAME_EXCLAMATIONS || []
+}
 
 const problems = []
 const fail = (where, message) => problems.push(`${where}: ${message}`)
@@ -28,65 +55,6 @@ const fail = (where, message) => problems.push(`${where}: ${message}`)
  */
 const norm = (s) => String(s).toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9&: ]+/g, ' ').replace(/\s+/g, ' ').trim()
 
-/* ------------------------------------------------------------------ *
- * §7.1  Event → resort → park → category
- *
- * Wrong park assignment is the single most common error in this content area. Oogie Boogie Bash is
- * at Disney California Adventure, not Disneyland Park; Jollywood Nights is at Hollywood Studios, not
- * EPCOT. Both are hard failures.
- * ------------------------------------------------------------------ */
-
-const EVENTS = {
-  'mickeys-not-so-scary-halloween-party': { resort: 'walt-disney-world', park: 'magic-kingdom', category: 'hard-ticket' },
-  'mickeys-very-merry-christmas-party': { resort: 'walt-disney-world', park: 'magic-kingdom', category: 'hard-ticket' },
-  'disney-jollywood-nights': { resort: 'walt-disney-world', park: 'hollywood-studios', category: 'hard-ticket' },
-  'epcot-food-and-wine-festival': { resort: 'walt-disney-world', park: 'epcot', category: 'festival' },
-  'epcot-festival-of-the-arts': { resort: 'walt-disney-world', park: 'epcot', category: 'festival' },
-  'epcot-flower-and-garden-festival': { resort: 'walt-disney-world', park: 'epcot', category: 'festival' },
-  'epcot-festival-of-the-holidays': { resort: 'walt-disney-world', park: 'epcot', category: 'festival' },
-  'disney-after-hours': { resort: 'walt-disney-world', park: null, category: 'after-hours' },
-  'oogie-boogie-bash': { resort: 'disneyland', park: 'california-adventure', category: 'hard-ticket' },
-  'halloween-time-at-the-disneyland-resort': { resort: 'disneyland', park: null, category: 'overlay' },
-  'holidays-at-the-disneyland-resort': { resort: 'disneyland', park: null, category: 'overlay' },
-  'lunar-new-year-at-disney-california-adventure': { resort: 'disneyland', park: 'california-adventure', category: 'festival' },
-  'disney-california-adventure-food-and-wine-festival': { resort: 'disneyland', park: 'california-adventure', category: 'festival' },
-  'disneyland-after-dark': { resort: 'disneyland', park: null, category: 'after-hours' },
-}
-
-/*
- * §7.2  Typical windows.
- *
- * `starts`/`ends` are alternatives — the authored prose must contain at least one. More than one is
- * allowed because a window can be named honestly in more than one way: Very Merry ends "shortly
- * before Christmas", which is better copy than "late December" and describes the same fortnight.
- */
-const WINDOWS = {
-  'mickeys-not-so-scary-halloween-party': { starts: ['august'], ends: ['november', 'halloween'], nights: [30, 40] },
-  'mickeys-very-merry-christmas-party': { starts: ['november'], ends: ['december', 'christmas'], nights: [20, 26] },
-  'disney-jollywood-nights': { starts: ['november'], ends: ['december'], nights: [8, 14] },
-  'epcot-food-and-wine-festival': { starts: ['ugust', 'july'], ends: ['november'] },
-  'epcot-festival-of-the-arts': { starts: ['january'], ends: ['february'] },
-  'epcot-flower-and-garden-festival': { starts: ['arch', 'ebruary'], ends: ['july'] },
-  'epcot-festival-of-the-holidays': { starts: ['november'], ends: ['december'] },
-  'oogie-boogie-bash': { starts: ['august'], ends: ['october', 'halloween'], nights: [25, 30] },
-  'halloween-time-at-the-disneyland-resort': { starts: ['august'], ends: ['october', 'halloween'] },
-  'holidays-at-the-disneyland-resort': { starts: ['november'], ends: ['january'] },
-  'lunar-new-year-at-disney-california-adventure': { starts: ['january'], ends: ['february'] },
-  'disney-california-adventure-food-and-wine-festival': { starts: ['ebruary', 'arch'], ends: ['april'] },
-}
-
-/* §7.3  Price bands. The authored range must sit inside the verified band, not merely overlap it. */
-const PRICE_BANDS = {
-  'mickeys-not-so-scary-halloween-party': [119, 219],
-  'mickeys-very-merry-christmas-party': [169, 219],
-  'disney-jollywood-nights': [159, 209],
-  'oogie-boogie-bash': [154, 224],
-  'disney-after-hours': [139, 209],
-}
-
-/** Per-item festival food prices, by resort. */
-const FOOD_BANDS = { 'walt-disney-world': [5, 13], disneyland: [6, 15] }
-
 /* §7.4 rule 5 — the evergreen needle list plus the offenders specific to dated copy. */
 const FILLER = [
   'magical', 'immersive', 'unforgettable', 'beloved', 'nestled', 'delve', 'a testament to', 'whimsical',
@@ -96,24 +64,6 @@ const FILLER_OPENERS = ['whether you', 'in the world of', 'from the moment you',
 
 /** §7.4 rule 6 — the "From X to Y," construction that opens half the travel copy on the internet. */
 const FROM_TO_OPENER = /^from\s+[^,]{3,40}\s+to\s+[^,]{3,40},/i
-
-/**
- * Attraction and booth names that genuinely end in an exclamation mark.
- *
- * House style bans exclamation marks in prose, but several of these things are actually called
- * this. Scrubbing the real names before the sweep is the only way to keep the rule strict without
- * forcing an author to misname a ride.
- */
-const NAME_EXCLAMATIONS = [
-  'Mission: BREAKOUT!',
-  'Pop Eats!',
-  "L'Chaim! Holiday Kitchen",
-  "L'Chaim!",
-  'Fantasmic!',
-  'Turtle Talk!',
-  'Wonderful World of Animation!',
-  'The Bar at Pop Eats!',
-]
 
 /* ------------------------------------------------------------------ *
  * Prose sweep
@@ -277,15 +227,17 @@ async function checkScope () {
  * ------------------------------------------------------------------ */
 
 async function main () {
-  if (!existsSync(DATA)) {
-    console.error('\n  data/seasonal/ does not exist. Nothing to check.\n')
-    process.exitCode = 1
-    return
-  }
+  const { operators } = await import('../src/lib/data.mjs')
+  const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
+  const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
 
-  await checkEvents()
-  await checkOthers()
-  await checkScope()
+  for (const operatorSlug of targets) {
+    await loadReference(operatorSlug)
+    if (!existsSync(DATA)) continue
+    await checkEvents()
+    await checkOthers()
+    await checkScope()
+  }
 
   if (problems.length) {
     console.error(`\n  ${problems.length} fact${problems.length === 1 ? '' : 's'} disagree with the July 2026 seasonal reference tables:\n`)
@@ -295,7 +247,7 @@ async function main () {
     return
   }
 
-  console.log('\n  Seasonal facts check out against the July 2026 reference tables.\n')
+  console.log(`\n  Seasonal facts check out against the July 2026 reference tables for ${targets.length} operator${targets.length === 1 ? '' : 's'}.\n`)
 }
 
 main().catch((e) => { console.error('\nFact checker crashed:\n', e); process.exitCode = 1 })

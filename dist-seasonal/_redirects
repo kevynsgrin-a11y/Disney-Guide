@@ -1,0 +1,20 @@
+# Convenience paths
+/best-time-to-visit/  /when-to-go/  301
+/crowd-calendar/  /when-to-go/  301
+/trip-timing/  /tools/trip-timing/  301
+/refurbishments/  /closures/  301
+/lightning-lane-price/  /prices/lightning-lane/  301
+
+# Bare month paths
+/january/  /when-to-go/january/  301
+/february/  /when-to-go/february/  301
+/march/  /when-to-go/march/  301
+/april/  /when-to-go/april/  301
+/may/  /when-to-go/may/  301
+/june/  /when-to-go/june/  301
+/july/  /when-to-go/july/  301
+/august/  /when-to-go/august/  301
+/september/  /when-to-go/september/  301
+/october/  /when-to-go/october/  301
+/november/  /when-to-go/november/  301
+/december/  /when-to-go/december/  301

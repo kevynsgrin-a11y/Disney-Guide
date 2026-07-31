@@ -1,0 +1,571 @@
+{
+  "slug": "magic-kingdom",
+  "name": "Magic Kingdom",
+  "shortName": "Magic Kingdom",
+  "resort": "walt-disney-world",
+  "resortName": "Walt Disney World",
+  "opened": "1971-10-01",
+  "sizeAcres": 107,
+  "location": "Bay Lake, Florida",
+  "coordinates": {
+    "lat": 28.4177,
+    "lng": -81.5812
+  },
+  "tagline": "The most-visited theme park on earth, and still the one built for kids first.",
+  "summary": "Walt Disney World's original park: six lands radiating from Cinderella Castle, with more rides per acre than any other Disney park in Florida and the shortest height requirements on property.",
+  "intro": [
+    "Magic Kingdom opened on October 1 1971 and remains the most-visited theme park in the world. It is the smallest of Walt Disney World's four parks at roughly 107 acres, and it holds more attractions than any of them — six lands laid out in a hub-and-spoke pattern around Cinderella Castle, with Main Street U.S.A. running from the entrance to the hub and five themed lands fanning out from there.",
+    "The park's defining characteristic is that it was designed for children and never retrofitted for anyone else. Three of its four coasters have height requirements of 38 inches or lower, the majority of its rides have no height requirement at all, and its headliners are dark rides and boat rides rather than thrill machines. If you are traveling with anyone under seven, this is the park where they will do the most and wait the least relative to what they can access. If you are a group of adults chasing big coasters, EPCOT and Hollywood Studios will do more for you.",
+    "Two things have changed the geography of the park recently. Big Thunder Mountain Railroad reopened on May 3 2026 with its height requirement reduced to 38 inches, which brings it in line with Seven Dwarfs Mine Train and opens it to a lot of children who missed it on a previous trip. Buzz Lightyear's Space Ranger Spin also reopened in 2026 following an update to its scenes and target systems.",
+    "The larger change is a loss. Rivers of America, Tom Sawyer Island and the Liberty Belle Riverboat all closed permanently in 2025 to make room for the announced Piston Peak National Park expansion of Frontierland and a separate Villains Land. The waterway is being filled in. That means construction walls along the western edges of Frontierland and Liberty Square, intermittent construction noise during the day, and the disappearance of the quiet riverside benches that used to be the best free rest area in the park. Disney has said Piston Peak arrives later this decade and has given no opening date at all for Villains Land — treat any specific year you see attached to either as speculation.",
+    "Plan on a long day. Magic Kingdom runs the longest operating hours of the four Florida parks, has the highest attraction count, and finishes with a fireworks show that most people stay for. Ten to twelve hours on your feet is normal here, and the parks-worth-of-walking is real even though the map looks small."
+  ],
+  "bestFor": [
+    "First-timers",
+    "Toddlers and preschoolers",
+    "Classic dark rides",
+    "Families with mixed heights",
+    "Character meets"
+  ],
+  "notIdealFor": [
+    "Thrill-seekers chasing big coasters",
+    "Adults-only drinking days",
+    "Anyone hoping for a short, relaxed park day",
+    "Serious food travelers"
+  ],
+  "stats": {
+    "attractionCount": 47,
+    "ridesWithHeightRequirements": 7,
+    "tallestRequirement": 48,
+    "typicalFullDayHours": "10–12 hours",
+    "minimumDaysRecommended": 1.5
+  },
+  "lands": [
+    {
+      "slug": "main-street-usa",
+      "name": "Main Street U.S.A.",
+      "order": 1,
+      "opened": 1971,
+      "summary": "The turn-of-the-century shopping street that funnels every guest from the entrance to Cinderella Castle, doubling as the parade route and the fireworks viewing area.",
+      "description": [
+        "Main Street is not a land full of rides — it has a train station, a set of period vehicles, one character meet and a great deal of retail. Its job is circulation and mood: it takes you from the turnstiles to the castle along a single controlled sightline, with buildings built in forced perspective so the upper floors are progressively smaller and the street feels longer than its four hundred yards.",
+        "In practice it is the most congested real estate at Magic Kingdom. Every guest enters through it, every guest leaves through it, the afternoon parade finishes on it, and the fireworks are watched from it. Between 8:30 and 10 a.m. and again in the thirty minutes after fireworks, moving through Main Street is genuinely slow.",
+        "There are shortcuts and almost nobody uses them. The shops on both sides of the street are interconnected — you can walk from the Emporium at Town Square almost the whole length of the street indoors, in air conditioning, bypassing the crowd entirely. On the east side an arcade runs behind the buildings from near Casey's Corner back toward Town Square, which is the fastest way out of the park after fireworks.",
+        "Main Street also holds the park's transportation hub. The monorail and ferry both land here, and the Walt Disney World Railroad's primary station sits above the entrance tunnels."
+      ],
+      "vibe": "A polished small-town street built to move sixty thousand people a day and make it feel like a stroll.",
+      "anchorAttraction": "nighttime-fireworks",
+      "highlights": [
+        "The castle reveal from the top of the entrance tunnels",
+        "Walking the interconnected shops end to end in air conditioning",
+        "The Flag Retreat ceremony in Town Square in the late afternoon",
+        "Free live music from the Dapper Dans and the Main Street Philharmonic",
+        "The best fireworks viewing in the park, from the top of the street"
+      ],
+      "eatHere": [
+        "caseys-corner",
+        "the-plaza-restaurant",
+        "the-crystal-palace",
+        "plaza-ice-cream-parlor"
+      ],
+      "tips": [
+        "Use the interior shop route rather than the sidewalk when the street is packed. You can walk almost the entire length of Main Street indoors on either side.",
+        "The east-side arcade behind the buildings is the fastest exit after fireworks and is nearly always empty while the sidewalk is gridlocked.",
+        "Do not shop on the way in. Everything on Main Street stays open thirty minutes to an hour after park close, and carrying purchases around all day is the classic rookie error.",
+        "The window names on the second storeys are credits for people who built Walt Disney World. Reading them is free and it is the best five minutes of history available in the park."
+      ]
+    },
+    {
+      "slug": "adventureland",
+      "name": "Adventureland",
+      "order": 2,
+      "opened": 1971,
+      "summary": "A dense, shaded jungle-and-Caribbean quarter holding Pirates of the Caribbean, Jungle Cruise and the park's best restaurant.",
+      "description": [
+        "Adventureland is the first land on your left from the hub and the most compressed area in the park. Narrow walkways, heavy tree cover, layered music zones and buildings pressed close together make it feel considerably larger than its footprint. It is also the shadiest land at Magic Kingdom, which matters enormously between May and September.",
+        "Two headliners anchor it. Pirates of the Caribbean is the best-built dark ride in the park and the only major attraction that is entirely indoors, air conditioned and long — eight and a half minutes of ride plus a stone-fortress queue that is itself a reason to visit on a hot afternoon. Jungle Cruise is the comedy attraction, a ten-minute boat ride whose quality depends almost entirely on which skipper is driving.",
+        "The land's quieter half is under-visited. The Enchanted Tiki Room is a ten-minute air-conditioned show with essentially no wait; the Swiss Family Treehouse is a walk-on climb with the best free elevated view in this part of the park; and A Pirate's Adventure is a free scavenger-hunt game hidden along the walkways that most guests never notice exists.",
+        "Food here is better than the park average. Jungle Navigation Co. Ltd. Skipper Canteen has the most ambitious menu at Magic Kingdom and is the easiest table-service reservation to get, and the Dole Whip window is thirty seconds from a citrus swirl window with a fraction of the line."
+      ],
+      "vibe": "Close, green and loud with layered music — the one land where you are never in direct sun for long.",
+      "anchorAttraction": "pirates-of-the-caribbean",
+      "highlights": [
+        "Pirates of the Caribbean's stone fortress queue, the best hot-day wait in the park",
+        "A Jungle Cruise skipper who commits to the material",
+        "The free A Pirate's Adventure scavenger hunt game",
+        "Skipper Canteen's hidden Crew Mess Hall dining room",
+        "Dole Whip at Aloha Isle and the citrus swirl thirty seconds away"
+      ],
+      "eatHere": [
+        "jungle-navigation-co-skipper-canteen",
+        "aloha-isle",
+        "sunshine-tree-terrace"
+      ],
+      "tips": [
+        "Pirates is the correct 2 p.m. attraction in summer. The queue alone is twenty minutes out of the sun in a cool stone building.",
+        "If the Aloha Isle line is out to the walkway, walk to Sunshine Tree Terrace instead — same category of frozen treat, a fifth of the wait, and the citrus swirl is arguably better.",
+        "Pick up the free A Pirate's Adventure map and talisman card early in the day. The card works for your whole trip and the station occasionally runs out of maps by evening.",
+        "The main Adventureland walkway is one of the first areas to close for the afternoon parade. If you need to cross the park at parade time, go through the hub before step-off rather than trying to cut through here."
+      ]
+    },
+    {
+      "slug": "frontierland",
+      "name": "Frontierland",
+      "order": 3,
+      "opened": 1971,
+      "summary": "The American West quarter, home to Big Thunder Mountain Railroad and Tiana's Bayou Adventure, currently bordered by construction walls where Rivers of America used to be.",
+      "description": [
+        "Frontierland holds two of the park's most-ridden attractions. Big Thunder Mountain Railroad reopened on May 3 2026 with its height requirement lowered to 38 inches, which makes it the most accessible real coaster at Magic Kingdom for families with mixed heights. Tiana's Bayou Adventure opened in 2024 in the flume that previously held Splash Mountain, keeping the fifty-foot drop and replacing everything else with new scenes, animatronics and an original zydeco score.",
+        "Be honest with yourself about the state of the land right now. Rivers of America, Tom Sawyer Island and the Liberty Belle Riverboat all closed permanently in 2025, and the waterway behind Frontierland is being filled in for the announced Piston Peak National Park expansion and a Villains Land. Construction walls line the western edge of the land, the loop walk behind Big Thunder is narrowed, and there is intermittent construction noise during operating hours. Ride operations are unaffected; the atmosphere in that corner of the park is not.",
+        "What remains beyond the two headliners is quieter than it used to be. The Country Bear Musical Jamboree, reworked in 2024 into a country and bluegrass set list, is eleven minutes of air conditioning with a wait that rarely exceeds fifteen minutes and is one of the most-skipped attractions in the park. The Frontierland Shootin' Arcade is a coin-operated shooting gallery that costs extra and is almost never occupied.",
+        "Frontierland's other job is throughput. It sits between Adventureland and Liberty Square on the main circulation loop, and it is where the afternoon parade begins, which means it is both the best place to watch the parade and the first place to become impassable when it starts."
+      ],
+      "vibe": "Wide dusty walkways and red rockwork, with construction fencing along the back edge that you cannot unsee.",
+      "anchorAttraction": "big-thunder-mountain-railroad",
+      "highlights": [
+        "Big Thunder Mountain Railroad after dark, in the back row",
+        "The fifty-foot drop and finale room on Tiana's Bayou Adventure",
+        "The Country Bear Musical Jamboree's gospel number, performed straight",
+        "Watching the afternoon parade from the shaded side of the Frontierland walkway",
+        "The tombstone epitaphs at the Shootin' Arcade, free to read"
+      ],
+      "eatHere": [
+        "pecos-bill-tall-tale-inn-and-cafe",
+        "golden-oak-outpost",
+        "westward-ho-refreshments"
+      ],
+      "tips": [
+        "Watch the parade here rather than on Main Street. It steps off in Frontierland, so you wait roughly twenty-five fewer minutes for the identical show with a fraction of the crowd.",
+        "The free toppings bar at Pecos Bill is unlimited — order the base platter, not the loaded upgrade, and build it yourself.",
+        "Big Thunder's height requirement dropped from 40 to 38 inches in May 2026. If your child was measured on an earlier trip, measure again before you write it off.",
+        "Do not plan a leisurely riverside walk. The walkway that ran along Rivers of America is partly walled off, and the benches that used to be the best free rest spot in the park are gone."
+      ]
+    },
+    {
+      "slug": "liberty-square",
+      "name": "Liberty Square",
+      "order": 4,
+      "opened": 1971,
+      "summary": "A colonial New England town square holding the Haunted Mansion, The Hall of Presidents and the best quick service in the park.",
+      "description": [
+        "Liberty Square is the smallest land at Magic Kingdom and the only one that exists nowhere else in the Disney parks. It is styled as a colonial American town in the years around independence, with a brick-and-clapboard aesthetic, a replica Liberty Bell, and a large live oak hung with thirteen lanterns.",
+        "The Haunted Mansion is the reason most people come. Nine minutes of comic gothic staging in a swivelling doom buggy, built around Victorian stage illusions rather than screens, with an interactive queue that is worth arriving early for. It is the most carefully written attraction in the park and it holds up on a tenth ride.",
+        "The Hall of Presidents is the other pole — a twenty-three-minute film and animatronic roll call in an enormous, aggressively air-conditioned theater with essentially no line at any hour. Whatever you think of the subject matter, it is the single best midday recovery stop at Magic Kingdom, and regulars use it exactly that way.",
+        "The land lost its western edge in 2025. The Liberty Belle Riverboat closed permanently along with Rivers of America and Tom Sawyer Island, the dock is behind construction walls, and the walking route between Liberty Square and Frontierland is narrower as a result. Give yourself an extra couple of minutes crossing here at parade time."
+      ],
+      "vibe": "Brick, clapboard and shade trees, several degrees quieter than the lands on either side of it.",
+      "anchorAttraction": "haunted-mansion",
+      "highlights": [
+        "The Haunted Mansion's ballroom scene, viewed from the left side of the doom buggy",
+        "The pet cemetery beside the mansion exit ramp, which almost nobody stops at",
+        "The Hall of Presidents as a twenty-three-minute air-conditioned reset",
+        "Columbia Harbour House's second-floor dining rooms",
+        "The chicken waffle sandwich at Sleepy Hollow, eaten on the patio with a castle view"
+      ],
+      "eatHere": [
+        "columbia-harbour-house",
+        "sleepy-hollow-refreshments",
+        "liberty-tree-tavern",
+        "liberty-square-market"
+      ],
+      "tips": [
+        "Go upstairs at Columbia Harbour House. There is a full second floor of quiet, air-conditioned seating that most guests never find, even when the ground floor is full.",
+        "Haunted Mansion waits fall hard after dark, when Liberty Square empties toward the hub for fireworks. A posted forty-five at 8 p.m. is often twenty in practice.",
+        "The Hall of Presidents theater is large enough that arriving two minutes before showtime still gets you a good seat. There is no reason to queue for it.",
+        "Sleepy Hollow's covered patio looks straight across the water at the castle and sits beside the parade route — it is one of the best free seated views in the park."
+      ]
+    },
+    {
+      "slug": "fantasyland",
+      "name": "Fantasyland",
+      "order": 5,
+      "opened": 1971,
+      "summary": "The largest and busiest land, holding every classic dark ride, Seven Dwarfs Mine Train, the princess meets and the Storybook Circus area.",
+      "description": [
+        "Fantasyland is where Magic Kingdom is won or lost with young children. It holds fifteen of the park's attractions: every classic dark ride, the Seven Dwarfs Mine Train, two spinners, a carousel from 1917, a 3D film, two character meet locations, an interactive Belle show and, at the back, the Storybook Circus area with Dumbo, The Barnstormer and a free splash pad.",
+        "It is also the most crowded land in the park for most of the day, and its two most-loved rides have the worst wait-to-ride ratios at Magic Kingdom. Seven Dwarfs Mine Train routinely posts over an hour for three minutes; Peter Pan's Flight posts sixty for three, all day, with almost no relief. Both are excellent and neither is worth those numbers by standby at midday.",
+        "The counter-programming is what regulars use. Under the Sea: Journey of The Little Mermaid runs an omnimover system that eats its queue, so the posted wait overstates the real one; Mickey's PhilharMagic is twelve minutes of cold air with a one-cycle wait; it's a small world is eleven minutes of air conditioning with high capacity. Any of the three is a better use of a midday hour than standing in a Peter Pan line.",
+        "The Storybook Circus section at the back, added in 2012, is the best-designed corner of the park for small children. Dumbo has an air-conditioned indoor play tent built into its queue with a pager system so you keep your place in line while your kids play, and the free Casey Jr. splash pad next to it is the single best hot-afternoon release valve for a family."
+      ],
+      "vibe": "Loud, colorful, packed with strollers, and the one land where a four-year-old can do almost everything.",
+      "anchorAttraction": "seven-dwarfs-mine-train",
+      "highlights": [
+        "Peter Pan's Flight's London flyover, from the left side of the galleon",
+        "Dumbo's air-conditioned indoor play tent and pager queue",
+        "Under the Sea, the shortest-wait dark ride in the land",
+        "Prince Charming Regal Carrousel at night with the lit castle behind it",
+        "The free Casey Jr. splash pad in Storybook Circus"
+      ],
+      "eatHere": [
+        "gastons-tavern",
+        "be-our-guest-restaurant",
+        "cheshire-cafe",
+        "friars-nook"
+      ],
+      "tips": [
+        "Ride Peter Pan's Flight during the afternoon parade. Fantasyland waits collapse while it runs and this is the ride that benefits most.",
+        "Gaston's Tavern has a full air-conditioned interior with tables that is almost always half empty, because most guests order at the window and leave. It is the best hidden rest stop in the land.",
+        "The interactive queue at Winnie the Pooh is worth entering even with a Lightning Lane return — the honey wall and rain-drawing surface are the best part of the attraction and the Lightning Lane path skips them.",
+        "Take the Walt Disney World Railroad from Storybook Circus back toward Frontierland or Main Street rather than walking. It is faster, it is shaded, and the Storybook Circus station is usually a walk-on."
+      ]
+    },
+    {
+      "slug": "tomorrowland",
+      "name": "Tomorrowland",
+      "order": 6,
+      "opened": 1971,
+      "summary": "The retro-future quarter holding TRON Lightcycle / Run, Space Mountain, Buzz Lightyear and the best free rest stop in the park.",
+      "description": [
+        "Tomorrowland holds the park's two most intense rides. TRON Lightcycle / Run, opened in 2023, is the fastest coaster at Walt Disney World — a launched ride taken lying forward on a motorcycle-style seat, with a 48-inch requirement that makes it the tallest at Magic Kingdom. Space Mountain, from 1975, is slower on paper and scarier in practice, because it runs in near-total darkness and you cannot see the track.",
+        "Buzz Lightyear's Space Ranger Spin reopened in 2026 following an update to its scenes, effects and target systems. It remains what it always was: a competitive shooting dark ride where the score is the point, with a scoring system that rewards riders who take the blaster out of its mount and aim at the awkward targets rather than the obvious ones.",
+        "The land's real secret is its low-effort attractions. The Tomorrowland Transit Authority PeopleMover is a ten-minute elevated tour on a linear-motor track with no line at any hour, and it passes through the inside of Space Mountain. Walt Disney's Carousel of Progress is a twenty-one-minute rotating-theater show in a thousand-seat cold room. Doing both back to back buys you half an hour of sitting down for zero wait time, and it is the standard regular's move on a brutal afternoon.",
+        "Tomorrowland's aesthetic is a 1990s reimagining of a retro-future, and it has aged into something more coherent than it was designed to be. It is also the best-lit land in the park after dark, which is why the PeopleMover at night is worth going out of your way for."
+      ],
+      "vibe": "White concrete, neon and a low mechanical hum — the loudest land by day and the best-looking one at night.",
+      "anchorAttraction": "space-mountain",
+      "highlights": [
+        "TRON's outdoor canopy run after dark",
+        "Space Mountain's front row, which is noticeably smoother than the back",
+        "The PeopleMover passing through the interior of Space Mountain",
+        "The original Progress City model visible from the PeopleMover",
+        "Sonny Eclipse, the animatronic lounge singer at Cosmic Ray's, playing to nobody"
+      ],
+      "eatHere": [
+        "cosmic-rays-starlight-cafe",
+        "the-lunching-pad",
+        "auntie-gravitys-galactic-goodies"
+      ],
+      "tips": [
+        "TRON has accessible seats with conventional upright seating and a lap bar at the back of each train, available to anyone who asks at the entrance. They are the answer for anyone who cannot manage the forward-leaning posture.",
+        "Ride the PeopleMover before deciding on Space Mountain if someone in your group is nervous — it passes through the interior and lets them see the layout in the dark first.",
+        "The Lunching Pad's seating is entirely under the PeopleMover platform, which makes it the most reliably shaded set of tables in the park and a good rain shelter.",
+        "Rope drop TRON first and Space Mountain second. The opening crowd runs to Fantasyland, and Tomorrowland stays workable for the first thirty minutes."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Magic Kingdom rewards a plan more than any other park at Walt Disney World, because its two worst standby lines — Seven Dwarfs Mine Train and TRON Lightcycle / Run — are both short rides with no reliable low-wait window during the day. Everything else in the park is manageable if you get those two out of the way or pay to skip them.",
+      "The other structural fact worth knowing before you arrive: this is the only Walt Disney World park where a guest may hold two Lightning Lane Single Passes at once. TRON and Seven Dwarfs Mine Train are the two Single Pass attractions here, and buying both is the single most effective purchase available at this park. As of July 2026, Single Pass runs roughly $12 to $25 per ride and Multi Pass roughly $15 to $45 per person per day depending on the date; prices move constantly, so check in the app rather than budgeting from a number you read somewhere."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Decide on Lightning Lane before you book anything else",
+        "body": "Multi Pass covers 40-plus attractions here including Peter Pan's Flight, Space Mountain, Haunted Mansion and Big Thunder Mountain. Single Pass covers TRON and Seven Dwarfs Mine Train only. On-site hotel guests, plus Swan, Dolphin, Swan Reserve and Shades of Green, buy for the whole trip from 7 days out at 7 a.m. Eastern; off-site guests can buy up to 3 days out. That head start is real and it matters on busy dates."
+      },
+      {
+        "title": "Book table service at 60 days if you want the hard ones",
+        "body": "Be Our Guest and Cinderella's Royal Table open sixty days out at 6 a.m. Eastern and disappear within minutes on popular dates. Everything else at Magic Kingdom is bookable much closer in, and Skipper Canteen — the best restaurant in the park — is frequently available same day."
+      },
+      {
+        "title": "Measure your children at home, in shoes",
+        "body": "The thresholds that matter here are 32 inches (Tomorrowland Speedway), 35 (The Barnstormer), 38 (Big Thunder Mountain and Seven Dwarfs Mine Train), 40 (Tiana's Bayou Adventure), 44 (Space Mountain) and 48 (TRON). Disney measures with a fixed stick, shoes on and hats off, and borderline kids get an all-day wristband so they are not re-measured. Big Thunder dropped from 40 to 38 inches in May 2026 — remeasure if you last checked before that."
+      },
+      {
+        "title": "Pick your arrival transport deliberately",
+        "body": "There is no parking lot at Magic Kingdom's gate. Driving means parking at the Ticket and Transportation Center and then taking a monorail or ferry across the lagoon, which adds twenty to thirty minutes each way. Buses from Disney resorts and rideshare drop-offs both go directly to the bus loop at the park entrance and skip that transfer entirely."
+      },
+      {
+        "title": "Plan for a longer day than you think",
+        "body": "Magic Kingdom operates the longest hours of the four Florida parks and finishes with fireworks that most guests stay for. Ten to twelve hours on your feet is a normal day here. If you have young children, plan a mid-afternoon break off-site rather than trying to power through — the park is far more pleasant from 6 p.m. onward and you will need the energy."
+      },
+      {
+        "title": "Download the app and set up mobile order in advance",
+        "body": "Mobile ordering is the difference between a five-minute lunch and a thirty-minute one at every quick service in the park, and it is genuinely essential at Main Street Bakery and Aloha Isle, which have the worst walk-up lines. Link your payment method and your park tickets before you arrive, not in the entrance queue."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop minus 45 minutes",
+        "body": "Be at the entrance turnstiles at least forty-five minutes before official opening. Disney routinely lets guests through security and into Main Street ahead of the posted time, and the difference between arriving early and arriving on time is roughly two extra attractions before 10 a.m."
+      },
+      {
+        "time": "Rope drop",
+        "body": "Go straight to Tomorrowland for TRON, then Space Mountain. The opening crowd overwhelmingly runs to Fantasyland for Seven Dwarfs Mine Train and Peter Pan's Flight, which means Tomorrowland stays workable for the first half hour. If nobody in your party clears 48 inches, go to Frontierland for Big Thunder Mountain instead."
+      },
+      {
+        "time": "First hour",
+        "body": "Add Buzz Lightyear's Space Ranger Spin while you are in Tomorrowland, then walk to Fantasyland for Seven Dwarfs Mine Train if you did not buy the Single Pass — it is the only time of day standby is under thirty-five minutes besides the last twenty minutes before close."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "Work Fantasyland's under-ridden attractions while the crowd is stuck in the Peter Pan and Seven Dwarfs lines: Under the Sea, Mickey's PhilharMagic and The Many Adventures of Winnie the Pooh all move faster than their posted times suggest."
+      },
+      {
+        "time": "Late morning",
+        "body": "Cross to Frontierland and Liberty Square for Big Thunder Mountain and Tiana's Bayou Adventure. Tiana's is a warm-weather ride — if it is under 70 degrees, the line will be shorter later and you will be happier riding it in the afternoon."
+      },
+      {
+        "time": "Around 11:30",
+        "body": "Eat early. Every quick service in the park is at its worst between 12 and 1:30. Mobile order at 11:15 for an 11:30 pickup and you will walk straight to a table at Columbia Harbour House or Pecos Bill."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "12:30 to 2:00",
+        "body": "This is the worst window of the day for waits and heat and the best window for shows. The Hall of Presidents, Walt Disney's Carousel of Progress, Mickey's PhilharMagic, Country Bear Musical Jamboree and the Enchanted Tiki Room are all air conditioned, seated, and functionally walk-on. Chain two or three of them together."
+      },
+      {
+        "time": "Around the parade",
+        "body": "Either watch the afternoon parade from the Frontierland end of the route — where it steps off, in the shade, twenty-five minutes earlier than Main Street — or use the window to ride. Fantasyland and Tomorrowland waits fall sharply while it runs, and Peter Pan's Flight in particular becomes briefly reasonable."
+      },
+      {
+        "time": "Mid-afternoon",
+        "body": "If you have children under seven, go back to the hotel. A three-hour break in the middle of the day is the single highest-return decision available at Magic Kingdom, and the park is dramatically better from six o'clock onward. If you are staying in the park, Pirates of the Caribbean and it's a small world are the two longest air-conditioned rides available."
+      },
+      {
+        "time": "Around 3:30",
+        "body": "Storybook Circus is the release valve for a family that is fraying. Casey Jr. Splash 'N' Soak Station is free, has no queue and will soak your kids; Dumbo's queue has an air-conditioned indoor play tent with a pager system so you keep your place in line while they play."
+      },
+      {
+        "time": "Around 4:30",
+        "body": "Character meets are at their best in the late afternoon and evening. Princess Fairytale Hall runs two separate lines with two princesses each and the posted waits frequently differ by twenty minutes — check both before you commit."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "Dinner, around 5:30",
+        "body": "Eat before the fireworks crowd forms, not after. Liberty Tree Tavern's family-style dinner is the best value table service in the park, and Skipper Canteen is the best food. Both are thirty seconds from a headliner you can ride immediately afterward."
+      },
+      {
+        "time": "Golden hour",
+        "body": "The hour before sunset is the best-looking hour at Magic Kingdom and the least used. Ride Big Thunder Mountain and the PeopleMover in that window — both are transformed by the light, and both are outdoors."
+      },
+      {
+        "time": "Fireworks minus 45 minutes",
+        "body": "Claim a spot between the Partners statue and the top of Main Street, slightly off the center line. Forty-five minutes is genuinely enough for a good standing view on a normal night; ninety minutes buys you nothing except three fewer rides."
+      },
+      {
+        "time": "During the fireworks",
+        "body": "The alternative strategy: skip the show and ride. Fantasyland behind the castle empties out completely for twenty minutes, and Seven Dwarfs Mine Train and Peter Pan's Flight post waits you will not see at any other hour. You will still see the shells overhead, just not the castle projections."
+      },
+      {
+        "time": "After the finale",
+        "body": "Do not move on the last shell. Either leave five minutes early and accept missing the finale, or sit down and let fifteen minutes pass. The walk out from a hub position during the crush takes about twenty-five minutes; after it clears, ten."
+      },
+      {
+        "time": "Last twenty minutes before close",
+        "body": "Anyone in a queue at official closing time still rides. Get in line for Seven Dwarfs Mine Train, TRON or Space Mountain in the final five minutes — the posted number at that hour is almost always higher than the real wait."
+      }
+    ],
+    "rookieMistakes": [
+      "Running to Peter Pan's Flight at rope drop. It is already a thirty-minute wait eight minutes after the park opens, because everyone else has the same idea. Ride it during the parade instead.",
+      "Shopping on the way in. Every shop on Main Street stays open after park close, and carrying purchases for eleven hours is entirely avoidable.",
+      "Trying to cross the park during the afternoon parade. Crossings shut in Frontierland and Liberty Square long before the parade reaches Main Street, and you will be stuck on the wrong side for twenty minutes.",
+      "Taking the monorail out at close. It backs up badly. The ferry sails slower and moves six hundred people at a time, and it is usually twenty minutes faster.",
+      "Assuming a ride with no height requirement is gentle. Pirates of the Caribbean has a drop in complete darkness, the Haunted Mansion stretching room has no exit once the doors close, and Astro Orbiter is the most intense flat ride in the park.",
+      "Skipping the shows because they sound boring. The Hall of Presidents and Carousel of Progress are the two best air-conditioned rest stops at Magic Kingdom, both with no line, and they are what makes a long day survivable.",
+      "Buying Lightning Lane Multi Pass and then spending selections on rides that never have long lines. Under the Sea, Buzz Lightyear and Mickey's PhilharMagic are all fine by standby. Spend your selections on Peter Pan's Flight, Space Mountain and Jungle Cruise.",
+      "Planning around Tom Sawyer Island, the Liberty Belle Riverboat or Rivers of America. All three closed permanently in 2025 and none of them will return."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Arrive at the turnstiles 45 minutes before official opening.",
+      "At rope drop, go to Tomorrowland: TRON Lightcycle / Run first, Space Mountain second.",
+      "Walk to Fantasyland for Seven Dwarfs Mine Train while the rope-drop crowd is still cycling through Tomorrowland.",
+      "Ride Peter Pan's Flight only if the posted wait is under thirty minutes; otherwise save it for the parade window.",
+      "Cross to Frontierland for Big Thunder Mountain Railroad and Tiana's Bayou Adventure before noon.",
+      "Mobile order lunch at 11:15 for an 11:30 pickup at Columbia Harbour House, and eat upstairs.",
+      "Spend 12:30 to 2 p.m. in air-conditioned shows: The Hall of Presidents, then Mickey's PhilharMagic.",
+      "Ride Pirates of the Caribbean and the Haunted Mansion in the mid-afternoon, both long and both indoors.",
+      "Use the afternoon parade window to ride Peter Pan's Flight, or watch the parade from the Frontierland end.",
+      "Claim a fireworks spot 45 minutes out at the top of Main Street, then get in line for one last coaster in the final five minutes before close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Magic Kingdom is the most walkable of the four Florida parks in terms of distance and the most difficult in terms of surfaces. Main Street's paving, the cobbled sections of Liberty Square and the packed walkways of Adventureland all create friction that the flat maps do not show, and the park's compact footprint means the crowd density per square foot is the highest at Walt Disney World.",
+      "Disney's Disability Access Service is requested in advance through a live video chat rather than at the park, and eligibility has been narrowed in recent years to guests who cannot tolerate an extended wait in a conventional queue due to a developmental disability. Guests with mobility needs are generally directed to the standard queues, most of which are wheelchair accessible, or to attraction-specific accommodations arranged at the entrance. Ask at the attraction gate rather than assuming — cast members at Magic Kingdom are unusually good at arranging a stopped belt, an accessible vehicle or a slow load if you say what you need.",
+      "Every attraction entry on this site lists a transfer level: wheelchair-accessible means you can stay in your chair, ecv-transfer means you can move to a wheelchair but not necessarily out of it, and must-transfer means you have to get out and into the ride vehicle."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "The Stroller Shop just inside the main entrance on the right, and at the Ticket and Transportation Center",
+      "priceNote": "Daily and length-of-stay rates available; length-of-stay is cheaper from day two onward. Quantities are limited and they run out on busy mornings.",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "The Stroller Shop just inside the main entrance on the right",
+      "priceNote": "Daily rental with a refundable deposit. Park rentals cannot leave the park, so guests needing an ECV for hotel and transport use should rent from an outside vendor for the trip instead.",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "The Stroller Shop just inside the main entrance on the right",
+      "priceNote": "Single and double strollers at daily and length-of-stay rates; length-of-stay is the better value from day two. Rentals cannot be taken out of the park.",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Behind Main Street U.S.A. near the First Aid station at the top of the street",
+      "In Tomorrowland near Cosmic Ray's Starlight Cafe",
+      "In Fantasyland near Pinocchio Village Haus",
+      "In Storybook Circus near the Barnstormer",
+      "In Adventureland near the Jungle Cruise entrance",
+      "In Frontierland near Pecos Bill Tall Tale Inn and Cafe"
+    ],
+    "quietSpaces": [
+      {
+        "name": "The Hall of Presidents theater",
+        "where": "Liberty Square",
+        "note": "A large, dim, aggressively air-conditioned theater with a twenty-three-minute show and essentially no line. The best place in the park to sit in low stimulation without leaving."
+      },
+      {
+        "name": "Walt Disney's Carousel of Progress",
+        "where": "Tomorrowland",
+        "note": "A thousand-seat rotating theater that is rarely more than a third full. Twenty-one minutes, cool and dark, with a gentle mechanical rotation between scenes."
+      },
+      {
+        "name": "The upstairs rooms at Columbia Harbour House",
+        "where": "Liberty Square",
+        "note": "A second floor of small nautical dining rooms most guests never find. Quiet, air conditioned, and available to sit in even when the ground floor is packed."
+      },
+      {
+        "name": "The interior of Gaston's Tavern",
+        "where": "Fantasyland",
+        "note": "A full air-conditioned room with tables and a fireplace at the back of Fantasyland. Most guests order at the window and leave, so there is nearly always a seat."
+      },
+      {
+        "name": "The First Aid station",
+        "where": "Behind the Crystal Palace at the top of Main Street",
+        "note": "Staffed by nurses, with quiet rooms, cots and air conditioning. Available to anyone who needs to lie down, not only for medical emergencies, and it is the standard recommendation for a sensory overload episode."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Behind the Main Street train station near the park entrance",
+      "In Frontierland near the Splash-adjacent walkway toward Big Thunder Mountain",
+      "In Tomorrowland behind the Speedway near the Fantasyland border",
+      "Outside the park near the bus loop and the ferry dock"
+    ],
+    "sensoryNotes": [
+      "The nightly fireworks are the loudest thing in the park by a wide margin, with concussive low shells you feel in your chest and a mid-show villain sequence played in near-darkness. Ear defenders are strongly recommended for anyone sound-sensitive, and standing toward the back of the hub gives you an exit.",
+      "Space Mountain runs in near-total darkness for two and a half minutes with no visible track, and it is the single most common source of unexpected distress for older children who were fine on Big Thunder.",
+      "The Haunted Mansion's stretching room seals the doors, drops the lights and includes a scream, and there is no way out for about ninety seconds. Decide before you enter the room, not after.",
+      "The Enchanted Tiki Room ends with a staged thunderstorm — darkness, thunder and shouting tikis — that upsets a real share of toddlers. Everything before it is gentle.",
+      "Tomorrowland Speedway is loud in a mechanical way, with gas engines, exhaust fumes and constant rear-end bumps from the car behind. The noise, not the motion, is what bothers sensitive children here.",
+      "The Winnie the Pooh dream sequence, the Ursula scene on Under the Sea and the Jungle Cruise gunshot at the hippo pool are the three short, specific moments that account for most tears on otherwise gentle rides."
+    ],
+    "mobilityNotes": [
+      "Main Street's paving, the cobbled sections of Liberty Square and the ramps between lands are all manageable but add up. Guests who can walk short distances but not long ones frequently underestimate this park because it looks small on the map.",
+      "The Swiss Family Treehouse is roughly one hundred and sixteen steps up and back down with no elevator and no alternative route. It is the one attraction at Magic Kingdom that is genuinely inaccessible.",
+      "it's a small world has the best accessible boat in the park — a dedicated vessel with a fold-down ramp that takes wheelchairs and most ECVs without transferring. Ask at the entrance and you will be routed to a separate dock.",
+      "Space Mountain, Seven Dwarfs Mine Train and TRON have the tightest ride vehicles in the park, and all three have test seats outside the entrance. Use them; the walk of shame from the station is long.",
+      "TRON has a small number of accessible seats at the rear of each train with conventional upright seating and a lap bar, available to anyone who asks at the attraction entrance rather than in the station.",
+      "The Walt Disney World Railroad carries a dedicated wheelchair and ECV car boarded by ramp — ask the attendant at the station gate rather than joining the main queue. Strollers cannot ride and must be folded and carried."
+    ],
+    "visionHearingNotes": [
+      "Audio description devices and handheld captioning devices are available free from Guest Relations at City Hall in Town Square with a refundable deposit. Audio description covers most major rides here, including Pirates, the Haunted Mansion, Jungle Cruise and it's a small world.",
+      "Assistive listening devices work at the theater shows — The Hall of Presidents, Carousel of Progress, Mickey's PhilharMagic, Country Bear Musical Jamboree and Monsters, Inc. Laugh Floor — and are worth collecting before you start your day rather than doubling back.",
+      "Sign language interpretation is scheduled on specific days of the week at Magic Kingdom rather than on demand. Ask at City Hall on arrival for the current schedule; the parade and several theater shows are the usual coverage.",
+      "Monsters, Inc. Laugh Floor relies almost entirely on live spoken comedy with no visual redundancy, which makes it the hardest attraction here for guests with hearing loss even with captioning.",
+      "Braille guidebooks and tactile park maps are available at Guest Relations. Cast members will also read menus aloud at any quick service on request, which is standard practice and not a special accommodation.",
+      "Service animals are permitted in most of the park but not on the majority of ride vehicles. Attractions with a rider-swap area for a companion to wait with the animal are marked at the entrance; ask before you queue rather than at the load platform."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Magic Kingdom is the only park where you can hold two Single Passes",
+      "body": "TRON Lightcycle / Run and Seven Dwarfs Mine Train are the two Lightning Lane Single Pass attractions here, and this is the only Walt Disney World park where you may hold two at the same time. Buying both removes the two worst standby waits in the park in one move, and it is the single most effective purchase available. As of July 2026 Single Pass runs roughly $12 to $25 per ride."
+    },
+    {
+      "title": "Walk through the Main Street shops instead of down the sidewalk",
+      "body": "The shops on both sides of Main Street are interconnected, so you can travel almost the whole length of the street indoors in air conditioning. On the east side, an arcade behind the buildings runs from near Casey's Corner back toward Town Square, and it is the fastest exit from the park after fireworks while the sidewalk is gridlocked."
+    },
+    {
+      "title": "The afternoon parade is a ride window, not just a parade",
+      "body": "It takes about thirty-five minutes to complete its route from Frontierland to Town Square, and during that time Fantasyland and Tomorrowland waits fall sharply. If you are not watching, this is the best hour of the day to ride Peter Pan's Flight and the Haunted Mansion. If you are watching, do it from the Frontierland end where it steps off — same show, twenty-five minutes less waiting, actual shade."
+    },
+    {
+      "title": "Take the ferry out, not the monorail",
+      "body": "At close, the monorail ramp backs up and the ferry does not, because each ferry moves around six hundred people per sailing. The ferry usually gets you to the Ticket and Transportation Center twenty minutes faster despite the slower crossing, and the upper deck gives you the tail of the fireworks over open water on the way."
+    },
+    {
+      "title": "The shows are the infrastructure that makes a long day possible",
+      "body": "The Hall of Presidents (23 minutes), Carousel of Progress (21), Mickey's PhilharMagic (12), Country Bear Musical Jamboree (11) and the Enchanted Tiki Room (10) are all air conditioned, all seated, and all functionally walk-on. Chaining two together in the 1-to-3 p.m. window is what separates people who last until fireworks from people who leave at four."
+    },
+    {
+      "title": "Anyone in a queue at closing time still rides",
+      "body": "Get in line for Seven Dwarfs Mine Train, TRON or Space Mountain in the final five minutes before official close. The posted wait at that hour is almost always inflated relative to the real one, because the queue stops taking new guests and simply drains."
+    },
+    {
+      "title": "Ask for the front cab on the monorail",
+      "body": "The pilot's cabin seats four or five guests and is available on request at the platform gate, first come first served. On a slow morning the answer is often yes. Almost nobody knows to ask, which is exactly why it is usually free."
+    },
+    {
+      "title": "Sign up for Flag Retreat at City Hall if there is a veteran in your group",
+      "body": "One veteran visiting the park each day is chosen as the honorary Veteran of the Day and walks with the color guard during the late-afternoon flag ceremony in Town Square. You volunteer at City Hall first thing in the morning, it costs nothing, and it is not advertised anywhere."
+    },
+    {
+      "title": "Book Skipper Canteen, not Be Our Guest",
+      "body": "Jungle Navigation Co. Ltd. Skipper Canteen has the best food at Magic Kingdom and is frequently available same day, because its menu is more adventurous than guests expect from a Disney park. Be Our Guest costs more than twice as much, requires a sixty-day booking sprint, and sells you a room rather than a meal."
+    },
+    {
+      "title": "Rider Switch works on more rides than you think",
+      "body": "Any attraction with a height requirement offers Rider Switch, including Tomorrowland Speedway at 32 inches, and several without one offer it too — Pirates of the Caribbean and the Haunted Mansion both do. It lets one adult wait with a child who cannot or will not ride, then ride with a short wait afterward without queuing twice."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many days do you need at Magic Kingdom?",
+      "a": "One long day covers the headliners if you plan it and arrive at rope drop. A day and a half is the honest recommendation, especially with children under seven, because it lets you take a genuine mid-afternoon break and still see everything. Two days is comfortable rather than necessary."
+    },
+    {
+      "q": "What is the tallest height requirement at Magic Kingdom?",
+      "a": "48 inches, for TRON Lightcycle / Run. The full ladder is 32 inches for Tomorrowland Speedway (54 to drive alone), 35 for The Barnstormer, 38 for both Big Thunder Mountain Railroad and Seven Dwarfs Mine Train, 40 for Tiana's Bayou Adventure, 44 for Space Mountain and 48 for TRON. Seven of the park's attractions have a height requirement; the rest do not."
+    },
+    {
+      "q": "Which rides use Lightning Lane Single Pass at Magic Kingdom?",
+      "a": "TRON Lightcycle / Run and Seven Dwarfs Mine Train. Everything else on Lightning Lane here is Multi Pass, including Space Mountain, Big Thunder Mountain, Tiana's Bayou Adventure, the Haunted Mansion and Peter Pan's Flight. Magic Kingdom is the only Walt Disney World park where a guest may hold two Single Passes at once."
+    },
+    {
+      "q": "Is there a virtual queue at Magic Kingdom?",
+      "a": "No. TRON and Tiana's Bayou Adventure both used virtual queues after opening and both dropped them. As of mid-2026 no attraction at Walt Disney World permanently uses a virtual queue — they appear only temporarily for new ride openings."
+    },
+    {
+      "q": "What happened to Tom Sawyer Island and the Liberty Belle Riverboat?",
+      "a": "Both closed permanently in 2025, along with Rivers of America itself. The waterway is being filled in for the announced Piston Peak National Park expansion of Frontierland and a separate Villains Land. Disney has said Piston Peak arrives later this decade and has announced no date for Villains Land beyond vertical construction beginning in 2026. Neither attraction will return."
+    },
+    {
+      "q": "What is the scariest ride at Magic Kingdom?",
+      "a": "Space Mountain, for most people, and it achieves that with modest speed and small drops — you ride in near-total darkness with no visible track, so nothing is anticipated. TRON is much faster but smoother and less frightening. Among rides with no height requirement, Pirates of the Caribbean surprises the most families, because of its dark drop and burning-town scenes."
+    },
+    {
+      "q": "Where are the best fireworks viewing spots at Magic Kingdom?",
+      "a": "Anywhere in front of Cinderella Castle between the Partners statue and the top of Main Street, slightly off the center line — that range gives you readable castle projections plus the street speakers carrying the score. Behind the castle in Fantasyland you get excellent shells and no story, and the park empties there for twenty minutes afterward, which is a legitimate ride strategy."
+    },
+    {
+      "q": "What is the best quick service at Magic Kingdom?",
+      "a": "Columbia Harbour House in Liberty Square, on food quality and on the second-floor seating that most guests never find. Sleepy Hollow's sweet-and-spicy chicken waffle sandwich is the single best item in the park at any price. Pecos Bill is the best value for a big group because of the free unlimited toppings bar."
+    },
+    {
+      "q": "Does Magic Kingdom serve alcohol?",
+      "a": "Only at a handful of table-service restaurants — Be Our Guest, Cinderella's Royal Table, Liberty Tree Tavern, Skipper Canteen and Tony's Town Square among them. There is no alcohol at quick service, no bar and no walk-up drinks. If a drinking day is what you want, EPCOT is the park for it."
+    },
+    {
+      "q": "How do you get to Magic Kingdom?",
+      "a": "There is no parking lot at the gate. Driving means parking at the Ticket and Transportation Center and taking the monorail or ferry across Seven Seas Lagoon, adding twenty to thirty minutes each way. Disney resort buses and rideshare drop-offs both go directly to the park entrance, as does the Resort monorail line from the Contemporary, Grand Floridian and Polynesian."
+    },
+    {
+      "q": "Is Magic Kingdom good for toddlers?",
+      "a": "It is the best park at Walt Disney World for children under seven, without much competition. The majority of its attractions have no height requirement, its coasters start at 35 inches, and Storybook Circus has a free splash pad plus an air-conditioned indoor play tent built into the Dumbo queue with a pager system so you keep your place in line while they play."
+    },
+    {
+      "q": "When is the best time of day to visit Magic Kingdom?",
+      "a": "The first ninety minutes after opening and the last two hours before close are the two low-wait windows, and the second one is far more pleasant. If you can only pick one, evenings win — the lighting is better, the heat is gone, and the park empties noticeably in the twenty minutes after fireworks while it is still open."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Standard parking is at the Ticket and Transportation Center, not at the park gate, with a per-day charge for day guests and complimentary parking for Disney resort guests. From the parking lot you take a tram to the TTC, then a monorail or ferry across Seven Seas Lagoon to the park entrance — budget twenty to thirty minutes each way for that transfer, and more at close.",
+    "transportation": [
+      "Walt Disney World Monorail — the Express line runs nonstop between the Ticket and Transportation Center and the park; the Resort line loops through the Contemporary, Grand Floridian and Polynesian. Free, no ticket needed.",
+      "Ferryboat — large double-deckers cross Seven Seas Lagoon between the TTC and the park dock in about ten minutes. Free, and the faster of the two options at park close because of throughput.",
+      "Disney resort buses — direct to the bus loop at the park entrance from most Walt Disney World hotels, with no lagoon crossing required. Generally the fastest arrival from a value or moderate resort.",
+      "Resort watercraft — boat launches connect the Contemporary, Wilderness Lodge and Fort Wilderness directly to the Magic Kingdom dock.",
+      "Rideshare and taxi — drop off at the bus loop at the park entrance, which skips the Ticket and Transportation Center transfer entirely and is worth the fare on a park-close night.",
+      "Walking — the Contemporary Resort is a genuine ten-minute walk to the entrance on a dedicated path, which makes it the only Walt Disney World hotel you can walk to Magic Kingdom from."
+    ],
+    "entranceNote": "Security screening happens before the ticket turnstiles at the main entrance. Arrive at least forty-five minutes before official opening if you intend to rope drop — Disney routinely admits guests to Main Street ahead of the posted time, and the entry tunnels open onto the street well before the lands do. Bag check moves faster on the far left and far right lanes than in the center.",
+    "lastVerified": "2026-07"
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "mk"
+}

@@ -2,7 +2,7 @@ import { html, raw, paragraphs } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
-import { urls, foodTrackerOrder, PARK_ORDER } from '../lib/data.mjs'
+import { urls, foodTrackerOrder } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
 
 /* ------------------------------------------------------------------ *
@@ -183,9 +183,8 @@ export function heightCheckerPage (data) {
   ]
 
   const payload = {
-    parks: PARK_ORDER
-      .map((slug) => data.parkBySlug.get(slug))
-      .filter(Boolean)
+    // data.parks is already in the order site.json declares, so no second ordering is needed.
+    parks: data.parks
       .map((park) => ({
         name: park.name,
         url: park.url,

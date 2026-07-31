@@ -1,6 +1,11 @@
 /**
- * Loads every JSON file under data/ and builds the derived indexes the page generators need.
+ * Loads one operator's dataset and builds the derived indexes the page generators need.
  * This module is the single source of truth for URLs — nothing else may build a path by hand.
+ *
+ * Each operator in data/operators.json is a complete, independently-branded site on its own domain.
+ * They share this generator and nothing else, so everything here takes the operator as an argument
+ * rather than reaching for a global: two operators must be loadable in one process without one
+ * leaking into the other.
  */
 
 import { readFile, readdir } from 'node:fs/promises'
@@ -13,14 +18,16 @@ export const DATA_DIR = join(ROOT, 'data')
 export const DIST_DIR = join(ROOT, 'dist')
 export const ASSETS_DIR = join(ROOT, 'assets')
 
-export const PARK_ORDER = [
-  'magic-kingdom',
-  'epcot',
-  'hollywood-studios',
-  'animal-kingdom',
-  'disneyland-park',
-  'california-adventure',
-]
+/**
+ * Park order is derived from each site's `resorts[].parks`, never declared twice.
+ *
+ * It used to be a hardcoded list of six Disney park slugs here. That list and the one in site.json
+ * were the same information in two files, which is a drift waiting to happen — and it made a second
+ * operator impossible without editing this module.
+ */
+export function parkOrder (site) {
+  return (site.resorts || []).flatMap((resort) => resort.parks || [])
+}
 
 async function readJson (path) {
   try {
@@ -97,12 +104,28 @@ export const urls = {
  * Loader
  * ------------------------------------------------------------------ */
 
-export async function loadData () {
-  const site = await readJson(join(DATA_DIR, 'site.json'))
+export async function operators () {
+  const registry = await readJson(join(DATA_DIR, 'operators.json'))
+  return (registry.operators || []).filter((o) => o && o.slug)
+}
+
+export async function operatorDir (slug) {
+  const found = (await operators()).find((o) => o.slug === slug)
+  if (!found) {
+    const known = (await operators()).map((o) => o.slug).join(', ')
+    throw new Error(`Unknown operator "${slug}". data/operators.json declares: ${known}`)
+  }
+  return join(DATA_DIR, found.dir || found.slug)
+}
+
+export async function loadData (operatorSlug = 'disney') {
+  const dataDir = await operatorDir(operatorSlug)
+  const site = await readJson(join(dataDir, 'site.json'))
+  site.operator = site.operator || operatorSlug
 
   const parks = []
-  for (const slug of PARK_ORDER) {
-    const dir = join(DATA_DIR, 'parks', slug)
+  for (const slug of parkOrder(site)) {
+    const dir = join(dataDir, 'parks', slug)
     if (!existsSync(join(dir, 'park.json'))) continue
     const park = await readJson(join(dir, 'park.json'))
     const attractionsFile = existsSync(join(dir, 'attractions.json'))
@@ -127,14 +150,14 @@ export async function loadData () {
     parks.push(park)
   }
 
-  const guides = (await readJsonDir(join(DATA_DIR, 'guides'))).filter((g) => g && g.slug)
-  const compare = (await readJsonDir(join(DATA_DIR, 'compare'))).filter((c) => c && c.slug)
-  const legalPath = join(DATA_DIR, 'legal.json')
+  const guides = (await readJsonDir(join(dataDir, 'guides'))).filter((g) => g && g.slug)
+  const compare = (await readJsonDir(join(dataDir, 'compare'))).filter((c) => c && c.slug)
+  const legalPath = join(dataDir, 'legal.json')
   const legal = existsSync(legalPath) ? await readJson(legalPath) : { pages: [] }
-  const orderPath = join(DATA_DIR, 'food-order.json')
+  const orderPath = join(dataDir, 'food-order.json')
   const foodOrder = existsSync(orderPath) ? await readJson(orderPath) : { version: 1, ids: [] }
 
-  return index({ site, parks, guides, compare, legal, foodOrder })
+  return index({ site, parks, guides, compare, legal, foodOrder, dataDir, operator: operatorSlug })
 }
 
 /* ------------------------------------------------------------------ *
@@ -260,9 +283,7 @@ export function foodTrackerOrder (data) {
   const ids = manifest.ids.slice()
 
   const fresh = []
-  for (const slug of PARK_ORDER) {
-    const park = data.parkBySlug.get(slug)
-    if (!park) continue
+  for (const park of data.parks) {
     for (const id of park.food.map((f) => f.id).sort()) {
       if (!known.has(id)) { fresh.push(id); known.add(id) }
     }

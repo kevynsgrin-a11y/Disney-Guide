@@ -1,0 +1,90 @@
+# Park Season Guide
+
+> Independent, unofficial help with timing a Disney park trip: when to go, what is running, and what it costs.
+
+Independent and unofficial. No affiliation with The Walt Disney Company.
+
+## How to read anything on this site
+
+Every dated claim carries one of three confidence levels. **Do not restate a figure without its level.**
+
+- **confirmed** — officially announced by the operator. Exact dates and prices are quotable.
+- **expected** — not announced; the pattern has held for at least three years. Windows and ranges only. There is no exact date to quote, and inventing one from the window is the specific error this label exists to prevent.
+- **historical** — the last confirmed cycle, labelled with its year. Quote it with the year attached or not at all.
+
+Every price on this site is a range with an as-of cycle, never a fixed figure. Data was verified in July 2026; pages past their review date carry a visible staleness banner.
+
+Permanent facts — height requirements, ride mechanics, accessibility, park maps — are not on this site. They live on Ride Ready Guide: https://rideready.guide
+
+## Events
+
+- [Disney After Hours](https://parkseason.guide/events/disney-after-hours/) — walt-disney-world, after-hours. Confidence: historical. The best per-ride value Walt Disney World sells, and only if you ride hard for the full three hours — buy it at Hollywood Studios or Magic Kingdom, and do not buy it at Animal Kingdom.
+  - Typical window: no fixed opening — nights are released in batches through the year to no fixed close — the calendar has historically run heaviest from mid-winter to late summer, around 20 nights
+  - Price range: $139–$209 per-night, as of 2025 season
+- [Disney California Adventure Food & Wine Festival](https://parkseason.guide/events/disney-california-adventure-food-and-wine-festival/) — Disney California Adventure, festival. Confidence: expected. A two-month food festival included with admission, and the whole value sits in its first three weeks, before the spring break crowd arrives - that stretch is the second of the two quietest good windows at either Disney resort. After the schools break, it is the same festival in a park twice as full at a higher ticket price.
+  - Typical window: late February or early March to late April, around 60 nights
+  - Price range: $6–$15 included, as of July 2026
+- [Disney Jollywood Nights](https://parkseason.guide/events/disney-jollywood-nights/) — Disney's Hollywood Studios, hard-ticket. Confidence: historical. The best ride value of Walt Disney World's holiday hard tickets and the weakest content value — a late-night party at Hollywood Studios that is really an after-hours ticket with a jazz band attached.
+  - Typical window: mid-November to late December, around 10 nights
+  - Price range: $159–$209 per-night, as of 2025 season
+- [Disneyland After Dark](https://parkseason.guide/events/disneyland-after-dark/) — disneyland, after-hours. Confidence: historical. A series of separately ticketed themed nights rather than one recurring event, and the theme is what you are actually paying for - the short ride waits are a side effect, not the product. Buy it when the night's theme is something you would pay for on its own, and never buy it as a way to skip lines.
+  - Typical window: late January to late June, around 12 nights
+  - Price range: $139–$209 per-night, as of 2025 season
+- [EPCOT International Festival of the Arts](https://parkseason.guide/events/epcot-festival-of-the-arts/) — EPCOT, festival. Confidence: expected. The best EPCOT festival to build a whole park day around and the weakest one to eat at — come for the Broadway concert series, the working artists and the lowest crowds of the Walt Disney World year.
+  - Typical window: mid-January to late February, around 45 nights
+  - Price range: $5–$13 included, as of July 2026
+- [EPCOT International Festival of the Holidays](https://parkseason.guide/events/epcot-festival-of-the-holidays/) — EPCOT, festival. Confidence: expected. Go in the two weeks before Thanksgiving and treat the Candlelight Processional as the reason you came — go during Christmas week and you will pay the year's peak prices to stand still on a promenade that does not move.
+  - Typical window: mid-November to 30 December, around 45 nights
+  - Price range: $5–$13 included, as of July 2026
+- [EPCOT International Flower & Garden Festival](https://parkseason.guide/events/epcot-flower-and-garden-festival/) — EPCOT, festival. Confidence: expected. The best food value of the four EPCOT festivals and the worst calendar — go in the opening fortnight before spring break arrives, and it is comfortably the strongest of the four for families with children.
+  - Typical window: late February/early March to early July, around 100 nights
+  - Price range: $5–$13 included, as of July 2026
+- [EPCOT International Food & Wine Festival](https://parkseason.guide/events/epcot-food-and-wine-festival/) — EPCOT, festival. Confidence: expected. The best festival Disney runs and the most expensive way to eat at a theme park — go on a weekday, budget around $60 a head, and treat the booths as dinner rather than as snacks you graze between rides.
+  - Typical window: late July/August to mid-November, around 100 nights
+  - Price range: $5–$13 included, as of July 2026
+- [Halloween Time at the Disneyland Resort](https://parkseason.guide/events/halloween-time-at-the-disneyland-resort/) — disneyland, overlay. Confidence: expected. Included with any regular ticket, which is the whole argument for it, and the two attractions it repaints are better than the versions they replace. What you give up is those versions: Haunted Mansion Holiday is what you get instead of the Haunted Mansion, not in addition to it, and it holds the longest wait in its park all season.
+  - Typical window: late August to 31 October, around 70 nights
+  - Price range: $6–$15 included, as of July 2026
+- [Holidays at the Disneyland Resort](https://parkseason.guide/events/holidays-at-the-disneyland-resort/) — disneyland, overlay. Confidence: expected. The strongest value proposition of any seasonal offering at either Disney resort, because it is the only one on this scale that costs nothing beyond a regular ticket: five ride overlays, a parade, two nighttime shows, and a full food festival, all included. The price is paid in crowds, and in the last two weeks of December you pay a great deal of them.
+  - Typical window: mid-November to early to mid-January, around 57 nights
+  - Price range: $6–$15 included, as of July 2026
+- [Lunar New Year at Disney California Adventure](https://parkseason.guide/events/lunar-new-year-at-disney-california-adventure/) — Disney California Adventure, festival. Confidence: expected. Along with the spring Food & Wine Festival, this is one of the two quietest good windows at either Disney resort: a real food festival included with admission, running through the deadest stretch of the Disneyland Resort calendar, with headliner waits at their annual low and a genuine chance of walking on to Radiator Springs Racers before noon.
+  - Typical window: mid-January to mid-February, around 30 nights
+  - Price range: $6–$15 included, as of July 2026
+- [Mickey's Not-So-Scary Halloween Party](https://parkseason.guide/events/mickeys-not-so-scary-halloween-party/) — Magic Kingdom, hard-ticket. Confidence: expected. Worth buying once, on an early-season weeknight, and only if you accept that you are paying for a parade, a fireworks show and character lines that exist on no other date — not for a night of short ride waits.
+  - Typical window: mid-August to 1 November, around 38 nights
+  - Price range: $119–$219 per-night, as of 2025 season
+- [Mickey's Very Merry Christmas Party](https://parkseason.guide/events/mickeys-very-merry-christmas-party/) — Magic Kingdom, hard-ticket. Confidence: expected. The weakest value of the three Walt Disney World hard-ticket parties, because almost everything people buy it for — the decorations, the castle lighting, the holiday ride overlays — is already included with an ordinary November park ticket.
+  - Typical window: early November to shortly before Christmas, around 24 nights
+  - Price range: $169–$219 per-night, as of 2025 season
+- [Oogie Boogie Bash - A Disney Halloween Party](https://parkseason.guide/events/oogie-boogie-bash/) — Disney California Adventure, hard-ticket. Confidence: expected. The best hard-ticket night either Disney resort runs, and the hardest one to buy: Oogie Boogie Bash sells out months before the season starts, which makes the ticket-buying strategy more important than anything that happens at the party itself.
+  - Typical window: early to mid-August to 31 October, around 27 nights
+  - Price range: $154–$224 per-night, as of 2025 season
+
+## When to go
+
+- [January](https://parkseason.guide/when-to-go/january/) — grade A-. The quietest, cheapest four weeks at both resorts once New Year's traffic clears. The catch is short park hours and the heaviest refurbishment schedule of the year.
+- [February](https://parkseason.guide/when-to-go/february/) — grade B. Excellent everywhere except Presidents' week, which behaves like a holiday week. Four festivals run this month — more seasonal content per day than any other point on the calendar.
+- [March](https://parkseason.guide/when-to-go/march/) — grade C+. Perfect Orlando weather, permanently high attendance, and upper-tier pricing for four straight weeks. Go in the first week or accept that every day will be busy.
+- [April](https://parkseason.guide/when-to-go/april/) — grade C-. The most expensive and most crowded non-summer month, carrying the year's second-largest peak. Its saving grace is a genuine price and crowd cliff once the holiday clears.
+- [May](https://parkseason.guide/when-to-go/may/) — grade A-. Book the first two weeks and this is close to the best trip available all year. Book the last week and you have paid summer prices for summer crowds without summer's long hours.
+- [June](https://parkseason.guide/when-to-go/june/) — grade D+. Bad at Walt Disney World and merely busy at Disneyland. If June is the only month available and the resort is not fixed, this is the strongest case on the calendar for choosing Anaheim.
+- [July](https://parkseason.guide/when-to-go/july/) — grade D-. Peak prices, a flat four-week crowd plateau, and an Orlando heat index over 100 most afternoons. Go only if the school calendar leaves you no choice, and plan fewer park days than you think.
+- [August](https://parkseason.guide/when-to-go/august/) — grade C. The first half is July with worse humidity. The second half is one of the year's genuine value windows at Walt Disney World and still peak season at Disneyland.
+- [September](https://parkseason.guide/when-to-go/september/) — grade A. The lowest waits and the lowest prices of the year at Walt Disney World, bought with heat and storm risk. Disneyland is a different answer — Halloween keeps its weekends genuinely busy.
+- [October](https://parkseason.guide/when-to-go/october/) — grade B-. Excellent weather and the strongest seasonal program on the calendar, sold at fall-peak prices with weekend crowds to match. Go midweek or accept that you chose a busy month.
+- [November](https://parkseason.guide/when-to-go/november/) — grade B+. You can buy December's product on November's prices for about two weeks, then Thanksgiving arrives. One local school break in early November is the trap most planners miss.
+- [December](https://parkseason.guide/when-to-go/december/) — grade C. Early December is an A. The holiday week is close to an F. There is no middle, and the difference between them is about ten days and roughly double the room rate.
+
+## Prices
+
+- [Disney annual pass prices, and exactly how many days each tier takes to pay for itself](https://parkseason.guide/prices/annual-passes/) — confidence: historical. Every annual pass tier at both resorts pays for itself somewhere between two and eighteen park days, and the tier you should buy is decided almost entirely by blockout dates rather than by price — a cheap pass blocked on the only week you can travel is worth nothing at all.
+- [Disney Dining Plan prices, and the arithmetic that decides whether to buy one](https://parkseason.guide/prices/dining-plans/) — confidence: historical. Neither Walt Disney World dining plan saves most families money at menu prices, and the single variable that decides it is alcohol — both plans include it for guests 21 and over, and without it the Quick-Service plan loses money for almost everyone who buys it.
+- [Lightning Lane prices at both resorts, and what each one works out at per skipped queue](https://parkseason.guide/prices/lightning-lane/) — confidence: historical. Lightning Lane costs between $15 and $449 per person per day depending on which product you buy and which date you buy it for, and the spread inside a single product is wide enough that moving your park day is worth more than any booking tactic.
+- [Disney park ticket prices at both resorts, and the only number worth comparing](https://parkseason.guide/prices/park-tickets/) — confidence: historical. A Disney ticket's headline price is close to meaningless because the per-day cost falls by roughly half between a one-day ticket and a ten-day one, which makes trip length, not date-shopping, the decision that controls what you spend on admission.
+- [Disney parking and transport costs at both resorts, and when to leave the car behind](https://parkseason.guide/prices/parking-and-transportation/) — confidence: historical. Parking is the one Disney cost that is trivial to eliminate at Walt Disney World and awkward to eliminate at the Disneyland Resort, which reverses the usual advice about hiring a car — in Florida the free transport network is genuinely comprehensive, and in Anaheim a car is often the cheaper option.
+
+## About
+
+- [Editorial policy](https://parkseason.guide/editorial-policy/) — the confidence model in full, and why we will not publish unannounced dates
+- [About](https://parkseason.guide/about/) · [Affiliate disclosure](https://parkseason.guide/affiliate-disclosure/) · [Privacy](https://parkseason.guide/privacy/) · [Terms](https://parkseason.guide/terms/)

@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 
-import { foodTrackerOrder, PARK_ORDER } from '../src/lib/data.mjs'
+import { foodTrackerOrder } from '../src/lib/data.mjs'
 
 /**
  * The Food Tracker encodes saved state as two bits per item at a fixed position in this order, so a
@@ -11,11 +11,14 @@ import { foodTrackerOrder, PARK_ORDER } from '../src/lib/data.mjs'
  */
 
 function fakeData (parkFood) {
+  // `parks` arrives from the loader already in the order site.json declares, so these fixtures are
+  // written in that same order — object key order is the ordering under test.
   const parks = Object.entries(parkFood).map(([slug, ids]) => ({
     slug,
     food: ids.map((id) => ({ id })),
   }))
   return {
+    parks,
     parkBySlug: new Map(parks.map((p) => [p.slug, p])),
     allFood: parks.flatMap((p) => p.food),
     foodOrder: null,
@@ -67,11 +70,17 @@ test('a stable dataset produces no change', () => {
   assert.deepEqual(order.appended, [])
 })
 
-test('parks are appended in the canonical park order, not discovery order', () => {
+test('parks are appended in the order the loader supplied, not alphabetically', () => {
+  // The canonical order used to come from a hardcoded PARK_ORDER here; it now comes from each
+  // operator's site.json via the loader. The guarantee that matters is unchanged — whatever order
+  // the loader hands over is the order ids are appended in — but it is now the loader's order being
+  // trusted, so that is what this pins.
   const data = fakeData({ 'california-adventure': ['dca-a'], 'magic-kingdom': ['mk-a'] })
   const order = foodTrackerOrder(data)
-  assert.deepEqual(order.ids, ['mk-a', 'dca-a'])
-  assert.equal(PARK_ORDER[0], 'magic-kingdom')
+  assert.deepEqual(order.ids, ['dca-a', 'mk-a'], 'declared order wins over alphabetical')
+
+  const reversed = fakeData({ 'magic-kingdom': ['mk-a'], 'california-adventure': ['dca-a'] })
+  assert.deepEqual(foodTrackerOrder(reversed).ids, ['mk-a', 'dca-a'])
 })
 
 /* ---- the encoder itself, mirrored from assets/js/food-tracker.js ---- */

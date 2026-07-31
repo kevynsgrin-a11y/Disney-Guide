@@ -1,0 +1,11 @@
+{
+  "note": "The site network. Each operator is a complete, independently-branded site on its own domain, built from its own subtree of data/ into its own subtree of dist/. They share this repository's generator, component library, tools, and gates — and nothing else. Order here is build order and is otherwise cosmetic.",
+  "operators": [
+    {
+      "slug": "disney",
+      "name": "Disney Parks",
+      "dir": "disney",
+      "status": "live"
+    }
+  ]
+}
