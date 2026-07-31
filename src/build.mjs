@@ -1,8 +1,10 @@
 /**
  * Static site build.
  *
- * Reads every JSON file under data/, renders the full page graph, and writes a deployable
- * directory to dist/. No dependencies, no framework, no incremental cache — the whole site
+ * Renders one operator's site — `node src/build.mjs universal`, defaulting to every operator in
+ * data/operators.json — into dist/<operator>/. Each is a complete, independently-branded site for
+ * its own domain; they share this generator and nothing else, so the build takes the operator as an
+ * argument rather than reading a global. No dependencies, no framework, no incremental cache — the whole site
  * builds in well under a second, which is the point.
  *
  * The site has two kinds of content and one build. Permanent pages (parks, rides, dining, maps,
@@ -16,7 +18,7 @@ import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 
-import { loadData, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
+import { loadData, operators, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
@@ -39,16 +41,16 @@ const started = performance.now()
  * Output helpers
  * ------------------------------------------------------------------ */
 
-function outputPath (url) {
-  if (url === '/') return join(DIST_DIR, 'index.html')
+function outputPath (dist, url) {
+  if (url === '/') return join(dist, 'index.html')
   if (url.endsWith('.html') || url.endsWith('.xml') || url.endsWith('.txt') || url.endsWith('.json')) {
-    return join(DIST_DIR, url.replace(/^\//, ''))
+    return join(dist, url.replace(/^\//, ''))
   }
-  return join(DIST_DIR, url.replace(/^\//, '').replace(/\/$/, ''), 'index.html')
+  return join(dist, url.replace(/^\//, '').replace(/\/$/, ''), 'index.html')
 }
 
-async function writeOut (url, contents) {
-  const path = outputPath(url)
+async function writeOut (dist, url, contents) {
+  const path = outputPath(dist, url)
   await mkdir(dirname(path), { recursive: true })
   await writeFile(path, contents, 'utf8')
   return path
@@ -206,13 +208,11 @@ function buildSearchIndex (data, seasonal) {
  * Sitemap / robots / manifest
  * ------------------------------------------------------------------ */
 
-const STALE_URLS = new Set()
-
-function priorityFor (url) {
+function priorityFor (url, staleUrls) {
   // A page past its own review date keeps its place in the index but loses its claim on crawl
   // priority. Telling a crawler to prioritise a page that carries a "needs rechecking" banner would
   // be talking out of both sides.
-  if (STALE_URLS.has(url)) return '0.3'
+  if (staleUrls.has(url)) return '0.3'
   if (url === '/') return '1.0'
   if (/^\/(walt-disney-world|disneyland)\/[^/]+\/$/.test(url)) return '0.9'
   if (url.includes('/height-requirements/') || url.startsWith('/tools/')) return '0.9'
@@ -225,14 +225,14 @@ function priorityFor (url) {
   return '0.6'
 }
 
-function buildSitemap (site, pages) {
+function buildSitemap (site, pages, staleUrls) {
   const entries = pages
     .filter((p) => !p.url.endsWith('.html') && p.url !== '/offline/')
     .map((p) => `  <url>
     <loc>${site.brand.origin}${p.url}</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>${p.url === '/' ? 'weekly' : 'monthly'}</changefreq>
-    <priority>${priorityFor(p.url)}</priority>
+    <priority>${priorityFor(p.url, staleUrls)}</priority>
   </url>`)
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -481,14 +481,14 @@ const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 </svg>
 `
 
-async function copyAssets () {
-  await cp(ASSETS_DIR, join(DIST_DIR, 'assets'), { recursive: true })
+async function copyAssets (dist) {
+  await cp(ASSETS_DIR, join(dist, 'assets'), { recursive: true })
   // sw.js is templated below, so it must not also ship as a raw asset.
-  await rm(join(DIST_DIR, 'assets', 'sw.js'), { force: true })
-  await writeFile(join(DIST_DIR, 'assets', 'img', 'favicon.svg'), FAVICON, 'utf8')
+  await rm(join(dist, 'assets', 'sw.js'), { force: true })
+  await writeFile(join(dist, 'assets', 'img', 'favicon.svg'), FAVICON, 'utf8')
 }
 
-async function buildServiceWorker (data, pages) {
+async function buildServiceWorker (dist, data, pages) {
   const template = await readFile(join(ASSETS_DIR, 'sw.js'), 'utf8')
   const precache = [
     '/',
@@ -516,7 +516,7 @@ async function buildServiceWorker (data, pages) {
   const output = template
     .replace('__VERSION__', version)
     .replace('__PRECACHE__', JSON.stringify([...new Set(precache)]))
-  await writeFile(join(DIST_DIR, 'sw.js'), output, 'utf8')
+  await writeFile(join(dist, 'sw.js'), output, 'utf8')
   return precache.length
 }
 
@@ -524,30 +524,33 @@ async function buildServiceWorker (data, pages) {
  * Run
  * ------------------------------------------------------------------ */
 
-async function main () {
-  // loadSeasonal() loads the evergreen dataset too and hands it back, so the site's data is read
-  // once rather than twice — the seasonal side has to resolve park and attraction slugs against it.
-  const seasonal = await loadSeasonal()
-  const data = seasonal.site1Data
+async function buildOperator (operator) {
+  const dist = join(DIST_DIR, operator.slug)
+  const dataDir = await operatorDir(operator.slug)
+
+  // The evergreen dataset is read once and handed to the seasonal loader, which needs it to resolve
+  // park and attraction slugs.
+  const data = await loadData(operator.slug)
+  const seasonal = await loadSeasonal(operator.slug, data)
 
   // Collected during load so the validator can report every break in one pass; the build refuses
   // to ship any of them.
   assertIntegrity(seasonal)
 
   if (!data.parks.length) {
-    console.error('\n  No park data found under data/parks/. Nothing to build.\n')
+    console.error(`\n  No park data found under data/${operator.slug}/parks/. Nothing to build.\n`)
     process.exitCode = 1
-    return
+    return null
   }
 
-  await rm(DIST_DIR, { recursive: true, force: true })
-  await mkdir(DIST_DIR, { recursive: true })
+  await rm(dist, { recursive: true, force: true })
+  await mkdir(dist, { recursive: true })
 
   // Persist any newly-added food ids before rendering, so the tracker page and the manifest on
   // disk always encode against the same ordering.
   const order = foodTrackerOrder(data)
   if (order.changed) {
-    await writeFile(join(DATA_DIR, 'food-order.json'), JSON.stringify({
+    await writeFile(join(dataDir, 'food-order.json'), JSON.stringify({
       version: 1,
       note: 'Canonical, APPEND-ONLY order for Food Tracker share links. Never reorder or remove an id — share links encode positions in this array. Ids of removed items stay as tombstones on purpose.',
       ids: order.ids,
@@ -556,35 +559,35 @@ async function main () {
 
   const pages = buildPages(data, seasonal)
 
+  const staleUrls = new Set()
   for (const entity of [...seasonal.events, ...seasonal.months, ...seasonal.holidays, ...seasonal.prices, ...seasonal.closures]) {
-    if (entity.staleness.state === 'stale') STALE_URLS.add(entity.url)
+    if (entity.staleness.state === 'stale') staleUrls.add(entity.url)
   }
 
   const seen = new Set()
   for (const page of pages) {
     if (seen.has(page.url)) throw new Error(`Duplicate output URL: ${page.url}`)
     seen.add(page.url)
-    await writeOut(page.url, page.html)
+    await writeOut(dist, page.url, page.html)
   }
 
-  await copyAssets()
-  await writeFile(join(DIST_DIR, 'sitemap.xml'), buildSitemap(data.site, pages), 'utf8')
-  await writeFile(join(DIST_DIR, 'robots.txt'), buildRobots(data.site), 'utf8')
-  await writeFile(join(DIST_DIR, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
-  await writeFile(join(DIST_DIR, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
-  await writeFile(join(DIST_DIR, '_headers'), buildHeaders(), 'utf8')
-  await writeFile(join(DIST_DIR, '_redirects'), buildRedirects(), 'utf8')
-  await writeFile(join(ROOT, 'vercel.json'), buildVercelConfig(), 'utf8')
+  await copyAssets(dist)
+  await writeFile(join(dist, 'sitemap.xml'), buildSitemap(data.site, pages, staleUrls), 'utf8')
+  await writeFile(join(dist, 'robots.txt'), buildRobots(data.site), 'utf8')
+  await writeFile(join(dist, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
+  await writeFile(join(dist, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
+  await writeFile(join(dist, '_headers'), buildHeaders(), 'utf8')
+  await writeFile(join(dist, '_redirects'), buildRedirects(), 'utf8')
 
   // Standalone, downloadable map plates. A downloaded file has no stylesheet, so the renderer
   // inlines one; everything else is already self-contained by design.
-  await mkdir(join(DIST_DIR, 'maps'), { recursive: true })
+  await mkdir(join(dist, 'maps'), { recursive: true })
   let mapCount = 0
   for (const park of data.parks) {
     const rendered = renderParkMap(park, { standalone: true })
     if (!rendered) continue
     await writeFile(
-      join(DIST_DIR, 'maps', `${park.slug}-map.svg`),
+      join(dist, 'maps', `${park.slug}-map.svg`),
       `<?xml version="1.0" encoding="UTF-8"?>\n${rendered.svg}\n`,
       'utf8'
     )
@@ -592,9 +595,9 @@ async function main () {
   }
 
   const searchIndex = buildSearchIndex(data, seasonal)
-  await writeFile(join(DIST_DIR, 'search-index.json'), JSON.stringify(searchIndex), 'utf8')
+  await writeFile(join(dist, 'search-index.json'), JSON.stringify(searchIndex), 'utf8')
 
-  const precacheCount = await buildServiceWorker(data, pages)
+  const precacheCount = await buildServiceWorker(dist, data, pages)
 
   // Report
   let bytes = 0
@@ -605,7 +608,7 @@ async function main () {
       else bytes += (await stat(path)).size
     }
   }
-  await measure(DIST_DIR)
+  await measure(dist)
 
   const ms = Math.round(performance.now() - started)
   const counts = {
@@ -626,7 +629,7 @@ async function main () {
   const editions = seasonal.events.reduce((n, e) => n + e.editions.length, 0)
 
   console.log(`
-  Built ${pages.length} pages in ${ms}ms  ·  ${(bytes / 1024 / 1024).toFixed(2)} MB in dist/
+  ${operator.name} — ${pages.length} pages in ${ms}ms  ·  ${(bytes / 1024 / 1024).toFixed(2)} MB in dist/${operator.slug}/
 
     ${counts.parks} parks · ${counts.lands} land pages
     ${counts.attractions} attractions documented → ${counts.attractionPages} standalone pages
@@ -636,15 +639,55 @@ async function main () {
 
     seasonal: ${seasonal.events.length} events (${editions} editions) · ${seasonal.months.length} months · ${seasonal.holidays.length} holidays · ${seasonal.prices.length} price pages · ${seasonal.closures.length} closure trackers
     confidence: ${byConfidence.confirmed} confirmed, ${byConfidence.expected} expected, ${byConfidence.historical} historical${byConfidence.unknown ? `, ${byConfidence.unknown} unverified` : ''}
-    ${STALE_URLS.size} page${STALE_URLS.size === 1 ? '' : 's'} past review, demoted in the sitemap
+    ${staleUrls.size} page${staleUrls.size === 1 ? '' : 's'} past review, demoted in the sitemap
 
     ${searchIndex.count} search index entries · ${precacheCount} precached URLs
     ${mapCount} downloadable map plates
     food share order: ${order.ids.length} slots${order.appended.length ? `, ${order.appended.length} appended this build` : ''}${order.tombstones.length ? `, ${order.tombstones.length} tombstoned` : ''}
 `)
+
+  return pages.length
+}
+
+/**
+ * Build one operator, or every operator in the registry.
+ *
+ *   node src/build.mjs            → all of them
+ *   node src/build.mjs disney     → just that one
+ */
+async function main () {
+  const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
+  const all = await operators()
+  const targets = requested.length
+    ? requested.map((slug) => {
+        const found = all.find((o) => o.slug === slug)
+        if (!found) throw new Error(`Unknown operator "${slug}". data/operators.json declares: ${all.map((o) => o.slug).join(', ')}`)
+        return found
+      })
+    : all
+
+  if (!targets.length) {
+    console.error('\n  data/operators.json declares no operators. Nothing to build.\n')
+    process.exitCode = 1
+    return
+  }
+
+  // A full build owns all of dist/ and clears it, so output from a removed operator cannot linger.
+  // A targeted build clears only its own subtree, so it cannot destroy a sibling's output.
+  if (!requested.length) await rm(DIST_DIR, { recursive: true, force: true })
+
+  let total = 0
+  for (const operator of targets) {
+    const built = await buildOperator(operator)
+    if (built) total += built
+  }
+
+  if (targets.length > 1) {
+    console.log(`  ${total} pages across ${targets.length} sites.\n`)
+  }
 }
 
 main().catch((err) => {
-  console.error('\nBuild failed:\n', err)
+  console.error('\nBuild failed:\n', err.message || err)
   process.exitCode = 1
 })

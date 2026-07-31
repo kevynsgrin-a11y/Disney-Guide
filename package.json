@@ -13,7 +13,7 @@
     "validate": "node scripts/validate.mjs && node scripts/validate-seasonal.mjs",
     "factcheck": "node scripts/factcheck.mjs && node scripts/factcheck-seasonal.mjs",
     "test": "node --test test/*.test.mjs",
-    "serve": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs dist/disney",
     "dev": "npm run build && npm run serve",
     "audit:site": "node scripts/audit.mjs",
     "check": "npm run test && npm run build && npm run audit:site",

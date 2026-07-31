@@ -15,93 +15,50 @@
 import { readFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const DATA = join(ROOT, 'data')
+
+/**
+ * Reference tables live in scripts/reference/<operator>.mjs, loaded per run.
+ *
+ * They stay hard-coded — that is the entire point of a second source of truth — but they are no
+ * longer hard-coded *here*, so onboarding an operator means writing its own tables rather than
+ * editing everyone else's.
+ */
+let DATA = join(ROOT, 'data')
+let HEIGHTS = {}
+let MUST_BE_CLOSED = {}
+let MUST_BE_OPEN = {}
+let SNACK_PRICES = []
+let SEASONAL = []
+let PARK_SLUGS = []
+
+async function loadReference (operatorSlug) {
+  const { operatorDir, parkOrder } = await import('../src/lib/data.mjs')
+  DATA = await operatorDir(operatorSlug)
+  const site = JSON.parse(await readFile(join(DATA, 'site.json'), 'utf8'))
+  PARK_SLUGS = parkOrder(site)
+
+  const path = join(ROOT, 'scripts', 'reference', `${operatorSlug}.mjs`)
+  if (!existsSync(path)) {
+    throw new Error(`No reference tables at scripts/reference/${operatorSlug}.mjs. Every operator needs its own — a dataset checked against nothing is not checked.`)
+  }
+  const ref = await import(pathToFileURL(path).href)
+  HEIGHTS = ref.HEIGHTS || {}
+  MUST_BE_CLOSED = ref.MUST_BE_CLOSED || {}
+  MUST_BE_OPEN = ref.MUST_BE_OPEN || {}
+  SNACK_PRICES = ref.SNACK_PRICES || []
+  SEASONAL = ref.SEASONAL || []
+}
 
 /* ------------------------------------------------------------------ *
  * The reference tables. Verified July 2026. Edit deliberately.
  * ------------------------------------------------------------------ */
 
-const HEIGHTS = {
-  'magic-kingdom': {
-    'tomorrowland speedway': 32,
-    'barnstormer': 35,
-    'seven dwarfs mine train': 38,
-    'big thunder mountain': 38,
-    "tiana's bayou adventure": 40,
-    'space mountain': 44,
-    'tron lightcycle': 48,
-  },
-  epcot: {
-    "soarin'": 40,
-    'test track': 40,
-    'guardians of the galaxy': 42,
-  },
-  'hollywood-studios': {
-    'alien swirling saucers': 32,
-    'slinky dog dash': 38,
-    'millennium falcon': 38,
-    'star tours': 40,
-    'rise of the resistance': 40,
-    'tower of terror': 40,
-    "rock 'n' roller coaster": 48,
-  },
-  'animal-kingdom': {
-    'kali river rapids': 38,
-    'avatar flight of passage': 44,
-    'expedition everest': 44,
-  },
-  'disneyland-park': {
-    'autopia': 32,
-    "gadget's go coaster": 35,
-    'big thunder mountain': 40,
-    'space mountain': 40,
-    "tiana's bayou adventure": 40,
-    'rise of the resistance': 40,
-    'millennium falcon': 40,
-    'matterhorn bobsleds': 42,
-    'indiana jones adventure': 46,
-  },
-  'california-adventure': {
-    'jumpin jellyfish': 40,
-    'silly symphony swings': 40,
-    'inside out emotional whirlwind': 40,
-    'mission: breakout': 40,
-    'radiator springs racers': 40,
-    "goofy's sky school": 42,
-    'grizzly river run': 42,
-    'golden zephyr': 42,
-    'incredicoaster': 48,
-  },
-}
 
-/** Attractions that must be present AND marked closed. */
-const MUST_BE_CLOSED = {
-  'magic-kingdom': ['rivers of america', 'tom sawyer island', 'liberty belle'],
-  // "muppet vision", not "muppet" — Rock 'n' Roller Coaster Starring The Muppets is operating.
-  'hollywood-studios': ['muppet vision'],
-  'animal-kingdom': ['dinosaur'],
-  'california-adventure': ['mike & sulley'],
-}
 
-/** Attractions that must be present AND operating. */
-const MUST_BE_OPEN = {
-  'magic-kingdom': ['big thunder mountain', 'buzz lightyear'],
-  epcot: ['test track', 'guardians of the galaxy'],
-  'hollywood-studios': ["rock 'n' roller coaster"],
-  'disneyland-park': ['tom sawyer island', 'mark twain', 'indiana jones adventure', 'matterhorn'],
-}
 
-/** Verified snack prices. A dataset price must match, or be explained by a different location. */
-const SNACK_PRICES = [
-  { match: 'mickey pretzel', parks: ['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom'], price: 8.5 },
-  { match: 'churro', parks: ['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom'], price: 5.5 },
-  { match: 'ronto wrap', parks: ['hollywood-studios'], price: 13.99 },
-  { match: 'ronto wrap', parks: ['disneyland-park'], price: 14.49 },
-  { match: 'chili cone queso', parks: ['california-adventure'], price: 11.49 },
-]
 
 /**
  * Words banned as filler. The boolean field `iconic` is exempt; this is about prose.
@@ -111,19 +68,6 @@ const SNACK_PRICES = [
 const FILLER = ['magical', 'immersive', 'unforgettable', 'beloved', 'nestled', 'delve', 'a testament to', 'whimsical']
 const FILLER_OPENERS = ['whether you', 'in the world of', 'from the moment you']
 
-/**
- * Seasonal content that must not appear on an evergreen page.
- *
- * The two kinds of content share a site but not a data tree, and this is what keeps one canonical
- * owner per topic: an evergreen page naming a party night has quietly become a second owner of a
- * fact that will move without it.
- */
-const SEASONAL = [
-  'not-so-scary', 'not so scary', 'very merry', 'food & wine festival', 'food and wine festival',
-  'flower & garden', 'flower and garden', 'festival of the arts', 'festival of the holidays',
-  'oogie boogie bash', 'haunted mansion holiday', 'ghost galaxy', 'hyperspace mountain',
-  'jingle cruise',
-]
 
 /* ------------------------------------------------------------------ *
  * Machinery
@@ -139,7 +83,7 @@ const note = (where, message) => notes.push(`${where}: ${message}`)
 const norm = (s) => String(s).toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9&: ]+/g, ' ').replace(/\s+/g, ' ').trim()
 const matches = (name, needle) => norm(name).includes(norm(needle))
 
-const PARKS = Object.keys(HEIGHTS)
+const PARKS = () => PARK_SLUGS
 
 async function readJson (path) {
   return JSON.parse(await readFile(path, 'utf8'))
@@ -258,7 +202,7 @@ async function checkPark (slug) {
 
 async function checkProse () {
   const files = []
-  for (const slug of PARKS) {
+  for (const slug of PARKS()) {
     for (const name of ['park.json', 'attractions.json', 'dining.json', 'food.json', 'best-rides.json']) {
       const path = join(DATA, 'parks', slug, name)
       if (existsSync(path)) files.push([`${slug}/${name}`, path])
@@ -316,7 +260,7 @@ async function checkGuideCounts () {
   const { readdir } = await import('node:fs/promises')
   let total = 0
   const byHeight = new Map()
-  for (const slug of PARKS) {
+  for (const slug of PARKS()) {
     const file = join(DATA, 'parks', slug, 'attractions.json')
     if (!existsSync(file)) return // incomplete dataset — counts would be misleading
     for (const a of (await readJson(file)).attractions || []) {
@@ -364,10 +308,17 @@ async function checkLightningLaneClaims () {
  * Run
  * ------------------------------------------------------------------ */
 
-for (const slug of PARKS) await checkPark(slug)
-await checkProse()
-await checkGuideCounts()
-await checkLightningLaneClaims()
+const { operators } = await import('../src/lib/data.mjs')
+const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
+const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+
+for (const operatorSlug of targets) {
+  await loadReference(operatorSlug)
+  for (const slug of PARKS()) await checkPark(slug)
+  await checkProse()
+  await checkGuideCounts()
+  await checkLightningLaneClaims()
+}
 
 if (notes.length) {
   console.log(`\n  ${notes.length} note${notes.length === 1 ? '' : 's'}:`)
@@ -383,4 +334,4 @@ if (problems.length) {
   process.exit(1)
 }
 
-console.log(`\n  Facts check out against the July 2026 reference tables${notes.length ? ` (${notes.length} note${notes.length === 1 ? '' : 's'})` : ''}.\n`)
+console.log(`\n  Facts check out against the July 2026 reference tables for ${targets.length} operator${targets.length === 1 ? '' : 's'}${notes.length ? ` (${notes.length} note${notes.length === 1 ? '' : 's'})` : ''}.\n`)

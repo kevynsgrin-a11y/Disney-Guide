@@ -1,0 +1,9 @@
+# Park Season Guide
+User-agent: *
+Allow: /
+Disallow: /offline/
+
+Sitemap: https://parkseason.guide/sitemap.xml
+
+# Evergreen sister site: https://rideready.guide
+# Plain-text site index for answer engines: https://parkseason.guide/llms.txt

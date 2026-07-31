@@ -16,6 +16,7 @@ jobs:
           node-version: 22
 
       # No dependencies by design — test, validate, build, then audit the rendered output.
+      # Every step runs across every operator in data/operators.json.
       - name: Unit tests
         run: npm test
 
@@ -32,7 +33,7 @@ jobs:
       - name: Audit rendered site
         run: npm run audit:site
 
-      - name: Upload build
+      - name: Upload builds
         uses: actions/upload-artifact@v4
         with:
           name: dist

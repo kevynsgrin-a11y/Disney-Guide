@@ -1,22 +1,30 @@
-# Ride Ready Guide
+# Theme park guides
 
-A static, data-driven guide to the US theme parks, on one domain. Every page is generated from JSON.
-No framework, no runtime dependencies, no build tooling beyond Node itself.
+A generator for a network of independently-branded theme park guides. Every page is produced from
+JSON. No framework, no runtime dependencies, no build tooling beyond Node itself.
 
-The site carries two kinds of content, and the difference is structural:
+Each **operator** in `data/operators.json` is a complete site on its own domain, built from its own
+subtree of `data/` into its own subtree of `dist/`. They share this generator, the component library,
+the tools, and all four gates — and nothing else. Adding one is a content exercise: see
+`docs/NEW-OPERATOR.md`.
+
+| Operator | Covers | Data | Output |
+|---|---|---|---|
+| `disney` | Six US Disney parks | `data/disney/` | `dist/disney/` |
+
+Within any one operator the site carries two kinds of content, and the difference is structural:
 
 | | **Permanent** | **Dated** |
 |---|---|---|
 | Covers | Heights, ride mechanics, accessibility, dining, maps | Events, prices, closures, when to go |
-| Lives in | `data/` | `data/seasonal/` |
+| Lives in | `data/<operator>/` | `data/<operator>/seasonal/` |
 | Contract | `docs/DATA-SCHEMA.md` | `docs/SEASONAL-SCHEMA.md` |
 | Stamped with | The month it was last checked | That, plus a confidence level and a review date |
 
-They were briefly two sites on two domains. Merging them put every cross-link back inside one
-origin, which is where the linking actually pays — and gave the search index, the tools, and the
-authority profile one place to compound. **One canonical owner per topic** still holds, and both
-fact checkers fail the build if a topic drifts across the line: the evergreen one rejects seasonal
-needles, the seasonal one rejects permanent facts.
+Both live on one origin per operator, because the cross-links between them are the whole point and
+they only pay inside a single domain. **One canonical owner per topic** holds, and both fact checkers
+fail the build if a topic drifts across the line: the evergreen one rejects seasonal needles, the
+seasonal one rejects permanent facts.
 
 > **Independent and unofficial.** Not affiliated with, endorsed by, or sponsored by The Walt Disney
 > Company or any other park operator. Park, attraction, restaurant, event, and character names are
@@ -29,8 +37,8 @@ needles, the seasonal one rejects permanent facts.
 ```bash
 node --version        # 20 or newer
 npm test              # unit tests (node:test, no dependencies)
-npm run build         # validate both contracts, fact-check both, render dist/
-npm run serve         # preview dist/ at http://localhost:4321
+npm run build         # validate both contracts, fact-check both, render every operator
+npm run serve         # preview dist/disney/ at http://localhost:4321
 npm run dev           # build + serve
 npm run validate      # both validators
 npm run factcheck     # both reference-table checks
@@ -38,8 +46,17 @@ npm run audit:site    # post-build QA: links, titles, JSON-LD, disclaimers, fres
 npm run check         # test + build + audit, the full gate
 ```
 
-There is nothing to `npm install`. `package.json` has no runtime dependencies, on purpose — this
-site has to still build in five years.
+Every script takes an optional operator slug and defaults to all of them:
+
+```bash
+node src/build.mjs disney
+node scripts/validate.mjs disney
+node scripts/audit.mjs disney
+node scripts/serve.mjs dist/disney
+```
+
+There is nothing to `npm install`. `package.json` has no runtime dependencies, on purpose — these
+sites have to still build in five years.
 
 ---
 
@@ -88,23 +105,26 @@ actually act on.
 
 ```
 data/
-  site.json                     brand, resorts, nav, legal text, affiliate partners
-  parks/<slug>/park.json        park meta, lands, first-timer guide, accessibility, tips, FAQs
-  parks/<slug>/attractions.json every attraction
-  parks/<slug>/dining.json      every place to eat
-  parks/<slug>/food.json        curated must-try items — drives the Food Tracker
-  parks/<slug>/map.json         schematic map geometry
-  parks/<slug>/best-rides.json  the park's ranked best-rides page
-  guides/<slug>.json            evergreen guides
-  compare/<slug>.json           comparison pages
-  seasonal/events/<slug>.json   one per recurring event: the pattern page plus its year editions
-  seasonal/months/<01-12>.json  when-to-go, one per month
-  seasonal/holidays/<slug>.json cross-resort holiday hubs
-  seasonal/prices/<slug>.json   what things cost, as dated ranges
-  seasonal/closures/<resort>.json  refurbishment trackers
-  seasonal/calendar.json        the year-at-a-glance timeline
-docs/DATA-SCHEMA.md             the binding evergreen contract + verified reference tables
+  operators.json                the network registry: which sites exist and where their data lives
+  <operator>/
+    site.json                   brand, domain, resorts, nav, legal text, affiliate partners
+    parks/<slug>/park.json      park meta, lands, first-timer guide, accessibility, tips, FAQs
+    parks/<slug>/attractions.json every attraction
+    parks/<slug>/dining.json    every place to eat
+    parks/<slug>/food.json      curated must-try items — drives the Food Tracker
+    parks/<slug>/map.json       schematic map geometry
+    parks/<slug>/best-rides.json  the park's ranked best-rides page
+    guides/<slug>.json          evergreen guides
+    compare/<slug>.json         comparison pages
+    seasonal/events/<slug>.json   one per recurring event: the pattern page plus its year editions
+    seasonal/months/<01-12>.json  when-to-go, one per month
+    seasonal/holidays/<slug>.json cross-resort holiday hubs
+    seasonal/prices/<slug>.json what things cost, as dated ranges
+    seasonal/closures/<resort>.json  refurbishment trackers
+    seasonal/calendar.json      the year-at-a-glance timeline
+docs/DATA-SCHEMA.md             the binding evergreen contract
 docs/SEASONAL-SCHEMA.md         the binding dated contract + the freshness rules
+docs/NEW-OPERATOR.md            how to add a site to the network
 src/
   build.mjs                     orchestrator: renders dist/, sitemap, robots, manifest, sw, search index
   lib/                          html templating, formatters, data loaders + URL builders, schema.org,
@@ -116,6 +136,7 @@ assets/                         CSS, JS, service worker, icons — copied verbat
 test/                           unit tests for the escaping, formatting, schema, map,
                                 and share-link-ordering guarantees
 scripts/
+  reference/<operator>.mjs      the hard-coded second source of truth, one set per operator
   validate.mjs                  enforces docs/DATA-SCHEMA.md; runs before every build
   validate-seasonal.mjs         enforces docs/SEASONAL-SCHEMA.md, including cross-link integrity
   factcheck.mjs                 evergreen facts against hard-coded reference tables
@@ -269,8 +290,10 @@ Cloudflare Pages format and are ignored harmlessly elsewhere.
 | Setting | Value |
 |---|---|
 | Build command | `npm run build` |
-| Output directory | `dist` |
+| Output directory | `dist/<operator>` |
 | Node version | 20 or newer |
+
+One project per operator, each pointed at its own output directory and its own domain.
 
 Free tier, unlimited bandwidth, and commercial use is permitted — which matters, because the site
 carries affiliate links. Vercel's Hobby plan prohibits commercial use, so Vercel means Pro.

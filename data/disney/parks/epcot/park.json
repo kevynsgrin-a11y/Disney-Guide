@@ -1,0 +1,502 @@
+{
+  "slug": "epcot",
+  "name": "EPCOT",
+  "shortName": "EPCOT",
+  "resort": "walt-disney-world",
+  "resortName": "Walt Disney World",
+  "opened": "1982-10-01",
+  "sizeAcres": 300,
+  "location": "Bay Lake, Florida",
+  "coordinates": {
+    "lat": 28.3747,
+    "lng": -81.5494
+  },
+  "tagline": "Two parks in one: a science campus up front, eleven countries around a lake.",
+  "summary": "EPCOT is Walt Disney World's biggest and strangest park — a front half about technology and the natural world, and a back half that is a mile-and-a-quarter walking circuit through eleven country pavilions with the best food on property.",
+  "intro": [
+    "EPCOT is two parks wearing one gate. The front half — World Celebration, World Discovery and World Nature — is the science-campus idea Walt Disney World opened in 1982: a geodesic sphere with a ride inside it, a working greenhouse you sail through, a 5.7-million-gallon aquarium, and a launched roller coaster in the shell of the old energy pavilion. The back half is World Showcase, a lake ringed by eleven country pavilions with restaurants, shops, films, galleries and two of the park's headline rides.",
+    "Those halves want different things from you. The front rewards an early start and a plan: Test Track, Guardians of the Galaxy: Cosmic Rewind and Soarin' all build serious lines within an hour of opening and never really let go. The back rewards the opposite — a slow lap, a reservation, a drink you did not plan on, and a willingness to walk into a small dark gallery that nobody else is in. Trying to do both at the same pace is how people end up exhausted by 4 PM.",
+    "The park is roughly 300 acres, about twice the size of Magic Kingdom, and the walking is the single most underestimated fact about visiting. World Showcase Lagoon is about a mile and a quarter around, the promenade has long stretches with little shade, and the far pavilions are a genuine fifteen-minute walk from the front gate. Wear real shoes. Use the back entrance at International Gateway when it makes sense.",
+    "The last few years have changed the planning maths meaningfully. Test Track reopened in July 2025 as its third version under a returning General Motors sponsorship, and — importantly — it sits on Lightning Lane Multi Pass rather than Single Pass, which makes it one of the better value selections in the park. Cosmic Rewind no longer uses a virtual queue at all, so there is nothing to tap for at 7 AM; it runs a standard standby line with Single Pass sold separately.",
+    "Where EPCOT is unambiguously the best park at Walt Disney World is food. There are eleven national kitchens, a proper French bakery, a working wood-fired pizzeria, a tequila bar with hundreds of labels, and a bakery counter in Norway selling the best five-dollar item on the entire resort. If you plan one thing here, plan where you are eating."
+  ],
+  "bestFor": [
+    "Eating and drinking your way around the world",
+    "Adults and older kids",
+    "Slow, unhurried afternoons",
+    "Anyone who likes films, exhibits and design",
+    "Repeat visitors looking for something new"
+  ],
+  "notIdealFor": [
+    "Toddlers who need constant rides",
+    "Big-coaster thrill-seekers",
+    "Anyone who cannot walk two-plus miles",
+    "Character-meet-focused days"
+  ],
+  "stats": {
+    "attractionCount": 48,
+    "ridesWithHeightRequirements": 5,
+    "tallestRequirement": 44,
+    "typicalFullDayHours": "10–12 hours",
+    "minimumDaysRecommended": 1.5
+  },
+  "lands": [
+    {
+      "slug": "world-celebration",
+      "name": "World Celebration",
+      "order": 1,
+      "opened": 1982,
+      "summary": "The entrance plaza under Spaceship Earth, rebuilt in the 2020s into open green space, walkways and event halls.",
+      "description": [
+        "World Celebration is what you walk into: the sphere, the fountains, the shops, and the wide plaza that connects the front of the park to everything else. It is the newest-looking part of EPCOT because it is the newest — the twin Innoventions buildings that stood here for a quarter century were demolished, and the space was reopened as a landscaped plaza with lawns, walkways, CommuniCore Hall and CommuniCore Plaza for events, and a great deal more shade than the old concrete had.",
+        "As an attraction neighborhood it is thin. Spaceship Earth is the anchor and it is a genuinely great sixteen minutes. The Imagination pavilion sits on the western edge with Journey Into Imagination With Figment, the ImageWorks play space above the ride exit, and the Magic Eye Theater upstairs. Club Cool, where you drink free international sodas and dare each other to try Beverly, is attached to the main shop.",
+        "What this area is actually for is movement and logistics. It is where you enter, where you leave, where the monorail platform is, and where the crowd is thickest between 9 AM and 11 AM. Do your business here early or late — the middle of the day is the worst time to be standing anywhere in this plaza."
+      ],
+      "vibe": "Wide open, bright and busy — the front hall of a very large building, with a 180-foot sphere in it.",
+      "anchorAttraction": "spaceship-earth",
+      "highlights": [
+        "Spaceship Earth, the sixteen-minute ride inside the sphere",
+        "Free international soda samples at Club Cool, Beverly included",
+        "ImageWorks, the free play space above the Imagination ride exit",
+        "Open lawns and shaded walkways where the Innoventions buildings used to be"
+      ],
+      "eatHere": [
+        "connections-eatery",
+        "connections-cafe"
+      ],
+      "tips": [
+        "Ride Spaceship Earth at the end of the day, not the beginning. It has the longest line in the park for the first ninety minutes purely because it is the first thing people see.",
+        "The plaza is a bottleneck at park close. If you are heading to a Boardwalk-area resort or the Skyliner, walk out through International Gateway in World Showcase instead.",
+        "Project Tomorrow at the Spaceship Earth exit and ImageWorks at the Imagination exit are both free, both indoors, and both nearly empty. They are the two best places to park restless children at the front of the park."
+      ]
+    },
+    {
+      "slug": "world-discovery",
+      "name": "World Discovery",
+      "order": 2,
+      "opened": 1982,
+      "summary": "The east side of the park, holding both of EPCOT's biggest thrill attractions and its most demanding simulator.",
+      "description": [
+        "World Discovery is where the adrenaline is. Guardians of the Galaxy: Cosmic Rewind occupies the rebuilt shell of the old Universe of Energy pavilion and is the most technically ambitious ride Disney has built in Florida — a launched indoor coaster whose cars rotate to point you at the action. Test Track, in its third version since 1999, runs a dark proving-ground circuit and then a sixty-five-mile-per-hour lap around the outside of the building.",
+        "Mission: SPACE sits between them and splits into two experiences from one queue: the Orange mission, a real centrifuge that produces sustained G-force and a matching reputation, and the Green mission, which runs the same capsules without the rotation. Behind the pavilion is the Advanced Training Lab, a large free indoor play area that almost nobody finds.",
+        "This is the busiest corner of EPCOT from opening until late afternoon. Test Track and Cosmic Rewind both hold long standby waits through the middle of the day and both collapse in the last ninety minutes before park close, which is the single most useful scheduling fact about the park.",
+        "The gold dome of the old Wonders of Life pavilion is also here, now used for events rather than as an attraction. Space 220 Restaurant, which serves a prix fixe meal in a room dressed as an orbital station, is attached to the Mission: SPACE building."
+      ],
+      "vibe": "Metal, motion and noise — the only part of EPCOT that behaves like a modern thrill park.",
+      "anchorAttraction": "guardians-of-the-galaxy-cosmic-rewind",
+      "highlights": [
+        "Guardians of the Galaxy: Cosmic Rewind, with no virtual queue any more",
+        "Test Track's outdoor speed loop, the fastest ride at Walt Disney World",
+        "Mission: SPACE Orange, a genuine centrifuge, and the gentler Green mission",
+        "Space 220, where you take a simulated elevator ride to your table"
+      ],
+      "eatHere": [
+        "space-220-restaurant"
+      ],
+      "tips": [
+        "Test Track's single rider line is on the far right of the entrance and is rarely signposted well. It routinely turns a seventy-minute wait into fifteen.",
+        "Test Track shuts down in lightning because the speed loop is outdoors. In summer, ride it in the morning rather than saving it for the evening.",
+        "Green and Orange at Mission: SPACE post separate waits, and Green is almost always shorter. Check both boards before you pick a side at the queue split — you cannot switch afterward without walking back out."
+      ]
+    },
+    {
+      "slug": "world-nature",
+      "name": "World Nature",
+      "order": 3,
+      "opened": 1982,
+      "summary": "The west side, built around The Land and The Seas pavilions, with the coldest buildings and the calmest attractions in the park.",
+      "description": [
+        "World Nature holds the two biggest indoor pavilions at EPCOT. The Land contains Soarin' Around the World, a hang-glider simulator that lifts you into an eighty-foot dome; Living with the Land, a fourteen-minute boat ride through working greenhouses and a fish farm that supply restaurants on property; Awesome Planet in the Harvest Theater upstairs; and the Sunshine Seasons food court and Garden Grill restaurant.",
+        "The Seas with Nemo & Friends is built around one of the largest saltwater aquariums in the world. The clamshell ride is short and ends by running you alongside the live tank with animated characters projected over the glass, and everything after that — SeaBase, the manatee habitat, the dolphin windows, Turtle Talk with Crush, Bruce's Shark World — is free and better than the ride.",
+        "Outside, Journey of Water, Inspired by Moana is a self-guided landscaped trail where the fountains and streams respond to your hands. It opened in 2023, has no queue, and is a completely different thing after dark than it is at noon.",
+        "This is the neighborhood to retreat to when it is hot. The Seas is the coldest building in EPCOT, The Land has two indoor theaters and a large seated food court, and Living with the Land is fourteen air-conditioned minutes for a wait that is usually under fifteen."
+      ],
+      "vibe": "Cool, dim and quiet inside two enormous pavilions, with a water garden between them.",
+      "anchorAttraction": "soarin-around-the-world",
+      "highlights": [
+        "Soarin' Around the World — ask for Concourse B, row 1",
+        "Living with the Land's working greenhouses and fish farm",
+        "The free aquarium, manatees and dolphins at SeaBase",
+        "Turtle Talk with Crush, improvised live and different every show",
+        "Journey of Water's interactive trail, best after dark"
+      ],
+      "eatHere": [
+        "sunshine-seasons",
+        "garden-grill-restaurant",
+        "coral-reef-restaurant"
+      ],
+      "tips": [
+        "You can enter The Seas aquarium without riding — there is a walk-in door beside the ride queue, and it is also the fast route to Turtle Talk.",
+        "Ask a cast member inside The Seas for the day's dolphin training and manatee feeding times. They are posted on a board inside rather than in the app.",
+        "Behind the Seeds is a paid one-hour walking tour of the same greenhouses Living with the Land floats through. It sells out less often than the famous tours because nobody knows it exists — book a morning slot, because the greenhouses are not air-conditioned."
+      ]
+    },
+    {
+      "slug": "world-showcase",
+      "name": "World Showcase",
+      "order": 4,
+      "opened": 1982,
+      "summary": "Eleven country pavilions around a lagoon — Mexico, Norway, China, Germany, Italy, the American Adventure, Japan, Morocco, France, the United Kingdom and Canada.",
+      "description": [
+        "World Showcase is the reason people come back to EPCOT. Eleven pavilions sit around a lagoon roughly a mile and a quarter in circumference, each with its own architecture, staff, shops, restaurants and — in most cases — an attraction. Going clockwise from the Canada end: Canada, the United Kingdom, France, Morocco, Japan, the American Adventure at the top of the loop, Italy, Germany, China, Norway and Mexico.",
+        "The rides are concentrated at the two ends. Frozen Ever After runs a boat through Arendelle in Norway, in the flume that housed Maelstrom until 2014. Remy's Ratatouille Adventure is a trackless 3D ride with no height requirement in the France expansion. Gran Fiesta Tour drifts through the Mexico pyramid and rarely posts more than ten minutes. In between there are three film theaters — Reflections of China and Canada Far and Wide in standing Circle-Vision rooms, and Impressions de France in the only theater on the loop with actual seats — plus the twenty-nine-minute American Adventure animatronic show.",
+        "Then there is everything that is not a ride: five small museum galleries that are free and nearly always empty, live music at pavilions through the day, Kidcot craft stops that turn a two-mile walk into a collecting game for children, and character meets with a fraction of the lines the same characters draw at Magic Kingdom. The cast members staffing the pavilions are largely from the countries they represent, which is the whole original point and the thing most guests forget to engage with.",
+        "Pavilions typically open later than the front of the park, so a rope-drop lap here does not work. The nighttime spectacular over the lagoon closes the day, and the crowd it releases is the single biggest logistical event at EPCOT."
+      ],
+      "vibe": "A mile-and-a-quarter walk around a lake through eleven countries, with a bar in most of them.",
+      "anchorAttraction": "frozen-ever-after",
+      "highlights": [
+        "Remy's Ratatouille Adventure in France, with no height requirement",
+        "Frozen Ever After in Norway, in the old Maelstrom flume",
+        "The American Adventure's twenty-nine-minute animatronic show and the Voices of Liberty",
+        "Five free galleries in Mexico, Norway, Japan, Morocco and the American Adventure",
+        "The nighttime show over the lagoon, visible from anywhere on the promenade"
+      ],
+      "eatHere": [
+        "les-halles-boulangerie-patisserie",
+        "via-napoli-ristorante-e-pizzeria",
+        "regal-eagle-smokehouse",
+        "biergarten-restaurant",
+        "le-cellier-steakhouse",
+        "tangierine-cafe"
+      ],
+      "tips": [
+        "Walk the loop counterclockwise, starting at Canada. Almost everyone goes the other way, which means you meet the crowd head-on rather than walking inside it, and the far pavilions are fresh when you reach them.",
+        "The five galleries — Mexico's folk art room, Norway's Stave Church, the American Heritage Gallery, Japan's Bijutsu-kan and Morocco's gallery — are free, air-conditioned and essentially empty. They are the best-value ten minutes on the loop.",
+        "Get your children Kidcot cards at the first pavilion you reach. Collecting stamps at all eleven is the only reliable way to get a seven-year-old to walk the whole lagoon without stalling.",
+        "International Gateway between the United Kingdom and France is a full park entrance with its own security, and it is a dramatically faster exit at night than the main gate."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "EPCOT punishes people who treat it like Magic Kingdom and rewards people who treat it like a city. There are only a handful of rides that build serious lines, and once you have handled those, the day becomes about eating, walking, sitting down in cold buildings, and choosing what to skip. That is a genuinely different rhythm and it takes most first-timers until mid-afternoon to find it.",
+      "The plan that works is simple: hit the three or four ride bottlenecks early or very late, book at least one table in advance, and spend the middle of the day in World Showcase at a pace that would feel lazy in any other park. Budget more walking than you think — the lagoon loop alone is over a mile — and more money for food than at any other park on property, because this is the one place where the food is worth it."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Book one World Showcase table, sixty days out",
+        "body": "Dining reservations open sixty days ahead. Le Cellier, Space 220 and Via Napoli are the hardest to get; Spice Road Table, Nine Dragons and Tutto Gusto take walk-ups when everything else is full. Booking exactly one table in advance and improvising the rest is the right balance at EPCOT."
+      },
+      {
+        "title": "Decide about Lightning Lane before you arrive",
+        "body": "Lightning Lane Multi Pass at Walt Disney World runs roughly $15 to $45 per person per day depending on park and date as of July 2026, and includes PhotoPass downloads. On-site hotel guests buy from seven days out at 7 AM Eastern; off-site guests from three days out. At EPCOT the Multi Pass covers Test Track, Frozen Ever After and Remy's, which are the three selections worth making."
+      },
+      {
+        "title": "Understand which pass Cosmic Rewind uses",
+        "body": "Guardians of the Galaxy: Cosmic Rewind is Lightning Lane Single Pass, sold separately à la carte at roughly $12 to $25 per ride as of July 2026. It no longer uses a virtual queue at all, so there is nothing to tap for at 7 AM — either buy the Single Pass, ride standby, or ride late."
+      },
+      {
+        "title": "Check what time World Showcase pavilions open",
+        "body": "The front of the park opens before the World Showcase pavilions do, sometimes by an hour or more. A rope-drop plan built around Frozen Ever After or Remy's will have you standing at a closed rope. Check the app the night before."
+      },
+      {
+        "title": "Measure your kids at home",
+        "body": "EPCOT has five height-restricted attractions: Test Track and Soarin' at 40 inches, Mission: SPACE Green at 40 and Orange at 44, and Cosmic Rewind at 42. Measurement is at a fixed stick with shoes on and hats off, and borderline guests get an all-day wristband so they are not measured twice."
+      },
+      {
+        "title": "Plan your exit before you plan your entrance",
+        "body": "If you are staying at a Boardwalk-area resort, at the Riviera, or anywhere on the Skyliner, International Gateway at the back of World Showcase is your entrance and exit. It cuts a mile of walking off both ends of the day and it clears far faster after the nighttime show."
+      },
+      {
+        "title": "Wear shoes you would walk a city in",
+        "body": "EPCOT is roughly 300 acres and the World Showcase promenade is about a mile and a quarter around, with long stretches of low shade. This is the park where footwear decisions become injuries."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Be at the gate thirty minutes before opening. Head straight to World Discovery and ride Test Track first — it takes the longest to recover from a morning surge and it goes down in weather later."
+      },
+      {
+        "time": "Immediately after",
+        "body": "Walk to Guardians of the Galaxy: Cosmic Rewind next door. If the posted wait is already over sixty minutes, skip it and come back in the last ninety minutes of the day, when it consistently drops."
+      },
+      {
+        "time": "Around 10 AM",
+        "body": "Cross the park to World Nature and ride Soarin'. Ask to be sorted into Concourse B and request row 1 — it is the single best seat request at Walt Disney World and it costs nothing."
+      },
+      {
+        "time": "10:45 AM",
+        "body": "Living with the Land in the same building. Fourteen air-conditioned minutes, usually under fifteen minutes of wait, and it is the ride most people wrongly skip."
+      },
+      {
+        "time": "11:15 AM",
+        "body": "The Seas pavilion. Ride the Nemo clamshells if the line is short, then walk the aquarium level, catch a Turtle Talk showtime, and let the kids loose in Bruce's Shark World."
+      },
+      {
+        "time": "Noon",
+        "body": "Walk toward World Showcase as the pavilions open. Go counterclockwise toward Canada rather than clockwise toward Mexico — you will be walking against the crowd flow all afternoon."
+      },
+      {
+        "time": "12:30 PM",
+        "body": "Eat somewhere real. Les Halles in France for a jambon-beurre, Tangierine Café in Morocco for a shawarma platter, or Regal Eagle at the American Adventure for barbecue with indoor seating."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "1:30 PM",
+        "body": "Remy's Ratatouille Adventure while you are in France. If the wait is over an hour, this is where a Lightning Lane Multi Pass selection earns its money."
+      },
+      {
+        "time": "2:00 PM",
+        "body": "Impressions de France, if the schedule has it rather than the Beauty and the Beast Sing-Along. Eighteen minutes in the only World Showcase theater with real seats, at the hottest part of the day."
+      },
+      {
+        "time": "2:45 PM",
+        "body": "Work through Morocco and Japan slowly. The Morocco souk, the Japan garden and the two free galleries in those pavilions are the quietest, coolest fifteen minutes on the loop."
+      },
+      {
+        "time": "3:30 PM",
+        "body": "The American Adventure at the top of the loop. Catch the Voices of Liberty in the rotunda, then the twenty-nine-minute show — the longest sit-down in the park and the best rain shelter in it."
+      },
+      {
+        "time": "4:30 PM",
+        "body": "Italy and Germany. Split a pizza at Via Napoli or eat a bratwurst from Sommerfest, and stop at the miniature railway garden between the two pavilions."
+      },
+      {
+        "time": "5:15 PM",
+        "body": "China, then Norway. Buy two School Breads at Kringla, not one, and put the Anna and Elsa meet at Royal Sommerhus ahead of Frozen Ever After if the characters are the actual goal."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "6:00 PM",
+        "body": "Frozen Ever After in Norway. The queue's outdoor section is at its most tolerable now, and the standby wait starts to slide."
+      },
+      {
+        "time": "6:45 PM",
+        "body": "Mexico. Ride Gran Fiesta Tour for eight cold minutes, then get an avocado margarita at La Cava del Tequila or a flight at Choza de Margarita outside."
+      },
+      {
+        "time": "7:30 PM",
+        "body": "Go back for whatever you missed in World Discovery. Cosmic Rewind and Test Track both shed thirty to fifty minutes of wait while everyone else stakes out lagoon positions."
+      },
+      {
+        "time": "30 minutes before the show",
+        "body": "Take a position on the promenade between Italy and the American Adventure. Wide sightline, real space, and nowhere near the exit crush."
+      },
+      {
+        "time": "After the show",
+        "body": "Do not join the wave. Walk to International Gateway if your resort is that direction, or step into Journey of Water or the Imagination pavilion for fifteen minutes and let the crowd drain."
+      }
+    ],
+    "rookieMistakes": [
+      "Riding Spaceship Earth first because it is the first thing you see. It has the longest line of the day for the first ninety minutes and is a walk-on by dinnertime.",
+      "Skipping the Test Track single rider line. It is unmarked, it is on the far right, and it regularly cuts a seventy-minute wait to fifteen.",
+      "Assuming World Showcase opens with the rest of the park. The pavilions frequently open later, and a rope-drop plan built around Frozen Ever After will fail.",
+      "Walking the lagoon clockwise like everyone else. Go counterclockwise from Canada and you will be moving against the flow all day.",
+      "Eating at the quick-service by the entrance when eleven national kitchens are a ten-minute walk away.",
+      "Standing at a lagoon rail for two hours before the nighttime show. It is visible from all the way around, and those two hours are exactly when the headliner lines collapse.",
+      "Buying the turkey leg. It costs $13.25 here — more than at other Walt Disney World locations — and most people eat a third of it.",
+      "Underestimating the walking. Roughly 300 acres, a mile-and-a-quarter lagoon loop, and long stretches with almost no shade."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Arrive thirty minutes before opening and ride Test Track first, using single rider if your party can split.",
+      "Go straight to Guardians of the Galaxy: Cosmic Rewind next door, or defer it to the last ninety minutes of the night.",
+      "Cross to The Land and ride Soarin', asking for Concourse B row 1 when they sort you into concourses.",
+      "Ride Living with the Land in the same building — fourteen cold minutes for a fifteen-minute wait.",
+      "Walk into World Showcase counterclockwise toward Canada as the pavilions open.",
+      "Eat lunch in France at Les Halles or in Morocco at Tangierine Café rather than at the front of the park.",
+      "Ride Remy's Ratatouille Adventure in France, using a Lightning Lane Multi Pass selection if the wait is over an hour.",
+      "Sit down for the American Adventure at the top of the loop and catch the Voices of Liberty in the rotunda first.",
+      "Ride Frozen Ever After in Norway in the early evening and buy two School Breads at Kringla next door.",
+      "Take a nighttime show position between Italy and the American Adventure thirty minutes out, then exit through International Gateway if your resort is that way."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "EPCOT is the flattest of the four Walt Disney World parks and the easiest to navigate in a wheelchair or ECV, with wide paved paths, gentle grades and no cobblestones. What it is not is short. The distances here are the accessibility problem: World Showcase Lagoon is about a mile and a quarter around, the far pavilions are a fifteen-minute walk from the front gate, and there are long stretches of promenade with very little shade.",
+      "For guests with mobility limitations, the two moves that matter most are renting a device even if you would not at another park, and using International Gateway at the back of World Showcase as your entrance. For guests with sensory sensitivities, EPCOT is comparatively gentle — most attractions are slow, seated and quiet — with the nighttime fireworks over the lagoon as the one significant exception."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Rental counter at the main entrance on the left as you pass through the tapstiles, and at International Gateway",
+      "priceNote": "Manual wheelchairs rent for a modest daily fee with a lower length-of-stay rate; expect a low double-digit daily amount as of July 2026",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Same rental counters at the main entrance and International Gateway; quantities are limited and they do run out",
+      "priceNote": "ECVs rent for a daily fee plus a refundable deposit; expect a mid double-digit daily amount as of July 2026. Off-site vendors deliver to resorts for less on multi-day trips",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Main entrance rental counter and International Gateway; single and double strollers available",
+      "priceNote": "Single and double strollers rent at a daily rate with a discounted length-of-stay rate; expect low to mid double digits per day as of July 2026",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Main entrance area near the rental counter",
+      "The Land pavilion, lower level near Sunshine Seasons",
+      "The Seas with Nemo & Friends pavilion",
+      "The American Adventure pavilion at the top of World Showcase",
+      "France pavilion expansion area near Remy's Ratatouille Adventure",
+      "International Gateway entrance"
+    ],
+    "quietSpaces": [
+      {
+        "name": "SeaBase lower level",
+        "where": "The Seas with Nemo & Friends, World Nature",
+        "note": "Dim, cold, and quiet, with benches at the manatee and dolphin windows. The single best decompression spot at EPCOT and free to enter without riding."
+      },
+      {
+        "name": "Japan pavilion garden",
+        "where": "Behind the pagoda, up the path toward Katsura Grill",
+        "note": "Shaded benches by a koi pond, set well back from the promenade noise. Almost nobody walks up the steps to find it."
+      },
+      {
+        "name": "Morocco souk courtyard",
+        "where": "Deep inside the Morocco pavilion past the shop alleys",
+        "note": "A fountain courtyard invisible from the promenade, consistently the least trafficked corner of World Showcase."
+      },
+      {
+        "name": "France pavilion expansion seating",
+        "where": "Behind the original France buildings, near La Crêperie de Paris",
+        "note": "Shaded tables, clean restrooms, and far more space than the promenade. The best place to reset with a stroller in World Showcase."
+      },
+      {
+        "name": "American Heritage Gallery",
+        "where": "Ground floor of the American Adventure pavilion",
+        "note": "A silent, dim, air-conditioned exhibition room with almost no visitors. Good for a sensory break that does not feel like a time-out."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Near the main entrance, outside the tapstiles to the right",
+      "Behind Test Track in World Discovery",
+      "Near the Germany pavilion in World Showcase",
+      "Near the Canada pavilion at the western end of the promenade",
+      "Near International Gateway between the United Kingdom and France"
+    ],
+    "sensoryNotes": [
+      "The nighttime fireworks over World Showcase Lagoon are the loudest thing in the park by a wide margin, and the bursts echo off the pavilion buildings. Ear defenders help, and standing farther back from the water lowers the volume noticeably without losing the view.",
+      "Mission: SPACE Orange is a genuine centrifuge in a sealed capsule with a screen a foot from your face. It is the most physically intense attraction at Walt Disney World and the enclosure alone is a problem for some guests.",
+      "Guardians of the Galaxy: Cosmic Rewind is fully dark, fast and loud, with rotating vehicles that remove your ability to anticipate direction. Test Track has a dark interior circuit with a simulated near-collision.",
+      "Journey Into Imagination With Figment has a sudden loud bang followed by a skunk odor effect that startles small children more than anything visual in the ride.",
+      "Frozen Ever After has an unannounced backward drop in the dark and a roaring snow monster; both are brief, and warning children in advance changes the outcome.",
+      "Reflections of China and Canada Far and Wide are standing-only 360-degree theaters with wraparound footage, which some guests find disorienting with nothing to sit on."
+    ],
+    "mobilityNotes": [
+      "The park is flat and fully paved with no cobblestones, but it is large — roughly 300 acres, with a World Showcase promenade about a mile and a quarter around. Distance, not terrain, is the barrier here.",
+      "Spaceship Earth, The Seas, Soarin', Test Track, Cosmic Rewind, Mission: SPACE and Frozen Ever After all require transferring out of a wheelchair or ECV. Living with the Land, Remy's Ratatouille Adventure and Journey Into Imagination have wheelchair-accessible vehicles.",
+      "Reflections of China and Canada Far and Wide have no seating at all — guests stand for thirteen to fifteen minutes at lean rails. A small number of stools are kept at each; ask the greeter rather than assuming.",
+      "Friendship boats across the lagoon take wheelchairs and most ECVs over a short ramp, but very large ECVs are occasionally turned away when a boat is full. The Skyliner has a separate accessible boarding line where the cabin is stopped rather than loaded on the move.",
+      "The American Adventure theater is upstairs; take the elevator from the rotunda rather than the grand staircase. The Harvest Theater in The Land and the Magic Eye Theater in Imagination are also on upper levels with elevators available.",
+      "Once the promenade fills before the nighttime show, moving a wheelchair or ECV through the crowd becomes very difficult. Get into an accessible viewing area early and plan your exit route before the show starts."
+    ],
+    "visionHearingNotes": [
+      "Handheld captioning is available on Spaceship Earth, Living with the Land, The Seas with Nemo & Friends, The American Adventure, Impressions de France and several other attractions; pick up a device at Guest Relations near the main entrance.",
+      "Audio description devices cover most ride-through attractions including Spaceship Earth, Soarin', Test Track, Living with the Land and Remy's Ratatouille Adventure.",
+      "Assistive listening systems are available in the theater attractions — the American Adventure, Impressions de France, Awesome Planet, the Circle-Vision theaters and Turtle Talk with Crush.",
+      "Sign language interpretation runs on a published weekly rotation rather than on request. Ask Guest Relations for the current schedule when you arrive, and note that it covers the theater shows rather than the rides.",
+      "The World Showcase galleries are lit low by design and label text is small, which affects guests with limited vision. Cast members will read labels aloud if asked and are not put out by the request.",
+      "Braille guidebooks and a tactile park map are available at Guest Relations with a refundable deposit."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Walk World Showcase counterclockwise",
+      "body": "Almost everyone turns left toward Mexico. Start at Canada instead and you spend the whole afternoon walking against the flow rather than inside it — shorter queues at the Kidcot stops, easier photos, and you reach the far pavilions before the crowd does."
+    },
+    {
+      "title": "Test Track's single rider line is the best time-saver in the park",
+      "body": "It is on the far right of the entrance, it is barely signposted, and it typically runs at a fifth of the standby wait. You skip the vehicle design station and get split from your party, which for a five-minute ride is a trade worth making almost every time."
+    },
+    {
+      "title": "Ask for Concourse B, row 1 on Soarin'",
+      "body": "The middle theater section puts you at the center of the dome and the front row means no dangling feet in your field of view. Cast members grant this routinely if you ask when they are sorting you into concourses, not once you are at the seats."
+    },
+    {
+      "title": "The last ninety minutes are the best ninety minutes",
+      "body": "While thousands of people hold rail positions for the nighttime show, Test Track and Cosmic Rewind shed thirty to fifty minutes of wait. The show is visible from all the way around the lagoon — ride first, then walk up at the ten-minute mark."
+    },
+    {
+      "title": "Use International Gateway",
+      "body": "The back entrance between the United Kingdom and France has its own security and its own rental counter. It cuts a mile of walking off both ends of the day for anyone on the Skyliner or in the Boardwalk area, and it clears far faster than the main gate after the fireworks."
+    },
+    {
+      "title": "The free galleries are the best-kept secret in the park",
+      "body": "Mexico's folk art room, Norway's Stave Church, the American Heritage Gallery, Japan's Bijutsu-kan and Morocco's gallery are all free, all air-conditioned, and all effectively empty. Ten minutes in any of them beats a fifth lap of the promenade."
+    },
+    {
+      "title": "Book one table and improvise the rest",
+      "body": "Reserve the hard one — Le Cellier, Space 220 or Via Napoli — sixty days out, and fill the rest of the day from the counters. Spice Road Table, Tutto Gusto and Nine Dragons all take walk-ups when the rest of the loop is booked solid."
+    },
+    {
+      "title": "Watch the weather for the outdoor attractions",
+      "body": "Test Track's speed loop and the Skyliner both shut down in lightning, which in Florida summer is close to a daily event. Ride Test Track in the morning on a stormy forecast and always have a bus plan for the Skyliner."
+    },
+    {
+      "title": "Eat the cheap things",
+      "body": "School Bread in Norway at about five dollars, the jambon-beurre at Les Halles at about twelve, the shawarma platter at Tangierine Café at about eighteen, and the bratwurst in a pretzel roll at Sommerfest at about twelve are all better than several thirty-dollar entrees on the same loop."
+    },
+    {
+      "title": "Bring a real water strategy",
+      "body": "Free cups of ice water are available at any quick-service counter, and the promenade has long shadeless stretches between pavilions. Refill at Regal Eagle, Sunshine Seasons or Tangierine Café — all three have indoor counters and no queue for water."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many days do you need at EPCOT?",
+      "a": "One long day covers the rides and a lap of World Showcase. A day and a half is the honest answer if you want to eat properly, see the films and galleries, and not be marching. Repeat visitors frequently split it into one morning for the front-half rides and one evening for World Showcase."
+    },
+    {
+      "q": "What are the height requirements at EPCOT?",
+      "a": "Five attractions have them: Test Track at 40 inches, Soarin' Around the World at 40 inches, Mission: SPACE Green at 40 inches and Orange at 44 inches, and Guardians of the Galaxy: Cosmic Rewind at 42 inches. Nothing else in the park has a minimum height, including Frozen Ever After and Remy's Ratatouille Adventure."
+    },
+    {
+      "q": "Does Cosmic Rewind still use a virtual queue?",
+      "a": "No. Guardians of the Galaxy: Cosmic Rewind dropped its virtual queue and now runs a standard standby line with Lightning Lane Single Pass sold separately. As of mid-2026 no attraction at Walt Disney World or Disneyland permanently uses a virtual queue."
+    },
+    {
+      "q": "Is Test Track on Lightning Lane Multi Pass or Single Pass?",
+      "a": "Multi Pass. It is included in the standard day purchase rather than sold à la carte, which makes it one of the best value selections at EPCOT. Cosmic Rewind is the park's only Single Pass attraction."
+    },
+    {
+      "q": "Which Lightning Lane selections are worth making at EPCOT?",
+      "a": "Frozen Ever After, Remy's Ratatouille Adventure and Test Track, in roughly that order for families and the reverse for adults. Do not spend selections on Spaceship Earth, Living with the Land or Journey Into Imagination — their standby lines are short all day."
+    },
+    {
+      "q": "Is EPCOT good for young children?",
+      "a": "Better than its reputation. Remy's, Frozen Ever After, Gran Fiesta Tour, Living with the Land, The Seas and Turtle Talk all have no height requirement, and the Kidcot stops give kids a reason to care about the walking. What it lacks is volume — there simply are not as many rides as at Magic Kingdom."
+    },
+    {
+      "q": "How long does it take to walk around World Showcase?",
+      "a": "The lagoon promenade is about a mile and a quarter, so a continuous walk takes roughly twenty-five to thirty minutes without stopping. A proper lap with pavilions, galleries and a meal takes four to five hours."
+    },
+    {
+      "q": "Where is the best place to watch the nighttime show?",
+      "a": "The show is built for 360-degree viewing, so there is no single front. The promenade between Italy and the American Adventure gives you a wide sightline, actual space, and an easy exit. Avoid the bridges near the main entrance unless you enjoy crowds."
+    },
+    {
+      "q": "What is the best food at EPCOT?",
+      "a": "School Bread at Kringla in Norway, the jambon-beurre at Les Halles in France, a pizza at Via Napoli in Italy, the shawarma platter at Tangierine Café in Morocco, and the cheddar cheese soup at Le Cellier in Canada. The turkey leg is the most overrated item in the park."
+    },
+    {
+      "q": "Can you enter EPCOT from the back?",
+      "a": "Yes. International Gateway between the United Kingdom and France is a full entrance with its own security and rental counters, served by the Skyliner and by walking paths from the Boardwalk-area resorts. It is the faster way in and out for anyone staying nearby."
+    },
+    {
+      "q": "Is Mission: SPACE really that intense?",
+      "a": "The Orange mission is. It is a genuine centrifuge producing sustained G-force in a sealed capsule, and motion sickness bags are provided. The Green mission uses the same capsules without rotation and is comparatively gentle. If you are unsure, ride Green first."
+    },
+    {
+      "q": "What is the tallest height requirement at EPCOT?",
+      "a": "Forty-four inches, for the Mission: SPACE Orange mission. That is the highest minimum in the park — Cosmic Rewind is 42 inches and everything else with a requirement is 40."
+    }
+  ],
+  "gettingThere": {
+    "parking": "The main lot sits directly in front of the park with trams running to the entrance. Standard self-parking is charged per vehicle per day and is free for Walt Disney World resort guests; preferred parking costs more and puts you near the front rows. Note your row before you walk away — the lot is enormous and the tram stops all look identical.",
+    "transportation": [
+      "Monorail: the EPCOT line runs to the Transportation and Ticket Center, where you transfer to the Resort or Express loop for Magic Kingdom. Allow a full hour park-to-park including the transfer and security.",
+      "Disney Skyliner: gondolas serve International Gateway at the back of World Showcase, connecting to Riviera, Caribbean Beach, Pop Century, Art of Animation and Disney's Hollywood Studios. It is the fastest link to Hollywood Studios by a wide margin. Cabins are not air-conditioned and the system stops in lightning.",
+      "Buses: run to the main entrance from resorts not served by monorail, Skyliner or boat.",
+      "Boats: Friendship launches connect International Gateway with the Boardwalk-area resorts and Disney's Hollywood Studios.",
+      "Walking: it is a genuinely pleasant walk from the Boardwalk, Beach Club, Yacht Club, Swan and Dolphin to International Gateway — roughly five to fifteen minutes depending on the resort."
+    ],
+    "entranceNote": "EPCOT has two entrances. The main gate sits under Spaceship Earth at the north end; International Gateway sits between the United Kingdom and France pavilions at the back of World Showcase and has its own security screening, Guest Relations window and wheelchair and stroller rentals. If your day starts or ends in World Showcase, International Gateway saves close to a mile of walking and clears far faster after the nighttime show."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "ep"
+}

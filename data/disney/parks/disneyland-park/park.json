@@ -1,0 +1,659 @@
+{
+  "slug": "disneyland-park",
+  "name": "Disneyland Park",
+  "shortName": "Disneyland",
+  "resort": "disneyland",
+  "resortName": "Disneyland Resort",
+  "opened": "1955-07-17",
+  "sizeAcres": 85,
+  "location": "Anaheim, California",
+  "coordinates": {
+    "lat": 33.8121,
+    "lng": -117.919
+  },
+  "tagline": "The original park: denser, older, and more walkable than anything in Florida.",
+  "summary": "The park Walt Disney built in 1955, packed into 85 acres in the middle of Anaheim — nine lands, 58 attractions, and a density of things to do that no other Disney park matches.",
+  "intro": [
+    "Disneyland Park opened on July 17, 1955, and it is the only Disney park Walt Disney personally walked, argued about, and changed. That shows up everywhere: in the working steam railroad around the berm, in a carousel where every horse is a jumper because he insisted, in a submarine lagoon from 1959 that is still running, and in the fact that the castle is small. Sleeping Beauty Castle is 77 feet tall and people are routinely disappointed by it for about ninety seconds, until they understand that everything here is built at a scale meant to be walked rather than photographed from a monorail.",
+    "The defining practical fact about Disneyland is density. The park covers roughly 85 acres against Magic Kingdom's 107, and it fits nine lands and 58 attractions into that footprint. You can walk from Space Mountain to Pirates of the Caribbean in eight minutes. There are no boats, no monorail rides, and no bus transfers required to get anywhere inside it. A family that spends two hours a day in transit at Walt Disney World spends about twenty minutes here, and that difference is worth more than any single ride.",
+    "It also has things Florida simply does not. Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, Alice in Wonderland, the Storybook Land Canal Boats, Casey Jr. Circus Train, the Sleeping Beauty Castle walkthrough, and the longer original Pirates of the Caribbean are all exclusive to this park. So is the Rivers of America: the Mark Twain Riverboat, the Sailing Ship Columbia, and Tom Sawyer Island all still operate here, while Magic Kingdom's versions closed permanently in 2025. If you are a Walt Disney World regular, that list is your itinerary.",
+    "The trade-off is crowding. Eighty-five acres in the middle of a city means there is nowhere to put people. Walkways are narrower, the hub gets genuinely difficult around parade time, and a busy Saturday at Disneyland feels more crowded than a busy Saturday at Magic Kingdom even at similar attendance. The park is also older, which means smaller queue buildings, less shade in places, and more attractions where you step down into a boat rather than roll into a vehicle.",
+    "The Disneyland Monorail has been closed for refurbishment since March 30, 2026, with no announced reopening date. Plan on walking between Tomorrowland and Downtown Disney, which takes ten to fifteen minutes."
+  ],
+  "bestFor": [
+    "First-timers who want the original",
+    "Walt Disney World regulars looking for what Florida does not have",
+    "Families with preschoolers",
+    "Classic dark rides",
+    "Anyone who hates spending the day on transport"
+  ],
+  "notIdealFor": [
+    "Thrill-seekers chasing big modern coasters",
+    "Visitors who want wide open space and short walkways",
+    "Anyone expecting Magic Kingdom's scale",
+    "Groups who need extensive air-conditioned indoor dining"
+  ],
+  "stats": {
+    "attractionCount": 58,
+    "ridesWithHeightRequirements": 10,
+    "tallestRequirement": 46,
+    "typicalFullDayHours": "12–14 hours",
+    "minimumDaysRecommended": 2
+  },
+  "lands": [
+    {
+      "slug": "main-street-usa",
+      "name": "Main Street, U.S.A.",
+      "order": 1,
+      "opened": 1955,
+      "summary": "The turn-of-the-century street every guest walks down twice a day, with the park's best coffee, its worst evening crowd crush, and more detail than anyone stops to look at.",
+      "description": [
+        "Main Street is a compressed small-town street built in forced perspective — the upper storeys are smaller than the ground floors, which makes the buildings read as taller than their actual height. It runs from Town Square at the entrance to the hub at the base of Sleeping Beauty Castle, a walk of about three minutes at normal pace and about fifteen at closing time.",
+        "Functionally it is the park's spine and its bottleneck. Everyone enters here, everyone leaves here, the parade finishes here, and the fireworks are projected onto the buildings on both sides. That last fact is why watching the nighttime show from Main Street is a genuinely different experience from watching it anywhere else, and why the street is unusable for twenty minutes afterward.",
+        "The attractions here are quiet ones: the Disneyland Railroad from the Main Street station, the horse-drawn streetcars and omnibus running one-way trips, the Opera House with its Lincoln figure, and the Disneyland Band working the street on a published schedule. None of them post a wait time and most guests miss all of them.",
+        "The shops matter more here than elsewhere. The Emporium runs the entire length of the west side as a connected interior, which means you can walk it end to end while the street outside is impassable — the single most useful piece of Main Street knowledge there is."
+      ],
+      "vibe": "A small town at golden hour, with brass band music and the smell of the popcorn wagons.",
+      "anchorAttraction": "disneyland-fireworks",
+      "highlights": [
+        "Walk the Emporium's connected interior to bypass the post-fireworks crush",
+        "The flag retreat ceremony in Town Square in the late afternoon",
+        "Great Moments with Mr. Lincoln — the coldest, emptiest seats in the park",
+        "The Matterhorn Macaroon at Jolly Holiday for a few dollars",
+        "Fried chicken at the Plaza Inn, eaten during the parade"
+      ],
+      "eatHere": [
+        "jolly-holiday-bakery-cafe",
+        "plaza-inn",
+        "carnation-cafe",
+        "little-red-wagon",
+        "refreshment-corner"
+      ],
+      "tips": [
+        "Mobile order coffee from Jolly Holiday before you enter the gate and collect it at the top of the street.",
+        "The Emporium's interior runs almost the full block. Use it as a walkway when the street outside is packed.",
+        "Main Street opens before the rest of the park on most days. Use that time to walk to the hub rather than shopping.",
+        "The back room of The Market House has armchairs by a fireplace and is the quietest indoor seating on the street."
+      ]
+    },
+    {
+      "slug": "adventureland",
+      "name": "Adventureland",
+      "order": 2,
+      "opened": 1955,
+      "summary": "The narrowest, most congested land in the park, and home to its single best-built attraction queue and its roughest ride.",
+      "description": [
+        "Adventureland is small and thick with vegetation — seventy years of growth in a space that was always tight. The main path from the hub is barely wide enough for the crowd it carries, and it is the one place in the park where you will find yourself standing still because there is nowhere to walk.",
+        "It punches far above its footprint. Indiana Jones Adventure is the park's most physical ride and has a queue good enough to be worth walking through on its own. Jungle Cruise, the 1955 original, has a longer and denser route than the Florida version and lives or dies on the skipper you draw. The Enchanted Tiki Room is where audio-animatronics were invented and is now the best afternoon cool-down on this side of the park.",
+        "Eat here rather than walking somewhere else. Bengal Barbecue is the best value in the park, the Tropical Hideaway has shaded deck seating over the Jungle Cruise river, and the Tiki Juice Bar sells the Dole Whip everyone came for — though the Hideaway sells the same thing with a shorter line.",
+        "The one thing to know before arriving: Indiana Jones requires 46 inches, the tallest requirement at Disneyland Park and the only 46-inch requirement anywhere at the resort. A child who cleared Space Mountain, Big Thunder, and the Matterhorn can still be turned away here."
+      ],
+      "vibe": "Dense jungle planting, drums on the soundtrack, and no room to stand still.",
+      "anchorAttraction": "indiana-jones-adventure",
+      "highlights": [
+        "Indiana Jones Adventure and its excavation queue",
+        "The Jungle Cruise after dark, when the lighting transforms it",
+        "Bengal Barbecue skewers eaten walking",
+        "The deck seating at the Tropical Hideaway over the river",
+        "Climbing the Adventureland Treehouse at night"
+      ],
+      "eatHere": [
+        "bengal-barbecue",
+        "the-tropical-hideaway",
+        "tiki-juice-bar"
+      ],
+      "tips": [
+        "Use Indiana Jones's single rider line for a second ride — it routinely turns an hour into fifteen minutes.",
+        "The Tropical Hideaway sells Dole Whip with a fraction of the Tiki Juice Bar line, ninety seconds away.",
+        "The main path is the worst pinch point in the park at parade time. Do not plan to cross Adventureland while the route is roped.",
+        "Take a Dole Whip into the Enchanted Tiki Room — food is allowed and the room is genuinely cold."
+      ]
+    },
+    {
+      "slug": "new-orleans-square",
+      "name": "New Orleans Square",
+      "order": 3,
+      "opened": 1966,
+      "summary": "Two of the best rides ever built, the park's best restaurants, and wrought-iron balconies over a walkway that smells like beignets.",
+      "description": [
+        "New Orleans Square opened in 1966 as the first land added after opening day, and it is the most convincing environment Disney has ever built at this scale. Narrow streets, French Quarter balconies, jazz on the soundtrack, and a waterfront on the Rivers of America. It contains only two ride attractions and is still, by most people's reckoning, the best land in the park.",
+        "Those two are Pirates of the Caribbean and the Haunted Mansion, both originals, both better here than their Florida counterparts. Disneyland's Pirates runs roughly fifteen minutes against Magic Kingdom's eight and a half, with the Blue Bayou opening, a second drop, and a fuller burning-town sequence. The Haunted Mansion's stretching room is an elevator that lowers you under the railroad tracks rather than a room with a rising ceiling.",
+        "The food here is the best in the park. The Blue Bayou puts you inside the opening scene of Pirates; Cafe Orleans serves the same Monte Cristo for less money and takes a reservation you can actually get; Tiana's Palace is the strongest counter service at Disneyland; and the Mint Julep Bar fries Mickey-shaped beignets to order beside the railroad station.",
+        "Club 33 is here too, behind an unmarked door with a small brass 33 on Royal Street. You cannot get in, there is no public booking route, and the honest advice is to look at the door and move on."
+      ],
+      "vibe": "Permanent late evening under wrought iron, with jazz and frying dough in the air.",
+      "anchorAttraction": "pirates-of-the-caribbean",
+      "highlights": [
+        "Pirates of the Caribbean, the long original version",
+        "The Haunted Mansion's elevator stretching room",
+        "Mickey-shaped beignets from the Mint Julep Bar, eaten immediately",
+        "Lunch at Cafe Orleans on the river-facing patio",
+        "The waterfront tables by the railroad station"
+      ],
+      "eatHere": [
+        "blue-bayou-restaurant",
+        "cafe-orleans",
+        "tianas-palace",
+        "mint-julep-bar",
+        "royal-street-veranda"
+      ],
+      "tips": [
+        "Sit on the left side of the Pirates boat for the best view of the Blue Bayou and the ship battle.",
+        "Book Cafe Orleans rather than the Blue Bayou unless the room is specifically the point — same Monte Cristo, smaller bill, easier reservation.",
+        "Eat beignets within five minutes of collecting them. Cold beignets are wasted money.",
+        "This land becomes impassable for fifteen minutes after Fantasmic! ends. Plan your exit route before the show, not after."
+      ]
+    },
+    {
+      "slug": "frontierland",
+      "name": "Frontierland",
+      "order": 4,
+      "opened": 1955,
+      "summary": "Big Thunder, a working river with two boats and an island, and the nighttime water show — a land Magic Kingdom no longer has an equivalent to.",
+      "description": [
+        "Frontierland wraps around the Rivers of America, and that river is now the most significant thing about it. Magic Kingdom's Rivers of America, Liberty Belle, and Tom Sawyer Island all closed permanently in 2025 for the Piston Peak and Villains Land projects. Disneyland's still operate, which makes the Mark Twain Riverboat, the Sailing Ship Columbia, Davy Crockett's Explorer Canoes, and Pirate's Lair on Tom Sawyer Island the only versions of any of them running in an American Disney park.",
+        "Big Thunder Mountain Railroad is the headliner: a mine train through convincing red rockwork with three lift hills and no drop taller than a house. Note that Disneyland's height requirement is 40 inches. Magic Kingdom lowered its version to 38 inches in May 2026; this one did not change, which catches out families travelling between the resorts.",
+        "Tom Sawyer Island is the land's underrated asset. It is a genuine island with caves, rope bridges, and dirt paths, reached by raft, with no queue and no schedule, and it is the only place at Disneyland where a child can run in an unstructured space. It closes at dusk, so it has to happen in daylight.",
+        "At night, Fantasmic! takes over the river. It premiered here in 1992 and uses the actual Rivers of America, Tom Sawyer Island, and the Mark Twain rather than a purpose-built amphitheatre, which is why the Disneyland version feels less like a show and more like something happening to the park."
+      ],
+      "vibe": "Dust, river water, and a mountain range that hides a roller coaster.",
+      "anchorAttraction": "big-thunder-mountain-railroad",
+      "highlights": [
+        "Big Thunder Mountain Railroad at night, from the back row",
+        "Tom Sawyer Island before dusk, all the way out to Fort Wilderness",
+        "Fantasmic! from the riverfront rail opposite the island",
+        "The Mark Twain's upper deck for a fourteen-minute sit-down",
+        "The hand-dipped corn dog at Stage Door Cafe, with no line"
+      ],
+      "eatHere": [
+        "rancho-del-zocalo-restaurante",
+        "stage-door-cafe",
+        "golden-horseshoe"
+      ],
+      "tips": [
+        "Tom Sawyer Island closes at dusk regardless of park hours. Go in the morning or you miss it.",
+        "Stage Door Cafe sells the same hand-dipped corn dog as the famous Main Street cart, with a fraction of the wait.",
+        "See the second Fantasmic! performance when two are scheduled. It fills 30 to 45 minutes out instead of two hours.",
+        "Rancho del Zocalo has the most shaded seating in the park and is the reliable answer at 1 PM when everywhere else is full."
+      ]
+    },
+    {
+      "slug": "critter-country",
+      "name": "Critter Country",
+      "order": 5,
+      "opened": 1972,
+      "summary": "A dead-end path off New Orleans Square holding the park's biggest drop, its shortest ride wait, and its best riverside seating.",
+      "description": [
+        "Critter Country is a cul-de-sac. There is one way in and the same way out, which shapes everything about how you use it: the walk in and out costs you more time in the middle of the day than the queues do, and the whole area is quieter than its content deserves because casual foot traffic never passes through.",
+        "Tiana's Bayou Adventure is the reason to come. It opened in November 2024 in the flume that housed Splash Mountain from 1989 to 2023, keeping the lift hills and the roughly fifty-foot final drop — the largest drop at Disneyland — and replacing everything inside with a new story, new animatronics, and a brass-heavy score. It requires 40 inches and it soaks you.",
+        "The other two attractions are opposites. Davy Crockett's Explorer Canoes are real canoes that guests paddle around the Rivers of America, on a limited daylight schedule, and are the most physically satisfying thing in the park. The Many Adventures of Winnie the Pooh is a short, modest dark ride that routinely posts the shortest wait of any ride at Disneyland, which makes it quietly one of the most useful attractions here.",
+        "The Hungry Bear Barbecue Jamboree sits on two decks over the water at the end of the path. Take the lower deck — it is shaded longer, closer to the river, and most guests never walk down to it."
+      ],
+      "vibe": "Quiet water, tall trees, and the sound of a fifty-foot drop landing somewhere behind you.",
+      "anchorAttraction": "tianas-bayou-adventure",
+      "highlights": [
+        "Tiana's Bayou Adventure and its animatronic band finale",
+        "Paddling Davy Crockett's Explorer Canoes in the morning",
+        "The lower deck at the Hungry Bear over the river",
+        "Winnie the Pooh as the shortest ride wait in the park",
+        "Waterfront tables at Harbour Galley facing Tom Sawyer Island"
+      ],
+      "eatHere": [
+        "hungry-bear-barbecue-jamboree",
+        "harbour-galley"
+      ],
+      "tips": [
+        "Ride Tiana's Bayou Adventure first thing or last thing. The dead-end walk is what costs you time midday, not the posted wait.",
+        "You get properly soaked, not damp. Seal your phone and consider waterproof shoes before you queue.",
+        "The Explorer Canoes only run in daylight on busier days. If you see them loading, go now.",
+        "Critter Country closes earlier than the rest of the park on many nights, restaurants included."
+      ]
+    },
+    {
+      "slug": "star-wars-galaxys-edge",
+      "name": "Star Wars: Galaxy's Edge",
+      "order": 6,
+      "opened": 2019,
+      "summary": "Fourteen acres of Black Spire Outpost with two headliners, the best portable food at the resort, and a land that looks far better after dark.",
+      "description": [
+        "Galaxy's Edge opened in May 2019 and is the largest single-land expansion Disney has built. It sits behind Frontierland and Critter Country with two entrances, and it is deliberately disorienting — no sightlines to the rest of the park, no familiar architecture, and a market street built to feel like a working outpost rather than a themed area.",
+        "Star Wars: Rise of the Resistance is the technical achievement: an eighteen-minute sequence of pre-show, simulated transport flight, a Star Destroyer hangar reveal, a trackless vehicle ride, and two drops in an escape pod at the end that nobody warns you about. It requires 40 inches and it is the least mechanically reliable headliner at the resort, so do it early.",
+        "Millennium Falcon: Smugglers Run is the other, and it needs a caveat: Disneyland's version requires 40 inches while the Hollywood Studios version requires 38. Families who rode in Florida get caught by this. The ride itself is five minutes in a cockpit; the queue and the full-scale Falcon parked outside are better than the ride.",
+        "The land is best at night. Lighting is where the environmental design does its real work, and the difference between Black Spire Outpost at 2 PM and at 9 PM is the difference between a themed area and somewhere that feels like a place. Eat the Ronto Wrap while you are here — it is the best portable food at Disneyland Resort."
+      ],
+      "vibe": "Weathered concrete and rust under a strange sky, with ship engines rumbling somewhere out of sight.",
+      "anchorAttraction": "star-wars-rise-of-the-resistance",
+      "highlights": [
+        "Rise of the Resistance's Star Destroyer hangar reveal",
+        "The full-scale Millennium Falcon parked in the marketplace",
+        "The Ronto Wrap at Ronto Roasters, and the droid turning the spit",
+        "Oga's Cantina, if you can get a reservation",
+        "Black Spire Outpost after dark"
+      ],
+      "eatHere": [
+        "ronto-roasters",
+        "docking-bay-7-food-and-cargo",
+        "ogas-cantina",
+        "milk-stand"
+      ],
+      "tips": [
+        "Millennium Falcon requires 40 inches here, not the 38 used in Florida. Measure before you promise.",
+        "Rise of the Resistance no longer uses a virtual queue. Ride it in the first thirty minutes or buy a Lightning Lane Single Pass.",
+        "Book Oga's Cantina the moment the sixty-day window opens; check for same-day cancellations in the morning if you missed it.",
+        "Come back at night even if you did everything in the morning. The lighting is the point of the land."
+      ]
+    },
+    {
+      "slug": "fantasyland",
+      "name": "Fantasyland",
+      "order": 7,
+      "opened": 1955,
+      "summary": "The densest collection of attractions in any Disney park: sixteen entries including four classic dark rides Florida cannot match and a coaster with a yeti in it.",
+      "description": [
+        "Fantasyland behind Sleeping Beauty Castle holds sixteen attractions in a space you can cross in four minutes. Four of them are 1955-era dark rides — Peter Pan's Flight, Mr. Toad's Wild Ride, Snow White's Enchanted Wish, and Alice in Wonderland — and three of those four have no equivalent at Walt Disney World. Mr. Toad is the last one operating anywhere in the world.",
+        "The Matterhorn Bobsleds anchor the land: a 147-foot mountain containing two separate coaster tracks, the first tubular steel coaster ever built, with an Abominable Snowman who appears three times and does more to frighten children than any of the coaster elements. It requires 42 inches, and one adult may supervise only one child under seven — the same rule Space Mountain carries.",
+        "The gentle end of the land is unusually strong. it's a small world runs fourteen air-conditioned minutes behind a facade with a working clock tower and is the most reliable reset button in the park. The Storybook Land Canal Boats drift past hand-built miniatures kept in scale by a dedicated horticulture team, and Casey Jr. Circus Train covers the same hillside from above with cages you can sit in. None of the three exist in Florida in this form.",
+        "Fantasyland's weakness is capacity. Nearly everything here loads slowly and holds few people, which is why Peter Pan's Flight routinely posts the longest wait in the park for a three-minute ride. The land is best at rope drop and again in the last hour, and worst between noon and five."
+      ],
+      "vibe": "Tournament tents, dark ride facades, and a fake mountain looming over a carousel.",
+      "anchorAttraction": "matterhorn-bobsleds",
+      "highlights": [
+        "Mr. Toad's Wild Ride — the last one anywhere, and it still ends in hell",
+        "The Matterhorn's two tracks, which post separate waits",
+        "Storybook Land Canal Boats from the right-hand side of the boat",
+        "The Sleeping Beauty Castle walkthrough during the parade, when it is empty",
+        "it's a small world as an air-conditioned fourteen-minute sit-down"
+      ],
+      "eatHere": [
+        "red-rose-taverne",
+        "edelweiss-snacks",
+        "maurices-treats"
+      ],
+      "tips": [
+        "Ride Peter Pan's Flight in the first fifteen minutes or the last twenty. In between it is the worst wait-to-payoff ratio in the park.",
+        "Pinocchio's Daring Journey almost always has the shortest dark ride wait and is more upsetting for small children than Snow White is.",
+        "The Matterhorn's Fantasyland and Tomorrowland queues post separately and can differ by twenty minutes. Check both.",
+        "Order the corn on the cob rather than the turkey leg at Edelweiss Snacks — better, and half the price."
+      ]
+    },
+    {
+      "slug": "mickeys-toontown",
+      "name": "Mickey's Toontown",
+      "order": 8,
+      "opened": 1993,
+      "summary": "Rebuilt in 2023 around unstructured play, with the park's best ride for preschoolers and its only lawn, splash pad, and genuine running-around space.",
+      "description": [
+        "Toontown reopened in 2023 after a full rebuild that changed what the land is for. The old version was a set you looked at; the new one is a place small children play in. CenTOONial Park at the entrance has an actual lawn you are allowed to sit on, an interactive fountain, and a climbable tree. Goofy's How-to-Play Yard and Donald's Duck Pond are open-ended play spaces with no queues and no cycles.",
+        "Mickey & Minnie's Runaway Railway is the headliner and the most valuable attraction at Disneyland for families with preschoolers, because it is a genuine headliner with no height requirement at all. Gadget's Go Coaster at 35 inches is the natural next coaster for a child not yet at 40. Roger Rabbit's Car Toon Spin is the outlier — darker, louder, and more startling than anything else in the land despite the cheerful facade.",
+        "Mickey's House and Minnie's House are walkthroughs. Mickey's ends with a guaranteed meeting with Mickey Mouse, available all day rather than on a schedule, which makes it the most reliable character photo in the park. Minnie's has no character at the end, a much shorter line, and more things a four-year-old can press.",
+        "The scheduling detail that ruins plans: Toontown frequently opens later than the rest of Disneyland, sometimes by an hour or more, and closes earlier. Check the day's hours in the app before you build a rope drop around it."
+      ],
+      "vibe": "Bent buildings, primary colors, and the only place in the park where children can just run.",
+      "anchorAttraction": "mickey-and-minnies-runaway-railway",
+      "highlights": [
+        "Mickey & Minnie's Runaway Railway with no height requirement",
+        "CenTOONial Park's lawn — the only one in the park you can sit on",
+        "Donald's Duck Pond for deliberately getting soaked",
+        "Meeting Mickey Mouse at the end of the house walkthrough",
+        "Gadget's Go Coaster as a 35-inch stepping stone"
+      ],
+      "eatHere": [
+        "cafe-daisy",
+        "good-boy-grocers"
+      ],
+      "tips": [
+        "Toontown often opens an hour or more after the rest of the park. Check the app before planning a rope drop here.",
+        "Bring a change of clothes if Donald's Duck Pond is on the plan — children get soaked, not misted.",
+        "Roger Rabbit's Car Toon Spin has strobe effects and startles more toddlers than Runaway Railway does.",
+        "Ride Runaway Railway first, then park an adult on the CenTOONial Park lawn while the kids burn twenty minutes in the play yards."
+      ]
+    },
+    {
+      "slug": "tomorrowland",
+      "name": "Tomorrowland",
+      "order": 9,
+      "opened": 1955,
+      "summary": "A visually incoherent land carrying three of the park's most-searched attractions, plus a 1959 submarine lagoon that should not still exist.",
+      "description": [
+        "Tomorrowland has been rebuilt so many times that it no longer commits to a single look, and it shows. Bronze, white, and rust-orange from different eras sit next to each other with no through-line. It is the weakest land aesthetically at Disneyland and one of the strongest by attraction quality, which is an odd combination to plan around.",
+        "Space Mountain is the anchor: a single-track indoor coaster with two-across seating and a synchronized onboard score, requiring 40 inches — four inches lower than Magic Kingdom's version. The same supervision rule as the Matterhorn applies, with one adult permitted to accompany only one child under seven. Star Tours randomizes its destinations from a growing pool, so two rides in a row genuinely differ.",
+        "The Finding Nemo Submarine Voyage runs the original 1959 submarine lagoon, and it divides people completely. Thirteen minutes on a fixed stool inside a narrow steel hull looking through a porthole is either the most unusual thing at Disneyland or a claustrophobic mistake, and there is no accessible boarding route — it is the least accessible attraction in the park.",
+        "Autopia has run since 1955 and is where the numbers surprise people: 32 inches to ride with an adult, but 54 inches to drive alone, which is roughly a nine or ten-year-old. Buzz Lightyear Astro Blasters has detachable handheld blasters that the Florida version does not, and Astro Orbitor sits at ground level at the land's entrance rather than on a roof."
+      ],
+      "vibe": "Three different futures layered on top of each other, with a rocket spinning at the entrance.",
+      "anchorAttraction": "space-mountain",
+      "highlights": [
+        "Space Mountain's onboard soundtrack and two-across seating",
+        "Star Tours, which randomizes destinations every ride",
+        "The 1959 submarine lagoon, still running",
+        "Detachable blasters on Buzz Lightyear Astro Blasters",
+        "Astro Orbitor after dark, when the armature is lit"
+      ],
+      "eatHere": [
+        "alien-pizza-planet",
+        "galactic-grill"
+      ],
+      "tips": [
+        "Space Mountain requires 40 inches here versus 44 at Magic Kingdom — a child too short in Florida may clear it in California.",
+        "Autopia needs 54 inches to drive alone. Set expectations before you queue, and let a child steer while an adult works the pedal.",
+        "Skip Finding Nemo entirely if anyone in your party is claustrophobic. There is no discreet exit once the sub is moving.",
+        "Take the blaster out of its holster on Astro Blasters and aim freely — most first-timers never realize it detaches."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Disneyland rewards a plan more than most parks, because its density means the difference between a good day and a bad one is measured in decisions rather than distance. Everything is close together, so you are never punished for choosing badly by a twenty-minute walk — you are punished by a queue you could have skipped by arriving forty minutes earlier.",
+      "The single most important thing to understand is that this park front-loads. The first ninety minutes after opening are worth roughly three hours in the middle of the day. If you do nothing else from this guide, be at the gate before the posted opening time and go straight to a headliner rather than shopping on Main Street."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Buy tickets with a date attached",
+        "body": "Disneyland uses date-based ticketing and a reservation system tied to your ticket. Book the specific days you intend to visit before you travel; popular dates do sell out, and a ticket without a reservation gets you nowhere at the gate."
+      },
+      {
+        "title": "Download the app and log in at home",
+        "body": "The Disneyland app handles mobile food ordering, wait times, park hours, entertainment schedules, and Lightning Lane. Set it up, link your tickets, and add a payment method before you arrive — doing it on park wifi at 7 AM is a bad start to the day."
+      },
+      {
+        "title": "Measure your children in the shoes they will wear",
+        "body": "The numbers that matter at Disneyland are 32, 35, 40, 42, and 46 inches. Forty inches unlocks the most: Space Mountain, Big Thunder, Tiana's Bayou Adventure, Star Tours, Millennium Falcon, and Rise of the Resistance. Indiana Jones at 46 inches is the tallest requirement in the park."
+      },
+      {
+        "title": "Decide on Lightning Lane before you arrive",
+        "body": "Disneyland Multi Pass starts around $34 per person per day as of July 2026 and covers 15 or more attractions. Premier Pass covers both parks in one purchase, runs roughly $300 to $400 in 2026 and higher on holiday dates, sells in limited quantities, and can be bought up to seven days ahead in the app. Since January 5, 2026, Disneyland Resort hotel guests receive one bonus Multi Pass per person per stay."
+      },
+      {
+        "title": "Book Blue Bayou and Oga's Cantina at sixty days",
+        "body": "These are the two hardest reservations inside the park and both open sixty days in advance. If either matters to you, be in the app the moment the window opens. Everything else can be handled closer in, and Cafe Orleans is a realistic substitute for the Blue Bayou."
+      },
+      {
+        "title": "Pack for a Southern California day, not a Florida one",
+        "body": "It is dry rather than humid, and evenings drop more than visitors expect — a 95-degree afternoon can turn into a 60-degree night. Bring a layer, a refillable water bottle, and comfortable shoes you have already broken in. You can bring your own food and non-alcoholic drinks into the park."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "60 minutes before opening",
+        "body": "Arrive at the parking structure or your hotel walkway. Security, the tram, and the walk to the turnstiles take longer than anyone budgets, and the queue at security at 8 AM is a real queue."
+      },
+      {
+        "time": "30 minutes before opening",
+        "body": "Be through the turnstiles and on Main Street. Main Street opens before the rest of the park most days; walk to the top of it, near the hub, and stand there. Mobile order a coffee from Jolly Holiday while you wait."
+      },
+      {
+        "time": "Rope drop",
+        "body": "Go to Star Wars: Rise of the Resistance first if it matters to you, or Indiana Jones Adventure if it does not. Both shed their shortest waits of the day in the first thirty minutes, and Rise is the least reliable ride in the park so an early attempt gives you a second chance later."
+      },
+      {
+        "time": "First 90 minutes",
+        "body": "Stay in the half of the park you started in. Chain Indiana Jones, Jungle Cruise, and Pirates of the Caribbean, or Rise, Millennium Falcon, and Big Thunder. Crossing the park in this window wastes the most valuable time you have."
+      },
+      {
+        "time": "Around 10:30 AM",
+        "body": "Move to Fantasyland if you have young children, because Peter Pan's Flight and Dumbo are already climbing and will not come back down until evening. Otherwise head for Space Mountain and Star Tours before the Tomorrowland crowd builds."
+      },
+      {
+        "time": "Around 11:30 AM",
+        "body": "Eat early. Mobile order lunch at 11:15 rather than 12:30 — every counter service in the park is at its worst between noon and 2 PM, and eating before the rush buys you a whole extra ride."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "12:30 PM",
+        "body": "This is the low-value window. Do the things that do not care about crowds: the Mark Twain Riverboat, Tom Sawyer Island, the Disneyland Railroad, Great Moments with Mr. Lincoln, or a Royal Theatre show. All of them are seats, shade, or space."
+      },
+      {
+        "time": "1:30 PM",
+        "body": "Take a real break. it's a small world is fourteen air-conditioned minutes, the Plaza Inn dining room has actual chairs and cold air, and the Golden Horseshoe balcony is almost always empty. Skipping this step is how afternoons fall apart with kids."
+      },
+      {
+        "time": "Parade time",
+        "body": "Either commit to watching it from the Small World mall end, where you can arrive twenty minutes out, or use it to ride. Indiana Jones, Big Thunder, and Space Mountain all drop during the parade. Whichever you choose, be on the correct side of the rope, because you will not be allowed to cross."
+      },
+      {
+        "time": "3:00 PM",
+        "body": "Head to Critter Country for Tiana's Bayou Adventure if you have not already. The heat makes the soaking welcome and you have the whole afternoon to dry off before the evening cools."
+      },
+      {
+        "time": "4:30 PM",
+        "body": "Toontown, if you have young children — it opens later and empties earlier than the rest of the park, and late afternoon is often its quietest stretch. Otherwise, Galaxy's Edge before the dinner rush."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "5:30 PM",
+        "body": "Eat dinner before 6 PM or after 8:30 PM. The 6 to 8 window is when every restaurant in the park is at capacity and mobile order pickup windows are pushed an hour out."
+      },
+      {
+        "time": "Sunset",
+        "body": "Ride the things that transform after dark: the Jungle Cruise, Big Thunder Mountain, the Matterhorn, Astro Orbitor, and Storybook Land. The lighting on all five makes them meaningfully different attractions."
+      },
+      {
+        "time": "45 minutes before the fireworks",
+        "body": "Choose your position. Main Street gives you the projections and costs you an hour of standing; the Small World mall or the Frontierland riverfront give you the shells and the music with a ten-minute arrival. There is no wrong answer, but decide rather than drifting."
+      },
+      {
+        "time": "During the fireworks",
+        "body": "If you have seen it, ride instead. Indiana Jones, Space Mountain, and Big Thunder all collapse during the show and the twenty minutes after — though the outdoor coasters close briefly for pyrotechnic safety and reopen right afterward."
+      },
+      {
+        "time": "Last hour",
+        "body": "Get in line for Peter Pan's Flight, Pirates, or the Haunted Mansion. Cast members close the queue at park closing time, and anyone already in line rides. This is the single most underused hour of the day."
+      }
+    ],
+    "rookieMistakes": [
+      "Shopping on Main Street at opening. The stores are open until closing time and the first hour is worth three later ones.",
+      "Assuming Toontown opens with the park. It frequently opens an hour or more later and closes earlier, which wrecks rope-drop plans built around Runaway Railway.",
+      "Standing thirty minutes at the Little Red Wagon for a corn dog that Stage Door Cafe in Frontierland serves to a five-person line.",
+      "Queueing for Dole Whip at the Tiki Juice Bar when the Tropical Hideaway sells the same thing ninety seconds away with more flavors.",
+      "Promising a child they can drive at Autopia. It is 54 inches to drive alone, not 32 — that number is for riding with an adult.",
+      "Trying to cross the park during the parade. The route bisects Disneyland and cast members will not let you through once it is roped.",
+      "Leaving the park at the end of the fireworks with everyone else. Wait fifteen minutes, walk the Emporium's interior, or ride something — the crowd clears fast.",
+      "Booking dinner between 6 and 8 PM, which is when every kitchen in the park is at its worst."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Be through the turnstiles thirty minutes before the posted opening time and stand at the top of Main Street.",
+      "Ride Star Wars: Rise of the Resistance first, at rope drop.",
+      "Cross to Indiana Jones Adventure, then Jungle Cruise, then Pirates of the Caribbean — all three are within four minutes of each other.",
+      "Ride the Haunted Mansion while you are in New Orleans Square.",
+      "Eat lunch at 11:15, not 12:30. Bengal Barbecue or Tiana's Palace.",
+      "Do Big Thunder Mountain Railroad and Tiana's Bayou Adventure in the early afternoon, in that order.",
+      "Take a genuine break on it's a small world or the Mark Twain Riverboat between 1 and 2:30 PM.",
+      "Ride the Matterhorn Bobsleds and Space Mountain in the early evening, then Mr. Toad's Wild Ride, which exists nowhere else.",
+      "Watch the fireworks from the Small World mall rather than Main Street, so you can walk straight into Fantasyland afterward.",
+      "Get in line for Peter Pan's Flight in the last fifteen minutes before closing — anyone in the queue at closing time still rides."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Disneyland is a 1955 park and its age is most visible in accessibility. Many attractions require transferring from a wheelchair or ECV into a boat, a bobsled, or a small car, several queues have narrow turns and uneven surfaces, and a handful of experiences have no accessible route at all. On the other hand, the park's compactness is itself an accessibility feature: distances between lands are short, there are no transport transfers, and shaded seating is rarely more than two minutes away.",
+      "Guest Relations at City Hall in Town Square is the first stop for anything specific — the Disability Access Service, assistive technology devices, sign language schedules, and questions about a particular attraction's boarding process. Go there first thing rather than midday, when the queue is long and everyone is asking the same questions at once."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Rental facility on the esplanade between the two parks, and the stroller and wheelchair shop just inside the main entrance to the right",
+      "priceNote": "Roughly $20 per day as of July 2026, with a refundable deposit; quantities are limited and they run out on busy mornings",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Rental facility on the esplanade between the two parks",
+      "priceNote": "Roughly $70 per day as of July 2026 plus a refundable deposit; these sell out earliest of all rentals, often before 10 AM on busy days",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Rental facility on the esplanade between the two parks, and the shop just inside the main entrance",
+      "priceNote": "Roughly $20 per day for a single and $36 for a double as of July 2026; outside rental companies deliver to Disneyland Resort hotels for less",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Next to First Aid and the Baby Care Center at the north end of Main Street, beside the Plaza Inn",
+      "Mickey's Toontown, near the entrance by CenTOONial Park",
+      "Star Wars: Galaxy's Edge, near the marketplace restrooms",
+      "Fantasyland, near the it's a small world restrooms",
+      "Frontierland, near the Golden Horseshoe"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Big Thunder Trail",
+        "where": "The path between Frontierland and Fantasyland, behind Big Thunder Mountain",
+        "note": "A genuinely quiet walkway with benches, shade, and low foot traffic. It is the closest thing Disneyland has to a calm corridor and most guests never use it."
+      },
+      {
+        "name": "The Golden Horseshoe balcony",
+        "where": "Upstairs in the saloon on the Frontierland waterfront",
+        "note": "Indoor, shaded, with tables and almost always empty between shows. You can sit here without buying anything, though the ice cream window is at the back."
+      },
+      {
+        "name": "Harbour Galley waterfront tables",
+        "where": "On the water between New Orleans Square and Critter Country",
+        "note": "Shaded tables facing Tom Sawyer Island, well off the main walkway. One of the lowest-stimulation places to sit in the park."
+      },
+      {
+        "name": "CenTOONial Park lawn",
+        "where": "At the entrance to Mickey's Toontown",
+        "note": "An actual lawn you are permitted to sit on, designed as part of the 2023 rebuild with quieter perimeter areas as well as busy ones."
+      },
+      {
+        "name": "The Market House back room",
+        "where": "Inside the coffee location on Main Street",
+        "note": "Armchairs beside a fireplace in a small side room. Air conditioned, indoors, and consistently overlooked by guests who stop at the counter and leave."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Just outside the main entrance turnstiles, to the left of the Disneyland Park gate",
+      "Frontierland, near the Big Thunder Trail entrance",
+      "Mickey's Toontown, near the land entrance",
+      "Star Wars: Galaxy's Edge, near the land's Critter Country entrance",
+      "Ask any cast member for the nearest marked relief area — locations are mapped in the app under services"
+    ],
+    "sensoryNotes": [
+      "Indiana Jones Adventure is the loudest and most startling ride in the park: near-total darkness, snakes at close range, fire effects, and a violently moving vehicle. It frightens more children than anything else at Disneyland.",
+      "Space Mountain and the Matterhorn Bobsleds are both dark, loud, and unpredictable, and the Matterhorn's Abominable Snowman lunges with a roar three times.",
+      "Roger Rabbit's Car Toon Spin uses strobe effects in one section and is significantly darker in tone than the rest of Mickey's Toontown suggests.",
+      "The nighttime fireworks include low-level pyrotechnics on the castle that produce sharp, close cracks with no warning. Ear protection is worth carrying for anyone under three, and watching from Town Square or Frontierland cuts the volume noticeably.",
+      "Fantasmic! is the most intense scheduled show, with fire on the water, sudden pyrotechnics, and a several-storey dragon. The crowd density makes leaving mid-show difficult, so position yourself at the edge of a viewing area if that might be necessary.",
+      "The calmest rides in the park are it's a small world, the Storybook Land Canal Boats, the Mark Twain Riverboat, King Arthur Carrousel, and the Disneyland Railroad. All five are bright or open-air with no startles."
+    ],
+    "mobilityNotes": [
+      "The Finding Nemo Submarine Voyage is the least accessible attraction in the park — boarding requires a steep, narrow stairway into the hull with no alternative route. An alternative surface-level experience is offered; ask at the entrance.",
+      "The Adventureland Treehouse is roughly seventy steps up and the same back down with no elevator and no bypass. The Sleeping Beauty Castle walkthrough is a narrow spiral stair, but it does have a ground-floor alternative presentation — ask a cast member.",
+      "Tom Sawyer Island requires stepping down into a motorized raft and then navigating dirt paths, caves, and swaying bridges. It is effectively inaccessible to wheelchairs and ECVs, and strollers must stay on the mainland.",
+      "The hardest transfers in the park are the Matterhorn Bobsleds' narrow single-file sleds, Autopia's low bucket seats, the Storybook Land Canal Boats' floating dock, and Dumbo's deep, high-sided vehicles.",
+      "it's a small world is the notable exception: Disneyland's version has boats with a dedicated wheelchair position loaded via a separate ramp, so no transfer is required. Tell the cast member at the entrance and expect a short additional wait.",
+      "Main Street's paving, the Frontierland walkways, and parts of New Orleans Square are textured or uneven. They are manageable in a wheelchair but they are not smooth, and a manual chair user will feel the difference by evening."
+    ],
+    "visionHearingNotes": [
+      "Audio description devices, handheld captioning, and assistive listening receivers are available from Guest Relations at City Hall in Town Square. Collect them first thing in the morning; the queue there grows steadily through the day.",
+      "Sign language interpreted performances of stage shows, the parade, and selected attractions run on scheduled days rather than continuously. Ask at City Hall on arrival for the current schedule, and request specific performances in advance where possible.",
+      "Attractions with audio description include most of the dark rides, the Jungle Cruise, Pirates of the Caribbean, and the Haunted Mansion. Coverage is broader than most guests assume, so it is worth asking about a specific ride rather than assuming it is not supported.",
+      "Braille guidebooks and stationary braille maps are available through Guest Relations, and cast members at any attraction entrance can describe the boarding process before you commit to the queue.",
+      "Several attractions rely heavily on visual gags with no audio equivalent — Mr. Toad's Wild Ride, Roger Rabbit's Car Toon Spin, and the queue signage in Galaxy's Edge and Indiana Jones in particular. A sighted companion describing them adds a great deal."
+    ]
+  },
+  "tips": [
+    {
+      "title": "The first ninety minutes are worth three hours",
+      "body": "Disneyland front-loads more sharply than any other Disney park because of its density. Being through the turnstiles thirty minutes before posted opening and walking straight to a headliner is the single highest-value decision of the day, and no amount of Lightning Lane spending replaces it."
+    },
+    {
+      "title": "Single rider lines are underused here",
+      "body": "Indiana Jones Adventure and Millennium Falcon: Smugglers Run both run single rider lines that regularly turn an hour into fifteen minutes. They split your party across vehicles and bypass parts of the queue, which makes them ideal for a second ride and a poor choice for a first one."
+    },
+    {
+      "title": "The parade cuts the park in half",
+      "body": "For roughly thirty minutes around parade time, crossing between Fantasyland and Tomorrowland or between the hub and Frontierland becomes impossible. Cast members close crossing points before the parade actually arrives. Decide which side you need to be on and get there ten minutes early."
+    },
+    {
+      "title": "Get a height wristband on the first attempt",
+      "body": "Disneyland measures with a fixed stick, shoes on and hats off, and borderline guests receive a colored wristband so they are not re-measured all day. If you have a child near 40 or 46 inches, get them measured early at an attraction entrance and keep the band on — it prevents the same argument at four different load platforms."
+    },
+    {
+      "title": "Mobile order an hour before you want to eat",
+      "body": "Pickup windows at the popular counter-service locations fill up, and at 12:30 the next available slot can be an hour out. Placing the order early and adjusting the window as you go costs nothing and is the difference between eating at noon and eating at 1:45."
+    },
+    {
+      "title": "The last twenty minutes before closing are free",
+      "body": "Cast members close the end of each queue at the posted closing time, and everybody already in line still rides. Getting into the Peter Pan's Flight or Pirates queue at closing is legitimate, expected, and the shortest effective wait of the day for rides that are unapproachable at noon."
+    },
+    {
+      "title": "Rider switch works on every height-restricted ride",
+      "body": "Tell the cast member at the entrance that you need rider switch and one adult waits with the child while the other rides, then they swap without queueing again. This matters especially on the Matterhorn and Space Mountain, where one adult may supervise only one child under seven regardless of party size."
+    },
+    {
+      "title": "Two parks, five minutes apart",
+      "body": "Disneyland Park and California Adventure share an entrance esplanade — the walk between the gates takes about five minutes. That makes park hopping genuinely practical here in a way it is not in Florida, and it means a mid-afternoon switch to the other park is a real option rather than a logistical project."
+    },
+    {
+      "title": "Bring your own food and water",
+      "body": "Disneyland permits guests to bring in their own food and non-alcoholic drinks, and there are free water stations and quick-service counters that will fill a bottle. On a hot day this saves both money and a great deal of queueing for something you did not want anyway."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many days do you need for Disneyland Park?",
+      "a": "Two days is the honest answer for a first visit if you want to see the park properly, including the smaller attractions that make it distinctive. One very well-organized day covers the headliners and the four best classic dark rides. Adding California Adventure pushes the total to three."
+    },
+    {
+      "q": "What is the tallest height requirement at Disneyland Park?",
+      "a": "Indiana Jones Adventure at 46 inches, which is also the only 46-inch requirement anywhere at Disneyland Resort. Matterhorn Bobsleds is 42 inches, and 40 inches covers Space Mountain, Big Thunder Mountain Railroad, Tiana's Bayou Adventure, Star Tours, Millennium Falcon: Smugglers Run, and Rise of the Resistance. Gadget's Go Coaster is 35 and Autopia is 32 to ride, 54 to drive alone."
+    },
+    {
+      "q": "Is Disneyland better than Magic Kingdom?",
+      "a": "For a certain kind of visitor, clearly yes. Disneyland has Indiana Jones Adventure, the Matterhorn, Mr. Toad, Alice in Wonderland, Storybook Land, the longer original Pirates, the original Haunted Mansion, and a working Rivers of America with Tom Sawyer Island — none of which Magic Kingdom offers. Magic Kingdom is bigger, less crowded per square foot, and has Seven Dwarfs Mine Train and TRON. If you value density and originals, Disneyland wins."
+    },
+    {
+      "q": "Is Lightning Lane worth buying at Disneyland?",
+      "a": "It depends on your dates and your tolerance for early mornings. Multi Pass starts around $34 per person per day as of July 2026 and covers 15 or more attractions, which is decent value on a genuinely busy day and poor value on a quiet weekday you could handle with rope drop alone. Rise of the Resistance sits in the separate Single Pass tier. Disney does move attractions between the tiers, so check the app on the day."
+    },
+    {
+      "q": "Is the Disneyland Monorail running?",
+      "a": "No. It has been closed for refurbishment since March 30, 2026, and Disney has not announced a reopening date. Plan on walking between Tomorrowland and Downtown Disney, which takes roughly ten to fifteen minutes and passes the main entrance esplanade."
+    },
+    {
+      "q": "Can you do Disneyland Park and California Adventure in one day?",
+      "a": "Physically yes, because the two gates are a five-minute walk apart, and that proximity makes hopping far more practical than it is in Florida. You will not do either park justice, though. If you only have one day and one park, make it Disneyland Park; if you have a hopper ticket and two days, hop in the evening rather than trying to split a single day evenly."
+    },
+    {
+      "q": "What time should I arrive at Disneyland?",
+      "a": "Be through the turnstiles thirty minutes before the posted opening time, which means arriving at the parking structure about an hour before. Security, the tram, and the walk from the parking structures each take longer than people expect. Main Street usually opens ahead of the rest of the park, so early arrivals get to wait at the hub instead of at the gate."
+    },
+    {
+      "q": "Where do you park at Disneyland?",
+      "a": "The Mickey & Friends and Pixar Pals structures on the west side are the main options and connect to the parks by tram or a walkway. The Toy Story lot on Harbor Boulevard uses shuttle buses and is generally the slowest option at closing time. Arrive early on busy days — the structures fill and the overflow lots add significant time in both directions."
+    },
+    {
+      "q": "Which rides at Disneyland do not exist at Walt Disney World?",
+      "a": "Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, Alice in Wonderland, Snow White's Enchanted Wish, Pinocchio's Daring Journey, Storybook Land Canal Boats, Casey Jr. Circus Train, the Sleeping Beauty Castle walkthrough, Finding Nemo Submarine Voyage, and the Sailing Ship Columbia. Since Magic Kingdom's Rivers of America closed in 2025, the Mark Twain Riverboat and Tom Sawyer Island are also exclusive to Disneyland."
+    },
+    {
+      "q": "Can one adult ride with two young children?",
+      "a": "Not on Matterhorn Bobsleds or Space Mountain, where one adult may supervise only one child under seven. Everywhere else there is no such restriction beyond the height requirement. Use rider switch if you are a single adult with two small riders — a cast member at the attraction entrance will set it up."
+    },
+    {
+      "q": "Is there a virtual queue for any Disneyland attraction?",
+      "a": "No. As of July 2026 no attraction at either Disneyland Resort park permanently uses a virtual queue. Rise of the Resistance and Tiana's Bayou Adventure both used one temporarily around their openings and both dropped it. Virtual queues now appear only for brand-new attractions in their first weeks."
+    },
+    {
+      "q": "Can you bring food and water into Disneyland?",
+      "a": "Yes. Guests may bring their own food and non-alcoholic drinks, within reasonable size limits, and there are free water fountains and refill points around the park. Glass containers and loose ice are not permitted, but a cooler bag with sandwiches and refillable bottles is entirely normal and saves a lot of money and queueing."
+    }
+  ],
+  "gettingThere": {
+    "parking": "The Mickey & Friends and Pixar Pals parking structures on the west side of the resort are the primary guest parking, connected to the entrance esplanade by tram and by a covered pedestrian walkway. The Toy Story lot on Harbor Boulevard runs shuttle buses and is the slowest option at closing. Standard parking runs roughly $35 to $40 per car as of July 2026, with premium and preferred options priced higher. Structures fill on busy mornings, so arriving early affects where you park as much as when you enter.",
+    "transportation": [
+      "Walking — the three Disneyland Resort hotels and dozens of Harbor Boulevard and Katella Avenue hotels are within a 5 to 20 minute walk of the entrance esplanade, and walking is frequently faster than any shuttle",
+      "Parking trams from the Mickey & Friends and Pixar Pals structures to the esplanade, running continuously during operating hours",
+      "Shuttle buses from the Toy Story parking lot on Harbor Boulevard",
+      "The Anaheim Resort Transportation (ART) shuttle network, which serves a large number of area hotels for a per-day fare",
+      "Rideshare and taxi drop-off at designated points on Harbor Boulevard and near the Toy Story lot; expect significant delays at park closing",
+      "Amtrak and Metrolink to the Anaheim Regional Transportation Intermodal Center (ARTIC), roughly two miles away, with connecting bus and rideshare service",
+      "The Disneyland Monorail between Tomorrowland and Downtown Disney is closed for refurbishment as of July 2026 and is not an option"
+    ],
+    "entranceNote": "Disneyland Park and Disney California Adventure share a single entrance esplanade, with the two gates facing each other about five minutes apart on foot. Security screening happens before you reach the esplanade, at checkpoints on the east and west sides, and it is the step most people underestimate — allow twenty minutes at peak arrival times. Downtown Disney sits between the esplanade and the hotels and requires no ticket, which makes it a useful meeting point and a calmer place to wait than the esplanade itself."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "dl"
+}

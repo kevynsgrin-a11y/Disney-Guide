@@ -1,7 +1,7 @@
 # Maintaining the dated half
 
 Most of this site does not move. Heights, ride mechanics, accessibility, and park layout are true
-this year and next. The pages under `data/seasonal/` are the exception: events, prices, closures and
+this year and next. The pages under each operator's `seasonal/` tree are the exception: events, prices, closures and
 month verdicts all decay, and this is the routine that keeps them honest.
 
 The contract they are authored against is `docs/SEASONAL-SCHEMA.md`. This file is the operating
@@ -74,10 +74,10 @@ The site carries permanent and dated content, and exactly one of them owns any g
 
 | Topic | Owner |
 |---|---|
-| Height requirements, ride mechanics, accessibility, park maps, permanent dining | `data/` |
-| Party nights, festivals, overlays, current pricing, closures, when-to-go | `data/seasonal/` |
-| How Lightning Lane *works* | `data/` |
-| What Lightning Lane *costs* | `data/seasonal/` |
+| Height requirements, ride mechanics, accessibility, park maps, permanent dining | the evergreen tree |
+| Party nights, festivals, overlays, current pricing, closures, when-to-go | the `seasonal/` tree |
+| How Lightning Lane *works* | the evergreen tree |
+| What Lightning Lane *costs* | the `seasonal/` tree |
 
 Both fact checkers enforce the boundary. `scripts/factcheck.mjs` fails on seasonal needles appearing
 on an evergreen page; `scripts/factcheck-seasonal.mjs` fails on permanent facts being restated on a

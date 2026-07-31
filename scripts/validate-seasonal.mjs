@@ -25,7 +25,8 @@ import { loadData } from '../src/lib/data.mjs'
 import { evergreenUrlSet, urls } from '../src/lib/seasonal-data.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const DATA = join(ROOT, 'data', 'seasonal')
+let DATA = join(ROOT, 'data')
+let OPERATOR_DIR = join(ROOT, 'data')
 
 const errors = []
 const warnings = []
@@ -186,8 +187,8 @@ function checkNoExactDates (value, where, confidence) {
  * have drifted from the one the build actually links against, and the validator would then be
  * proving something no page depends on.
  */
-async function site1UrlSet () {
-  const data = await loadData()
+async function site1UrlSet (operatorSlug) {
+  const data = await loadData(operatorSlug)
   return { set: await evergreenUrlSet(data), data }
 }
 
@@ -581,7 +582,7 @@ async function builtUrlSet (eventSlugs) {
  */
 async function validateNav (eventSlugs, evergreen) {
   const where = 'site.json'
-  const site = await readJson(join(ROOT, 'data', 'site.json'), where)
+  const site = await readJson(join(OPERATOR_DIR, 'site.json'), where)
   if (!site || !site.nav) return
 
   const built = await builtUrlSet(eventSlugs)
@@ -602,14 +603,17 @@ async function validateNav (eventSlugs, evergreen) {
  * Run
  * ------------------------------------------------------------------ */
 
-async function main () {
+async function validateOperator (operatorSlug) {
+  const { operatorDir } = await import('../src/lib/data.mjs')
+  const { seasonalDir } = await import('../src/lib/seasonal-data.mjs')
+  OPERATOR_DIR = await operatorDir(operatorSlug)
+  DATA = await seasonalDir(operatorSlug)
   if (!existsSync(DATA)) {
-    console.error('\n  data/seasonal/ does not exist. Nothing to validate.\n')
-    process.exitCode = 1
-    return
+    warn(operatorSlug, 'no seasonal/ directory — nothing dated to validate')
+    return { size: 0 }
   }
 
-  const { set: s1Urls, data: s1Data } = await site1UrlSet()
+  const { set: s1Urls, data: s1Data } = await site1UrlSet(operatorSlug)
 
   const eventSlugs = await validateEvents(s1Urls, s1Data)
   await validateNav(eventSlugs, s1Urls)
@@ -618,6 +622,21 @@ async function main () {
   await validatePrices(s1Urls)
   await validateClosures(s1Data)
   await validateCalendar(eventSlugs)
+  return { size: eventSlugs.size, urls: s1Urls.size }
+}
+
+async function main () {
+  const { operators } = await import('../src/lib/data.mjs')
+  const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
+  const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+
+  let events = 0
+  let urlCount = 0
+  for (const slug of targets) {
+    const result = await validateOperator(slug)
+    events += result.size
+    urlCount += result.urls || 0
+  }
 
   if (warnings.length) {
     console.log(`\n  ${warnings.length} warning${warnings.length === 1 ? '' : 's'}:`)
@@ -632,7 +651,7 @@ async function main () {
     return
   }
 
-  console.log(`\n  Seasonal data valid. ${eventSlugs.size} events checked against ${s1Urls.size} live evergreen URLs.\n`)
+  console.log(`\n  Seasonal data valid. ${events} events across ${targets.length} operator${targets.length === 1 ? '' : 's'}, checked against ${urlCount} live evergreen URLs.\n`)
 }
 
 main().catch((e) => { console.error('\nValidator crashed:\n', e); process.exitCode = 1 })

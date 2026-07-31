@@ -1,17 +1,19 @@
 # Data Schema — the evergreen dataset
 
+Applies to every operator. Paths below are relative to that operator's tree, `data/<operator>/`.
+
 Every page on this site is generated from JSON in `data/`. **Prose lives in the data, not in
 templates.** Templates are dumb; data is rich.
 
 Per park, there are four authored files:
 
 ```
-data/parks/<park-slug>/park.json          park meta, lands, first-timer guide, accessibility, tips
-data/parks/<park-slug>/attractions.json   every attraction in the park
-data/parks/<park-slug>/dining.json        every table-service / quick-service / notable snack location
-data/parks/<park-slug>/food.json          curated must-try food items (drives the Food Tracker tool)
-data/parks/<park-slug>/map.json           schematic map geometry (authored separately)
-data/parks/<park-slug>/best-rides.json    the park's ranked "best rides" page (authored separately)
+parks/<park-slug>/park.json          park meta, lands, first-timer guide, accessibility, tips
+parks/<park-slug>/attractions.json   every attraction in the park
+parks/<park-slug>/dining.json        every table-service / quick-service / notable snack location
+parks/<park-slug>/food.json          curated must-try food items (drives the Food Tracker tool)
+parks/<park-slug>/map.json           schematic map geometry (authored separately)
+parks/<park-slug>/best-rides.json    the park's ranked "best rides" page (authored separately)
 ```
 
 Park slugs (exactly these, no others):
@@ -30,7 +32,7 @@ Park slugs (exactly these, no others):
 ## Universal rules
 
 1. **Evergreen only.** No seasonal parties, festivals, overlays, refurb news, or current-day
-   Lightning Lane prices. Those belong under `data/seasonal/`. Where a ride has a seasonal overlay, describe the
+   Lightning Lane prices. Those belong under the operator's `seasonal/` tree. Where a ride has a seasonal overlay, describe the
    permanent version and set `hasSeasonalOverlay: true`.
 2. **Every price and every volatile fact carries `lastVerified` (`"YYYY-MM"`).** Current date is
    **2026-07**. Use `"2026-07"` unless you have a specific earlier verification month.
@@ -303,7 +305,7 @@ This is the highest-value dataset on the site. It drives `/tools/food-tracker/`,
       "mustTry": 5,                      // 1–5 editorial priority; 5 = do not leave without it
       "shareable": true,
       "portable": true,                  // can you walk and eat it
-      "seasonal": false,                 // must be false here (seasonal → data/seasonal/)
+      "seasonal": false,                 // must be false here (seasonal → seasonal/)
       "description": "…",                // 1–2 sentences, what it actually is
       "verdict": "…",                    // 1–2 sentences, honest: worth it / overrated / skip
       "image": null

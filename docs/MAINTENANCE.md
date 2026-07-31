@@ -10,8 +10,8 @@ makes the small time budget realistic.
 
 | Cadence | Task | Where |
 |---|---|---|
-| Weekly | Scan the fan trackers for height changes, ride closures, and reopenings | `data/parks/*/attractions.json` |
-| Weekly | Spot-check 5–10 snack prices against a recent source; re-stamp `priceVerified` | `data/parks/*/food.json` |
+| Weekly | Scan the fan trackers for height changes, ride closures, and reopenings | `data/<operator>/parks/*/attractions.json` |
+| Weekly | Spot-check 5–10 snack prices against a recent source; re-stamp `priceVerified` | `data/<operator>/parks/*/food.json` |
 | Monthly | Re-read the Lightning Lane guide against current mechanics (not prices) | `data/guides/lightning-lane.json` |
 | Monthly | Roll `lastVerified` forward on anything actually re-checked — **never on anything you did not** | everywhere |
 | Quarterly | Re-read the accessibility guide; DAS policy moves | `data/guides/disability-access-service.json` |
@@ -111,7 +111,7 @@ The data contract is in `docs/DATA-SCHEMA.md` and the validator enforces it. To 
 
 1. Add its slug to `PARK_ORDER` in `src/lib/data.mjs` and to `PARKS` in `scripts/validate.mjs`.
 2. Add it to the right resort's `parks` array in `data/site.json`.
-3. Create `data/parks/<slug>/` with the four required files plus `map.json`.
+3. Create `data/<operator>/parks/<slug>/` with the four required files plus `map.json`.
 4. `npm run build` — every hub, index, sitemap entry, search entry, and tool payload picks it up
    with no further code changes.
 

@@ -12,16 +12,33 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const DATA = join(ROOT, 'data')
 
-const PARKS = [
-  { slug: 'magic-kingdom', resort: 'walt-disney-world', prefix: 'mk' },
-  { slug: 'epcot', resort: 'walt-disney-world', prefix: 'ep' },
-  { slug: 'hollywood-studios', resort: 'walt-disney-world', prefix: 'hs' },
-  { slug: 'animal-kingdom', resort: 'walt-disney-world', prefix: 'ak' },
-  { slug: 'disneyland-park', resort: 'disneyland', prefix: 'dl' },
-  { slug: 'california-adventure', resort: 'disneyland', prefix: 'dca' },
-]
+/**
+ * The park list comes from the operator's own site.json rather than a table here.
+ *
+ * It used to be six hardcoded Disney rows. That made the validator itself an obstacle to adding a
+ * second operator, which is the wrong place for one — a validator should be the last file you have
+ * to edit to onboard new data, not the first.
+ */
+let DATA = join(ROOT, 'data')
+let PARKS = []
+
+async function loadParkTable (operatorSlug) {
+  const { operatorDir, parkOrder } = await import('../src/lib/data.mjs')
+  DATA = await operatorDir(operatorSlug)
+  const site = JSON.parse(await readFile(join(DATA, 'site.json'), 'utf8'))
+  const byPark = new Map()
+  for (const resort of site.resorts || []) {
+    for (const slug of resort.parks || []) byPark.set(slug, resort.slug)
+  }
+  PARKS = []
+  for (const slug of parkOrder(site)) {
+    const park = JSON.parse(await readFile(join(DATA, 'parks', slug, 'park.json'), 'utf8'))
+    if (!park.idPrefix) err(`parks/${slug}/park.json`, 'missing "idPrefix" — food ids are namespaced by it')
+    PARKS.push({ slug, resort: byPark.get(slug), prefix: park.idPrefix })
+  }
+  return site
+}
 
 const ATTRACTION_TYPES = new Set(['roller-coaster', 'dark-ride', 'water-ride', 'simulator', 'spinner',
   'show', 'stage-show', 'film', 'parade', 'fireworks', 'walkthrough', 'transportation', 'play-area',
@@ -599,11 +616,21 @@ async function validateSite () {
  * Run
  * ------------------------------------------------------------------ */
 
-async function main () {
+async function validateOperator (operatorSlug) {
+  await loadParkTable(operatorSlug)
   await validateSite()
   for (const park of PARKS) await validatePark(park)
   await validateGuides()
   await validateCompare()
+}
+
+async function main () {
+  const { operators } = await import('../src/lib/data.mjs')
+  const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
+  const all = await operators()
+  const targets = requested.length ? requested : all.map((o) => o.slug)
+
+  for (const slug of targets) await validateOperator(slug)
 
   const quiet = process.argv.includes('--quiet')
 
@@ -621,7 +648,7 @@ async function main () {
     process.exit(1)
   }
 
-  console.log(`\n  Data valid${warnings.length ? ` (${warnings.length} warning${warnings.length === 1 ? '' : 's'})` : ''}.`)
+  console.log(`\n  Data valid across ${targets.length} operator${targets.length === 1 ? '' : 's'}${warnings.length ? ` (${warnings.length} warning${warnings.length === 1 ? '' : 's'})` : ''}.`)
 }
 
 main().catch((e) => { console.error(e); process.exit(1) })

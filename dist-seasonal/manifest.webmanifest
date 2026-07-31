@@ -1,0 +1,41 @@
+{
+  "name": "Park Season Guide",
+  "short_name": "Park Season",
+  "description": "Independent, unofficial help with timing a Disney park trip: when to go, what is running, and what it costs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf8f4",
+  "theme_color": "#4a1d3f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Trip timing",
+      "url": "/tools/trip-timing/"
+    },
+    {
+      "name": "Calendar",
+      "url": "/calendar/"
+    }
+  ]
+}
