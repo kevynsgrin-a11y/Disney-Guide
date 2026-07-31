@@ -17,6 +17,7 @@ import { mkdir, writeFile, readFile, readdir, rm, cp, stat } from 'node:fs/promi
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
+import { pathToFileURL } from 'node:url'
 
 import { loadData, operators, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
@@ -429,16 +430,42 @@ const EXACT_REDIRECTS = [
 ]
 
 /* Cloudflare Pages: _headers and _redirects, plain text. */
-function buildHeaders () {
-  const cache = CACHE_RULES.map((r) => `${r.path}\n  Cache-Control: ${r.value}\n`).join('\n')
+
+/**
+ * The security block is repeated onto every rule rather than left to `/*` alone.
+ *
+ * Hosts differ on whether a request picks up headers from every matching rule or only the most
+ * specific one, and the second reading silently drops the security headers from exactly the paths
+ * that have their own cache rule. Repeating a handful of identical lines costs nothing and removes
+ * the dependency on which reading a host implements.
+ */
+export function buildHeaders () {
   const security = Object.entries(SECURITY_HEADERS).map(([k, v]) => `  ${k}: ${v}`).join('\n')
-  return `${cache}\n/*\n${security}\n`
+  const blocks = CACHE_RULES.map((r) => `${r.path}\n  Cache-Control: ${r.value}\n${security}\n`)
+  blocks.push(`/*\n${security}\n`)
+  return blocks.join('\n')
 }
 
-function buildRedirects () {
-  const wildcards = REDIRECTS.map(([from, to]) => `${from}/*  ${to}/:splat  301`).join('\n')
-  const exact = EXACT_REDIRECTS.map(([from, to]) => `${from}  ${to}  301`).join('\n')
-  return `# Legacy / convenience paths\n${wildcards}\n${exact}\n`
+/**
+ * A wildcard rule does not match its own bare prefix.
+ *
+ * `/magic-kingdom/*` matches `/magic-kingdom/anything` and misses `/magic-kingdom` — which is the
+ * form people actually type and link. This shipped, and a bare legacy path 404'd in production
+ * while the wildcard version worked. Every rule now emits both, and the trailing-slash variants of
+ * the exact rules too, for the same reason.
+ */
+export function buildRedirects () {
+  const lines = []
+  for (const [from, to] of REDIRECTS) {
+    lines.push(`${from}  ${to}/  301`)
+    lines.push(`${from}/*  ${to}/:splat  301`)
+  }
+  for (const [from, to] of EXACT_REDIRECTS) {
+    const bare = from.replace(/\/$/, '')
+    lines.push(`${bare}  ${to}  301`)
+    if (bare !== from) lines.push(`${from}  ${to}  301`)
+  }
+  return `# Legacy / convenience paths\n${lines.join('\n')}\n`
 }
 
 /**
@@ -687,7 +714,13 @@ async function main () {
   }
 }
 
-main().catch((err) => {
-  console.error('\nBuild failed:\n', err.message || err)
-  process.exitCode = 1
-})
+/*
+ * Only build when run as a command. The header and redirect builders are exported and unit-tested,
+ * and importing this module to reach them should not render the entire site as a side effect.
+ */
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error('\nBuild failed:\n', err.message || err)
+    process.exitCode = 1
+  })
+}
