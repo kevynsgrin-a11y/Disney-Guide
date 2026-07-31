@@ -12,12 +12,10 @@
  */
 
 import { html, raw, escapeHtml } from './html.mjs'
+import * as V from './map-style.mjs'
 
-/* A calm, colour-blind-safe land palette. Deliberately muted so labels and markers stay legible. */
-const LAND_COLORS = [
-  '#cfe0d4', '#e4dcc6', '#d6dbe8', '#e6d4d0', '#d3e2e4',
-  '#e0dbe9', '#dbe4cd', '#e8ded1', '#cfdde3', '#e5dce6',
-]
+/* Warm plate-printed land tints, distinguishable in greyscale so the map survives a mono printer. */
+const LAND_COLORS = V.VINTAGE_LAND_COLORS
 
 const pointsAttr = (points) => points.map(([x, y]) => `${round(x)},${round(y)}`).join(' ')
 const round = (n) => Math.round(Number(n) * 10) / 10
@@ -114,6 +112,53 @@ function syntheticMap (park) {
   }
 }
 
+/** Ray-casting point-in-polygon. Used to keep nudged labels inside their own land. */
+function inPolygon ([x, y], points) {
+  let inside = false
+  for (let i = 0, j = points.length - 1; i < points.length; j = i++) {
+    const [xi, yi] = points[i]
+    const [xj, yj] = points[j]
+    if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside
+  }
+  return inside
+}
+
+/**
+ * Nudge a land label clear of any marker sitting on top of it.
+ *
+ * Authored `labelAt` coordinates do not know where the markers ended up, so a label and a marker
+ * caption occasionally land in the same place. Rather than hand-patching coordinates per park —
+ * which only fixes the maps that exist today — the label steps away along whichever vertical
+ * direction stays inside its own polygon.
+ */
+function avoidMarkers (at, land, markers, lineCount) {
+  const CLEAR_X = 70
+  const span = (lineCount - 1) * 20
+
+  // A multi-line label is drawn from `at.y - span` downward, and each marker carries a caption
+  // below its dot. Testing the anchor alone misses the common case where a marker sits between two
+  // lines of a wrapped label, so both are treated as bands.
+  const hits = (p) => markers.some((m) => {
+    if (Math.abs(m.at[0] - p[0]) >= CLEAR_X) return false
+    const labelTop = p[1] - span - 16
+    const labelBottom = p[1] + 8
+    const markerTop = m.at[1] - 10
+    const markerBottom = m.at[1] + 34
+    return labelTop < markerBottom && markerTop < labelBottom
+  })
+
+  if (!hits(at)) return at
+  for (const step of [36, -40, 54, -58, 72, -76, 92, -96]) {
+    const candidate = [at[0], at[1] + step]
+    if (hits(candidate)) continue
+    // Both the first and last line have to stay on the land.
+    if (!inPolygon([candidate[0], candidate[1] - span], land.points)) continue
+    if (!inPolygon(candidate, land.points)) continue
+    return candidate
+  }
+  return at
+}
+
 function wrapLabel (text, max = 16) {
   const words = String(text).split(' ')
   const lines = []
@@ -155,36 +200,53 @@ function renderMarker (marker, park) {
  * @param {object} park  a park record from loadData()
  * @returns {{svg: import('./html.mjs').Raw, synthetic: boolean, note: string}|null}
  */
-export function renderParkMap (park) {
+export function renderParkMap (park, { standalone = false } = {}) {
   const map = park.map || syntheticMap(park)
   if (!map) return null
 
   const [vx, vy, vw, vh] = map.viewBox || [0, 0, 1000, 820]
   const lands = map.lands || []
+  const id = `m-${park.slug}`
+
+  // The vintage plate needs headroom for the ribbon title and footroom for the scale note, so the
+  // drawing sits inside a taller canvas than the authored geometry declares.
+  const padTop = 92
+  const padBottom = 58
+  const padSide = 34
+  const cx = vx + vw / 2
+  const canvas = [vx - padSide, vy - padTop, vw + padSide * 2, vh + padTop + padBottom]
 
   const svg = html`
-    <svg class="parkmap" viewBox="${`${vx} ${vy} ${vw} ${vh}`}" role="img"
-         aria-label="Schematic map of ${park.name} showing each land and its main attractions"
+    <svg class="parkmap parkmap--vintage" viewBox="${canvas.join(' ')}" role="img"
+         aria-label="Illustrated map of ${park.name} showing each land and its main attractions"
          xmlns="http://www.w3.org/2000/svg">
-      <title>${park.name} — schematic park map</title>
+      <title>${park.name} — illustrated park map</title>
       <desc>${map.note || 'Schematic layout of each land and its major attractions. Not to scale.'}</desc>
+      ${raw(V.vintageDefs(id))}
+      ${standalone ? raw(`<style>${V.STANDALONE_CSS}</style>`) : ''}
+      ${raw(V.paperBase(id, canvas[0], canvas[1], canvas[2], canvas[3]))}
+      ${raw(V.frame(canvas[0], canvas[1], canvas[2], canvas[3]))}
+      ${raw(V.titleRibbon(escapeHtml(park.name), cx, vy - padTop + 30, Math.min(vw * 0.62, 460)))}
+      ${raw(V.compassRose(vx + 62, vy - 4, 22))}
+      ${raw(V.scaleNote('Not to scale', vx + vw - 132, vy + vh + 14, 132))}
 
       ${(() => {
         const ground = groundShape(lands)
-        return ground ? html`<polygon class="ground" points="${pointsAttr(ground)}"/>` : ''
+        return ground ? html`<polygon class="ground" points="${pointsAttr(ground)}" filter="url(#${id}-ink-soft)"/>` : ''
       })()}
 
       <g class="lands">
         ${lands.map((land, i) => html`
           <polygon class="land-shape" data-land="${land.slug || ''}"
                    points="${pointsAttr(land.points)}"
-                   fill="${land.color || LAND_COLORS[i % LAND_COLORS.length]}"/>
+                   fill="${land.color || LAND_COLORS[i % LAND_COLORS.length]}"
+                   filter="url(#${id}-ink)"/>
         `)}
       </g>
 
       ${(map.water || []).length ? html`
         <g class="waters">
-          ${(map.water || []).map((w) => html`<polygon class="water" points="${pointsAttr(w.points)}"/>`)}
+          ${(map.water || []).map((w) => html`<polygon class="water" points="${pointsAttr(w.points)}" filter="url(#${id}-ink-soft)"/>`)}
         </g>` : ''}
 
       ${(map.paths || []).length ? html`
@@ -194,11 +256,14 @@ export function renderParkMap (park) {
 
       <g class="land-labels">
         ${lands.map((land) => {
-          const at = land.labelAt || centroid(land.points)
-          const lines = wrapLabel(land.label, 18)
+          const anchorPoint = land.labelAt || centroid(land.points)
+          // Small-caps at 20px is wide, and several lands are narrow. Wrapping early keeps the
+          // label inside its own polygon instead of bleeding over a neighbour.
+          const lines = wrapLabel(land.label, 13)
+          const at = avoidMarkers(anchorPoint, land, map.markers || [], lines.length)
           return html`
-            <text class="land-label" x="${round(at[0])}" y="${round(at[1] - (lines.length - 1) * 8)}">
-              ${lines.map((line, i) => html`<tspan x="${round(at[0])}" dy="${i === 0 ? 0 : 17}">${line}</tspan>`)}
+            <text class="land-label" x="${round(at[0])}" y="${round(at[1] - (lines.length - 1) * 10)}">
+              ${lines.map((line, i) => html`<tspan x="${round(at[0])}" dy="${i === 0 ? 0 : 20}">${line}</tspan>`)}
             </text>
           `
         })}

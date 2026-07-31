@@ -902,7 +902,7 @@ export function mapPage (park, data) {
       title: `${park.name} map`,
       lede: rendered && rendered.synthetic
         ? 'A schematic showing how the lands sit relative to one another and the entrance. Drawn by us, prints on one page, and works with the network off.'
-        : 'Our own schematic map — no clutter, no ads baked into the image, every marker clickable. It prints on one page in black and white and works with the network off.',
+        : 'Drawn by us in the style of a mid-century illustrated park plate — no clutter, no ads baked into the image, every marker clickable. Download it, print it, and it still works with the network off.',
       tone: 'compact',
       actions: [
         { href: urls.rides(park), label: 'Every attraction', primary: true },
@@ -936,12 +936,15 @@ export function mapPage (park, data) {
               <button class="btn btn--ghost btn--small" type="button" data-map-zoom="out">Zoom out</button>
               <button class="btn btn--ghost btn--small" type="button" data-map-reset hidden>Reset</button>
               <button class="btn btn--ghost btn--small" type="button" onclick="window.print()">Print this map</button>
+              <a class="btn btn--ghost btn--small" href="/maps/${park.slug}-map.svg" download>Download SVG</a>
             </div>
             <p class="map-attribution">
-              Map drawn by ${site.brand.name} from open geographic data, including data © OpenStreetMap
-              contributors, available under the Open Database Licence. Positions are schematic and are
-              not to scale. This is not an official park map and is not affiliated with or endorsed by
-              The Walt Disney Company.
+              Original artwork by ${site.brand.name}, drawn from open geographic data including data
+              © OpenStreetMap contributors, available under the Open Database Licence. The vintage
+              styling uses generic cartographic devices — compass rose, ribbon title, ruled frame —
+              and is not traced from, measured against, or styled after any official park map.
+              Positions are schematic and not to scale. This is not an official park map and is not
+              affiliated with or endorsed by The Walt Disney Company.
             </p>
           </div>
           <div class="split__aside">

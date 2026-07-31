@@ -13,6 +13,7 @@ import { performance } from 'node:perf_hooks'
 
 import { loadData, urls, foodTrackerOrder, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
 import { plain, truncate } from './lib/html.mjs'
+import { renderParkMap } from './lib/map.mjs'
 import * as core from './pages/core.mjs'
 import * as parkPages from './pages/park.mjs'
 import * as diningPages from './pages/dining.mjs'
@@ -389,6 +390,21 @@ async function main () {
   await writeFile(join(DIST_DIR, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(DIST_DIR, '_redirects'), buildRedirects(), 'utf8')
 
+  // Standalone, downloadable map plates. A downloaded file has no stylesheet, so the renderer
+  // inlines one; everything else is already self-contained by design.
+  await mkdir(join(DIST_DIR, 'maps'), { recursive: true })
+  let mapCount = 0
+  for (const park of data.parks) {
+    const rendered = renderParkMap(park, { standalone: true })
+    if (!rendered) continue
+    await writeFile(
+      join(DIST_DIR, 'maps', `${park.slug}-map.svg`),
+      `<?xml version="1.0" encoding="UTF-8"?>\n${rendered.svg}\n`,
+      'utf8'
+    )
+    mapCount++
+  }
+
   const searchIndex = buildSearchIndex(data)
   await writeFile(join(DIST_DIR, 'search-index.json'), JSON.stringify(searchIndex), 'utf8')
 
@@ -427,6 +443,7 @@ async function main () {
     ${counts.foodItems} tracked food items
     ${counts.guides} guides · ${counts.comparisons} comparisons
     ${searchIndex.count} search index entries · ${precacheCount} precached URLs
+    ${mapCount} downloadable map plates
     food share order: ${order.ids.length} slots${order.appended.length ? `, ${order.appended.length} appended this build` : ''}${order.tombstones.length ? `, ${order.tombstones.length} tombstoned` : ''}
 `)
 }

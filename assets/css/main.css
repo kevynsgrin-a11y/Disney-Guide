@@ -778,32 +778,52 @@ main:focus { outline: none; }
 
 /* ---------- 19. Maps ----------------------------------------------------- */
 
+/* The map is a printed artefact embedded in the page, so it deliberately keeps its paper tone in
+   both themes rather than inverting. The frame around it adapts instead. */
 .parkmap-wrap {
   background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--radius-lg); padding: var(--space-4); position: relative;
+  border-radius: var(--radius-lg); padding: var(--space-3); position: relative;
 }
-.parkmap { width: 100%; height: auto; display: block; touch-action: pan-y; }
+.parkmap { width: 100%; height: auto; display: block; touch-action: pan-y; border-radius: var(--radius-sm); }
 .parkmap text { stroke: none; }
-.parkmap .ground { fill: var(--surface-2); stroke: var(--line); stroke-width: 2; }
-.parkmap .land-shape { stroke: var(--surface); stroke-width: 3; transition: filter .15s ease; }
-.parkmap .land-label {
-  font-family: var(--font-display); font-weight: 700; font-size: 15px;
-  fill: var(--ink); text-anchor: middle; letter-spacing: -.01em;
-  paint-order: stroke; stroke: var(--surface); stroke-width: 4px;
+
+.parkmap--vintage .land-shape { stroke: #f2e6cd; stroke-width: 2.6; opacity: .9; transition: filter .15s ease; }
+.parkmap--vintage .ground { fill: #e9dcc0; stroke: #a08a63; stroke-width: 1.6; }
+.parkmap--vintage .water { fill: #9dbdc9; opacity: .72; }
+.parkmap--vintage .path-line {
+  stroke: #a08a63; stroke-width: 4; fill: none; opacity: .6;
+  stroke-linecap: round; stroke-dasharray: 1 7;
 }
-.parkmap .water { fill: #9fc6da; opacity: .55; }
-.parkmap .path-line { stroke: var(--line-strong); stroke-width: 5; fill: none; opacity: .5; stroke-linecap: round; }
-.parkmap .marker circle { fill: var(--surface); stroke: var(--ink); stroke-width: 2; }
-.parkmap .marker--headliner circle { fill: var(--accent); stroke: var(--surface); }
-.parkmap .marker--dining circle { fill: var(--brand-2); stroke: var(--surface); }
-.parkmap .marker text {
-  font-size: 10px; font-weight: 700; fill: var(--ink); text-anchor: middle;
-  paint-order: stroke; stroke: var(--surface); stroke-width: 3.5px;
+
+.parkmap--vintage .vmap-title {
+  font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  font-weight: 700; font-size: 30px; fill: #7c2d16;
+  text-anchor: middle; letter-spacing: .04em;
 }
-.parkmap .marker--entrance circle { fill: var(--brand); stroke: var(--surface); }
+.parkmap--vintage .vmap-compass-letter {
+  font-family: Georgia, serif; font-weight: 700; font-size: 13px; fill: #3d2f1c; text-anchor: middle;
+}
+.parkmap--vintage .vmap-note-text {
+  font-family: Georgia, serif; font-style: italic; font-size: 12px; fill: #6b5636; text-anchor: middle;
+}
+.parkmap--vintage .land-label {
+  font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  font-weight: 700; font-size: 20px; fill: #4a3218; text-anchor: middle;
+  letter-spacing: .08em; font-variant: small-caps;
+  paint-order: stroke; stroke: #f2e6cd; stroke-width: 6px;
+}
+.parkmap--vintage .marker text {
+  font-family: Georgia, serif; font-weight: 600; font-size: 11px; fill: #2f2413; text-anchor: middle;
+  paint-order: stroke; stroke: #f2e6cd; stroke-width: 4px;
+}
+.parkmap--vintage .marker circle { fill: #f2e6cd; stroke: #3d2f1c; stroke-width: 1.8; }
+.parkmap--vintage .marker--headliner circle { fill: #b5722a; }
+.parkmap--vintage .marker--dining circle { fill: #4f7350; }
+.parkmap--vintage .marker--entrance circle { fill: #7c2d16; }
+
 .parkmap a { cursor: pointer; }
-.parkmap a:hover .marker-hit { opacity: .18; }
-.marker-hit { fill: var(--ink); opacity: 0; transition: opacity .12s ease; }
+.parkmap a:hover .marker-hit { opacity: .16; }
+.marker-hit { fill: #3d2f1c; opacity: 0; transition: opacity .12s ease; }
 
 .map-legend { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); font-size: .84rem; color: var(--muted); }
 .map-legend span { display: inline-flex; align-items: center; gap: .4rem; }
