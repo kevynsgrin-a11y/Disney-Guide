@@ -1,0 +1,236 @@
+{
+  "slug": "epcot-festival-of-the-holidays",
+  "name": "EPCOT International Festival of the Holidays",
+  "shortName": "Festival of the Holidays",
+  "resort": "walt-disney-world",
+  "parkSlug": "epcot",
+  "category": "festival",
+  "season": "holidays",
+  "summary": "Go in the two weeks before Thanksgiving and treat the Candlelight Processional as the reason you came — go during Christmas week and you will pay the year's peak prices to stand still on a promenade that does not move.",
+  "h1": "EPCOT International Festival of the Holidays: what it is and whether it's worth it",
+  "title": "EPCOT International Festival of the Holidays",
+  "titleTail": ": Dates, Kitchens & Verdict",
+  "description": "EPCOT's holiday festival: how the Candlelight Processional dining package math actually works, whether the Cookie Stroll is worth it, and the weeks to avoid.",
+
+  "typicalWindow": {
+    "startsAround": "mid-November",
+    "endsAround": "30 December",
+    "nightsTypical": 45,
+    "nightsRange": [40, 50],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Daily with park admission. Holiday kitchens typically open late morning; the Candlelight Processional runs three performances each evening."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [5, 13],
+    "asOf": "July 2026",
+    "cheapestNights": "Weekdays in the opening fortnight, before Thanksgiving week",
+    "priciestNights": "Christmas week through the festival's final days, when EPCOT reaches its yearly crowd peak",
+    "notes": [
+      "The festival is included with EPCOT park admission, and so is the Candlelight Processional. There is no festival ticket.",
+      "The band above is the per-item holiday kitchen price range as of July 2026. The kitchen count here is well below Food & Wine's and the menu is heavier, so the plates go further.",
+      "Candlelight Processional dining packages, the Cookie Stroll cookies and the festival scavenger hunt are all separate purchases.",
+      "The dining package is the largest optional cost at any EPCOT festival. Price it against the same meal ordered without the package and judge the difference as what you are paying for a guaranteed seat."
+    ]
+  },
+
+  "whatYouGet": [
+    "The Candlelight Processional at the America Gardens Theatre: a massed choir, a live orchestra and a guest narrator reading the Christmas story, three performances each evening, included with park admission.",
+    "Holiday storytellers installed in the World Showcase pavilions, each performing short sets several times a day, in character and in the traditions of that country. This is the most distinctive free content at any EPCOT festival and the least attended.",
+    "Around fifteen holiday kitchens around the promenade, with a heavier and more filling menu than any of the other three festivals.",
+    "The Holiday Cookie Stroll, a set of designated cookies across participating kitchens that you collect against the festival passport and redeem for a bonus cookie once complete.",
+    "A scavenger hunt around World Showcase sold as a separate map-and-prize purchase, which works well for younger children than the autumn festival's equivalent.",
+    "EPCOT's full holiday dressing, which is included with any ticket in the window and is a genuinely better decorative job than the park gets at any other time of year."
+  ],
+
+  "whatYouDont": [
+    "The festival's last two weeks sit inside the worst crowd period at Walt Disney World. EPCOT during Christmas week reaches its yearly peak, the promenade does not walk at normal speed, and the festival adds people to a park that has no space for them.",
+    "The festival closes ahead of New Year's Eve rather than running to the end of the year, which catches out a surprising number of visitors. The last night of the year at EPCOT has the decorations and the crowd and no festival at all — the kitchens are gone and the Candlelight Processional has finished.",
+    "The Candlelight Processional is included with admission in the same sense that a concert is included with a city: the show is free and the seat is not. The standby queue for the first performance forms more than an hour ahead and regularly fills before the theatre does.",
+    "The narrator lineup is published late, changes, and has been altered after publication. Booking a trip around a specific narrator is the most common way people are disappointed by this festival.",
+    "The Cookie Stroll costs around $30 in cookies to earn one free cookie. It is a route-planner sold as a reward, and calling it a deal is not honest.",
+    "Fewer kitchens than Food & Wine means longer lines at each one. The per-stand wait in mid-December is worse here than in October even though the total crowd is comparable.",
+    "The storytellers perform on a fixed schedule with short sets, so seeing all of them in one day is not possible. Most visitors see two and assume they saw the program."
+  ],
+
+  "verdict": {
+    "short": "Worth a full day in mid-November and worth avoiding entirely in Christmas week. The Candlelight Processional is the best thing Disney gives away free, and the seat for it is the thing to plan.",
+    "worthItIf": [
+      "You are traveling in the two weeks before Thanksgiving. The full festival is running, the Candlelight Processional is on, and EPCOT is at the quietest it will be inside the window.",
+      "A choir, an orchestra and a narrated Christmas story is something you would pay for. It is included with admission, it runs three times a night, and nothing else at any Disney festival is on that scale.",
+      "You want festival food that eats like a meal. The holiday kitchens serve the heaviest plates of the four EPCOT festivals and the value per plate is good.",
+      "You are already visiting EPCOT in the window, in which case the storytellers alone justify walking the full World Showcase loop.",
+      "You are prepared to buy a dining package and treat it as the price of a guaranteed seat rather than as a meal deal."
+    ],
+    "skipIf": [
+      "Your dates fall in Christmas week. EPCOT in that window is the busiest park in Florida, the promenade is a standstill after 15:00, and every kitchen line is 25 minutes. The festival is not the problem; the week is.",
+      "You are counting on New Year's Eve. The festival closes before it, so the last night of the year has the crowd and the decorations and none of the event.",
+      "You want to see the Candlelight Processional without either a dining package or a long standby queue. That combination does not exist on a December date, and any page implying otherwise has not queued for it.",
+      "You booked around a particular narrator. The lineup is published late and has been changed after publication, and a trip built on one name is a trip built on a variable.",
+      "You are traveling with children under about six. This is the least child-oriented of the four EPCOT festivals — no play gardens, no butterfly house, and a food menu built for adults.",
+      "You are hoping to combine a full ride day with a full festival day in December. The park does not have the capacity for both in that month, and attempting it produces a day where you did neither properly."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "The Candlelight Processional, and the dining package math",
+      "body": [
+        "There are three performances each evening and the third one is the one to take. The standby queue for the first performance starts forming more than an hour ahead because it is the one everybody schedules around, while the last performance of the night frequently seats people who arrived twenty minutes before it started. It is the same choir, the same orchestra and the same narrator.",
+        "The dining package is the reliable route to a seat, and the honest way to price it is as a seat rather than as a meal. Take the package price for your party, subtract what the same restaurant would have cost you ordering normally, and the remainder is what a guaranteed seat costs. For most parties that number is large enough to argue about and small enough to justify in the week before Christmas.",
+        "Book the package at lunch rather than dinner. The lunch packages are generally cheaper than the dinner packages at the same restaurants and carry the same reserved-seating entitlement for an evening performance, which is the single best-value move at this festival and one almost nobody makes.",
+        "If you are going standby, go on a weekday, take the third show, and eat beforehand rather than during the queue. Standby seating is released as reserved seating settles, which is why arriving fifteen minutes ahead sometimes works on a Tuesday and never works on a Saturday."
+      ]
+    },
+    {
+      "heading": "Watch the storytellers, because almost nobody does",
+      "body": [
+        "Each World Showcase pavilion runs a holiday storyteller performing short sets several times a day, in character, drawing on that country's traditions. They have no queue, they cost nothing, and they are the most distinctive thing this festival has. Most visitors walk past all eleven on their way to a cookie.",
+        "Get a times guide on entry and pick four. The sets are short and the schedule is staggered, so seeing every pavilion's storyteller in one day is not achievable, and trying is how people end up seeing none of them properly.",
+        "Plan the four around your loop rather than the other way round. The storyteller schedule is the only fixed thing on the promenade during this festival, so build the kitchen order to arrive at each pavilion a few minutes before its set.",
+        "The pavilions with the strongest storytellers most years are the ones with the most specific traditions to draw on rather than the ones with the biggest pavilions. That is a good argument for prioritizing the far end of the loop, which the crowd reaches last."
+      ]
+    },
+    {
+      "heading": "The Cookie Stroll is a route-planner, not a deal",
+      "body": [
+        "The mechanic is simple: designated holiday kitchens each sell one specific cookie, you collect a stamp on the festival passport for each, and completing the set earns a bonus cookie. What that means in practice is spending around $30 in cookies to be handed a free one.",
+        "As a deal it is bad and as a structure it is genuinely useful, particularly with children. It gives a family a reason to walk the full promenade, it distributes you across kitchens rather than queuing at the same three, and it converts a food festival into a task with an ending.",
+        "Do the stroll's kitchens in the morning. The stroll stands are the first to develop lines in December because everybody is doing the same circuit, and the difference between a 10:30 start and a 14:00 start is about an hour across the set.",
+        "Split the cookies across the group rather than buying a set each. One passport per party is enough to complete the stroll, and six cookies split four ways is a reasonable amount of sugar rather than an absurd one."
+      ]
+    },
+    {
+      "heading": "Pick the week, then pick the day",
+      "body": [
+        "The two weeks before Thanksgiving are the best window of this festival by a wide margin, and it is the same reasoning that applies to every seasonal event at Walt Disney World: the full program is running from the opening day and the crowd has not arrived.",
+        "Thanksgiving week itself is a spike, the first two weeks of December are the year's genuine sweet spot for a holiday-decorated park, and everything from around the third week of December is peak. By Christmas week EPCOT is regularly the busiest park at the resort.",
+        "The overlap at the front of the window is worth knowing about. Food & Wine runs to mid-November and this festival starts in mid-November, and the two have historically abutted closely enough that a trip in that changeover can catch part of both. Check the current year's published dates before planning around it, because the size of the overlap has varied.",
+        "Within a week, the pattern is the ordinary one: weekdays over weekends, and mornings over evenings for the kitchens. The exception is the Candlelight Processional, which is an evening commitment on any date and should anchor the day rather than fit around it."
+      ]
+    },
+    {
+      "heading": "Order fewer, heavier plates",
+      "body": [
+        "This festival's menu is winter food, and the plates are the most filling of the four EPCOT festivals. A group that orders at the same pace as they would at Food & Wine will be full at the sixth kitchen with five kitchens left.",
+        "The American Holiday Table's turkey plate is the anchor. It is the most complete meal on the promenade at any EPCOT festival, and ordering it early means the rest of the loop is tasting rather than eating.",
+        "Fewer kitchens means longer lines per kitchen, so the one-person-queues-for-the-group habit matters more here than at the autumn festival. Send one person with the full order and hold a table with the rest.",
+        "Leave room for the Cookie Stroll if you are doing it. Six cookies is a genuine amount of food, and parties who eat a full loop and then start the stroll end up throwing cookies away."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "Holiday kitchen lineups rotate every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive cycles — priced at the July 2026 band. This list is deliberately short: this festival rotates its kitchen roster harder than Food & Wine does, and we would rather name five items we can stand behind than pad the list with dishes we could not confirm have returned.",
+    "items": [
+      {
+        "name": "Slow-Roasted Turkey with stuffing, mashed potatoes and cranberry sauce",
+        "where": "American Holiday Table",
+        "priceUsd": 10.5,
+        "verdict": "The most complete plate at any EPCOT festival and the reason to start your loop at the American Adventure rather than finish there. It is a small Thanksgiving dinner for the price of two cookies, and it is the one item here that makes the case for this festival's food over the autumn festival's."
+      },
+      {
+        "name": "Potato Latke with applesauce",
+        "where": "L'Chaim Holiday Kitchen",
+        "priceUsd": 6,
+        "verdict": "Near the bottom of the price band, hot, savory, and a welcome break from a promenade that is otherwise mostly sweet in December. This kitchen is one of the more thoughtfully executed on the loop and it consistently runs a shorter line than its neighbors."
+      },
+      {
+        "name": "Pernil with arroz con gandules",
+        "where": "Feast of the Three Kings",
+        "priceUsd": 8.5,
+        "verdict": "Slow-roasted pork with rice and pigeon peas, and the most seasoned thing on the promenade during this festival. It is filling enough to count as a course, which makes it the correct second stop after the turkey rather than a fourth or fifth."
+      },
+      {
+        "name": "Baklava",
+        "where": "Tangierine Cafe: Flavors of the Medina, Morocco pavilion",
+        "priceUsd": 6,
+        "verdict": "A reliable dessert at the quieter end of the loop, which is most of its value. The Morocco pavilion is where the December crowd thins, so this is the stand to hit when every kitchen nearer the front is running a twenty-minute line."
+      },
+      {
+        "name": "Holiday Cookie Stroll cookie",
+        "where": "Designated participating holiday kitchens",
+        "priceUsd": 5,
+        "verdict": "Each participating kitchen sells one designated cookie for the stroll, stamped against the festival passport, with a bonus cookie for completing the set. Individually they are fine; collectively they are roughly $30 spent to be handed a free cookie. Buy them as a route-planner for a family rather than as a bargain, and do them before noon."
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Is the Candlelight Processional included with park admission?",
+      "a": "Yes, the show is included and the seat is not, in practice. Three performances run each evening and anybody with a park ticket can join the standby queue, but that queue forms more than an hour ahead for the first show and regularly fills. The reliable route to a seat is a dining package bought separately, and the honest way to price it is as what a guaranteed seat costs rather than as a meal deal."
+    },
+    {
+      "q": "Which Candlelight performance should I go to?",
+      "a": "The third one. It is the same choir, the same orchestra and the same narrator as the first, and the queue is a fraction of the size because most visitors schedule their evening around the earliest show. If you are going standby rather than with a dining package, the last performance on a weekday is the only combination that reliably works."
+    },
+    {
+      "q": "Does the festival run over New Year's Eve?",
+      "a": "No. It has historically closed in the final days of December, ahead of New Year's Eve, which means the last night of the year at EPCOT has the decorations, the crowd and no festival — the kitchens have closed and the Candlelight Processional has finished. The typical window on this page gives the end point; visitors booking a New Year trip around this festival are the most commonly disappointed group at any EPCOT event."
+    },
+    {
+      "q": "When in the festival should I go?",
+      "a": "The two weeks before Thanksgiving, or the first fortnight of December if you want the decorations at their best. The full program runs from the opening day, so an early visit loses nothing, and everything from the third week of December onward puts you into the busiest park week of the Walt Disney World year."
+    },
+    {
+      "q": "Is the Cookie Stroll worth doing?",
+      "a": "As a deal, no — it costs around $30 in cookies to earn one free one. As a structure for a family it is genuinely useful, because it gives children a task, distributes you across the whole promenade rather than three kitchens, and has an ending. Do the stroll stands before noon, buy one passport for the party rather than one each, and split the cookies."
+    },
+    {
+      "q": "How does the food compare to Food & Wine?",
+      "a": "Fewer kitchens, heavier plates, and better value per plate. The holiday menu is winter food — roasts, stews, potatoes and cookies — so a smaller number of orders fills a group. The trade is that fewer stands means longer lines at each one, and in mid-December the per-kitchen wait here is worse than it is in October."
+    },
+    {
+      "q": "When are the next festival's dates and narrators announced?",
+      "a": "Disney has historically confirmed the festival dates in the late summer and published the Candlelight Processional narrator lineup separately and later, often only a few months ahead, with changes after publication. We have not verified a 2026 announcement as of July 2026, so this page carries the typical window rather than dates, and no narrator names at all."
+    },
+    {
+      "q": "Are the World Showcase storytellers worth planning around?",
+      "a": "Yes, and they are the most underused free content at any EPCOT festival. Each pavilion runs a holiday storyteller performing short sets several times a day with no queue and no charge. Pick four from the times guide and build your kitchen loop to arrive at each pavilion shortly before its set — seeing all of them in one day is not achievable."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "The American Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/the-american-adventure/", "site": 1 },
+    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
+    { "label": "Gran Fiesta Tour in the Mexico pavilion", "href": "/walt-disney-world/epcot/rides/gran-fiesta-tour/", "site": 1 },
+    { "label": "Frozen Ever After in the Norway pavilion", "href": "/walt-disney-world/epcot/rides/frozen-ever-after/", "site": 1 },
+    { "label": "EPCOT dining", "href": "/walt-disney-world/epcot/dining/", "site": 1 },
+    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 }
+  ],
+
+  "related": [
+    "epcot-food-and-wine-festival",
+    "mickeys-very-merry-christmas-party",
+    "disney-jollywood-nights",
+    "epcot-festival-of-the-arts"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "Ran the standard mid-November to end-of-December window as an included-with-admission festival, with the Candlelight Processional performing three times nightly at the America Gardens Theatre.",
+        "The holiday kitchen count stayed well below the autumn festival's, which continues to mean longer lines per stand in December than in October despite a comparable total crowd."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 cycle, labelled as such. We have not reproduced the 2025 kitchen roster or the 2025 Candlelight narrator lineup, because both change annually and the narrator list in particular has been altered after publication within a single cycle.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The festival has run in the same shape every year since 2017, with the Candlelight Processional running at EPCOT for decades before that: a mid-November start, an end in the final days of December ahead of New Year's Eve, and roughly 45 days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates, kitchen lineup and narrator schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and names no narrator and no date.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

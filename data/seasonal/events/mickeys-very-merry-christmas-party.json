@@ -1,0 +1,202 @@
+{
+  "slug": "mickeys-very-merry-christmas-party",
+  "name": "Mickey's Very Merry Christmas Party",
+  "shortName": "Very Merry",
+  "resort": "walt-disney-world",
+  "parkSlug": "magic-kingdom",
+  "category": "hard-ticket",
+  "season": "holidays",
+  "summary": "The weakest value of the three Walt Disney World hard-ticket parties, because almost everything people buy it for — the decorations, the castle lighting, the holiday ride overlays — is already included with an ordinary November park ticket.",
+  "h1": "Mickey's Very Merry Christmas Party: what it is and whether it's worth it",
+  "title": "Mickey's Very Merry Christmas Party",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "What the Magic Kingdom Christmas party costs, what it adds over a free holiday-season park day, and the nights that are worth the money.",
+
+  "typicalWindow": {
+    "startsAround": "early November",
+    "endsAround": "shortly before Christmas",
+    "nightsTypical": 24,
+    "nightsRange": [20, 26],
+    "daysOfWeek": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri"],
+    "hours": "19:00 – 00:00, with park entry from 16:00"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [169, 219],
+    "asOf": "2025 season",
+    "cheapestNights": "The opening week in early November, and Sunday and Monday nights through the first half of the run",
+    "priciestNights": "The Friday and weekend nights in the final two weeks before Christmas",
+    "notes": [
+      "Tax is additional.",
+      "The price floor is the story here. A $50 spread from cheapest to dearest is half the spread of the Halloween party, so there is no genuinely inexpensive night.",
+      "Children aged 3 to 9 pay a reduced rate; under 3 enter free.",
+      "Passholder and DVC discounts have historically been thin on this event and limited to the earliest nights."
+    ]
+  },
+
+  "whatYouGet": [
+    "Park entry from 16:00 on a ticket priced for a 19:00 event, which is three hours of standard Magic Kingdom operation before any party content begins.",
+    "Mickey's Once Upon a Christmastime Parade, run twice on most nights, with a snow effect on Main Street that is genuinely the best physical gag Disney does anywhere in Florida.",
+    "A party-exclusive fireworks and projection show that is a different production from the one that runs on ordinary nights, staged once per party.",
+    "Unlimited complimentary hot chocolate, cookies and seasonal snacks at stations around the park, running until the party ends. Allergy-friendly options are handled at the same stations rather than a separate line.",
+    "Character meets that only exist on party nights, headed by Santa Claus and a holiday-costumed Mickey and Minnie, plus the Seven Dwarfs and a rotating supporting lineup.",
+    "A castle stage show built around the holiday characters, run several times a night, which is the easiest thing at the party to see without queuing.",
+    "Complimentary digital downloads of PhotoPass photos taken during the party."
+  ],
+
+  "whatYouDont": [
+    "You are not buying the decorations. Magic Kingdom is fully dressed for the holidays from early November through the first days of January, and every garland, the Main Street tree, and the castle's nightly lighting sequence are included with any ordinary day ticket. People pay $200 for scenery they could have photographed for free that afternoon.",
+    "You are not buying the ride overlays either. Jungle Cruise runs its holiday version across the whole season, not just on party nights, and the same is true of the seasonal soundtrack changes elsewhere in the park.",
+    "There is no cheap night. The floor sits $50 above the Halloween party's floor on a season half as long, which means the worst night of Very Merry costs more than the median night of Not-So-Scary.",
+    "The hot chocolate stations on Main Street run 10-to-15 minute lines for most of the evening. The complimentary snacks are commercially produced and portioned small; treat them as a warm drink rather than as dinner you have prepaid for.",
+    "A second party night in the same trip buys you nothing. The parade, the fireworks and the stage show are identical every night, and once you have done the character lines there is no further content.",
+    "There is no refund and no rain check. A December cold front in Central Florida can put the fireworks and the parade out for wind, and the ticket stands.",
+    "The nights people want — the two weeks before Christmas — sell out first and are also the nights when Magic Kingdom is at its most crowded before the party even starts, so your 16:00 head start is worth much less."
+  ],
+
+  "verdict": {
+    "short": "Skip it unless the party itself is the point of the trip. The decorations, castle lighting and holiday overlays are free with any November ticket, and this event's price floor is unforgiving.",
+    "worthItIf": [
+      "You want Santa and the holiday-costumed characters specifically, and you understand that this is the only reliable way to get them at Magic Kingdom.",
+      "You are traveling in early November and want the holiday park at the bottom of the price band, before the pre-Christmas crowd arrives.",
+      "Your group would rather watch a parade in falling snow than ride anything, and a ride count of four for the evening is acceptable.",
+      "You have a long trip and can spare one evening at Magic Kingdom without losing a park day you had planned around.",
+      "Christmas is the family's occasion and the cost of the ticket is not the deciding factor in the trip budget."
+    ],
+    "skipIf": [
+      "You are visiting anyway in November or December. The park is decorated, the castle lights every night, and the holiday ride overlays run on ordinary tickets. Buying the party to see holiday Magic Kingdom is buying something you already have.",
+      "Your only date option is a Friday in the last two weeks before Christmas. You will pay the top of the band on the most crowded nights of the run, and the parade route fills more than an hour ahead.",
+      "You have already booked Not-So-Scary earlier in the same trip, or in the same year. The two parties share a structure, a footprint and most of a ride list, and the second one is a repeat purchase.",
+      "Anyone in your party is going to be cold. Central Florida in December drops into the 50s after dark, the party runs to midnight, and the two hours between the parade and closing are spent outdoors and standing.",
+      "You want ride time. Very Merry has the smallest ride-value case of the three Florida parties, because the crowd stays in the parade and stage-show footprint rather than dispersing to the lands.",
+      "The cost matters to you at all. This is the least defensible of the three parties on a dollars-per-thing-you-cannot-otherwise-do basis, and saying so is the whole reason this page exists."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Decide whether you need a ticket at all",
+      "body": [
+        "Before you compare nights, compare the party against a free holiday evening at the same park, because for most visitors that comparison ends the discussion. Magic Kingdom's holiday layer goes up in the first days of November and stays through the new year: the Main Street tree, the garlands, the full castle lighting sequence run several times a night, and the holiday ride overlays.",
+        "What the ticket adds, and the only thing it adds, is a parade, a fireworks show, a stage show, unlimited cookies, and access to characters who do not appear on ordinary days. If none of those five items is the reason you are traveling, buy an ordinary ticket for a November evening and spend the difference on a table-service dinner.",
+        "The test that settles it: name the one thing at the party you would be disappointed to miss. If the answer is Santa, or the parade in the snow, buy the ticket. If the answer is the atmosphere, you already have it.",
+        "One genuine cost nobody accounts for: on party nights the park closes to day guests at 18:00, so if Magic Kingdom is on your itinerary that day without a party ticket, you lose the evening entirely. Check the party calendar before you assign parks to days, not after."
+      ]
+    },
+    {
+      "heading": "Use the 16:00 entry properly",
+      "body": [
+        "Party tickets scan from 16:00, three hours before the event starts, and none of the party content is running in that window — no cookies, no meets, no parade. Treat those three hours as an ordinary park visit and spend them on the rides you would otherwise queue an hour for.",
+        "Seven Dwarfs Mine Train, Peter Pan's Flight and Space Mountain are the three to clear in that window, in that order, because all three hold long lines through the party as well. Standby times fall steadily from 16:30 as day guests are moved toward the exit.",
+        "Get your party wristband immediately on entry rather than at 18:30. The wristband stations near the hub run five-minute lines at 16:15 and twenty-minute lines at 18:45, and that twenty minutes comes out of the party rather than out of the afternoon.",
+        "Do not spend the window eating. Magic Kingdom quick service between 16:00 and 18:00 is the worst it is all day, and a party ticket includes enough snack content that you want an appetite at 19:00, not before."
+      ]
+    },
+    {
+      "heading": "Parade twice, snow once, and where to stand",
+      "body": [
+        "The parade runs twice on most nights and the second run is emptier by a wide margin. The first draws people who have been sitting on Main Street curbs since 20:00; the second frequently has open space fifteen minutes before step-off.",
+        "Stand in Frontierland or Liberty Square for the later run. The route starts at that end on the second pass, so you see the parade roughly twenty minutes before the Main Street audience does, and you walk into a Fantasyland that is still empty while the Main Street crowd is stuck behind the parade itself.",
+        "The Main Street snow effect is the exception to that advice. It only falls on Main Street, and it is the single best-executed thing in the party. If you have one night and one preference, take the first parade from Main Street for the snow and the second one from anywhere.",
+        "The best twenty-five minutes of ride time in the whole party is during the first parade. Haunted Mansion, Big Thunder Mountain Railroad and Space Mountain all drop to near walk-on while the parade is on Main Street, because the crowd is standing on the route."
+      ]
+    },
+    {
+      "heading": "The cookie stations, and which ones are worth walking to",
+      "body": [
+        "The complimentary snack stations are not evenly loaded. The ones on Main Street and around the hub are on the natural walking path from the entrance and hold 10-to-15 minute lines for the first two hours of the party.",
+        "The stations at the outer edges — Storybook Circus at the back of Fantasyland, and the far end of Tomorrowland — serve the same product with little or no line, because most guests never walk that far before the parade.",
+        "Hot chocolate is the item worth queuing for and the cookies are not. The cookies are commercially produced and small; the drinks are the thing that makes a December midnight tolerable.",
+        "Allergy-friendly items are handled at the same stations rather than a separate location, so ask at whichever station you reach rather than hunting for a designated one."
+      ]
+    },
+    {
+      "heading": "Picking a night when there are no cheap nights",
+      "body": [
+        "The value end of this calendar is the opening week in early November, and it is a better night than its reputation suggests. The park is already fully decorated by the first party — Disney turns the Halloween layer over to the holiday layer in a matter of days — so the earliest party gets identical content at the bottom of the band with the smallest crowd of the run.",
+        "Sunday and Monday nights hold up through the first half of the season. By the last two weeks, every night is expensive and every night sells hard, so the choice at that point is about your itinerary rather than about value.",
+        "Avoid stacking the party against a Candlelight Processional evening at EPCOT or a full day at Hollywood Studios. The party's payoff is between 21:00 and midnight, and it does not survive being the second half of an already long day.",
+        "Buy early if your dates fall after the first week of December. Those nights sell out, and the party sells out earlier than most people expect because the season is short."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is the party the only way to see Magic Kingdom decorated for the holidays?",
+      "a": "No, and this is the most important thing on the page. The full holiday layer — the Main Street tree, the garlands, the castle lighting sequence, the holiday ride overlays — is up from early November to early January and included with any ordinary park ticket. The party adds a parade, a fireworks show, a stage show, free snacks, and character meets. Nothing else."
+    },
+    {
+      "q": "What does the ticket actually include that a day ticket does not?",
+      "a": "Five things: Mickey's Once Upon a Christmastime Parade, a party-exclusive fireworks and projection show, a castle stage show, unlimited complimentary hot chocolate and cookies, and character meets that do not run on ordinary days, Santa included. Digital PhotoPass downloads from the party are also included. Price the ticket against those five items rather than against the season."
+    },
+    {
+      "q": "Can I get into the park before 16:00 with a party ticket?",
+      "a": "No. The ticket admits you from 16:00 and not before, and there is no upgrade that changes that. If you want the full day at Magic Kingdom as well, that is a second, separately priced ticket, and on most itineraries the better move is to put your Magic Kingdom day elsewhere in the week."
+    },
+    {
+      "q": "Do the rides stay open during the party?",
+      "a": "Most of them do, and the waits are shorter than a normal evening, but the ride case is weaker here than at the Halloween party. The crowd concentrates along the parade route and around the castle rather than dispersing into the lands, so the queues that drain are the ones nearest the entrance and Fantasyland stays busier than you would hope."
+    },
+    {
+      "q": "What happens if the weather is bad?",
+      "a": "The party runs and the ticket is non-refundable. A December cold front can cancel both the parade and the fireworks for wind while the event itself continues, which is the specific risk of buying this party rather than the August one. Central Florida evenings in December sit in the 50s often enough that layers are not optional."
+    },
+    {
+      "q": "When do the next season's dates come out?",
+      "a": "Disney has historically published the Very Merry calendar in the summer, several months ahead of the November start, with sales opening in stages. We have not verified a 2026 announcement as of July 2026, so this page shows the typical window and the last confirmed cycle's prices rather than dates. Pages showing you exact 2026 nights should be able to tell you where those nights came from."
+    },
+    {
+      "q": "Which is better, this or Mickey's Not-So-Scary Halloween Party?",
+      "a": "Not-So-Scary, on value and on content. It has a wider price band with genuinely cheap nights, a longer season, a stronger parade, and the costume rules that give it an occasion of its own. Very Merry's advantages are Santa, the Main Street snow, and a park that is more thoroughly decorated — but you get the decorated park without the ticket."
+    },
+    {
+      "q": "Is one party night enough?",
+      "a": "Yes, and a second night in the same trip is close to wasted money. Every element repeats identically each night: the same parade, the same fireworks, the same stage show, the same meets. The only case for a second night is a group that split up and missed something on the first."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Jungle Cruise at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/jungle-cruise/", "site": 1 },
+    { "label": "Seven Dwarfs Mine Train at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/", "site": 1 },
+    { "label": "Peter Pan's Flight at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/peter-pans-flight/", "site": 1 },
+    { "label": "Magic Kingdom's nightly fireworks show", "href": "/walt-disney-world/magic-kingdom/rides/nighttime-fireworks/", "site": 1 },
+    { "label": "Best snacks at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/best-snacks/", "site": 1 },
+    { "label": "Rope drop strategy", "href": "/guides/rope-drop-strategy/", "site": 1 }
+  ],
+
+  "related": [
+    "mickeys-not-so-scary-halloween-party",
+    "disney-jollywood-nights",
+    "epcot-festival-of-the-holidays",
+    "disney-after-hours"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "priceRangeUsd": [169, 219],
+      "changes": [
+        "The per-night band stayed narrow, with roughly $50 between the cheapest early-November night and the most expensive night before Christmas.",
+        "The season continued to run from early November to shortly before Christmas, ending well ahead of the Christmas week itself — a point that catches out visitors who assume a Christmas party runs at Christmas."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 season figures, labelled as 2025 figures. We have not stated a night count for the 2025 run because we could not verify one; the typical window on this page gives the range instead.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The calendar shape has held for many consecutive years: an early-November start, an end shortly before Christmas, and 20 to 26 nights on Sundays and midweek. That is strong enough to plan a trip around. The 2026 dates and 2026 prices are not confirmed to us as of July 2026, so this page states a window and a 2025 price band and no exact night.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "brand": {
+    "name": "Park Season Guide",
+    "shortName": "Park Season",
+    "tagline": "Independent, unofficial help with timing a Disney park trip: when to go, what is running, and what it costs.",
+    "domain": "parkseason.guide",
+    "origin": "https://parkseason.guide",
+    "locale": "en-US",
+    "themeColor": "#4a1d3f",
+    "founded": 2026,
+    "logoMark": "PS",
+    "sisterSite": {
+      "name": "Ride Ready Guide",
+      "origin": "https://rideready.guide",
+      "note": "Our evergreen sister site. It owns the facts that do not move with the season: height requirements, ride-by-ride detail, accessibility, permanent dining, and park maps. We link to it rather than restate it."
+    },
+    "themeKey": "season"
+  },
+  "meta": {
+    "defaultTitleSuffix": "Park Season Guide",
+    "defaultDescription": "Which month to visit Walt Disney World or Disneyland, which seasonal events are running, what a party night costs, and what is closed. Every dated claim carries the month it was last checked and how confident we are. Independent and unofficial.",
+    "twitterSite": "@parkseason",
+    "publisherName": "Park Season Guide"
+  },
+  "author": {
+    "name": "The Park Season Guide editorial team",
+    "shortBio": "Independent theme-park writers who track party nights, festivals, price changes, and refurbishment walls, and who label the difference between what has been announced and what we are only expecting.",
+    "url": "/about/"
+  },
+  "nav": {
+    "primary": [
+      {
+        "label": "When to go",
+        "href": "/when-to-go/"
+      },
+      {
+        "label": "Events",
+        "href": "/events/"
+      },
+      {
+        "label": "Calendar",
+        "href": "/calendar/"
+      },
+      {
+        "label": "Prices",
+        "href": "/prices/"
+      },
+      {
+        "label": "Closures",
+        "href": "/closures/"
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Walt Disney World events",
+        "links": [
+          {
+            "label": "Not-So-Scary Halloween Party",
+            "href": "/events/mickeys-not-so-scary-halloween-party/"
+          },
+          {
+            "label": "Very Merry Christmas Party",
+            "href": "/events/mickeys-very-merry-christmas-party/"
+          },
+          {
+            "label": "Disney Jollywood Nights",
+            "href": "/events/disney-jollywood-nights/"
+          },
+          {
+            "label": "EPCOT Food & Wine Festival",
+            "href": "/events/epcot-food-and-wine-festival/"
+          },
+          {
+            "label": "Walt Disney World closures",
+            "href": "/closures/walt-disney-world/"
+          }
+        ]
+      },
+      {
+        "heading": "Disneyland Resort events",
+        "links": [
+          {
+            "label": "Oogie Boogie Bash",
+            "href": "/events/oogie-boogie-bash/"
+          },
+          {
+            "label": "Halloween Time",
+            "href": "/events/halloween-time-at-the-disneyland-resort/"
+          },
+          {
+            "label": "Holidays at Disneyland",
+            "href": "/events/holidays-at-the-disneyland-resort/"
+          },
+          {
+            "label": "DCA Food & Wine Festival",
+            "href": "/events/disney-california-adventure-food-and-wine-festival/"
+          },
+          {
+            "label": "Disneyland Resort closures",
+            "href": "/closures/disneyland/"
+          }
+        ]
+      },
+      {
+        "heading": "Planning",
+        "links": [
+          {
+            "label": "When to go, month by month",
+            "href": "/when-to-go/"
+          },
+          {
+            "label": "Year-at-a-glance calendar",
+            "href": "/calendar/"
+          },
+          {
+            "label": "What things cost",
+            "href": "/prices/"
+          },
+          {
+            "label": "Closures & refurbishments",
+            "href": "/closures/"
+          },
+          {
+            "label": "Trip timing tool",
+            "href": "/tools/trip-timing/"
+          }
+        ]
+      },
+      {
+        "heading": "About",
+        "links": [
+          {
+            "label": "About this site",
+            "href": "/about/"
+          },
+          {
+            "label": "Editorial policy",
+            "href": "/editorial-policy/"
+          },
+          {
+            "label": "Affiliate disclosure",
+            "href": "/affiliate-disclosure/"
+          },
+          {
+            "label": "Privacy policy",
+            "href": "/privacy/"
+          },
+          {
+            "label": "Terms of use",
+            "href": "/terms/"
+          },
+          {
+            "label": "Contact & corrections",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "disclaimer": "Park Season Guide is an independent, unofficial publication. It is not affiliated with, endorsed by, sponsored by, or officially connected to The Walt Disney Company or any of its subsidiaries or affiliates. Event, park, resort, restaurant, and character names appear here for identification and editorial commentary only and remain the trademarks of their respective owners. Nothing on this site is an offer to sell tickets or admission of any kind.",
+    "shortDisclaimer": "Independent and unofficial. No affiliation with The Walt Disney Company.",
+    "affiliateDisclosure": "Some links on this page are affiliate links, and a purchase made through one may earn us a commission at no extra cost to you. We link only to sellers we would buy from ourselves, and a commission has never moved a date, a price, or a verdict on this site.",
+    "accuracyNote": "Seasonal facts decay, so we date them. Every dated claim here carries the month a person last verified it, whether the operator has actually announced it or we are only expecting it, and the month it must be rechecked. Once that review month passes, the page says so automatically rather than waiting for us to remember. Confirm anything trip-critical with the operator before you book.",
+    "copyrightHolder": "Park Season Guide"
+  },
+  "affiliates": {
+    "tickets": {
+      "label": "Undercover Tourist",
+      "note": "Authorized reseller for both resorts. Worth checking before you buy park tickets direct, though hard-ticket event nights are almost always operator-only.",
+      "href": "https://www.undercovertourist.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "packagesDisneyland": {
+      "label": "Get Away Today",
+      "note": "Disneyland Resort ticket and hotel packages with layaway, which matters most in the peak Halloween and holiday windows.",
+      "href": "https://www.getawaytoday.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "gear": {
+      "label": "Amazon",
+      "note": "Rain ponchos, cooling towels, and the other seasonal gear a Florida August or a January evening in Anaheim actually calls for.",
+      "href": "https://www.amazon.com/",
+      "rel": "sponsored nofollow noopener"
+    }
+  },
+  "analytics": {
+    "enabled": false,
+    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+  }
+}

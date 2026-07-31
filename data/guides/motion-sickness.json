@@ -1,0 +1,287 @@
+{
+  "slug": "motion-sickness",
+  "title": "Disney Rides and Motion Sickness: Risk by Ride",
+  "h1": "Motion Sickness on Disney Rides: A Ride-by-Ride Guide",
+  "metaDescription": "Simulator sickness and spin sickness are different problems. Here is which Disney rides trigger which, the seats to ask for, and what actually helps.",
+  "summary": "A ride-by-ride risk assessment across all six US Disney parks, split by the two distinct kinds of motion sickness, with seat-selection tactics and mitigation that works.",
+  "category": "rides",
+  "readingTimeMinutes": 11,
+  "intro": [
+    "Motion sickness at a Disney park is not one problem. It is two, they have different causes, and the tactics that fix one can make the other worse. Simulator sickness comes from your eyes reporting movement your inner ear cannot feel — screens, 3D, motion bases. Spin sickness comes from the opposite direction: your inner ear getting more rotation than it can process, on teacups, rafts, and centrifuges.",
+    "Knowing which one you have changes what you should do. Closing your eyes is excellent advice on Star Tours and counterproductive on Mad Tea Party. Fixing your gaze on a stable point helps enormously on a spinning raft and does nothing in a sealed simulator cabin. Most generic advice fails because it treats the two as the same condition.",
+    "This page sorts every significant attraction at the six US parks by which kind of trigger it presents and how strong it is, then covers prevention, seat selection, and what to do when it has already happened. The single highest-risk attraction at either resort, by a comfortable margin, is the Orange side of Mission: SPACE at EPCOT — it is a centrifuge with a screen, which means it delivers both kinds of trigger simultaneously."
+  ],
+  "keyPoints": [
+    "Simulator sickness and spin sickness are different problems. Closing your eyes helps the first and often worsens the second.",
+    "Mission: SPACE Orange is the highest-risk attraction at either resort. The Green version exists specifically as a non-spinning alternative and is a genuine solution, not a consolation prize.",
+    "Star Tours is the most common first encounter with simulator sickness — screen-based, randomised, and it runs at both resorts.",
+    "Water rapids rides trigger spin sickness that catches people out. Grizzly River Run and Kali River Rapids rotate continuously and nobody expects it.",
+    "Heat and dehydration are the biggest multipliers. A Florida afternoon can turn a ride you tolerate at 9 AM into one you cannot manage at 3 PM.",
+    "Seat position matters more than most people believe — the middle concourse top row on Soarin' and a pilot seat on Millennium Falcon are meaningfully better.",
+    "Never ride two screen-based attractions back to back. Symptoms accumulate across a day and the second one is always worse than the first."
+  ],
+  "sections": [
+    {
+      "id": "two-kinds",
+      "heading": "The two kinds of motion sickness",
+      "body": [
+        "Simulator sickness is a sensory conflict. A screen fills your visual field with the sensation of flying, banking, or falling, while a motion base tilts your seat a few inches to sell it. Your eyes report a barrel roll; your inner ear reports a gentle wobble. The mismatch produces nausea, cold sweats, and a headache that can last hours. People who get carsick reading in a back seat are the classic profile, and so are people who cannot tolerate VR headsets.",
+        "Spin sickness is the opposite: too much real rotation, processed by the vestibular system in your inner ear, with no mismatch involved at all. Teacups, spinning rafts, and centrifuges overload the fluid in your semicircular canals, and the disorientation persists after the ride stops because the fluid keeps moving. Recovery is usually faster than from simulator sickness but the acute phase is more dramatic.",
+        "A third category catches people who claim not to get motion sick at all: dark ride disorientation. Slow-moving vehicles that rotate gently in near-total darkness — the Doom Buggies on Haunted Mansion, trackless vehicles that pivot while you are looking at a screen — remove every visual reference point. Sensitive people come off these mildly unwell and cannot explain why, because the ride felt gentle.",
+        "The practical implication: if you know which category affects you, you can ride most of both resorts. If you assume all motion sickness is the same thing, you will either avoid attractions you would be fine on or walk confidently onto the one that ruins your afternoon."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Telling the two apart",
+        "columns": ["", "Simulator sickness", "Spin sickness"],
+        "rows": [
+          ["Cause", "Eyes report motion the inner ear does not feel", "Inner ear receives more rotation than it can process"],
+          ["Typical triggers", "Screens, 3D, motion bases, trackless vehicles", "Teacups, spinning rafts, centrifuges, whip-action rides"],
+          ["Who it affects", "People who get carsick reading, and anyone VR makes ill", "People who cannot spin on a desk chair without regretting it"],
+          ["Closing your eyes", "Helps a great deal", "Often makes it worse — you lose your reference point"],
+          ["Fixing your gaze on a stable point", "Limited help; there is rarely a stable point available", "Genuinely effective, particularly on rafts"],
+          ["Onset", "Builds during and peaks after", "Immediate and dramatic, then fades"],
+          ["Duration", "Can last hours and accumulates across a day", "Usually 10 to 30 minutes"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "worst-offenders",
+      "heading": "The ten attractions most likely to make you ill",
+      "body": [
+        "If you are motion sensitive and want a short list to be careful with, this is it. These are the attractions that generate the most complaints per rider at the six parks, and the reasons are structural rather than a matter of taste.",
+        "Mission: SPACE Orange deserves its position at the top. It is a genuine centrifuge that generates sustained G-force while you watch a screen a foot from your face — both trigger types at once, for four minutes. Disney provides sick bags in the vehicle, which is the clearest possible signal about what the ride does to people. The Green version runs the same story without the spin and is completely different in effect."
+      ],
+      "list": null,
+      "table": {
+        "caption": "The highest-risk attractions at the six US parks",
+        "columns": ["Attraction", "Park", "Trigger", "Why it is on this list"],
+        "rows": [
+          ["Mission: SPACE (Orange)", "EPCOT", "Spin plus simulator", "A centrifuge with a screen inches from your face. Sustained G-force for minutes. Sick bags are provided"],
+          ["Star Tours", "Hollywood Studios and Disneyland Park", "Simulator", "The archetypal motion base and screen combination, with sharp direction changes and a randomised sequence"],
+          ["Avatar Flight of Passage", "Animal Kingdom", "Simulator", "A forward-leaning posture, a screen filling your entire visual field, and banking that feels far more extreme than the seat moves"],
+          ["Mad Tea Party", "Magic Kingdom and Disneyland Park", "Spin", "Guest-controlled rotation on top of platform rotation. The only ride where you choose your own dose"],
+          ["Millennium Falcon: Smugglers Run", "Hollywood Studios and Disneyland Park", "Simulator", "A pitching cockpit while non-pilots stare at flashing buttons instead of the screen"],
+          ["Grizzly River Run", "California Adventure", "Spin", "The raft rotates continuously and unpredictably for the full ride. Almost nobody expects a water ride to do this"],
+          ["Guardians of the Galaxy: Cosmic Rewind", "EPCOT", "Spin", "Ride vehicles rotate to face show scenes while the coaster is in motion, which is disorienting in a way a normal coaster is not"],
+          ["Matterhorn Bobsleds", "Disneyland Park", "Spin and jolting", "Sharp lateral direction changes on old track with minimal padding. Rough rather than fast"],
+          ["Roger Rabbit's Car Toon Spin", "Disneyland Park", "Spin", "A guest-spinnable vehicle in a dark ride. Gentle-looking and a genuine problem for spin-sensitive riders"],
+          ["Soarin' Around the World", "EPCOT and California Adventure", "Simulator", "A huge curved screen with your feet dangling. The side sections view the image at an angle, which is what causes most of the trouble"]
+        ]
+      },
+      "callout": {
+        "type": "warning",
+        "title": "The Orange and Green choice is real",
+        "body": "Mission: SPACE splits into two versions from the same queue. Green is a non-spinning simulator with the same story and the same visuals; Orange adds the centrifuge. If you are at all motion sensitive, take Green — it is not a watered-down version so much as a completely different ride experience, and taking Orange to prove something is how people lose the rest of their EPCOT day."
+      }
+    },
+    {
+      "id": "full-table",
+      "heading": "The full ride-by-ride risk table",
+      "body": [
+        "Every significant attraction at the six parks that carries any motion sickness risk at all, rated low, moderate, or high. Anything not listed here is effectively risk-free for both categories — that includes every show, every walkthrough, every train and boat, the safari, and the great majority of Fantasyland.",
+        "Ratings are relative to a typical adult who does not consider themselves motion sensitive. If you know you are sensitive, treat every moderate as a high and every low as a moderate, and read the trigger column rather than the rating."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Motion sickness risk across all six US Disney parks",
+        "columns": ["Attraction", "Park", "Trigger type", "Risk"],
+        "rows": [
+          ["Mission: SPACE (Orange)", "EPCOT", "Spin plus simulator", "High"],
+          ["Mission: SPACE (Green)", "EPCOT", "Simulator", "Low"],
+          ["Star Tours", "Hollywood Studios / Disneyland Park", "Simulator", "High"],
+          ["Avatar Flight of Passage", "Animal Kingdom", "Simulator", "High"],
+          ["Mad Tea Party", "Magic Kingdom / Disneyland Park", "Spin", "High"],
+          ["Millennium Falcon: Smugglers Run", "Hollywood Studios / Disneyland Park", "Simulator", "High"],
+          ["Grizzly River Run", "California Adventure", "Spin", "High"],
+          ["Guardians of the Galaxy: Cosmic Rewind", "EPCOT", "Spin plus coaster", "High"],
+          ["Matterhorn Bobsleds", "Disneyland Park", "Jolting and lateral", "High"],
+          ["Roger Rabbit's Car Toon Spin", "Disneyland Park", "Spin", "High"],
+          ["Soarin' Around the World", "EPCOT / California Adventure", "Simulator", "Moderate"],
+          ["Kali River Rapids", "Animal Kingdom", "Spin", "Moderate"],
+          ["WEB SLINGERS: A Spider-Man Adventure", "California Adventure", "Simulator", "Moderate"],
+          ["Remy's Ratatouille Adventure", "EPCOT", "Simulator and trackless", "Moderate"],
+          ["Mickey & Minnie's Runaway Railway", "Hollywood Studios / Disneyland Park", "Simulator and trackless", "Moderate"],
+          ["Toy Story Midway Mania", "Hollywood Studios / California Adventure", "Simulator and rotation", "Moderate"],
+          ["Star Wars: Rise of the Resistance", "Hollywood Studios / Disneyland Park", "Trackless with a drop", "Moderate"],
+          ["Alien Swirling Saucers", "Hollywood Studios", "Spin and whip", "Moderate"],
+          ["Goofy's Sky School", "California Adventure", "Whip and lateral", "Moderate"],
+          ["Mater's Junkyard Jamboree", "California Adventure", "Whip", "Moderate"],
+          ["Luigi's Rollickin' Roadsters", "California Adventure", "Slide and spin", "Moderate"],
+          ["Astro Orbiter", "Magic Kingdom / Disneyland Park", "Spin at height", "Moderate"],
+          ["Space Mountain", "Magic Kingdom / Disneyland Park", "Dark plus lateral", "Moderate"],
+          ["Expedition Everest", "Animal Kingdom", "Backwards in the dark", "Moderate"],
+          ["Incredicoaster", "California Adventure", "Launch and inversion", "Moderate"],
+          ["Rock 'n' Roller Coaster Starring The Muppets", "Hollywood Studios", "Launch and inversions", "Moderate"],
+          ["Finding Nemo Submarine Voyage", "Disneyland Park", "Enclosed, warm, low airflow", "Moderate"],
+          ["Silly Symphony Swings", "California Adventure", "Spin at height", "Moderate"],
+          ["Inside Out Emotional Whirlwind", "California Adventure", "Spin", "Moderate"],
+          ["Golden Zephyr", "California Adventure", "Spin", "Moderate"],
+          ["Big Thunder Mountain Railroad", "Magic Kingdom / Disneyland Park", "Lateral", "Low"],
+          ["Radiator Springs Racers", "California Adventure", "Lateral and speed", "Low"],
+          ["Test Track", "EPCOT", "Lateral and speed", "Low"],
+          ["Seven Dwarfs Mine Train", "Magic Kingdom", "Swinging vehicle", "Low"],
+          ["Slinky Dog Dash", "Hollywood Studios", "Airtime", "Low"],
+          ["Frozen Ever After", "EPCOT", "Backwards drop", "Low"],
+          ["Spaceship Earth", "EPCOT", "Backwards descent in the dark", "Low"],
+          ["Haunted Mansion", "Magic Kingdom / Disneyland Park", "Rotating vehicle in darkness", "Low"],
+          ["Tiana's Bayou Adventure", "Magic Kingdom / Disneyland Park", "Drops", "Low"],
+          ["Kilimanjaro Safaris", "Animal Kingdom", "Rough vehicle motion", "Low"],
+          ["Dumbo, Magic Carpets, TriceraTop Spin", "Various", "Gentle spin", "Low"],
+          ["Alice in Wonderland", "Disneyland Park", "Turns in an open vehicle", "Low"],
+          ["Mr. Toad's Wild Ride", "Disneyland Park", "Jolting and darkness", "Low"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "safe-list",
+      "heading": "What you can always ride",
+      "body": [
+        "This is the reassuring part, and it is a longer list than anxious visitors expect. If you are seriously motion sensitive, you can still do the overwhelming majority of both resorts.",
+        "Every theatre show, every walkthrough, every animal trail, every train, and every slow boat is fine. That covers a very large portion of Magic Kingdom, almost all of Animal Kingdom, the entirety of World Showcase at EPCOT, and a substantial slice of Disneyland Park. The parks were built long before screens dominated ride design and the older attractions overwhelmingly move you gently through physical sets."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Boats: Pirates of the Caribbean, it's a small world, Jungle Cruise, Living with the Land, The Seas with Nemo & Friends, Na'vi River Journey, Storybook Land Canal Boats, Gran Fiesta Tour.",
+          "Trains and transport: the Walt Disney World Railroad, the Disneyland Railroad, the Wildlife Express, the PeopleMover, the Skyliner, the monorails.",
+          "Shows and theatres: everything at Animal Kingdom's theatres, Country Bear Musical Jamboree, the Enchanted Tiki Room, Muppet-free stage shows, and every fireworks or nighttime spectacular.",
+          "Trails and walkthroughs: Gorilla Falls, Maharajah Jungle Trek, Discovery Island Trails, the Swiss Family Treehouse, the Redwood Creek Challenge Trail.",
+          "Gentle dark rides without screens or spin: Peter Pan's Flight, The Many Adventures of Winnie the Pooh, Under the Sea, Pinocchio's Daring Journey, Snow White's Enchanted Wish.",
+          "3D films where you stay seated and the seat does not move: these are far easier than any ride-through screen attraction, though the very sensitive should still take the glasses off if it starts to build."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "prevention",
+      "heading": "What actually prevents it",
+      "body": [
+        "Prevention beats treatment by a wide margin, because once simulator sickness has started it does not fully resolve for hours and it makes every subsequent attraction worse. The single most effective intervention is not a pill: it is not being dehydrated, overheated, or hungry when you ride.",
+        "Over-the-counter motion sickness medication works for a lot of people and has to be taken before you ride — typically 30 to 60 minutes ahead, not when you feel unwell. The common types cause drowsiness in some people, which in a Florida August is a real cost. Prescription options exist and are applied hours in advance. Talk to a pharmacist or your doctor before your trip rather than experimenting with something new on a park day.",
+        "Ginger in any reasonable form has decent evidence behind it and no downside worth mentioning. Acupressure bands have mixed evidence and cost nothing to try. Neither will get a genuinely sensitive person through Mission: SPACE Orange, and anyone telling you otherwise has not tested it.",
+        "The tactic nobody follows: spacing. Symptoms accumulate. Two screen-based attractions in an hour is much worse than the same two spread across a day, and the second is always harder than the first. At Hollywood Studios in particular — where Star Tours, Millennium Falcon, Rise of the Resistance, and Runaway Railway are all screen-driven — deliberately alternating them with something physical is the difference between doing the park and abandoning it at 2 PM."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Drink more water than you think you need, starting the night before. Dehydration is the single biggest multiplier.",
+          "Eat something light and bland an hour before a known trigger. An empty stomach is as bad as a full one.",
+          "Take medication before the ride, not during the queue, and never try a new one for the first time on a park day.",
+          "Space screen-based attractions at least ninety minutes apart, with something physical or restful in between.",
+          "Do the highest-risk attraction first thing in the morning, when you are coolest, freshest, and least dehydrated.",
+          "Skip alcohol at lunch on a day with simulators. This is unwelcome advice at EPCOT and it is still correct."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "seat-selection",
+      "heading": "Seat selection: where to sit and what to ask for",
+      "body": [
+        "Cast Members will accommodate a seating request if you ask at the entrance or at the merge point, and they do it constantly. The request costs you nothing and occasionally a couple of minutes.",
+        "The most valuable single request at either resort is on Soarin': ask for the middle concourse, top row. The side concourses view the curved screen at an angle, which distorts the projected image and is the reason a large share of Soarin' complaints come from people who sat on the ends. The top row also removes other guests' dangling legs from your peripheral vision, which is a surprisingly large factor."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Where to sit on the attractions that matter",
+        "columns": ["Attraction", "Ask for", "Why"],
+        "rows": [
+          ["Soarin' Around the World", "Middle concourse (B), top row", "Straight-on view of the curved screen and no dangling legs in your peripheral vision"],
+          ["Star Tours", "A middle row rather than the front", "The front row sits closest to the screen, which maximises the visual field the motion base has to fight"],
+          ["Millennium Falcon: Smugglers Run", "A pilot seat", "Pilots watch where the cabin is going. Engineers stare at flashing buttons while it pitches, which is the worst possible combination"],
+          ["Mad Tea Party", "A cup with people who agree not to turn the wheel", "The platform rotation alone is manageable. The guest-controlled wheel is what causes the damage"],
+          ["Grizzly River Run and Kali River Rapids", "Any seat, but pick a fixed point on the horizon", "The raft rotation is unavoidable; a stable external reference is the only defence"],
+          ["Avatar Flight of Passage", "There is no better seat", "Every rider gets the same forward-leaning posture and full-field screen. If you are sensitive, this one is a genuine decision rather than a seat choice"],
+          ["Toy Story Midway Mania", "The outward-facing side of the vehicle", "Slightly less rotation felt on the outside of the turntable"],
+          ["Expedition Everest", "The front car", "You see the backwards section coming rather than being pulled into it blind"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "The repeat-visitor request",
+        "body": "On any screen-based attraction, ask the Cast Member at the load area whether you can be seated centrally rather than at the edge. Almost nobody does this and the answer is almost always yes. The difference between a centre seat and an edge seat on a curved-screen attraction is larger than the difference between two different rides."
+      }
+    },
+    {
+      "id": "in-the-moment",
+      "heading": "What to do when it starts",
+      "body": [
+        "The instant you feel it building, act rather than waiting to see. Simulator sickness that is caught in the first ten seconds is often manageable; the same sensation two minutes later is not.",
+        "For simulator sickness, close your eyes and keep your head still against the headrest. Removing the visual input removes the conflict entirely, and it works better than anything else available to you mid-ride. Take 3D glasses off if you are wearing them — the effect drops immediately.",
+        "For spin sickness, the opposite: keep your eyes open and lock onto something that is not rotating with you. On a raft, that is the treeline. Closing your eyes on a spinning ride removes your only stable reference and usually makes it worse.",
+        "After the ride, get outside, get cold water, and sit down somewhere with a horizon. Do not go straight into another attraction, and specifically do not go into a queue — standing still in a warm, enclosed switchback is close to the worst possible recovery environment. First Aid stations at every park are air-conditioned, quiet, and staffed by nurses who deal with this every day; using one is not an overreaction."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Simulator sickness: close your eyes, head back against the rest, glasses off.",
+          "Spin sickness: eyes open, fixed on a stationary point outside the vehicle.",
+          "Get out of the queue environment. Warm, still, enclosed spaces make everything worse.",
+          "Cold water on the wrists and the back of the neck works faster than drinking it.",
+          "Something bland and carbonated helps a lot of people. Plain crackers help more than sugar.",
+          "Head to First Aid if it is not resolving. Air conditioning, a bed, and a nurse are all free."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "kids",
+      "heading": "Children and motion sickness",
+      "body": [
+        "Children are more susceptible to motion sickness than adults, peaking roughly between ages six and twelve, and they are much worse at recognising and reporting it early. A quiet child on a screen-based ride is often not enjoying it — they are concentrating on not being sick.",
+        "The complication is that height requirements funnel children onto exactly the attractions most likely to cause it. A newly-40-inch child at Hollywood Studios can now ride Star Tours, Rise of the Resistance, and Millennium Falcon, all screen-driven, all in the same afternoon. Space them out deliberately and watch for the child going quiet.",
+        "Practical measures that work: sit them centrally, keep the 3D glasses optional rather than mandatory, keep water and a plain snack in the bag, and give them explicit permission to close their eyes. A child who has been told in advance that closing their eyes is a legitimate thing to do will use it; a child who thinks it means failing will not.",
+        "One thing worth doing before the trip: if your child has never done a screen-based motion ride, find out at a local cinema or an arcade rather than at the front of a 70-minute queue. It costs an afternoon and saves a park day."
+      ],
+      "list": null,
+      "table": null,
+      "callout": {
+        "type": "note",
+        "title": "The bag nobody packs",
+        "body": "One gallon-sized zip bag, folded flat, in the bottom of your park bag. It weighs nothing and the day you need it, you will need it immediately and in a queue. Add a spare shirt for anyone under ten. Experienced parents carry both and never mention it."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the worst ride for motion sickness at Disney?",
+      "a": "Mission: SPACE Orange at EPCOT, without much competition. It is a centrifuge generating sustained G-force while you watch a screen a few inches from your face, which delivers both kinds of motion sickness at once. Disney provides sick bags in the vehicle. The Green version runs the same story without the spin and is a genuine alternative."
+    },
+    {
+      "q": "Should I close my eyes if I start feeling sick?",
+      "a": "It depends which kind of sickness you are having. On a screen-based simulator, yes — closing your eyes removes the sensory conflict causing the problem and works immediately. On a spinning ride, no — you lose your only stable reference point and it usually gets worse. Keep your eyes open and fix on something that is not moving with you."
+    },
+    {
+      "q": "Does Soarin' make people sick?",
+      "a": "It makes some people sick, and seat position is a large part of why. The side concourses view the curved screen at an angle, which distorts the image and triggers a lot of riders who would have been fine in the middle. Ask for the middle concourse, top row, and the odds improve considerably."
+    },
+    {
+      "q": "Can I take motion sickness medication before riding?",
+      "a": "Many people do, and the timing matters — most over-the-counter options need 30 to 60 minutes before you board, not when symptoms start. Some cause drowsiness, which is its own problem in Florida heat. Talk to a pharmacist before your trip and never try a new medication for the first time on a park day."
+    },
+    {
+      "q": "Are water rides a motion sickness risk?",
+      "a": "The rapids rides are, and it surprises people. Grizzly River Run at California Adventure and Kali River Rapids at Animal Kingdom both put you in a circular raft that rotates continuously and unpredictably for the whole ride. If you are spin-sensitive, these are higher risk than most coasters. Log flumes with straight tracks are fine."
+    },
+    {
+      "q": "Which park is hardest for a motion-sensitive visitor?",
+      "a": "Hollywood Studios, because four of its headline attractions are screen-driven and they are the only reason to be in the park. EPCOT is second, thanks to Mission: SPACE, Soarin', and Remy's. Magic Kingdom and Disneyland Park are the easiest by a wide margin, since most of what they do best moves you gently through physical sets."
+    },
+    {
+      "q": "Do children get motion sick more than adults?",
+      "a": "Yes, with susceptibility generally peaking between about six and twelve, and children are far worse at reporting it early. Watch for a child going quiet rather than waiting to be told. Space screen-based attractions out across the day and tell them explicitly that closing their eyes is allowed."
+    },
+    {
+      "q": "Is there anything at the parks that helps once I feel unwell?",
+      "a": "Get out of the queue environment first — warm, still, enclosed spaces make it worse. Cold water on the wrists and neck helps faster than drinking it, and something bland and carbonated settles most people. Every park has a First Aid station with air conditioning, a quiet bed, and a nurse, and it is free to walk in."
+    }
+  ],
+  "related": ["is-it-scary", "height-requirements", "what-to-pack", "disability-access-service"],
+  "lastVerified": "2026-07"
+}

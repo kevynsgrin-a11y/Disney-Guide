@@ -1,0 +1,285 @@
+{
+  "slug": "first-disney-trip",
+  "title": "Your First Disney Trip: Start Here",
+  "h1": "Planning Your First Disney Trip",
+  "metaDescription": "Walt Disney World or Disneyland, how many days, tickets, on-site versus off-site, and the five decisions that determine whether your first Disney trip works.",
+  "summary": "An orientation for absolute beginners: how the two US resorts genuinely differ, how tickets and park access work, how many days you need, and the five decisions worth spending real time on.",
+  "category": "planning",
+  "readingTimeMinutes": 13,
+  "intro": [
+    "There are two Disney resorts in the United States and they are not interchangeable. Walt Disney World in Florida is four theme parks spread across an area the size of a city, built for week-long trips and rewarding heavy planning. Disneyland Resort in California is two parks facing each other across a plaza you can walk in three minutes, built for shorter trips and far more forgiving of improvisation.",
+    "Choosing between them is the first and most consequential decision you will make, and most first-timers make it by default rather than by comparison. If you have four days or fewer, or you are travelling with very young children, or the flights are similar, Disneyland is usually the better trip. If you have five days or more and you want the biggest possible ride roster, Florida is the answer.",
+    "The rest of the planning is more manageable than the internet suggests. Five decisions carry almost all the weight — which resort, when to go, how many days, where to stay, and how much to plan — and once those are settled, everything else is detail you can sort out in the weeks before you fly. This page walks through all five, plus the ticket and app mechanics that trip people up.",
+    "One reassurance before you start. It is genuinely difficult to have a bad time at a Disney park, and it is very easy to exhaust yourself trying to have a perfect one. The families who enjoy their first trip most are not the ones with the best spreadsheets — they are the ones who picked three things they cared about each day and treated everything else as a bonus."
+  ],
+  "keyPoints": [
+    "Four days or fewer: go to Disneyland. Five days or more and you want maximum rides: go to Walt Disney World.",
+    "Walt Disney World needs four to five park days to feel unhurried. Disneyland needs three.",
+    "Tickets at both resorts are date-based, and the per-day cost falls sharply the longer your ticket. A four-day ticket is far cheaper per day than a one-day.",
+    "Park reservation requirements have changed repeatedly at both resorts and vary by ticket type. Check the terms attached to the specific ticket you are buying.",
+    "At Walt Disney World, staying on-site buys you a 7-day Lightning Lane booking window and 30 minutes of early entry. At Disneyland, an off-site hotel across the street is often closer to the gate than the Disney hotels are.",
+    "You need exactly one app: the official app for the resort you are visiting. It is your ticket, your map, your queue times, your food ordering, and your Lightning Lane.",
+    "Build one rest day or one late morning into any trip of four days or more. It improves the whole trip more than any ride strategy."
+  ],
+  "sections": [
+    {
+      "id": "which-resort",
+      "heading": "Walt Disney World or Disneyland?",
+      "body": [
+        "The honest short answer: Disneyland is the better short trip and the better trip with small children; Walt Disney World is the better long trip and the better trip for teenagers and thrill-seekers. Almost everything else follows from those two facts.",
+        "Walt Disney World's advantage is scale. Four distinct parks, two water parks, an enormous hotel estate, and the deepest roster of modern headliners anywhere. Its disadvantage is also scale: getting between any two points on the property takes 45 to 75 minutes, which means a week-long trip loses the better part of a day to buses. The planning burden is genuinely higher, and the resort's booking systems assume you are engaging with them.",
+        "Disneyland's advantage is density. Two parks share one entrance plaza, the hotels are a walk away, and park hopping is a casual act rather than a logistical decision. Disneyland Park itself holds the deepest catalogue of classic attractions in the world, including several with no Florida equivalent: Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, the Storybook Land Canal Boats, and a Pirates of the Caribbean that runs nearly twice as long as the Magic Kingdom version. California Adventure has the best food of any US Disney park.",
+        "The cost comparison surprises people. Once you account for flights, a shorter trip, cheaper hotels within walking distance, and not needing a car, a Disneyland trip is frequently the less expensive one even though the daily ticket prices are similar."
+      ],
+      "list": null,
+      "table": {
+        "caption": "The two resorts compared",
+        "columns": ["", "Walt Disney World", "Disneyland Resort"],
+        "rows": [
+          ["Parks", "Four theme parks plus two water parks", "Two theme parks"],
+          ["Footprint", "Roughly the size of San Francisco", "Walkable in ten minutes end to end"],
+          ["Ideal trip length", "Five to seven days", "Three to four days"],
+          ["Getting around", "Buses, monorail, boats, Skyliner — 45 to 75 minutes between points", "You walk. That is the whole system"],
+          ["Planning burden", "High. Dining at 60 days, Lightning Lane at 7 days if on-site", "Moderate. Most of it can be done the week before"],
+          ["Best for", "Long trips, thrill rides, teenagers, people who like planning", "Short trips, small children, classic dark rides, food, spontaneity"],
+          ["Weakest for", "Two-day trips, families who hate logistics", "Anyone who wants a full week of new parks"],
+          ["The food", "Good at EPCOT, uneven elsewhere", "The best at any US Disney park"],
+          ["Weather", "Hot and humid, near-daily afternoon storms in the warm months", "Dry, cold mornings and evenings, rain is rare"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "The two-day rule",
+        "body": "If you have two days or fewer, do not fly to Florida. Walt Disney World's pricing, transport and booking systems are all built around longer stays, and a two-day trip pays the full logistical cost for a fraction of the benefit. Two days at Disneyland is a genuinely good trip; two days at Walt Disney World is an expensive rush."
+      }
+    },
+    {
+      "id": "when-to-go",
+      "heading": "When to go",
+      "body": [
+        "Crowd levels at both resorts follow school calendars almost perfectly, which means the quiet weeks are the ones when most children are in class. Late January through mid-February and the first half of May are the two reliable low-crowd, low-heat windows at both resorts. Early December before schools break up is the third.",
+        "The weeks to avoid if you have any flexibility: the last two weeks of December, spring break across March and early April, and the middle of summer. Late December is the single hardest week of the year at both resorts, with parks reaching capacity and closing their gates to further entry.",
+        "Weather matters more in Florida than in California. Orlando from June through September is hot, humid, and produces a heavy thunderstorm most afternoons — plan an indoor block from roughly 2 PM to 4 PM and the storms become a scheduled break rather than a disruption. Anaheim is comfortable nearly year round, with the caveat that mornings and evenings are cold enough to need a layer even in summer.",
+        "One counterintuitive point: a hot, quiet week often beats a mild, crowded one. Heat is manageable with planning — start early, break at midday, return in the evening. Crowds are not manageable at all. Given the choice between August and spring break, take August."
+      ],
+      "list": null,
+      "table": {
+        "caption": "When to go, honestly",
+        "columns": ["Window", "Crowds", "Weather", "Verdict"],
+        "rows": [
+          ["Late January to mid-February", "Low", "Mild at both resorts; occasional cold snaps in Florida", "The best time to go, at either resort"],
+          ["First half of May", "Low to moderate", "Warm but not yet brutal in Florida; excellent in Anaheim", "The other reliably good window"],
+          ["Early December before schools break", "Low to moderate", "Cool and pleasant at both", "Underrated; short park hours are the trade-off"],
+          ["Mid-June to August", "Moderate to high", "Hot and humid in Florida; hot and dry in Anaheim", "Workable with a midday break. Better than spring break"],
+          ["March to mid-April", "High", "Genuinely lovely at both resorts", "The weather is the reward and the crowds are the price"],
+          ["Last two weeks of December", "Extreme", "Cool", "The hardest week of the year. Parks reach capacity and close their gates"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days do you need?",
+      "body": [
+        "Walt Disney World needs four park days to see the four parks without rushing, and five to do it comfortably with a rest day. Disneyland needs three: two in Disneyland Park, one in California Adventure, with the flexibility to hop.",
+        "The mistake first-timers make is buying the maximum number of park days their budget allows and then being too tired to use the last two properly. Ticket pricing encourages this, because the per-day cost drops sharply as you add days and a fifth day can look nearly free. It is not free — it costs you a rest day, and by day five that is the more valuable asset.",
+        "Add at least one non-park day to any trip of five days or more. At Walt Disney World that might be a hotel pool day or Disney Springs; at Disneyland it might be a morning at the beach or Downtown Disney. The trip is measurably better for it and everybody comes home less wrecked.",
+        "For families with children under six, cut the park days and extend the trip. Four half-days beat two full ones for a four-year-old, every time, and both resorts price tickets by day rather than by hour."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Days needed by trip type",
+        "columns": ["Trip", "Walt Disney World", "Disneyland Resort"],
+        "rows": [
+          ["Minimum that makes sense", "4 park days", "2 park days"],
+          ["Comfortable first visit", "5 park days plus 1 rest day", "3 park days"],
+          ["With children under six", "4 park days across 6 nights, going in late and leaving early", "3 park days across 4 nights"],
+          ["Thorough, unhurried", "6 to 7 park days plus 2 rest days", "4 park days"],
+          ["Do not attempt", "A 2-day trip", "Nothing — even one day works here"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "tickets",
+      "heading": "Tickets, hoppers, and park access",
+      "body": [
+        "Tickets at both resorts are date-based: you choose a start date when you buy, and the price varies by how busy that date is expected to be. The per-day cost falls steeply as you add days — the fourth and fifth days at Walt Disney World cost a fraction of the first — which is why a longer ticket is almost always better value and why day tickets are the worst value in the system.",
+        "The Park Hopper add-on lets you visit more than one park in the same day. At Walt Disney World it is a genuine cost that is worth it on maybe one or two days of a longer trip, and rarely on a first visit where you have not yet seen each park properly. At Disneyland Resort it is close to essential, because the two parks share a plaza and hopping is a three-minute walk rather than an hour on a bus. Both resorts require you to enter your first park before hopping; time restrictions on hopping have changed more than once, so read the terms attached to your ticket.",
+        "Park reservations have been a moving target. Both resorts introduced blanket reservation requirements, then relaxed them for most standard date-based tickets, while keeping them in place for certain ticket types and pass products. Because the rules differ by resort, by ticket type, and by date, the only reliable approach is to read the terms on the specific ticket you are about to buy rather than trusting any guide, including this one.",
+        "Buy directly from Disney or from a genuinely authorised seller. Discounted tickets from third-party marketplaces are a well-established scam category, and a partially used ticket bought from a stranger will simply not scan at the gate. The savings offered by legitimate authorised resellers are real but modest — if a deal looks dramatic, it is not real."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Date-based pricing at both resorts. Your start date changes the price.",
+          "Per-day cost falls sharply with ticket length. One-day tickets are the worst value available.",
+          "Park Hopper is close to essential at Disneyland Resort and optional at Walt Disney World.",
+          "You must enter your first park before hopping at either resort.",
+          "Reservation requirements vary by ticket type and have changed repeatedly. Read your ticket's terms.",
+          "Buy from Disney or an authorised reseller. Marketplace tickets are the most common Disney scam.",
+          "Annual passes and Magic Keys work on blockout dates and reservation systems that are worth understanding before you assume they are cheaper."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "money",
+        "title": "The fifth day trap",
+        "body": "Because per-day ticket pricing drops so steeply, adding a fifth or sixth park day at Walt Disney World looks almost free on the checkout screen. It is not. It costs you the rest day, and by day five of a Florida trip in July, a rest day is worth far more to your family than another park. Buy the ticket length you will actually enjoy using, not the one with the best per-day arithmetic."
+      }
+    },
+    {
+      "id": "where-to-stay",
+      "heading": "On-site or off-site",
+      "body": [
+        "At Walt Disney World, staying on-site buys three things that matter: the ability to book Lightning Lane Multi Pass 7 days out rather than 3, 30 minutes of early entry at every park every day, and the ability to book all your dining for the whole trip from the 60-day mark rather than one day at a time. Disney transport, package payment, and delivery of in-park purchases to your room are pleasant extras rather than reasons on their own. The Swan, Dolphin, Swan Reserve, and Shades of Green get the same early entry and Lightning Lane windows despite not being Disney-owned, which makes them the value play.",
+        "Which on-site hotel matters more than most people realise, because transport type changes your day. Monorail and Skyliner hotels put you minutes from a park; a bus-only hotel on the far side of the property costs you an hour a day. If you are paying for on-site, pay for the transport, not the theme.",
+        "At Disneyland Resort, the calculation is completely different and this is the single most useful thing a first-timer can learn about Anaheim: several off-site hotels directly across Harbor Boulevard are physically closer to the park gates than the Disneyland Resort hotels are, at a fraction of the price. The Disney hotels are lovely and they now include one complimentary Lightning Lane Multi Pass per person per stay, but they are not buying you proximity — you already have that from across the street.",
+        "Off-site at Walt Disney World means a car, a parking fee at the parks, and a genuinely longer day. Off-site at Disneyland means a five-minute walk. That asymmetry is the reason the two resorts need completely different accommodation strategies."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Where to stay, by resort",
+        "columns": ["", "Walt Disney World", "Disneyland Resort"],
+        "rows": [
+          ["What on-site buys", "7-day Lightning Lane window, 30 minutes early entry daily, whole-trip dining booking, transport", "One complimentary Multi Pass per person per stay, early entry at one designated park per day"],
+          ["Is on-site worth it?", "Often yes, mainly for the Lightning Lane booking window", "Only if you want the hotels themselves. Proximity is available across the street"],
+          ["Best value on-site", "Swan, Dolphin, Swan Reserve, Shades of Green — same perks, non-Disney pricing", "Not applicable; compare against Harbor Boulevard directly"],
+          ["Off-site reality", "A car, a parking fee, and a longer day", "A five-minute walk, often closer than the Disney hotels"],
+          ["The thing to optimise for", "Transport type — Skyliner and monorail beat bus-only", "Walking distance to the esplanade and whether breakfast is included"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "apps",
+      "heading": "The apps you actually need",
+      "body": [
+        "One. You need the official app for the resort you are visiting, and it is not optional — it holds your tickets, your park map, live wait times, mobile food ordering, Lightning Lane purchases and bookings, and your dining reservations. Walt Disney World and Disneyland Resort run separate apps and your account works across both.",
+        "Install it, log in, and link every ticket in your party weeks before you travel, not at the airport. Linking tickets is the step that fails, and it fails at the worst possible time — at 6:59 AM on the morning your Lightning Lane window opens. Confirm every person appears on the booking screen before your trip starts.",
+        "Everything else is optional and most of it is noise. A third-party wait-time tracker adds crowd predictions and historical data that the official app does not show, which is useful if you enjoy that kind of planning and irrelevant if you do not. You do not need a separate map app, a separate photo app, or any of the paid itinerary services.",
+        "Practical account setup: one person in the party should be the account owner and the primary booker, with everybody else added as a linked guest. Two people booking from two accounts on the same morning is how families end up with Lightning Lane selections for half the group."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Install the official resort app and create one account for the party, weeks ahead.",
+          "Link every ticket and every hotel booking, and confirm each person appears on the booking screens.",
+          "Add a payment card to the account before your first 7 AM booking morning.",
+          "Enable notifications — this is how you learn a ride has reopened or a return window has changed.",
+          "Download any offline map you want the night before; park wifi is unreliable at peak.",
+          "Decide who the booker is and let them do it alone. Two people booking simultaneously splits parties."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "five-decisions",
+      "heading": "The five decisions that matter",
+      "body": [
+        "Almost all of the planning value is concentrated in five choices. Get these right and the rest of the trip organises itself; get one wrong and no amount of optimisation elsewhere will fix it.",
+        "The fifth one — how much to plan — is the one nobody frames as a decision, and it is the one that determines whether your family enjoys the trip. Walt Disney World rewards planning to a point and punishes it beyond that point. A family running a minute-by-minute itinerary at Magic Kingdom in July is going to have a worse day than one with three priorities and a lunch reservation."
+      ],
+      "list": null,
+      "table": {
+        "caption": "The five decisions, and how much they matter",
+        "columns": ["Decision", "Why it matters", "The default answer"],
+        "rows": [
+          ["Which resort", "Determines trip length, cost, transport, and the entire character of the holiday", "Four days or fewer, or small children: Disneyland. Five days or more: Walt Disney World"],
+          ["When to go", "Crowds vary more than anything else you control, and they are not manageable once you are there", "Late January to mid-February, or the first half of May"],
+          ["How many days", "Too few means rushing; too many means exhaustion by day five", "Walt Disney World: 5 park days plus a rest day. Disneyland: 3 park days"],
+          ["Where to stay", "At Walt Disney World this buys booking windows and transport. At Disneyland it buys very little", "Walt Disney World: on-site or Swan and Dolphin. Disneyland: across Harbor Boulevard"],
+          ["How much to plan", "Determines whether the trip feels like a holiday or a project", "Three priorities per day, one meal booked, everything else improvised"]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "title": "Three things a day",
+        "body": "Pick three attractions or experiences each day that you would be disappointed to miss, do those first, and let everything else happen. Families who plan nine things get five and feel behind all day; families who plan three get eight and feel like they are winning. The arithmetic is identical and the experience is not."
+      }
+    },
+    {
+      "id": "a-day",
+      "heading": "What a good park day actually looks like",
+      "body": [
+        "The shape that works for most first-timers is the same at both resorts, and it is built around the fact that the middle of the day is the worst part of it — hottest, busiest, longest queues.",
+        "Arrive before opening and use the first ninety minutes hard; this is the period when a headliner costs you fifteen minutes instead of eighty. Eat lunch at 11 AM or hold out until 2 PM, but never at 12:30. Take a real break in the early afternoon — back to the hotel if you can, into a long air-conditioned meal or a series of shows if you cannot. Return in the late afternoon, and stay until close if the party can manage it, because the last ninety minutes are the second-best block of the day.",
+        "The break is the part people skip and the part that makes the difference. A family that returns to the hotel from 1 PM to 4 PM misses the worst three hours of the day and comes back capable of enjoying the evening. A family that pushes through arrives at 6 PM too tired to enjoy anything and goes home at 7 PM having missed the best part.",
+        "At Disneyland this is easy — the hotels are a walk away. At Walt Disney World it is harder and it is still worth doing, which is another argument for a monorail or Skyliner hotel over a bus-only one."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Be at security 45 minutes before you intend to enter the park.",
+          "Do your two hardest attractions in the first ninety minutes.",
+          "Eat at 11 AM or 2 PM. Never 12:30.",
+          "Break from roughly 1 PM to 4 PM. Hotel if you can, air conditioning if you cannot.",
+          "Return late afternoon and reset with something gentle.",
+          "Stay to close, or leave forty minutes before the nighttime show to beat the exit crowd. Both are good plans; being caught in the middle is not."
+        ]
+      },
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "mistakes",
+      "heading": "First-timer mistakes",
+      "body": [
+        "Every one of these is common, every one is avoidable, and most of them come from the same root cause: trying to do everything rather than doing a few things well.",
+        "The most expensive is arriving without understanding which Lightning Lane product does what. Families routinely buy Multi Pass at a park where it does not pay, or fail to buy a Single Pass for the one ride they most wanted, or buy Multi Pass for a party member who is holding a toddler and will not ride anything."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Buying a two-day Walt Disney World trip. The property is not built for it and you will feel it.",
+          "Not linking tickets to the app in advance, then discovering it at 6:59 AM on booking morning.",
+          "Planning nine attractions a day. You will do five and feel like you failed.",
+          "Skipping the midday break to save time, then losing the entire evening to exhaustion.",
+          "Buying Lightning Lane at every park, including the ones where it does not pay for itself.",
+          "Buying tickets from a marketplace reseller. They do not scan and there is no recourse.",
+          "Booking a bus-only Walt Disney World hotel to save money, then spending an hour a day on transport.",
+          "Wearing new shoes. The single most common self-inflicted injury of any Disney trip."
+        ]
+      },
+      "table": null,
+      "callout": null
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should I go to Walt Disney World or Disneyland for my first trip?",
+      "a": "If you have four days or fewer, or you are travelling with children under six, go to Disneyland — it is walkable, forgiving of improvisation, and holds the deepest catalogue of classic attractions anywhere. If you have five days or more and want the biggest ride roster and the newest headliners, go to Walt Disney World. Do not fly to Florida for a two-day trip."
+    },
+    {
+      "q": "How many days do I need at Walt Disney World?",
+      "a": "Four park days is the honest minimum to see the four parks without rushing, and five with a rest day is the comfortable version. Resist the temptation to buy a sixth day just because the per-day price drops — by day five the rest day is worth more to your family than another park."
+    },
+    {
+      "q": "Do I need park reservations?",
+      "a": "It depends on your ticket type and it has changed repeatedly at both resorts. Blanket requirements were introduced and then relaxed for most standard date-based tickets, while certain pass products still work within reservation and blockout systems. Read the terms attached to the specific ticket you are buying rather than trusting any guide."
+    },
+    {
+      "q": "Is a Park Hopper worth it?",
+      "a": "At Disneyland Resort, close to essential — the two parks share a plaza and hopping is a three-minute walk. At Walt Disney World it is a real cost that pays off on maybe one or two days of a longer trip, and rarely on a first visit where you have not yet seen each park properly. Both resorts require you to enter your first park before hopping."
+    },
+    {
+      "q": "Do I have to stay at a Disney hotel?",
+      "a": "At Walt Disney World the on-site perks are meaningful — a 7-day Lightning Lane booking window, 30 minutes of early entry daily, and whole-trip dining booking. At Disneyland it matters far less, because several off-site hotels across Harbor Boulevard are physically closer to the gates than the Disney hotels and cost a fraction as much."
+    },
+    {
+      "q": "What apps do I need?",
+      "a": "Just the official app for the resort you are visiting. It holds your tickets, wait times, park maps, mobile food ordering, dining reservations and Lightning Lane. Install it and link every ticket in your party weeks ahead — the linking step is what fails, and it fails at 6:59 AM on your booking morning."
+    },
+    {
+      "q": "When is the cheapest time to go?",
+      "a": "Late January through mid-February and the first half of May are the reliable low-crowd, low-price windows at both resorts, with early December before schools break as a third option. Ticket prices are date-based, so the quiet weeks are also the cheap weeks, which is a rare case of incentives lining up."
+    },
+    {
+      "q": "How much should I budget beyond tickets and hotel?",
+      "a": "Food is the biggest variable and the one people underestimate most. Add Lightning Lane if you are buying it, parking if you are off-site at Walt Disney World, and a realistic allowance for merchandise, which is designed to be very hard to resist. Carrying your own breakfast and snacks is the single largest saving available."
+    }
+  ],
+  "related": ["lightning-lane", "rope-drop-strategy", "what-to-pack", "mobile-order-and-dining"],
+  "lastVerified": "2026-07"
+}

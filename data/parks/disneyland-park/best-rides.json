@@ -1,0 +1,254 @@
+{
+  "park": "disneyland-park",
+  "criteria": "Ranked on what happens between the loading gate and the unload gate: how much of the ride is actively doing something, how it holds up on a fifth lap instead of a first, and whether it still works once you know what is coming. Wait times, Lightning Lane availability, and how good the queue looks were kept out of the ordering entirely.",
+  "intro": [
+    "Disneyland has the deepest ride catalog of any Disney park, and the depth is the whole story. Several attractions on this list exist nowhere else on earth, the Fantasyland dark rides here are the originals rather than the reworked copies, and the park still runs a river, an island and a riverboat that Florida has already closed. That produces a different kind of list than Magic Kingdom's.",
+    "It also produces an unusually steep top. The gap between the first four entries and everything below them is wider here than at any other Disney park, because Disneyland holds two rides — one from 1995, one from 2019 — operating at a scale nothing else in the company matches. Below those, the list stops being about scale and starts being about craft, which is where the ninety-second Fantasyland rides earn their places.",
+    "One structural warning before the ranking. Disneyland is small and its walkways are narrow, so the difference between riding the top five before noon and riding them after lunch is enormous — not in posted wait alone, but in whether you can move through Fantasyland at all. Nothing below accounts for that. Rank on merit, then plan around the geography."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "indiana-jones-adventure",
+      "headline": "Three decades on, still the most sophisticated ride vehicle Disney has ever put on a track.",
+      "why": [
+        "The Enhanced Motion Vehicle is the entire argument. It is a troop transport riding a fixed track with a hydraulically actuated cabin bolted on top, so the body can pitch, roll and lurch sideways independently of the direction of travel. The ride can therefore throw you at a wall while moving straight ahead, and no other attraction in the park opens that gap between what your eyes see and what your inner ear reports. The show building is one of the largest on the property and the vehicle crosses it at speed, in near-darkness, past full-scale sets: the rope bridge, the rat corridor, the snake chamber, the dart ceiling, the boulder.",
+        "It is also the only major attraction here with real variation built in. The original programming randomises three separate hazard sequences and the deity's dialogue, so consecutive laps are not identical, and the queue — the spike-trap chamber, the sliding bamboo poles, the projection room — is a genuine attraction rather than a corridor. Take the back row for more of the cabin's rotation; the front-left seat is the one the boulder is aimed at. It breaks down more often than anything except Rise, so ride it early rather than saving it for the evening."
+      ],
+      "skipIf": "Skip it if you have a back or neck complaint, because the motion base is genuinely violent and there is no gentler seat to ask for."
+    },
+    {
+      "rank": 2,
+      "slug": "star-wars-rise-of-the-resistance",
+      "headline": "Eighteen minutes and four ride systems, and the only attraction that convinces you that you are a prisoner.",
+      "why": [
+        "Rise is not one ride. It is a pre-show, a simulated transport drop, a trackless dark ride through a hangar bay and a drop tower, welded into a single sequence that never stops carrying you forward. The hangar reveal — transport doors opening on a full-scale bay with rows of troopers standing in formation — is the largest practical set piece in any Disney park, and it works whether or not you care about Star Wars at all. The Disneyland building is almost entirely hidden from the walkway, which makes the interior volume land harder than it does in Florida.",
+        "It ranks second rather than first because the seams show. Cast members walk you between systems, the trackless section leans on projection for two of its biggest beats, and this is the least reliable major attraction at the resort — Disneyland regularly runs it degraded, with individual scenes or effects switched off. Whole, it is the most ambitious thing ever built here. That qualifier is doing real work, and it is why Indiana Jones holds the top slot."
+      ],
+      "skipIf": "Skip it if your group cannot manage roughly twenty minutes of standing, walking and boarding without a bathroom, because there is no exit once the pre-show doors shut."
+    },
+    {
+      "rank": 3,
+      "slug": "pirates-of-the-caribbean",
+      "headline": "Fifteen minutes, two drops, and a bayou the Florida version never got the room to build.",
+      "why": [
+        "The Disneyland original runs close to twice the length of its Florida counterpart, and the extra footage is the reason it ranks this high. You load past the terrace of a restaurant, drift through a swamp under a painted dusk, and only then take the first drop. Between the two drops sits an entire act — the treasure grotto, the skeleton at the helm, the wrecked galleon in the storm — that Magic Kingdom simply does not have. The burning-town sequence remains the densest audio-animatronic staging Disney has ever attempted, and the 2018 rework of the auction left the room's composition intact.",
+        "What actually makes it work is pacing. The ride opens quiet and dark, escalates through two drops, holds at its peak for four straight minutes and then releases you up a lift into daylight. Very little at Disneyland has a dramatic shape; this does. Sit front-left for the cleanest sightline into the auction and the jail. Boats dispatch continuously, so a posted forty minutes routinely resolves in twenty."
+      ],
+      "skipIf": "Skip it if unlit water and two unannounced drops would frighten a small child, because the first drop arrives about ninety seconds in with no warning at all."
+    },
+    {
+      "rank": 4,
+      "slug": "haunted-mansion",
+      "headline": "Broadly the ride Florida has, except the stretching room really descends and the hillside does the rest.",
+      "why": [
+        "Scene for scene the two Mansions are close below ground — the corridor of doors, the ballroom, the attic, the graveyard. Disneyland's edge is architectural. The house stands on a slope above New Orleans Square, so the stretching room is an actual elevator carrying you beneath the railroad berm, and the geography of the whole ride reads as a descent into something rather than a walk into a shed behind a facade.",
+        "The ballroom is still the best single effect in any Disney park: a full-size room, a real chandelier, and two dozen apparitions produced by a nineteenth-century glass trick executed at a scale nobody else attempts, and it reads correctly from a moving vehicle anywhere in the room. The Hatbox Ghost, returned to the attic in 2015, is positioned to be missed on a first lap. Ride it after dark, when the exterior and the graveyard's forced perspective both do their jobs. The Omnimover never stops, so standby moves at roughly three times the rate the posted time suggests."
+      ],
+      "skipIf": "Skip it if a child in your group is frightened by total darkness, because the stretching room gives no warning and offers no way out."
+    },
+    {
+      "rank": 5,
+      "slug": "big-thunder-mountain-railroad",
+      "headline": "The best of the Big Thunders, and the only one whose finale earns the buildup it gets.",
+      "why": [
+        "Disneyland's version has the densest rockwork of the family and, more importantly, a route that uses the Rivers of America: the second lift climbs the outside of the butte with the water and the island below you, which is a view nothing else in the park offers. The 2014 rebuild replaced the track and added the earthquake finale, a properly disorienting run of falling rock, dust and a dropping ceiling immediately before the brake run.",
+        "It is a mild coaster by any modern measure — no inversions, moderate speed, a 40-inch stick — and that is exactly its job. This is the ride that converts a nervous eight-year-old into someone who will get on a roller coaster, and it is built well enough that adults ride it repeatedly anyway. The back row is meaningfully faster through the dips. Ride it after dark: the rockwork is lit and the river below it is not."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 6,
+      "slug": "tianas-bayou-adventure",
+      "headline": "The best log flume Disney operates, and the fifty-foot drop is the least interesting thing on it.",
+      "why": [
+        "The 2024 conversion kept the bones — same lift structure, same drop, same hillside geography — and rebuilt every scene inside them. What came out is a far denser dark ride than the one it replaced: the interior stretches run longer, the figures are current-generation animatronics rather than 1989 hardware, and the final room stages roughly twenty of them as a single band playing one arrangement instead of a loop of separate gags.",
+        "The Disneyland version has a specific advantage over Florida's: its outdoor stretches wind through Critter Country's real trees and rockwork rather than an exposed berm, so the ride reads as continuous landscape rather than a building with a hill attached. You will get wet — front row soaked, back row damp, no dry seat exists. Ride it in the afternoon rather than at rope drop, when being wet is an asset instead of a two-hour problem."
+      ],
+      "skipIf": "Skip it if you cannot afford to be wet for the next hour, because the splash at the base of the drop reaches every row in the log."
+    },
+    {
+      "rank": 7,
+      "slug": "space-mountain",
+      "headline": "Smoother, darker and better scored than the Florida original, and the onboard audio is the reason.",
+      "why": [
+        "Disneyland's Space Mountain was rebuilt from the ground up in 2005 with new track, new trains and a synchronised onboard soundtrack, and the difference is not subtle. It is quiet where Florida's rattles, the turns are banked rather than endured, and the score is timed to the layout so the drops land on the music. The star field and tunnel effects have been maintained rather than allowed to fade.",
+        "It is a dark ride wearing a coaster's clothes — the actual forces are mild, the top speed is unremarkable — and the whole effect depends on your not being able to see the track. That makes seat choice matter less than usual and lighting matter far more: if the house lights come up for a stopped train, the illusion is gone completely. It also runs overlays that replace the score and effects for months at a time, so the version you ride may not be the one described here."
+      ],
+      "skipIf": "Skip it if you get motion sick in the dark, because every turn arrives with no visual warning whatsoever."
+    },
+    {
+      "rank": 8,
+      "slug": "peter-pans-flight",
+      "headline": "Ninety seconds, almost no plot, and still the best-looking thing in Fantasyland.",
+      "why": [
+        "The suspended vehicles are the trick. Because the track runs above you rather than below, nothing sits in the frame between your feet and the miniature London underneath them, and the flight over the Thames — a lit, forced-perspective model city — has no visible support structure anywhere in the sightline. It is a very short ride that spends its entire budget on three images and gets all three exactly right.",
+        "This is the 1955 original, reworked in 1983 with black-light paint and again in 2015 with projection and depth effects that added weight to the Neverland scenes without touching the layout. It is also the worst queue in the park relative to its runtime: capacity is low, loading is slow, and the posted wait is honest rather than inflated. None of that changes how good the ninety seconds are, which is the only thing this list is measuring."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 9,
+      "slug": "millennium-falcon-smugglers-run",
+      "headline": "The cockpit is the best set Disney has ever built; whether the ride is any good depends on your seat.",
+      "why": [
+        "You board through the Falcon's corridors and hold, then sit in a cockpit reproduced in full with switches that respond, and for about thirty seconds that alone justifies the queue. Then the ride begins and splits your group into three jobs. Pilots fly, engineers patch damage, gunners shoot — and only the pilot seats are meaningfully interactive, because they are steering the film everybody else is watching.",
+        "That structure makes this the most variable attraction at Disneyland. Two competent pilots produce a clean, fast run; two children who cannot reach the yoke produce five minutes of hull scraping a canyon wall while alarms fill the cockpit. It ranks here because the ceiling is high, the floor is very low, and you do not choose which one you get. Ask for pilot seats at the boarding gate — cast members will usually accommodate a pair."
+      ],
+      "skipIf": "Skip it if your group of six will be split up and you would rather not draw a gunner seat, which is the only genuinely passive job on board."
+    },
+    {
+      "rank": 10,
+      "slug": "mickey-and-minnies-runaway-railway",
+      "headline": "The best-looking screen ride Disney has made, undone by a middle act with nothing to do in it.",
+      "why": [
+        "The trackless vehicles and the projection work are doing something genuinely difficult: the ride hands off between physical sets and screens without a visible seam, so a painted backdrop becomes a moving cartoon and then becomes a set again. The opening — the theatre, the poster, the transition into the film — is the cleanest gag Disney has staged this century, and the ballroom sequence uses the trackless system for actual choreography rather than for novelty.",
+        "The problem is the second act. The mine and factory sections swap the joke density of the opening for screens you look at rather than travel through, and by the third of them the vehicle's swinging has stopped meaning anything. The Disneyland version also sits in Toontown, which funnels its entire crowd through one narrow entrance, so it feels far busier than its throughput warrants. It is still the best thing in that corner of the park by a wide margin."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 11,
+      "slug": "matterhorn-bobsleds",
+      "headline": "The park's most important structure and one of its roughest rides. Both of those are true at once.",
+      "why": [
+        "The Matterhorn earns its place on the skyline. It was the first tubular steel coaster ever built, it anchors the view from the hub, and the exterior — climbers, waterfalls, the scar left by the old Skyway — is still the best rockwork Disney has produced anywhere. The 2015 rework rebuilt the Abominable Snowman scenes with a properly articulated figure, and the ride finishes with a splashdown no other Disney coaster in California has.",
+        "Then there is the ride. The sleds run a 1959 layout with modern restraints bolted onto it, and the result is jarring: sharp lateral transitions, a hard shell seat, and enough vibration that people walk off rubbing a shoulder. Tandem seating puts an adult's knees around a stranger's back. It is short, it is rough, and it routinely posts forty-five minutes. Ride it once because it is the Matterhorn; ride it twice only if your spine is on good terms with you."
+      ],
+      "skipIf": "Skip it if you have any back, neck or knee complaint, or if you are tall, because the sleds were sized for 1959 bodies and it shows."
+    },
+    {
+      "rank": 12,
+      "slug": "mr-toads-wild-ride",
+      "headline": "Two minutes of escalating property damage that ends by driving you into hell. Nowhere else has it.",
+      "why": [
+        "Toad is the strangest ride operating at any Disney park and Disneyland is the only place still running it. You drive a motorcar through a country house, out into traffic, into a police station, through a courtroom and then head-on into an oncoming freight train — a real collision beat, executed with a horn, a headlight and a blackout. What follows is a red-lit chamber full of devils. The ride does not explain itself, apologise for itself, or resolve.",
+        "The craft is 1955 flat-plane scenery under black light, and it works because the layout never lets you settle: every room is entered at speed through a door the vehicle appears to smash. It runs two minutes, and the queue is usually short because the exterior looks like a ride for toddlers, which it emphatically is not. This is the single best argument for choosing Disneyland over its Florida counterpart, and it makes it in under 120 seconds."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 13,
+      "slug": "jungle-cruise",
+      "headline": "The only ride here whose show is a live human being, and Disneyland's route is the better one.",
+      "why": [
+        "The skipper is the attraction. The script is fixed, the delivery is not, and the gap between someone who commits to the bit and someone reading it off the wall is the difference between ten good minutes and ten minutes of fibreglass hippos. Disneyland's route includes the temple interior and the trapped-safari finale, and its darker stretches give the boat somewhere to go that Florida's flatter layout does not.",
+        "The 2021 revision replaced the old trapped-explorer tableau and added a returning-crew thread that gives the back half a spine it previously lacked. The animatronics are old and the water is opaque green on purpose. Sit near the front on the left if you want the skipper's sightline, or at the back if you would rather watch the scenery than be part of the routine. Ride it at night, when the lighting hides the show-building walls."
+      ],
+      "skipIf": "Skip it if a scripted comedy routine delivered over a loudspeaker for ten minutes sounds like work, because that is the whole attraction."
+    },
+    {
+      "rank": 14,
+      "slug": "storybook-land-canal-boats",
+      "headline": "The most detailed handmade craft in the park, moving past you at walking pace.",
+      "why": [
+        "The miniatures are the point. Every structure along the canal is a built model at roughly one inch to the foot, planted with real bonsai and dwarf conifers pruned over decades to read as full-size trees, and lit inside through windows small enough to need tweezers. Cinderella's village, Agrabah, the London rooftops and Arendelle are standing sets you can examine from four feet away, which is not true of anything else at Disneyland.",
+        "It is slow, quiet and barely narrated, which is exactly why it belongs this high rather than at the bottom. It is the only attraction in the park that rewards looking instead of reacting, and after four hours of Fantasyland it functions as a genuine reset for an overloaded group. Sit on the left on the way out for the better bank. Ride it in the last ninety minutes of the day, when the model interiors are lit and the queue is under fifteen minutes."
+      ],
+      "skipIf": "Skip it if you need something to happen, because nothing does, deliberately, for the entire ride."
+    },
+    {
+      "rank": 15,
+      "slug": "its-a-small-world",
+      "headline": "Disneyland's version is longer, better lit, and fronted by a facade Florida's cannot match.",
+      "why": [
+        "The exterior is half the attraction here. Mary Blair's white-and-gold facade closes off the north end of Fantasyland with a working clock and a topiary garden in front of it, and the boats load outdoors in daylight before entering — a transition the Florida version, buried inside a show building, has no way to stage. Inside, the ride runs noticeably longer and the rooms are deeper, and the finale corridor reads as one continuous white space rather than a series of bays.",
+        "The 2009 revision worked character figures into the regional sets, which purists object to and most riders never notice. What matters more is throughput: this is the highest-capacity attraction in the park, the boats never stop, and a posted thirty minutes generally resolves in ten. It is also the only air-conditioned sit-down of any real length on the north side of the park, which counts for more than it sounds like it should."
+      ],
+      "skipIf": "Skip it if the song is a genuine problem for you, because it runs continuously for the full ride and there is no way off."
+    },
+    {
+      "rank": 16,
+      "slug": "star-tours-the-adventures-continue",
+      "headline": "A well-built simulator with a randomised script, ranked here because you have seen most of it already.",
+      "why": [
+        "The motion base is good, the 3D is clean, and the randomisation — several opening planets, several hologram messages, several destinations — means two consecutive rides genuinely differ. The queue and pre-show do more world-building than most complete attractions elsewhere, and the droid work in the boarding area is the best animatronic comedy in the park.",
+        "It sits at sixteen because the segments exhaust themselves quickly. There are a finite number of combinations, most share the same middle, and after four laps you are watching a shuffle rather than a new ride. The motion is also harsher than it looks from outside: this is the most reliable generator of motion sickness at Disneyland, more so than Space Mountain. Ask for a middle row — the front is too close to the screen, the back exaggerates the pitching."
+      ],
+      "skipIf": "Skip it if you are prone to motion sickness, because the pitching is continuous and the screen fills your whole field of view."
+    },
+    {
+      "rank": 17,
+      "slug": "alice-in-wonderland",
+      "headline": "The only Fantasyland dark ride that goes outdoors, and the outdoor descent is what makes it.",
+      "why": [
+        "Alice exists only at Disneyland and its layout is unlike any other dark ride in the company. The caterpillar vehicles climb to a second storey, leave the building onto an open leaf-shaped ramp, and descend outdoors in daylight past the garden before re-entering for the finale. Being outside, in the middle of a Fantasyland dark ride, is disorienting in a way the ride uses well, and it hands a two-minute attraction a real high point.",
+        "The interior has been improved twice, most recently with projection added to the falling sequence and the Cheshire Cat, and the colour work throughout is stronger than Peter Pan's. It loads slowly and its capacity is poor, so the wait is real rather than inflated. Ride it at dusk, when the outdoor ramp is lit and the garden below it is more than a fence."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 18,
+      "slug": "buzz-lightyear-astro-blasters",
+      "headline": "A competent shooting gallery with a free-spinning car and a scoring system worth arguing about.",
+      "why": [
+        "The Disneyland version has one real advantage over Florida's: the blaster is handheld on a cord rather than fixed to the car, so you can aim behind and above you, and the joystick spins the vehicle freely instead of in fixed increments. Those two changes turn a passive gallery into something you can actually play, and the high-value targets are placed to reward people who know to turn around and look back.",
+        "It ranks last here because the scenery is flat, the rooms are lit for target visibility rather than for looking at, and nothing changes between laps except your number. It is a good thing to do with a seven-year-old and a poor thing to spend forty minutes queuing for. The targets set furthest from the track, high on the walls of the volcano room, are the ones worth chasing."
+      ],
+      "skipIf": "Skip it if you have no interest in competing, because without the score it is four minutes of looking at plywood aliens."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "matterhorn-bobsleds",
+      "why": "Ranked eleventh on merit above, and still the most oversold ride at Disneyland — a good ride with bad queue economics, and worth saying so plainly rather than hiding it in the ranking. It runs under two and a half minutes, the sleds are physically punishing, and it regularly posts forty-five to sixty minutes because it is the mountain everyone photographs on the way in. Ride it once for what it is. Do not build a morning around it."
+    },
+    {
+      "slug": "astro-orbitor",
+      "why": "The worst capacity in the park attached to one of the longest waits in Tomorrowland. It is a spinner with a lever that raises and lowers your rocket, it runs about ninety seconds, and it loads a dozen people at a time from a queue that spills across the main walkway. Dumbo does the same thing in Fantasyland with more capacity and a better view, and nothing about being higher up improves the experience."
+    },
+    {
+      "slug": "autopia",
+      "why": "The single worst ratio of wait to payoff at Disneyland. It is a slow car on a guide rail with a steering wheel that does almost nothing, the circuit takes about four minutes, and the queue routinely runs longer than rides three times its length. Its one genuine function is that a child over 32 inches can drive it themselves, which matters enormously to that child and to nobody else in the group."
+    },
+    {
+      "slug": "mad-tea-party",
+      "why": "A teacup spinner that regularly posts twenty-five minutes for ninety seconds of something you can approximate at any travelling fair. The lanterns overhead are lovely and the cups do spin harder than the copies elsewhere, but the wait is almost entirely a function of the ride being photogenic and centrally placed. Take the photograph, then go and do something else."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "disneyland-railroad",
+      "why": "Almost everybody treats it as transport and almost nobody rides the full loop, which means most guests never see the Grand Canyon panorama or the Primeval World diorama on the leg between Tomorrowland and Main Street. That stretch is roughly five minutes of painted cyclorama and full-scale dinosaur tableaux, several of which came from the 1964 World's Fair, viewed from a seat with a breeze on you. It is the best rest available at Disneyland without leaving the park."
+    },
+    {
+      "slug": "pirates-lair-on-tom-sawyer-island",
+      "why": "The only place in an American Disney park where a child can run out of sight and it is fine. Caves you have to crouch through, a suspension bridge that moves, a barrel bridge, rocks to climb and long stretches with nobody on them. Florida closed its version in 2025, so this is the last one standing. The raft crossing is part of the appeal rather than an obstacle; give it ninety minutes rather than twenty."
+    },
+    {
+      "slug": "walt-disneys-enchanted-tiki-room",
+      "why": "The first audio-animatronic show ever built, still running its original mechanism, in a cool dark room with seats, for about fifteen minutes. The pre-show in the garden outside is funnier than the main show and most people walk straight past it on the way to the pineapple queue. Nobody rope-drops it, so it is available all day, and it is the correct thing to be doing at two in the afternoon in August."
+    },
+    {
+      "slug": "sailing-ship-columbia",
+      "why": "A full-scale replica of an eighteenth-century merchant ship sailing a real river, with a below-decks museum you can walk through while it is moving. It runs a limited schedule and most guests never see it operating at all, which is why boarding it usually costs nothing. If it is sailing, take it over the riverboat — the deck space is better and the below-decks portion is a genuine attraction on its own."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the single best ride at Disneyland?",
+      "a": "Indiana Jones Adventure. It has the most capable ride vehicle Disney has ever built, one of the largest show buildings on the property, and randomised sequences that keep consecutive laps from matching. Star Wars: Rise of the Resistance is longer and more ambitious, and on a day when it is running whole it is the more impressive achievement. It also goes down more often and runs with scenes disabled more often, and Indiana Jones does not."
+    },
+    {
+      "q": "What should I ride in the first hour after opening?",
+      "a": "Indiana Jones Adventure first. It is close to the entrance, it absorbs the early crowd badly, and it is the ride most likely to be broken later in the day. Then Big Thunder Mountain Railroad or Tiana's Bayou Adventure while the west side of the park is still thin. Leave the Fantasyland dark rides for late evening — Peter Pan's Flight and Alice in Wonderland both have low capacity, and both are far more pleasant once the walkways clear."
+    },
+    {
+      "q": "Which of these rides has no Walt Disney World equivalent?",
+      "a": "Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, Alice in Wonderland, Storybook Land Canal Boats and the Sailing Ship Columbia exist only at Disneyland. Pirates of the Caribbean and it's a small world exist in both places but are materially longer and better staged here. If you have already done Magic Kingdom and are deciding what to prioritise on this trip, that group is the answer."
+    },
+    {
+      "q": "Is Rise of the Resistance better at Disneyland or at Hollywood Studios?",
+      "a": "The ride is the same sequence in both parks, so the difference is setting and operation. Disneyland's show building is better hidden from the walkway, which makes the interior volume land harder, and its Galaxy's Edge is denser and quicker to cross on foot. Florida's version has been the more reliable of the two for several years running. If you are only going to ride it once, ride it wherever you happen to be standing."
+    },
+    {
+      "q": "Does Lightning Lane change this ranking?",
+      "a": "No, and that is deliberate — everything above is ranked on the ride, not on how you reached it. As of July 2026 Disneyland Resort sells Multi Pass from around $34 per person per day, with Single Pass sold separately for a small number of top attractions and pricing that moves by date. Buying it changes how many of these you get through in a day. It does not change which of them are good."
+    },
+    {
+      "q": "How much of this list can a four-year-old do?",
+      "a": "Six of the top ten are off limits: Indiana Jones Adventure needs 46 inches, Matterhorn Bobsleds 42, and Big Thunder Mountain Railroad, Space Mountain, Tiana's Bayou Adventure, Star Wars: Rise of the Resistance and Millennium Falcon: Smugglers Run all need 40. What remains is still substantial. Pirates of the Caribbean, Haunted Mansion, Peter Pan's Flight, Mr. Toad's Wild Ride, Alice in Wonderland, it's a small world, Storybook Land Canal Boats, Jungle Cruise and Buzz Lightyear Astro Blasters carry no height requirement at all. Screen Pirates and the Mansion for darkness tolerance rather than height."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

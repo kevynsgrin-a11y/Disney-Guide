@@ -1,0 +1,113 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/search-index.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/maps/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/magic-kingdom/:path*",
+      "destination": "/walt-disney-world/magic-kingdom/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/epcot/:path*",
+      "destination": "/walt-disney-world/epcot/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/hollywood-studios/:path*",
+      "destination": "/walt-disney-world/hollywood-studios/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/animal-kingdom/:path*",
+      "destination": "/walt-disney-world/animal-kingdom/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/disneyland-park/:path*",
+      "destination": "/disneyland/disneyland-park/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/california-adventure/:path*",
+      "destination": "/disneyland/california-adventure/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/food-tracker",
+      "destination": "/tools/food-tracker/",
+      "permanent": true
+    },
+    {
+      "source": "/height-checker",
+      "destination": "/tools/height-checker/",
+      "permanent": true
+    },
+    {
+      "source": "/heights",
+      "destination": "/guides/height-requirements/",
+      "permanent": true
+    }
+  ]
+}

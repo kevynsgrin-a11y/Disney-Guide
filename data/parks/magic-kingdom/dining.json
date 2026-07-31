@@ -1,0 +1,1921 @@
+{
+  "park": "magic-kingdom",
+  "dining": [
+    {
+      "slug": "caseys-corner",
+      "name": "Casey's Corner",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "American hot dogs",
+      "priceTier": "$$",
+      "priceNote": "Hot dogs and specialty dogs roughly $12 to $17 as of July 2026; fries and sides extra",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A baseball-themed hot dog counter at the top of Main Street with the best parade-adjacent seating in the park.",
+      "description": [
+        "Casey's sits at the castle end of Main Street and sells hot dogs, corn dog nuggets and loaded fries out of a narrow counter that backs onto an indoor dining room with silent films playing on a screen. There is a pianist on the porch for large parts of the day, which is one of the better free pieces of atmosphere at Magic Kingdom.",
+        "The menu is short and it does one thing. Beyond the plain all-beef hot dog there are a few loaded versions with chili, slaw or macaroni, and a basket of corn dog nuggets that outsells most of them. Quality is what you would expect from a hot dog cooked in volume — decent, hot, salty, unremarkable.",
+        "Its real asset is geography. The outdoor tables along the Main Street side face directly onto the parade route, which means you can eat lunch and watch the afternoon parade go past without holding a curb spot for forty minutes. Those tables are contested and there is no way to reserve them."
+      ],
+      "signatureItems": [
+        "All-beef foot-long hot dog",
+        "Corn dog nuggets",
+        "Chili-cheese hot dog",
+        "Barbecue slaw dog",
+        "Loaded fries"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "quick-bite",
+        "budget",
+        "view"
+      ],
+      "tips": [
+        "Mobile order forty-five minutes before the parade and claim an outdoor table on the Main Street side. It is the single best parade-viewing hack in the park and it costs you nothing extra.",
+        "The indoor room with the silent films is air conditioned and consistently ignored — go left through the door past the counter rather than sitting outside in July.",
+        "Corn dog nuggets are the item to order over the hot dogs. They travel better, they share, and they are the only thing here anyone comes back for.",
+        "The pianist on the porch plays for long stretches of the day and takes requests. Ask; most people just walk past.",
+        "This is one of the last places open on Main Street at night, which makes it the reliable option if you leave the park hungry after fireworks."
+      ],
+      "verdict": "Average hot dogs in an above-average location. Worth it for the parade-view tables and the air-conditioned film room, not for the food.",
+      "faqs": [
+        {
+          "q": "Can you watch the parade from Casey's Corner?",
+          "a": "Yes, from the outdoor tables along the Main Street side, and it is one of the best-value seats in the park. There is no way to reserve them — mobile order about forty-five minutes ahead and claim a table as it opens up."
+        },
+        {
+          "q": "Does Casey's Corner have indoor seating?",
+          "a": "Yes. There is an air-conditioned dining room to the left of the counter with silent films projected on a wall. It is consistently overlooked and it is the best place to eat here in summer."
+        },
+        {
+          "q": "Is Casey's Corner good for gluten-free guests?",
+          "a": "There is a gluten-free bun option and allergy-friendly ordering at the counter, though the fryer situation limits some sides. Ask for the allergy menu rather than assuming — the standard board does not show the substitutions."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-plaza-restaurant",
+      "name": "The Plaza Restaurant",
+      "land": "main-street-usa",
+      "service": "table-service",
+      "cuisine": "American sandwiches and comfort food",
+      "priceTier": "$$",
+      "priceNote": "Sandwiches and entrees roughly $18 to $28 per person as of July 2026, before drinks",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The cheapest table-service meal at Magic Kingdom — sandwiches, salads and ice cream in a small Victorian room.",
+      "description": [
+        "The Plaza is a small Victorian dining room at the castle end of Main Street, next to the Plaza Ice Cream Parlor and sharing its kitchen. The menu is sandwiches, a burger, a couple of salads and a few hot entrees, plus proper ice cream sundaes made in house.",
+        "It is by a clear margin the least expensive table-service option in the park, which matters more than the food does. For roughly the price of two quick-service meals you get a server, air conditioning, a real chair and an hour off your feet in the middle of the day.",
+        "The room is genuinely small and the tables are close together. It fills at lunch and it books out well ahead on busy days despite being the restaurant nobody talks about."
+      ],
+      "signatureItems": [
+        "Angus cheeseburger",
+        "Turkey and Swiss sandwich",
+        "Plant-based Italian sandwich",
+        "Ice cream sundae",
+        "Hand-dipped milkshake"
+      ],
+      "goodFor": [
+        "families",
+        "budget",
+        "air-conditioned-break",
+        "quick-bite",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Book this as your midday reset rather than as a destination meal. It is the cheapest way to buy an hour of sitting down at Magic Kingdom.",
+        "Order a sundae even if you are not staying for a meal — the ice cream comes from the parlor next door and it is considerably better than what the walk-up window serves.",
+        "Same-day reservations open up here more often than at any other table-service restaurant in the park. Check the app at 10 a.m. and again around 2 p.m.",
+        "Ask for a table by the window on the hub side. Those seats look out toward the castle and there are only a few of them.",
+        "The plant-based sandwich is a genuinely good vegan option, which is rare at Magic Kingdom table service."
+      ],
+      "verdict": "The best-value table service at Magic Kingdom and the most reliable place to get an hour of air conditioning without spending sixty dollars a head. The food is fine, not memorable.",
+      "faqs": [
+        {
+          "q": "Is The Plaza Restaurant cheaper than other Magic Kingdom table service?",
+          "a": "Yes, substantially. Most items run roughly $18 to $28 per person as of July 2026, against prix fixe pricing well north of $60 at Be Our Guest and Cinderella's Royal Table."
+        },
+        {
+          "q": "Do you need a reservation at The Plaza Restaurant?",
+          "a": "It is recommended but not essential. The room is small so walk-ups are hit and miss at peak lunch, but this restaurant releases same-day availability more often than any other table service in the park."
+        },
+        {
+          "q": "Does The Plaza Restaurant serve alcohol?",
+          "a": "No. Alcohol at Magic Kingdom is limited to a handful of table-service restaurants, and The Plaza is not among them."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tonys-town-square-restaurant",
+      "name": "Tony's Town Square Restaurant",
+      "land": "main-street-usa",
+      "service": "table-service",
+      "cuisine": "Italian-American",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $26 to $42 per person as of July 2026, before drinks",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Italian-American food in a bright conservatory just inside the entrance, themed to Lady and the Tramp.",
+      "description": [
+        "Tony's occupies the building on the right side of Town Square, directly inside the park entrance, with a front dining room and a large glass-roofed conservatory at the back. The theme references the spaghetti dinner from Lady and the Tramp, including a fountain sculpture in the entry.",
+        "The menu is Italian-American in the red-sauce tradition: spaghetti and meatballs, chicken parmesan, shrimp scampi, a few pizzas and pastas. It has been reworked several times over the years and the current version is more competent than its long-standing reputation suggests, though it is still not food anyone would seek out at these prices outside a theme park.",
+        "Where it earns its place is timing. Because it sits at the entrance, it is the only table-service restaurant in the park you can reach in ninety seconds from the turnstiles, which makes it viable for an early lunch on arrival or a last meal before you leave."
+      ],
+      "signatureItems": [
+        "Spaghetti and meatballs",
+        "Chicken parmesan",
+        "Shrimp scampi",
+        "Margherita flatbread",
+        "Tiramisu"
+      ],
+      "goodFor": [
+        "families",
+        "air-conditioned-break",
+        "groups",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Ask for the conservatory at the back rather than the front room. It is brighter, quieter and considerably less cramped, and most parties are seated in front by default.",
+        "This is the best restaurant in the park for a meal on the way out. Book a late seating, eat after the fireworks crowd starts moving, and walk out the front gate afterward.",
+        "The pasta is fine and the chicken parmesan is the better order. Skip the seafood, which is the weakest thing on the menu at this price.",
+        "Kids can see the Lady and the Tramp fountain in the lobby without a reservation — walk in, look, walk out. Nobody minds."
+      ],
+      "verdict": "Overpriced for what it is, but the location at the entrance genuinely earns it a spot on a plan. Book it for a first-day lunch or a last-night dinner, not as a meal you are looking forward to.",
+      "faqs": [
+        {
+          "q": "Is Tony's Town Square Restaurant worth it?",
+          "a": "Not for the food alone — it is standard Italian-American at theme park prices. It is worth it for the position at the park entrance, which makes it the only table service you can reach immediately on arrival or immediately before leaving."
+        },
+        {
+          "q": "Does Tony's serve alcohol?",
+          "a": "Yes, beer and wine are available with meals. Magic Kingdom serves alcohol only at table-service restaurants, and Tony's is one of them."
+        },
+        {
+          "q": "Can you get into Tony's without a reservation?",
+          "a": "Sometimes, particularly for a late lunch or an early dinner on a weekday. It is one of the easier Magic Kingdom table-service walk-ups, though a reservation is still the safer plan on a busy day."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-crystal-palace",
+      "name": "The Crystal Palace",
+      "land": "main-street-usa",
+      "service": "table-service",
+      "cuisine": "American buffet",
+      "priceTier": "$$$",
+      "priceNote": "Buffet pricing generally in the $45 to $60 per adult range as of July 2026, with lower pricing for children",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": true,
+      "standalonePage": true,
+      "summary": "A glass-house buffet beside the castle hub with character dining featuring Winnie the Pooh and friends.",
+      "description": [
+        "The Crystal Palace is a Victorian glass conservatory on the hub side of Main Street, modeled on nineteenth-century exhibition halls, and it is the prettiest dining room at Magic Kingdom by a wide margin — high glass roof, palms, light flooding in from every direction.",
+        "It serves a buffet at all three meals with characters from the Winnie the Pooh stories circulating between tables. The character interaction is the product here: performers come to you, they spend real time at each table, and you eat while you wait rather than standing in a queue.",
+        "The food is buffet food and it is fine. Breakfast is the strongest service — the standard American spread done competently, with a make-your-own station. Lunch and dinner add carved meats and a broader hot line and are less consistent."
+      ],
+      "signatureItems": [
+        "Breakfast lasagna",
+        "Carved meats at lunch and dinner",
+        "Made-to-order omelets",
+        "Peanut butter and jelly dessert bites",
+        "Seasonal fruit and pastry spread"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "big-appetites",
+        "groups",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Book the earliest breakfast slot available. Pre-park-opening reservations get you inside before the rope drops, and you finish your meal with the park nearly empty in front of you.",
+        "This is the most efficient character meet at Magic Kingdom in pure math: four characters, seated, air conditioned, no queue, in about an hour. Compare that to four separate meet-and-greet lines.",
+        "Ask for a table along the glass rather than in the center. The perimeter seats get the light and the view of the hub, and the middle of the room is loud.",
+        "Tell the server about allergies rather than reading labels at the buffet — a chef will walk you through the line personally, which is standard here and rarely offered proactively.",
+        "Breakfast is the best-value meal. Lunch and dinner cost meaningfully more for a hot line that is not meaningfully better."
+      ],
+      "verdict": "You are paying for the room and the characters, not the buffet. As a way to bundle four character meets into a seated meal it is a genuinely good deal; as dinner it is not.",
+      "faqs": [
+        {
+          "q": "Which characters appear at The Crystal Palace?",
+          "a": "Winnie the Pooh, Tigger, Piglet and Eeyore circulate through the dining room at all meals. They come to each table rather than requiring a queue, and they generally spend a solid minute or two per party."
+        },
+        {
+          "q": "Is The Crystal Palace worth the price?",
+          "a": "As a character meal, yes — four characters and a seated meal for roughly the cost of one buffet is competitive with the alternative of standing in four meet-and-greet lines. As a buffet judged on food alone, no."
+        },
+        {
+          "q": "Can you get a Crystal Palace reservation before the park opens?",
+          "a": "Yes. Early breakfast seatings are released before official park opening, and holders are admitted through the entrance ahead of the general crowd. That is the strongest reason to book here."
+        },
+        {
+          "q": "Does The Crystal Palace serve alcohol?",
+          "a": "No. It is one of the Magic Kingdom table-service restaurants without an alcohol service."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "main-street-bakery",
+      "name": "Main Street Bakery",
+      "land": "main-street-usa",
+      "service": "bakery",
+      "cuisine": "Coffee and pastries",
+      "priceTier": "$",
+      "priceNote": "Drinks roughly $5 to $8 and pastries roughly $4 to $7 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Starbucks on Main Street, serving the park's only full espresso menu plus a few Disney-specific pastries.",
+      "description": [
+        "Main Street Bakery is a Starbucks in a Victorian shell. The full standard espresso menu is available at standard Starbucks pricing, alongside a small selection of Disney-specific baked goods that rotate.",
+        "It is the busiest coffee counter in the park by an enormous margin, because it is the first thing on the right after the entrance and because it is the only place at Magic Kingdom serving proper espresso drinks. The line at 9 a.m. regularly runs out the door.",
+        "There is no indoor seating. You order and you leave, which is part of why the queue moves faster than it appears to."
+      ],
+      "signatureItems": [
+        "Espresso drinks from the standard Starbucks menu",
+        "Cold brew",
+        "Cinnamon roll",
+        "Mickey-shaped shortbread",
+        "Seasonal muffins"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "solo",
+        "budget"
+      ],
+      "tips": [
+        "Mobile order this one. It is the highest-value mobile order at Magic Kingdom because the walk-up line is the worst in the park between 8:30 and 10:30 a.m. and the pickup window is separate.",
+        "Starbucks rewards and gift cards work here, which surprises people. Disney gift cards work too.",
+        "If the line is out the door, walk to the Joffrey's kiosks elsewhere in the park instead — the coffee is different but the wait is a tenth as long.",
+        "There is no seating. Do not plan to eat breakfast here; plan to carry it."
+      ],
+      "verdict": "It is a Starbucks, priced like a Starbucks, with a Main Street facade. Convenient and entirely unremarkable, and the morning line is genuinely not worth it without mobile order.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "plaza-ice-cream-parlor",
+      "name": "Plaza Ice Cream Parlor",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Scoops, cones and sundaes roughly $6 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Hand-scooped ice cream at the castle end of Main Street, including the Mickey-shaped ice cream sandwich.",
+      "description": [
+        "A proper old-fashioned ice cream parlor with a marble counter, hand-scooped tubs and a small air-conditioned seating room. It shares a kitchen with The Plaza Restaurant next door, which is why the sundaes at both are the same quality.",
+        "The signature item is a Mickey-shaped ice cream sandwich, which is genuinely large and genuinely good — vanilla between two soft chocolate cookies, dipped in sprinkles around the edge. It is the item worth queuing for.",
+        "Lines here are long in the evening and the counter is slow because everything is hand-scooped. Mobile ordering exists and is worth using."
+      ],
+      "signatureItems": [
+        "Mickey-shaped ice cream sandwich",
+        "Hand-scooped sundaes",
+        "Waffle cone",
+        "Root beer float",
+        "Brownie sundae"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "air-conditioned-break",
+        "budget"
+      ],
+      "tips": [
+        "Order the Mickey ice cream sandwich rather than a cone. It is bigger than it looks, it holds together better in the heat, and it is the item people come back for.",
+        "There is a small air-conditioned seating room inside that almost nobody uses because the counter faces the street. Go in.",
+        "Mobile order in the evening. The hand-scooping means this counter moves slowly and the post-fireworks line is brutal.",
+        "It closes earlier than you would expect on some nights, so if ice cream is the plan after fireworks, check the app rather than walking down and finding it shut."
+      ],
+      "verdict": "Better ice cream than the carts and worth the extra couple of dollars for the Mickey sandwich. The queue is the only thing wrong with it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "main-street-confectionery",
+      "name": "Main Street Confectionery",
+      "land": "main-street-usa",
+      "service": "bakery",
+      "cuisine": "Candy and confections",
+      "priceTier": "$",
+      "priceNote": "Candy apples and treats roughly $8 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The candy kitchen on Main Street where caramel apples, brittle and fudge are made in open view.",
+      "description": [
+        "The Confectionery occupies a large corner of Main Street with candy-making happening behind glass at the back — caramel apples dipped and decorated, brittle poured onto marble, fudge worked with paddles. Watching it is free and the staff will answer questions.",
+        "The product line is decorated caramel apples, fudge, brittle, cake pops, rice cereal treats and pre-packaged candy. Presentation is excellent; the eating experience is a mixed bag, because a decorated caramel apple in Florida heat is a structural problem as much as a dessert.",
+        "It is air conditioned and it is on the way out of the park, which makes it the default last stop for a lot of families. That is also why the line at closing time is long."
+      ],
+      "signatureItems": [
+        "Decorated caramel apples",
+        "Peanut butter fudge",
+        "Chocolate-dipped marshmallow wands",
+        "Peanut brittle",
+        "Cake pops"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Buy candy at the end of the day, not the start. Chocolate does not survive a Florida afternoon in a backpack and the staff will tell you the same thing if you ask.",
+        "Ask them to cut and box a caramel apple. They will slice it for you, which makes it shareable and stops it from becoming a disaster on a stick.",
+        "Watch the candy-making window at the back even if you buy nothing. It runs for much of the day and it is one of the few genuinely hands-on crafts visible in the park.",
+        "The plain fudge is better than the decorated novelty items, which are engineered for photos rather than eating."
+      ],
+      "verdict": "Beautiful to look at, expensive, and the decorated apples in particular are more decoration than dessert. Buy the fudge or the brittle, skip the character apples.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jungle-navigation-co-skipper-canteen",
+      "name": "Jungle Navigation Co. Ltd. Skipper Canteen",
+      "land": "adventureland",
+      "service": "table-service",
+      "cuisine": "Pan-Asian, Latin and African-influenced",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $22 to $38 per person as of July 2026, before drinks",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The most interesting food at Magic Kingdom, served by skippers doing the Jungle Cruise routine indoors.",
+      "description": [
+        "Skipper Canteen opened in 2015 in the building beside the Jungle Cruise and it is the only restaurant at Magic Kingdom with an ambitious menu. Dishes draw on Asian, Latin American and African cooking — steamed bao, curries, a whole fried fish, slow-cooked pork shank — and they are seasoned like real food rather than theme park food.",
+        "The conceit is that the Jungle Cruise skippers run a mess hall, and the servers deliver the same pun-driven material as the ride. It is either delightful or exhausting depending on your tolerance, and unlike the ride you cannot get off after ten minutes.",
+        "There are three dining rooms: the main mess hall, a formal room set for a members' dinner, and a hidden crew room behind a bookcase. They are meaningfully different spaces and you can request one."
+      ],
+      "signatureItems": [
+        "Char siu pork",
+        "Whole fried fish",
+        "Steamed bao",
+        "Falls Family Falls chicken and rice",
+        "Kungaloosh chocolate cake"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "air-conditioned-break",
+        "vegetarian",
+        "groups"
+      ],
+      "tips": [
+        "Ask for the Skipper Crew Mess Hall, the hidden room behind the bookcase. It is a real room, it is the best of the three, and cast members will usually seat you there if you ask and are willing to wait a few minutes.",
+        "This is the easiest table-service reservation to get at Magic Kingdom, often same-day. Guests skip it because the menu looks unfamiliar, which is precisely why it is the one to book.",
+        "The vegetarian options here are the best in the park and are not afterthoughts — the plant-based dishes are on the main menu rather than a separate card.",
+        "Order the fried fish if there are two of you. It is the most interesting plate in the park and it is meant to be picked at rather than portioned.",
+        "Tell your server if the puns are landing. They calibrate — some tables get the full routine and some get a straight service, and they take the cue from you."
+      ],
+      "verdict": "The best restaurant at Magic Kingdom and the least booked. If you eat one table-service meal in this park, this is the one worth eating.",
+      "faqs": [
+        {
+          "q": "Is Skipper Canteen hard to get a reservation for?",
+          "a": "No — it is the easiest table service to book at Magic Kingdom, frequently available same day. The menu is more adventurous than most park restaurants, which suppresses demand and keeps availability open."
+        },
+        {
+          "q": "What is the hidden room at Skipper Canteen?",
+          "a": "The Skipper Crew Mess Hall, entered through a bookcase door off the main dining room. It is one of three dining rooms and generally considered the best. Ask when you check in; you may wait a few extra minutes for a table there."
+        },
+        {
+          "q": "Is Skipper Canteen good for vegetarians and vegans?",
+          "a": "It is the strongest option in the park. Plant-based dishes are on the main menu rather than a separate allergy card, and they are cooked with the same attention as everything else rather than being substitutions."
+        },
+        {
+          "q": "Do the servers really tell jokes like the Jungle Cruise?",
+          "a": "Yes, the same style of scripted puns delivered in character. They read the table, though — if you would rather have a normal meal, a polite word gets you straightforward service."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "aloha-isle",
+      "name": "Aloha Isle",
+      "land": "adventureland",
+      "service": "snack-cart",
+      "cuisine": "Soft-serve and frozen treats",
+      "priceTier": "$",
+      "priceNote": "Dole Whip cup about $6.49 and float about $7.29 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Dole Whip window in Adventureland, and the single most-photographed snack at Walt Disney World.",
+      "description": [
+        "Aloha Isle is a walk-up window across from the Enchanted Tiki Room serving pineapple soft-serve, the float version with pineapple juice poured over it, and a couple of swirl combinations with vanilla or a rotating second flavor.",
+        "Dole Whip is dairy-free and gluten-free, which is why it has become the default answer for vegan visitors looking for a dessert at Magic Kingdom. It is also genuinely good — tart, not sweet, and it holds its texture in the heat better than ice cream.",
+        "The queue is the problem. It is outdoors, in full sun for much of the afternoon, and it regularly runs twenty-five minutes for a soft-serve. Mobile ordering exists and cuts that to almost nothing."
+      ],
+      "signatureItems": [
+        "Dole Whip pineapple soft-serve",
+        "Dole Whip float",
+        "Vanilla and pineapple swirl",
+        "Pineapple juice"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "vegetarian",
+        "budget"
+      ],
+      "tips": [
+        "Mobile order. The walk-up line here is one of the worst wait-to-value ratios in the park and the mobile pickup window is a separate, near-empty counter.",
+        "Get the cup, not the float. The float dilutes the soft-serve and turns into juice within five minutes in Florida heat; the cup holds up.",
+        "The shaded seating across the walkway near the Tiki Room is the place to eat it. There is essentially no shade at the window itself.",
+        "It is dairy-free and gluten-free by default, which makes it the single easiest allergy-friendly dessert at Magic Kingdom — no substitution or special order needed.",
+        "Sunshine Tree Terrace is thirty seconds away and sells the citrus swirl with a much shorter line. If the Aloha Isle queue is long, go there instead."
+      ],
+      "verdict": "The Dole Whip lives up to it — genuinely good, genuinely refreshing, and cheap. The twenty-five-minute standby line does not; mobile order or walk to Sunshine Tree Terrace.",
+      "faqs": [
+        {
+          "q": "Is Dole Whip vegan?",
+          "a": "Yes, the standard pineapple soft-serve is dairy-free and gluten-free, which is why it is the go-to dessert for vegan guests at Magic Kingdom. Swirls with vanilla soft-serve are not — ask before ordering a mixed swirl."
+        },
+        {
+          "q": "How much is a Dole Whip at Magic Kingdom?",
+          "a": "About $6.49 for a cup and $7.29 for a float as of July 2026. Prices move; expect the range rather than the exact figure."
+        },
+        {
+          "q": "Can you mobile order Dole Whip at Aloha Isle?",
+          "a": "Yes, and you should. The mobile pickup window is separate from the walk-up counter, and it turns a twenty-five-minute wait into a two-minute one on a busy afternoon."
+        },
+        {
+          "q": "Is the Dole Whip float better than the cup?",
+          "a": "No, in our view. The pineapple juice dilutes the soft-serve quickly and you end up drinking most of it. The cup holds its texture and is a dollar cheaper."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sunshine-tree-terrace",
+      "name": "Sunshine Tree Terrace",
+      "land": "adventureland",
+      "service": "snack-cart",
+      "cuisine": "Citrus soft-serve and frozen drinks",
+      "priceTier": "$",
+      "priceNote": "Swirls and frozen drinks roughly $6 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The citrus swirl window near the Adventureland bridge, and the shortest line for soft-serve in the park.",
+      "description": [
+        "Sunshine Tree Terrace sits at the front of Adventureland, near the bridge from the hub, and sells the citrus swirl — frozen orange juice swirled with vanilla soft-serve — along with a small selection of frozen drinks and coffee.",
+        "The orange soft-serve on its own is dairy-free and gluten-free, and it is the more interesting flavor of the two frozen options in Adventureland. The swirl with vanilla is the standard order and is not dairy-free.",
+        "Its practical advantage over Aloha Isle is enormous: the same category of product, thirty seconds away, with a line that is routinely a fifth as long because it does not have the name recognition."
+      ],
+      "signatureItems": [
+        "Citrus swirl",
+        "Frozen orange juice",
+        "Orange soft-serve cup",
+        "Cold brew"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "solo"
+      ],
+      "tips": [
+        "This is the answer when the Aloha Isle line is out to the walkway. Same walk, same category, a fraction of the wait.",
+        "Order the frozen orange on its own if you need dairy-free — the vanilla swirl is not, and the default order includes it.",
+        "There is covered seating just around the corner toward the Tiki Room, which is the only real shade in this stretch of Adventureland.",
+        "The citrus swirl melts faster than a Dole Whip. Eat it where you buy it rather than walking with it."
+      ],
+      "verdict": "The best-value frozen treat in Adventureland and the one regulars order. The citrus swirl beats the Dole Whip on flavor and beats it on line length by a mile.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tortuga-tavern",
+      "name": "Tortuga Tavern",
+      "land": "adventureland",
+      "service": "quick-service",
+      "cuisine": "Tex-Mex",
+      "priceTier": "$$",
+      "priceNote": "Platters and bowls roughly $13 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A Tex-Mex counter beside Pirates of the Caribbean with variable operating hours and reliable shaded seating.",
+      "description": [
+        "Tortuga Tavern is tucked beside the Pirates of the Caribbean exit and serves a short Tex-Mex menu of bowls, nachos and platters. Its operating schedule is genuinely inconsistent — it opens seasonally and on higher-attendance days rather than daily, and the menu has shifted several times.",
+        "When it is open, it is one of the least crowded places to eat in Adventureland, because most guests assume it is closed and walk on to Pecos Bill.",
+        "The seating is the real draw: a covered courtyard with tables, fans and genuine shade, immediately off a walkway that has almost none. Even on days when the counter is shut the seating is sometimes accessible."
+      ],
+      "signatureItems": [
+        "Beef nachos",
+        "Chicken rice bowl",
+        "Plant-based bowl",
+        "Churros"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "budget",
+        "groups"
+      ],
+      "tips": [
+        "Check the app before walking here. It does not operate every day, and finding it closed is the single most common experience guests have with this location.",
+        "The covered courtyard seating is worth using even if you bought food elsewhere. It is the best shade in Adventureland outside a queue.",
+        "When it is open it is far quieter than Pecos Bill for a comparable menu. If both are running, this is the better choice at lunch.",
+        "Portions are large enough to split between two children, which is not true of most Magic Kingdom quick service."
+      ],
+      "verdict": "Perfectly decent Tex-Mex when it happens to be open, which is unpredictable. The shaded courtyard is the reason to know it exists.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pecos-bill-tall-tale-inn-and-cafe",
+      "name": "Pecos Bill Tall Tale Inn and Cafe",
+      "land": "frontierland",
+      "service": "quick-service",
+      "cuisine": "Tex-Mex and burgers",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $13 to $19 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The biggest quick-service dining room at Magic Kingdom, serving fajita platters, burgers and a free toppings bar.",
+      "description": [
+        "Pecos Bill occupies a sprawling building between Frontierland and Adventureland with several themed dining rooms and enough seating that finding a table is almost never a problem, even at peak lunch. That capacity is its main asset.",
+        "The menu is fajita platters, rice bowls, burgers and a plant-based option. The genuinely useful part is the toppings bar — self-serve peppers, onions, cheese sauce, salsa, jalapenos and lettuce, free and unlimited with any entree. Regulars use it to turn a modest platter into a full meal.",
+        "The dining rooms differ. The front rooms are loud and crowded; walk deeper into the building and there are quieter rooms with better theming and reliably empty tables."
+      ],
+      "signatureItems": [
+        "Beef fajita platter",
+        "Chicken rice bowl",
+        "Angus bacon cheeseburger",
+        "Plant-based fajita bowl",
+        "Free toppings bar"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "groups",
+        "budget",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "The toppings bar is free and unlimited. Order the base platter, not the loaded upgrade, and build it yourself — you will end up with more food for less money.",
+        "Walk to the back dining rooms. The front of the building is a scrum at noon and there are consistently empty tables three rooms deep.",
+        "Mobile order and then use the wait to walk to a table first. The pickup window is near the entrance and hunting for seats with a full tray is the standard mistake here.",
+        "This is the most reliable place in the park to seat a group of eight or more at lunch without a reservation.",
+        "The plant-based fajita bowl plus the toppings bar is one of the better vegan quick-service meals at Magic Kingdom, and it is not marketed as such."
+      ],
+      "verdict": "Ordinary Tex-Mex made genuinely good value by the free toppings bar and the enormous air-conditioned dining room. The best quick-service default in the park for a big group.",
+      "faqs": [
+        {
+          "q": "Is the toppings bar at Pecos Bill still free?",
+          "a": "Yes. The self-serve bar with peppers, onions, cheese sauce, salsa, jalapenos and lettuce is included with any entree purchase and there is no limit on returns. It is the main reason to eat here."
+        },
+        {
+          "q": "Is Pecos Bill good for vegans?",
+          "a": "It is one of the better quick-service options in the park. The plant-based fajita bowl is a full entree rather than a substitution, and the toppings bar lets you build it out considerably."
+        },
+        {
+          "q": "How busy is Pecos Bill at lunch?",
+          "a": "The order counter is busy; the seating is not. The building has multiple dining rooms and the back rooms almost always have open tables even when the front looks impossible."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "golden-oak-outpost",
+      "name": "Golden Oak Outpost",
+      "land": "frontierland",
+      "service": "quick-service",
+      "cuisine": "Chicken and waffle fries",
+      "priceTier": "$",
+      "priceNote": "Baskets and sandwiches roughly $10 to $15 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small Frontierland window selling chicken sandwiches, nuggets and loaded waffle fries.",
+      "description": [
+        "Golden Oak Outpost is a walk-up window near the Frontierland end of the Adventureland bridge, serving a very short menu built around fried chicken and waffle fries. The loaded waffle fries with cheese sauce and toppings are the item people come for.",
+        "It is small, the seating nearby is limited and mostly unshaded, and the operating hours vary by season. When it is open it is a fast, cheap option in a part of the park where the alternative is a twenty-minute line at Pecos Bill.",
+        "Portion sizes are generous relative to price, which makes it one of the better budget picks at Magic Kingdom."
+      ],
+      "signatureItems": [
+        "Loaded waffle fries",
+        "Chicken breast nuggets",
+        "Fried chicken sandwich",
+        "Plain waffle fries"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Order the loaded waffle fries as a shared snack for three people rather than as a single meal. The portion is much larger than the price suggests.",
+        "Hours vary. Check the app rather than walking over on the assumption it is open, particularly in low season.",
+        "There is almost no shaded seating here. Take the food to the covered tables at Pecos Bill around the corner instead.",
+        "This is the fastest food in Frontierland during the parade window, when the walkway crowd shifts and the line drops to nothing."
+      ],
+      "verdict": "Cheap, greasy and satisfying, with the best price-to-portion ratio in Frontierland. The lack of shaded seating is the only real drawback.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "westward-ho-refreshments",
+      "name": "Westward Ho Refreshments",
+      "land": "frontierland",
+      "service": "snack-cart",
+      "cuisine": "Snacks and drinks",
+      "priceTier": "$",
+      "priceNote": "Snacks roughly $6 to $10 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small Frontierland cart selling corn dog nuggets, pretzels and frozen drinks near the Big Thunder walkway.",
+      "description": [
+        "Westward Ho is a covered snack cart on the Frontierland walkway, selling corn dog nuggets, soft pretzels, frozen lemonade and soft drinks. It is one of the more consistently open snack carts at Magic Kingdom.",
+        "It exists mostly for the crowd walking between Big Thunder Mountain and Liberty Square, which is a heavy traffic corridor with very little else on it.",
+        "There is no seating and no shade at the cart itself, but the walkway alongside it has a few benches under cover."
+      ],
+      "signatureItems": [
+        "Corn dog nuggets",
+        "Soft pretzel",
+        "Frozen lemonade",
+        "Bottled drinks"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo"
+      ],
+      "tips": [
+        "The corn dog nuggets here are the same as Casey's Corner at a shorter line, which is the entire reason to stop.",
+        "It is one of the few places in Frontierland to get a cold drink quickly during the parade, when the crossings are shut and you cannot get anywhere else.",
+        "The frozen lemonade is dairy-free and holds up better in the heat than any of the soft-serve options.",
+        "Card and mobile payment only at most carts now; do not plan on cash."
+      ],
+      "verdict": "A cart, doing cart things, in a spot where you will be glad it exists. The corn dog nuggets are the same product Casey's sells with a fraction of the wait.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "liberty-tree-tavern",
+      "name": "Liberty Tree Tavern",
+      "land": "liberty-square",
+      "service": "table-service",
+      "cuisine": "Colonial American",
+      "priceTier": "$$$",
+      "priceNote": "All-you-care-to-enjoy family-style dinner generally in the $45 to $58 per adult range as of July 2026; a la carte at lunch",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Colonial-era rooms serving a family-style turkey and pot roast dinner that arrives until you tell them to stop.",
+      "description": [
+        "Liberty Tree Tavern is a warren of small colonial dining rooms, each themed to a figure from American history, with low ceilings, fireplaces and pewter. It is the most convincing interior at Magic Kingdom that is not a ride.",
+        "Dinner is family style and all-you-care-to-enjoy: roast turkey, pot roast and pork carved and brought to the table with mashed potatoes, stuffing, mac and cheese and vegetables in serving bowls, refilled on request. Lunch is a shorter a la carte menu.",
+        "The food is straightforward American holiday cooking done properly — the turkey is actually roasted, the gravy is not from a packet, and the dessert is a warm sundae. It will not surprise anyone, and that is the point."
+      ],
+      "signatureItems": [
+        "Family-style roast turkey",
+        "Slow-roasted pot roast",
+        "Herb-roasted pork",
+        "Macaroni and cheese",
+        "Ooey Gooey Toffee Cake"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "groups",
+        "air-conditioned-break",
+        "special-occasion"
+      ],
+      "tips": [
+        "Come hungry and ask for refills. The family-style dinner is genuinely unlimited and the servers will bring more of any single item, including just the turkey, if you ask.",
+        "Ask to be seated in one of the smaller side rooms rather than the main hall. The Betsy Ross and Paul Revere rooms are quieter and better themed, and they are handed out on request.",
+        "Book dinner rather than lunch. The a la carte lunch is the same kitchen at similar prices for a fraction of the food.",
+        "This is the best table-service option in the park for a party with big eaters and a fixed budget, because the price does not move with appetite.",
+        "It is in Liberty Square, thirty seconds from Haunted Mansion. Book an early dinner and ride the mansion right afterward when the land is emptying toward the hub."
+      ],
+      "verdict": "Honest, generous, unfussy food in the best-looking dining room at Magic Kingdom. The family-style dinner is the strongest value in the park for anyone with an appetite.",
+      "faqs": [
+        {
+          "q": "Is Liberty Tree Tavern all-you-can-eat?",
+          "a": "Dinner is. It is served family style with unlimited refills on the meats and sides — you tell the server what you want more of. Lunch is a la carte and considerably less food for a similar price."
+        },
+        {
+          "q": "Do you need a reservation for Liberty Tree Tavern?",
+          "a": "Strongly recommended. It is one of the more popular table-service restaurants at Magic Kingdom and walk-up availability at dinner is rare, though same-day slots do appear in the app during the day."
+        },
+        {
+          "q": "Does Liberty Tree Tavern serve alcohol?",
+          "a": "Yes, beer and wine. It is one of the handful of Magic Kingdom restaurants that serve alcohol, all of them table service."
+        },
+        {
+          "q": "Is Liberty Tree Tavern good for gluten-free or vegan guests?",
+          "a": "Yes for both, but tell them when you book and again when you sit. A chef comes to the table to walk through options, and the family-style format means allergy plates are prepared separately rather than pulled from the shared bowls."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "columbia-harbour-house",
+      "name": "Columbia Harbour House",
+      "land": "liberty-square",
+      "service": "quick-service",
+      "cuisine": "Seafood and New England-style",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $12 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Fried fish, lobster rolls and a hummus sandwich in a two-story New England seaport building with a secret upstairs.",
+      "description": [
+        "Columbia Harbour House is a colonial seaport building on the Liberty Square and Fantasyland border, serving fried fish and shrimp, a lobster roll, clam chowder, a chicken pot pie and one of the better vegan sandwiches in the park.",
+        "The upstairs is the reason regulars love it. A staircase near the order counter leads to a second floor of small nautical rooms with maps, model ships and windows over the walkway, and the vast majority of guests never go up. On a busy day the ground floor is full and there are empty tables directly above it.",
+        "The food is a step up from typical park quick service. The fried fish is properly crisp, the chowder is thick, and the Lighthouse Sandwich — hummus and broccoli slaw on multigrain — is a legitimately good vegan option rather than a token one."
+      ],
+      "signatureItems": [
+        "Fried fish and shrimp combo",
+        "Lobster roll",
+        "New England clam chowder",
+        "Lighthouse Sandwich",
+        "Chicken pot pie"
+      ],
+      "goodFor": [
+        "families",
+        "vegetarian",
+        "air-conditioned-break",
+        "quick-bite",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Go upstairs. There is a full second floor of seating that most guests never find, and it is quiet, air conditioned and has windows over Liberty Square.",
+        "The Lighthouse Sandwich is vegan as served and it is genuinely good — this is the best plant-based quick-service item at Magic Kingdom and it is not labeled as anything special on the board.",
+        "There is a rear entrance and staircase near the Fantasyland side. Using it skips the crush at the main counter entirely on a busy afternoon.",
+        "Order the chowder as a side rather than a cup on its own. It comes in a bread bowl variant that is far too much for one person.",
+        "This is one of the few places in the park where a party of four can reliably sit indoors at 12:30 without waiting for a table."
+      ],
+      "verdict": "The best quick service at Magic Kingdom on food quality, and the upstairs seating is the single most useful secret in the park's dining. Order the fish or the Lighthouse Sandwich.",
+      "faqs": [
+        {
+          "q": "Does Columbia Harbour House have upstairs seating?",
+          "a": "Yes. A staircase near the order counter leads to a second floor of small nautical dining rooms. It is rarely full, even when the ground floor is packed, and most guests do not know it is there."
+        },
+        {
+          "q": "Is Columbia Harbour House good for vegans?",
+          "a": "Yes — the Lighthouse Sandwich, hummus and broccoli slaw on multigrain bread, is vegan as served and is one of the better plant-based items anywhere at Magic Kingdom. Confirm at the counter, since preparations occasionally change."
+        },
+        {
+          "q": "Is the lobster roll at Columbia Harbour House worth it?",
+          "a": "It is a small roll at a premium price, and it is decent rather than remarkable. If you want the best value on the menu, the fried fish and shrimp combo delivers more food for less money."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sleepy-hollow-refreshments",
+      "name": "Sleepy Hollow Refreshments",
+      "land": "liberty-square",
+      "service": "quick-service",
+      "cuisine": "Waffles and funnel cake",
+      "priceTier": "$",
+      "priceNote": "Waffle sandwiches and funnel cakes roughly $9 to $15 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The waffle window at the Liberty Square bridge, home to the sweet-and-spicy chicken waffle sandwich.",
+      "description": [
+        "Sleepy Hollow is a small counter in a colonial house right where Liberty Square meets the hub, with a covered patio of tables looking across the water toward Cinderella Castle. The location is one of the best in the park and it is criminally underused.",
+        "The menu is waffles. There is a fresh-fruit waffle with Nutella-style spread, a funnel cake with toppings, and the item that made the place famous — a sweet-and-spicy chicken waffle sandwich, fried chicken pressed between two waffle halves with a chili sauce and slaw.",
+        "It also serves breakfast waffles in the morning, which makes it one of the few places at Magic Kingdom to eat something warm before ten a.m. without a reservation."
+      ],
+      "signatureItems": [
+        "Sweet-and-spicy chicken waffle sandwich",
+        "Nutella and fresh fruit waffle",
+        "Funnel cake",
+        "Breakfast waffle with berries",
+        "Cold brew"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "view",
+        "solo"
+      ],
+      "tips": [
+        "The chicken waffle sandwich is the order. It is one of the three best things you can eat at Magic Kingdom and it costs less than a burger at Cosmic Ray's.",
+        "The covered patio has a direct sightline to the castle across the water. It is a legitimately good spot to eat during the afternoon parade, which passes right beside it.",
+        "It opens early for breakfast and is nearly empty at that hour. A warm waffle at 9 a.m. with a castle view and no line is the best breakfast in the park.",
+        "The funnel cake is huge and best split between three. Ordering one each is a common and expensive mistake.",
+        "The queue backs onto the walkway and looks longer than it is, because the counter handles two lines at once."
+      ],
+      "verdict": "Punches far above its size. The chicken waffle sandwich is one of the best things in the park at any price, and the covered patio has a castle view for free.",
+      "faqs": [
+        {
+          "q": "What should you order at Sleepy Hollow?",
+          "a": "The sweet-and-spicy chicken waffle sandwich, without much debate. It is filling, it is well made, and it is priced below most quick-service burgers. The fresh fruit and Nutella waffle is the sweet alternative."
+        },
+        {
+          "q": "Can you see the castle from Sleepy Hollow?",
+          "a": "Yes. The covered patio faces across the water toward Cinderella Castle, which makes it one of the better free seated views at Magic Kingdom, and it sits directly beside the parade route."
+        },
+        {
+          "q": "Does Sleepy Hollow serve breakfast?",
+          "a": "Yes, waffle-based breakfast items in the morning. It is one of the few quick-service breakfast options in the park with essentially no line before ten a.m."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "liberty-square-market",
+      "name": "Liberty Square Market",
+      "land": "liberty-square",
+      "service": "snack-cart",
+      "cuisine": "Turkey legs, fruit and snacks",
+      "priceTier": "$",
+      "priceNote": "Turkey leg $11.75; fruit and snacks roughly $3 to $8 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An open-air market stall in Liberty Square selling turkey legs, whole fruit, pickles and cold drinks.",
+      "description": [
+        "A covered market stall on the Liberty Square walkway with produce baskets out front. It is the most reliable place at Magic Kingdom to buy a piece of whole fruit, a pickle, or a bag of grapes — the sort of thing that is genuinely hard to find in a theme park.",
+        "It is also the main turkey leg location in the park. The legs are smoked, enormous, and priced at $11.75 as of July 2026, and they are the single most photographed savory item at Walt Disney World.",
+        "There is no seating. Everything here is designed to be carried, which suits the location on a busy through-walkway."
+      ],
+      "signatureItems": [
+        "Smoked turkey leg",
+        "Whole fruit",
+        "Giant dill pickle",
+        "Bottled water and soft drinks"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "solo"
+      ],
+      "tips": [
+        "This is the easiest place in the park to buy an apple, a banana or a bag of grapes, which matters more than it sounds on day three of a trip.",
+        "The turkey leg is the size of a forearm and is meant to be shared. Ask for extra napkins and a bag, because there is nowhere to sit and eating one while walking is a commitment.",
+        "The whole fruit and the pickle are among the cheapest items sold anywhere at Magic Kingdom and both are vegan and gluten-free.",
+        "It is directly on the parade route, so it shuts its front counter for about twenty minutes when the parade passes."
+      ],
+      "verdict": "Genuinely useful for fruit and water at fair prices. The turkey leg is a photo prop that happens to be edible — smoky, salty, enormous, and not as good as it looks.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "be-our-guest-restaurant",
+      "name": "Be Our Guest Restaurant",
+      "land": "fantasyland",
+      "service": "table-service",
+      "cuisine": "French-inspired American",
+      "priceTier": "$$$$",
+      "priceNote": "Prix fixe dinner generally in the $62 to $72 per adult range as of July 2026, before drinks",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A prix fixe French-inspired meal inside the Beast's castle, with three dining rooms and the hardest reservation in the park.",
+      "description": [
+        "Be Our Guest occupies a purpose-built castle at the back of Fantasyland with three distinct dining rooms: a grand ballroom with a painted sky ceiling and falling snow outside the windows, a darker west wing with a portrait that changes and a thunderstorm effect, and a smaller rose gallery.",
+        "Dinner is a three-course prix fixe menu with French-influenced dishes — a soup or salad, an entree from a short list including steak, poultry and a vegetarian option, and a dessert trio that includes the grey-colored mousse the restaurant is known for. Lunch runs a similar structure.",
+        "The rooms are the product. The ballroom in particular is one of the most impressive interiors Disney has built for a restaurant anywhere, and the falling snow outside the windows is a practical effect that holds up close. The food is competent and expensive."
+      ],
+      "signatureItems": [
+        "The Grey Stuff dessert",
+        "Center-cut filet",
+        "French onion soup",
+        "Ratatouille",
+        "Triple chocolate cupcake"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "families",
+        "splurge",
+        "date-night",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Request the ballroom when you check in. All three rooms cost the same, the west wing is atmospheric but dark and hard to photograph, and the ballroom is the one people book this restaurant for.",
+        "Book at exactly sixty days out at 6 a.m. Eastern. This is one of the two hardest reservations at Magic Kingdom and availability disappears within minutes on popular dates.",
+        "Lunch costs less than dinner for a similar structure and the rooms look the same. If you want the experience rather than the meal, book lunch.",
+        "Ask a server about the grey mousse if you are celebrating anything. They will usually bring one out with a plate message, and it is the same dessert everyone photographs.",
+        "The entrance is at the far back of Fantasyland past Gaston's Tavern, and the walk from the hub takes ten minutes with a stroller. Do not cut your arrival close."
+      ],
+      "verdict": "You are buying a room, and it is a spectacular room. The food is fine and the price is not — go for lunch if you want the castle without the dinner bill.",
+      "faqs": [
+        {
+          "q": "How much does Be Our Guest cost?",
+          "a": "Dinner is a prix fixe running roughly $62 to $72 per adult as of July 2026, before drinks and tax, with lower pricing for children. Lunch follows a similar format at a lower price."
+        },
+        {
+          "q": "How far in advance should you book Be Our Guest?",
+          "a": "Sixty days out at 6 a.m. Eastern, the moment the window opens. It is among the hardest reservations at Walt Disney World and popular dates are gone within minutes. Same-day cancellations do appear — check the app repeatedly if you missed the window."
+        },
+        {
+          "q": "Which dining room is best at Be Our Guest?",
+          "a": "The ballroom, with the painted ceiling and the snow falling outside the windows. All three rooms are the same price and you can request one at check-in. The west wing is the most atmospheric but is very dark for photographs."
+        },
+        {
+          "q": "What is The Grey Stuff?",
+          "a": "A cookies-and-cream flavored mousse piped onto a small pastry, served as part of the dessert course and available as a celebration add-on. It is pleasant and heavily photographed; it is not the reason to book the restaurant."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cinderellas-royal-table",
+      "name": "Cinderella's Royal Table",
+      "land": "fantasyland",
+      "service": "table-service",
+      "cuisine": "American",
+      "priceTier": "$$$$",
+      "priceNote": "Prix fixe with character interaction generally $75 or more per adult as of July 2026; prepayment required",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": true,
+      "standalonePage": true,
+      "summary": "Dining inside Cinderella Castle with princess greetings — the most expensive meal at Magic Kingdom by a wide margin.",
+      "description": [
+        "Cinderella's Royal Table is the dining hall on the upper floor of Cinderella Castle, reached by a stone staircase from the courtyard. It is the only restaurant inside the castle and one of very few places at Walt Disney World where guests can go inside the building at all.",
+        "The meal is a prix fixe with princesses circulating between tables. Cinderella typically greets guests in the lobby downstairs before you are seated, with additional princesses visiting the dining hall during the meal. Prepayment is required at booking and there is a strict cancellation policy.",
+        "The room is a tall stone hall with stained glass, banners and narrow windows over Fantasyland. It is genuinely impressive for about ten minutes, and it is smaller than most people expect from the outside."
+      ],
+      "signatureItems": [
+        "Beef tenderloin",
+        "Chicken and dumpling stew",
+        "Royal breakfast platter",
+        "Clock strikes twelve chocolate dessert",
+        "Sparkling cider toast"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "splurge",
+        "families",
+        "toddlers",
+        "groups"
+      ],
+      "tips": [
+        "Book at exactly sixty days out at 6 a.m. Eastern and expect to prepay in full. It is the hardest reservation at Magic Kingdom and the cancellation window is strict.",
+        "Breakfast is the smartest booking. It costs less than dinner, the same princesses appear, and you are inside the castle before the park fills — you walk out into a nearly empty Fantasyland.",
+        "The photo package is included in the price whether you use it or not, so make sure someone actually collects the PhotoPass shots taken in the lobby.",
+        "Tell them at booking if you are celebrating. They handle birthdays well and it costs nothing.",
+        "If the price is the sticking point and the characters are the goal, The Crystal Palace delivers four characters and a full buffet for meaningfully less money."
+      ],
+      "verdict": "Wildly expensive for food that is merely fine. You are paying to eat inside the castle and to meet princesses without queuing — if that is worth it to your family, it is worth it; if not, nothing here justifies the price.",
+      "faqs": [
+        {
+          "q": "How much does Cinderella's Royal Table cost?",
+          "a": "Generally $75 or more per adult as of July 2026, prepaid at booking, with lower pricing for children. It is the most expensive meal at Magic Kingdom and among the priciest at Walt Disney World."
+        },
+        {
+          "q": "Which princesses appear at Cinderella's Royal Table?",
+          "a": "Cinderella typically greets guests in the downstairs lobby before seating, with a rotating group of other princesses visiting tables during the meal. The exact lineup is not published in advance and changes."
+        },
+        {
+          "q": "Is Cinderella's Royal Table worth the money?",
+          "a": "Only if eating inside the castle and meeting princesses without a queue matters to your family. The food is unremarkable at any price and dramatically so at this one. The Crystal Palace offers four characters and a buffet for considerably less."
+        },
+        {
+          "q": "Do you have to prepay for Cinderella's Royal Table?",
+          "a": "Yes, in full at the time of booking, and the cancellation policy is stricter than at other Disney restaurants. Read the terms before you confirm — a late cancellation forfeits the payment."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "gastons-tavern",
+      "name": "Gaston's Tavern",
+      "land": "fantasyland",
+      "service": "quick-service",
+      "cuisine": "Snacks and specialty drinks",
+      "priceTier": "$",
+      "priceNote": "Cinnamon roll and specialty drinks roughly $6 to $10 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "breakfast"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A tavern in the back of Fantasyland selling an enormous warm cinnamon roll and a frozen apple drink.",
+      "description": [
+        "Gaston's Tavern is a dark timber-and-antler hunting-lodge interior at the far end of Fantasyland, past the Beast's castle. Inside is a fireplace, a large portrait, and a menu of about six items.",
+        "The item is the cinnamon roll. It is roughly the size of two fists, served warm, and it is one of the best baked goods sold at Walt Disney World — dense, properly gooey in the middle, and glazed rather than iced. It shares easily between three people and is priced like a single snack.",
+        "The other draw is LeFou's Brew, a frozen apple drink with a passion fruit foam on top, sold in a cup or a souvenir stein. It is sweet, non-alcoholic, and heavily marketed."
+      ],
+      "signatureItems": [
+        "Warm cinnamon roll",
+        "LeFou's Brew frozen apple drink",
+        "Hand-dipped pretzel",
+        "Roasted pork shank",
+        "Hot chocolate"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "air-conditioned-break",
+        "groups"
+      ],
+      "tips": [
+        "Buy one cinnamon roll for three people. It is enormous, it is warm, and ordering one each is the standard error — you will not finish it.",
+        "The interior is air conditioned, has real seating and is almost always half empty, which makes it the best hidden rest stop in Fantasyland. Most people order at the window and leave.",
+        "Come at opening. The rolls are baked in batches and the first ones of the day are noticeably better than a roll that has been sitting under a warmer since eleven.",
+        "LeFou's Brew is fine and it is not worth the souvenir stein upcharge unless you specifically want the cup. The regular size delivers the identical drink.",
+        "The tavern is a two-minute walk from Be Our Guest and is the easiest place to wait if you are early for a reservation."
+      ],
+      "verdict": "Go for the cinnamon roll, which is genuinely one of the best snacks on property. LeFou's Brew is sugary novelty juice and is comfortably overrated.",
+      "faqs": [
+        {
+          "q": "How big is the cinnamon roll at Gaston's Tavern?",
+          "a": "About the size of two fists — it comfortably feeds three people. It is served warm and glazed, and it is one of the best-value snacks at Magic Kingdom for a group."
+        },
+        {
+          "q": "Is LeFou's Brew alcoholic?",
+          "a": "No. It is a frozen apple drink with a passion fruit and mango foam on top, non-alcoholic and suitable for children. Magic Kingdom does not serve alcohol at quick-service locations."
+        },
+        {
+          "q": "Does Gaston's Tavern have indoor seating?",
+          "a": "Yes, a full air-conditioned interior with tables and a fireplace, and it is usually far less crowded than the walkway outside. Most guests order and leave without going in, which is why there is nearly always a seat."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pinocchio-village-haus",
+      "name": "Pinocchio Village Haus",
+      "land": "fantasyland",
+      "service": "quick-service",
+      "cuisine": "Italian-American and flatbreads",
+      "priceTier": "$$",
+      "priceNote": "Flatbreads and entrees roughly $12 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Flatbreads and meatball subs in a Bavarian-style hall with windows overlooking the it's a small world boats.",
+      "description": [
+        "Pinocchio Village Haus is a large, air-conditioned Bavarian dining hall in the middle of Fantasyland serving flatbread pizzas, a meatball sub, chicken nuggets and salads. It is the closest thing to a food court at Magic Kingdom.",
+        "The specific reason to know about it: a handful of tables in the back rooms have windows looking directly down onto the loading area of it's a small world. Kids are transfixed by them and adults never think to ask.",
+        "The food is unexceptional. Flatbreads are decent, the meatball sub is the better order, and the nuggets exist for children who will eat nothing else."
+      ],
+      "signatureItems": [
+        "Margherita flatbread",
+        "Meatball sub",
+        "Chicken nuggets",
+        "Caesar salad",
+        "Plant-based flatbread"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "air-conditioned-break",
+        "budget",
+        "toddlers"
+      ],
+      "tips": [
+        "Walk to the back rooms and look for the windows over the it's a small world loading dock. They are the best seats in Fantasyland for a child and nobody competes for them.",
+        "It is the most reliable air conditioning in central Fantasyland at lunchtime and has more seating than the queue implies.",
+        "The meatball sub is the better order over the flatbreads, which reheat poorly and are frequently lukewarm at peak.",
+        "Mobile order and go straight to a table — the pickup counter is at the front and the good seating is at the back."
+      ],
+      "verdict": "Mediocre food in a genuinely useful building. The flatbreads are forgettable; the air conditioning and the small world windows are the reason to come.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "friars-nook",
+      "name": "The Friar's Nook",
+      "land": "fantasyland",
+      "service": "quick-service",
+      "cuisine": "Loaded macaroni and hot dogs",
+      "priceTier": "$",
+      "priceNote": "Bowls and hot dogs roughly $9 to $14 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small window near the carrousel selling loaded macaroni and cheese bowls and specialty hot dogs.",
+      "description": [
+        "The Friar's Nook is a compact counter beside Prince Charming Regal Carrousel with a short menu built around macaroni and cheese — plain, or loaded with pot roast, bacon or buffalo chicken — plus a couple of hot dogs and a dessert.",
+        "It is one of the cheapest hot meals in the park and the portions are heavy. The loaded pot roast macaroni in particular is a full meal for under fifteen dollars, which is rare at Magic Kingdom.",
+        "Seating is a handful of outdoor tables with partial shade. On a hot day this is a takeaway location rather than a place to sit."
+      ],
+      "signatureItems": [
+        "Pot roast macaroni and cheese",
+        "Buffalo chicken macaroni",
+        "Classic macaroni and cheese",
+        "Specialty hot dog"
+      ],
+      "goodFor": [
+        "budget",
+        "quick-bite",
+        "picky-eaters",
+        "families",
+        "big-appetites"
+      ],
+      "tips": [
+        "The plain macaroni is one of the cheapest hot dishes in the park and is the reliable order for a child who will eat nothing adventurous.",
+        "Portions are dense. One loaded bowl split between two adults with a side is a genuinely sufficient lunch.",
+        "There is almost no shade. Take the food thirty seconds up the walkway to the covered seating near Pinocchio Village Haus.",
+        "The line here is short even at noon, because the window is small and easy to walk past. Use it when the rest of Fantasyland is a scrum."
+      ],
+      "verdict": "Cheap, heavy comfort food that does exactly what it says. The pot roast macaroni is the pick; the hot dogs are worse than the ones at Casey's.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "storybook-treats",
+      "name": "Storybook Treats",
+      "land": "fantasyland",
+      "service": "snack-cart",
+      "cuisine": "Soft-serve sundaes",
+      "priceTier": "$",
+      "priceNote": "Sundaes and floats roughly $6 to $9 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A soft-serve window near Peter Pan's Flight selling themed sundaes and floats.",
+      "description": [
+        "Storybook Treats is a walk-up window on the Fantasyland walkway between Peter Pan's Flight and the carrousel, serving soft-serve sundaes with themed toppings, floats and cones.",
+        "The offerings rotate but the format is consistent: vanilla or chocolate soft-serve, a sauce, a topping, and a decorative element that photographs well. Prices are lower than the Plaza Ice Cream Parlor and the product is soft-serve rather than hand-scooped.",
+        "The queue here is usually short because it sits in a heavily trafficked spot that people walk through rather than stop in."
+      ],
+      "signatureItems": [
+        "Themed soft-serve sundae",
+        "Root beer float",
+        "Vanilla cone",
+        "Chocolate soft-serve cup"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "toddlers"
+      ],
+      "tips": [
+        "The line is almost always shorter here than at Aloha Isle or the Plaza parlor, which makes it the fastest cold thing to buy in Fantasyland.",
+        "It is soft-serve, not hand-scooped. If you want proper ice cream, walk to the Plaza Ice Cream Parlor on Main Street instead.",
+        "There is a shaded bench cluster twenty yards toward the carrousel — the window itself has no shade at all.",
+        "Sundae toppings rotate, so the item pictured on the board is what is actually available that day rather than a fixed menu."
+      ],
+      "verdict": "Fine soft-serve at a fair price with a short line. Nothing here is worth crossing the park for, but it is the fastest way to cool a child down in Fantasyland.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cheshire-cafe",
+      "name": "Cheshire Cafe",
+      "land": "fantasyland",
+      "service": "snack-cart",
+      "cuisine": "Pastries and specialty drinks",
+      "priceTier": "$",
+      "priceNote": "Pastries and drinks roughly $5 to $9 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "breakfast"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small window beside the Mad Tea Party selling the Cheshire Cat tail pastry and cold drinks.",
+      "description": [
+        "Cheshire Cafe is a tiny counter tucked between the Mad Tea Party and the walkway to Tomorrowland, easy to miss entirely. It sells cold drinks, coffee and a short list of pastries.",
+        "The item worth stopping for is the Cheshire Cat tail — a long, twisted puff pastry striped in pink and purple, filled with cream cheese icing. It is much better than a novelty pastry has any right to be, with proper lamination and a filling that is not sickly.",
+        "There is minimal seating and no shade at the window itself, though the walkway toward Tomorrowland has covered benches a short walk away."
+      ],
+      "signatureItems": [
+        "Cheshire Cat tail pastry",
+        "Cold brew",
+        "Bottled drinks",
+        "Frozen beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families"
+      ],
+      "tips": [
+        "The Cheshire Cat tail is one of the best pastries in the park and one of the least known. It is a genuine sleeper item and the line is rarely more than two deep.",
+        "Buy it in the morning. They are baked in batches and by late afternoon the pastry has often lost its crispness.",
+        "It shares easily between two — the tail is longer than it looks in photographs.",
+        "This window is the closest cold drink to the Fantasyland and Tomorrowland connector, which is one of the hottest stretches of walkway in the park."
+      ],
+      "verdict": "The Cheshire Cat tail is one of the genuine sleeper snacks at Magic Kingdom — properly made, cheap and almost never queued. Buy it early in the day.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "prince-erics-village-market",
+      "name": "Prince Eric's Village Market",
+      "land": "fantasyland",
+      "service": "snack-cart",
+      "cuisine": "Snacks and fruit",
+      "priceTier": "$",
+      "priceNote": "Snacks roughly $4 to $10 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A market stall near the Little Mermaid ride selling turkey legs, fruit, pretzels and cold drinks.",
+      "description": [
+        "Prince Eric's Village Market is a covered stall in the Fantasyland expansion area between the Little Mermaid attraction and Gaston's Tavern, styled as a seaside village market.",
+        "It carries the standard cart lineup — turkey legs, soft pretzels, whole fruit, chips and drinks — in a corner of the park where there is otherwise very little to buy.",
+        "It is a useful place to grab water and fruit before walking the long stretch back toward the castle, and it operates on variable hours in low season."
+      ],
+      "signatureItems": [
+        "Smoked turkey leg",
+        "Soft pretzel",
+        "Whole fruit",
+        "Bottled water"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families"
+      ],
+      "tips": [
+        "This is the only place to buy water in the back corner of Fantasyland, which matters on the walk between Storybook Circus and the castle in summer.",
+        "The fruit here is the same as at Liberty Square Market and is one of the cheapest items in the park.",
+        "It runs shorter hours than the surrounding attractions and often closes before park close. Do not count on it at night.",
+        "There is shade under the stall roof and a low wall to lean on, which is the closest thing to a rest spot in this corner of Fantasyland."
+      ],
+      "verdict": "A cart in a location that needs one. Nothing distinctive, but it is where you will want water and fruit on a hot walk back from Storybook Circus.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "big-top-treats",
+      "name": "Big Top Treats",
+      "land": "fantasyland",
+      "service": "bakery",
+      "cuisine": "Candy and baked goods",
+      "priceTier": "$",
+      "priceNote": "Treats roughly $6 to $14 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A candy counter inside the Storybook Circus tent making caramel corn, apples and cake pops on site.",
+      "description": [
+        "Big Top Treats occupies a corner of the large souvenir tent in Storybook Circus, with an open candy kitchen turning out caramel corn, decorated apples, cake pops and dipped treats.",
+        "The caramel corn is made in small batches on the premises and is the item worth buying — warm, properly coated, and sold in bags large enough to last a day.",
+        "Because it is inside the tent it is air conditioned, and it is one of the few cool indoor spaces in Storybook Circus that is not a queue."
+      ],
+      "signatureItems": [
+        "Fresh-made caramel corn",
+        "Decorated caramel apples",
+        "Cake pops",
+        "Chocolate-dipped treats"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Buy the caramel corn when a fresh batch is coming out of the kettle — ask the cast member and they will tell you how long it will be.",
+        "The tent is air conditioned and rarely busy, which makes it a legitimate cooling stop between Dumbo and the Barnstormer.",
+        "The decorated apples are the same product sold at Main Street Confectionery and share the same problem — they photograph better than they eat.",
+        "There is a stroller parking area right outside, which is not true of most candy locations in the park."
+      ],
+      "verdict": "Worth stopping for the fresh caramel corn and the air conditioning. Skip the decorated apples, which are pure decoration at a premium price.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cosmic-rays-starlight-cafe",
+      "name": "Cosmic Ray's Starlight Cafe",
+      "land": "tomorrowland",
+      "service": "quick-service",
+      "cuisine": "American burgers and barbecue",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $13 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The largest quick service at Magic Kingdom, with three separate bays, a toppings bar and a lounge-singing alien.",
+      "description": [
+        "Cosmic Ray's is a huge building in Tomorrowland split into three ordering bays, each with a different menu: burgers and chicken in one, barbecue and ribs in another, sandwiches and salads in the third. Guests routinely queue at the wrong bay for what they want.",
+        "There is a free toppings bar with lettuce, tomato, onions, pickles, sauces and cheese sauce, on the same model as Pecos Bill. It transforms an ordinary burger into a reasonable meal.",
+        "The permanent entertainment is Sonny Eclipse, an animatronic alien lounge singer who performs original songs on a small stage in the central dining room, all day, to an audience that mostly ignores him. He is one of the best jokes in the park and has been playing the same set for decades."
+      ],
+      "signatureItems": [
+        "Bacon cheeseburger",
+        "Barbecue rib platter",
+        "Rotisserie chicken",
+        "Plant-based burger",
+        "Free toppings bar"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "big-appetites",
+        "budget",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Check which bay serves what before you queue. The three counters have different menus and the wrong-line mistake costs ten minutes at lunch.",
+        "Sit in the central room where Sonny Eclipse performs. He plays original lounge numbers all day and it is one of the funniest things in the park if you actually listen.",
+        "The toppings bar is free and unlimited. Order the base burger and build it up.",
+        "The bays close in stages as the day winds down — bay one usually runs latest. Check the app if you are eating close to park close.",
+        "The outdoor terrace on the Tomorrowland side is quieter than the interior and gets a breeze in the evening, which the interior does not."
+      ],
+      "verdict": "Loud, enormous and average, redeemed by the free toppings bar and by Sonny Eclipse. Better value than most Magic Kingdom quick service and worse food than Columbia Harbour House.",
+      "faqs": [
+        {
+          "q": "Who is Sonny Eclipse at Cosmic Ray's?",
+          "a": "An animatronic alien lounge singer who performs original songs on a small stage in the central dining room throughout the day. He has been there since the restaurant opened and the material is genuinely funny if you actually stop and listen."
+        },
+        {
+          "q": "Why are there three lines at Cosmic Ray's?",
+          "a": "Three ordering bays serve three different menus — burgers and chicken, barbecue, and sandwiches and salads. They are not interchangeable, and queuing at the wrong one is the most common mistake guests make here."
+        },
+        {
+          "q": "Does Cosmic Ray's have a free toppings bar?",
+          "a": "Yes, a self-serve bar with lettuce, tomato, onions, pickles, sauces and cheese sauce, included with any entree. It is the single best reason to eat here."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-lunching-pad",
+      "name": "The Lunching Pad",
+      "land": "tomorrowland",
+      "service": "quick-service",
+      "cuisine": "Hot dogs and pretzels",
+      "priceTier": "$",
+      "priceNote": "Hot dogs and pretzels roughly $8 to $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A counter under the PeopleMover platform selling specialty hot dogs, pretzels and frozen drinks.",
+      "description": [
+        "The Lunching Pad sits underneath the PeopleMover loading platform in the middle of Tomorrowland, in permanent shade from the structure above it. That shade is its best feature.",
+        "The menu is short — specialty hot dogs, cream cheese-stuffed pretzels, frozen soft drinks and a couple of desserts. It is fast, cheap and rarely busy compared to Cosmic Ray's next door.",
+        "There is a cluster of outdoor tables around it, all under the platform and therefore covered, which makes it usable in rain as well as sun."
+      ],
+      "signatureItems": [
+        "Specialty hot dog",
+        "Cream cheese-stuffed pretzel",
+        "Frozen soft drinks",
+        "Seasonal dessert"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families"
+      ],
+      "tips": [
+        "The seating is entirely under the PeopleMover platform, which makes it the most reliably shaded set of tables in Tomorrowland and a good rain shelter.",
+        "The cream cheese pretzel is a better order than the hot dogs and is the item people come back for.",
+        "It is a fraction of the queue at Cosmic Ray's for a comparable price point. If all you want is something quick and hot, come here instead.",
+        "It closes earlier than Cosmic Ray's on most days, so it is a lunch option rather than a dinner one."
+      ],
+      "verdict": "Nothing special on the menu, but permanently shaded seating in the middle of Tomorrowland is worth more than it sounds. Get the stuffed pretzel.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "auntie-gravitys-galactic-goodies",
+      "name": "Auntie Gravity's Galactic Goodies",
+      "land": "tomorrowland",
+      "service": "snack-cart",
+      "cuisine": "Soft-serve and smoothies",
+      "priceTier": "$",
+      "priceNote": "Sundaes, floats and smoothies roughly $6 to $10 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "vegan"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A soft-serve and smoothie window in Tomorrowland with the shortest ice cream line in the park.",
+      "description": [
+        "Auntie Gravity's is a small window near the Tomorrowland Speedway entrance serving soft-serve sundaes, floats, fruit smoothies and cold drinks.",
+        "The strawberry smoothie made with fruit and no dairy is the item worth ordering — it is one of the few genuinely refreshing non-ice-cream options in the park and it is dairy-free as prepared.",
+        "It is consistently the least busy frozen-treat location at Magic Kingdom, largely because it is in a corner of Tomorrowland that people walk past on their way to somewhere else."
+      ],
+      "signatureItems": [
+        "Strawberry fruit smoothie",
+        "Soft-serve sundae",
+        "Root beer float",
+        "Vanilla cone"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families"
+      ],
+      "tips": [
+        "The dairy-free fruit smoothie is the standout and one of the few non-soft-serve cold options in the park. Confirm the preparation at the window if dairy is a medical issue.",
+        "This is the shortest ice cream line at Magic Kingdom at nearly every hour. If someone in your group wants soft-serve and you are anywhere near Tomorrowland, come here.",
+        "There is shaded seating a few steps away toward the Speedway queue, which is otherwise a dead zone for places to sit.",
+        "It closes earlier than the rest of Tomorrowland on many nights, so it is not a post-fireworks option."
+      ],
+      "verdict": "Unglamorous and reliably quick. The fruit smoothie is better than anything the fancier soft-serve windows sell, and you will never wait more than five minutes.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

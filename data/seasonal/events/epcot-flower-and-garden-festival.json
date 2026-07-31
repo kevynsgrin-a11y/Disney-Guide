@@ -1,0 +1,250 @@
+{
+  "slug": "epcot-flower-and-garden-festival",
+  "name": "EPCOT International Flower & Garden Festival",
+  "shortName": "Flower & Garden",
+  "resort": "walt-disney-world",
+  "parkSlug": "epcot",
+  "category": "festival",
+  "season": "spring",
+  "summary": "The best food value of the four EPCOT festivals and the worst calendar — go in the opening fortnight before spring break arrives, and it is comfortably the strongest of the four for families with children.",
+  "h1": "EPCOT International Flower & Garden Festival: what it is and whether it's worth it",
+  "title": "EPCOT International Flower & Garden Festival",
+  "titleTail": ": Dates, Kitchens & Verdict",
+  "description": "EPCOT's spring festival: the outdoor kitchen items worth ordering, why the topiaries are a morning job, and the crowd weeks that ruin it. No invented dates.",
+
+  "typicalWindow": {
+    "startsAround": "late February/early March",
+    "endsAround": "early July",
+    "nightsTypical": 100,
+    "nightsRange": [90, 110],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Daily with park admission. Outdoor kitchens typically open late morning; the concert series runs several sets each evening."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [5, 13],
+    "asOf": "July 2026",
+    "cheapestNights": "Weekdays in the opening two weeks, before the first spring break districts arrive",
+    "priciestNights": "The two weeks around Easter, and any weekend in April",
+    "notes": [
+      "The festival is included with EPCOT park admission. There is no festival ticket.",
+      "The band above is the per-item outdoor kitchen price range as of July 2026. Plate for plate this is the best value of the four EPCOT festivals, because the kitchens skew toward simple preparations rather than plated presentation.",
+      "Garden tours, workshops and the festival scavenger hunt are separate purchases.",
+      "Beverage pricing behaves the same as at the autumn festival: a pour will usually cost more than the plate next to it, and it is the line item that doubles a family's spend."
+    ]
+  },
+
+  "whatYouGet": [
+    "More than a hundred character topiaries installed across the park, which is the festival's actual signature and the part that costs nothing beyond the ticket you already bought.",
+    "Around twenty outdoor kitchens ringing World Showcase and the front of the park, with the lowest average plate price of the four EPCOT festivals.",
+    "The Garden Rocks Concert Series at the America Gardens Theatre, included with park admission, running several sets each evening across the whole run.",
+    "Play gardens and open green space built specifically for children, which no other EPCOT festival provides and which is the single biggest reason to prefer this one with a five-year-old.",
+    "A butterfly house you walk through, stocked and staffed, and included with admission.",
+    "A scavenger hunt built around Spike the Bee, sold as a separate map-and-prize purchase, and easier for younger children than the autumn festival's equivalent.",
+    "Guided garden tours and horticulture workshops, booked ahead, which are the most underrated paid add-on at any EPCOT festival because the horticulture team running them is genuinely expert.",
+    "Roughly a hundred days of run time, which means almost any spring trip catches it."
+  ],
+
+  "whatYouDont": [
+    "The calendar is the problem with this festival and nothing else comes close. It runs straight through spring break and Easter, the worst crowd weeks of the Walt Disney World year outside Christmas, and a festival day inside that window is a bad park day regardless of how good the topiaries are.",
+    "The topiaries are a one-hour activity, not a day. People build an itinerary around them and finish before lunch, then discover the rest of the festival is twenty food stands and a concert.",
+    "The back half of the run is a Florida summer. Late May, June and early July mean high 80s to low 90s, high humidity and an afternoon thunderstorm most days, and an outdoor festival is exactly the wrong shape for that weather.",
+    "The outdoor kitchen count is well below Food & Wine's and the menus skew light. Two adults treating this as dinner will need more plates than they expect, which erodes the per-plate value advantage.",
+    "The concert series lineup is nostalgia-act driven and swings much harder in quality than the Arts festival's. Some weeks are worth planning an evening around and some are not.",
+    "Topiary lineups change between years. A specific character you saw in photographs may have been retired, and there is no published guarantee of any individual figure returning.",
+    "The play gardens and the butterfly house both close before park closing, so an evening arrival gets the food and the concert and none of the family content."
+  ],
+
+  "verdict": {
+    "short": "The best value plate for plate and the best of the four for families, undermined by a run that covers the worst crowd weeks of the year. Go in the opening fortnight.",
+    "worthItIf": [
+      "You can travel in the opening two weeks, before the first school districts break. That window has the full festival, the mildest weather of the run, and the lowest crowds it will see.",
+      "You have children between about three and ten. The play gardens, the butterfly house and the Spike the Bee hunt make this the only EPCOT festival genuinely built for that age group.",
+      "You want festival food without Food & Wine's prices. The average plate here is cheaper and more filling, and the kitchens are less interested in plating for a camera.",
+      "Gardens interest you on their own terms. The horticulture is real, the guided tours are led by the team that does the work, and the topiary construction is more impressive up close than in photographs.",
+      "You are visiting EPCOT in spring anyway, in which case this is substantial free content on a ticket you already hold."
+    ],
+    "skipIf": [
+      "Your dates land in the two weeks around Easter. EPCOT in that window is at its yearly worst, the promenade does not walk, and the festival adds crowd to a park that has no room for it.",
+      "You are traveling in late June or early July. The festival is still running but the weather has made an outdoor food-and-garden event genuinely unpleasant, and the afternoon storms shut the outdoor kitchens without warning.",
+      "The topiaries are the whole reason you are going. That is an hour of content, it is free with any spring ticket, and it does not need a plan.",
+      "You want the autumn festival's food. The kitchen count is roughly two-thirds of Food & Wine's and the menu is lighter throughout, so anyone arriving with October expectations will be disappointed.",
+      "You are arriving in the evening with children. The play gardens and the butterfly house close before the park does, so the family half of the festival will already be shut.",
+      "You are counting on a specific topiary for a photograph. The lineup changes between cycles and no page, including this one, can promise you a particular character on a particular day."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Do the topiaries in the first hour, in the right order",
+      "body": [
+        "The topiaries are open from park opening and the outdoor kitchens are not, which makes the first ninety minutes of the day the obvious and largely unused window for the festival's most photographed content.",
+        "The queues for the popular figures build by 11:00 and become genuine ten-minute waits for a photograph by early afternoon on a weekend. At 09:15 there is nobody in front of any of them.",
+        "The order that works: the entrance plaza and World Celebration displays first, because those are the ones the arriving crowd walks straight into and they congest earliest. Then work outward. The topiaries deep in World Showcase, around the United Kingdom, France and Canada, rarely hold a line at any hour, so they are the ones to leave until later.",
+        "The corollary matters for the rest of the day: doing the topiaries at opening means you are not doing a ride at opening, so pick your park day accordingly. This festival is worth an early arrival on a day when the rides are the second priority."
+      ]
+    },
+    {
+      "heading": "Book the dates against spring break, not against the festival",
+      "body": [
+        "This festival runs for roughly a hundred days and the quality of the experience varies more across that window than at any other EPCOT event, because the crowd calendar underneath it swings from the year's quietest weeks to its busiest.",
+        "The opening two weeks in late February and early March are the best window of the whole run by a clear margin. The full kitchen lineup and the full topiary installation are in place from the opening day, the weather is at its best, and the first spring break districts have not yet broken.",
+        "The two weeks around Easter are the worst, and the fortnight either side of them is not much better. American school districts stagger their spring breaks across March and April, which means the middle of this festival runs busy continuously rather than in identifiable spikes.",
+        "The late window in June and early July trades crowds for heat. It is less busy than Easter but the weather has turned, and an outdoor festival in Central Florida in late June is a morning activity that ends at noon."
+      ]
+    },
+    {
+      "heading": "Order the filling plates, because this is where the value is",
+      "body": [
+        "Flower & Garden is the cheapest of the four EPCOT festivals per plate and the lightest per plate, which means the strategy is the reverse of the Arts festival's: order the substantial items and skip the garnish-sized ones.",
+        "Northern Bloom and Florida Fresh carry the heaviest savory plates most years, and both sit at the point in the loop where a group is still hungry. Bauernmarkt's potato pancakes are the best filling item at the bottom of the band.",
+        "Split the desserts and do not split the savory. The sweet items here are large enough to share four ways and the savory items are not, which is the opposite of the autumn festival and catches out repeat visitors.",
+        "One line per kitchen regardless of order size, so send one person to queue with the whole group's order rather than splitting up. On an April Saturday that single habit saves an hour across a loop."
+      ]
+    },
+    {
+      "heading": "The family content closes early, so front-load it",
+      "body": [
+        "The play gardens and the butterfly house are the reason to prefer this festival with children, and both shut before the park does. A family that arrives at 16:00 gets the food and the concert and misses the half of the festival that was built for them.",
+        "The butterfly house is also a morning venue for a second reason: it is enclosed, it is in Florida, and by 14:00 in April it is hot inside. Butterflies are also more active earlier, which is what a child actually wants to see.",
+        "Buy the Spike the Bee scavenger hunt map on arrival rather than partway round. The hunt is what converts a promenade lap from a forced march into a game, and buying it at the halfway point wastes the first half.",
+        "The play gardens are also the best place at EPCOT to park half a group. One adult can hold a table with the children while the other works the kitchens, and this is the only Disney festival where that arrangement is genuinely comfortable."
+      ]
+    },
+    {
+      "heading": "Check the concert lineup before you commit an evening",
+      "body": [
+        "Garden Rocks runs several sets a night at the America Gardens Theatre, included with admission, and the lineup rotates roughly weekly. The quality range is wider here than at any other EPCOT festival concert series, so the act on your date matters more than the fact that a series exists.",
+        "The lineup leans toward nostalgia touring acts. When the pairing is strong it is the best free entertainment in the park that evening, and when it is not, the theatre is a large block of your evening spent on something you would not have chosen.",
+        "As at the other festivals, the last set of the night has the shortest queue and is the same performance. The first set draws people who have been holding seats for 45 minutes.",
+        "The dining packages exist and are worth it only if you wanted that restaurant. If you did not, take the late set and spend the difference on the outdoor kitchens."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "Outdoor kitchen lineups rotate every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive cycles — priced at the July 2026 band. Plate for plate this festival is the best value of the four, but the plates are lighter, so budget for more of them than you would at Food & Wine.",
+    "items": [
+      {
+        "name": "Frushi — fruit rolled in sweet rice with whipped cream and toasted coconut",
+        "where": "Hanami, Japan pavilion",
+        "priceUsd": 7,
+        "verdict": "The longest-running signature item at this festival and the one thing here that exists nowhere else in the Disney system. It is fruit in a sushi costume, it is genuinely refreshing in April heat, and it is the easiest sell to a skeptical child on the whole promenade."
+      },
+      {
+        "name": "Frozen Desert Violet Lemonade",
+        "where": "Pineapple Promenade",
+        "priceUsd": 6.5,
+        "verdict": "The most photographed drink at any EPCOT festival and, unusually, worth ordering rather than just photographing. It is a frozen lemonade with a floral note, it is available with or without alcohol, and the line at this stand after 14:00 in May is the longest of any beverage stop in the park."
+      },
+      {
+        "name": "Potato Pancakes with house-made apple sauce",
+        "where": "Bauernmarkt: Farmer's Market, Germany pavilion",
+        "priceUsd": 6.5,
+        "verdict": "The best filling item at the bottom of the price band anywhere in the festival. Two of these is lunch, the apple sauce is made rather than scooped from a jar, and it consistently runs a shorter line than the sweet stands either side of it."
+      },
+      {
+        "name": "Beef Tenderloin Tips with mushroom-truffle butter sauce",
+        "where": "Northern Bloom, Canada pavilion",
+        "priceUsd": 11,
+        "verdict": "The heaviest savory plate on the promenade and the one item here priced like a Food & Wine plate. It earns it if you are treating the loop as dinner and does not if you are grazing. Order it early, before the sweet items have filled everyone up."
+      },
+      {
+        "name": "Impossible Farmhouse Meatball",
+        "where": "Trowel & Trellis",
+        "priceUsd": 8,
+        "verdict": "The plant-based kitchen is a real one rather than a token, and this is the plate that converts people. It is also the most reliable option at the festival for a vegetarian in the group, which is otherwise thinly served across the promenade."
+      },
+      {
+        "name": "Shrimp and Stone-Ground Grits with Andouille Sausage",
+        "where": "Florida Fresh",
+        "priceUsd": 9.5,
+        "verdict": "The most substantial thing at the festival that is not the Canada beef, and the plate most likely to be worth its price at the top half of the band. Florida Fresh is also the kitchen closest to the front of the park, which means it fills first and empties last."
+      },
+      {
+        "name": "Honey-Mascarpone Cheesecake with honeycomb",
+        "where": "The Honey Bee-stro",
+        "priceUsd": 7,
+        "verdict": "The best dessert at the festival most years and the one honey-themed item that is not overwhelmingly sweet. This kitchen rotates its savory menu harder than most, so check the board on the day, but the cheesecake has been the constant."
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Do I need a separate ticket for the festival?",
+      "a": "No. The festival is included with EPCOT park admission, including the topiaries, the play gardens, the butterfly house and the concert series. The food, the guided garden tours, the workshops and the scavenger hunt map are the things that cost extra."
+    },
+    {
+      "q": "When in the festival should I go?",
+      "a": "The opening two weeks, in late February or early March. The full topiary installation and the full kitchen lineup are in place from the opening day, the weather is the best it will be during the run, and the first spring break districts have not broken. Everything from mid-March to late April is compromised by the crowd calendar, and the late window trades crowds for Florida summer heat."
+    },
+    {
+      "q": "Is this the best EPCOT festival for children?",
+      "a": "Yes, and it is not close. The play gardens, the butterfly house and the Spike the Bee scavenger hunt are all built for children, and no other EPCOT festival provides anything equivalent. Arrive in the morning, because the play gardens and the butterfly house close before the park does."
+    },
+    {
+      "q": "How does the food compare to Food & Wine?",
+      "a": "Cheaper per plate, lighter per plate, and fewer kitchens. Roughly two-thirds the outlet count with a menu that skews toward simple preparations rather than plating, which makes the value better and the ceiling lower. A group treating this as dinner will order more plates than they would in October and still spend less."
+    },
+    {
+      "q": "How long do the topiaries take?",
+      "a": "About an hour if you are photographing them and rather less if you are not, which surprises people who planned a day around them. They are installed across the whole park rather than only in World Showcase, they are up from park opening, and the popular figures develop photograph queues by late morning on weekends."
+    },
+    {
+      "q": "Is the Garden Rocks concert series worth planning around?",
+      "a": "Only once you have checked the act. It is included with admission and runs several sets a night, but the lineup leans toward nostalgia touring acts and the quality range is wider than at the Arts festival. Look up your date's performer before you commit the evening, and take the last set rather than the first."
+    },
+    {
+      "q": "When are the next festival's dates announced?",
+      "a": "Disney has historically confirmed this festival's dates in the autumn or early winter, a few months ahead of the late-February or early-March start. We have not verified a 2027 announcement as of July 2026, so this page states the typical window and the July 2026 price band rather than dates."
+    },
+    {
+      "q": "Can I still ride everything during the festival?",
+      "a": "It depends entirely on when in the run you go. In the opening fortnight, yes — EPCOT behaves like a low-season park and a full ride plan is achievable alongside a festival lap. Around Easter, no, and the festival crowd is a smaller factor than the spring break crowd it sits inside."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Living with the Land at EPCOT", "href": "/walt-disney-world/epcot/rides/living-with-the-land/", "site": 1 },
+    { "label": "The American Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/the-american-adventure/", "site": 1 },
+    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
+    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
+    { "label": "EPCOT dining", "href": "/walt-disney-world/epcot/dining/", "site": 1 },
+    { "label": "What to pack for a Disney trip", "href": "/guides/what-to-pack/", "site": 1 }
+  ],
+
+  "related": [
+    "epcot-food-and-wine-festival",
+    "epcot-festival-of-the-arts",
+    "epcot-festival-of-the-holidays",
+    "disney-after-hours"
+  ],
+
+  "editions": [
+    {
+      "year": 2026,
+      "status": "past",
+      "changes": [
+        "Ran the standard late-winter to early-summer window as an included-with-admission festival, spanning the whole of the spring break and Easter period as it does every cycle.",
+        "The outdoor kitchen count stayed below the autumn festival's, and per-plate pricing remained the lowest of the four EPCOT festivals."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "The 2026 cycle finished shortly before this page's verification date, so it is recorded as a past edition. We have not reproduced the 2026 kitchen roster or topiary lineup, because both are rebuilt annually and a year-old list of either would read as current and mislead.",
+        "reviewBy": "2027-01",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The festival has run every year since 1994 and has held the same window shape for many consecutive cycles: a late-February or early-March start, an early-July finish, and roughly a hundred days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The next cycle's dates, kitchen lineup and topiary installation are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and no specific date.",
+    "reviewBy": "2027-01",
+    "cycle": "annual"
+  }
+}

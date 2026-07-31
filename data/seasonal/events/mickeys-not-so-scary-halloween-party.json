@@ -1,0 +1,204 @@
+{
+  "slug": "mickeys-not-so-scary-halloween-party",
+  "name": "Mickey's Not-So-Scary Halloween Party",
+  "shortName": "Not-So-Scary",
+  "resort": "walt-disney-world",
+  "parkSlug": "magic-kingdom",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "Worth buying once, on an early-season weeknight, and only if you accept that you are paying for a parade, a fireworks show and character lines that exist on no other date — not for a night of short ride waits.",
+  "h1": "Mickey's Not-So-Scary Halloween Party: what it is and whether it's worth it",
+  "title": "Mickey's Not-So-Scary Halloween Party",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "What the Magic Kingdom Halloween party costs, which nights are worth buying, and the specific reasons to skip it entirely. No dates we cannot source.",
+
+  "typicalWindow": {
+    "startsAround": "mid-August",
+    "endsAround": "1 November",
+    "nightsTypical": 38,
+    "nightsRange": [30, 40],
+    "daysOfWeek": ["Sun", "Tue", "Wed", "Thu", "Fri"],
+    "hours": "19:00 – 00:00, with park entry from 16:00"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [119, 219],
+    "asOf": "2025 season",
+    "cheapestNights": "Early-season Sunday and Tuesday nights",
+    "priciestNights": "The last three Fridays before Halloween",
+    "notes": [
+      "Tax is additional and is not shown until the payment screen.",
+      "Annual Passholder and DVC discounts have historically appeared on select early-season nights, not across the whole calendar.",
+      "Children aged 3 to 9 pay a lower rate; under 3 enter free, which is the only genuine family discount in the product.",
+      "The band is wide because Disney prices each night individually. Two nights in the same week can differ by $60."
+    ]
+  },
+
+  "whatYouGet": [
+    "Park entry from 16:00 on a ticket sold for a 19:00 event. Three hours of ordinary Magic Kingdom time is the largest single piece of value in the purchase and the piece most first-timers waste.",
+    "Two runs of Mickey's Boo-to-You Halloween Parade on most nights, plus a party-exclusive fireworks show that is a different production from the one that runs on ordinary nights.",
+    "A castle stage show built around the Disney villains, which runs several times a night and is the easiest thing at the party to see without queuing.",
+    "Around a dozen staffed candy trails that run until the party ends, with allergy-friendly token stations at each one rather than a separate line.",
+    "Character meets that appear on no other date: the Seven Dwarfs together, Jack Skellington and Sally, and a rotating villains lineup at the castle forecourt.",
+    "The only nights of the year an adult may wear a costume into Magic Kingdom, subject to a specific and enforced rules list.",
+    "Complimentary digital downloads of the PhotoPass photos taken during the party, which is a real saving for a family that was otherwise weighing a photo package."
+  ],
+
+  "whatYouDont": [
+    "You will not walk onto Seven Dwarfs Mine Train. It holds a 30-to-50 minute standby line for most of the party because every family with a small child made the same plan, and it is the one queue at the event that behaves like a normal August afternoon.",
+    "Lightning Lane Multi Pass is not sold for party hours. If you bought it for the day, it stops being useful when the party begins, and there is no paid way to skip a party line.",
+    "The candy is bulk-bagged commercial product handed out by the fistful. It is not made on property and it is not a food event.",
+    "There is no refund and no rain check. The party runs in rain; the parade and fireworks are the first things cancelled, and those are the two things you actually bought.",
+    "You are not buying a park day. The ticket does not admit you before 16:00, and if you also want that morning at Magic Kingdom you are buying a second ticket at full price.",
+    "The quietest, best hour of the party is the last one, which starts at 23:00. A five-year-old will not be awake for the part of the night you paid the premium for.",
+    "On the late-October Fridays, attendance is capped high enough that Main Street at 21:00 looks like an ordinary summer evening. The crowd relief that justifies the price is largely absent on the nights people most want to buy."
+  ],
+
+  "verdict": {
+    "short": "Buy it once, on a late-August or early-September weeknight, and treat it as a show-and-characters evening. Buy it to clear rides, or buy it for a late-October Friday, and you have wasted the money.",
+    "worthItIf": [
+      "Halloween is genuinely the reason your family is traveling, and you are content to build the evening around a parade and a fireworks show rather than a ride count.",
+      "You want photographs with characters who are not out on any ordinary day and you will accept a 30-to-45 minute wait for the two marquee lines.",
+      "You are an adult who wants to wear a costume into Magic Kingdom. There is no other date on which that is permitted.",
+      "Your travel dates fall in the second half of August or the first two weeks of September, when the ticket sits at the bottom of the price band and the attendance cap is not being tested.",
+      "You are on a long trip where losing one Magic Kingdom evening to a ticketed event costs you nothing you had planned to do anyway."
+    ],
+    "skipIf": [
+      "Your trip is four days or fewer. The party consumes an entire evening at the resort's strongest park, and a September Wednesday at Magic Kingdom already thins out after 21:00 without a ticket.",
+      "Your only available date is one of the last three Fridays in October. Those nights price at the top of the band, the parade curb fills more than an hour before step-off, and you get the most crowded version of the event for the most money.",
+      "Your party contains anyone who cannot stay up past 22:00. The value is back-loaded into the final two hours, and leaving at 22:00 means you paid party prices for a version of the evening that a regular ticket would have delivered.",
+      "You already hold a park ticket for that date. The party is not additive — it replaces your evening rather than extending it, and you are paying twice for the same hours.",
+      "Trick-or-treating is the draw and your children are older than about ten. The candy trails are the filler between the shows, and a ten-year-old works that out inside twenty minutes.",
+      "You are hoping the party is where you finally get onto TRON Lightcycle / Run or Tiana's Bayou Adventure. Party-night waits on the newest headliners hold up better than any other ride in the park."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "The three hours before the party are the party",
+      "body": [
+        "Party tickets scan at the turnstiles from 16:00 even though the event is advertised as starting at 19:00. That gap is three hours of ordinary Magic Kingdom operation on a ticket that cost less than a peak-season day ticket, and it is where a well-run party night is won.",
+        "Spend it on the day-crowd headliners, not on the party content, because none of the party content exists yet. Seven Dwarfs Mine Train, Peter Pan's Flight, Space Mountain and Big Thunder all run standard operation through that window, and their standby lines shorten every fifteen minutes as day guests are moved toward the exit.",
+        "Collect your party wristband in the first ten minutes rather than at 18:30. Distribution points sit near the hub and at the land entrances, and the queue for a wristband at 18:30 runs fifteen to twenty minutes — a fifth of the time you have before the parade.",
+        "Do not eat dinner between 16:00 and 18:00. Quick service at Magic Kingdom is at its worst in exactly that window, and the party's candy plus an earlier table-service booking is a better-shaped evening. If you want a sit-down meal on a party night, book it for 14:00 and treat 16:00 as your arrival."
+      ]
+    },
+    {
+      "heading": "Watch the second parade, from Frontierland",
+      "body": [
+        "Boo-to-You runs twice on most nights, and the two runs are not equivalent products. The first, at roughly 21:15, draws people who have been holding curb space since 20:00. The second, near 23:00, has open curb fifteen minutes before it steps off.",
+        "Stand in Frontierland rather than on Main Street. The later run begins at the Frontierland end of the route, so you see it roughly twenty minutes earlier than the Main Street crowd, and when it passes you can walk into a Fantasyland that the entire Main Street audience is still twenty minutes away from reaching.",
+        "The Headless Horseman rides the route a few minutes ahead of the parade proper. He does not run in high wind, and his absence is the single most common omission on a party night — if you see him, the parade is on.",
+        "The corollary is the most useful thing on this page: the first parade is the best 25 minutes of the night to ride. Every ride queue in the park drains while the first run is on Main Street, and the walk-on windows on Haunted Mansion, Big Thunder and Space Mountain are at their widest between 21:15 and 21:45."
+      ]
+    },
+    {
+      "heading": "Spend your queue budget on characters, not rides",
+      "body": [
+        "Character lines are the only genuinely scarce good at this event. The rides exist on 300 other nights of the year; the Seven Dwarfs standing together, in one place, does not.",
+        "The Seven Dwarfs meet is the longest line at the party on most nights and routinely closes its queue before the event ends. Join it inside the first thirty minutes of the party or accept that you are not doing it. The same holds for Jack Skellington and Sally.",
+        "Everything else moves. The villains lineup, the rotating princesses in Halloween costume, and the smaller meets in Frontierland and Adventureland run 10 to 20 minutes for most of the night and drop further after 23:00.",
+        "For rides, the value is in the attractions with heavy daytime demand and no seasonal overlay. Space Mountain, Big Thunder Mountain Railroad and Haunted Mansion all fall into the 10-to-25 minute range from around 22:00. The new-headliner tier does not — it holds."
+      ]
+    },
+    {
+      "heading": "Choosing a night, and what each one actually costs you",
+      "body": [
+        "Price and crowd move together here, which means the cheapest nights are also the best ones. The bottom of the band sits in late August and the first half of September, and those nights draw the smallest crowds of the season by a clear margin.",
+        "Tuesday outperforms its price. Sunday nights price cheaply and then fill with Florida annual passholders who are not working the next morning; Tuesday is the genuinely quiet weeknight and it usually costs the same.",
+        "Halloween night itself is the worst-value ticket of the season. It sits at the top of the band, sells out earliest, and delivers no content that a random Tuesday does not. You are paying a premium for the date on the wristband.",
+        "If your dates are locked to the last three Fridays of October, buy early or buy a different event. Those nights sell out, and a sold-out party is a party operating at its attendance ceiling, which is the opposite of what the ticket is for."
+      ]
+    },
+    {
+      "heading": "Costumes, and the rules people get turned away for",
+      "body": [
+        "Adults may wear costumes on party nights and only on party nights, which is a real and underrated reason to buy. The rules are enforced at the bag check, not politely overlooked at the gate.",
+        "The reliable failures are masks that cover the face on anyone over about 13, anything that drags or trails on the ground, layered capes long enough to be a trip hazard, and anything that could be mistaken at a distance for a weapon. Costumes that obscure vision fail for the same reason.",
+        "Practical point that nobody mentions: Florida in late August at 19:00 is still around 88 degrees with high humidity. Full-coverage costumes are a genuinely bad idea before late October, and the guests you see cheerfully in costume in photographs are usually in November-weather photographs.",
+        "Bring a change of clothes and leave it in a locker at the front of the park if the costume is elaborate. It is a five-minute walk from the hub and it converts a miserable night into a fine one."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Do I need a separate park ticket to attend?",
+      "a": "No. The party ticket is the only ticket required, and it admits you to Magic Kingdom from 16:00 on the night of the event. What it does not do is admit you earlier — if you want that morning in the park as well, that is a second, full-price purchase, and on most trips it is not worth making."
+    },
+    {
+      "q": "Is the party genuinely less crowded than a normal night?",
+      "a": "Yes, but by less than the marketing implies, and by much less on the popular nights. Disney caps party attendance well below a normal day's headcount, so ride waits fall roughly by half against a peak August evening. On a late-October Friday, however, the cap is set high enough that Main Street and the parade route feel like an ordinary busy night."
+    },
+    {
+      "q": "Can adults wear costumes?",
+      "a": "Yes, and these are the only nights of the year Magic Kingdom permits it. The restrictions are specific and enforced at bag check: no face-obscuring masks for anyone over roughly 13, nothing that drags on the ground, nothing that restricts vision, and nothing resembling a weapon. Costumes are also checked for length and layering, so a floor-sweeping cape will be turned away."
+    },
+    {
+      "q": "What happens if it rains?",
+      "a": "The party runs and there is no refund. Disney's stated position is that the event is non-refundable and operates in inclement weather. The parade and the fireworks are the first two things cancelled in heavy rain or high wind, which means the weather can remove the two elements that justify the ticket price while the ticket remains non-refundable."
+    },
+    {
+      "q": "Does Lightning Lane work during the party?",
+      "a": "No. Lightning Lane Multi Pass is not sold for party hours, and there is no paid line-skipping product for the event. Any Multi Pass return windows you hold from a day ticket need to be used before the party begins. Plan the paid line-skipping around your other park days rather than this one."
+    },
+    {
+      "q": "When are the next season's dates announced?",
+      "a": "Disney has historically announced the Halloween party calendar in the spring and opened sales several weeks later, with Annual Passholder and DVC presales running ahead of general sale. We have not verified a 2026 announcement, which is why this page carries an expected ribbon and a typical window rather than dates. If a competitor's page is showing you specific 2026 nights, check where they say those came from."
+    },
+    {
+      "q": "Is it worth it with a toddler?",
+      "a": "Usually not, and the reason is the timing rather than the content. The party's best material — the second parade, the emptied ride queues, the short character lines — all sits after 22:00, and a two- or three-year-old will be asleep or unhappy well before then. Buy it when the youngest member of the group is old enough to make it to midnight."
+    },
+    {
+      "q": "How does it compare to the Christmas party at the same park?",
+      "a": "The Halloween party is the better event and the Christmas party is the better night in the park. Not-So-Scary has the stronger parade, a wider costume and character offer, and a much wider price band, so a cheap night is genuinely cheap. Mickey's Very Merry Christmas Party has a narrower price floor and a shorter season, but the park itself is dressed more thoroughly."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Seven Dwarfs Mine Train at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/", "site": 1 },
+    { "label": "Haunted Mansion at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/haunted-mansion/", "site": 1 },
+    { "label": "Space Mountain at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/space-mountain/", "site": 1 },
+    { "label": "Magic Kingdom height requirements chart", "href": "/walt-disney-world/magic-kingdom/height-requirements/", "site": 1 },
+    { "label": "Is it scary? A ride-by-ride guide", "href": "/guides/is-it-scary/", "site": 1 },
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 }
+  ],
+
+  "related": [
+    "mickeys-very-merry-christmas-party",
+    "disney-jollywood-nights",
+    "disney-after-hours",
+    "epcot-food-and-wine-festival"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "nights": 38,
+      "priceRangeUsd": [119, 219],
+      "changes": [
+        "Ran across roughly 38 nights from mid-August to Halloween, the widest calendar the event has held.",
+        "The Rivers of America closed permanently in July 2025 for Magic Kingdom's expansion work, which removed the waterfront staging the party had used for its riverside musical act.",
+        "Per-night pricing continued to spread, with the gap between the cheapest August night and the most expensive late-October night reaching roughly $100 before tax."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 season figures, stated as 2025 figures. Prices are the published pre-tax per-night band for that cycle; we have not re-verified them against a 2026 calendar because no 2026 calendar has been confirmed to us.",
+        "reviewBy": "2026-10",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run on the same shape of calendar for more than a decade: mid-August through Halloween, 30 to 40 nights, Sundays and midweek. That pattern is strong enough to plan around. The 2026 dates and 2026 pricing are not confirmed to us as of July 2026, so everything on this page is stated as a window or a prior-cycle range, never as a date.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}

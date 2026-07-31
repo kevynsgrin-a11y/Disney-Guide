@@ -1,0 +1,195 @@
+{
+  "slug": "lunar-new-year-at-disney-california-adventure",
+  "name": "Lunar New Year at Disney California Adventure",
+  "shortName": "Lunar New Year",
+  "resort": "disneyland",
+  "parkSlug": "california-adventure",
+  "category": "festival",
+  "season": "lunar-new-year",
+  "summary": "Along with the spring Food & Wine Festival, this is one of the two quietest good windows at either Disney resort: a real food festival included with admission, running through the deadest stretch of the Disneyland Resort calendar, with headliner waits at their annual low and a genuine chance of walking on to Radiator Springs Racers before noon.",
+  "h1": "Lunar New Year at Disney California Adventure: the quietest good week of the year",
+  "title": "Lunar New Year at Disney California Adventure",
+  "titleTail": ": Food, Dates & Verdict",
+  "description": "A food festival included with admission in the emptiest month at Disneyland Resort — the marketplaces, per-item prices, and the weekday to book.",
+
+  "typicalWindow": {
+    "startsAround": "mid-January",
+    "endsAround": "mid-February",
+    "nightsTypical": 30,
+    "nightsRange": [25, 35],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Every operating day in the window. Marketplaces open late morning and close before the park does, and the procession runs a handful of times a day rather than continuously."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [6, 15],
+    "asOf": "July 2026",
+    "cheapestNights": "Tuesday, Wednesday, and Thursday dates across the whole window, which are also the emptiest days of the Disneyland Resort year",
+    "priciestNights": "Saturdays, and the Presidents' Day weekend at the end of the window, which is one of the few genuinely busy weekends in the first quarter",
+    "notes": [
+      "The festival is included with any regular admission to Disney California Adventure. There is no festival ticket.",
+      "The range above is the per-item marketplace price, which is the only spend the festival adds to a normal park day.",
+      "A coupon booklet covering a fixed number of items is usually sold during the festival. It only pays off if you commit to the full count.",
+      "Nothing about this festival appears at Disneyland Park, so a Disneyland Park ticket does not get you into it.",
+      "What else costs extra: Lightning Lane Multi Pass ran $30 to $45 per person per day at Disneyland Resort as of July 2026, though this is the one window of the year where most visitors do not need it."
+    ]
+  },
+
+  "whatYouGet": [
+    "A cluster of marketplaces in Paradise Gardens Park serving Chinese, Vietnamese, and Korean dishes, priced per item rather than as meals, so you can graze across all of them in an afternoon.",
+    "Mulan's Lunar New Year Procession, which runs a handful of times a day through Paradise Gardens Park with drummers, dancers, and Mulan and Mushu, and is the festival's centerpiece.",
+    "A short projection piece on Paradise Bay in the evening, staged on the same platform as the park's larger water show.",
+    "Character appearances in Lunar New Year attire, which is the only time of year several of them wear it.",
+    "A wishing wall where you write a wish on a card and hang it, plus craft and calligraphy stations that are free and genuinely popular with younger children.",
+    "The lowest crowd levels Disney California Adventure sees all year, which is the part that does not appear in any of the festival marketing.",
+    "A stamp card or festival passport in most cycles, which is the cheapest souvenir on the property when it is offered."
+  ],
+
+  "whatYouDont": [
+    "A large festival. This is the smallest of the three that Disney California Adventure runs - roughly six marketplaces in one corner of one park, not a park-wide event. Anyone arriving with EPCOT's festivals as the mental model will find it thin.",
+    "Anything at Disneyland Park. The festival is entirely inside Disney California Adventure and there is no holiday-style spillover across the esplanade.",
+    "Reliable weather. Mid-January to mid-February is the wettest stretch of the Southern California year, and a rained-out afternoon takes the procession and the outdoor entertainment with it.",
+    "A full ride roster. Disney does its heaviest refurbishment work in January and February, which means the same quiet weeks that make this window attractive routinely have two or three attractions behind walls.",
+    "A reason to fly across the country. This is an excellent addition to a January trip and a thin justification for one, and saying otherwise would be dishonest about a festival you can walk through in 40 minutes.",
+    "Value if you will not spend on food. Strip out the marketplaces and what remains is a decorated corner of one park with a short procession in it."
+  ],
+
+  "verdict": {
+    "short": "One of the two best-value windows at Disneyland Resort: a real food festival included with admission, in the emptiest month of the year. Go midweek and check the refurbishment list first.",
+    "worthItIf": [
+      "You want the shortest waits Disney California Adventure ever posts and are happy to spend an afternoon eating rather than queueing.",
+      "You are local or regional and can pick a Tuesday, Wednesday, or Thursday.",
+      "You prefer several small plates to one sit-down meal, which is a better use of $40 than most table service in this park.",
+      "You have been to Disney California Adventure before and want a reason to go back that is not a new attraction.",
+      "You are combining it with a Disneyland Park day and want the second park to be the relaxed half of the trip."
+    ],
+    "skipIf": [
+      "This is your only Disney trip and you are bringing children who want parades, fireworks, and characters at scale. January is the resort's thinnest entertainment month outside the festival itself.",
+      "You need every headliner running. Refurbishment season overlaps this window precisely, and the two facts are related.",
+      "You will not eat at the marketplaces, whether from budget, diet, or preference. The food is the festival.",
+      "Your dates land on the Presidents' Day weekend at the end of the window, which erases the crowd advantage that is the main reason to come.",
+      "You are looking for a large-scale Lunar New Year celebration in Southern California. Anaheim and the surrounding San Gabriel Valley run bigger ones, for free."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Go on a Tuesday, a Wednesday, or a Thursday",
+      "body": [
+        "The gap between a January weekday and a January Saturday at Disney California Adventure is larger than at any other point in the year, and it is the single highest-leverage decision on this page. A midweek day in this window can put every headliner in the park under 40 minutes; the Saturday of the same week can double all of them.",
+        "The mechanism is worth understanding because it explains the whole Disneyland Resort crowd calendar. The weekend crowd here is overwhelmingly local annual pass holders on a day trip, and Magic Key blockout patterns decide how many of them show up. When the lower Key tiers are unblocked in January, Saturdays fill and weekdays stay empty regardless.",
+        "If a weekend is unavoidable, take Sunday over Saturday. The local day-trip crowd skews heavily to Saturday, and Sunday afternoon in particular thins out earlier than any other weekend afternoon at this resort.",
+        "One more piece of the same logic: the festival runs for about a month, so there is no scarcity pressure on any individual date. Unlike a hard-ticket event, there is nothing to book and nothing to sell out, which means you should be choosing purely on the crowd calendar."
+      ]
+    },
+    {
+      "heading": "How to eat the festival without wasting money",
+      "body": [
+        "Order small plates from four or five different marketplaces and share every one of them. Items ran $6 to $15 as of July 2026 and portions are appetizer-sized, so two adults sharing five plates get a full lunch for roughly the price of one mediocre quick-service meal each.",
+        "The non-obvious operational detail: mobile ordering is available at some marketplaces and not others, and the ones that take it visibly move faster. Open the app and check before you commit to a physical line, because the two lines for adjacent stalls can differ by 15 minutes for no reason a queueing guest can see.",
+        "The coupon booklet only makes sense if you are buying eight or more items, and a couple sharing plates almost never gets there. Count first, buy second.",
+        "Eat between eleven and half past twelve, or after two. The marketplaces jam in the middle of that gap, which is also exactly when the ride waits dip for lunch. Running the opposite pattern to everyone else gets you both a short food line and a short ride line, on the same afternoon.",
+        "Seating is the constraint nobody plans for. Paradise Gardens Park has limited tables and they fill by noon. The reliable move is to take the food to the walkway seating along Paradise Bay, which is 200 feet away and always has space."
+      ]
+    },
+    {
+      "heading": "The rest of the park is at its annual low, and that is the real prize",
+      "body": [
+        "The festival is a good reason to visit, but the reason to visit in this specific window is what the rest of the park is doing while it runs. Radiator Springs Racers, which posts 60 to 90 minute standby waits for most of the year, routinely sits under 40 minutes on a January weekday, and several attractions in the park run close to walk-on.",
+        "The pattern that gets the most out of it: headliners from opening until about eleven, the festival from eleven to two, then a second lap of the rides from four onwards when the day-trip crowd starts leaving. Most visitors do the reverse and spend the emptiest hours of the day queueing for food.",
+        "This is also the one window of the year where paying for Lightning Lane at this resort is genuinely optional. On a quiet January weekday the standby waits are close to what the paid queue delivers in July, and the money is better spent on the marketplaces.",
+        "Check the refurbishment list before you book. January and February are when Disney takes things apart, and the same quiet that makes this window attractive is precisely why the maintenance is scheduled then. A trip planned around one specific attraction is the wrong trip for this month."
+      ]
+    },
+    {
+      "heading": "The entertainment is small, and worth timing rather than chasing",
+      "body": [
+        "Mulan's Lunar New Year Procession is the thing to build an afternoon around, and it runs only a handful of times a day for a few minutes each time. Get the times when you enter the park rather than assuming you will stumble into it.",
+        "Stand at the far end of Paradise Gardens Park rather than in the middle. The crowd stacks near the marketplaces, because that is where people already are, and the far end of the route gives you the same procession with room to see it.",
+        "The evening projection piece on Paradise Bay is short and it is not the park's main water show. Treat it as a five-minute stop rather than something to hold a viewing spot for, and do not skip a ride queue for it.",
+        "The craft and calligraphy stations are the most underrated part of the festival for anyone visiting with children under about ten. They are free, they are staffed, they involve sitting down, and they are the reason a family can spend four hours in one corner of the park without anyone melting down."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "The marketplaces run out of Paradise Gardens Park and their menus change every year, with the list published a few weeks before the festival opens. The items below come from the most recently documented cycle and are here to show the format, the marketplaces, and the price band rather than as a menu to plan around. Items ran $6 to $15 each as of July 2026, and the marketplaces cover Chinese, Vietnamese, and Korean dishes.",
+    "items": [
+      { "name": "Longevity Noodles with Chicken", "where": "Longevity Noodle Co.", "priceUsd": 11.5, "verdict": "The signature plate of the festival and the one to order if you order only one. Garlic-heavy, generous for the price band, and the easiest thing here to split three ways." },
+      { "name": "Cha Siu Pork Bao", "where": "Prosperity Bao & Buns", "priceUsd": 9.75, "verdict": "Two buns, consistently good, and usually the fastest-moving line in the festival. The default order for anyone who does not want to think about it." },
+      { "name": "Beef Bulgogi Bao", "where": "Prosperity Bao & Buns", "priceUsd": 10.5, "verdict": "Better than the pork if you like heat, and the item most likely to sell out late in the day at a busy marketplace." },
+      { "name": "Vegetable Spring Rolls", "where": "Bamboo Blessings", "priceUsd": 8.5, "verdict": "The safest order for a table with a vegetarian at it, and small enough that it works as a second or third plate rather than a first." },
+      { "name": "Spicy Chicken with Rice", "where": "Red Dragon Spice Traders", "priceUsd": 12.0, "verdict": "The most genuinely spicy thing at the festival, which at a theme park is worth saying. Order it if the rest of your plates have been mild." },
+      { "name": "Seasonal Churro", "where": "Churro cart, Paradise Gardens Park", "priceUsd": 7.0, "verdict": "The festival flavor changes annually and it is the cheapest way to try something seasonal. Fine, never remarkable, and the item most likely to be the thing a child actually eats." },
+      { "name": "Milk Tea", "where": "Lucky 8 Lantern", "priceUsd": 8.0, "verdict": "Ordinary boba at theme-park prices, but it is a hot drink in the one month of the year when Anaheim is cold enough to want one." }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Is Lunar New Year at Disney California Adventure included with admission?",
+      "a": "Yes. Entry to the festival, the procession, the entertainment, the wishing wall, and the craft stations all come with an ordinary Disney California Adventure ticket. The only cost is the food, which ran $6 to $15 per item as of July 2026. There is no festival ticket and nothing about the festival is at Disneyland Park."
+    },
+    {
+      "q": "When does the Lunar New Year festival run at Disneyland Resort?",
+      "a": "Roughly mid-January to mid-February, for about a month. Disney sets the window rather than aligning it exactly to the lunar calendar, so it does not move as much year to year as the holiday itself does. As of July 2026 we have not verified an announcement of the coming cycle's dates, so none are stated here."
+    },
+    {
+      "q": "Is it worth planning a trip around?",
+      "a": "Not on its own, but the window absolutely is. The festival is the smallest of the three Disney California Adventure runs and you can see all of it in under an hour. What makes these weeks worth booking is that they are the quietest of the Disneyland Resort year, which means the festival is the reason to pick the park and the crowd calendar is the reason to pick the dates."
+    },
+    {
+      "q": "What is the best day of the week to go?",
+      "a": "Tuesday, Wednesday, or Thursday, without much competition. This resort's crowd is driven by local annual pass holders on day trips, which weights it heavily toward the weekend, and the gap between a January weekday and a January Saturday here is larger than at any other point in the year. If you must do a weekend, take Sunday."
+    },
+    {
+      "q": "How much should I budget for the food?",
+      "a": "About $40 per adult for a full afternoon of grazing, based on items at $6 to $15 as of July 2026 and five or six plates shared between two people. Drinks push it up fast. The coupon booklet sold during the festival only pays for itself at eight or more items, which most couples sharing plates never reach."
+    },
+    {
+      "q": "Will rides be closed during the festival?",
+      "a": "Probably some, and this is the honest downside of the window. Disney schedules its heaviest refurbishment work for January and February precisely because the parks are empty then, so a quiet trip and a full ride roster are hard to get in the same week. Check the closure list before you book if there is a specific attraction you are going for."
+    },
+    {
+      "q": "What is the difference between this festival and the Food & Wine Festival?",
+      "a": "Scale, season, and menu. Lunar New Year runs about a month in one corner of the park with roughly six marketplaces and an East Asian menu; Food & Wine runs about two months with more than a dozen marketplaces spread across the whole park and a California produce theme. Both are included with admission and both sit in genuinely quiet weeks."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Paradise Gardens Park", "href": "/disneyland/california-adventure/lands/paradise-gardens-park/", "site": 1 },
+    { "label": "Paradise Garden Grill", "href": "/disneyland/california-adventure/dining/paradise-garden-grill/", "site": 1 },
+    { "label": "Radiator Springs Racers", "href": "/disneyland/california-adventure/rides/radiator-springs-racers/", "site": 1 },
+    { "label": "World of Color", "href": "/disneyland/california-adventure/rides/world-of-color/", "site": 1 },
+    { "label": "Best snacks at Disney California Adventure", "href": "/disneyland/california-adventure/best-snacks/", "site": 1 }
+  ],
+  "related": ["disney-california-adventure-food-and-wine-festival", "holidays-at-the-disneyland-resort"],
+
+  "editions": [
+    {
+      "year": 2026,
+      "status": "past",
+      "changes": [
+        "The festival ran its usual window in Paradise Gardens Park with the established marketplace format and Mulan's Lunar New Year Procession.",
+        "Marketplace pricing stayed inside the $6 to $15 band that has held across recent cycles at this park.",
+        "The festival again ran entirely within Disney California Adventure, with no Disneyland Park component."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2026 cycle. The festival ran its usual mid-January to mid-February window at Disney California Adventure. We have not re-verified the 2026 marketplace roster or menu item by item against a primary source, which is why the food list on this page is labeled as illustrative of the format rather than presented as a current menu.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The festival has run in Paradise Gardens Park at Disney California Adventure every January and February since 2019, apart from the 2021 park closure, using the same small-marketplace format and the same procession. As of July 2026 we have not verified an announcement of the coming cycle's dates or its marketplace menu, so neither is stated here and the food list is labeled to the cycle it came from.",
+    "reviewBy": "2026-12",
+    "cycle": "annual"
+  }
+}

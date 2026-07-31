@@ -1,0 +1,279 @@
+{
+  "slug": "magic-kingdom-vs-disneyland-park",
+  "title": "Magic Kingdom vs Disneyland Park: A Ride-by-Ride Verdict",
+  "h1": "Magic Kingdom vs Disneyland Park",
+  "metaDescription": "The two castle parks compared ride by ride — Pirates, Haunted Mansion, Space Mountain, Big Thunder, Matterhorn, Indiana Jones — with a verdict on which one is better.",
+  "summary": "Disneyland Park is the better theme park; Magic Kingdom is the better version of a few specific rides and the better park for a four-year-old. This is the closest comparison on the site, and it turns on about eight attractions.",
+  "readingTimeMinutes": 13,
+  "contenders": [
+    { "key": "magic-kingdom", "name": "Magic Kingdom", "subtitle": "Walt Disney World, Florida" },
+    { "key": "disneyland-park", "name": "Disneyland Park", "subtitle": "Disneyland Resort, California" }
+  ],
+  "verdict": {
+    "short": "Disneyland Park wins on ride roster, ride quality, and walking time. Magic Kingdom wins on scale, shows, crowd breathing room, and the under-six experience.",
+    "body": [
+      "Disneyland Park operates about 55 attractions on 85 acres. Magic Kingdom operates about 44 on 107. That gap is the story: Disneyland gives you more to ride, closer together, and it includes an entire Star Wars land plus Indiana Jones Adventure and Matterhorn Bobsleds, none of which Magic Kingdom has in any form.",
+      "It also wins the two comparisons people care most about. Disneyland's Pirates of the Caribbean runs roughly twice as long as the Florida version, with two drops instead of one and a restaurant built into the first scene. Disneyland's Space Mountain is a smoother, better-designed coaster with synchronized onboard audio, and its 40-inch requirement lets in shorter kids than Magic Kingdom's 44.",
+      "Magic Kingdom's case is real, though, and it is not just size. Its Haunted Mansion has the best queue Disney has ever built. Its Fantasyland is larger and better organized, with Seven Dwarfs Mine Train, Under the Sea: Journey of The Little Mermaid, and Enchanted Tales with Belle. It has the Tomorrowland Transit Authority PeopleMover and Walt Disney's Carousel of Progress, two of the most pleasant ways to sit down in any Disney park. And it has TRON Lightcycle / Run, the fastest coaster either resort operates.",
+      "The tiebreaker is what your day feels like. At Magic Kingdom you walk a lot and ride a moderate amount. At Disneyland you walk a little and ride constantly. If you are counting rides, Disneyland. If you are managing a stroller, a nap schedule, and a two-parade day, Magic Kingdom."
+    ]
+  },
+  "intro": [
+    "These are the same park, twice, built eighteen years apart on wildly different budgets and lot sizes. The hub-and-spoke layout is identical. Main Street, U.S.A. runs to a castle; Adventureland, Frontierland, Fantasyland, and Tomorrowland fan out from the hub. Roughly a dozen attractions exist at both under the same names.",
+    "That similarity is exactly what makes the comparison hard, and why most of the internet's answers are useless. \"Magic Kingdom is bigger\" and \"Disneyland is the original\" are both true and neither helps you choose. What actually differentiates them is a short list of attractions that exist at one park and not the other, plus a handful of shared rides where the two versions are genuinely different experiences.",
+    "This page goes through those attraction by attraction, then names a winner. As of July 2026, Magic Kingdom's Rivers of America, Liberty Belle Riverboat, and Tom Sawyer Island are permanently closed for the Piston Peak and Villains Land projects — Disneyland's river is fully intact, and that gap matters more than people expect."
+  ],
+  "dimensions": [
+    {
+      "name": "Attraction count",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "About 44 operating attractions across 107 acres, counting shows, parades, and transportation. The count dropped when the Rivers of America attractions closed in 2025.",
+        "disneyland-park": "About 55 operating attractions across 85 acres — the highest density of any Disney park in America, and it is not close."
+      },
+      "note": "Density is why a Disneyland day feels productive. Fewer steps between rides compounds over twelve hours."
+    },
+    {
+      "name": "Pirates of the Caribbean",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "About eight and a half minutes, one drop, entirely indoors, entered through a Spanish fortress. Tighter and more efficient, with a strong opening dungeon sequence.",
+        "disneyland-park": "The original, roughly twice as long, with two drops, an outdoor bayou float past the Blue Bayou dining room, and a much longer buildup before the pirate town. The better ride by a wide margin."
+      },
+      "note": "Sit on the left in Disneyland's boats for the best view of the Blue Bayou and the burning-town scene."
+    },
+    {
+      "name": "Haunted Mansion",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "Dutch Gothic manor in Liberty Square, and an interactive outdoor queue that is the best queue in either park — crypts you can play with, a musician's tomb that responds to touch. The stretching room ceiling rises rather than the floor dropping.",
+        "disneyland-park": "Antebellum manor in New Orleans Square, better placed and better looking from the outside. The stretching room is a real elevator taking you below the railroad berm. Slightly shorter ride, no interactive queue."
+      },
+      "note": "Ride content is close to identical and both have the Hatbox Ghost. Magic Kingdom wins on the queue; Disneyland wins on setting."
+    },
+    {
+      "name": "Space Mountain",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "Two separate tracks, Alpha and Omega, with single-file seating. Rougher, jerkier, darker, and genuinely disorienting. 44 inches.",
+        "disneyland-park": "One smoother track, two-across seating, and a synchronized onboard soundtrack that turns it into a completely different ride. 40 inches, so more of the family gets on."
+      },
+      "note": "Magic Kingdom's version is the more intense one, largely by accident. Disneyland's is better engineered and better scored."
+    },
+    {
+      "name": "Big Thunder Mountain Railroad",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "Reopened May 3, 2026 with the height requirement reduced to 38 inches, the lowest of any Big Thunder. Longer layout, and the reduced stick means younger kids ride with the family.",
+        "disneyland-park": "40 inches, a tighter and arguably better-paced layout, with a strong explosion set piece in the final lift and the Rainbow Ridge miniature town at the entrance."
+      },
+      "note": "The rides are close. Magic Kingdom takes it on accessibility: two extra inches of clearance changes which families can ride together."
+    },
+    {
+      "name": "The mountain that has no counterpart",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "Seven Dwarfs Mine Train, 38 inches — smooth, gorgeous, with swinging ore cars and a beautifully lit mine interior. It is also barely two minutes long and carries the worst wait-to-length ratio in the park.",
+        "disneyland-park": "Matterhorn Bobsleds, 42 inches — rough, loud, historically important, with an abominable snowman and the only ride vehicles in Disney that will bruise you. Longer and more memorable, if less comfortable."
+      },
+      "note": "Seven Dwarfs is the better-built ride. Matterhorn is the better story to tell afterwards. Ride Matterhorn on the Tomorrowland side track for the slightly wilder layout."
+    },
+    {
+      "name": "Best dark ride",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "Peter Pan's Flight, plus The Many Adventures of Winnie the Pooh and Under the Sea: Journey of The Little Mermaid. Solid, family-safe, and short on variety.",
+        "disneyland-park": "Indiana Jones Adventure (46 inches), which has no Magic Kingdom equivalent at all — a full-scale enhanced motion vehicle dark ride that is still one of the best things Disney has ever built. Behind it: Mr. Toad's Wild Ride, Alice in Wonderland, Pinocchio's Daring Journey, and Snow White's Enchanted Wish."
+      },
+      "note": "This is the most lopsided row on the page. Disneyland's dark-ride bench is roughly twice as deep."
+    },
+    {
+      "name": "Star Wars",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "None. There is no Star Wars presence in Magic Kingdom in any form — it lives at Hollywood Studios, a separate park and a separate ticket.",
+        "disneyland-park": "A full Star Wars: Galaxy's Edge with Rise of the Resistance (40 inches) and Millennium Falcon: Smugglers Run (40 inches), plus Star Tours in Tomorrowland."
+      },
+      "note": "If Star Wars matters to anyone in your group, this row alone can decide the trip."
+    },
+    {
+      "name": "The river",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "Closed. Rivers of America, the Liberty Belle Riverboat, and Tom Sawyer Island shut permanently in 2025 to make room for Piston Peak National Park and Villains Land. Frontierland is noticeably thinner as a result.",
+        "disneyland-park": "Fully operating: the Mark Twain Riverboat, the Sailing Ship Columbia, Davy Crockett's Explorer Canoes, and Pirate's Lair on Tom Sawyer Island, which remains the best free place in either park to let kids run."
+      },
+      "note": "Tom Sawyer Island is the most underrated hour in Disneyland Park, especially with kids aged six to eleven who need to burn energy."
+    },
+    {
+      "name": "Nighttime entertainment",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "A large-scale fireworks and projection show on Cinderella Castle, which at 189 feet is a far better projection surface than Sleeping Beauty Castle, plus much more viewing space on Main Street and the hub lawns.",
+        "disneyland-park": "Fireworks over a 77-foot castle plus Fantasmic! on the Rivers of America, which Magic Kingdom no longer has an equivalent of. Two shows, but brutal sightline competition and far less standing room."
+      },
+      "note": "Magic Kingdom's show is bigger and easier to watch. Disneyland has more nighttime entertainment but makes you fight for it."
+    },
+    {
+      "name": "Tomorrowland",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "TRON Lightcycle / Run (48 inches, the fastest coaster at either resort), the Tomorrowland Transit Authority PeopleMover, Walt Disney's Carousel of Progress, Monsters, Inc. Laugh Floor, Buzz Lightyear's Space Ranger Spin, and Tomorrowland Speedway.",
+        "disneyland-park": "Space Mountain, Star Tours, Buzz Lightyear Astro Blasters, Finding Nemo Submarine Voyage, Autopia, and Astro Orbitor. The Submarine Voyage is genuinely charming; the land as a whole is the weakest in the park."
+      },
+      "note": "The PeopleMover alone nearly settles this row. It is a free, ten-minute, air-conditioned tour with no wait and it is the best place in Magic Kingdom to rest."
+    },
+    {
+      "name": "Crowd comfort",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "Wide walkways, generous hub space, and enough acreage that a busy day still has quiet stretches in Liberty Square and Adventureland. Strollers work.",
+        "disneyland-park": "Compact by design, which is wonderful for walking and miserable at 3 PM on a Saturday. Fantasyland and the Main Street exit at fireworks time are genuine crush points."
+      },
+      "note": "Disneyland Resort's crowds are driven by local passholders, so a Tuesday in Anaheim feels dramatically different from a Saturday. Magic Kingdom's baseline is steadier."
+    }
+  ],
+  "ranking": null,
+  "sections": [
+    {
+      "id": "exclusive-lists",
+      "heading": "What each park has that the other does not",
+      "body": [
+        "The shared list is long — Jungle Cruise, Pirates, Haunted Mansion, Big Thunder, Space Mountain, it's a small world, Peter Pan's Flight, Dumbo, Mad Tea Party, Astro Orbiter, Winnie the Pooh, the Enchanted Tiki Room, Tiana's Bayou Adventure, and a railroad all appear at both. So the decision comes down to the exclusives.",
+        "Read these two columns as the actual difference between your two trips."
+      ],
+      "table": {
+        "columns": ["Only at Magic Kingdom", "Only at Disneyland Park"],
+        "rows": [
+          ["TRON Lightcycle / Run (48in)", "Indiana Jones Adventure (46in)"],
+          ["Seven Dwarfs Mine Train (38in)", "Matterhorn Bobsleds (42in)"],
+          ["Under the Sea: Journey of The Little Mermaid", "Star Wars: Rise of the Resistance (40in)"],
+          ["Tomorrowland Transit Authority PeopleMover", "Millennium Falcon: Smugglers Run (40in)"],
+          ["Walt Disney's Carousel of Progress", "Mickey & Minnie's Runaway Railway"],
+          ["The Hall of Presidents", "Mr. Toad's Wild Ride, Alice in Wonderland, Pinocchio's Daring Journey"],
+          ["Monsters, Inc. Laugh Floor", "Snow White's Enchanted Wish, Storybook Land Canal Boats, Casey Jr. Circus Train"],
+          ["Mickey's PhilharMagic, Enchanted Tales with Belle", "Finding Nemo Submarine Voyage, Roger Rabbit's Car Toon Spin"],
+          ["The Barnstormer (35in), Tomorrowland Speedway (32in)", "Mickey's Toontown, Gadget's Go Coaster (35in), Autopia (32in)"],
+          ["Swiss Family Treehouse, The Magic Carpets of Aladdin", "Fantasmic!, Mark Twain Riverboat, Sailing Ship Columbia, Tom Sawyer Island"]
+        ]
+      }
+    },
+    {
+      "id": "shared-rides-different",
+      "heading": "Same name, different ride",
+      "body": [
+        "Six shared attractions differ enough that riding one is not the same as riding the other. If you have done a version at one park, here is what changes at the other.",
+        "**Jungle Cruise.** Nearly identical scripts and identical skipper-dependent quality, but Disneyland's is shorter and its queue is far worse — a narrow switchback with poor shade. Magic Kingdom's covered queue is a legitimate advantage in Florida heat. Ride either one at night, when the lighting does more work.",
+        "**it's a small world.** Disneyland's is dramatically better: a longer layout, an exterior facade with a working clock, and the boats travel outdoors before entering. Magic Kingdom's is entirely indoors and about half the show. This is the biggest quality gap among the shared rides after Pirates.",
+        "**Peter Pan's Flight.** Disneyland's is older and shorter; Magic Kingdom's got a queue overhaul and has slightly more show. Both have absurd waits for a three-minute ride. Ride it at rope drop or in the last hour, never in between.",
+        "**Tiana's Bayou Adventure.** Both are 40 inches and both replaced the same predecessor. The layouts differ in the lead-up but the drop and the finale are equivalent. Sit in the back for a wetter ride at either park; sit in the front row if you want to see the animatronics without the person ahead of you blocking the sightline.",
+        "**The railroad.** Disneyland's is the far better version — a full circuit with the Grand Canyon and Primeval World dioramas, which have no Florida counterpart. Magic Kingdom's Walt Disney World Railroad is a pleasant way to skip a walk and little more.",
+        "**The treehouse.** Magic Kingdom's is the Swiss Family Treehouse; Disneyland's is the Adventureland Treehouse. Both are stair climbs with no ride and no line. Both are worth ten minutes exactly once."
+      ]
+    },
+    {
+      "id": "with-kids",
+      "heading": "Which castle park is better for small children",
+      "body": [
+        "Magic Kingdom, narrowly, and for reasons that have nothing to do with ride count.",
+        "Both parks are excellent for a child under 40 inches — Disneyland actually operates more attractions with no height requirement at all. But Magic Kingdom's Fantasyland is bigger and better laid out, with Storybook Circus giving you Dumbo, The Barnstormer (35 inches), Casey Jr. Splash 'N' Soak Station for cooling off, and a large indoor Dumbo queue with a play area and a pager system so nobody stands in a line. Disneyland has no equivalent to that queue.",
+        "Magic Kingdom also runs two parades a day, has more air-conditioned sit-down shows to disappear into when a toddler is overheating, and has walkways wide enough for a double stroller at 2 PM. The Baby Care Center behind Casey's Corner is one of the best facilities either resort operates.",
+        "Disneyland's counterargument is logistics, and it is a strong one. Mickey's Toontown was rebuilt in 2023 specifically as a toddler space, with CenTOONial Park, a splash area, and low-stimulation walkthroughs. And critically, your hotel is a fifteen-minute walk away, so a midday nap costs you almost nothing. At Magic Kingdom the same nap costs two hours unless you are staying on the monorail loop.",
+        "The split, then: Magic Kingdom has the better in-park toddler day; Disneyland Park has the better toddler trip."
+      ],
+      "callout": {
+        "type": "tip",
+        "body": "Magic Kingdom's Dumbo queue is indoors, air conditioned, and contains a full play structure — you take a pager and let kids run until your turn. Repeat visitors still queue outside for it out of habit. Ask for the play-area entrance."
+      }
+    },
+    {
+      "id": "day-plans",
+      "heading": "How a day actually runs at each",
+      "body": [
+        "The parks reward opposite strategies, and running a Disneyland plan at Magic Kingdom is a good way to waste a morning.",
+        "At Magic Kingdom, the day is about covering distance efficiently. Rope drop Seven Dwarfs Mine Train or TRON — whichever your group's heights allow — then sweep counterclockwise so you are in Adventureland and Frontierland before 11 AM. Take the middle of the day indoors: the PeopleMover, Carousel of Progress, the Hall of Presidents, and Mickey's PhilharMagic will burn two hours in air conditioning without a real wait. Come back for the evening, when the walkways cool off and the fireworks reset the park.",
+        "At Disneyland Park, the day is about volume. Rope drop Rise of the Resistance or Indiana Jones Adventure, then simply keep moving — the walk between any two attractions is short enough that you can pick up a 15-minute dark ride between headliners without planning it. Fantasyland is the exception and should be done either in the first 45 minutes or after 8 PM, never in the afternoon.",
+        "One planning difference worth knowing: Magic Kingdom is the only Walt Disney World park where you can hold two Lightning Lane Single Passes at once, which matters if you want both TRON and Seven Dwarfs Mine Train without a long standby. Disneyland Resort's Multi Pass, starting around $34 per person per day as of July 2026, covers a smaller attraction list but a larger share of what you actually want to ride."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Magic Kingdom, first 90 minutes: Seven Dwarfs Mine Train or TRON, then Peter Pan's Flight, then Big Thunder Mountain Railroad.",
+          "Magic Kingdom, midday: PeopleMover, Carousel of Progress, Hall of Presidents, Country Bear Musical Jamboree, all with minimal waits and full air conditioning.",
+          "Magic Kingdom, evening: Haunted Mansion after dark, Pirates, then stake out fireworks 40 minutes ahead on the hub lawns rather than mid-Main Street.",
+          "Disneyland Park, first 90 minutes: Rise of the Resistance, Indiana Jones Adventure, then Matterhorn Bobsleds before the Fantasyland crush.",
+          "Disneyland Park, midday: Pirates, Haunted Mansion, the Railroad's full loop, and Tom Sawyer Island if you have kids who need to run.",
+          "Disneyland Park, evening: the Fantasyland dark rides after 8 PM, when the waits collapse, then whichever nighttime show you have not seen."
+        ]
+      }
+    },
+    {
+      "id": "honest-losses",
+      "heading": "What each park is worse at than its fans admit",
+      "body": [
+        "Magic Kingdom's Frontierland is currently the weakest land in either park. With Rivers of America, the Liberty Belle, and Tom Sawyer Island gone, it is Big Thunder Mountain Railroad, Tiana's Bayou Adventure, the Country Bear Musical Jamboree, and a shooting arcade. Piston Peak and Villains Land are meant to fill that hole later this decade, but no opening dates have been announced and any timeline you read is an estimate.",
+        "Magic Kingdom is also the weakest of the six US Disney parks for food. Seven table-service restaurants, most of them expensive and unremarkable, and a quick-service tier that is largely chicken tenders. Jungle Navigation Co. Ltd. Skipper Canteen is the honorable exception and is chronically underbooked.",
+        "Disneyland Park's problems are physical. Tomorrowland has been visually incoherent for two decades. The park has almost no shade in Frontierland or Tomorrowland at midday. Restrooms are older and there are fewer of them per guest. And the density that makes the ride count possible also means there is nowhere to go when it gets crowded — no equivalent to Magic Kingdom's hub lawns or the wide-open stretch behind the castle.",
+        "Both parks share one honest flaw: the headline attraction waits are worse than the ride lengths justify. Seven Dwarfs Mine Train runs about two minutes. Peter Pan's Flight runs about three. Neither is worth 70 minutes of standby at either park, and telling you otherwise would not be doing you a favor."
+      ]
+    }
+  ],
+  "pickThisIf": {
+    "magic-kingdom": [
+      "You are traveling with a child under six and want the widest walkways, the most shows, and two parades a day.",
+      "You want TRON Lightcycle / Run or Seven Dwarfs Mine Train, which have no California equivalent.",
+      "You want the better nighttime fireworks show and somewhere comfortable to actually watch it from.",
+      "Your group needs frequent air-conditioned breaks — the PeopleMover, Carousel of Progress, and Hall of Presidents have no real waits.",
+      "Big Thunder Mountain Railroad's 38-inch requirement means a kid in your party can ride here and could not in Anaheim."
+    ],
+    "disneyland-park": [
+      "You want to ride the most attractions possible in one day.",
+      "Anyone in your group cares about Star Wars — Magic Kingdom has none at all.",
+      "You want the full-length original Pirates of the Caribbean, Indiana Jones Adventure, or Matterhorn Bobsleds.",
+      "You like classic dark rides: Mr. Toad, Alice, Pinocchio, Snow White, and Roger Rabbit are all here and none are in Florida.",
+      "You want a river that still runs — the Mark Twain, the Columbia, and Tom Sawyer Island are all operating."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is Disneyland Park better than Magic Kingdom?",
+      "a": "As a theme park, yes — it operates roughly eleven more attractions on twenty fewer acres, and its exclusives (Indiana Jones Adventure, Matterhorn Bobsleds, Galaxy's Edge, the classic dark rides) outweigh Magic Kingdom's. Magic Kingdom is better for small children, better for crowd comfort, and has the stronger nighttime show. If you are counting rides, go west."
+    },
+    {
+      "q": "Which Pirates of the Caribbean is better?",
+      "a": "Disneyland's, decisively. It runs roughly twice as long, has two drops instead of one, and opens with an outdoor bayou sequence that floats past the Blue Bayou restaurant before the ride proper begins. Magic Kingdom's version is tighter and has a stronger entry fortress, but it is a condensed edition of the same ride."
+    },
+    {
+      "q": "Which Haunted Mansion is better?",
+      "a": "It is genuinely close. Magic Kingdom has the better queue by a wide margin — an interactive outdoor graveyard you can play with while you wait — and a longer load area. Disneyland's has the better exterior and setting in New Orleans Square, and its stretching room is an actual elevator that carries you below the railroad berm. The ride content is nearly identical and both include the Hatbox Ghost."
+    },
+    {
+      "q": "Which Space Mountain is better?",
+      "a": "Disneyland's. It runs on a single smoother track with two-across seating and a synchronized onboard soundtrack, and the height requirement is 40 inches rather than Magic Kingdom's 44. Magic Kingdom's twin-track version is rougher and more disorienting, which some riders prefer, but it is the older engineering."
+    },
+    {
+      "q": "Does Magic Kingdom have Indiana Jones or the Matterhorn?",
+      "a": "No. Indiana Jones Adventure and Matterhorn Bobsleds are Disneyland Park exclusives with no Florida equivalent. Walt Disney World has an Indiana Jones stunt show at Hollywood Studios and a separate Indiana Jones attraction planned for Animal Kingdom's Tropical Americas project, which Disney has said is targeted for 2027 — but neither is the Disneyland ride."
+    },
+    {
+      "q": "Why is Big Thunder Mountain a different height at each park?",
+      "a": "Magic Kingdom's Big Thunder Mountain Railroad reopened on May 3, 2026 with its requirement reduced to 38 inches. Disneyland's remains 40 inches. The rides are similar but not identical, and the two operations set their own limits. If you have a kid between 38 and 40 inches, that is a meaningful difference in what your family can ride together."
+    },
+    {
+      "q": "Which park is better for one day?",
+      "a": "Magic Kingdom, slightly. Its must-do list is shorter and its layout makes a single sweep feel complete, so you leave having done the park rather than a fraction of it. Disneyland Park has more worth riding than one day can hold, which produces a more productive day and a stronger sense of unfinished business."
+    },
+    {
+      "q": "Can I see both parks on one trip?",
+      "a": "Only if you are flying coast to coast, which nobody does for a single vacation. They are 2,500 miles apart. Pick one resort per trip, and if you have done Magic Kingdom already, Disneyland Park will feel familiar for about twenty minutes and then substantially different for the rest of the day."
+    }
+  ],
+  "related": [
+    "disneyland-vs-disney-world",
+    "disneyland-vs-california-adventure",
+    "disney-park-rankings",
+    "which-disney-park-should-i-visit",
+    "best-disney-park-for-one-day"
+  ],
+  "lastVerified": "2026-07"
+}

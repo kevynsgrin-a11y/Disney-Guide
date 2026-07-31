@@ -1,0 +1,2546 @@
+{
+  "park": "epcot",
+  "dining": [
+    {
+      "slug": "connections-eatery",
+      "name": "Connections Eatery",
+      "land": "world-celebration",
+      "service": "quick-service",
+      "cuisine": "American with international touches",
+      "priceTier": "$",
+      "priceNote": "Most entrees run roughly $12 to $17 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The big modern quick-service hall at the front of the park, and the most reliable place to feed a mixed group fast.",
+      "description": [
+        "Connections Eatery opened as part of the World Celebration rebuild and does the job the old Electric Umbrella did, better. It is a large, bright, air-conditioned hall with a long bank of order kiosks, a burger-and-pizza-and-salad menu with a few internationally flavored specials, and enough seating that you can usually find a table without hunting.",
+        "The food is competent quick-service and no more than that. What it has going for it is location, capacity, and the ability to satisfy a picky eight-year-old and an adult who wants a plant-based bowl in the same order.",
+        "Connections Café, the Starbucks counter, shares the building. If half your party wants coffee and pastry and half wants a burger, this is the single building that solves it."
+      ],
+      "signatureItems": [
+        "Cheeseburger",
+        "Flatbread pizza",
+        "Plant-based bowl",
+        "Chicken sandwich"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "quick-bite",
+        "air-conditioned-break",
+        "budget"
+      ],
+      "tips": [
+        "Mobile order well ahead. This place hits capacity at 12:30 and the pickup window you want will already be gone if you order when you get hungry.",
+        "Seating is easiest on the upper level and along the far wall away from the kiosks. Most people never walk past the first bank of tables.",
+        "It is the closest large indoor seating to the park entrance, which makes it the best rain shelter at the front of EPCOT.",
+        "If you are heading into World Showcase, eat here only if you are truly out of time. Almost every pavilion offers better food for similar money."
+      ],
+      "verdict": "Fine, fast, and forgettable — a sensible breakfast or an emergency lunch, but eating here on an EPCOT day when eleven countries are a ten-minute walk away is a wasted meal.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "connections-cafe",
+      "name": "Connections Café",
+      "land": "world-celebration",
+      "service": "bakery",
+      "cuisine": "Coffee and pastries",
+      "priceTier": "$",
+      "priceNote": "Standard Starbucks pricing plus a few Disney-exclusive bakery items, generally $5 to $10",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Starbucks at the front of EPCOT, sharing a building with Connections Eatery and holding the shortest coffee line in the park.",
+      "description": [
+        "Connections Café is EPCOT's Starbucks location, operating inside the Connections building in World Celebration. The menu is the standard Starbucks lineup plus a rotating handful of Disney-specific bakery items, and mobile ordering works through the Disney app rather than the Starbucks app.",
+        "It matters mostly for timing. The morning coffee crush at Walt Disney World is brutal and this counter, being indoors and shared with a large eatery, moves faster than the equivalent windows at other parks.",
+        "You are still paying resort prices for a latte. The counter-argument is that a hot coffee at 8:15 AM before a rope drop sprint to Test Track is worth a couple of extra dollars to most people."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Seasonal-free espresso drinks",
+        "Croissant",
+        "Iced latte"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "solo",
+        "air-conditioned-break",
+        "budget"
+      ],
+      "tips": [
+        "Mobile order from the Disney app while you are still in the parking tram or on the monorail. It will be ready when you walk in.",
+        "Starbucks rewards do not earn or redeem at in-park locations. Do not stand there arguing about it — nobody at the counter can change it.",
+        "Refillable cold cups from the merchandise shops are cheaper to fill here than buying a new drink each morning if you are doing multiple park days.",
+        "If the line is long, the second register bank around the corner is frequently ignored."
+      ],
+      "verdict": "It is a Starbucks in a theme park and it costs what that implies, but it is the fastest morning caffeine at EPCOT and that has real value at 8 AM.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "space-220-restaurant",
+      "name": "Space 220 Restaurant",
+      "land": "world-discovery",
+      "service": "table-service",
+      "cuisine": "Contemporary American",
+      "priceTier": "$$$",
+      "priceNote": "Prix fixe: roughly $55 per adult at lunch and $79 at dinner as of July 2026, before drinks and tax; the lounge offers a shorter à la carte menu",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A prix fixe restaurant staged as a space station two hundred miles up, with screen windows showing Earth turning below you.",
+      "description": [
+        "Space 220 sits beside Mission: SPACE and is entered through a 'space elevator' — a room with screen floors and ceilings that simulates a climb from a Florida launch pad to orbit over about two minutes. You step out into a dining room ringed with screens showing the curve of the Earth, the sun crossing, and the occasional passing spacecraft.",
+        "The theater is excellent. The elevator gag is the best pre-meal bit at any Walt Disney World restaurant, and the window effect holds up because the imagery moves slowly and continuously rather than looping obviously. Cast members stay in character as station crew.",
+        "The food is contemporary American, served as a fixed-price multi-course meal, and it is good rather than remarkable. You are paying a premium for the room, and the restaurant knows it. Go in understanding that trade and you will have a fine time; go in expecting the cooking to justify the check and you will not."
+      ],
+      "signatureItems": [
+        "Blue Moon Cauliflower",
+        "Starry Calamari",
+        "Slow-rotisserie beef short rib",
+        "Carrot Cake"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "date-night",
+        "families",
+        "splurge",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Ask for a table on the window side. There is an interior ring of tables that has a much weaker view, and the difference in experience is large enough to be worth asking about at check-in.",
+        "The lounge takes a limited number of walk-ups and offers a shorter à la carte menu at a lower spend than the dining room. It is the value play and almost nobody knows it exists.",
+        "Reservations open sixty days out and this is one of the two or three hardest tables at EPCOT to get. Check for cancellations in the app in the morning — drops are frequent inside forty-eight hours.",
+        "The elevator is the highlight, and you experience it once at the start. Do not be late — arriving after your party will get you walked in through the back without the ride up.",
+        "Portions on the prix fixe are moderate. Big eaters routinely leave still hungry at $79 a head, which is the most common complaint about the place."
+      ],
+      "verdict": "The most impressive dining room at EPCOT and the least impressive value — worth doing once for the room, but do not pretend the food is what you paid for.",
+      "faqs": [
+        {
+          "q": "How do you get a reservation at Space 220?",
+          "a": "Reservations open sixty days ahead and go quickly. The most reliable strategy is checking the app for cancellations in the twenty-four to forty-eight hours before you want to eat, which is when most drops appear."
+        },
+        {
+          "q": "Can you eat at Space 220 without a reservation?",
+          "a": "Sometimes, in the lounge. It holds a limited number of walk-up guests and serves a shorter menu at lower cost. Put your name in early in the day and expect a wait."
+        },
+        {
+          "q": "Is the view real?",
+          "a": "It is a very well-executed screen effect. The 'windows' show a continuously updating view of Earth from orbit with passing traffic and slow rotation, and the elevator ride up sells the illusion before you sit down."
+        },
+        {
+          "q": "Is Space 220 worth the price?",
+          "a": "For the experience, once, yes. For the food alone, no. You are paying a substantial premium for the room, and several less expensive World Showcase restaurants cook better."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sunshine-seasons",
+      "name": "Sunshine Seasons",
+      "land": "world-nature",
+      "service": "quick-service",
+      "cuisine": "American food hall with Asian and Mediterranean stations",
+      "priceTier": "$",
+      "priceNote": "Entrees generally $12 to $18 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The multi-station food court under The Land pavilion, and the best quick-service meal at the front half of EPCOT.",
+      "description": [
+        "Sunshine Seasons occupies the lower level of The Land pavilion, directly under the Soarin' queue and beside the Living with the Land boat dock. It is organized as separate stations — a grill with rotisserie meats and oak-grilled fish, an Asian noodle and stir-fry counter, a soup and salad section, and a bakery case — each with its own line.",
+        "The produce and some of the fish come from the greenhouses you can see from the boat ride upstairs, which is not a marketing line so much as an operational fact. The rotisserie chicken and the oak-grilled fish are the two things worth ordering.",
+        "It is a food court, so it is loud and the seating is communal-feeling, but it is genuinely large and it turns over fast. For a family that needs four different things at four different prices, it works better than almost anything else in the park."
+      ],
+      "signatureItems": [
+        "Rotisserie chicken",
+        "Oak-grilled fish",
+        "Noodle bowls",
+        "Bakery case desserts"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "quick-bite",
+        "vegetarian",
+        "budget",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "The stations have separate lines with wildly different lengths. Walk the whole room before joining one — the noodle counter is often half the wait of the grill.",
+        "The bakery case is better than it looks and is a legitimate dessert stop on its own, without buying a meal.",
+        "Sit at the far end away from the entrance if you want quiet. The tables nearest the escalator are the loudest room in the park at 1 PM.",
+        "This is the best place to eat if you are doing Soarin' and Living with the Land back to back, because you are already in the building and the alternative is walking to World Showcase and back."
+      ],
+      "verdict": "The strongest quick-service in the front half of EPCOT by a clear margin, and the rotisserie chicken is honest food at a fair price for a theme park.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "garden-grill-restaurant",
+      "name": "Garden Grill Restaurant",
+      "land": "world-nature",
+      "service": "table-service",
+      "cuisine": "American family-style",
+      "priceTier": "$$$",
+      "priceNote": "All-you-care-to-enjoy family style, roughly $45 to $60 per adult depending on meal period as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": true,
+      "standalonePage": true,
+      "summary": "A slowly rotating character restaurant above Living with the Land, serving family-style platters with produce grown downstairs.",
+      "description": [
+        "Garden Grill occupies a circular dining room on the upper level of The Land pavilion that rotates slowly — one full turn takes about an hour — looking down over the scenes of the Living with the Land boat ride below. You see the storm, the prairie farmhouse, and the desert from above while you eat.",
+        "The meal is served family style: platters of turkey, beef, and fish with sides brought to the table and refilled on request. A meaningful portion of the vegetables comes from the greenhouses in the same building, which puts this restaurant in a small category of places where the farm-to-table claim is literally a floor away.",
+        "Mickey Mouse, Pluto, Chip and Dale visit tables in farming outfits. It is one of the calmer character meals on property — the room is small, the rotation is gentle, and the characters are not competing with a buffet line."
+      ],
+      "signatureItems": [
+        "Sliced turkey breast",
+        "Beef with chimichurri",
+        "Seasonal vegetable sides",
+        "Berry shortcake"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "picky-eaters",
+        "big-appetites",
+        "special-occasion"
+      ],
+      "tips": [
+        "Ask for an outer-ring table. The inner tables do not face the ride scenes and the whole point of the room is the view down into the pavilion.",
+        "Refills are unlimited and nobody will stop you asking for a third round of the turkey. This is one of the better value character meals for big eaters, unlike most.",
+        "Book breakfast if you can. It is the cheapest meal period, the room is quietest, and characters have more time per table.",
+        "Ride Living with the Land immediately before or after. Eating the vegetables and then floating past where they were grown, or the reverse, is a small pleasure and takes fifteen extra minutes.",
+        "The rotation is very slow but not zero. If someone in your party is prone to motion sensitivity, sit facing outward rather than across the table."
+      ],
+      "verdict": "The best character meal at EPCOT and one of the better ones anywhere at Walt Disney World — unlimited food, a genuinely interesting room, and characters who are not rushed.",
+      "faqs": [
+        {
+          "q": "Which characters appear at Garden Grill?",
+          "a": "Mickey Mouse, Pluto, Chip and Dale visit tables in farming attire. Character appearances are part of every meal period."
+        },
+        {
+          "q": "Is Garden Grill all you can eat?",
+          "a": "Yes. It is served family style at the table with unlimited refills of the platters and sides rather than as a buffet line, which is a better format with small children."
+        },
+        {
+          "q": "Does the restaurant actually rotate?",
+          "a": "Yes, slowly — a full revolution takes about an hour, so you see the whole set of Living with the Land scenes below over the course of a meal. The motion is gentle enough that most people forget it is happening."
+        },
+        {
+          "q": "Is Garden Grill good for picky eaters?",
+          "a": "Very. The platters are straightforward turkey, beef, fish and vegetables with no unusual preparations, and the kitchen handles allergy and dietary requests well if you flag them at booking."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "coral-reef-restaurant",
+      "name": "Coral Reef Restaurant",
+      "land": "world-nature",
+      "service": "table-service",
+      "cuisine": "Seafood and American",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $28 to $45 as of July 2026; expect $50 to $70 per adult with a drink and dessert",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Tiered seating along the glass wall of The Seas' 5.7-million-gallon aquarium, with sharks swimming past your table.",
+      "description": [
+        "Coral Reef is built into the side of the main tank at The Seas pavilion, which means one entire wall of the dining room is aquarium glass. The floor is stepped so every tier has a sightline, and the tank is stocked with reef fish, rays, sea turtles, and sharks that circulate continuously past the windows.",
+        "The room is dim, blue, cool, and quiet by EPCOT standards, and it is the most genuinely relaxing dining room in the park. Children sit still here in a way they do not sit still anywhere else, which for some families is worth the price on its own.",
+        "The menu is seafood-forward with a steak and a vegetarian option, and it has historically been the restaurant people complain about — the joke about eating fish in front of fish writes itself and the kitchen has been inconsistent over the years. It is better than its reputation now, but it is still the view you are buying."
+      ],
+      "signatureItems": [
+        "Grilled fish of the day",
+        "Shrimp and grits",
+        "Seared scallops",
+        "The Chocolate Wave"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "air-conditioned-break",
+        "toddlers",
+        "view"
+      ],
+      "tips": [
+        "Request a table on the bottom tier at the glass. The upper tiers still see the tank but the front row is a different experience and the request is granted more often than people assume if you are flexible on time.",
+        "Divers work in the tank on a schedule through the day. Ask your server when the next one is going in — kids will watch a diver for twenty minutes without touching their food, which is either a benefit or a problem.",
+        "Lunch is cheaper than dinner for a nearly identical menu, and the tank looks the same at both.",
+        "The Chocolate Wave dessert has been on the menu for many years and is the item regulars order. It is large enough to share across three people.",
+        "If you cannot get a reservation, remember the tank itself is free to look at from SeaBase upstairs. You are paying for a chair, not for access."
+      ],
+      "verdict": "You are buying the aquarium, not the cooking — but it is the calmest room in EPCOT and the only restaurant on property where a toddler will sit quietly for an hour.",
+      "faqs": [
+        {
+          "q": "Can you see the aquarium from every table at Coral Reef?",
+          "a": "The floor is tiered so most tables have a sightline, but the bottom row at the glass is a substantially better experience. Ask at booking and again at check-in."
+        },
+        {
+          "q": "Is Coral Reef only seafood?",
+          "a": "No. Seafood dominates the menu, but there is always a beef option and at least one vegetarian entree, and the kitchen handles allergy requests well."
+        },
+        {
+          "q": "Is Coral Reef good for kids?",
+          "a": "Unusually good. The dark blue room and the moving fish hold small children's attention better than anywhere else in the park, and the children's menu is straightforward."
+        },
+        {
+          "q": "Do you need a reservation?",
+          "a": "It is easier to walk up to than Space 220 or Le Cellier, but on a busy day you will be turned away. Book it if you know you want it, and check for same-day openings if you did not."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "san-angel-inn-restaurante",
+      "name": "San Angel Inn Restaurante",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Mexican",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $26 to $42 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Candlelit tables inside the Mexico pyramid under a permanent artificial twilight, beside the Gran Fiesta Tour boats.",
+      "description": [
+        "San Angel Inn sits on the floor of the Mexico pavilion's interior plaza, under a painted night sky with a smoking volcano on the back wall and boats drifting past on the ride channel. It is the darkest dining room at Walt Disney World and one of the most atmospheric spaces in any Disney park.",
+        "The restaurant is operated in partnership with the San Ángel Inn in Mexico City, and the menu is more traditional than most guests expect — mole poblano, cochinita pibil, chiles rellenos — rather than the Tex-Mex people sometimes anticipate.",
+        "The cooking has always been the second-best reason to come. It is solid, occasionally very good, and priced high for what arrives. The room is the reason, and the room is genuinely worth it once."
+      ],
+      "signatureItems": [
+        "Mole poblano",
+        "Pollo a las Rajas",
+        "Cochinita pibil",
+        "Tacos de ribeye"
+      ],
+      "goodFor": [
+        "date-night",
+        "special-occasion",
+        "air-conditioned-break",
+        "families",
+        "view"
+      ],
+      "tips": [
+        "Ask for a table along the water. The boats passing behind you is the whole point, and the tables against the back wall get much less of the room.",
+        "It is the coolest, darkest room in World Showcase in the middle of a July afternoon. A late lunch reservation here is a strategic move, not just a meal.",
+        "Order the mole. It is the dish this kitchen does best and the one most guests skip in favor of something safer.",
+        "If you cannot get a table, La Cava del Tequila is thirty feet away and the same room, and you can nurse a margarita in that light for a fraction of the cost.",
+        "Photographs come out badly — the room is genuinely dark. Turn off your flash entirely and shoot toward the volcano rather than toward your table."
+      ],
+      "verdict": "Come for the room and accept the food as the price of admission; it is decent Mexican cooking at a premium, in the best-looking dining room on property.",
+      "faqs": [
+        {
+          "q": "Is San Angel Inn dark?",
+          "a": "Very. The pyramid interior is lit as permanent twilight and the dining room runs on candles and low fixtures. Some guests love it and some find it too dim to read the menu comfortably."
+        },
+        {
+          "q": "Can you see the boat ride from the restaurant?",
+          "a": "Yes, from the tables closest to the water. Gran Fiesta Tour boats pass along the channel beside the dining room throughout service."
+        },
+        {
+          "q": "Is the food authentic Mexican?",
+          "a": "It leans traditional rather than Tex-Mex, with mole, cochinita pibil and similar dishes, and the restaurant is run in partnership with the San Ángel Inn in Mexico City. Whether it lives up to that is a fair debate."
+        },
+        {
+          "q": "Is it good for kids?",
+          "a": "The room is dark, quiet and boat-adjacent, which most children enjoy. The children's menu is simple. It is a calmer option than the outdoor Mexican restaurants at the same pavilion."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "la-hacienda-de-san-angel",
+      "name": "La Hacienda de San Angel",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Mexican",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $28 to $45 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The lagoon-front Mexican restaurant with the best nighttime-show sightline of any table at EPCOT.",
+      "description": [
+        "La Hacienda sits directly on the promenade at the water's edge in Mexico, with a wall of windows facing World Showcase Lagoon. It opened in 2010 and serves a more grill-forward Mexican menu than San Angel Inn across the plaza — skirt steak, mixed grills, tacos built at the table.",
+        "The cooking is generally the better of the two Mexican table-service restaurants. The kitchen is more consistent, the portions are larger, and the room is bright enough to actually see what you ordered.",
+        "The reason people book it is the view. A window table with a late seating gives you a straight line across the lagoon for the nighttime show, and it is one of only a handful of restaurants at EPCOT where that is genuinely true rather than technically true."
+      ],
+      "signatureItems": [
+        "Grilled skirt steak",
+        "Molcajete",
+        "Queso fundido",
+        "Tacos de carne asada"
+      ],
+      "goodFor": [
+        "date-night",
+        "special-occasion",
+        "view",
+        "groups",
+        "splurge"
+      ],
+      "tips": [
+        "Book roughly ninety minutes before the nighttime show and ask for a window table. You want to be seated and mostly finished when the lights go down, not waiting on entrees.",
+        "Window tables cannot be guaranteed at booking, but asking politely at check-in and offering to wait ten minutes works more often than not.",
+        "The molcajete is the sleeper order and easily feeds two people. It arrives in a hot stone bowl and stays hot for the length of the meal.",
+        "If the show view is the goal and you cannot get a table, the wall outside on the promenade in front of the restaurant is one of the better free viewing spots on that side.",
+        "Dinner only. Do not walk over at lunchtime expecting to eat here — cross the plaza to San Angel Inn or La Cantina instead."
+      ],
+      "verdict": "The better cooking of Mexico's two table-service restaurants and the best restaurant view of the nighttime show at EPCOT — book it for a window table or do not bother.",
+      "faqs": [
+        {
+          "q": "Can you watch the nighttime show from La Hacienda?",
+          "a": "From a window table, yes, and it is one of the best restaurant views at EPCOT. Interior tables see much less. Book a late seating and request the window at check-in."
+        },
+        {
+          "q": "How is La Hacienda different from San Angel Inn?",
+          "a": "Same pavilion, very different rooms. San Angel Inn is inside the pyramid in near darkness with a more traditional menu; La Hacienda is a bright lagoon-front room with a grill-focused menu and generally more consistent cooking."
+        },
+        {
+          "q": "Is La Hacienda open for lunch?",
+          "a": "No, dinner only. For a midday meal in the Mexico pavilion, use La Cantina de San Angel outside or San Angel Inn inside the pyramid."
+        },
+        {
+          "q": "Is it too spicy for children?",
+          "a": "Heat levels are moderate and the children's menu is mild. Ask your server about specific dishes; the kitchen will adjust on several of them."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "la-cantina-de-san-angel",
+      "name": "La Cantina de San Angel",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "Mexican",
+      "priceTier": "$",
+      "priceNote": "Platters and tacos roughly $12 to $17 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The covered lagoon-side counter in Mexico serving tacos, nachos and margaritas with the best cheap view in World Showcase.",
+      "description": [
+        "La Cantina is the open-air quick-service window on the promenade in front of the Mexico pyramid, with a covered patio of tables looking straight out across World Showcase Lagoon. The menu is tacos, a nachos platter, empanadas, guacamole and chips, plus frozen margaritas and Mexican beer.",
+        "The guacamole is made properly and comes with a serious quantity of chips for the price, and it is one of the better shareable snacks in the park. The tacos are decent counter tacos and no more.",
+        "The patio is the real asset. It is covered, it has a full lagoon view, and it is available to anyone with fifteen dollars — which makes it a much better nighttime-show plan than most people realize."
+      ],
+      "signatureItems": [
+        "Guacamole and chips",
+        "Tacos de carne asada",
+        "Nachos",
+        "Frozen margarita"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "view",
+        "vegetarian"
+      ],
+      "tips": [
+        "The covered patio faces the lagoon and is a legitimate free viewing area for the nighttime show if you buy something and sit down early enough.",
+        "Order guacamole and chips plus one entree to split rather than two entrees. The chip portion is large and the guacamole is the best thing on the menu.",
+        "It is one of the few outdoor eating areas in World Showcase with real shade cover, which matters at 1 PM in July.",
+        "Mobile order and pick up at the window; the walk-up line at lunch is disproportionately long for a counter this size."
+      ],
+      "verdict": "The guacamole is honestly good and the covered lagoon-view patio is worth more than the food — one of the best cheap seats in World Showcase.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "la-cava-del-tequila",
+      "name": "La Cava del Tequila",
+      "land": "world-showcase",
+      "service": "lounge",
+      "cuisine": "Tequila bar with small plates",
+      "priceTier": "$$",
+      "priceNote": "Margaritas roughly $16 to $20, tequila flights higher, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "all-day"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A tiny tequila bar inside the Mexico pyramid with over two hundred bottles and the avocado margarita people queue for.",
+      "description": [
+        "La Cava del Tequila is a small, dark room off the Mexico pavilion's interior plaza, with a long bar, a couple of dozen seats, and a tequila and mezcal list that runs to several hundred labels. It is a serious bar operating inside a theme park, and the bartenders can talk you through the list properly if you let them.",
+        "The house margaritas are what most people come for. The avocado margarita — avocado, tequila, lime, agave, with a salt rim — sounds wrong and is the single most ordered drink in the room for good reason. The cucumber and passion fruit versions are the other two worth trying.",
+        "It is standing room only much of the day and the queue spills into the plaza. It is also cold, dark, and forty feet from a boat ride, which makes it the best adult break in World Showcase."
+      ],
+      "signatureItems": [
+        "Avocado margarita",
+        "Cucumber margarita",
+        "Passion fruit margarita",
+        "Tequila flight"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "air-conditioned-break",
+        "groups",
+        "splurge"
+      ],
+      "tips": [
+        "Go before noon or after 8 PM. Between those hours the line to get in the door is longer than the line for Gran Fiesta Tour.",
+        "Ask the bartender for a flight rather than ordering a single pour if you actually want to learn something. They will build one to your taste and explain the difference between blanco, reposado and añejo without condescension.",
+        "You can take drinks out into the pyramid plaza and stand by the ride channel. Nobody expects you to hold a seat you cannot get.",
+        "The avocado margarita is the famous one and it is genuinely good, but the cucumber is the better drink on a ninety-five-degree afternoon."
+      ],
+      "verdict": "A real tequila bar hiding in a theme park, and the avocado margarita earns its reputation — just do not go at 3 PM unless you enjoy queueing for a bar.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "choza-de-margarita",
+      "name": "Choza de Margarita",
+      "land": "world-showcase",
+      "service": "lounge",
+      "cuisine": "Margaritas and Mexican small plates",
+      "priceTier": "$$",
+      "priceNote": "Margaritas roughly $15 to $19, flights higher, small plates $9 to $16, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "all-day"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The outdoor margarita stand on the Mexico promenade, with shaded seating and a shorter line than La Cava.",
+      "description": [
+        "Choza de Margarita sits on the walkway between the promenade and the pyramid, an open-sided structure with a bar, a handful of shaded tables, and a menu of margaritas built on different tequilas and fruit. There are also small plates — queso, elote, tacos — that are better than a drinks stand needs to serve.",
+        "It exists because La Cava del Tequila is too small. The list is shorter and the room is outdoors, but the drinks are comparable and you will get one in five minutes instead of forty.",
+        "The shaded tables are a genuine amenity on that stretch of promenade, where cover is scarce and the pavement radiates heat all afternoon."
+      ],
+      "signatureItems": [
+        "Margarita flight",
+        "Blood orange margarita",
+        "Queso fundido",
+        "Elote"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "groups",
+        "solo",
+        "date-night",
+        "budget"
+      ],
+      "tips": [
+        "This is the overflow valve for La Cava. When the tequila bar has a line out the door, walk twenty yards here and get the same category of drink immediately.",
+        "The flight is the sensible order for a group — you get several small pours to compare rather than committing sixteen dollars to one guess.",
+        "Mobile order works here and skips the counter entirely, which almost nobody does at a bar.",
+        "The tables are shaded but not cooled. In August this is still an outdoor stop; La Cava is the air-conditioned option."
+      ],
+      "verdict": "Nearly as good as La Cava for a fraction of the wait, and the small plates are a pleasant surprise — the smarter of the two Mexico bars on a busy day.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "kringla-bakeri-og-kafe",
+      "name": "Kringla Bakeri Og Kafe",
+      "land": "world-showcase",
+      "service": "bakery",
+      "cuisine": "Norwegian bakery and sandwiches",
+      "priceTier": "$",
+      "priceNote": "Pastries roughly $4 to $7, sandwiches $11 to $15, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Norwegian bakery counter that sells School Bread, the single best cheap snack in World Showcase.",
+      "description": [
+        "Kringla is a small counter at the back of the Norway pavilion courtyard, with an outdoor covered seating area behind it. It sells open-faced sandwiches, sweet pretzels, lefse, and a rotating case of Norwegian pastries, plus Carlsberg on draft and Viking coffee.",
+        "School Bread is the reason to stop: a soft cardamom bun filled with vanilla custard and topped with sweetened coconut. It costs a few dollars, it is the size of a fist, and it is better than most desserts on property at five times the price.",
+        "The seating area behind the counter is one of the quietest corners of World Showcase — shaded, off the promenade, and consistently overlooked."
+      ],
+      "signatureItems": [
+        "School Bread",
+        "Troll Horn",
+        "Lefse",
+        "Sweet pretzel"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "vegetarian",
+        "solo"
+      ],
+      "tips": [
+        "Buy two School Breads. Everyone who buys one immediately wishes they had bought two, and the line will be longer when you come back.",
+        "The seating area is hidden behind and to the side of the counter. Most people eat standing on the promenade without realizing there are shaded tables thirty feet away.",
+        "Mobile order here is fast and the pickup window is separate from the walk-up line, which regularly cuts the wait in half at midday.",
+        "The lefse is the cheapest item on the menu and the one Norwegians in the queue actually order. It is a soft flatbread with butter, cinnamon and sugar, and it is a good three-dollar snack for a kid."
+      ],
+      "verdict": "School Bread is genuinely one of the best-value snacks at Walt Disney World and worth crossing the park for; everything else here is fine.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "nine-dragons-restaurant",
+      "name": "Nine Dragons Restaurant",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Chinese",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $19 to $34 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The China pavilion's air-conditioned table-service room, easy to get into and rarely anyone's favorite meal.",
+      "description": [
+        "Nine Dragons occupies a large, quiet dining room in the China pavilion with carved wood detailing and windows onto the promenade. The menu covers regional Chinese cooking — Canton, Mongolian, Szechuan — with a mix of noodle dishes, stir-fries and a few showier plates.",
+        "It is the easiest table-service reservation in World Showcase and frequently takes walk-ups when everything else is booked solid, which tells you something about demand. The food is fine. It is not why anyone plans a day.",
+        "Where it earns its place is as a cool, calm, seated meal you can actually get on short notice. On a ninety-six-degree afternoon with a party that needs to sit down and eat something now, that is not nothing."
+      ],
+      "signatureItems": [
+        "Honey sesame chicken",
+        "Mongolian beef",
+        "Pork and vegetable pot stickers",
+        "Canton pepper beef"
+      ],
+      "goodFor": [
+        "air-conditioned-break",
+        "families",
+        "groups",
+        "vegetarian"
+      ],
+      "tips": [
+        "This is your emergency table. When every other World Showcase restaurant is booked, check here — it takes same-day reservations and walk-ups far more often than the rest.",
+        "The vegetarian and vegan options are unusually well developed for a park restaurant, and the allergy menu is thorough.",
+        "Ask for a window table facing the promenade. It is a better room from that side and the seating is not usually contested.",
+        "If you want China pavilion food without the sit-down price, Lotus Blossom Café next door serves a shorter version of the same idea for about half."
+      ],
+      "verdict": "Perfectly acceptable Chinese-American cooking at theme park prices — you go because you need a table and air conditioning, not because you want this meal.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lotus-blossom-cafe",
+      "name": "Lotus Blossom Café",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "Chinese",
+      "priceTier": "$",
+      "priceNote": "Entrees roughly $11 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The counter-service window in China serving orange chicken, pot stickers and egg rolls to a covered patio.",
+      "description": [
+        "Lotus Blossom Café is an open-fronted counter at the side of the China pavilion courtyard with a covered outdoor seating area. The menu is short: orange chicken, beef noodle soup, pot stickers, egg rolls, and a couple of vegetable dishes, plus soft-serve and Chinese beer.",
+        "It is mall food court Chinese, priced as theme park food. The pot stickers are the most defensible order and the egg rolls are fine. The orange chicken is the item people photograph and regret.",
+        "The saving grace is the seating area, which is shaded, quiet, and set back from the promenade behind the pavilion wall. For a family that needs a cheap sit-down meal in the middle of World Showcase, it does the job."
+      ],
+      "signatureItems": [
+        "Orange chicken",
+        "Pot stickers",
+        "Vegetable egg rolls",
+        "Beef noodle soup"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "vegetarian"
+      ],
+      "tips": [
+        "Order the pot stickers rather than the orange chicken. It is the one item here that is clearly better than the rest of the menu.",
+        "The seating area behind the counter is shaded and set back from the promenade — better than it looks from the walkway.",
+        "There is a separate soft-serve and drinks window that is almost always shorter than the main line if you just want something cold.",
+        "China is a good pavilion to eat cheaply in and spend the savings two pavilions over in Germany or Italy, both of which cook better."
+      ],
+      "verdict": "Overrated by the crowds that queue for the orange chicken — the pot stickers are decent, the rest is food court cooking at fourteen dollars.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "refreshment-outpost",
+      "name": "Refreshment Outpost",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "Snacks and frozen drinks",
+      "priceTier": "$",
+      "priceNote": "Snacks and drinks roughly $6 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small snack and drink stand on the empty stretch of promenade between China and Germany.",
+      "description": [
+        "Refreshment Outpost sits on the long, exposed walkway between the China and Germany pavilions — the least interesting stretch of the World Showcase loop and the one where people most often run out of steam. It sells hot dogs, frozen drinks, soft-serve, and beer, from a window with a few tables and a drum kit for kids to bang on.",
+        "There is nothing here you cannot get better somewhere else. What there is, is a cold drink at the exact point on the loop where you need one, which is a genuinely valuable thing on a Florida afternoon.",
+        "Treat it as infrastructure rather than dining. It exists to keep you moving to Germany."
+      ],
+      "signatureItems": [
+        "Frozen drinks",
+        "Hot dog",
+        "Soft-serve",
+        "Draft beer"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "toddlers"
+      ],
+      "tips": [
+        "This is the halfway point on the long empty stretch. If someone in your group is fading between China and Germany, this is the intervention.",
+        "The drums outside are free and toddlers will use them for ten minutes, which buys the adults ten minutes of sitting.",
+        "Frozen drinks here are the cheapest cold thing on that side of the lagoon.",
+        "Mobile order it while you are still walking out of China and it will be ready when you arrive."
+      ],
+      "verdict": "Not a destination, but the best-placed drink stand in World Showcase — it exists exactly where people give up, and that is worth something.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "biergarten-restaurant",
+      "name": "Biergarten Restaurant",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "German",
+      "priceTier": "$$$",
+      "priceNote": "All-you-care-to-eat buffet, roughly $42 at lunch and $52 at dinner per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An all-you-care-to-eat German buffet in a fake Bavarian village at permanent dusk, with a live oompah band and communal tables.",
+      "description": [
+        "Biergarten is staged as a village square under a night sky, with a stage at one end, timber buildings around the walls, and long communal tables on multiple tiers. A live band plays sets throughout the meal — accordion, brass, alphorn, cowbell — and by the end of a set there is usually a chicken dance happening.",
+        "The food is a buffet of German standards: rotisserie chicken, pork schnitzel, sausages, sauerbraten, spätzle, red cabbage, potato salad, and a dessert table with Black Forest cake and apple strudel. It is hearty, it is salty, and it is unlimited.",
+        "The communal seating is the thing people either love or refuse. You will be seated with strangers unless your party is large, at a table of eight or ten. In practice this is the friendliest room at EPCOT and the shared table is why."
+      ],
+      "signatureItems": [
+        "Rotisserie chicken",
+        "Pork schnitzel",
+        "Bratwurst and sausages",
+        "Black Forest cake"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "big-appetites",
+        "picky-eaters",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Ask about the band schedule when you check in and time your seating to land on a set rather than between them. Sets run roughly every half hour and a meal without one is a much duller room.",
+        "Sit on the lower tier near the stage if you want the show; take an upper tier if you have a child who needs to be able to get up and move.",
+        "The buffet is genuinely all-you-care-to-eat and nobody is counting plates. For big eaters this is one of the better value table-service meals at EPCOT, which is not a sentence you get to write often.",
+        "Beer is served in liter steins and is not included. A stein plus the buffet moves this into a serious per-person number, so decide before you order.",
+        "You will be seated with other parties. If that is genuinely intolerable for your group, say so at booking — they can sometimes accommodate, but do not expect it on a busy night."
+      ],
+      "verdict": "Loud, communal, unlimited and genuinely fun — the best value table-service meal in World Showcase if you eat like an adult and do not mind sharing a table.",
+      "faqs": [
+        {
+          "q": "Do you have to sit with strangers at Biergarten?",
+          "a": "Usually, yes. Tables seat eight to ten and smaller parties are combined. It is part of the format and most guests end up enjoying it, but it is worth knowing before you book."
+        },
+        {
+          "q": "Is Biergarten a buffet?",
+          "a": "Yes, an all-you-care-to-eat German buffet with hot entrees, salads and a dessert station. Beverages including the beer are charged separately."
+        },
+        {
+          "q": "Is there live music at Biergarten?",
+          "a": "Yes. A live band performs sets on the stage throughout service, roughly every half hour. Ask at check-in and try to be seated for a set rather than between them."
+        },
+        {
+          "q": "Is Biergarten good for kids?",
+          "a": "Very. The buffet solves picky eating, the band is a show, the room is dim and the noise level means nobody notices a loud child. It is one of the least stressful table-service rooms at EPCOT with young children."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sommerfest",
+      "name": "Sommerfest",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "German",
+      "priceTier": "$",
+      "priceNote": "Items roughly $10 to $16 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A counter tucked into the Germany courtyard serving bratwurst in a pretzel roll and a very good noodle gratin.",
+      "description": [
+        "Sommerfest is hidden through an archway in the Germany pavilion courtyard — enough out of sight that a lot of people walk past the pavilion without knowing it is there. It serves bratwurst in a pretzel roll with sauerkraut, a paprika-cheese noodle gratin, apple strudel, and German beer, at a counter with a small covered seating area.",
+        "The bratwurst in a pretzel roll is the correct order and it is one of the better ten-dollar lunches in World Showcase. The Nudel Gratin is the sleeper: a baked noodle dish with cheese sauce that is heavier than anyone expects and feeds two.",
+        "It is the cheapest way to eat properly in Germany, and it means you can spend the money you saved at Karamell-Küche twenty feet away."
+      ],
+      "signatureItems": [
+        "Bratwurst in a pretzel roll",
+        "Nudel Gratin",
+        "Apple strudel",
+        "German draft beer"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "big-appetites"
+      ],
+      "tips": [
+        "It is through the arch at the back left of the Germany courtyard and is easy to miss entirely from the promenade.",
+        "The Nudel Gratin is enormous and is a legitimate meal for two people at under sixteen dollars, which is rare in World Showcase.",
+        "The seating here is covered but not cooled. On a hot day get it to go and eat by the miniature railway garden, which has shade and benches.",
+        "Order the strudel here rather than dessert at a sit-down restaurant. It is warm, it is under seven dollars, and it is better than it needs to be."
+      ],
+      "verdict": "The best cheap hot meal in World Showcase — the bratwurst in a pretzel roll is honest food and the noodle gratin feeds two for the price of one entree.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "karamell-kuche",
+      "name": "Karamell-Küche",
+      "land": "world-showcase",
+      "service": "bakery",
+      "cuisine": "Caramel confectionery",
+      "priceTier": "$",
+      "priceNote": "Most items roughly $6 to $14 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A caramel kitchen in the Germany pavilion where everything is made in front of you and the whole street smells like it.",
+      "description": [
+        "Karamell-Küche is a small shop in the Germany pavilion built around a working caramel kitchen. Staff pull, dip and drizzle in an open area behind the counter, which is why the pavilion smells the way it does from thirty feet away. The lineup includes caramel-dipped apples with various coatings, caramel popcorn, cupcakes, brownies, shortbread, and pretzels.",
+        "The apples are the headline item and the most photographed. They are large, heavily decorated, and expensive for what they are — an apple under a lot of sugar, which is difficult to eat standing up and difficult to share without a knife.",
+        "The freshly made caramel popcorn and the simpler dipped items are the better buys, and the smaller pieces at the counter are frequently overlooked in favor of the display apples."
+      ],
+      "signatureItems": [
+        "Caramel-dipped apple",
+        "Fresh caramel popcorn",
+        "Caramel cupcake",
+        "Chocolate caramel shortbread"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "toddlers"
+      ],
+      "tips": [
+        "Watch the kitchen window rather than the display case. If they are pulling a fresh batch of popcorn, buy that instead of whatever you came in for.",
+        "The apples are hard to eat without a plate and a knife. Ask for it sliced — they will do it and it turns a messy object into a shareable one.",
+        "The shop is air-conditioned and small, and it is a genuine two-minute cool-down at the mid-point of a World Showcase lap.",
+        "Skip the elaborate decorated apples and buy two of the small caramel items instead. Same money, better ratio of caramel to filler."
+      ],
+      "verdict": "The smell does most of the selling; the popcorn and small pieces are worth it, the decorated apples are an expensive photograph you have to eat.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "block-and-hans",
+      "name": "Block & Hans",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "Beer and pretzels",
+      "priceTier": "$",
+      "priceNote": "Beers roughly $10 to $13, pretzel roughly $11 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An outdoor beer window in the Germany courtyard with a jumbo pretzel and beer cheese that beats the pretzel carts everywhere else.",
+      "description": [
+        "Block & Hans is a small kiosk on the Germany pavilion courtyard serving German draft beer and a jumbo soft pretzel with a cup of beer cheese for dipping. That is essentially the whole menu, and it is executed well.",
+        "The pretzel is substantially better than the Mickey pretzels sold from carts elsewhere in the park — bigger, saltier, and warm — and the beer cheese is real cheese sauce rather than the plastic cup of orange product you get with the standard pretzel.",
+        "There is no seating attached, so this is a stand-and-eat or walk-and-eat stop. The wall by the miniature railway garden a minute away is the natural place to take it."
+      ],
+      "signatureItems": [
+        "Jumbo pretzel with beer cheese",
+        "German draft beer",
+        "Beer flight"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "solo",
+        "groups",
+        "budget",
+        "vegetarian"
+      ],
+      "tips": [
+        "If you were going to buy a Mickey pretzel from a cart, buy this instead. It costs a couple of dollars more and it is a different class of item.",
+        "The beer list rotates between German imports; ask what is on rather than reading the board, which is not always current.",
+        "There is no seating. Take it to the wall by the miniature railway garden, which is a minute away and has shade.",
+        "It is a good split for two people alongside a bratwurst from Sommerfest — one savory counter each, twenty dollars total, and you have eaten properly in Germany."
+      ],
+      "verdict": "The best pretzel at EPCOT and the reason to skip the $8.50 Mickey pretzel carts entirely — buy this and the beer cheese, not that.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "via-napoli-ristorante-e-pizzeria",
+      "name": "Via Napoli Ristorante e Pizzeria",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Italian",
+      "priceTier": "$$$",
+      "priceNote": "Individual pizzas roughly $21 to $26, large pizzas $48 to $60, pasta $24 to $36, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Wood-fired Neapolitan pizza from three volcano-faced ovens, and the best pizza at Walt Disney World by a distance.",
+      "description": [
+        "Via Napoli is a large, loud, tiled room at the back of the Italy pavilion built around three wood-burning ovens, each with a face on it representing an Italian volcano — Vesuvius, Etna and Stromboli. The dough is made in house, the water is treated to approximate Naples, and the pizzas come out blistered and correctly floppy in the middle.",
+        "The pizza is the reason to come and it is genuinely good — not good-for-a-theme-park, good. The margherita and the quattro formaggi are the reference orders. The carbonara pizza with a soft egg is the one to get if you want to be surprised.",
+        "Everything else on the menu is fine and beside the point. Pasta here costs as much as pizza and is not close to as good. Order the pizza."
+      ],
+      "signatureItems": [
+        "Margherita pizza",
+        "Quattro Formaggi pizza",
+        "Carbonara pizza",
+        "Fritto misto"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "picky-eaters",
+        "big-appetites",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Order the large pizza for a group rather than individuals. The large is enormous and works out cheaper per person, and a table of four eats better for less.",
+        "Ask to sit in the main room with a view of the ovens rather than in the side rooms. Watching the pizzaiolo work is half the entertainment and the side rooms have none of it.",
+        "The gluten-free crust here is one of the better ones at Walt Disney World and is made to order rather than reheated from frozen.",
+        "The outdoor patio is quieter than the main room and is genuinely pleasant in cooler months, which is the opposite of most World Showcase advice.",
+        "Skip the pasta. It is the same price as pizza and the kitchen is not built for it — every regular will tell you the same thing."
+      ],
+      "verdict": "The best pizza at Walt Disney World and one of the few World Showcase restaurants where the food, not the room, is the reason to book.",
+      "faqs": [
+        {
+          "q": "Is the pizza at Via Napoli actually good?",
+          "a": "Yes, genuinely. Wood-fired Neapolitan-style crust made in house, cooked in three real wood ovens. It is the strongest single dish at EPCOT and outclasses every other pizza on Disney property."
+        },
+        {
+          "q": "How big is a large pizza at Via Napoli?",
+          "a": "Large enough for three or four adults. Ordering one large for a group is meaningfully cheaper per person than ordering individual pizzas, and the leftovers are the same quality cold."
+        },
+        {
+          "q": "Does Via Napoli have gluten-free pizza?",
+          "a": "Yes, and it is one of the better gluten-free crusts on property, made to order. Flag it when booking and again with your server."
+        },
+        {
+          "q": "How is Via Napoli different from Tutto Italia?",
+          "a": "Same pavilion, same operator, different rooms. Via Napoli is loud, big, family-oriented and pizza-focused. Tutto Italia is quieter, more formal, and built around pasta and entrees."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tutto-italia-ristorante",
+      "name": "Tutto Italia Ristorante",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Italian",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $28 to $46 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The quieter, more formal Italian dining room next door to Via Napoli, built around pasta and a proper wine list.",
+      "description": [
+        "Tutto Italia occupies the front building of the Italy pavilion with a formal interior of murals and draped ceilings, plus a shaded courtyard patio. It is the grown-up counterpart to Via Napoli behind it: quieter, slower, with tablecloths and a wine list that is taken seriously.",
+        "The menu is pasta-forward with a handful of meat and fish entrees. The house-made pastas are the strength, and the kitchen does a better lasagna and a better carbonara than the pizzeria next door does anything besides pizza.",
+        "Prices are high even by World Showcase standards, and portions are restaurant-sized rather than theme-park-sized. Go in expecting a real Italian restaurant check and it makes sense; go in expecting a big plate of noodles for twenty dollars and it will not."
+      ],
+      "signatureItems": [
+        "Lasagna alla Bolognese",
+        "Spaghetti alla Carbonara",
+        "Chicken parmigiana",
+        "Tiramisu"
+      ],
+      "goodFor": [
+        "date-night",
+        "special-occasion",
+        "splurge",
+        "air-conditioned-break",
+        "solo"
+      ],
+      "tips": [
+        "Ask for the courtyard patio in cooler months. It is shaded, quieter than the interior, and looks out at the pavilion rather than at a wall.",
+        "The wine list is one of the deepest in World Showcase and the servers know it. Ask for a by-the-glass recommendation instead of defaulting to the house pour.",
+        "Lunch is the value play — nearly the same menu at lower prices, and the room is at its calmest.",
+        "The connected wine cellar, Tutto Gusto, takes walk-ups and serves small plates from the same kitchen. That is the way to eat this food without a reservation.",
+        "This is the best table in World Showcase for a solo diner. The bar area is comfortable and nobody rushes you."
+      ],
+      "verdict": "Good Italian cooking at a real Italian restaurant price, and a genuinely calm room — but if you are only eating in Italy once, Via Napoli next door is the better meal.",
+      "faqs": [
+        {
+          "q": "What is the difference between Tutto Italia and Via Napoli?",
+          "a": "Tutto Italia is the quieter, more formal pasta and entree restaurant at the front of the pavilion. Via Napoli behind it is the loud family pizzeria. Same operator, very different meals."
+        },
+        {
+          "q": "Can you eat at Tutto Italia without a reservation?",
+          "a": "The main dining room usually requires one on a busy day, but Tutto Gusto Wine Cellar next door takes walk-ups and serves small plates from the same kitchen."
+        },
+        {
+          "q": "Is Tutto Italia good for kids?",
+          "a": "It is fine but not aimed at them. The room is quiet and formal, the meal is slow, and Via Napoli next door does everything a family with young children actually wants."
+        },
+        {
+          "q": "Is there outdoor seating?",
+          "a": "Yes, a shaded courtyard patio that is genuinely pleasant from late autumn through spring and much less so in midsummer."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tutto-gusto-wine-cellar",
+      "name": "Tutto Gusto Wine Cellar",
+      "land": "world-showcase",
+      "service": "lounge",
+      "cuisine": "Italian small plates and wine",
+      "priceTier": "$$",
+      "priceNote": "Small plates roughly $14 to $26, wines by the glass $12 to $22, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A dark, cold wine cellar attached to Tutto Italia that takes walk-ups and is the best hiding place in World Showcase.",
+      "description": [
+        "Tutto Gusto is entered from the side of the Italy pavilion and is exactly what it says: a vaulted cellar room lined with bottles, with low seating, a fireplace, and a bar. It serves small plates, cheese and cured meat boards, panini and pasta portions from the Tutto Italia kitchen, with a wine list running to hundreds of labels.",
+        "It takes walk-ups, which makes it the most useful room in World Showcase. When every table-service restaurant on the loop is booked and it is a hundred degrees outside, this is a cold, dark room with real food and a bar that will seat you.",
+        "It is also the closest thing EPCOT has to a place adults go to hide. There is no music, no characters, and no view. There is a fireplace, a cheese board, and a glass of Barolo."
+      ],
+      "signatureItems": [
+        "Cheese and salumi board",
+        "Arancini",
+        "Panini",
+        "Wine flights"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "air-conditioned-break",
+        "groups",
+        "splurge"
+      ],
+      "tips": [
+        "Put your name in early and go do something else. The wait list moves and they will text you, which nobody realizes because the room looks like it takes reservations.",
+        "The small plates add up fast. Three of them and two glasses of wine is a real check — treat it as a meal, not a snack.",
+        "The entrance is on the side of the Italy pavilion facing Germany, not through Tutto Italia. People walk past it constantly.",
+        "It is the darkest and coldest room on the World Showcase loop other than the Mexico pyramid, which makes it the correct 2 PM stop in July."
+      ],
+      "verdict": "The best walk-up option in World Showcase and a genuinely good wine bar — the fastest way to eat Tutto Italia's food without a sixty-day reservation.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "gelateria-toscana",
+      "name": "Gelateria Toscana",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "Gelato and Italian desserts",
+      "priceTier": "$",
+      "priceNote": "Gelato roughly $7 to $9 per serving as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A gelato window on the Italy promenade with a short list of flavors and a few dessert drinks.",
+      "description": [
+        "Gelateria Toscana is a small counter on the front of the Italy pavilion selling gelato by the scoop and cup, plus cannoli, dessert wines and spiked coffee drinks. There are a handful of tables in front of it looking out at the lagoon.",
+        "The gelato is good without being remarkable — denser and less sweet than American ice cream, which is the point, and better than the soft-serve you can get at five other stops around the loop.",
+        "It is well-placed. Italy sits at roughly the far end of the loop from the entrance, and a cold thing here is worth more than a cold thing at the front of the park."
+      ],
+      "signatureItems": [
+        "Pistachio gelato",
+        "Stracciatella gelato",
+        "Cannoli",
+        "Affogato"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "budget",
+        "vegetarian"
+      ],
+      "tips": [
+        "The affogato — a shot of espresso poured over gelato — is the order regulars make and it is not on the front of the board.",
+        "Ask for two flavors in one cup. They will do it and nobody advertises it.",
+        "The tables in front face the lagoon and are a decent free nighttime-show spot if you buy something and sit down early.",
+        "It is the last dessert stop before the long walk back around toward America and Japan, so it is the right place to spend a snack credit if you are carrying one."
+      ],
+      "verdict": "Solid gelato at fair theme-park prices, well positioned at the far end of the loop — not a destination, but a better cold snack than the soft-serve alternatives.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "regal-eagle-smokehouse",
+      "name": "Regal Eagle Smokehouse: Craft Drafts & Barbecue",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "American barbecue",
+      "priceTier": "$$",
+      "priceNote": "Platters roughly $15 to $22 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Regional American barbecue at the American Adventure, with four sauce styles, real smoked meat, and indoor seating.",
+      "description": [
+        "Regal Eagle opened in 2020 in the space behind the American Adventure pavilion, replacing the old Liberty Inn. It is organized around regional barbecue traditions — Texas brisket, Carolina pulled pork, Kansas City ribs, and a smoked chicken — each with its matching sauce, and it does the meat properly with a real smoker rather than reheating.",
+        "The brisket is the strongest item and comes with a visible smoke ring. The pulled pork sandwich is the value order. The plant-based barbecue option is one of the better vegan mains at any Walt Disney World quick-service, which is a low bar cleared by a surprising margin.",
+        "The dining room is indoors, air-conditioned, and large, with a sauce bar where you can help yourself to all four regional styles. For a park where most counter service means eating outdoors in the heat, that matters."
+      ],
+      "signatureItems": [
+        "Texas beef brisket",
+        "Carolina pulled pork sandwich",
+        "Smoked half chicken",
+        "Plant-based barbecue"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "air-conditioned-break",
+        "budget",
+        "groups"
+      ],
+      "tips": [
+        "Use the self-serve sauce bar. All four regional sauces are out and free, and the platters arrive lightly sauced on purpose so you can choose.",
+        "The indoor dining room is one of the largest air-conditioned quick-service spaces on the World Showcase loop and it is nearly always the coolest option at lunch.",
+        "Mobile order and pick up at the side window. The main counter queue at 12:30 wraps outside for no good reason.",
+        "The plant-based option is genuinely worth ordering rather than tolerating, which cannot be said of most park vegan mains.",
+        "Sit at the far end of the dining room by the windows — the tables near the counter fill first and stay loud."
+      ],
+      "verdict": "The best quick-service in World Showcase: real smoked meat, four free sauces, and an air-conditioned room, at prices that undercut every table-service option nearby.",
+      "faqs": [
+        {
+          "q": "Is the barbecue at Regal Eagle actually smoked?",
+          "a": "Yes. The kitchen runs a smoker and the brisket in particular shows a genuine smoke ring. It is a substantial step above typical theme park counter service."
+        },
+        {
+          "q": "Is there indoor seating?",
+          "a": "Yes, a large air-conditioned dining room plus outdoor tables. It is one of the few quick-service locations on the World Showcase loop with serious indoor capacity."
+        },
+        {
+          "q": "Are there vegan options?",
+          "a": "Yes, and the plant-based barbecue platter is one of the better vegan mains at any Walt Disney World quick-service rather than a token afterthought."
+        },
+        {
+          "q": "Do you need a reservation?",
+          "a": "No. It is counter service with mobile ordering. Order from the app about twenty minutes ahead and collect at the pickup window."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fife-and-drum-tavern",
+      "name": "Fife & Drum Tavern",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "American snacks",
+      "priceTier": "$",
+      "priceNote": "Turkey leg $13.25, funnel cake and frozen drinks roughly $6 to $12, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The outdoor stand in front of the American Adventure selling the park's turkey leg, funnel cake, and frozen drinks.",
+      "description": [
+        "Fife & Drum is the open kiosk on the promenade at the American Adventure pavilion. It sells the EPCOT turkey leg, funnel cake, frozen lemonade and frozen Coke, popcorn, and beer, to people passing between Italy and Japan.",
+        "The turkey leg is the item that draws a crowd and it costs more here than at other Walt Disney World locations. It is enormous, it is salty, it is smoked and cured so it tastes closer to ham than to turkey, and most people who buy one eat a third of it and carry the rest around looking for a bin.",
+        "The funnel cake is the better purchase, made to order and served hot, and the frozen drinks are the cheapest cold relief at the top of the loop."
+      ],
+      "signatureItems": [
+        "Turkey leg",
+        "Funnel cake",
+        "Frozen lemonade",
+        "Popcorn"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "budget",
+        "groups"
+      ],
+      "tips": [
+        "The turkey leg here is $13.25, about a dollar and a half more than the same item at other Walt Disney World locations. If you want one, buy it somewhere else.",
+        "Get the funnel cake instead and share it three ways. It is made fresh and it is a better use of the same money.",
+        "There is shaded seating just around the corner toward the American Adventure steps, which is far more comfortable than eating standing on the promenade.",
+        "The frozen lemonade is the correct order at 3 PM in July, and it is under seven dollars — the cheapest genuinely refreshing thing at the top of the loop."
+      ],
+      "verdict": "The turkey leg is the most overrated food item at EPCOT and costs more here than anywhere else on property; buy the funnel cake or a frozen lemonade instead.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "teppan-edo",
+      "name": "Teppan Edo",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Japanese teppanyaki",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $30 to $50 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Teppanyaki grills upstairs in the Japan pavilion where a chef cooks at your table and the show is the meal.",
+      "description": [
+        "Teppan Edo is on the upper floor of the Mitsukoshi building in Japan, laid out as a series of rooms each holding several flat-top grills with seating around them. A chef cooks your meal in front of you — the knife work, the onion volcano, the flying shrimp tail — and the performance is the reason the room is full.",
+        "You are seated with other parties around the grill, which is the format everywhere teppanyaki is served and which some guests do not anticipate. It works in the restaurant's favor; groups end up talking, and children who would be bored at any other table-service restaurant sit riveted for forty minutes.",
+        "The food is competently cooked steak, chicken, shrimp and vegetables with rice and noodles. It is not the best Japanese food you have ever eaten and the price is high, but the value calculation includes the show and for families it comes out positive."
+      ],
+      "signatureItems": [
+        "Filet mignon teppanyaki",
+        "Shrimp and scallops",
+        "Vegetable teppanyaki",
+        "Green tea pudding"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "picky-eaters",
+        "special-occasion",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Kids should sit directly at the grill edge, not behind an adult. The whole value here is proximity to the chef, and back seats waste the booking.",
+        "You will be seated with strangers around a shared grill unless your party fills it. Plan for it rather than being surprised at the door.",
+        "The vegetarian teppanyaki is a real dish rather than a plate of leftovers, and the kitchen handles gluten-free requests well if you flag them early.",
+        "Ask your chef where they trained. Several have long tenures here and the conversation is better than the standard patter if you start it.",
+        "Downstairs in the Mitsukoshi store there is a separate sushi counter and a sake bar, which is the way to eat in Japan without the teppanyaki price."
+      ],
+      "verdict": "You are paying for the chef's performance more than the cooking, and with children that is a fair trade — adults dining alone should eat downstairs instead.",
+      "faqs": [
+        {
+          "q": "Do you sit with strangers at Teppan Edo?",
+          "a": "Usually yes. Grills seat several parties and smaller groups are combined. It is standard teppanyaki format and most guests find it adds to the meal."
+        },
+        {
+          "q": "Is Teppan Edo good for kids?",
+          "a": "Very. The chef's performance holds children's attention for the length of the meal, and the menu is simple grilled protein and vegetables that picky eaters generally accept."
+        },
+        {
+          "q": "Is there sushi at Teppan Edo?",
+          "a": "The teppanyaki menu is grill-focused. For sushi in the Japan pavilion, use the counter downstairs in the Mitsukoshi building rather than booking here."
+        },
+        {
+          "q": "How long does a meal take?",
+          "a": "Plan on about ninety minutes from check-in to leaving. The chef cooks for the whole grill in sequence, so you are on the room's timing rather than your own."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tokyo-dining",
+      "name": "Tokyo Dining",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Japanese",
+      "priceTier": "$$$",
+      "priceNote": "Entrees and sushi plates roughly $22 to $42 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A quiet upstairs sushi and tempura room in Japan with lagoon-facing windows and unusually attentive service.",
+      "description": [
+        "Tokyo Dining shares the upper floor of the Mitsukoshi building with Teppan Edo but could not be more different: a calm, minimal room with a sushi bar, tempura and grilled entrees, and windows looking out over World Showcase Lagoon.",
+        "Service here is a step above the rest of World Showcase. The staff are formal in a way that reads as genuine attention rather than performance, and the room is quiet enough to have a conversation in, which is rare on this loop.",
+        "The sushi is good rather than exceptional and priced as though it were exceptional. The tempura is the better order. Where the restaurant earns its keep is the combination of a window table, a calm room, and a bento at lunch."
+      ],
+      "signatureItems": [
+        "Assorted sushi",
+        "Tempura",
+        "Bento box",
+        "Chicken teriyaki"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "view",
+        "air-conditioned-break",
+        "splurge"
+      ],
+      "tips": [
+        "Ask for a window table facing the lagoon. It is one of the better restaurant sightlines for the nighttime show, though pavilion rooflines block part of it.",
+        "The lunch bento is the value order — several components at a fraction of what the equivalent items cost à la carte at dinner.",
+        "It is the quietest table-service dining room in World Showcase, which makes it the right choice for a conversation or a solo meal.",
+        "If you want sushi without the sit-down price, the counter downstairs in the Mitsukoshi store sells it to go for considerably less."
+      ],
+      "verdict": "Careful service and a calm room at a price the sushi does not quite justify — book it for the lunch bento or a window table, not for the fish.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "katsura-grill",
+      "name": "Katsura Grill",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "Japanese",
+      "priceTier": "$",
+      "priceNote": "Entrees roughly $12 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Counter-service teriyaki, udon and sushi rolls in a garden courtyard that is the quietest place to eat in World Showcase.",
+      "description": [
+        "Katsura Grill sits up a short path at the side of the Japan pavilion, past the garden and the koi pond. It serves teriyaki chicken and beef, udon and curry, a few sushi rolls, and Japanese beer and sake, from a counter with both an indoor room and an outdoor terrace.",
+        "The food is straightforward and better than its price suggests. The teriyaki chicken with rice is the reliable order and the udon is a genuinely good cold-weather dish that almost nobody orders in Florida.",
+        "The setting is what makes it. The terrace looks out over a stone garden and water, it is set back from the promenade noise, and it is shaded. It is the single most pleasant place to eat outdoors in World Showcase."
+      ],
+      "signatureItems": [
+        "Chicken teriyaki",
+        "Beef udon",
+        "Sushi rolls",
+        "Edamame"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "air-conditioned-break",
+        "vegetarian"
+      ],
+      "tips": [
+        "Walk up the path past the garden rather than eating on the promenade. The terrace is the whole point and most people never climb the steps to see it.",
+        "There is a small indoor room as well as the terrace. On a hot day ask — it is not obvious from outside that it exists.",
+        "The koi pond and garden below the terrace is one of maybe three genuinely restful spots on the World Showcase loop and it is thirty seconds away.",
+        "Order at the counter or use mobile order; the pickup point is the same window and mobile is consistently faster at lunch."
+      ],
+      "verdict": "Honest Japanese counter food at fair prices in the best outdoor seating in World Showcase — the most underrated quick-service on the loop.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "kabuki-cafe",
+      "name": "Kabuki Cafe",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "Japanese shaved ice and drinks",
+      "priceTier": "$",
+      "priceNote": "Kakigori roughly $6 to $9, sake and beer $9 to $16, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small window at the front of the Japan pavilion selling kakigori shaved ice, sake and Japanese beer.",
+      "description": [
+        "Kabuki Cafe is an open-air kiosk on the promenade side of the Japan pavilion. The signature item is kakigori — finely shaved ice with fruit syrup, optionally topped with sweetened condensed milk — served in a tall cup with a spoon straw.",
+        "Kakigori is a different thing from an American snow cone. The ice is shaved rather than crushed, so it is closer to powder and it melts on the tongue instead of crunching. In August it is the most effective cooling device in World Showcase.",
+        "The window also pours sake by the glass and flight, plum wine, and Japanese beer, which makes it a legitimate quick drink stop as well as a snack stand."
+      ],
+      "signatureItems": [
+        "Kakigori shaved ice",
+        "Sake flight",
+        "Plum wine",
+        "Kirin draft"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "solo",
+        "vegetarian"
+      ],
+      "tips": [
+        "Order the kakigori without the sweetened cream topping and it is vegan and lighter — the syrup-only version is the more refreshing of the two.",
+        "The sake flight is a cheap way to try three styles side by side and the staff will explain the differences if it is not busy.",
+        "There is no seating at the window. Take it up the path to the Katsura Grill terrace or to the garden and sit properly.",
+        "This is the fastest cold thing on the top half of the loop. Between Japan and Morocco there is very little else."
+      ],
+      "verdict": "The kakigori is the most effective heat remedy in World Showcase and costs less than a Mickey pretzel — an easy yes on any summer afternoon.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "spice-road-table",
+      "name": "Spice Road Table",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Mediterranean and Moroccan small plates",
+      "priceTier": "$$",
+      "priceNote": "Small plates roughly $12 to $22, entrees $26 to $38, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Mediterranean small plates on a lagoon-front terrace in Morocco, with the easiest good table in World Showcase to get.",
+      "description": [
+        "Spice Road Table sits directly on the water at the Morocco pavilion, with a tiled interior room and a large covered terrace facing World Showcase Lagoon. The menu is built around small plates — hummus, grilled octopus, lamb sliders, calamari, fried cheese — with a few larger entrees and a short but well-chosen wine and cocktail list.",
+        "The small-plates format is the right one for a park. You can order three things, share them, and be out for less than a full entree costs at most of the other table-service restaurants on the loop. The hummus fries are the item people come back for.",
+        "It is also the easiest lagoon-front reservation at EPCOT and regularly seats walk-ups when La Hacienda and Rose & Crown are impossible. That combination — a water table, decent food, and actual availability — makes it one of the most useful bookings in the park."
+      ],
+      "signatureItems": [
+        "Hummus fries",
+        "Lamb sliders",
+        "Mediterranean flatbread",
+        "Grilled octopus"
+      ],
+      "goodFor": [
+        "date-night",
+        "groups",
+        "view",
+        "vegetarian",
+        "solo"
+      ],
+      "tips": [
+        "Ask for the terrace, not the interior. The lagoon-front tables are the reason to eat here and the inside room is a completely different, much duller experience.",
+        "It takes walk-ups more reliably than any other water-view restaurant in World Showcase. If you decided at 5 PM that you want a table on the lagoon tonight, start here.",
+        "Order three small plates for two people rather than entrees. It is cheaper, it is more interesting, and the kitchen is better at the small plates.",
+        "The vegetarian and vegan options here are among the strongest at EPCOT — the mezze-style menu means plant-based eaters get real dishes rather than a substitution.",
+        "For the nighttime show, a terrace table gives you fireworks over the water but the projections on the far pavilions will be side-on. Manage expectations."
+      ],
+      "verdict": "The most underrated table-service restaurant at EPCOT — a lagoon terrace, a genuinely good small-plates menu, and availability when everything else is booked solid.",
+      "faqs": [
+        {
+          "q": "Can you get a table at Spice Road Table without a reservation?",
+          "a": "More often than anywhere else with a lagoon view. It takes walk-ups regularly, especially at the shoulder hours around 3 PM and after 8 PM."
+        },
+        {
+          "q": "Can you see the nighttime show from Spice Road Table?",
+          "a": "From the terrace, yes — you get fireworks over the water. The projection elements on the far pavilions will be at an angle, so it is a partial view rather than a full one."
+        },
+        {
+          "q": "Is Spice Road Table good for vegetarians?",
+          "a": "Unusually good. The mezze-style small plates mean vegetarian and vegan diners get real dishes built for them rather than a modified entree."
+        },
+        {
+          "q": "Is it a full meal or just snacks?",
+          "a": "Either. Three or four small plates make a full dinner for two, and there are larger entrees if you want a conventional plate."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tangierine-cafe",
+      "name": "Tangierine Café",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "Moroccan and Mediterranean",
+      "priceTier": "$",
+      "priceNote": "Platters and wraps roughly $14 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Counter-service shawarma platters and wraps in the Morocco souk, with a coffee bar and indoor seating.",
+      "description": [
+        "Tangierine Café is inside the Morocco pavilion off the souk, a tiled counter-service room serving shawarma platters with rice and couscous, wraps, falafel, hummus and tabbouleh, plus Moroccan pastries and a strong coffee bar.",
+        "The platter is the order: sliced chicken or lamb over rice with a set of cold salads on the side, which is a real plate of food for what you would pay for a burger at the front of the park. The vegetarian platter is equally substantial rather than an afterthought.",
+        "The room is indoors and air-conditioned, which is uncommon for quick-service in World Showcase, and the coffee here is the best non-Starbucks coffee in the park."
+      ],
+      "signatureItems": [
+        "Shawarma platter",
+        "Falafel wrap",
+        "Hummus and tabbouleh",
+        "Baklava"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "air-conditioned-break",
+        "big-appetites"
+      ],
+      "tips": [
+        "Order the platter rather than the wrap. It is a couple of dollars more and roughly twice the food.",
+        "The Moroccan coffee at the side bar is the best coffee in EPCOT outside of the Starbucks counter, and there is essentially never a line for it.",
+        "This is one of the very few air-conditioned quick-service dining rooms on the World Showcase loop. In August that is worth planning around.",
+        "The baklava at the counter is a couple of dollars and is a better dessert than most of what you will pay eight dollars for elsewhere on the loop."
+      ],
+      "verdict": "The best value plate of food in World Showcase — a full shawarma platter with sides for less than a counter-service burger, in an air-conditioned room.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "les-chefs-de-france",
+      "name": "Les Chefs de France",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "French",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $28 to $46 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A glass-walled Parisian brasserie in the France pavilion serving onion soup, duck confit and profiteroles at bistro pace.",
+      "description": [
+        "Les Chefs de France is the bright, glassed-in brasserie at the front of the France pavilion, with big windows onto the promenade and a room that looks like a Paris corner restaurant with the volume turned up. It has been open since the park's early years and was established with the involvement of a group of well-known French chefs.",
+        "The menu is brasserie classics: gratinéed onion soup, escargots, duck confit, steak frites, a quiche, and profiteroles for dessert. None of it is inventive and none of it needs to be. The onion soup and the profiteroles are the two dishes regulars order without reading the menu.",
+        "Service moves faster than most World Showcase table service, which makes it a workable lunch if you have a schedule. The room is loud and bright rather than romantic — if you want the quiet French dinner, La Crêperie next door is closer to it."
+      ],
+      "signatureItems": [
+        "Gratinéed onion soup",
+        "Duck confit",
+        "Steak frites",
+        "Profiteroles"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "groups",
+        "air-conditioned-break",
+        "special-occasion"
+      ],
+      "tips": [
+        "Order the onion soup even if it is ninety-five degrees outside. It is the single best thing this kitchen makes and skipping it is the most common regret here.",
+        "Lunch is materially cheaper than dinner for a near-identical menu and the room is quieter before 1 PM.",
+        "Ask for a window table on the promenade side. You get people-watching across the pavilion and better light than the interior tables.",
+        "Profiteroles are large enough for two. Order one dessert per couple rather than one each.",
+        "The kiosk outside the restaurant pours the orange slush with Grand Marnier that people cross the park for. Get one before or after rather than ordering a cocktail inside."
+      ],
+      "verdict": "Reliable brasserie cooking rather than a revelation, but the onion soup and profiteroles are worth the booking and the room is genuinely pleasant at lunch.",
+      "faqs": [
+        {
+          "q": "Is Les Chefs de France a signature restaurant?",
+          "a": "No, it operates as a standard table-service brasserie rather than a signature-tier restaurant. Dress is casual and the pace is faster than a fine-dining meal."
+        },
+        {
+          "q": "What should I order at Les Chefs de France?",
+          "a": "The gratinéed onion soup and the profiteroles are the two dishes regulars order every time. Duck confit and steak frites are the strongest mains."
+        },
+        {
+          "q": "Is it good for kids?",
+          "a": "Yes. The room is loud enough that nobody notices a restless child, there is a children's menu, and the pace is quick by table-service standards."
+        },
+        {
+          "q": "How is it different from La Crêperie de Paris?",
+          "a": "Chefs de France is a bright, busy brasserie with classic French entrees. La Crêperie behind it is quieter, cheaper, and built around buckwheat galettes and sweet crêpes."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "la-creperie-de-paris",
+      "name": "La Crêperie de Paris",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Breton crêpes and galettes",
+      "priceTier": "$$",
+      "priceNote": "Prix fixe around $42 per adult, or à la carte galettes and crêpes roughly $12 to $20 at the walk-up window, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Breton buckwheat galettes and sweet crêpes with hard cider, in the France expansion behind Remy's, plus a walk-up window.",
+      "description": [
+        "La Crêperie de Paris opened with the France pavilion expansion in 2021 and does one thing properly: Breton crêperie food. Savory galettes are made with buckwheat flour and filled with ham, cheese, egg, ratatouille or mushrooms; sweet crêpes use wheat batter with chocolate, salted caramel or fruit. Bolée cider is served in ceramic bowls the way it is in Brittany.",
+        "The restaurant has two faces. The sit-down dining room serves a prix fixe of a savory galette, a sweet crêpe and a cider or drink. A separate walk-up window sells single crêpes and galettes to go for a fraction of that, and the window is the better-known secret.",
+        "The buckwheat batter used for savory galettes is naturally wheat-free, which makes this one of the friendlier kitchens at Walt Disney World for gluten-avoiding diners — confirm your specific needs with the kitchen, but the base recipe works in your favor."
+      ],
+      "signatureItems": [
+        "Buckwheat galette complète",
+        "Ratatouille galette",
+        "Salted caramel crêpe",
+        "Bolée of hard cider"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "quick-bite",
+        "vegetarian",
+        "budget"
+      ],
+      "tips": [
+        "Use the walk-up window unless you specifically want to sit down. Same kitchen, a third of the price, and the queue is usually under ten minutes.",
+        "Cider comes in a ceramic bowl rather than a glass, which is correct and which surprises people. Order the brut rather than the sweet.",
+        "The seating area behind the France pavilion here is the least congested rest space in World Showcase, with real shade and clean restrooms nearby.",
+        "The savory galettes are made with buckwheat batter and are the reason gluten-avoiding guests should put France on their list. Speak to the kitchen about your specific requirements.",
+        "It is directly beside Remy's Ratatouille Adventure, so a walk-up crêpe is the ideal thing to eat while someone in your party finishes the ride."
+      ],
+      "verdict": "One of the best-value real meals at EPCOT if you use the walk-up window; the sit-down prix fixe is pleasant but you are paying double for a chair.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at La Crêperie de Paris?",
+          "a": "For the dining room, yes on busy days. The separate walk-up window requires none and serves the same crêpes and galettes à la carte."
+        },
+        {
+          "q": "Are the galettes gluten-free?",
+          "a": "Savory galettes are made from buckwheat batter, which is naturally wheat-free, and this is one of the more accommodating kitchens at EPCOT for gluten-avoiding guests. Confirm preparation and cross-contact details with the kitchen for your specific needs."
+        },
+        {
+          "q": "What is the difference between a crêpe and a galette here?",
+          "a": "Galettes are the savory version made with buckwheat flour; crêpes are the sweet version made with wheat batter. A traditional Breton meal is one of each with cider."
+        },
+        {
+          "q": "Is the walk-up window cheaper?",
+          "a": "Substantially. Single items from the window cost a fraction of the sit-down prix fixe and come from the same kitchen, which makes it one of the better value meals in World Showcase."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "les-halles-boulangerie-patisserie",
+      "name": "Les Halles Boulangerie-Pâtisserie",
+      "land": "world-showcase",
+      "service": "bakery",
+      "cuisine": "French bakery",
+      "priceTier": "$",
+      "priceNote": "Sandwiches roughly $11 to $15, pastries $5 to $9, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A proper French bakery at the back of the France pavilion, and the best cheap lunch at EPCOT.",
+      "description": [
+        "Les Halles is tucked down an alley at the back of the France pavilion, styled as a Parisian market hall with a long counter of baguette sandwiches, quiche, croissants, éclairs, macarons, tarts and a case of small pastries, plus wine and beer by the glass.",
+        "The jambon-beurre — ham and butter on a baguette, nothing else — is the single best cheap lunch at EPCOT. It costs about a third of what a table-service entree costs, it is made on genuinely good bread, and it is portable.",
+        "The pastry case is the strongest in any Disney park. The Napoleon and the almond croissant are the reference orders. Everything is made in a real bakery kitchen on site rather than shipped in."
+      ],
+      "signatureItems": [
+        "Jambon-beurre baguette sandwich",
+        "Napoleon",
+        "Almond croissant",
+        "Quiche Lorraine"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "solo",
+        "vegetarian"
+      ],
+      "tips": [
+        "The queue splits into two lines inside the door — one for sandwiches and hot items, one for the pastry case. Look at both before joining; they move at different speeds.",
+        "The jambon-beurre is the order. It is unglamorous, it costs about twelve dollars, and it is better than most twenty-eight-dollar plates on the loop.",
+        "There is indoor seating at the back and an outdoor courtyard, both of which people miss because the counter is what faces you when you walk in.",
+        "Buy pastries in the morning. The case is fully stocked early and the best items are gone by late afternoon on a busy day.",
+        "Wine by the glass is available here at a fraction of restaurant prices. A glass of Bordeaux and a baguette in the courtyard is the cheapest good hour in World Showcase."
+      ],
+      "verdict": "The best bakery at Walt Disney World and the smartest cheap meal at EPCOT — the jambon-beurre alone justifies walking to the far end of the loop.",
+      "faqs": [
+        {
+          "q": "What should I order at Les Halles?",
+          "a": "The jambon-beurre baguette for a meal and the Napoleon for dessert. Both are what the bakery does best and both are cheap by park standards."
+        },
+        {
+          "q": "Is there seating at Les Halles?",
+          "a": "Yes — an indoor room at the back and an outdoor courtyard, both easy to miss because the counter dominates the entrance. Walk past the queue to find them."
+        },
+        {
+          "q": "Is Les Halles good for breakfast?",
+          "a": "It is one of the better breakfasts at EPCOT: croissants, pain au chocolat and quiche with coffee, at a fraction of table-service prices. It opens with the World Showcase pavilions rather than at park opening, so check times."
+        },
+        {
+          "q": "Can you get wine at a bakery?",
+          "a": "Yes. Les Halles pours wine and beer by the glass at considerably lower prices than the sit-down restaurants a hundred feet away."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "l-artisan-des-glaces",
+      "name": "L'Artisan des Glaces",
+      "land": "world-showcase",
+      "service": "snack-cart",
+      "cuisine": "Ice cream and sorbet",
+      "priceTier": "$",
+      "priceNote": "Scoops roughly $6 to $9, ice cream martini around $16, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small French ice cream shop making its own sorbets and the ice cream martini that adults queue for.",
+      "description": [
+        "L'Artisan des Glaces is a narrow shop on the France pavilion street making ice cream and sorbet in house in small batches. The rotating flavor list runs to about a dozen, with the sorbets — particularly the fruit ones — noticeably better than the ice creams.",
+        "The specialty item is the ice cream martini: two scoops in a glass with a shot of Grand Marnier or a liqueur poured over them. It costs about what a cocktail costs and it is more interesting than either an ice cream or a drink on its own.",
+        "There is also a brioche ice cream sandwich, which is a scoop pressed into a warm sugared brioche bun. It is messy, it is very good, and it is the item you should get if you are choosing one."
+      ],
+      "signatureItems": [
+        "Ice cream martini",
+        "Brioche ice cream sandwich",
+        "Fruit sorbets",
+        "Ice cream macaron"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "date-night",
+        "families",
+        "splurge",
+        "vegetarian"
+      ],
+      "tips": [
+        "The brioche sandwich is the sleeper order and the one the staff will recommend if you ask. It does not photograph well, which is why nobody orders it.",
+        "Sorbets are made in house and are the better half of the case. The fruit flavors change with what is available.",
+        "The ice cream martini is a real pour of liqueur, not a splash. Two of them is a decision, not a snack.",
+        "There is no seating attached. The steps and low walls around the France courtyard are the nearest place to sit and they are usually free."
+      ],
+      "verdict": "Genuinely good small-batch sorbet and the best novelty dessert in World Showcase — the ice cream martini is worth its price once, the brioche sandwich every time.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "rose-and-crown-dining-room",
+      "name": "Rose & Crown Dining Room",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "British",
+      "priceTier": "$$$",
+      "priceNote": "Entrees roughly $24 to $40 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "British pub food in the United Kingdom pavilion with a lagoon-front terrace that is the most contested table at EPCOT.",
+      "description": [
+        "Rose & Crown is the dining room attached to the United Kingdom pavilion's pub, serving fish and chips, bangers and mash, shepherd's pie, a cottage pie, and sticky toffee pudding, with a full bar of British ales and ciders. The interior is styled as three connected rooms in different regional pub traditions.",
+        "The terrace is what people book for. It sits at the water's edge on the lagoon with an unobstructed line across to the far pavilions, and it is the most requested outdoor seating in the park. Getting one is a matter of booking a late seating and asking, and being told no more often than yes.",
+        "The food is competent pub cooking. The fish and chips are decent, the sticky toffee pudding is genuinely good, and nothing here is going to change your understanding of British food. That is fine — this restaurant sells atmosphere and a view, and it does both well."
+      ],
+      "signatureItems": [
+        "Fish and chips",
+        "Bangers and mash",
+        "Shepherd's pie",
+        "Sticky toffee pudding"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "view",
+        "date-night",
+        "special-occasion"
+      ],
+      "tips": [
+        "Book a seating about ninety minutes before the nighttime show and request the terrace at check-in. That is the only realistic path to an outdoor table.",
+        "The terrace cannot be guaranteed at booking no matter what anyone tells you. If it is the whole reason you are going, be prepared to be disappointed and have a plan B viewing spot.",
+        "Sticky toffee pudding is the best thing on the menu and it is a dessert. Order it regardless of what else you get.",
+        "The pub next door serves a shorter version of the same food to walk-ups, with the same beer list and no reservation.",
+        "The fish and chips are also sold from the Yorkshire County Fish Shop window fifty feet away for less than half the price, and they are the same idea executed nearly as well."
+      ],
+      "verdict": "Solid pub food at a premium you are paying for the lagoon terrace — book it if you want a seat for the nighttime show, otherwise eat at the pub or the fish shop for far less.",
+      "faqs": [
+        {
+          "q": "How do you get a terrace table at Rose & Crown?",
+          "a": "You cannot book one directly. Reserve a seating around ninety minutes before the nighttime show and ask at check-in, and be prepared to be told no. Being flexible on time helps."
+        },
+        {
+          "q": "Can you watch the nighttime show from Rose & Crown?",
+          "a": "From the terrace, yes, and it is among the best restaurant views at EPCOT. Interior tables see almost nothing, so an indoor seating during the show is not the experience people are imagining."
+        },
+        {
+          "q": "Is the pub different from the dining room?",
+          "a": "Yes. The Rose & Crown Pub next door takes walk-ups, serves a shorter menu and the full drinks list, and needs no reservation. It is the better option if you just want a pint and something fried."
+        },
+        {
+          "q": "Are the fish and chips worth it?",
+          "a": "They are fine. The same dish is available from the Yorkshire County Fish Shop window nearby for less than half the price, and the difference in quality does not match the difference in cost."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "rose-and-crown-pub",
+      "name": "Rose & Crown Pub",
+      "land": "world-showcase",
+      "service": "lounge",
+      "cuisine": "British pub",
+      "priceTier": "$$",
+      "priceNote": "Pints roughly $10 to $14, pub plates $12 to $22, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The walk-up pub side of Rose & Crown, with the full beer list, a shorter food menu, and a piano player most evenings.",
+      "description": [
+        "The pub occupies the front room of the Rose & Crown building — a proper wooden bar with taps, a small number of tables, and standing room. It takes walk-ups, serves the full drinks list, and offers a shorter menu of pub plates including a scotch egg, fish and chips, and cheese boards.",
+        "There is usually a piano player working the room in the evenings, taking requests and running singalongs. It is the loudest, friendliest bar at EPCOT and the closest thing the park has to a genuine pub atmosphere.",
+        "As a strategy, the pub is what you want when the dining room next door is booked out: the same kitchen's better items, the same beer, no reservation, and no ninety-minute commitment."
+      ],
+      "signatureItems": [
+        "Scotch egg",
+        "Fish and chips",
+        "Bass ale",
+        "Welsh dragon cocktail"
+      ],
+      "goodFor": [
+        "solo",
+        "groups",
+        "date-night",
+        "late-night",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "The scotch egg is the best thing to eat on the pub side and it is not on the dining room menu.",
+        "Ask the bartender for a half-and-half if you want the layered pour. They make it properly and it is not on the board.",
+        "The piano player runs sets in the evening and the room fills for them. Arrive twenty minutes before if you want a table rather than a standing spot.",
+        "This is the best place at EPCOT to be alone at a bar with a book at 3 PM. Nobody will bother you and it is cold inside."
+      ],
+      "verdict": "The better half of the Rose & Crown building — same beer, better snacks, no reservation, and the only room at EPCOT that feels like an actual pub.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "yorkshire-county-fish-shop",
+      "name": "Yorkshire County Fish Shop",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "British fish and chips",
+      "priceTier": "$",
+      "priceNote": "Fish and chips roughly $13 to $15 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A walk-up window on the United Kingdom waterfront frying fish and chips to order, with lagoon-side tables.",
+      "description": [
+        "Yorkshire County Fish Shop is a small window on the lagoon side of the United Kingdom pavilion selling battered cod and chips in a paper container, plus beer and cider. There are picnic tables along the water directly in front of it.",
+        "The fish is fried to order and comes out hot, crisp, and in a genuinely large portion. It is the same idea the dining room next door charges more than twice as much for, and the gap in quality does not come close to the gap in price.",
+        "The tables outside face the lagoon, which makes this one of the cheapest legitimate nighttime-show viewing positions in the park if you time it right."
+      ],
+      "signatureItems": [
+        "Fish and chips",
+        "Bass ale",
+        "Strongbow cider",
+        "Chips with malt vinegar"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "view",
+        "big-appetites",
+        "groups"
+      ],
+      "tips": [
+        "Malt vinegar is on the condiment stand and free. Use it — the chips are made for it and most Americans walk past the bottle.",
+        "The waterfront tables here are a legitimate free viewing spot for the nighttime show. Buy dinner at 7 PM, sit down, and stay put.",
+        "One order feeds one hungry adult or two moderate eaters. It is a large portion for the price.",
+        "The window is on the lagoon side of the pavilion, not on the promenade side where most people look for it."
+      ],
+      "verdict": "Better value than the fish and chips in the dining room next door by a wide margin, and the waterfront tables are the cheapest good nighttime-show seats at EPCOT.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "le-cellier-steakhouse",
+      "name": "Le Cellier Steakhouse",
+      "land": "world-showcase",
+      "service": "table-service",
+      "cuisine": "Canadian steakhouse",
+      "priceTier": "$$$$",
+      "priceNote": "Entrees roughly $45 to $75 as of July 2026; expect $80 or more per adult with an appetizer and drink",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A windowless stone cellar under the Canada pavilion serving steak, poutine and the cheddar cheese soup people plan trips around.",
+      "description": [
+        "Le Cellier is built below ground under the Canada pavilion as a vaulted stone wine cellar with no windows, low lighting, and heavy furniture. It is a signature-tier steakhouse, which means higher prices and two dining plan credits historically, and it books out further ahead than almost anything else at EPCOT.",
+        "The Canadian cheddar cheese soup is the reason. It is a thick soup made with aged cheddar, bacon and a splash of beer, served with a pretzel bread roll, and it has been on the menu essentially forever. People order it who do not otherwise eat soup. It is available as a starter and is the item most regulars would keep if they could only keep one.",
+        "The steaks are good and priced accordingly. The filet is the standard order. The poutine is a legitimate side rather than a novelty. Whether the whole meal justifies the check depends entirely on how you feel about paying signature prices in a basement — but the room is genuinely atmospheric and the service is the most polished in the park."
+      ],
+      "signatureItems": [
+        "Canadian cheddar cheese soup",
+        "Le Cellier filet mignon",
+        "Poutine",
+        "Maple crème brûlée"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "date-night",
+        "splurge",
+        "air-conditioned-break",
+        "solo"
+      ],
+      "tips": [
+        "Order the cheddar cheese soup even if you are ordering nothing else you planned to. Everyone who skips it hears about it from the person across the table who did not.",
+        "Lunch is meaningfully cheaper than dinner for an overlapping menu, and the room is identical because there are no windows to change with the time of day.",
+        "This books out at sixty days for prime times. Same-day cancellations do appear in the app, most often between 2 PM and 4 PM slots.",
+        "It is dark and cave-like with no natural light, which some guests find cozy and others find oppressive. Know which you are before spending this much.",
+        "The pretzel bread that comes with the soup is the best bread in the park. Ask for more of it; they will bring it."
+      ],
+      "verdict": "The cheddar cheese soup is worth the trip and the steaks are good, but this is signature-tier pricing for a very good steakhouse rather than a great one — book it for the soup and the occasion.",
+      "faqs": [
+        {
+          "q": "What is Le Cellier famous for?",
+          "a": "The Canadian cheddar cheese soup, served with pretzel bread. It has been on the menu for decades and is the single most requested dish at EPCOT."
+        },
+        {
+          "q": "How far ahead should I book Le Cellier?",
+          "a": "As early as reservations open, sixty days out, for prime dinner times. Same-day cancellations do surface in the app, most reliably for mid-afternoon slots."
+        },
+        {
+          "q": "Is Le Cellier worth the price?",
+          "a": "It is a very good steakhouse at signature prices in a windowless basement. If the room and the soup appeal to you, yes. If you want the best steak per dollar on property, there are stronger options at the resort hotels."
+        },
+        {
+          "q": "Are there windows at Le Cellier?",
+          "a": "None. The restaurant is underground and styled as a stone wine cellar, lit low throughout. Some guests find it cozy; others find it claustrophobic."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "refreshment-port",
+      "name": "Refreshment Port",
+      "land": "world-showcase",
+      "service": "quick-service",
+      "cuisine": "Snacks and frozen drinks",
+      "priceTier": "$",
+      "priceNote": "Items roughly $6 to $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "lunch"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small window at the Canada corner of the promenade known for its croissant doughnut and frozen drinks.",
+      "description": [
+        "Refreshment Port sits at the corner where World Showcase meets the walkway back toward the front of the park, beside the Canada pavilion. It is a compact counter selling chicken nuggets, fries, frozen drinks and coffee, plus the croissant doughnut that made it known.",
+        "The croissant doughnut is a laminated pastry fried like a doughnut and rolled in sugar, sometimes filled. It is the item people detour for and it is genuinely good — crisp on the outside, layered inside, and warm if you catch a fresh batch.",
+        "The rest of the menu is convenience food. What the stand really provides is a last cold drink and a snack at the exact point where most people are heading for the exit."
+      ],
+      "signatureItems": [
+        "Croissant doughnut",
+        "Frozen drinks",
+        "Chicken nuggets",
+        "Coffee"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "toddlers"
+      ],
+      "tips": [
+        "Ask whether the croissant doughnuts are fresh. They are made in batches, and a warm one and a cold one are different products.",
+        "It is the last food stop before the walkway back to the front of the park, which makes it the natural spot to grab something for the walk out.",
+        "The frozen drinks here are among the cheapest cold items in World Showcase and there is rarely a line at the drinks side of the window.",
+        "Mobile order works and the pickup point is the same window, which regularly saves ten minutes at midday."
+      ],
+      "verdict": "The croissant doughnut is worth the stop if it is fresh and skippable if it is not — everything else here is filler at the corner where you need something anyway.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

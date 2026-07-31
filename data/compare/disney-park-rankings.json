@@ -1,0 +1,405 @@
+{
+  "slug": "disney-park-rankings",
+  "title": "Disney Park Rankings: All Six US Parks, 1 to 6",
+  "h1": "Every US Disney Park, Ranked 1 to 6",
+  "metaDescription": "An unhedged ranking of all six US Disney parks from best to worst, with the reasoning for each placement and the strongest counterargument against it.",
+  "summary": "Disneyland Park is the best Disney park in the United States. Animal Kingdom is the sixth. Both of those are arguable, and the argument against each placement is printed alongside it.",
+  "readingTimeMinutes": 12,
+  "contenders": [
+    { "key": "disneyland-park", "name": "Disneyland Park", "subtitle": "Anaheim, opened 1955" },
+    { "key": "magic-kingdom", "name": "Magic Kingdom", "subtitle": "Bay Lake, opened 1971" },
+    { "key": "epcot", "name": "EPCOT", "subtitle": "Bay Lake, opened 1982" },
+    { "key": "california-adventure", "name": "Disney California Adventure", "subtitle": "Anaheim, opened 2001" },
+    { "key": "hollywood-studios", "name": "Disney's Hollywood Studios", "subtitle": "Bay Lake, opened 1989" },
+    { "key": "animal-kingdom", "name": "Disney's Animal Kingdom", "subtitle": "Bay Lake, opened 1998" }
+  ],
+  "verdict": {
+    "short": "1. Disneyland Park. 2. Magic Kingdom. 3. EPCOT. 4. California Adventure. 5. Hollywood Studios. 6. Animal Kingdom. No ties, no hedging.",
+    "body": [
+      "Disneyland Park is first because it does more with less than any theme park in the country. Fifty-five operating attractions on 85 acres, a dark-ride bench nothing else comes close to, and a set of rides — Indiana Jones Adventure, Matterhorn Bobsleds, a full-length Pirates of the Caribbean, Mr. Toad's Wild Ride, the Finding Nemo Submarine Voyage — that exist nowhere else in America. It also has a working river, a full Star Wars land, and the shortest walk between any two good things of any park on this list.",
+      "Magic Kingdom is second because it is the better-executed version of the same idea and the worse-stocked one. Wider walkways, a bigger castle, a better nighttime show, more room to breathe, and about eleven fewer attractions. It is the park that does the castle-park job most completely and the park with the least reason to visit twice.",
+      "The bottom half is where this ranking earns its disagreements. Animal Kingdom, which many people would place third, is sixth here — not because it is bad, but because roster depth is the criterion this list is built on and Animal Kingdom has six must-do attractions, no nighttime finish, and lost DINOSAUR in February 2026 with nothing open in its place until 2027 at the earliest.",
+      "Every placement below carries the strongest argument against it, printed alongside the case for it. If you are going to disagree with a ranking, you should at least be handed the ammunition."
+    ]
+  },
+  "intro": [
+    "Rankings that refuse to commit are worthless, so this one commits. Six parks, one order, no ties, and a defense of each slot that names what the park is bad at as well as what it is good at.",
+    "What was ranked: roster depth, ride quality, the quality of a full day spent there, atmosphere and sense of place, food, and how well the park holds up on a fourth visit. What was ignored: crowd levels, wait times, and Lightning Lane, all of which are functions of demand and pricing rather than of the park. A park is not worse because more people want to go.",
+    "Two structural facts shape the whole list. First, Disneyland Park operates roughly 55 attractions to Magic Kingdom's 44, Hollywood Studios' 31, and Animal Kingdom's 31 — roster depth separates the top from the bottom more than anything else. Second, three of the six parks are currently missing significant pieces to construction, and a ranking has to grade the park that exists rather than the one that is coming.",
+    "As of July 2026: Magic Kingdom's Rivers of America, Liberty Belle Riverboat, and Tom Sawyer Island closed permanently in 2025. Hollywood Studios lost Muppet*Vision 3D in 2025. Animal Kingdom lost DINOSAUR and Restaurantosaurus in February 2026. California Adventure lost Monsters, Inc. Mike & Sulley to the Rescue! in early 2026. Only the Animal Kingdom replacement, Tropical Americas, has a Disney-stated window, and 2027 is a target rather than a promise."
+  ],
+  "dimensions": [
+    {
+      "name": "Roster depth",
+      "winner": "disneyland-park",
+      "cells": {
+        "disneyland-park": "About 55 operating attractions on 85 acres — the densest park in America and the deepest bench by a wide margin.",
+        "magic-kingdom": "About 44 on 107 acres, thinned by the permanent loss of the Rivers of America attractions in 2025.",
+        "epcot": "About 42 on 300 acres, but a large share are galleries and films rather than rides.",
+        "california-adventure": "About 34 on 72 acres, weighted toward fewer, larger attractions.",
+        "hollywood-studios": "About 31, with seven headliners and very little between them.",
+        "animal-kingdom": "About 31, with only six genuine must-dos and three attractions carrying height requirements."
+      },
+      "note": "This is the single most heavily weighted criterion on the page, and it does most of the work separating the top three from the bottom three."
+    },
+    {
+      "name": "Peak experience",
+      "winner": "animal-kingdom",
+      "cells": {
+        "disneyland-park": "Indiana Jones Adventure and Star Wars: Rise of the Resistance. Two all-time attractions.",
+        "magic-kingdom": "The nighttime fireworks and projection show against Cinderella Castle is the best single moment in American theme parks.",
+        "epcot": "Guardians of the Galaxy: Cosmic Rewind, the best coaster Disney has built in the United States.",
+        "california-adventure": "Radiator Springs Racers at dusk, with the Cars Land neon coming on behind you.",
+        "hollywood-studios": "Star Wars: Rise of the Resistance, the most ambitious attraction Disney has ever attempted.",
+        "animal-kingdom": "Avatar Flight of Passage, plus Pandora after dark, which is the best-looking place at either resort."
+      },
+      "note": "If this were the only criterion, Animal Kingdom would rank second or third. It is not, which is the entire argument of this page."
+    },
+    {
+      "name": "Sense of place",
+      "winner": "animal-kingdom",
+      "cells": {
+        "disneyland-park": "Strong in New Orleans Square and Galaxy's Edge, incoherent in Tomorrowland, which has been visually confused for two decades.",
+        "magic-kingdom": "Consistent and well maintained throughout, if less atmospheric than Anaheim's best corners.",
+        "epcot": "Split personality by design. World Showcase is superb; the front of the park has never fully resolved.",
+        "california-adventure": "Cars Land is among the best-realized environments Disney has built. The rest of the park is a collection rather than a whole.",
+        "hollywood-studios": "The weakest of the six. Galaxy's Edge and Toy Story Land are strong; the connective tissue is a parking lot with buildings on it.",
+        "animal-kingdom": "The best of the six, and it is not close. The landscaping alone puts it in a different category."
+      },
+      "note": "Animal Kingdom wins two of six criteria outright and still finishes last, which tells you how much roster depth was weighted here."
+    },
+    {
+      "name": "Quality of a full day",
+      "winner": "magic-kingdom",
+      "cells": {
+        "disneyland-park": "Excellent but unfinishable. Twenty to twenty-five attractions in a day and you still leave things behind.",
+        "magic-kingdom": "The most complete day of the six: a finishable list, real midday filler, and a proper ending.",
+        "epcot": "Needs a day and a half. One day forces a choice between the rides and World Showcase.",
+        "california-adventure": "Genuinely finishable, with the shortest walking of the six and a nighttime show to close on.",
+        "hollywood-studios": "The most stressful day at either resort. Seven headliners, the longest waits in Florida, and no filler.",
+        "animal-kingdom": "The easiest to finish and the shortest. No nighttime spectacular means the day fizzles rather than ends."
+      },
+      "note": "Day quality is where Hollywood Studios loses most of its ground. Great rides, poor day."
+    },
+    {
+      "name": "Food",
+      "winner": "epcot",
+      "cells": {
+        "disneyland-park": "The best snack tier of the six and only four table-service restaurants. Effectively dry outside three locations.",
+        "magic-kingdom": "The worst of the six. Seven table-service restaurants selling rooms rather than meals, and no bar anywhere.",
+        "epcot": "Sixteen table-service restaurants across eleven pavilions and the best drinking lap in American theme parks.",
+        "california-adventure": "The best average meal and the best bar program of any Disney park, from a bench of only three restaurants.",
+        "hollywood-studios": "Two strong quick-service spots, one very good bar, and a lot of expensive theme rooms.",
+        "animal-kingdom": "Underrated. Satu'li Canteen is the best quick service at Walt Disney World and Tiffins is the most underbooked good restaurant on property."
+      },
+      "note": "Food was weighted lightly here because it is covered in depth on its own page, but it is the main reason Magic Kingdom does not rank first."
+    },
+    {
+      "name": "Fourth-visit value",
+      "winner": "epcot",
+      "cells": {
+        "disneyland-park": "High. The dark-ride bench is deep enough that trip four still surfaces things you skipped.",
+        "magic-kingdom": "The lowest of the six. The park changes least and its must-do list is memorized by trip two.",
+        "epcot": "The highest. Sixteen restaurants means there is always something new to eat, and the pace suits someone not chasing headliners.",
+        "california-adventure": "Moderate. Rewards repeat visits through food and single rider efficiency rather than new content.",
+        "hollywood-studios": "Low. Same seven queues every trip, and the loss of Muppet*Vision removed the one thing you did differently.",
+        "animal-kingdom": "Improves with repetition. The trails and animal viewing reward an unhurried second and third look."
+      },
+      "note": "This criterion is why EPCOT places above California Adventure despite losing on average meal quality and thrill roster."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "disneyland-park",
+      "headline": "The most attractions, the shortest walks, and a dozen rides that exist nowhere else in the country.",
+      "body": [
+        "Fifty-five operating attractions on 85 acres. Magic Kingdom has about 44 on 107. That single comparison carries most of the case, because roster depth is what determines whether a park day is full or padded, and Disneyland Park's day is full from opening to close.",
+        "The specific advantage is the dark-ride bench. Mr. Toad's Wild Ride, Alice in Wonderland, Pinocchio's Daring Journey, Snow White's Enchanted Wish, Peter Pan's Flight, Roger Rabbit's Car Toon Spin, Storybook Land Canal Boats, Casey Jr. Circus Train, and the Finding Nemo Submarine Voyage are nine attractions that either do not exist in Florida or exist there in weaker form. They hold at 10 to 25 minutes most of the day, which means the gaps between headliners fill themselves.",
+        "At the top end it holds Indiana Jones Adventure, the best enhanced motion vehicle dark ride Disney has built, and Star Wars: Rise of the Resistance, the most ambitious attraction the company has ever attempted. Its Pirates of the Caribbean runs roughly twice as long as Magic Kingdom's, with two drops and an outdoor bayou float past the Blue Bayou dining room. Its Space Mountain is smoother, better scored, and open to shorter riders at 40 inches. Its it's a small world is the longer, better version with an outdoor section and a working facade.",
+        "It also still has a river. The Mark Twain Riverboat, the Sailing Ship Columbia, Davy Crockett's Explorer Canoes, and Pirate's Lair on Tom Sawyer Island all operate, while Magic Kingdom's equivalents closed permanently in 2025. On a hot afternoon, Tom Sawyer Island is the best free hour at either resort.",
+        "**The counterargument:** Disneyland Park is old, and it shows in ways a ranking based on attraction counts does not capture. The walkways are too narrow for the crowds it draws, Fantasyland after noon is a genuine crush, restrooms are older and scarcer, and Tomorrowland has been visually incoherent since the 1998 rework. Magic Kingdom is a more comfortable place to spend twelve hours, and comfort over twelve hours is not a trivial criterion. If you weight guest experience over roster, Magic Kingdom takes this slot."
+      ],
+      "pros": [
+        "The deepest attraction roster of any park in America.",
+        "Nine or more classic dark rides with no Florida equivalent.",
+        "Indiana Jones Adventure and Rise of the Resistance at the top end.",
+        "A working Rivers of America with three separate attractions on it.",
+        "The shortest walk between any two good things of the six parks."
+      ],
+      "cons": [
+        "Narrow walkways and heavy local crowds make afternoons difficult.",
+        "Tomorrowland is the weakest land at either resort.",
+        "Effectively dry outside Oga's Cantina, Blue Bayou, and Club 33.",
+        "Older restrooms and infrastructure than any park on this list."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "magic-kingdom",
+      "headline": "The better-executed castle park and the worse-stocked one.",
+      "body": [
+        "Everything Magic Kingdom does, it does cleanly. The hub-and-spoke layout is legible in a way Disneyland's accreted geography is not. The walkways are wide enough for the crowds. Cinderella Castle at 189 feet is a far better projection surface than Sleeping Beauty Castle at 77, and the hub lawns give you somewhere to actually stand and watch the fireworks — which are the best closing ceremony in American theme parks.",
+        "It also has the strongest midday bench of the six. The Tomorrowland Transit Authority PeopleMover, Walt Disney's Carousel of Progress, The Hall of Presidents, Mickey's PhilharMagic, Monsters, Inc. Laugh Floor, and the Country Bear Musical Jamboree are six attractions with essentially no wait and full air conditioning, which is how a Florida day survives the hours between one and four.",
+        "Its exclusives are real: TRON Lightcycle / Run at 48 inches is the fastest coaster at either resort, Seven Dwarfs Mine Train at 38 is the better-built of the two parks' family coasters, and the Haunted Mansion's interactive graveyard queue is the best queue Disney has ever constructed.",
+        "It ranks second because it has about eleven fewer attractions than Disneyland Park, no Star Wars presence at all, no Indiana Jones Adventure, no Matterhorn, no classic dark-ride bench beyond Peter Pan and Winnie the Pooh, and a Frontierland currently missing its river, its riverboat, and its island. Add the worst food of the six and it is a clear second rather than a close one.",
+        "**The counterargument:** if the criterion is \"which park is the best place to actually spend a day,\" Magic Kingdom wins outright, and the one-day rankings on this site say so. It is more comfortable, better organized, better staffed, better shaded in the places that matter, and it ends better. Roster depth is a defensible thing to weight most heavily, but it is a choice, and someone weighting daily experience instead would flip the top two without being wrong."
+      ],
+      "pros": [
+        "The best nighttime show at either resort, with room to watch it.",
+        "The deepest bench of low-wait, air-conditioned midday content.",
+        "The Haunted Mansion's interactive queue is the best queue Disney has built.",
+        "TRON Lightcycle / Run is the fastest coaster at either resort.",
+        "The most comfortable park of the six to spend twelve hours in."
+      ],
+      "cons": [
+        "About eleven fewer attractions than Disneyland Park.",
+        "Frontierland is thin with the Rivers of America attractions permanently closed.",
+        "The worst food of the six parks, with no bar anywhere in the park.",
+        "No Star Wars presence at all, and no equivalent to Indiana Jones Adventure or Matterhorn Bobsleds.",
+        "The lowest fourth-visit value of the six."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "epcot",
+      "headline": "The highest ceiling for an adult and the best park at either resort to visit for the fifth time.",
+      "body": [
+        "EPCOT is the park that gets better as you get older and as you go more often. Eleven country pavilions, sixteen table-service restaurants, and a promenade around a lake where each stop is a different cuisine — no other theme park in the world is structured that way.",
+        "It also has stronger rides than its reputation suggests. Guardians of the Galaxy: Cosmic Rewind is the best coaster Disney has built in the United States, a reverse launch with vehicles that rotate to face the show. Test Track, in its third version since July 2025, is the fastest attraction at Walt Disney World and uses Lightning Lane Multi Pass rather than Single Pass. Mission: SPACE Orange at 44 inches produces sustained forces nothing else at Disney comes near. Soarin' Around the World, Frozen Ever After, Remy's Ratatouille Adventure, and Spaceship Earth round out a solid roster.",
+        "The front of the park has never fully resolved, even after a long rebuild. World Celebration is more coherent than what it replaced and still reads as a plaza looking for a purpose, and the walk from Spaceship Earth to Remy in the France pavilion is fifteen minutes of largely unshaded ground.",
+        "Third place is where an honest reckoning lands: better than California Adventure on breadth, repeat value, and top-end rides, and behind the two castle parks on roster depth and on the quality of a single day.",
+        "**The counterargument:** EPCOT is a bad park for a large share of the people who visit it. One day forces a choice between the ride half and the eating half. It is 300 acres with the highest walking load of the six and almost no shade. And a meaningful part of its food reputation rests on rotating booth events rather than permanent kitchens — judged only on what is open every day, its lead over California Adventure narrows to almost nothing. A visitor with one day and small children would rank this park fifth or sixth, and would be right about their own trip."
+      ],
+      "pros": [
+        "Sixteen table-service restaurants and the best drinking lap in American theme parks.",
+        "Guardians of the Galaxy: Cosmic Rewind is the best coaster Disney has built here.",
+        "The highest fourth-visit value of the six.",
+        "The most indoor, air-conditioned attractions, which matters in a Florida summer.",
+        "World Showcase is a genuinely distinctive idea nobody else has copied successfully."
+      ],
+      "cons": [
+        "Three hundred acres with the highest walking load of the six.",
+        "One day is not enough and a day and a half is an awkward booking.",
+        "The front of the park still lacks a clear identity.",
+        "Several pavilion restaurants are ordinary food at premium prices.",
+        "Very little shade anywhere on the World Showcase promenade."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "california-adventure",
+      "headline": "The most improved park in Disney's portfolio, still judged by a version that stopped existing in 2012.",
+      "body": [
+        "California Adventure opened in 2001 to a poor reception and spent a decade earning it. The park standing today is a different thing: Cars Land, added in 2012, is among the best-realized environments Disney has ever built, and Radiator Springs Racers is a top-five attraction at either resort.",
+        "The roster is stronger than its 34-attraction count suggests because the hit rate is high. Incredicoaster is a launched coaster with an inversion. Guardians of the Galaxy – Mission: BREAKOUT! is a drop tower plenty of riders prefer to Tower of Terror. Grizzly River Run genuinely soaks you. Soarin' Around the World, WEB SLINGERS, Toy Story Midway Mania, and The Little Mermaid fill out the middle, and World of Color closes the night with better viewing capacity than anything across the esplanade.",
+        "It also has the best food and the only serious bar program at Disneyland Resort, and the best single rider setup at any Disney park — Racers, Incredicoaster, Grizzly River Run, Goofy's Sky School, and Soarin' all run one.",
+        "Fourth place reflects two real weaknesses. The park is thin for anyone under 40 inches, with about five attractions carrying no height requirement against Disneyland Park's 24. And the middle of the roster is shallow: after the five or six headliners, there is not much left, and the loss of Monsters, Inc. Mike & Sulley to the Rescue! in early 2026 made that worse.",
+        "**The counterargument:** on a per-ride basis, California Adventure may have the strongest roster of any park on this list outside the top two. Radiator Springs Racers, Incredicoaster, Mission: BREAKOUT!, Grizzly River Run, Soarin', and WEB SLINGERS is a better six than EPCOT's best six for anyone who came to ride rather than to eat. Rank on ride quality per attraction instead of roster depth and this park is third, comfortably."
+      ],
+      "pros": [
+        "Radiator Springs Racers is a top-five attraction at either resort.",
+        "Cars Land is among the best-realized environments Disney has built.",
+        "The best food and bar program at any American Disney park.",
+        "Five single rider lines, the best setup at any Disney park.",
+        "The shortest total walking distance of the six."
+      ],
+      "cons": [
+        "Only about five attractions with no height requirement.",
+        "Shallow middle tier — after the headliners the park runs out quickly.",
+        "Monsters, Inc. Mike & Sulley to the Rescue! closed in early 2026 with no announced replacement date.",
+        "Very little shade in Cars Land or Pixar Pier.",
+        "Still reads as a collection of areas rather than a coherent park."
+      ]
+    },
+    {
+      "rank": 5,
+      "key": "hollywood-studios",
+      "headline": "The best headliners in Florida attached to the worst park around them.",
+      "body": [
+        "Ride for ride, Hollywood Studios is stronger than its placement suggests. Star Wars: Rise of the Resistance is the most ambitious attraction Disney has built. The Twilight Zone Tower of Terror is the best drop ride the company operates, with randomized sequences that make repeat rides genuinely different. Rock 'n' Roller Coaster Starring The Muppets, rethemed and reopened on May 26, 2026, is the most aggressive ride profile Disney runs in America. Slinky Dog Dash, Mickey & Minnie's Runaway Railway, Millennium Falcon: Smugglers Run, and Toy Story Midway Mania are all good.",
+        "Everything around those attractions is the problem. The park is 135 acres of largely unshaded pavement with congested chokepoints, seven headliners drawing the longest standby waits at Walt Disney World, and almost no low-wait content to absorb the overflow. When a ride goes down, there is nowhere to go.",
+        "It is also the park most damaged by recent closures. Muppet*Vision 3D and the Muppets Courtyard closed permanently in 2025 for the Monstropolis project, which has no announced date. That removed the park's most useful air-conditioned filler, and the effect on the middle of the day is out of proportion to the single ride it represents.",
+        "For a child under 38 inches there are three attractions in the entire park. For a repeat visitor there is nothing new. For an adult wanting a leisurely day there is Oga's Cantina and not much else.",
+        "**The counterargument:** if you rank on the strength of the top five attractions alone, Hollywood Studios is second behind Disneyland Park and ahead of everything else. Rise of the Resistance, Tower of Terror, Rock 'n' Roller Coaster, Slinky Dog Dash, and Runaway Railway is a stronger five than Magic Kingdom's or EPCOT's. A visitor who cares only about the rides and not about the day around them would put this park in the top three and would have a coherent case."
+      ],
+      "pros": [
+        "Rise of the Resistance is the most ambitious attraction Disney has built.",
+        "Tower of Terror's randomized drop sequence still has no equal.",
+        "The highest headliner concentration at Walt Disney World.",
+        "Fantasmic! plays in a real amphitheater with real seats.",
+        "Compact enough that total walking is low."
+      ],
+      "cons": [
+        "Almost no low-wait content between the headliners.",
+        "The worst shade and the longest standby waits at Walt Disney World.",
+        "Three attractions for anyone under 38 inches.",
+        "Muppet*Vision 3D closed permanently in 2025 with no replacement date announced.",
+        "The weakest sense of place of the six parks."
+      ]
+    },
+    {
+      "rank": 6,
+      "key": "animal-kingdom",
+      "headline": "The most beautiful park Disney has ever built, and the thinnest day of the six.",
+      "body": [
+        "Placing Animal Kingdom sixth is the most contested judgment on this page, so here is the case without softening it. The park has six must-do attractions: Avatar Flight of Passage, Na'vi River Journey, Kilimanjaro Safaris, Expedition Everest, Kali River Rapids, and Festival of the Lion King. Three of the roughly 31 operating attractions carry height requirements. There is no nighttime spectacular, so a full day ends without a finish. And in February 2026 it lost DINOSAUR and Restaurantosaurus for the Tropical Americas project, which Disney has targeted for 2027 — a stated window, but still a target.",
+        "That produces the shortest and thinnest day of the six. A well-run visit covers the whole must-do list by mid-afternoon, which is either a virtue or a problem depending on what you wanted from a park day, and on a ranking weighted toward roster depth it is a problem.",
+        "None of that is a claim that the park is bad. It is the best-looking park Disney has built anywhere, with landscaping that puts it in a category the other five are not in. Kilimanjaro Safaris is a genuine game drive with real animals and no equivalent in the industry. Pandora after dark is the single most striking environment at either resort. Expedition Everest is the best-themed coaster Disney has made. Satu'li Canteen is the best quick service at Walt Disney World and Tiffins is its most underbooked good restaurant.",
+        "It also does something none of the others attempt: it is a working zoological institution with real conservation programs, and the animal trails are the only queue-free, self-paced, genuinely unhurried spaces at either resort.",
+        "**The counterargument:** rank on peak experience rather than roster and Animal Kingdom is top three, arguably top two. Avatar Flight of Passage is the best attraction Disney has built this century. Kilimanjaro Safaris does something no other theme park in the world does. Pandora at night beats anything at Magic Kingdom or EPCOT for sheer atmosphere. A visitor who would rather have six extraordinary things than twenty good ones should read this ranking upside down — and there are a lot of those visitors, which is exactly why this placement is the one people write in about."
+      ],
+      "pros": [
+        "The best-looking park Disney has built, with landscaping in a different category.",
+        "Kilimanjaro Safaris has no equivalent at any theme park in the world.",
+        "Avatar Flight of Passage is arguably Disney's best attraction of this century.",
+        "The best shade of the six, and the only queue-free, self-paced spaces at either resort.",
+        "Satu'li Canteen is the best quick service at Walt Disney World."
+      ],
+      "cons": [
+        "Six must-do attractions and only three with height requirements.",
+        "No nighttime spectacular, so the day ends without a capstone.",
+        "DINOSAUR and Restaurantosaurus closed in February 2026, with Tropical Americas targeted for 2027 at the earliest.",
+        "The most isolated park at Walt Disney World and the worst midday-break logistics.",
+        "Shorter operating hours than the rest of the resort."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "criteria",
+      "heading": "What was ranked, and what was deliberately ignored",
+      "body": [
+        "A ranking is only as honest as its criteria, so here they are with the weights they carried.",
+        "**Roster depth, weighted heaviest.** How many attractions a park actually operates, and how many of them are worth doing. This is the criterion that separates the top three from the bottom three and it is the one most open to disagreement — someone who weights peak experience instead will produce a very different list, and the counterarguments above say so each time.",
+        "**Ride quality at the top end.** The best three or four attractions in the park, judged on ride system, execution, and whether they hold up on a repeat ride.",
+        "**Quality of a full day.** Whether the park supports twelve hours: filler content, shade, places to sit, and an ending.",
+        "**Sense of place.** How coherent and well-realized the environment is. Animal Kingdom wins this outright and still finishes last, which is the clearest illustration of how the weights work.",
+        "**Food, weighted lightly**, because it has its own page. It is nonetheless the main reason Magic Kingdom does not challenge for first.",
+        "**Fourth-visit value.** Whether the park still has something for you on trip four.",
+        "**Deliberately ignored:** crowd levels, wait times, and Lightning Lane pricing. All three are functions of demand and of Disney's revenue strategy rather than of the park itself. A park is not worse because more people want to go, and it is not better because it is under-visited."
+      ],
+      "callout": {
+        "type": "note",
+        "body": "Two other rankings on this site produce different orders on purpose. The best-park-for-one-day ranking puts Magic Kingdom first and EPCOT last, because a single day is a different question. The which-park-should-I-visit ranking puts Magic Kingdom first on breadth of fit. Neither contradicts this page; they measure different things."
+      }
+    },
+    {
+      "id": "close-calls",
+      "heading": "The three placements that were genuinely close",
+      "body": [
+        "**One versus two.** Disneyland Park and Magic Kingdom are separated by roster depth and almost nothing else. Magic Kingdom is more comfortable, better organized, better shaded, and has the better nighttime show; Disneyland Park has eleven more attractions, Indiana Jones Adventure, Matterhorn Bobsleds, an intact river, and a Star Wars land. If you value a smooth twelve hours over the number of things in them, flip these two.",
+        "**Three versus four.** EPCOT takes it from California Adventure on breadth and repeat value. California Adventure takes it back if you rank on average ride quality or on average meal. The tiebreak used here: on a second visit, EPCOT still has fourteen restaurants and several pavilions you have not explored, and California Adventure has almost nothing new. Breadth compounds.",
+        "**Five versus six.** Hollywood Studios has better rides. Animal Kingdom has a better park. Hollywood Studios wins fifth because a visitor with one day will do more there, and because a ranking weighted toward roster depth cannot put a six-attraction park above a seven-headliner one without abandoning its own criteria. It is the placement most likely to be wrong for any given reader."
+      ]
+    },
+    {
+      "id": "if-you-only-do-three",
+      "heading": "If you can only ever visit three of them",
+      "body": [
+        "Most people never see all six. Here is the order to see them in, which is not the same as the ranking above because it accounts for travel and for what each park adds that the previous one did not.",
+        "**First: Magic Kingdom.** It is the reference point. Everything else in the category makes more sense once you have spent a day here, and if you only ever do one Disney park, this is the one that will not feel like you missed the point.",
+        "**Second: Disneyland Park.** Once you know the template, the original is the more interesting version of it — denser, older, with a dozen rides Florida never got and a full-length Pirates. Doing these two in the wrong order works fine; doing only one of them means picking the trip length that suits you.",
+        "**Third: EPCOT or California Adventure**, depending on which coast you are on and whether you would rather eat around a lake or ride Radiator Springs Racers. Both add something the castle parks do not: a park built for adults.",
+        "Hollywood Studios and Animal Kingdom are worth going to, and neither belongs in a first three. Hollywood Studios is a day of excellent rides with a poor park around them. Animal Kingdom is the opposite, and if you fall in love with the idea of a Disney park that is quiet, shaded, and full of animals, it will end up being your favorite regardless of what any ranking says."
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "What could change this ranking",
+      "body": [
+        "Three construction projects could move parks on this list, and it is worth naming them along with how speculative each one is.",
+        "**Tropical Americas at Animal Kingdom** is the only one with a Disney-stated window: an Encanto ride-through, an Indiana Jones adventure, and a carousel, targeted for 2027. If all three open and land well, Animal Kingdom's biggest weakness — a six-attraction must-do list — largely disappears, and it would have a credible case for third or fourth.",
+        "**Piston Peak National Park and Villains Land at Magic Kingdom** are both announced with no official opening date. Villains Land began vertical construction in 2026. Together they would refill the Frontierland space left by the Rivers of America closures and would restore Magic Kingdom's roster to something closer to Disneyland Park's. Any date you see attached to either is an estimate.",
+        "**The Avengers Campus expansion at California Adventure**, adding Avengers Infinity Defense and Stark Flight Lab, is projected for 2027 or 2028 — again, an estimate rather than a commitment. Two more headliners would fix that park's shallow middle tier and would put it in direct contention with EPCOT for third.",
+        "**Monstropolis at Hollywood Studios** and the early-development Avatar project at California Adventure have no announced dates and should not factor into any planning decision made now.",
+        "The one thing that would not change this ranking: pricing. Lightning Lane rates, ticket prices, and crowd levels move constantly and were excluded from the criteria on purpose."
+      ],
+      "callout": {
+        "type": "warning",
+        "body": "Treat every construction timeline except Tropical Americas' 2027 target as speculation. Disney has announced Piston Peak, Villains Land, Monstropolis, and the Avatar project without committing to dates, and fan-site estimates for all four have already moved more than once."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "disneyland-park": [
+      "You want the most attractions per day of any park in America.",
+      "Classic dark rides are the thing you actually love about Disney.",
+      "You want Indiana Jones Adventure, Matterhorn Bobsleds, or the full-length Pirates.",
+      "You want a river that still runs, with a riverboat, a sailing ship, and an island."
+    ],
+    "magic-kingdom": [
+      "You want the most comfortable, best-organized twelve hours of the six.",
+      "The fireworks are the moment you came for.",
+      "You are travelling with a mixed-age group where nobody can be stranded.",
+      "You want the deepest bench of low-wait midday content."
+    ],
+    "epcot": [
+      "You are travelling as adults and want a park built for you.",
+      "You want the best coaster Disney has built in the United States.",
+      "This is your fourth or fifth trip and headliners have stopped appealing.",
+      "You have a day and a half rather than a single day."
+    ],
+    "california-adventure": [
+      "You want the best food and bar program at any Disney park.",
+      "Radiator Springs Racers and Incredicoaster are on your list.",
+      "You will use single rider lines, which are best in class here.",
+      "You want a park you can genuinely finish in a day."
+    ],
+    "hollywood-studios": [
+      "You rank parks on their top five attractions.",
+      "Rise of the Resistance and Tower of Terror are the reason for the trip.",
+      "Everyone in your group clears 40 inches.",
+      "You are prepared to buy Lightning Lane and use it hard."
+    ],
+    "animal-kingdom": [
+      "You would rather have six extraordinary things than twenty good ones.",
+      "Atmosphere, landscaping, and shade matter more to you than ride count.",
+      "Avatar Flight of Passage and Kilimanjaro Safaris are your priorities.",
+      "You want the calmest, least time-pressured day at either resort."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is the best Disney park in the US?",
+      "a": "Disneyland Park. It operates roughly 55 attractions on 85 acres — the densest roster in American theme parks — and holds a dozen rides with no Florida equivalent, including Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, and a Pirates of the Caribbean roughly twice the length of the Magic Kingdom version."
+    },
+    {
+      "q": "Why is Animal Kingdom ranked last?",
+      "a": "Because this ranking weights roster depth most heavily, and Animal Kingdom has six must-do attractions, three rides with height requirements, and no nighttime spectacular. It also lost DINOSAUR and Restaurantosaurus in February 2026. On sense of place and peak experience it wins outright, and a ranking weighted those ways would put it in the top three."
+    },
+    {
+      "q": "Is Magic Kingdom better than Disneyland?",
+      "a": "As a place to spend a day, yes — it is wider, better organized, better shaded, and it ends with the best nighttime show in American theme parks. As a theme park, no: Disneyland Park has about eleven more attractions, an entire Star Wars land, a working river, and a classic dark-ride bench Magic Kingdom cannot match."
+    },
+    {
+      "q": "Which Disney park has the best rides?",
+      "a": "Disneyland Park on depth, Hollywood Studios on the top five. Hollywood Studios fields Rise of the Resistance, Tower of Terror, Rock 'n' Roller Coaster Starring The Muppets, Slinky Dog Dash, and Mickey & Minnie's Runaway Railway, which is a stronger five than any other park. It falls to fifth overall because there is very little around them."
+    },
+    {
+      "q": "Which Disney park is the most beautiful?",
+      "a": "Animal Kingdom, and it is not close. The landscaping is in a different category from the other five parks, and Pandora after dark is the most striking environment at either resort. Cars Land at California Adventure is the runner-up and the best-realized single land Disney has built."
+    },
+    {
+      "q": "Did wait times factor into this ranking?",
+      "a": "No, deliberately. Crowd levels, wait times, and Lightning Lane pricing are functions of demand and of Disney's revenue strategy rather than of the park itself. A park is not worse because more people want to go to it, and ranking on wait times would mostly measure popularity."
+    },
+    {
+      "q": "Which park is most likely to move up this list?",
+      "a": "Animal Kingdom. Tropical Americas — an Encanto ride-through, an Indiana Jones adventure, and a carousel — is the only Disney construction project at either resort with a stated window, targeted for 2027. Three new attractions would fix the park's shortest-list problem and give it a credible case for third or fourth."
+    },
+    {
+      "q": "Which park should I visit if I can only pick one?",
+      "a": "Magic Kingdom, if you have never been to a Disney park. It is the reference point, and everything else in the category makes more sense after a day there. If you have been before and want the maximum number of rides in a day, Disneyland Park instead."
+    }
+  ],
+  "related": [
+    "which-disney-park-should-i-visit",
+    "magic-kingdom-vs-disneyland-park",
+    "best-disney-park-for-one-day",
+    "best-disney-park-for-food",
+    "best-disney-park-for-thrill-seekers",
+    "disneyland-vs-disney-world"
+  ],
+  "lastVerified": "2026-07"
+}

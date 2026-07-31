@@ -1,0 +1,237 @@
+{
+  "slug": "epcot-festival-of-the-arts",
+  "name": "EPCOT International Festival of the Arts",
+  "shortName": "Festival of the Arts",
+  "resort": "walt-disney-world",
+  "parkSlug": "epcot",
+  "category": "festival",
+  "season": "spring",
+  "summary": "The best EPCOT festival to build a whole park day around and the weakest one to eat at — come for the Broadway concert series, the working artists and the lowest crowds of the Walt Disney World year.",
+  "h1": "EPCOT International Festival of the Arts: what it is and whether it's worth it",
+  "title": "EPCOT International Festival of the Arts",
+  "titleTail": ": Dates, Studios & Verdict",
+  "description": "EPCOT's January and February arts festival: the concert series, the food studios worth ordering from, and why the crowd calendar matters more than the menu.",
+
+  "typicalWindow": {
+    "startsAround": "mid-January",
+    "endsAround": "late February",
+    "nightsTypical": 45,
+    "nightsRange": [40, 50],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Daily with park admission. Food studios typically open late morning; the concert series runs several sets each evening."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [5, 13],
+    "asOf": "July 2026",
+    "cheapestNights": "Weekdays in the opening fortnight, after the January race crowds have left and before the Presidents' Day weekend spike",
+    "priciestNights": "Presidents' Day weekend and any Saturday in February",
+    "notes": [
+      "The festival is included with EPCOT park admission. There is no festival ticket.",
+      "The band above is the per-item food studio price range as of July 2026. This festival runs fewer studios than Food & Wine and its menu skews toward plated presentation rather than volume.",
+      "Workshops, seminars, the Disney on Broadway dining packages and the festival scavenger hunt are separate purchases.",
+      "Original artwork in the galleries is priced as artwork rather than as merchandise. Some pieces run into four figures and none of it is included in anything."
+    ]
+  },
+
+  "whatYouGet": [
+    "A visual arts program with working artists installed around World Showcase and the front of the park, most of whom will talk to you, many of whom will personalize a purchase, and all of whom are there without an upcharge.",
+    "The Disney on Broadway Concert Series at the America Gardens Theatre, included with park admission and performed by cast members from the actual Broadway productions. It is the strongest free entertainment at any EPCOT festival.",
+    "A dozen or so food studios themed around visual art, with plating that is genuinely more considered than the equivalent at the autumn festival.",
+    "A community paint-by-numbers canvas on the promenade that guests complete over the course of the run, plus chalk artists working on the pavement in real time.",
+    "A festival scavenger hunt built around Figment, sold as a separate map-and-prize purchase and the most effective child-management tool at any EPCOT festival.",
+    "Paid workshops and seminars in drawing, photography and culinary technique, booked ahead and small enough to be worth the money if you get one.",
+    "The lowest-crowd weeks of the Walt Disney World year outside of early September. This festival occupies the quietest stretch of the calendar, and that is a larger part of its value than the food is."
+  ],
+
+  "whatYouDont": [
+    "You do not get Food & Wine's menu. This festival runs roughly a third as many food outlets, the portions are smaller because the plating is the point, and the savory selection is thin enough that a group of four will exhaust the interesting options in one lap.",
+    "The gallery is not a gift shop. Original pieces are priced as original pieces, the limited-edition prints sell out in the opening weekend, and the sticker shock at the first frame you look at is a common and entirely reasonable reaction.",
+    "The best parts of the program cost extra and sell out weeks ahead. Workshops, seminars and the reserved-seating dining packages for the concert series are all separate purchases with limited capacity.",
+    "The chalk art on the promenade is not permanent and is not there every day. Artists work on rotation, weather removes finished pieces, and what you see depends heavily on which day you visit.",
+    "The art framing is doing a lot of work at some studios. A small plate served on a palette-shaped dish is still a small plate at $10, and the festival is not above charging for the shape of the crockery.",
+    "Presidents' Day weekend removes the festival's single biggest advantage. On that weekend EPCOT is as busy as it is in October, and the calm January park you came for is gone.",
+    "The concert series has a fixed capacity and no standby overflow area worth using. If you turn up at the theatre five minutes before a set you will not get in, and there is nowhere to watch it from outside."
+  ],
+
+  "verdict": {
+    "short": "The best of the four EPCOT festivals if you want a good park day, and the worst of them if you want a good meal. Go for the concerts, the artists and the January crowd levels.",
+    "worthItIf": [
+      "You are visiting EPCOT in January or February anyway, in which case this is the most substantial free content Disney adds to a park ticket all year.",
+      "Live musical theatre is something you would pay for at home. The concert series performers are working Broadway casts and the sets are free with admission.",
+      "You want an EPCOT day where the festival does not ruin the ride plan. Unlike Food & Wine, this festival's crowd is small enough that World Showcase still walks normally.",
+      "You buy art, or you would like to watch someone make it. The artists are accessible in a way that is genuinely unusual at a theme park.",
+      "You have children who need a task. The Figment scavenger hunt is the best-designed of the EPCOT festival hunts and it works on a wider age range than the others."
+    ],
+    "skipIf": [
+      "Food is the reason you were going. This festival's studio count and portion sizes will disappoint anybody arriving from Food & Wine, and a table-service booking at one of EPCOT's permanent restaurants is a better use of the same money.",
+      "Your only date is Presidents' Day weekend. You will get the festival at its most crowded and the park at its most crowded on the same day, which erases the reason to prefer this festival over the autumn one.",
+      "You are hoping to walk up to a seminar or a workshop. Those sell out weeks ahead and there is no meaningful day-of availability, so a visitor who did not book is buying a festival with a chunk removed.",
+      "You need warm weather. Central Florida in January can sit in the 50s for a whole day, and a festival built around standing outdoors on a promenade is a cold one when a front comes through.",
+      "You are traveling with teenagers who want thrill rides. The festival adds nothing for them and EPCOT's ride roster is the same as it is on any other day.",
+      "You expect the chalk art and the artist installations to be there on your date. They rotate, and a page promising you a specific mural on a specific day is guessing."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Plan around the concert series, not around the food",
+      "body": [
+        "The Disney on Broadway Concert Series is the reason to come, and treating it as a bonus rather than as the schedule's anchor is the most common mistake visitors make at this festival. Several sets run each evening at the America Gardens Theatre, and each one is performed by people who do the same material eight times a week in New York.",
+        "Take the last set of the night. The queue for the first set forms 45 minutes to an hour ahead because that is the one everybody plans for; the final set of the evening frequently has open seating fifteen minutes before it starts and is the identical show.",
+        "If the lineup rotates during your trip — and it does, usually weekly — check which performers are on which nights before you assign your EPCOT day. The pairings change and the difference between a strong pairing and a weak one is larger than the difference between two food studios.",
+        "The dining packages buy reserved seating and are worth it only if you wanted that restaurant anyway. Turning up for the late show achieves the same seat for the price of fifteen minutes."
+      ]
+    },
+    {
+      "heading": "Go in week one if you want to paint on the mural",
+      "body": [
+        "The community paint-by-numbers canvas on the promenade is completed cumulatively over the whole run, which means it is a genuinely different experience depending on when you arrive and almost nobody realizes this before they turn up.",
+        "In the opening days there is open canvas and a short line, and everyone in your group gets to fill a square. By the final fortnight the piece is largely finished, the remaining squares are the awkward ones, and on busy days the queue is not worth joining for a single brushstroke.",
+        "The same logic applies to the limited-edition prints and the artist-signed merchandise, which sell through in the opening weekend and are not restocked. If a specific artist's work is a reason you are going, go early in the run.",
+        "The one thing that improves later in the run is the finished mural as a photograph. If you want the completed canvas rather than a hand in making it, the last week is the week."
+      ]
+    },
+    {
+      "heading": "Use the artists, because they are the actual product",
+      "body": [
+        "The working artists installed around the park will talk to you, and most visitors walk past them because they read the setup as a retail booth. It is not — the artists are present, working, and generally happy to explain what they are doing.",
+        "Many will personalize a purchase on the spot, and a signed or remarqued piece costs no more than an unsigned one from the same booth. That is free value that only accrues to people who ask.",
+        "The chalk artists on the promenade work in daylight, so the pavement pieces are a morning and early-afternoon activity rather than an evening one. A visitor who arrives at 17:00 will see finished work and no artists, and after a rain shower may see neither.",
+        "Walk the front of the park for this rather than only World Showcase. A meaningful share of the visual arts program sits in World Celebration and the pavilions near the entrance, which is the part of the festival the promenade crowd never reaches."
+      ]
+    },
+    {
+      "heading": "Pick your date against the January and February crowd calendar",
+      "body": [
+        "This festival occupies the quietest stretch of the Walt Disney World year, and the whole strategic case for preferring it is that fact. Protecting it means avoiding the three spikes that sit inside the window.",
+        "The spikes are the January race weekend at the start of the window, the Martin Luther King Jr. weekend, and Presidents' Day weekend in February. Each turns EPCOT into an October park for three to four days and each is entirely avoidable if you look at the calendar before booking.",
+        "The best week most years is the one immediately after the January race crowds leave and before the Martin Luther King Jr. weekend arrives. The full festival is running, the park is at its emptiest, and the weather is the best it gets in Central Florida.",
+        "Because the crowd is low, this is the one EPCOT festival where you can run a real ride plan on the same day. Test Track, Guardians of the Galaxy: Cosmic Rewind and Remy's Ratatouille Adventure are all more achievable in late January than at any other point in the festival calendar."
+      ]
+    },
+    {
+      "heading": "Order fewer, better plates",
+      "body": [
+        "The correct approach to this festival's food is the opposite of Food & Wine's. There are fewer studios, the menu is thinner on savory options, and grazing across everything produces a worse afternoon than picking three plates and eating them properly.",
+        "The Artist's Table is the studio to prioritize because it carries the one substantial savory item most years, and it is the only place at this festival where the price at the top of the band buys something that eats like a course.",
+        "Sit down to eat. The festival's low crowds mean tables around the lagoon are actually available, which they are not in October, and the plating rewards eating at a table rather than off a rail.",
+        "Save the money you did not spend grazing for a table-service booking. EPCOT's permanent restaurants are easier to get into during this window than at any other festival, and the festival's own menu is not strong enough to be the reason you skip them."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "This festival runs roughly a dozen food studios, against Food & Wine's thirty-plus, and rotates them harder from year to year. The items below are the ones that have recurred across multiple cycles and are the closest thing the event has to a fixed menu; prices are at the July 2026 band. We have deliberately kept this list short rather than padding it with dishes we could not confirm have returned. Check the current year's published menu before planning a meal around any single item.",
+    "items": [
+      {
+        "name": "Beef Wellington with parsnip puree and mushroom-truffle sauce",
+        "where": "The Artist's Table",
+        "priceUsd": 11.5,
+        "verdict": "The one plate at this festival that eats like a course rather than a sample, and the reason The Artist's Table is the studio to hit first. It sits at the top of the band and it is the only item here that earns that. Expect the longest studio line of the festival at this booth after 17:00."
+      },
+      {
+        "name": "Deconstructed BLT",
+        "where": "The Deconstructed Dish",
+        "priceUsd": 8,
+        "verdict": "The clearest expression of what this festival is trying to do: a familiar thing pulled apart and re-plated. It works, it photographs well, and it is a genuinely good savory option in a lineup that is short on them. The novelty is the point and it wears off on the second one."
+      },
+      {
+        "name": "Steamed Bao Bun with roasted pork belly",
+        "where": "The Painted Panda",
+        "priceUsd": 8,
+        "verdict": "The most filling savory plate at the festival per dollar and consistently one of the shorter lines, which is an unusual pairing. Order two if you are treating the studios as a meal rather than as tasting."
+      },
+      {
+        "name": "Almond Frangipane Cake",
+        "where": "Pop Eats",
+        "priceUsd": 6.5,
+        "verdict": "Near the bottom of the price band and better than the desserts above it. Pop Eats is the studio built hardest around the visual gimmick, which makes it the one where ordering the least showy item on the menu is usually the right call."
+      },
+      {
+        "name": "Seared Verlasso Salmon",
+        "where": "Cuisine Classique",
+        "priceUsd": 10,
+        "verdict": "The studio that takes the cooking most seriously and the plate to order if you want something that is not fried, sweet or a novelty. Priced near the top of the band for a portion that is not large, which is the trade this festival keeps asking you to make."
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Do I need a separate ticket for the festival?",
+      "a": "No. The festival is included with EPCOT park admission, including the concert series, the artist installations, the chalk art and the community mural. What costs extra is the food, the workshops and seminars, the reserved-seating dining packages, the scavenger hunt map, and anything you buy from a gallery."
+    },
+    {
+      "q": "Is the Disney on Broadway Concert Series really free?",
+      "a": "Yes, with park admission, and it is the best value at any EPCOT festival. Several sets run each evening at the America Gardens Theatre and the performers are cast members from the actual Broadway productions. Reserved seating is sold as a dining package, but the free seating is the same show and turning up for the last set of the night usually gets you in without a long queue."
+    },
+    {
+      "q": "How does the food compare to Food & Wine?",
+      "a": "It is worse, and not by a small margin. This festival runs roughly a dozen food studios against Food & Wine's thirty-plus, the portions are smaller because the plating is the concept, and the savory selection is thin. Come for the arts program and treat the food as a supporting act rather than the reason."
+    },
+    {
+      "q": "When is the best time within the festival to go?",
+      "a": "The week after the January race weekend crowds leave and before the Martin Luther King Jr. holiday weekend. The full festival is running by then, the park is at its emptiest point of the year, and the weather is as good as Central Florida gets. Avoid Presidents' Day weekend entirely, which is the busiest date inside the window by a wide margin."
+    },
+    {
+      "q": "Can I still ride everything on a festival day?",
+      "a": "Yes, and this is the only EPCOT festival where that is true. The crowd this event draws is small enough that World Showcase still walks normally and the ride queues behave like a low-season day. Test Track, Cosmic Rewind and Remy's Ratatouille Adventure are all realistically achievable on the same day as a full festival lap."
+    },
+    {
+      "q": "How much does the artwork cost?",
+      "a": "Anywhere from the price of a print to the price of a piece of furniture. The galleries sell original works, limited-edition prints and open editions side by side, and the price range is wide enough that the first frame you look at may be four figures. Limited editions sell out in the opening weekend and are not restocked."
+    },
+    {
+      "q": "When are the next festival's dates announced?",
+      "a": "Disney has historically confirmed this festival's dates in the autumn, a few months ahead of the mid-January start, with the studio lineup and concert schedule published closer to opening. We have not verified a 2027 announcement as of July 2026, so this page carries the typical window rather than dates."
+    },
+    {
+      "q": "Is it worth going with young children?",
+      "a": "More than Food & Wine is, mostly because of the scavenger hunt and the chalk art. The Figment hunt gives a child a reason to walk the promenade, the pavement artists hold attention in a way that a food booth does not, and the low crowds make a stroller manageable. The concert series is a harder sell under about eight."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "The American Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/the-american-adventure/", "site": 1 },
+    { "label": "Journey Into Imagination With Figment", "href": "/walt-disney-world/epcot/rides/journey-into-imagination-with-figment/", "site": 1 },
+    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
+    { "label": "Test Track at EPCOT", "href": "/walt-disney-world/epcot/rides/test-track/", "site": 1 },
+    { "label": "EPCOT dining", "href": "/walt-disney-world/epcot/dining/", "site": 1 },
+    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 }
+  ],
+
+  "related": [
+    "epcot-flower-and-garden-festival",
+    "epcot-food-and-wine-festival",
+    "epcot-festival-of-the-holidays",
+    "disney-after-hours"
+  ],
+
+  "editions": [
+    {
+      "year": 2026,
+      "status": "past",
+      "changes": [
+        "Ran the standard mid-January to late-February window as an included-with-admission festival, the tenth consecutive cycle since the event launched in 2017.",
+        "The studio count stayed well below Food & Wine's, which continues to be the defining difference between the two events for anyone choosing between them."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "The 2026 cycle finished before this page's verification date, so it is recorded as a past edition. We have not listed the 2026 studio roster or concert lineup, because both rotate annually and a stale list of either would read as current.",
+        "reviewBy": "2026-12",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The festival has run every year since 2017 in the same mid-January to late-February window, included with park admission, at roughly 45 days. That pattern is strong enough to plan around. The next cycle's dates, studio lineup and concert schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and no specific date.",
+    "reviewBy": "2026-12",
+    "cycle": "annual"
+  }
+}

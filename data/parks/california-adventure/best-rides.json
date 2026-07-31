@@ -1,0 +1,250 @@
+{
+  "park": "california-adventure",
+  "criteria": "Ranked on the ride itself: what the vehicle does, how the staging holds up, and whether a fourth lap is still worth taking. Wait length, Lightning Lane tier and single-rider availability were deliberately kept out of the ordering, and so was affection for whatever building used to stand on the site.",
+  "intro": [
+    "Disney California Adventure has an unusual shape for a Disney park. It has two attractions that would headline anywhere in the world, a very deep second tier of mid-size rides that most visitors underrate, and a long tail of flat rides that exist because the park needed capacity in a hurry twenty years ago. That distribution is why day plans here go wrong: people chase the same four rides everyone else is chasing and never notice that the eighth-best ride in the park is a walk-on.",
+    "This list ranks the operating attractions on experience alone. A few placements will annoy people. Soarin' sits below a water ride. Incredicoaster, the park's only real coaster, does not crack the top two. WEB SLINGERS is ranked as a good attraction and also called out as the single most over-prioritised queue in the park, which is not a contradiction — a ride can be worth doing and still not worth ninety minutes.",
+    "Height minimums are noted where they matter, because DCA is a park where a 40-inch cutoff decides most of a family's day. Nine of the rides here require 40 inches or more, and one requires 48."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "radiator-springs-racers",
+      "headline": "Three rides in one — a slow-load dark ride, a canyon drive, and a genuine side-by-side race.",
+      "why": [
+        "The structure is what makes it. You get roughly two minutes of scenery and character work at dark-ride pace, then a tire-shop or paint-shop scene that resets your expectations, then an outdoor launch against a second car that you cannot predict the outcome of. Almost no Disney attraction changes gear that cleanly, and the racing finish is the only thing in either California park that produces an audible reaction from a full vehicle every single cycle.",
+        "The rockwork is also doing more work than people credit. Ornament Valley reads as a real horizon from most of Cars Land, and the ride spends its first thirty seconds inside it before you ever see an animated figure. Ride it after dark at least once — the neon reflected off the butte changes the whole approach. It carries a single-pass Lightning Lane and a single-rider queue, both of which are worth understanding before you arrive, but neither is why it is ranked first."
+      ],
+      "skipIf": "Skip if a hard outdoor acceleration and a few sharp banked turns are more than your neck or back wants to absorb."
+    },
+    {
+      "rank": 2,
+      "slug": "guardians-of-the-galaxy-mission-breakout",
+      "headline": "A drop tower that reshuffles its own show every cycle, inside the best-looking building in the park.",
+      "why": [
+        "The drop profile is randomised across several programmed sequences with different music, different lighting cues and different timing on the launches. That single design decision turns a repeat ride from a known quantity into something you cannot brace for, and it is the reason this outranks the coaster. The upward launches are also more violent than the marketing suggests — the ride pulls you off the seat harder going up than most towers do going down.",
+        "The exterior is the other half of the argument. It is an aggressively vertical, cluttered, metal-clad tower that dominates the sightline from three different lands, and the pre-show queue actually explains why you are in it. Single rider moves fast here, and the 40-inch minimum is the same as Radiator Springs Racers, so families usually clear both or neither."
+      ],
+      "skipIf": "Skip if sustained free-fall makes you ill — the sequences are far more aggressive than the queue implies."
+    },
+    {
+      "rank": 3,
+      "slug": "incredicoaster",
+      "headline": "The launch is still one of the best Disney has built; the story bolted on top of it is not.",
+      "why": [
+        "Zero to fifty-five in under five seconds along the water, then a full inversion and a long, low-to-the-ground layout that keeps its speed better than most modern Disney coasters. As a piece of track this is excellent, and it is the only attraction in the park that delivers a sustained thrill rather than a single moment of one.",
+        "It ranks third rather than first because the overlay is thin. The tunnels added at the front and back contain a handful of static gags you can barely register at speed, and between them the ride is unchanged from what opened in 2001. That is fine — the layout did not need saving — but it means the ride is exactly as good on lap five as lap one, and the two above it are not. The 48-inch minimum is the tallest requirement in the park and splits more families than any other ride here."
+      ],
+      "skipIf": "Skip if you dislike inversions or sustained positive-G turns, or if 48 inches rules out someone you would not leave behind."
+    },
+    {
+      "rank": 4,
+      "slug": "grizzly-river-run",
+      "headline": "The rare rapids ride that genuinely soaks you, on a mountain that earns its place on the skyline.",
+      "why": [
+        "Most river rapids attractions promise water and deliver a light mist. This one has two real drops, a rotating raft that decides who gets hit, and geyser placements that are clearly designed to finish the job. On a warm afternoon it is the most requested ride in the park by people who have already done it once, which is the best evidence a water ride can offer.",
+        "It also sits above Soarin' because it is unique to this park. Grizzly Peak is the only mountain silhouette DCA has, the queue winds through it properly, and the ride is the reason the land exists. The trade is that you will be wet for an hour afterward — plan it for early afternoon, not first thing, and take the lockers seriously. Minimum height is 42 inches."
+      ],
+      "skipIf": "Skip if you are not willing to spend the next hour damp, or if a 42-inch minimum excludes a child you would be riding with."
+    },
+    {
+      "rank": 5,
+      "slug": "soarin-around-the-world",
+      "headline": "Still the most physically pleasant attraction in the park, even with a film that shows its seams.",
+      "why": [
+        "The ride system remains excellent. Being lifted into a concave screen with your feet dangling produces a specific, gentle kind of flight sensation that no simulator has improved on, and the scent cues are timed well enough that most people never consciously notice them. It handles high capacity, it is comfortable, and almost nobody dislikes it.",
+        "The film is the weak link. Around the World stitches together locations with visibly different grain and colour handling, and several shots put you at an altitude the ride motion does not support. The California reel it replaced had a coherence this version lacks. It stays in the top five because the system and the comfort carry it, not because the content does. Note that this is the same ride sitting in EPCOT, which matters if you are doing both coasts in one trip. Height minimum is 40 inches."
+      ],
+      "skipIf": "Skip if you have already ridden the identical attraction at EPCOT recently and are working against the clock here."
+    },
+    {
+      "rank": 6,
+      "slug": "world-of-color",
+      "headline": "A water-screen show using an entire bay as its projection surface — nothing else at the resort works this way.",
+      "why": [
+        "Twelve hundred fountains, mist screens the height of a building, and a lagoon you can shoot lasers and flame across. The scale is real, and the show is genuinely better viewed from the middle of the amphitheatre than from any of the edges. As a piece of nighttime spectacle it is more technically interesting than the fireworks across the esplanade, because the medium is water rather than sky and the imagery can actually be sharp.",
+        "It ranks sixth rather than higher because the cost of watching it is enormous. A good spot means committing forty-five minutes to standing in a packed viewing area, in a park that is at its emptiest and best during exactly those minutes. That is a fair trade the first time and a bad one after that. It carries a multi-pass Lightning Lane, which changes the arithmetic considerably but does not change the show."
+      ],
+      "skipIf": "Skip if standing shoulder-to-shoulder for the better part of an hour will sour the end of your day."
+    },
+    {
+      "rank": 7,
+      "slug": "toy-story-midway-mania",
+      "headline": "Twenty-year-old shooter tech that still beats most of the screen rides built to replace it.",
+      "why": [
+        "The reason this holds up is that the games are actual games. Each booth has scoring geometry you can learn, hidden high-value targets, and a skill ceiling that rewards a fourth ride in a way that pointing a laser at a glowing dot never does. Playing against the person next to you is the entire attraction, and it works on people who have no interest in Toy Story.",
+        "The spring-loaded pull-string is a deliberate choice and it matters — the physical effort makes the scoring feel earned. It is also the highest-throughput ride on Pixar Pier and one of the few things in the park that genuinely suits every age in a group at once. The 3D glasses are the only real friction."
+      ],
+      "skipIf": "Skip if a repetitive pull-string motion will aggravate a shoulder, elbow or wrist."
+    },
+    {
+      "rank": 8,
+      "slug": "web-slingers-a-spider-man-adventure",
+      "headline": "Clever gesture tracking wrapped around one idea that runs out well before the ride does.",
+      "why": [
+        "The hand tracking is real technology and it works. Throwing a web with an actual arm motion and watching it land where you aimed is satisfying in a way a trigger is not, and the vehicle motion is well matched to the screens. As a first ride it is good, and children in particular go through the roof.",
+        "The problem is that there is one room, one mechanic, and one escalating wave of the same robot. By the third scene you are performing an arm exercise rather than playing a game, and unlike Midway Mania there is no skill layer to discover. It earns eighth on merit. It does not earn the queue it routinely gets, which is a separate argument made below."
+      ],
+      "skipIf": "Skip if three minutes of repeated overhead throwing motions is a problem for your shoulders."
+    },
+    {
+      "rank": 9,
+      "slug": "luigis-rollickin-roadsters",
+      "headline": "Trackless vehicles improvising a dance in shared space — the most quietly impressive ride here.",
+      "why": [
+        "Twenty-odd cars moving independently across an open floor, weaving within inches of each other on a choreographed pattern that changes between cycles, is a harder engineering problem than anything else in Cars Land except Racers. The trailers pivot behind the cars and produce a whip that is stronger than the polite music suggests. It is a genuinely good ride hidden inside a presentation that reads as a children's attraction.",
+        "It is also almost always a short wait, which tells you how badly it is read by the crowd. The 32-inch minimum makes it one of the few rides in the park a small child and an adult can enjoy for different reasons at the same time."
+      ],
+      "skipIf": "Skip if swinging, off-axis motion gets to you — the trailer whip is stronger than the dancing-car framing implies."
+    },
+    {
+      "rank": 10,
+      "slug": "silly-symphony-swings",
+      "headline": "The best view-to-wait ratio in the park, and the outward tilt is sharper than it looks from the ground.",
+      "why": [
+        "A wave swinger is a simple machine, but this one is sited perfectly: the arm tilts you out over the edge of Paradise Bay, so for half of every rotation you are looking down at water rather than pavement. It is the cheapest genuine thrill in the park and one of the only rides where the setting does most of the work.",
+        "The wait is rarely more than fifteen minutes even on a busy afternoon, and the loading is fast. Ride it at dusk when the lights across the bay come up. Minimum height is 40 inches for the standard swings."
+      ],
+      "skipIf": "Skip if heights are a problem — the outward tilt puts you over open water with nothing under your feet."
+    },
+    {
+      "rank": 11,
+      "slug": "the-little-mermaid-ariels-undersea-adventure",
+      "headline": "A well-built omnimover with an excellent first half and an ending that gives up.",
+      "why": [
+        "The under-the-sea section is legitimately good: layered scenery with depth, a large cast of figures with real animation programming, and a continuously moving vehicle that lets you look wherever you want. For a ride that loads several thousand people an hour, the scene density is high.",
+        "Then the last third collapses. The climax happens in a corridor, the villain is handled in a single tableau, and the ending scene is a static tail-off that leaves you waiting for a finale that never arrives. It still ranks eleventh because the first four minutes are strong, the queue is short, and it is one of very few rides here with no height minimum at all."
+      ],
+      "skipIf": "Skip if your day is short and a slow, gentle dark ride is not what you came to California for."
+    },
+    {
+      "rank": 12,
+      "slug": "mickeys-philharmagic",
+      "headline": "A sharp 3D film with the best twenty minutes of air conditioning available on a hot afternoon.",
+      "why": [
+        "The animation was purpose-built for the format rather than converted into it, which is why the depth reads properly and the in-theatre effects land on the beat. The sequencing through different films gives it more pace than most park films, and the theatre is large enough that you almost never queue for it.",
+        "It ranks twelfth honestly: it is a film, you sit still, and nothing about it is specific to this park. But on a July afternoon in a park with limited indoor capacity, a cool dark theatre with a good soundtrack is worth more than its ranking suggests."
+      ],
+      "skipIf": "Skip if 3D glasses give you headaches, or if you have seen it at another Disney park this trip."
+    },
+    {
+      "rank": 13,
+      "slug": "pixar-pal-a-round",
+      "headline": "The swinging gondolas are a real thrill; the loading process is the slowest in the resort.",
+      "why": [
+        "The swinging cars ride on an internal track and slide along it as the wheel turns, which produces sudden drops of twenty or thirty feet at unpredictable moments. That is a genuinely alarming sensation on a ride most people board expecting a calm view, and it is the only attraction here that surprises adults who thought they had it figured out.",
+        "It ranks thirteenth because of the economics. Loading a wheel this size takes an eternity, and the stationary side — which most families end up on — is a slow scenic rotation with no ride content at all. Do the swinging side once, in the evening, and do not build your afternoon around it."
+      ],
+      "skipIf": "Skip the swinging side if motion sickness is a factor; the stationary gondolas exist for exactly that reason."
+    },
+    {
+      "rank": 14,
+      "slug": "maters-junkyard-jamboree",
+      "headline": "Ninety seconds of whip that hits considerably harder than a ride with this soundtrack should.",
+      "why": [
+        "This is a whip-style ride dressed as a barn dance. The tractor pivots, the trailer swings out behind it, and the direction changes are quick enough to throw everyone in the trailer against one side. Adults who board it as an obligation get off laughing, which is not something you can say about most 32-inch rides.",
+        "It is short and it is one note, so it stays in the middle of the list. But it is the correct thing to do while you wait for your Racers return time, and the junkyard set dressing around it is some of the better detail work in Cars Land."
+      ],
+      "skipIf": "Skip if quick side-to-side snapping is a problem for your neck or lower back."
+    },
+    {
+      "rank": 15,
+      "slug": "hyperion-theater",
+      "headline": "A full-scale stage production in a two-thousand-seat house — no other park at this resort offers one.",
+      "why": [
+        "Live performers, a real orchestral track, flying rigs and a proscenium the size of a regional theatre. Whatever is running in the house, the production values are a step above the outdoor stage shows elsewhere, and it is the only place in either park where you get a sit-down theatrical experience of this scale.",
+        "It ranks where it does because it costs you a serious block of time and the schedule dictates your day rather than the other way around. If the show times line up with a meal or a mid-afternoon lull, it is one of the better uses of an hour in the park. If they do not, let it go."
+      ],
+      "skipIf": "Skip if committing forty-five minutes to a seated show means losing a Cars Land ride you actually want."
+    },
+    {
+      "rank": 16,
+      "slug": "inside-out-emotional-whirlwind",
+      "headline": "A good-looking spinner over the water that would rank ten places higher if it lasted another minute.",
+      "why": [
+        "The arms swing wide and the ride is sited so that you are thrown out over the edge of the bay, which gives it far more presence than a standard swing-arm spinner. The colour palette and lighting package are the best of any flat ride on the pier, and after dark it photographs better than anything else here.",
+        "The ride cycle is short, the motion is mild, and it exists to absorb crowd rather than to be a destination. Sixteenth is fair. Ride it while someone else in your party is doing Incredicoaster. Minimum height is 40 inches."
+      ],
+      "skipIf": "Skip if spinning motion bothers you at all — the outward swing is wider than it looks from the queue."
+    },
+    {
+      "rank": 17,
+      "slug": "goofys-sky-school",
+      "headline": "An off-the-shelf wild mouse with sharp corners, saved slightly by genuinely funny sign gags.",
+      "why": [
+        "The hairpin turns arrive without warning and the car snaps through them hard. That is the whole ride, and whether you enjoy it depends entirely on how you feel about wild mouse layouts. The queue signage — a run of increasingly alarming flight-school lessons — is the best-written thing about the attraction.",
+        "It sits this low because it is a catalogue coaster with a paint job, it is rougher than anything else in the park, and it has a 42-inch minimum that buys you less than the shorter, better rides around it. Do it if the line is under fifteen minutes and you like the format."
+      ],
+      "skipIf": "Skip if abrupt lateral snaps are a problem — this is the roughest ride at the park by a wide margin."
+    },
+    {
+      "rank": 18,
+      "slug": "jumpin-jellyfish",
+      "headline": "A gentle parachute drop with the calmest good view of Paradise Bay you can get without a wait.",
+      "why": [
+        "You go up slowly, hang for a beat, and float down in short stages. There is no real drop sensation and that is the point — it is the ride a nervous seven-year-old graduates to before they will consider anything else. The view at the top, out across the water toward the pier, is worth the ninety seconds on its own.",
+        "Eighteenth is where a filler ride belongs. It is included because it is well sited, almost never busy, and the 40-inch minimum is low enough that most families who cleared Racers can all ride it together."
+      ],
+      "skipIf": "Skip if you are short on hours — this is a gap-filler, not a reason to walk across the park."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "web-slingers-a-spider-man-adventure",
+      "why": "Ranked eighth on this list and still the most over-prioritised queue in the park, which is not a contradiction — it is a good ride with terrible queue economics. One room, one mechanic, three minutes, and a standby line that routinely runs past an hour because it is the newest thing in Avengers Campus. Ride it, but never at the cost of a morning."
+    },
+    {
+      "slug": "soarin-around-the-world",
+      "why": "Fifth here and still wrong as a rope-drop target. The ride system is identical to the one at EPCOT, the Around the World reel is the weaker of the two films, and the queue moves at high capacity all day. Spending your best empty hour on it instead of on Racers or Grizzly River Run is the most common planning mistake made in this park."
+    },
+    {
+      "slug": "pixar-pal-a-round",
+      "why": "Loading a wheel this size takes twenty minutes or more, and most parties end up in the stationary gondolas, which have no ride content whatsoever. The swinging side is genuinely good and worth one lap late in the evening. Treating the wheel as a must-do wrecks an afternoon."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "luigis-rollickin-roadsters",
+      "why": "Independently navigating trackless vehicles in shared open space is one of the hardest ride problems in the park, and it is usually a near walk-on because the presentation reads as a children's attraction. The trailer whip is also stronger than anyone expects on their first cycle."
+    },
+    {
+      "slug": "animation-academy",
+      "why": "A working artist teaches a full room to draw a character in about fifteen minutes and you walk out holding the paper. It is seated, air-conditioned, free, has no wait most of the day, and it is the only thing in the park that sends people away having learned something."
+    },
+    {
+      "slug": "silly-symphony-swings",
+      "why": "Rarely more than a fifteen-minute wait, best elevated view of Paradise Bay in the park, and it tilts far enough out over the water to register as an actual thrill for most adults. People walk past it to queue ninety minutes for a screen."
+    },
+    {
+      "slug": "maters-junkyard-jamboree",
+      "why": "Written off as a children's ride because of the 32-inch minimum, but the trailer whip produces real lateral snap and adults consistently get more out of it than they do out of the coaster two lands over. It is also the right thing to do while holding a Racers return time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the single best ride at Disney California Adventure?",
+      "a": "Radiator Springs Racers, and it is not close. It combines a slow-moving dark ride, a scenic canyon drive and a genuine outdoor race against a second vehicle, which is a structure no other attraction at the resort attempts. It is also the ride most affected by when you do it — after dark, with the neon up across Ornament Valley, is a materially different experience."
+    },
+    {
+      "q": "What should I ride first when the park opens?",
+      "a": "Radiator Springs Racers if your party clears 40 inches, because it builds the longest line of anything in the park and holds it all day. If Racers is not an option, go to Guardians of the Galaxy – Mission: BREAKOUT! instead. Do not open your day on Soarin' — it runs at high capacity and stays reasonable well into the afternoon."
+    },
+    {
+      "q": "Can you do everything worth doing in one day?",
+      "a": "Yes, more comfortably than at most Disney parks. There are eight or nine attractions here that genuinely require planning, and the rest of the top twenty are short waits for most of the day. The constraint is usually the nighttime show rather than the rides — committing to World of Color removes roughly ninety minutes from your evening once you account for holding a spot."
+    },
+    {
+      "q": "Which rides have height requirements?",
+      "a": "Incredicoaster is the tallest at 48 inches. Grizzly River Run, Goofy's Sky School and Golden Zephyr require 42 inches. Radiator Springs Racers, Mission: BREAKOUT!, Soarin' Around the World, Silly Symphony Swings, Jumpin' Jellyfish and Inside Out Emotional Whirlwind require 40 inches, and Mater's Junkyard Jamboree and Luigi's Rollickin' Roadsters require 32 inches. Toy Story Midway Mania, Mickey's PhilharMagic and The Little Mermaid have no minimum at all."
+    },
+    {
+      "q": "Is Cars Land better during the day or at night?",
+      "a": "Night, decisively. The neon sequence along the main street is the single best-executed lighting moment at the resort, and the rockwork behind it changes character entirely once the sun is off it. Ride Radiator Springs Racers once in daylight if you can, so you actually see Ornament Valley, then walk the street again after dark."
+    },
+    {
+      "q": "Where is the best place to watch World of Color?",
+      "a": "The centre of the viewing amphitheatre, level with the middle of the bay, is where the show was designed to be seen — the water screens are flat surfaces and lose their imagery badly from an angle. Standing areas nearer the front get you scale but cost you the top of the fountains. If you are not holding a reserved area, the bridge and pathway on the pier side are a reasonable compromise for a shorter commitment."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

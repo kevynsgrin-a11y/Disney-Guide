@@ -1,0 +1,267 @@
+{
+  "slug": "epcot-food-and-wine-festival",
+  "name": "EPCOT International Food & Wine Festival",
+  "shortName": "Food & Wine",
+  "resort": "walt-disney-world",
+  "parkSlug": "epcot",
+  "category": "festival",
+  "season": "summer",
+  "summary": "The best festival Disney runs and the most expensive way to eat at a theme park — go on a weekday, budget around $60 a head, and treat the booths as dinner rather than as snacks you graze between rides.",
+  "h1": "EPCOT International Food & Wine Festival: what it is and whether it's worth it",
+  "title": "EPCOT International Food & Wine Festival",
+  "titleTail": ": Dates, Booths & Verdict",
+  "description": "What the EPCOT food festival costs in practice, which perennial booth items are worth the money, and the days to avoid. Prose windows, no invented dates.",
+
+  "typicalWindow": {
+    "startsAround": "late July/August",
+    "endsAround": "mid-November",
+    "nightsTypical": 100,
+    "nightsRange": [100, 125],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Daily with park admission. Marketplace booths typically open late morning and serve until park close."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [5, 13],
+    "asOf": "July 2026",
+    "cheapestNights": "Weekday visits in the opening weeks, when the full booth lineup is running and the fall crowd has not arrived",
+    "priciestNights": "Saturdays from late September onward, and any evening with a headline act in the concert series",
+    "notes": [
+      "The festival itself is included with park admission. There is no festival ticket, and any page that quotes you one is describing a paid seminar or a dining event, not entry.",
+      "The band above is the per-item price range at the marketplace booths as of July 2026. Individual booth prices move upward most years and Disney republishes the full menu shortly before each festival opens.",
+      "Alcohol is the variable that wrecks budgets. A wine or beer pour sits at or above the top of the food band at most booths, so a couple drinking at every stop can double the day's spend.",
+      "Culinary demonstrations, beverage seminars, signature dining events and the festival scavenger hunt are all separate purchases on top of park admission."
+    ]
+  },
+
+  "whatYouGet": [
+    "Around thirty temporary marketplace booths ringing the World Showcase promenade and extending into the front of the park, each with a short menu of small plates and pours built around one country or one theme.",
+    "The Eat to the Beat concert series at the America Gardens Theatre, included with park admission, running several sets a night through the festival.",
+    "A festival passport and a set of paid add-ons: culinary demonstrations, beverage seminars, and signature dining events booked in advance.",
+    "A scavenger hunt around World Showcase sold as a separate map-and-prize purchase, which is a genuinely effective way to keep a child moving through a festival built for adults.",
+    "The longest festival Disney runs anywhere. At roughly a hundred days it covers most of a Florida autumn, so nearly any trip between late summer and mid-November catches it.",
+    "A merchandise and collectible program that is substantial enough to be its own reason some visitors go, and its own reason to set a budget before you arrive."
+  ],
+
+  "whatYouDont": [
+    "The festival is included; the food is not. Two adults working ten booths will spend $120 to $150 before a single drink, and the small plates are small in the literal sense — three to five bites, not a course.",
+    "There is no paid line-skipping for booths and no reservation system for them. On an October Saturday the popular marketplaces run 20 to 30 minute lines and the only lever you have is going somewhere else.",
+    "The concert series is included but the seats are not, in practice. Good seating requires either a dining package bought separately or a 45-minute queue before the set.",
+    "Booth lineups rotate every year. A booth that returns often returns with a different menu, so a plan built on last autumn's favorite dish is a plan that may not survive contact with the current festival.",
+    "The festival makes EPCOT a worse park for rides. World Showcase congestion slows every crossing, the crowd shifts later into the evening, and the walk to Frozen Ever After from the front of the park takes longer than it does in June.",
+    "The back half of World Showcase after 20:00 on a weekend is the most crowded walking environment at Walt Disney World. It is genuinely unpleasant with a stroller and close to unmanageable with two.",
+    "Items at the top of the band are rarely good value. A $13 small plate is a $13 small plate, and the permanent quick-service counters a hundred feet away frequently serve more food for less money."
+  ],
+
+  "verdict": {
+    "short": "Go, and go on a weekday. The food is genuinely good, the booth lines on a Saturday are not worth anybody's evening, and the festival is included with admission you were buying anyway.",
+    "worthItIf": [
+      "Eating and drinking your way around a lake is a version of a theme park day you actively want, rather than a thing you tolerate between rides.",
+      "You are visiting EPCOT anyway between late summer and mid-November, in which case the festival is free content on a ticket you already bought.",
+      "You can go midweek. The gap between a Tuesday and a Saturday at this festival is larger than the gap between any two days at any other Disney event.",
+      "You are traveling as adults, or with children old enough to be bought off with the scavenger hunt.",
+      "You are prepared to budget for it as a meal rather than as snacking. Sixty dollars a head buys a good evening; twenty dollars a head buys frustration."
+    ],
+    "skipIf": [
+      "Your only EPCOT day is a Saturday in October. The promenade at that point is a slow-moving line of people and the booth waits eat the evening you came for.",
+      "You are traveling with a stroller and a toddler. World Showcase during this festival is the single worst stroller environment at Walt Disney World, and the food is not designed for a five-year-old's palate.",
+      "Your EPCOT day is the day you planned to ride everything. The festival crowd stays late, the promenade slows every crossing, and the ride plan and the food plan are genuinely in conflict.",
+      "You do not drink and you are not adventurous about food. A meaningful share of the booth menus is either alcohol or an unfamiliar protein, and the remainder is priced as if it were not.",
+      "Your budget is tight. This is the most expensive way to eat at Walt Disney World per calorie, and a table-service reservation at one of EPCOT's permanent restaurants delivers more food for similar money.",
+      "You are going specifically for a dish you loved two years ago. Menus rotate and the odds of that exact item returning are worse than even."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Walk the loop backwards",
+      "body": [
+        "Enter World Showcase and turn right toward Canada rather than left toward Mexico, and you will be a full lap out of phase with the crowd all day. The morning flow into World Showcase runs toward Mexico and Norway because that is where the ride is, which leaves the Canada, United Kingdom and France stretch running short lines at exactly the time everyone else is queuing on the other side.",
+        "That matters more here than it sounds, because the Canada booth is one of the two or three most popular marketplaces at the festival most years and it is the first one you reach going clockwise. Hitting it at 11:15 rather than 15:00 is a twenty-minute difference on one booth.",
+        "The reverse loop also puts you at the American Adventure side around the time the first concert set ends, which is the moment those booths are at their emptiest, and it drops you into Mexico and Norway at the end of the evening when the ride crowd has moved on.",
+        "One exception worth breaking the loop for: if Frozen Ever After or Remy's Ratatouille Adventure is on your list, ride it first and start the loop afterward. Both sit inside pavilions the festival crowd walks past, and both hold longer waits during the festival than outside it."
+      ]
+    },
+    {
+      "heading": "One line per booth, regardless of how many plates you order",
+      "body": [
+        "Every marketplace runs a single ordering line whether you buy one item or six, which makes the most efficient party structure obvious and almost nobody uses it: one person queues and orders everything the group wants from that booth, and the rest of the group sits down.",
+        "Order in pairs rather than singles. Two of the same plate from one booth costs one wait; one plate each from two booths costs two waits, and the waits are the expensive part of this festival, not the food.",
+        "Split every plate. The portions are three to five bites, which means a group of four sharing ten plates tastes ten things for the price of ten plates rather than forty. Groups that each order their own end up eating four things and spending the same money.",
+        "The permanent quick-service counters inside the pavilions are the arbitrage nobody takes. Les Halles Boulangerie-Patisserie in France, the counters in Japan and Morocco, and the bakery windows in Norway all serve larger portions at similar prices while the festival booth twenty feet away runs a queue."
+      ]
+    },
+    {
+      "heading": "Use the concert series as a crowd map",
+      "body": [
+        "The Eat to the Beat sets at the America Gardens Theatre move several thousand people to one fixed point on the promenade several times a night, and every set is a scheduling gift if you are paying attention.",
+        "During a set, the booths within sight of the theatre empty and the booths on the far side of the lagoon fill. In the fifteen minutes after a set ends, the reverse happens. Eat near the American Adventure immediately after a set concludes and on the Canada side while one is on.",
+        "If you want to watch a show, take the last set of the night rather than the first. It is the same act with the same setlist and the queue is a fraction of the size, because most of the audience for the earlier sets has already committed to a spot.",
+        "The dining packages that come with reserved seating are worth it only if you wanted the restaurant anyway. Buying a meal you did not want to avoid a queue you could have avoided by turning up for the late show is a poor trade."
+      ]
+    },
+    {
+      "heading": "Budget the drinks separately, because they are the whole overrun",
+      "body": [
+        "The food band at this festival tops out around $13 and the drinks do not. A wine pour or a specialty cocktail at a marketplace regularly matches or exceeds the most expensive plate at the same booth, and the drinks are the line item that turns a $60 evening into a $140 one.",
+        "Pick one drink per country rather than one per booth. The countries with a genuine beverage identity are worth the money and the rest are selling you the same imported lager in a festival cup.",
+        "Water is free at every quick-service counter in the park, and the walk-up windows will hand you a cup of ice water without a purchase. In August that single habit is the difference between finishing the loop and abandoning it.",
+        "If you plan to drink at more than four booths, do it on a day you are not driving and not on the first day of the trip. Central Florida heat plus small pours across four hours removes more park days than anyone admits."
+      ]
+    },
+    {
+      "heading": "When inside the season to go",
+      "body": [
+        "The opening weeks in late summer are the best value window of the festival: the full booth lineup is running from day one, the crowd is at its thinnest, and the price band is the same as it will be in October. The cost is the weather, which in August means high 80s and an afternoon storm.",
+        "Early November is the other sweet spot and the better one if you can choose. The lineup is intact, the weather has turned, and the pre-Thanksgiving crowd has not arrived.",
+        "The week to avoid is any Saturday from late September onward, and the specific hours to avoid are 17:00 to 21:00 on those days. That window is the festival at its worst, and it is the window most visitors choose.",
+        "The overlooked opportunity is the changeover. Food & Wine runs to mid-November and EPCOT's Festival of the Holidays starts in mid-November, and the two windows have historically abutted closely enough that a visit in the final days of one can catch the first days of the other. Check the current year's published dates before planning around it, because the size of that overlap has varied."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "Booth lineups are rebuilt every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive festivals and are the closest thing this event has to a fixed menu. Prices are stated at the July 2026 band and move upward most years. Treat this as the shape of the menu rather than as the current year's menu.",
+    "items": [
+      {
+        "name": "Canadian Cheddar Cheese Soup with a pretzel roll",
+        "where": "Canada marketplace",
+        "priceUsd": 9,
+        "verdict": "The single most reliable order at the festival and the reason to walk the loop clockwise. It has outlasted most of the booths around it, the portion is genuinely a portion, and the pretzel roll is doing real work rather than being a garnish. Order it first, before the line is twenty deep."
+      },
+      {
+        "name": "Grilled Lamb Chop with mint pesto and potato crunchies",
+        "where": "Australia marketplace",
+        "priceUsd": 11.5,
+        "verdict": "Near the top of the price band and one of the few items that justifies it, because it is an actual chop rather than a spoonful of something. Split it if you are pacing yourself; it is rich and it lands early in the loop."
+      },
+      {
+        "name": "Freshly Baked Carrot Cake with cream cheese icing",
+        "where": "Hops & Barley marketplace, The American Adventure",
+        "priceUsd": 6.25,
+        "verdict": "The sleeper of the whole festival. It is a straightforward slice of carrot cake at the bottom of the price band, it has been on this menu for years, and it beats most of the $10 desserts around the lagoon. Buy it right after a concert set ends, when this booth clears."
+      },
+      {
+        "name": "Belgian Waffle with warm chocolate ganache and whipped cream",
+        "where": "Belgium marketplace",
+        "priceUsd": 7,
+        "verdict": "The best value dessert on the promenade and the easiest thing at the festival to share four ways. It is also the item most likely to be worth queuing for with children in the group, which is not true of much else here."
+      },
+      {
+        "name": "Schinkennudeln — pasta gratin with ham and onions",
+        "where": "Germany marketplace",
+        "priceUsd": 8,
+        "verdict": "The most filling plate per dollar at the festival, which matters more than it sounds when you are eight booths in and still hungry. Heavy, unsubtle, and the correct order if you are treating the loop as dinner."
+      },
+      {
+        "name": "Crispy Pork Belly with black beans",
+        "where": "Brazil marketplace",
+        "priceUsd": 7.5,
+        "verdict": "Consistently among the better savory plates and rarely among the longest lines, which is an unusual combination here. The beans are the point; the pork belly is what gets people to order it."
+      },
+      {
+        "name": "Griddled Cheese with pistachios and honey",
+        "where": "Greece marketplace",
+        "priceUsd": 8,
+        "verdict": "A fried cheese course masquerading as a snack, and the item most likely to convert somebody who claims not to like festival food. Order it hot and eat it immediately; it does not survive a walk to a bench."
+      },
+      {
+        "name": "Warm Chocolate Pudding with Irish Cream liqueur custard",
+        "where": "Ireland marketplace",
+        "priceUsd": 6.5,
+        "verdict": "A long-running dessert that sits near the bottom of the band and outperforms it. Contains alcohol in the custard, which is the detail people miss when handing it to a child."
+      },
+      {
+        "name": "Berbere-style Beef Tenderloin with onion, cucumber and tomato salad",
+        "where": "Africa marketplace",
+        "priceUsd": 8.5,
+        "verdict": "The best-spiced savory item at the festival most years and one of the few that is not sweet, fried or cheese. The salad is the reason to order it late in the loop, after six rich plates."
+      },
+      {
+        "name": "Ropa Vieja Empanada",
+        "where": "Islands of the Caribbean marketplace",
+        "priceUsd": 6.5,
+        "verdict": "Cheap, hot, handheld and easy to eat while walking, which makes it the right order at the point in the evening when every bench around the lagoon is taken. Not the best thing here, but the most practical."
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Do I need a separate ticket for the festival?",
+      "a": "No. The festival is included with EPCOT park admission and there is no festival ticket of any kind. What costs extra is the food itself, the culinary demonstrations, the beverage seminars, the signature dining events and the scavenger hunt map. Any page quoting you an entry price is describing one of those paid add-ons."
+    },
+    {
+      "q": "How much should I budget?",
+      "a": "Around $60 per adult for a proper evening of food, and closer to $100 if you are drinking at the booths. Items sat between $5 and $13 as of July 2026, portions are three to five bites, and a satisfying loop is eight to twelve plates split across a group. Budgeting $25 a head produces a bad evening and a resentful group."
+    },
+    {
+      "q": "Which booths should I hit first?",
+      "a": "Whichever ones are on the Canada and United Kingdom side, because you should be walking the loop clockwise while everyone else walks it counterclockwise. The morning crowd flows toward Mexico and Norway for the ride, which leaves the Canada end of the promenade quiet for the first two hours of booth service."
+    },
+    {
+      "q": "Is the festival food actually good?",
+      "a": "The best of it is very good and the median of it is fine, which is a better hit rate than the equivalent at any other Disney festival. The failure mode is not quality but value: portions are small, prices are high, and a dish that would be a reasonable $9 plate at a restaurant is a reasonable $9 mouthful here."
+    },
+    {
+      "q": "Can I use the dining plan or a gift card at the booths?",
+      "a": "Gift cards work at every marketplace and are the practical way to cap a group's spend — load one, hand it round, and stop when it is empty. Dining plan eligibility at festival booths has changed more than once, so confirm it at a booth on your first order rather than assuming."
+    },
+    {
+      "q": "When do the next festival's dates come out?",
+      "a": "Disney has historically announced the festival's dates a few months ahead of the late-summer start and published the full booth menu shortly before opening. We have not verified a 2026 announcement as of July 2026, so this page carries the typical window and the perennial menu rather than dates and a current lineup."
+    },
+    {
+      "q": "Is it worth going with young children?",
+      "a": "It is manageable rather than good. The scavenger hunt is the tool that makes it work, the food is not aimed at children, and World Showcase during this festival is the worst stroller environment at Walt Disney World. If your EPCOT day has to happen during the festival and you have a toddler, go in the morning and leave before 17:00."
+    },
+    {
+      "q": "Which EPCOT festival is the best one?",
+      "a": "This one, on food, and the Festival of the Arts on everything else. Food & Wine has the widest booth lineup, the strongest savory menu and the longest run. The Arts festival has better weather, far smaller crowds and a more interesting non-food program, and Flower & Garden sits between them with the best value per plate."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
+    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
+    { "label": "Les Halles Boulangerie-Patisserie", "href": "/walt-disney-world/epcot/dining/les-halles-boulangerie-patisserie/", "site": 1 },
+    { "label": "Frozen Ever After at EPCOT", "href": "/walt-disney-world/epcot/rides/frozen-ever-after/", "site": 1 },
+    { "label": "Remy's Ratatouille Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/remys-ratatouille-adventure/", "site": 1 },
+    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
+    { "label": "Disney food tracker", "href": "/tools/food-tracker/", "site": 1 }
+  ],
+
+  "related": [
+    "epcot-festival-of-the-holidays",
+    "epcot-festival-of-the-arts",
+    "epcot-flower-and-garden-festival",
+    "mickeys-not-so-scary-halloween-party"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "Ran the full late-summer to mid-November window, keeping the festival's position as the longest Disney operates at any park.",
+        "Per-item pricing continued its upward drift, with the practical effect that the cheapest plates on the promenade moved further away from the $5 floor."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 cycle, labelled as such. We have not reproduced the 2025 booth roster here, because the roster is rebuilt annually and a year-old list of thirty booths would read as current and be wrong within weeks.",
+        "reviewBy": "2026-09",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The festival has run every year since 1995 and has held the same window shape for many consecutive cycles: a late-July or August start, a mid-November finish, and roughly a hundred days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates and the 2026 booth lineup are not confirmed to us as of July 2026, so this page states the window, the July 2026 price band, and the perennial menu rather than any specific date or current roster.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}

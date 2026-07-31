@@ -1,0 +1,117 @@
+{
+  "month": 8,
+  "name": "August",
+  "slug": "august",
+  "summary": "August is two different months joined at the middle. Walt Disney World empties out around mid-month as Southern school districts return, delivering the cheapest quiet week of the summer to anyone willing to stand in 92-degree heat; Disneyland does the opposite and stays full through Labor Day.",
+  "verdict": {
+    "grade": "C",
+    "short": "The first half is July with worse humidity. The second half is one of the year's genuine value windows at Walt Disney World and still peak season at Disneyland.",
+    "bestFor": [
+      "Late-August Walt Disney World trips, where crowds and prices both fall while everyone else is still at work",
+      "Halloween party fans — Not-So-Scary's earliest nights are its cheapest and least attended",
+      "Anyone who tolerates heat well and prioritizes short lines over comfort",
+      "Adults without a school calendar, who get the discount without the crowd",
+      "Disney California Adventure visitors, since Oogie Boogie Bash starts and the festival calendar restarts"
+    ],
+    "worstFor": [
+      "The first two weeks at Walt Disney World, which combine peak heat with summer crowds",
+      "Disneyland in any week — California districts return later and the resort does not discount",
+      "Anyone sensitive to humidity, since August's overnight lows in Orlando barely drop below 75",
+      "Storm-averse travelers, because peak Atlantic hurricane season begins mid-month",
+      "Costume-wearing party guests at Magic Kingdom, where an August party night is genuinely hot"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "August's split is driven by school calendars rather than by anything Disney does, and it is one of the sharpest crowd inflections on the calendar. Districts across Florida, Georgia, Texas, and the Carolinas return in the first two weeks, and because those states supply a disproportionate share of Walt Disney World's drive-in and annual-pass attendance, Orlando empties out around the middle of the month while much of the rest of the country is still on vacation. By the last full week, Walt Disney World is running at levels it will not see again until January, with the added benefit of long summer operating hours that have not yet been cut back. Disneyland experiences none of this. California districts return later, its attendance base is local and not seasonal in the same way, and Oogie Boogie Bash nights sell out across the entire month — so Anaheim stays busy into the first week of September. This is the clearest example on the calendar of the two resorts running opposite curves in the same weeks.",
+    "peakWindows": [
+      "The first two weeks at Walt Disney World, before Southern districts return",
+      "The entire month at Disneyland, and every Oogie Boogie Bash night at Disney California Adventure",
+      "Weekends at EPCOT once the Food and Wine Festival opens, which draws a Florida-resident crowd"
+    ],
+    "quietWindows": [
+      "The last ten days at Walt Disney World, the cheapest quiet stretch of the summer",
+      "The final week before Labor Day at every Orlando park",
+      "Weekday mornings at Disneyland Park, the only soft hours the resort offers this month"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 92,
+      "lowF": 75,
+      "rainDays": 17,
+      "note": "Climate normals for Orlando, not a forecast. Statistically indistinguishable from July, and in practice it feels worse because the overnight lows stop dropping and the ground never cools between days. Seventeen days with measurable rain, the same afternoon convective pattern, and the statistical ramp toward peak Atlantic hurricane season beginning mid-month."
+    },
+    "dlr": {
+      "highF": 85,
+      "lowF": 65,
+      "rainDays": 0,
+      "note": "Climate normals for Anaheim, not a forecast. The hottest month of the Southern California year and still seven degrees cooler than Orlando with a fraction of the humidity. Inland Orange County does get occasional heat spells that push past 95 for several consecutive days, which is the one condition that makes Disneyland genuinely uncomfortable."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Late August is historically when Walt Disney World publishes its most aggressive room-only discounts and, in some cycles, dining offers — the resort is discounting into the annual attendance low that runs from late August through September, and the offers land before the low itself does. Date-based ticket tiers step down in the last third of the month, so the ticket, the room, and the airfare all move in the same direction within about ten days. Anaheim does not participate in any of this: Disneyland does not discount in August, its hotel market is not seasonal in the same way, and Oogie Boogie Bash demand holds rates up. The practical upshot is that the same two weeks are a bargain on one coast and full price on the other."
+  },
+  "whatsOn": [
+    "epcot-food-and-wine-festival",
+    "mickeys-not-so-scary-halloween-party",
+    "oogie-boogie-bash",
+    "halloween-time-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The last ten days at Walt Disney World are the hidden bargain of the summer",
+      "body": [
+        "The combination available in late August exists nowhere else on the calendar: low crowds, discounted rooms, lower ticket tiers, and summer operating hours that have not yet been shortened. September is quieter and cheaper still, but September has already lost the long evenings.",
+        "The cost of entry is the heat, and it is a real cost rather than a rhetorical one. This window suits adults, teenagers, and heat-tolerant families, and it suits almost nobody with a toddler.",
+        "The booking move is to watch for the late-summer room offer and then build the dates around it rather than the reverse. The offers are published with defined date ranges, and the difference between a night inside the range and a night outside it is larger than the difference between two hotel categories."
+      ]
+    },
+    {
+      "heading": "Halloween starting in August is not a mistake, and the early nights are the good ones",
+      "body": [
+        "Mickey's Not-So-Scary Halloween Party begins in mid-August, months before anybody's instinct says Halloween. The counterintuitive consequence is that the earliest nights of the run are both the cheapest in the price band and the least attended, because the calendar has not yet convinced people it is party season.",
+        "The trade is that you are wearing a costume in 90-degree heat with a dewpoint in the mid-70s. Plan the costume for the temperature rather than for the photograph — this is the month where the elaborate outfit stops being fun around 8:30 PM.",
+        "The other August-specific advantage is that party admission typically begins several hours before the party itself, so an early-season party ticket buys a long evening in a park that is already thinning out for the season."
+      ]
+    },
+    {
+      "heading": "Oogie Boogie Bash sells out earlier and harder than its Florida equivalent",
+      "body": [
+        "Disneyland's Halloween party at Disney California Adventure is the harder ticket of the two by a wide margin. Nights routinely sell out within days of going on sale, and they go on sale months ahead of the season.",
+        "If an August or September Disneyland trip is happening and the party is part of it, buy the event ticket first and the hotel second. Anaheim has an abundant hotel market and a finite number of party nights, so the constrained resource is the one to lock in.",
+        "Halloween Time at the Disneyland Resort runs as a daytime overlay across both parks from late August, and it does not require a party ticket. If the party sells out, the seasonal ride overlays and decor are still available on a normal admission day, which is the part people do not realize they can have."
+      ]
+    },
+    {
+      "heading": "Peak hurricane season starts here, and the policy detail matters",
+      "body": [
+        "Atlantic hurricane season ramps into its most active phase from mid-August through September. August trips are not high risk in themselves, but this is where storm planning starts to be worth the effort rather than being theoretical.",
+        "Walt Disney World has historically operated a hurricane policy permitting cancellation without penalty when a warning is issued for the Orlando area or for your point of origin within a defined window before arrival. That policy covers the Disney-booked portion only. Flights, third-party hotels, and rental cars are separate exposures, so book the airline that waives change fees and check whether your card's travel protections cover named storms.",
+        "Buy travel insurance before a storm is named, not after. Once a system has a name it is a known event and named-storm coverage stops applying to it — that timing detail is the most common way people discover their policy does not do what they assumed."
+      ]
+    },
+    {
+      "heading": "The Food and Wine Festival opening is the least predictable date at EPCOT",
+      "body": [
+        "The EPCOT International Food and Wine Festival has opened as early as the back end of July in some cycles and not until late August in others, and it runs into mid-November either way. It is the one EPCOT festival whose start is genuinely hard to anticipate.",
+        "The planning consequence is that an August EPCOT day should not be booked on the assumption the festival is running. Check the announcement before committing, and have a plan for the park that works without it.",
+        "Once it does open, the festival's crowd pattern is weekend-shaped rather than month-shaped. World Showcase on a Saturday evening in late August runs at October levels because Florida passholders treat it as a local night out; the same promenade on a Tuesday afternoon is close to empty."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "EPCOT first-timer guide", "href": "/walt-disney-world/epcot/first-timer-guide/", "site": 1 },
+    { "label": "Disney California Adventure first-timer guide", "href": "/disneyland/california-adventure/first-timer-guide/", "site": 1 },
+    { "label": "Is it scary? Ride-by-ride intensity", "href": "/guides/is-it-scary/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy and the late-summer discount pattern are long-running operator practices rather than confirmed current terms — verify both at the point of booking.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

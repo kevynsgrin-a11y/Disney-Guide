@@ -1,0 +1,157 @@
+{
+  "resort": "walt-disney-world",
+  "slug": "walt-disney-world",
+  "title": "Walt Disney World Closures and Construction",
+  "titleTail": ": What Is Actually Gone, July 2026",
+  "h1": "Walt Disney World closures and construction: what is gone and what is being built",
+  "description": "A short, checked list of what is closed or under construction at Walt Disney World as of July 2026, with no invented reopening dates.",
+  "summary": "Nine attractions across three Walt Disney World parks are either permanently closed or under construction as of July 2026, all of them in Frontierland, Grand Avenue and the former DinoLand, and none of them has a reopening date we are prepared to print.",
+  "scope": "This tracker lists attractions that closed from 2023 onward plus anything currently under construction. Older permanent closures are carried on Ride Ready Guide's park pages with a closed status and are not repeated here — this list exists for trips being planned now.",
+  "items": [
+    {
+      "name": "Rivers of America",
+      "parkSlug": "magic-kingdom",
+      "attractionSlug": "rivers-of-america",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Drained permanently as part of Magic Kingdom's western expansion work. Nothing returns to this waterway, and the two attractions that used it are closed with it. If you are planning around a Magic Kingdom map more than a year old, Frontierland and Liberty Square are the areas that have changed."
+    },
+    {
+      "name": "Liberty Belle Riverboat",
+      "parkSlug": "magic-kingdom",
+      "attractionSlug": "liberty-belle-riverboat",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Closed with the Rivers of America. This was one of the few genuine sit-down rest attractions at Magic Kingdom, and its loss changes how a long day with small children or limited mobility should be paced."
+    },
+    {
+      "name": "Tom Sawyer Island",
+      "parkSlug": "magic-kingdom",
+      "attractionSlug": "tom-sawyer-island",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Closed with the Rivers of America that reached it. Magic Kingdom now has no free-roaming outdoor play area, which is worth knowing if you were counting on it as the afternoon release valve for a five-year-old."
+    },
+    {
+      "name": "Muppet*Vision 3D",
+      "parkSlug": "hollywood-studios",
+      "attractionSlug": "muppet-vision-3d",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Closed permanently to clear the Grand Avenue area for redevelopment. Hollywood Studios has lost an air-conditioned seated show in a park that is short of them, which matters most between June and September."
+    },
+    {
+      "name": "DINOSAUR",
+      "parkSlug": "animal-kingdom",
+      "attractionSlug": "dinosaur",
+      "status": "permanently-closed",
+      "since": "2025",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "Closed permanently for the Tropical Americas redevelopment of the former DinoLand. Its replacement is the Indiana Jones attraction listed below, in the same building footprint."
+    },
+    {
+      "name": "It's Tough to Be a Bug",
+      "parkSlug": "animal-kingdom",
+      "attractionSlug": "its-tough-to-be-a-bug",
+      "status": "permanently-closed",
+      "since": "2024",
+      "reopening": null,
+      "reopeningConfidence": "not-applicable",
+      "note": "The show is gone; the theater beneath the Tree of Life is not. Ride Ready Guide carries the Tree of Life Theater as open with different programming, so treat this as a change of show rather than a lost venue."
+    },
+    {
+      "name": "Indiana Jones Adventure (Tropical Americas)",
+      "parkSlug": "animal-kingdom",
+      "attractionSlug": "indiana-jones-tropical-americas",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "2027",
+      "reopeningConfidence": "expected",
+      "note": "The headline attraction of the Tropical Americas land replacing DinoLand. Disney has spoken about a 2027 opening publicly; we have not verified a date and are not going to print one. Treat 2027 as the earliest a trip could be planned around it, not as a commitment."
+    },
+    {
+      "name": "Pueblo Esperanza Carousel (Tropical Americas)",
+      "parkSlug": "animal-kingdom",
+      "attractionSlug": "pueblo-esperanza-carousel",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "with the Tropical Americas land",
+      "reopeningConfidence": "expected",
+      "note": "A family spinner for the new land, expected to open alongside it rather than separately. Animal Kingdom has been short of young-child attractions since the DinoLand closures and this is the replacement for that gap."
+    },
+    {
+      "name": "Encanto Ride-Through (Tropical Americas)",
+      "parkSlug": "animal-kingdom",
+      "attractionSlug": "encanto-attraction",
+      "status": "under-construction",
+      "since": "2025",
+      "reopening": "after the Indiana Jones attraction, no year given",
+      "reopeningConfidence": "unannounced",
+      "note": "Announced as part of Tropical Americas but sequenced behind the Indiana Jones attraction. No opening year has been given that we can verify, so this is the one item on the tracker we would not plan any trip around."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What this changes about planning a Florida trip",
+      "body": [
+        "Magic Kingdom's Frontierland and Liberty Square are the areas to re-plan. Three attractions closed together in 2025 and all three were the slow, seated, shaded kind — the riverboat, the island and the water they shared. A Magic Kingdom day now has fewer places to stop moving, which matters most in July and August and matters most to parties with small children or limited stamina.",
+        "Animal Kingdom is the park most affected by construction and the least affected in practice. The former DinoLand is walled off and its two rides are gone, but the park's best attractions are elsewhere and its trails and shows are untouched. A first-time visitor would not notice; a returning family with a nine-year-old who liked DINOSAUR will.",
+        "Hollywood Studios lost an indoor seated show in a park that was already short of them. That is a real scheduling problem in the summer, when the practical shape of a Hollywood Studios day depends on having somewhere air-conditioned to spend the middle of the afternoon."
+      ]
+    },
+    {
+      "heading": "Why this list is short",
+      "body": [
+        "Everything here is cross-checked against Ride Ready Guide's attraction dataset, which carries the status field this page reports. If an attraction is not listed on this page it is because our sister site carries it as open, and we would rather publish nine items we can support than thirty we cannot.",
+        "EPCOT has no entries on this tracker. Its permanent closures all predate 2023 and are carried on the park's own pages, and we have no verified 2026 or 2027 refurbishment information for the park. An empty section is the honest answer rather than a gap.",
+        "Routine refurbishments are deliberately absent. Every major attraction at both resorts goes down for maintenance at some point in a year, usually for two to six weeks, and those closures are announced weeks rather than months ahead. A tracker that tried to predict them would be wrong more often than right; check the operator's own refurbishment calendar in the month before you travel."
+      ]
+    },
+    {
+      "heading": "What we will not print",
+      "body": [
+        "No reopening date on this page is stated as a fixed day. Where a year appears — 2027 for the Indiana Jones attraction — it is labelled as expected rather than confirmed, because Disney has discussed the timing publicly without our having verified an announced date against the operator's own materials.",
+        "Where nothing has been announced, this page says so. The Encanto attraction has no opening year we can verify and is marked accordingly. That is more useful to a family choosing between 2027 and 2028 than a confident guess would be.",
+        "Construction walls, scrim and crane positions change monthly and are not tracked here. If the concern is photographs rather than attractions, check recent visitor reports closer to your dates than any published tracker can be."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Magic Kingdom ride list",
+      "href": "/walt-disney-world/magic-kingdom/rides/",
+      "site": 1
+    },
+    {
+      "label": "Animal Kingdom ride list",
+      "href": "/walt-disney-world/animal-kingdom/rides/",
+      "site": 1
+    },
+    {
+      "label": "DINOSAUR at Animal Kingdom",
+      "href": "/walt-disney-world/animal-kingdom/rides/dinosaur/",
+      "site": 1
+    },
+    {
+      "label": "Hollywood Studios ride list",
+      "href": "/walt-disney-world/hollywood-studios/rides/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Every item on this tracker is cross-checked against Ride Ready Guide's attraction dataset, which carries the status field reported here, and nothing appears on this page that our sister site does not carry as closed or under construction. Reopening timings are our reading of what Disney has said publicly; none is presented as an announced date, and the one item with no verifiable year is labelled as unannounced rather than estimated. Routine short-term refurbishments are not tracked.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

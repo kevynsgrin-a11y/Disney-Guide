@@ -1,0 +1,161 @@
+{
+  "park": "epcot",
+  "viewBox": [0, 0, 1000, 1000],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    {
+      "points": [
+        [505, 545],
+        [625, 570],
+        [720, 640],
+        [750, 735],
+        [705, 825],
+        [590, 880],
+        [455, 882],
+        [340, 835],
+        [280, 750],
+        [300, 650],
+        [385, 578]
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "points": [
+        [500, 70],
+        [500, 180],
+        [500, 300],
+        [500, 430],
+        [505, 500]
+      ]
+    },
+    {
+      "points": [
+        [505, 500],
+        [640, 530],
+        [750, 600],
+        [800, 700],
+        [780, 810],
+        [680, 900],
+        [520, 940],
+        [370, 925],
+        [255, 850],
+        [205, 740],
+        [230, 630],
+        [330, 545],
+        [440, 505],
+        [505, 500]
+      ]
+    },
+    {
+      "points": [
+        [360, 300],
+        [300, 285],
+        [240, 275]
+      ]
+    },
+    {
+      "points": [
+        [645, 290],
+        [700, 275],
+        [760, 265]
+      ]
+    }
+  ],
+  "lands": [
+    {
+      "slug": "world-celebration",
+      "label": "World Celebration",
+      "points": [
+        [500, 60],
+        [610, 90],
+        [650, 180],
+        [650, 300],
+        [615, 390],
+        [520, 425],
+        [420, 420],
+        [360, 370],
+        [345, 270],
+        [360, 150],
+        [420, 80]
+      ],
+      "labelAt": [500, 245]
+    },
+    {
+      "slug": "world-discovery",
+      "label": "World Discovery",
+      "points": [
+        [700, 110],
+        [830, 105],
+        [930, 165],
+        [960, 270],
+        [940, 375],
+        [865, 430],
+        [755, 435],
+        [685, 390],
+        [665, 290],
+        [670, 185]
+      ],
+      "labelAt": [815, 170]
+    },
+    {
+      "slug": "world-nature",
+      "label": "World Nature",
+      "points": [
+        [300, 110],
+        [330, 190],
+        [335, 300],
+        [320, 395],
+        [250, 435],
+        [130, 430],
+        [60, 370],
+        [45, 265],
+        [75, 165],
+        [165, 105]
+      ],
+      "labelAt": [195, 235]
+    },
+    {
+      "slug": "world-showcase",
+      "label": "World Showcase",
+      "points": [
+        [440, 448],
+        [600, 452],
+        [760, 490],
+        [880, 570],
+        [935, 700],
+        [890, 850],
+        [760, 950],
+        [560, 980],
+        [380, 970],
+        [220, 910],
+        [110, 800],
+        [85, 660],
+        [160, 540],
+        [290, 472]
+      ],
+      "labelAt": [505, 497]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [500, 32] },
+    { "slug": "spaceship-earth", "kind": "headliner", "at": [500, 118] },
+    { "slug": "connections-eatery", "kind": "dining", "at": [565, 250] },
+    { "slug": "journey-into-imagination-with-figment", "kind": "attraction", "at": [430, 368] },
+    { "slug": "the-seas-with-nemo-and-friends", "kind": "attraction", "at": [140, 168] },
+    { "slug": "soarin-around-the-world", "kind": "headliner", "at": [175, 285] },
+    { "slug": "living-with-the-land", "kind": "attraction", "at": [98, 335] },
+    { "slug": "sunshine-seasons", "kind": "dining", "at": [248, 348] },
+    { "slug": "guardians-of-the-galaxy-cosmic-rewind", "kind": "headliner", "at": [722, 232] },
+    { "slug": "mission-space-orange", "kind": "attraction", "at": [862, 262] },
+    { "slug": "space-220-restaurant", "kind": "dining", "at": [898, 330] },
+    { "slug": "test-track", "kind": "headliner", "at": [760, 378] },
+    { "slug": "gran-fiesta-tour", "kind": "attraction", "at": [688, 520] },
+    { "slug": "frozen-ever-after", "kind": "headliner", "at": [812, 620] },
+    { "slug": "via-napoli-ristorante-e-pizzeria", "kind": "dining", "at": [830, 788] },
+    { "slug": "the-american-adventure", "kind": "attraction", "at": [520, 928] },
+    { "slug": "remys-ratatouille-adventure", "kind": "headliner", "at": [186, 778] },
+    { "slug": "le-cellier-steakhouse", "kind": "dining", "at": [214, 572] },
+    { "slug": "epcot-nighttime-spectacular", "kind": "headliner", "at": [505, 718] }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "park": "epcot",
+  "criteria": "Ranked on the experience itself: what the attraction actually does, how much of it is built rather than projected, and whether it survives a second lap. Wait times, Lightning Lane tier and nostalgia were deliberately ignored, and films and sit-down shows were counted, because at EPCOT they are half the roster and leaving them out produces a dishonest list.",
+  "intro": [
+    "EPCOT is the hardest park at Walt Disney World to rank, because a lot of what it offers is not a ride. Strip out the galleries, the play areas, the character stops and the boats that exist to move you across the lagoon, and you are left with about a dozen things you queue up and sit down for. Any ranking that counts only ride vehicles runs out of material by number eight and starts padding.",
+    "So the films and the theatre shows are in, judged the same way as everything else. That decision changes the shape of the list: a 29-minute animatronic stage show finishes ahead of two rides, and a wraparound travelogue from 1982 finishes ahead of a headliner boat ride. It also reflects how the park actually plays. World Discovery holds the thrills and you should hit it first; World Nature holds the slow, cool, walk-on ones and they are the reason the middle of the day is bearable here; World Showcase holds exactly two rides and most of the reasons to stay after dark."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "guardians-of-the-galaxy-cosmic-rewind",
+      "headline": "The one EPCOT ride that would headline any park in Florida, and the only coaster here with teeth.",
+      "why": [
+        "The trick is the vehicle. Each car swivels independently under computer control, so the ride decides what you are looking at from moment to moment. You get launched backwards while facing the wrong way, then rotated to catch the drop you did not know was coming. That is a different sensation from a coaster that simply points you forward, and it is the reason the ride holds up on a third lap when screen-heavy attractions do not.",
+        "It is also the smoothest large ride Disney has built in Florida: close to two minutes of continuous track, no hard transitions, an indoor speed run through a space that never feels cramped, and a rotating soundtrack that gives you a reason to come back. The pre-show is long and the story is thin — you will not remember a word of it. The coaster underneath is the real thing. At 42 inches it is a genuine thrill ride, not a family coaster with a warning label for effect."
+      ],
+      "skipIf": "Skip it if backwards launches or a spinning vehicle are a problem for you, because there is no gentler version of this one."
+    },
+    {
+      "rank": 2,
+      "slug": "spaceship-earth",
+      "headline": "Sixteen minutes of animatronics inside the icon, and still the ride that explains what the park is for.",
+      "why": [
+        "Nothing else on property does quite this: a slow omnimover through a dark building where nearly every scene is physical, the pacing is unhurried, and the subject is the invention of writing. It runs sixteen minutes, it has no height requirement, it is air conditioned, and for most of the day it is close to a walk-on. Measured as experience delivered per minute of queue, it is the best value in the park by a distance.",
+        "The back half has not aged well, and that is why it is second rather than first. The descent added in 2007 is a touchscreen gag and a cartoon coda bolted onto a serious ride, and the narration is softer than the version it replaced. But the climb — the burning of Alexandria, the monks copying manuscripts, the Renaissance workshop, the garage in California — is the strongest sustained stretch of scene work anywhere at EPCOT, and it is entirely built rather than projected."
+      ],
+      "skipIf": "Skip it only if you cannot sit still for a slow dark ride with no drops and nothing aimed at teenagers."
+    },
+    {
+      "rank": 3,
+      "slug": "test-track",
+      "headline": "The outdoor lap is the fastest thing at EPCOT, and the 2025 rebuild finally gave the queue a point.",
+      "why": [
+        "Everything before the barn doors is setup. The reason to ride is the last fifty seconds: a hard right out of the building onto a banked outdoor circuit at 65 miles an hour, in open air, with nothing between you and the pavement. No other attraction in this park moves you like that, and a night lap is better than a day lap because you lose the reference points and the speed reads higher.",
+        "The rebuilt version replaced a corporate design exercise with a stylised look back at the park's own visual language, and the vehicle you configure at the kiosk now actually feeds something you can see on the ride. The indoor first act is still the same sequence of handling, braking and environment tests it has always been, and it is still slow. Single rider is available and normally cuts the wait to a fraction of standby; the trade is that you ride somebody else's design and lose the one part the retheme improved."
+      ],
+      "skipIf": "Skip it if sudden acceleration in the dark makes you anxious, or if you are riding for the theme rather than the speed."
+    },
+    {
+      "rank": 4,
+      "slug": "soarin-around-the-world",
+      "headline": "A hang glider over eleven countries. The best gentle ride here, held back by a tired film.",
+      "why": [
+        "The hardware is still remarkable. You are lifted into a dome, your feet leave the floor, and the projection wraps far enough into your peripheral vision that your inner ear believes the banking. Add the scent cues and it is a very effective piece of engineering, and at 40 inches it is something most of a mixed-age party can do together — which is rarer at EPCOT than it should be.",
+        "The film is the weak link. Around the World is a greatest-hits reel with no shape: you jump from the Matterhorn to Sydney Harbour to the pyramids with nothing connecting them, and the digital seams where the locations were stitched together have become obvious, particularly on the side screens. Ask for the top row if the attendant offers a choice, because the lower rows put the feet of the row in front of you in your field of view. Fourth on the strength of the rig, not the content."
+      ],
+      "skipIf": "Skip it if heights genuinely bother you; the dangling-feet moment is convincing enough to matter."
+    },
+    {
+      "rank": 5,
+      "slug": "frozen-ever-after",
+      "headline": "The best animatronics at EPCOT, hidden in a boat ride a lot of adults write off before boarding.",
+      "why": [
+        "Ignore the marketing and ignore who else is in the queue. The Elsa figure in the ice palace is among the most convincing full-body animatronics Disney operates in Florida — the facial projection is precise, the movement is unhurried rather than twitchy, and the room is built to show it off from the water. The Marshmallow encounter and the backwards drop into the fjord are staged with real craft, and the whole flume is dressed to a standard the park rarely reaches now.",
+        "It is short, roughly four minutes, and it inherited a boat ride built for a Norwegian voyage that had more to say. The story it tells now is a shrug: you are on your way to a celebration in Arendelle, and then it ends. But this is a ranking of experiences, and the density of good figures packed into a small building beats several longer attractions here on craft alone."
+      ],
+      "skipIf": "Skip it if a short backwards drop and a forward drop are past your limit, or if a 45-minute wait for four minutes offends you."
+    },
+    {
+      "rank": 6,
+      "slug": "remys-ratatouille-adventure",
+      "headline": "A clever scale gag executed well, on a trackless system doing less than the system can do.",
+      "why": [
+        "The premise carries it. You are rat-sized, so the kitchen becomes a cathedral, a wine bottle becomes a building, and a colander becomes architecture. The physical sets sell the conceit properly — the scale is consistent rather than implied, the props are built at rat size, and the trackless vehicles scurry and dart rather than glide, which is exactly the right movement for what you are supposed to be.",
+        "The ceiling is the screens. A large share of the run time is spent facing projection, and once you notice where the physical set stops and the projected set starts, you cannot unsee the join. Sixth is a fair placement for the ride. It is also the attraction I would most often tell you to walk past on a busy day, because the standby it commands is out of proportion to the four minutes it returns — see the overrated list below, where it appears for exactly that reason. That is a scheduling call, not a demotion."
+      ],
+      "skipIf": "Skip it if there are no small children in the party and standby is over 45 minutes."
+    },
+    {
+      "rank": 7,
+      "slug": "the-american-adventure",
+      "headline": "The most ambitious animatronic staging Disney has ever built, playing to a half-empty theatre.",
+      "why": [
+        "The show moves entire stage sets on a hydraulic carriage under the theatre floor, swapping full scenes in the dark while a screen covers the changeover. Franklin climbs a staircase. Figures hand off narration to each other across the stage. Whatever you make of the history it tells — and it is a smoothed, careful version of it — the machinery underneath is the most complicated thing in this park and the figures remain among the best-tuned in Florida.",
+        "Almost nobody plans around it, which is precisely the argument for it. Large theatre, short cycle, rarely more than half full, 29 minutes of sitting down in air conditioning at the exact hour when the promenade is at its worst. Voices of Liberty performs in the rotunda before most showings at no extra cost, and that is worth arriving early for on its own."
+      ],
+      "skipIf": "Skip it if you are travelling with a toddler who will not sit through half an hour in a dark theatre."
+    },
+    {
+      "rank": 8,
+      "slug": "living-with-the-land",
+      "headline": "A working greenhouse tour by boat. Genuinely interesting, fourteen minutes, and almost always walk-on.",
+      "why": [
+        "The first three minutes are dioramas and the remaining eleven are real. You float slowly through four growing houses and an aquaculture bay where crops are actually being cultivated — rotating racks, nutrient film, vine tomatoes trained into a tree — and fish are actually being raised beside the track. Very little else at Walt Disney World shows you something that exists rather than something constructed to look like it exists.",
+        "It is slow and it thrills nobody, which is exactly why it earns a lap around one in the afternoon when the rest of the park is unpleasant. Sit on the right-hand side for the better angles into the growing houses. If it catches your interest, the walking tour of the same greenhouses goes considerably deeper and costs extra."
+      ],
+      "skipIf": "Skip it if a narrated boat ride about hydroponics sounds exactly as dry to you as it does written down."
+    },
+    {
+      "rank": 9,
+      "slug": "mission-space-orange",
+      "headline": "A real centrifuge producing real g-force. Impressive engineering, unpleasant four minutes.",
+      "why": [
+        "This is the only attraction at Walt Disney World that spins you to generate sustained g-load rather than faking it with a motion base. The launch sequence works: you are pressed hard into the seat, your arms get heavy, lifting your head becomes a decision, and for about twenty seconds the illusion is complete. As a machine it deserves the respect, and that is what puts it in the top ten.",
+        "Everything around those twenty seconds is thin. You are sealed in a capsule roughly the size of a phone box with your knees up, facing a small screen, for four minutes, with nothing to look at and nowhere to look. The sensation is strong and the content is not, and a meaningful share of riders come out grey. At 44 inches it carries the tallest requirement in the park. Green runs the same film without the spin and is a genuinely different attraction, not a lesser one."
+      ],
+      "skipIf": "Skip it if you are prone to motion sickness, at all claustrophobic, or riding with anyone who is either."
+    },
+    {
+      "rank": 10,
+      "slug": "epcot-nighttime-spectacular",
+      "headline": "The lagoon is the best fireworks venue on property. The show it currently holds is merely fine.",
+      "why": [
+        "Geography does most of the work. A forty-acre lagoon ringed by pavilions gives you a stage in the round, reflections off the water, and sightlines from almost anywhere on the promenade. No other park at Walt Disney World has anything close to this venue. Barges on the water, projection across the pavilion faces and shells overhead fill the space well, and the finale is loud enough to justify holding your spot.",
+        "The show itself does not clear the bar the venue sets. The score is pleasant and forgettable, the structure is a montage rather than an arc, and the projected elements only read properly from a fairly narrow band of shoreline. Stand between Italy and the American Adventure, or on the bridge over by Mexico, and it looks considerably better than it does from the north end. It is worth staying for; it is not worth two hours of camping."
+      ],
+      "skipIf": "Skip it if you would rather leave twenty minutes early and beat the crowd out of the park."
+    },
+    {
+      "rank": 11,
+      "slug": "journey-of-water-inspired-by-moana",
+      "headline": "A free-flow walkthrough with water that reacts to you. The most pleasant ten minutes in the park.",
+      "why": [
+        "It is a garden path of jets, streams and pools that respond to people: water arcs away as you approach, a stream follows your hand along a channel, a rain curtain opens to let you through. There is no queue, no vehicle and no fixed run time — you walk in, stay as long as you like, and leave. Children work out the interactions faster than adults do. Nothing else at EPCOT invites you to touch it.",
+        "Because it is not a ride and has no posted wait, it never lands on anybody's plan, and it sits directly on the main path with people streaming past it. Go in the late afternoon when the light is low and the crowd has drifted south, and accept that you will get slightly wet on purpose."
+      ],
+      "skipIf": "Skip it if you are working a tight plan and will not spend ten minutes on something with no ride vehicle."
+    },
+    {
+      "rank": 12,
+      "slug": "impressions-de-france",
+      "headline": "A 200-degree screen, a live orchestral score, and seats. The best film in the park.",
+      "why": [
+        "Five projectors across a wraparound screen, a French orchestral suite arranged specifically for the picture, and a helicopter's-eye tour of the country that has been running since 1982. The restoration to digital cleaned it up far more than a film of that age deserves. Unlike most of World Showcase's cinema, it is not quietly selling you a shopping destination — it is a straight travelogue with confidence in its own material and no narrator talking over it.",
+        "It also has seats, which matters more than it sounds at hour seven of a hot day. The theatre is large, the cycle is short, and it alternates in the same building with the Beauty and the Beast sing-along, so check the posted times before you commit. Turning up for one and getting the other is the single most common annoyance in this pavilion."
+      ],
+      "skipIf": "Skip it if an eighteen-minute scenery film with no plot is not your idea of an attraction."
+    },
+    {
+      "rank": 13,
+      "slug": "the-seas-with-nemo-and-friends",
+      "headline": "A thin dark ride bolted to an enormous saltwater tank. Ride it, then stay for the aquarium.",
+      "why": [
+        "The ride is four minutes of clamshells drifting past screens that composite animated characters onto real aquarium glass. The effect is done well and the reveal, where the cast appears to be swimming in the live tank alongside actual fish, still gets a reaction out of people. But the story is a compressed retelling of a film everybody has seen, and there is not much else to it.",
+        "It ranks here because of where it puts you down. The SeaBase pavilion behind it holds one of the largest saltwater environments in the United States, with sharks, rays, sea turtles, dolphins and a manatee rehabilitation habitat, and you can stand at the glass for as long as you want at no extra cost. Most people ride, walk through and are gone in eight minutes. Give it thirty and it becomes one of the better hours at EPCOT."
+      ],
+      "skipIf": "Skip the ride and walk straight through to the aquarium if standby is longer than about fifteen minutes."
+    },
+    {
+      "rank": 14,
+      "slug": "turtle-talk-with-crush",
+      "headline": "Live puppeteering dressed up as a cartoon. The improvisation is real, and that is the whole trick.",
+      "why": [
+        "An unseen performer drives Crush in real time, can see the audience, and improvises. Children ask questions and get answers specific to them; adults get picked out and teased about their hats. The technology disappears completely because the timing is human rather than scripted, and that is something no amount of screen budget elsewhere in the park manages.",
+        "The ceiling is low and worth being honest about: it is a short show aimed squarely at children, the reliable beats repeat if you see it twice in a week, and a quiet audience can flatten it. On a good showing it produces more genuine laughter than anything else at EPCOT, and it is one of very few attractions here that a five-year-old will still be talking about at dinner."
+      ],
+      "skipIf": "Skip it if there are no children in the party and you already know how the effect is done."
+    },
+    {
+      "rank": 15,
+      "slug": "gran-fiesta-tour",
+      "headline": "A cool, dark, walk-on boat ride under permanent twilight. The best place in the park to hide.",
+      "why": [
+        "The pavilion is the attraction. You step out of Florida glare into an indoor plaza set at dusk — a market under a painted night sky, a volcano smoking on the backdrop, a restaurant lit like an evening in San Angel — and the boat leaves from the back of it. There is usually no queue worth the name.",
+        "The ride is a tourism reel with the Three Caballeros dropped over the top, and the middle stretch leans entirely on screens. It is not good the way the top ten are good. It is, however, seven minutes off your feet in the dark with a drink in your hand and no wait, and on a July afternoon that buys more than its content deserves."
+      ],
+      "skipIf": "Skip it if you are running a tight plan and cannot spare seven minutes on a ride with no payoff."
+    },
+    {
+      "rank": 16,
+      "slug": "journey-into-imagination-with-figment",
+      "headline": "The third and weakest version of a great idea, kept alive by affection for the first one.",
+      "why": [
+        "The 1983 original was one of the strangest and best-paced dark rides Disney ever built. What runs today is a shorter, louder replacement wrapped in a sensory-labs framing device, with a skunk gag and a Figment who mostly shouts. The sets are sparse, several effects have been simplified over the years, and the ride ends before it has established anything worth ending.",
+        "It stays on the list because it is a real dark ride with real sets in a park that has very few of either, it is nearly always a walk-on, and ImageWorks at the exit is a free play space that will absorb children for twenty minutes while adults sit down. Ride it once, understand why people are still annoyed about it, and move on."
+      ],
+      "skipIf": "Skip it if you have no history with the pavilion and the posted wait is longer than ten minutes."
+    },
+    {
+      "rank": 17,
+      "slug": "canada-far-and-wide",
+      "headline": "Circle-vision with genuinely good aerial photography, and nowhere at all to sit down.",
+      "why": [
+        "The 2020 recut sharpened the footage and tightened the running time, and the aerial work over the Rockies, the prairies and the eastern coastline is the strongest cinematography in World Showcase. Circle-vision suits wide, empty country far better than it suits a city, and this film has more of that than any other in the park.",
+        "You stand for all fourteen minutes, leaning on a rail, and the format guarantees that a third of the picture is always behind your head. That is the whole reason it sits down here rather than up alongside Impressions de France. The pavilion around it — the gorge walk, the terraced gardens, the hotel facade — is worth the walk on its own even if you skip the film."
+      ],
+      "skipIf": "Skip it if standing for fourteen minutes at the end of a long day is a bad trade for you."
+    },
+    {
+      "rank": 18,
+      "slug": "mission-space-green",
+      "headline": "The same mission without the centrifuge. A fair simulator and the sane choice for most parties.",
+      "why": [
+        "Green runs the identical capsule, the identical screen and the identical mission, with the motion base doing gentle pitch and roll instead of spinning you to load. Nobody has ever been made ill by Green. The height requirement drops to 40 inches, so children who could not ride Orange can do this one, and adults who bailed on Orange can still see what the fuss is about.",
+        "What is left is a competent if slightly dated space simulator with a good cast recording and a launch sequence that is genuinely tense the first time. It is not a substitute for Orange, because the entire argument for Orange is the g-load. It is a better use of four minutes than most people expect, and the queue is almost always shorter."
+      ],
+      "skipIf": "Skip it if you have already ridden Orange, since the film and the mission are exactly the same."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "remys-ratatouille-adventure",
+      "why": "Ranked sixth above and overrated anyway, which is not a contradiction. The ride is good; the hour-plus standby it routinely draws, and the Multi Pass slot it eats, are priced for something twice its length. You get four minutes, a large share of it facing projection. Ride it in the first thirty minutes of the day, ride it in the last thirty, or let it go without guilt."
+    },
+    {
+      "slug": "mission-space-orange",
+      "why": "Ranked ninth above and still overrated, for the same reason Remy is: the engineering earns the placement, the planning it attracts does not. Treated by a lot of visitors as a rite of passage and scheduled accordingly. What you actually get is four minutes sealed in a small box facing a small screen, with roughly twenty seconds of real sensation and a meaningful chance of feeling awful for the next hour. Respect the machine, but do not build a morning around it, and do not let anyone talk a queasy member of the party into it."
+    },
+    {
+      "slug": "journey-into-imagination-with-figment",
+      "why": "The affection people carry is for a ride that closed in 1998. The current version is short, sparse and loud, and visitors queue for it expecting the pavilion's reputation and walk out irritated with predictable regularity. Go in knowing it is a thin dark ride with a good character stuck in it and you will be fine. Go in expecting 1983 and you will not."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "living-with-the-land",
+      "why": "Filed under skip-if-busy by almost every guide, and it is one of the most genuinely interesting fourteen minutes on Disney property. Actual crops, actual aquaculture, actual research, and usually no wait at all."
+    },
+    {
+      "slug": "the-american-adventure",
+      "why": "It sits at the far end of World Showcase, runs 29 minutes and gets treated as a rest stop with a soundtrack. It is the most technically ambitious thing Disney operates in this park, and the theatre is rarely more than half full."
+    },
+    {
+      "slug": "impressions-de-france",
+      "why": "Everybody walks past the France pavilion theatre on their way to the trackless ride behind it. Inside is the best-scored film in any Disney park, on a wraparound screen, with seats, on a short cycle, and it is very seldom full."
+    },
+    {
+      "slug": "journey-of-water-inspired-by-moana",
+      "why": "No queue, no vehicle and no posted wait means it never appears on anyone's plan, and people walk straight past it all day. It is the only attraction at EPCOT that reacts when you touch it, and it costs you ten minutes."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the single best ride at EPCOT?",
+      "a": "Guardians of the Galaxy: Cosmic Rewind, and it is not close. It is the only attraction here with the length, pace and repeat value of a modern headliner, and the rotating vehicle gives it a hook no other coaster in Florida has. If you get one thing right on your day, make it this one. The height requirement is 42 inches."
+    },
+    {
+      "q": "Do I need to pay for Lightning Lane at EPCOT?",
+      "a": "Less than at the other three parks, because the ride list is short and a lot of it walks on. Guardians is the attraction sold on its own, while Test Track, Remy's Ratatouille Adventure, Frozen Ever After and Soarin' sit in the Multi Pass pool along with several things that never need it. If you are at the tapstiles before opening and go straight to the two rides that build the longest lines, you can have a full day here without buying anything. If you are arriving at eleven, paying for something is the difference between four headliners and two."
+    },
+    {
+      "q": "In what order should I ride things at opening?",
+      "a": "Start in World Discovery: Test Track first if you want it without single rider, or Guardians first if you have not bought access to it. Do the other one immediately afterwards, then walk west to Soarin' before the crowd works its way round. Spaceship Earth, Living with the Land, The Seas and Journey of Water can all wait until the afternoon, because they stay short all day. Frozen Ever After and Remy are the exception in World Showcase — they build fast and stay built, so take them at the very start of the evening or right at the end."
+    },
+    {
+      "q": "Is EPCOT worth a full day or half a day?",
+      "a": "A full day, but a strangely shaped one. The rides are done by lunchtime if you are efficient, and the back half of the day is walking, eating, films and shows, which is either the best thing about the park or the reason you dislike it. If you have no interest in the pavilions or the food, six hours is plenty and you should put the saved time somewhere else."
+    },
+    {
+      "q": "Is EPCOT good with young children?",
+      "a": "Better than its reputation and thinner than Magic Kingdom. Spaceship Earth, Frozen Ever After, The Seas with Nemo and Friends, Gran Fiesta Tour, Turtle Talk with Crush and Journey of Water all have no height requirement, which is a decent morning for a small child. The wall arrives at 40 inches, which gates Test Track and Soarin', then 42 for Guardians and 44 for Mission: SPACE Orange. Kidcot stops around World Showcase are free, and ImageWorks is the best indoor place to let a tired child loose."
+    },
+    {
+      "q": "Why are films and stage shows ranked alongside actual rides?",
+      "a": "Because leaving them out would misrepresent the park. EPCOT has roughly a dozen ride vehicles and a great deal of theatre, and the theatre is not filler here: the American Adventure is more technically ambitious than most of the rides, and Impressions de France is better made than several of them. A ranking that stops at ride vehicles runs out of honest material around number eight and starts inflating things nobody would queue twice for."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "calendar",
+  "title": "The Disney Event Calendar",
+  "titleTail": ": Every Seasonal Event at Both Resorts, Year at a Glance",
+  "h1": "The Disney event calendar: every seasonal event at both resorts, month by month",
+  "description": "A year-at-a-glance timeline of every recurring seasonal event at Walt Disney World and the Disneyland Resort, with each band labelled by confidence.",
+  "summary": "Fourteen recurring events run across the two US Disney resorts and between them they cover every month of the year, which means the planning question is never whether something is on but which of the overlapping things is worth building a trip around.",
+  "bands": [
+    {
+      "eventSlug": "epcot-festival-of-the-arts",
+      "startMonth": 1,
+      "endMonth": 2,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "epcot-flower-and-garden-festival",
+      "startMonth": 2,
+      "endMonth": 7,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "epcot-food-and-wine-festival",
+      "startMonth": 7,
+      "endMonth": 11,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "epcot-festival-of-the-holidays",
+      "startMonth": 11,
+      "endMonth": 12,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "mickeys-not-so-scary-halloween-party",
+      "startMonth": 8,
+      "endMonth": 11,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "mickeys-very-merry-christmas-party",
+      "startMonth": 11,
+      "endMonth": 12,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "disney-jollywood-nights",
+      "startMonth": 11,
+      "endMonth": 12,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "disney-after-hours",
+      "startMonth": 1,
+      "endMonth": 8,
+      "resort": "walt-disney-world",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "lunar-new-year-at-disney-california-adventure",
+      "startMonth": 1,
+      "endMonth": 2,
+      "resort": "disneyland",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "disney-california-adventure-food-and-wine-festival",
+      "startMonth": 2,
+      "endMonth": 4,
+      "resort": "disneyland",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "oogie-boogie-bash",
+      "startMonth": 8,
+      "endMonth": 10,
+      "resort": "disneyland",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "halloween-time-at-the-disneyland-resort",
+      "startMonth": 8,
+      "endMonth": 10,
+      "resort": "disneyland",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "holidays-at-the-disneyland-resort",
+      "startMonth": 11,
+      "endMonth": 1,
+      "resort": "disneyland",
+      "confidence": "expected"
+    },
+    {
+      "eventSlug": "disneyland-after-dark",
+      "startMonth": 1,
+      "endMonth": 10,
+      "resort": "disneyland",
+      "confidence": "expected"
+    }
+  ],
+  "notes": [
+    "Bands are windows, not schedules. Each one describes the span an event has occupied across the 2023, 2024 and 2025 cycles, rounded to whole months. An event whose band covers a month may run for only part of it.",
+    "One band wraps the year. Holidays at the Disneyland Resort starts in November and ends in January, which is encoded here as month 11 to month 1 rather than clamped to December, because clamping it would hide the reason the first ten days of January are the best-value week of the Anaheim year.",
+    "Two bands are wider than a single run. Disney After Hours and Disneyland After Dark are series of individual hard-ticket evenings at varying parks rather than continuous seasons, so their bands describe the months in which nights have been sold rather than a run you can turn up for.",
+    "Every band is labelled expected rather than confirmed. Each event has held its window for at least three consecutive cycles, which is strong enough to plan around, and none of them has 2026 or 2027 dates that we have verified against an operator calendar as of July 2026."
+  ],
+  "crossLinks": [
+    {
+      "label": "EPCOT ride list",
+      "href": "/walt-disney-world/epcot/rides/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom ride list",
+      "href": "/walt-disney-world/magic-kingdom/rides/",
+      "site": 1
+    },
+    {
+      "label": "Disney California Adventure ride list",
+      "href": "/disneyland/california-adventure/rides/",
+      "site": 1
+    },
+    {
+      "label": "Walt Disney World vs Disneyland",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Each band describes the window an event has occupied across the 2023, 2024 and 2025 cycles at its resort, rounded to whole months, and matches the typical windows in the site's reference table. No 2026 or 2027 dates have been verified by us against either operator's published calendar as of July 2026, which is why every band on the timeline carries the expected label rather than confirmed. Bands are rechecked as each season's dates are announced rather than once a year.",
+    "reviewBy": "2026-11",
+    "cycle": "rolling"
+  }
+}

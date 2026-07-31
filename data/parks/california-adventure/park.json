@@ -1,0 +1,623 @@
+{
+  "slug": "california-adventure",
+  "name": "Disney California Adventure",
+  "shortName": "California Adventure",
+  "resort": "disneyland",
+  "resortName": "Disneyland Resort",
+  "opened": "2001-02-08",
+  "sizeAcres": 72,
+  "location": "Anaheim, California",
+  "coordinates": { "lat": 33.806, "lng": -117.9189 },
+
+  "tagline": "The resort's second gate: better food, better drinking, and the two best rides in Anaheim.",
+  "summary": "Disney California Adventure opened in 2001 to a hostile reception and has spent twenty-five years rebuilding itself into the Disneyland Resort's most interesting park to eat, drink and ride in.",
+  "intro": [
+    "Disney California Adventure is the park people used to skip. It opened on February 8 2001 across the esplanade from Disneyland, built cheaply, themed thinly, and organized around the idea that visitors to California wanted to look at a stylized version of California. The reception was brutal, attendance was poor, and by the middle of the decade Disney had committed roughly a billion dollars to fixing it.",
+    "That fix is what you visit today. Cars Land, Buena Vista Street, Pixar Pier, Avengers Campus and San Fransokyo Square all arrived after 2012, each replacing something that had failed. The park still carries some of the original bones — the pier layout around Paradise Bay, the mountain at the north end, the airfield — but the experience is unrecognizable from what opened. It is now a genuinely good park with one structural weakness: it is short on rides, and shorter still on rides for children under 40 inches.",
+    "What it does better than any of the other five Disney parks in the United States is food and drink. Carthay Circle is the only restaurant inside a Disney gate in America that would earn a second visit on its own merits. Lamplight Lounge, the Alfresco Tasting Terrace, the Pym Tasting Lab and the waterfront bar in San Fransokyo Square give the park a real drinking culture. The corn dog, the fried biscuits, the Cookie Num Num and the Chili Cone Queso are all better than they need to be. If you plan a day here around eating rather than around ride count, you will have a better time.",
+    "The ride roster is top-heavy and excellent at the top. Radiator Springs Racers is the best attraction at the Disneyland Resort. Guardians of the Galaxy – Mission: BREAKOUT! is the best thrill ride. Soarin', Incredicoaster, Grizzly River Run, Toy Story Midway Mania and WEB SLINGERS fill out a headliner tier that most parks would be pleased with. Below that the roster thins fast into flat rides and spinners, several of which carry 40-inch or 42-inch requirements that catch families out.",
+    "Two things are changing. Monsters, Inc. Mike & Sulley to the Rescue! closed in early 2026 and its show building is being turned over to a Disney Avatar project that remains in early development with no announced date. The Avengers Campus expansion — Avengers Infinity Defense plus Stark Flight Lab — is under construction, and the 2027 to 2028 window widely attached to it is a projection rather than anything Disney has stated. Plan the park you can walk into today."
+  ],
+
+  "bestFor": [
+    "Adults who want to eat and drink well",
+    "Thrill riders",
+    "Half-day and evening visits",
+    "Repeat visitors who have done Disneyland Park to death",
+    "Anyone who likes a park they can actually finish"
+  ],
+  "notIdealFor": [
+    "Families whose youngest is under 40 inches tall",
+    "Guests who want classic dark rides",
+    "People who need shade in the middle of the day",
+    "Anyone expecting the ride count of Disneyland Park"
+  ],
+
+  "stats": {
+    "attractionCount": 44,
+    "ridesWithHeightRequirements": 13,
+    "tallestRequirement": 48,
+    "typicalFullDayHours": "8–10 hours",
+    "minimumDaysRecommended": 1
+  },
+
+  "lands": [
+    {
+      "slug": "buena-vista-street",
+      "name": "Buena Vista Street",
+      "order": 1,
+      "opened": 2012,
+      "summary": "The park's entrance street, rebuilt in 2012 as 1920s Los Angeles as Walt Disney would have found it.",
+      "description": [
+        "Buena Vista Street replaced the park's original entrance — a set of enormous letters spelling CALIFORNIA in front of a tiled mural — and the improvement is difficult to overstate. What is here now is a period Los Angeles boulevard: streetcar tracks down the middle, storefronts with real depth, and the Carthay Circle tower closing the view at the far end.",
+        "The conceit is the city Walt Disney arrived in when he got off the train in 1923. That framing gives the street a reason to exist beyond decoration, and it is the only part of this park that does what Main Street does at Disneyland — sets a tone before you have done anything.",
+        "There is almost nothing to ride here. The Red Car Trolley runs the length of it, the Five & Dime band plays several sets a day, and the classic characters appear in period clothing. What there is instead is the resort's best restaurant, its best bar, its best candy shop and its best coffee, all within about two hundred yards."
+      ],
+      "vibe": "A film-set boulevard at golden hour, with a streetcar bell and a brass band somewhere behind you.",
+      "anchorAttraction": "red-car-trolley",
+      "highlights": [
+        "Carthay Circle Restaurant and the lounge underneath it",
+        "The Red Car Trolley and its view down the street",
+        "Classic character greetings in 1920s clothing",
+        "Churro toffee at Trolley Treats",
+        "The Five & Dime band's afternoon sets"
+      ],
+      "eatHere": [
+        "carthay-circle-restaurant",
+        "carthay-circle-lounge",
+        "trolley-treats",
+        "fiddler-fifer-and-practical-cafe"
+      ],
+      "tips": [
+        "Turn right at the entrance in the first thirty minutes for near-walk-on character greetings while everyone else sprints to Cars Land.",
+        "The Carthay Circle Lounge takes walk-ups. Put your name in on the way past in the afternoon and go do something else while you wait.",
+        "Buy churro toffee in the morning — Trolley Treats sells out of it on busy days.",
+        "This street is the last thing you see at night and it is lit better than anywhere else in the park. Leave five minutes to walk it rather than being swept out."
+      ]
+    },
+    {
+      "slug": "hollywood-land",
+      "name": "Hollywood Land",
+      "order": 2,
+      "opened": 2001,
+      "summary": "The park's studio district, now thinner than it has ever been and built almost entirely around theaters.",
+      "description": [
+        "Hollywood Land opened with the park in 2001 as the Hollywood Pictures Backlot and was renamed in 2012. It has been steadily hollowed out: the Tower of Terror became part of Avengers Campus, a bug's land next door became Avengers Campus outright, and Monsters, Inc. Mike & Sulley to the Rescue! closed in early 2026 for the Avatar project.",
+        "What remains is a land of theaters and the Disney Animation building. The Hyperion Theater stages large-scale limited-run productions. Mickey's PhilharMagic runs on a fast cycle. The Disney Junior show plays to preschoolers all day. Animation Academy teaches you to draw a character in twenty-five minutes, and Disney has said The Magic of Disney Animation returns to that building in September 2026 — a Disney-stated month rather than a verified opening.",
+        "That leaves Hollywood Land with no ride at all, which is the single most important planning fact about it. It is the emptiest walking territory in the park, which makes it excellent for shade, seating and short theater waits, and useless if you are counting attractions.",
+        "The Avatar project is in early development with no announced opening date, and the construction footprint sits behind the old Monsters, Inc. show building. Expect walls and altered walking routes in this corner for years."
+      ],
+      "vibe": "A studio backlot with the crews gone home — quiet, shaded, and full of theater doors.",
+      "anchorAttraction": "animation-academy",
+      "highlights": [
+        "Animation Academy, where a working artist teaches you to draw",
+        "Mickey's PhilharMagic on a short, high-capacity cycle",
+        "The Hyperion Theater's limited-run stage productions",
+        "The Disney Junior show for preschoolers",
+        "Indoor character greetings in the Animation building"
+      ],
+      "eatHere": ["award-wieners", "schmoozies", "fairfax-market"],
+      "tips": [
+        "This land has no ride. Budget it as theater time, not queue time, and it stops being disappointing.",
+        "Award Wieners has the most reliably available shaded seating in the park at lunchtime — use it even if you bought food elsewhere.",
+        "Check the Animation building's posted class schedule when you first pass it in the morning; the character taught at Animation Academy differs by session.",
+        "The Schmoozies! window is the shortest cold-drink line in the park between 1pm and 4pm precisely because nobody walks through here any more."
+      ]
+    },
+    {
+      "slug": "avengers-campus",
+      "name": "Avengers Campus",
+      "order": 3,
+      "opened": 2021,
+      "summary": "A compact Marvel land with two rides, a lot of character work, and a major expansion under construction.",
+      "description": [
+        "Avengers Campus opened in June 2021 on the site of a bug's land, with the rethemed Guardians of the Galaxy – Mission: BREAKOUT! folded in from Hollywood Land next door. The premise is that this is a working Avengers recruitment and research facility, and the design commits to it: no ropes and photo backdrops, but doorways heroes come out of and rooftops they appear on.",
+        "The character work is the best in the park. Spider-Man performs a rooftop aerial stunt several times a day on an unpublished schedule, Doctor Strange runs a live show in the Ancient Sanctum, and the face-character performers stay in universe through anything you throw at them. The Groot puppet is one of the better pieces of engineering Disney operates.",
+        "The land's weakness is size and shade. Two rides is thin, the plaza is unshaded pavement, and it congests badly from mid-morning. The announced expansion — Avengers Infinity Defense and Stark Flight Lab — should fix the first problem. The 2027 to 2028 window attached to it in coverage is a projection, not a Disney-stated date, and no official opening has been announced."
+      ],
+      "vibe": "Unshaded concrete campus with a hero on the roof and a drop tower blaring music behind you.",
+      "anchorAttraction": "guardians-of-the-galaxy-mission-breakout",
+      "highlights": [
+        "Guardians of the Galaxy – Mission: BREAKOUT! and its single rider line",
+        "WEB SLINGERS, where your arms are the controller",
+        "The Spider-Man rooftop stunt, unannounced and thirty seconds long",
+        "Doctor Strange: Mysteries of the Mystic Arts in the Ancient Sanctum",
+        "Pym Test Kitchen and the Tasting Lab attached to it"
+      ],
+      "eatHere": ["pym-test-kitchen", "pym-tasting-lab", "shawarma-palace"],
+      "tips": [
+        "If cast members start clearing the central plaza for no visible reason, stop and look up. That is the tell for the Spider-Man rooftop stunt.",
+        "Use the single rider line at Mission: BREAKOUT! — it is the best one at the resort and the ride runs randomized drop sequences, so riding apart costs you nothing.",
+        "There is essentially no shade here. Do this land before 11am or after 5pm and it is a different place.",
+        "The Pym Tasting Lab has the best beer list at the resort and stays quiet because guests read the Marvel theming as family-only."
+      ]
+    },
+    {
+      "slug": "cars-land",
+      "name": "Cars Land",
+      "order": 4,
+      "opened": 2012,
+      "summary": "A full-scale recreation of Radiator Springs against a man-made butte range, and the park's best single achievement.",
+      "description": [
+        "Cars Land opened in June 2012 and is the reason this park stopped being a punchline. It is a complete street — Radiator Springs from the 2006 film, built at full scale with working neon, backed by Ornament Valley, a range of red rock buttes constructed out of steel and shotcrete that reads as real from anywhere in the park.",
+        "The three rides run from the outstanding to the ordinary: Radiator Springs Racers is the best attraction at the Disneyland Resort, Luigi's Rollickin' Roadsters is a clever trackless dance, and Mater's Junkyard Jamboree is a carnival whip that hits harder than it looks. Both of the smaller rides carry a 32-inch requirement; the Racers requires 40 inches.",
+        "The land is at its best after dark. There is a moment each evening when the neon comes on across the whole street at once, and it is worth timing your evening to be standing in the middle of it when it happens. Ask any Cars Land cast member roughly when it will be.",
+        "The practical warning is heat. Cars Land is paved, walled with dark rockwork, and almost entirely unshaded. In summer it is the hottest place in the park by a noticeable margin."
+      ],
+      "vibe": "A desert highway town at dusk, neon warming up, with a rock range standing over the whole thing.",
+      "anchorAttraction": "radiator-springs-racers",
+      "highlights": [
+        "Radiator Springs Racers, the best ride at the Disneyland Resort",
+        "The neon lighting sequence after dark",
+        "Chili Cone Queso at the Cozy Cone Motel",
+        "Luigi's Rollickin' Roadsters and its trackless choreography",
+        "Flo's V8 Cafe's back patio facing the race track"
+      ],
+      "eatHere": ["cozy-cone-motel", "flos-v8-cafe", "fillmores-taste-in"],
+      "tips": [
+        "Ask a cast member when the neon comes on and be standing on the main street when it does. It happens once a night and there is no announcement.",
+        "The Racers single rider line routinely cuts a 90-minute wait to under 25 minutes, and the ride randomizes which pit-stop scene you get, so riding twice is genuinely different.",
+        "The five Cozy Cone windows sell different things. Read the signs before you pick a line.",
+        "Buy water at Fillmore's on the way in. This land has the least shade in the park and the walk between rides is longer than it looks."
+      ]
+    },
+    {
+      "slug": "pixar-pier",
+      "name": "Pixar Pier",
+      "order": 5,
+      "opened": 2018,
+      "summary": "The 2018 rebuild of the old boardwalk, with the resort's fastest coaster and its best cookie.",
+      "description": [
+        "Pixar Pier is what became of Paradise Pier's eastern half in 2018. The bones are the original 2001 seaside boardwalk — the coaster wrapping the bay, the wheel, the midway games — with the theming redirected wholesale to Pixar properties and the palette shifted from carnival primary colors to something more considered.",
+        "The ride lineup is the strongest concentration in the park after Cars Land. Incredicoaster is the fastest ride at the resort. Toy Story Midway Mania is the most replayable. Pixar Pal-A-Round has two completely different queues that guests board wrongly every single day. Inside Out Emotional Whirlwind and Jessie's Critter Carousel round it out, and the pay-per-play midway games sit along the walkway between them.",
+        "The pier has no shade. None worth the name — a few awnings over food windows and nothing else. It is the least pleasant place in the park between noon and four and one of the best after seven, and planning around that single fact will improve your day more than any other decision here.",
+        "It is also where Lamplight Lounge sits, which is the best table-service in the park after Carthay Circle, and where the Jack-Jack Cookie Num Nums window sells the best baked good at the resort."
+      ],
+      "vibe": "A seaside boardwalk at night, coaster roaring overhead, string lights on the water.",
+      "anchorAttraction": "incredicoaster",
+      "highlights": [
+        "Incredicoaster's launch, the fastest acceleration at the resort",
+        "Toy Story Midway Mania and its hidden bonus targets",
+        "Pixar Pal-A-Round's swinging gondolas, if you know what you are choosing",
+        "Jack-Jack Cookie Num Nums, warm from the window",
+        "Lamplight Lounge's water-deck tables"
+      ],
+      "eatHere": ["lamplight-lounge", "jack-jack-cookie-num-nums", "adorable-snowman-frosted-treats"],
+      "tips": [
+        "Read the Pixar Pal-A-Round queue signs carefully. The swinging and non-swinging gondolas are separate lines and genuinely different rides; the swinging side is not a slightly bouncier version.",
+        "Ride Incredicoaster in the back row. The launch is harder and every hill produces more airtime.",
+        "There is no shade on this pier. Do it early or late and eat lunch somewhere else.",
+        "During the nighttime show the entire pier empties. It is the single best window of the day for the wheel, the Whirlwind and the character greetings out here."
+      ]
+    },
+    {
+      "slug": "paradise-gardens-park",
+      "name": "Paradise Gardens Park",
+      "order": 6,
+      "opened": 2018,
+      "summary": "The quieter, greener western half of the old pier, and where the nighttime show is staged.",
+      "description": [
+        "When Paradise Pier was split in 2018, the western half became Paradise Gardens Park: the same 2001 flat rides, but with much of the boardwalk hardscape replaced by real planting, mature trees and garden seating. It is the most pleasant land to stand around in and the least impressive to list.",
+        "The rides here are the park's second tier — Goofy's Sky School, Silly Symphony Swings, Golden Zephyr, Jumpin' Jellyfish — plus The Little Mermaid ~ Ariel's Undersea Adventure, which is a full omnimover dark ride with no height requirement and rarely a wait over twenty minutes. That last one is the most useful attraction in the park for families and almost nobody plans for it.",
+        "Paradise Bay is the venue for World of Color, the park's nighttime show, and the terraced viewing areas along this shore are where the crowd goes after dark. Everything about your evening here is downstream of that fact.",
+        "This land also has the best free shade in the park's south half, at the garden tables near the bandstand, and it has Corn Dog Castle, the wine terrace and Wine Country Trattoria, which between them make it the best land to eat in that most people never eat in."
+      ],
+      "vibe": "Garden benches under real trees with a bandstand playing and a bay in front of you.",
+      "anchorAttraction": "world-of-color",
+      "highlights": [
+        "World of Color on Paradise Bay",
+        "The Little Mermaid ~ Ariel's Undersea Adventure, air conditioned and rarely busy",
+        "Silly Symphony Swings just after sunset",
+        "The Alfresco Tasting Terrace upstairs, which almost nobody finds",
+        "Corn Dog Castle"
+      ],
+      "eatHere": [
+        "corn-dog-castle",
+        "paradise-garden-grill",
+        "alfresco-tasting-terrace",
+        "wine-country-trattoria"
+      ],
+      "tips": [
+        "The best free nighttime-show viewing is the center-back of the main terraced area, not the front rail — the front loses the top of the water screens and soaks you.",
+        "Find the staircase to the Alfresco Tasting Terrace above Wine Country Trattoria. It is the quietest adult space at the resort and the entrance is genuinely easy to miss.",
+        "Golden Zephyr and Jumpin' Jellyfish both close in wind, which happens often on afternoons near the water. Ride them when you see them running.",
+        "Eat at Paradise Garden Grill and take the food to the garden tables by the bandstand — real tree shade and live music, and it is almost always empty."
+      ]
+    },
+    {
+      "slug": "san-fransokyo-square",
+      "name": "San Fransokyo Square",
+      "order": 7,
+      "opened": 2023,
+      "summary": "The 2023 retheme of Pacific Wharf into the hybrid city from Big Hero 6 — a food district with no rides.",
+      "description": [
+        "San Fransokyo Square opened in 2023, converting the old Pacific Wharf into the blended San Francisco and Tokyo city from Big Hero 6. The retheme was largely a dressing job — the same buildings, the same footprint — but the layering of Japanese signage, wiring, rooftop details and street furniture over the Monterey wharf architecture is convincing, and it rewards looking up rather than ahead.",
+        "There are no rides here and there will not be. The only attraction is a Baymax greeting, which is the gentlest character encounter in the park for a nervous child. Everything else is food: sourdough bread bowls, rice bowls, a full Ghirardelli soda fountain, and a waterfront bar pouring the fastest margarita in Anaheim.",
+        "Treat it as the eating district and it is one of the more useful lands in the park. Treat it as an attraction land and you will walk through it in four minutes wondering what the point was."
+      ],
+      "vibe": "Waterfront warehouses under neon Japanese signage, with fog rolling in on the paintwork.",
+      "anchorAttraction": "meet-baymax",
+      "highlights": [
+        "Clam chowder in a sourdough bread bowl at Aunt Cass Cafe",
+        "The Ghirardelli soda fountain, with air conditioning and free chocolate",
+        "The waterfront margarita bar",
+        "The rooftop and signage detail across the whole district",
+        "Meeting Baymax, the easiest character encounter for a shy child"
+      ],
+      "eatHere": [
+        "aunt-cass-cafe",
+        "ghirardelli-soda-fountain-and-chocolate-shop",
+        "port-of-san-fransokyo-cerveceria",
+        "lucky-fortune-cookery"
+      ],
+      "tips": [
+        "Buy a plain sourdough loaf rather than only the bread bowl — same bread, a fraction of the price, and it makes hotel breakfast the next morning.",
+        "The Ghirardelli indoor tables are among the only air-conditioned seats in the park. They are worth twenty minutes in August.",
+        "Ask for a free chocolate square at the Ghirardelli counter; they do not always offer it unprompted.",
+        "Look at the rooflines and the wiring rather than straight ahead. Almost all the retheme's work is above eye level."
+      ]
+    },
+    {
+      "slug": "grizzly-peak",
+      "name": "Grizzly Peak",
+      "order": 8,
+      "opened": 2001,
+      "summary": "The park's original mountain and airfield, with two headliners and the best shade on the property.",
+      "description": [
+        "Grizzly Peak is the one part of the original 2001 park that worked on opening day and has never needed rescuing. The mountain itself — a bear-shaped granite peak with a whitewater river running around its base — is the park's best piece of built landscape, and the surrounding pine and redwood planting has had twenty-five years to grow into something that genuinely reads as forest.",
+        "It holds two headliners. Soarin' Around the World is the hang-glider simulator in Grizzly Peak Airfield, and Grizzly River Run is the rapids ride that will soak you completely rather than splash you. Between them sits Redwood Creek Challenge Trail, a free-range climbing and zip-line playground that is the most underused acre at the Disneyland Resort.",
+        "This is the shadiest land in the park by a wide margin, and the only one where the shade comes from real trees. On a hot day it is where you should be at 2pm, and Redwood Creek is where your children should be while you sit on a bench.",
+        "The catch is food. There is exactly one substantial place to eat up here, so plan a Grizzly Peak stretch around Smokejumpers Grill rather than assuming you can grab something."
+      ],
+      "vibe": "Pine shade, a river running somewhere below you, and a mountain that looks like a bear if you stand in the right spot.",
+      "anchorAttraction": "soarin-around-the-world",
+      "highlights": [
+        "Soarin' Around the World, and the row B seat request that transforms it",
+        "Grizzly River Run on a hot afternoon",
+        "Redwood Creek Challenge Trail's climbing nets and zip line",
+        "The best real shade in the park",
+        "Smokejumpers Grill's free toppings bar"
+      ],
+      "eatHere": ["smokejumpers-grill"],
+      "tips": [
+        "Ask for row B, center at the Soarin' row-assignment podium. It is the difference between a good ride and the best ride in the park.",
+        "Grizzly River Run soaks you rather than splashing you. Use the lockers for phones and put dry socks in your bag.",
+        "Redwood Creek Challenge Trail closes before the park does, sometimes well before. Do it in the afternoon.",
+        "There is one real restaurant in this entire half of the park. Eat at Smokejumpers before you walk back toward the pier, not after."
+      ]
+    }
+  ],
+
+  "firstTimer": {
+    "intro": [
+      "This is a one-day park, and unusually for Disney, that is a compliment rather than a complaint. With a normal operating day and a reasonable plan you can do everything worth doing at Disney California Adventure and still sit down for a real meal. Disneyland Park across the esplanade cannot be finished in a day by anyone.",
+      "The plan below assumes you want the headliners, one good meal, and the nighttime show. The two decisions that matter most are what you do in the first forty minutes and whether you buy a Lightning Lane Single Pass for Radiator Springs Racers. Everything else is adjustable."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Download the Disneyland app and log in before you arrive",
+        "body": "Every mobile food order, every Lightning Lane purchase, every wait time and the character appearance schedule live in the app. Sort out your account and payment method at home, because the park network is congested and the day you need it working is not the day to troubleshoot it."
+      },
+      {
+        "title": "Decide on Lightning Lane before you walk in",
+        "body": "As of July 2026 Disneyland Resort sells Multi Pass from around $34 per person per day covering 15 or more attractions, and Single Pass separately for a handful of headliners including Radiator Springs Racers. Premier Pass covers both parks in one purchase, runs roughly $300 to $400 depending on date, and sells out. Prices move with demand, so check the app the morning of your visit rather than budgeting from an old figure."
+      },
+      {
+        "title": "Get borderline children measured at the entrance",
+        "body": "Both resorts measure with a fixed stick, shoes on, hats off. If your child is near 40 or 42 inches, get them measured at the park entrance in the morning and take the colored wristband. It ends the argument at every ride and spares you a tearful re-measure at the front of a long queue."
+      },
+      {
+        "title": "Book Carthay Circle 60 days out",
+        "body": "Reservations open 60 days ahead and weekend dinner tables go within minutes. Lunch is far easier and it is the same kitchen. If you get nothing, the ground-floor lounge takes walk-ups and serves the fried biscuits."
+      },
+      {
+        "title": "Pack for sun, not for Disney",
+        "body": "This park has almost no shade in Cars Land, Avengers Campus or Pixar Pier — three of its four best lands. Hats, sunscreen and a refillable water bottle matter more here than at any other Disney park in America. Cast members will fill a bottle at any quick-service counter for free."
+      },
+      {
+        "title": "Plan for one soaking",
+        "body": "Grizzly River Run does not splash you, it soaks you. Bring a dry bag or plan to use the lockers, and put a spare pair of socks in your bag. Wet shoes will ruin the second half of your day far more reliably than a wet shirt."
+      },
+      {
+        "title": "Know what is closed and what is not open yet",
+        "body": "Monsters, Inc. Mike & Sulley to the Rescue! closed permanently in early 2026 for the Avatar project. The Avengers Campus expansion is under construction with no Disney-stated opening date, despite the 2027 to 2028 window in circulation. The Magic of Disney Animation is announced to return in September 2026, a date Disney has stated rather than one that is verified."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Walk to Cars Land and ride Radiator Springs Racers standby. This is the only moment all day when the best ride in the resort has a manageable wait. Do not stop for photographs on the way; the street will still be there at 9pm and it looks better then."
+      },
+      {
+        "time": "About 30 minutes in",
+        "body": "Stay in Cars Land and do Luigi's Rollickin' Roadsters and Mater's Junkyard Jamboree back to back while the crowd is still funnelling into the Racers queue behind you. Both are under 15 minutes at this hour and over 30 by eleven."
+      },
+      {
+        "time": "About 9:45am",
+        "body": "Walk to Avengers Campus for WEB SLINGERS. It has no single rider line and no shortcut other than Lightning Lane, so this is the ride you want to catch before the land congests."
+      },
+      {
+        "time": "About 10:30am",
+        "body": "Guardians of the Galaxy – Mission: BREAKOUT! via the single rider line. It stays short all day and it is the best queue-skipping trick in the park, so use it now and again later if you want a different drop sequence."
+      },
+      {
+        "time": "About 11:15am",
+        "body": "Cross to Grizzly Peak for Soarin' Around the World. Ask at the row-assignment podium for row B, center. If the wait for that specific row is more than one extra cycle, take what they offer."
+      },
+      {
+        "time": "About 12:15pm",
+        "body": "Eat. Smokejumpers Grill is right there and the toppings bar is free, or walk five minutes to Paradise Garden Grill and take skewers to the shaded garden tables by the bandstand."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "1pm",
+        "body": "Grizzly River Run while it is hot. This is the one window in the day when getting soaked is a benefit rather than a two-hour inconvenience, and the queue is worth standing in only at this temperature."
+      },
+      {
+        "time": "1:45pm",
+        "body": "Redwood Creek Challenge Trail. Turn the children loose on the nets and the zip line and sit on a bench under real trees. This is the best hour in the park for anyone traveling with a seven-to-twelve-year-old and it costs nothing and has no queue."
+      },
+      {
+        "time": "2:45pm",
+        "body": "Hollywood Land for an indoor sit-down. Mickey's PhilharMagic runs on a fast cycle, or take an Animation Academy class and leave with a drawing. Both are air conditioned, seated and rarely more than one show cycle's wait."
+      },
+      {
+        "time": "3:45pm",
+        "body": "San Fransokyo Square for something cold. The Ghirardelli indoor tables are among the only air-conditioned seats in the park, and the waterfront bar's margarita takes two minutes rather than twenty."
+      },
+      {
+        "time": "4:30pm",
+        "body": "The Little Mermaid ~ Ariel's Undersea Adventure in Paradise Gardens Park. Six minutes, air conditioned, almost never over twenty minutes' wait, and the most efficient attraction in the park."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "5:30pm",
+        "body": "Pixar Pier now that the sun is off it. Toy Story Midway Mania first — use the single rider line if the standby is over 30 minutes — then Incredicoaster in the back row."
+      },
+      {
+        "time": "6:45pm",
+        "body": "Eat properly. Lamplight Lounge if you booked it, Carthay Circle Lounge on a walk-up, or Corn Dog Castle if you want the best eleven dollars in the park and no waiting."
+      },
+      {
+        "time": "7:45pm",
+        "body": "Silly Symphony Swings or Pixar Pal-A-Round for the view across Paradise Bay in the last of the light. Both are short waits at this hour and both look completely different after dark."
+      },
+      {
+        "time": "About 75 minutes before the nighttime show",
+        "body": "Buy a drink at Bayside Brews and take a position at the center-back of the main viewing terrace. Do not take the front rail — you lose the top of the water screens and you get misted."
+      },
+      {
+        "time": "During the show",
+        "body": "If you are skipping it, this is the golden hour. Pixar Pier empties completely, and Inside Out Emotional Whirlwind, Jessie's Critter Carousel and the pier character greetings become walk-ups."
+      },
+      {
+        "time": "After the show",
+        "body": "Ride Radiator Springs Racers again. Waits collapse in the final hour and Cars Land under full neon is a different ride entirely. Then walk Buena Vista Street out slowly instead of being swept through it."
+      }
+    ],
+    "rookieMistakes": [
+      "Boarding the swinging side of Pixar Pal-A-Round without realizing there are two separate queues, and spending nine minutes at height with a terrified child.",
+      "Assuming Goofy's Sky School is the gentle kids' coaster. It is a wild mouse with unbanked hairpins and a 42-inch requirement, and it rattles adults.",
+      "Standing in the Radiator Springs Racers standby line at 2pm when the single rider line is a quarter of the wait and the ride randomizes which scene you get anyway.",
+      "Riding Grizzly River Run in the evening and spending the rest of the night cold and wet.",
+      "Skipping the row request on Soarin'. Row B center is a materially better ride than the back rows and costs nothing but asking.",
+      "Planning a full day around a park with 44 attractions when Hollywood Land now has no ride at all and San Fransokyo Square never did.",
+      "Booking a nighttime-show dining package without checking whether a Lightning Lane reservation would get you a comparable spot for less.",
+      "Bringing a child between 36 and 40 inches expecting to fill a day. Jumpin' Jellyfish, Silly Symphony Swings, the Emotional Whirlwind and Mission: BREAKOUT! all require 40 inches, and Racers does too."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Be at the turnstiles 30 minutes before the posted opening and walk directly to Radiator Springs Racers.",
+      "Do Luigi's Rollickin' Roadsters and Mater's Junkyard Jamboree immediately afterward while Cars Land is still filling.",
+      "Ride WEB SLINGERS before 10:30am — it has no single rider line and no other shortcut.",
+      "Take the single rider line at Guardians of the Galaxy – Mission: BREAKOUT!.",
+      "Ride Soarin' Around the World and ask for row B, center at the podium.",
+      "Ride Grizzly River Run between 1pm and 3pm, when being soaked is an advantage.",
+      "Spend an hour at Redwood Creek Challenge Trail in the shade, or an hour in Hollywood Land's theaters if you have no children with you.",
+      "Do Toy Story Midway Mania and Incredicoaster after 5pm when the sun is off Pixar Pier.",
+      "Eat one real meal: Carthay Circle, Lamplight Lounge, or the Carthay lounge on a walk-up.",
+      "Claim a center-back spot for the nighttime show 75 minutes out, then ride Radiator Springs Racers again after it ends."
+    ]
+  },
+
+  "accessibility": {
+    "intro": [
+      "Disney California Adventure is the flatter and more navigable of the two Disneyland Resort parks. It was built in 2001 on a former parking lot with modern accessibility standards in mind, so pathways are wide, grades are gentle, and there is none of the cobblestone and curb-cut awkwardness you meet in parts of Disneyland Park across the esplanade.",
+      "The real accessibility problems here are heat and shade rather than terrain. Cars Land, Avengers Campus and Pixar Pier — three of the park's four strongest lands — have essentially no shade, and queues in all three are largely uncovered. For anyone with heat sensitivity, a mobility condition affected by temperature, or a cognitive condition worsened by overstimulation, the practical planning problem is finding cool, quiet places to reset. Those exist, but you have to know where they are.",
+      "Disney's Disability Access Service is requested in advance through a video call rather than at the park, and the process changes periodically. Check the current requirements on Disney's own site before your trip rather than relying on a guide, including this one."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Stroller and wheelchair rental just inside the main entrance on the right, in the Buena Vista Street entrance plaza",
+      "priceNote": "Daily rental with a refundable deposit; expect roughly $20 per day as of July 2026, with a length-of-stay discount for multi-day rentals",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Same rental location just inside the main entrance; quantities are limited and they go early on busy mornings",
+      "priceNote": "Roughly $75 per day plus a refundable deposit as of July 2026. Off-site providers deliver to Disneyland Resort hotels for less on multi-day trips",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Stroller rental at the main entrance; a single rental covers both parks on the same day if you park-hop",
+      "priceNote": "Roughly $18 per day for a single and $36 for a double as of July 2026, with multi-day rates available",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Buena Vista Street, near the main entrance restrooms",
+      "Hollywood Land, adjacent to the Disney Animation building",
+      "Cars Land, behind Flo's V8 Cafe",
+      "Pixar Pier, near the games walkway",
+      "Grizzly Peak Airfield, near Smokejumpers Grill",
+      "Paradise Gardens Park, near the garden seating"
+    ],
+    "quietSpaces": [
+      {
+        "name": "The Disney Animation main hall",
+        "where": "Hollywood Land, inside the Animation building",
+        "note": "Dim, air conditioned, carpeted, with film projected slowly across the walls and generous seating. The single best sensory-decompression room in either Disneyland Resort park, and it is free to sit in for as long as you like."
+      },
+      {
+        "name": "Redwood Creek Challenge Trail's lower path",
+        "where": "Grizzly Peak",
+        "note": "The accessible lower loop runs under mature trees with benches and almost no crowd. Real tree shade, low noise, and a place to sit while children use the climbing structures."
+      },
+      {
+        "name": "Paradise Garden Bandstand seating",
+        "where": "Paradise Gardens Park",
+        "note": "Shaded garden benches off the main walkway. Live music runs on a posted schedule, so check the times board if quiet is what you need rather than atmosphere."
+      },
+      {
+        "name": "Alfresco Tasting Terrace",
+        "where": "Upstairs above Wine Country Trattoria, Paradise Gardens Park",
+        "note": "A covered balcony one level above the walkway. Noise drops noticeably and it is rarely busy, though it is a bar rather than a rest area and you will be expected to order."
+      },
+      {
+        "name": "Ghirardelli indoor seating",
+        "where": "San Fransokyo Square",
+        "note": "One of the few air-conditioned indoor seating areas at this park. It fills on hot afternoons but turns over quickly."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Near the main entrance, outside the turnstiles on the Buena Vista Street side",
+      "Hollywood Land, behind the Disney Animation building",
+      "Grizzly Peak Airfield, near the Soarin' entrance",
+      "Paradise Gardens Park, off the walkway near the gardens"
+    ],
+    "sensoryNotes": [
+      "Guardians of the Galaxy – Mission: BREAKOUT! is the loudest attraction in the park, with music at concert volume and repeated hard drops. There is a stationary test seat outside the entrance.",
+      "World of Color uses flame effects with audible bursts and felt heat, and requires standing outdoors in a dense crowd in the dark for 25 minutes. The soundtrack is broadcast to the app, which allows for a quieter viewing position further back.",
+      "Mickey's PhilharMagic goes fully dark and uses 3D effects, scent and air blasts directed at the audience. Young children who dislike 3D glasses often do better watching without them.",
+      "Grizzly River Run has unpredictable geyser effects and a spinning drop, and the raft rotates so you cannot see what is coming. That unpredictability is harder for many guests than the drops themselves.",
+      "The Disney Junior show uses confetti and bubble effects at dance-party volume; the raised perimeter benches let a sensitive child watch from a distance before joining.",
+      "The Ursula sequence on The Little Mermaid ~ Ariel's Undersea Adventure is dark with heavy bass and is the one moment on that ride that upsets small children. It lasts under a minute."
+    ],
+    "mobilityNotes": [
+      "Guardians of the Galaxy – Mission: BREAKOUT!, Radiator Springs Racers, Incredicoaster, Soarin', Grizzly River Run, Goofy's Sky School, Silly Symphony Swings and Jumpin' Jellyfish all require a full transfer from a wheelchair or ECV.",
+      "The Little Mermaid ~ Ariel's Undersea Adventure, Toy Story Midway Mania and Jessie's Critter Carousel all have wheelchair-accessible vehicles. Ask at the attraction entrance rather than at the merge point, since they load from separate positions.",
+      "Grizzly River Run's queue includes a long uphill switchback with limited shade, and boarding is from a moving platform down into a raft with a raised sill.",
+      "Redwood Creek Challenge Trail's lower loop is largely accessible with some grade, but the nets, rope bridges, cave and zip line are not. A companion can meet a child at each exit point.",
+      "The park is otherwise flat and wide. There are no cobbled streets, no significant hills outside Grizzly Peak, and the walking distances between lands are shorter than at Disneyland Park.",
+      "Pixar Pal-A-Round has certain non-swinging gondolas that accommodate a wheelchair without transfer; expect a longer wait for the correct car."
+    ],
+    "visionHearingNotes": [
+      "Audio description is available through the Disneyland app for several attractions including Radiator Springs Racers, Soarin', Mission: BREAKOUT!, The Little Mermaid and World of Color. Download the content over hotel wifi rather than in the park.",
+      "Handheld captioning is offered at Mickey's PhilharMagic, The Little Mermaid ~ Ariel's Undersea Adventure and Mission: BREAKOUT!, requested through Guest Relations near the main entrance.",
+      "Assistive listening devices are available at the theater attractions in Hollywood Land, including the Hyperion Theater, Mickey's PhilharMagic and the Disney Junior show.",
+      "Sign language interpretation is offered for resort stage productions on a published schedule. Ask at Guest Relations on arrival rather than assuming a given performance is covered.",
+      "The Disney Animation building's main hall relies almost entirely on visual projection with a musical bed, which makes it one of the most accessible experiences in the park for deaf and hard-of-hearing guests and one of the least useful for blind guests.",
+      "Braille and tactile park maps are available from Guest Relations just inside the main entrance."
+    ]
+  },
+
+  "tips": [
+    {
+      "title": "The single rider lines here are the best value in Anaheim",
+      "body": "Guardians of the Galaxy – Mission: BREAKOUT!, Radiator Springs Racers, Incredicoaster and Toy Story Midway Mania all run single rider queues, and all four routinely cut posted waits by 60 to 75 percent. Mission: BREAKOUT! randomizes its drop sequence and Racers randomizes its pit-stop scene, so riding apart from your group costs you nothing but company."
+    },
+    {
+      "title": "Ask for row B, center on Soarin'",
+      "body": "Ask at the row-assignment podium, not in the main queue. Row B lifts highest, so no other row's dangling feet appear at the bottom of your field of view, and the center seats sit at the dome's optical sweet spot where the image does not warp. Cast members will accommodate it and will tell you if the wait is long."
+    },
+    {
+      "title": "Pixar Pal-A-Round has two completely different rides in it",
+      "body": "The swinging gondolas slide along interior rails and drop repeatedly for nine minutes. The non-swinging gondolas do not move at all. They are separate queues, the signage is easy to miss, and there is no height requirement on either — which is exactly how families end up on the wrong one."
+    },
+    {
+      "title": "Plan around shade, not around wait times",
+      "body": "Cars Land, Avengers Campus and Pixar Pier have essentially none. Grizzly Peak, Paradise Gardens Park and the Hollywood Land theaters have plenty. Sequencing your day so the unshaded lands happen before 11am and after 5pm will change your experience more than any Lightning Lane purchase."
+    },
+    {
+      "title": "The nighttime show is the best hour to ride",
+      "body": "When the crowd migrates to Paradise Bay, Pixar Pier, Cars Land and Hollywood Land empty. Inside Out Emotional Whirlwind, Jessie's Critter Carousel, Luigi's Rollickin' Roadsters and the character greetings all become walk-ups. If you have seen the show before, this is the most productive 25 minutes of the day."
+    },
+    {
+      "title": "Buy the Racers Single Pass, skip the rest",
+      "body": "Radiator Springs Racers is Lightning Lane Single Pass, which is bought per ride rather than covered by Multi Pass. As of July 2026 it is the one attraction here where the standby wait is consistently punishing enough to justify paying, and the ride is good enough to be worth it. Check the app the morning of your visit — prices move with demand."
+    },
+    {
+      "title": "Height requirements here are higher than they look",
+      "body": "Jumpin' Jellyfish, Silly Symphony Swings and Inside Out Emotional Whirlwind all require 40 inches for rides that are genuinely gentle, and Golden Zephyr requires 42. If you are traveling with a child between 36 and 40 inches, this park has far less for them than Disneyland Park does, and it is worth knowing that before you buy the ticket."
+    },
+    {
+      "title": "Eat here rather than across the esplanade",
+      "body": "This is the better food park by a wide margin. Carthay Circle, Lamplight Lounge, the corn dog at Corn Dog Castle, the Cookie Num Num, the fried biscuits and the Chili Cone Queso have no equivalent at Disneyland Park. If you are hopping between parks, do your riding there and your eating here."
+    },
+    {
+      "title": "The Alfresco Tasting Terrace exists and nobody finds it",
+      "body": "There is a staircase off the walkway near Wine Country Trattoria leading to a covered balcony wine bar one level above the crowd. It is the quietest adult space at the resort, it serves the restaurant's food, and it is frequently half empty on days when the ground below is impassable. Look for the stairs."
+    },
+    {
+      "title": "Redwood Creek is the best free hour in the park",
+      "body": "A full adventure playground with climbing nets, rope bridges, a cave, log slides and a zip line, under real trees, with no queue and no charge. If you are traveling with children aged five to twelve, an hour here will do more for the rest of your day than any ride will. It also closes before the park does, so do not save it."
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Disney California Adventure worth a full day?",
+      "a": "Yes, but it is genuinely a one-day park, which Disneyland Park is not. With an early arrival you can do every headliner, eat a real meal and see the nighttime show in a single day. If you only have one day at the whole resort, most first-timers should choose Disneyland Park; if you have two or more, this park earns its own day rather than a few leftover hours."
+    },
+    {
+      "q": "What is the best ride at Disney California Adventure?",
+      "a": "Radiator Springs Racers, and it is not close. It combines a slow, beautifully built dark ride through Radiator Springs with a fast outdoor race across the rockwork, and both halves are excellent. Guardians of the Galaxy – Mission: BREAKOUT! is the best thrill ride and Soarin' Around the World is the best simulator."
+    },
+    {
+      "q": "What are the height requirements at this park?",
+      "a": "Incredicoaster is 48 inches, the tallest here. Goofy's Sky School, Grizzly River Run, Golden Zephyr and the Redwood Creek zip line are 42 inches. Radiator Springs Racers, Mission: BREAKOUT!, Soarin', Jumpin' Jellyfish, Silly Symphony Swings and Inside Out Emotional Whirlwind are 40 inches. Mater's Junkyard Jamboree and Luigi's Rollickin' Roadsters are 32 inches. Thirteen attractions have a requirement in total."
+    },
+    {
+      "q": "Is this park good for toddlers?",
+      "a": "Less than you would hope. Closing a bug's land in 2018 removed five rides scaled for the under-40-inch crowd, and nothing replaced them. What remains is The Little Mermaid ~ Ariel's Undersea Adventure, Toy Story Midway Mania, Jessie's Critter Carousel, WEB SLINGERS, Pixar Pal-A-Round, the Red Car Trolley and the Disney Junior show — all with no height requirement. That is a half day, not a full one."
+    },
+    {
+      "q": "How does Lightning Lane work at Disneyland Resort?",
+      "a": "As of July 2026, Multi Pass starts around $34 per person per day and covers 15 or more attractions across both parks, with Disneyland Resort hotel guests receiving one bonus Multi Pass per person per stay since January 2026. Single Pass is bought per ride for a few headliners, including Radiator Springs Racers here. Premier Pass covers both parks in a single purchase, runs roughly $300 to $400 depending on date, is purchasable up to 7 days ahead in the app, and sells out. Prices are dynamic — check the app on the day."
+    },
+    {
+      "q": "Does anything here use a virtual queue?",
+      "a": "No. As of mid-2026 no attraction at either Disneyland Resort park permanently uses a virtual queue. They now appear only temporarily for brand-new ride openings. If a guide tells you to set an alarm for a boarding group at this park, it is out of date."
+    },
+    {
+      "q": "What happened to Monsters, Inc. Mike & Sulley to the Rescue?",
+      "a": "It closed permanently in early 2026 so its show building could be turned over to a Disney Avatar project. The Avatar development is in early stages and Disney has not announced an opening date or a specific attraction lineup. Hollywood Land now has no ride at all, which is worth knowing before you plan time there."
+    },
+    {
+      "q": "When does the Avengers Campus expansion open?",
+      "a": "Disney has not said. The expansion — Avengers Infinity Defense plus Stark Flight Lab — is under construction, and the 2027 to 2028 window you will see quoted is a projection based on construction pace rather than a Disney-stated date. Do not plan a trip around it, and treat any confident date you encounter with suspicion."
+    },
+    {
+      "q": "Where is the best place to watch the nighttime show?",
+      "a": "The center-back of the main terraced viewing area on Paradise Bay. You get the full width of the water screens and stay out of the mist. The front rail looks appealing and is a mistake — it cuts off the top of the projections and you will be damp for the rest of the night. Arrive 45 to 90 minutes early for a good free spot, or use a Lightning Lane Multi Pass reservation and arrive 20 minutes before."
+    },
+    {
+      "q": "Is the food really better than at Disneyland Park?",
+      "a": "Yes, clearly. Carthay Circle is the best restaurant inside any Disney gate in America, Lamplight Lounge is the best gastropub, and the park has four genuinely good bars against Disneyland Park's much thinner drinking options. The corn dog at Corn Dog Castle, the Jack-Jack Cookie Num Num, the Carthay fried biscuits and the Chili Cone Queso have no equivalents across the esplanade."
+    },
+    {
+      "q": "Can I drink alcohol at Disney California Adventure?",
+      "a": "Yes, and this is the park to do it in. Alcohol is served throughout, which was true here long before Disneyland Park allowed it in limited locations. The Alfresco Tasting Terrace has the best wine list, the Pym Tasting Lab has the best beer, and Carthay Circle Lounge makes the best cocktails at the resort."
+    },
+    {
+      "q": "How early should I arrive?",
+      "a": "Thirty minutes before the posted opening time, at the turnstiles rather than in the parking structure. The first forty minutes of the day are worth roughly two hours later on, and the difference is most dramatic at Radiator Springs Racers, which goes from a 20-minute wait to a 90-minute one within the first hour."
+    }
+  ],
+
+  "gettingThere": {
+    "parking": "The Mickey & Friends and Pixar Pals parking structures on the west side of the resort are the main option, with trams running to the esplanade between the two parks. Toy Story parking on Harbor Boulevard uses buses instead and is generally quieter to exit. Expect roughly $35 to $40 per car per day as of July 2026, with preferred parking closer to the trams costing more. The walk or tram ride from Mickey & Friends adds 20 to 30 minutes to your arrival, so factor it into a rope-drop plan.",
+    "transportation": [
+      "Parking trams from the Mickey & Friends and Pixar Pals structures to the resort esplanade, running from before park opening until after close",
+      "Buses from the Toy Story parking area on Harbor Boulevard",
+      "Walking from the three Disneyland Resort hotels, all of which are within 10 to 15 minutes of the esplanade; the Grand Californian has a dedicated entrance directly into Disney California Adventure",
+      "Anaheim Resort Transportation buses from most Good Neighbor hotels in the surrounding area",
+      "Rideshare drop-off at the designated zone on Harbor Boulevard, a 10-minute walk from the esplanade",
+      "Metrolink and Amtrak to Anaheim Regional Transportation Intermodal Center, with a short bus or rideshare connection to the resort"
+    ],
+    "entranceNote": "Disney California Adventure's gate faces Disneyland Park's across a shared esplanade, so security screening happens once for both. The Grand Californian Hotel has its own entrance directly into the park, which is the fastest way in for guests staying there. Bag check queues on the Harbor Boulevard side move faster than those on the parking-structure side on most mornings, so if you are walking in from a hotel, aim for the eastern screening lanes."
+  },
+
+  "lastVerified": "2026-07"
+}

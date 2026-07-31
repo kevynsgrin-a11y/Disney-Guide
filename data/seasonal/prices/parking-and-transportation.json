@@ -1,0 +1,179 @@
+{
+  "slug": "parking-and-transportation",
+  "title": "Disney Parking and Transport Costs",
+  "titleTail": ": Both Resorts, July 2026",
+  "h1": "Disney parking and transport costs at both resorts, and when to leave the car behind",
+  "description": "What parking, shuttles, rideshare and airport transfers cost at Walt Disney World and Disneyland as of July 2026, and which of them you can skip entirely.",
+  "summary": "Parking is the one Disney cost that is trivial to eliminate at Walt Disney World and awkward to eliminate at the Disneyland Resort, which reverses the usual advice about hiring a car — in Florida the free transport network is genuinely comprehensive, and in Anaheim a car is often the cheaper option.",
+  "rows": [
+    {
+      "label": "Theme park self-parking, per day",
+      "resort": "walt-disney-world",
+      "rangeUsd": [30, 50],
+      "asOf": "July 2026",
+      "note": "Standard self-parking sits flat at the bottom of this band at all four theme parks and does not move with the date; preferred parking, closer to the entrance, is what creates the spread. Charged once per calendar day and valid at every theme park lot that day, so driving between parks costs nothing extra."
+    },
+    {
+      "label": "Valet parking at a Disney-owned hotel, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [35, 45],
+      "asOf": "July 2026",
+      "note": "Available at the deluxe hotels only. Standard overnight self-parking at Disney-owned hotels carries no charge as of July 2026, so valet buys you a shorter walk and nothing else."
+    },
+    {
+      "label": "Airport shared shuttle, round trip per adult",
+      "resort": "walt-disney-world",
+      "rangeUsd": [32, 60],
+      "asOf": "July 2026",
+      "note": "Mears Connect is the successor to Disney's own airport coach, which ended in 2022. The bottom of the band is standard service with one or two stops; the top is the express upgrade, which runs direct. Children price below adults on both tiers."
+    },
+    {
+      "label": "Rideshare between a Disney hotel and a theme park, one way",
+      "resort": "walt-disney-world",
+      "rangeUsd": [12, 35],
+      "asOf": "July 2026",
+      "note": "Surge pricing in the 45 minutes after park close routinely pushes above the top of this band, and that is exactly when a family wants it. Budget the surge rather than the base fare if rideshare is your fallback plan."
+    },
+    {
+      "label": "Rental car, per day, Orlando",
+      "resort": "walt-disney-world",
+      "rangeUsd": [40, 90],
+      "asOf": "July 2026",
+      "note": "Before fuel and before the parking band above. A rental at the top of this band plus theme park parking costs a family more per day than Disney's own transport network, which is free and reaches every park from every Disney-owned hotel."
+    },
+    {
+      "label": "Theme park self-parking, per day",
+      "resort": "disneyland",
+      "rangeUsd": [35, 40],
+      "asOf": "July 2026",
+      "note": "Covers the Mickey and Friends structure, the Pixar Pals structure and the Toy Story lot, with the tram or shuttle included in the price. Preferred parking is sold in limited numbers above this band; we have not verified its current rate and are not going to print one."
+    },
+    {
+      "label": "Self-parking at a Disneyland Resort hotel, per night",
+      "resort": "disneyland",
+      "rangeUsd": [35, 70],
+      "asOf": "July 2026",
+      "note": "The three Disneyland Resort hotels charge for overnight parking separately from the room, which Walt Disney World does not, and valet sits at the top of this band. This is a real cost difference between the resorts that hotel comparisons routinely omit."
+    },
+    {
+      "label": "Anaheim Resort Transportation pass, per person",
+      "resort": "disneyland",
+      "rangeUsd": [6, 30],
+      "asOf": "July 2026",
+      "note": "Priced by pass length from one day to five days, with children and seniors below the adult rate. Most Good Neighbor hotels sit on a route. For a party of four staying a mile out, compare the multi-day pass total against the parking band above before deciding to drive."
+    },
+    {
+      "label": "Rideshare between an Anaheim hotel and the resort drop-off, one way",
+      "resort": "disneyland",
+      "rangeUsd": [10, 25],
+      "asOf": "July 2026",
+      "note": "Short journeys, so the base fare dominates and surge matters less than it does in Orlando. Two rideshare trips a day for four people still costs less than a day of parking plus the tram queue."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The verdict, both resorts",
+      "body": [
+        "Do not hire a car at Walt Disney World if you are staying on Disney property, and do consider one at the Disneyland Resort if you are not staying within walking distance. That reverses the usual advice about American holidays and it is the right answer at both resorts for the same reason: Disney's free transport in Florida is genuinely comprehensive, and Anaheim's alternative to driving is a public bus network you have to pay for.",
+        "A Florida family staying on property with a rental car pays $40 to $90 a day for the car and $30 to $50 a day to park it at a theme park, against a bus, monorail, boat and Skyliner network that costs nothing and reaches every park from every Disney-owned hotel. Across a seven-night trip that is $490 to $980 spent to avoid waiting for a bus.",
+        "An Anaheim family staying at a Good Neighbor hotel a mile out pays $35 to $40 a day to park at the resort structures, or $6 to $30 per person for a multi-day Anaheim Resort Transportation pass, or nothing at all if the hotel is close enough to walk. For a party of four, driving and parking is frequently the cheapest of those three, which is not true anywhere in Florida."
+      ]
+    },
+    {
+      "heading": "What carries no charge, and it is more than people expect",
+      "body": [
+        "At Walt Disney World: every bus, monorail, boat and Skyliner journey inside the resort; standard overnight self-parking at Disney-owned hotels; parking at the water parks; parking in the Disney Springs garages; and parking at a Disney-owned hotel when you are visiting a restaurant there with a reservation. None of these has a charge as of July 2026.",
+        "At the Disneyland Resort: the tram and shuttle from the parking structures and the Toy Story lot, included in the parking price rather than added to it; parking at Downtown Disney for a limited period with validation; and the walk itself, which for most Harbor Boulevard hotels is 10 to 20 minutes and is what the majority of Anaheim visitors actually do.",
+        "One thing to be clear about: parking in the Disney Springs garages and taking transport to a theme park is not permitted, and Disney enforces it. The garages carry no charge because Disney Springs wants your shopping, and there is no bus from Disney Springs to a theme park in the morning in any case."
+      ]
+    },
+    {
+      "heading": "Parking is charged per day, not per lot",
+      "body": [
+        "Your Walt Disney World theme park parking charge covers every theme park lot for that calendar day. Paying at Magic Kingdom in the morning and driving to EPCOT in the afternoon costs nothing extra — show the receipt at the second gate. That makes driving between parks free once you have paid once, which is the one genuine argument for a car on a hopping day.",
+        "The counter-argument is the tram queue at park close, which at Magic Kingdom regularly runs past 40 minutes and lands at the end of a 14-hour day. Taking the monorail or a bus back to a Disney hotel costs nothing and involves no walk across a car park in the dark with a sleeping child.",
+        "The Disneyland Resort structures work on a per-entry basis for the day and the tram is included. Re-entry rules have varied; if you plan to leave the resort mid-day and return, confirm at the booth on the way in rather than discovering the answer on the way back."
+      ]
+    },
+    {
+      "heading": "Airport to hotel, priced honestly",
+      "body": [
+        "Orlando: Mears Connect at $32 to $60 round trip per adult is the cheapest option for a party of one or two, and rideshare is the cheapest for a party of four or more. A rideshare from Orlando International to the Walt Disney World area runs roughly the price of two Mears Connect adult round trips one way, so the arithmetic flips at about three passengers. Disney's own airport coach ended in 2022 and nothing has replaced it as a complimentary service.",
+        "Anaheim: John Wayne Airport is 20 minutes away and Los Angeles International is 45 to 90 minutes depending on traffic, which is the single largest variable in an Anaheim trip. Shared shuttles and rideshare both operate; from Los Angeles International in the afternoon, budget for the traffic rather than the fare.",
+        "For either resort, book airport transport for arrival only and decide the return once you are there. Departure timings shift, and a prepaid return shuttle at a fixed pickup is how people end up leaving a park three hours before they needed to."
+      ]
+    },
+    {
+      "heading": "When the car is genuinely worth it",
+      "body": [
+        "Three cases in Florida: you are staying off Disney property, you are visiting another Orlando attraction, or you have a party of five or more where every bus journey becomes an exercise in splitting up. Outside those, the Disney transport network does what a car does, more slowly and for nothing.",
+        "Two cases in Anaheim: your hotel is more than about a mile from the esplanade, or you are combining the trip with anything else in Southern California, which most visitors are. Anaheim has no equivalent of Disney's free internal network, and the Anaheim Resort Transportation network is a paid public bus service rather than a resort amenity.",
+        "The case that is never worth it: hiring a car at Walt Disney World to save time. Between parking, the tram, the walk and the security queue at the parking end, driving to a Florida theme park is not faster than the bus, and it costs $30 to $50 a day for the privilege."
+      ]
+    }
+  ],
+  "howToSave": [
+    "At Walt Disney World, do not hire a car if you are staying on property. A rental at $40 to $90 a day plus theme park parking at $30 to $50 a day comes to $490 to $980 across a seven-night trip, against a bus, monorail, boat and Skyliner network that costs nothing and reaches every park from every Disney-owned hotel. This is the largest single transport saving at either resort.",
+    "In Anaheim, price the Anaheim Resort Transportation pass against the parking band before you commit to driving. A one-day to five-day pass at $6 to $30 per person covers a party of four for less than three days of parking at $35 to $40, and most Good Neighbor hotels sit on a route. If your hotel is within about a mile of the esplanade, walk and pay nothing.",
+    "Never valet at a Walt Disney World hotel. Standard overnight self-parking at Disney-owned hotels carries no charge as of July 2026, so the $35 to $45 a night valet fee buys a shorter walk and nothing else. Across a seven-night stay that is $245 to $315 for approximately 90 seconds a day.",
+    "Book the standard airport shuttle rather than the express. Mears Connect standard adds one or two stops on the way for roughly half the express price; for a family of four the difference across a round trip is $50 to $110, which is a table-service dinner for the same time cost as one podcast episode.",
+    "Count parking before you count rides when pricing a Walt Disney World annual pass. Standard theme-park self-parking has been included with Walt Disney World annual passes, so a passholder making ten Florida park days a year recovers $300 to $500 of the pass price in parking alone before considering admission. Confirm the current perk list on the pass page, because inclusions do change.",
+    "Split the arrival and departure transport decisions. Book the airport transfer for arrival only and buy the return once your departure timing is settled. A prepaid return shuttle with a fixed pickup time is the most common reason people leave a park three hours before they needed to, and the flexibility costs nothing.",
+    "In Florida, drive between parks only if you have already paid to park that day. The theme park parking charge covers every theme park lot for that calendar day, so the second and third park are free to drive to. The catch is the tram queue at Magic Kingdom's close, which regularly runs past 40 minutes — take Disney transport home even if the car is free to move."
+  ],
+  "crossLinks": [
+    {
+      "label": "Magic Kingdom park guide",
+      "href": "/walt-disney-world/magic-kingdom/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park guide",
+      "href": "/disneyland/disneyland-park/",
+      "site": 1
+    },
+    {
+      "label": "Planning a first Disney trip",
+      "href": "/guides/first-disney-trip/",
+      "site": 1
+    },
+    {
+      "label": "Walt Disney World vs Disneyland",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is parking free for Disney hotel guests?",
+      "a": "At Walt Disney World, yes on both counts as of July 2026: standard overnight self-parking at Disney-owned hotels carries no charge, and theme park parking is included for registered guests. At the Disneyland Resort, no — the three Disneyland Resort hotels charge for overnight parking separately from the room, at $35 to $70 a night including valet, and theme park parking is charged as normal."
+    },
+    {
+      "q": "Do I need a car at Walt Disney World?",
+      "a": "Not if you are staying on Disney property. The bus, monorail, boat and Skyliner network reaches every theme park, water park and Disney Springs from every Disney-owned hotel and costs nothing. A car makes sense if you are staying off property, visiting other Orlando attractions, or travelling in a party of five or more where every bus journey means splitting up."
+    },
+    {
+      "q": "Do I need a car at the Disneyland Resort?",
+      "a": "It depends on how far out you are staying, and the answer is genuinely different from Florida. Within about a mile of the esplanade, walk. Further out, compare the $6 to $30 Anaheim Resort Transportation pass against the $35 to $40 daily parking rate for your party size. Anaheim has no free resort transport network, so the choice is between paying to park, paying for a bus, or walking."
+    },
+    {
+      "q": "Does one parking charge cover more than one park?",
+      "a": "At Walt Disney World, yes — the theme park parking charge covers every theme park lot for that calendar day, so driving from Magic Kingdom to EPCOT costs nothing extra. Keep the receipt. At the Disneyland Resort the structures charge per entry for the day and re-entry rules have varied, so confirm at the booth if you plan to leave and return."
+    },
+    {
+      "q": "What replaced Disney's free airport coach?",
+      "a": "Nothing complimentary. Disney's own airport service ended in 2022 and Mears Connect took over the route as a paid shared shuttle at $32 to $60 round trip per adult depending on whether you take standard or express. For a party of three or more, rideshare from Orlando International is usually cheaper than the same number of shuttle fares."
+    },
+    {
+      "q": "Can I park at Disney Springs and take a bus to a park?",
+      "a": "No. The Disney Springs garages carry no charge but parking there to visit a theme park is not permitted and Disney enforces it. There is also no bus from Disney Springs to a theme park in the morning, so the plan does not work even setting the rules aside."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Bands describe rates observed as of July 2026. We label this page as last-confirmed rather than confirmed because parking and transport rates at both resorts change without advance announcement and we have no operator announcement to cite. Two figures are deliberately absent: Disneyland Resort preferred parking, which we could not verify, and any rate for Disney's discontinued airport coach, which no longer exists. Rideshare and rental bands are market rates rather than operator prices and move faster than anything else here.",
+    "reviewBy": "2027-01",
+    "cycle": "rolling"
+  }
+}

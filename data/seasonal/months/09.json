@@ -1,0 +1,117 @@
+{
+  "month": 9,
+  "name": "September",
+  "slug": "september",
+  "summary": "September is the emptiest and cheapest month of the year at Walt Disney World, and the reason is unglamorous: it is the statistical peak of hurricane season and it is still 90 degrees. Accept both and it is the best trip on the calendar for anyone not tied to a school year.",
+  "verdict": {
+    "grade": "A",
+    "short": "The lowest waits and the lowest prices of the year at Walt Disney World, bought with heat and storm risk. Disneyland is a different answer — Halloween keeps its weekends genuinely busy.",
+    "bestFor": [
+      "Adults, couples, and anyone without a school-calendar constraint — this is the pick",
+      "Value-led trips, where every cost lever is at or near its annual floor in Orlando",
+      "Halloween party fans, since September nights are cheaper and less attended than October's",
+      "Food and Wine Festival visitors who go on a weekday and skip the weekend crowd entirely",
+      "Anyone who has been before and wants ride count rather than a first-timer checklist"
+    ],
+    "worstFor": [
+      "Anyone booking non-refundable travel — this is the statistical peak of hurricane season",
+      "Heat-sensitive visitors, since Orlando in September is functionally still summer",
+      "Disneyland weekends, which run at full Halloween-season levels all month",
+      "Trips built around one specific attraction, as September is the second refurbishment window",
+      "Families needing long park evenings, since operating hours shorten as the month progresses"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "Every driver of Walt Disney World attendance switches off at once in September and nothing replaces them. US districts are back in session nationwide, the Florida drive-in market has exhausted its summer budget, the international summer season has ended, and hurricane risk deters everybody who is not on a Disney-specific mission. Weekday waits in the first three weeks are the lowest of any month, including January's, and unlike January the ride roster is closer to complete and the weather does not cancel water parks. The curve lifts slightly around Labor Day at the front and again at the very end as the earliest fall-break districts appear, but the middle three weeks genuinely have no crowd driver. Disneyland runs a different pattern for a specific reason: Halloween Time is installed across both parks and Oogie Boogie Bash nights are selling out, so while California weekdays are quiet, Anaheim weekends hold high attendance for the entire month. The single biggest weekday-to-weekend gap at Walt Disney World this month is at EPCOT, where the Food and Wine Festival pulls a large Florida-resident crowd onto Friday and Saturday nights and leaves Tuesdays close to empty.",
+    "peakWindows": [
+      "Labor Day weekend at both resorts",
+      "Every weekend at Disneyland, driven by Halloween Time and party nights",
+      "Friday and Saturday evenings at EPCOT, where the Food and Wine crowd is entirely local"
+    ],
+    "quietWindows": [
+      "The middle three weeks at Walt Disney World, the lowest waits of the year",
+      "Tuesday and Wednesday at every Orlando park, all month",
+      "Weekday mornings at Disneyland Park before the Halloween Time crowd arrives after lunch"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 90,
+      "lowF": 73,
+      "rainDays": 14,
+      "note": "Climate normals for Orlando, not a forecast. September is still summer in every practical sense, with the afternoon thunderstorm pattern intact through most of the month and fourteen days of measurable rain. It is also the statistical peak of the Atlantic hurricane season, which is the entire reason this month is as cheap and as quiet as it is. Relief usually arrives in the final week."
+    },
+    "dlr": {
+      "highF": 84,
+      "lowF": 63,
+      "rainDays": 1,
+      "note": "Climate normals for Anaheim, not a forecast. September is frequently hotter in practice than August, because the Santa Ana wind pattern begins and can push inland Orange County past 95 for several consecutive days. When that happens it is dry heat with cool evenings, which is a very different experience from Florida at the same temperature."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "Walt Disney World resort hotels reach their annual rate floor here, and September is the month room-only discounts historically run deepest and cover the widest set of resort categories. Date-based ticket tiers sit in their lowest bands outside January. Airfare into Orlando drops to its yearly low because the family leisure market has gone and the convention market has not returned, which makes this the one month where the flight, the room, and the ticket are all cheap simultaneously. The single cost that rises is travel insurance, and this is the one month where buying it is not optional. On the Anaheim side there is no equivalent discount — Halloween demand holds hotel rates at fall levels and the resort has no reason to cut them."
+  },
+  "whatsOn": [
+    "epcot-food-and-wine-festival",
+    "mickeys-not-so-scary-halloween-party",
+    "oogie-boogie-bash",
+    "halloween-time-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Buy the insurance, and buy it before a storm is named",
+      "body": [
+        "September is the peak of the Atlantic season and the risk is real rather than notional. Central Florida storms rarely cause the parks to close for more than a day or two, but they routinely cause flight cancellations, and a two-day closure inside a five-day trip destroys the trip's value.",
+        "The mechanism to understand is named-storm coverage. Once a system has been named it becomes a known event and policies stop covering it, so a policy bought after a storm appears on the map does nothing for that storm. Buy at the time of booking.",
+        "Walt Disney World has historically operated a hurricane policy allowing cancellation without penalty when a warning is issued for the Orlando area or your point of origin within a defined window before arrival, and it covers the Disney-booked portion only. Confirm the current terms when you book, and choose an airline whose change policy is flexible rather than relying on that one."
+      ]
+    },
+    {
+      "heading": "The party ticket can be better value than a regular ticket day",
+      "body": [
+        "On a September Not-So-Scary night, Magic Kingdom admission for party guests typically opens several hours before the party itself starts. Because the daytime crowd in September is already thin, that turns a party ticket into a long evening in a park that is quiet before the event and capped during it.",
+        "Run the comparison rather than assuming. A date-based single-day ticket in September is at its cheapest and a party ticket is also at the low end of its seasonal band, and depending on the night the party can deliver more usable hours per dollar than a standard day at the same park.",
+        "The reason this stops working in October is not the crowd but the price — party nights step up through the season, and the late-October nights are the most expensive of the run."
+      ]
+    },
+    {
+      "heading": "Check the refurbishment list — September is the second rehab window",
+      "body": [
+        "January gets the reputation, but late September and early October are the other period when Disney takes attractions down, and it lands exactly in the quiet weeks that make the month attractive in the first place.",
+        "The practical implication is the same as in January: if the trip exists because one specific person wants one specific ride, check the closure list before booking rather than after. Shifting a September trip by two weeks is usually cheap and usually resolves it.",
+        "Water park closures follow a different logic — Walt Disney World has historically rotated its two water parks through seasonal refurbishment, so one of the two may be closed. If a water park day matters, verify which one is operating for your dates."
+      ]
+    },
+    {
+      "heading": "The weekday and weekend gap at EPCOT is the sharpest of any park-month pairing",
+      "body": [
+        "The Food and Wine Festival draws a Florida-resident annual-passholder crowd that treats World Showcase as a Friday night out, and it produces the widest weekday-to-weekend swing anywhere at Walt Disney World. The same promenade can be walk-on quiet on a Tuesday afternoon and shoulder to shoulder on a Saturday evening.",
+        "The scheduling instruction is blunt: put EPCOT on a Tuesday or Wednesday and put Magic Kingdom or Hollywood Studios on the weekend, which is the opposite of what most itineraries do because people want the festival at night.",
+        "If a Friday or Saturday EPCOT visit is unavoidable, do the booths before 2 PM. The booths open later than the park does and are close to empty for their first two hours, and the whole crowd arrives after 5."
+      ]
+    },
+    {
+      "heading": "Disneyland is not on the same calendar this month",
+      "body": [
+        "The advice that September is quiet is a Walt Disney World statement, and applying it to Anaheim will produce a bad trip. Halloween Time is installed across both parks, the seasonal ride overlays are running, and Oogie Boogie Bash nights are sold out, all of which keeps Disneyland's weekends at full fall attendance.",
+        "The version that does work is a midweek Disneyland trip. Tuesday through Thursday in September is soft at both parks, and it is the last easy stretch before the resort's Halloween and holiday seasons run continuously into January.",
+        "If the party matters and it has sold out, remember that the Halloween Time overlays are day-guest content requiring nothing beyond park admission. The party buys you trick-or-treating, character content, and a capped crowd, not access to the seasonal attractions themselves."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "EPCOT's best snacks", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
+    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
+    { "label": "Disneyland Park first-timer guide", "href": "/disneyland/disneyland-park/first-timer-guide/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy and the water park refurbishment rotation are long-running operator practices rather than confirmed current terms — verify both at the point of booking.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "park": "animal-kingdom",
+  "viewBox": [0, 0, 1000, 900],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    {
+      "points": [[352, 395], [400, 362], [500, 348], [600, 362], [648, 395], [624, 405], [578, 382], [500, 372], [422, 382], [376, 405]]
+    },
+    {
+      "points": [[352, 395], [330, 450], [322, 520], [334, 585], [372, 645], [398, 632], [362, 578], [350, 518], [357, 455], [376, 405]]
+    },
+    {
+      "points": [[648, 395], [672, 450], [682, 520], [668, 590], [622, 650], [598, 634], [638, 578], [650, 518], [643, 455], [624, 405]]
+    }
+  ],
+  "paths": [
+    { "points": [[500, 845], [500, 760], [498, 690], [500, 600], [500, 520]] },
+    { "points": [[430, 470], [390, 430], [350, 395], [315, 350]] },
+    { "points": [[575, 470], [625, 425], [672, 390], [710, 355]] },
+    { "points": [[560, 585], [605, 625], [650, 655], [690, 670]] },
+    { "points": [[420, 600], [390, 625], [350, 645], [310, 655]] },
+    { "points": [[290, 240], [300, 200], [318, 165], [335, 130]] }
+  ],
+  "lands": [
+    {
+      "slug": "discovery-island",
+      "label": "Discovery Island",
+      "points": [[430, 350], [570, 350], [652, 420], [652, 565], [575, 640], [548, 720], [548, 858], [452, 858], [452, 720], [425, 640], [348, 565], [348, 420]],
+      "labelAt": [500, 425]
+    },
+    {
+      "slug": "pandora",
+      "label": "Pandora - The World of Avatar",
+      "points": [[85, 520], [200, 470], [300, 505], [335, 590], [320, 690], [230, 760], [120, 745], [65, 640]],
+      "labelAt": [200, 535]
+    },
+    {
+      "slug": "africa",
+      "label": "Africa",
+      "points": [[100, 255], [215, 185], [365, 178], [418, 230], [418, 320], [330, 400], [200, 430], [95, 380]],
+      "labelAt": [245, 275]
+    },
+    {
+      "slug": "rafikis-planet-watch",
+      "label": "Rafiki's Planet Watch",
+      "points": [[255, 35], [430, 35], [450, 90], [415, 150], [285, 150], [235, 90]],
+      "labelAt": [340, 78]
+    },
+    {
+      "slug": "asia",
+      "label": "Asia",
+      "points": [[615, 250], [700, 175], [830, 160], [935, 230], [940, 350], [870, 440], [740, 460], [660, 390]],
+      "labelAt": [785, 415]
+    },
+    {
+      "slug": "dinoland",
+      "label": "DinoLand U.S.A.",
+      "points": [[645, 610], [700, 540], [840, 530], [935, 600], [930, 720], [850, 805], [710, 800], [630, 700]],
+      "labelAt": [775, 750]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [500, 830] },
+    { "slug": "tree-of-life", "kind": "attraction", "at": [500, 505] },
+    { "slug": "tiffins-restaurant", "kind": "dining", "at": [585, 545] },
+    { "slug": "flame-tree-barbecue", "kind": "dining", "at": [560, 600] },
+    { "slug": "avatar-flight-of-passage", "kind": "headliner", "at": [145, 660] },
+    { "slug": "navi-river-journey", "kind": "headliner", "at": [255, 615] },
+    { "slug": "satuli-canteen", "kind": "dining", "at": [215, 715] },
+    { "slug": "kilimanjaro-safaris", "kind": "headliner", "at": [160, 235] },
+    { "slug": "festival-of-the-lion-king", "kind": "headliner", "at": [145, 350] },
+    { "slug": "gorilla-falls-exploration-trail", "kind": "attraction", "at": [315, 205] },
+    { "slug": "harambe-market", "kind": "dining", "at": [365, 315] },
+    { "slug": "conservation-station", "kind": "attraction", "at": [345, 122] },
+    { "slug": "expedition-everest", "kind": "headliner", "at": [860, 350] },
+    { "slug": "kali-river-rapids", "kind": "headliner", "at": [760, 250] },
+    { "slug": "maharajah-jungle-trek", "kind": "attraction", "at": [855, 215] },
+    { "slug": "yak-and-yeti-restaurant", "kind": "dining", "at": [700, 340] },
+    { "slug": "the-boneyard", "kind": "attraction", "at": [760, 610] },
+    { "slug": "finding-nemo-the-big-blue-and-beyond", "kind": "attraction", "at": [855, 690] }
+  ]
+}

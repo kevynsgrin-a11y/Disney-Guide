@@ -1,0 +1,254 @@
+{
+  "park": "magic-kingdom",
+  "criteria": "Ranked on the ride itself: what happens between loading and unloading, how it holds up on a fifth lap rather than a first, and how much of it is still actively doing something rather than coasting on reputation. Wait times, Lightning Lane pricing, and how good the queue looks were deliberately kept out of the ordering.",
+  "intro": [
+    "Magic Kingdom has more rides than any other park at Walt Disney World and fewer genuine headliners than its reputation suggests. A large share of the ride count is spinners, a shooting gallery, three transportation systems and a set of Fantasyland dark rides that run under three minutes each. That is not a complaint, but it does mean the gap between the top of this list and the middle is unusually wide.",
+    "The park's real strength is the eight-to-eleven-minute ride: Haunted Mansion, Pirates, Jungle Cruise, it's a small world, the PeopleMover. Nowhere else on property is that format still built at this scale, and those rides are why people who have been forty times keep going back. The modern additions here are faster and better lit and considerably shorter.",
+    "The ordering below reflects that. Two of the park's most-hyped attractions sit outside the top eight, and a free ten-minute tram with no height requirement sits at number seven. Both of those placements are argued rather than asserted, and the overrated section names names."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "haunted-mansion",
+      "headline": "The most complete ride ever built here: nine minutes with no dead air and no wasted room.",
+      "why": [
+        "Almost every ride can be described as a series of good scenes joined by transitions. The Mansion has no transitions. The portrait corridor sets a rule, the stretching room breaks it, the loading corridor of doors keeps escalating, and by the time the Doom Buggy tips backward into the ballroom you have been continuously worked on for four minutes without a single moment of hallway. The ballroom itself is a nineteenth-century stage trick executed at a scale nobody else bothers with, and it still reads correctly from a moving vehicle at any point in the room.",
+        "It also rewards repetition more than anything else in the park. The attic, the graveyard and the hitchhiking ghosts each contain more than one ride's worth of detail, and the Hatbox Ghost added in 2023 was placed to be missed on a first lap. The Omnimover means you are never waiting on a dispatch, so the standby line moves at roughly three times the rate the posted time suggests. Ride it once in daylight and once after dark; the exterior and the graveyard play completely differently."
+      ],
+      "skipIf": "Skip it if you have a child who is genuinely frightened by darkness, because the stretching room gives no warning and offers no exit."
+    },
+    {
+      "rank": 2,
+      "slug": "pirates-of-the-caribbean",
+      "headline": "Shorter than the California original and still the densest set of animatronics in Florida.",
+      "why": [
+        "The Florida version loses the bayou opening and one of the two drops, which costs it the slow build its West Coast counterpart gets. What survives is the part that matters: the battle between the ship and the fort, staged so that cannon fire lands in the water beside your boat from two directions at once, and then a burning town where forty-odd figures are all running separate loops that never quite sync. Very few rides anywhere sustain that much simultaneous motion.",
+        "The 2018 rework of the auction scene into Redd recruiting for a pirate crew is better staged than what it replaced and reads more clearly from a boat. The Jack Sparrow figures added in 2006 are the weakest element, mostly because they insist on a plot the ride does not need. None of that dents the core. Boats load continuously, the interior is cool, and it takes roughly eight and a half minutes, which puts it among the longest rides in the park."
+      ],
+      "skipIf": "Skip it if a short unlit drop is going to upset a small child, because it arrives early and without a build-up."
+    },
+    {
+      "rank": 3,
+      "slug": "big-thunder-mountain-railroad",
+      "headline": "The best-paced coaster in the park, and the rare one where a second lap after dark is a different ride.",
+      "why": [
+        "No inversions, no launch, nothing faster than a car park speed limit, and it still outranks both mountains in Tomorrowland on ride quality alone. The reason is layout. Three lift hills means three separate accelerations rather than one, the track is laid low and close to rock walls so the speed reads as much higher than it is, and the whole thing is built to throw you sideways rather than down. Sit in the back row and the final helix does noticeably more.",
+        "It is also the most re-rideable big attraction here, because at 38 inches it takes most of a family and at roughly three minutes it does not overstay. The night ride is the argument-settler: with the rockwork lit from below and the surrounding area dark, the sense of speed goes up considerably without a single thing about the track changing."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 4,
+      "slug": "space-mountain",
+      "headline": "Rough, loud, deliberately underlit, and still the most efficient thrill in the park for what it does.",
+      "why": [
+        "The ride opened in 1975 and the track shows it. It is jerky, the trains are narrow single-file cars, and the restraint does almost nothing to stop your shoulders finding the sides. That roughness is doing real work. Top speed is under thirty miles an hour, which would be unremarkable in daylight, but in near-total darkness with no horizon and no advance warning of a turn, your body has nothing to brace against and reads every direction change as much larger than it is.",
+        "The two tracks are not identical, and the right-hand one runs slightly longer, so a repeat lap on the other side is worth doing if the wait is short. The queue is the least pleasant in the park, a long concrete switchback with very little to look at, and the ride runs under four minutes. It earns fourth place on the sensation alone, and it is the only ride here that a coaster-hardened teenager will actually respect."
+      ],
+      "skipIf": "Skip it if your back or neck objects to hard lateral jolts, because this is comfortably the roughest track on the property."
+    },
+    {
+      "rank": 5,
+      "slug": "tianas-bayou-adventure",
+      "headline": "The strongest new build here in a decade, carried by a finale most Disney rides no longer attempt.",
+      "why": [
+        "The 2024 rebuild inherited a good flume layout and spent its money in the right place. The lift and the drop are unchanged in structure, roughly fifty feet with a genuine stomach moment and a soaking at the bottom, but the interior scenes are new and considerably more populated than the ride they replaced. The final room, with a full band of animatronic animals playing in an arrangement that actually resolves, is the closest thing to a Pirates-scale scene built in Florida this century.",
+        "Where it is weaker is the middle. The stretch between the queue and the lift has a couple of quiet passages that need another set piece, and the story beats assume you know the film. It also has the second-highest height floor of the family rides at 40 inches, which splits parties more often than people expect. Ride it early or late; the drop is much better when the sun is not directly in your eyes."
+      ],
+      "skipIf": "Skip it if you cannot afford to be damp for the next hour, because the front rows take a proper soaking."
+    },
+    {
+      "rank": 6,
+      "slug": "peter-pans-flight",
+      "headline": "Under three minutes long, and the only Fantasyland dark ride that solved a problem no one else did.",
+      "why": [
+        "Every other dark ride in this park puts you at eye level with the set. Peter Pan hangs the vehicle from an overhead rail and puts the scenery underneath you, which means the London rooftops read as a model city seen from a real altitude rather than a wall you drive past. It is a 1971 opening-day solution and nothing built since has bettered it for the money. The Neverland lagoon and the ship deck are both staged to be seen from above, and they collapse if you imagine them at ground level.",
+        "The problem is length and capacity. It runs about two and three-quarter minutes, the vehicles carry two or three people, and the throughput is among the worst in the park, which produces the standby waits it is famous for. Ranked on the ride, though, it is the best of the small dark rides here by a clear margin, and the only one whose central idea is still genuinely uncommon."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 7,
+      "slug": "tomorrowland-transit-authority-peoplemover",
+      "headline": "Ten minutes, no height requirement, usually no wait, and the best view of the park from inside it.",
+      "why": [
+        "Putting a free tram in the top ten is a real position, not a joke. This is a ten-minute continuously loading ride with no height requirement that goes through the inside of Space Mountain, past the model city built for the 1964 World's Fair, and around the upper level of Tomorrowland at a height that shows you how the land is actually laid out. It is quiet, it is shaded, it never stops, and it is the single best thing to do in the park between two and four in the afternoon.",
+        "It is also the best ride here for the widest range of people at once. A toddler can ride it, a grandparent can ride it, someone recovering from a full morning on their feet can ride it, and all three get something out of it. The linear induction motors mean there is no engine noise and no vibration, so it is one of the only places in the park where a group can hold a conversation. The wait is usually five minutes or less, which is a fact about operations rather than a reason it ranks here."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 8,
+      "slug": "jungle-cruise",
+      "headline": "The only ride here whose quality is set by a live person, which is exactly the reason to ride it.",
+      "why": [
+        "A ten-minute boat trip past animatronic animals that were never meant to be convincing, narrated by a skipper working a script of deliberately bad jokes. On a good skipper it is one of the funniest things Disney operates and the timing of the gags against the scenery is genuinely well constructed. On a flat skipper it is ten minutes of green water. That variance is the attraction, and it is worth accepting.",
+        "The 2021 revision replaced the outdated colonial framing with a running gag about a stranded expedition, and it improved the middle of the ride, which used to sag. The backside of water still lands. If you are choosing between this and Pirates on a short visit, take Pirates, but do not treat this as a filler ride; it is the only genuinely live performance attached to a ride vehicle in the park."
+      ],
+      "skipIf": "Skip it if a performer working the boat for laughs sounds like an ordeal rather than the point."
+    },
+    {
+      "rank": 9,
+      "slug": "tron-lightcycle-run",
+      "headline": "The best launch Disney has built in Florida, attached to the shortest headliner ride in the park.",
+      "why": [
+        "The launch is exceptional. You go from stationary to roughly sixty miles an hour in a couple of seconds while lying forward on a motorbike-style vehicle with your back exposed, and the combination of the posture and the acceleration produces something no other ride on the property comes close to. The first outdoor section under the canopy is the best twelve seconds in Tomorrowland.",
+        "Then it ends. Actual track time is around a minute, most of the indoor section is dark corridors with lighting effects rather than anything to look at, and the ride finishes so abruptly that first-time riders regularly ask whether something went wrong. It ranks ninth because a minute of the best thing in the park is still better than three minutes of something ordinary, but it does not belong above the long-form rides above it, and anyone telling you it is the best ride at Magic Kingdom is grading the launch and ignoring the other fifty seconds."
+      ],
+      "skipIf": "Skip it if leaning forward onto your forearms with your back arched for a couple of minutes would hurt."
+    },
+    {
+      "rank": 10,
+      "slug": "its-a-small-world",
+      "headline": "Eleven minutes, air conditioned, and the most disciplined design work anywhere in Fantasyland.",
+      "why": [
+        "Strip out your feelings about the song and look at what the ride does. It is eleven minutes long, it loads continuously from a moving belt, it never stops, and every room resets its entire colour palette and cutout style at the doorway so that you always know you have crossed into a new place. The finale room going all-white is a structural decision, not a decorative one: it releases the visual pressure the previous seven rooms built up. Very little modern design is that deliberate.",
+        "Practically, it is also the most useful ride in the park. It is long, cool, seated, has no height requirement, and a family of six fits in one boat facing forward. On a hot afternoon with a tired group, this is the reset button. The waits are usually short because the boats are large and the loading never pauses."
+      ],
+      "skipIf": "Skip it if the song is a genuine irritant, because there is no exit once your boat is moving."
+    },
+    {
+      "rank": 11,
+      "slug": "seven-dwarfs-mine-train",
+      "headline": "A genuinely lovely closing scene bolted to about ninety seconds of coaster. Good ride, bad ratio.",
+      "why": [
+        "The mine interior is the best-realised scene in Fantasyland. Seven animatronic dwarfs working a jewel seam, lit properly, with the ride slowing to let you see it, and the cottage scene at the end lands a real moment. The swinging ore cars are a clever idea and the pivot does add something on the tighter outdoor turns, though considerably less than the marketing suggests, and almost nothing on the straights.",
+        "The problem is arithmetic. The ride is about two and a half minutes and a large fraction of that is a lift hill and a station approach. The coaster sections are mild by design, sitting between a starter coaster and Big Thunder without being as good as either at what it is doing. It is a genuinely good family ride. It is not a top-five ride, and the wait it commands is the least justified in the park."
+      ],
+      "skipIf": "Skip it if the standby is over forty minutes and there is no child in your group specifically asking for it."
+    },
+    {
+      "rank": 12,
+      "slug": "mickeys-philharmagic",
+      "headline": "The rare 3D film that is actually well cut, and the best twelve minutes of sitting down in the park.",
+      "why": [
+        "Most theme park 3D films throw objects at the camera and call it a day. This one is edited to musical sequences from a run of animated films, and the cuts land on the beat, which is why it holds attention where similar shows do not. The screen is wide enough that the image fills your peripheral vision without the frame being visible, and the in-theatre effects are used sparingly enough that they still register.",
+        "It runs about twelve minutes, seats a large house at once so the wait is rarely long, and requires nothing of you physically. If someone in your group cannot do rides, this is the attraction to build the middle of their day around. It sits at twelve rather than higher because it is a film, and a film does not change on a second viewing the way the rides above it do."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 13,
+      "slug": "walt-disneys-carousel-of-progress",
+      "headline": "A 1964 World's Fair machine still running on schedule, and the strangest thing in the park.",
+      "why": [
+        "The theatre rotates around a fixed set of stages and shows the same family across four points in the twentieth century. It is slow, the animatronics are stiff by any modern standard, and the final scene's vision of the future was written decades ago and has been overtaken in every direction. All of that is why it is worth twenty-one minutes. There is nothing else operating anywhere at Disney that lets you sit inside an actual artefact of 1960s exposition design while it does the job it was built for.",
+        "It is also functionally a rest stop. Air conditioning, a seat, roughly twenty minutes, and it almost never has a wait. Rank it thirteenth on the experience and use it as the best hiding place in Tomorrowland when the afternoon gets bad."
+      ],
+      "skipIf": "Skip it if twenty-one seated minutes with no way out mid-show is a problem for anyone in your group."
+    },
+    {
+      "rank": 14,
+      "slug": "the-many-adventures-of-winnie-the-pooh",
+      "headline": "A small, well-made dark ride that gets more out of a windy afternoon than it has any right to.",
+      "why": [
+        "The blustery-day sequence is the reason it ranks here. The vehicle is pushed around, the room tilts, and the whole scene commits to a single effect rather than spreading itself thin, which is more than most rides of this length manage. The dream sequence that follows is loud and busy in a way that works better for children than adults, and the honey pot finale is a straightforward good ending.",
+        "It replaced Mr. Toad's Wild Ride in 1999 and it is a less inventive ride than what it replaced, which is a fair criticism and does not change what is actually there now. Roughly three minutes, no height requirement, and a queue with a decent play area for the under-sixes. It is the best of the remaining small Fantasyland dark rides after Peter Pan."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 15,
+      "slug": "buzz-lightyears-space-ranger-spin",
+      "headline": "The scoring is generous on purpose, which is the point: the best ride here for a competitive family.",
+      "why": [
+        "As a dark ride it is unremarkable, a set of blacklit cardboard-style sets with a fairly thin narrative. As a competition between two people in the same vehicle for four and a half minutes it is excellent, and that is what it is for. The vehicle spins on its own axis under your control, targets are worth wildly different amounts, and the high-value ones are placed where you have to find them rather than where you are looking.",
+        "Learn one thing and the ride improves permanently: the big scores are on the targets nobody shoots, particularly the small ones set far back and the ones behind you as you leave a room. The gun is a fixed laser, so aim by pointing the whole vehicle rather than your wrist. It ranks fifteenth as an attraction and would rank considerably higher as a game."
+      ],
+      "skipIf": "Skip it if nobody in your group has any interest in a score, because the ride underneath the game is thin."
+    },
+    {
+      "rank": 16,
+      "slug": "under-the-sea-journey-of-the-little-mermaid",
+      "headline": "Handsome, continuously loading, and roughly a third as interesting as the budget behind it.",
+      "why": [
+        "The clamshell Omnimover means it takes a huge number of people per hour and rarely has a real wait, which makes it a sensible thing to do on a busy afternoon. The Ursula figure is large and well operated and the under-the-sea room has proper depth to it. Those are the two things it does well.",
+        "The rest is a sequence of scenes that hit the film's plot points without adding anything of its own, and the ride never finds a moment of its own invention the way Peter Pan or the mine train finale does. Six minutes, cool, painless, worth doing once. It sits at sixteen because pleasant and forgettable is exactly what it is."
+      ],
+      "skipIf": "Skip it if the posted wait is over twenty minutes, because it never justifies a queue."
+    },
+    {
+      "rank": 17,
+      "slug": "dumbo-the-flying-elephant",
+      "headline": "A spinner, assessed honestly, but the only one anywhere with a queue that solves the queue problem.",
+      "why": [
+        "The ride is ninety seconds of going up and down on a fixed radius, which is what every spinner is. It ranks above the others in the park for two reasons. There are two carousels running side by side, which roughly halves the wait, and the queue is an indoor air-conditioned play tent where you take a pager and let children run about until you are called. That is a genuinely good operational idea and no other queue in the park does anything as useful.",
+        "If you have a child between two and seven, this is one of the two or three most important attractions in the park to them and your ranking of it does not matter. If you do not, ride Astro Orbiter instead for the view, or skip both."
+      ],
+      "skipIf": "Skip it if there is nobody under about eight in your party."
+    },
+    {
+      "rank": 18,
+      "slug": "walt-disneys-enchanted-tiki-room",
+      "headline": "Ten minutes of 1963 engineering that has aged into something genuinely odd and worth sitting through.",
+      "why": [
+        "This was the first audio-animatronic show Disney ever built, and the mechanism is the attraction. Well over a hundred figures, birds, flowers and carved poles, all driven in sync to a short set of songs in a room that has barely changed. Watching a system that old still hit its cues is more interesting than the songs are, and the storm sequence in the middle still works.",
+        "It is ten minutes, seated, cool, and almost never full. Realistically it belongs at the bottom of any list of things to prioritise, and it is also the last thing in Adventureland most people have never actually sat through. Do it once, late in a repeat visit, when you have already ridden everything else."
+      ],
+      "skipIf": "Skip it if loud, repetitive, close-quarters bird song is going to wear on you within two minutes."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "seven-dwarfs-mine-train",
+      "why": "Ranked eleventh here on merit and still the worst queue economics in the park. Standby routinely runs sixty to ninety minutes for a ride that lasts about two and a half, a large share of which is a lift hill and a station approach. Ride it in the first half hour after opening or during the last hour, or accept that you are trading a whole Fantasyland morning for ninety seconds of mild coaster and one very good scene."
+    },
+    {
+      "slug": "peter-pans-flight",
+      "why": "This is deliberately both well-ranked and overrated, and it is worth saying so plainly: it sits sixth on this list because the overhead-rail staging is the best idea in Fantasyland, and the standby wait is still indefensible. The ride is under three minutes and the queue regularly runs fifteen to twenty times longer than that. The ride is not overrated. What people are willing to pay in time for it is."
+    },
+    {
+      "slug": "tron-lightcycle-run",
+      "why": "Same pattern, different land. Ninth on this list for a launch nothing else in Florida matches, and still the widest gap between anticipation and delivery in the park. Actual track time is around a minute, much of the indoor portion is corridors with lighting effects rather than anything designed to be looked at, and the ending is so abrupt that riders regularly assume a fault. Great fifteen seconds, thin ride."
+    },
+    {
+      "slug": "tomorrowland-speedway",
+      "why": "A slow, loud lap on a centre guide rail that pretends to be driving and mostly is not. The steering wheel does almost nothing, the cars bang off the rail continuously, the exhaust smell carries into the queue, and the whole thing routinely posts a thirty-minute wait for four minutes of noise. The 32-inch floor means small children can ride, which is the only real argument for it, and most of them cannot reach the pedal anyway."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "walt-disneys-carousel-of-progress",
+      "why": "Guests walk past it all day on the way to Space Mountain. It is a working piece of 1964 World's Fair machinery with a rotating theatre, it runs twenty-one minutes, it has air conditioning and a seat, and it almost never has a wait. Even people who find the show dated tend to come out glad they sat down."
+    },
+    {
+      "slug": "country-bear-musical-jamboree",
+      "why": "The 2024 reworking turned it into a genuine music revue, with the bears covering songs across several country styles, and the arrangements are far better produced than the show it replaced. It is a fifteen-minute air-conditioned sit-down in the middle of Frontierland, which is the exact place in the park where you most need one."
+    },
+    {
+      "slug": "monsters-inc-laugh-floor",
+      "why": "A live, improvised comedy show driven by an operator working the room in real time, with jokes texted in from the queue used on stage. The quality varies by performer, but on a good run it is the funniest thing in the park, and the interaction with specific audience members is real rather than pre-recorded. Almost nobody prioritises it."
+    },
+    {
+      "slug": "the-hall-of-presidents",
+      "why": "Twenty-three minutes, seated, cold, and containing the largest single collection of animatronic human figures Disney has ever assembled. Even setting the film aside, the roll call at the end, where every figure moves independently while being named, is a piece of engineering worth seeing once. It runs continuously and rarely fills."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the single best ride at Magic Kingdom?",
+      "a": "Haunted Mansion. It is the longest sustained piece of ride design in the park, it has no weak stretch, and it is the only major attraction here that gets better the more times you ride it rather than worse. Pirates of the Caribbean is a close second and is the better pick if your group includes someone who is genuinely spooked by the dark."
+    },
+    {
+      "q": "Which rides should I do in the first hour of the day?",
+      "a": "Seven Dwarfs Mine Train and Peter Pan's Flight, in that order, because they have the worst wait-to-ride-length ratios in the park and both are within a few minutes' walk of the castle. Everything else on this list either loads continuously or can be picked up later without much penalty. If you would rather start in Tomorrowland, take TRON first and accept a longer Fantasyland afternoon."
+    },
+    {
+      "q": "I only have half a day. What do I actually ride?",
+      "a": "Haunted Mansion, Pirates of the Caribbean, Big Thunder Mountain Railroad and Space Mountain, then whichever of Tiana's Bayou Adventure or Jungle Cruise is posting the shorter wait. That is roughly forty minutes of ride time and covers four of the top five. Add the PeopleMover at the end if the day is hot, because it is ten minutes of shade for a five-minute wait."
+    },
+    {
+      "q": "Which of these are too intense for young children?",
+      "a": "Space Mountain and TRON Lightcycle Run are the only two that are genuinely rough, and their 44-inch and 48-inch floors sort most of that out for you. The ones that catch families out are Haunted Mansion, which is not violent but is dark and has no exit once the stretching room starts, and the drop on Tiana's Bayou Adventure. Big Thunder Mountain and Seven Dwarfs Mine Train are both fine for a confident 38-inch rider."
+    },
+    {
+      "q": "Do I need Lightning Lane Multi Pass to get through this list?",
+      "a": "No, but it changes which order you ride in rather than what you ride. Roughly half of the top ten here load continuously and rarely post long waits, including Haunted Mansion, Pirates, it's a small world and the PeopleMover. The genuine bottlenecks are Seven Dwarfs Mine Train, Peter Pan's Flight and TRON, so if you do buy it, aim it at those three and take everything else standby."
+    },
+    {
+      "q": "What is the tallest height requirement in the park?",
+      "a": "TRON Lightcycle / Run at 48 inches, followed by Space Mountain at 44 and Tiana's Bayou Adventure at 40. Big Thunder Mountain Railroad and Seven Dwarfs Mine Train both sit at 38 inches, which is the threshold that opens up most of the park for a growing child. The Barnstormer at 35 and Tomorrowland Speedway at 32 are the only two below that."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

@@ -1,0 +1,2008 @@
+{
+  "park": "disneyland-park",
+  "dining": [
+    {
+      "slug": "carnation-cafe",
+      "name": "Carnation Cafe",
+      "land": "main-street-usa",
+      "service": "table-service",
+      "cuisine": "American comfort food",
+      "priceTier": "$$$",
+      "priceNote": "Roughly $20 to $35 per adult for a main course at lunch or dinner; breakfast runs lower",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Patio dining on Main Street with the oldest continuously operating menu tradition at Disneyland and a genuinely good breakfast.",
+      "description": [
+        "Carnation Cafe has been serving on Main Street since 1955, originally as an ice cream parlor sponsored by the Carnation company. It now runs as a full table-service restaurant with a small indoor room and a much larger patio under umbrellas, right where Main Street opens toward the hub.",
+        "The kitchen is run by a long-tenured chef whose name appears on several menu items, and the cooking is better than it needs to be for a location whose main asset is a view of the parade route. Breakfast is the strongest meal — eggs, a loaded baked potato hash, and Mickey-shaped waffles — and it is also the easiest reservation to get.",
+        "The patio's location is both the selling point and the catch. You are watching Main Street all through your meal, which is lovely; you are also in the direct path of the parade crowd, and the tables closest to the street get roped into the viewing area at parade time, which cast members will explain when it happens."
+      ],
+      "signatureItems": [
+        "Loaded baked potato soup",
+        "Mickey waffles",
+        "Fried chicken sandwich",
+        "Meatloaf",
+        "Cheese and macaroni"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "picky-eaters",
+        "air-conditioned-break",
+        "view"
+      ],
+      "tips": [
+        "Book breakfast. It is the best meal here, the easiest reservation to land, and it gets you sitting on Main Street before the park is unpleasant.",
+        "Ask for a patio table on the hub side rather than the street side — you keep the view and you are outside the parade rope line.",
+        "Walk-ups are possible at odd hours, particularly around 2 to 3 PM, and the podium keeps a list.",
+        "The soup in a bread bowl is the item people come back for, and it is a genuinely large portion for the price."
+      ],
+      "verdict": "The most pleasant sit-down meal on Main Street and the only one where the food justifies the seat. Breakfast is the version to book; dinner is fine but you are mostly paying for the patio.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation for Carnation Cafe?",
+          "a": "It helps considerably, particularly for breakfast and for any table around parade time. Reservations open sixty days out. Walk-ups do get seated in the mid-afternoon lull, so it is worth asking at the podium if you did not plan ahead."
+        },
+        {
+          "q": "Can you watch the parade from Carnation Cafe?",
+          "a": "Partially, and it is not a strategy worth building a meal around. The tables nearest the street fall inside the parade viewing area and cast members will manage the space when the route ropes off. You will see the parade go past, but not from a seat you chose."
+        },
+        {
+          "q": "Is there anything for vegetarians?",
+          "a": "Yes — there are vegetarian mains on the standard menu and the kitchen handles allergy requests carefully. Tell the server at the start rather than at ordering; a chef will usually come to the table for anything complicated."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "plaza-inn",
+      "name": "Plaza Inn",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "American, fried chicken",
+      "priceTier": "$$",
+      "priceNote": "Roughly $20 to $30 per adult for a platter; the character breakfast is a separate fixed price and considerably more",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": true,
+      "standalonePage": true,
+      "summary": "The best fried chicken at Disneyland Resort, in a Victorian dining room at the end of Main Street, plus a character breakfast.",
+      "description": [
+        "Plaza Inn sits at the east side of the hub where Main Street meets Tomorrowland, in a red-and-gold Victorian room that is genuinely one of the prettiest interiors in the park. It runs as a counter-service restaurant for lunch and dinner and hosts a reservation-based character breakfast in the morning with Minnie Mouse and friends.",
+        "The fried chicken is the reason to come. It is served as a platter with mashed potatoes, gravy, and a vegetable, it has been on this menu for decades, and it is not a token theme-park version — it is properly fried, properly seasoned, and among the two or three best things you can eat in Disneyland Park.",
+        "The room is also a genuinely good place to eat during a parade or the fireworks. It is indoors, air conditioned, has real chairs, and while everyone else is standing on pavement outside, you are eating chicken. That combination is why locals treat this as a scheduling tool rather than just a restaurant."
+      ],
+      "signatureItems": [
+        "Fried chicken platter",
+        "Pot roast",
+        "Mickey waffles at the character breakfast",
+        "Seasonal fruit plate",
+        "Kids chicken tenders"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "air-conditioned-break",
+        "picky-eaters",
+        "groups"
+      ],
+      "tips": [
+        "Order the fried chicken. Everything else on the menu is fine; the chicken is the reason the restaurant has a reputation.",
+        "Eat here during the parade or the fireworks. The dining room empties out, and it is one of the few genuinely comfortable places to be during a crowd surge.",
+        "The character breakfast needs a reservation and is a separate operation from the counter service — book it sixty days out if it matters to your party.",
+        "The patio on the Tomorrowland side has more shade than it looks and is quieter than the indoor room at lunchtime.",
+        "There is no mobile order here, so a long counter line at 12:30 is a real line. Eat at 11:15 or 2:00."
+      ],
+      "verdict": "The best counter-service meal at Disneyland and the only one where the signature dish is genuinely worth planning around. Skip the character breakfast unless meeting characters is the point; the chicken at lunch is the actual draw.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation for Plaza Inn?",
+          "a": "Only for the character breakfast, which is reservation-based and books up. Lunch and dinner are walk-up counter service with no reservation and no mobile ordering, which means the line at peak times is real."
+        },
+        {
+          "q": "Which characters appear at the Plaza Inn breakfast?",
+          "a": "Minnie Mouse hosts, joined by a rotating group of Disney characters who circulate through the room. The specific lineup varies by day, so if a particular character matters to your child, ask when you check in rather than assuming."
+        },
+        {
+          "q": "Is the fried chicken actually good?",
+          "a": "Yes, unusually so for a theme park. It is a proper bone-in fried chicken platter with mashed potatoes and gravy, and it has been the restaurant's signature for decades. It is the item most Disneyland regulars name when asked for the best counter-service food in the park."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jolly-holiday-bakery-cafe",
+      "name": "Jolly Holiday Bakery Cafe",
+      "land": "main-street-usa",
+      "service": "bakery",
+      "cuisine": "Bakery, sandwiches, coffee",
+      "priceTier": "$",
+      "priceNote": "Roughly $6 to $15 per person; pastries at the low end, sandwiches and soup at the high end",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best coffee and pastry stop in the park, at the top of Main Street with a clear view of the castle.",
+      "description": [
+        "Jolly Holiday sits at the end of Main Street facing the hub, with a large covered patio and a small indoor counter area. It handles espresso drinks, a rotating pastry case, and a short menu of sandwiches and soups, and it takes mobile orders, which is the single most useful thing about it.",
+        "The pastry case is where the value is. The Matterhorn Macaroon — a coconut macaroon dipped in chocolate and shaped like the mountain — is a genuine bargain at a few dollars and is the item locals grab on the way in. The grilled cheese with tomato basil soup is a legitimately good lunch for the price.",
+        "It also functions as the park's best morning staging point. Mobile order a coffee before you leave the hotel, collect it at the top of Main Street, and you are already positioned at the hub when the rope drops rather than fighting the crowd from Town Square."
+      ],
+      "signatureItems": [
+        "Matterhorn Macaroon",
+        "Grilled cheese with tomato basil soup",
+        "Espresso drinks",
+        "Seasonal cupcakes",
+        "Croissants"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families",
+        "vegetarian"
+      ],
+      "tips": [
+        "Mobile order before you walk in the gate. The line here at 9 AM is one of the worst on Main Street and mobile order bypasses it entirely.",
+        "The Matterhorn Macaroon is the best few dollars you can spend on Main Street and most first-timers walk past it.",
+        "The patio has the clearest view of Sleeping Beauty Castle of any seating in the park — worth ten minutes in the morning light.",
+        "It stays open late and the line after the fireworks is much shorter than the ice cream parlor down the street.",
+        "There is a vegan pastry option most days, which is not true of the carts."
+      ],
+      "verdict": "The most useful food location in the park for the money, and the macaroon is the single best cheap snack at Disneyland. Coffee is good rather than great, but it is real espresso and it beats every other option inside the gates.",
+      "faqs": [
+        {
+          "q": "Does Jolly Holiday take mobile orders?",
+          "a": "Yes, through the Disneyland app, and it is the main reason to use this location over the other Main Street options. You can place the order before you enter the park and collect it at a dedicated window."
+        },
+        {
+          "q": "What is the Matterhorn Macaroon?",
+          "a": "A coconut macaroon shaped like a small mountain and dipped in chocolate, sold for a few dollars in the pastry case. It is one of the longest-standing snack items at Disneyland and remains excellent value against almost everything else in the park."
+        },
+        {
+          "q": "Is there anywhere to sit?",
+          "a": "Yes — a large covered patio at the top of Main Street plus limited indoor seating. The patio is one of the better places in the park to sit in shade with a clear view of the castle, and it is rarely completely full outside of peak lunch."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "refreshment-corner",
+      "name": "Refreshment Corner",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "Hot dogs and chili",
+      "priceTier": "$",
+      "priceNote": "Roughly $10 to $15 per person",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The red-and-white corner stand at the top of Main Street selling chili dogs, with a ragtime pianist most afternoons.",
+      "description": [
+        "Refreshment Corner, known to locals as Coke Corner, occupies the corner where Main Street meets the hub. The menu is short: hot dogs, chili dogs, chili in a bread bowl, and drinks. There is outdoor seating under umbrellas and no indoor space.",
+        "The reason to stop is the piano. A ragtime pianist plays a stand-up piano on the patio through much of the afternoon and evening, taking requests and working the crowd, and it is one of the best pieces of free entertainment in the park. Sitting with a chili dog while someone plays ragtime is a specific Disneyland pleasure that has nothing to do with the food.",
+        "The food itself is fine. It is a hot dog. The chili is better than it needs to be and the bread bowl version is a reasonable cheap meal, but nobody should walk across the park for it."
+      ],
+      "signatureItems": [
+        "Chili dog",
+        "Chili in a bread bowl",
+        "All-beef hot dog",
+        "Fountain drinks"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "late-night"
+      ],
+      "tips": [
+        "Check the app entertainment schedule for the pianist. The food is incidental; the piano set is the actual attraction.",
+        "It stays open late and the line after the fireworks moves faster than anywhere else on Main Street.",
+        "Mobile order works here and saves the counter line entirely at lunch.",
+        "The umbrella tables on the hub side get shade earlier in the afternoon than the Main Street side."
+      ],
+      "verdict": "Ordinary hot dogs in an excellent spot. Go for the ragtime piano and treat the chili dog as the price of admission — as a meal destination it is skippable.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "gibson-girl-ice-cream-parlor",
+      "name": "Gibson Girl Ice Cream Parlor",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "Hand-scooped ice cream",
+      "priceTier": "$",
+      "priceNote": "Roughly $6 to $13 depending on scoops and sundae",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Hand-scooped ice cream and sundaes on Main Street, with a line that is always longer than it should be.",
+      "description": [
+        "Gibson Girl is the hand-scooped ice cream counter on the west side of Main Street, doing cones, cups, sundaes, and the occasional specialty. The interior is a narrow parlor with a decorated ceiling worth looking up at while you queue, which you will be doing for a while.",
+        "The ice cream is good, the portions are generous, and the line is consistently one of the slowest on Main Street because every order is scooped and built to order. There is no mobile ordering and no seating, so you take your cone out onto the street.",
+        "The pragmatic alternative is a Mickey Premium Bar from any cart, which costs less, takes no time, and is the same industrial ice cream bar sold across both resorts. The parlor is worth the wait only if you specifically want hand-scooped."
+      ],
+      "signatureItems": [
+        "Hand-scooped sundae",
+        "Waffle cone",
+        "Root beer float",
+        "Brownie sundae"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget"
+      ],
+      "tips": [
+        "The queue is slow because everything is scooped to order. If you are in a hurry, a cart bar is a better use of ten minutes.",
+        "Look up at the ceiling while you wait — the parlor's interior detail is more interesting than most of Main Street's shops.",
+        "There is no seating. Plan to eat it walking or find a bench in Town Square.",
+        "Late evening is the worst possible time; the post-fireworks line here regularly runs twenty-five minutes."
+      ],
+      "verdict": "Good ice cream, bad line. Worth it in the morning when there is nobody there, hard to justify at any other time given the cart bars sell for less with no wait.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "little-red-wagon",
+      "name": "Little Red Wagon",
+      "land": "main-street-usa",
+      "service": "snack-cart",
+      "cuisine": "Corn dogs",
+      "priceTier": "$",
+      "priceNote": "Around $11 to $15 for a hand-dipped corn dog with a side",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A tiny red cart on Main Street selling the hand-dipped corn dog that Disneyland regulars queue thirty minutes for.",
+      "description": [
+        "The Little Red Wagon is a converted delivery truck parked off Main Street near the Carnation Cafe, and it sells one thing: a hand-dipped corn dog, battered to order and fried in front of you, served with a pickle spear. It is arguably the most famous single item at Disneyland Resort.",
+        "The corn dog deserves the reputation. The batter is thick, sweet, and crisp, the sausage inside is substantial, and eating one fresh out of the fryer is a genuinely different experience from any packaged corn dog you have had. It is also enormous — one is a meal for most adults.",
+        "The catch is the line, which regularly runs twenty to forty minutes for a single cart with one fryer. The corn dogs at Stage Door Cafe in Frontierland come out of the same recipe, cost about the same, and typically have a fraction of the wait, which is the most useful thing anyone can tell you about Main Street dining."
+      ],
+      "signatureItems": [
+        "Hand-dipped corn dog",
+        "Sliced apples",
+        "Pickle spear"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "big-appetites",
+        "budget"
+      ],
+      "tips": [
+        "Stage Door Cafe in Frontierland sells the same style of hand-dipped corn dog with a far shorter line. Use it unless standing on Main Street is part of the appeal.",
+        "The cart operates limited hours and closes when it sells out, which happens earlier than you would expect on busy days.",
+        "One corn dog is a full meal for most adults. Two people can genuinely share one plus a side.",
+        "The line forms in an unshaded spot on the street. In summer, this is a rough thirty minutes."
+      ],
+      "verdict": "The corn dog is legitimately excellent and worth eating once. The thirty-minute line for it is not, when Stage Door Cafe in Frontierland serves the same thing to a much shorter queue.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "market-house",
+      "name": "The Market House",
+      "land": "main-street-usa",
+      "service": "quick-service",
+      "cuisine": "Coffee and packaged snacks",
+      "priceTier": "$",
+      "priceNote": "Roughly $5 to $10 for coffee drinks and pastries",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Starbucks on Main Street, dressed as a period general store with fireplace seating almost nobody uses.",
+      "description": [
+        "The Market House operates as a Starbucks inside a restored general-store interior on Main Street, with a full standard menu plus a few location-specific items. The theming is careful — shelves of period goods, a party-line telephone you can listen to, and a working fireplace at the back.",
+        "That back room is the point. There are armchairs and a fireplace in a quiet corner that most guests never reach because they stop at the counter and leave. It is one of the few places in the park with genuinely comfortable indoor seating and no queue attached to it.",
+        "The coffee is Starbucks coffee at Starbucks prices, which is to say better than most theme-park coffee and priced accordingly. Mobile ordering works through the Disneyland app rather than the Starbucks app, which trips people up."
+      ],
+      "signatureItems": [
+        "Espresso drinks",
+        "Cold brew",
+        "Packaged pastries",
+        "Bottled beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "solo",
+        "air-conditioned-break",
+        "budget"
+      ],
+      "tips": [
+        "Go to the back room. There are armchairs by a fireplace that most guests never find, and it is the quietest indoor seating on Main Street.",
+        "Mobile order through the Disneyland app, not the Starbucks app — the Starbucks app does not work at this location.",
+        "Pick up the old telephone receivers on the wall; there is a party-line conversation playing on them, and it is a genuinely charming twenty seconds.",
+        "The morning line here is long and Jolly Holiday at the top of the street usually moves faster for the same drink."
+      ],
+      "verdict": "Starbucks with better wallpaper. Worth it for the back room seating rather than the coffee, and Jolly Holiday is usually the faster line for the same money.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bengal-barbecue",
+      "name": "Bengal Barbecue",
+      "land": "adventureland",
+      "service": "quick-service",
+      "cuisine": "Grilled skewers",
+      "priceTier": "$",
+      "priceNote": "Skewers roughly $6 to $8 each; two or three make a meal",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Grilled skewers from a walk-up window in Adventureland — the most efficient real food in the park.",
+      "description": [
+        "Bengal Barbecue is a narrow counter across from the Jungle Cruise selling grilled skewers: beef with a sweet glaze, bacon-wrapped asparagus, chicken, and a vegetable skewer, plus a cheese-and-garlic breadstick. There is no indoor seating and only a handful of outdoor tables, so most people eat standing or walking.",
+        "It is the best-value real food at Disneyland for anyone who does not want a full meal. Two skewers and a breadstick costs less than a single counter-service platter elsewhere, comes out fast, and can be eaten while walking to your next queue.",
+        "It is also the most dietary-flexible spot in this half of the park. The vegetable skewer is vegan, several items are gluten-free by default, and the counter staff are used to fielding questions rather than sending you to a chef."
+      ],
+      "signatureItems": [
+        "Banyan Beef Skewer",
+        "Bacon-wrapped asparagus",
+        "Outback Vegetable Skewer",
+        "Tiger Tail breadstick",
+        "Safari Skewer"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "solo",
+        "groups"
+      ],
+      "tips": [
+        "Mobile order. The physical line at this window is one of the slowest per person in Adventureland because every skewer is grilled to order.",
+        "Two skewers plus a breadstick is a full lunch for most adults, at roughly half the cost of a counter-service platter.",
+        "The bacon-wrapped asparagus is the item regulars order and first-timers walk past. Get one even if you get nothing else.",
+        "There is almost nowhere to sit. Plan to eat standing, or take it to the Tiki Room garden or the seating near the Tropical Hideaway.",
+        "The vegetable skewer is vegan as served, which makes this one of the easiest vegan options in the park."
+      ],
+      "verdict": "The best value in Disneyland Park and the right answer when you want real food without losing forty minutes. The beef skewer is good; the bacon-wrapped asparagus is the one to actually order.",
+      "faqs": [
+        {
+          "q": "Is there seating at Bengal Barbecue?",
+          "a": "Barely. There are a few outdoor tables nearby and nothing indoors. Most people eat standing at the rail or walking, which is part of why the location works as a fast option — plan to carry it rather than sit."
+        },
+        {
+          "q": "Are the skewers a full meal?",
+          "a": "Two skewers plus a breadstick makes a reasonable lunch for most adults. Individually they are snack-sized. The pricing works out well below the counter-service platters elsewhere in the park for a similar amount of food."
+        },
+        {
+          "q": "Are there vegan options?",
+          "a": "Yes. The vegetable skewer is vegan as prepared, and it is one of the more reliable plant-based options on this side of Disneyland. Ask the cast member at the window to confirm current preparation if it matters."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-tropical-hideaway",
+      "name": "The Tropical Hideaway",
+      "land": "adventureland",
+      "service": "quick-service",
+      "cuisine": "Asian-inspired snacks and Dole Whip",
+      "priceTier": "$",
+      "priceNote": "Roughly $7 to $14 per person",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Waterside seating on the Jungle Cruise river with the shortest Dole Whip line in Adventureland and more flavors than the Tiki window.",
+      "description": [
+        "The Tropical Hideaway opened in 2018 in the space between the Jungle Cruise and the Enchanted Tiki Room, and it is the best-designed small food location at Disneyland. There is a covered counter, a scattering of tables on a deck built out over the Jungle Cruise river, and an animatronic bird host who talks to the queue.",
+        "The menu covers steamed bao, a few snack items, and — critically — Dole Whip in more flavors and combinations than the Tiki Juice Bar window sells, including swirls and floats. The Tiki window is the famous one and always has the longer line; this is the same product with more options and half the wait.",
+        "The deck seating is the real find. You are sitting on the water watching Jungle Cruise boats go past, in shade, in one of the quietest corners of a very busy land. Almost nobody plans to eat here, which is exactly why it works."
+      ],
+      "signatureItems": [
+        "Dole Whip swirl",
+        "Dole Whip float",
+        "Steamed bao",
+        "Lumpia",
+        "Specialty beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "vegetarian",
+        "budget",
+        "view"
+      ],
+      "tips": [
+        "This is the shorter Dole Whip line. The Tiki Juice Bar window round the corner is the famous one and routinely runs three times the wait for a similar product.",
+        "Take a table on the deck over the river. It is shaded, it is quiet, and Jungle Cruise skippers will occasionally work you into their jokes as they pass.",
+        "Mobile order works and cuts the counter line entirely, which matters here more than at most snack stands.",
+        "The bao are a better lunch than they look and are among the few hot savory options in Adventureland besides Bengal Barbecue.",
+        "Talk to the bird. There is an animatronic host near the queue that interacts with guests, and most people walk past without noticing."
+      ],
+      "verdict": "The best place to sit down in Adventureland and the smarter Dole Whip line. The food is solid rather than remarkable; the location and the shorter wait are what make it worth the stop.",
+      "faqs": [
+        {
+          "q": "Is the Dole Whip here the same as at the Tiki Juice Bar?",
+          "a": "It is the same soft-serve product, with more flavor and combination options here — swirls, floats, and rotating flavors that the Tiki window does not always carry. The line is usually much shorter, which makes this the better choice on a busy afternoon."
+        },
+        {
+          "q": "Is there seating?",
+          "a": "Yes, and it is the main reason to come. There are tables on a shaded deck built out over the Jungle Cruise waterway, which is one of the calmest places to sit in Adventureland. It fills at peak lunch but turns over quickly."
+        },
+        {
+          "q": "Can you get vegan food here?",
+          "a": "Yes. Dole Whip is dairy-free and vegan, and there are usually plant-based options among the bao and snacks. Confirm with the cast member at the window, since the savory menu rotates more than the frozen one does."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tiki-juice-bar",
+      "name": "Tiki Juice Bar",
+      "land": "adventureland",
+      "service": "snack-cart",
+      "cuisine": "Dole Whip and pineapple",
+      "priceTier": "$",
+      "priceNote": "Dole Whip cup $6.49, float $7.29",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The original Dole Whip window in the Enchanted Tiki Room garden — the famous one, and therefore the slow one.",
+      "description": [
+        "The Tiki Juice Bar is the walk-up window in the garden outside Walt Disney's Enchanted Tiki Room, and it is where the Dole Whip legend was built. It sells the pineapple soft-serve in a cup, as a float with pineapple juice, and as plain juice, and it has done so for decades.",
+        "The product is dairy-free, vegan, and gluten-free, which makes it one of the few snacks at Disneyland that almost everyone in a mixed group can eat. It also tastes better in the Southern California heat than it has any right to.",
+        "The problem is the queue, which is a single window serving the most searched-for snack at the resort. Thirty minutes is normal in the afternoon. The Tropical Hideaway ninety seconds away sells the same soft-serve with more options and a much shorter line, and the only reason to stand here instead is that you want the photograph in the Tiki garden."
+      ],
+      "signatureItems": [
+        "Dole Whip cup",
+        "Dole Whip float",
+        "Pineapple juice",
+        "Pineapple spear"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "families"
+      ],
+      "tips": [
+        "The Tropical Hideaway around the corner sells the same soft-serve with more flavors and a far shorter line. Use it unless you specifically want the Tiki garden.",
+        "Take your Dole Whip into the Enchanted Tiki Room. Food is allowed in the theatre and the combination of a cold treat and an air-conditioned show is the actual move.",
+        "Mornings before 11 AM are the only reliably fast window here.",
+        "The garden benches are shaded and are a decent place to regroup even if you are not buying anything."
+      ],
+      "verdict": "Excellent product, badly overloaded window. The Dole Whip is worth eating; standing thirty minutes for it when an identical one is ninety seconds away is not.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "blue-bayou-restaurant",
+      "name": "Blue Bayou Restaurant",
+      "land": "new-orleans-square",
+      "service": "table-service",
+      "cuisine": "Creole-influenced American",
+      "priceTier": "$$$$",
+      "priceNote": "Roughly $45 to $75 per adult for a main course and a drink; lunch runs lower than dinner",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Dinner inside the opening scene of Pirates of the Caribbean, in permanent artificial dusk with fireflies and a moonlit bayou.",
+      "description": [
+        "The Blue Bayou occupies the room that Pirates of the Caribbean boats drift past at the start of the ride. You eat under a painted night sky with fireflies flickering in the trees, crickets and frogs on the soundtrack, and boats sliding by twenty feet away all through your meal. It has been operating since the ride opened in 1967.",
+        "The menu is Creole-influenced — jambalaya, gumbo, a well-known Monte Cristo sandwich at lunch, and a rotating set of seafood and beef mains at dinner. Prices are the highest inside Disneyland Park, and dinner mains regularly run past fifty dollars before a drink.",
+        "The honest reckoning: the food is good, not extraordinary, and you are paying a substantial premium for the room. But the room is unlike any other restaurant anywhere — a permanent, convincing, cool blue dusk in the middle of a Southern California afternoon — and for a lot of people that is worth the money exactly once."
+      ],
+      "signatureItems": [
+        "Monte Cristo sandwich",
+        "Jambalaya",
+        "Gumbo",
+        "Surf and turf",
+        "Mint julep"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "date-night",
+        "splurge",
+        "air-conditioned-break",
+        "view"
+      ],
+      "tips": [
+        "Book at sixty days out, at the moment reservations open. Waterside tables are requested by everyone and assigned by the host, not by your booking.",
+        "Lunch is meaningfully cheaper than dinner for the same room, and the Monte Cristo is a lunch item. That is the value play here.",
+        "Ask for a waterside table when you check in rather than when you book. It is not guaranteed and asking politely at the podium is the only lever you have.",
+        "The room is dark enough that photos need a steady hand and no flash. Sit near the water if photos matter.",
+        "There is no dress code, but this is the one room in Disneyland where people do dress up slightly, and it does not feel out of place."
+      ],
+      "verdict": "You are buying the room, not the meal, and the room is worth buying once. Book lunch rather than dinner and order the Monte Cristo — you get the same setting for meaningfully less money.",
+      "faqs": [
+        {
+          "q": "How far in advance should you book the Blue Bayou?",
+          "a": "Sixty days, at the moment the window opens. It is the hardest reservation inside Disneyland Park and waterside tables in particular go immediately. Cancellations do appear, so keep checking the app in the days before your visit."
+        },
+        {
+          "q": "Can you get a table by the water?",
+          "a": "Sometimes. Table assignment is made by the host at check-in, not by your reservation, so the only thing you can do is ask politely when you arrive and be willing to wait a few extra minutes. It is not something you can book."
+        },
+        {
+          "q": "Is the Blue Bayou worth the price?",
+          "a": "For the setting, yes, once. The food is good rather than exceptional and dinner is expensive by any standard. Booking lunch instead gets you the identical room, the Monte Cristo, and a noticeably smaller bill."
+        },
+        {
+          "q": "Do you need to ride Pirates of the Caribbean to eat here?",
+          "a": "No. The restaurant has its own entrance in New Orleans Square and no ride is involved. The boats pass alongside the dining room, so you see the attraction from the inside without queuing for it."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cafe-orleans",
+      "name": "Cafe Orleans",
+      "land": "new-orleans-square",
+      "service": "table-service",
+      "cuisine": "Creole-influenced American",
+      "priceTier": "$$$",
+      "priceNote": "Roughly $30 to $50 per adult for a main course",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Blue Bayou's cheaper, easier neighbor, with the same Monte Cristo and a patio on the Rivers of America.",
+      "description": [
+        "Cafe Orleans sits a few doors from the Blue Bayou with a patio facing the Rivers of America and a smaller indoor room behind it. The menu overlaps considerably with its more famous neighbor — the Monte Cristo sandwich is the headline item at both — at a noticeably lower price and with a reservation you can actually get.",
+        "The Monte Cristo here is the version most people should be ordering: a deep-fried ham, turkey, and cheese sandwich dusted with sugar and served with berry preserves, which sounds absurd and works completely. It is enormous, easily shared, and the single most-discussed dish at Disneyland after the corn dog.",
+        "The pommes frites, tossed with garlic and parmesan and served with a dipping sauce, are the other reason regulars book here. Order them for the table regardless of what else you get."
+      ],
+      "signatureItems": [
+        "Monte Cristo sandwich",
+        "Pommes frites",
+        "Gumbo",
+        "Ratatouille-style vegetarian entree",
+        "Mickey-shaped beignets"
+      ],
+      "goodFor": [
+        "families",
+        "date-night",
+        "air-conditioned-break",
+        "view",
+        "vegetarian"
+      ],
+      "tips": [
+        "Order the Monte Cristo and split it. It is a large sandwich and two adults can genuinely share one plus a side.",
+        "The pommes frites are the item locals order and first-timers skip. Get an order for the table.",
+        "Request a patio table facing the river. It is the better seating and it is a request the host can often accommodate at check-in.",
+        "This is the practical alternative to the Blue Bayou — similar menu, similar neighborhood, meaningfully lower bill, and a reservation you can actually land.",
+        "Beignets are on the menu here as a dessert, which is a calmer way to eat them than in the Mint Julep Bar queue."
+      ],
+      "verdict": "The best value table-service meal at Disneyland and the smarter booking than the Blue Bayou unless the room is the point. The Monte Cristo and the pommes frites are both genuinely worth ordering.",
+      "faqs": [
+        {
+          "q": "Is the Monte Cristo the same as the one at the Blue Bayou?",
+          "a": "It is the same dish in substance — a deep-fried ham, turkey, and cheese sandwich with berry preserves — served at both restaurants, with presentation and price differing. Cafe Orleans is the cheaper place to eat it and the easier reservation to get."
+        },
+        {
+          "q": "Can you get a table on the patio?",
+          "a": "Often, if you ask at check-in. The patio faces the Rivers of America and is shaded for much of the day, which makes it better than the indoor room in most weather. Table assignment happens at the podium rather than at booking."
+        },
+        {
+          "q": "Do you need a reservation?",
+          "a": "It is strongly recommended, especially at lunch, but Cafe Orleans is far easier to book than the Blue Bayou and does take walk-ups during off-peak hours. Check the app the morning of your visit if you did not plan ahead."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tianas-palace",
+      "name": "Tiana's Palace",
+      "land": "new-orleans-square",
+      "service": "quick-service",
+      "cuisine": "Southern and Creole",
+      "priceTier": "$$",
+      "priceNote": "Roughly $18 to $28 per adult for a main plate",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Counter-service Southern cooking in New Orleans Square with a courtyard, a live-music soundtrack, and better food than it needs to have.",
+      "description": [
+        "Tiana's Palace opened in 2023 in the New Orleans Square building that had housed the French Market Restaurant for decades. It is counter service with a substantial courtyard, an indoor dining room, and a jazz soundtrack that changes through the day.",
+        "The food is a genuine step up from typical counter service: gumbo, jambalaya, a roasted chicken plate, muffuletta-style sandwiches, and a rotating vegetarian option, plated properly rather than dumped in a basket. Portions are large and prices sit below the table-service options thirty feet away.",
+        "It also handles dietary restrictions unusually well for a counter location, with clearly marked plant-based and gluten-free options and staff who know the answers. Combined with the courtyard seating, it is the best non-reservation meal in this part of the park."
+      ],
+      "signatureItems": [
+        "Gumbo",
+        "Jambalaya",
+        "Roasted chicken plate",
+        "Muffuletta-style sandwich",
+        "Beignets"
+      ],
+      "goodFor": [
+        "families",
+        "budget",
+        "vegetarian",
+        "groups",
+        "quick-bite"
+      ],
+      "tips": [
+        "Mobile order and then find a courtyard table before you collect. Seating is the bottleneck here, not the counter.",
+        "The courtyard is shaded in the afternoon and is one of the better places to eat outdoors in the park.",
+        "Portions are large enough that two children can split one adult plate comfortably.",
+        "It gets crushed immediately after Fantasmic! lets out. Eat before the show rather than after.",
+        "This is the strongest counter-service option for anyone eating plant-based on this side of the park."
+      ],
+      "verdict": "The best counter-service food at Disneyland after the Plaza Inn fried chicken, and the better choice than either New Orleans Square table-service restaurant if you are not paying for atmosphere. The gumbo is the thing to order.",
+      "faqs": [
+        {
+          "q": "Is Tiana's Palace table service?",
+          "a": "No, it is counter service with seating. You order at a register or through mobile order in the app and collect your food, then find a table in the courtyard or the indoor room. There are no reservations and none are needed."
+        },
+        {
+          "q": "What happened to the French Market Restaurant?",
+          "a": "It closed and the building reopened as Tiana's Palace in 2023. The location, the courtyard, and the general shape of the operation carried over; the menu, decor, and theme are new."
+        },
+        {
+          "q": "Are there good vegan options?",
+          "a": "Yes, unusually good for counter service. There is a marked plant-based main on the menu and the staff are well briefed on preparation. This is one of the easier places in Disneyland Park to eat a full plant-based meal rather than assembling sides."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mint-julep-bar",
+      "name": "Mint Julep Bar",
+      "land": "new-orleans-square",
+      "service": "snack-cart",
+      "cuisine": "Beignets and specialty drinks",
+      "priceTier": "$",
+      "priceNote": "Beignets around $7 to $9 for three; mint julep around $6",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A walk-up window by the railroad station selling Mickey-shaped beignets that come out of the fryer to order.",
+      "description": [
+        "The Mint Julep Bar is a small window tucked beside the New Orleans Square railroad station, easy to miss and impossible to miss the smell of. It sells Mickey-shaped beignets, dusted heavily with powdered sugar, and a non-alcoholic mint julep that is sweeter and more floral than the cocktail it borrows its name from.",
+        "The beignets are the reason to stand here. They are fried to order, arrive genuinely hot, and are among the best things you can eat at Disneyland for under ten dollars. Three to an order, shareable, and they do not travel — eat them within about five minutes or you have wasted the money.",
+        "The mint julep itself is a divisive product. It is non-alcoholic, extremely sweet, and tastes strongly of mint syrup, and people either order it every visit or try it once and never again."
+      ],
+      "signatureItems": [
+        "Mickey-shaped beignets",
+        "Mint julep",
+        "Specialty coffee",
+        "Fritters"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "vegetarian"
+      ],
+      "tips": [
+        "Eat the beignets immediately. They are excellent hot and mediocre five minutes later, and there is no way around that.",
+        "Mobile order works here and cuts a line that regularly runs twenty minutes in the afternoon.",
+        "The tables along the water by the railroad station are the right place to eat them, and they are shaded most of the day.",
+        "Ask for extra powdered sugar on the side if you like them heavily dusted; they will do it.",
+        "The mint julep is non-alcoholic and very sweet. Try one between two people before committing to two."
+      ],
+      "verdict": "The beignets are one of the three best things to eat at Disneyland and worth going out of your way for. The mint julep is sugar water with mint in it — order one for the group to taste, not one each.",
+      "faqs": [
+        {
+          "q": "Is the mint julep alcoholic?",
+          "a": "No. Disneyland's mint julep is a non-alcoholic mint-and-lemon drink that shares only the name with the bourbon cocktail. It is very sweet, and a lot of first-timers find it far sweeter than they expected."
+        },
+        {
+          "q": "Are the beignets worth the line?",
+          "a": "Yes, if you eat them straight away. They are fried to order and arrive hot, which is the entire difference between excellent and forgettable. Mobile ordering through the app removes most of the wait, so use that."
+        },
+        {
+          "q": "Where can you sit and eat them?",
+          "a": "There are tables along the waterfront by the New Orleans Square railroad station, shaded for most of the day and rarely full. That is the right spot — the window itself has no seating and the walkway there is a bottleneck."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "royal-street-veranda",
+      "name": "Royal Street Veranda",
+      "land": "new-orleans-square",
+      "service": "quick-service",
+      "cuisine": "Soups in bread bowls",
+      "priceTier": "$$",
+      "priceNote": "Bread bowls roughly $14 to $16",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small walk-up window on the corner by Pirates selling gumbo and clam chowder in sourdough bread bowls.",
+      "description": [
+        "Royal Street Veranda is a counter window on the corner of New Orleans Square nearest the Pirates of the Caribbean entrance, serving soups in sourdough bread bowls, fritters, and drinks. It has been there for decades and most guests walk straight past it on the way to the ride.",
+        "The gumbo bread bowl is a proper meal for the price and is one of the few genuinely warming things in the park on a cool evening. The clam chowder version is competent rather than notable, and Harbour Galley in Critter Country does the same thing.",
+        "There is no dedicated seating. The waterfront tables near the Mint Julep Bar are the nearest option and they fill fast around lunchtime."
+      ],
+      "signatureItems": [
+        "Gumbo bread bowl",
+        "Clam chowder bread bowl",
+        "Fritters",
+        "Specialty coffee"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "late-night"
+      ],
+      "tips": [
+        "The gumbo is the better of the two bread bowls here. The clam chowder is the same product Harbour Galley sells in Critter Country.",
+        "Mobile order and collect on your way to Pirates — the window is directly on the path and the timing works well.",
+        "There is no seating attached. Grab a waterfront table near the railroad station or plan to eat standing.",
+        "It stays open reasonably late and is a decent warm option after an evening show when everything on Main Street has a queue."
+      ],
+      "verdict": "A solid, cheap, warm meal that most people miss entirely. The gumbo bread bowl is the pick; skip the chowder unless you are already standing there.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "club-33",
+      "name": "Club 33",
+      "land": "new-orleans-square",
+      "service": "table-service",
+      "cuisine": "Contemporary American",
+      "priceTier": "$$$$",
+      "priceNote": "Membership-only; initiation and annual dues run into the tens of thousands of dollars and are not published",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The private members-only club above New Orleans Square. You almost certainly cannot get in, and that is the whole answer.",
+      "description": [
+        "Club 33 is a private club occupying the upper floor of a New Orleans Square building, with an unmarked door at 33 Royal Street. It opened in 1967, was the only place in Disneyland Park to serve alcohol for over fifty years, and operates on a membership model with a waiting list, an initiation fee, and annual dues, none of which Disney publishes.",
+        "Access requires membership or an invitation from a member. There is no reservation system for the public, no lottery, and no way to buy a one-off meal. People do get in as a member's guest; that is the only realistic route, and it is not one you can plan.",
+        "It is listed here because it is one of the most-searched things at Disneyland and because the honest answer saves people a lot of wasted effort. The door is worth looking at — there is a small brass 33 plaque on Royal Street — and that is the extent of what a normal visitor will experience."
+      ],
+      "signatureItems": [
+        "Seasonal tasting menu",
+        "Wine list",
+        "Cocktails"
+      ],
+      "goodFor": [
+        "special-occasion",
+        "splurge",
+        "date-night"
+      ],
+      "tips": [
+        "You cannot book it. There is no public reservation route, no waitlist you can join at the door, and cast members cannot help.",
+        "The entrance is the unmarked door with a small brass 33 on Royal Street, near the Blue Bayou. Look for it, take the photo, move on.",
+        "If you are ever invited as a member's guest, there is a dress code and it is enforced.",
+        "For an actual special-occasion meal you can book, the Blue Bayou is the one to aim at."
+      ],
+      "verdict": "Genuinely inaccessible to almost everyone, and the search results implying otherwise are wasting your time. Look at the door, then go book the Blue Bayou instead.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "rancho-del-zocalo-restaurante",
+      "name": "Rancho del Zocalo Restaurante",
+      "land": "frontierland",
+      "service": "quick-service",
+      "cuisine": "Mexican",
+      "priceTier": "$$",
+      "priceNote": "Roughly $17 to $26 per adult for a plate",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A large shaded courtyard in Frontierland serving the most substantial counter-service plates in the park.",
+      "description": [
+        "Rancho del Zocalo sits between Frontierland and Adventureland with a big tiled courtyard shaded by mature trees and string lighting. The menu covers enchiladas, carne asada, burritos, a citrus-marinated chicken plate, and rice and beans, and portions are among the largest at any counter service in Disneyland.",
+        "The seating is the reason regulars come here. There are more tables than almost anywhere else in the park, they are genuinely shaded, and there is a fountain and enough space between tables that a family with a stroller can actually sit down without blocking a walkway. On a crowded Saturday at 1 PM, when every other counter-service courtyard is full, this one usually is not.",
+        "The food is competent Americanized Mexican rather than anything you would seek out at home, but it is well-portioned, reliably hot, and the vegetarian and vegan options are properly built dishes rather than an afterthought."
+      ],
+      "signatureItems": [
+        "Chicken enchiladas",
+        "Carne asada plate",
+        "Citrus-marinated chicken",
+        "Burrito",
+        "Rice and beans"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "groups",
+        "budget",
+        "vegetarian"
+      ],
+      "tips": [
+        "This is the most reliable place in Disneyland to find a shaded table at peak lunch. Come here when the Fantasyland and Main Street options are jammed.",
+        "Mobile order and send one person ahead for a table — the courtyard is large but turns over slowly.",
+        "The plates are large enough that two children can share one, which changes the math on a family meal here.",
+        "It is directly on the walkway between Frontierland and Adventureland, so it is easy to fold into a route rather than making a trip.",
+        "The tables at the back of the courtyard near the fountain are quieter and shaded longest into the afternoon."
+      ],
+      "verdict": "The best combination of price, portion size, and seating in the park. The food is fine rather than memorable, but on a hot crowded day the shaded courtyard is worth more than better cooking somewhere you cannot sit.",
+      "faqs": [
+        {
+          "q": "Is there enough seating at Rancho del Zocalo?",
+          "a": "More than almost anywhere else at Disneyland. The courtyard is large, mature trees provide real shade, and it is the location most likely to have an open table during the 12 to 2 PM crush. That alone makes it worth routing toward."
+        },
+        {
+          "q": "Are there vegan options?",
+          "a": "Yes, and they are properly constructed plates rather than a side of rice and beans. The menu marks plant-based items clearly and the counter staff can confirm preparation. It is one of the better vegan counter-service options in the park."
+        },
+        {
+          "q": "Is it air conditioned?",
+          "a": "No — the seating is an outdoor courtyard, though it is well shaded by trees and structures. For genuine air conditioning at a meal, the Plaza Inn dining room or the Blue Bayou are the options."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "golden-horseshoe",
+      "name": "The Golden Horseshoe",
+      "land": "frontierland",
+      "service": "quick-service",
+      "cuisine": "American snacks and ice cream",
+      "priceTier": "$",
+      "priceNote": "Roughly $8 to $16 per person",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A Western saloon with a real stage, balcony seating, and chili and ice cream sold at a window in the back.",
+      "description": [
+        "The Golden Horseshoe is a two-storey saloon building on the Frontierland waterfront with a stage, tiered seating, and a balcony. Live entertainment plays here on a published schedule, and between sets you can walk in, buy chili, chicken tenders, or ice cream from the window at the back, and sit down at a table in a genuinely handsome nineteenth-century room.",
+        "It is one of the most underused spaces in Disneyland. Even when Frontierland is packed, there are usually tables free inside, and the balcony is almost always open. It is shaded, it has real chairs, and it costs nothing to sit there.",
+        "The food is basic and the ice cream sundaes are the best of it. Nobody should plan a meal around this, but as a place to get out of the sun with something cold while a piano plays, it is one of the better twenty minutes in the park."
+      ],
+      "signatureItems": [
+        "Chili in a bread bowl",
+        "Ice cream sundae",
+        "Chicken tenders",
+        "Fried mozzarella"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Go upstairs. The balcony has the best view of the stage and is almost always emptier than the floor.",
+        "Check the app for the entertainment schedule — the room is much better with a show on than without.",
+        "This is one of the easiest places in Frontierland to find a free table at lunchtime, because most guests do not realize you can just walk in.",
+        "The sundaes are the strongest item on a short menu. The chili is the same recipe sold at Refreshment Corner."
+      ],
+      "verdict": "Forgettable food in a very good room. Come for a seat, a sundae, and whatever is on the stage, not for a meal.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "stage-door-cafe",
+      "name": "Stage Door Cafe",
+      "land": "frontierland",
+      "service": "quick-service",
+      "cuisine": "Corn dogs and fried food",
+      "priceTier": "$",
+      "priceNote": "Roughly $11 to $16 per person",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The window beside the Golden Horseshoe selling the same style of hand-dipped corn dog as Main Street, with a fraction of the line.",
+      "description": [
+        "Stage Door Cafe is a walk-up window on the side of the Golden Horseshoe building selling hand-dipped corn dogs, chicken tenders, fish and chips, and fries. It is the single most useful piece of insider knowledge about eating at Disneyland.",
+        "The corn dog here is prepared the same way as the famous one at the Little Red Wagon on Main Street — battered to order and fried — and costs about the same. The Main Street cart routinely has a thirty-minute line. This window frequently has five people in it.",
+        "There is outdoor seating on the Frontierland waterfront a few steps away, some of it shaded, with a view of the Rivers of America. It is a better place to eat a corn dog than standing on Main Street in the sun."
+      ],
+      "signatureItems": [
+        "Hand-dipped corn dog",
+        "Chicken tenders",
+        "Fish and chips",
+        "Fries"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "big-appetites",
+        "families"
+      ],
+      "tips": [
+        "This is the corn dog workaround. Same preparation, same price range, dramatically shorter line than the Little Red Wagon.",
+        "Mobile order and eat on the waterfront benches facing the river rather than standing at the window.",
+        "It closes earlier than the Main Street options on some nights — check hours in the app if this is your dinner plan.",
+        "The fish and chips are better than they need to be and almost nobody orders them."
+      ],
+      "verdict": "The best-kept secret at Disneyland: the famous corn dog without the famous line. If someone in your party insists on the Little Red Wagon experience, let them queue and eat here yourself.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "harbour-galley",
+      "name": "Harbour Galley",
+      "land": "critter-country",
+      "service": "quick-service",
+      "cuisine": "Soups and bread bowls",
+      "priceTier": "$",
+      "priceNote": "Bread bowls roughly $13 to $16",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A tiny dockside window at the edge of Critter Country selling clam chowder in a sourdough bowl, with waterfront seating.",
+      "description": [
+        "Harbour Galley is a small window on the water between New Orleans Square and Critter Country, near the canoe dock. It sells clam chowder, a rotating second soup, and baked potatoes, all served in or alongside sourdough bread bowls.",
+        "The seating is why it is worth knowing. There are tables right on the waterfront with a view across the Rivers of America toward Tom Sawyer Island, they are shaded for much of the afternoon, and hardly anyone goes looking for them. It is one of the quietest places to eat in the park.",
+        "The chowder is good and filling and the bread bowl is a real sourdough loaf rather than a token. It is unremarkable food in a genuinely lovely spot, which describes a lot of the best small decisions you can make at Disneyland."
+      ],
+      "signatureItems": [
+        "Clam chowder bread bowl",
+        "Loaded baked potato",
+        "Rotating soup of the day"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "view"
+      ],
+      "tips": [
+        "Take your food to the waterfront tables rather than eating at the window. They are shaded, quiet, and face Tom Sawyer Island.",
+        "It closes earlier than most locations and shuts entirely before evening shows on some nights — check the app.",
+        "The baked potato is a better option than the chowder for anyone who does not want soup in July.",
+        "Combine it with the Explorer Canoes, which load from the dock a few steps away."
+      ],
+      "verdict": "Ordinary chowder, exceptional seating. Worth a stop for the waterfront tables alone, which are among the calmest places to sit down in Disneyland.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hungry-bear-barbecue-jamboree",
+      "name": "Hungry Bear Barbecue Jamboree",
+      "land": "critter-country",
+      "service": "quick-service",
+      "cuisine": "Barbecue and American",
+      "priceTier": "$$",
+      "priceNote": "Roughly $18 to $28 per adult for a plate",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Two decks of riverside seating in Critter Country serving barbecue plates — the best view from any counter-service restaurant here.",
+      "description": [
+        "The Hungry Bear sits on the water at the far end of Critter Country, on two levels of open-air decking that look out over the Rivers of America and Tom Sawyer Island. It was rethemed alongside the Tiana's Bayou Adventure project and now serves barbecue plates, sandwiches, and sides.",
+        "The lower deck is the one to aim for: it is closer to the water, more shaded, and the ducks and turtles that live on the river come right up to the rail. Most guests take the first table they see on the upper deck and miss it entirely.",
+        "This is also the closest substantial food to Tiana's Bayou Adventure, which makes it the natural pairing for a Critter Country stop. Because Critter Country is a dead end, the whole area including this restaurant is quieter than its quality would suggest."
+      ],
+      "signatureItems": [
+        "Barbecue plate",
+        "Fried chicken sandwich",
+        "Mac and cheese",
+        "Coleslaw",
+        "Cornbread"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "view",
+        "groups",
+        "quick-bite"
+      ],
+      "tips": [
+        "Take the lower deck. It is shaded longer, closer to the water, and most people never walk down to it.",
+        "Mobile order before you get in line for Tiana's Bayou Adventure and collect after — the timing works out almost exactly.",
+        "It is a dead-end location, which means it is one of the last places in the park to fill up at lunch.",
+        "The riverside rail is a legitimate wildlife viewing spot. Ducks, turtles, and herons all use the river and the kids will spot them before you do.",
+        "It closes before park closing on many nights because Critter Country shuts early. Do not save it for a late dinner."
+      ],
+      "verdict": "Solid barbecue in the best outdoor dining spot at Disneyland. Not worth crossing the park for the food, but if you are in Critter Country at mealtime this is clearly the right call.",
+      "faqs": [
+        {
+          "q": "Where is the best seating at the Hungry Bear?",
+          "a": "The lower deck, closest to the water. It gets more shade, has the better view of the Rivers of America and Tom Sawyer Island, and most guests stop on the upper level without realizing there is another one below."
+        },
+        {
+          "q": "Is it open in the evening?",
+          "a": "Often not as late as you would like. Critter Country as a whole winds down earlier than the rest of the park on many nights, and this restaurant closes with it. Check hours in the app if you are planning a late dinner."
+        },
+        {
+          "q": "Is it a good stop with Tiana's Bayou Adventure?",
+          "a": "It is the natural pairing — the two are a short walk apart at the end of the same dead-end path. Place a mobile order before joining the ride queue and collect afterward, which fits the timing almost perfectly."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "docking-bay-7-food-and-cargo",
+      "name": "Docking Bay 7 Food and Cargo",
+      "land": "star-wars-galaxys-edge",
+      "service": "quick-service",
+      "cuisine": "Globally-inspired plates",
+      "priceTier": "$$",
+      "priceNote": "Roughly $17 to $26 per adult for a main plate",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The main sit-down-with-a-tray option in Galaxy's Edge, inside a cargo hangar with air conditioning and enough tables.",
+      "description": [
+        "Docking Bay 7 is built as a working cargo hangar with a transport ship parked against one wall and crates stacked to the ceiling. It is counter service with a large indoor dining room, which makes it one of the very few air-conditioned places to eat inside Disneyland Park.",
+        "The menu is deliberately unfamiliar — the plates have invented names and the flavors lean toward Asian and Middle Eastern profiles rather than burger-and-fries. The fried chicken plate is the one most people order and the one most people like, and there are properly built plant-based options rather than a token salad.",
+        "The theming does real work here. Cast members stay in character, the ambient audio is a spaceport rather than a food court, and the ship in the room is worth walking around before you sit down. It is the most complete themed dining room at Disneyland, which is not the same as saying it has the best food."
+      ],
+      "signatureItems": [
+        "Fried Endorian Tip-Yip",
+        "Smoked Kaadu ribs",
+        "Felucian Kefta and hummus",
+        "Oven-roasted burra fish",
+        "Batuubon breakfast plate"
+      ],
+      "goodFor": [
+        "families",
+        "air-conditioned-break",
+        "vegetarian",
+        "groups",
+        "picky-eaters"
+      ],
+      "tips": [
+        "This is one of a handful of genuinely air-conditioned dining rooms in the park. That is worth more than the menu on a July afternoon.",
+        "Mobile order well ahead. The window slots fill and the walk-up line at peak lunch is the longest in Galaxy's Edge.",
+        "The fried chicken plate is the safest order for a picky eater and is genuinely the best thing on the menu.",
+        "Breakfast is served here and is the quietest meal of the day in the land — a good rope-drop move if you want the land nearly empty.",
+        "Walk around the transport ship in the dining room before you sit. Most guests eat with their backs to the best-detailed thing in the room."
+      ],
+      "verdict": "Better than it needs to be and the only real air-conditioned meal in this half of the park. The chicken plate is good; the more adventurous dishes are hit and miss and priced the same.",
+      "faqs": [
+        {
+          "q": "Is the food at Docking Bay 7 actually good?",
+          "a": "The fried chicken plate is genuinely good, and the plant-based options are well constructed. The more unusual dishes are less consistent and cost the same, so if you are ordering for a table, hedge with at least one safe plate."
+        },
+        {
+          "q": "Is there air conditioning?",
+          "a": "Yes, and it is one of very few counter-service dining rooms at Disneyland that has it. On a hot afternoon that is a legitimate reason to choose this location over the outdoor options nearby."
+        },
+        {
+          "q": "Should I mobile order?",
+          "a": "Yes, and earlier than you think. Pickup windows fill up during peak lunch and the walk-up line is the longest in Galaxy's Edge. Place the order an hour or more before you plan to eat and adjust the window as you go."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ronto-roasters",
+      "name": "Ronto Roasters",
+      "land": "star-wars-galaxys-edge",
+      "service": "quick-service",
+      "cuisine": "Wraps and grilled meats",
+      "priceTier": "$",
+      "priceNote": "Ronto Wrap $14.49",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An open-air grill stand where a repurposed podracing engine roasts the meat, serving the best wrap at Disneyland Resort.",
+      "description": [
+        "Ronto Roasters is an outdoor stand in the Black Spire Outpost marketplace where a salvaged podracer engine functions as a grill, turned by a repurposed protocol droid on a spit handle who complains about the job. It is the most entertaining piece of theming attached to any food location at Disneyland.",
+        "The Ronto Wrap is the item: grilled sausage and roasted pork in a pita with slaw and a peppery sauce, and it is genuinely one of the best-constructed things you can eat in either park. There is a morning version with egg, and a plant-based variant.",
+        "There is no seating attached — you eat standing in the marketplace or carry it to the low walls around Galaxy's Edge. That is fine; the wrap travels well, which is part of why it works so much better than most theme-park food."
+      ],
+      "signatureItems": [
+        "Ronto Wrap",
+        "Ronto Morning Wrap",
+        "Plant-based Ronto Wrap",
+        "Turkey jerky",
+        "Specialty non-alcoholic drinks"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "big-appetites"
+      ],
+      "tips": [
+        "The Ronto Wrap is the single best portable food at Disneyland Resort. If you eat one thing in Galaxy's Edge, eat this.",
+        "Mobile order and collect at the window — the walk-up line here moves slowly because everything is assembled to order.",
+        "Watch the droid turning the spit for a minute before you order. It is a full character performance and most guests do not stop.",
+        "The morning wrap with egg is served early and is a better breakfast than anything else in the land.",
+        "There is no seating. Eat it walking or find a low wall — the wrap holds together well enough to manage either."
+      ],
+      "verdict": "Genuinely excellent and priced fairly for what it is. The Ronto Wrap is the one piece of Galaxy's Edge food that people go back for, and the plant-based version is nearly as good.",
+      "faqs": [
+        {
+          "q": "How much is a Ronto Wrap at Disneyland?",
+          "a": "$14.49 as of July 2026, which is a few dollars more than the Hollywood Studios version. It is a substantial wrap and a full lunch for most adults, which makes it decent value against the counter-service plates nearby."
+        },
+        {
+          "q": "Is there a vegetarian version?",
+          "a": "Yes, there is a plant-based Ronto Wrap on the menu alongside the standard one, and it is close in quality. It is one of the more satisfying plant-based options in Galaxy's Edge."
+        },
+        {
+          "q": "Is there anywhere to sit?",
+          "a": "Not at the stand itself. Galaxy's Edge has low walls and steps around the marketplace that people use, and Docking Bay 7 has proper indoor seating if you want a table. The wrap is designed to be eaten on the move."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "milk-stand",
+      "name": "Milk Stand",
+      "land": "star-wars-galaxys-edge",
+      "service": "snack-cart",
+      "cuisine": "Plant-based frozen drinks",
+      "priceTier": "$",
+      "priceNote": "Around $8 to $10 per serving",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The blue and green milk stand in Black Spire Outpost — a plant-based frozen drink that is more divisive than any other item in the park.",
+      "description": [
+        "The Milk Stand is a small open-air counter in the Galaxy's Edge marketplace selling exactly two things: blue milk and green milk, both plant-based frozen blends built on coconut and rice milk. Both are vegan, dairy-free, and gluten-free.",
+        "Blue milk is the sweeter of the two, with tropical fruit notes. Green milk is sharper and more citrus-forward, and it is the one people either love or abandon after two sips. Neither tastes like milk, and the texture is closer to a slushy smoothie than a beverage.",
+        "It is the most photographed drink at Disneyland and one of the most frequently abandoned. Buy one between two people before you commit to two, and be honest with yourself about whether you want a drink or a photograph."
+      ],
+      "signatureItems": [
+        "Blue milk",
+        "Green milk"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "vegetarian",
+        "families"
+      ],
+      "tips": [
+        "Buy one and share it before buying two. The abandonment rate on this drink is remarkable and the trash cans in Galaxy's Edge are the evidence.",
+        "Green milk is the more polarizing of the two. Blue milk is the safer choice for children.",
+        "Both are vegan and dairy-free, which makes this a reliable treat for anyone avoiding dairy.",
+        "Mobile order works and the line, while short, moves slowly because each drink is blended."
+      ],
+      "verdict": "A photograph that costs nine dollars and comes with a drink attached. The blue is pleasant enough on a hot day; the green is a genuine gamble, and plenty of people take one sip and bin it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ogas-cantina",
+      "name": "Oga's Cantina",
+      "land": "star-wars-galaxys-edge",
+      "service": "lounge",
+      "cuisine": "Cocktails and bar snacks",
+      "priceTier": "$$",
+      "priceNote": "Drinks roughly $16 to $22 with alcohol, $9 to $14 without; a two-drink limit applies per guest",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "all-day"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The only bar in Disneyland Park open to the public, with a droid DJ, a 45-minute time limit, and reservations that vanish instantly.",
+      "description": [
+        "Oga's Cantina opened with Galaxy's Edge in 2019 and broke a sixty-four-year policy: until then, the only alcohol served inside Disneyland Park was behind the unmarked door of Club 33. It is a dim, crowded, loud room with a droid DJ spinning from a booth, mostly standing space with a handful of tables and a small bar.",
+        "Reservations are required and effectively mandatory — walk-ups are rare and the booking window fills within minutes of opening sixty days out. Once seated you have roughly forty-five minutes, there is a two-drink limit per guest, and cast members enforce both.",
+        "It is a genuinely well-made room and the drinks are creative, colorful, and expensive. It is also loud enough to make conversation difficult and crowded enough that you may spend your entire visit standing at a rail with your elbow in someone's back. Whether that is a great time depends heavily on your tolerance for a packed bar, and the honest answer for a lot of families is that the kids will love the droid and the adults will feel rushed."
+      ],
+      "signatureItems": [
+        "Fuzzy Tauntaun",
+        "Jet Juice",
+        "Bloody Rancor",
+        "Batuu Bits",
+        "Non-alcoholic specialty drinks"
+      ],
+      "goodFor": [
+        "date-night",
+        "groups",
+        "splurge",
+        "air-conditioned-break",
+        "late-night"
+      ],
+      "tips": [
+        "Book the moment the sixty-day window opens. This is the hardest booking at Disneyland Resort after the Blue Bayou and it goes in minutes.",
+        "The time limit is around forty-five minutes and it is enforced. Order promptly rather than settling in.",
+        "There is a two-drink maximum per guest. Plan accordingly if you were treating this as a full evening.",
+        "Ask for a spot near the DJ booth if you have children with you — watching the droid is the part they will remember.",
+        "The non-alcoholic menu is genuinely developed rather than an afterthought, so this works for a party that is not drinking.",
+        "Check the app for same-day cancellations in the morning. They do appear, and they are the only realistic walk-up route."
+      ],
+      "verdict": "A superb room with a rushed, expensive, extremely loud experience inside it. Worth doing once for the novelty of a bar inside Disneyland; not worth reorganizing your day around, and the standing-room crush is real.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation for Oga's Cantina?",
+          "a": "Effectively yes. Bookings open sixty days ahead and fill within minutes. Walk-up availability exists in theory and is rare in practice. Checking the app in the morning for same-day cancellations is the only realistic backup plan."
+        },
+        {
+          "q": "How long can you stay at Oga's Cantina?",
+          "a": "Around forty-five minutes, and the limit is enforced. There is also a two-drink maximum per guest. Both rules exist because the room is small and demand vastly exceeds capacity, but they do make the visit feel hurried."
+        },
+        {
+          "q": "Can children go into Oga's Cantina?",
+          "a": "Yes, children are welcome and there is a full non-alcoholic menu. The room is loud, dark, and crowded, which suits some kids and overwhelms others. The droid DJ is the draw for younger guests and is worth positioning yourself near."
+        },
+        {
+          "q": "Was Oga's the first bar in Disneyland?",
+          "a": "It was the first place in Disneyland Park to serve alcohol to the general public. Club 33 had served members privately since 1967, but for the park's first sixty-four years there was no public bar at all. Oga's opening in 2019 ended that."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "red-rose-taverne",
+      "name": "Red Rose Taverne",
+      "land": "fantasyland",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Roughly $16 to $25 per adult for a main",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Fantasyland's main counter-service restaurant, themed to Beauty and the Beast, with the only substantial indoor seating in the land.",
+      "description": [
+        "Red Rose Taverne occupies the building that was the Village Haus for decades, retitled and redecorated around Beauty and the Beast. The menu covers burgers, a fried chicken sandwich, salads, and a plant-based option, plus a dessert called the Grey Stuff that exists mainly to be photographed.",
+        "It matters mostly because of geography. Fantasyland has almost no proper indoor seating and this is the only place in it where a family can sit down with trays in air conditioning. On a hot afternoon, with four dark-ride queues within a hundred yards, that is worth a great deal.",
+        "The food is standard counter service. The burgers are fine, the chicken sandwich is the better order, and the Grey Stuff is a sweet whipped dessert that tastes like cookies and cream and is entirely pleasant without being interesting."
+      ],
+      "signatureItems": [
+        "Fried chicken sandwich",
+        "Cheeseburger",
+        "The Grey Stuff dessert",
+        "Plant-based burger",
+        "LeFou's Brew"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "air-conditioned-break",
+        "quick-bite",
+        "vegetarian"
+      ],
+      "tips": [
+        "This is the only real indoor seating in Fantasyland. Use it as a heat break as much as a meal.",
+        "Mobile order — the counter line here at 12:30 backs into the walkway and blocks the path to the dark rides.",
+        "The chicken sandwich is the better order than the burger, which is ordinary.",
+        "The Grey Stuff is a small dessert, not a meal, and it is worth ordering once for the novelty and never again.",
+        "The interior rooms at the back are quieter and emptier than the front section everyone stops in."
+      ],
+      "verdict": "Average food in the only air-conditioned room in Fantasyland, which makes it more valuable than it deserves to be. Order the chicken sandwich and treat the seat as the real purchase.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "edelweiss-snacks",
+      "name": "Edelweiss Snacks",
+      "land": "fantasyland",
+      "service": "snack-cart",
+      "cuisine": "Turkey legs and grilled snacks",
+      "priceTier": "$",
+      "priceNote": "Turkey leg $12.99; other items roughly $6 to $10",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The chalet-style stand between the Matterhorn and Toontown selling turkey legs, corn on the cob, and grilled snacks.",
+      "description": [
+        "Edelweiss Snacks is an alpine-styled window on the path between the Matterhorn and the entrance to Mickey's Toontown. It is the main turkey leg location in Disneyland Park, and it also sells hot corn on the cob, chimichangas, and drinks.",
+        "The turkey leg is the item people search for and the item most people regret. It is enormous, heavily smoked and cured so the texture reads closer to ham than roast turkey, and it is difficult to eat while walking, impossible to share cleanly, and produces a greasy hand for the next twenty minutes.",
+        "The corn on the cob, by contrast, is genuinely good, costs half as much, and almost nobody orders it. That gap between what is famous and what is worth eating is the whole story of this stand."
+      ],
+      "signatureItems": [
+        "Turkey leg",
+        "Corn on the cob",
+        "Chimichanga",
+        "Frozen beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "big-appetites",
+        "budget"
+      ],
+      "tips": [
+        "Order the corn on the cob instead of the turkey leg. It costs less, tastes better, and is far easier to eat while walking.",
+        "If you do get a turkey leg, plan on sharing it and grab extra napkins at the window rather than hunting for them later.",
+        "The turkey leg is closer in flavor to ham than to roast turkey because of how it is cured. That surprises most first-timers.",
+        "There is no seating here at all. The nearest benches are toward the Small World mall."
+      ],
+      "verdict": "The turkey leg is the most overrated food item at Disneyland — huge, salty, awkward, and bought almost entirely for the photograph. The corn on the cob at the same window is genuinely good and half the price.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "maurices-treats",
+      "name": "Maurice's Treats",
+      "land": "fantasyland",
+      "service": "snack-cart",
+      "cuisine": "Baked snacks",
+      "priceTier": "$",
+      "priceNote": "Roughly $6 to $10 per item",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A tiny cart at Fantasy Faire selling savory and sweet baked twists, right by the Royal Theatre stage.",
+      "description": [
+        "Maurice's Treats is a small wooden cart in the Fantasy Faire courtyard, between the hub and Fantasyland, selling baked bread twists in savory and sweet varieties along with a few drinks. It is styled as an inventor's workshop cart and takes up almost no space.",
+        "It works best as a Royal Theatre companion — buy a twist, sit on a bench for the next storytelling show, and you have twenty shaded minutes with something to eat. The cart is thirty feet from the theatre seating.",
+        "Portions are moderate and the savory version is the better of the two. It is not a destination, but it fills the specific gap between a snack and a meal better than most carts in this part of the park."
+      ],
+      "signatureItems": [
+        "Savory bread twist",
+        "Sweet bread twist",
+        "Specialty beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "families"
+      ],
+      "tips": [
+        "Buy one and take it into the Royal Theatre seating for the next show. The cart is thirty seconds from the benches.",
+        "The savory twist is the better of the two options and more filling.",
+        "It is easy to walk past on the way from the hub into Fantasyland. Look for the small cart on the Fantasy Faire courtyard side.",
+        "Hours are shorter than the surrounding locations; it often closes in the early evening."
+      ],
+      "verdict": "A perfectly decent small snack in exactly the right place if you are heading for the Royal Theatre. Nothing here justifies a detour.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cafe-daisy",
+      "name": "Cafe Daisy",
+      "land": "mickeys-toontown",
+      "service": "quick-service",
+      "cuisine": "Sandwiches and salads",
+      "priceTier": "$",
+      "priceNote": "Roughly $11 to $18 per person",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Toontown's counter-service stop, built with young children in mind and with more shaded seating than the land needs.",
+      "description": [
+        "Cafe Daisy arrived with the 2023 Toontown rebuild and handles the land's main food service: sandwiches, salads, snacks for children, and cold drinks. Seating is outdoors under shade structures with a view over CenTOONial Park.",
+        "It was designed around the reality of Toontown's audience. Portions are sized for children, the menu avoids anything a four-year-old would refuse, allergy-friendly options are clearly marked, and the seating area is close enough to the play spaces that one adult can eat while watching a child.",
+        "The food is unremarkable and priced fairly. What makes the location work is that it is the only place to eat in Toontown, and the seating is genuinely good for families with small children who need to sit somewhere without a queue."
+      ],
+      "signatureItems": [
+        "Sandwiches",
+        "Salads",
+        "Kids meals",
+        "Cold drinks",
+        "Packaged snacks"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "picky-eaters",
+        "budget",
+        "quick-bite"
+      ],
+      "tips": [
+        "The shaded tables facing CenTOONial Park let one adult eat while watching kids play, which is the single most useful thing about this location.",
+        "Mobile order — Toontown gets crowded in a narrow window right after it opens and the counter backs up quickly.",
+        "It closes when Toontown closes, which is often earlier than the rest of the park. Do not plan a late dinner here.",
+        "For anything more substantial, Red Rose Taverne in Fantasyland is a five-minute walk and a real meal."
+      ],
+      "verdict": "Ordinary food that exists to serve a captive audience, but the shaded seating next to the play areas earns it more goodwill than the menu would. Fine for kids, unremarkable for adults.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "good-boy-grocers",
+      "name": "Good Boy! Grocers",
+      "land": "mickeys-toontown",
+      "service": "snack-cart",
+      "cuisine": "Packaged snacks and drinks",
+      "priceTier": "$",
+      "priceNote": "Roughly $4 to $9 per item",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small grab-and-go stand in Toontown selling packaged snacks, fruit, and drinks with no line worth mentioning.",
+      "description": [
+        "Good Boy! Grocers is a compact market-style stand in Mickey's Toontown, styled as a neighborhood grocery run by Pluto. It sells packaged snacks, fresh fruit, yogurt, bottled drinks, and a small selection of grab-and-go items.",
+        "It exists to solve a specific problem: a four-year-old who needs food in ninety seconds and cannot wait through a counter-service queue. Everything here is pre-packaged, the transaction takes moments, and there is usually nobody in front of you.",
+        "It is also one of the few places in the park where you can buy plain fruit, plain yogurt, and unsweetened drinks without hunting. Parents of children with restricted diets find this location more useful than anything else in the land."
+      ],
+      "signatureItems": [
+        "Fresh fruit",
+        "Packaged snacks",
+        "Bottled drinks",
+        "Yogurt"
+      ],
+      "goodFor": [
+        "toddlers",
+        "quick-bite",
+        "budget",
+        "families"
+      ],
+      "tips": [
+        "This is the fastest food transaction in Toontown. Use it when a child needs something immediately rather than in fifteen minutes.",
+        "It is one of the easier places in the park to buy plain fruit and unsweetened drinks, which matters for restricted diets.",
+        "Prices on packaged items are similar to the carts elsewhere in the park, so there is no penalty for using it.",
+        "Stock up here before heading into a long Fantasyland queue rather than buying at a cart mid-line."
+      ],
+      "verdict": "Not a food destination and not trying to be. It is a genuinely useful, fast, low-drama option for families with small children, which is exactly what Toontown needs.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "alien-pizza-planet",
+      "name": "Alien Pizza Planet",
+      "land": "tomorrowland",
+      "service": "quick-service",
+      "cuisine": "Pizza and pasta",
+      "priceTier": "$$",
+      "priceNote": "Roughly $15 to $24 per adult",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Toy Story-themed pizza and pasta in Tomorrowland, with a large dining area and food that does not repay the walk.",
+      "description": [
+        "Alien Pizza Planet occupies the large Tomorrowland building that has operated as a pizza restaurant under several names, decorated around the Toy Story aliens. It serves personal pizzas, pasta dishes, salads, and a few sides, with a substantial dining area both inside and out.",
+        "The seating capacity is the strongest argument for it. When Tomorrowland is busy this is one of the few places with real space, and the covered outdoor section stays reasonably cool in the evening.",
+        "The food is the weakest of any substantial counter service in the park. The pizza is a serviceable personal pie and the pasta is worse. If you are here because everyone is hungry and it is close, fine; if you are choosing between this and a walk to Rancho del Zocalo or Tiana's Palace, take the walk."
+      ],
+      "signatureItems": [
+        "Personal pizza",
+        "Pasta with marinara",
+        "Caesar salad",
+        "Garlic breadsticks"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "groups",
+        "quick-bite"
+      ],
+      "tips": [
+        "Order the pizza rather than the pasta. The pasta is the weakest thing served at any counter service in the park.",
+        "The covered outdoor seating on the side is cooler and quieter than the main indoor room.",
+        "Mobile order and use it as a capacity play — this is one of the few places in Tomorrowland with tables free at peak lunch.",
+        "Tiana's Palace and Rancho del Zocalo are both roughly ten minutes' walk and both are substantially better food for similar money."
+      ],
+      "verdict": "The most skippable substantial restaurant at Disneyland. It exists for capacity and convenience, and if you have the legs for a ten-minute walk you can eat much better for the same price.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "galactic-grill",
+      "name": "Galactic Grill",
+      "land": "tomorrowland",
+      "service": "quick-service",
+      "cuisine": "Burgers and American",
+      "priceTier": "$$",
+      "priceNote": "Roughly $16 to $24 per adult",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The burger counter on the Tomorrowland Terrace, with a stage that occasionally hosts live music and a lot of open-air seating.",
+      "description": [
+        "Galactic Grill operates on the Tomorrowland Terrace, a large open-air dining area with a stage built into it. The menu is burgers, chicken sandwiches, salads, and fries, with plant-based and gluten-free options available.",
+        "The terrace is the appeal. There is a huge amount of seating, some of it shaded, and the stage hosts scheduled live entertainment through parts of the year, which turns a mediocre burger into a reasonable half hour. It also has one of the better views of the hub crowds without being in them.",
+        "The burgers themselves are ordinary theme-park burgers at theme-park prices. This is a location you use because you are in Tomorrowland and hungry, not one you plan around."
+      ],
+      "signatureItems": [
+        "Cheeseburger",
+        "Chicken sandwich",
+        "Plant-based burger",
+        "Fries",
+        "Salads"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "groups",
+        "quick-bite",
+        "budget"
+      ],
+      "tips": [
+        "Check the app for stage performances at the Tomorrowland Terrace. Eating here during a set is a genuinely better experience than eating here otherwise.",
+        "Mobile order and grab a shaded table on the perimeter — the center of the terrace bakes in the afternoon.",
+        "It is one of the closer food options to Space Mountain and Star Tours if you are pinned in Tomorrowland at mealtime.",
+        "The plant-based burger is a real option here rather than an afterthought, which is not true everywhere in the park."
+      ],
+      "verdict": "Ordinary burgers, excellent capacity. Worth it when there is something on the stage or when Tomorrowland is where you need to be — not worth walking to from anywhere else.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

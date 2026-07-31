@@ -1,0 +1,192 @@
+/* =========================================================================
+   Print styles.
+   Two jobs: make every page readable on paper, and turn the Food Tracker and
+   the park maps into things you can actually carry into a park with no signal.
+   ========================================================================= */
+
+@page {
+  margin: 14mm 12mm;
+}
+
+:root {
+  --paper: #fff; --surface: #fff; --surface-2: #fff; --surface-3: #fff;
+  --ink: #000; --ink-2: #1a1a1a; --muted: #444;
+  --line: #bbb; --line-strong: #888;
+  --brand: #000; --brand-2: #000; --brand-3: #000; --brand-soft: #fff;
+  --accent: #000; --accent-2: #000; --accent-soft: #fff;
+  --good: #000; --good-soft: #fff; --warn: #000; --warn-soft: #fff;
+  --danger: #000; --danger-soft: #fff;
+  --shadow: none; --shadow-sm: none; --shadow-lg: none;
+}
+
+* { background: transparent !important; box-shadow: none !important; }
+
+body {
+  color: #000;
+  font-size: 10.5pt;
+  line-height: 1.45;
+}
+
+/* Chrome that never belongs on paper. */
+.site-header,
+.site-footer__grid,
+.nav-toggle,
+.header-actions,
+.primary-nav,
+.search-overlay,
+.skip-link,
+.breadcrumbs,
+.affiliate,
+.tracker,
+.tracker-actions,
+.filter-bar,
+.hero__actions,
+.toc,
+.offline-note,
+.inline-attraction__tips summary,
+[data-print-hide] {
+  display: none !important;
+}
+
+/* Keep the disclaimer — it must survive being printed and shared. */
+.site-footer { border-top: 1px solid #999; margin-top: 8mm; padding-top: 4mm; }
+.site-footer__legal { margin: 0; padding: 0; border: 0; }
+.disclaimer, .copyright { font-size: 7.5pt; color: #333; }
+
+.shell, .shell--narrow, .shell--wide { max-width: none; padding: 0; }
+.band { padding-block: 4mm; }
+.hero { padding-block: 0 4mm; border-bottom: 1px solid #999; background: none; }
+
+h1 { font-size: 20pt; margin-bottom: 2mm; }
+h2 { font-size: 14pt; margin-top: 6mm; break-after: avoid; }
+h3 { font-size: 11.5pt; break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+a { color: #000; text-decoration: none; }
+
+/* Print the destination of content links, but not of navigation-shaped ones. */
+.prose a[href^="/"]::after,
+.doc-section a[href^="/"]::after { content: " (rideready.guide" attr(href) ")"; font-size: 8pt; color: #444; }
+.prose a[href^="http"]::after,
+.doc-section a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #444; }
+
+/* Tables must not be cut in half. */
+.table-wrap { overflow: visible; border: 0; margin-block: 3mm; }
+.data-table { font-size: 9pt; width: 100%; break-inside: auto; }
+.data-table thead { display: table-header-group; }
+.data-table thead th { border-bottom: 1.5px solid #000; text-transform: uppercase; font-size: 7.5pt; }
+.data-table tr { break-inside: avoid; }
+.data-table tbody th, .data-table td { border-bottom: .5pt solid #ccc; padding: 1.5mm 2mm; }
+.data-table[data-sortable] thead th::after { content: "" !important; }
+
+.card, .facts, .tips, .callout, .keypoints, .rank-item, .pickif__col, .food-card {
+  border: .5pt solid #999 !important; border-radius: 0 !important;
+  break-inside: avoid; padding: 3mm !important;
+}
+.card-grid, .link-grid, .food-grid { display: block; }
+.card, .link-tile { margin-bottom: 3mm; }
+
+.faq__item { border: 0; border-bottom: .5pt solid #ccc; break-inside: avoid; }
+.faq__item summary { padding: 2mm 0; }
+.faq__item summary::after { display: none; }
+.faq__answer { padding: 0 0 2mm; }
+details > summary { list-style: none; }
+details[open] > summary { margin-bottom: 1mm; }
+/* Force every collapsed disclosure open on paper. */
+details:not([open]) > *:not(summary) { display: revert !important; }
+details { display: block !important; }
+
+.hbadge { border: .5pt solid #666 !important; }
+.pill { border: .5pt solid #666 !important; font-size: 7.5pt; }
+.meter__track { border: .5pt solid #666; height: 4pt; }
+.meter__fill { background: #666 !important; }
+
+/* ---------- Food Tracker checklist ------------------------------------- */
+
+/* In checklist mode the page is a thing you carry, not a thing you read. */
+body.print-checklist .hero__lede,
+body.print-checklist .hero__eyebrow,
+body.print-checklist .band__intro,
+body.print-checklist .kicker,
+body.print-checklist [data-checklist-hide] { display: none !important; }
+body.print-checklist .hero { padding-bottom: 2mm; }
+body.print-checklist .band { padding-block: 2mm; }
+
+body.print-checklist .food-grid { display: block; column-count: 2; column-gap: 8mm; }
+body.print-checklist .food-card {
+  break-inside: avoid; border: 0 !important; border-bottom: .5pt dotted #999 !important;
+  padding: 1.5mm 0 !important; display: block;
+  page-break-inside: avoid;
+}
+body.print-checklist .food-card__desc,
+body.print-checklist .food-card__verdict,
+body.print-checklist .food-card__tags { display: none; }
+body.print-checklist .food-card__head { display: flex; gap: 2mm; align-items: baseline; }
+body.print-checklist .food-card__name { font-size: 9.5pt; font-weight: 600; }
+body.print-checklist .food-card__name::before {
+  content: ""; display: inline-block; width: 3.2mm; height: 3.2mm;
+  border: .6pt solid #000; margin-right: 2mm; vertical-align: -.3mm;
+}
+body.print-checklist .food-card[data-state="tried"] .food-card__name::before { content: "✓"; text-align: center; line-height: 3mm; font-size: 7pt; }
+body.print-checklist .food-card[data-state="skip"] { display: none; }
+body.print-checklist .food-card__where { font-size: 8pt; padding-left: 5.2mm; }
+body.print-checklist .food-card__price { font-size: 9pt; margin-left: auto; }
+body.print-checklist .tracker-bar { position: static; border: 0; padding: 0 0 3mm; }
+body.print-checklist .tracker-progress__ring { display: none; }
+body.print-checklist .park-group { break-inside: avoid-page; }
+body.print-checklist .park-group h2 {
+  column-span: all; border-bottom: 1pt solid #000; padding-bottom: 1mm; margin-top: 5mm;
+}
+
+/* ---------- Maps -------------------------------------------------------- */
+
+.parkmap-wrap { border: .5pt solid #999; padding: 0; break-inside: avoid; }
+.parkmap { width: 100%; max-height: 190mm; }
+/* Displacement filters and paper grain cost ink and muddy a mono print for no gain — the flat
+   shapes underneath are what actually needs to be legible on paper. */
+.parkmap [filter] { filter: none !important; }
+.parkmap .vmap-paper { display: none; }
+.parkmap .ground { fill: #f4f4f4; stroke: #999; }
+.parkmap .land-shape { stroke: #fff; stroke-width: 2; }
+.parkmap .land-label, .parkmap .vmap-title { fill: #000; stroke: #fff; }
+.parkmap .marker text { fill: #000; stroke: #fff; }
+.parkmap .water { fill: #ddd; }
+.map-legend { font-size: 8pt; }
+
+/* ---------- Seasonal (Site 2) ------------------------------------------ */
+
+/* The provenance strip is the one thing that must survive onto paper. A printed seasonal page with
+   no visible "checked in July 2026, next review September" is exactly the artefact that gets pinned
+   to a fridge and trusted for two years. */
+.freshness {
+  border: .5pt solid #000; border-left: 2pt solid #000;
+  padding: 2mm 3mm; background: none; break-inside: avoid;
+}
+.freshness__note, .freshness__meta { color: #000; }
+.freshness__overdue { font-weight: 700; text-decoration: underline; }
+
+.price-range__asof { border: .5pt solid #666; background: none; }
+.window-strip, .give-take__col, .verdict, .verdict__col, .editions__item, .resort-split__col {
+  border: .5pt solid #999; background: none; break-inside: avoid;
+}
+.verdict { background: none; }
+.grade { border: .5pt solid #000; background: none !important; color: #000 !important; }
+
+.month-grid { display: block; columns: 2; column-gap: 8mm; }
+.month-card { break-inside: avoid; border: .5pt solid #999; margin-bottom: 3mm; display: block; }
+.month-card__level { border: .5pt solid #999; background: none; }
+
+/* The Gantt prints as a whole page or not at all — a half-scrolled timeline is worse than none. */
+.gantt-wrap { overflow: visible; break-inside: avoid; }
+.gantt { min-width: 0; font-size: 8pt; }
+.gantt__bar { border: .5pt solid #000; }
+.gantt__bar--confirmed { background: #333; }
+.gantt__bar--expected { background: #999; }
+.gantt__bar--historical { background: #ddd; }
+.gantt__cell { border-right: .5pt solid #ccc; height: 4mm; }
+.gantt__bar { height: 4mm; }
+
+/* Interactive-only. On paper the ranking is meaningless without its controls. */
+.timing-controls, .timing-results { display: none; }
+
+/* Anything explicitly marked for print only. */
+[data-print-only] { display: revert !important; }

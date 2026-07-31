@@ -1,0 +1,118 @@
+{
+  "month": 11,
+  "name": "November",
+  "slug": "november",
+  "summary": "The first half of November is the best trade on the calendar: the entire Christmas product is already installed, the weather has turned, and none of it is priced like December yet. Thanksgiving week then runs at Christmas-week levels for eight days.",
+  "verdict": {
+    "grade": "B+",
+    "short": "You can buy December's product on November's prices for about two weeks, then Thanksgiving arrives. One local school break in early November is the trap most planners miss.",
+    "bestFor": [
+      "Holiday trips that want the decorations without December's crowds or rates",
+      "The stretch between the first weekend and Thanksgiving, the best value window of the year's back half",
+      "Anyone who wants both a Halloween-free park and a full Christmas overlay in the same trip",
+      "Food and Wine Festival visitors catching its final weeks alongside the holiday installation",
+      "Disneyland trips, where the holiday overlay goes up early and the crowds lag it by weeks"
+    ],
+    "worstFor": [
+      "Thanksgiving week, which runs peak from the weekend before through the weekend after",
+      "The Jersey Week period in early November, which catches Walt Disney World planners off guard",
+      "Anyone expecting a festival at EPCOT during the changeover days between the two",
+      "Guests wanting late park evenings at Disneyland, where sunset falls before 5 PM",
+      "Last-minute Very Merry ticket buyers, since the nights closest to Christmas sell out first"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "November has the sharpest internal contrast of any month on the calendar. The first two weeks are among the year's better windows — good weather, holiday decorations already installed, and no national break — with one local exception that catches people out repeatedly. The New Jersey Education Association convention closes most New Jersey schools for a couple of days in early November, and because a disproportionate number of those families drive or fly to Orlando, the resulting Jersey Week fills Walt Disney World for the better part of a week with a crowd that shows up in no national school calendar. After it clears there is a genuinely quiet stretch, and then Thanksgiving, which is not a one-day event: attendance climbs from the preceding weekend, holds through the holiday, and peaks on the Friday and Saturday after, running roughly eight days at Christmas-week levels. Disneyland's version is milder because its base is local and locals do not stay in hotels — the Anaheim Thanksgiving crowd is a spike rather than a plateau, and the Sunday after is one of the quietest days of the Disneyland fall.",
+    "peakWindows": [
+      "Thanksgiving week, from the weekend before through the weekend after, at both resorts",
+      "Jersey Week in early November at Walt Disney World, which does not appear on any national calendar",
+      "The Friday and Saturday after Thanksgiving, the two worst days of the month"
+    ],
+    "quietWindows": [
+      "The stretch between Jersey Week and the Thanksgiving run-up, the best value window of the year's back half",
+      "Thanksgiving Day itself at Magic Kingdom, frequently the softest day of that week because families are eating",
+      "The Sunday after Thanksgiving at Disneyland, when the local crowd has gone home"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 79,
+      "lowF": 60,
+      "rainDays": 6,
+      "note": "Climate normals for Orlando, not a forecast. The dry season is fully established and Orlando is comfortable from open to close for the first time since March. Evenings drop into the 50s often enough that a jacket is not optional for a nighttime show, and a late-month cold front can take the overnight low into the 40s."
+    },
+    "dlr": {
+      "highF": 73,
+      "lowF": 50,
+      "rainDays": 3,
+      "note": "Climate normals for Anaheim, not a forecast. Mild, mostly dry, and dark early — Anaheim sunsets fall before 5 PM for most of the month, which is excellent for the holiday lighting package and hard on anyone whose plan relied on daylight after a midday break."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "The lever worth understanding this month is timing rather than product. Walt Disney World holds fall shoulder hotel rates until the Thanksgiving season begins, and the date-based ticket tiers in the first half of November are among the lowest outside January and September — while the Christmas decorations, the castle lighting package, the seasonal ride overlays, the holiday party nights, and the Festival of the Holidays are all already running. You are buying December's product on November's tiers, and that gap is the single largest value arbitrage on the seasonal calendar. Thanksgiving week itself prices in the top tier for both rooms and tickets and sells out early. Airfare behaves in the opposite direction from hotel rates: Orlando fares in early November are cheap, and Thanksgiving-week fares are among the most expensive of the year on any route."
+  },
+  "whatsOn": [
+    "epcot-food-and-wine-festival",
+    "epcot-festival-of-the-holidays",
+    "mickeys-very-merry-christmas-party",
+    "disney-jollywood-nights",
+    "holidays-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Jersey Week is the trap, and it is not on any calendar you already have",
+      "body": [
+        "The New Jersey Education Association convention closes most New Jersey public schools for a couple of days in early November, and the resulting travel wave lands squarely on Walt Disney World. It reliably produces a busy week in what people have been told is a quiet month, and because it is a single-state break it appears in no national school calendar and no generic seasonal guide.",
+        "The actionable move is to look up the convention dates for your travel year before choosing an early-November week, and to book the week after it rather than the week of it. The difference between those two weeks is large.",
+        "Disneyland is unaffected by this entirely, which makes early November one of the months where the two resorts genuinely diverge in a way that should influence which one you pick."
+      ]
+    },
+    {
+      "heading": "Thanksgiving is an eight-day event with a soft center",
+      "body": [
+        "Treating Thanksgiving as a Thursday problem is the standard mistake. Attendance builds from the preceding weekend as families travel, holds through the holiday, and peaks on the Friday and Saturday after — those two days are the worst of the month at both resorts.",
+        "The counterintuitive detail: Thanksgiving Day itself is frequently the softest day of that week at Magic Kingdom, because a meaningful share of visitors are at a holiday meal rather than in a queue for the middle of the day. A family willing to eat an early or late dinner can get a genuinely good park day on the holiday.",
+        "If the dates are fixed to the week, arrive before the preceding weekend and leave on the Friday rather than arriving on the Wednesday and staying through the weekend. The front of the week is materially better than the back."
+      ]
+    },
+    {
+      "heading": "The EPCOT festival changeover leaves a gap in the middle of the month",
+      "body": [
+        "The Food and Wine Festival ends in mid-November and the Festival of the Holidays begins in mid-November, and they do not overlap cleanly. In most cycles there are several days with neither festival fully operating while the booths are physically changed over.",
+        "If the festival is the reason EPCOT is on your itinerary, that gap is worth checking before you fix the dates. It is a small window and it is entirely avoidable, and it is the sort of thing that only becomes visible once you know to look for it.",
+        "The upside of the changeover week is that the rest of the park is at its quietest point of the month, so it is a good week for the attraction side of EPCOT and a poor one for the eating side."
+      ]
+    },
+    {
+      "heading": "The early holiday party nights are a different product at the same event",
+      "body": [
+        "Mickey's Very Merry Christmas Party starts in early November and Disney Jollywood Nights starts in mid-November, and in both cases the earliest nights of the run are the least attended and sit at the lower end of their price bands. The content is the same; the calendar simply has not convinced people that early November is Christmas.",
+        "A first-week Very Merry night is a genuinely relaxed evening in Magic Kingdom. The same event in the week before Christmas is a very different experience at a higher price, and it sells out months earlier.",
+        "The tradeoff to know about: the very earliest nights sometimes run before every seasonal element is fully installed. If a specific parade, show, or overlay is the reason you are buying, that is worth verifying rather than assuming."
+      ]
+    },
+    {
+      "heading": "Disneyland puts its holiday overlay up before the crowds arrive",
+      "body": [
+        "Holidays at the Disneyland Resort installs in mid-November and runs into January, and the seasonal ride overlays, the castle lighting, and the holiday parade are all daytime content available on ordinary park admission. No hard ticket is required for any of it.",
+        "The gap between when the overlay goes up and when the holiday crowd arrives is roughly two weeks, and it is the single best window at Disneyland in the fourth quarter. A weekday in the back half of November delivers the full holiday installation at close to shoulder-season crowd levels.",
+        "Plan for early darkness. Anaheim sunsets fall before 5 PM through November, which means the lighting looks its best from dinner onward and any daylight photography has to happen before mid-afternoon."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "EPCOT first-timer guide", "href": "/walt-disney-world/epcot/first-timer-guide/", "site": 1 },
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
+    { "label": "Disneyland Park first-timer guide", "href": "/disneyland/disneyland-park/first-timer-guide/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The New Jersey convention dates and the EPCOT festival changeover move each cycle and are described as recurring patterns rather than as dates.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

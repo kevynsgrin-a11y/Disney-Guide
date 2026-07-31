@@ -1,0 +1,389 @@
+{
+  "slug": "best-disney-park-for-thrill-seekers",
+  "title": "Best Disney Park for Thrill Seekers: All Six Ranked",
+  "h1": "The Best Disney Park for Thrill Seekers",
+  "metaDescription": "All six US Disney parks ranked on their actual thrill roster — coasters, drops, launches, and water rides — with honest notes on where Disney's intensity ceiling really sits.",
+  "summary": "Hollywood Studios wins on raw intensity, California Adventure on depth. But the honest headline is that no Disney park is a thrill park, and if you came from Cedar Point you should know that going in.",
+  "readingTimeMinutes": 10,
+  "contenders": [
+    { "key": "hollywood-studios", "name": "Disney's Hollywood Studios", "subtitle": "Walt Disney World" },
+    { "key": "california-adventure", "name": "Disney California Adventure", "subtitle": "Disneyland Resort" },
+    { "key": "epcot", "name": "EPCOT", "subtitle": "Walt Disney World" },
+    { "key": "magic-kingdom", "name": "Magic Kingdom", "subtitle": "Walt Disney World" },
+    { "key": "disneyland-park", "name": "Disneyland Park", "subtitle": "Disneyland Resort" },
+    { "key": "animal-kingdom", "name": "Disney's Animal Kingdom", "subtitle": "Walt Disney World" }
+  ],
+  "verdict": {
+    "short": "Hollywood Studios for the highest intensity per ride. California Adventure for the deepest thrill roster. Nobody should book a Disney trip primarily for forces.",
+    "body": [
+      "Hollywood Studios takes the top spot on the strength of two attractions. Rock 'n' Roller Coaster Starring The Muppets is a launched indoor coaster with multiple inversions and a 48-inch requirement — the most aggressive ride profile Disney operates in America. The Twilight Zone Tower of Terror runs a randomized drop sequence in a thirteen-story shaft and remains the best drop ride Disney has built. Add Slinky Dog Dash at 38 inches as the family coaster and you have a park where seven attractions carry a height stick.",
+      "California Adventure wins on depth and would take the top spot on a longer trip. Incredicoaster is a launched coaster with an inversion at 48 inches, Guardians of the Galaxy – Mission: BREAKOUT! is a genuinely violent drop tower that many riders prefer to Tower of Terror, Grizzly River Run soaks you at 42 inches, Goofy's Sky School is a wild mouse at 42, and Radiator Springs Racers hits speed on the outdoor loop. Thirteen attractions carry height requirements — the most of any of the six.",
+      "EPCOT is the sleeper at number three and outclasses both castle parks. Guardians of the Galaxy: Cosmic Rewind is the best coaster at Walt Disney World, a reverse launch with rotating vehicles. Test Track, in its third version since July 2025, is the fastest ride on property. And Mission: SPACE Orange at 44 inches is the most physically punishing thing Disney operates anywhere — a genuine centrifuge that produces sustained G-forces no coaster here matches.",
+      "The uncomfortable truth underneath the ranking: Disney's intensity ceiling is moderate. There is no ride at either resort that will impress somebody who spends weekends at Cedar Point, Six Flags Magic Mountain, or Kings Island. What Disney does better than anyone is ride systems, theming, and the sensation of being somewhere — not airtime, not height, not sustained force. Come for that and you will have a great time. Come for the forces and you will be disappointed by day two."
+    ]
+  },
+  "intro": [
+    "This ranking uses one criterion: what does the park actually put your body through. Ride quality, theming, and story do not count here — those are covered in the overall park rankings. A gorgeous dark ride that moves at eight miles an hour scores nothing on this page no matter how good it is.",
+    "We counted the number of attractions with height requirements, the height of the tallest stick, the presence of launches, inversions, free-fall drops, and sustained G-forces, and the availability of water thrills. We also weighted whether the park gives a thrill-focused group a full day or just a handful of hits.",
+    "One thing to calibrate before you read the ranking: the tallest height requirement at either resort is 48 inches, and only three attractions carry it — TRON Lightcycle / Run at Magic Kingdom, Rock 'n' Roller Coaster Starring The Muppets at Hollywood Studios, and Incredicoaster at California Adventure. Every other ride Disney operates in America is 46 inches or below. That number tells you most of what you need to know about the intensity ceiling."
+  ],
+  "dimensions": [
+    {
+      "name": "Attractions with height requirements",
+      "winner": "california-adventure",
+      "cells": {
+        "hollywood-studios": "Seven, from 32 to 48 inches — the densest concentration of them at Walt Disney World.",
+        "california-adventure": "Thirteen, from 32 to 48 inches. The most of any of the six by a wide margin.",
+        "epcot": "Five, from 40 to 44 inches, but all five are genuinely intense.",
+        "magic-kingdom": "Seven, from 32 to 48 inches, though most sit at the family end of the scale.",
+        "disneyland-park": "Ten, from 32 to 46 inches, and nothing above 46.",
+        "animal-kingdom": "Three: Kali River Rapids at 38, Expedition Everest and Avatar Flight of Passage at 44."
+      },
+      "note": "Count is not intensity. Magic Kingdom's seven include Tomorrowland Speedway at 32 inches and The Barnstormer at 35, which are not thrill rides in any sense."
+    },
+    {
+      "name": "Best coaster",
+      "winner": "epcot",
+      "cells": {
+        "hollywood-studios": "Rock 'n' Roller Coaster Starring The Muppets (48in) — 0 to launch speed in under three seconds, multiple inversions, indoors and dark.",
+        "california-adventure": "Incredicoaster (48in) — a launched coaster along Pixar Pier with a single inversion and real airtime over the hills.",
+        "epcot": "Guardians of the Galaxy: Cosmic Rewind (42in) — a reverse launch into a coaster whose vehicles rotate to face the action. The best coaster Disney operates in America.",
+        "magic-kingdom": "TRON Lightcycle / Run (48in) — the fastest coaster at either resort, with a motorbike-style restraint and a short, sharp layout.",
+        "disneyland-park": "Matterhorn Bobsleds (42in) — historically important, physically rough, and the least comfortable ride at either resort.",
+        "animal-kingdom": "Expedition Everest (44in) — a mountain coaster with a backwards section and an 80-foot drop, still the best-themed coaster Disney has."
+      },
+      "note": "Cosmic Rewind and Everest are the two coasters worth planning a day around. TRON is the fastest but ends abruptly."
+    },
+    {
+      "name": "Drops and free-fall",
+      "winner": "hollywood-studios",
+      "cells": {
+        "hollywood-studios": "The Twilight Zone Tower of Terror (40in) — thirteen stories, randomized drop sequences, and the strongest sustained stomach-drop at either resort.",
+        "california-adventure": "Guardians of the Galaxy – Mission: BREAKOUT! (40in) — shorter shaft, sharper profile, and many riders find it more aggressive than Tower of Terror.",
+        "epcot": "None. Cosmic Rewind has no true drop and Test Track's thrill is speed rather than falling.",
+        "magic-kingdom": "Tiana's Bayou Adventure (40in) has a single flume drop; Seven Dwarfs and Big Thunder have none of consequence.",
+        "disneyland-park": "Tiana's Bayou Adventure (40in) only. No drop tower of any kind in the park.",
+        "animal-kingdom": "Expedition Everest's 80-foot drop is the park's only real one."
+      },
+      "note": "If drops are your thing, Hollywood Studios and California Adventure are the only two parks that deliver, and you should ride both towers before deciding which you prefer."
+    },
+    {
+      "name": "Water thrills",
+      "winner": "california-adventure",
+      "cells": {
+        "hollywood-studios": "None. There is no water ride in the park.",
+        "california-adventure": "Grizzly River Run (42in) — a circular raft ride that will genuinely soak you, with a drop and a spin cycle.",
+        "epcot": "None.",
+        "magic-kingdom": "Tiana's Bayou Adventure (40in), which wets the front row and mostly spares everyone else.",
+        "disneyland-park": "Tiana's Bayou Adventure (40in), same as Magic Kingdom's in effect.",
+        "animal-kingdom": "Kali River Rapids (38in) — genuinely wet, genuinely random about who gets it, and the lowest height stick of any Disney water thrill."
+      },
+      "note": "Grizzly River Run and Kali River Rapids are the two rides where you should assume you will be wet for the rest of the day. Ponchos help; shoes do not."
+    },
+    {
+      "name": "A full day for a thrill group",
+      "winner": "california-adventure",
+      "cells": {
+        "hollywood-studios": "Yes, but padded with simulators and shows. After the coaster, the tower, and Slinky Dog Dash, the rest is screens.",
+        "california-adventure": "Yes, comfortably. Two coasters, a drop tower, a rapids ride, a wild mouse, several flats, and Racers fill a day without repeating.",
+        "epcot": "No. Three intense rides and a lot of walking between them. Excellent half-day for this group.",
+        "magic-kingdom": "Marginal. Five mountains, none of them severe, plus a lot of content this group will skip.",
+        "disneyland-park": "No. Four moderate rides and an enormous roster of gentle classics.",
+        "animal-kingdom": "No. Everest, Kali, and Flight of Passage, and then you are looking at animals — which is a good day, just not this one."
+      },
+      "note": "For a group that only wants thrills, California Adventure is the only one of the six that fills a full day without repeats."
+    },
+    {
+      "name": "Motion sickness risk",
+      "winner": "magic-kingdom",
+      "cells": {
+        "hollywood-studios": "High. Star Tours, Smugglers Run, and Rise of the Resistance are all screen-based, and Mickey & Minnie's Runaway Railway spins.",
+        "california-adventure": "Moderate. Soarin' and WEB SLINGERS bother some riders; the coasters and tower are physical rather than visual.",
+        "epcot": "The highest of the six. Mission: SPACE Orange is a centrifuge, Cosmic Rewind rotates while moving, and Soarin' and Test Track both use large screens.",
+        "magic-kingdom": "Low. Almost everything is physical motion at moderate speed, with few screens.",
+        "disneyland-park": "Low to moderate. Star Tours and Smugglers Run are the main offenders; the rest is gentle.",
+        "animal-kingdom": "Moderate. Avatar Flight of Passage is a screen-based flight simulator that affects a meaningful number of riders."
+      },
+      "note": "If someone in your group gets motion sick, EPCOT is the park to be careful in, and Mission: SPACE Green exists at 40 inches specifically as the non-spinning version."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "hollywood-studios",
+      "headline": "The highest intensity ceiling at either resort, in the least pleasant park of the six.",
+      "body": [
+        "Rock 'n' Roller Coaster Starring The Muppets reopened on May 26, 2026 with a new theme and an unchanged ride: a high-speed indoor launch into multiple inversions, at a 48-inch requirement. Nothing else Disney runs in America has that profile. Ride it in the back row for the strongest launch sensation.",
+        "The Twilight Zone Tower of Terror is the other pillar. The drop sequence is randomized rather than fixed, so consecutive rides differ, and the free-fall is sharper than any other Disney attraction. Ride it twice — the second ride will not be the same as the first, which is not true of the California version's cousin.",
+        "Slinky Dog Dash at 38 inches is a genuine family coaster with two launches and enough airtime to matter. Beyond those three, the park's thrill content is screen-based: Star Tours at 40 inches, Millennium Falcon: Smugglers Run at 38, and Rise of the Resistance at 40, all of which are excellent rides and none of which apply force to your body.",
+        "The reason this park wins is concentration. Two of Disney's three most intense attractions are here, within a five-minute walk of each other, in a park you can do in a day."
+      ],
+      "pros": [
+        "Rock 'n' Roller Coaster is the most aggressive ride profile Disney operates.",
+        "Tower of Terror's randomized drop sequence means repeat rides differ.",
+        "Seven attractions carry height requirements, the densest at Walt Disney World.",
+        "Everything is close together, so a thrill-focused day covers the park quickly."
+      ],
+      "cons": [
+        "No water ride at all.",
+        "Only three genuinely physical attractions; the rest is screens.",
+        "The longest standby waits at Walt Disney World and very little shade to wait in.",
+        "The park itself is the least pleasant of the six to spend twelve hours in."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "california-adventure",
+      "headline": "The deepest thrill roster of the six, and the only one that fills a whole day without repeats.",
+      "body": [
+        "Thirteen attractions with height requirements, and unlike Magic Kingdom's seven, most of them earn it. Incredicoaster launches from a standstill along Pixar Pier with a single inversion and genuine airtime over the humps. Guardians of the Galaxy – Mission: BREAKOUT! runs a shorter, sharper drop cycle than Tower of Terror, and plenty of riders find it the more violent of the two.",
+        "Then the depth: Grizzly River Run at 42 inches is a proper soaking raft ride with a drop, Goofy's Sky School at 42 is a wild mouse with the hairpins wild mice are known for, Silly Symphony Swings and Jumpin' Jellyfish are real flat rides at 40 inches, and Radiator Springs Racers hits speed on its outdoor stretch. Pixar Pal-A-Round even offers swinging gondolas, which are more unsettling than they look.",
+        "The tactical advantage here is single rider. Radiator Springs Racers, Incredicoaster, Grizzly River Run, Goofy's Sky School, and Soarin' all run single rider lines, which is the best such setup at any Disney park. A group willing to be split up can ride Racers in under 20 minutes when standby is at 75."
+      ],
+      "pros": [
+        "Thirteen attractions with height requirements — the most of the six.",
+        "The only park of the six with a coaster, a drop tower, a rapids ride, and a wild mouse.",
+        "Five single rider lines, the best at any Disney park.",
+        "Cars Land at night is the best-looking place at either resort, at no cost and no wait."
+      ],
+      "cons": [
+        "Incredicoaster's launch is less forceful than Rock 'n' Roller Coaster's.",
+        "Monsters, Inc. Mike & Sulley to the Rescue! closed in early 2026, thinning the middle of the roster.",
+        "Very little shade in Cars Land and Pixar Pier, where most of the thrill content lives.",
+        "The Avengers Campus expansion that would add two more attractions is projected for 2027 or 2028 — an estimate, not a date."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "epcot",
+      "headline": "Three rides, all of them serious, including the best coaster and the most punishing attraction Disney operates.",
+      "body": [
+        "EPCOT should not be third on a thrill list based on ride count, and it is third anyway because all three of its serious attractions are exceptional.",
+        "Guardians of the Galaxy: Cosmic Rewind at 42 inches launches backwards and then runs a long, smooth layout while the ride vehicles rotate to point you at whatever the show wants you looking at. It is the best coaster Disney has built in the United States and the only one that would hold its own in a serious coaster park's lineup on ride design rather than force.",
+        "Test Track at 40 inches reopened on July 22, 2025 as its third version and remains the fastest attraction at Walt Disney World on its outdoor loop. It uses Lightning Lane Multi Pass, not Single Pass — a detail that older planning advice still gets wrong.",
+        "Mission: SPACE Orange at 44 inches is the outlier. It is a centrifuge that produces sustained G-forces for roughly a minute, and it is the only Disney attraction that regularly makes fit adults feel genuinely unwell. Ride it before you eat, not after. The 40-inch Green version is the same show with no spin."
+      ],
+      "pros": [
+        "Cosmic Rewind is the best-designed coaster at either resort.",
+        "Test Track is the fastest attraction at Walt Disney World.",
+        "Mission: SPACE Orange produces forces nothing else at Disney comes near.",
+        "Soarin' at 40 inches is a genuine dangle-your-feet sensation that plenty of people find unnerving."
+      ],
+      "cons": [
+        "Three serious rides in a 300-acre park means a lot of walking between them.",
+        "No drops, no inversions, and no water rides.",
+        "The highest motion sickness risk of the six by a distance.",
+        "A thrill-only group will finish the park's relevant content in about four hours."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "magic-kingdom",
+      "headline": "Five mountains, one genuinely fast ride, and nothing that will frighten an adult.",
+      "body": [
+        "Magic Kingdom has more coasters than any other Disney park in America — Space Mountain at 44 inches, Big Thunder Mountain Railroad at 38, Seven Dwarfs Mine Train at 38, The Barnstormer at 35, and TRON Lightcycle / Run at 48 — plus Tiana's Bayou Adventure at 40 with a flume drop. On paper, that is the deepest coaster lineup of the six.",
+        "In practice, they are family coasters. TRON is the exception: it is the fastest coaster at either resort, with a motorbike-style restraint that puts you in a low, exposed riding position, and the launch is genuinely quick. It is also over in a hurry, and the outdoor canopy section is the best part.",
+        "Space Mountain is worth riding for its roughness rather than its speed — the twin-track Florida version is jerkier and more disorienting than Disneyland's smoother single track, which some riders read as intensity and others read as an old ride. Big Thunder came down to 38 inches on May 3, 2026, which makes it the most family-accessible mountain at either resort.",
+        "Where Magic Kingdom lands for this group: a good half-day of moderate coasters attached to a park full of content thrill seekers will skip."
+      ],
+      "pros": [
+        "Five coasters, more than any other US Disney park.",
+        "TRON Lightcycle / Run is the fastest ride at either resort.",
+        "Space Mountain's twin-track version is the rougher, more disorienting of the two.",
+        "Big Thunder at 38 inches lets mixed-height groups ride together."
+      ],
+      "cons": [
+        "Nothing inverts, nothing free-falls, and nothing sustains force.",
+        "TRON's ride time is very short for the wait it commands.",
+        "Seven Dwarfs Mine Train is a two-minute family coaster with an outsized standby line.",
+        "For a thrill-only group, most of the park is irrelevant."
+      ]
+    },
+    {
+      "rank": 5,
+      "key": "disneyland-park",
+      "headline": "The best park on this site overall, and the fifth-best for thrills. Both things are true.",
+      "body": [
+        "Disneyland Park's thrill roster is Matterhorn Bobsleds at 42 inches, Space Mountain at 40, Big Thunder Mountain Railroad at 40, Indiana Jones Adventure at 46, and Tiana's Bayou Adventure at 40. Nothing launches, nothing inverts, and nothing drops more than a flume.",
+        "Matterhorn is the closest the park comes, and it earns its place through discomfort rather than design — the bobsleds are small, the track is jointed, and the ride is genuinely rough. Sit in the Tomorrowland-side queue for the slightly wilder of the two tracks. It is a ride worth doing once for its history and a ride your spine will remember.",
+        "Indiana Jones Adventure at 46 inches has the highest height requirement in the park and is not a thrill ride at all — it is an enhanced motion vehicle dark ride that jolts and pitches. It is one of the best rides Disney has ever built and it will not raise your heart rate.",
+        "The honest summary: if thrills are your only criterion, cross the esplanade to California Adventure and use Disneyland Park for everything else."
+      ],
+      "pros": [
+        "Space Mountain here is the better-engineered of the two versions, with onboard audio and a 40-inch stick.",
+        "Matterhorn Bobsleds has no equivalent anywhere else in the country.",
+        "Ten attractions carry height requirements, second only to California Adventure.",
+        "California Adventure's thrill roster is a three-minute walk away with a hopper."
+      ],
+      "cons": [
+        "No launches, no inversions, no drop tower, no rapids ride.",
+        "The tallest height requirement in the park is 46 inches.",
+        "Matterhorn's roughness is a byproduct of age rather than an intentional thrill.",
+        "A thrill-focused group will exhaust the park's relevant rides in two hours."
+      ]
+    },
+    {
+      "rank": 6,
+      "key": "animal-kingdom",
+      "headline": "One outstanding coaster, one soaking raft ride, and then you are looking at gorillas.",
+      "body": [
+        "Expedition Everest at 44 inches is the single best-themed coaster Disney has built: a real mountain, an 80-foot drop, a backwards section in total darkness, and a layout that holds up on repeat rides. On the strength of one ride, Animal Kingdom outranks parks with three times its thrill content in some people's estimation.",
+        "Kali River Rapids at 38 inches is the resort's genuinely wettest ride and has the lowest height requirement of any Disney water thrill, which makes it the family soaker. It is short for the wait it often commands.",
+        "Avatar Flight of Passage at 44 inches is not a thrill ride in the conventional sense, but it belongs in this conversation. It is a screen-based flight simulator on a motion base that leans you forward and moves with the imagery, and it produces a stronger physical sensation than most of Disney's coasters. It also causes motion sickness in a meaningful number of riders.",
+        "After those three, this is a zoo with a Disney budget — a genuinely great park, and the wrong one for this group. It also lost DINOSAUR in February 2026, which was the park's other physically rough attraction, and its replacement in the Tropical Americas project is not expected until 2027 at the earliest."
+      ],
+      "pros": [
+        "Expedition Everest is the best-themed coaster at either resort.",
+        "Kali River Rapids is a real soaker at only 38 inches.",
+        "Avatar Flight of Passage is the strongest physical sensation of any simulator Disney runs.",
+        "The shortest park day of the six, so a thrill group can hop out early."
+      ],
+      "cons": [
+        "Only three attractions with height requirements in the entire park.",
+        "DINOSAUR closed permanently in February 2026, removing the park's other rough ride.",
+        "No launches, no inversions, no drop towers.",
+        "The most isolated park at Walt Disney World, so leaving early is slow."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "intensity-ceiling",
+      "heading": "Where Disney's intensity ceiling actually sits",
+      "body": [
+        "It is worth being blunt about this, because a lot of trip planning goes wrong on it. Disney does not build extreme rides. The tallest height requirement across all six US parks is 48 inches, and it applies to exactly three attractions. By comparison, a regional amusement park's flagship coaster typically starts at 52 to 54 inches.",
+        "What Disney builds instead is ride systems: enhanced motion vehicles, trackless dark rides, motion-base simulators, and coasters designed around a show rather than a force profile. That is why Cosmic Rewind and Expedition Everest hold up on repeat rides in a way a bigger coaster with no story does not, and it is why Rise of the Resistance is more talked about than anything Disney has launched.",
+        "If your group's baseline is Cedar Point or Six Flags Magic Mountain, set expectations accordingly. Universal's Orlando and Hollywood parks are the closer competitors on force — VelociCoaster in particular is a genuine modern coaster of a kind Disney does not build. The right frame for a Disney trip is that the thrill rides are the seasoning, not the meal."
+      ],
+      "callout": {
+        "type": "note",
+        "body": "The three 48-inch attractions at either resort: TRON Lightcycle / Run at Magic Kingdom, Rock 'n' Roller Coaster Starring The Muppets at Hollywood Studios, and Incredicoaster at California Adventure. If you only care about the biggest rides, that is a three-park list."
+      }
+    },
+    {
+      "id": "the-hit-list",
+      "heading": "The ten rides worth structuring a trip around",
+      "body": [
+        "Ranked by how much they will do to you, not by how good they are. This list is what a thrill-focused visitor should plan against."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "**Mission: SPACE Orange** (EPCOT, 44in) — a centrifuge. The most physically demanding attraction Disney operates, and not a coaster.",
+          "**Rock 'n' Roller Coaster Starring The Muppets** (Hollywood Studios, 48in) — launch, inversions, darkness. Back row for the strongest launch.",
+          "**The Twilight Zone Tower of Terror** (Hollywood Studios, 40in) — randomized drop sequences, thirteen stories.",
+          "**Guardians of the Galaxy – Mission: BREAKOUT!** (California Adventure, 40in) — shorter shaft, sharper cycle, arguably more aggressive than Tower of Terror.",
+          "**Guardians of the Galaxy: Cosmic Rewind** (EPCOT, 42in) — reverse launch, rotating vehicles, the best coaster Disney has built here.",
+          "**Incredicoaster** (California Adventure, 48in) — launch with a loop and real airtime over the hills.",
+          "**Expedition Everest** (Animal Kingdom, 44in) — 80-foot drop, a backwards section in the dark, best theming of any Disney coaster.",
+          "**TRON Lightcycle / Run** (Magic Kingdom, 48in) — the fastest ride at either resort, over almost as soon as it starts.",
+          "**Test Track** (EPCOT, 40in) — the fastest sustained speed at Walt Disney World, on the outdoor loop.",
+          "**Grizzly River Run** (California Adventure, 42in) — the wettest ride at either resort, with a drop and a spin."
+        ]
+      }
+    },
+    {
+      "id": "tactics",
+      "heading": "Tactics that matter for a thrill-focused day",
+      "body": [
+        "A thrill group has a structural advantage over a family group and mostly does not use it: you can be split up, you have no stroller, and you do not need a midday break. That opens three tools.",
+        "**Single rider.** California Adventure is the standout — Radiator Springs Racers, Incredicoaster, Grizzly River Run, Goofy's Sky School, and Soarin' all run single rider lines. Racers via single rider is regularly a sub-20-minute wait against a 75-minute standby, which is the single largest time saving available at either resort and it costs nothing. Disneyland Park runs single rider at Matterhorn Bobsleds and Millennium Falcon: Smugglers Run. At Walt Disney World, Test Track and Expedition Everest are the two that matter.",
+        "**Ride order by seat.** Back row on Rock 'n' Roller Coaster for the launch, front row on Expedition Everest for the drop sightline, back row on Incredicoaster for airtime, outside seat on Radiator Springs Racers if you want to be on the passing side of the final race. Ask — cast members will accommodate a seat request if you are willing to wait one cycle.",
+        "**Repeat rides at close.** The last 45 minutes before park close is when thrill rides drain. Tower of Terror, Incredicoaster, and Expedition Everest all become near walk-ons at the end of the night while everyone else is watching fireworks. If you have already seen the nighttime show, that hour is worth more than the entire afternoon."
+      ],
+      "callout": {
+        "type": "tip",
+        "body": "Mission: SPACE Orange is the one attraction at either resort where the standard advice — ride it early, before you eat — is genuinely medical rather than tactical. It is a centrifuge, and the loading area has motion sickness bags stocked for a reason. If you are unsure, ride Green first."
+      }
+    },
+    {
+      "id": "which-resort-thrills",
+      "heading": "Which resort, if thrills are the point",
+      "body": [
+        "Walt Disney World, narrowly, and only because it has four parks to draw from. Assemble the best of Florida — Rock 'n' Roller Coaster, Tower of Terror, Cosmic Rewind, Test Track, Mission: SPACE Orange, Expedition Everest, TRON, Slinky Dog Dash, Kali River Rapids, and Space Mountain — and you have a stronger list than anything Anaheim assembles.",
+        "But the days are worse. Those rides are spread across four parks with 45-to-75-minute transfers between them, which means a thrill-focused Walt Disney World trip spends a lot of time on buses. Disneyland Resort's equivalent list is shorter but sits in two parks a three-minute walk apart, and with a hopper you can bounce between Incredicoaster, BREAKOUT, Racers, Grizzly River Run, Matterhorn, and Space Mountain all evening.",
+        "The practical recommendation for a group of adults or teenagers who came primarily to ride: three days at Disneyland Resort with a hopper. It is cheaper, denser, and you will get more rides per day even though Florida has more rides in total."
+      ]
+    }
+  ],
+  "pickThisIf": {
+    "hollywood-studios": [
+      "You want the single most aggressive ride profile Disney operates.",
+      "Drop towers are your thing and you want the randomized sequence version.",
+      "Star Wars and Toy Story rides are a bonus rather than a distraction.",
+      "You have one day and want maximum intensity in it."
+    ],
+    "california-adventure": [
+      "You want a full day of thrill content without repeating rides.",
+      "Single rider lines are a tool you will actually use.",
+      "You want a water ride that genuinely soaks you.",
+      "You are already at Disneyland Resort and can hop freely."
+    ],
+    "epcot": [
+      "You want the best-designed coaster Disney operates.",
+      "You want to find out what a centrifuge feels like at 44 inches.",
+      "Speed matters more to you than drops.",
+      "You will pair the three thrill rides with a serious eating and drinking day."
+    ],
+    "magic-kingdom": [
+      "You want the fastest coaster at either resort in TRON Lightcycle / Run.",
+      "You have mixed heights and Big Thunder at 38 inches lets everyone ride.",
+      "Coaster count matters to you more than coaster intensity.",
+      "You are going to Magic Kingdom anyway and want to know what is worth your time."
+    ],
+    "disneyland-park": [
+      "You want Matterhorn Bobsleds, which exists nowhere else.",
+      "You prefer the smoother, better-scored version of Space Mountain.",
+      "You are willing to hop to California Adventure for the actual thrills.",
+      "Ride quality matters to you more than force, in which case this park wins outright."
+    ],
+    "animal-kingdom": [
+      "Expedition Everest alone is worth a park day to you.",
+      "You want the wettest ride at Walt Disney World at only 38 inches.",
+      "Avatar Flight of Passage is on your must-ride list.",
+      "You want a shorter park day with a strong top end."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which Disney park has the most thrill rides?",
+      "a": "Disney California Adventure, with thirteen attractions carrying height requirements — a launched coaster, a drop tower, a rapids ride, a wild mouse, and several flat rides. Hollywood Studios has fewer but more intense ones, led by Rock 'n' Roller Coaster Starring The Muppets and The Twilight Zone Tower of Terror."
+    },
+    {
+      "q": "What is the most intense ride at Disney?",
+      "a": "Mission: SPACE Orange at EPCOT, and it is not a coaster. It is a centrifuge that produces sustained G-forces for roughly a minute, and it makes fit adults feel unwell more often than any other attraction at either resort. Ride it before you eat, and take the 40-inch Green version if you are unsure."
+    },
+    {
+      "q": "What is the fastest ride at Disney World?",
+      "a": "Test Track at EPCOT on its outdoor loop, with TRON Lightcycle / Run at Magic Kingdom the fastest coaster. Both are worth riding, but TRON's ride time is short relative to the wait it commands — use Lightning Lane or ride it in the last hour of the night."
+    },
+    {
+      "q": "Are Disney rides intense enough for a serious coaster fan?",
+      "a": "Honestly, no. The tallest height requirement across all six US Disney parks is 48 inches and only three rides carry it, whereas a modern regional coaster typically starts at 52 to 54 inches. Disney's strength is ride systems and theming rather than force. If forces are what you want, a coaster-focused park will serve you better."
+    },
+    {
+      "q": "Which is better, Tower of Terror or Mission: BREAKOUT!?",
+      "a": "Tower of Terror at Hollywood Studios has the better build-up, a longer shaft, and randomized drop sequences that make repeat rides different. Guardians of the Galaxy – Mission: BREAKOUT! at California Adventure has a shorter, sharper cycle that many riders find more physically aggressive. Both are 40 inches. Ride both before you take a side."
+    },
+    {
+      "q": "Which park is worst for motion sickness?",
+      "a": "EPCOT, comfortably. Mission: SPACE Orange is a centrifuge, Cosmic Rewind rotates its vehicles while moving, and Soarin' and Test Track are both large-screen attractions. Magic Kingdom is the safest of the six because almost all of its rides use physical motion at moderate speed with very few screens."
+    },
+    {
+      "q": "Should thrill seekers go to Disneyland or Disney World?",
+      "a": "Walt Disney World has the stronger list of rides, but they are spread across four parks with long transfers between them. Disneyland Resort's list is shorter and sits in two parks a three-minute walk apart, so a three-day Anaheim trip with a hopper delivers more rides per day. For a ride-focused group of adults or teens, Anaheim is the better trip."
+    },
+    {
+      "q": "Do any Disney rides go upside down?",
+      "a": "Only two in the United States: Rock 'n' Roller Coaster Starring The Muppets at Hollywood Studios, which has multiple inversions, and Incredicoaster at California Adventure, which has one. Both carry a 48-inch requirement. Nothing else at either resort inverts."
+    }
+  ],
+  "related": [
+    "which-disney-park-should-i-visit",
+    "epcot-vs-hollywood-studios",
+    "disneyland-vs-california-adventure",
+    "disney-park-rankings",
+    "disneyland-vs-disney-world"
+  ],
+  "lastVerified": "2026-07"
+}

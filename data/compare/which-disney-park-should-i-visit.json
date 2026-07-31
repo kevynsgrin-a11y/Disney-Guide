@@ -1,0 +1,405 @@
+{
+  "slug": "which-disney-park-should-i-visit",
+  "title": "Which Disney Park Should I Visit? A Decision Guide",
+  "h1": "Which Disney Park Should You Visit?",
+  "metaDescription": "A decision guide to all six US Disney parks, keyed to who you are travelling with, how many days you have, and what you actually want out of the trip.",
+  "summary": "Six parks, one answer for each kind of traveler. Magic Kingdom is the default and the right call more often than any other park — but it is the wrong call for at least three common groups.",
+  "readingTimeMinutes": 11,
+  "contenders": [
+    { "key": "magic-kingdom", "name": "Magic Kingdom", "subtitle": "Walt Disney World, Florida" },
+    { "key": "disneyland-park", "name": "Disneyland Park", "subtitle": "Disneyland Resort, California" },
+    { "key": "epcot", "name": "EPCOT", "subtitle": "Walt Disney World, Florida" },
+    { "key": "california-adventure", "name": "Disney California Adventure", "subtitle": "Disneyland Resort, California" },
+    { "key": "hollywood-studios", "name": "Disney's Hollywood Studios", "subtitle": "Walt Disney World, Florida" },
+    { "key": "animal-kingdom", "name": "Disney's Animal Kingdom", "subtitle": "Walt Disney World, Florida" }
+  ],
+  "verdict": {
+    "short": "If you cannot decide, go to Magic Kingdom — it is the right answer for more traveler types than any other park. If anyone in your group is over 12 or under 3, read further before booking.",
+    "body": [
+      "Magic Kingdom is the default recommendation and it earns that in a specific way: it is the park that is nobody's disaster. Toddlers have eighteen rides. Grandparents have shows and shade. First-timers get the version of Disney they already have in their head. It is the safest choice for a mixed group, and mixed groups are most groups.",
+      "That does not make it the best park, and this page is not the overall ranking — that lives on the park rankings page, where Disneyland Park comes first. This page ranks the six on how many kinds of traveler each one is genuinely right for, which is a different and more useful question when you are choosing.",
+      "The three groups Magic Kingdom is wrong for: adults traveling without children who care about food or drinking (EPCOT or California Adventure), thrill-focused teens and adults (Hollywood Studios or California Adventure), and anyone who wants the maximum number of rides in a day (Disneyland Park).",
+      "And one structural note that decides more trips than any park comparison: if you have four days or fewer, go to Disneyland Resort. If you have six or more, go to Walt Disney World. The park question follows the resort question, not the other way around."
+    ]
+  },
+  "intro": [
+    "Six parks, two resorts, and a question that has different right answers depending on who is in the car. This page is built as a decision tree rather than a review: work down to the description that fits your group and take the recommendation.",
+    "Three things drive the answer more than anything else — the youngest person in your party, the number of days you have, and whether ride count or atmosphere is what makes you happy. Everything else is refinement.",
+    "Below you will find a matrix of traveler types, a ranked list of the six parks by how broadly they fit, a straight decision tree, and a set of honest mismatches — the combinations of park and traveler that reliably produce a bad day. Rankings and facts here are current as of July 2026 and cover permanent operations only."
+  ],
+  "dimensions": [
+    {
+      "name": "First-time visitors",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "The definitive answer. Castle, parades, fireworks, and the classic ride roster — the version of Disney people already have in their heads.",
+        "disneyland-park": "Nearly as good, and a better park, but the density and the older infrastructure make it feel less like the postcard.",
+        "epcot": "A confusing first park. Half science campus, half world's fair, and it does not read as \"Disney\" to someone who has never been.",
+        "california-adventure": "Wrong first park. It is the second gate and it plays that way — great on day two, disorienting on day one.",
+        "hollywood-studios": "Strong if you are ride-focused, weak as an introduction. Most of the day is queueing rather than exploring.",
+        "animal-kingdom": "A beautiful park and an odd first impression. Six must-dos and a lot of walking through a zoo."
+      },
+      "note": "Two-thirds of first-timers who go somewhere other than a castle park first report wishing they had reversed the order. The castle park sets the frame for everything else."
+    },
+    {
+      "name": "Toddlers and preschoolers",
+      "winner": "disneyland-park",
+      "cells": {
+        "magic-kingdom": "About 18 attractions with no height requirement, two parades, five air-conditioned shows, and the best Baby Care Center at either resort.",
+        "disneyland-park": "About 24 attractions with no height requirement, a rebuilt Mickey's Toontown, and a hotel fifteen minutes from the castle for naps.",
+        "epcot": "Seven rides with no height stick, plus the best air conditioning per hour of any park. The distances are the problem.",
+        "california-adventure": "Five rides with no height requirement, plus two at 32 inches. A half day at that age, not a full one.",
+        "hollywood-studios": "Two rides, plus Alien Swirling Saucers at 32 inches. Genuinely a bad idea under five.",
+        "animal-kingdom": "Four rides, but animals, shaded trails, and The Boneyard playground do more work than the ride count suggests."
+      },
+      "note": "Under 40 inches, this row is the whole decision. Disneyland Park and Magic Kingdom are in one tier and everything else is in another."
+    },
+    {
+      "name": "Teenagers",
+      "winner": "california-adventure",
+      "cells": {
+        "magic-kingdom": "Five coasters, none intense. Teens enjoy it and do not talk about it afterward.",
+        "disneyland-park": "High ride count and Galaxy's Edge, but the mountains are gentle. Best paired with a hopper.",
+        "epcot": "Cosmic Rewind is the best coaster at Walt Disney World and Mission: SPACE Orange is a genuine challenge. Only three rides that count, though.",
+        "california-adventure": "Incredicoaster, Guardians of the Galaxy – Mission: BREAKOUT!, Radiator Springs Racers, Grizzly River Run, and single rider lines that let them split off and ride more.",
+        "hollywood-studios": "Rock 'n' Roller Coaster and Tower of Terror are the two most intense things Disney runs, plus Star Wars.",
+        "animal-kingdom": "Expedition Everest and Avatar Flight of Passage are both excellent, then the park runs out."
+      },
+      "note": "Teens want ride count and independence. Single rider lines matter more to this group than Lightning Lane does, and they are free."
+    },
+    {
+      "name": "Adults with no children",
+      "winner": "epcot",
+      "cells": {
+        "magic-kingdom": "The weakest of the six for this group. No bar, the worst food, and a roster built for families.",
+        "disneyland-park": "Better than Magic Kingdom on ride quality and nostalgia, still effectively dry outside three locations.",
+        "epcot": "The clear answer. Eleven pavilions, sixteen table-service restaurants, a full drinking lap, and two strong thrill rides.",
+        "california-adventure": "The Anaheim version of the same answer — the best bar program at any Disney park and the best average meal.",
+        "hollywood-studios": "Good for a ride-focused adult day, poor for a leisurely one. Oga's Cantina is the highlight.",
+        "animal-kingdom": "Underrated for adults. Tiffins, Nomad Lounge, the trails, and Pandora after dark make a genuinely good grown-up day."
+      },
+      "note": "If your group's idea of a good day involves a drink in hand and somewhere to sit, this row eliminates both castle parks."
+    },
+    {
+      "name": "Grandparents and limited mobility",
+      "winner": "magic-kingdom",
+      "cells": {
+        "magic-kingdom": "The best of the six. Wide walkways, the most seated air-conditioned shows, short distances between attractions, and plentiful transportation within the park.",
+        "disneyland-park": "Short distances, but dense crowds and older, narrower queue paths make wheelchair navigation harder.",
+        "epcot": "Long distances and little shade, though the indoor pavilions are frequent. Rent an electric conveyance vehicle here.",
+        "california-adventure": "Good. Short total distance, wide walkways, and a lot of seated shows and open space.",
+        "hollywood-studios": "Poor. Long unshaded standing queues and congested chokepoints.",
+        "animal-kingdom": "Mixed. The shade is the best of the six, but the distances are long and there are real grade changes."
+      },
+      "note": "Both resorts rent wheelchairs and electric conveyance vehicles, and both sell out on busy mornings. Reserve from an outside company if mobility support is essential rather than optional."
+    },
+    {
+      "name": "Repeat visitors on trip four or later",
+      "winner": "epcot",
+      "cells": {
+        "magic-kingdom": "The park that changes least. Still worth a day, rarely worth two by this point.",
+        "disneyland-park": "Deep enough that trip four still turns up rides you skipped. The dark-ride bench keeps rewarding attention.",
+        "epcot": "The best repeat park. Sixteen restaurants means there is always something you have not eaten, and the pace suits someone who is not chasing headliners.",
+        "california-adventure": "Rewards repeat visits through food and single rider efficiency rather than new content.",
+        "hollywood-studios": "The least rewarding on repeat. Same seven queues, same grind, every trip.",
+        "animal-kingdom": "Improves on repeat visits — the trails and animal viewing reward an unhurried second and third look."
+      },
+      "note": "The best repeat-visitor move at either resort is to book fewer park days and spend the extra time eating. That is not a compromise; it is the upgrade."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "magic-kingdom",
+      "headline": "The right answer for more kinds of traveler than any other park, and nobody's disaster.",
+      "body": [
+        "Magic Kingdom fits first-timers, families with small children, multi-generational groups, grandparents, and anyone who wants the version of Disney they have pictured since childhood. That is most people, most of the time, which is why it tops a breadth-of-fit ranking even though it is not the best park of the six.",
+        "The mechanics behind that: about 18 attractions with no height requirement, seven with them, two parades a day, five seated air-conditioned shows, the widest walkways of the six, the best Baby Care Center at either resort, and the strongest nighttime finish in American theme parks.",
+        "Where it fails is adults traveling alone or as couples. It has the worst food of the six parks, no bar anywhere, and a roster that is gentle by design. If your ideal park day involves a cocktail and a good meal, this is the wrong park and no amount of castle will fix it."
+      ],
+      "pros": [
+        "Works for every age in a mixed group without anyone being stranded.",
+        "The most complete single day of the six.",
+        "The best nighttime show and the most room to watch it.",
+        "The strongest accessibility infrastructure at either resort."
+      ],
+      "cons": [
+        "The worst food of the six parks and no bar in the park at all.",
+        "Nothing genuinely intense for a thrill-focused group.",
+        "Frontierland is thin with the Rivers of America attractions permanently closed.",
+        "The least surprising park to a repeat visitor."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "disneyland-park",
+      "headline": "The best park of the six, and the right answer for anyone whose trip is short or ride-focused.",
+      "body": [
+        "Disneyland Park operates roughly 55 attractions on 85 acres, the highest density in American theme parks. That makes it the right recommendation for two large groups: people who measure a good day in ride count, and people whose trip is four days or fewer.",
+        "It is also, quietly, the best toddler park in the country — about 24 attractions with no height requirement, more than Magic Kingdom, plus a Toontown rebuilt specifically for that age. And it holds a set of rides with no Florida equivalent at all: Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, Alice in Wonderland, Pinocchio's Daring Journey, Storybook Land Canal Boats, the Finding Nemo Submarine Voyage, and a Pirates of the Caribbean that runs roughly twice as long as the Magic Kingdom version.",
+        "It ranks second here rather than first only because it is a slightly worse fit for a broad, mixed, first-time group: the crowds are denser, the walkways narrower, the infrastructure older, and it does not read as the postcard the way Magic Kingdom does."
+      ],
+      "pros": [
+        "The highest ride count per day of any park in America.",
+        "The deepest roster for children under 40 inches.",
+        "A large set of attractions with no Florida equivalent.",
+        "The least dependent on paid Lightning Lane of the six."
+      ],
+      "cons": [
+        "Genuinely crowded, with narrow walkways and difficult stroller navigation.",
+        "Effectively dry outside three locations.",
+        "Tomorrowland has been visually incoherent for two decades.",
+        "You cannot finish it in a day, which frustrates some visitors."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "epcot",
+      "headline": "The right answer for adults, for repeat visitors, and for anyone whose limiting factor is heat.",
+      "body": [
+        "EPCOT is the park that most improves as your group gets older and your trips get more frequent. Sixteen table-service restaurants, eleven country pavilions, a full drinking lap around a lake, and a pace that rewards sitting down.",
+        "It is also underrated for young children, with seven rides carrying no height requirement, the best air conditioning per hour of the six, an actual aquarium in the Seas pavilion, and the Journey of Water splash walk. The problem for that group is distance, not content.",
+        "And it has real thrill credentials that get overlooked: Guardians of the Galaxy: Cosmic Rewind is the best coaster at Walt Disney World, Test Track is the fastest ride on property, and Mission: SPACE Orange at 44 inches is the most physically demanding attraction Disney operates.",
+        "Its weakness is the single-day visit. Three hundred acres split into a ride half and an eating half means one day forces a choice, which is why it ranks last on the one-day page and third here."
+      ],
+      "pros": [
+        "The best eating and drinking at Walt Disney World, by a wide margin.",
+        "The most indoor, air-conditioned attractions of the six.",
+        "The best coaster at Walt Disney World in Cosmic Rewind.",
+        "The strongest repeat-visit value of any park at either resort."
+      ],
+      "cons": [
+        "Three hundred acres with the highest walking load of the six.",
+        "One day forces a choice between the rides and World Showcase.",
+        "Very little shade between pavilions.",
+        "Several pavilion restaurants are ordinary food at premium prices."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "california-adventure",
+      "headline": "The right answer for teens, for thrill groups, and for anyone who wants the best food at either resort.",
+      "body": [
+        "California Adventure is the most improved park in Disney's American portfolio and it is still judged by its 2001 opening. The version standing today has Radiator Springs Racers, Incredicoaster, Guardians of the Galaxy – Mission: BREAKOUT!, Soarin' Around the World, Grizzly River Run, WEB SLINGERS, Toy Story Midway Mania, and World of Color.",
+        "It fits three groups exceptionally well. Teenagers, who get the thrill roster and five single rider lines to use independently. Adults who want to eat and drink, because this is the best food and bar program at any Disney park in America. And anyone with a Disneyland Resort hopper, because the park is three minutes from Disneyland Park's gate and its best hours are after dark.",
+        "It ranks fourth because it is a poor first park and a thin one for small children — about five attractions with no height requirement, versus Disneyland Park's 24 across the esplanade."
+      ],
+      "pros": [
+        "The best food and bar program of any American Disney park.",
+        "The deepest thrill roster of the six, with thirteen attractions carrying height requirements.",
+        "Five single rider lines — the best at any Disney park, and free.",
+        "The shortest total walking distance of the six parks."
+      ],
+      "cons": [
+        "Thin for children under 40 inches.",
+        "A poor choice for a first Disney park.",
+        "Very little shade in Cars Land and Pixar Pier.",
+        "Monsters, Inc. Mike & Sulley to the Rescue! closed in early 2026 and its replacement has no announced date."
+      ]
+    },
+    {
+      "rank": 5,
+      "key": "hollywood-studios",
+      "headline": "The right answer for one specific group: ride-focused visitors over 40 inches who want the biggest attractions in Florida.",
+      "body": [
+        "Hollywood Studios has the highest headliner concentration at Walt Disney World — Star Wars: Rise of the Resistance, The Twilight Zone Tower of Terror, Rock 'n' Roller Coaster Starring The Muppets, Slinky Dog Dash, Mickey & Minnie's Runaway Railway, Millennium Falcon: Smugglers Run, and Toy Story Midway Mania in 135 acres.",
+        "For teenagers, Star Wars fans, and adults who came primarily to ride, it is the strongest single day at the resort. Rise of the Resistance is the attraction people talk about on the flight home, and Tower of Terror remains the best drop ride Disney has built.",
+        "It ranks fifth on breadth because it is the wrong park for almost everyone else. Under 38 inches there are two rides. The standby waits are the longest at Walt Disney World with almost no low-wait content to absorb them. The shade is the worst of the six. And it lost Muppet*Vision 3D in 2025, which removed its most useful air-conditioned break."
+      ],
+      "pros": [
+        "The strongest headliner concentration at Walt Disney World.",
+        "Rise of the Resistance and Tower of Terror are two of Disney's best attractions.",
+        "More theater seating than any other park, which is how you survive the afternoon.",
+        "Compact — total walking distance is low."
+      ],
+      "cons": [
+        "Two attractions for anyone under 38 inches.",
+        "The longest standby waits at Walt Disney World with no filler to absorb them.",
+        "The most dependent on paid Lightning Lane of the six.",
+        "The worst shade of the six parks."
+      ]
+    },
+    {
+      "rank": 6,
+      "key": "animal-kingdom",
+      "headline": "The narrowest fit of the six, and the best park in the country for the people it does fit.",
+      "body": [
+        "Animal Kingdom is not sixth because it is bad. It is sixth because the set of travelers for whom it is the right first pick is small: animal lovers, people who want a calm and unhurried day, and anyone whose main goal is Avatar Flight of Passage or Pandora after dark.",
+        "For those people it is exceptional. Kilimanjaro Safaris is a genuine game drive. The Gorilla Falls and Maharajah Jungle Trek trails are queue-free, self-paced, and heavily shaded — the best shade of the six parks by a wide margin. Expedition Everest is the best-themed coaster Disney has built. Festival of the Lion King is the strongest stage show at either resort. And Satu'li Canteen is the best quick service at Walt Disney World.",
+        "Its structural problems are real. Six must-do attractions is the shortest list of the six. There is no nighttime spectacular, so the day ends without a finish. It is the most isolated park at the resort, with the worst nap and midday-break logistics. And it lost DINOSAUR and Restaurantosaurus in February 2026 for the Tropical Americas project, which Disney has targeted for 2027 — the only announced date among the resort's construction projects, and still an estimate."
+      ],
+      "pros": [
+        "The best shade at either resort, which changes what a Florida afternoon feels like.",
+        "Avatar Flight of Passage is arguably the best attraction at Walt Disney World.",
+        "Queue-free, self-paced animal trails you can do at any pace.",
+        "The best quick-service meal on property at Satu'li Canteen.",
+        "Underrated for adults — Tiffins and Nomad Lounge make a genuinely good grown-up day."
+      ],
+      "cons": [
+        "Only six must-do attractions and three with height requirements.",
+        "No nighttime spectacular, so the day fizzles rather than ends.",
+        "The most isolated park at Walt Disney World.",
+        "DINOSAUR closed permanently in February 2026, thinning an already short list.",
+        "Long distances and grade changes make it hard work in the heat."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "decision-tree",
+      "heading": "The decision tree",
+      "body": [
+        "Work down this list and stop at the first line that describes your group. It will be right more often than a general ranking."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "**You have four days or fewer, anywhere in the country:** Disneyland Resort. Two days Disneyland Park, one California Adventure, hopper on all of them. The Florida parks need more days than you have.",
+          "**Your youngest is under three:** Disneyland Park if you are choosing a resort, Magic Kingdom if Florida is already decided. Both have the ride roster; Anaheim has the nap logistics.",
+          "**It is your first Disney trip and you have a week:** Walt Disney World, and give day one to Magic Kingdom. Day two to Hollywood Studios if everyone clears 40 inches, EPCOT if not.",
+          "**You are traveling as adults with no children:** EPCOT at Walt Disney World, California Adventure at Disneyland Resort. Both castle parks are the wrong call for this group.",
+          "**Your group is teenagers:** California Adventure or Hollywood Studios. Teens want ride count and independence, and both parks deliver — California Adventure with single rider lines, Hollywood Studios with the two most intense rides Disney runs.",
+          "**Someone in your group has limited mobility or fatigues easily:** Magic Kingdom. Widest walkways, most seated shows, shortest distances between attractions, and the best in-park transportation.",
+          "**You want the most rides in a single day:** Disneyland Park. Twenty to twenty-five attractions in a day is normal there and impossible anywhere else.",
+          "**You care most about food and drinking:** EPCOT for breadth, California Adventure for quality. Neither castle park belongs in this conversation.",
+          "**You want animals, quiet, and shade:** Animal Kingdom, and go on a day when you are not trying to do anything else.",
+          "**Star Wars is the reason for the trip:** Hollywood Studios in Florida, Disneyland Park in California. Magic Kingdom has no Star Wars presence at all."
+        ]
+      },
+      "callout": {
+        "type": "note",
+        "body": "The resort question comes before the park question. Four days or fewer strongly favors Disneyland Resort; six or more strongly favors Walt Disney World. Five days is a genuine coin flip and should be decided by who is in your group rather than by park lists."
+      }
+    },
+    {
+      "id": "by-days",
+      "heading": "Which parks, by how many days you have",
+      "body": [
+        "Park choice is mostly a function of days available. This is the allocation that survives contact with reality.",
+        "**One day, Walt Disney World:** Magic Kingdom. No hopper. Accept that you flew to Florida for one park.",
+        "**One day, Disneyland Resort:** Disneyland Park. No hopper. There is more here than a day holds.",
+        "**Two days, Walt Disney World:** Magic Kingdom and Hollywood Studios if your group clears 40 inches; Magic Kingdom and EPCOT if not.",
+        "**Two days, Disneyland Resort:** a day and a half at Disneyland Park, half a day at California Adventure timed for the evening.",
+        "**Three days, Walt Disney World:** Magic Kingdom, Hollywood Studios, then EPCOT or Animal Kingdom depending on whether your group would rather eat or look at animals.",
+        "**Three days, Disneyland Resort:** two Disneyland Park, one California Adventure, hopper on all three.",
+        "**Four days, Walt Disney World:** one per park, and give the extra half-day to EPCOT rather than a second Magic Kingdom day.",
+        "**Five or more days, Walt Disney World:** two Magic Kingdom, one and a half EPCOT, one Hollywood Studios, one Animal Kingdom, and one day out of the parks entirely. The rest day is not optional and everyone who skips it regrets it."
+      ]
+    },
+    {
+      "id": "mismatches",
+      "heading": "The mismatches that ruin trips",
+      "body": [
+        "These combinations reliably produce a bad day, and they are all avoidable.",
+        "**A toddler at Hollywood Studios.** Under 38 inches the entire park offers three rides. Families do this because someone older wants Rise of the Resistance, then spend eight hours managing a child who cannot ride anything.",
+        "**Adults with no kids at Magic Kingdom, expecting a food day.** There is no bar in the park, and the headline restaurants sell rooms rather than meals. Go for the rides and the fireworks, and eat somewhere else.",
+        "**A one-day EPCOT visit trying to do both halves.** Three hundred acres does not compress. Ride the front or eat around the lake — attempting both is the single most common EPCOT mistake.",
+        "**A thrill-focused group at Disneyland Park.** Four moderate rides and then a lot of gentle classics. Cross the esplanade; California Adventure is where the thrills are.",
+        "**A three-day Walt Disney World trip.** You will see three parks at 70 percent each and spend a disproportionate share of the trip on buses. Three days is a Disneyland Resort trip.",
+        "**Skipping the midday break with anyone under six.** This is not a park mismatch, it is a schedule one, and it ends more Disney days than crowds and weather combined."
+      ]
+    },
+    {
+      "id": "budget",
+      "heading": "Choosing on budget",
+      "body": [
+        "If cost is the deciding factor, the park matters less than the resort and the hotel.",
+        "Disneyland Resort is cheaper for trips of four days or fewer, almost entirely because of where you sleep. Dozens of independent hotels sit within a fifteen-minute walk of the gate at ordinary hotel prices, which is faster than most Walt Disney World hotels get you to three of the four Florida parks. There is no equivalent option in Orlando.",
+        "Walt Disney World is cheaper per day on long trips, because the marginal cost of an extra day is low once you have flown and booked a room, and there is genuinely more to do on days five through eight.",
+        "Within the parks, the cost lever that matters most is Lightning Lane. As of July 2026, Walt Disney World's Multi Pass ran roughly $15 to $45 per person per day depending on park and date, Single Pass roughly $12 to $25 per ride, and Disneyland Resort's Multi Pass started around $34 per person per day. For a family of four across five days, that is a meaningful fraction of a hotel night.",
+        "The parks where you can most reasonably skip it: Disneyland Park, because its depth lets you fill gaps with short waits, and EPCOT, where only three attractions carry real demand. The park where a one-day visitor should not be brave about it: Hollywood Studios."
+      ],
+      "callout": {
+        "type": "money",
+        "body": "Two free tools save more time than most paid ones. Single rider lines — best at California Adventure, where five attractions run them — regularly cut a 75-minute wait to under 20. And Rider Switch lets one adult ride while the other waits with a child, then swap without re-queuing. Neither is offered proactively. Ask."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "magic-kingdom": [
+      "It is your first Disney trip and you want the definitive version.",
+      "Your group spans three generations and nobody can be stranded.",
+      "Somebody in your party has limited mobility or tires easily.",
+      "You want two parades, the most character meets in America, and the best fireworks finish.",
+      "You have exactly one Walt Disney World day."
+    ],
+    "disneyland-park": [
+      "Your trip is four days or fewer.",
+      "You measure a good day in ride count.",
+      "You have a child under 40 inches and want the deepest roster they can ride.",
+      "You want Indiana Jones Adventure, Matterhorn Bobsleds, or the full-length Pirates of the Caribbean.",
+      "You would rather not buy paid line-skipping and still have a full day."
+    ],
+    "epcot": [
+      "You are traveling as adults and want to eat and drink your way through a day.",
+      "Heat is your limiting factor and you need indoor attractions.",
+      "This is your fourth trip and the headliner grind has stopped appealing.",
+      "You want the best coaster at Walt Disney World.",
+      "You have a day and a half rather than a single day."
+    ],
+    "california-adventure": [
+      "Your group is teenagers who want thrills and independence.",
+      "You want the best food and the only real bar program at Disneyland Resort.",
+      "You will use single rider lines, which are best in class here.",
+      "You already have a hopper and want somewhere to spend the evening.",
+      "You want a park you can genuinely finish in a day."
+    ],
+    "hollywood-studios": [
+      "Star Wars is the reason for the Florida trip.",
+      "Everyone in your group is at least 40 inches.",
+      "You want the two most intense rides Disney operates in one park.",
+      "You are buying Lightning Lane and intend to use it aggressively.",
+      "Your teens want the biggest attractions at Walt Disney World."
+    ],
+    "animal-kingdom": [
+      "Animals are the point, not a bonus.",
+      "You want the calmest and shadiest day at Walt Disney World.",
+      "Avatar Flight of Passage is your single must-ride attraction.",
+      "You would rather walk trails at your own pace than stand in queues.",
+      "You want the best quick-service meal on property."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which Disney park should I visit first?",
+      "a": "Magic Kingdom at Walt Disney World, or Disneyland Park at Disneyland Resort. The castle parks set the frame for everything else, and visitors who start elsewhere frequently report wishing they had reversed the order. EPCOT and California Adventure both make more sense as second days."
+    },
+    {
+      "q": "Which Disney park is best overall?",
+      "a": "Disneyland Park, on ride roster and density — it operates roughly 55 attractions on 85 acres and holds a large set of rides with no Florida equivalent. This page ranks the six on breadth of fit rather than quality, which is why Magic Kingdom tops it: it is the right answer for more kinds of traveler than any other park."
+    },
+    {
+      "q": "Should I go to Disneyland or Disney World?",
+      "a": "Four days or fewer, Disneyland Resort. Six or more, Walt Disney World. Five days is a coin flip decided by your group: families with young children and first-timers lean Orlando, adults and repeat visitors lean Anaheim. The resort choice matters far more than the park choice."
+    },
+    {
+      "q": "Which Disney park is best for adults without kids?",
+      "a": "EPCOT in Florida and California Adventure in California. Both have real bar programs, serious restaurants, and enough thrill content to fill a day. Magic Kingdom is the weakest of the six for this group — no bar anywhere in the park and the worst food of the six."
+    },
+    {
+      "q": "Which Disney park should I skip?",
+      "a": "It depends entirely on your group, but the two most commonly regretted days are Hollywood Studios with a child under 38 inches, who will have three rides available, and a one-day EPCOT visit that tries to cover both the ride half and World Showcase. If you have four Walt Disney World days and one has to go, Animal Kingdom is the shortest day and the easiest to compress into a half."
+    },
+    {
+      "q": "How many Disney parks can I do in a week?",
+      "a": "All four Florida parks comfortably, with two days at Magic Kingdom and a day out of the parks entirely. That rest day is the one most people cut and the one they most regret cutting. At Disneyland Resort, a week is more days than the two parks need — plan for three or four park days and use the rest for the coast or Los Angeles."
+    },
+    {
+      "q": "Which park has the most rides?",
+      "a": "Disneyland Park, with roughly 55 operating attractions on 85 acres — the highest density in American theme parks. Magic Kingdom has about 44 on 107 acres. Hollywood Studios and Animal Kingdom have the shortest lists, at roughly 31 operating attractions each."
+    },
+    {
+      "q": "Is a park hopper worth buying?",
+      "a": "At Disneyland Resort, on any trip of two days or more — the gates are a three-minute walk apart, so hopping costs a bag check rather than an hour. At Walt Disney World it is rarely worth it on trips shorter than five days, because a park-to-park transfer takes 30 to 60 minutes and both resorts hold hopping until later in the morning."
+    }
+  ],
+  "related": [
+    "disney-park-rankings",
+    "disneyland-vs-disney-world",
+    "best-disney-park-for-one-day",
+    "best-disney-park-for-toddlers",
+    "best-disney-park-for-food",
+    "best-disney-park-for-thrill-seekers"
+  ],
+  "lastVerified": "2026-07"
+}

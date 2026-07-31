@@ -1,0 +1,119 @@
+{
+  "month": 2,
+  "name": "February",
+  "slug": "february",
+  "summary": "February is a good month with one bad week in the middle of it. Presidents' week is the sharpest single-week spike of the first half of the year; the three weeks around it are quiet, cheap, and carry more festival content than any other month at either resort.",
+  "verdict": {
+    "grade": "B",
+    "short": "Excellent everywhere except Presidents' week, which behaves like a holiday week. Four festivals run this month — more seasonal content per day than any other point on the calendar.",
+    "bestFor": [
+      "Food and festival trips — EPCOT and Disney California Adventure both run marketplaces this month",
+      "Anyone who can travel in the last full week, one of the two best value windows before summer",
+      "Walt Disney World visitors who want March's weather without March's spring break traffic",
+      "Couples, because the crowd level supports an unstructured day and the dining is at its best",
+      "Disneyland visitors willing to gamble on rain, which reliably empties the park"
+    ],
+    "worstFor": [
+      "Presidents' week, which prices and fills like Easter at both resorts",
+      "Anyone counting on Southern California sunshine — this is Anaheim's wettest month on the normals",
+      "Valentine's weekend dining, where table-service availability collapses at both resorts",
+      "Pool and water park days at Walt Disney World, still a coin flip on any given afternoon",
+      "Visitors who want Flower and Garden at full strength, which it does not reach until March"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "February is two quiet stretches separated by one hard spike, and the spike has a different mechanism from spring break. Most of the Northeast and Midwest take a mid-winter break in the same week around Presidents' Day, and unlike spring break — which staggers across five or six weeks by district — this one is synchronized. The result is a single week that reaches genuine peak levels at both resorts and then unwinds almost immediately. At Disneyland the pattern is complicated by annual pass block-outs: the cheaper pass tiers are typically blocked through Presidents' week, which strips out a chunk of local attendance, but out-of-state visitors and half-term traffic from Mexico more than fill the gap, so the park runs busier than a passholder would predict. Outside that week, February at Walt Disney World is close to January levels with better weather and longer hours, and Disneyland weekdays stay soft right up until the last few days of the month, when spring break's earliest districts start to appear.",
+    "peakWindows": [
+      "Presidents' week, roughly the Saturday before the holiday through the following weekend",
+      "Valentine's weekend, which is a dining and evening-crowd spike rather than a ride-wait spike",
+      "Saturdays at Disneyland throughout the month"
+    ],
+    "quietWindows": [
+      "The first full week, effectively an extension of late January",
+      "The week immediately after Presidents' week, when the drop-off is faster than the ramp-up was",
+      "Any rainy weekday at Disneyland, which can produce walk-ons on major attractions"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 75,
+      "lowF": 53,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. February is the driest stretch of the Orlando year with the lowest humidity, and the afternoons are the most comfortable the park schedule ever offers. Mornings and nights are cold by Florida standards — a 6 PM temperature in the upper 50s is normal, and the water parks close outright when a front pushes through."
+    },
+    "dlr": {
+      "highF": 69,
+      "lowF": 48,
+      "rainDays": 6,
+      "note": "Climate normals for Anaheim, not a forecast. February is the wettest month of the Southern California year on the normals, and when a system stalls it rains for two days rather than twenty minutes. That is a planning risk and a planning opportunity in equal measure, because rain is the one condition that reliably thins a Disneyland crowd."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "The pricing structure this month is unusually legible. Walt Disney World's date-based ticket tiers step up for Presidents' week and step straight back down after it, and the resort hotels carry a distinct Presidents' week rate season that sits well above the weeks on either side for the identical room. The rest of February prices as winter shoulder. Airfare is the lever most people miss: Orlando fares in the last week of February are among the cheapest of the year, because the winter leisure market has finished and the spring break market has not started booking travel yet. Anaheim's hotel rates barely move for February at all, which makes the resort comparatively better value in the spike week and comparatively worse in the quiet ones."
+  },
+  "whatsOn": [
+    "epcot-festival-of-the-arts",
+    "lunar-new-year-at-disney-california-adventure",
+    "epcot-flower-and-garden-festival",
+    "disney-california-adventure-food-and-wine-festival",
+    "disney-after-hours",
+    "disneyland-after-dark"
+  ],
+  "planningNotes": [
+    {
+      "heading": "If your dates are Presidents' week, shift right rather than left",
+      "body": [
+        "The asymmetry in this week is the useful part. Attendance ramps into Presidents' week over several days as districts release at slightly different times, but it clears in about two days afterward, because a synchronized break ends synchronously. That means the week after is materially quieter than the week before at the same ticket tier.",
+        "If the dates are genuinely fixed to the holiday week, the highest-leverage decision is which parks you take on which days. Magic Kingdom and Hollywood Studios absorb a holiday crowd worst; EPCOT and Animal Kingdom absorb it best, because EPCOT's festival footprint spreads people around World Showcase and Animal Kingdom's acreage swallows them. Put the two hardest parks on your arrival Sunday and departure Friday, not on the Tuesday and Wednesday in the middle.",
+        "At Disneyland the equivalent move is to buy the park hopper and use it in reverse — Disney California Adventure in the morning while everyone queues for Disneyland Park, then cross over after dinner."
+      ]
+    },
+    {
+      "heading": "Four festivals, and a changeover worth targeting",
+      "body": [
+        "February is the only month that can put two EPCOT festivals in a single trip. The Festival of the Arts runs into late February and the Flower and Garden Festival opens at the end of February or the start of March, and in some years the two overlap by a handful of days. Treat that overlap as a bonus if it happens rather than as something to book around, because the changeover dates are not published far enough ahead to plan against.",
+        "The Disney California Adventure Food and Wine Festival also opens in the back half of the month, which means the last week of February can hand you festival marketplaces at both resorts. Nothing else on the calendar does that.",
+        "The practical note on all festival marketplaces: the booths open with the park or shortly after, and they are close to empty for the first two hours. Anybody who eats their way around World Showcase before 1 PM has a completely different experience from somebody who starts at 5 PM."
+      ]
+    },
+    {
+      "heading": "Lunar New Year at Disney California Adventure is a walk-up event",
+      "body": [
+        "The Lunar New Year celebration runs from mid-January into mid-February and uses the same marketplace structure as the resort's other festivals, plus a procession that runs a few times a day rather than continuously. No ticket is required beyond park admission.",
+        "The actionable detail is showtimes. The procession's weekday early-afternoon runs have room along the parade route; the evening and weekend runs do not, and people stake out curb space forty minutes ahead for them. If seeing it matters, take a weekday and take the earlier showing.",
+        "The food here is better value than the equivalent booths at EPCOT and the lines are shorter, which is a reasonable argument for putting a Disney California Adventure day in the front half of a February Disneyland trip."
+      ]
+    },
+    {
+      "heading": "Rain is Disneyland's best crowd control, and it is survivable",
+      "body": [
+        "Southern California rain empties the park in a way Florida rain does not, because Anaheim's crowd is heavily local and locals with passes simply come back another day. Disneyland keeps most of its capacity running in rain — the indoor dark rides, which are the bulk of the roster, are unaffected — so a wet Tuesday in February can deliver waits you would otherwise need to visit in September to see.",
+        "Pack a poncho, not an umbrella. Umbrellas are unmanageable in a switchback queue and several attractions will ask you to collapse them anyway. Waterproof shoes matter more than a waterproof jacket, because standing water in the walkways is the part that ends the day.",
+        "The attractions that do close are the outdoor ones with exposed track and the aerial ride at Disney California Adventure. Build the wet hours around New Orleans Square and Fantasyland and save the outdoor headliners for the clearing."
+      ]
+    },
+    {
+      "heading": "Book dining before you book anything else this month",
+      "body": [
+        "February compresses two dining problems into four weeks. Valentine's weekend removes most of the table-service availability at both resorts, and Presidents' week removes the rest. The reservation window opens well ahead of either, and the good tables are gone within minutes of it opening for those specific dates.",
+        "The non-obvious workaround is lunch. Signature restaurants that are impossible at 7 PM on Valentine's weekend are frequently available at 11:30 AM at a lower price for a nearly identical menu, and a midday table also solves the problem of what to do during the busiest hours of a busy day.",
+        "If the reservation does not materialize, the festival booths are a legitimate dinner. That is more true in February than in any other month, because there are marketplaces running at both resorts simultaneously."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Disney California Adventure first-timer guide", "href": "/disneyland/california-adventure/first-timer-guide/", "site": 1 },
+    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
+    { "label": "Mobile order and dining reservations", "href": "/guides/mobile-order-and-dining/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Festival openings follow typical windows; the Arts-to-Flower-and-Garden changeover in particular is never confirmed far ahead.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

@@ -1,0 +1,1824 @@
+{
+  "park": "hollywood-studios",
+  "dining": [
+    {
+      "slug": "the-hollywood-brown-derby",
+      "name": "The Hollywood Brown Derby",
+      "land": "hollywood-boulevard",
+      "service": "table-service",
+      "cuisine": "American fine dining",
+      "priceTier": "$$$$",
+      "priceNote": "Entrees generally run from the high $30s into the $60s; expect $70 to $90 per adult with a drink and dessert as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's signature restaurant, a recreation of the Los Angeles original, and the only genuinely quiet dining room at Hollywood Studios.",
+      "description": [
+        "The Brown Derby recreates the Hollywood restaurant where studio deals were made in the 1930s and 1940s: dark wood, white tablecloths, caricatures on the walls, deep booths, and a noise level low enough to hold a conversation. In a park where every other dining room is loud on purpose, that is the main thing it sells.",
+        "The kitchen is a genuine signature-tier operation rather than a theme park restaurant with high prices. The Cobb salad is the historical dish and it is prepared and tossed properly; the grapefruit cake is the other item that has been on the menu since the original restaurant. Beyond those two, the menu rotates and leans toward steak, fish and pasta done straightforwardly and well.",
+        "It is expensive, and there is no dressing that up. Two adults having a full meal here will spend well over $150 as of July 2026. What you are buying is a real restaurant experience inside a theme park: attentive service, an actual wine list, and ninety minutes off your feet in a cool, quiet room."
+      ],
+      "signatureItems": [
+        "Cobb salad",
+        "Grapefruit cake",
+        "Filet of beef",
+        "Duck two ways",
+        "Brown Derby old fashioned"
+      ],
+      "goodFor": [
+        "date-night",
+        "special-occasion",
+        "splurge",
+        "air-conditioned-break",
+        "solo"
+      ],
+      "tips": [
+        "Book at 60 days out for dinner. Lunch is far easier to get and the menu overlaps substantially with dinner at lower prices.",
+        "The lounge on the patio takes walk-ups and serves the Cobb salad and the grapefruit cake, which is the cheapest legitimate way to eat the two signature dishes.",
+        "Ask for a booth along the wall rather than a center table. The room is quiet everywhere but the booths are the reason people remember eating here.",
+        "It is a Disney Signature restaurant, so a dining plan credit covers two table-service credits rather than one.",
+        "Repeat visitors: the Cobb salad is tossed to order and the kitchen will build it without a component on request, which most people never think to ask."
+      ],
+      "verdict": "The best meal inside this park and worth the money once per trip if a quiet, proper dinner matters to you. If you just want food, you are paying roughly triple for the room.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at The Hollywood Brown Derby?",
+          "a": "For dinner, effectively yes; it books out well in advance at 60 days. Lunch is easier and same-day availability does appear, particularly for parties of two. The adjacent lounge takes walk-ups."
+        },
+        {
+          "q": "What should you order at The Hollywood Brown Derby?",
+          "a": "The Cobb salad and the grapefruit cake are the two dishes carried over from the original Los Angeles restaurant and are the reason to come. Everything else is well executed but interchangeable with any good steakhouse."
+        },
+        {
+          "q": "Is it worth the price?",
+          "a": "It is the only quiet, tablecloth dining room in the park, and if that is worth something to you then yes. If you are indifferent to atmosphere you will eat better value at Mama Melrose's or a quick-service counter."
+        },
+        {
+          "q": "Is there a dress code?",
+          "a": "No formal dress code. Theme park clothing is normal and nobody will look at you strangely, though you will see people who have made an effort."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-hollywood-brown-derby-lounge",
+      "name": "The Hollywood Brown Derby Lounge",
+      "land": "hollywood-boulevard",
+      "service": "lounge",
+      "cuisine": "Small plates and cocktails",
+      "priceTier": "$$",
+      "priceNote": "Small plates mostly in the mid teens to high twenties; cocktails in the mid teens as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The covered outdoor patio attached to the Brown Derby, taking walk-ups for cocktails, small plates and the two signature dishes.",
+      "description": [
+        "The lounge occupies the patio on the side of the Brown Derby building, under fans and umbrellas. It does not take reservations, it seats you when a table opens, and it serves an abbreviated version of the restaurant's menu alongside a full bar.",
+        "The important thing to know is that the Cobb salad and the grapefruit cake are both available here. Ordering those two on the patio costs a fraction of a full dinner inside and gets you the dishes that actually matter, which makes this the best value in the building.",
+        "It is outdoors, so it is hot in the afternoon and pleasant after dark. The fans help more than you expect but this is not an air-conditioned break."
+      ],
+      "signatureItems": [
+        "Cobb salad",
+        "Grapefruit cake",
+        "Charcuterie board",
+        "Signature old fashioned"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "quick-bite",
+        "groups",
+        "splurge"
+      ],
+      "tips": [
+        "Walk-up only, and it fills between about 5pm and 7pm. Mid-afternoon is nearly always immediate.",
+        "Order the Cobb salad and the grapefruit cake here rather than paying for a full dinner inside; they are the same dishes from the same kitchen.",
+        "Ask for the tables against the building wall for shade in the afternoon and shelter from a passing shower.",
+        "Repeat visitors: the lounge menu shifts more often than the dining room menu, so the small plates list is worth a look even if you eat here regularly."
+      ],
+      "verdict": "The smartest way to eat at the Brown Derby. You get the two dishes worth having, you skip the reservation scramble, and you spend a third as much.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-trolley-car-cafe",
+      "name": "The Trolley Car Cafe",
+      "land": "hollywood-boulevard",
+      "service": "bakery",
+      "cuisine": "Coffee and pastries",
+      "priceTier": "$",
+      "priceNote": "Drinks roughly $5 to $8; pastries and sandwiches roughly $5 to $12 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Starbucks location on the corner of Hollywood and Sunset, with a trolley-barn interior and the park's only real espresso.",
+      "description": [
+        "This is the park's Starbucks, dressed as a 1920s trolley barn with tile work, a repurposed streetcar and enough seating to matter. It serves the standard Starbucks menu alongside a rotating set of Disney-specific bakery items and a few breakfast sandwiches.",
+        "It sits at the intersection of Hollywood Boulevard and Sunset Boulevard, which is the busiest corner in the park, and the line reflects that between 8:30 and 10:30 in the morning. Mobile order is available and cuts the wait substantially.",
+        "There is nothing here you cannot get at any Starbucks, and the Disney-specific pastries are ordinary. What it has is caffeine, air conditioning and seating in the exact spot where you need all three."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Iced caramel macchiato",
+        "Breakfast sandwiches",
+        "Rotating specialty cupcake"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "air-conditioned-break",
+        "solo",
+        "families"
+      ],
+      "tips": [
+        "Mobile order from the queue at rope drop. The morning line here is one of the worst in the park and the app skips almost all of it.",
+        "Starbucks rewards and gift cards do work at this location, which is not true of most food at Walt Disney World.",
+        "The indoor seating at the back is quieter and cooler than the tables out front, and almost nobody walks that far in.",
+        "Repeat visitors: the specialty cupcakes rotate frequently and are made in a central bakery, so the same item often appears at other Walt Disney World locations."
+      ],
+      "verdict": "Fine, useful and unremarkable. Come for the coffee and the air conditioning, not for the food, and use mobile order in the morning.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "50s-prime-time-cafe",
+      "name": "50's Prime Time Cafe",
+      "land": "echo-lake",
+      "service": "table-service",
+      "cuisine": "American comfort food",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly in the $22 to $36 range; about $40 to $55 per adult with a drink and dessert as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A 1950s kitchen where the servers play your relatives, scold you for bad table manners and refuse to bring dessert until you finish your vegetables.",
+      "description": [
+        "You eat in a set of small linoleum-and-formica kitchens with black-and-white televisions playing period clips, and your server is in character as a family member who is disappointed in you. Elbows on the table get called out. Phones on the table get confiscated and put on a shelf. If you do not finish your green beans, you are told about it in front of the room.",
+        "The bit is the entire product, and it is executed by performers who commit completely. It is also the reason to be honest about fit: guests who want a quiet meal hate this restaurant, and guests who play along have the best time they have all trip. There is no middle setting, though servers do read the table and will dial it back if you ask.",
+        "The food is straightforward American comfort cooking done properly: fried chicken, pot roast, meatloaf, a good burger. Portions are large. The milkshakes are the item people talk about, and the peanut butter and jelly one is the standard order."
+      ],
+      "signatureItems": [
+        "Fried chicken",
+        "Pot roast",
+        "Meatloaf",
+        "Peanut butter and jelly milkshake",
+        "Sampler dessert"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "groups",
+        "air-conditioned-break",
+        "big-appetites"
+      ],
+      "tips": [
+        "Tell the check-in host if someone at the table does not want to be teased. Servers will adapt and nobody has to be a target.",
+        "Put your napkin in your lap and keep your elbows off the table before the server arrives. Doing it unprompted usually gets you a better bit rather than a worse one.",
+        "Order the fried chicken. It is the dish the kitchen is built around and it is genuinely good, which is not something you can say of most theme park comfort food.",
+        "Lunch reservations are much easier to get than dinner and the menu is nearly identical at lower prices.",
+        "Repeat visitors: the Tune-In Lounge next door is the same kitchen with a bar, no reservation, and often a fifteen-minute wait for a table when the dining room is booked solid."
+      ],
+      "verdict": "One of the two most entertaining meals at Walt Disney World if your table plays along, and a miserable hour if it does not. Know which table you are before you book.",
+      "faqs": [
+        {
+          "q": "Do the servers really scold you at 50's Prime Time Cafe?",
+          "a": "Yes, that is the concept. Servers stay in character as a family member and will call out elbows on the table, phones out, and unfinished vegetables. They read the room, and you can ask the host to keep it gentle if somebody at the table would rather not be involved."
+        },
+        {
+          "q": "What is the best thing to order?",
+          "a": "The fried chicken is the dish the kitchen does best, and the peanut butter and jelly milkshake is the item people remember. Portions are large enough that most tables share a dessert."
+        },
+        {
+          "q": "Is it good for young children?",
+          "a": "Very. The menu is simple, the room is loud, and children find the server bit funny rather than intimidating. Toddlers who are shy around adults occasionally find the direct attention uncomfortable, so mention it at check-in."
+        },
+        {
+          "q": "Can you get in without a reservation?",
+          "a": "Sometimes, but not reliably at meal times. The Tune-In Lounge next door shares the kitchen, takes walk-ups, and serves the same food, which is the workaround most regulars use."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tune-in-lounge",
+      "name": "Tune-In Lounge",
+      "land": "echo-lake",
+      "service": "lounge",
+      "cuisine": "American comfort food and cocktails",
+      "priceTier": "$$",
+      "priceNote": "Cocktails in the low to mid teens; the full 50's Prime Time menu is available at the same prices as the dining room, as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The small walk-up bar attached to 50's Prime Time Cafe, serving the full restaurant menu in a 1950s living room.",
+      "description": [
+        "A dim, wood-panelled living room with a bar, a handful of tables and armchairs, and a television playing period programming. It shares a kitchen with 50's Prime Time Cafe next door, which means you can order the fried chicken, the pot roast and the milkshakes without a reservation.",
+        "It is a walk-up, and it is small, so there is often a wait for a table at peak. The wait is still usually shorter than the odds of getting a same-day reservation next door.",
+        "The bartenders are in character but far less aggressive about it than the dining room servers, which makes this the right choice if you want the food and the setting but not the scolding."
+      ],
+      "signatureItems": [
+        "Fried chicken",
+        "Dad's electric lemonade",
+        "Peanut butter and jelly milkshake",
+        "Onion rings"
+      ],
+      "goodFor": [
+        "solo",
+        "date-night",
+        "quick-bite",
+        "air-conditioned-break",
+        "groups"
+      ],
+      "tips": [
+        "This is the reservation workaround for 50's Prime Time Cafe. Same kitchen, same menu, no booking required.",
+        "Put your name in and go ride something. The host will take a phone number and text you.",
+        "The armchairs by the television are the best seats in the room and turn over slowly, so ask rather than assuming they are taken.",
+        "Repeat visitors: the lounge serves a couple of drinks that do not appear on the dining room menu, so ask for the bar list rather than the restaurant one."
+      ],
+      "verdict": "The best-kept workaround in the park: the entire Prime Time menu, no reservation, and a bartender who will leave you alone if you want.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hollywood-and-vine",
+      "name": "Hollywood & Vine",
+      "land": "echo-lake",
+      "service": "table-service",
+      "cuisine": "American buffet-style character dining",
+      "priceTier": "$$$",
+      "priceNote": "Prix fixe character dining, generally in the $45 to $65 per adult range depending on meal and date as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's character meal: a large art deco dining room with an all-you-care-to-enjoy spread and characters working the tables.",
+      "description": [
+        "Hollywood & Vine is a big, bright, loud art deco room serving a prix fixe meal with characters circulating between tables. The specific character lineup varies by meal period and changes periodically, so check what is scheduled when you book rather than assuming.",
+        "It is the only character dining at Hollywood Studios, which gives it a captive market and shows in the pricing. The food is competent and broad rather than good: carved meats, pasta, a salad bar, hot breakfast items in the morning, a dessert station. Nothing on it will impress an adult and everything on it will feed a child.",
+        "The room is enormous and the acoustics are unforgiving. If somebody in your party is sensitive to noise, this is one of the loudest dining rooms on Walt Disney World property."
+      ],
+      "signatureItems": [
+        "Carved meats",
+        "Breakfast hot bar",
+        "Mac and cheese",
+        "Dessert station"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "picky-eaters",
+        "groups",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Book the earliest breakfast slot. Characters visit every table before the room fills, so an early seating gets you far more interaction per dollar.",
+        "Confirm the character lineup for your meal period when you book; it varies between breakfast, lunch and dinner and it does change over time.",
+        "Ask for a table along the outside wall rather than the middle of the room. Characters reach the perimeter reliably and the noise is marginally better.",
+        "Allergy requests are handled well here; a chef will walk the buffet with you if you flag it at check-in.",
+        "Repeat visitors: the prix fixe price varies by date tier, so shifting a reservation by a day or two occasionally moves it a full price band."
+      ],
+      "verdict": "You are paying for character access, not for the food, which is average buffet cooking at a signature price. Worth it for families with small children, hard to justify otherwise.",
+      "faqs": [
+        {
+          "q": "Which characters appear at Hollywood & Vine?",
+          "a": "The lineup varies by meal period and has changed several times over the years. Check the description on the reservation page for the specific meal you are booking rather than relying on what a guide said last year."
+        },
+        {
+          "q": "Is Hollywood & Vine worth the price?",
+          "a": "If you have young children who want character time and you would otherwise spend an hour in a meet-and-greet queue, yes. If you are adults or older children, no. The food is competent buffet cooking priced like a signature restaurant."
+        },
+        {
+          "q": "Is it a buffet?",
+          "a": "It operates as an all-you-care-to-enjoy prix fixe meal. The exact service format has shifted between self-serve buffet and served family-style at various points, so confirm on the day."
+        },
+        {
+          "q": "Can you get in without a reservation?",
+          "a": "Rarely at meal times. As the only character dining in the park it books out early, particularly for breakfast. Same-day cancellations do appear in the app, so it is worth refreshing."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sci-fi-dine-in-theater-restaurant",
+      "name": "Sci-Fi Dine-In Theater Restaurant",
+      "land": "echo-lake",
+      "service": "table-service",
+      "cuisine": "American diner",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly $20 to $34; about $35 to $50 per adult with a drink and dessert as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "You eat in a convertible car at a permanent night-time drive-in, watching a reel of science fiction trailers under a fake starry sky.",
+      "description": [
+        "The room is built as an outdoor drive-in cinema at dusk, and the tables are the front seats of 1950s convertibles facing a large screen. A loop of vintage science fiction trailers, cartoons and interstitials plays continuously. It is dark, the ceiling has stars in it, and carhops deliver the food.",
+        "It is the best-looking dining room at Hollywood Studios and the one most worth booking for the setting alone. It is also, deliberately, a room where you do not talk much: everyone faces forward, the seating is side by side rather than across, and conversation across a car is awkward. That makes it wonderful for a family with a tired child and poor for a group who came to catch up.",
+        "The food is diner food: burgers, a decent milkshake, sandwiches, a few larger plates. It is fine. Nobody has ever booked this restaurant for the cooking and the kitchen does not pretend otherwise."
+      ],
+      "signatureItems": [
+        "Angus cheeseburger",
+        "Hand-dipped milkshakes",
+        "Reuben sandwich",
+        "Vegan burger",
+        "Chocolate peanut butter layered cake"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "date-night",
+        "air-conditioned-break",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Request a car when you check in. Not every table is a car; the back rows include standard picnic-style tables and they are a much worse experience.",
+        "It books out further ahead than the Brown Derby because of the room, so treat 60 days out as the real window.",
+        "The trailer reel runs about 45 minutes and does not repeat within a meal, so there is no bad time to arrive.",
+        "It is very dark. If somebody at the table needs to read a menu, ask for a light rather than using a phone torch, which the servers will bring without comment.",
+        "Repeat visitors: the reel has been recut over the years and now includes segments that were not in the original loop, so it is not the same forty-five minutes you saw a decade ago."
+      ],
+      "verdict": "Book it for the room, not the food. It is the most distinctive dining space at Walt Disney World and the burger is perfectly adequate, which is the correct trade.",
+      "faqs": [
+        {
+          "q": "Do you have to sit in a car at Sci-Fi Dine-In?",
+          "a": "No, and that is the catch. Some seating is at ordinary tables at the back of the room. Request a car when you check in; hosts will usually accommodate it with a short wait."
+        },
+        {
+          "q": "Is the food any good at Sci-Fi Dine-In?",
+          "a": "It is competent diner food and nothing more. The burger and the milkshakes are the reliable orders. You are paying for the room, which is genuinely the best-themed dining space at Walt Disney World."
+        },
+        {
+          "q": "Is it too dark for young children?",
+          "a": "It is dim but not frightening, and the screen provides constant light and distraction. Most parents find it easier than a bright loud room because children watch the trailers instead of getting restless."
+        },
+        {
+          "q": "How far ahead should you book?",
+          "a": "60 days out for a dinner slot, and it goes quickly. Lunch is somewhat easier. Same-day cancellations do surface in the app, so check on the morning if you missed the window."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "abc-commissary",
+      "name": "ABC Commissary",
+      "land": "echo-lake",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $13 to $19 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A large air-conditioned quick-service cafeteria on Commissary Lane, with the most indoor seating of any counter service in the park.",
+      "description": [
+        "Themed as a television network's staff commissary, this is a big indoor room with a lot of tables and a menu of burgers, chicken sandwiches, salads and a couple of larger plates. Operating hours vary by season and it is one of the first locations Disney closes on a low-crowd day, so check the app before walking over.",
+        "Its real value is the seating. Hollywood Studios has a shortage of indoor tables and this room has more of them than anywhere else in the park that does not require a reservation. On a rainy afternoon or a 96-degree one, that matters more than the menu.",
+        "The food is unremarkable in the specific way that theme park quick service tends to be. It is not bad; it is simply the same burger you can get at four other counters."
+      ],
+      "signatureItems": [
+        "Angus cheeseburger",
+        "Crispy chicken sandwich",
+        "Chopped salad",
+        "Plant-based entree"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "air-conditioned-break",
+        "budget",
+        "groups"
+      ],
+      "tips": [
+        "Check the app before walking here. This location closes seasonally and on low-crowd days more often than any other counter in the park.",
+        "Mobile order and then find a table before the food is ready; the room is large enough that seating is rarely the problem, but the pickup counter gets congested.",
+        "It is the closest large indoor seating to Echo Lake, which makes it the default rain shelter for that half of the park.",
+        "Repeat visitors: the menu here has been revised several times and now carries more plant-based options than most quick service at this park."
+      ],
+      "verdict": "Nobody comes here for the food, and nobody should. Come for a table indoors when the park is hot or wet, which is the only thing it does better than anywhere else.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "backlot-express",
+      "name": "Backlot Express",
+      "land": "echo-lake",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $13 to $20 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A quick-service counter themed as a studio prop and scenery shop, with indoor seating rooms full of genuine set-dressing detail.",
+      "description": [
+        "Backlot Express sits beside Star Tours and is dressed as a working prop and paint shop: scenic flats leaning against the walls, tools and paint cans on shelves, drafting tables, half-finished set pieces. Some of the rooms carry Star Wars props left over from earlier years, which regulars go looking for.",
+        "The menu is burgers, chicken sandwiches, salads and a hot dog or two. It is the same quality tier as the other quick-service counters here, which is to say fine and forgettable. What sets it apart is the setting: the interior rooms are among the better-themed casual dining spaces at Walt Disney World and almost nobody notices because they are eating a burger.",
+        "It also has both indoor rooms and a shaded outdoor patio, which gives it more flexibility than most counters in this park."
+      ],
+      "signatureItems": [
+        "Angus bacon cheeseburger",
+        "Grilled chicken sandwich",
+        "Southwest salad",
+        "All-beef hot dog"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "air-conditioned-break",
+        "groups"
+      ],
+      "tips": [
+        "Walk through all the interior rooms before you sit. The far room has the best prop dressing and is usually the emptiest.",
+        "It is the closest full quick-service to Star Tours and the Indiana Jones amphitheater, which makes it the right lunch stop for an Echo Lake morning.",
+        "Mobile order windows here are usually available at short notice even at peak, because the location is off the main walkway.",
+        "The covered patio is a better rain shelter than it looks; the awning covers most of the seating.",
+        "Repeat visitors: the props scattered through the dining rooms have been rotated and added to over the years, and several are genuine pieces from earlier attractions."
+      ],
+      "verdict": "The best-themed quick service in the park and the food is average, so treat it as a place to sit rather than a place to eat. Still the counter I would choose in this half of the park.",
+      "faqs": [
+        {
+          "q": "Is Backlot Express any good?",
+          "a": "The food is standard theme park counter service: competent burgers, chicken sandwiches and salads. The dining rooms are the reason to choose it over the other counters, because they carry real prop and scenic dressing that most guests walk straight past."
+        },
+        {
+          "q": "Does Backlot Express have indoor seating?",
+          "a": "Yes, several connected air-conditioned rooms plus a covered outdoor patio. It is one of the more reliable places to sit down indoors in this park without a reservation."
+        },
+        {
+          "q": "Can you use mobile order?",
+          "a": "Yes, and windows are usually available at short notice because the location sits off the main walkway. It is one of the easier mobile order counters to get a near-immediate slot at."
+        },
+        {
+          "q": "What is the best thing on the menu?",
+          "a": "The bacon cheeseburger is the most reliable order. Vegetarians do better here than at most counters in the park, and the location carries a plant-based option year round."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "dockside-diner",
+      "name": "Dockside Diner",
+      "land": "echo-lake",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$",
+      "priceNote": "Most items roughly $11 to $16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A walk-up window built into a beached steamer on Echo Lake, serving hot dogs, nachos and cold drinks at outdoor tables.",
+      "description": [
+        "The Dockside Diner is a boat run aground on the edge of Echo Lake with service windows cut into the hull. It serves a short menu of hot dogs, nachos, and a rotating specialty item, with outdoor tables under umbrellas facing the water.",
+        "It is small, fast, and cheap by park standards, and the location is one of the pleasanter places to sit outdoors in the park. Shade is the limiting factor; the umbrellas cover perhaps half the tables and the rest bake.",
+        "Because it is a window rather than a full counter, it closes earlier than the main quick-service locations and its hours vary. Check before you count on it."
+      ],
+      "signatureItems": [
+        "Chili cheese hot dog",
+        "Loaded nachos",
+        "Specialty hot dog",
+        "Frozen beverages"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families",
+        "view"
+      ],
+      "tips": [
+        "The tables closest to the water get an actual breeze off the lake, which is the only breeze in this part of the park.",
+        "Hours are shorter than the main counters; it often closes in the early evening even on long park days.",
+        "It is the fastest hot food anywhere near Echo Lake if you need to eat between two show times.",
+        "Repeat visitors: the specialty hot dog changes periodically and is usually the only thing here worth ordering over a plain one."
+      ],
+      "verdict": "A perfectly good cheap hot dog with a lake view. Nothing more than that, and it does not pretend to be.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "dinosaur-gerties-ice-cream-of-extinction",
+      "name": "Dinosaur Gertie's Ice Cream of Extinction",
+      "land": "echo-lake",
+      "service": "snack-cart",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Soft serve and novelties roughly $5 to $8 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A soft-serve window inside a giant green dinosaur on the shore of Echo Lake, and one of the park's original 1989 structures.",
+      "description": [
+        "Gertie is a fifty-foot cartoon dinosaur that has stood on the edge of Echo Lake since the park opened in 1989, and there is an ice cream window in her side. She is a reference to a 1914 animated short, which makes her one of the oldest jokes in the park.",
+        "The menu is soft serve, cones, floats and a couple of novelties. The product is ordinary; the building is the point, and the photograph you take of it is the actual souvenir.",
+        "Hours are limited and she closes when the crowds thin, which catches people out on quieter days."
+      ],
+      "signatureItems": [
+        "Vanilla soft serve cone",
+        "Root beer float",
+        "Waffle cone sundae"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "toddlers"
+      ],
+      "tips": [
+        "Hours are short and unreliable. If Gertie is open and you want ice cream, buy it then rather than planning to come back.",
+        "There is no seating at the window. The shaded benches around the far side of Echo Lake are the nearest place to sit and eat.",
+        "The best photograph of the dinosaur is from across the lake near the Star Tours side, not from directly beneath her.",
+        "Repeat visitors: the structure is original to the park's 1989 opening and is one of the few Echo Lake elements that has never been rebuilt."
+      ],
+      "verdict": "Ordinary soft serve from a landmark you should photograph anyway. Buy a cone as rent for the picture and do not expect more.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "peevys-polar-pipeline",
+      "name": "Peevy's Polar Pipeline",
+      "land": "echo-lake",
+      "service": "snack-cart",
+      "cuisine": "Frozen drinks",
+      "priceTier": "$",
+      "priceNote": "Frozen and soft drinks roughly $6 to $12 as of July 2026, higher with alcohol.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small drinks window by Echo Lake serving frozen slush drinks, sodas and a couple of spiked options, with a Rocketeer reference in the name.",
+      "description": [
+        "A tiny walk-up window near the Echo Lake waterfront selling frozen slush drinks, bottled beverages and a small selection of alcoholic options. The name references a character from The Rocketeer, one of several 1991-era jokes that have survived in this corner of the park.",
+        "There is nothing to eat here. It exists to sell you something cold in the middle of the hottest walk in the park, and on a July afternoon that is a legitimate service.",
+        "The frozen drinks are sugar-forward and enormous. Two people can share one without much difficulty."
+      ],
+      "signatureItems": [
+        "Frozen lemonade",
+        "Frozen cola slush",
+        "Bottled water",
+        "Spiked frozen beverage"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "families"
+      ],
+      "tips": [
+        "Free ice water is available at any counter service location, which is the better move if you are actually overheating rather than craving sugar.",
+        "The frozen drinks are large enough to share; a single one between two people is usually plenty.",
+        "This window has the shortest line of any drinks stop on the Echo Lake side, because most people walk past it to the larger counters.",
+        "Repeat visitors: the name is a Rocketeer reference and one of the last surviving nods to the film anywhere in the park."
+      ],
+      "verdict": "A cold drink in the right place at the right time. Overpriced per ounce like everything else, but it is the fastest window on this side of the park.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "oasis-canteen",
+      "name": "Oasis Canteen",
+      "land": "echo-lake",
+      "service": "snack-cart",
+      "cuisine": "Funnel cakes and desserts",
+      "priceTier": "$",
+      "priceNote": "Funnel cakes roughly $9 to $13 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A funnel cake stand tucked beside the Indiana Jones amphitheater, with a rotating topped funnel cake and short lines.",
+      "description": [
+        "A small stand in the shaded alley beside the Indiana Jones stunt show theater, selling funnel cakes hot from the fryer with a rotating set of toppings, plus soft drinks. It is easy to walk past entirely and most people do.",
+        "The funnel cake is made to order, which is why it is better than the versions sold from carts elsewhere on property. Ask for it plain if the topping of the moment does not appeal; the base product is the good part.",
+        "It sits in one of the few genuinely shaded alleys in the park, which makes it a decent five-minute stop even if you do not buy anything."
+      ],
+      "signatureItems": [
+        "Funnel cake",
+        "Topped specialty funnel cake",
+        "Soft drinks"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "families",
+        "groups"
+      ],
+      "tips": [
+        "Time it for just before an Indiana Jones show lets out; after the show the line triples in about ninety seconds.",
+        "Order it plain if the specialty topping does not appeal. The fried base is the good part and it costs less.",
+        "One funnel cake feeds two adults or three children. They are larger than they look on the menu board.",
+        "Repeat visitors: this alley is one of the few reliably shaded standing spots in the middle of the park and stays cool well into the afternoon."
+      ],
+      "verdict": "A genuinely good made-to-order funnel cake in a shaded corner nobody notices. One of the better cheap snacks in the park.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mama-melroses-ristorante-italiano",
+      "name": "Mama Melrose's Ristorante Italiano",
+      "land": "grand-avenue",
+      "service": "table-service",
+      "cuisine": "Italian-American",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly $22 to $36; about $35 to $50 per adult with a drink and dessert as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A dim brick-walled Italian-American room off Grand Avenue, and the easiest table-service reservation to get at Hollywood Studios.",
+      "description": [
+        "Mama Melrose's is dressed as a family-run Italian restaurant that a film crew took over: brick walls, string lights, checked cloths, film memorabilia on every surface. It is the least fashionable table service at this park and consequently the one with same-day availability when everything else is booked solid.",
+        "The kitchen does Italian-American food properly rather than ambitiously: flatbreads from a hearth oven, pasta, chicken parmesan, a good steak. Portions are large and the bread service is better than it needs to be. The gluten-free and vegan handling here is among the strongest at the park; ask and a chef will come out.",
+        "The room is genuinely quiet by Hollywood Studios standards, and it is a short walk from Galaxy's Edge, which makes it a sensible place to eat when you have spent the morning in Black Spire Outpost and want a sit-down meal without leaving that half of the park."
+      ],
+      "signatureItems": [
+        "Charred flatbread",
+        "Chicken parmesan",
+        "Shrimp and scallop campanelle",
+        "Tiramisu",
+        "Bread service"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "air-conditioned-break",
+        "big-appetites",
+        "vegetarian"
+      ],
+      "tips": [
+        "This is the table service to check for same-day availability. It has openings when the Brown Derby and Sci-Fi have none.",
+        "Ask for a booth in the back room. It is markedly quieter than the main dining floor and most parties get seated in the front by default.",
+        "The chef will come to the table for allergy questions without being asked twice, and the gluten-free pasta here is better than most.",
+        "It is the closest table service to Galaxy's Edge, which matters because there is no table service inside that land other than the cantina.",
+        "Repeat visitors: the menu has shifted toward the hearth oven over the years, and the flatbreads are now the strongest thing the kitchen does."
+      ],
+      "verdict": "Underrated and easy to book, with better food than its reputation and a quieter room than anything else here. The sensible choice when you want a real meal without the reservation war.",
+      "faqs": [
+        {
+          "q": "Is Mama Melrose's worth eating at?",
+          "a": "Yes, more than its reputation suggests. The hearth-oven flatbreads and the pasta are genuinely good, portions are large, and the room is quiet. It is the least-hyped table service in the park and one of the better values."
+        },
+        {
+          "q": "Can you get a same-day reservation?",
+          "a": "Often, yes. It is the most reliably available table service at Hollywood Studios and frequently has openings when everything else is full. Check the app on the morning of your visit."
+        },
+        {
+          "q": "How is it for dietary restrictions?",
+          "a": "Strong. A chef will come to the table for allergy questions, and the gluten-free pasta and vegan options are better executed than at most locations in this park."
+        },
+        {
+          "q": "How close is it to Galaxy's Edge?",
+          "a": "A few minutes on foot through Grand Avenue. It is the nearest table service to Black Spire Outpost, since Oga's Cantina is a bar with small plates rather than a restaurant."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "baseline-tap-house",
+      "name": "BaseLine Tap House",
+      "land": "grand-avenue",
+      "service": "lounge",
+      "cuisine": "California beer and small bites",
+      "priceTier": "$$",
+      "priceNote": "Beers roughly $9 to $14, wine and cocktails in the low to mid teens, snack boards around $10 to $16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A small California-focused beer bar on Grand Avenue with an indoor room, a shaded courtyard and the best drinks list in the park.",
+      "description": [
+        "BaseLine is a narrow storefront bar built to look like a district printing shop that became a taproom. The list is almost entirely California beer, cider and wine, with a handful of cocktails, and it is the only place at Hollywood Studios where the drinks selection was clearly assembled by somebody who cared.",
+        "The food is limited by design: pretzels with beer cheese, a charcuterie board, a couple of snacks. It is not a meal and it does not want to be. What it has is a cool indoor room, a shaded courtyard with proper tables, and a genuinely good beer list at the entrance to Galaxy's Edge.",
+        "Grand Avenue is quieter than it used to be. A section of the land is behind construction walls following the 2025 closure of the Muppets area, which has made this end of the park feel more like a corridor. BaseLine itself is unaffected and remains open."
+      ],
+      "signatureItems": [
+        "Rotating California draft list",
+        "Pretzel with beer cheese and mustard",
+        "Charcuterie board",
+        "Wine flight"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "quick-bite",
+        "air-conditioned-break",
+        "groups"
+      ],
+      "tips": [
+        "The indoor room is tiny and the courtyard has more seating than people realize. Order at the bar and then look for a table outside rather than giving up on the room.",
+        "Ask for a flight rather than a pint. It is the only place in the park where a flight is worth the money and the staff will build one to your preferences.",
+        "Mobile order works here and is the fastest way through at peak, which is roughly 4pm to 7pm.",
+        "It is the last real drink before Galaxy's Edge, where Oga's Cantina charges considerably more for less beer.",
+        "Repeat visitors: the draft list genuinely rotates rather than being static, so the board is worth reading even if you have been a dozen times."
+      ],
+      "verdict": "The best drinks in the park by a distance and the least pretentious place to have one. Skip Oga's if what you actually want is a good beer in a cool room.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation for BaseLine Tap House?",
+          "a": "No. It is a walk-up bar with no reservations. It gets busy from late afternoon into the evening, but the courtyard seating means you rarely wait long for somewhere to stand or sit."
+        },
+        {
+          "q": "Is there food at BaseLine Tap House?",
+          "a": "Only snacks: a pretzel with beer cheese, a charcuterie board and a couple of small items. It is a bar, not a restaurant, and you should eat elsewhere and drink here."
+        },
+        {
+          "q": "Is BaseLine better than Oga's Cantina?",
+          "a": "For drinking, yes. The list is better, the prices are lower, there is no time limit, and you can hear yourself. Oga's is worth doing once for the room; BaseLine is where you would actually spend an hour."
+        },
+        {
+          "q": "Is it air conditioned?",
+          "a": "The indoor room is, though it is small. The courtyard is shaded and has fans but is open to the air, so on a hot afternoon get inside if you can."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "dockings-bay-7-food-and-cargo",
+      "name": "Docking Bay 7 Food and Cargo",
+      "land": "star-wars-galaxys-edge",
+      "service": "quick-service",
+      "cuisine": "Galactic-themed international",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $15 to $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The main quick-service inside Galaxy's Edge, set in a cargo hangar with a transport parked in it and a menu of deliberately unfamiliar dishes.",
+      "description": [
+        "Docking Bay 7 is built inside a hangar with a full-size cargo transport parked in the middle of it, and the conceit is that a travelling chef has set up a kitchen in the back of the ship. The dining rooms are large, indoors and air conditioned, which alone puts it ahead of most of the park.",
+        "The menu is the interesting part. Disney deliberately avoided recognizable names, so dishes arrive under invented labels and you have to read the description to work out that one is fried chicken with mashed potatoes and another is a plant-based meatball dish. That works better than it sounds: the cooking is more adventurous than standard park quick service, with real spice and unusual pairings.",
+        "The plant-based kefta dish is the one to order and is genuinely one of the best vegan entrees at Walt Disney World. The fried chicken is the safe choice for a table that includes children."
+      ],
+      "signatureItems": [
+        "Fried Endorian tip-yip",
+        "Felucian garden spread",
+        "Smoked Kaadu ribs",
+        "Blue bantha cookie",
+        "Batuu breakfast plate"
+      ],
+      "goodFor": [
+        "families",
+        "vegetarian",
+        "air-conditioned-break",
+        "quick-bite",
+        "groups"
+      ],
+      "tips": [
+        "Mobile order well in advance. Windows inside Galaxy's Edge sell out by mid-morning on busy days and there is no walk-up alternative of the same size in the land.",
+        "The plant-based dish is the standout and is ordered by a fraction of guests. It is not a compromise option.",
+        "The dining rooms extend further back than they appear from the ordering area; walk past the first room to find seats when it looks full.",
+        "Breakfast here is served early and is the quietest meal of the day in this land, which makes it a good rope-drop base.",
+        "Repeat visitors: menu items here rotate more often than at other quick-service counters in the park, and several original opening dishes are no longer offered."
+      ],
+      "verdict": "The most interesting quick-service food at Hollywood Studios and worth eating even if you do not care about Star Wars. Book a mobile order slot early or you will not get in.",
+      "faqs": [
+        {
+          "q": "Do you need a mobile order for Docking Bay 7?",
+          "a": "Effectively yes. Mobile order is the primary way in and slots for popular times sell out by mid-morning on busy days. Book your window as soon as you enter the park."
+        },
+        {
+          "q": "What should you order at Docking Bay 7?",
+          "a": "The plant-based kefta and hummus dish is the standout and one of the better vegan entrees anywhere at Walt Disney World. The fried chicken plate is the reliable choice for children and cautious eaters."
+        },
+        {
+          "q": "Is the food actually good or just themed?",
+          "a": "Genuinely good, and more ambitious than the burger-and-chicken counters elsewhere in the park. The invented dish names hide fairly conventional food underneath, but the spicing and the sides are a clear step up."
+        },
+        {
+          "q": "Is there indoor seating?",
+          "a": "Yes, several connected air-conditioned rooms plus outdoor tables. It is the largest indoor seating area inside Galaxy's Edge and the best refuge in the land on a hot afternoon."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ronto-roasters",
+      "name": "Ronto Roasters",
+      "land": "star-wars-galaxys-edge",
+      "service": "quick-service",
+      "cuisine": "Grilled wraps and skewers",
+      "priceTier": "$",
+      "priceNote": "Wraps around $13 to $15, snacks and drinks $5 to $10 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An open-air grill in the Black Spire marketplace where a repurposed droid turns the spit, home of the Ronto Wrap.",
+      "description": [
+        "Ronto Roasters is a walk-up grill built into the marketplace, with a repurposed podracer engine as the heat source and a salvaged droid cranking the spit above it. The droid has a personality, complains about the job, and is one of the better small gags in the land.",
+        "The menu is short and the Ronto Wrap is the reason people queue: roasted meat and grilled sausage in a pita with a slaw and a peppery sauce, $13.99 as of July 2026. It is the best single item of food at Hollywood Studios and it is not close.",
+        "There is a morning version of the wrap with egg, plus jerky, drinks and a spiked slush. Seating is limited to a handful of outdoor tables nearby, so most people eat standing or walk with it."
+      ],
+      "signatureItems": [
+        "Ronto Wrap",
+        "Ronto morning wrap",
+        "Nuna turkey jerky",
+        "Sour Sarlacc spiked drink"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "big-appetites",
+        "families"
+      ],
+      "tips": [
+        "The wrap is portable and holds together while you walk, which makes it the correct thing to eat while queueing for Rise of the Resistance.",
+        "Mobile order here is fast and the pickup window is separate from the standby line, which is usually the longer one.",
+        "The morning wrap is available at park opening and is the best breakfast in the park by a wide margin.",
+        "Ask for extra sauce on the side. The peppery sauce is the thing that makes it and they will give you more without argument.",
+        "Repeat visitors: the droid turning the spit has a full patter loop of several minutes that almost nobody stays to hear."
+      ],
+      "verdict": "The Ronto Wrap is the single best thing to eat at Hollywood Studios and one of the best at Walt Disney World. Get one, then get a second one later.",
+      "faqs": [
+        {
+          "q": "How much is the Ronto Wrap?",
+          "a": "$13.99 as of July 2026 at Hollywood Studios. The Disneyland version is priced slightly higher. It is one of the better value items in the park given the size."
+        },
+        {
+          "q": "What is in a Ronto Wrap?",
+          "a": "Roasted pork and a grilled sausage in a pita with a tangy slaw and a peppery sauce. It is substantial enough to be a full lunch for most people."
+        },
+        {
+          "q": "Is there seating at Ronto Roasters?",
+          "a": "Very little. A handful of outdoor tables nearby and nothing indoors. The wrap is designed to be eaten standing or while walking, which is genuinely how most people eat it."
+        },
+        {
+          "q": "Is there a vegetarian option?",
+          "a": "The signature wraps contain meat. Vegetarians are better served at Docking Bay 7 a short walk away, which carries a plant-based entree year round."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "milk-stand",
+      "name": "Milk Stand",
+      "land": "star-wars-galaxys-edge",
+      "service": "snack-cart",
+      "cuisine": "Frozen plant-based beverages",
+      "priceTier": "$",
+      "priceNote": "Blue and green milk around $8.49 each; spiked versions roughly $14 to $16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A tented stand in the Black Spire marketplace selling the blue and green frozen plant-based milks, both vegan and dairy free.",
+      "description": [
+        "The Milk Stand is a small canvas-roofed booth selling exactly two things plus their spiked variants: blue milk and green milk. Both are frozen, plant-based blends built on coconut and rice milk, so they are dairy free and vegan without any special ordering.",
+        "Blue is the sweeter of the two, with tropical fruit notes and a texture closer to a smoothie than a milkshake. Green is more polarizing: citrus-forward, sharper, with a finish some people find floral and others find soapy. Regulars are split fairly evenly, which is worth knowing before you buy two of the same one.",
+        "It is a small stand with no seating and a line that regularly runs longer than the drink deserves. Mobile order exists and skips most of it."
+      ],
+      "signatureItems": [
+        "Blue milk",
+        "Green milk",
+        "Spiked blue milk",
+        "Spiked green milk"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "vegetarian",
+        "solo"
+      ],
+      "tips": [
+        "Both are vegan and dairy free as standard, which makes this one of the few no-questions-asked stops in the park for those diets.",
+        "Buy one of each and share. Green is genuinely divisive and buying two greens on a guess is how people end up throwing one away.",
+        "Mobile order it while you are walking into the land; the pickup window is far faster than the standby line.",
+        "They melt fast in Florida heat. Do not buy one before joining a long queue.",
+        "Repeat visitors: the spiked versions use different spirits for each color and the green one is the better cocktail, which reverses the usual preference."
+      ],
+      "verdict": "Worth trying once for the novelty and the fact that it is genuinely vegan, but it is a $8.49 fruit smoothie and the queue is often out of all proportion. Mildly overrated.",
+      "faqs": [
+        {
+          "q": "Is blue milk dairy free and vegan?",
+          "a": "Yes. Both blue and green milk are frozen plant-based blends built on coconut and rice milk, with no dairy and no gluten. No special ordering is required."
+        },
+        {
+          "q": "What does blue milk taste like?",
+          "a": "Sweet and tropical, closer to a fruit smoothie than a milkshake, with a slightly grainy frozen texture. Green milk is sharper and citrus-forward and divides opinion much more strongly."
+        },
+        {
+          "q": "Blue or green: which should you get?",
+          "a": "Buy one of each and share. Blue is the safe crowd-pleaser and green is genuinely polarizing, with a floral finish that some people love and others actively dislike."
+        },
+        {
+          "q": "Is it worth the price?",
+          "a": "As a novelty, once. At around $8.49 for a small frozen drink it is expensive even by park standards, and the queue frequently runs longer than the product justifies. Use mobile order."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ogas-cantina",
+      "name": "Oga's Cantina",
+      "land": "star-wars-galaxys-edge",
+      "service": "lounge",
+      "cuisine": "Cocktails and small bites",
+      "priceTier": "$$",
+      "priceNote": "Cocktails largely in the high teens, non-alcoholic drinks around $9 to $14, snacks around $10 to $18 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "essential",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A crowded, loud, reservation-only cantina with a droid DJ, a 45-minute time limit and the most theatrical drinks at Walt Disney World.",
+      "description": [
+        "Oga's is a dim, low-ceilinged bar packed with standing rail space and a few tables, presided over by a droid DJ salvaged from a previous job and a bartending team that stays in character. It is the loudest room in the park by design, and it is the only place at Walt Disney World where the drinks are built as set pieces rather than cocktails.",
+        "Reservations are required and open in advance through the app. The time limit is 45 minutes and it is enforced. Most parties are put at standing rail rather than seated, and the room holds far more people than is comfortable.",
+        "The drinks are genuinely inventive and genuinely expensive. Several arrive with dry ice, a foam, or a plastic figure of an alien in the glass. The non-alcoholic list is treated with the same care, which is unusual and worth knowing if you are not drinking."
+      ],
+      "signatureItems": [
+        "Fuzzy Tauntaun",
+        "Jedi Mind Trick",
+        "Bloody Rancor",
+        "Outer Rim",
+        "Batuu bits"
+      ],
+      "goodFor": [
+        "date-night",
+        "groups",
+        "solo",
+        "splurge",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Reservations open 60 days ahead and the good windows go within minutes, but cancellations release constantly. Refresh the app the day before and the morning of.",
+        "You will most likely stand. If a seat matters, ask for the bar rail at the far end, which is where parties get seated when tables free up.",
+        "The 45-minute limit starts when you are seated, not when you order. Decide what you want in the queue.",
+        "The non-alcoholic drinks are as well made as the cocktails and cost meaningfully less, which nobody expects from a theme park bar.",
+        "Repeat visitors: the droid DJ runs a long rotating set with different tracks by time of day, so an evening visit sounds different from a morning one."
+      ],
+      "verdict": "Do it once for the room and the theater of it, then never again. The drinks are clever and overpriced, the noise is punishing, and BaseLine Tap House does the actual job of a bar far better.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation for Oga's Cantina?",
+          "a": "Yes, effectively. Reservations open about 60 days ahead in the Disney app and the popular windows disappear quickly. Cancellations release constantly, so check the day before and the morning of your visit."
+        },
+        {
+          "q": "Is there a time limit at Oga's Cantina?",
+          "a": "Yes, 45 minutes, and it is enforced. The clock starts when you are placed at a table or rail, not when your drink arrives, so know what you want before you go in."
+        },
+        {
+          "q": "Do you get a seat at Oga's Cantina?",
+          "a": "Usually not. Most parties are placed at standing rail. There are a small number of tables and they are assigned by the host, not requested, though you can ask and occasionally get lucky."
+        },
+        {
+          "q": "Is Oga's Cantina worth it?",
+          "a": "Once, for the room and the droid DJ. The drinks are inventive but expensive, the noise level is genuinely hard work, and the time limit means you are moved along quickly. For an actual drink, BaseLine Tap House is better in every practical way."
+        },
+        {
+          "q": "Can children go into Oga's Cantina?",
+          "a": "Yes. It is a bar but children are welcome, and the non-alcoholic menu is treated seriously. It is very loud and very crowded, which is the real consideration with small children rather than the alcohol."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "kat-sakas-kettle",
+      "name": "Kat Saka's Kettle",
+      "land": "star-wars-galaxys-edge",
+      "service": "snack-cart",
+      "cuisine": "Flavored popcorn",
+      "priceTier": "$",
+      "priceNote": "Popcorn mix around $6 to $8 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A market stall selling one thing: a sweet-and-spicy multicolored popcorn mix known as the Outpost Mix.",
+      "description": [
+        "A small covered stall in the Black Spire marketplace selling a single item, a popcorn blend with a sweet coating and a chili-forward heat that arrives a second or two after the sweetness. It comes in a paper cone-shaped container and is sold plain or occasionally in a souvenir bucket.",
+        "It is the most divisive snack in the land. The sweet-then-hot progression works for some people and is unpleasant for others, and there is no way to sample it before buying.",
+        "The stall keeps short hours and closes well before the land does, which catches people who plan to buy it on the way out."
+      ],
+      "signatureItems": [
+        "Outpost Mix popcorn"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "groups"
+      ],
+      "tips": [
+        "Buy one bag for the group rather than one each. Roughly half of any given party will not want a second handful.",
+        "The heat builds. Have a drink with you rather than after.",
+        "The stall closes earlier than the rest of the land, so buy it when you see it open.",
+        "Repeat visitors: the mix ratio varies noticeably between batches, so a bag that was too hot on one trip may be mild on the next."
+      ],
+      "verdict": "Overrated. It is sweet chili popcorn at a premium price, half your group will not finish it, and the queue is longer than a bag of popcorn ever deserves.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "woodys-lunch-box",
+      "name": "Woody's Lunch Box",
+      "land": "toy-story-land",
+      "service": "quick-service",
+      "cuisine": "American comfort snacks",
+      "priceTier": "$",
+      "priceNote": "Most items roughly $9 to $14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A walk-up window built into an oversized lunch box in Toy Story Land, serving totchos, grilled cheese and toaster pastries.",
+      "description": [
+        "Woody's Lunch Box is a service window set into a giant lunch box with a thermos beside it, and every seat is outdoors under a partial canopy. It is the only food location inside Toy Story Land, which means it absorbs the entire land's demand from a very small kitchen.",
+        "The menu is short and unusually good for a window this size. Totchos are tater tots under chili, cheese, corn chips and sour cream, and they are the item people come for. The grilled three-cheese sandwich is the vegetarian standard. The lunch box tarts are oversized toaster pastries with a rotating filling and are the best cheap dessert in the park.",
+        "The problem is the seating. There is no indoor space, the canopy covers a minority of the tables, and Toy Story Land is the hottest corner of the park because it is all pavement and no trees."
+      ],
+      "signatureItems": [
+        "Totchos",
+        "Grilled three-cheese sandwich",
+        "Lunch box tarts",
+        "Brisket melt",
+        "Smoked turkey sandwich"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "picky-eaters",
+        "vegetarian"
+      ],
+      "tips": [
+        "Mobile order at least an hour ahead. This is the single most oversubscribed kitchen at Hollywood Studios and walk-up waits at lunch are brutal.",
+        "Eat here at breakfast instead. The same window opens early, the queue is a fraction of the size, and the tarts are a legitimate breakfast.",
+        "Order totchos as a shared side rather than a main. Two people struggle to finish one order alongside anything else.",
+        "Take the food to the shaded tables near the Slinky Dog Dash exit rather than the exposed ones by the window; they are cooler by a noticeable margin.",
+        "Repeat visitors: the lunch box tart filling rotates and the savory version that appears periodically is better than the sweet one."
+      ],
+      "verdict": "Genuinely good food from a window that cannot cope with its own popularity. Mobile order early or eat somewhere else, because the walk-up line is not worth an hour of your day.",
+      "faqs": [
+        {
+          "q": "What are totchos?",
+          "a": "Tater tots topped with beef chili, cheese sauce, corn chips, tomatoes and sour cream. They are the signature item at Woody's Lunch Box and are large enough to share between two people as a side."
+        },
+        {
+          "q": "Do you need a mobile order at Woody's Lunch Box?",
+          "a": "Effectively yes at lunch and dinner. It is the only food location in Toy Story Land and the kitchen is tiny, so walk-up waits get long. Book a window at least an hour ahead."
+        },
+        {
+          "q": "Is there indoor seating?",
+          "a": "None. All seating is outdoors under a partial canopy, and Toy Story Land is the hottest part of the park. Plan to eat quickly or take the food somewhere shadier."
+        },
+        {
+          "q": "What is the best thing to order?",
+          "a": "Totchos to share, the grilled three-cheese if you want something vegetarian, and a lunch box tart for dessert. Breakfast here is underrated and the queue is far shorter."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "rosies-all-american-cafe",
+      "name": "Rosie's All-American Cafe",
+      "land": "sunset-boulevard",
+      "service": "quick-service",
+      "cuisine": "American burgers",
+      "priceTier": "$",
+      "priceNote": "Entrees roughly $12 to $17 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free",
+        "allergy-friendly-menu"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The burger counter at Sunset Ranch Market, with covered outdoor seating and the most reliable mobile order slots on Sunset Boulevard.",
+      "description": [
+        "Rosie's is one of several counters clustered under the awnings of Sunset Ranch Market, the open-air food court that runs down one side of Sunset Boulevard. It does burgers, a chicken sandwich, a plant-based burger and fries, and it does them at a consistent standard.",
+        "The market shares seating between all its counters, which is the practical advantage: your party can order burgers here, pizza next door and fruit from the produce stand, then eat together. That flexibility makes Sunset Ranch Market the correct lunch stop for a group that cannot agree.",
+        "All the seating is outdoors under canvas awnings with fans. It is shade rather than air conditioning, and at 2pm in August the fans are working against physics."
+      ],
+      "signatureItems": [
+        "Angus bacon cheeseburger",
+        "Plant-based burger",
+        "Crispy chicken sandwich",
+        "Fries"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "groups",
+        "picky-eaters"
+      ],
+      "tips": [
+        "Sunset Ranch Market counters share seating, so split your order across several windows and meet at a table. Nobody polices which counter your food came from.",
+        "Mobile order slots here are more available than at Woody's Lunch Box even at peak, because the market has several kitchens absorbing demand.",
+        "Grab tables at the far end near the produce stand; they get shade earliest in the afternoon and catch the breeze off the boulevard.",
+        "The plant-based burger here is a proper patty rather than a veggie afterthought and is one of the better vegan quick-service items in the park.",
+        "Repeat visitors: the market's counters open and close on staggered schedules through the day, so a window that is dark at 11am is often open by 12:30."
+      ],
+      "verdict": "A good burger, fast, at a fair price, with the flexibility of a shared food court. The most useful quick service in the park even though nothing about it is exciting.",
+      "faqs": [
+        {
+          "q": "What is Sunset Ranch Market?",
+          "a": "An open-air food court on Sunset Boulevard made up of several separate counters, including Rosie's, that share one large covered seating area. You can order from different windows and eat together at the same table."
+        },
+        {
+          "q": "Is there air conditioning at Rosie's?",
+          "a": "No. All seating is outdoors under canvas awnings with fans. It is shaded, which helps, but it is not a cooling break in the way an indoor restaurant is."
+        },
+        {
+          "q": "Is there a vegan option?",
+          "a": "Yes. The plant-based burger is a proper patty with its own build rather than a substitution, and it is one of the stronger vegan quick-service items at Hollywood Studios."
+        },
+        {
+          "q": "Can you use mobile order?",
+          "a": "Yes, and slots are usually easier to get here than at Woody's Lunch Box because the market runs several kitchens in parallel. Book while you are in a queue elsewhere."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fairfax-fare",
+      "name": "Fairfax Fare",
+      "land": "sunset-boulevard",
+      "service": "quick-service",
+      "cuisine": "Barbecue and Mexican-inspired",
+      "priceTier": "$",
+      "priceNote": "Entrees roughly $12 to $18 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The barbecue and street-food counter at Sunset Ranch Market, with ribs, a loaded chili dog and build-your-own options.",
+      "description": [
+        "Fairfax Fare occupies one of the windows at Sunset Ranch Market and handles the barbecue and Mexican-inspired end of the food court: ribs, a barbecue platter, a chili-topped hot dog, and rice bowls. It shares the market's covered seating with the other counters.",
+        "It is a step more interesting than the burger window next door and a step slower, because more of the menu is assembled to order. The ribs are the item worth ordering and they sell out on some evenings.",
+        "Like the rest of the market, everything is outdoors under awnings with fans."
+      ],
+      "signatureItems": [
+        "Barbecue platter",
+        "Ribs",
+        "Loaded chili dog",
+        "Rice bowl"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "quick-bite",
+        "budget",
+        "groups"
+      ],
+      "tips": [
+        "The ribs sell out on busy evenings. If you want them, eat before about 7pm.",
+        "It shares seating with every other Sunset Ranch Market counter, so send one person here and one to Rosie's and meet at a table.",
+        "Mobile order is available and worth using; this window assembles more to order than the others and moves slower.",
+        "Repeat visitors: the menu here has swung between barbecue and Mexican-inspired several times over the years, so check the board rather than assuming."
+      ],
+      "verdict": "The best food in Sunset Ranch Market if you order the ribs, and ordinary if you do not. Worth the extra few minutes over the burger counter.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "catalina-eddies",
+      "name": "Catalina Eddie's",
+      "land": "sunset-boulevard",
+      "service": "quick-service",
+      "cuisine": "Pizza and desserts",
+      "priceTier": "$",
+      "priceNote": "Pizza slices and personal pizzas roughly $11 to $15; desserts $5 to $8 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The pizza and dessert window at Sunset Ranch Market, and the fastest way to feed a child who will only eat cheese pizza.",
+      "description": [
+        "Catalina Eddie's is the pizza counter in the Sunset Ranch Market cluster. It sells personal pizzas, a caesar salad and a small rotation of desserts, and it shares the market's covered seating with the other windows.",
+        "The pizza is theme park pizza: hot, adequate, and exactly what a five-year-old wants after three hours of queueing. Nobody is going to tell you it is good, and nobody is going to have to eat something else because the child would not.",
+        "Its other function is dessert. The window carries a rotating cupcake or cake slice that changes periodically and is usually the cheapest sit-down-able sweet on this side of the park."
+      ],
+      "signatureItems": [
+        "Cheese pizza",
+        "Pepperoni pizza",
+        "Caesar salad",
+        "Rotating specialty cupcake"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "picky-eaters",
+        "budget",
+        "quick-bite"
+      ],
+      "tips": [
+        "This is the picky-eater window. Everything else in the market is more interesting and less likely to be eaten by a four-year-old.",
+        "The dessert rotation here is worth checking even if you eat elsewhere; it is the cheapest specialty cupcake on Sunset Boulevard.",
+        "Seating is shared across the whole market, so one person can queue here while the rest of the party sits down.",
+        "Repeat visitors: this counter opens and closes on a staggered schedule and is one of the first in the market to shut in the evening."
+      ],
+      "verdict": "Ordinary pizza that serves a real purpose. Order it for the child who will eat nothing else and get your own food from the window next door.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "anaheim-produce",
+      "name": "Anaheim Produce",
+      "land": "sunset-boulevard",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit and drinks",
+      "priceTier": "$",
+      "priceNote": "Whole fruit and snacks roughly $3 to $9; the Mickey pretzel is $8.50 and the churro $5.50 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegan",
+        "gluten-free",
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A fruit and drinks stand at the end of Sunset Ranch Market, and the only place in this half of the park selling whole fresh fruit.",
+      "description": [
+        "Anaheim Produce is a produce stand at the far end of Sunset Ranch Market selling whole fruit, cut fruit cups, vegetables with dip, pretzels, churros, bottled drinks and beer. It is the cheapest food in the park by a clear margin and the only place on Sunset Boulevard where you can buy an apple.",
+        "For anyone travelling with a child who has been eating fried food for three days, or an adult trying not to, this stand solves the problem. Whole fruit here costs a couple of dollars and is genuinely fresh.",
+        "It also carries the standard park snack items, so it is a reasonable one-stop for a group where one person wants a banana and another wants a churro."
+      ],
+      "signatureItems": [
+        "Whole fruit",
+        "Fruit cup",
+        "Mickey pretzel",
+        "Churro",
+        "Bottled beverages"
+      ],
+      "goodFor": [
+        "budget",
+        "families",
+        "toddlers",
+        "quick-bite",
+        "vegetarian"
+      ],
+      "tips": [
+        "This is the cheapest food in the park. Whole fruit here undercuts every other option by a wide margin.",
+        "It is the only stand on Sunset Boulevard selling fresh vegetables, which matters more on day four of a trip than it does on day one.",
+        "Buy fruit here in the morning and carry it; it survives a day in a bag better than anything you can buy in Toy Story Land.",
+        "Repeat visitors: this stand carries beer as well as fruit, which almost nobody realizes, and it has no queue when the bars do."
+      ],
+      "verdict": "Genuinely useful and genuinely cheap. The only stand in the park where you can eat something fresh for under five dollars.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hollywood-scoops",
+      "name": "Hollywood Scoops",
+      "land": "sunset-boulevard",
+      "service": "snack-cart",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Scoops, sundaes and novelties roughly $5 to $12 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A hand-scooped ice cream window at Sunset Ranch Market with waffle cones made on site and a persistent afternoon queue.",
+      "description": [
+        "Hollywood Scoops is a small window in the Sunset Ranch Market cluster selling hand-scooped ice cream, sundaes, waffle cones and packaged novelties. The waffle cones are pressed on site and the smell carries down the boulevard, which is doing most of the marketing.",
+        "It is a step above soft serve and a step below anything you would queue for at home. The sundae is oversized and shareable; the single scoop in a fresh waffle cone is the order that justifies the price.",
+        "The line builds badly between about 2pm and 5pm because it is the only real ice cream on this side of the park and it sits directly between two headliner coasters."
+      ],
+      "signatureItems": [
+        "Hand-scooped waffle cone",
+        "Sundae",
+        "Mickey premium bar",
+        "Ice cream sandwich"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "budget",
+        "toddlers",
+        "groups"
+      ],
+      "tips": [
+        "Get the fresh waffle cone rather than a cup. The cone is the only part of this that is better than a supermarket equivalent.",
+        "The queue peaks between 2pm and 5pm. Before noon or after the nighttime show it is nearly immediate.",
+        "Packaged novelties from the same window are cheaper and come out instantly if the line is long.",
+        "Repeat visitors: the flavor rotation here is larger than the display board suggests, and staff will tell you what is in the back if you ask."
+      ],
+      "verdict": "Fine ice cream made better by a fresh waffle cone. Skip the sundae, which is the same product with more of it and a worse price per scoop.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "toluca-legs-turkey-co",
+      "name": "Toluca Legs Turkey Co.",
+      "land": "sunset-boulevard",
+      "service": "snack-cart",
+      "cuisine": "Turkey legs and snacks",
+      "priceTier": "$",
+      "priceNote": "Turkey leg $11.75; drinks and other snacks $4 to $10 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks",
+        "lunch"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The turkey leg window at Sunset Ranch Market, selling the smoked leg that people either love or regret within four bites.",
+      "description": [
+        "A dedicated window in the Sunset Ranch Market cluster selling the smoked turkey leg, $11.75 as of July 2026, alongside drinks and a few other snacks. It is one of the few places at Hollywood Studios where you can buy one.",
+        "The leg is smoked and brined, which gives it a dense, ham-like texture and a salt level that surprises people expecting roast turkey. It is enormous, it feeds two, and it is genuinely gluten free, which makes it one of the more useful items in the park for that diet.",
+        "It is also messy in a way that is hard to overstate. There is no clean method, the napkins are inadequate, and you will want to wash your hands rather than wipe them."
+      ],
+      "signatureItems": [
+        "Smoked turkey leg",
+        "Bottled beverages"
+      ],
+      "goodFor": [
+        "big-appetites",
+        "budget",
+        "groups",
+        "quick-bite"
+      ],
+      "tips": [
+        "Share it. One leg is a meal for two adults and most people stop enjoying it about halfway through.",
+        "It tastes like ham rather than roast turkey because of the brine. If that is not what you wanted, you will not like it.",
+        "Nearest restrooms are toward the Tower of Terror end of Sunset Boulevard; plan for washing hands, not wiping them.",
+        "Repeat visitors: this is genuinely gluten free with no modification, which makes it one of the few grab-and-go proteins in the park for a coeliac guest."
+      ],
+      "verdict": "Overrated as a must-try and useful as a cheap shared protein. Buy it because it feeds two people for twelve dollars, not because the internet told you it is a landmark.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sunshine-day-bar",
+      "name": "Sunshine Day Bar",
+      "land": "sunset-boulevard",
+      "service": "lounge",
+      "cuisine": "Cocktails and desserts",
+      "priceTier": "$$",
+      "priceNote": "Cocktails roughly $13 to $17; the carrot cake cookie about $6.99 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small open-air bar on Sunset Boulevard serving cocktails, frozen drinks and the carrot cake cookie the park is known for.",
+      "description": [
+        "A compact walk-up bar tucked into the Sunset Ranch Market run, with a 1970s color palette and a short list of cocktails, frozen drinks and beer. It has a handful of standing tables and shares the market's covered seating.",
+        "It is also where the carrot cake cookie lives, which is the single most-searched dessert at this park: two thick carrot cake cookies with cream cheese frosting sandwiched between them, about $6.99 as of July 2026. It is enormous, it is very sweet, and it is the correct thing to buy here.",
+        "The bar itself is unremarkable, which is fine, because the queue moves fast and it sits precisely where you are standing before the nighttime show."
+      ],
+      "signatureItems": [
+        "Carrot cake cookie",
+        "Frozen cocktails",
+        "Draft beer",
+        "Specialty cocktails"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "solo",
+        "groups",
+        "date-night",
+        "budget"
+      ],
+      "tips": [
+        "Buy the carrot cake cookie here rather than looking for it elsewhere; this is its home and other locations carry it inconsistently.",
+        "Mobile order works for the cookie, which is the fastest way through when the standby line is deep before Fantasmic.",
+        "It is one adult-sized dessert split between two people, not one. It is much larger than the photographs suggest.",
+        "Repeat visitors: this dessert moved here from a bakery that closed years ago, so if you remember buying it somewhere else on Hollywood Boulevard, that is why you cannot find it there now."
+      ],
+      "verdict": "Come for the carrot cake cookie, which earns its reputation. The drinks are fine and forgettable and BaseLine does them better.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "park": "california-adventure",
+  "viewBox": [0, 0, 1000, 900],
+  "note": "Schematic. Relative positions only, not to scale.",
+  "water": [
+    { "points": [[176, 690], [202, 632], [260, 600], [324, 610], [360, 652], [366, 716], [352, 778], [302, 822], [244, 830], [192, 796], [168, 744]] }
+  ],
+  "paths": [
+    { "points": [[586, 884], [586, 820], [588, 760], [594, 700], [604, 656], [616, 632]] },
+    { "points": [[622, 628], [652, 590], [678, 530], [706, 462], [740, 404], [790, 356], [832, 300], [844, 240]] },
+    { "points": [[600, 634], [548, 614], [496, 584], [444, 540], [398, 486], [350, 438], [300, 388], [262, 330]] },
+    { "points": [[452, 614], [392, 568], [310, 552], [228, 568], [168, 616], [142, 694], [152, 776], [204, 838], [290, 876], [376, 872], [440, 830], [464, 760], [466, 684]] },
+    { "points": [[664, 700], [706, 724], [760, 760], [820, 782], [872, 760], [904, 712]] },
+    { "points": [[878, 690], [892, 600], [888, 500], [880, 420]] }
+  ],
+  "lands": [
+    {
+      "slug": "buena-vista-street",
+      "label": "Buena Vista Street",
+      "points": [[520, 894], [516, 812], [520, 730], [540, 674], [588, 646], [640, 660], [658, 714], [656, 792], [654, 894]],
+      "labelAt": [586, 798]
+    },
+    {
+      "slug": "hollywood-land",
+      "label": "Hollywood Land",
+      "points": [[512, 592], [500, 512], [516, 428], [562, 372], [646, 348], [734, 370], [772, 440], [770, 532], [736, 590], [656, 616], [570, 618]],
+      "labelAt": [636, 492]
+    },
+    {
+      "slug": "avengers-campus",
+      "label": "Avengers Campus",
+      "points": [[700, 330], [694, 240], [722, 158], [788, 100], [878, 78], [952, 116], [974, 202], [962, 292], [898, 344], [794, 354]],
+      "labelAt": [832, 216]
+    },
+    {
+      "slug": "cars-land",
+      "label": "Cars Land",
+      "points": [[812, 412], [880, 386], [948, 406], [978, 478], [974, 572], [956, 664], [918, 730], [866, 744], [830, 684], [812, 600], [806, 500]],
+      "labelAt": [886, 556]
+    },
+    {
+      "slug": "san-fransokyo-square",
+      "label": "San Fransokyo Square",
+      "points": [[700, 716], [746, 682], [800, 700], [818, 754], [806, 818], [760, 856], [706, 848], [680, 796], [678, 748]],
+      "labelAt": [748, 776]
+    },
+    {
+      "slug": "pixar-pier",
+      "label": "Pixar Pier",
+      "points": [[380, 586], [430, 562], [480, 584], [494, 650], [490, 726], [470, 788], [428, 826], [386, 806], [374, 744], [370, 660]],
+      "labelAt": [428, 700]
+    },
+    {
+      "slug": "paradise-gardens-park",
+      "label": "Paradise Gardens Park",
+      "points": [[46, 586], [122, 548], [176, 584], [150, 656], [146, 742], [186, 818], [262, 854], [352, 864], [414, 840], [424, 890], [286, 894], [152, 846], [62, 742], [30, 646]],
+      "labelAt": [96, 664]
+    },
+    {
+      "slug": "grizzly-peak",
+      "label": "Grizzly Peak",
+      "points": [[52, 300], [70, 186], [136, 104], [248, 66], [366, 86], [440, 150], [462, 262], [440, 376], [372, 462], [268, 516], [152, 502], [62, 406]],
+      "labelAt": [230, 270]
+    }
+  ],
+  "markers": [
+    { "kind": "entrance", "label": "Main entrance", "at": [586, 872] },
+    { "slug": "radiator-springs-racers", "kind": "headliner", "at": [906, 466] },
+    { "slug": "guardians-of-the-galaxy-mission-breakout", "kind": "headliner", "at": [758, 252] },
+    { "slug": "web-slingers-a-spider-man-adventure", "kind": "headliner", "at": [886, 196] },
+    { "slug": "incredicoaster", "kind": "headliner", "at": [432, 608] },
+    { "slug": "toy-story-midway-mania", "kind": "headliner", "at": [430, 790] },
+    { "slug": "soarin-around-the-world", "kind": "headliner", "at": [364, 344] },
+    { "slug": "grizzly-river-run", "kind": "headliner", "at": [216, 196] },
+    { "slug": "world-of-color", "kind": "headliner", "at": [286, 876] },
+    { "slug": "luigis-rollickin-roadsters", "kind": "attraction", "at": [872, 630] },
+    { "slug": "mickeys-philharmagic", "kind": "attraction", "at": [640, 460] },
+    { "slug": "pixar-pal-a-round", "kind": "attraction", "at": [462, 640] },
+    { "slug": "silly-symphony-swings", "kind": "attraction", "at": [116, 762] },
+    { "slug": "the-little-mermaid-ariels-undersea-adventure", "kind": "attraction", "at": [98, 602] },
+    { "slug": "carthay-circle-restaurant", "kind": "dining", "at": [596, 690] },
+    { "slug": "pym-test-kitchen", "kind": "dining", "at": [880, 300] },
+    { "slug": "flos-v8-cafe", "kind": "dining", "at": [880, 700] },
+    { "slug": "lucky-fortune-cookery", "kind": "dining", "at": [738, 726] },
+    { "slug": "smokejumpers-grill", "kind": "dining", "at": [300, 420] }
+  ]
+}

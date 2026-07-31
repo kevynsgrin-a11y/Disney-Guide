@@ -1,0 +1,261 @@
+{
+  "brand": {
+    "name": "Ride Ready Guide",
+    "shortName": "Ride Ready",
+    "tagline": "Independent, unofficial planning for the six US Disney parks.",
+    "domain": "rideready.guide",
+    "origin": "https://rideready.guide",
+    "locale": "en-US",
+    "themeColor": "#0f3d2e",
+    "founded": 2026,
+    "logoMark": "RR"
+  },
+  "meta": {
+    "defaultTitleSuffix": "Ride Ready Guide",
+    "defaultDescription": "Height requirements, ride-by-ride honesty, dining that is actually worth it, and printable park maps for all six US Disney parks. Independent and unofficial.",
+    "twitterSite": "@rideready",
+    "publisherName": "Ride Ready Guide"
+  },
+  "author": {
+    "name": "The Ride Ready Guide editorial team",
+    "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the six US Disney parks so you do not have to guess.",
+    "url": "/about/"
+  },
+  "resorts": [
+    {
+      "slug": "walt-disney-world",
+      "name": "Walt Disney World",
+      "shortName": "Walt Disney World",
+      "location": "Bay Lake and Lake Buena Vista, Florida",
+      "coordinates": {
+        "lat": 28.3852,
+        "lng": -81.5639
+      },
+      "tagline": "Four theme parks, a full week of planning, and the biggest ride roster in the country.",
+      "summary": "Walt Disney World is a 25,000-acre resort district outside Orlando with four distinct theme parks. It rewards long trips, deliberate planning, and a tolerance for buses.",
+      "intro": [
+        "Walt Disney World is not a theme park. It is four of them, plus two water parks, a shopping district, and more than twenty hotels, spread across a chunk of Central Florida roughly the size of San Francisco. The practical consequence is that transportation between the pieces takes real time — budget 45 to 75 minutes door to door between any two points and you will rarely be wrong.",
+        "The four parks are deliberately different from one another. Magic Kingdom is the classic castle park and the one small children come for. EPCOT is the eating-and-drinking park with two genuine world-class thrill rides bolted on. Hollywood Studios has the highest concentration of modern headliners and the most brutal height requirements. Animal Kingdom is a working zoological park that happens to contain the best ride Disney has built this century.",
+        "The single most useful thing to understand before you book anything: Walt Disney World is a multi-day destination. A one-day visit to a single park is a legitimate trip, but the resort's pricing, transportation, and ride-reservation systems are all built on the assumption that you are here for four days or more. If you have two days or fewer, Disneyland in California is usually the better use of your money — and we say so in detail on our comparison page."
+      ],
+      "parks": [
+        "magic-kingdom",
+        "epcot",
+        "hollywood-studios",
+        "animal-kingdom"
+      ],
+      "lightningLaneNote": "Walt Disney World sells Lightning Lane Multi Pass, Single Pass, and Premier Pass. Each is purchased per park, per day.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Orlando International Airport (MCO) is about 30 minutes from the resort. Orlando Sanford (SFB) is cheaper to fly into and a longer drive. There is no longer a free airport shuttle — you need a rental car, a rideshare, or the paid Mears Connect service."
+        },
+        {
+          "title": "Getting around",
+          "body": "Monorail, boat, Skyliner gondola, and buses connect hotels to parks. Which you get depends entirely on which hotel you book, and it materially changes your day. Skyliner and monorail hotels are worth paying for; bus-only hotels on the far side of the property are not."
+        },
+        {
+          "title": "How many days",
+          "body": "Four park days is the honest minimum for a first visit that does not feel rushed. Five to seven with a rest day in the middle is better. Two days is not enough to justify the airfare."
+        },
+        {
+          "title": "When to go",
+          "body": "Late January through mid-February and the first half of May are the reliable low-crowd, low-heat windows. Summer is hot, crowded, and rains every afternoon. Late December is the single hardest week of the year."
+        }
+      ]
+    },
+    {
+      "slug": "disneyland",
+      "name": "Disneyland Resort",
+      "shortName": "Disneyland Resort",
+      "location": "Anaheim, California",
+      "coordinates": {
+        "lat": 33.8121,
+        "lng": -117.919
+      },
+      "tagline": "Two parks across one plaza, walkable in minutes, dense with rides you cannot get in Florida.",
+      "summary": "Disneyland Resort packs two theme parks, three hotels, and a shopping district into a footprint you can cross on foot in ten minutes. It is the better short trip and the better food.",
+      "intro": [
+        "Disneyland Resort is the compact one. Two theme parks face each other across a single esplanade, the three resort hotels are a five-minute walk from both entrances, and dozens of off-site hotels sit directly across Harbor Boulevard. You can be through a security checkpoint and on a ride within fifteen minutes of leaving your room, which is simply not a thing that happens in Florida.",
+        "That density changes the shape of a trip. Park hopping at Disneyland is a genuinely casual act — walk across the plaza, tap in, keep going — rather than the logistical commitment it is at Walt Disney World. Going back to the hotel for a two-hour afternoon break costs you almost nothing. Three days here delivers roughly what five days in Florida does.",
+        "Disneyland Park also holds the deepest catalog of classic attractions anywhere, including several with no Florida equivalent at all: Indiana Jones Adventure, Matterhorn Bobsleds, Mr. Toad's Wild Ride, the Storybook Land Canal Boats, and a version of Pirates of the Caribbean that runs nearly twice as long as the Magic Kingdom one. Disney California Adventure next door has the best food and the best bar scene of any US Disney park, and Radiator Springs Racers is arguably the best-looking ride Disney has ever built."
+      ],
+      "parks": [
+        "disneyland-park",
+        "california-adventure"
+      ],
+      "lightningLaneNote": "Disneyland Resort sells Lightning Lane Multi Pass, Single Pass, and Premier Pass. Premier Pass covers both parks in a single purchase, which Walt Disney World's does not.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "John Wayne / Orange County (SNA) is closest at about 20 minutes. Long Beach (LGB) is small and easy. LAX is cheapest to fly into and 45 to 90 minutes away depending on traffic, which in Los Angeles means it can be either."
+        },
+        {
+          "title": "Getting around",
+          "body": "You walk. That is the whole system, and it is the resort's biggest structural advantage. The Disneyland Monorail has been closed for refurbishment since March 2026, but it was always a convenience rather than essential transport."
+        },
+        {
+          "title": "How many days",
+          "body": "Three days is the sweet spot: two in Disneyland Park, one in California Adventure, with the flexibility to hop. Two days works if you are efficient. Four days lets you slow down and eat properly."
+        },
+        {
+          "title": "When to go",
+          "body": "Mid-January through February and the weeks after Labor Day are the quiet windows. Southern California weather is forgiving year-round — bring a jacket for evenings even in summer, because the marine layer is real."
+        }
+      ]
+    }
+  ],
+  "nav": {
+    "primary": [
+      {
+        "label": "Parks",
+        "href": "/parks/"
+      },
+      {
+        "label": "Heights",
+        "href": "/guides/height-requirements/"
+      },
+      {
+        "label": "Guides",
+        "href": "/guides/"
+      },
+      {
+        "label": "Compare",
+        "href": "/compare/"
+      },
+      {
+        "label": "Food Tracker",
+        "href": "/tools/food-tracker/"
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Walt Disney World",
+        "links": [
+          {
+            "label": "Resort overview",
+            "href": "/walt-disney-world/"
+          },
+          {
+            "label": "Magic Kingdom",
+            "href": "/walt-disney-world/magic-kingdom/"
+          },
+          {
+            "label": "EPCOT",
+            "href": "/walt-disney-world/epcot/"
+          },
+          {
+            "label": "Hollywood Studios",
+            "href": "/walt-disney-world/hollywood-studios/"
+          },
+          {
+            "label": "Animal Kingdom",
+            "href": "/walt-disney-world/animal-kingdom/"
+          }
+        ]
+      },
+      {
+        "heading": "Disneyland Resort",
+        "links": [
+          {
+            "label": "Resort overview",
+            "href": "/disneyland/"
+          },
+          {
+            "label": "Disneyland Park",
+            "href": "/disneyland/disneyland-park/"
+          },
+          {
+            "label": "California Adventure",
+            "href": "/disneyland/california-adventure/"
+          },
+          {
+            "label": "Disneyland vs Disney World",
+            "href": "/compare/disneyland-vs-disney-world/"
+          }
+        ]
+      },
+      {
+        "heading": "Tools",
+        "links": [
+          {
+            "label": "Food Tracker",
+            "href": "/tools/food-tracker/"
+          },
+          {
+            "label": "Height Checker",
+            "href": "/tools/height-checker/"
+          },
+          {
+            "label": "All tools & maps",
+            "href": "/tools/"
+          },
+          {
+            "label": "All guides",
+            "href": "/guides/"
+          }
+        ]
+      },
+      {
+        "heading": "About",
+        "links": [
+          {
+            "label": "About this site",
+            "href": "/about/"
+          },
+          {
+            "label": "Editorial policy",
+            "href": "/editorial-policy/"
+          },
+          {
+            "label": "Affiliate disclosure",
+            "href": "/affiliate-disclosure/"
+          },
+          {
+            "label": "Privacy policy",
+            "href": "/privacy/"
+          },
+          {
+            "label": "Terms of use",
+            "href": "/terms/"
+          },
+          {
+            "label": "Contact & corrections",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "disclaimer": "Ride Ready Guide is an independent, unofficial guide. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to The Walt Disney Company or any of its subsidiaries or affiliates. All park, resort, attraction, restaurant, and character names are trademarks of their respective owners and are used here solely for identification and editorial commentary.",
+    "shortDisclaimer": "Independent and unofficial. Not affiliated with or endorsed by The Walt Disney Company.",
+    "affiliateDisclosure": "Some links on this page are affiliate links. If you buy through one, we may earn a commission at no additional cost to you. We only link to sellers we would use ourselves, and a commission never changes what we recommend or how we rank it.",
+    "accuracyNote": "Theme parks change. Prices, hours, ride systems, and menus move without notice. Every data page on this site carries a “last verified” date — check it, and confirm anything trip-critical with the park's official site before you rely on it.",
+    "copyrightHolder": "Ride Ready Guide"
+  },
+  "affiliates": {
+    "tickets": {
+      "label": "Undercover Tourist",
+      "note": "Authorized Disney ticket reseller. Discounted multi-day tickets for both resorts.",
+      "href": "https://www.undercovertourist.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "packagesDisneyland": {
+      "label": "Get Away Today",
+      "note": "Disneyland-focused ticket and hotel packages with layaway.",
+      "href": "https://www.getawaytoday.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "gear": {
+      "label": "Amazon",
+      "note": "Park bag gear.",
+      "href": "https://www.amazon.com/",
+      "rel": "sponsored nofollow noopener"
+    }
+  },
+  "analytics": {
+    "enabled": false,
+    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+  }
+}

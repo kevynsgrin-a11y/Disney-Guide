@@ -1,0 +1,215 @@
+{
+  "slug": "virtual-queues",
+  "title": "Disney Virtual Queues: How Boarding Groups Work",
+  "h1": "Virtual Queues and Boarding Groups at Disney Parks",
+  "metaDescription": "No Disney ride permanently uses a virtual queue as of mid-2026. Here is why boarding groups vanished, how the new-ride versions work, and opening-day tactics.",
+  "summary": "Virtual queues are now a temporary opening-day tool rather than a permanent system — every ride that ran one has dropped it. This is how boarding groups work, when you will actually meet one, and how to win a drop.",
+  "category": "planning",
+  "readingTimeMinutes": 8,
+  "intro": [
+    "Here is the headline that most planning advice has not caught up with: as of mid-2026, no attraction at Walt Disney World or Disneyland Resort permanently uses a virtual queue. Guardians of the Galaxy: Cosmic Rewind, TRON Lightcycle / Run, and Tiana's Bayou Adventure all ran one at some point and all three have retired theirs. You do not need to set a 7 AM alarm to ride anything at either resort today.",
+    "That matters because the virtual queue era shaped a decade of planning advice, and a lot of it is still circulating. If a guide, a video, or a well-meaning relative tells you to be logged in at 7 AM sharp to grab a boarding group for a specific ride, check the date on that advice. Rock 'n' Roller Coaster Starring The Muppets opened to all guests in May 2026 without a virtual queue at all, which is the clearest signal yet that Disney's default has changed.",
+    "Virtual queues have not vanished as a tool, though. They are now reserved for the opening weeks of a genuinely new headliner, when demand outruns capacity by such a margin that a physical standby line would spill into other lands. When one appears, it is free, it lives in the Disney app, and it runs on two daily drops. The rest of this page explains that machinery, so you are ready the day a new ride opens and nobody has to explain boarding groups to you at 6:58 AM."
+  ],
+  "keyPoints": [
+    "As of mid-2026, no attraction at either US Disney resort permanently uses a virtual queue.",
+    "Cosmic Rewind, TRON Lightcycle / Run, and Tiana's Bayou Adventure each ran one and each dropped it in favour of standby plus paid Lightning Lane.",
+    "Virtual queues are always free. If something costs money, it is Lightning Lane, not a boarding group.",
+    "When one exists, it runs on two drops: 7 AM local time from anywhere, and roughly 1 PM local time for guests already tapped into the park.",
+    "The 1 PM drop is the one most people can actually win, because it requires physically being in the park and that thins the field enormously.",
+    "A boarding group is not a return time. You wait to be called, and the call can come hours later or, on a bad day, not at all."
+  ],
+  "sections": [
+    {
+      "id": "current-status",
+      "heading": "Which rides use a virtual queue right now",
+      "body": [
+        "None of them. Every attraction at Walt Disney World and Disneyland Resort operates on conventional standby queues, with paid Lightning Lane running alongside where offered. There is no ride at either resort in mid-2026 for which you need to be awake and logged in at a specific minute.",
+        "This is a genuine change of policy, not a temporary gap. Disney learned across four years of boarding groups that a permanent virtual queue creates a worse guest experience than a long line does: it front-loads the entire day's anxiety onto one 7 AM tap, it punishes anyone whose phone or signal fails, and it produces a park full of people who cannot plan their afternoon. The company's answer was to move those rides onto standby and monetise the demand through Lightning Lane instead.",
+        "So the only planning consequence for a normal trip is a negative one: do not build your morning around a boarding group. Build it around rope drop, which is covered in its own guide, and around whether the headliner you want is in the Multi Pass or Single Pass tier."
+      ],
+      "list": null,
+      "table": null,
+      "callout": {
+        "type": "note",
+        "title": "If you see a virtual queue in the app",
+        "body": "It means a brand-new attraction has just opened. Nothing else triggers one. Check the attraction's opening date — if it is within a few months, boarding groups are normal and temporary, and they will be gone by the time you plan your next trip."
+      }
+    },
+    {
+      "id": "what-it-is",
+      "heading": "What a virtual queue actually is",
+      "body": [
+        "A virtual queue replaces the physical line with a numbered boarding group that you claim in the Disney app. You join at a set moment, the system assigns your whole party a group number, and later in the day the app tells you your group has been called and gives you a window to arrive. You then walk a short queue at the attraction itself.",
+        "The critical distinction from a Lightning Lane return window: a boarding group is a place in a sequence, not a time. Group 47 rides before group 48 and after group 46, but nobody knows what o'clock that will be. Groups move quickly when a new ride is running well and stop entirely when it breaks down, which on a new attraction is often. Higher-numbered groups sometimes never get called at all, and Disney is explicit that this is a possibility.",
+        "The second critical distinction: virtual queues are free. Every one Disney has run has been included with park admission. If you are being asked to pay, you are looking at a Lightning Lane product with a different name on the button."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Virtual queue vs Lightning Lane",
+        "columns": ["", "Virtual queue", "Lightning Lane"],
+        "rows": [
+          ["Cost", "Free", "Paid, per person, dynamically priced"],
+          ["What you get", "A numbered boarding group in a sequence", "A one-hour return window at a specific clock time"],
+          ["When you claim it", "At a fixed drop time, 7 AM or roughly 1 PM", "At your booking window, or any time inventory lasts"],
+          ["Certainty of riding", "Not guaranteed — high group numbers can go uncalled", "Guaranteed unless the ride goes down, and then usually reissued"],
+          ["Planning your day around it", "Impossible; you wait for the call", "Straightforward; you know your window"],
+          ["Currently in use", "Only for brand-new attractions", "At most major attractions at both resorts"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "the-drops",
+      "heading": "The two drops: 7 AM and 1 PM",
+      "body": [
+        "When a virtual queue is running, boarding groups are released in two batches on the same day, and the two batches have different rules. The morning drop happens at 7 AM local time and you can join from anywhere — your hotel bed, an airport, another state. You need a valid ticket and park admission for that park on that day, and every member of your party needs the same.",
+        "The afternoon drop happens at roughly 1 PM local time and is restricted to guests who have physically tapped into that park. This is the drop worth optimising for. The 7 AM drop is a lottery against every ticket holder on the property including people who have not left their hotel; the 1 PM drop is a contest among people who actually walked through a turnstile, which is a much smaller and much beatable field.",
+        "The mechanics on both are identical: one person in the party taps join, all linked and eligible party members are assigned to the same group, and the inventory is gone within seconds. Nobody gets a second chance in the same drop, and joining one drop makes you ineligible for the other that day."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "Link every ticket in your party to one Disney account days in advance, and confirm each one shows up on the join screen the night before.",
+          "Be on the virtual queue screen at least three minutes before the drop, with the app already loaded. A cold app launch at 6:59 is how people lose.",
+          "Use cell data rather than the parks' public wifi, which is the single most common cause of a failed join.",
+          "Have exactly one person in the party tap. Two people tapping simultaneously can split the party across two boarding groups.",
+          "For the 1 PM drop, be tapped into the park well before 1 PM, and stop walking. Stand still with a strong signal and do not attempt this while boarding a bus."
+        ]
+      },
+      "table": {
+        "caption": "How the two daily drops differ",
+        "columns": ["Drop", "Time", "Who is eligible", "Realistic odds"],
+        "rows": [
+          ["Morning", "7 AM local, park's time zone", "Anyone with a valid ticket and park admission for that day, from anywhere", "Poor on a new headliner; the field includes every ticket holder on property"],
+          ["Afternoon", "Roughly 1 PM local", "Guests who have already tapped into that specific park that day", "Meaningfully better; the field is limited to people physically in the park"]
+        ]
+      },
+      "callout": {
+        "type": "warning",
+        "title": "A boarding group is not a promise",
+        "body": "Disney states plainly that later boarding groups may not be called before the park closes. If you draw a high number, treat the ride as a maybe and plan a full day that does not depend on it. Do not skip a dining reservation to sit near the attraction hoping — you cannot influence the sequence."
+      }
+    },
+    {
+      "id": "history",
+      "heading": "The rides that had one, and why they dropped it",
+      "body": [
+        "Four years of experiments produced a consistent pattern: every attraction that launched with a virtual queue eventually abandoned it, usually within eighteen months to two years of opening, once demand settled and the ride's reliability improved.",
+        "The reason is operational rather than philosophical. A virtual queue only makes sense when a ride's hourly capacity is so far below demand that a standby line would physically not fit. New attractions clear that bar for a few months. Once the opening rush fades and the ride stops breaking down every afternoon, a normal queue works fine — and a normal queue lets Disney sell Lightning Lane access on top, which a boarding group system does not."
+      ],
+      "list": null,
+      "table": {
+        "caption": "Virtual queue history at the US parks",
+        "columns": ["Attraction", "Park", "Opened", "Status today"],
+        "rows": [
+          ["Star Wars: Rise of the Resistance", "Hollywood Studios", "December 2019", "Standby plus paid Lightning Lane; boarding groups long gone"],
+          ["Star Wars: Rise of the Resistance", "Disneyland Park", "January 2020", "Standby plus paid Lightning Lane"],
+          ["WEB SLINGERS: A Spider-Man Adventure", "California Adventure", "June 2021", "Standby; boarding groups retired"],
+          ["Guardians of the Galaxy: Cosmic Rewind", "EPCOT", "May 2022", "Standby plus paid Lightning Lane; virtual queue retired"],
+          ["TRON Lightcycle / Run", "Magic Kingdom", "April 2023", "Standby plus paid Lightning Lane; virtual queue retired"],
+          ["Tiana's Bayou Adventure", "Magic Kingdom", "2024", "Standby plus paid Lightning Lane; virtual queue retired"],
+          ["Rock 'n' Roller Coaster Starring The Muppets", "Hollywood Studios", "May 2026", "Opened to all guests with no virtual queue at all"]
+        ]
+      },
+      "callout": null
+    },
+    {
+      "id": "opening-day",
+      "heading": "What to do on an opening day",
+      "body": [
+        "If you happen to be at a park in the first weeks of a genuinely new headliner, assume a virtual queue exists and plan the day around losing it. That sounds pessimistic; it is simply arithmetic. A new ride running at partial capacity in its first month serves a small fraction of the people who want it.",
+        "The right approach is to make the boarding group a bonus rather than the point of the day. Do the 7 AM drop from bed, then get to the park for rope drop anyway and ride the older headliners while everybody else is refreshing their phones. Do the 1 PM drop from a shaded bench with good signal. If you get called, brilliant. If you do not, you have already had a full day.",
+        "Two secondary effects of an opening are worth exploiting. First, the rest of the park is unusually quiet — an opening-day crowd concentrates in one land, and the queues elsewhere in the park go soft in a way they never otherwise do on a busy date. Second, the new land's restaurants and shops absorb enormous queues of their own, so eat somewhere else entirely."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Do not queue for merchandise on an opening day. The same items are online and in the park's main gift shop within a fortnight.",
+          "The new ride's neighbours get a crowd spillover; the far side of the park gets a vacuum. Go to the vacuum.",
+          "If the attraction goes down for an extended period, boarding groups stop advancing but are not cancelled. Keep an eye on the app rather than giving up.",
+          "Cast Members at the attraction cannot advance your group, move your number, or tell you when you will be called. Asking is a waste of a pleasant conversation.",
+          "Consider going eight to ten weeks after an opening instead. Capacity has stabilised, the virtual queue is often already gone, and the crowd has moved on."
+        ]
+      },
+      "table": null,
+      "callout": {
+        "type": "tip",
+        "title": "The repeat-visitor angle",
+        "body": "The single best day to ride an established headliner is the opening day of a brand-new one in the same park. Everyone who would normally be in the Rise of the Resistance or Flight of Passage line is standing in a new land refreshing an app instead. Waits on the previous generation of headliners can drop by half."
+      }
+    },
+    {
+      "id": "eligibility",
+      "heading": "Eligibility and party rules",
+      "body": [
+        "When a virtual queue is running, every person in your boarding group needs a valid ticket and admission to that park for that day, and each ticket needs to be linked to an account before you attempt to join. Annual passholders need their pass linked and, where applicable, a valid reservation for the day.",
+        "One person joins for the whole party. The app shows everyone eligible on a single screen and you select who is coming; the group number covers all of them. Children who need their own ticket count as party members, and infants who ride free typically do not need to be included, though the height requirements at these attractions usually make the question moot.",
+        "You cannot join two virtual queues in one day for the same attraction, and joining the morning drop generally excludes you from the afternoon one. There is no waitlist, no standby version of the boarding group, and no way to buy your way to a lower number."
+      ],
+      "list": null,
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "das-and-accessibility",
+      "heading": "Virtual queues and accessibility",
+      "body": [
+        "A virtual queue is functionally a waiting-outside-the-line system, which means it overlaps with several accessibility accommodations in ways that confuse people. Disability Access Service and a boarding group are separate systems and do not stack: if an attraction is running a virtual queue, everyone including DAS holders joins the boarding group, and the DAS return time applies to the shorter queue once the group is called.",
+        "The practical upside is that a virtual queue removes the long physical standing wait entirely, which is genuinely helpful for guests with stamina, heat tolerance, or attention-span limitations. The downside is that the moment the group is called is unpredictable, which is hard on anyone who needs a structured day. Plan the day around a predictable anchor — a meal, a show, a hotel break — and treat the ride call as an interruption you accept rather than a schedule you keep.",
+        "Rider Switch operates normally when a virtual queue is in place, so a party with a child too short to ride still only needs one boarding group for the adults taking turns."
+      ],
+      "list": null,
+      "table": null,
+      "callout": null
+    },
+    {
+      "id": "myths",
+      "heading": "Things people still believe that are not true",
+      "body": [
+        "Most virtual queue folklore dates from 2020 and 2021, when the systems were new and the crowds were desperate. Almost none of it survives contact with how the parks work now.",
+        "The most persistent one is the belief that staying at a Disney hotel gets you an earlier drop or a better boarding group. It does not, and never did — the 7 AM drop has always been open to any eligible ticket holder from anywhere. On-site guests do get an advantage at Walt Disney World, but it is the Lightning Lane booking window, not boarding groups."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "\"Refreshing faster gets you a better group.\" It does not. The assignment is made at the moment your tap registers, and hammering the screen beforehand can log you out.",
+          "\"Staying on-site gets you an earlier drop.\" No. On-site advantages at Walt Disney World are about Lightning Lane booking windows and early entry, not virtual queues.",
+          "\"You can join from the parking lot before you tap in.\" Only for the 7 AM drop. The afternoon drop checks that you have physically entered that park.",
+          "\"Cast Members can bump your group.\" They cannot, and the request puts them in an awkward position for no benefit.",
+          "\"A boarding group works like a Lightning Lane return time.\" It does not. One is a place in a sequence; the other is a clock time you can plan around."
+        ]
+      },
+      "table": null,
+      "callout": null
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does any Disney ride use a virtual queue right now?",
+      "a": "No. As of mid-2026 no attraction at Walt Disney World or Disneyland Resort permanently uses a virtual queue. The three rides most associated with the system — Cosmic Rewind, TRON Lightcycle / Run, and Tiana's Bayou Adventure — have all moved to conventional standby with paid Lightning Lane alongside."
+    },
+    {
+      "q": "Do virtual queues cost money?",
+      "a": "Never. Every virtual queue Disney has operated in the US parks has been free with park admission. Paid access is Lightning Lane, which is a separate product with return windows rather than boarding groups. If a screen is asking for a card, you are not looking at a virtual queue."
+    },
+    {
+      "q": "Can I join a boarding group before I get to the park?",
+      "a": "For the 7 AM drop, yes — you can join from anywhere as long as you have a valid ticket and admission for that park that day. The afternoon drop around 1 PM requires that you have already tapped into the park. That is exactly why the afternoon drop is easier to win."
+    },
+    {
+      "q": "What happens if my boarding group is never called?",
+      "a": "You do not ride, and there is no compensation. Disney states up front that later groups may not be called. It is rare on a well-running day but genuinely common when a new attraction has a long breakdown. This is the main reason not to build a day around a boarding group."
+    },
+    {
+      "q": "Will virtual queues come back?",
+      "a": "For new attraction openings, almost certainly — that is the only role they still serve. Several major projects are under construction at both resorts, and the ones that open with capacity well below demand are candidates. Do not expect boarding groups to return to any existing ride."
+    },
+    {
+      "q": "Should I still set a 7 AM alarm on my Disney days?",
+      "a": "Yes, but for Lightning Lane rather than boarding groups. At Walt Disney World, Multi Pass selections open at 7 AM Eastern; at Disneyland Resort, your first selection opens at 7 AM Pacific on your park day. The alarm survives even though the reason for it changed."
+    }
+  ],
+  "related": ["lightning-lane", "rope-drop-strategy", "first-disney-trip"],
+  "lastVerified": "2026-07"
+}
