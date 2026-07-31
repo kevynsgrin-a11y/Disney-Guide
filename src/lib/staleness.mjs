@@ -1,7 +1,7 @@
 /**
  * The freshness contract from docs/SEASONAL-SCHEMA.md §3, computed at build time.
  *
- * Every dated claim on Site 2 is stamped by this module rather than by the author. The failure mode
+ * Every dated claim is stamped by this module rather than by the author. The failure mode
  * of a seasonal site is a page that looks current and is not, and an author who forgot to update the
  * ribbon is precisely the case worth taking out of human hands.
  *

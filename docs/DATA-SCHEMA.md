@@ -1,4 +1,4 @@
-# Data Schema — Evergreen Theme Park Guide (Site 1)
+# Data Schema — the evergreen dataset
 
 Every page on this site is generated from JSON in `data/`. **Prose lives in the data, not in
 templates.** Templates are dumb; data is rich.
@@ -30,7 +30,7 @@ Park slugs (exactly these, no others):
 ## Universal rules
 
 1. **Evergreen only.** No seasonal parties, festivals, overlays, refurb news, or current-day
-   Lightning Lane prices. Those belong to Site 2. Where a ride has a seasonal overlay, describe the
+   Lightning Lane prices. Those belong under `data/seasonal/`. Where a ride has a seasonal overlay, describe the
    permanent version and set `hasSeasonalOverlay: true`.
 2. **Every price and every volatile fact carries `lastVerified` (`"YYYY-MM"`).** Current date is
    **2026-07**. Use `"2026-07"` unless you have a specific earlier verification month.
@@ -303,7 +303,7 @@ This is the highest-value dataset on the site. It drives `/tools/food-tracker/`,
       "mustTry": 5,                      // 1–5 editorial priority; 5 = do not leave without it
       "shareable": true,
       "portable": true,                  // can you walk and eat it
-      "seasonal": false,                 // must be false in this dataset (seasonal → Site 2)
+      "seasonal": false,                 // must be false here (seasonal → data/seasonal/)
       "description": "…",                // 1–2 sentences, what it actually is
       "verdict": "…",                    // 1–2 sentences, honest: worth it / overrated / skip
       "image": null

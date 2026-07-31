@@ -1,24 +1,26 @@
 /**
- * Loads every JSON file under data/seasonal/ and builds the derived indexes the Site 2 page
- * generators need. Mirrors src/lib/data.mjs, including the rule that this module is the single
- * source of truth for URLs — nothing else may build a path by hand.
+ * Loads every JSON file under data/seasonal/ and builds the derived indexes the seasonal page
+ * generators need.
  *
- * What it adds over Site 1's loader is cross-site integrity. Site 2's whole strategic purpose is
- * pointing at Site 1 for the permanent facts it refuses to restate, so an event naming a park, an
- * attraction, or a page that does not exist over there is a shipping-stopper. Every unresolved
- * reference is collected onto `data.integrity` instead of being quietly dropped, and
- * `assertIntegrity()` turns that list into a build failure.
+ * The seasonal data stays in its own tree because it is authored against its own contract
+ * (docs/SEASONAL-SCHEMA.md) and decays on its own schedule. It does NOT get its own `urls` — those
+ * live in ./data.mjs with every other route, because two URL builders on one origin is the drift
+ * this codebase exists to prevent.
+ *
+ * What this adds over the evergreen loader is referential integrity against that dataset. A
+ * seasonal page naming a park, an attraction, or an evergreen page that does not exist is a
+ * shipping-stopper: every unresolved reference is collected onto `data.integrity` rather than being
+ * quietly dropped, and `assertIntegrity()` turns that list into a build failure.
  */
 
 import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 
-import { ROOT, loadData, urls as evergreenUrls } from './data.mjs'
+import { ROOT, loadData, urls } from './data.mjs'
 import { staleness } from './staleness.mjs'
 
 export const SEASONAL_DATA_DIR = join(ROOT, 'data', 'seasonal')
-export const SEASONAL_DIST_DIR = join(ROOT, 'dist-seasonal')
 
 export const MONTHS = [
   { month: 1, name: 'January', slug: 'january' },
@@ -49,120 +51,68 @@ async function readJsonDir (dir) {
   return Promise.all(files.map((f) => readJson(join(dir, f))))
 }
 
-/* ------------------------------------------------------------------ *
- * URL builders — the only place Site 2 paths are constructed
- * ------------------------------------------------------------------ */
-
-export const urls = {
-  home: () => '/',
-  calendar: () => '/calendar/',
-  whenToGoIndex: () => '/when-to-go/',
-  month: (slug) => `/when-to-go/${slug}/`,
-  eventsIndex: () => '/events/',
-  event: (slug) => `/events/${slug}/`,
-  edition: (slug, year) => `/events/${slug}/${year}/`,
-  holidaysIndex: () => '/holidays/',
-  holiday: (slug) => `/holidays/${slug}/`,
-  pricesIndex: () => '/prices/',
-  price: (slug) => `/prices/${slug}/`,
-  closuresIndex: () => '/closures/',
-  closures: (resortSlug) => `/closures/${resortSlug}/`,
-  toolsIndex: () => '/tools/',
-  tripTiming: () => '/tools/trip-timing/',
-  about: () => '/about/',
-  editorial: () => '/editorial-policy/',
-  affiliate: () => '/affiliate-disclosure/',
-  privacy: () => '/privacy/',
-  terms: () => '/terms/',
-  contact: () => '/contact/',
-}
-
-/* ------------------------------------------------------------------ *
- * Site 1 cross-links
- * ------------------------------------------------------------------ */
-
-/**
- * Site 1's origin, restated here because the builders below are synchronous and get used inside
- * template literals. `loadSite1Urls()` asserts it still matches data/site.json, so the copy cannot
- * drift into pointing a whole site's worth of cross-links at a dead domain.
+/*
+ * Routes come from ./data.mjs. Re-exported so the seasonal page modules keep one import, and so
+ * there remains exactly one definition of every path on this site.
  */
-export const SITE1_ORIGIN = 'https://rideready.guide'
+export { urls }
 
 /**
- * Absolute Site 1 URLs, wrapped from Site 1's own builders rather than restated.
+ * Every URL the evergreen side of the site publishes, as a Set of paths.
  *
- * Deriving them means a route renamed in data.mjs breaks here loudly at build time instead of
- * silently emitting cross-links to a 404 — which is the failure a reader would find first and we
- * would find last.
- */
-export const site1 = Object.fromEntries([
-  ['origin', SITE1_ORIGIN],
-  ['abs', (path) => `${SITE1_ORIGIN}${path}`],
-  ...Object.entries(evergreenUrls).map(([name, build]) => [name, (...args) => `${SITE1_ORIGIN}${build(...args)}`]),
-])
-
-/**
- * Every URL Site 1 actually publishes, as a Set, in both path (`/guides/`) and absolute
- * (`https://rideready.guide/guides/`) form — the schema shows one and describes the other, and an
- * author will write whichever they had to hand.
- *
- * Built from Site 1's own `urls` builders and its live dataset. Hand-writing the paths here would
+ * Built from the shared `urls` builders and the live dataset. Hand-writing the paths here would
  * only prove that this file agrees with itself, which is exactly the check that lets a broken
  * cross-link through.
  */
-export async function loadSite1Urls (site1Data) {
+export async function evergreenUrlSet (site1Data) {
   const data = site1Data || await loadData()
-  if (data.site.brand.origin !== SITE1_ORIGIN) {
-    throw new Error(`SITE1_ORIGIN is ${SITE1_ORIGIN} but data/site.json says ${data.site.brand.origin}. Every cross-link on Site 2 depends on these matching.`)
-  }
-
   const paths = new Set()
   const add = (path) => { if (path) paths.add(path) }
 
-  add(evergreenUrls.home())
-  add(evergreenUrls.parksIndex())
-  for (const resort of data.site.resorts || []) add(evergreenUrls.resort(resort.slug))
+  add(urls.home())
+  add(urls.parksIndex())
+  for (const resort of data.site.resorts || []) add(urls.resort(resort.slug))
 
   for (const park of data.parks) {
-    add(evergreenUrls.park(park))
-    add(evergreenUrls.rides(park))
-    if (park.bestRides) add(evergreenUrls.bestRides(park))
-    add(evergreenUrls.heights(park))
-    add(evergreenUrls.dining(park))
-    add(evergreenUrls.snacks(park))
-    add(evergreenUrls.map(park))
-    add(evergreenUrls.accessibility(park))
-    add(evergreenUrls.firstTimer(park))
-    for (const land of park.lands) add(evergreenUrls.land(park, land.slug))
+    add(urls.park(park))
+    add(urls.rides(park))
+    if (park.bestRides) add(urls.bestRides(park))
+    add(urls.heights(park))
+    add(urls.dining(park))
+    add(urls.snacks(park))
+    add(urls.map(park))
+    add(urls.accessibility(park))
+    add(urls.firstTimer(park))
+    for (const land of park.lands) add(urls.land(park, land.slug))
 
     // An attraction or restaurant without its own page lives as an anchor on the list page, and
     // data.mjs has already resolved which is which. `.url` is therefore the only form a cross-link
     // can legitimately use, so it is the form the set has to carry.
     for (const attraction of park.attractions) add(attraction.url)
     for (const restaurant of park.dining) add(restaurant.url)
-    for (const item of park.food) add(`${evergreenUrls.snacks(park)}#${item.id}`)
+    for (const item of park.food) add(`${urls.snacks(park)}#${item.id}`)
   }
 
   if (data.guides.length) {
-    add(evergreenUrls.guidesIndex())
-    for (const guide of data.guides) add(evergreenUrls.guide(guide.slug))
+    add(urls.guidesIndex())
+    for (const guide of data.guides) add(urls.guide(guide.slug))
   }
   if (data.compare.length) {
-    add(evergreenUrls.compareIndex())
-    for (const page of data.compare) add(evergreenUrls.compare(page.slug))
+    add(urls.compareIndex())
+    for (const page of data.compare) add(urls.compare(page.slug))
   }
 
-  add(evergreenUrls.toolsIndex())
-  add(evergreenUrls.foodTracker())
-  add(evergreenUrls.heightChecker())
-  add(evergreenUrls.about())
-  add(evergreenUrls.editorial())
-  add(evergreenUrls.affiliate())
-  add(evergreenUrls.privacy())
-  add(evergreenUrls.terms())
-  add(evergreenUrls.contact())
+  add(urls.toolsIndex())
+  add(urls.foodTracker())
+  add(urls.heightChecker())
+  add(urls.about())
+  add(urls.editorial())
+  add(urls.affiliate())
+  add(urls.privacy())
+  add(urls.terms())
+  add(urls.contact())
 
-  return new Set([...paths, ...[...paths].map((p) => `${SITE1_ORIGIN}${p}`)])
+  return paths
 }
 
 /* ------------------------------------------------------------------ *
@@ -170,8 +120,6 @@ export async function loadSite1Urls (site1Data) {
  * ------------------------------------------------------------------ */
 
 export async function loadSeasonal () {
-  const site = await readJson(join(SEASONAL_DATA_DIR, 'site.json'))
-
   const events = (await readJsonDir(join(SEASONAL_DATA_DIR, 'events'))).filter((e) => e && e.slug)
   const months = (await readJsonDir(join(SEASONAL_DATA_DIR, 'months'))).filter((m) => m && m.month)
   const holidays = (await readJsonDir(join(SEASONAL_DATA_DIR, 'holidays'))).filter((h) => h && h.slug)
@@ -181,13 +129,12 @@ export async function loadSeasonal () {
   const calendarPath = join(SEASONAL_DATA_DIR, 'calendar.json')
   const calendar = existsSync(calendarPath) ? await readJson(calendarPath) : { bands: [] }
 
-  // Site 1's dataset is loaded on every seasonal build, not on demand: park slugs, attraction slugs,
-  // and cross-link targets all resolve against it, and a check that can be skipped is a check that
-  // will be.
+  // The evergreen dataset is loaded unconditionally: park slugs, attraction slugs, and cross-link
+  // targets all resolve against it, and a check that can be skipped is a check that will be.
   const site1Data = await loadData()
-  const site1Urls = await loadSite1Urls(site1Data)
+  const site1Urls = await evergreenUrlSet(site1Data)
 
-  return index({ site, events, months, holidays, prices, closures, calendar, site1Data, site1Urls })
+  return index({ site: site1Data.site, events, months, holidays, prices, closures, calendar, site1Data, site1Urls })
 }
 
 /* ------------------------------------------------------------------ *
@@ -235,7 +182,7 @@ function index (data) {
   const checkCrossLinks = (entity, id) => {
     for (const link of entity.crossLinks || []) {
       link.resolved = site1Urls.has(link.href)
-      if (!link.resolved) flag(id, 'crossLinks[].href', link.href, 'Not a URL Site 1 publishes.')
+      if (!link.resolved) flag(id, 'crossLinks[].href', link.href, 'Not a URL this site publishes.')
     }
   }
 
@@ -255,8 +202,8 @@ function index (data) {
     event.parkUrl = null
     if (event.parkSlug) {
       event.parkInfo = site1Data.parkBySlug.get(event.parkSlug) || null
-      if (event.parkInfo) event.parkUrl = site1.park(event.parkInfo)
-      else flag(id, 'parkSlug', event.parkSlug, 'No park with this slug exists under Site 1 data/parks/.')
+      if (event.parkInfo) event.parkUrl = urls.park(event.parkInfo)
+      else flag(id, 'parkSlug', event.parkSlug, 'No park with this slug exists under data/parks/.')
     }
 
     checkCrossLinks(event, id)
@@ -358,7 +305,7 @@ function index (data) {
   for (const tracker of closures) {
     const id = `closures/${tracker.resort}`
     tracker.resortInfo = site1Data.resortBySlug.get(tracker.resort) || null
-    if (!tracker.resortInfo) flag(id, 'resort', tracker.resort, 'No resort with this slug exists in Site 1 data.')
+    if (!tracker.resortInfo) flag(id, 'resort', tracker.resort, 'No resort with this slug exists in data/site.json.')
 
     decorate(tracker, id, urls.closures(tracker.resort), [
       home,
@@ -369,7 +316,7 @@ function index (data) {
     tracker.items = (tracker.items || []).filter(Boolean)
     for (const item of tracker.items) {
       item.parkInfo = item.parkSlug ? site1Data.parkBySlug.get(item.parkSlug) || null : null
-      if (item.parkSlug && !item.parkInfo) flag(id, 'items[].parkSlug', item.parkSlug, 'No park with this slug exists under Site 1 data/parks/.')
+      if (item.parkSlug && !item.parkInfo) flag(id, 'items[].parkSlug', item.parkSlug, 'No park with this slug exists under data/parks/.')
 
       item.attractionInfo = null
       item.attractionUrl = null
@@ -377,8 +324,8 @@ function index (data) {
         item.attractionInfo = item.parkInfo ? item.parkInfo.attractionBySlug.get(item.attractionSlug) || null : null
         // A refurbishment tracker listing rides that do not exist is worse than no tracker, because
         // it is the page a reader checks precisely when they cannot verify it themselves.
-        if (item.attractionInfo) item.attractionUrl = site1.abs(item.attractionInfo.url)
-        else flag(id, 'items[].attractionSlug', item.attractionSlug, `Not an attraction at ${item.parkSlug || '(no park)'} in Site 1 data.`)
+        if (item.attractionInfo) item.attractionUrl = item.attractionInfo.url
+        else flag(id, 'items[].attractionSlug', item.attractionSlug, `Not an attraction at ${item.parkSlug || '(no park)'} in data/parks/.`)
       }
     }
   }
@@ -400,7 +347,7 @@ function index (data) {
  *
  * `loadSeasonal()` collects rather than throws so the validator can report every broken reference in
  * one pass instead of one per run. The build calls this, so nothing unresolved can reach
- * dist-seasonal/ on the argument that it was only a warning.
+ * dist/ on the argument that it was only a warning.
  */
 export function assertIntegrity (data) {
   if (!data.integrity.length) return data

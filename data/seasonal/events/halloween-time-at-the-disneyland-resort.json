@@ -11,19 +11,31 @@
   "title": "Halloween Time at the Disneyland Resort",
   "titleTail": ": What Changes & When To Go",
   "description": "The Disneyland Resort's fall overlay across both parks — the two ride takeovers worth timing a trip for, what they cost you in access, and the weeks to book.",
-
   "typicalWindow": {
     "startsAround": "late August",
     "endsAround": "31 October",
     "nightsTypical": 70,
-    "nightsRange": [63, 75],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      63,
+      75
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Every operating day in the window during regular park hours. The Guardians of the Galaxy evening variant runs only after dark, and the seasonal fireworks appear on select nights rather than nightly."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [6, 15],
+    "rangeUsd": [
+      6,
+      15
+    ],
     "asOf": "July 2026",
     "cheapestNights": "Midweek dates in early and mid-September, which are also the quietest of the whole run",
     "priciestNights": "The last three weekends of the run, when date-based ticket pricing peaks and the resort runs at its highest crowd level outside the December holidays",
@@ -35,7 +47,6 @@
       "What else costs extra: Lightning Lane Multi Pass ran $30 to $45 per person per day at Disneyland Resort as of July 2026, and standard parking ran $35 to $40."
     ]
   },
-
   "whatYouGet": [
     "Haunted Mansion Holiday at Disneyland Park - the Nightmare Before Christmas takeover, installed for the season after a multi-week closure and left up through the December holidays.",
     "Guardians of the Galaxy - Monsters After Dark at Disney California Adventure, an evening-only variant of Mission: BREAKOUT! with a different story and soundtrack.",
@@ -45,7 +56,6 @@
     "Seasonal decoration across both parks, including the Main Street pumpkin display and the Mickey jack-o-lantern at the Disneyland Park entrance.",
     "Halloween-specific food across both parks and a large seasonal merchandise line."
   ],
-
   "whatYouDont": [
     "The regular Haunted Mansion. The overlay is installed for roughly four months, from around September through the first week or two of January, so a fall or December trip means the standard version is simply unavailable. If that ride is a reason you are going to Disneyland Park, go in another season.",
     "Short waits on the two attractions you came for. Haunted Mansion Holiday routinely posts the longest standby wait in Disneyland Park during the season, comfortably above what the standard version draws in June, and the evening Guardians variant spikes the moment it switches over.",
@@ -54,7 +64,6 @@
     "Extra capacity. The resort does not add attractions for the season; it repaints two, decorates the rest, and then hosts a substantially larger crowd in the same footprint.",
     "A full evening at Disney California Adventure on party nights. That park closes early to regular guests on Oogie Boogie Bash dates, which pushes everyone else into Disneyland Park and makes its evening noticeably busier."
   ],
-
   "verdict": {
     "short": "Free with your ticket and worth timing a trip around, provided you accept that Haunted Mansion Holiday replaces the Haunted Mansion rather than joining it. Go in September, not late October.",
     "worthItIf": [
@@ -72,7 +81,6 @@
       "You are traveling with someone who finds the Haunted Mansion difficult. The seasonal version is louder and busier than the standard one, and the queue is longer."
     ]
   },
-
   "strategy": [
     {
       "heading": "Ride Haunted Mansion Holiday first thing or last thing",
@@ -80,7 +88,7 @@
         "The seasonal Haunted Mansion has a wait profile unlike the rest of Disneyland Park, and knowing its shape is worth an hour of your day. It opens shorter than most people expect, because the opening crowd walks straight past New Orleans Square toward Galaxy's Edge and Fantasyland. From roughly eleven in the morning it climbs and then stays high until the final hour.",
         "That gives you exactly two good windows: the first 45 minutes of the day, or the last 60 minutes before close. Everything between is a queue measured in whole fractions of an hour, on a ride that most of the year is a walk-on-adjacent 20 minutes.",
         "The overlay is worth riding more than once across a trip because it changes in one specific way each year: the gingerbread house in the ballroom is redesigned annually, and that is the detail repeat visitors go back for. It is also the reason the ride is worth doing even if you rode the seasonal version two years ago.",
-        "The permanent details of the attraction itself live on Site 1 and are not repeated here. What is seasonal is the timing: the changeover closes the ride for a stretch in late summer while the overlay is installed, and again in January while it comes out. If your dates land in either changeover, you get neither version."
+        "The permanent details of the attraction itself live on its own page and are not repeated here. What is seasonal is the timing: the changeover closes the ride for a stretch in late summer while the overlay is installed, and again in January while it comes out. If your dates land in either changeover, you get neither version."
       ]
     },
     {
@@ -111,7 +119,6 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Is Halloween Time included with a regular Disneyland ticket?",
@@ -142,17 +149,42 @@
       "a": "Not on this page. As of July 2026 we have not verified an announcement of the coming season's start date, so nothing here states one. The window itself has been stable for years: the overlay goes up in late August and comes down after Halloween, with the Haunted Mansion installation staying in place well past that."
     }
   ],
-
   "crossLinks": [
-    { "label": "Haunted Mansion at Disneyland Park", "href": "/disneyland/disneyland-park/rides/haunted-mansion/", "site": 1 },
-    { "label": "Guardians of the Galaxy - Mission: BREAKOUT!", "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/", "site": 1 },
-    { "label": "Space Mountain at Disneyland Park", "href": "/disneyland/disneyland-park/rides/space-mountain/", "site": 1 },
-    { "label": "Cars Land", "href": "/disneyland/california-adventure/lands/cars-land/", "site": 1 },
-    { "label": "Disneyland Park fireworks", "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/", "site": 1 },
-    { "label": "Is it scary? Ride-by-ride intensity", "href": "/guides/is-it-scary/", "site": 1 }
+    {
+      "label": "Haunted Mansion at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/haunted-mansion/",
+      "site": 1
+    },
+    {
+      "label": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/",
+      "site": 1
+    },
+    {
+      "label": "Space Mountain at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/space-mountain/",
+      "site": 1
+    },
+    {
+      "label": "Cars Land",
+      "href": "/disneyland/california-adventure/lands/cars-land/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park fireworks",
+      "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/",
+      "site": 1
+    },
+    {
+      "label": "Is it scary? Ride-by-ride intensity",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    }
   ],
-  "related": ["oogie-boogie-bash", "holidays-at-the-disneyland-resort"],
-
+  "related": [
+    "oogie-boogie-bash",
+    "holidays-at-the-disneyland-resort"
+  ],
   "editions": [
     {
       "year": 2025,
@@ -171,7 +203,6 @@
       }
     }
   ],
-
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",

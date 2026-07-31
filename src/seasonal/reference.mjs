@@ -2,8 +2,8 @@
  * Holiday hubs, price pages, and the closure trackers.
  *
  * These three families share a shape — a dated reference table wrapped in editorial — so they share
- * a module. What they do not share with Site 1 is the direction of the handoff: a price page owns
- * what Lightning Lane *costs* and links to Site 1 for how it *works*.
+ * a module. The handoff runs one way here: a price page owns what Lightning
+ * Lane *costs* and links to the evergreen guide for how it *works*.
  */
 
 import { html, raw, inline } from '../lib/html.mjs'
@@ -60,7 +60,7 @@ export function holidayPage (holiday, data) {
 
     ${C.faqSection(holiday.faqs)}
 
-    ${SC.evergreenLinks(links(holiday), site.brand.sisterSite)}
+    ${SC.evergreenLinks(links(holiday))}
   `
 
   return {
@@ -83,7 +83,6 @@ export function holidayPage (holiday, data) {
           modified: `${holiday.freshness.verified}-01`, section: 'Holidays',
         }),
         S.faqPage(site, { url, faqs: holiday.faqs }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
@@ -123,7 +122,7 @@ export function holidaysIndex (data) {
         trail,
       },
       body,
-      schema: [S.itemList(site, { url, name: 'Holidays at the Disney parks', items: holidays.map((h) => ({ name: h.title, url: h.url })) }), SS.siteRelationship(site)].filter(Boolean),
+      schema: [S.itemList(site, { url, name: 'Holidays at the Disney parks', items: holidays.map((h) => ({ name: h.title, url: h.url })) })].filter(Boolean),
     }),
   }
 }
@@ -175,7 +174,7 @@ export function pricePage (price, data) {
 
     ${price.faqs && price.faqs.length ? C.faqSection(price.faqs) : ''}
 
-    ${SC.evergreenLinks(links(price), site.brand.sisterSite)}
+    ${SC.evergreenLinks(links(price))}
   `
 
   return {
@@ -199,7 +198,6 @@ export function pricePage (price, data) {
         }),
         SS.priceList(site, { url, name: price.h1 || price.title, rows: price.rows }, { stale: state.state === 'stale' }),
         S.faqPage(site, { url, faqs: price.faqs }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
@@ -261,7 +259,7 @@ export function pricesIndex (data) {
         trail,
       },
       body,
-      schema: [S.itemList(site, { url, name: 'Disney parks price guides', items: prices.map((p) => ({ name: p.title, url: p.url })) }), SS.siteRelationship(site)].filter(Boolean),
+      schema: [S.itemList(site, { url, name: 'Disney parks price guides', items: prices.map((p) => ({ name: p.title, url: p.url })) })].filter(Boolean),
     }),
   }
 }
@@ -331,7 +329,6 @@ export function closuresPage (tracker, data) {
           url, title: `${label} closures`, description: tracker.summary || `Refurbishment tracker for ${label}.`,
           modified: `${tracker.freshness.verified}-01`, section: 'Closures',
         }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
@@ -373,7 +370,7 @@ export function closuresIndex (data) {
         trail,
       },
       body,
-      schema: [SS.siteRelationship(site)].filter(Boolean),
+      schema: [],
     }),
   }
 }

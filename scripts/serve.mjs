@@ -1,9 +1,7 @@
 /**
  * Minimal static server for local preview of a built site.
  *
- * Takes the directory as an argument so the same server previews both sites:
- *   node scripts/serve.mjs            → dist/
- *   node scripts/serve.mjs dist-seasonal
+ * Takes the directory as an optional argument; defaults to dist/.
  * Resolves pretty URLs to index.html, serves _headers-style caching for assets, and returns
  * the built 404 page. Node built-ins only — nothing to install.
  */

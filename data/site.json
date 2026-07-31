@@ -2,9 +2,9 @@
   "brand": {
     "name": "Ride Ready Guide",
     "shortName": "Ride Ready",
-    "tagline": "Independent, unofficial planning for the six US Disney parks.",
-    "domain": "rideready.guide",
-    "origin": "https://rideready.guide",
+    "tagline": "Independent, unofficial theme park planning: what you can ride, what is worth eating, when to go, and what it costs.",
+    "domain": "ridereadyguide.com",
+    "origin": "https://ridereadyguide.com",
     "locale": "en-US",
     "themeColor": "#0f3d2e",
     "founded": 2026,
@@ -12,13 +12,13 @@
   },
   "meta": {
     "defaultTitleSuffix": "Ride Ready Guide",
-    "defaultDescription": "Height requirements, ride-by-ride honesty, dining that is actually worth it, and printable park maps for all six US Disney parks. Independent and unofficial.",
+    "defaultDescription": "Height requirements, ride-by-ride honesty, dining worth the money, printable park maps, and month-by-month timing for the US theme parks. Independent and unofficial.",
     "twitterSite": "@rideready",
     "publisherName": "Ride Ready Guide"
   },
   "author": {
     "name": "The Ride Ready Guide editorial team",
-    "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the six US Disney parks so you do not have to guess.",
+    "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
     "url": "/about/"
   },
   "resorts": [
@@ -116,16 +116,20 @@
         "href": "/guides/height-requirements/"
       },
       {
-        "label": "Guides",
-        "href": "/guides/"
+        "label": "When to go",
+        "href": "/when-to-go/"
       },
       {
-        "label": "Compare",
-        "href": "/compare/"
+        "label": "Events",
+        "href": "/events/"
       },
       {
-        "label": "Food Tracker",
-        "href": "/tools/food-tracker/"
+        "label": "Prices",
+        "href": "/prices/"
+      },
+      {
+        "label": "Tools",
+        "href": "/tools/"
       }
     ],
     "footer": [
@@ -151,6 +155,10 @@
           {
             "label": "Animal Kingdom",
             "href": "/walt-disney-world/animal-kingdom/"
+          },
+          {
+            "label": "What is closed",
+            "href": "/closures/walt-disney-world/"
           }
         ]
       },
@@ -172,11 +180,44 @@
           {
             "label": "Disneyland vs Disney World",
             "href": "/compare/disneyland-vs-disney-world/"
+          },
+          {
+            "label": "What is closed",
+            "href": "/closures/disneyland/"
           }
         ]
       },
       {
-        "heading": "Tools",
+        "heading": "Plan your visit",
+        "links": [
+          {
+            "label": "Best time to go",
+            "href": "/when-to-go/"
+          },
+          {
+            "label": "Seasonal calendar",
+            "href": "/calendar/"
+          },
+          {
+            "label": "All events",
+            "href": "/events/"
+          },
+          {
+            "label": "What it costs",
+            "href": "/prices/"
+          },
+          {
+            "label": "All guides",
+            "href": "/guides/"
+          },
+          {
+            "label": "Comparisons",
+            "href": "/compare/"
+          }
+        ]
+      },
+      {
+        "heading": "Tools & about",
         "links": [
           {
             "label": "Food Tracker",
@@ -187,20 +228,11 @@
             "href": "/tools/height-checker/"
           },
           {
-            "label": "All tools & maps",
-            "href": "/tools/"
+            "label": "Trip timing",
+            "href": "/tools/trip-timing/"
           },
           {
-            "label": "All guides",
-            "href": "/guides/"
-          }
-        ]
-      },
-      {
-        "heading": "About",
-        "links": [
-          {
-            "label": "About this site",
+            "label": "About",
             "href": "/about/"
           },
           {
@@ -208,16 +240,8 @@
             "href": "/editorial-policy/"
           },
           {
-            "label": "Affiliate disclosure",
-            "href": "/affiliate-disclosure/"
-          },
-          {
-            "label": "Privacy policy",
+            "label": "Privacy",
             "href": "/privacy/"
-          },
-          {
-            "label": "Terms of use",
-            "href": "/terms/"
           },
           {
             "label": "Contact & corrections",
@@ -231,7 +255,7 @@
     "disclaimer": "Ride Ready Guide is an independent, unofficial guide. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to The Walt Disney Company or any of its subsidiaries or affiliates. All park, resort, attraction, restaurant, and character names are trademarks of their respective owners and are used here solely for identification and editorial commentary.",
     "shortDisclaimer": "Independent and unofficial. Not affiliated with or endorsed by The Walt Disney Company.",
     "affiliateDisclosure": "Some links on this page are affiliate links. If you buy through one, we may earn a commission at no additional cost to you. We only link to sellers we would use ourselves, and a commission never changes what we recommend or how we rank it.",
-    "accuracyNote": "Theme parks change. Prices, hours, ride systems, and menus move without notice. Every data page on this site carries a “last verified” date — check it, and confirm anything trip-critical with the park's official site before you rely on it.",
+    "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so in a banner we cannot switch off.",
     "copyrightHolder": "Ride Ready Guide"
   },
   "affiliates": {

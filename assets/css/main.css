@@ -1028,38 +1028,10 @@ body[data-offline] .offline-note { display: block; }
   }
 }
 
-/* ---------- 25. Seasonal (Site 2) ---------------------------------------
-   Park Season Guide reuses this stylesheet whole and repaints the brand ramp
-   through one attribute on <html>. A second stylesheet would have drifted from
-   this one within a month; a palette override cannot.
+/* ---------- 25. Dated content ------------------------------------------
+   The site carries two kinds of page and one brand. These are the pieces that
+   exist only because part of the content expires.
    ------------------------------------------------------------------------ */
-
-:root[data-site="season"] {
-  --brand:       #4a1d3f;
-  --brand-2:     #7a3a5c;
-  --brand-3:     #a3527d;
-  --brand-soft:  #f6ebf1;
-  --accent:      #a8500f;
-  --accent-2:    #cf7a2a;
-  --accent-soft: #fdf0e3;
-  --focus:       #8b4368;
-}
-@media (prefers-color-scheme: dark) {
-  :root[data-site="season"]:not([data-theme="light"]) {
-    --brand:      #d99ab9;
-    --brand-2:    #c988a8;
-    --brand-3:    #ecb6d0;
-    --brand-soft: #2a1621;
-    --accent:     #e9a264;
-    --accent-2:   #f0b884;
-    --accent-soft:#2a1e13;
-    --focus:      #ecb6d0;
-  }
-}
-:root[data-site="season"][data-theme="dark"] {
-  --brand:#d99ab9; --brand-2:#c988a8; --brand-3:#ecb6d0; --brand-soft:#2a1621;
-  --accent:#e9a264; --accent-2:#f0b884; --accent-soft:#2a1e13; --focus:#ecb6d0;
-}
 
 /* Freshness ribbon — the provenance strip on every dated page. */
 .freshness {

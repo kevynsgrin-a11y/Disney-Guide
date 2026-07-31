@@ -4,6 +4,9 @@ import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
+import * as SC from '../templates/seasonal-components.mjs'
+import { bandCovers, ganttBands, BUILD_MONTH_NUMBER } from '../seasonal/core.mjs'
+import { MONTHS } from '../lib/seasonal-data.mjs'
 
 function parkCard (park) {
   return C.card({
@@ -23,7 +26,7 @@ function parkCard (park) {
   })
 }
 
-export function homePage (data) {
+export function homePage (data, seasonal) {
   const { site, parks } = data
   const totalAttractions = data.allAttractions.filter((a) => a.isOpen).length
   const totalFood = data.allFood.length
@@ -37,6 +40,13 @@ export function homePage (data) {
   const featuredCompare = ['disneyland-vs-disney-world', 'best-disney-park-for-toddlers', 'disney-park-rankings', 'which-disney-park-should-i-visit']
     .map((slug) => data.compareBySlug.get(slug))
     .filter(Boolean)
+
+  // Derived from the build month rather than authored, so the home page rotates itself and nobody
+  // has to remember to take Halloween down in November.
+  const bands = ganttBands(seasonal)
+  const runningNow = bands.filter((b) => bandCovers(b, BUILD_MONTH_NUMBER)).map((b) => b.event)
+  const thisMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER)
+  const nextMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER === 12 ? 1 : BUILD_MONTH_NUMBER + 1)
 
   const body = html`
     ${C.hero({
@@ -96,6 +106,27 @@ export function homePage (data) {
       `,
     })}
 
+    ${runningNow.length ? C.section({
+      title: `On right now, in ${MONTHS[BUILD_MONTH_NUMBER - 1].name}`,
+      kicker: 'What is running',
+      intro: 'Each of these states whether this year is confirmed or still only expected. Most sites will not tell you which.',
+      children: C.cardGrid(runningNow.slice(0, 6).map((e) => SC.eventCard(e, e.staleness)), { columns: 3 }),
+    }) : ''}
+
+    ${thisMonth || nextMonth ? C.section({
+      tone: 'tint',
+      title: 'Thinking about when to go',
+      kicker: 'Timing',
+      intro: 'Every month graded on crowds, cost, weather, and what is actually running — including the months we think you should avoid.',
+      children: html`
+        <div class="month-grid">${[thisMonth, nextMonth].filter(Boolean).map((m) => SC.monthCard(m))}</div>
+        <p class="mt-5">
+          <a class="btn btn--primary" href="${urls.tripTiming()}">Rank the months by what you care about</a>
+          <a class="btn btn--ghost" href="${urls.whenToGoIndex()}">All twelve, graded</a>
+        </p>
+      `,
+    }) : ''}
+
     ${C.section({
       title: 'The guides people actually need',
       kicker: 'Planning',
@@ -104,6 +135,17 @@ export function homePage (data) {
         <p class="mt-5"><a class="btn btn--ghost" href="${urls.guidesIndex()}">All ${data.guides.length} guides</a></p>
       `,
     })}
+
+    ${bands.length ? C.section({
+      title: 'The whole year on one page',
+      kicker: 'Seasonal calendar',
+      intro: 'Every party night, festival, and overlay at both resorts. Colour shows how much has actually been confirmed.',
+      wide: true,
+      children: html`
+        ${SC.calendarGantt(bands)}
+        <p class="mt-5"><a class="btn btn--ghost" href="${urls.calendar()}">Open the full calendar</a></p>
+      `,
+    }) : ''}
 
     ${C.section({
       tone: 'tint',
@@ -122,7 +164,7 @@ export function homePage (data) {
         <div class="split">
           <div class="prose">
             ${paragraphs([
-              'This site carries display advertising and a small number of affiliate links, mostly to authorized ticket resellers. That is the entire business model. It is disclosed above every affiliate link, not buried in the footer.',
+              'A small number of affiliate links, mostly to authorized ticket resellers, and nothing else at present. That is the entire business model today. Display advertising may follow; if it does, it will be disclosed here before it ships. Affiliate links are disclosed directly above the link, not buried in the footer.',
               'What that money does not buy is placement. No restaurant, ride, or reseller can pay to be ranked higher, described more kindly, or added to a “best of” list. When we think something is overpriced or overrated, we say so — including things we would earn a commission on.',
               'We are not affiliated with The Walt Disney Company in any way. We buy our own tickets.',
             ])}
@@ -136,8 +178,8 @@ export function homePage (data) {
             })}
             ${C.callout({
               type: 'note',
-              title: 'Everything here is evergreen',
-              body: 'We deliberately do not cover party nights, festival menus, seasonal overlays, or today’s Lightning Lane price. Those change weekly and go stale in public. What you get instead is the durable stuff — kept correct, and stamped with the month we last checked it.',
+              title: 'We say what we actually know',
+              body: 'Permanent facts carry the month we last checked them. Anything that moves with the season also says whether it is **confirmed**, **expected**, or **last cycle** — and a page past its own review date says so in a banner nobody here can switch off. Most sites publish this year’s dates whether or not anyone announced them.',
             })}
           </div>
         </div>
@@ -151,7 +193,7 @@ export function homePage (data) {
       site,
       page: {
         url: '/',
-        title: 'Honest guides to the six US Disney parks',
+        title: 'Honest guides to the US Disney parks',
         titleTail: '',
         description: site.meta.defaultDescription,
         modified: '2026-07-01',

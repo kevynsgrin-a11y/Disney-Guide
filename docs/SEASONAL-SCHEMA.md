@@ -1,26 +1,26 @@
-# Site 2 — Seasonal Data Contract
+# Data Schema — the dated dataset
 
-**Park Season Guide** (`parkseason.guide`) is the sister site to Ride Ready Guide. It owns every
-topic Site 1 refuses to carry, for one reason: those topics have a shelf life, and a page that goes
-stale silently is worse than no page at all.
+Everything under `data/seasonal/` is authored against this contract. It covers the topics the
+evergreen dataset refuses to carry, for one reason: those topics have a shelf life, and a page that
+goes stale silently is worse than no page at all.
 
 This document is binding. `scripts/validate-seasonal.mjs` enforces it and the build fails on a
 violation. Read it before authoring a single JSON file.
 
 > **Independent and unofficial.** Not affiliated with, endorsed by, or sponsored by The Walt Disney
 > Company. Event, park, and restaurant names are used for identification and editorial commentary
-> only. No logos, character art, official artwork, or official maps appear anywhere on either site.
+> only. No logos, character art, official artwork, or official maps appear anywhere on this site.
 
 ---
 
 ## 1. Why this site exists, and what it is allowed to say
 
-Site 1 answers *"how tall must my kid be to ride Space Mountain"* — a fact that will be true in
-2031. Site 2 answers *"is Mickey's Not-So-Scary worth $199 this year"* — a fact with a half-life of
+The evergreen dataset answers *"how tall must my kid be to ride Space Mountain"* — a fact that will be true in
+2031. This one answers *"is Mickey's Not-So-Scary worth $199 this year"* — a fact with a half-life of
 about nine months.
 
-Two sites, two domains, because mixing them damages both: seasonal churn dilutes the evergreen
-site's topical authority, and evergreen stability makes a seasonal site look abandoned.
+These were briefly two sites on two domains. They are one site now — a merge that put every
+cross-link back inside one origin, which is where the linking actually pays.
 
 ### The honesty problem, and the structural answer
 
@@ -47,29 +47,28 @@ A `confirmed` entry with no `sourceNote` is a validation error. An `expected` or
 carrying an exact single-day date in a price or date field is a validation error — the fact checker
 greps for it.
 
-### Scope boundary (mirror of Site 1's)
+### Scope boundary
 
-Site 2 owns: party nights and hard-ticket events, festivals, seasonal overlays and menus,
+This dataset owns: party nights and hard-ticket events, festivals, seasonal overlays and menus,
 current pricing (Lightning Lane, tickets, parking, passes), refurbishment and closure trackers,
 crowd and weather timing, "when to go" verdicts.
 
-Site 2 does **not** own: height requirements, permanent ride facts, accessibility mechanics,
-permanent dining, park maps. Those live on Site 1 and Site 2 links to them. **One canonical owner
+It does **not** own: height requirements, permanent ride facts, accessibility mechanics, permanent
+dining, park maps. Those live in `data/`, and a dated page links to them. **One canonical owner
 per topic, contextual links, never duplicated blocks** — in both directions.
 
-Every Site 2 page that touches a permanent fact must link to the Site 1 page that owns it, via
+Every dated page that touches a permanent fact must link to the evergreen page that owns it, via
 `crossLinks`. The validator requires at least one on every event and month page.
 
 ---
 
 ## 2. Repository layout
 
-Site 2 reuses Site 1's `src/lib/` and `src/templates/` **verbatim**. The layout is already
-parameterised by a `site` object, so a second brand needs no template fork.
+The dated pages reuse `src/lib/` and `src/templates/` **verbatim**. Only the loader, the page
+modules, and the checks are separate.
 
 ```
 data/seasonal/
-  site.json                    brand, nav, legal, affiliates for Site 2
   events/<slug>.json           one per recurring event  (the pattern page + its editions)
   months/<month>.json          one per month, 01–12     (when-to-go)
   holidays/<slug>.json         cross-resort holiday hubs
@@ -77,18 +76,17 @@ data/seasonal/
   closures/<resort>.json       refurbishment tracker per resort
   calendar.json                the year-at-a-glance timeline
 src/
-  lib/seasonal-data.mjs        loader + derived indexes + urls  (mirrors lib/data.mjs)
+  lib/seasonal-data.mjs        loader + derived indexes (routes live in lib/data.mjs with the rest)
   lib/staleness.mjs            the freshness contract, computed at build time
   seasonal/*.mjs               page modules
-  build-seasonal.mjs           orchestrator → dist-seasonal/
 scripts/
   validate-seasonal.mjs        enforces this document
   factcheck-seasonal.mjs       asserts against the reference tables in §7
-  audit-seasonal.mjs           post-build QA
+  audit.mjs                    post-build QA, including the freshness checks
 ```
 
-Output goes to `dist-seasonal/`. Two Vercel projects, one repo, different build commands — see
-`docs/LAUNCH-SEASONAL.md`.
+Everything renders into the one `dist/` from `src/build.mjs`. The recurring maintenance routine is
+in `docs/SEASONAL-MAINTENANCE.md`.
 
 ---
 
@@ -141,7 +139,7 @@ The **pattern page** is canonical. Editions are subordinate and optional.
   "name": "Mickey's Not-So-Scary Halloween Party",
   "shortName": "Not-So-Scary",
   "resort": "walt-disney-world",              // walt-disney-world | disneyland | both
-  "parkSlug": "magic-kingdom",                // must resolve in Site 1's dataset, or null
+  "parkSlug": "magic-kingdom",                // must resolve in the evergreen dataset, or null
   "category": "hard-ticket",                  // hard-ticket | festival | overlay | after-hours | run
   "season": "halloween",                      // halloween | holidays | spring | summer | lunar-new-year | year-round
   "summary": "One-sentence answer, ≥ 80 chars. Leads with the verdict, not the history.",
@@ -189,10 +187,10 @@ The **pattern page** is canonical. Editions are subordinate and optional.
   },
   "faqs": [ { "q": "…", "a": "…" } ],         // ≥ 4
 
-  "crossLinks": [                             // ≥ 1 REQUIRED. Absolute Site 1 URLs.
+  "crossLinks": [                             // ≥ 1 REQUIRED. Root-relative evergreen URLs.
     { "label": "Magic Kingdom ride list", "href": "/walt-disney-world/magic-kingdom/rides/", "site": 1 }
   ],
-  "related": ["mickeys-very-merry-christmas-party"],   // slugs within Site 2
+  "related": ["mickeys-very-merry-christmas-party"],   // slugs within data/seasonal/events/
 
   "editions": [                               // optional, newest first
     {
@@ -215,11 +213,12 @@ The **pattern page** is canonical. Editions are subordinate and optional.
 
 **Validator rules**
 
-- `parkSlug`, when non-null, must resolve against Site 1's `data/parks/`. This is the load-bearing
+- `parkSlug`, when non-null, must resolve against `data/parks/`. This is the load-bearing
   cross-site integrity check.
-- Every `crossLinks[].href` must resolve to a real Site 1 URL. The validator builds Site 1's URL set
-  and checks membership — a broken cross-link is a build failure, not a warning, because
-  cross-linking is the entire strategic purpose of having two sites.
+- Every `crossLinks[].href` must resolve to a real evergreen URL. The validator builds that URL set
+  from the shared `urls` builders and checks membership — a broken cross-link is a build failure,
+  not a warning, because handing the reader to the permanent version of a topic is the entire point
+  of carrying both kinds of content.
 - `pricing.rangeUsd` must be `[low, high]` with `low < high`. A single fixed price is a validation
   error regardless of confidence — prices vary by night everywhere on this site.
 - `editions[].status: "announced"` requires the edition's own `freshness.confidence === "confirmed"`.
@@ -264,7 +263,7 @@ a site cannibalises itself.
 ```
 
 Weather figures are climate normals, not forecasts, and are labelled as such in the UI. They are the
-only numbers on Site 2 that do not decay, which is why they carry `cycle: "rolling"` and a long
+only numbers in this dataset that do not decay, which is why they carry `cycle: "rolling"` and a long
 `reviewBy`.
 
 ---
@@ -287,7 +286,7 @@ Every figure is a **range** with an `asOf`. Shape: `rows[]` of
 `{ name, parkSlug, attractionSlug, status, since, reopening, reopeningConfidence, note }`.
 
 `status` is one of `refurbishment`, `indefinite`, `permanently-closed`, `under-construction`,
-`seasonal`, `reopening` — aligned with Site 1's attraction vocabulary where the two overlap. A bare
+`seasonal`, `reopening` — aligned with the evergreen attraction vocabulary where the two overlap. A bare
 `closed` is deliberately not a value: the distinction a reader needs is whether the thing is coming
 back, and collapsing "down for six weeks" and "gone forever" into one word makes the tracker useless
 at exactly the moment somebody consults it.
@@ -296,7 +295,7 @@ at exactly the moment somebody consults it.
 permanent. Without it an author must choose between asserting work is underway and asserting the
 thing is gone, and neither is a claim we can support.
 
-`attractionSlug` must resolve in Site 1's dataset for that park — a tracker listing rides that do not
+`attractionSlug` must resolve in the evergreen dataset for that park — a tracker listing rides that do not
 exist is worse than no tracker, because it is the page a reader checks precisely when they cannot
 verify it themselves. `reopening` is prose ("late 2026"), never a fixed date, unless
 `reopeningConfidence === "confirmed"`.
@@ -310,7 +309,7 @@ rendered as a CSS-grid Gantt, no library.
 
 ## 7. Verified reference tables — July 2026
 
-`scripts/factcheck-seasonal.mjs` hard-codes these. As on Site 1, the duplication is deliberate:
+`scripts/factcheck-seasonal.mjs` hard-codes these. As in the evergreen fact checker, the duplication is deliberate:
 checking the dataset against itself proves nothing. This table is a second source of truth that has
 to be edited deliberately, in the same commit, when reality changes.
 
@@ -383,11 +382,11 @@ reference table that mandates something the rules prohibit is a bug in the table
 2. **No fixed prices.** Every monetary claim is a range with an `asOf`. A lone `$` figure outside a
    `rangeUsd` pair fails, except in `food.items[].priceUsd` where a single verified item price is
    the correct shape.
-3. **No Site 1 duplication.** Height requirements, permanent ride facts, and accessibility mechanics
+3. **No evergreen duplication.** Height requirements, permanent ride facts, and accessibility mechanics
    may not be restated. The checker greps for `inches tall`, `must be \d+"`, `height requirement`
    outside a `crossLinks` label and fails.
 4. **Park assignment** must match §7.1.
-5. **Marketing filler** — same needle list as Site 1's `scripts/factcheck.mjs`, plus seasonal-
+5. **Marketing filler** — same needle list as `scripts/factcheck.mjs`, plus seasonal-
    specific offenders: "magical memories", "not to be missed", "something for everyone",
    "a feast for the senses", "sure to delight".
 6. **Paragraph openers** — "Whether you…", "From … to …," and "Looking for…" are rejected as the
@@ -397,7 +396,7 @@ reference table that mandates something the rules prohibit is a bug in the table
 
 ## 8. Prose standards
 
-Identical to Site 1, restated because it is what separates this from the competition:
+Identical to the evergreen contract's, restated because it is what separates this from the competition:
 
 - Lead with the answer. The first sentence of every section states the conclusion; the rest
   supports it. Never build to a reveal.
@@ -419,7 +418,7 @@ A file is done when:
 
 1. `node scripts/validate-seasonal.mjs` passes.
 2. `node scripts/factcheck-seasonal.mjs` passes.
-3. Every `crossLinks` entry resolves against Site 1's live URL set.
+3. Every `crossLinks` entry resolves against the live evergreen URL set.
 4. The `freshness.confidence` level honestly describes what we actually know, and `sourceNote` says
    what a reader would need to know to judge it themselves.
 5. Nothing on the page would embarrass us if the reader also opened the operator's official page in

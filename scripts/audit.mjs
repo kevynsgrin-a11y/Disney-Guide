@@ -5,6 +5,16 @@
  * and meta descriptions, pages with zero or several H1s, malformed JSON-LD, unclosed placeholders,
  * and pages missing the required legal disclaimer.
  *
+ * Three of these only matter because part of the site expires:
+ *
+ *   1. Every page carrying a dated claim renders a freshness ribbon.
+ *   2. Every page past its review date renders the staleness banner, and the banner and the ribbon
+ *      agree — they come from one call, so a disagreement means something is rendering the banner
+ *      from data rather than from the build month.
+ *   3. No page emits an `Event` JSON-LD node without a `startDate`, and no stale page emits `offers`.
+ *      Structured data is what an answer engine quotes back, so it is the last place an unconfirmed
+ *      date or an expired price should survive.
+ *
  * Run: npm run audit:site   (after npm run build)
  */
 
@@ -48,6 +58,21 @@ for (const file of files) {
 
 const titles = new Map()
 const descriptions = new Map()
+
+let ribbons = 0
+let banners = 0
+let eventNodes = 0
+
+/**
+ * The staleness banner, matched by its own title.
+ *
+ * The footer's accuracy note explains that stale pages carry a banner, so a looser match for the
+ * phrase alone flags every page on the site.
+ */
+const STALE_BANNER = /Some details on this page are past their review date/
+
+/** Sections whose leaf pages make dated claims and therefore owe the reader a provenance strip. */
+const DATED_SECTIONS = ['/events/', '/when-to-go/', '/holidays/', '/prices/', '/closures/']
 let totalLinks = 0
 
 /** Entities inflate a length check five-fold — measure what a search engine would render. */
@@ -99,8 +124,33 @@ for (const file of htmlFiles) {
       if (!isUtility && !graph.some((n) => n['@type'] === 'BreadcrumbList') && page !== '/') {
         note(page, 'no BreadcrumbList in the JSON-LD graph')
       }
+      for (const node of graph) {
+        if (![].concat(node['@type'] || []).includes('Event')) continue
+        eventNodes++
+        // An Event without a startDate is either ignored or filled in with a guess. We would rather
+        // publish no node at all — see src/lib/seasonal-schema.mjs.
+        if (!node.startDate) fail(page, 'Event JSON-LD with no startDate — it should have fallen back to Article')
+        if (node.offers && STALE_BANNER.test(html)) {
+          fail(page, 'stale page still publishes an offers block')
+        }
+      }
     } catch (e) {
       fail(page, `JSON-LD does not parse — ${e.message}`)
+    }
+  }
+
+  /* -- the freshness contract -- */
+  const isDated = DATED_SECTIONS.some((s) => page.startsWith(s)) && page.split('/').length > 3
+  const hasRibbon = /class="freshness /.test(html)
+  const hasBanner = STALE_BANNER.test(html)
+  if (isDated && !hasRibbon) fail(page, 'dated page with no freshness ribbon')
+  if (hasRibbon) ribbons++
+  if (hasBanner) {
+    banners++
+    // Both come from one staleness() call, so a disagreement means something is rendering the
+    // banner from authored data rather than from the build month.
+    if (!/freshness--danger|freshness--stale/.test(html)) {
+      fail(page, 'staleness banner without a stale ribbon — the two are computed together and must agree')
     }
   }
 
@@ -172,8 +222,15 @@ if (served.has('/sitemap.xml')) {
 let bytes = 0
 for (const file of files) bytes += (await stat(file)).size
 
+// A stale page keeps its place in the index but loses its crawl priority; if banners exist and no
+// entry was demoted, the two halves of that rule have come apart.
+const sitemapXml = await readFile(join(DIST, 'sitemap.xml'), 'utf8')
+const demoted = [...sitemapXml.matchAll(/<priority>([\d.]+)<\/priority>/g)].filter(([, p]) => p === '0.3').length
+if (banners && !demoted) fail('sitemap.xml', `${banners} page(s) carry a staleness banner but none were demoted in the sitemap`)
+
 console.log(`
-  Audited ${htmlFiles.length} pages · ${totalLinks} internal links · ${(bytes / 1024 / 1024).toFixed(2)} MB`)
+  Audited ${htmlFiles.length} pages · ${totalLinks} internal links · ${(bytes / 1024 / 1024).toFixed(2)} MB
+  ${ribbons} freshness ribbons · ${banners} staleness banner${banners === 1 ? '' : 's'} · ${demoted} sitemap demotion${demoted === 1 ? '' : 's'} · ${eventNodes} Event JSON-LD node${eventNodes === 1 ? '' : 's'}`)
 
 if (notes.length) {
   console.log(`\n  ${notes.length} note${notes.length === 1 ? '' : 's'}:`)

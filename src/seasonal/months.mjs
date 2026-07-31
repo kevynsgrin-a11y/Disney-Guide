@@ -118,7 +118,7 @@ export function monthPage (month, data) {
       children: SC.sectionBlocks(month.planningNotes),
     })}
 
-    ${SC.evergreenLinks(crossLinkTiles(month), site.brand.sisterSite)}
+    ${SC.evergreenLinks(crossLinkTiles(month))}
 
     ${C.section({
       tone: 'tint',
@@ -155,7 +155,6 @@ export function monthPage (month, data) {
           section: 'When to go',
         }),
         S.itemList(site, { url, name: `What is on in ${month.name}`, items: month.events }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
@@ -236,7 +235,6 @@ export function whenToGoIndex (data) {
           name: 'Months ranked for a Disney parks visit',
           items: ranked.map((m) => ({ name: `${m.name} — ${m.verdict.grade}`, url: m.url })),
         }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
