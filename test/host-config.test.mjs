@@ -56,8 +56,9 @@ test('no redirect points at a path that is itself redirected', () => {
 })
 
 test('security headers are on every rule, not only the catch-all', () => {
-  // Hosts differ on whether a request collects headers from all matching rules or only the most
-  // specific one. Under the second reading, a path with its own cache rule silently loses these.
+  // Portability, not a live bug: `/*` works on our current host. But hosts differ on whether a
+  // request collects headers from all matching rules or only the most specific one, and under the
+  // second reading a path with its own cache rule silently loses these.
   const blocks = headers.split('\n\n').filter(Boolean)
   assert.ok(blocks.length >= 5, 'expected a block per cache rule plus the catch-all')
   for (const block of blocks) {

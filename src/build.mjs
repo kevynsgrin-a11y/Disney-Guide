@@ -434,10 +434,11 @@ const EXACT_REDIRECTS = [
 /**
  * The security block is repeated onto every rule rather than left to `/*` alone.
  *
- * Hosts differ on whether a request picks up headers from every matching rule or only the most
- * specific one, and the second reading silently drops the security headers from exactly the paths
- * that have their own cache rule. Repeating a handful of identical lines costs nothing and removes
- * the dependency on which reading a host implements.
+ * `/*` verifiably works on our host — a live check confirmed nosniff on a path matched by nothing
+ * else — so this is portability insurance, not a fix for an observed bug. Hosts differ on whether a
+ * request collects headers from every matching rule or only the most specific one, and under the
+ * second reading every path with its own cache rule silently loses the security set. Sixteen
+ * identical generated lines is a cheap way to not depend on which reading a host implements.
  */
 export function buildHeaders () {
   const security = Object.entries(SECURITY_HEADERS).map(([k, v]) => `  ${k}: ${v}`).join('\n')
