@@ -1,0 +1,124 @@
+{
+  "month": 7,
+  "name": "July",
+  "slug": "july",
+  "summary": "July is the worst month of the year to visit Walt Disney World on every measure that matters — hottest, wettest, busiest, most expensive — and it is the month with no better week to move to. Disneyland is merely crowded and expensive, which this month counts as a recommendation.",
+  "verdict": {
+    "grade": "D-",
+    "short": "Peak prices, a flat four-week crowd plateau, and an Orlando heat index over 100 most afternoons. Go only if the school calendar leaves you no choice, and plan fewer park days than you think.",
+    "bestFor": [
+      "Families with no flexibility whatsoever, who will trade money for line-skipping and hours for shade",
+      "Disneyland trips, which get dry mid-80s heat and cool evenings instead of Florida's",
+      "Water park days, which are the highest-value park days available in Orlando this month",
+      "Night owls — summer operating hours are the longest of the year and the evenings are the good part",
+      "Anyone who genuinely enjoys a resort pool day and will build the trip around them"
+    ],
+    "worstFor": [
+      "Anyone heat-sensitive, pregnant, elderly, or traveling with children under five at Walt Disney World",
+      "Budget trips of any description — this is the most expensive month on the calendar alongside late December",
+      "Visitors expecting to find a quieter week inside the month, because there isn't one",
+      "First-timers trying to see all four Orlando parks in five days",
+      "Anyone who will not be at the gate before opening, which is the whole strategy this month"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "July is the year's longest continuous stretch of high attendance, and its defining feature is flatness rather than height. Independence Day week is the local maximum — Magic Kingdom has historically reached phased-closure levels on the holiday itself, and both resorts run their most crowded non-Christmas days across that weekend — but the rest of the month never falls far below it, because every US district is out simultaneously and international summer travel is at its annual peak. That flatness changes what planning effort is worth. In March or December, moving your dates a week is the single highest-leverage decision available; in July, it accomplishes almost nothing, and the same effort spent on gate times, park order, and paid line-skipping returns far more. The other July-specific effect is that heat compresses the usable day at Walt Disney World into roughly 9 to noon and 6 PM onward, so a park that is nominally at the same crowd level as a March park is delivering that crowd into half the hours.",
+    "peakWindows": [
+      "The Independence Day long weekend at both resorts, the busiest non-holiday-season days of the year",
+      "Every weekend, with Saturday the worst day at Disneyland",
+      "Late morning through late afternoon at every indoor Walt Disney World attraction"
+    ],
+    "quietWindows": [
+      "The first ninety minutes after park open, which is the entire strategy this month",
+      "The last two hours before close on a weeknight, once families with small children have left",
+      "The hour after an afternoon storm clears in Orlando"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 93,
+      "lowF": 75,
+      "rainDays": 17,
+      "note": "Climate normals for Orlando, not a forecast. The hottest and wettest month of the Orlando year. Seventeen days with measurable rain means the afternoon thunderstorm is the default condition rather than the exception, and with dewpoints in the mid-70s the heat index routinely passes 100 by mid-morning. Overnight lows of 75 mean the pavement never really cools."
+    },
+    "dlr": {
+      "highF": 83,
+      "lowF": 64,
+      "rainDays": 0,
+      "note": "Climate normals for Anaheim, not a forecast. July averages effectively zero days with measurable rain and dry heat that peaks in the low-to-mid 80s, with evenings cooling into the 60s. The gap between the two resorts is wider in July than in any other month, and it is the single biggest weather argument either resort has."
+    }
+  },
+  "cost": {
+    "level": "peak",
+    "note": "July carries Walt Disney World's top date-based ticket tiers alongside Christmas and Easter, and it is the only peak period that lasts four weeks rather than one — which removes the usual escape of shifting a few days. Resort hotels run summer season across the entire month, and promotional offers, when they exist, exclude the Independence Day period entirely. Airfare is the most punishing line item: fares into both Orlando and the Southern California airports reach their annual high because family leisure demand peaks with no offsetting off-season anywhere in the domestic network, and unlike hotel rates they do not respond to booking early beyond a point. The one cost that moves in your favor is that summer operating hours are the longest of the year, so the per-hour value of a ticket is better than in any winter month."
+  },
+  "whatsOn": [
+    "epcot-flower-and-garden-festival",
+    "epcot-food-and-wine-festival",
+    "disney-after-hours"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Rope drop is not a tactic in July, it is the plan",
+      "body": [
+        "The comfortable, uncrowded park in Orlando exists between opening and roughly noon, and it does not exist again until evening. Everything else in a July plan is downstream of whether you are actually at the gate before the park opens.",
+        "In practice that means being through security 45 to 60 minutes before the published opening time, not at it. Early entry for on-property guests moves that line earlier still. The first three attractions of the day at a July rope drop typically take less total time than the first one does at 1 PM.",
+        "Then leave. The mistake families make is grinding through the middle of the day because they paid for the ticket, which converts a good morning into a bad afternoon and an abandoned evening. Out by 12:30, back by 6."
+      ]
+    },
+    {
+      "heading": "Buy fewer park days over more nights",
+      "body": [
+        "The single most useful structural change to a July Walt Disney World trip is reducing park days and extending the stay. Four park days across eight nights beats six park days across seven, because the two rest days restore enough capacity to make the four good days genuinely good.",
+        "The date-based ticket price per day falls as the number of days rises, which pushes people toward buying more days than they will use well. In July that pricing structure is actively working against you.",
+        "Water parks count as one of those days without counting as a heat day. Blizzard Beach and Typhoon Lagoon are the highest-value park days available in Orlando in July, and they are the one Disney product that is genuinely better in this month than in any other."
+      ]
+    },
+    {
+      "heading": "The water parks reach capacity, and earlier than you expect",
+      "body": [
+        "Walt Disney World's water parks have far lower capacity than the theme parks and they hit it. On a hot weekend in July, a water park can stop admitting guests before lunch, including guests holding valid tickets for that day.",
+        "The response is the same as at a theme park and people apply it less often: arrive at opening. A water park at 10 AM in July is a pleasant, uncrowded place; the same park at 1 PM is standing room on the lazy river.",
+        "The other advantage of the early arrival is chair space. Shaded loungers are gone within an hour of opening, and shade is not a luxury item in a Florida July."
+      ]
+    },
+    {
+      "heading": "Disney After Hours is the only line-skipping purchase that gets better as it gets busier",
+      "body": [
+        "A separately ticketed after-hours night caps park attendance at a fraction of a normal day, runs for a few hours after regular close, and costs the same per night regardless of how crowded that afternoon was. Its value per dollar therefore rises with the crowd level, which makes July its strongest month.",
+        "It also puts you in the park during the only comfortable temperature band of a Florida summer day. A 10 PM Magic Kingdom in July runs fifteen degrees cooler than the same park at 3 PM, and the outdoor headliners that were closed for lightning in the afternoon are running again.",
+        "Pair it with a short day, not a full one. Anybody who does 9 AM to 6 PM and then a three-hour night event in July is inviting the heat exhaustion this whole page is trying to prevent."
+      ]
+    },
+    {
+      "heading": "Two festival notes, one of which nobody plans for",
+      "body": [
+        "The Flower and Garden Festival runs into early July, so a trip at the front of the month usually still catches it, and its final days are the least crowded of the entire festival because the summer visitor is not there for topiaries.",
+        "The Food and Wine Festival's start is the least predictable of EPCOT's four festivals. It has opened as early as the back end of July in some years and not until late August in others. Do not build a July trip around catching it; treat it as a bonus if the dates work out and check the announcement before assuming either way.",
+        "Both festivals share the same operational fact worth knowing: the marketplace booths open later in the morning than the park does. In July that is a feature, because the first hour belongs to the rides regardless."
+      ]
+    },
+    {
+      "heading": "Hydration is a logistics problem, not a willpower problem",
+      "body": [
+        "Free cups of ice water are available on request at any quick-service counter at both resorts, and they are the cheapest and most underused item in the parks. A family of four asking at every meal and snack stop saves real money and, more importantly, actually drinks enough.",
+        "Carry a bottle and refill it rather than relying on buying. The queue for a drink cart at 3 PM in July is itself a heat exposure.",
+        "Watch for the early signs in children rather than waiting for complaints — small children stop asking for things before they say they feel bad. A midday break in air conditioning is not a lost hour in July; it is what makes the evening possible."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 },
+    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "Best Disney park for one day", "href": "/compare/best-disney-park-for-one-day/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The EPCOT Food and Wine Festival opening has moved between late July and late August across recent cycles and is deliberately described as unpredictable rather than dated.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

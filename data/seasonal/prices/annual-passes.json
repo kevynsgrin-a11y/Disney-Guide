@@ -1,0 +1,277 @@
+{
+  "slug": "annual-passes",
+  "title": "Disney Annual Pass and Magic Key Prices",
+  "titleTail": ": Break-Even Math for Every Tier",
+  "h1": "Disney annual pass prices, and exactly how many days each tier takes to pay for itself",
+  "description": "Annual Pass and Magic Key prices at both resorts as of 2026, with the break-even arithmetic for every tier and the blockout dates that undo it.",
+  "summary": "Every annual pass tier at both resorts pays for itself somewhere between two and eighteen park days, and the tier you should buy is decided almost entirely by blockout dates rather than by price — a cheap pass blocked on the only week you can travel is worth nothing at all.",
+  "rows": [
+    {
+      "label": "Pixie Dust Pass (Florida residents, weekdays only)",
+      "resort": "walt-disney-world",
+      "rangeUsd": [400, 500],
+      "asOf": "2026 pricing",
+      "note": "Renewal price sits at the bottom of this band and new purchase at the top, which is true of every pass row on this page. Weekdays only and heavily blocked at peak, which is the constraint that decides whether the low price is real for you."
+    },
+    {
+      "label": "Pirate Pass (Florida residents)",
+      "resort": "walt-disney-world",
+      "rangeUsd": [700, 900],
+      "asOf": "2026 pricing",
+      "note": "Weekends included outside blockouts. Blocked across the Christmas and New Year period, the Easter fortnight and parts of the summer, which is exactly when a non-local would want to use it."
+    },
+    {
+      "label": "Sorcerer Pass (Florida residents and Disney Vacation Club members)",
+      "resort": "walt-disney-world",
+      "rangeUsd": [900, 1150],
+      "asOf": "2026 pricing",
+      "note": "The tier that suits most Disney Vacation Club members, because membership removes the residency requirement. Blocked across the Christmas and New Year peak but open across most of the rest of the year."
+    },
+    {
+      "label": "Incredi-Pass (no residency requirement)",
+      "resort": "walt-disney-world",
+      "rangeUsd": [1230, 1560],
+      "asOf": "2026 pricing",
+      "note": "The only Walt Disney World tier available to everyone and the only one with no blockout dates. The $330 spread between renewal and new purchase is the largest on this page, which is why letting one lapse is an expensive mistake."
+    },
+    {
+      "label": "Imagine Key (Southern California residents)",
+      "resort": "disneyland",
+      "rangeUsd": [560, 700],
+      "asOf": "2026 pricing",
+      "note": "The cheapest pass at either resort and the one with the heaviest blockouts, including most Saturdays and the whole peak calendar. For a local who can go midweek it is the easiest purchase on this page; for anyone else it is unusable."
+    },
+    {
+      "label": "Enchant Key",
+      "resort": "disneyland",
+      "rangeUsd": [900, 1060],
+      "asOf": "2026 pricing",
+      "note": "Adds most weekends outside the peak. The middle tier is where the Anaheim decision usually lands, and where the blockout calendar matters more than the price difference."
+    },
+    {
+      "label": "Believe Key",
+      "resort": "disneyland",
+      "rangeUsd": [1270, 1460],
+      "asOf": "2026 pricing",
+      "note": "Few blockouts, retained through most of the year. Historically the most-sold tier and the one that suits a Southern California family that goes roughly monthly."
+    },
+    {
+      "label": "Inspire Key",
+      "resort": "disneyland",
+      "rangeUsd": [1620, 1860],
+      "asOf": "2026 pricing",
+      "note": "No blockouts and the only Anaheim tier that has included standard theme park parking rather than a discount on it. That inclusion is worth $35 to $40 per visit day and should be counted before comparing it against Believe Key."
+    },
+    {
+      "label": "1-day one-park gate ticket, adult, for comparison",
+      "resort": "walt-disney-world",
+      "rangeUsd": [119, 209],
+      "asOf": "July 2026",
+      "note": "The number every Florida break-even below is divided into. Use the top of the band if you would only ever visit on peak dates and the bottom if you can go midweek in September."
+    },
+    {
+      "label": "1-day one-park gate ticket, adult, for comparison",
+      "resort": "disneyland",
+      "rangeUsd": [104, 214],
+      "asOf": "July 2026",
+      "note": "The comparison figure for every Anaheim break-even below. Anaheim's tier structure is published, so a local can predict which end of this band applies to their usual visit day."
+    },
+    {
+      "label": "Standard theme park self-parking, per day, for comparison",
+      "resort": "walt-disney-world",
+      "rangeUsd": [30, 50],
+      "asOf": "July 2026",
+      "note": "Standard self-parking has been included with Walt Disney World annual passes, which shortens every Florida break-even below by roughly a fifth for anyone who drives. Confirm the current perk list before counting it."
+    }
+  ],
+  "breakEven": [
+    {
+      "pass": "Pixie Dust Pass",
+      "resort": "walt-disney-world",
+      "priceRangeUsd": [400, 500],
+      "comparedAgainst": "1-day one-park adult gate ticket, $119 to $209",
+      "daysToBreakEven": [2, 5],
+      "verdict": "The easiest yes on this page for a Florida resident who can visit on weekdays. Three midweek visits and it has paid for itself."
+    },
+    {
+      "pass": "Pirate Pass",
+      "resort": "walt-disney-world",
+      "priceRangeUsd": [700, 900],
+      "comparedAgainst": "1-day one-park adult gate ticket, $119 to $209",
+      "daysToBreakEven": [4, 8],
+      "verdict": "Worth it for a Florida resident making six or more visits who needs some weekend access. Blocked when a visitor most wants to go."
+    },
+    {
+      "pass": "Sorcerer Pass",
+      "resort": "walt-disney-world",
+      "priceRangeUsd": [900, 1150],
+      "comparedAgainst": "1-day one-park adult gate ticket, $119 to $209",
+      "daysToBreakEven": [5, 10],
+      "verdict": "The default for a Disney Vacation Club member making two trips a year. Below two trips, buy tickets."
+    },
+    {
+      "pass": "Incredi-Pass",
+      "resort": "walt-disney-world",
+      "priceRangeUsd": [1230, 1560],
+      "comparedAgainst": "1-day one-park adult gate ticket, $119 to $209",
+      "daysToBreakEven": [6, 14],
+      "verdict": "Only pays if you make two or more separate Florida trips in twelve months. Against one long trip it never pays, because a ten-day ticket costs $70 to $83 a day."
+    },
+    {
+      "pass": "Incredi-Pass, driving visitor",
+      "resort": "walt-disney-world",
+      "priceRangeUsd": [1230, 1560],
+      "comparedAgainst": "gate ticket plus standard parking, $149 to $259 a day",
+      "daysToBreakEven": [5, 11],
+      "verdict": "Included standard parking removes roughly a fifth of the break-even for anyone who drives to the parks. Count it before you compare tiers."
+    },
+    {
+      "pass": "Imagine Key",
+      "resort": "disneyland",
+      "priceRangeUsd": [560, 700],
+      "comparedAgainst": "1-day one-park adult gate ticket, $104 to $214",
+      "daysToBreakEven": [3, 7],
+      "verdict": "The best value at either resort for a Southern California local with midweek flexibility. Most Saturdays and the entire peak calendar are blocked."
+    },
+    {
+      "pass": "Enchant Key",
+      "resort": "disneyland",
+      "priceRangeUsd": [900, 1060],
+      "comparedAgainst": "1-day one-park adult gate ticket, $104 to $214",
+      "daysToBreakEven": [5, 11],
+      "verdict": "The tier to buy if Imagine Key's weekend blockouts would cost you visits. Check the blockout calendar against your actual free days, not against the year in general."
+    },
+    {
+      "pass": "Believe Key",
+      "resort": "disneyland",
+      "priceRangeUsd": [1270, 1460],
+      "comparedAgainst": "1-day one-park adult gate ticket, $104 to $214",
+      "daysToBreakEven": [6, 14],
+      "verdict": "Sensible for a family visiting roughly monthly. Against a single five-day trip at $91 to $118 a day it does not pay."
+    },
+    {
+      "pass": "Inspire Key",
+      "resort": "disneyland",
+      "priceRangeUsd": [1620, 1860],
+      "comparedAgainst": "1-day one-park adult gate ticket, $104 to $214",
+      "daysToBreakEven": [8, 18],
+      "verdict": "Eighteen park days is a lot of Disneyland. Buy it for the absence of blockouts and the included parking, not for the ticket arithmetic."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The verdict, in one paragraph",
+      "body": [
+        "Buy a pass if you are a resident, and do not buy one if you are taking a single trip. That covers almost everyone. A Florida resident visiting three times on weekdays clears the Pixie Dust Pass at $400 to $500 before the year is a third gone. A family from Ohio taking one nine-day Florida trip will never beat a ten-day ticket at $70 to $83 a day, no matter which tier they buy.",
+        "The middle case — two separate trips in twelve months — is where the arithmetic actually needs doing, and where the Incredi-Pass at $1,230 to $1,560 becomes defensible. Two five-day trips is ten park days, which sits inside the pass's 6-to-14-day break-even window and comfortably inside the 5-to-11-day window once included parking is counted.",
+        "The variable that overrides all of this is blockouts. A Pixie Dust Pass or an Imagine Key blocked across every week your family can actually travel is worth nothing regardless of what the break-even table says. Read the blockout calendar for your real dates before you read the price."
+      ]
+    },
+    {
+      "heading": "How to read these bands",
+      "body": [
+        "Every pass band on this page runs from the renewal price at the bottom to the new-purchase price at the top. Both resorts price renewals below new purchases, typically by a meaningful margin, so the band is a real spread rather than an estimate of uncertainty. On the Incredi-Pass that spread reaches $330.",
+        "All figures are before tax. Sales tax is added at purchase and varies by county in Florida, so budget an additional six to eight percent on every pass figure here.",
+        "Monthly payment plans exist at both resorts for residents only, and they total more than paying in one instalment. If the plan is the only way to afford a tier, price the tier below it against the plan total before committing."
+      ]
+    },
+    {
+      "heading": "The break-even arithmetic, tier by tier",
+      "body": [
+        "Divide the pass price by what a park day would otherwise cost you. At Walt Disney World, an Incredi-Pass at $1,230 to $1,560 against one-day gate tickets at $119 to $209 breaks even between 6 and 14 park days. A Sorcerer Pass at $900 to $1,150 breaks even between 5 and 10. A Pirate Pass at $700 to $900 between 4 and 8. A Pixie Dust Pass at $400 to $500 between 2 and 5.",
+        "At the Disneyland Resort, against one-day tickets at $104 to $214, an Imagine Key at $560 to $700 breaks even between 3 and 7 park days, an Enchant Key at $900 to $1,060 between 5 and 11, a Believe Key at $1,270 to $1,460 between 6 and 14, and an Inspire Key at $1,620 to $1,860 between 8 and 18.",
+        "Now do the honest version. Nobody buying a pass for one trip would have bought one-day tickets — they would have bought a long ticket. Against a ten-day Walt Disney World ticket at $70 to $83 a day, an Incredi-Pass needs 15 to 23 park days to break even. Against a five-day Disneyland Resort ticket at $91 to $118 a day, a Believe Key needs 11 to 17. Neither of those is a trip; both are a habit.",
+        "That is the finding this page exists for. Annual passes at both resorts are priced for people who make repeated separate visits, and they are priced deliberately so that they do not beat a single long ticket. If you are planning one trip, the pass is not a discount, it is a more expensive ticket with a longer expiry."
+      ]
+    },
+    {
+      "heading": "What break-even leaves out",
+      "body": [
+        "Parking is the largest omission and it runs in the pass's favour at Walt Disney World. Standard theme park self-parking has been included with Walt Disney World annual passes, at a value of $30 to $50 per visit day. For a passholder driving to the parks ten times a year that is $300 to $500 recovered before a single ride, and it shortens the Incredi-Pass break-even from 6-to-14 days down to 5-to-11.",
+        "Anaheim is weaker on this and the difference matters. The Inspire Key has included standard parking; the lower tiers have received a discount rather than inclusion. At $35 to $40 per visit day the gap between inclusion and a discount is the single strongest argument for the top Anaheim tier, and it is the one most break-even comparisons omit.",
+        "Merchandise and dining discounts run at roughly 10 to 20 percent on merchandise and 10 to 15 percent on dining at both resorts, on selected locations rather than all of them. A family spending $600 to $1,200 a year in the parks recovers $60 to $240 of that. Real, but not decisive, and never worth buying a higher tier to obtain.",
+        "Both resorts have required passholders to hold a park reservation on dates when standard ticket holders did not, and both have periodically paused new pass sales entirely. A pass you cannot reserve on your dates, or cannot buy at all, is a planning risk rather than a price one. Check the reservation calendar for your intended dates before you buy."
+      ]
+    },
+    {
+      "heading": "Blockouts are the whole game",
+      "body": [
+        "Choose the tier by blockout calendar first and by price second, because the cheap tiers are cheap precisely because they are unavailable when demand is high. Imagine Key blocks most Saturdays and the entire peak calendar. Pixie Dust Pass is weekdays only. Both are excellent value for someone whose free time is midweek and worthless for someone whose free time is not.",
+        "The test to apply is specific: list the ten days you would realistically visit in the next twelve months, then check each one against the blockout calendar for the tier you are considering. If three or more are blocked, you are looking at the wrong tier, and the money saved on the cheaper pass is smaller than the value of the visits you would lose.",
+        "Christmas week, New Year, the Easter fortnight and Independence Day are blocked on every tier except the top one at both resorts. If those weeks are the only weeks you can travel, the top tier is the only pass worth considering and its break-even is the longest on this page."
+      ]
+    },
+    {
+      "heading": "Timing the purchase",
+      "body": [
+        "Activate the pass on the first day of your largest trip, not on the day you buy it. Both resorts date the pass from activation rather than purchase, so a pass bought in spring and first used in December has wasted months of its validity. Buy when it suits your budget and activate when it suits your calendar.",
+        "Renew rather than let a pass lapse. Renewal prices sit at the bottom of every band on this page and a lapsed pass restarts at the top. On an Incredi-Pass that gap is $330; on a Believe Key it is $190. Renewal windows are short and both resorts have declined to backdate them.",
+        "Both resorts raise pass prices most years, usually in the autumn, and both have paused sales of individual tiers without warning. If a pass is clearly right for you, waiting for a better price is the wrong bet — the historical direction is one way."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Do not buy a pass for a trip you have already booked. If your dates are set and it is a single trip, a seven-to-ten-day Walt Disney World ticket at $70 to $109 a day beats every tier on this page, and a five-day Disneyland Resort ticket at $91 to $118 a day beats every Magic Key. Passes are priced to lose against one long ticket, deliberately.",
+    "Renew rather than lapse. Renewal sits at the bottom of every band on this page and new purchase at the top — a $330 gap on the Incredi-Pass and a $190 gap on the Believe Key. Renewal windows are short, both resorts have declined to backdate them, and letting one lapse is the most expensive avoidable mistake a passholder makes.",
+    "Count the parking before you compare the tiers. Standard theme park self-parking has been included with Walt Disney World annual passes at a value of $30 to $50 per visit day, so ten Florida park days recovers $300 to $500 of the pass price before admission. In Anaheim only the Inspire Key has included parking rather than discounting it, which is worth $35 to $40 a visit and closes most of the gap to Believe Key.",
+    "Check residency and Disney Vacation Club eligibility before comparing anything. A Florida resident buying an Incredi-Pass at $1,230 to $1,560 when the Pirate Pass at $700 to $900 would cover their actual visit days is overpaying by $330 to $860 for blockout dates they will never use. Disney Vacation Club membership unlocks the Sorcerer Pass without Florida residency.",
+    "Buy passes only for the people making the extra visits. If one parent is doing three solo day trips a year and the family is doing one week together, buy one pass and four tickets rather than four passes. Passes are per person with no family rate, so the arithmetic has to be done individually rather than for the household.",
+    "Activate on the first day of your biggest trip. Both resorts date the pass from activation rather than purchase, so buying in spring and first using it in December throws away months of validity. Buy when the budget allows and activate when the calendar does.",
+    "Run the ten-day test on the blockout calendar before you commit. List the ten days you would realistically visit in the next twelve months and check each against the blockout calendar for the tier you are considering. If three or more are blocked, the cheaper tier is not cheaper — it is a smaller pass, and the visits you lose cost more than the price difference."
+  ],
+  "crossLinks": [
+    {
+      "label": "Walt Disney World vs Disneyland",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom park guide",
+      "href": "/walt-disney-world/magic-kingdom/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park guide",
+      "href": "/disneyland/disneyland-park/",
+      "site": 1
+    },
+    {
+      "label": "Planning a first Disney trip",
+      "href": "/guides/first-disney-trip/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many days does an annual pass take to pay for itself?",
+      "a": "Against one-day gate tickets: 2 to 5 days for a Pixie Dust Pass, 4 to 8 for a Pirate Pass, 5 to 10 for a Sorcerer Pass, and 6 to 14 for an Incredi-Pass in Florida; 3 to 7 for an Imagine Key, 5 to 11 for an Enchant Key, 6 to 14 for a Believe Key, and 8 to 18 for an Inspire Key in Anaheim. Against a long multi-day ticket, every one of those figures roughly doubles."
+    },
+    {
+      "q": "Is an annual pass worth it for one long trip?",
+      "a": "No, and it is designed not to be. A ten-day Walt Disney World ticket costs $70 to $83 a day, which means an Incredi-Pass at $1,230 to $1,560 needs 15 to 23 park days to beat it. A single trip cannot get there. Passes pay off through repeated separate visits, not through length."
+    },
+    {
+      "q": "Which tier should I buy?",
+      "a": "The cheapest tier that is not blocked on the days you will actually visit. List the ten days you would realistically go in the next twelve months and check each against the blockout calendar. If three or more are blocked, move up a tier. Price is the second question; blockouts are the first, and this is the order most buyers get backwards."
+    },
+    {
+      "q": "Does an annual pass include parking?",
+      "a": "At Walt Disney World, standard theme park self-parking has been included with annual passes, which is worth $30 to $50 per visit day and shortens every Florida break-even on this page. At the Disneyland Resort only the Inspire Key has included standard parking; the lower tiers receive a discount instead. Confirm the current perk list before counting it, because inclusions do change."
+    },
+    {
+      "q": "Do I still need a park reservation with a pass?",
+      "a": "Sometimes, and it varies by resort, tier and date. Both resorts have required passholders to hold a reservation on dates when standard ticket holders did not. Check the reservation calendar for the dates you intend to visit before you buy — a pass you cannot reserve on your dates is a worse purchase than a ticket."
+    },
+    {
+      "q": "Are these 2026 prices confirmed?",
+      "a": "They describe pricing observed as of July 2026, labelled with that cycle, and we do not present them as an announced 2027 structure. Both resorts have raised pass prices in most recent years, usually in the autumn, and both have paused sales of individual tiers without warning. If you are budgeting for next year, budget above the top of these bands."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Pass bands run from the renewal price to the new-purchase price at each tier, before tax, as observed in July 2026. We label this page as last-confirmed rather than confirmed because both resorts reprice passes without advance announcement, usually in the autumn, and we have no operator announcement to cite for a 2027 structure. Perk inclusions, particularly parking and reservation requirements, have changed mid-cycle in the past and should be confirmed on the operator's own pass page before purchase.",
+    "reviewBy": "2026-11",
+    "cycle": "rolling"
+  }
+}

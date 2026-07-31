@@ -152,5 +152,41 @@ body.print-checklist .park-group h2 {
 .parkmap .water { fill: #ddd; }
 .map-legend { font-size: 8pt; }
 
+/* ---------- Seasonal (Site 2) ------------------------------------------ */
+
+/* The provenance strip is the one thing that must survive onto paper. A printed seasonal page with
+   no visible "checked in July 2026, next review September" is exactly the artefact that gets pinned
+   to a fridge and trusted for two years. */
+.freshness {
+  border: .5pt solid #000; border-left: 2pt solid #000;
+  padding: 2mm 3mm; background: none; break-inside: avoid;
+}
+.freshness__note, .freshness__meta { color: #000; }
+.freshness__overdue { font-weight: 700; text-decoration: underline; }
+
+.price-range__asof { border: .5pt solid #666; background: none; }
+.window-strip, .give-take__col, .verdict, .verdict__col, .editions__item, .resort-split__col {
+  border: .5pt solid #999; background: none; break-inside: avoid;
+}
+.verdict { background: none; }
+.grade { border: .5pt solid #000; background: none !important; color: #000 !important; }
+
+.month-grid { display: block; columns: 2; column-gap: 8mm; }
+.month-card { break-inside: avoid; border: .5pt solid #999; margin-bottom: 3mm; display: block; }
+.month-card__level { border: .5pt solid #999; background: none; }
+
+/* The Gantt prints as a whole page or not at all — a half-scrolled timeline is worse than none. */
+.gantt-wrap { overflow: visible; break-inside: avoid; }
+.gantt { min-width: 0; font-size: 8pt; }
+.gantt__bar { border: .5pt solid #000; }
+.gantt__bar--confirmed { background: #333; }
+.gantt__bar--expected { background: #999; }
+.gantt__bar--historical { background: #ddd; }
+.gantt__cell { border-right: .5pt solid #ccc; height: 4mm; }
+.gantt__bar { height: 4mm; }
+
+/* Interactive-only. On paper the ranking is meaningless without its controls. */
+.timing-controls, .timing-results { display: none; }
+
 /* Anything explicitly marked for print only. */
 [data-print-only] { display: revert !important; }

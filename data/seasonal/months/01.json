@@ -1,0 +1,117 @@
+{
+  "month": 1,
+  "name": "January",
+  "slug": "january",
+  "summary": "January is the best month of the year to visit Walt Disney World, and the margin is not close — provided you let the first week go and accept that half the refurbishment work Disney does all year happens while you are there.",
+  "verdict": {
+    "grade": "A-",
+    "short": "The quietest, cheapest four weeks at both resorts once New Year's traffic clears. The catch is short park hours and the heaviest refurbishment schedule of the year.",
+    "bestFor": [
+      "Adults and couples who want short lines more than they want a full ride roster",
+      "Anyone who has been before and is going back for the parks rather than for the checklist",
+      "Budget-led trips — this is the cheapest month to fly, sleep, and buy tickets in Orlando",
+      "Runners and their families, if the trip is built around marathon weekend rather than in spite of it",
+      "Disneyland visitors who can travel midweek, when the resort is as empty as it ever gets"
+    ],
+    "worstFor": [
+      "The first week of the month, which is still holiday-week attendance at holiday-week prices",
+      "Trips built around one specific headliner, because January is when that headliner is most likely to be closed",
+      "Families who need long evenings — park hours are cut back hard after the holiday period",
+      "Water park days at Walt Disney World, which cold fronts can cancel outright",
+      "Anyone visiting Disneyland on a weekend, when the local pass base fills the park regardless of season"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "Attendance does not taper after New Year's — it falls off a shelf. Once the holiday return-travel wave clears in the first several days, every driver of theme park demand switches off simultaneously: no US school district is on break, the Florida drive-in market has spent its money, and international leisure travel is at its annual trough. Nothing replaces them until Presidents' week in February, which leaves roughly three consecutive weeks with no crowd driver at all. Walt Disney World's one January event, marathon weekend, is a hotel-and-roads phenomenon rather than a park one: it fills resort rooms and reroutes buses, but runners are on course at 5 AM and asleep by the evening, so standby waits barely register it. Disneyland behaves differently because its attendance is local. Southern California passholders are back at work and school, so weekdays run genuinely empty, while Saturdays still fill because a resident with a pass does not need a season to justify a visit. The weekday-to-weekend gap at Disneyland is wider in January than in any other month.",
+    "peakWindows": [
+      "The first several days, until holiday return travel finishes unwinding",
+      "Marathon weekend at Walt Disney World, for hotel rooms and road closures rather than for ride waits",
+      "Every Saturday at Disneyland, where local pass traffic ignores the calendar",
+      "The Martin Luther King Jr. long weekend, a mild but real three-day bump"
+    ],
+    "quietWindows": [
+      "The second and third full weeks at Walt Disney World, the lowest waits of the year",
+      "Tuesday through Thursday at Disneyland in the back half of the month",
+      "The week after the Martin Luther King Jr. holiday at both resorts"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 72,
+      "lowF": 51,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. January is the mildest month of the year here and one of the two driest, with low humidity and comfortable afternoons. The variance is what catches people out: a cold front can hold highs in the 50s and lows in the 30s for two or three days at a stretch, and Orlando's parks have very little indoor waiting space when it does. Pack for 70 degrees and carry a layer for 45."
+    },
+    "dlr": {
+      "highF": 69,
+      "lowF": 46,
+      "rainDays": 6,
+      "note": "Climate normals for Anaheim, not a forecast. January is one of Southern California's three wettest months, and the rain arrives as multi-day frontal systems rather than as the twenty-minute showers Florida gets. Sunny January days in Anaheim are genuinely pleasant and the evenings are cold enough that a fleece is not optional for a nighttime show."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "Every lever moves the same direction at once, which is rare. Walt Disney World's date-based ticket tiers sit at or near their annual floor for most of the month; resort hotels drop into their lowest published rate season once the holiday period ends; and airfare into Orlando collapses as soon as holiday return travel finishes, because the leisure market is spent and the convention calendar has not restarted. Marathon weekend is the single exception and it is a sharp one — resort rooms price like a peak week for three or four nights while the parks stay quiet, which is the worst combination available. Anaheim discounts less aggressively because its demand is local and price-insensitive, but midweek hotel rates on Harbor Boulevard are at their yearly low."
+  },
+  "whatsOn": [
+    "epcot-festival-of-the-arts",
+    "lunar-new-year-at-disney-california-adventure",
+    "holidays-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Short lines, short days — check the hours before you celebrate the crowds",
+      "body": [
+        "The trap in January is treating a low crowd level as a long day. Operating hours are cut back sharply once the holiday period ends, and a Magic Kingdom that closed at midnight in late December may close at 8 PM three weeks later, with EPCOT and Animal Kingdom closing earlier still. A quiet park you are ejected from at dusk delivers fewer rides than a moderate park open until 10 PM.",
+        "The actionable version: pull the operating calendar for your exact dates before you decide how many park days to buy. In a short-hours January week, four park days over five nights often beats five park days over five nights, because the marginal day adds fewer operating hours than a rested morning adds throughput.",
+        "Early entry for on-property guests matters more in January than in any other month for the same reason. When the park is only open eleven hours, the extra half hour is a larger share of the day."
+      ]
+    },
+    {
+      "heading": "Refurbishment season is the real price of a January trip",
+      "body": [
+        "The month with the lowest attendance is the cheapest month to take a headliner offline, and Disney treats it accordingly. January and early February carry the heaviest rehab schedule of the year at both resorts, and it is not unusual for two or three major attractions per park to be walled off simultaneously.",
+        "This is the one planning step that people skip and then regret. Check the closure list for your dates before you book, not after. If the trip exists because somebody in the group wants one specific ride, January is the riskiest month on the calendar to gamble on it, and shifting to late February or early May removes almost all of that risk while keeping most of the crowd advantage.",
+        "The compensation is that walking onto the attractions that are open is genuinely realistic. A January Tuesday at Animal Kingdom or Hollywood Studios can deliver a full ride list before lunch."
+      ]
+    },
+    {
+      "heading": "Marathon weekend is a lodging problem, not a park problem",
+      "body": [
+        "Walt Disney World's race weekend brings tens of thousands of runners and their families to the resort for several days. The effect on ride waits is small — the races run overnight and finish before the parks open — but the effect on rooms, buses, and internal roads is large. Resort hotels sell out and price accordingly, and race-morning road closures redirect bus routes at exactly the hours you would be heading to rope drop.",
+        "If you are not running, book around it. The week immediately after race weekend has the same low crowds and none of the room premium, and it is the single best-value week at Walt Disney World in the first quarter.",
+        "If you are running, the non-obvious move is to plan zero park time on race day itself and to treat the following day as a half day. Every year people buy a full park ticket for the afternoon after a half marathon and use three hours of it."
+      ]
+    },
+    {
+      "heading": "Festival of the Arts is the strongest of EPCOT's four festivals",
+      "body": [
+        "The Festival of the Arts opens mid-January and runs into late February, and it is the one EPCOT festival where the non-food content is worth planning around rather than walking past. The gallery spaces, the working artists, and the Disney on Broadway concert series are the substance; the food studios are good but are not the reason to prioritize it.",
+        "The bookable elements — seminars, workshops, and the paint-and-sip style sessions — release well ahead and fill quickly, and they are the part of the festival that sells out. The food studios and the gallery never need a reservation and never have a meaningful line in January.",
+        "One scheduling detail worth knowing: the Broadway concert series runs on a limited set of days each week rather than daily. If a specific pairing of performers is the draw, that constrains which nights your EPCOT day can be, which is the opposite of how most people plan the park."
+      ]
+    },
+    {
+      "heading": "Disneyland is still wearing its holiday decorations",
+      "body": [
+        "Holidays at the Disneyland Resort runs past New Year's and into the first part of January, which means the early weeks of the month hand you the December product at January prices and January crowd levels. The seasonal ride overlays, the castle lighting, and the holiday parade are all still installed. This is the best trade available anywhere on the seasonal calendar and almost nobody takes it.",
+        "The Lunar New Year celebration at Disney California Adventure then picks up from mid-January, so a well-placed trip can catch the tail of one seasonal layout and the opening of the next in the same visit.",
+        "Book weekdays. The gap between a Wednesday and a Saturday at Disneyland in January is larger than the gap between a January Wednesday and a July Wednesday, which is a genuinely counterintuitive way to think about the resort's calendar."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "EPCOT first-timer guide", "href": "/walt-disney-world/epcot/first-timer-guide/", "site": 1 },
+    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
+    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Event references follow typical windows, not announced dates.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

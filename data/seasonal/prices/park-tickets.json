@@ -1,0 +1,203 @@
+{
+  "slug": "park-tickets",
+  "title": "Disney Park Ticket Prices",
+  "titleTail": ": Both Resorts, Priced Per Day, July 2026",
+  "h1": "Disney park ticket prices at both resorts, and the only number worth comparing",
+  "description": "What Walt Disney World and Disneyland tickets cost as of July 2026, why the per-day price falls so steeply, and where the real discounts actually are.",
+  "summary": "A Disney ticket's headline price is close to meaningless because the per-day cost falls by roughly half between a one-day ticket and a ten-day one, which makes trip length, not date-shopping, the decision that controls what you spend on admission.",
+  "rows": [
+    {
+      "label": "1-day, one park, adult",
+      "resort": "walt-disney-world",
+      "rangeUsd": [119, 209],
+      "asOf": "July 2026",
+      "note": "Date-based and park-based. Magic Kingdom prices above the other three at every date tier. The bottom of this band exists on a small number of late-August, September and late-January weekdays; the top is Christmas week, Easter and Independence Day."
+    },
+    {
+      "label": "1-day, one park, child aged 3 to 9",
+      "resort": "walt-disney-world",
+      "rangeUsd": [114, 204],
+      "asOf": "July 2026",
+      "note": "The child discount is roughly a five-dollar gesture rather than a meaningful reduction, and it ends the day a child turns 10. Children under 3 enter free at both resorts and do not need a ticket at all."
+    },
+    {
+      "label": "4-day, one park per day, adult",
+      "resort": "walt-disney-world",
+      "rangeUsd": [480, 640],
+      "asOf": "July 2026",
+      "note": "Roughly $120 to $160 a day. This is the per-day figure to hold in your head when comparing a party ticket, a Lightning Lane purchase or an annual pass against another park day."
+    },
+    {
+      "label": "7-day, one park per day, adult",
+      "resort": "walt-disney-world",
+      "rangeUsd": [600, 760],
+      "asOf": "July 2026",
+      "note": "Roughly $86 to $109 a day. Adding days three through seven costs far less per day than the first two, which is the single most important piece of arithmetic on this page."
+    },
+    {
+      "label": "10-day, one park per day, adult",
+      "resort": "walt-disney-world",
+      "rangeUsd": [700, 830],
+      "asOf": "July 2026",
+      "note": "Roughly $70 to $83 a day, and the cheapest Walt Disney World park day anyone can buy without a residency-restricted pass. Days nine and ten add very little to the total."
+    },
+    {
+      "label": "Park Hopper add-on, per ticket",
+      "resort": "walt-disney-world",
+      "rangeUsd": [35, 99],
+      "asOf": "July 2026",
+      "note": "Priced by ticket length, cheapest per day on long tickets and most expensive on a one-day ticket. The Park Hopper Plus variant, which adds water park and minor venue entries, prices above this band. Florida's parks are far apart, which is why we treat this as optional rather than default."
+    },
+    {
+      "label": "Standalone photo download product, per party",
+      "resort": "walt-disney-world",
+      "rangeUsd": [169, 215],
+      "asOf": "July 2026",
+      "note": "Advance purchase sits at the bottom of this band and same-day purchase at the top. Check it against Lightning Lane Multi Pass first — the Florida version of Multi Pass includes that day's downloads, so a family buying Multi Pass on several days may already have most of what this product sells."
+    },
+    {
+      "label": "1-day, one park, adult",
+      "resort": "disneyland",
+      "rangeUsd": [104, 214],
+      "asOf": "July 2026",
+      "note": "Sold in published date tiers rather than by individual date, which makes Anaheim pricing easier to plan against than Florida's. The lowest tier exists on a genuinely small number of midweek dates, mostly in January, February and September."
+    },
+    {
+      "label": "1-day Park Hopper, adult",
+      "resort": "disneyland",
+      "rangeUsd": [169, 279],
+      "asOf": "July 2026",
+      "note": "The two Anaheim parks are a five-minute walk apart, which makes the hopper a materially better buy here than in Florida. On a one-day or two-day Disneyland Resort trip we would treat it as close to compulsory."
+    },
+    {
+      "label": "3-day, one park per day, adult",
+      "resort": "disneyland",
+      "rangeUsd": [370, 470],
+      "asOf": "July 2026",
+      "note": "Roughly $123 to $157 a day. The Anaheim per-day curve is flatter than Florida's because the resort is built around shorter trips."
+    },
+    {
+      "label": "5-day, one park per day, adult",
+      "resort": "disneyland",
+      "rangeUsd": [455, 590],
+      "asOf": "July 2026",
+      "note": "Roughly $91 to $118 a day. Five days is more Disneyland Resort than most visitors need; two parks with no travel time between them do not fill a week the way four Florida parks do."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The only number worth comparing",
+      "body": [
+        "Compare tickets on cost per day, not cost per ticket, because the per-day price falls by roughly half across the length of a Walt Disney World ticket. A four-day ticket works out at $120 to $160 a day; a ten-day ticket at $70 to $83. Every other decision on this page is smaller than that one.",
+        "The practical consequence is counterintuitive and worth stating flatly: two four-day Florida trips in a year cost far more in admission than one nine-day trip, even though the nine-day trip has one more park day. If your travel budget is fixed and your leave is not, consolidating trips is the largest saving available to a non-resident.",
+        "Anaheim's curve is flatter. A three-day Disneyland Resort ticket is $123 to $157 a day and a five-day is $91 to $118, so the incentive to extend is real but much weaker. That reflects the resort itself — two parks a five-minute walk apart do not need a week."
+      ]
+    },
+    {
+      "heading": "Why the two resorts price completely differently",
+      "body": [
+        "Walt Disney World prices each date individually and each park differently, with Magic Kingdom above the other three at every tier. The Disneyland Resort publishes a small number of date tiers and assigns dates to them, which means Anaheim pricing can be planned against a calendar while Florida pricing has to be checked date by date.",
+        "That difference changes how you shop. In Anaheim, find the tier boundaries and move your dates across them; the gap between a mid-tier Tuesday and the top-tier Saturday at the end of the same week can be $60 to $100 on a single one-day ticket. In Florida, the useful move is to check several candidate dates in the booking flow, because the tier structure is not published as a calendar you can read.",
+        "Both resorts raise prices most years, usually in the autumn, and neither announces increases far ahead. If you are budgeting for travel more than six months out, budget above the midpoint of these bands rather than at it."
+      ]
+    },
+    {
+      "heading": "The park hopper decision, answered",
+      "body": [
+        "Buy the hopper in Anaheim and skip it in Florida unless you have a specific reason. Disneyland Park and Disney California Adventure share an esplanade; crossing between them takes five minutes and no planning. At $169 to $279 for a one-day hopper against $104 to $214 for one park, the upgrade converts a one-day Anaheim trip into a genuinely different holiday.",
+        "Walt Disney World's four parks are separated by bus, monorail, boat or Skyliner journeys of 20 to 45 minutes each way. At $35 to $99 per ticket the hopper is not expensive, but the cost is the two hours of transport you spend using it, and a family that hops daily loses more park time than the upgrade buys.",
+        "The one strong Florida case for a hopper is EPCOT in the evening. Finishing a Magic Kingdom or Hollywood Studios day at EPCOT for a festival dinner and the nighttime show is the single hop that repays itself, and on a longer ticket the add-on prices low enough that one good hop covers it."
+      ]
+    },
+    {
+      "heading": "Where the discounts actually are",
+      "body": [
+        "There are four real discounts on Disney tickets and everything else is noise. Residency offers, military offers, authorized resellers, and buying more days. Nothing else moves the price meaningfully and several things that claim to are worse than the gate.",
+        "Florida residents and Southern California residents should never buy a standard gate ticket. Both resorts run resident-only multi-day tickets and resident-only pass tiers that price well below the bands on this page, with blockout dates attached. If you qualify, the resident product is always the starting point and the gate ticket is the fallback.",
+        "Disney runs an armed forces ticket offer at both resorts, sold through military channels rather than the public site, which prices below anything a civilian can buy. It carries blockouts and an activation window and requires an eligible sponsor. If anyone in your party qualifies it is worth restructuring the trip around.",
+        "Authorized resellers save $10 to $40 on a multi-day ticket, which is real but modest — a few percent rather than a transformation. The saving is largest on long tickets. Buy only from resellers Disney lists as authorized; the storefronts near both resorts advertising heavily discounted tickets are trading in partly used tickets and timeshare presentations, and Disney does not honor them.",
+        "What does not exist: a genuinely cheap Disney ticket, a legitimate resale market for unused days, and any meaningful discount for booking far ahead. Buying early protects you from the next increase and nothing more."
+      ]
+    },
+    {
+      "heading": "The seasonal shape of ticket prices",
+      "body": [
+        "Tickets sit at the bottom of their bands in late January, the first two weeks of February outside Presidents' week, the last two weeks of August, the first three weeks of September, and the first week of December. Those windows are also the cheapest for hotels and Lightning Lane, so the savings compound rather than trade off.",
+        "They sit at the top from Christmas Eve to the second of January, in the fortnight bracketing Easter, in the week around Independence Day, and across Thanksgiving weekend. The gap between the cheapest and dearest one-day Florida ticket is $90 across the same product at the same park.",
+        "For a family of four on a four-day Florida trip, moving from a peak week to a shoulder week saves roughly $200 to $400 on tickets alone. That is before the hotel saving, which is larger, and before the Lightning Lane saving, which is smaller. Date selection is the single largest lever on a Disney budget and it is available to anyone with flexible leave."
+      ]
+    },
+    {
+      "heading": "How to read these bands",
+      "body": [
+        "Every figure here is a band because Disney does not sell a Disney ticket at a price — it sells a Disney ticket for a date, at a park, on a length. The bands describe the observed spread as of July 2026 across the full calendar and are not a quote for any specific date.",
+        "Where a band looks wide, that width is the product rather than our uncertainty. The $119 to $209 one-day Florida band is the actual distance between a September Tuesday at Animal Kingdom and a Christmas-week Saturday at Magic Kingdom.",
+        "Prices exclude tax, which is added at the payment screen at both resorts and varies by county in Florida. Budget an additional six to eight percent on every figure on this page."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Add days rather than trips. The per-day price of a Walt Disney World ticket falls from $120 to $160 on a four-day to $70 to $83 on a ten-day. One nine-day trip costs a family of four roughly $400 to $700 less in admission than two five-day trips, for the same number of park days, and that gap is larger than every other saving on this page combined.",
+    "Move the dates across a tier boundary in Anaheim and across a week in Florida. A mid-tier Disneyland Resort Tuesday and the top-tier Saturday at the end of the same week differ by $60 to $100 on a single one-day ticket, and a Florida family of four moving a four-day trip out of a peak week saves roughly $200 to $400 on tickets before anything else.",
+    "Check residency and military eligibility before you price anything else. Florida-resident, Southern California-resident and armed forces ticket products price below every band on this page and are sold through separate channels. If one applies to your party, start there and treat the gate price as your fallback rather than your baseline.",
+    "Buy the hopper in Anaheim and refuse it in Florida. At $169 to $279 against $104 to $214 the Anaheim upgrade genuinely changes a short trip, because the parks share an esplanade. In Florida the $35 to $99 upgrade costs you two hours of bus and monorail time per hopping day, which is worth more than the money.",
+    "Use an authorized reseller for multi-day tickets and nothing else. The saving is $10 to $40 on a long ticket, largest on the longest ones, and it is real. Avoid the discount ticket storefronts near both resorts entirely — they trade in partly used tickets and timeshare presentations, and Disney will not honor what they sell.",
+    "Do not buy the standalone photo product before checking Lightning Lane. The Florida version of Multi Pass includes that day's photo downloads, so a family buying Multi Pass on three or four days of a trip may already hold most of what the $169 to $215 standalone product sells. The Anaheim version does not include downloads, so this only applies in Florida.",
+    "Buy before the autumn if your trip is next year. Both resorts have raised ticket prices in most recent years, generally in the autumn, and tickets bought before an increase remain valid at the price paid within their expiry window. Buying early does not earn you a discount; it protects you from the next increase, which is worth roughly the same thing."
+  ],
+  "crossLinks": [
+    {
+      "label": "Walt Disney World vs Disneyland",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    },
+    {
+      "label": "Which Disney park should I visit?",
+      "href": "/compare/which-disney-park-should-i-visit/",
+      "site": 1
+    },
+    {
+      "label": "Planning a first Disney trip",
+      "href": "/guides/first-disney-trip/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for one day",
+      "href": "/compare/best-disney-park-for-one-day/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should a family of four budget for tickets?",
+      "a": "For a four-day Walt Disney World trip on shoulder-season dates, roughly $1,900 to $2,400 before tax for two adults and two children, or roughly $2,800 to $3,300 for a seven-day trip. In Anaheim, three days for the same family is roughly $1,400 to $1,800 before tax and before the hopper upgrade, which we would add there."
+    },
+    {
+      "q": "Do Disney tickets expire?",
+      "a": "Yes, in two ways, and both catch people out. Multi-day tickets must be used within a defined window that begins on first use, and unused tickets have an expiry date set at purchase. Neither resort refunds or extends an expired ticket as a matter of course. Buy the number of days you will actually use rather than banking days for a future trip."
+    },
+    {
+      "q": "Is a child ticket much cheaper?",
+      "a": "No. The child rate for ages 3 to 9 is roughly a five-dollar reduction per day at Walt Disney World and a similarly small gesture in Anaheim, and it ends on a child's tenth birthday. Children under 3 enter free at both resorts and do not need a ticket, which is the only genuinely large family saving in the product."
+    },
+    {
+      "q": "Should I buy from a third-party seller?",
+      "a": "From an authorized reseller, yes — the saving is $10 to $40 on a multi-day ticket and the ticket is identical. From anyone else, no. The storefronts near both resorts advertising heavily discounted tickets are selling partly used tickets or attaching timeshare presentations, and Disney does not honor tickets bought outside its authorized channels."
+    },
+    {
+      "q": "Do prices go up every year?",
+      "a": "In most recent years, yes, usually in the autumn, and neither resort announces increases far ahead. If you are budgeting a trip more than six months out, budget above the midpoint of the bands on this page rather than at it. Tickets bought before an increase remain valid at the price paid within their expiry window."
+    },
+    {
+      "q": "Is the park hopper worth it?",
+      "a": "In Anaheim, almost always. The two parks share an esplanade and a five-minute walk, so at $169 to $279 against $104 to $214 the upgrade genuinely changes a short trip. In Florida, usually not: the parks are 20 to 45 minutes apart by Disney transport, and the two hours a hopping day costs you is worth more than the $35 to $99 upgrade price."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Bands describe the observed spread of published gate pricing as of July 2026 across the full calendar at both resorts, before tax. We label this page as last-confirmed rather than confirmed because both resorts reprice tickets without advance announcement, usually in the autumn, and we have no operator announcement to cite for a 2027 price structure. Disneyland Resort multi-day bands are the widest on this page because we sampled fewer dates for them.",
+    "reviewBy": "2026-11",
+    "cycle": "rolling"
+  }
+}

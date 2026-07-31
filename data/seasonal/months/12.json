@@ -1,0 +1,117 @@
+{
+  "month": 12,
+  "name": "December",
+  "slug": "december",
+  "summary": "December is two months wearing one name. The first two weeks are among the best value on the entire calendar; the stretch from a few days before Christmas until after New Year's Day is the worst week of the year at both resorts, at the highest prices either resort charges.",
+  "verdict": {
+    "grade": "C",
+    "short": "Early December is an A. The holiday week is close to an F. There is no middle, and the difference between them is about ten days and roughly double the room rate.",
+    "bestFor": [
+      "The first two weeks, which pair the full holiday installation with moderate crowds and shoulder rates",
+      "Anyone who wants the decorations and the seasonal shows more than they want ride count",
+      "Party-night visitors, since a hard-ticket evening is the only capped-attendance Magic Kingdom in December",
+      "Adults and couples traveling before the school terms end",
+      "Disneyland visitors who can take a weekday, since Anaheim's holiday peak is shorter and more weekend-weighted"
+    ],
+    "worstFor": [
+      "The days around Christmas and New Year, categorically, at any budget and with any strategy",
+      "First-time visitors during the holiday week, who will spend the trip in queues learning the hard way",
+      "Anyone hoping a discount exists for late December — none does, and the rooms sell out at full rate",
+      "Park hoppers during the holiday week, since parks close to entry and hopping stops being reliable",
+      "Visitors who packed for Florida without a jacket, since a December cold front takes lows into the 30s"
+    ]
+  },
+  "crowds": {
+    "level": "peak",
+    "shape": "Through roughly the first two weeks, Walt Disney World runs at moderate levels with the entire holiday product already installed — the decorations, the castle lighting, the Festival of the Holidays, the party nights, the seasonal overlays. Then, over about a week, the curve goes vertical. Attendance climbs through the third week as school terms end at staggered times, and from a few days before Christmas until after New Year's Day both resorts operate at the highest levels they ever reach, with Magic Kingdom and Disneyland Park both regularly hitting phased-closure capacity limits that stop admitting guests who hold valid tickets. There is no gradual descent on the far side either: the crowd holds until the first weekend of January and then falls away within days, which is why January is the month it is. The two coasts differ in one important respect. Disneyland's holiday peak is shorter and more weekend-weighted because its base is local and locals do not book hotel weeks, so Anaheim's midweek days inside the holiday period, while still very busy, are meaningfully better than Orlando's equivalents.",
+    "peakWindows": [
+      "Christmas Eve through New Year's Day at both resorts, the worst stretch of the year without exception",
+      "The weekend before Christmas, when the ramp is already steep",
+      "The weekend after Christmas, which is the single hardest weekend either resort operates"
+    ],
+    "quietWindows": [
+      "The first full week, the quietest week of the fourth quarter and the best value on the calendar",
+      "The second week, still moderate at Walt Disney World with the full holiday installation running",
+      "Weekday mornings at Disneyland before the second week of the month"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 74,
+      "lowF": 54,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. Alongside January this is the mildest month of the year with the lowest humidity, and the afternoons are close to ideal for a full park day. The variance is the problem: a cold front can hold highs in the 50s and drop overnight lows into the 30s for several days, and Orlando's parks have very little indoor waiting space when that happens."
+    },
+    "dlr": {
+      "highF": 68,
+      "lowF": 45,
+      "rainDays": 5,
+      "note": "Climate normals for Anaheim, not a forecast. Cool and one of Southern California's wetter months. The resort's nighttime holiday shows run in genuinely cold conditions by local standards, and evening temperatures in the 40s regularly catch visitors who packed for California rather than for a December night outdoors."
+    }
+  },
+  "cost": {
+    "level": "peak",
+    "note": "The lever in December is the room, not the ticket. Walt Disney World resort rates can approach double between the first week and the last week of the same month for an identical room, while the date-based ticket tiers move much less than that — which is exactly why the value case for early December is so strong and why late December is expensive in a way no strategy touches. Discount room offers are never published for the holiday period; the inventory sells out at rack rate months ahead, and so do the party nights closest to Christmas. Airfare compounds it, with holiday-week fares among the year's highest on nearly every route into both Orlando and Southern California. The honest summary is that the same trip taken three weeks apart in the same month can differ in total cost by more than any other pair of dates on the calendar."
+  },
+  "whatsOn": [
+    "epcot-festival-of-the-holidays",
+    "mickeys-very-merry-christmas-party",
+    "disney-jollywood-nights",
+    "holidays-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "If you have any choice at all, take the first two weeks",
+      "body": [
+        "Everything that makes a December trip worth taking — the decorations, the castle lighting, the seasonal parades and shows, the Festival of the Holidays, the party nights, the overlays at both resorts — is fully installed and running by the start of the month. None of it improves in the final two weeks. The only thing that changes is the crowd and the price.",
+        "That makes early December the clearest value decision on the seasonal calendar, and it is available to anyone whose school constraints are soft or absent. Moving a trip from the week after Christmas to the first week of December typically halves the room rate, drops the ticket tier, and removes the phased-closure risk entirely.",
+        "The second week is nearly as good and is often better for weather, since the coldest fronts tend to arrive later. Both are far better than anything after the third weekend."
+      ]
+    },
+    {
+      "heading": "The holiday week needs a different plan, not a harder one",
+      "body": [
+        "If your dates are locked to the holiday period, the standard advice to arrive early and use line-skipping is necessary but nowhere near sufficient. The specific risk is phased closure: Magic Kingdom and Disneyland Park can stop admitting guests entirely by mid-morning during the holiday week, including guests holding valid dated tickets for that park. Being on property and being through the gate before opening are the only real protections.",
+        "Restructure the trip rather than the day. One park per day with no hopping, a full midday break out of the park, dining reservations booked at the earliest possible window and taken at off-peak hours, and an acceptance that four headliners is a good day rather than a disappointing one.",
+        "The other adjustment worth making is expectations about transportation. Bus and tram queues during the holiday week routinely run 30 to 45 minutes at park close, which is a poor way to end a very long day. Leaving before the final fireworks rather than after is worth more time than any other single decision."
+      ]
+    },
+    {
+      "heading": "The party tickets are the least bad way to see Magic Kingdom at Christmas",
+      "body": [
+        "Mickey's Very Merry Christmas Party is a hard-ticket event with capped attendance, running for several hours after the regular park closes. During the holiday season it is the only version of Magic Kingdom that is not operating at its ceiling, and the ride waits during a party can be a fraction of what the same park posted that afternoon.",
+        "The nights closest to Christmas are the most expensive of the run and sell out earliest, and the party season typically ends shortly before Christmas rather than running through it — so the last few nights are the scarcest resource in the whole December calendar.",
+        "Disney Jollywood Nights at Hollywood Studios runs a shorter season on the same model and is the newer of the two, which historically means slightly easier availability. It is a different evening in tone — later, more adult, more show-driven — and it suits a group without small children better than Very Merry does."
+      ]
+    },
+    {
+      "heading": "New Year's Eve is a capacity event rather than a party",
+      "body": [
+        "Both resorts run their New Year's fireworks packages on the holiday, and both close the affected parks to entry early in the day. Standing in Magic Kingdom's hub or on Disneyland's Main Street on New Year's Eve is an endurance exercise, not a celebration, and it caps a week that was already the hardest of the year.",
+        "The workaround that most people do not know about: Magic Kingdom has historically run its New Year's Eve fireworks on the night before as well as on the night itself. Seeing the same show a night early, at a fraction of the crowd and without the entry restrictions, is the single best trade available in the holiday week.",
+        "The equivalent move at Disneyland is to take the holiday content on a weekday earlier in the period and to spend the holiday itself at Downtown Disney or at the hotels, where the same evening is survivable."
+      ]
+    },
+    {
+      "heading": "The decorations come down later than you think, and January is the cheat code",
+      "body": [
+        "Holidays at the Disneyland Resort runs past New Year's and into the first part of January, which means a January trip still gets the seasonal ride overlays, the castle lighting, and the holiday decor at January prices and January crowd levels. Almost nobody takes this trade and it is the strongest one on the whole calendar.",
+        "Walt Disney World keeps a good deal of its holiday decoration up into the first week or so of January too, though the party season and several seasonal shows have ended by then. The decorations survive; the ticketed content does not.",
+        "If the reason you want a December trip is that you want to see the parks decorated, and not that you want to be there for the holiday itself, book January and save the difference. It is the same photograph and a completely different trip."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Magic Kingdom first-timer guide", "href": "/walt-disney-world/magic-kingdom/first-timer-guide/", "site": 1 },
+    { "label": "Planning a first Disney trip", "href": "/guides/first-disney-trip/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The extra New Year's fireworks night and the end of the holiday party season are recurring operator practices rather than confirmed dates for any given cycle.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

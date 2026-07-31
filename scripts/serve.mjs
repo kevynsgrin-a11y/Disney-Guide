@@ -1,5 +1,9 @@
 /**
- * Minimal static server for local preview of dist/.
+ * Minimal static server for local preview of a built site.
+ *
+ * Takes the directory as an argument so the same server previews both sites:
+ *   node scripts/serve.mjs            → dist/
+ *   node scripts/serve.mjs dist-seasonal
  * Resolves pretty URLs to index.html, serves _headers-style caching for assets, and returns
  * the built 404 page. Node built-ins only — nothing to install.
  */
@@ -9,7 +13,8 @@ import { readFile, stat } from 'node:fs/promises'
 import { join, extname, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist')
+const DIR = process.argv[2] || 'dist'
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', DIR)
 const PORT = Number(process.env.PORT || 4321)
 
 const TYPES = {
@@ -63,5 +68,5 @@ createServer(async (req, res) => {
   })
   res.end(await readFile(file))
 }).listen(PORT, () => {
-  console.log(`\n  Serving dist/ at http://localhost:${PORT}\n`)
+  console.log(`\n  Serving ${DIR}/ at http://localhost:${PORT}\n`)
 })

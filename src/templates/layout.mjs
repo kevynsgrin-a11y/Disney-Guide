@@ -160,7 +160,9 @@ export function renderPage ({ site, page, body, schema = [], scripts = [] }) {
 
   const jsonLd = S.serialize(graph)
 
-  return '<!doctype html>\n' + html`<html lang="en">
+  // `data-site` repaints the brand ramp for the seasonal sister site. One attribute rather than a
+  // second stylesheet, because two stylesheets would have drifted apart inside a month.
+  return '<!doctype html>\n' + html`<html lang="en" data-site="${site.brand.themeKey || 'evergreen'}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">

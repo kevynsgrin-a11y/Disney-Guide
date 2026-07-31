@@ -1,0 +1,117 @@
+{
+  "month": 4,
+  "name": "April",
+  "slug": "april",
+  "summary": "April is March's crowd problem plus a holiday, and in most years Easter lands inside it. The redeeming feature is the tail: in a year when Easter falls early, the last ten days are one of the quietest and best-priced windows on the entire calendar.",
+  "verdict": {
+    "grade": "C-",
+    "short": "The most expensive and most crowded non-summer month, carrying the year's second-largest peak. Its saving grace is a genuine price and crowd cliff once the holiday clears.",
+    "bestFor": [
+      "The last ten days in a year when Easter falls early — an underrated quiet, well-priced window",
+      "Flower and Garden at peak bloom, which is genuinely the best the festival looks",
+      "Disneyland trips after the California spring break wave clears in the final week",
+      "Visitors who want warm Florida weather without July's heat index",
+      "Anyone who will buy an after-hours ticket, which April crowd levels justify"
+    ],
+    "worstFor": [
+      "The week either side of Easter, which prices and fills like Christmas week",
+      "Budget-led trips of any kind — this is the year's second-most expensive month",
+      "Anyone who books without checking where Easter falls, which changes the answer entirely",
+      "Late-April Walt Disney World visitors expecting spring — humidity and afternoon storms arrive here",
+      "First-time visitors, who lose the most to crowds because they have not yet learned the workarounds"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "April carries the residue of the staggered spring break calendar plus the single largest non-Christmas holiday peak of the year, and the two overlap. Easter falls in April in most years, and it pulls a two-week wave with it rather than a two-day one, because European and Latin American school holidays run on one side of the weekend and US districts run on the other. That gives Walt Disney World roughly a fortnight where Magic Kingdom and Hollywood Studios operate at their practical ceiling. What makes April different from March, and better in one specific respect, is that its crowd actually ends. Once the holiday weekend passes and the last districts return, attendance falls quickly — schools are back, summer has not begun, and there is nothing to hold the level up. In an early-Easter year that leaves ten days at the end of the month that are quiet, cheap, and still comfortable, which is the best-kept quiet window in the first half of the year. In a late-Easter year the same stretch is the peak instead, and the good window disappears entirely.",
+    "peakWindows": [
+      "The nine days from Good Friday through the following Sunday, wherever the holiday falls",
+      "The week before Easter, when international spring holidays run ahead of the US ones",
+      "Any week overlapping a late Northeast district break, which in April is most of them"
+    ],
+    "quietWindows": [
+      "The last full week of the month in a year when Easter falls early",
+      "The stretch between the end of California spring break and Memorial Day at Disneyland",
+      "Weekday mornings at Animal Kingdom, which absorbs a holiday crowd better than any other Walt Disney World park"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 84,
+      "lowF": 62,
+      "rainDays": 6,
+      "note": "Climate normals for Orlando, not a forecast. April is the last comfortable month before the Florida summer pattern establishes itself, and the monthly average flatters the back half — late April regularly runs upper 80s with humidity climbing and the first afternoon thunderstorms appearing. The UV index reaches its annual maximum band this month, which catches people who packed for a number in the low 80s."
+    },
+    "dlr": {
+      "highF": 73,
+      "lowF": 53,
+      "rainDays": 3,
+      "note": "Climate normals for Anaheim, not a forecast. The rain effectively stops in April and the marine layer that grays over May and June mornings is not yet a factor, which makes this the sunniest, most reliable month of the Southern California spring. Evenings still drop into the 50s."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Easter week is priced like Christmas week at Walt Disney World — the same top date-based ticket tier, the same peak hotel rate season — and it is the one spring period where discount room offers are simply not published for the dates at all. The mechanism worth understanding is the cliff on the far side. Date-based pricing is set per calendar day, so the tier can drop two full bands overnight once the holiday clears, and hotel rates fall back to spring shoulder in the same twenty-four hours. That single transition is the largest price step in the first half of the year, and a trip shifted three days later can cost meaningfully less for an identical itinerary. Airfare into Orlando follows the same curve but lags it by about a week, so the fare savings arrive slightly after the room savings do."
+  },
+  "whatsOn": [
+    "epcot-flower-and-garden-festival",
+    "disney-california-adventure-food-and-wine-festival",
+    "disney-after-hours",
+    "disneyland-after-dark"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Work backward from the holiday before you pick a week",
+      "body": [
+        "The single decision that determines whether an April trip is good or bad is which side of Easter it sits on. Count backward from the holiday and identify the Friday before; count forward and identify the Sunday after. Everything inside that span is peak at both resorts, and the days immediately outside it on the far side are among the best of the season.",
+        "The worst possible booking is the week that straddles the holiday — arriving before it and leaving after it means paying peak rates for the entire stay while also absorbing both the run-up and the wind-down. If the dates must include the holiday, arriving on the holiday weekend itself and staying through the following week is strictly better than the reverse.",
+        "Because Easter moves, no generic April advice survives contact with a specific year. This is the one month where checking the calendar is not a formality."
+      ]
+    },
+    {
+      "heading": "Florida's heat arrives before the forecast admits it",
+      "body": [
+        "April's monthly normal high of 84 describes the first half of the month better than the second. By the last two weeks, Orlando afternoons run in the upper 80s with dewpoints climbing into the 60s, and the combination behaves like a much higher number than the thermometer shows. The first afternoon thunderstorms of the season usually appear before the month ends.",
+        "The actionable change is that a midday break stops being a nice idea and starts being the thing that determines whether you get an evening. Families who ride hard from 9 AM to 5 PM in late April are done by 6 PM, and the parks are at their best after 7.",
+        "Sunscreen is the item people underpack for April specifically, because 84 degrees does not feel like a burn risk. Orlando's UV index peaks in April and May, not in July, since the summer cloud cover cuts it."
+      ]
+    },
+    {
+      "heading": "Flower and Garden peaks now, and so do its lines",
+      "body": [
+        "April is the festival's best month visually and its busiest operationally. The gardens are at full bloom, the topiaries have filled in, and every Outdoor Kitchen is open. It is also when the World Showcase promenade is at its least walkable, because the festival crowd and the Easter crowd occupy the same space.",
+        "The Garden Rocks concert series is the reason many locals visit, and the dining packages that come with reserved seating are the only dependable way into the later shows on a weekend. Standby for a popular act in April means committing an hour of queue before showtime.",
+        "The unhurried version of this festival is a weekday morning. Booths open later than the park does; the gardens do not."
+      ]
+    },
+    {
+      "heading": "The Disney California Adventure festival ends this month",
+      "body": [
+        "The Disney California Adventure Food and Wine Festival typically wraps up in late April, which makes the month the last chance at it and the point where the resort commits to its summer layout. The final two weeks are the best time to go if the festival is the draw, because the marketplaces have shaken out their operational problems and the spring break crowd has cleared.",
+        "Festival food at Disney California Adventure is priced per item in a band comparable to EPCOT's, and the resort sells a multi-item card that pays for itself at a specific number of items — work out that number against what you actually intend to eat rather than buying it on principle. Most people who buy the card use fewer items than they planned.",
+        "Pair it with a Disneyland Park morning and cross over after lunch. Disney California Adventure is at its best in the late afternoon and evening in any season."
+      ]
+    },
+    {
+      "heading": "Disneyland's after-hours nights are a spring product and they sell out fast",
+      "body": [
+        "The Disneyland After Dark series clusters in spring, and the themed nights are the closest thing the resort offers to a low-crowd April. Attendance is capped, the event runs for several hours after regular park close, and the headliners that carry two-hour standby waits in daylight run at a fraction of that.",
+        "These sell out within hours of going on sale, and they go on sale months ahead. If a spring Disneyland trip is happening, buying the event night is the first booking to make and the hotel is the second — the reverse of how most people sequence it.",
+        "The events are not park admission on their own in the way a full day is; they are an evening product layered on top of a shorter park day. Plan the day around a late start rather than trying to do a full day and the event back to back."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
+    { "label": "Magic Kingdom first-timer guide", "href": "/walt-disney-world/magic-kingdom/first-timer-guide/", "site": 1 },
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "Disneyland vs Disney California Adventure", "href": "/compare/disneyland-vs-california-adventure/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Easter moves between late March and late April, so this page describes its effect as a moving window rather than asserting a date.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

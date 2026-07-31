@@ -1,0 +1,118 @@
+{
+  "month": 10,
+  "name": "October",
+  "slug": "october",
+  "summary": "October stopped being a shoulder month several years ago and most planning advice has not caught up. The weather is the best of the fall, the seasonal content is the best of the year, and the weekends now run at genuine peak levels at both resorts.",
+  "verdict": {
+    "grade": "B-",
+    "short": "Excellent weather and the strongest seasonal program on the calendar, sold at fall-peak prices with weekend crowds to match. Go midweek or accept that you chose a busy month.",
+    "bestFor": [
+      "Halloween trips at either resort — this is the month the seasonal content is at full strength",
+      "Midweek travelers, since Tuesday and Wednesday in the first half of the month are still soft",
+      "Anyone who wants Orlando weather without Orlando summer, which arrives properly this month",
+      "Food and Wine Festival visitors, provided they go before lunch rather than after dinner",
+      "Adults and couples, because the party nights are a genuinely good adult evening"
+    ],
+    "worstFor": [
+      "Anyone assuming October is still a quiet shoulder month — it is not, and hasn't been for years",
+      "Weekend visitors to EPCOT or Magic Kingdom, which reach peak levels most Saturdays",
+      "Budget trips, since hotel rates run above September's and above early December's",
+      "Guests who do not want the Halloween party but book Magic Kingdom on a party day anyway",
+      "Last-minute party ticket buyers, since the final nights of the season sell out first"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "Three separate mechanisms stack on top of each other in October and the result is a month that is much busier than its reputation. First, the Food and Wine Festival enters its final and busiest weeks, drawing a large Florida-resident crowd that concentrates on Friday and Saturday nights. Second, Halloween party nights run four or five times a week at Magic Kingdom, and each one closes the park to non-party guests in the early evening — which compresses a full day's daytime attendance into roughly nine hours instead of thirteen and makes the park feel considerably busier than the raw number suggests. Third, the US fall break calendar has expanded and now staggers across the month in the same uncoordinated way spring break staggers across March, so there is no single week to avoid and no reliable trough. Disneyland's version is simpler and just as busy: Halloween Time is installed across both parks, Oogie Boogie Bash sells out, and the local pass base treats October weekends as the highlight of its year. Weekdays at both resorts remain workable, and that is the whole play this month.",
+    "peakWindows": [
+      "Every weekend at both resorts, with EPCOT the single busiest park at Walt Disney World",
+      "The Columbus Day and Indigenous Peoples' Day long weekend",
+      "The final week of the month at both resorts, which behaves like a holiday week",
+      "Magic Kingdom's daytime hours on party days, when a full day's crowd fits into a shortened schedule"
+    ],
+    "quietWindows": [
+      "Tuesday and Wednesday in the first two weeks at Walt Disney World",
+      "Weekday mornings at Disneyland Park before the Halloween Time crowd arrives after lunch",
+      "Magic Kingdom during a party, which caps attendance well below a normal day"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 85,
+      "lowF": 67,
+      "rainDays": 9,
+      "note": "Climate normals for Orlando, not a forecast. The rainy season breaks somewhere in the first half of the month and the humidity drops noticeably with it, which makes the back half of October arguably the best weather of the Florida fall. Hurricane season is still technically running but the statistical risk falls sharply from September's peak."
+    },
+    "dlr": {
+      "highF": 79,
+      "lowF": 57,
+      "rainDays": 2,
+      "note": "Climate normals for Anaheim, not a forecast. Warm, dry, and prone to Santa Ana events that can push highs past 90 well into the month, which is the one condition that makes an October Disneyland day genuinely hot. Evenings cool quickly once the sun goes down and the park closes late."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Walt Disney World resort hotels carry a fall rate season that sits well above September's and, in many cycles, above early December's — which surprises people who assume prices track the school calendar rather than demand. Date-based ticket tiers step up around the fall-break weeks. The party tickets are the pricing detail worth knowing: Not-So-Scary and Oogie Boogie Bash both price by night, and October nights sit at the top of their seasonal bands while the August and September nights sit at the bottom, so the same event costs meaningfully more for a worse crowd. Airfare into Orlando rises from its September floor and holds through the month. If cost is the binding constraint and Halloween is not, November's first half offers most of October's weather at a materially lower rate."
+  },
+  "whatsOn": [
+    "epcot-food-and-wine-festival",
+    "mickeys-not-so-scary-halloween-party",
+    "oogie-boogie-bash",
+    "halloween-time-at-the-disneyland-resort"
+  ],
+  "planningNotes": [
+    {
+      "heading": "A party day changes the whole shape of your Magic Kingdom day, not just the evening",
+      "body": [
+        "On a party night, Magic Kingdom closes to guests without a party ticket in the early evening. That single operational fact is the most consequential thing about October at Walt Disney World and the one most itineraries ignore.",
+        "The consequence for a non-party guest is twofold: the day is shorter, and the crowd is denser, because the same number of daytime visitors is compressed into fewer hours. A party-day Magic Kingdom without a party ticket is the single worst park day available in October.",
+        "The instruction is simple. Pull the party calendar for your dates. On party days, take EPCOT, Hollywood Studios, or Animal Kingdom. Save Magic Kingdom for a non-party day, when it stays open late and the evening hours are the best of the trip. This is a straight scheduling win that costs nothing."
+      ]
+    },
+    {
+      "heading": "Do the festival booths before lunch",
+      "body": [
+        "The Food and Wine Festival is in its final weeks, and its crowd is overwhelmingly a Friday-and-Saturday-evening crowd of Florida passholders rather than a vacation crowd. World Showcase between 5 PM and close on an October Saturday is the densest walkway at Walt Disney World.",
+        "The booths open later in the morning than the park does but well before the crowd arrives, and the first two hours they are open are the only comfortable ones in October. Anybody who eats their way around the promenade before 1 PM has a completely different day from somebody who starts at 5.",
+        "If a weekend evening at the festival is the point of the trip, book the Eat to the Beat concert dining packages rather than planning to stand. Standby seating for a popular act on an October Saturday means committing well over an hour."
+      ]
+    },
+    {
+      "heading": "Halloween week is a peak week and almost nobody treats it as one",
+      "body": [
+        "The last several days of October run at levels comparable to a Thanksgiving or Presidents' week at both resorts. People plan carefully around Christmas and Easter and then walk into Halloween week assuming it is a normal fall week, which it stopped being some time ago.",
+        "The party nights closest to Halloween are also the most expensive and the first to sell out, sometimes months ahead. If a specific late-season night matters, it is the first booking to make.",
+        "The alternative that works: an early-season party night in August or September costs less, sells out later, is less crowded, and offers the same content. The only thing you lose is the calendar feeling right."
+      ]
+    },
+    {
+      "heading": "You do not need a party ticket to see Disneyland's Halloween overlays",
+      "body": [
+        "Halloween Time at the Disneyland Resort is a daytime overlay across both parks, and the seasonal attraction versions, decor, and food are available to any guest with normal park admission. Oogie Boogie Bash is a separate hard-ticket event that adds trick-or-treating, character content, and a capped crowd on top.",
+        "That distinction saves people money and disappointment in equal measure. Anyone whose main goal is to see the seasonal versions of the rides can do it on an ordinary Tuesday without a party ticket, and the seasonal overlays are the part most visitors actually remember.",
+        "If the party is the goal and it has sold out, the resort has occasionally released additional inventory closer to the date. That is a pattern, not a promise, and it is not a plan to rely on."
+      ]
+    },
+    {
+      "heading": "Fall break now staggers the way spring break does",
+      "body": [
+        "The old advice that October has one busy week around Columbus Day is out of date. A growing number of US districts now take a multi-day fall break, and they take it in different weeks across the month, which converts what used to be a single spike into a broad elevated plateau.",
+        "The practical response is the same as in March: stop hunting for a quiet week and start optimizing day of week. Tuesdays and Wednesdays in the first half of October are consistently the softest days, and the difference between a Tuesday and a Saturday in this month is larger than the difference between two different weeks.",
+        "The compensating advantage is that October's weather is the best available at Walt Disney World between April and November, which is worth a certain amount of crowd on its own terms."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Magic Kingdom first-timer guide", "href": "/walt-disney-world/magic-kingdom/first-timer-guide/", "site": 1 },
+    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
+    { "label": "Is it scary? Ride-by-ride intensity", "href": "/guides/is-it-scary/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Party night counts and their placement in the week vary by cycle and are described as a pattern rather than a schedule.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

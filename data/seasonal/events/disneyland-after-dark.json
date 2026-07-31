@@ -1,0 +1,171 @@
+{
+  "slug": "disneyland-after-dark",
+  "name": "Disneyland After Dark",
+  "shortName": "After Dark",
+  "resort": "disneyland",
+  "parkSlug": null,
+  "category": "after-hours",
+  "season": "year-round",
+  "summary": "A series of separately ticketed themed nights rather than one recurring event, and the theme is what you are actually paying for - the short ride waits are a side effect, not the product. Buy it when the night's theme is something you would pay for on its own, and never buy it as a way to skip lines.",
+  "h1": "Disneyland After Dark: what the ticket buys, and when it is the wrong purchase",
+  "title": "Disneyland After Dark",
+  "titleTail": ": Prices, Themes & Verdict",
+  "description": "Disneyland Resort's ticketed after-hours series — what a night includes, the 2025 price band, how tickets sell, and why buying it for short waits is a mistake.",
+
+  "typicalWindow": {
+    "startsAround": "late January",
+    "endsAround": "late June",
+    "nightsTypical": 12,
+    "nightsRange": [6, 20],
+    "daysOfWeek": ["Tue", "Wed", "Thu"],
+    "hours": "Roughly 21:00 - 01:00 on most events, with ticketed entry about three hours before the event itself starts"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [139, 209],
+    "asOf": "2025 season",
+    "cheapestNights": "The lower-profile themes, which sell more slowly and occasionally still have inventory in the final week before the date",
+    "priciestNights": "The marquee themes, which sell out first and price at the top of the band",
+    "notes": [
+      "Tax additional.",
+      "Prices vary by theme rather than by day of the week, which is the opposite of how the resort's Halloween party prices work.",
+      "Magic Key holders get an earlier purchase window on most events, and on the marquee themes that window is where the inventory actually goes.",
+      "A ticket covers one park on one night. It is not a park hopper and it does not include the following day.",
+      "Parking is not included. Standard Disneyland Resort parking ran $35 to $40 as of July 2026."
+    ]
+  },
+
+  "whatYouGet": [
+    "Ticketed entry to the host park several hours before the event starts, on top of the event hours themselves.",
+    "A park running at a fraction of its normal capacity for the event window, with the major attractions typically posting waits in the five-to-twenty minute range.",
+    "Theme-specific entertainment: dance parties, live sets, projection pieces, and stage content built for that one night and not repeated.",
+    "Rare character meets. This is the one thing the series delivers that nothing else at the resort does, and it is the reason the events sell out.",
+    "Event-exclusive food, drink, and merchandise, all of which sell out during the night rather than after it.",
+    "A collectible item and digital photo downloads on most events, though the specific inclusions vary by event and are stated when each one is announced."
+  ],
+
+  "whatYouDont": [
+    "A cheap way to skip lines. Measured per hour, this is the most expensive park time Disneyland Resort sells - three event hours at $139 to $209 works out around $50 to $70 an hour, when a quiet weekday in January or September delivers comparable waits across a twelve-hour day for the price of a regular ticket.",
+    "Unlimited snacks and drinks. The Walt Disney World after-hours product is built around them; the Disneyland series is not, and that is the single biggest structural difference between the two. You are buying the theme and the crowd level, and the food is priced normally.",
+    "A guaranteed attraction list. Each event runs a subset of the park's roster, and that subset is published close to the date rather than when tickets go on sale.",
+    "Both parks. Each event is hosted at one park, stated at announcement, and the ticket does not cross the esplanade.",
+    "Any consistency year to year. The themes, the number of events, and the host parks all change, and a night that ran last spring may simply not come back. There is no season to plan around, which is why this page carries no edition list.",
+    "A workable evening for young children. The events end after midnight and the best hours are the last two, which is a poor fit for anyone who needs to be at rope drop the next morning."
+  ],
+
+  "verdict": {
+    "short": "Buy it for a theme you would independently pay for. Buying it purely for short waits is the most expensive way to get them, and a quiet weekday gets you most of the way for a normal ticket price.",
+    "worthItIf": [
+      "The night's theme is something you would pay a similar amount to attend if it were held anywhere else.",
+      "You want rare character meets, which is the one genuinely exclusive thing on offer and the reason the marquee nights sell out in the pass holder window.",
+      "You are an adult or an adult group. These run past midnight and the good part is the end.",
+      "You hold a Magic Key, have already done everything at the resort, and want a version of the park you have not seen.",
+      "You can treat the following morning as a late start rather than a park day."
+    ],
+    "skipIf": [
+      "You are buying it for ride count. A midweek day in January, February, or September costs a fraction of this and delivers waits in the same range across a far longer day.",
+      "You have young children. The event ends after midnight, the last hour is the point, and the whole structure works against anyone who needs an early night.",
+      "The theme is not aimed at you. There is no generic version of this event - every night is built around a specific audience, and the wrong one is an expensive evening of music you did not choose.",
+      "You have a rope drop planned for the next morning. Doing both is how people ruin two days to get one good night.",
+      "You are on a tight schedule and cannot absorb a cancelled or rescheduled event, which the series has done before."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Buy for the theme, and do the per-hour math first",
+      "body": [
+        "The event hours are the small part of what you are paying for, and running the arithmetic before you buy prevents the most common regret about this series. Three event hours at the 2025 band of $139 to $209 is roughly $50 to $70 an hour of park time, before tax and before parking.",
+        "Compare that with the alternative honestly. A regular weekday ticket in this resort's quiet months - January, February, and the first half of September - buys twelve hours in the same park at waits that are frequently in the same range as the event delivers, for less than a single After Dark ticket. If short lines are the entire goal, that is the better purchase and it is not close.",
+        "What the quiet weekday cannot give you is the character roster, the themed entertainment, and the specific social atmosphere of a park full of people who all chose the same theme. Those are real products and some of them are genuinely not available any other way. Decide which one you are buying before you look at the price.",
+        "The one case where the math flips: if you would otherwise buy a park ticket and Lightning Lane for the same evening, the gap narrows considerably. Run that comparison rather than comparing the event against a bare ticket."
+      ]
+    },
+    {
+      "heading": "Use the pre-event hours the right way round",
+      "body": [
+        "Your ticket gets you into the park roughly three hours before the event officially starts, and those hours run at ordinary crowd levels with the ordinary evening crowd still in the park. Treating them as event time is the most common way people waste the ticket.",
+        "Ride the high-capacity headliners during those pre-event hours, and save the low-capacity dark rides for the event itself. A ride that moves 1,800 people an hour will have a similar wait either way; a ride that moves 600 an hour goes from 45 minutes to 10 the moment the regular crowd is cleared out. Spending event hours on the high-capacity attractions is the single biggest avoidable mistake here.",
+        "The character lines run the opposite pattern to the rides. They are longest in the first hour of the event, when everyone queues for meets before anything else, and shortest in the final 45 minutes. If a specific character is the reason you bought the ticket, get in that line late rather than early.",
+        "Eat during the event's first hour rather than its last. Food lines follow the character pattern, not the ride pattern, and the last hour is too valuable to spend holding a tray."
+      ]
+    },
+    {
+      "heading": "The last hour is the entire point",
+      "body": [
+        "The final 60 minutes of an After Dark event are the emptiest a Disneyland Resort park gets in a calendar year, and everything about how you plan the night should be pointed at being in a good position for them.",
+        "Anyone in a queue at the event's stated end time still rides. Joining a line at one minute before close is legitimate, cast members expect it, and it is how experienced attendees get their last two attractions. Do not join and then leave.",
+        "Plan the walk out. These events end after midnight, the parking structure tram queue at that hour is long, and the resort's hotels and the Harbor Boulevard walk are far more pleasant options than a drive. If you are driving, the last ride of the night costs you an extra 30 minutes of tram queue and that is usually still worth it.",
+        "Treat the next morning as written off in advance. The people who enjoy these events least are the ones who bought a rope drop the following day and spent the last hour of the party watching the clock."
+      ]
+    },
+    {
+      "heading": "How the tickets actually sell",
+      "body": [
+        "Events are announced individually rather than as a season, which is why no site can give you a reliable annual calendar for this series and why this page does not try. Each announcement names the theme, the host park, the date, and the price at the same time, and the on-sale usually follows within a week or two.",
+        "Magic Key holders get an earlier purchase window on most events. For the marquee themes, that window is where the inventory goes - general sale opens with a much thinner set of remaining tickets, and the most in-demand nights have not reached it in quantity.",
+        "The practical consequence: if a specific theme matters to you, the thing to monitor is the announcement rather than a dates page. By the time a dates page is accurate, the decision has been made for you.",
+        "The lower-profile themes behave completely differently and sometimes still have inventory in the final week. If your interest is in the format rather than in one particular night, waiting is a viable strategy and occasionally a cheap one."
+      ]
+    },
+    {
+      "heading": "What a night actually looks like from the inside",
+      "body": [
+        "The park does not empty at the stated event start time. Regular guests are cleared gradually over the first 30 to 45 minutes, so the first part of the event still feels like a normal busy evening and the waits do not collapse until later than most first-timers expect.",
+        "That has one clean implication: do not spend the first half hour queueing for anything. Use it for food, for merchandise while it still exists, or for getting into position for a character line, and start riding once the park has actually thinned.",
+        "Merchandise is the one thing that genuinely sells out during the night rather than during the run-up. If an event-exclusive item is on your list, buy it in the first hour, not on your way out.",
+        "The entertainment is scheduled rather than continuous. Get the times at entry, pick the two pieces you actually want, and build the ride plan in the gaps - the events are short enough that trying to see everything means seeing very little of it."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Disneyland After Dark worth the money?",
+      "a": "Only if you want the theme. The events deliver short waits, but at roughly $50 to $70 per hour of park time on the 2025 price band, they are the most expensive way to get them at this resort - a midweek day in January, February, or early September gets comparable waits across a full day for the price of a regular ticket. What the events uniquely sell is rare character meets and one-night entertainment."
+    },
+    {
+      "q": "Which park is Disneyland After Dark held at?",
+      "a": "It varies by event, and the host park is fixed and stated when each night is announced. Most events in recent years have been at Disneyland Park. A ticket covers only the host park for that night, so it is not a hopper and it does not include the neighboring park at any point."
+    },
+    {
+      "q": "Does the ticket include the whole day?",
+      "a": "No. It admits you roughly three hours before the event starts, and those hours run at ordinary crowd levels with the ordinary crowd still in the park. If you want a full day, you need a separate regular ticket, and most people who do that find the late night is not worth the early start."
+    },
+    {
+      "q": "Does Disneyland After Dark include free snacks like the Florida after-hours event?",
+      "a": "No, and this is the biggest difference between the two products. Walt Disney World's after-hours nights are built around unlimited ice cream, popcorn, and drinks; the Disneyland series is not, and food is priced normally. You are buying a theme and a crowd level rather than a package."
+    },
+    {
+      "q": "How many Disneyland After Dark events are there each year?",
+      "a": "It varies, and that is the honest answer rather than an evasive one. Recent years have run somewhere between six and twenty nights across a handful of themes, announced individually across the winter and spring rather than published as a season. There is no reliable annual calendar for this series."
+    },
+    {
+      "q": "Do Disneyland After Dark events sell out?",
+      "a": "The marquee themes do, usually inside the Magic Key holder purchase window before general sale opens properly. Lower-profile themes sell more slowly and occasionally still have inventory in the final week. If one specific night matters to you, watch for the announcement rather than checking availability later."
+    },
+    {
+      "q": "Are the dates for the coming events confirmed?",
+      "a": "Not on this page. As of July 2026 we have not verified announcements for any upcoming event in this series, so no dates, themes, host parks, or prices for future nights are stated here. This page carries the shape of the product and the last confirmed price band, and deliberately carries no edition list, because the series is announced one night at a time."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Star Wars: Rise of the Resistance", "href": "/disneyland/disneyland-park/rides/star-wars-rise-of-the-resistance/", "site": 1 },
+    { "label": "Star Wars: Galaxy's Edge", "href": "/disneyland/disneyland-park/lands/star-wars-galaxys-edge/", "site": 1 },
+    { "label": "Indiana Jones Adventure", "href": "/disneyland/disneyland-park/rides/indiana-jones-adventure/", "site": 1 },
+    { "label": "Best rides at Disneyland Park", "href": "/disneyland/disneyland-park/best-rides/", "site": 1 },
+    { "label": "How Lightning Lane works at both resorts", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Rope drop and the reverse-rope-drop evening", "href": "/guides/rope-drop-strategy/", "site": 1 }
+  ],
+  "related": ["oogie-boogie-bash", "halloween-time-at-the-disneyland-resort"],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Disneyland After Dark is a rolling series announced one event at a time rather than as a season, with themes, host parks, and the number of nights all changing between years. The figures here describe the 2025 cycle, when tickets sat in the $139 to $209 per-night band. As of July 2026 we have not verified announcements for any upcoming event, so this page states no future dates, themes, or prices and carries no edition list rather than guess at one.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

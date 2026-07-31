@@ -1,0 +1,194 @@
+{
+  "slug": "oogie-boogie-bash",
+  "name": "Oogie Boogie Bash - A Disney Halloween Party",
+  "shortName": "Oogie Boogie Bash",
+  "resort": "disneyland",
+  "parkSlug": "california-adventure",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "The best hard-ticket night either Disney resort runs, and the hardest one to buy: Oogie Boogie Bash sells out months before the season starts, which makes the ticket-buying strategy more important than anything that happens at the party itself.",
+  "h1": "Oogie Boogie Bash: what the ticket buys, what it costs, and how to actually get one",
+  "title": "Oogie Boogie Bash",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Disney California Adventure's Halloween party — what the ticket covers, the 2025 price band, why it sells out months ahead, and the buying plan that works.",
+
+  "typicalWindow": {
+    "startsAround": "early to mid-August",
+    "endsAround": "31 October",
+    "nightsTypical": 27,
+    "nightsRange": [25, 30],
+    "daysOfWeek": ["Sun", "Tue", "Wed", "Thu", "Fri"],
+    "hours": "18:00 - 23:00, with ticketed park entry from 15:00"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [154, 224],
+    "asOf": "2025 season",
+    "cheapestNights": "Sunday and weeknight dates in the first half of the run, before Southern California schools settle into the Halloween habit",
+    "priciestNights": "The last two weeks of the run, and Halloween night itself",
+    "notes": [
+      "Tax additional.",
+      "Magic Key holders get an earlier purchase window rather than a lower price, and in an event that sells out that window is worth far more than a discount would be.",
+      "The ticket admits you to Disney California Adventure only. It is not a park hopper and it does not include Disneyland Park.",
+      "Parking is not included. Standard Disneyland Resort parking ran $35 to $40 as of July 2026."
+    ]
+  },
+
+  "whatYouGet": [
+    "Ticketed entry to Disney California Adventure from mid-afternoon, three hours before the party proper begins, which is the single most underused part of the ticket.",
+    "Villain character encounters that appear on no other night of the year. This is the actual product, and the queues for the rarer villains are the longest lines in the park during the event.",
+    "Treat trails: fixed walk-through candy routes staffed across the park, with a swap system for guests who cannot eat the candy.",
+    "The Frightfully Fun Parade, led by the Headless Horseman, running twice on most nights.",
+    "A nighttime show on Paradise Bay produced specifically for the party, using the World of Color platform.",
+    "Costumes permitted for adults, which is not allowed on a regular operating day at either park.",
+    "A park capped well below its normal capacity, which means the standby waits on the major attractions are the shortest you will see them between June and January."
+  ],
+
+  "whatYouDont": [
+    "A ticket, most likely. The event sells out, and in recent seasons the entire run has gone before the first night was held. October dates disappear within hours of going on sale.",
+    "Disneyland Park. The ticket covers Disney California Adventure and nothing else, on that night only.",
+    "Lightning Lane. It is not part of the party ticket, so every attraction you ride during event hours is a standby wait. The low crowds make that workable; the assumption that you can buy your way past a line does not apply here.",
+    "The full attraction roster. A meaningful share of the park runs during the party, but not all of it, and the operating list is published close to the date rather than in advance.",
+    "Value measured in rides. For $154 to $224 you are buying villains, costumes, and a half-empty park for five hours. If ride count is the metric, a regular September weekday beats it comfortably for the price of an ordinary ticket.",
+    "Any flexibility once bought. Party tickets are date-specific and Disney does not routinely move them, so a delayed flight costs you the whole ticket."
+  ],
+
+  "verdict": {
+    "short": "The strongest hard-ticket night at either resort and the hardest to buy. If you can get an early-September weeknight, take it. If you are shopping in October, you are already too late.",
+    "worthItIf": [
+      "You care about villain characters and photographs with them more than about ride count.",
+      "Someone in your group wants to wear a costume, because this is the only night at Disney California Adventure when adults can.",
+      "You are willing to build the trip around a ticket date rather than fitting a ticket into dates you already booked.",
+      "You already hold a Magic Key, which puts you in the earlier purchase window that decides who gets in at all.",
+      "You have done Disney California Adventure before and want a version of it you have not seen."
+    ],
+    "skipIf": [
+      "You are booking after the on-sale and hoping a date opens up. Do not build a trip around a ticket you do not hold.",
+      "Your priority is riding as much as possible. A regular evening at Disney California Adventure in mid-September gives you more attractions per hour for a fraction of the money.",
+      "Your group includes a young child who fades by eight in the evening. The party's best two hours are its last two.",
+      "You want to see both parks that day. The ticket does not do that, and a mid-afternoon entry leaves no room for a Disneyland Park morning unless you buy a second ticket.",
+      "You resent paying twice for the same park. The party ticket does not extend a regular day, it replaces the evening of one."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Buying the ticket is the whole game",
+      "body": [
+        "Scarcity, not price, is the defining fact about this event. The party is capped, the run is under 30 nights, and demand from Southern California alone would fill it without a single out-of-state visitor. Every other decision on this page is downstream of whether you can buy a date at all.",
+        "Tickets go on sale in two tranches: an earlier window for Magic Key holders and a general window a few days later, both opening at a set morning time and both routed through a virtual queue. Being in that queue the minute it opens is the difference between choosing your date and taking whatever is left, and on recent on-sale days the difference between those two outcomes has been measured in minutes.",
+        "Go in with a ranked list of acceptable dates written down before you join the queue. The date menu changes while you are looking at it, and the people who lose their place are the ones deciding between two Thursdays in real time. Decide in advance that any September weeknight beats any October weekend, then buy the first thing on your list that is still available.",
+        "Buy the ticket first and the hotel second. Reversing that order is the most common way people end up with a non-refundable room, a flight, and no way into the party."
+      ]
+    },
+    {
+      "heading": "Which night to pick, and why early beats late",
+      "body": [
+        "Take the earliest weeknight you can tolerate. The party is capped at the same level on every date, so the crowd inside the park barely changes across the season - but the composition of that crowd does, and the queues that matter are not the ride queues.",
+        "The real difference between an early-season Tuesday and a late-October Friday is the character lines. On a late date the rarer villains can run 45 to 75 minutes; on an early one the same meet is 15 to 25. Nothing else about the event varies as much, and characters are what you are paying for.",
+        "Early dates are also cheaper. The 2025 band ran from $154 to $224 per person, and the spread tracks the calendar closely: the cheapest nights were Sundays and weeknights in the first half, the most expensive were the final fortnight and Halloween night.",
+        "One structural point that helps planning: Saturdays have not typically been party nights. That makes Saturday the right day for the rest of your Disneyland Resort itinerary rather than a day you are trying to squeeze the party into."
+      ]
+    },
+    {
+      "heading": "The three hours before the party are free real estate",
+      "body": [
+        "Your ticket admits you to the park in the mid-afternoon, roughly three hours before the event officially begins, and most ticket holders arrive late and waste them. Those hours run at ordinary crowd levels, which is a downside, but they are the only hours of the night when nobody around you is queueing for a villain.",
+        "Use them for the rides you most want. At the moment the party starts, the entire event population arrives at once and immediately splits between the treat trails and the character lines, which means ride waits drop and stay low for the rest of the night. Riding before the party starts and meeting characters after it does is exactly backwards.",
+        "The pattern reverses again in the last 90 minutes. Families with young children leave, the treat trails empty, and the villain queues shorten sharply. If there is one meet you badly want and the line was 60 minutes at eight, check it again at ten.",
+        "Eat before the party starts or after nine. The first two hours of the event are when every quick-service line in the park is at its worst, because that is the hour the entire party population discovers it has not had dinner."
+      ]
+    },
+    {
+      "heading": "Working the treat trails",
+      "body": [
+        "The treat trails are fixed walk-through routes with candy stations along them, and they are worth doing once each rather than repeatedly. The candy is ordinary; the trails are decorated and themed, and that is the reason to walk them.",
+        "Bring your own tote. The bag handed out at the entrance is small and the trails are generous, and the people carrying a folded shopping bag in a pocket are not the ones repacking on a bench at nine in the evening.",
+        "Guests who cannot eat the candy are handled at the end of each trail by a swap for allergen-conscious treats or non-food tokens. This is set up and staffed for the event, so an allergy is not a reason to skip a trail.",
+        "The trails toward the back of the park clear out first, usually by about nine. The ones near the entrance stay busy until close, because that is where guests who arrive late start. Walk the park backwards: start at the far end and finish near the gate."
+      ]
+    },
+    {
+      "heading": "What to do with the rest of the day",
+      "body": [
+        "A party ticket costs you the evening of a regular park day, so the day around it needs planning. The efficient pattern is a Disneyland Park morning on a separate regular ticket, a genuine hotel break in the early afternoon, then Disney California Adventure on the party ticket from mid-afternoon.",
+        "That break matters more than it sounds. The party runs to eleven at night, the best part of it is the last two hours, and a family that has been on their feet since eight in the morning does not make it that far.",
+        "Costumes are permitted for every age on party nights, with the usual conditions: nothing that obscures the face, nothing that drags, no realistic prop weapons. There are no changing facilities at the resort, so whatever you are wearing at three in the afternoon is what you are wearing at eleven at night. Anaheim in August and September is hot enough that a full costume is a genuine decision rather than a detail.",
+        "Photographs are the one thing worth pre-planning. The villain meets have dedicated backdrops and PhotoPass photographers, and the queue length is the entire cost. Pick the three characters your group actually cares about and accept that you will not get all of them."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Oogie Boogie Bash at Disneyland Park or Disney California Adventure?",
+      "a": "Disney California Adventure, every season, without exception. The confusion is common because the resort's Halloween decorations cover both parks, but the party itself, the treat trails, the parade, and every villain meet are inside Disney California Adventure, and the ticket does not admit you to Disneyland Park at any point that day."
+    },
+    {
+      "q": "Does Oogie Boogie Bash sell out?",
+      "a": "Yes, every year, and usually months ahead of the season. In recent years the full run has sold out before the first party night was held, with October dates going within hours of their on-sale. Treat availability as the binding constraint on your trip rather than something you check after booking flights."
+    },
+    {
+      "q": "How much does Oogie Boogie Bash cost?",
+      "a": "Between $154 and $224 per person per night before tax across the 2025 season, priced by date. The cheapest dates were Sunday and weeknight parties early in the run; the most expensive were the final two weeks and Halloween night. We have not verified prices for the coming season, so treat that band as the shape of the pricing rather than a quote."
+    },
+    {
+      "q": "Does the ticket include Disneyland Park or the rest of the day?",
+      "a": "No to the first, partly to the second. The ticket covers Disney California Adventure only, from a mid-afternoon entry time through the end of the party. If you want a full day beforehand, or any time at Disneyland Park, you need a separate regular ticket for that."
+    },
+    {
+      "q": "Can adults wear costumes to Oogie Boogie Bash?",
+      "a": "Yes, and this is the only context at Disney California Adventure where they can. Standard conditions apply: no masks that obscure the face, no costumes that drag on the ground, no realistic prop weapons. There is nowhere to change at the resort, so plan to arrive already dressed."
+    },
+    {
+      "q": "Is Lightning Lane sold for the party?",
+      "a": "No. Every ride you do during event hours is a standby wait. That is less painful than it sounds because the park runs at a fraction of its normal capacity during the party, but it does mean the usual paid workaround for a long line is not available to you."
+    },
+    {
+      "q": "Is it worth going if the only date I can get is in late October?",
+      "a": "Yes, but with clear eyes. You will pay near the top of the price band and the villain queues will be roughly double what they are in early September, which means two or three meets rather than five. If your reason for going is the parade, the show, and the atmosphere, a late date is fine. If it is a specific character, an early date is worth rearranging a trip for."
+    },
+    {
+      "q": "Are the dates for the coming season confirmed?",
+      "a": "Not on this page. As of July 2026 we have not verified an announcement of the coming season's dates, prices, or on-sale timing, so nothing here states them. What is stable is the shape: the event has run on select nights at Disney California Adventure from August through the end of October for several consecutive years, on a run in the mid-to-high twenties of nights."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Guardians of the Galaxy - Mission: BREAKOUT!", "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/", "site": 1 },
+    { "label": "Redwood Creek Challenge Trail", "href": "/disneyland/california-adventure/rides/redwood-creek-challenge-trail/", "site": 1 },
+    { "label": "Radiator Springs Racers", "href": "/disneyland/california-adventure/rides/radiator-springs-racers/", "site": 1 },
+    { "label": "How Lightning Lane works at both resorts", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Disney California Adventure ride list", "href": "/disneyland/california-adventure/rides/", "site": 1 }
+  ],
+  "related": ["halloween-time-at-the-disneyland-resort", "disneyland-after-dark"],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "priceRangeUsd": [154, 224],
+      "changes": [
+        "The full run sold out in advance, continuing a pattern that has held every year since the event returned in 2021.",
+        "Pricing spread further across the calendar than in earlier seasons, with a wider gap between the cheapest early-season weeknights and the last October dates.",
+        "Magic Key holders again received an earlier purchase window, and the most in-demand dates did not survive it in quantity."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 figures: the event ran on select nights at Disney California Adventure from August through the end of October, priced $154 to $224 per person per night before tax. We have not re-verified the final night count for the 2025 run and so do not state one.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run at Disney California Adventure on select nights from August through the end of October every year since 2021, on a run of roughly 25 to 30 nights, with 2025 priced at $154 to $224 per person per night. As of July 2026 we have not verified an announcement of the coming season's dates, prices, or on-sale timing, so this page states the pattern and the last confirmed cycle's prices only.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}

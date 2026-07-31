@@ -1,0 +1,117 @@
+{
+  "month": 3,
+  "name": "March",
+  "slug": "march",
+  "summary": "March has the best weather Orlando gets all year and the worst crowd structure of the first half of it. Spring break does not spike and clear — it staggers across the whole month, which leaves no trough to aim at and no bad week to simply avoid.",
+  "verdict": {
+    "grade": "C+",
+    "short": "Perfect Orlando weather, permanently high attendance, and upper-tier pricing for four straight weeks. Go in the first week or accept that every day will be busy.",
+    "bestFor": [
+      "Anyone whose priority is comfortable temperatures over short lines — this is Orlando's best weather month",
+      "Flower and Garden trips, which reach full strength this month",
+      "Visitors who will buy line-skipping and use it properly, because March is when it earns its cost",
+      "Families locked to a school calendar who can take the first full week rather than the third",
+      "Disneyland midweek visitors in the first half of the month, before California districts release"
+    ],
+    "worstFor": [
+      "Anyone hoping to find a quiet week — there isn't one after the opening days",
+      "Budget trips, since ticket tiers and hotel rates hold high all month with no promotional relief",
+      "Rope-drop-averse visitors, because the first two hours are the only reliably workable ones",
+      "Trips built around a specific dining reservation booked late",
+      "Anyone traveling in a year when Easter falls in March, which turns the back third into a peak week"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "US school districts break for spring across a five-to-six-week span and they do not coordinate with each other. Texas goes in the first half of the month, Florida's own districts go earlier than almost anyone, the Northeast clusters around the third week, and the Midwest scatters across all of it. The consequence is the specific thing that makes March hard: instead of one spike with recoverable weeks on either side, you get four to five consecutive weeks of uniformly high attendance with no reliable trough. There is no equivalent of the post-Thanksgiving collapse or the post-Presidents'-week drop to move your dates into. Easter compounds it, and where Easter falls decides whether March or April is the worse month — in an early-Easter year the last third of March runs at genuine peak levels, and in a late-Easter year March's back half eases while April absorbs the damage. Disneyland's version starts later and skews to weekends, because California districts release toward the end of the month and the resort's local base concentrates on Saturdays regardless.",
+    "peakWindows": [
+      "The third and fourth weeks, when the largest Northeast districts overlap with everyone else",
+      "The nine days from Good Friday through the following Sunday in a year when Easter falls in March",
+      "Every weekend at Disneyland from the middle of the month onward"
+    ],
+    "quietWindows": [
+      "The first full week at Walt Disney World, measurably the softest of the month",
+      "Midweek at Disneyland in the first two weeks, before California districts break",
+      "The first two hours after park open on any day, which is a real quiet window even in a busy month"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 79,
+      "lowF": 58,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. This is the best weather month of the Orlando year by a clear margin — warm afternoons, cool evenings, low humidity, and no afternoon convective storm pattern yet. It is also precisely why March is priced and attended the way it is. The good-weather months and the good-crowd months at Walt Disney World barely overlap."
+    },
+    "dlr": {
+      "highF": 71,
+      "lowF": 50,
+      "rainDays": 5,
+      "note": "Climate normals for Anaheim, not a forecast. The rain season is winding down but is not finished, and mornings are colder than the daily high suggests — a park opening rope drop can be in the low 50s with the sun barely up. Afternoons are close to ideal."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Walt Disney World's date-based ticket tiers sit in their upper bands for essentially the whole month, and the resort hotels run a spring rate season that does not dip between individual districts' breaks, because there is no week when demand actually falls. Promotional room offers, when they exist at all in spring, exclude March dates. The one lever still working is day of week: date-based pricing is set per calendar day, so a Tuesday or Wednesday arrival prices below a Friday or Saturday arrival even inside a peak stretch, and shifting a five-night trip two days left can move it a full tier. Airfare into Orlando is at its spring high and books out early on the popular break weeks."
+  },
+  "whatsOn": [
+    "epcot-flower-and-garden-festival",
+    "disney-california-adventure-food-and-wine-festival",
+    "disney-after-hours",
+    "disneyland-after-dark"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The trough that does exist is at the front of the month",
+      "body": [
+        "The first full week of March is consistently the softest week at Walt Disney World. Florida and Texas districts have mostly not gone yet, northern districts are two to three weeks away, and the winter market has cleared. It is not a quiet week in absolute terms, but it is the only one in the month that behaves like a shoulder week.",
+        "If March is fixed and the dates inside it are not, book the front. The difference between the first week and the third is larger than the difference between the third week and Easter week, which is not what most people assume.",
+        "The corresponding trap is the last week. In many years it collides with both the late Northeast breaks and the run-up to Easter, and it is the single worst week of the month more often than the middle is."
+      ]
+    },
+    {
+      "heading": "Plan around Easter's movement, not around a date",
+      "body": [
+        "Easter moves by more than a month between years, and it takes a two-week crowd wave with it. The useful framing is not to ask when the holiday falls but to identify the stretch running from the Friday before it through the Sunday after, and to treat those nine days as unbookable at any price at both resorts.",
+        "The knock-on effect is what people miss. In a year when Easter lands in March, April becomes the better of the two months and its back half is genuinely good. In a year when Easter lands in April, March's final week eases and April absorbs everything. Look at the calendar before you decide which of the two months to book — the answer flips year to year and generic advice about spring travel does not account for it.",
+        "European and Latin American school holidays are keyed to the same date, which is why the Easter wave at Walt Disney World includes a much larger international share than any other US break."
+      ]
+    },
+    {
+      "heading": "Flower and Garden is at its best, and its mornings are the only walkable ones",
+      "body": [
+        "The Flower and Garden Festival opens at the end of February or start of March and reaches full strength this month — the topiaries are installed, the gardens are planted, and the Outdoor Kitchens are all open. It is the reason to take EPCOT seriously in March even though the park is busy.",
+        "The scheduling detail that matters: the topiaries and gardens are photographable from the moment the park opens, but the food booths typically do not open until later in the morning. That gives you a clean first hour to walk World Showcase before anyone is queuing for anything, which is the only time in March when that promenade is comfortable.",
+        "The Garden Rocks concert series draws a dinner-package crowd to the America Gardens Theatre in the evenings. Dining packages are the reliable way to get a seat at the later shows; standby seating for a popular act on a Saturday means arriving well over an hour early."
+      ]
+    },
+    {
+      "heading": "March is the month paid line-skipping stops being optional",
+      "body": [
+        "The arithmetic on Lightning Lane and hard-ticket after-hours events changes with crowd level, and March is where it flips. On a low-attendance day, paying to skip a 25-minute line saves you very little. On a March day with 70-minute standby on everything worth riding, the same purchase is the difference between six headliners and two.",
+        "Disney After Hours is the sharper version of the same trade. A separately ticketed after-hours event caps attendance at a fraction of a normal day and runs for three hours with very short waits, and its per-night price is fixed regardless of how busy the park was that afternoon — which means its value per dollar rises as the month gets busier. March and April are when that math is at its best.",
+        "If you buy neither, the entire March plan reduces to one instruction: be at the gate before it opens, ride the three things you care most about in the first ninety minutes, and treat everything after 11 AM as a bonus."
+      ]
+    },
+    {
+      "heading": "Disneyland's spring break is later, shorter, and weekend-shaped",
+      "body": [
+        "Disneyland does not experience March the way Walt Disney World does. California districts break toward the end of the month, and the resort's core attendance is local and day-trip driven rather than week-long and hotel-based, so the crowd concentrates into weekends rather than spreading across whole weeks.",
+        "That produces a genuinely useful window: Disneyland on a Tuesday or Wednesday in the first half of March is far more workable than Walt Disney World on any day of the same month. If your spring dates are locked and your resort is not, this is the month where choosing Anaheim is worth real money.",
+        "The Disney California Adventure Food and Wine Festival is running alongside, which gives that park a reason to be a full day rather than a half day, and its marketplaces are quiet on weekday afternoons in a way EPCOT's never are in March."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "EPCOT's best snacks", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
+    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Easter's position moves between March and April and is deliberately described as a moving window rather than a date.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

@@ -1027,3 +1027,221 @@ body[data-offline] .offline-note { display: block; }
     transition-duration: .001ms !important;
   }
 }
+
+/* ---------- 25. Seasonal (Site 2) ---------------------------------------
+   Park Season Guide reuses this stylesheet whole and repaints the brand ramp
+   through one attribute on <html>. A second stylesheet would have drifted from
+   this one within a month; a palette override cannot.
+   ------------------------------------------------------------------------ */
+
+:root[data-site="season"] {
+  --brand:       #4a1d3f;
+  --brand-2:     #7a3a5c;
+  --brand-3:     #a3527d;
+  --brand-soft:  #f6ebf1;
+  --accent:      #a8500f;
+  --accent-2:    #cf7a2a;
+  --accent-soft: #fdf0e3;
+  --focus:       #8b4368;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-site="season"]:not([data-theme="light"]) {
+    --brand:      #d99ab9;
+    --brand-2:    #c988a8;
+    --brand-3:    #ecb6d0;
+    --brand-soft: #2a1621;
+    --accent:     #e9a264;
+    --accent-2:   #f0b884;
+    --accent-soft:#2a1e13;
+    --focus:      #ecb6d0;
+  }
+}
+:root[data-site="season"][data-theme="dark"] {
+  --brand:#d99ab9; --brand-2:#c988a8; --brand-3:#ecb6d0; --brand-soft:#2a1621;
+  --accent:#e9a264; --accent-2:#f0b884; --accent-soft:#2a1e13; --focus:#ecb6d0;
+}
+
+/* Freshness ribbon — the provenance strip on every dated page. */
+.freshness {
+  display: grid; gap: .3rem;
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  border-left: 4px solid var(--line-strong);
+}
+.freshness__lead { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; font-size: .92rem; }
+.freshness__lead strong { font-family: var(--font-display); letter-spacing: -.01em; }
+.freshness__sep { color: var(--muted); }
+.freshness__dot { width: .55rem; height: .55rem; border-radius: 999px; background: var(--line-strong); flex: none; }
+.freshness__note { font-size: .88rem; color: var(--ink-2); line-height: 1.5; }
+.freshness__meta { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .8rem; color: var(--muted); }
+.freshness__overdue { color: var(--danger); font-weight: 650; }
+
+/* Tone suffixes come straight from staleness.mjs: good | warn | muted | danger. A stale page is
+   forced to `danger` there, so a confirmed-but-unreviewed fact can never wear a green ribbon. */
+.freshness--good { background: var(--good-soft); border-color: transparent; border-left-color: var(--good); }
+.freshness--good .freshness__dot { background: var(--good); }
+.freshness--good .freshness__lead strong { color: var(--good); }
+.freshness--warn { background: var(--warn-soft); border-color: transparent; border-left-color: var(--warn); }
+.freshness--warn .freshness__dot { background: var(--warn); }
+.freshness--warn .freshness__lead strong { color: var(--warn); }
+.freshness--muted .freshness__lead strong { color: var(--ink-2); }
+.freshness--danger { background: var(--danger-soft); border-color: transparent; border-left-color: var(--danger); }
+.freshness--danger .freshness__dot { background: var(--danger); }
+.freshness--danger .freshness__lead strong { color: var(--danger); }
+.freshness--stale { border-left-color: var(--danger); }
+.freshness--stale .freshness__dot { background: var(--danger); }
+
+.pill--conf-confirmed { background: var(--good-soft); color: var(--good); border-color: transparent; }
+.pill--conf-expected { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.pill--conf-historical { background: var(--surface-3); color: var(--muted); border-color: transparent; }
+.pill--conf-unknown { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+.pill--muted { background: var(--surface-3); color: var(--muted); border-color: transparent; }
+.pill--danger { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+.pill--level-great { background: var(--good-soft); color: var(--good); border-color: transparent; }
+.pill--level-good { background: var(--brand-soft); color: var(--brand-2); border-color: transparent; }
+.pill--level-mixed { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.pill--level-poor { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+
+/* Money. The as-of is welded to the figure so neither can ship without the other. */
+.price-range { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: .35rem; }
+.price-range__label { font-size: .8rem; color: var(--muted); }
+.price-range__figure { font-family: var(--font-display); font-weight: 750; letter-spacing: -.02em; color: var(--ink); }
+.price-range__figure i { font-style: normal; color: var(--muted); padding-inline: .1rem; }
+.price-range__per { font-size: .8rem; color: var(--ink-2); }
+.price-range__asof { font-size: .72rem; color: var(--muted); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: .05rem .45rem; }
+
+/* The pattern strip — what stays true when this year's dates do not. */
+.window-strip {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: var(--space-5);
+}
+.window-strip__title { font-family: var(--font-display); font-size: .78rem; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin-bottom: var(--space-3); }
+.window-strip dl { display: grid; gap: var(--space-3); }
+@media (min-width: 640px) { .window-strip dl { grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); } }
+.window-strip dt { font-size: .76rem; color: var(--muted); }
+.window-strip dd { font-family: var(--font-display); font-weight: 650; color: var(--ink); line-height: 1.3; }
+
+/* Give and take. A page with only a left-hand column is an advert. */
+.give-take { display: grid; gap: var(--space-4); }
+@media (min-width: 760px) { .give-take { grid-template-columns: 1fr 1fr; gap: var(--space-5); } }
+.give-take__col { border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-5); background: var(--surface); }
+.give-take__col h3 { display: flex; align-items: center; gap: .45rem; font-size: var(--step-0); margin-bottom: var(--space-3); }
+.give-take__col svg { width: 1rem; height: 1rem; fill: none; stroke-width: 2.2; stroke-linecap: round; }
+.give-take__col--get { border-left: 4px solid var(--good); }
+.give-take__col--get h3 { color: var(--good); }
+.give-take__col--get svg { stroke: var(--good); }
+.give-take__col--dont { border-left: 4px solid var(--danger); }
+.give-take__col--dont h3 { color: var(--danger); }
+.give-take__col--dont svg { stroke: var(--danger); }
+
+/* Verdict panel. */
+.verdict { background: var(--brand-soft); border-radius: var(--radius-lg); padding: var(--space-6); }
+.verdict__title { font-size: var(--step-2); color: var(--brand); margin-bottom: var(--space-3); }
+.verdict__short { font-size: var(--step-1); line-height: 1.45; color: var(--ink); margin-bottom: var(--space-5); }
+.verdict__cols { display: grid; gap: var(--space-4); }
+@media (min-width: 760px) { .verdict__cols { grid-template-columns: 1fr 1fr; gap: var(--space-5); } }
+.verdict__col { background: var(--surface); border-radius: var(--radius); padding: var(--space-4) var(--space-5); }
+.verdict__col h3 { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; margin-bottom: var(--space-3); }
+.verdict__col--yes h3 { color: var(--good); }
+.verdict__col--no h3 { color: var(--danger); }
+
+/* Editions — one block per cycle, newest first. */
+.editions { list-style: none; padding: 0; display: grid; gap: var(--space-4); }
+.editions__item { border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-5); background: var(--surface); }
+.editions__head { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-2); }
+.editions__head h3 { font-size: var(--step-2); letter-spacing: -.02em; }
+.editions__dates { font-family: var(--font-display); font-weight: 650; color: var(--ink); }
+.editions__dates--none { color: var(--muted); font-weight: 400; font-style: italic; }
+.editions__meta { display: flex; flex-wrap: wrap; gap: var(--space-5); list-style: none; padding: 0; margin-block: var(--space-3); }
+.editions__meta li { display: grid; gap: .1rem; }
+.editions__meta span { font-size: .72rem; color: var(--muted); }
+.editions__meta strong { font-family: var(--font-display); }
+.editions__more { margin-top: var(--space-3); font-size: .88rem; }
+
+/* Month grades. The letter is authored; refusing to spread the distribution is the failure mode. */
+.grade {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 2.1rem; padding: .1rem .4rem; border-radius: var(--radius-sm);
+  font-family: var(--font-display); font-weight: 800; letter-spacing: -.03em;
+  font-size: 1rem; line-height: 1.4;
+}
+.grade--lg { min-width: 3.4rem; font-size: var(--step-3); padding: .2rem .6rem; border-radius: var(--radius); }
+.grade--great { background: var(--good); color: #fff; }
+.grade--good { background: var(--good-soft); color: var(--good); }
+.grade--mixed { background: var(--warn-soft); color: var(--warn); }
+.grade--poor { background: var(--danger-soft); color: var(--danger); }
+:root[data-theme="dark"] .grade--great { color: #08251a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .grade--great { color: #08251a; } }
+
+.month-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+.month-card {
+  display: grid; gap: .45rem; grid-template-areas: "name grade" "short short" "levels levels";
+  grid-template-columns: 1fr auto; align-items: center;
+  padding: var(--space-4) var(--space-5); border-radius: var(--radius);
+  border: 1px solid var(--line); background: var(--surface); text-decoration: none; color: inherit;
+  transition: border-color .15s, transform .15s, box-shadow .15s;
+}
+.month-card:hover { border-color: var(--brand-3); transform: translateY(-2px); box-shadow: var(--shadow); }
+.month-card__name { grid-area: name; font-family: var(--font-display); font-size: var(--step-1); font-weight: 750; letter-spacing: -.02em; }
+.month-card .grade { grid-area: grade; }
+.month-card__short { grid-area: short; font-size: .86rem; color: var(--ink-2); line-height: 1.45; }
+.month-card__levels { grid-area: levels; display: flex; flex-wrap: wrap; gap: .35rem; }
+.month-card__level { font-size: .7rem; font-weight: 650; padding: .1rem .45rem; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.month-card__level--great { background: var(--good-soft); color: var(--good); }
+.month-card__level--good { background: var(--brand-soft); color: var(--brand-2); }
+.month-card__level--mixed { background: var(--warn-soft); color: var(--warn); }
+.month-card__level--poor { background: var(--danger-soft); color: var(--danger); }
+
+/* Year-at-a-glance Gantt. CSS grid, no library, and it prints. */
+.gantt-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.gantt__title { font-family: var(--font-display); font-weight: 700; margin-bottom: var(--space-3); }
+.gantt { min-width: 46rem; display: grid; gap: .25rem; }
+.gantt__head, .gantt__row { display: grid; grid-template-columns: 14rem 1fr; gap: var(--space-3); align-items: center; }
+.gantt__head { position: sticky; top: 0; }
+.gantt__corner { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.gantt__head { grid-template-columns: 14rem repeat(12, 1fr); }
+.gantt__month { font-size: .7rem; text-align: center; color: var(--muted); font-weight: 650; }
+.gantt__label { font-size: .84rem; line-height: 1.3; display: grid; gap: .1rem; }
+.gantt__label a { color: inherit; text-decoration: none; font-weight: 600; }
+.gantt__label a:hover { color: var(--brand-2); text-decoration: underline; }
+.gantt__resort { font-style: normal; font-size: .68rem; color: var(--muted); letter-spacing: .06em; }
+.gantt__track { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0; }
+.gantt__cell { grid-row: 1; height: 1.6rem; border-right: 1px solid var(--line); }
+.gantt__cell:first-child { border-left: 1px solid var(--line); }
+.gantt__bar { grid-row: 1; height: 1.6rem; border-radius: var(--radius-xs); align-self: center; }
+.gantt__bar--confirmed { background: var(--good); }
+.gantt__bar--expected { background: var(--accent-2); }
+.gantt__bar--historical { background: var(--line-strong); }
+.gantt__key { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); font-size: .78rem; color: var(--muted); }
+.gantt__keyitem { display: inline-flex; align-items: center; gap: .35rem; }
+.gantt__swatch { width: .85rem; height: .85rem; border-radius: var(--radius-xs); display: inline-block; }
+.gantt__swatch--confirmed { background: var(--good); }
+.gantt__swatch--expected { background: var(--accent-2); }
+.gantt__swatch--historical { background: var(--line-strong); }
+
+/* Two-resort split. */
+.resort-split { display: grid; gap: var(--space-5); }
+@media (min-width: 820px) { .resort-split { grid-template-columns: 1fr 1fr; gap: var(--space-6); } }
+.resort-split__col { border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-5); background: var(--surface); }
+.resort-split__title { font-size: var(--step-1); color: var(--brand-2); margin-bottom: var(--space-4); }
+
+/* Handoff back to the evergreen site. */
+.evergreen__title { font-size: var(--step-2); margin-bottom: var(--space-2); }
+.evergreen__intro { color: var(--ink-2); max-width: 60ch; margin-bottom: var(--space-5); }
+.link-tile--external .link-tile__chev { transform: rotate(-45deg); }
+
+/* Trip-timing tool. */
+.timing-controls { display: grid; gap: var(--space-5); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: var(--space-6); }
+.timing-priorities { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+.timing-priority { display: flex; align-items: center; gap: .6rem; padding: var(--space-3) var(--space-4); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); cursor: pointer; }
+.timing-priority input { accent-color: var(--brand-2); width: 1.05rem; height: 1.05rem; }
+.timing-priority:has(input:checked) { border-color: var(--brand-3); background: var(--brand-soft); }
+.timing-results { display: grid; gap: var(--space-2); margin-top: var(--space-5); }
+.timing-result { display: grid; grid-template-columns: 3rem 1fr auto; gap: var(--space-4); align-items: center; padding: var(--space-3) var(--space-4); border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.timing-result__rank { font-family: var(--font-display); font-size: var(--step-1); font-weight: 800; color: var(--muted); }
+.timing-result:first-child .timing-result__rank { color: var(--brand-2); }
+.timing-result__bar { height: 8px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
+.timing-result__fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--brand-3), var(--brand-2)); }
+.timing-result__name { font-weight: 650; }

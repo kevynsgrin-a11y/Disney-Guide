@@ -1,0 +1,204 @@
+{
+  "slug": "holidays-at-the-disneyland-resort",
+  "name": "Holidays at the Disneyland Resort",
+  "shortName": "Holidays at Disneyland",
+  "resort": "disneyland",
+  "parkSlug": null,
+  "category": "overlay",
+  "season": "holidays",
+  "summary": "The strongest value proposition of any seasonal offering at either Disney resort, because it is the only one on this scale that costs nothing beyond a regular ticket: five ride overlays, a parade, two nighttime shows, and a full food festival, all included. The price is paid in crowds, and in the last two weeks of December you pay a great deal of them.",
+  "h1": "Holidays at the Disneyland Resort: what is included, and the two weeks to book instead of Christmas",
+  "title": "Holidays at the Disneyland Resort",
+  "titleTail": ": What's Included & When To Go",
+  "description": "Disneyland Resort's holiday season is included with admission — five ride overlays, a parade, two shows, a food festival. Here is what it costs you in crowds.",
+
+  "typicalWindow": {
+    "startsAround": "mid-November",
+    "endsAround": "early to mid-January",
+    "nightsTypical": 57,
+    "nightsRange": [52, 62],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Every operating day in the window during regular park hours. The parade runs twice most days, the castle lighting and the Main Street snowfall are evening-only, and the food festival marketplaces close before the park does."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [6, 15],
+    "asOf": "July 2026",
+    "cheapestNights": "The ten days before Thanksgiving, and the first full week of January once the New Year crowd has gone home",
+    "priciestNights": "The stretch from the week before Christmas through New Year's Day, which is the most expensive and most crowded period of the Disneyland Resort year",
+    "notes": [
+      "Every overlay, the parade, both nighttime shows, and entry to the Festival of Holidays marketplaces are included with any regular admission. There is no holiday ticket at this resort.",
+      "The range above is not an admission price. It is what a Festival of Holidays marketplace item costs, which along with merchandise is the only spend the season genuinely adds.",
+      "Disneyland Resort has not run a hard-ticket holiday party in recent seasons, so there is no paid route into a quieter version of this.",
+      "Ticket prices are date-based and the late-December dates sit in the highest tier, which is the closest thing the season has to a price.",
+      "Anaheim hotel rates in the last two weeks of December are the highest of the year, and the walkable independent hotels lose most of their usual price advantage."
+    ]
+  },
+
+  "whatYouGet": [
+    "\"it's a small world\" Holiday at Disneyland Park, which changes the ride's score and turns the facade into an evening light sequence that you can watch without queueing.",
+    "Haunted Mansion Holiday, carried straight over from the Halloween season and left in place until the first week or two of January.",
+    "Jingle Cruise, the Jungle Cruise's seasonal script and prop change, which is funnier than the standard version and is otherwise the same ride.",
+    "Luigi's Joy to the Whirl and Mater's Jingle Jamboree, the two Cars Land overlays, inside a fully redecorated land billed as Season of the Light.",
+    "A Christmas Fantasy Parade at Disneyland Park, running twice on most days, plus the seasonal fireworks and the snowfall on Main Street afterwards.",
+    "World of Color - Season of Light at Disney California Adventure, the holiday version of the Paradise Bay show.",
+    "Festival of Holidays at Disney California Adventure: marketplaces serving holiday dishes from a rotating set of culinary traditions, plus the Viva Navidad street party in Paradise Gardens Park.",
+    "Sleeping Beauty's Winter Castle, lit each evening, and the Main Street tree at Disneyland Park."
+  ],
+
+  "whatYouDont": [
+    "Any relief from the crowds. The week between Christmas and New Year is the busiest of the Disneyland Resort year, and in most recent seasons the resort has reached capacity and stopped admitting guests on at least one of those days. A valid ticket does not guarantee entry once that happens.",
+    "The standard versions of \"it's a small world\", the Haunted Mansion, or the Jungle Cruise. All three are overlaid for the whole window, and the small world overlay in particular covers the entire season with no gaps.",
+    "A hard-ticket alternative. There is no Disneyland equivalent of Mickey's Very Merry Christmas Party, which means there is no way to buy your way into a less crowded evening the way you can in Florida.",
+    "Guaranteed fireworks, parade, or snowfall. All three are weather-dependent, and winter wind cancels the Disneyland Park fireworks noticeably more often than summer weather does.",
+    "Shorter queues on the overlaid rides. Jingle Cruise roughly doubles the Jungle Cruise's normal standby wait, and \"it's a small world\" Holiday runs waits it never sees in October.",
+    "A cheap trip. The tickets cost the same as any other peak date, but late-December lodging, parking, and flights into Southern California all price at their annual highs at once."
+  ],
+
+  "verdict": {
+    "short": "The best value of any seasonal offering at either resort, because all of it is included with a normal ticket. Go before Thanksgiving or in early January; the last two weeks of December are brutal.",
+    "worthItIf": [
+      "You want the most heavily decorated version of an American Disney park without paying for an event ticket on top of admission.",
+      "You can travel in the second half of November or the first ten days of January, which is where almost all of the value sits.",
+      "Your group cares more about parades, decoration, shows, and food than about ride count.",
+      "You have visited Disneyland Resort in another season and want a genuinely different park rather than the same one with a tree in it.",
+      "You are eating your way through the trip. Festival of Holidays is the largest food event Disney California Adventure runs all year and it is free to walk into."
+    ],
+    "skipIf": [
+      "Your only available dates are the last two weeks of December and crowds bother anyone in your group. That period is the hardest stretch of the year to enjoy at this resort, and no amount of planning fixes it.",
+      "You want the standard versions of \"it's a small world\", the Haunted Mansion, or the Jungle Cruise.",
+      "You are optimizing for rides per day. Three popular attractions get longer queues, and the parade closes walkways across Disneyland Park twice a day.",
+      "You are price-sensitive on lodging. This is the one season where the Anaheim hotel advantage over Orlando largely disappears.",
+      "You need reliable weather for an outdoor-heavy plan. December and January are Southern California's wettest months and a rained-out day takes the parade and fireworks with it."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "The two windows that make this work",
+      "body": [
+        "The value of this season collapses or holds entirely on the calendar, and the two good windows are narrower than most people assume: the ten days or so before Thanksgiving, and the first full week of January.",
+        "The non-obvious part is that both windows give you the identical product. Disney does not phase the holiday installation in - the overlays, the decoration, the parade, and the shows are all running from the first day of the window. A mid-November Tuesday sees exactly what a late-December Saturday sees, at roughly a third of the crowd and a lower ticket price.",
+        "The January end is even better and almost nobody plans for it. The decorations stay up into the first week or two of January, well past the point most visitors assume they come down, while the crowd has already collapsed back to its normal off-peak level. That first full January week is the single best combination of low crowds and full decoration available all year at this resort.",
+        "The one caveat on January: it is the start of refurbishment season. Disney does its heaviest maintenance work in the first quarter, so a January visit that gets you an empty park often gets you two or three headliners behind walls. Check the closure list before you commit."
+      ]
+    },
+    {
+      "heading": "Christmas week, if you genuinely have no choice",
+      "body": [
+        "Plan for capacity closures rather than for wait times. On peak December days the resort has closed one or both parks to further entry, and once that happens a valid ticket does not get you in. Being through the gates before nine in the morning is not a tactic for beating queues here; it is how you guarantee you get into the park at all.",
+        "Park hopping is the second trap. Hopping opens later in the day, and on capacity days the park you want to hop into may be closed to hoppers even when it is open to guests who started there. Pick your morning park deliberately and treat the hop as optional rather than as the plan.",
+        "For the parade, watch from Frontierland or the walkway toward \"it's a small world\" rather than from Main Street or the hub. The hub fills 60 to 90 minutes ahead on peak days, the outer stretches fill in the last 20 minutes, and the parade is the same parade.",
+        "Give up on doing everything. On a peak December day a realistic target is four or five attractions, the parade, and one nighttime show, and a family that accepts that in advance has a far better time than one that arrives with a list of twelve."
+      ]
+    },
+    {
+      "heading": "Festival of Holidays and what it actually costs",
+      "body": [
+        "Disney California Adventure's Festival of Holidays is included with admission; the food is not, and marketplace items ran $6 to $15 each as of July 2026. Two adults sharing five plates make a full lunch out of it for the price of a mediocre quick-service meal.",
+        "The non-obvious timing: the marketplaces are at their quietest between roughly eleven in the morning and one in the afternoon, because at that hour everyone else is in Cars Land or on Pixar Pier. They jam from about half past one onwards, which is precisely when the ride waits dip. Running the opposite pattern to the crowd gets you both.",
+        "A coupon booklet covering a fixed number of items is sold each season. It only pays for itself if you commit to the full count, and two adults sharing plates almost never get there. Buy per item unless you have counted.",
+        "Viva Navidad, in Paradise Gardens Park, is the best live entertainment at either park in December and the piece most visitors miss entirely. It runs a street party several times a day with a band, stilt walkers, and the Three Caballeros, and it is the one holiday item at this resort with reliably no queue."
+      ]
+    },
+    {
+      "heading": "The overlays worth queueing for, and the one that is not",
+      "body": [
+        "\"it's a small world\" Holiday is worth a wait; Jingle Cruise is not. That is the whole ranking, and it saves you about an hour.",
+        "The small world overlay changes the ride's music and adds a large amount of physical decoration, and the exterior light sequence in the evening is a separate experience you can watch from the walkway without joining the queue at all. Do the ride in the first hour of the day and watch the facade after dark.",
+        "Jingle Cruise is a script change and a prop change on a ride whose standby wait roughly doubles for the season. It is genuinely funnier than the standard version, and it is not 50 minutes funnier. Ride it in the first hour or skip it and come back in February.",
+        "Haunted Mansion Holiday is the same installation you would have seen in October. If you are doing both a fall and a December trip in the same year, ride it once and use the time on something the December season adds.",
+        "The Cars Land overlays are the sleeper. Both attractions get seasonal music and decoration, the whole land is lit for the season, and the queues there stay reasonable because the crowd concentrates on the two big Disneyland Park overlays."
+      ]
+    },
+    {
+      "heading": "Evenings, and the moment the whole season is built around",
+      "body": [
+        "The snowfall on Main Street after the Disneyland Park fireworks is what the entire overlay is designed to end on, and it happens whether or not you are standing anywhere useful. Being on Main Street for it is worth more than being in the best fireworks viewing spot.",
+        "The practical compromise: watch the fireworks from the walkway toward \"it's a small world\" rather than the hub. You give up the castle projections, you gain the lit small world facade behind you, a fraction of the crowd, and an exit that is not the single worst pedestrian jam at the resort.",
+        "At Disney California Adventure the holiday version of the Paradise Bay show is the better use of an evening than a second night of fireworks, and it is far easier to get a viewing spot for. It also finishes closer to park close, which means the walk out is spread rather than simultaneous.",
+        "Sleeping Beauty's Winter Castle is lit each evening and photographs badly from directly in front. The angle from the Frontierland side of the hub is better, quieter, and available."
+      ]
+    }
+  ],
+
+  "food": {
+    "note": "Festival of Holidays runs marketplaces around Disney California Adventure with a menu that rotates every season and is published a few weeks before the festival opens. The items below come from the most recently documented cycle and are here to show the format and the price band rather than as a menu to plan around. Items ran $6 to $15 each as of July 2026.",
+    "items": [
+      { "name": "Holiday Slider with Braised Beef", "where": "Winter Sliderland", "priceUsd": 11.0, "verdict": "The most filling thing in the festival for the money and the easiest sell to anyone who is not enthusiastic about small plates." },
+      { "name": "Pozole", "where": "Merry Mashups", "priceUsd": 10.5, "verdict": "Better than it needs to be, and the only marketplace item that works as an actual meal on a cold evening." },
+      { "name": "Latke with Applesauce", "where": "Holiday Duets", "priceUsd": 8.5, "verdict": "Small, reliably good, and the fastest-moving line of the marketplaces most days." },
+      { "name": "Seasonal Dessert Flight", "where": "Holiday Duets", "priceUsd": 12.0, "verdict": "Three small sweets for the price of one dessert elsewhere in the park, and the item most worth splitting between four people." },
+      { "name": "Korean-style Short Rib Bowl", "where": "Paradise Garden Grill", "priceUsd": 14.5, "verdict": "A permanent restaurant running a festival menu, which means real seating and a shorter line than the marketplace stalls a few feet away." }
+    ]
+  },
+
+  "faqs": [
+    {
+      "q": "Is the Disneyland holiday season included with a regular ticket?",
+      "a": "Yes, all of it. Every ride overlay, the parade, both nighttime shows, the castle lighting, the Main Street snowfall, and entry to the Festival of Holidays marketplaces come with ordinary admission. Disneyland Resort runs no hard-ticket holiday party, which makes this the best-value seasonal offering at either American Disney resort by a wide margin."
+    },
+    {
+      "q": "When do the holiday decorations go up and come down at Disneyland?",
+      "a": "They go up in mid-November and come down in the first or second week of January. The installation is complete from the first day of the window rather than being phased in, which is why a mid-November visit sees exactly the same season as a late-December one. As of July 2026 we have not verified the coming season's exact start, so no date is stated here."
+    },
+    {
+      "q": "Is there a Christmas party ticket at Disneyland like Mickey's Very Merry?",
+      "a": "No. Disneyland Resort has not run a hard-ticket holiday party in recent seasons, so there is no paid route into a quieter evening. That is a genuine advantage on price and a genuine disadvantage on crowds, and it is the main structural difference between the two resorts at Christmas."
+    },
+    {
+      "q": "When is the least crowded time to see the holidays at Disneyland?",
+      "a": "The ten days before Thanksgiving, and the first full week of January. Both windows have the complete holiday installation running at roughly a third of peak crowd levels and at lower date-based ticket prices. January carries one trade-off: it is the start of refurbishment season, so check what is closed before you book."
+    },
+    {
+      "q": "Does Disneyland close its gates at Christmas?",
+      "a": "It has, in most recent seasons, on at least one day in the week between Christmas and New Year. Once a park hits capacity it stops admitting further guests, including guests holding valid tickets and reservations, and it reopens entry only as people leave. If you are visiting in that window, be through the gates before nine in the morning."
+    },
+    {
+      "q": "What is Festival of Holidays?",
+      "a": "A food festival at Disney California Adventure that runs alongside the season and is included with admission, with marketplaces serving dishes drawn from a rotating set of winter holiday traditions. The food costs extra, at $6 to $15 per item as of July 2026. It also carries the Viva Navidad street party, which is the best live entertainment at either park in December."
+    },
+    {
+      "q": "Can I ride the normal \"it's a small world\" during the holidays?",
+      "a": "No. The holiday overlay is installed for the whole window with no gaps, and the same is true of the Haunted Mansion. The Jungle Cruise keeps its normal layout but runs a seasonal script. If you want the standard versions of all three, visit between February and August."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "\"it's a small world\" at Disneyland Park", "href": "/disneyland/disneyland-park/rides/its-a-small-world/", "site": 1 },
+    { "label": "Jungle Cruise at Disneyland Park", "href": "/disneyland/disneyland-park/rides/jungle-cruise/", "site": 1 },
+    { "label": "Haunted Mansion at Disneyland Park", "href": "/disneyland/disneyland-park/rides/haunted-mansion/", "site": 1 },
+    { "label": "Cars Land", "href": "/disneyland/california-adventure/lands/cars-land/", "site": 1 },
+    { "label": "World of Color", "href": "/disneyland/california-adventure/rides/world-of-color/", "site": 1 },
+    { "label": "Disneyland Park fireworks", "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/", "site": 1 }
+  ],
+  "related": ["halloween-time-at-the-disneyland-resort", "lunar-new-year-at-disney-california-adventure"],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "The 2025 into 2026 season ran the established roster: the small world, Haunted Mansion, Jungle Cruise, and two Cars Land overlays, with the parade, the seasonal fireworks, and the holiday Paradise Bay show.",
+        "Festival of Holidays ran again at Disney California Adventure alongside Viva Navidad in Paradise Gardens Park.",
+        "The holiday installation remained in place into January 2026, as it has in every recent season."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 to 2026 season facts. The season ran from mid-November into January with the overlays and entertainment listed above. We have not re-verified the 2025 Festival of Holidays marketplace roster item by item, so the food list on this page is labeled to the cycle it came from rather than presented as current.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The season has run across both Disneyland Resort parks from mid-November into early or mid-January for more than a decade, with the same core roster of overlays and entertainment, and with no hard-ticket component. As of July 2026 we have not verified an announcement of the coming season's start date, its Festival of Holidays menu, or its entertainment schedule, so none of those are stated here.",
+    "reviewBy": "2026-11",
+    "cycle": "annual"
+  }
+}

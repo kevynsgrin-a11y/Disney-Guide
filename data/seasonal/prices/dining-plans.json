@@ -1,0 +1,183 @@
+{
+  "slug": "dining-plans",
+  "title": "Disney Dining Plan Prices",
+  "titleTail": ": The Arithmetic, and Who It Actually Suits",
+  "h1": "Disney Dining Plan prices, and the arithmetic that decides whether to buy one",
+  "description": "What the Walt Disney World dining plans cost as of the 2026 packages, whether they save money, and why the answer turns almost entirely on alcohol.",
+  "summary": "Neither Walt Disney World dining plan saves most families money at menu prices, and the single variable that decides it is alcohol — both plans include it for guests 21 and over, and without it the Quick-Service plan loses money for almost everyone who buys it.",
+  "rows": [
+    {
+      "label": "Quick-Service Dining Plan, adult, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [57, 72],
+      "asOf": "2026 packages",
+      "note": "Two quick-service meals, one snack, and a refillable resort mug for the length of the stay. Sold only as part of a package at a Disney-owned hotel, for every night of the stay, not per night."
+    },
+    {
+      "label": "Quick-Service Dining Plan, child aged 3 to 9, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [23, 32],
+      "asOf": "2026 packages",
+      "note": "The child rate ends on a child's tenth birthday, at which point they price as an adult. A 10-year-old on the adult rate is where this plan most reliably loses money."
+    },
+    {
+      "label": "Disney Dining Plan, adult, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [94, 118],
+      "asOf": "2026 packages",
+      "note": "One quick-service meal, one table-service meal, one snack, and a refillable resort mug. Gratuity is not included, which is where the plan quietly costs more than the sticker."
+    },
+    {
+      "label": "Disney Dining Plan, child aged 3 to 9, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [34, 44],
+      "asOf": "2026 packages",
+      "note": "Children order from the children's menu at table-service restaurants when using the plan, which is a real restriction for a nine-year-old who eats adult portions."
+    },
+    {
+      "label": "Disney Dining Plan for a family of four, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [256, 324],
+      "asOf": "2026 packages",
+      "note": "Two adults and two children, before tax and before gratuity. Across a seven-night stay this is $1,792 to $2,268 committed in advance — comparable to the family's entire ticket cost."
+    },
+    {
+      "label": "Quick-Service Dining Plan for a family of four, per night",
+      "resort": "walt-disney-world",
+      "rangeUsd": [160, 208],
+      "asOf": "2026 packages",
+      "note": "Two adults and two children. Across a seven-night stay, $1,120 to $1,456. Compare that against what the same family actually orders, which is the arithmetic in the section below."
+    },
+    {
+      "label": "Typical quick-service meal at menu prices",
+      "resort": "walt-disney-world",
+      "rangeUsd": [16, 24],
+      "asOf": "July 2026",
+      "note": "Entree and a soft drink at a counter-service location. This is the number the Quick-Service plan has to beat twice a day, plus a snack, to break even."
+    },
+    {
+      "label": "Typical table-service meal at menu prices",
+      "resort": "walt-disney-world",
+      "rangeUsd": [40, 60],
+      "asOf": "July 2026",
+      "note": "Entree, dessert and a non-alcoholic drink at a moderate restaurant, before gratuity. Character buffets and signature restaurants price well above this, which is the only route by which the Disney Dining Plan clears its own cost."
+    },
+    {
+      "label": "Alcoholic drink at menu prices",
+      "resort": "walt-disney-world",
+      "rangeUsd": [9, 17],
+      "asOf": "July 2026",
+      "note": "Beer, wine by the glass or a cocktail, in a park or at a hotel. Both plans include one alcoholic drink in place of a soft drink for guests 21 and over, and this is the row that decides whether either plan makes sense."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The verdict",
+      "body": [
+        "Both Walt Disney World dining plans lose money for a family that orders normally, and both start winning the moment adults in the party drink. That is the whole finding, and it is not how either plan is marketed. The plans changed materially when alcohol was folded in, and that single inclusion is what moved them from clearly bad value to genuinely situational.",
+        "The Disney Dining Plan wins in three cases and only three: you drink, you eat at character buffets or signature restaurants rather than moderate ones, and you would have ordered the most expensive item on the menu anyway. Meet two of those and it is close to break-even. Meet all three and it saves real money.",
+        "The Quick-Service Dining Plan is the weaker of the two and the one bought most often, because the number looks small. At $57 to $72 per adult per night against $38 to $57 of food at menu prices, it loses money for a non-drinking adult on almost every night of a trip. Add two drinks a day and it flips.",
+        "The Disneyland Resort sells no dining plan at all, which removes the decision entirely on that coast. Some Disneyland Resort vacation packages have bundled a fixed-value dining card; that is a gift card with a promotion attached, not a plan, and it should be evaluated as a discount rather than as a meal package."
+      ]
+    },
+    {
+      "heading": "The arithmetic, done properly",
+      "body": [
+        "The Quick-Service Dining Plan gives an adult two quick-service meals and one snack per night. At July 2026 menu prices that is $16 to $24 twice, plus $6 to $9 for a snack, so $38 to $57 of food against a plan price of $57 to $72. A non-drinking adult loses roughly $1 to $34 per night, every night, and the refillable mug at $25 to $35 for the whole stay recovers only part of that on a long trip.",
+        "Add the alcohol allowance and the same adult swaps two soft drinks for two drinks at $9 to $17 each. The order is now worth $56 to $91 against the same $57 to $72 plan price, and the plan is at worst break-even and at best a modest win. That is the entire case for the Quick-Service Dining Plan, stated honestly.",
+        "The Disney Dining Plan gives an adult one quick-service meal, one table-service meal and one snack. At moderate restaurants that is $16 to $24, plus $40 to $60, plus $6 to $9, so $62 to $93 of food against a plan price of $94 to $118. A non-drinking adult eating at moderate restaurants loses $1 to $56 per night.",
+        "Substitute a character buffet or a signature restaurant at $60 to $95 for the moderate meal and the same adult's order reaches $82 to $128. Add a drink at $9 to $17 and it reaches $91 to $145. That is where the plan clears its price, and it is why the honest advice is to book the expensive restaurants first and decide about the plan afterwards, rather than the reverse."
+      ]
+    },
+    {
+      "heading": "What the sticker price leaves out",
+      "body": [
+        "Gratuity is not included on either plan and it is the largest hidden cost. A family of four using table-service credits daily generates a bill equivalent of $160 to $240 a day, which at 18 to 20 percent means $25 to $50 a day in tips the plan does not cover. Across a seven-night stay that is $175 to $350 in cash that was not in the package price.",
+        "The plan is all-or-nothing for the length of the stay. You cannot buy it for the three nights you have character meals booked and skip the four you do not. That structural fact is why a trip with two good dining reservations and five casual nights is almost always better off paying out of pocket.",
+        "Children on the Disney Dining Plan order from the children's menu at table-service restaurants, which is a genuine restriction for a nine-year-old with an adult appetite. And the child rate ends on a tenth birthday, at which point the same child costs $94 to $118 a night and will very rarely eat that much.",
+        "The refillable resort mug is the one component with a fixed, knowable value at $25 to $35 for the stay, and it is worth counting because it is included with both plans. On a three-night trip it is a rounding error; on a fourteen-night trip it materially closes the gap on the Quick-Service plan."
+      ]
+    },
+    {
+      "heading": "Who should actually buy one",
+      "body": [
+        "Buy the Disney Dining Plan if your party contains two adults who drink, you have already booked three or more character or signature meals, and your trip is long enough that the pre-payment simplifies rather than complicates. That describes a real and reasonably common trip, and for that trip the plan is a modest saving and a large convenience.",
+        "Buy the Quick-Service Dining Plan only if the adults in the party will genuinely use the alcohol allowance twice a day. Without it the plan loses money at menu prices on almost every night, and the convenience argument is weaker than on the full plan because counter-service ordering is quick either way.",
+        "Do not buy either plan if your party is two adults and two children under ten who eat lightly, if your dining is mostly counter-service by choice, if nobody drinks, or if you have one child who has just turned ten. Those four cases cover the majority of families who buy a plan and regret it.",
+        "Do not buy either plan on the strength of a spreadsheet that uses the most expensive item at every restaurant. The plan's break-even always assumes maximal ordering, and the honest question is not whether you could eat that much but whether you will."
+      ]
+    },
+    {
+      "heading": "Free dining promotions, assessed",
+      "body": [
+        "Disney has periodically run free dining as a package promotion, and it is worth waiting for and worth nothing if it costs you a room discount. The offer has historically been an alternative to a room-rate discount rather than an addition to it, which means a package with free dining at rack rate can cost more than a package with a discounted room and no dining.",
+        "Price both offers on the same dates before choosing, and compare the total package cost rather than the headline. A room discount of 25 to 35 percent on a deluxe hotel is worth more in absolute dollars than a Quick-Service Dining Plan for the same party, and the reverse is true at a value hotel.",
+        "Free dining promotions have also carried restrictions that reduce their value: minimum stay lengths, a required ticket purchase, blackout dates across the peak weeks, and a default to the Quick-Service plan rather than the full one. Read the tier being offered before assuming it is the plan you priced."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Book the expensive restaurants first, then price the plan against them. The Disney Dining Plan only clears its $94 to $118 adult nightly price when the table-service credit goes to a character buffet or signature restaurant at $60 to $95 rather than a moderate one at $40 to $60. If you have not booked three or more of those, the plan is losing money before your trip starts.",
+    "Count the alcohol honestly, because it is the whole decision. Both plans include one alcoholic drink in place of a soft drink for guests 21 and over, at a menu value of $9 to $17. Two drinks a day is what turns the Quick-Service plan from a $1 to $34 nightly loss into a break-even or better. If nobody in your party drinks, neither plan is worth buying.",
+    "Do not buy a plan for a child who has just turned ten. The child rate ends on the tenth birthday and the same child then costs $94 to $118 a night on the full plan. A ten-year-old ordering from the adult menu almost never eats that much, and this is the single most reliable way a family of four overpays on a dining package.",
+    "Budget the gratuity separately and in cash. Neither plan covers it, and a family of four using table-service credits daily generates $25 to $50 a day in tips on top of the package price — $175 to $350 across a week. Families who forget this are the ones who report that the plan cost more than they expected, and they are right.",
+    "Price a free dining promotion against the room discount on the same dates, not against zero. Disney has offered free dining as an alternative to a room-rate discount rather than alongside it. On a deluxe hotel the room discount is usually worth more in absolute dollars; on a value hotel the dining is. Compare package totals, not headlines.",
+    "Use mobile ordering and share adult quick-service portions rather than buying a plan for young children. Quick-service portions at $16 to $24 will feed one adult and one small child at most Walt Disney World counter locations, and a child under 10 who eats from a shared plate does not need a $23 to $32 nightly plan of their own.",
+    "At the Disneyland Resort, stop looking — there is no dining plan to buy. Some Disneyland Resort packages bundle a fixed-value dining card, which is a gift card with a promotion attached rather than a meal plan. Evaluate it as a percentage discount on money you were going to spend and nothing more."
+  ],
+  "crossLinks": [
+    {
+      "label": "Mobile order and dining explained",
+      "href": "/guides/mobile-order-and-dining/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT dining",
+      "href": "/walt-disney-world/epcot/dining/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom dining",
+      "href": "/walt-disney-world/magic-kingdom/dining/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the Disney Dining Plan save money?",
+      "a": "Not for most families as they actually order. An adult on the full plan at $94 to $118 a night consumes $62 to $93 of food at moderate-restaurant menu prices, so the plan loses $1 to $56 per night. It reaches break-even and better only with alcohol, character buffets or signature restaurants in the mix, and it needs at least two of those three to work."
+    },
+    {
+      "q": "Is there a dining plan at Disneyland?",
+      "a": "No. The Disneyland Resort has not sold a per-night dining plan. Some Disneyland Resort vacation packages have bundled a fixed-value dining card, which is a gift card with a promotion attached rather than a meal plan. Evaluate that as a discount on money you would spend anyway, not as a package that changes how you eat."
+    },
+    {
+      "q": "Is gratuity included?",
+      "a": "No, on either plan, and it is the largest cost the sticker price hides. A family of four using table-service credits daily generates $25 to $50 a day in tips the plan does not cover, or $175 to $350 across a seven-night stay. Budget it separately or the plan will cost more than you priced."
+    },
+    {
+      "q": "Can I buy the plan for part of my stay?",
+      "a": "No. Both plans are sold for every night of the stay as part of a Disney-owned hotel package, and there is no partial option. That is why a trip with two good dining reservations and five casual nights is almost always better off paying out of pocket — you cannot buy the plan only for the nights it works."
+    },
+    {
+      "q": "Is alcohol really included?",
+      "a": "Yes, for guests aged 21 and over, on both plans, as one alcoholic drink in place of a soft drink. At a menu value of $9 to $17 per drink this is the single largest component of either plan's value, and it is what decides whether the Quick-Service plan makes sense at all. A party where nobody drinks should not buy either plan."
+    },
+    {
+      "q": "Are these 2027 prices?",
+      "a": "No. The bands here describe 2026 package pricing, labelled as such, alongside July 2026 menu prices for the food they replace. We have not verified 2027 package pricing against Disney's published rates as of July 2026 and we do not publish figures we have not checked. Expect an increase; both plans have risen in each year since the product returned."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Plan prices describe 2026 package pricing at Walt Disney World, labelled with that cycle; menu-price comparison rows describe July 2026 in-park pricing. We label this page as last-confirmed rather than confirmed because 2027 package pricing has not been verified by us as of July 2026 and Disney has raised both plans in each year since the product returned. The Disneyland Resort has no dining plan, so no Anaheim rows exist on this page by design rather than by omission.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

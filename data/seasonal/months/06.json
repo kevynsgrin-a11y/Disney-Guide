@@ -1,0 +1,116 @@
+{
+  "month": 6,
+  "name": "June",
+  "slug": "june",
+  "summary": "June is the front edge of the summer plateau, and a plateau is harder to plan around than a spike because it has no far side. Walt Disney World gets high crowds, high prices, and the first full month of Florida summer at once; Disneyland gets the same crowds and none of the weather penalty.",
+  "verdict": {
+    "grade": "D+",
+    "short": "Bad at Walt Disney World and merely busy at Disneyland. If June is the only month available and the resort is not fixed, this is the strongest case on the calendar for choosing Anaheim.",
+    "bestFor": [
+      "Disneyland trips, where June delivers dry 70s weather and no heat penalty at all",
+      "Families with no school-calendar flexibility who will plan around the afternoon storm rather than fight it",
+      "Water park days at Walt Disney World, which are genuinely at their best this month",
+      "Late-evening touring, since summer operating hours are the longest of the year",
+      "Anyone who will use an after-hours ticket to buy back the cool, empty part of the day"
+    ],
+    "worstFor": [
+      "Small children and anyone heat-sensitive at Walt Disney World — the heat index is the trip-ending risk",
+      "Budget trips, since June pays near-peak rates without the promotional relief August gets",
+      "Anyone planning an outdoor headliner for the afternoon, which lightning closures regularly cancel",
+      "Rope-drop-averse visitors, because mornings are the only comfortable and uncrowded hours",
+      "Non-refundable bookings, since hurricane season opens this month"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "Districts release across the first three weeks of June, so attendance climbs steadily rather than jumping, and then it simply stays high until Labor Day. That is the structural problem: unlike Thanksgiving, Christmas, or Easter, summer has no collapse on the far side to move your dates toward, so the usual trick of shifting a week accomplishes nothing. At Walt Disney World the crowd is also functionally worse than the raw attendance number implies, because heat concentrates everybody into the same air-conditioned attractions at the same hours — a 60-minute posted wait on an indoor ride at 2 PM in June represents a different level of misery than the same number in February. Disneyland runs an almost identical attendance curve with none of that penalty, since its queues are survivable at any hour, and Southern California's local pass base actually thins in summer as residents take their own vacations. The two resorts deserve genuinely different verdicts this month and most seasonal advice flattens them into one.",
+    "peakWindows": [
+      "The last two weeks, once most districts have released",
+      "Weekends throughout the month at both resorts",
+      "The 11 AM to 4 PM window at every Walt Disney World park, where the indoor attractions absorb the entire crowd"
+    ],
+    "quietWindows": [
+      "The first week, before most districts break",
+      "The first ninety minutes after park open, the only genuinely comfortable and uncrowded hours in Orlando",
+      "The hour immediately after an afternoon thunderstorm clears, when a large share of guests have already left"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 92,
+      "lowF": 73,
+      "rainDays": 15,
+      "note": "Climate normals for Orlando, not a forecast. Fifteen days with measurable rain, almost all of it in a convective window between roughly 3 and 6 PM, and heat index values well above the raw 92 because the dewpoint sits in the low 70s. June is the month the Florida summer pattern locks in and stops varying."
+    },
+    "dlr": {
+      "highF": 78,
+      "lowF": 60,
+      "rainDays": 1,
+      "note": "Climate normals for Anaheim, not a forecast. Effectively rainless, with the June gloom marine layer holding mornings overcast and mild before the sun burns through. Anaheim in June is more comfortable than Orlando in any month between April and October, and it is not a close comparison."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Walt Disney World's date-based ticket tiers step up as districts release and then hold, and resort hotels move into their summer rate season for the full month. The lever that matters here is promotional timing rather than the list price: the room-only and dining offers Disney publishes for summer have historically been weighted toward late July and August, when the resort needs to fill the post-Southern-schools trough, which leaves June paying near-peak rates with the least promotional relief of the three summer months. Airfare into Orlando switches from business-demand pricing to family-leisure pricing in June and does not switch back until September. Anaheim's rates rise less, because its hotel market is not as seasonal, which widens the value gap between the coasts further."
+  },
+  "whatsOn": [
+    "epcot-flower-and-garden-festival",
+    "disney-after-hours",
+    "disneyland-after-dark"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The afternoon storm is a schedule, not a risk — build the day on it",
+      "body": [
+        "Florida's summer thunderstorm is not weather in the sense of something that might happen. It is a near-daily convective event that forms in a predictable window in the middle of the afternoon and clears within an hour or two. Planning around it beats hoping to dodge it.",
+        "The shape that works: outdoor headliners and anything with an exposed queue before noon; indoor attractions, shows, and a sit-down meal between roughly 2 and 6 PM; back outdoors afterward. The hour after a storm clears is the single best touring hour of a Florida summer day, because a meaningful share of guests treat the rain as the end of their day and leave, while the temperature has dropped ten degrees.",
+        "Carry a poncho rather than an umbrella and pack a second pair of socks. The thing that ends a June park day is rarely the rain itself — it is walking eight more miles in wet shoes."
+      ]
+    },
+    {
+      "heading": "Lightning closures are the specific mechanism that ruins June afternoons",
+      "body": [
+        "Attractions with exposed track, elevated sections, or open water suspend operation when lightning is detected within range, and they stay down for a period after the last strike, not just during the storm. That routinely means half an hour to an hour of downtime on the rides people most want.",
+        "The actionable version: do not schedule a Lightning Lane return window for an outdoor attraction in the afternoon in June. If a return window is unavoidable, know that a closure generally converts the reservation into a flexible one usable later — but the recovery is much simpler if you never put it there.",
+        "This is also why the morning matters so much more in summer than in winter. The outdoor headliners are only reliably available in the first half of the day, and no amount of paid line-skipping fixes an attraction that is not running."
+      ]
+    },
+    {
+      "heading": "Hurricane season opens — this is the month to buy the flexible rate",
+      "body": [
+        "The Atlantic hurricane season begins at the start of June. Early-season activity is usually Gulf-origin and rarely affects Central Florida, so June trips themselves are low risk. The reason it belongs in a June planning note is that this is when you are booking the September and October trips that are not low risk, and when you are choosing between refundable and prepaid rates for your own.",
+        "Travel insurance and refundable rates cost roughly the same in June as they do in September, and they are worth far more later in the season. If you are booking ahead, buy the flexible option now rather than discovering the difference later.",
+        "Walt Disney World has historically operated a hurricane policy allowing cancellation without penalty when a warning is issued for the Orlando area or for your point of origin within a defined window before arrival. That policy covers the Disney-booked portion only — flights and third-party hotels are your own problem. Confirm the current terms at the time you book."
+      ]
+    },
+    {
+      "heading": "If the resort is not fixed, this is the month to choose Anaheim",
+      "body": [
+        "The honest comparison in June is not close. Both resorts are busy; only one of them is also 92 degrees with 73-degree overnight lows and a daily thunderstorm. Disneyland in June runs high 70s, dry, with a cool marine morning, and its two parks are close enough together that a midday hotel break costs fifteen minutes rather than two hours.",
+        "The counterargument is capacity. Walt Disney World's four parks absorb a summer crowd better than Disneyland's two do, and Anaheim in June feels dense in a way Orlando does not. If your group's tolerance for crowding is lower than its tolerance for heat, that flips the answer.",
+        "For families with children under about seven, the heat argument should usually win. Heat ends more Florida park days than crowds do."
+      ]
+    },
+    {
+      "heading": "The after-hours products are worth more in June than in any other month",
+      "body": [
+        "Disney After Hours at Walt Disney World and the Disneyland After Dark series both do the same structural thing: they cap attendance and run for a few hours after the regular park closes. In June that also means they run in the only genuinely pleasant temperature band of the day in Orlando, which doubles their value relative to a winter night.",
+        "The per-night price does not vary with how busy the park was that afternoon, so the value per dollar rises as the month gets busier. June and July are when the math is strongest.",
+        "Plan a shorter day around the event rather than stacking a full day on top of it. Twelve hours in a Florida June followed by a three-hour night event is how people get heat exhaustion."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 },
+    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy described is a long-running operator practice, not a confirmed current term — verify it at the point of booking.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

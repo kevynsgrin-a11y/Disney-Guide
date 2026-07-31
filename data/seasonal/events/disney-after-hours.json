@@ -1,0 +1,211 @@
+{
+  "slug": "disney-after-hours",
+  "name": "Disney After Hours",
+  "shortName": "After Hours",
+  "resort": "walt-disney-world",
+  "parkSlug": null,
+  "category": "after-hours",
+  "season": "year-round",
+  "summary": "The best per-ride value Walt Disney World sells, and only if you ride hard for the full three hours — buy it at Hollywood Studios or Magic Kingdom, and do not buy it at Animal Kingdom.",
+  "h1": "Disney After Hours: what it is and whether it's worth it",
+  "title": "Disney After Hours",
+  "titleTail": ": Prices, Parks & Verdict",
+  "description": "Walt Disney World's three-hour low-crowd ride event: what the ticket includes, which park to buy it at, and the break-even math against Lightning Lane.",
+
+  "typicalWindow": {
+    "startsAround": "no fixed opening — nights are released in batches through the year",
+    "endsAround": "no fixed close — the calendar has historically run heaviest from mid-winter to late summer",
+    "nightsTypical": 20,
+    "nightsRange": [10, 40],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Sat"],
+    "hours": "Historically a three-hour event after regular park close, with event-ticket park entry from a couple of hours before the stated start."
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [139, 209],
+    "asOf": "2025 season",
+    "cheapestNights": "Animal Kingdom nights, and early-calendar weeknights at any park",
+    "priciestNights": "Hollywood Studios and Magic Kingdom nights in peak weeks, and any night close to a holiday",
+    "notes": [
+      "Tax is additional.",
+      "The band covers all participating parks. Where a night sits inside it is driven mostly by which park it is at, and only secondarily by the date.",
+      "Annual Passholder and DVC discounts have appeared on this product more consistently than on the Magic Kingdom parties, and are worth checking before buying at full price.",
+      "The night-count figures on this page are a range describing the pattern rather than a published number. Disney does not announce a season total and the count varies by park and by cycle."
+    ]
+  },
+
+  "whatYouGet": [
+    "Three hours in a park with attendance capped far below what the hard-ticket parties allow, which produces near-walk-on waits on attractions that ran 60 to 90 minutes that afternoon.",
+    "Park entry on the event ticket from a couple of hours before the stated start, which is ordinary park operation you did not buy a day ticket for.",
+    "Unlimited select ice cream novelties, popcorn and bottled soft drinks and water from carts around the park, included in the ticket and genuinely unlimited.",
+    "A published list of participating attractions, so you can check before buying whether the rides you want are actually in the event.",
+    "PhotoPass photographers stationed around the park with no queues at any of them, which is the only time that is true at Walt Disney World.",
+    "The lowest cost per ride of any Walt Disney World ticketed event, provided you spend all three hours riding rather than eating or shopping."
+  ],
+
+  "whatYouDont": [
+    "Three hours is three hours. At the top of the band that is close to $70 an hour per person, and the clock starts whether or not you are in a queue at the time.",
+    "Not every attraction participates. The published list is shorter than the park's roster, the omissions are usually the shows and the smaller rides, and a family that assumed the whole park was open will find half their list closed.",
+    "The included food is the cheap end of the cart menu: ice cream novelties, popcorn, bottled soda and water. It is not dinner, and treating it as dinner is how people end up eating four ice creams and feeling ill by 23:00.",
+    "There is no entertainment. No parade, no fireworks, no stage show, and only a small number of character meets. If somebody in your party wants to watch something rather than ride something, they will be bored for three hours.",
+    "Animal Kingdom's version is the weakest event Disney sells at this price. The ride list is short, the walking trails are closed after dark, and the two attractions worth the ticket sit in the same land, so the event is effectively over in ninety minutes.",
+    "Dates are released in irregular batches rather than as a season, so you cannot reliably plan a trip twelve months out around this event the way you can around the Halloween party.",
+    "When it ends, it ends. Cast members sweep the park, and the only queue you keep is the one you are physically standing in when the clock runs out."
+  ],
+
+  "verdict": {
+    "short": "Buy it at Hollywood Studios, consider it at Magic Kingdom, and skip it at Animal Kingdom. It is the only Disney World hard ticket where the rides alone justify the price.",
+    "worthItIf": [
+      "You are a group of adults or older children who will ride continuously for three hours without needing a break, a meal or a show.",
+      "You would otherwise have bought Lightning Lane Multi Pass plus a Single Pass at the same park on a busy day, in which case this is comparable money for considerably more rides.",
+      "You are at Hollywood Studios. That park has the worst capacity-to-demand ratio at Walt Disney World, which makes an attendance cap worth more there than anywhere else.",
+      "Your trip is short and you need to compress a park into an evening. Three hours of near-walk-on riding covers most of a park's headliner tier.",
+      "You are staying somewhere with a short journey home. A midnight or 01:00 finish is fine from the Skyliner or a monorail resort and punishing from a value resort on a bus."
+    ],
+    "skipIf": [
+      "You are at Animal Kingdom. The ride list is too short, the trails and the animal viewing are closed, and the event runs out of content before the clock does.",
+      "Fewer than six attractions on the published participating list are ones you actually want. That is the test, and it is the only test — count them before you buy rather than after.",
+      "Your party includes anybody who will want to sit down, eat properly, or watch a show. There is nothing here for them and three hours is a long time to have nothing to do.",
+      "You have a park morning booked the next day. The event finishes at midnight or later, and rope drop the following morning is the thing that actually gets sacrificed.",
+      "You were expecting a party. There is no parade, no fireworks and almost no entertainment — the absence of those things is the product, and buying it by mistake is a common and expensive error.",
+      "The date is the only one available and it is at a park you have already done that week. The event's value comes from clearing a headliner list, and clearing a list you cleared on Tuesday is not worth $170."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Do the break-even math before you look at dates",
+      "body": [
+        "The only question that matters is how many attractions you will ride, and there is a number that answers it. At the middle of the price band, riding eight headliners in three hours costs roughly $20 a ride and skips queues that ran 60 to 90 minutes that afternoon. Riding four costs $40 a ride for attractions you could have queued for.",
+        "Compare it directly against the alternative rather than against nothing. Lightning Lane Multi Pass plus a Single Pass at a busy Walt Disney World park lands in similar money and delivers four to seven Lightning Lane rides across a whole day of walking and heat. After Hours delivers eight to twelve in three cool hours with no app management.",
+        "The test that settles it: open the published participating attraction list for the specific night and count the rides you genuinely want. Six or more, buy it. Fewer than six, do not, regardless of how good a deal the price looks — the list is different at every park and it is shorter than people assume.",
+        "Do the same count for the people in your party who are not you. An event with six attractions you want and two that a smaller child can ride is a three-hour ticket that one person is enjoying."
+      ]
+    },
+    {
+      "heading": "Spend the early-entry hours on what is not in the event",
+      "body": [
+        "The event ticket admits you a couple of hours before the stated start, and the instinct is to use that window on the headliners. That is the wrong move here, and it is the single most valuable thing on this page.",
+        "During those hours the park is still running its ordinary day with ordinary crowds, and the headliners are at their day-time waits. After the event starts, those same headliners are near walk-on. So the early window should go on the attractions that are not in the event, or that will not have short lines during it.",
+        "In practice that means shows, the attractions omitted from the participating list, dinner, and anything with a fixed showtime. It also means getting your event wristband immediately on entry rather than joining the queue for one at 20:45.",
+        "Eat in the early window, not during the event. Every minute of the three hours is worth roughly a dollar per person, and a quick-service meal at 20:00 costs the same food and none of the event."
+      ]
+    },
+    {
+      "heading": "Ride the biggest line last, not first",
+      "body": [
+        "The longest queue of the entire event is the marquee attraction in the first twenty minutes, because every guest who just entered walks straight to it. That queue then shrinks continuously for three hours while everybody else rides everything.",
+        "The correct order inverts the usual advice: start on the second- and third-tier attractions nearest the entrance, work outward, and come back to the single biggest attraction in the final half hour when its line is at its shortest of the night.",
+        "The queue closes when the event closes, and guests already in it are processed. That makes the last ten minutes the best time of the whole event to join the longest line in the park — you will ride, and the people who rode it at 21:10 waited four times as long for the same thing.",
+        "Repeat rides are where the value actually is. Riding a headliner three times in an evening is something no other Disney product allows at any price, and after your first lap of the park the marginal cost of a re-ride is a two-minute walk."
+      ]
+    },
+    {
+      "heading": "The included snacks, and where the carts are not busy",
+      "body": [
+        "The ice cream, popcorn and bottled drinks are genuinely unlimited and genuinely included, and the carts are not evenly loaded. The ones near the park entrance and along the main spine hold lines for the first hour because that is where everybody walks.",
+        "The carts at the far edges of the park have no line at any point in the night. Time your snack for the point in your ride loop when you are furthest from the entrance, and you will never queue for one.",
+        "Cast members will hand you more than one item at a time. A group that sends one person to a cart for four ice creams gets four ice creams, which is the difference between one queue and four.",
+        "Do not build the evening around the food. The whole product is priced on ride throughput, and the calories are there so nobody leaves early to eat."
+      ]
+    },
+    {
+      "heading": "Which park to buy it at",
+      "body": [
+        "Hollywood Studios is the best buy and it is not close. That park has the worst ratio of capacity to demand at Walt Disney World, its headliner tier is the strongest, and an attendance cap does more there than anywhere else. It is also the version most likely to sell out.",
+        "Magic Kingdom is the second choice and a good one. The participating list is the longest of any park, so the six-attraction test is easy to pass, and the park's ride density means very little of your three hours is spent walking.",
+        "Animal Kingdom is the one to avoid. The ride list is short, the walking trails and the animal viewing that make the park distinctive are closed after dark, and the two attractions worth the price are in the same land. The ticket usually prices lower there, and it still is not enough.",
+        "EPCOT is situational and depends entirely on the participating list for that cycle. Run the six-attraction count carefully at that park, because EPCOT's roster contains several attractions that never have long lines anyway and they inflate the list without adding value."
+      ]
+    },
+    {
+      "heading": "Buying, given the dates come in batches",
+      "body": [
+        "Disney has historically released After Hours nights in irregular batches rather than as a single announced season, which means the planning behavior that works for this event is different from every other one on this site.",
+        "Do not build a trip around it. Book the trip, then check whether nights exist inside your dates, and treat a match as a bonus rather than as a fixture.",
+        "Buy as soon as you see a Hollywood Studios or Magic Kingdom night that fits. Those sell out, sometimes weeks ahead, and there is no equivalent of a party season where another date will come along.",
+        "Check for a passholder or DVC rate before paying full price. Discounts have appeared on this product more consistently than on the Magic Kingdom parties, and they are not always surfaced on the first booking screen."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "What is actually included in the ticket?",
+      "a": "Three hours in the park after regular closing with attendance capped low, entry from a couple of hours before the stated start, and unlimited select ice cream novelties, popcorn and bottled soft drinks and water from carts around the park. PhotoPass photographers are stationed around the park with no queues. There is no parade, no fireworks and no stage entertainment."
+    },
+    {
+      "q": "How is this different from the Halloween and Christmas parties?",
+      "a": "This event sells low crowds and nothing else; the parties sell entertainment. After Hours runs three hours against a party's five, caps attendance far lower, includes ice cream and popcorn rather than candy, and has no parade, fireworks or stage show. If you want ride throughput it is the better ticket by a wide margin. If you want to watch something it is the wrong purchase entirely."
+    },
+    {
+      "q": "Which park should I buy it at?",
+      "a": "Hollywood Studios, then Magic Kingdom, and not Animal Kingdom. Hollywood Studios has the worst capacity-to-demand ratio at Walt Disney World so an attendance cap is worth the most there. Magic Kingdom has the longest participating list and the least walking between attractions. Animal Kingdom's ride list is too short and its trails and animal viewing are closed after dark."
+    },
+    {
+      "q": "Is three hours long enough to be worth it?",
+      "a": "Yes, if you ride continuously and no if you do not. Eight to twelve attractions in three hours is achievable at Magic Kingdom or Hollywood Studios with a plan, which works out cheaper per ride than Lightning Lane on a busy day. A group that stops for a sit-down snack and a shop will manage five and will feel the price."
+    },
+    {
+      "q": "Can I get into the park before the event starts?",
+      "a": "Yes, historically a couple of hours before the stated start, on the event ticket alone. Use those hours on the attractions that are not in the event and on eating, not on the headliners — the headliners are at day-time waits before the event and near walk-on afterward, so spending early-entry time on them wastes the window."
+    },
+    {
+      "q": "Does Lightning Lane work during the event?",
+      "a": "No, and it does not need to. Lightning Lane is not sold for After Hours and the attendance cap is the mechanism that replaces it. That is also the right comparison to make when deciding whether to buy: price the event against what Multi Pass plus a Single Pass would have cost you at that park on a busy day."
+    },
+    {
+      "q": "When are the dates announced?",
+      "a": "In irregular batches rather than as an announced season, which is the single most awkward thing about planning around this event. Disney has released nights a few months ahead at some parks and much closer in at others. We have not verified a current 2026 or 2027 release as of July 2026, which is why this page carries a last-confirmed-cycle ribbon and no dates at all."
+    },
+    {
+      "q": "Does it sell out?",
+      "a": "At Hollywood Studios and Magic Kingdom, regularly, and sometimes weeks ahead. At Animal Kingdom, rarely, which should tell you something about the relative value of the two. If a night at one of the two strong parks fits your trip, buy it when you see it rather than waiting to see whether prices soften."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Star Wars: Rise of the Resistance at Hollywood Studios", "href": "/walt-disney-world/hollywood-studios/rides/star-wars-rise-of-the-resistance/", "site": 1 },
+    { "label": "Seven Dwarfs Mine Train at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/", "site": 1 },
+    { "label": "Avatar Flight of Passage at Animal Kingdom", "href": "/walt-disney-world/animal-kingdom/rides/avatar-flight-of-passage/", "site": 1 },
+    { "label": "Expedition Everest at Animal Kingdom", "href": "/walt-disney-world/animal-kingdom/rides/expedition-everest/", "site": 1 },
+    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
+    { "label": "Magic Kingdom height requirements chart", "href": "/walt-disney-world/magic-kingdom/height-requirements/", "site": 1 },
+    { "label": "Rope drop strategy", "href": "/guides/rope-drop-strategy/", "site": 1 }
+  ],
+
+  "related": [
+    "disney-jollywood-nights",
+    "mickeys-not-so-scary-halloween-party",
+    "mickeys-very-merry-christmas-party",
+    "epcot-food-and-wine-festival"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "priceRangeUsd": [139, 209],
+      "changes": [
+        "Nights continued to be released in batches rather than as an announced season, with the participating park list and the participating attraction list varying between batches.",
+        "The per-night band stayed wide, driven more by which park a night was at than by the date it fell on."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 cycle pricing, labelled as 2025 pricing. We have not stated a 2025 night count or a park-by-park calendar, because Disney does not publish a season total for this event and reconstructing one from batch announcements would produce a number we could not stand behind.",
+        "reviewBy": "2027-01",
+        "cycle": "rolling"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "This event has no annual season and no fixed window. Nights are released in irregular batches, the participating parks change between batches, and the participating attraction list changes with them, which is why this page carries a last-confirmed-cycle ribbon rather than an expected one and why the window fields above describe a pattern rather than a season. The price band is the 2025 cycle's, labelled as such. We have not verified any current release as of July 2026 and we state no dates.",
+    "reviewBy": "2027-01",
+    "cycle": "rolling"
+  }
+}

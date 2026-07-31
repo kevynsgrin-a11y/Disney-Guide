@@ -1,0 +1,116 @@
+{
+  "month": 5,
+  "name": "May",
+  "slug": "may",
+  "summary": "The first two weeks of May are the best window in the first half of the year at both resorts — spring break is over, summer has not started, and prices sit in a low tier while the weather still works. Memorial Day ends it, and the last week of the month already behaves like June.",
+  "verdict": {
+    "grade": "A-",
+    "short": "Book the first two weeks and this is close to the best trip available all year. Book the last week and you have paid summer prices for summer crowds without summer's long hours.",
+    "bestFor": [
+      "Anyone with date flexibility in the first half of the year — early May is the pick",
+      "Families with pre-school-age children, who are not tied to a district calendar",
+      "Flower and Garden visitors who want the festival without April's crowd",
+      "Disneyland trips, which get the quietest stretch between spring break and summer",
+      "Couples and adult groups, because evening dining availability is at its best before Memorial Day"
+    ],
+    "worstFor": [
+      "Memorial Day weekend and the week after, when the summer pattern locks in early",
+      "Anyone counting on late Magic Kingdom evenings — graduation events cut park hours on many weeknights",
+      "Photographers at Disneyland, where the May marine layer grays over mornings for days at a time",
+      "Late-May Walt Disney World visitors, who get July's humidity without July's operating hours",
+      "Water park trips at the very start of the month, when the water is still cold enough to notice"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "May splits at Memorial Day and the two halves have almost nothing in common. Everything before the holiday is the quietest stretch Walt Disney World sees between spring break and late August: schools are in session nationwide, the spring travel market has spent itself, and summer booking has not converted into arrivals yet. The one crowd driver that does operate in the first half is easy to miss because it is invisible during the day — the graduation circuit. Senior class trips and private after-hours grad events fill Magic Kingdom's evenings on weeknights, which does not raise daytime waits at all but does cut the park's regular closing time on the affected nights. Then Memorial Day weekend arrives, Southern districts begin releasing in the final week, and attendance steps up to summer levels and stays there. Disneyland runs a milder version of the same curve, with a genuinely soft stretch between the end of California spring break and the holiday weekend, after which the local pass base returns for the summer.",
+    "peakWindows": [
+      "Memorial Day weekend at both resorts, a three-day spike rather than a week",
+      "The final week of the month, when Southern school districts begin releasing",
+      "Magic Kingdom on weeknights hosting private graduation events, where regular hours are shortened"
+    ],
+    "quietWindows": [
+      "The first two full weeks at Walt Disney World, the best non-fall window of the year",
+      "Weekdays at Disneyland between the end of spring break and Memorial Day",
+      "The first hour after open at every park, which stays genuinely soft all month"
+    ]
+  },
+  "weather": {
+    "wdw": {
+      "highF": 89,
+      "lowF": 68,
+      "rainDays": 8,
+      "note": "Climate normals for Orlando, not a forecast. May is the pivot month: the first half still behaves like spring with tolerable humidity, and the second half behaves like summer once the afternoon convective pattern establishes itself. The monthly average of eight rain days hides that split — most of them fall in the back half."
+    },
+    "dlr": {
+      "highF": 75,
+      "lowF": 57,
+      "rainDays": 2,
+      "note": "Climate normals for Anaheim, not a forecast. The numbers understate how gray May can be, because the marine layer holds overcast until early afternoon on a large share of days. That is unflattering in photographs and genuinely excellent for standing in an outdoor queue, which is a trade most visitors would take if they knew it was on offer."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Early May sits in one of the two lowest date-based ticket tiers of the year at Walt Disney World, and resort hotels hold spring shoulder rates right up until the Memorial Day season begins — which means the cheapest and the most expensive nights of the month can be nine days apart for the same room. Memorial Day weekend itself carries a holiday rate season and a top ticket tier. The lever that behaves differently this month is airfare: Orlando fares stay low into May because the leisure market has not started, while Southern California fares rise earlier than the parks do, because May is when domestic leisure booking picks up for the West Coast generally. That asymmetry makes early May unusually good value in Orlando specifically."
+  },
+  "whatsOn": [
+    "epcot-flower-and-garden-festival",
+    "disney-after-hours",
+    "disneyland-after-dark"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Check the operating hours before you build an evening plan",
+      "body": [
+        "Magic Kingdom hosts private graduation events on a number of weeknights in May, and on those nights the park closes to regular guests several hours earlier than the published seasonal pattern would suggest. A touring plan that assumes a 10 PM close and finds a 7 PM close loses three of its best hours — the ones with the shortest waits and the coolest temperatures.",
+        "Pull the operating calendar for your exact dates and mark the short nights before you assign parks to days. Put Magic Kingdom on the nights it stays open late and take EPCOT or Hollywood Studios on the nights it does not.",
+        "The counterintuitive consequence is that a Sunday or Monday arrival often works better than a Thursday or Friday one in early May, which is the reverse of the usual advice."
+      ]
+    },
+    {
+      "heading": "This is the window to use if you cannot travel in September",
+      "body": [
+        "The two genuinely excellent value windows in the year are early May and September, and they solve different problems. September is quieter and cheaper but hot, wet, and inside hurricane season. Early May is slightly busier and slightly pricier but has none of the storm risk and better evenings.",
+        "For anyone who cannot travel during the school year for weather or work reasons, early May is the answer, and the flexibility is worth spending on. Moving a trip from late May to early May typically changes the ticket tier, the hotel rate season, and the crowd level all at once.",
+        "The practical booking heuristic: aim to have departed before the Friday of Memorial Day weekend. Everything before that line behaves like spring; everything after it behaves like summer."
+      ]
+    },
+    {
+      "heading": "Flower and Garden's quiet weeks are its last ones",
+      "body": [
+        "The Flower and Garden Festival runs into early July, and May is when the crowd finally leaves it while the installation is still fully in place. The topiaries are past their April peak but the Outdoor Kitchens are all operating and the queues at them have collapsed from what they were a month earlier.",
+        "This is the best month of the festival for anyone who came for the food rather than the horticulture. A May weekday afternoon around World Showcase is a genuinely relaxed way to eat, which is not a sentence that applies to the same festival in March or April.",
+        "Garden Rocks concerts continue through the festival run. Weeknight shows in May have standby seating available in a way that April's weekend shows do not."
+      ]
+    },
+    {
+      "heading": "Florida heat management starts here, not in June",
+      "body": [
+        "The Orlando normal high crosses into the upper 80s in May and the humidity comes with it. The mistake is treating May as a spring month and running the same nine-to-nine schedule that worked in February. It does not work, and the failure mode is a family that has one bad afternoon and then rations the rest of the trip.",
+        "Build the day in two blocks from May onward: park at opening through roughly 1 PM, out of the park from 1 to 5, back in for the evening. At Walt Disney World the return leg costs you real transit time unless you are on the monorail or Skyliner, which is a reason to weight hotel choice toward those lines specifically for a warm-weather trip.",
+        "Water parks become worth a full day in May rather than a half day, and they are least crowded in the first two weeks before the summer schedule begins."
+      ]
+    },
+    {
+      "heading": "Disneyland's soft weeks are hiding behind the gray",
+      "body": [
+        "May gray keeps Anaheim mornings overcast, and a meaningful number of visitors reschedule Southern California trips away from May because of it. That is a gift to anyone who does not care what the sky looks like: the marine layer keeps temperatures in the 60s until early afternoon, which is close to ideal for the outdoor queues that are the resort's real bottleneck.",
+        "The quiet stretch runs from the end of California spring break to Memorial Day weekend, and midweek days inside it are the last easy Disneyland days until late September.",
+        "If a nighttime show is part of the plan, note that the marine layer can also affect visibility for aerial effects on some evenings. The daytime trade is still worth it, but do not build the entire trip around a single fireworks night in May."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
+    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
+    { "label": "Animal Kingdom first-timer guide", "href": "/walt-disney-world/animal-kingdom/first-timer-guide/", "site": 1 },
+    { "label": "Which Disney park should I visit", "href": "/compare/which-disney-park-should-i-visit/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Graduation-event nights are scheduled per year and are described as a pattern, not as specific dates.",
+    "reviewBy": "2027-12",
+    "cycle": "rolling"
+  }
+}

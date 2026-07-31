@@ -1,0 +1,182 @@
+{
+  "slug": "lightning-lane",
+  "title": "Lightning Lane Prices",
+  "titleTail": ": Every Product, Both Resorts, July 2026",
+  "h1": "Lightning Lane prices at both resorts, and what each one works out at per skipped queue",
+  "description": "What every Lightning Lane product costs at Walt Disney World and Disneyland as of July 2026, how the price moves by date, and seven ways to pay less.",
+  "summary": "Lightning Lane costs between $15 and $449 per person per day depending on which product you buy and which date you buy it for, and the spread inside a single product is wide enough that moving your park day is worth more than any booking tactic.",
+  "ownership": "This page is the price list. The mechanics — what each product does, how booking windows work, how stacking works and which attractions sit in which tier — are owned by Ride Ready Guide's Lightning Lane guide and are not restated here.",
+  "rows": [
+    {
+      "label": "Multi Pass, per person per day",
+      "resort": "walt-disney-world",
+      "rangeUsd": [15, 45],
+      "asOf": "July 2026",
+      "note": "Priced by park and by date. Magic Kingdom and Hollywood Studios sit at the top of the band, Animal Kingdom at the bottom, and a Saturday in a peak week can cost three times what the same park costs on a September Tuesday. Includes that day's PhotoPass downloads, which most budgets forget to credit."
+    },
+    {
+      "label": "Single Pass, per person per ride",
+      "resort": "walt-disney-world",
+      "rangeUsd": [12, 27],
+      "asOf": "July 2026",
+      "note": "One ride, one time. Sold independently of Multi Pass and priced by attraction and date. The most in-demand headliners hold the top of this band; the rest sit near the middle regardless of park."
+    },
+    {
+      "label": "Premier Pass, per person per park per day",
+      "resort": "walt-disney-world",
+      "rangeUsd": [129, 449],
+      "asOf": "July 2026",
+      "note": "The widest band of any product on this page. Sold per park per day in Florida, in limited quantities, and priced almost entirely by expected demand. The bottom of the band appears at Animal Kingdom on quiet dates and the top at Magic Kingdom in peak weeks."
+    },
+    {
+      "label": "Multi Pass, per person per day",
+      "resort": "disneyland",
+      "rangeUsd": [30, 45],
+      "asOf": "July 2026",
+      "note": "Priced by park and date across Disneyland Park and Disney California Adventure. The floor is roughly twice Florida's because Anaheim has no equivalent of Animal Kingdom's low-demand pricing. Does not include PhotoPass downloads, unlike the Florida version."
+    },
+    {
+      "label": "Single Pass, per person per ride",
+      "resort": "disneyland",
+      "rangeUsd": [12, 27],
+      "asOf": "July 2026",
+      "note": "The one row on this page we would not budget tightly against. We have not verified a distinct Anaheim spread; the band shown is the Florida band, which Anaheim pricing has tracked closely. Confirm the figure in the app for your date before you plan around it."
+    },
+    {
+      "label": "Premier Pass, per person, both parks, one day",
+      "resort": "disneyland",
+      "rangeUsd": [300, 400],
+      "asOf": "July 2026",
+      "note": "Covers both Anaheim parks in a single purchase, which makes it a structurally better product than the Florida version at a comparable mid-band price. Holiday dates price above the top of this band. Sold in limited quantities."
+    },
+    {
+      "label": "Multi Pass for a family of four, one Florida park day",
+      "resort": "walt-disney-world",
+      "rangeUsd": [60, 180],
+      "asOf": "July 2026",
+      "note": "Four times the per-person band, because there is no family rate and no multi-day discount on any Lightning Lane product at either resort. This is the number to compare against a party ticket, a table-service lunch, or an extra park day."
+    },
+    {
+      "label": "Multi Pass for a family of four, one Anaheim park day",
+      "resort": "disneyland",
+      "rangeUsd": [120, 180],
+      "asOf": "July 2026",
+      "note": "Four times the Anaheim per-person band. The floor is double Florida's for the same family, which is why the Anaheim decision is closer to all-or-nothing than the Florida one."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What this page covers, and what it does not",
+      "body": [
+        "This page is the price list and nothing else. What Multi Pass, Single Pass and Premier Pass actually do, when you can book them, how the two resorts' booking rules differ, how stacking works, and which attractions sit in which tier are all owned by Ride Ready Guide's Lightning Lane guide, which is the canonical explanation and is maintained independently of these figures. If you are not yet sure what you would be buying, read that first and come back for the numbers.",
+        "Everything below is money: what each product costs at each resort as of July 2026, how the price moves across the calendar, what it works out at per queue you actually skip, and seven specific ways to spend less on it. Prices are the reason this page has a review date and that one does not."
+      ]
+    },
+    {
+      "heading": "Why the same product costs three times as much on a different date",
+      "body": [
+        "Lightning Lane is priced dynamically at both resorts, by park and by date, and it is repriced without announcement. That is why every figure on this page is a band with a month attached rather than a quote. The Florida Multi Pass band of $15 to $45 is not a range across products or across parties — it is the range for one person, one day, one park, depending only on which park and which date.",
+        "The pricing tracks the crowd calendar almost exactly, which makes it the most honest crowd forecast Disney publishes. If Multi Pass for your date is priced near the top of the band, that is Disney telling you the park will be busy. Checking the price for two candidate dates before you book either one is a genuinely useful planning tool that costs nothing.",
+        "The bands compress differently at each resort. Florida's floor is low because Animal Kingdom exists and prices accordingly; Anaheim has no low-demand park, so its floor sits at roughly twice Florida's while its ceiling sits at the same place. A family choosing between resorts on Lightning Lane cost alone should expect to spend more in Anaheim on a quiet day and about the same on a busy one."
+      ]
+    },
+    {
+      "heading": "Cost per skipped queue, park by park",
+      "body": [
+        "Divide the price band by the realistic number of redemptions and the product stops being abstract. Ride Ready Guide's yield figures — four to seven redemptions on a Florida Multi Pass day worked properly, two to four if you treat it casually, three to five in Anaheim — are the input to this arithmetic, and they are the numbers we use below.",
+        "At Magic Kingdom, a $15 to $45 day yielding four to seven redemptions works out at roughly $3 to $11 per queue skipped, against standby waits that routinely sit above 45 minutes. That is the best cost-per-minute on either coast and it is why the Florida recommendation concentrates there.",
+        "At Animal Kingdom, the same $15 to $45 typically buys two to three redemptions, or roughly $5 to $22 each, on the park whose Multi Pass queues are the shortest of the four to begin with. The arithmetic is not catastrophic; it is simply that you are paying to skip lines you would not have minded.",
+        "At Disneyland Park and Disney California Adventure, $30 to $45 yielding three to five redemptions is roughly $6 to $15 per queue. That is worse per redemption than Magic Kingdom and better than Animal Kingdom, and it moves almost entirely on the day of the week rather than the park."
+      ]
+    },
+    {
+      "heading": "The seasonal shape of the price",
+      "body": [
+        "Lightning Lane is cheapest in late January, the first two weeks of February outside Presidents' week, the last two weeks of August, the first three weeks of September, and the first week of December. Those five windows are also the cheapest windows for tickets and hotels, which compounds the saving rather than offsetting it.",
+        "It is most expensive from Christmas Eve to the second of January, in the fortnight bracketing Easter, in the week around Independence Day, across Thanksgiving weekend, and on Saturdays year-round. A Saturday in a peak week at Magic Kingdom or Hollywood Studios is where the top of the Florida band lives.",
+        "The practical consequence is that the single largest saving available on Lightning Lane is not a booking tactic at all. Moving a Florida trip from an Easter week to the first week of March saves a family of four roughly $60 to $120 on Lightning Lane alone across a four-day trip, before the ticket and hotel savings, which are larger.",
+        "One seasonal exception worth knowing: hard-ticket party nights do not need Lightning Lane. A Not-So-Scary, Very Merry or Oogie Boogie Bash ticket already buys the short queues Multi Pass is trying to sell you. Budget those evenings without it."
+      ]
+    },
+    {
+      "heading": "The break-even arithmetic, stated plainly",
+      "body": [
+        "Multi Pass pays for itself when it removes more than about 150 minutes of standby queueing from your day, which in practice means four or more redemptions on attractions posting above 40 minutes. Below that, the money buys more comfort as a table-service lunch in air conditioning than it does as a shorter line.",
+        "Single Pass beats Multi Pass whenever there is exactly one queue you refuse to stand in. At $12 to $27 against $15 to $45, the two products overlap in price, so the question is not which is cheaper but whether the Multi Pass roster contains four things you want. At Animal Kingdom and EPCOT it frequently does not.",
+        "Premier Pass never saves money and is not sold as though it does. At $129 to $449 per person per day in Florida, a family of four is comparing $516 to $1,796 for a single day against roughly $480 to $640 for a four-day ticket for one adult. It buys time and attention, and the honest question is whether your trip has more money than days."
+      ]
+    },
+    {
+      "heading": "What to stop budgeting for",
+      "body": [
+        "Genie+ no longer exists and has not since July 2024. Any budget line, spreadsheet or relative's advice that includes it is working from a superseded product and a superseded price. The replacement is Multi Pass and it is priced differently.",
+        "Memory Maker is the other line to check. Walt Disney World Multi Pass includes that day's PhotoPass downloads, so a family buying Multi Pass on several days of a Florida trip should price the standalone photo product against what they are already getting rather than adding both. The Anaheim version does not include downloads, so the same reasoning does not transfer.",
+        "Park hopping does not carry a Lightning Lane purchase across at either resort in the way people assume. Budget the second park separately or check the current hopping rules before you assume one purchase covers a hopping day."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Check the Lightning Lane price for two candidate dates before you book either one. The price is published per date in the app ahead of purchase, it tracks the crowd calendar more accurately than any third-party forecast, and if two of your park days are interchangeable you can buy on the cheaper one and rope drop the other. This costs nothing and is the single highest-value action on this page.",
+    "Deselect the people in your party who will not use it. Every pass is tied to an individual ticket, so the grandparent who plans to sit in the shade and the toddler who will sleep through the afternoon should come off the purchase screen. On a party of six in Florida that is $30 to $90 saved for doing nothing, and the mistake is easy to make at seven in the morning.",
+    "Credit the PhotoPass downloads before you compare products. Walt Disney World Multi Pass includes that day's photo downloads, so if your party was going to buy the standalone photo product anyway, one Multi Pass day at the top of the band is cheaper than that product on its own. Count it against the Lightning Lane price rather than on top of it. This does not apply in Anaheim.",
+    "Buy Single Pass instead of Multi Pass at Animal Kingdom and often at EPCOT. At $12 to $27 against $15 to $45 the two products overlap, and at those two parks the Multi Pass roster rarely contains four queues you would genuinely refuse to stand in. One Single Pass for the headliner plus a rope drop is the cheaper and usually better day.",
+    "Do not buy Lightning Lane for a hard-ticket party night. A Mickey's Not-So-Scary Halloween Party, Mickey's Very Merry Christmas Party, Disney Jollywood Nights or Oogie Boogie Bash ticket already delivers the short queues Multi Pass is selling. For a family of four that is $60 to $180 in Florida or $120 to $180 in Anaheim left in your pocket on every party evening.",
+    "In Anaheim, buy at the start of the day rather than at the turnstile. The price is the same whenever you buy on the day, but the number of rides you get out of it is not, because the resort's booking clock starts running from your first selection. Ride Ready Guide's stacking section explains how the clock works; the money point is simply that a purchase made at breakfast is worth more than the identical purchase made at noon.",
+    "Move the trip before you optimise the purchase. Shifting a Florida park day from a Saturday in a peak week to a Tuesday in late August or mid-September moves Multi Pass from the top of the $15 to $45 band to near the bottom. For a family of four across four park days that is a swing of roughly $120 to $360 on Lightning Lane alone, which is more than every in-app tactic combined will ever return."
+  ],
+  "crossLinks": [
+    {
+      "label": "How Lightning Lane works: the full mechanics guide",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "Rope drop strategy",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "Virtual queues explained",
+      "href": "/guides/virtual-queues/",
+      "site": 1
+    },
+    {
+      "label": "Rider Switch explained",
+      "href": "/guides/rider-switch/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why do your prices not match what I see in the app?",
+      "a": "Because Disney prices Lightning Lane dynamically by park and by date and reprices it without announcement. The bands on this page describe the shape of the pricing as observed in July 2026, not a quote for your date. If your date prices above the top of a band here, that is information rather than an error — it means your date is busier than any we sampled."
+    },
+    {
+      "q": "Is there a multi-day or family discount?",
+      "a": "No, on either count, at either resort. Every Lightning Lane product is priced per person, per park, per day. Four people for four days at the middle of the Florida Multi Pass band is roughly $480, and there is no mechanism that reduces it. This is the largest single difference between Lightning Lane and every ticket product Disney sells."
+    },
+    {
+      "q": "Which is cheaper overall, Walt Disney World or Disneyland?",
+      "a": "Disneyland on a busy day, Walt Disney World on a quiet one. The two resorts share the same $45 ceiling on Multi Pass but Florida's floor is $15 against Anaheim's $30, because Anaheim has no low-demand park. Across a four-day trip on average dates a family of four spends noticeably more in Anaheim, though they also need fewer park days there."
+    },
+    {
+      "q": "Does the price change during the day?",
+      "a": "The purchase price for a given date is set before the day begins and does not fall as the day goes on. What changes is what is left to book: buying at two in the afternoon costs the same as buying at seven in the morning and returns considerably less, because the good return windows have gone. That is a value question rather than a price question."
+    },
+    {
+      "q": "Is Premier Pass ever the cheaper option?",
+      "a": "No. At $129 to $449 per person per day in Florida and $300 to $400 in Anaheim it is never the economical choice and is not sold as one. It removes the need to manage anything, which is worth real money to some visitors, but a family comparing it against extra park days will always find the park days deliver more rides per dollar."
+    },
+    {
+      "q": "How much should I budget for a week?",
+      "a": "For a Florida family of four buying Multi Pass on four of seven park days at mid-band, budget roughly $360 to $480, plus $48 to $108 for one Single Pass each on two days. In Anaheim, three park days of Multi Pass for four people at mid-band is roughly $450 to $540. Both figures assume you skip Lightning Lane on any hard-ticket party night, which you should."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Every band on this page describes pricing observed as of July 2026. We label this page as last-confirmed rather than confirmed because Disney reprices Lightning Lane dynamically and without announcement at both resorts, and we have no operator announcement to cite for the current figures. The Anaheim Single Pass row carries the Florida band because we have not verified a distinct Anaheim spread; it is flagged as such in the row itself.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

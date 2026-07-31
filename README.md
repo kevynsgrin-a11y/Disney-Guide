@@ -1,10 +1,25 @@
-# Evergreen Theme Park Guide — Site 1
+# Theme Park Guide — two sites, one repository
 
-A static, data-driven guide to the six US Disney parks. Every page is generated from JSON in
-`data/`. No framework, no dependencies, no build tooling beyond Node itself.
+Two static, data-driven guides to the six US Disney parks, sharing one generator, one component
+library, and one stylesheet. Every page is produced from JSON. No framework, no dependencies, no
+build tooling beyond Node itself.
+
+| | **Site 1 — Ride Ready Guide** | **Site 2 — Park Season Guide** |
+|---|---|---|
+| Owns | Facts that do not move | Facts with a shelf life |
+| | Heights, ride mechanics, accessibility, permanent dining, maps | Parties, festivals, prices, closures, when to go |
+| Data | `data/` | `data/seasonal/` |
+| Build | `npm run build` → `dist/` | `npm run build:seasonal` → `dist-seasonal/` |
+| Contract | `docs/DATA-SCHEMA.md` | `docs/SEASONAL-SCHEMA.md` |
+| Launch | `docs/LAUNCH.md` | `docs/LAUNCH-SEASONAL.md` |
+
+They are separate domains on purpose: seasonal churn dilutes an evergreen site's topical authority,
+and evergreen stability makes a seasonal site look abandoned. **One canonical owner per topic, in
+both directions** — Site 1 links out for anything dated, Site 2 links back for anything permanent,
+and both validators fail the build if a topic drifts onto the wrong side.
 
 > **Independent and unofficial.** Not affiliated with, endorsed by, or sponsored by The Walt Disney
-> Company. Park, attraction, restaurant, and character names are used for identification and
+> Company. Park, attraction, restaurant, event, and character names are used for identification and
 > editorial commentary only.
 
 ---
@@ -12,18 +27,26 @@ A static, data-driven guide to the six US Disney parks. Every page is generated 
 ## Quick start
 
 ```bash
-node --version        # 20 or newer
-npm test              # unit tests (node:test, no dependencies)
-npm run build         # validate data, then render dist/
-npm run serve         # preview dist/ at http://localhost:4321
-npm run dev           # build + serve
-npm run factcheck     # assert the data against the July 2026 reference tables
-npm run audit:site    # post-build QA: links, titles, JSON-LD, disclaimers
-npm run check         # test + build + audit, the full gate
+node --version           # 20 or newer
+npm test                 # unit tests (node:test, no dependencies)
+
+npm run build            # Site 1: validate + factcheck, then render dist/
+npm run serve            # preview dist/ at http://localhost:4321
+npm run dev              # build + serve
+npm run audit:site       # post-build QA: links, titles, JSON-LD, disclaimers
+npm run check            # test + build + audit, the full gate
+
+npm run build:seasonal   # Site 2: validate + factcheck, then render dist-seasonal/
+npm run serve:seasonal   # preview dist-seasonal/
+npm run audit:seasonal   # post-build QA, plus the freshness-contract checks
+npm run check:seasonal   # the full gate for Site 2
+
+npm run build:all        # both sites
+npm run check:all        # both gates
 ```
 
-There is nothing to `npm install`. `package.json` has no dependencies, on purpose — this site has
-to still build in five years.
+There is nothing to `npm install`. `package.json` has no runtime dependencies, on purpose — these
+sites have to still build in five years.
 
 ---
 

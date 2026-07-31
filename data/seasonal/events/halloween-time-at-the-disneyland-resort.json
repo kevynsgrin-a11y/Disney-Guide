@@ -1,0 +1,182 @@
+{
+  "slug": "halloween-time-at-the-disneyland-resort",
+  "name": "Halloween Time at the Disneyland Resort",
+  "shortName": "Halloween Time",
+  "resort": "disneyland",
+  "parkSlug": null,
+  "category": "overlay",
+  "season": "halloween",
+  "summary": "Included with any regular ticket, which is the whole argument for it, and the two attractions it repaints are better than the versions they replace. What you give up is those versions: Haunted Mansion Holiday is what you get instead of the Haunted Mansion, not in addition to it, and it holds the longest wait in its park all season.",
+  "h1": "Halloween Time at the Disneyland Resort: what changes, what it costs you, and when to go",
+  "title": "Halloween Time at the Disneyland Resort",
+  "titleTail": ": What Changes & When To Go",
+  "description": "The Disneyland Resort's fall overlay across both parks — the two ride takeovers worth timing a trip for, what they cost you in access, and the weeks to book.",
+
+  "typicalWindow": {
+    "startsAround": "late August",
+    "endsAround": "31 October",
+    "nightsTypical": 70,
+    "nightsRange": [63, 75],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Every operating day in the window during regular park hours. The Guardians of the Galaxy evening variant runs only after dark, and the seasonal fireworks appear on select nights rather than nightly."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [6, 15],
+    "asOf": "July 2026",
+    "cheapestNights": "Midweek dates in early and mid-September, which are also the quietest of the whole run",
+    "priciestNights": "The last three weekends of the run, when date-based ticket pricing peaks and the resort runs at its highest crowd level outside the December holidays",
+    "notes": [
+      "The overlay itself is included with any regular admission. There is no Halloween Time ticket and no upcharge for either ride takeover.",
+      "The range above is not an admission price. It is what the seasonal food items cost, which is the only spend Halloween Time genuinely adds to a normal park day.",
+      "Oogie Boogie Bash is a separate hard ticket at Disney California Adventure and none of its content - villains, treat trails, parade - is part of this.",
+      "Ticket prices are date-based, so the same overlay costs more to see on an October Saturday than on a September Tuesday. That difference is the closest thing to a price for Halloween Time.",
+      "What else costs extra: Lightning Lane Multi Pass ran $30 to $45 per person per day at Disneyland Resort as of July 2026, and standard parking ran $35 to $40."
+    ]
+  },
+
+  "whatYouGet": [
+    "Haunted Mansion Holiday at Disneyland Park - the Nightmare Before Christmas takeover, installed for the season after a multi-week closure and left up through the December holidays.",
+    "Guardians of the Galaxy - Monsters After Dark at Disney California Adventure, an evening-only variant of Mission: BREAKOUT! with a different story and soundtrack.",
+    "Haul-O-Ween in Cars Land, which is the strongest single piece of seasonal decoration at either resort, with holiday variants of Mater's and Luigi's attractions and a full repaint of the land.",
+    "Plaza de la Familia in Paradise Gardens Park at Disney California Adventure, a Dia de los Muertos celebration with live music, a Coco-themed stage show, and a memory wall.",
+    "Halloween Screams, the seasonal fireworks show at Disneyland Park, on select nights rather than every night.",
+    "Seasonal decoration across both parks, including the Main Street pumpkin display and the Mickey jack-o-lantern at the Disneyland Park entrance.",
+    "Halloween-specific food across both parks and a large seasonal merchandise line."
+  ],
+
+  "whatYouDont": [
+    "The regular Haunted Mansion. The overlay is installed for roughly four months, from around September through the first week or two of January, so a fall or December trip means the standard version is simply unavailable. If that ride is a reason you are going to Disneyland Park, go in another season.",
+    "Short waits on the two attractions you came for. Haunted Mansion Holiday routinely posts the longest standby wait in Disneyland Park during the season, comfortably above what the standard version draws in June, and the evening Guardians variant spikes the moment it switches over.",
+    "A reliable Space Mountain overlay. The Halloween version of that ride has appeared in some seasons and been absent in others. Do not plan a trip around it and do not assume it from an old blog post.",
+    "Any of the Oogie Boogie Bash content. The villains, the treat trails, and the Frightfully Fun Parade sit behind a separate ticket that sells out months ahead.",
+    "Extra capacity. The resort does not add attractions for the season; it repaints two, decorates the rest, and then hosts a substantially larger crowd in the same footprint.",
+    "A full evening at Disney California Adventure on party nights. That park closes early to regular guests on Oogie Boogie Bash dates, which pushes everyone else into Disneyland Park and makes its evening noticeably busier."
+  ],
+
+  "verdict": {
+    "short": "Free with your ticket and worth timing a trip around, provided you accept that Haunted Mansion Holiday replaces the Haunted Mansion rather than joining it. Go in September, not late October.",
+    "worthItIf": [
+      "Anyone in your group likes The Nightmare Before Christmas. The Haunted Mansion takeover is the best thing either resort does with an existing attraction.",
+      "You are choosing between an early-autumn California trip and a spring one. September gives you the full overlay at close to the lowest crowd level of the year.",
+      "You want the seasonal atmosphere without paying for a party ticket you probably cannot buy anyway.",
+      "You are visiting both parks, since one takeover sits in each and a single-park day gets you half the season.",
+      "You have visited Disneyland Resort in a normal month before and want a version of it that looks different."
+    ],
+    "skipIf": [
+      "The standard Haunted Mansion is on your must-ride list. It is out of service in its normal form for about a third of the year and this is that third.",
+      "Your dates are in the last two weeks of the run and crowds genuinely bother you. The final October weekends at Disneyland Park are among the busiest days of the year outside the December holidays.",
+      "You are expecting villains, treat trails, or a parade. Those are Oogie Boogie Bash, they are ticketed separately, and they are usually sold out.",
+      "Your trip is short and driven by ride count. The overlays add two attractions to your queue list, not two attractions to the park.",
+      "You are traveling with someone who finds the Haunted Mansion difficult. The seasonal version is louder and busier than the standard one, and the queue is longer."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Ride Haunted Mansion Holiday first thing or last thing",
+      "body": [
+        "The seasonal Haunted Mansion has a wait profile unlike the rest of Disneyland Park, and knowing its shape is worth an hour of your day. It opens shorter than most people expect, because the opening crowd walks straight past New Orleans Square toward Galaxy's Edge and Fantasyland. From roughly eleven in the morning it climbs and then stays high until the final hour.",
+        "That gives you exactly two good windows: the first 45 minutes of the day, or the last 60 minutes before close. Everything between is a queue measured in whole fractions of an hour, on a ride that most of the year is a walk-on-adjacent 20 minutes.",
+        "The overlay is worth riding more than once across a trip because it changes in one specific way each year: the gingerbread house in the ballroom is redesigned annually, and that is the detail repeat visitors go back for. It is also the reason the ride is worth doing even if you rode the seasonal version two years ago.",
+        "The permanent details of the attraction itself live on Site 1 and are not repeated here. What is seasonal is the timing: the changeover closes the ride for a stretch in late summer while the overlay is installed, and again in January while it comes out. If your dates land in either changeover, you get neither version."
+      ]
+    },
+    {
+      "heading": "Monsters After Dark only exists after dark",
+      "body": [
+        "The Disney California Adventure half of the season is an evening-only variant, which means a daytime-only plan for that park misses it entirely. This catches out more people than any other Halloween Time detail, because the ride runs all day in its normal form and the switch is not obvious from the outside.",
+        "If you are park hopping, hop into Disney California Adventure at night rather than out of it. That is the opposite of the advice for most of the year, when Disneyland Park's evening is the stronger one, and it is specific to this season.",
+        "Do not go at the changeover. The wait spikes immediately when the evening version starts, because everyone who has been waiting for it queues at once. Give it an hour and the line halves.",
+        "Whether the evening variant runs every operating night or only on some has varied between seasons. Check the day's schedule in the app when you arrive rather than assuming, and do not build a single-day Disney California Adventure plan that depends on it."
+      ]
+    },
+    {
+      "heading": "When to go inside the window",
+      "body": [
+        "The first three weeks are the entire value proposition. Late August and September weekdays give you the fully installed overlay at the lowest crowd level Halloween Time ever has, at the cheapest date-based ticket prices in the window, in the warmest weather of the Anaheim year.",
+        "The last two weekends before Halloween are the opposite on every one of those measures. A large share of that crowd is local annual pass holders on a day trip, which is why the pattern is so sharply weekend-weighted at this resort compared with Orlando.",
+        "If your dates are locked into late October, use the party nights rather than fighting them. Disney California Adventure closes early to regular guests on Oogie Boogie Bash dates. That is bad news for a Disney California Adventure evening and good news for the following morning, when a meaningful share of the local crowd is recovering from a party that ended at eleven.",
+        "One scheduling detail worth checking before you book: the seasonal fireworks at Disneyland Park run on select nights rather than nightly, and September midweek dates are the ones most likely to go without. If the fireworks matter, weight your visit toward a Friday or a weekend and accept the trade."
+      ]
+    },
+    {
+      "heading": "The decorations that are actually worth walking to",
+      "body": [
+        "Cars Land after dark is the best thing Halloween Time does that does not involve a queue. The whole land is repainted for the season, the two smaller attractions get their own overlays, and it reads far better under the neon at night than it does at two in the afternoon.",
+        "Plaza de la Familia, in Paradise Gardens Park, is the quietest good thing in either park during the season. It runs live music and a short stage show on a loop through the day, it has seating, and almost nobody plans for it - which is exactly why it is a reliable place to sit down at four in the afternoon when the rest of the park is full.",
+        "At Disneyland Park, the entrance and Main Street displays are the photograph everyone wants and are best done in the first 20 minutes after opening or in the last hour. The line for the Mickey pumpkin photograph in the middle of an October afternoon is longer than several rides.",
+        "The one genuinely non-obvious piece of timing: the two parks decorate on slightly different schedules, and Disney California Adventure's Halloween decoration typically goes up before Disneyland Park's. A late-August trip may find one park fully dressed and the other still installing."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Halloween Time included with a regular Disneyland ticket?",
+      "a": "Yes, in full. Both ride overlays, all the decoration, Plaza de la Familia, and the seasonal fireworks are included with ordinary admission, and there is no separate Halloween Time ticket. The only Halloween thing at the resort that costs extra is Oogie Boogie Bash, which is a distinct hard-ticket party at Disney California Adventure."
+    },
+    {
+      "q": "Can I ride the regular Haunted Mansion during Halloween Time?",
+      "a": "No. The seasonal overlay is a physical installation, not a lighting change, and it stays in place from around September through the first week or two of January. There is no version of the season where both are available, and the ride closes entirely for a stretch at each changeover."
+    },
+    {
+      "q": "What is the difference between Halloween Time and Oogie Boogie Bash?",
+      "a": "Halloween Time is a daytime overlay across both parks included with any ticket; Oogie Boogie Bash is a separately ticketed party on select nights at Disney California Adventure only. The villains, treat trails, and Frightfully Fun Parade belong exclusively to the party. The ride overlays and decoration belong to the season and are free."
+    },
+    {
+      "q": "When is the least crowded time to see Halloween Time?",
+      "a": "Weekdays in the first three weeks, which at this resort means late August and the first half of September. Crowd levels rise steadily through October and peak on the final two weekends, and the swing is driven by local annual pass holders rather than by tourists, which is why weekday-versus-weekend matters far more here than it does at Walt Disney World."
+    },
+    {
+      "q": "Does Space Mountain get a Halloween overlay at Disneyland?",
+      "a": "Not reliably. The Halloween version of that ride has run in some seasons and been absent in others, and its return has not followed a pattern strong enough to plan around. Treat it as a bonus if it appears in the schedule for your dates and not as a reason to book them."
+    },
+    {
+      "q": "Do I need to visit both parks to see Halloween Time?",
+      "a": "Yes, if you want both ride overlays, because one sits in each park. Disneyland Park holds the Haunted Mansion takeover and the seasonal fireworks; Disney California Adventure holds the evening Guardians variant, Haul-O-Ween in Cars Land, and Plaza de la Familia. A single-park day gets you roughly half the season."
+    },
+    {
+      "q": "Are this season's Halloween Time dates confirmed?",
+      "a": "Not on this page. As of July 2026 we have not verified an announcement of the coming season's start date, so nothing here states one. The window itself has been stable for years: the overlay goes up in late August and comes down after Halloween, with the Haunted Mansion installation staying in place well past that."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Haunted Mansion at Disneyland Park", "href": "/disneyland/disneyland-park/rides/haunted-mansion/", "site": 1 },
+    { "label": "Guardians of the Galaxy - Mission: BREAKOUT!", "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/", "site": 1 },
+    { "label": "Space Mountain at Disneyland Park", "href": "/disneyland/disneyland-park/rides/space-mountain/", "site": 1 },
+    { "label": "Cars Land", "href": "/disneyland/california-adventure/lands/cars-land/", "site": 1 },
+    { "label": "Disneyland Park fireworks", "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/", "site": 1 },
+    { "label": "Is it scary? Ride-by-ride intensity", "href": "/guides/is-it-scary/", "site": 1 }
+  ],
+  "related": ["oogie-boogie-bash", "holidays-at-the-disneyland-resort"],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "The Haunted Mansion overlay returned with its annual redesign of the ballroom gingerbread house, the one element that changes between seasons.",
+        "Haul-O-Ween ran in Cars Land with the seasonal variants of the land's two smaller attractions.",
+        "Plaza de la Familia ran again in Paradise Gardens Park alongside the season, closing after the Dia de los Muertos period rather than at the end of October."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 facts: the overlay ran across both parks from late August through the end of October, with the Haunted Mansion installation remaining in place into January 2026. We have not re-verified the 2025 fireworks calendar night by night and so do not state which dates ran.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Halloween Time has run across both Disneyland Resort parks from late August through the end of October for more than a decade, with the Haunted Mansion overlay installed for the season and left up through the December holidays. As of July 2026 we have not verified an announcement of the coming season's start date, its fireworks calendar, or whether the Space Mountain overlay returns, so none of those are stated here.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}
