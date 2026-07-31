@@ -1,11 +1,11 @@
 /**
- * Site 2's component library.
+ * Components for the dated half of the site.
  *
  * Everything in src/templates/components.mjs is reused unchanged — this module only adds the pieces
- * that exist because Site 2's content has a shelf life and Site 1's does not.
+ * that exist because part of the content has a shelf life and the rest does not.
  *
  * The freshness ribbon and the staleness banner are the two that matter. Every competing seasonal
- * site looks current whether or not it is; the entire editorial claim here is that ours says which.
+ * page looks current whether or not it is; the entire editorial claim here is that ours says which.
  * So the ribbon renders on every dated page from authored JSON, and the banner renders from a
  * build-time comparison the author cannot switch off.
  */
@@ -424,9 +424,9 @@ export function closureTable (items, { caption } = {}) {
  * ------------------------------------------------------------------ */
 
 /**
- * Links back to Site 1, which owns every permanent fact.
+ * Links to the evergreen pages that own every permanent fact.
  *
- * Site 1 refuses to carry seasonal content and links here; this sends the reader the other way.
+ * The evergreen pages refuse to carry dated content and link here; this sends the reader back.
  * Between them there is exactly one canonical owner per topic, which is the whole reason the two
  * sites are separate rather than one site with a seasonal section.
  */

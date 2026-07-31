@@ -1,8 +1,8 @@
 /**
- * JSON-LD for Site 2.
+ * JSON-LD for the dated pages.
  *
- * Site 1's schema.mjs explains the 2026 rich-result landscape; this module only covers what the
- * seasonal site adds. One choice dominates it:
+ * ./schema.mjs explains the 2026 rich-result landscape; this module only covers what dated content
+ * adds. One choice dominates it:
  *
  *   **We emit an `Event` node only when we hold confirmed dates.**
  *
@@ -23,10 +23,6 @@
 import { truncate, plain } from './html.mjs'
 
 const abs = (site, path) => `${site.brand.origin}${path}`
-
-/** Site 1 lives on another origin; cross-site nodes must be absolute against *its* origin. */
-export const sisterAbs = (site, path) =>
-  `${(site.brand.sisterSite && site.brand.sisterSite.origin) || ''}${path}`
 
 const STATUS = {
   announced: 'https://schema.org/EventScheduled',
@@ -55,7 +51,7 @@ export function event (site, ev, edition, { stale = false } = {}) {
     ? {
         '@type': 'AmusementPark',
         name: ev.parkName,
-        url: ev.parkUrl ? sisterAbs(site, ev.parkUrl) : undefined,
+        url: ev.parkUrl ? abs(site, ev.parkUrl) : undefined,
         address: { '@type': 'PostalAddress', addressLocality: ev.locality || undefined },
       }
     : {
@@ -138,25 +134,5 @@ export function priceList (site, { url, name, rows }, { stale = false } = {}) {
         description: row.note ? truncate(plain(row.note), 200) : undefined,
       },
     })),
-  }
-}
-
-/**
- * Links the two sites into one entity graph.
- *
- * Without this, a search engine sees two unrelated domains covering the same parks — which is the
- * failure mode of every "network of sites" SEO play. `sameAs` plus a shared publisher makes the
- * relationship explicit rather than leaving it to be inferred from footer links.
- */
-export function siteRelationship (site) {
-  const sister = site.brand.sisterSite
-  if (!sister || !sister.origin) return null
-  return {
-    '@type': 'WebSite',
-    '@id': `${sister.origin}/#website`,
-    name: sister.name,
-    url: `${sister.origin}/`,
-    description: sister.note,
-    publisher: { '@id': abs(site, '/#organization') },
   }
 }

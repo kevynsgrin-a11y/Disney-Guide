@@ -1,5 +1,5 @@
 /**
- * Site 2 fact checker. Asserts the dataset against docs/SEASONAL-SCHEMA.md §7.
+ * Fact checker for the dated dataset. Asserts it against docs/SEASONAL-SCHEMA.md §7.
  *
  * scripts/validate-seasonal.mjs proves the data is *well-formed*. This proves it is *correct* on the
  * handful of facts that are easiest to get wrong and worst to get wrong: which park each event
@@ -87,7 +87,7 @@ const PRICE_BANDS = {
 /** Per-item festival food prices, by resort. */
 const FOOD_BANDS = { 'walt-disney-world': [5, 13], disneyland: [6, 15] }
 
-/* §7.4 rule 5 — Site 1's needles plus the offenders specific to seasonal copy. */
+/* §7.4 rule 5 — the evergreen needle list plus the offenders specific to dated copy. */
 const FILLER = [
   'magical', 'immersive', 'unforgettable', 'beloved', 'nestled', 'delve', 'a testament to', 'whimsical',
   'magical memories', 'not to be missed', 'something for everyone', 'a feast for the senses', 'sure to delight',
@@ -242,7 +242,7 @@ async function checkOthers () {
 /**
  * §7.4 rule 3, from the other direction.
  *
- * Site 1's factcheck refuses seasonal content on the evergreen site. This refuses permanent content
+ * scripts/factcheck.mjs refuses dated content on an evergreen page. This refuses permanent content
  * here. Between the two, a topic that drifts onto the wrong site fails a build rather than quietly
  * creating a second owner.
  */
@@ -266,7 +266,7 @@ async function checkScope () {
       const text = JSON.stringify(rest)
       for (const re of PERMANENT) {
         const hit = text.match(re)
-        if (hit) fail(where, `restates a permanent fact ("${hit[0]}") that Site 1 owns — link, do not repeat`)
+        if (hit) fail(where, `restates a permanent fact ("${hit[0]}") that the evergreen dataset owns — link, do not repeat`)
       }
     }
   }

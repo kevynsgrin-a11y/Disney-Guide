@@ -8,25 +8,16 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "node scripts/validate.mjs && node scripts/factcheck.mjs && node src/build.mjs",
+    "build": "node scripts/validate.mjs && node scripts/validate-seasonal.mjs && node scripts/factcheck.mjs && node scripts/factcheck-seasonal.mjs && node src/build.mjs",
     "build:fast": "node src/build.mjs",
-    "validate": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-seasonal.mjs",
+    "factcheck": "node scripts/factcheck.mjs && node scripts/factcheck-seasonal.mjs",
     "test": "node --test test/*.test.mjs",
     "serve": "node scripts/serve.mjs",
     "dev": "npm run build && npm run serve",
     "audit:site": "node scripts/audit.mjs",
     "check": "npm run test && npm run build && npm run audit:site",
-    "factcheck": "node scripts/factcheck.mjs",
-    "maps:png": "node scripts/render-map-pngs.mjs",
-    "validate:seasonal": "node scripts/validate-seasonal.mjs",
-    "factcheck:seasonal": "node scripts/factcheck-seasonal.mjs",
-    "build:seasonal": "node scripts/validate-seasonal.mjs && node scripts/factcheck-seasonal.mjs && node src/build-seasonal.mjs",
-    "build:seasonal:fast": "node src/build-seasonal.mjs",
-    "audit:seasonal": "node scripts/audit-seasonal.mjs",
-    "serve:seasonal": "node scripts/serve.mjs dist-seasonal",
-    "check:seasonal": "npm run test && npm run build:seasonal && npm run audit:seasonal",
-    "build:all": "npm run build && npm run build:seasonal",
-    "check:all": "npm run check && npm run check:seasonal"
+    "maps:png": "node scripts/render-map-pngs.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {

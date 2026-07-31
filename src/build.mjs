@@ -4,6 +4,11 @@
  * Reads every JSON file under data/, renders the full page graph, and writes a deployable
  * directory to dist/. No dependencies, no framework, no incremental cache — the whole site
  * builds in well under a second, which is the point.
+ *
+ * The site has two kinds of content and one build. Permanent pages (parks, rides, dining, maps,
+ * guides) come from data/; dated pages (events, months, prices, closures) come from data/seasonal/
+ * and carry a computed freshness state. They were briefly two sites on two domains; merging them
+ * put every cross-link back inside one origin, which is where the linking strategy actually pays.
  */
 
 import { mkdir, writeFile, readFile, readdir, rm, cp, stat } from 'node:fs/promises'
@@ -12,6 +17,8 @@ import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 
 import { loadData, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR, DATA_DIR } from './lib/data.mjs'
+import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
+import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import { renderParkMap } from './lib/map.mjs'
 import * as core from './pages/core.mjs'
@@ -20,6 +27,11 @@ import * as diningPages from './pages/dining.mjs'
 import * as docsPages from './pages/docs.mjs'
 import * as toolPages from './pages/tools.mjs'
 import { legalPages } from './pages/legal.mjs'
+import * as seasonalCore from './seasonal/core.mjs'
+import * as events from './seasonal/events.mjs'
+import * as months from './seasonal/months.mjs'
+import * as reference from './seasonal/reference.mjs'
+import * as seasonalTools from './seasonal/tools.mjs'
 
 const started = performance.now()
 
@@ -46,10 +58,10 @@ async function writeOut (url, contents) {
  * Page graph
  * ------------------------------------------------------------------ */
 
-function buildPages (data) {
+function buildPages (data, seasonal) {
   const pages = []
 
-  pages.push(core.homePage(data))
+  pages.push(core.homePage(data, seasonal))
   pages.push(core.parksIndexPage(data))
   pages.push(...core.resortPages(data))
 
@@ -81,6 +93,35 @@ function buildPages (data) {
   pages.push(toolPages.toolsIndex(data))
   pages.push(toolPages.foodTrackerPage(data))
   pages.push(toolPages.heightCheckerPage(data))
+  pages.push(seasonalTools.tripTimingPage(seasonal))
+
+  if (seasonal.months.length) {
+    pages.push(seasonalCore.calendarPage(seasonal))
+    pages.push(months.whenToGoIndex(seasonal))
+    for (const m of MONTHS) {
+      const month = seasonal.monthByNumber.get(m.month)
+      if (month) pages.push(months.monthPage(month, seasonal))
+    }
+  }
+  if (seasonal.events.length) {
+    pages.push(events.eventsIndex(seasonal))
+    for (const event of seasonal.events) {
+      pages.push(events.eventPage(event, seasonal))
+      for (const edition of event.editions) pages.push(events.editionPage(event, edition, seasonal))
+    }
+  }
+  if (seasonal.holidays.length) {
+    pages.push(reference.holidaysIndex(seasonal))
+    for (const holiday of seasonal.holidays) pages.push(reference.holidayPage(holiday, seasonal))
+  }
+  if (seasonal.prices.length) {
+    pages.push(reference.pricesIndex(seasonal))
+    for (const price of seasonal.prices) pages.push(reference.pricePage(price, seasonal))
+  }
+  if (seasonal.closures.length) {
+    pages.push(reference.closuresIndex(seasonal))
+    for (const tracker of seasonal.closures) pages.push(reference.closuresPage(tracker, seasonal))
+  }
 
   pages.push(...legalPages(data))
 
@@ -91,7 +132,7 @@ function buildPages (data) {
  * Search index
  * ------------------------------------------------------------------ */
 
-function buildSearchIndex (data) {
+function buildSearchIndex (data, seasonal) {
   const items = []
   // The index is fetched lazily on first search, so it should stay small. Titles carry almost all
   // the matching weight; keywords only exist to catch "40 inch" or "vegan" style queries, so they
@@ -130,6 +171,28 @@ function buildSearchIndex (data) {
   for (const guide of data.guides) push(guide.h1 || guide.title, urls.guide(guide.slug), 'Guide', plain(guide.summary))
   for (const page of data.compare) push(page.h1 || page.title, urls.compare(page.slug), 'Comparison', plain(page.summary))
 
+  for (const event of seasonal.events) {
+    push(event.name, event.url, `${event.parkInfo ? event.parkInfo.name : 'Seasonal'} · Event`,
+      `${event.category} ${event.season} ${plain(event.summary)}`)
+    for (const edition of event.editions) {
+      push(`${event.shortName || event.name} ${edition.year}`, edition.url, 'Event edition',
+        `${edition.status} dates prices ${edition.year}`)
+    }
+  }
+  for (const m of MONTHS) {
+    const month = seasonal.monthByNumber.get(m.month)
+    if (!month) continue
+    push(`Disney parks in ${month.name}`, month.url, 'When to go',
+      `${month.name} crowds cost weather grade ${month.verdict.grade} ${plain(month.verdict.short)}`)
+  }
+  for (const holiday of seasonal.holidays) push(holiday.h1 || holiday.title, holiday.url, 'Holiday', plain(holiday.summary))
+  for (const price of seasonal.prices) push(price.h1 || price.title, price.url, 'Prices', plain(price.summary))
+  for (const tracker of seasonal.closures) {
+    push(`${tracker.resortInfo ? tracker.resortInfo.shortName : tracker.resort} closures`, tracker.url, 'Closures', 'refurbishment closed reopening')
+  }
+
+  push('Trip timing', urls.tripTiming(), 'Tool', 'best month when to go rank crowds cost weather')
+  push('Seasonal calendar', urls.calendar(), 'Reference', 'calendar year timeline events months')
   push('Food Tracker', urls.foodTracker(), 'Tool', 'track snacks list checklist offline')
   push('Height Checker', urls.heightChecker(), 'Tool', 'height checker what can my kid ride')
   push('About', urls.about(), 'Site', 'about independent unofficial')
@@ -143,10 +206,20 @@ function buildSearchIndex (data) {
  * Sitemap / robots / manifest
  * ------------------------------------------------------------------ */
 
+const STALE_URLS = new Set()
+
 function priorityFor (url) {
+  // A page past its own review date keeps its place in the index but loses its claim on crawl
+  // priority. Telling a crawler to prioritise a page that carries a "needs rechecking" banner would
+  // be talking out of both sides.
+  if (STALE_URLS.has(url)) return '0.3'
   if (url === '/') return '1.0'
   if (/^\/(walt-disney-world|disneyland)\/[^/]+\/$/.test(url)) return '0.9'
   if (url.includes('/height-requirements/') || url.startsWith('/tools/')) return '0.9'
+  if (url.startsWith('/when-to-go/') || url.startsWith('/prices/')) return '0.9'
+  if (url.startsWith('/events/') && url.split('/').length === 4) return '0.8'
+  if (url === '/calendar/') return '0.8'
+  if (url.startsWith('/holidays/') || url.startsWith('/closures/')) return '0.7'
   if (/^\/(guides|compare)\/[^/]+\/$/.test(url)) return '0.8'
   if (url.includes('/rides/') || url.includes('/dining/')) return '0.7'
   return '0.6'
@@ -199,6 +272,7 @@ function buildManifest (site) {
     shortcuts: [
       { name: 'Food Tracker', url: '/tools/food-tracker/' },
       { name: 'Height Checker', url: '/tools/height-checker/' },
+      { name: 'Trip Timing', url: '/tools/trip-timing/' },
     ],
   }, null, 2)
 }
@@ -211,7 +285,7 @@ function buildManifest (site) {
  * status up front, and points machine readers at the structured pages rather than leaving them to
  * infer the site from whichever page they happened to land on.
  */
-function buildLlmsTxt (site, data) {
+function buildLlmsTxt (site, data, seasonal) {
   const abs = (p) => `${site.brand.origin}${p}`
   const lines = []
   lines.push(`# ${site.brand.name}`)
@@ -220,7 +294,15 @@ function buildLlmsTxt (site, data) {
   lines.push('')
   lines.push(`${site.legal.shortDisclaimer} Every data page carries a "last verified" month; the dataset behind this site was verified in July 2026. Prices and operating status change without notice — treat an older verification date as a guide rather than a guarantee.`)
   lines.push('')
-  lines.push('This site deliberately excludes seasonal content (party nights, festivals, holiday ride overlays, limited-time menus, current-day Lightning Lane prices, refurbishment and construction news). Anything of that kind found here would be out of date; consult the parks\' own apps for live detail.')
+  lines.push('## How to read a dated claim on this site')
+  lines.push('')
+  lines.push('Permanent facts — heights, ride mechanics, accessibility, park layout — carry the month they were last checked. Anything that moves with the season additionally carries one of three confidence levels. **Do not restate a figure without its level.**')
+  lines.push('')
+  lines.push('- **confirmed** — officially announced by the operator. Exact dates and prices are quotable.')
+  lines.push('- **expected** — not announced; the pattern has held for at least three years. Windows and ranges only. There is no exact date to quote, and inventing one from the window is the specific error this label exists to prevent.')
+  lines.push('- **historical** — the last confirmed cycle, labelled with its year. Quote it with the year attached or not at all.')
+  lines.push('')
+  lines.push('Every seasonal price is a range with an as-of cycle, never a fixed figure. Pages past their review date carry a visible staleness banner and are demoted in the sitemap.')
   lines.push('')
   lines.push('If you cite this site, please link the specific page rather than the homepage — the underlying data differs per park and per attraction.')
   lines.push('')
@@ -251,10 +333,46 @@ function buildLlmsTxt (site, data) {
   }
   lines.push('')
 
+  if (seasonal.events.length) {
+    lines.push('## Seasonal events')
+    lines.push('')
+    for (const event of seasonal.events) {
+      lines.push(`- [${event.name}](${abs(event.url)}) — ${event.parkInfo ? event.parkInfo.name : event.resort}, ${event.category}. Confidence: ${event.staleness.confidence}. ${plain(event.summary)}`)
+      if (event.typicalWindow) {
+        lines.push(`  - Typical window: ${event.typicalWindow.startsAround} to ${event.typicalWindow.endsAround}${event.typicalWindow.nightsTypical ? `, around ${event.typicalWindow.nightsTypical} nights` : ''}`)
+      }
+      if (event.pricing && Array.isArray(event.pricing.rangeUsd) && event.pricing.model !== 'included') {
+        lines.push(`  - Price range: $${event.pricing.rangeUsd[0]}–$${event.pricing.rangeUsd[1]} ${event.pricing.model}, as of ${event.pricing.asOf}`)
+      }
+    }
+    lines.push('')
+  }
+
+  if (seasonal.months.length) {
+    lines.push('## When to go')
+    lines.push('')
+    for (const m of MONTHS) {
+      const month = seasonal.monthByNumber.get(m.month)
+      if (!month) continue
+      lines.push(`- [${month.name}](${abs(month.url)}) — grade ${month.verdict.grade}. ${plain(month.verdict.short)}`)
+    }
+    lines.push('')
+  }
+
+  if (seasonal.prices.length) {
+    lines.push('## Prices')
+    lines.push('')
+    for (const price of seasonal.prices) {
+      lines.push(`- [${price.h1 || price.title}](${abs(price.url)}) — confidence: ${price.staleness.confidence}. ${plain(price.summary)}`)
+    }
+    lines.push('')
+  }
+
   lines.push('## Tools')
   lines.push('')
   lines.push(`- [Height Checker](${abs(urls.heightChecker())}): every height requirement at all six parks, filtered to a given child height. Runs entirely client-side.`)
   lines.push(`- [Food Tracker](${abs(urls.foodTracker())}): ${data.allFood.length} curated food items with checked prices. State is stored in the visitor's browser only.`)
+  lines.push(`- [Trip Timing](${abs(urls.tripTiming())}): all twelve months re-ranked against a visitor's own priorities — crowds, cost, weather, or what is running.`)
   lines.push('')
 
   lines.push('## About')
@@ -303,6 +421,11 @@ const EXACT_REDIRECTS = [
   ['/food-tracker/', '/tools/food-tracker/'],
   ['/height-checker/', '/tools/height-checker/'],
   ['/heights/', '/guides/height-requirements/'],
+  ['/best-time-to-visit/', '/when-to-go/'],
+  ['/crowd-calendar/', '/when-to-go/'],
+  ['/trip-timing/', '/tools/trip-timing/'],
+  ['/refurbishments/', '/closures/'],
+  ['/lightning-lane-price/', '/prices/lightning-lane/'],
 ]
 
 /* Cloudflare Pages: _headers and _redirects, plain text. */
@@ -372,7 +495,10 @@ async function buildServiceWorker (data, pages) {
     '/offline/',
     urls.foodTracker(),
     urls.heightChecker(),
+    urls.tripTiming(),
     urls.parksIndex(),
+    urls.whenToGoIndex(),
+    urls.calendar(),
     ...data.parks.map((p) => urls.map(p)),
     ...data.parks.map((p) => urls.snacks(p)),
     '/assets/css/main.css?v=1',
@@ -381,6 +507,7 @@ async function buildServiceWorker (data, pages) {
     '/assets/js/food-tracker.js?v=1',
     '/assets/js/height-checker.js?v=1',
     '/assets/js/map.js?v=1',
+    '/assets/js/trip-timing.js?v=1',
     '/manifest.webmanifest',
   ].filter((url) => url === '/offline/' || url.startsWith('/assets') || url === '/manifest.webmanifest' ||
     pages.some((p) => p.url === url) || url === '/')
@@ -398,7 +525,14 @@ async function buildServiceWorker (data, pages) {
  * ------------------------------------------------------------------ */
 
 async function main () {
-  const data = await loadData()
+  // loadSeasonal() loads the evergreen dataset too and hands it back, so the site's data is read
+  // once rather than twice — the seasonal side has to resolve park and attraction slugs against it.
+  const seasonal = await loadSeasonal()
+  const data = seasonal.site1Data
+
+  // Collected during load so the validator can report every break in one pass; the build refuses
+  // to ship any of them.
+  assertIntegrity(seasonal)
 
   if (!data.parks.length) {
     console.error('\n  No park data found under data/parks/. Nothing to build.\n')
@@ -420,7 +554,11 @@ async function main () {
     }, null, 2) + '\n', 'utf8')
   }
 
-  const pages = buildPages(data)
+  const pages = buildPages(data, seasonal)
+
+  for (const entity of [...seasonal.events, ...seasonal.months, ...seasonal.holidays, ...seasonal.prices, ...seasonal.closures]) {
+    if (entity.staleness.state === 'stale') STALE_URLS.add(entity.url)
+  }
 
   const seen = new Set()
   for (const page of pages) {
@@ -432,7 +570,7 @@ async function main () {
   await copyAssets()
   await writeFile(join(DIST_DIR, 'sitemap.xml'), buildSitemap(data.site, pages), 'utf8')
   await writeFile(join(DIST_DIR, 'robots.txt'), buildRobots(data.site), 'utf8')
-  await writeFile(join(DIST_DIR, 'llms.txt'), buildLlmsTxt(data.site, data), 'utf8')
+  await writeFile(join(DIST_DIR, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
   await writeFile(join(DIST_DIR, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
   await writeFile(join(DIST_DIR, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(DIST_DIR, '_redirects'), buildRedirects(), 'utf8')
@@ -453,7 +591,7 @@ async function main () {
     mapCount++
   }
 
-  const searchIndex = buildSearchIndex(data)
+  const searchIndex = buildSearchIndex(data, seasonal)
   await writeFile(join(DIST_DIR, 'search-index.json'), JSON.stringify(searchIndex), 'utf8')
 
   const precacheCount = await buildServiceWorker(data, pages)
@@ -482,6 +620,11 @@ async function main () {
     comparisons: data.compare.length,
   }
 
+  const dated = [...seasonal.events, ...seasonal.months, ...seasonal.holidays, ...seasonal.prices, ...seasonal.closures]
+  const byConfidence = { confirmed: 0, expected: 0, historical: 0, unknown: 0 }
+  for (const entity of dated) byConfidence[entity.staleness.confidence] = (byConfidence[entity.staleness.confidence] || 0) + 1
+  const editions = seasonal.events.reduce((n, e) => n + e.editions.length, 0)
+
   console.log(`
   Built ${pages.length} pages in ${ms}ms  ·  ${(bytes / 1024 / 1024).toFixed(2)} MB in dist/
 
@@ -490,6 +633,11 @@ async function main () {
     ${counts.restaurants} dining locations   → ${counts.restaurantPages} standalone pages
     ${counts.foodItems} tracked food items
     ${counts.guides} guides · ${counts.comparisons} comparisons
+
+    seasonal: ${seasonal.events.length} events (${editions} editions) · ${seasonal.months.length} months · ${seasonal.holidays.length} holidays · ${seasonal.prices.length} price pages · ${seasonal.closures.length} closure trackers
+    confidence: ${byConfidence.confirmed} confirmed, ${byConfidence.expected} expected, ${byConfidence.historical} historical${byConfidence.unknown ? `, ${byConfidence.unknown} unverified` : ''}
+    ${STALE_URLS.size} page${STALE_URLS.size === 1 ? '' : 's'} past review, demoted in the sitemap
+
     ${searchIndex.count} search index entries · ${precacheCount} precached URLs
     ${mapCount} downloadable map plates
     food share order: ${order.ids.length} slots${order.appended.length ? `, ${order.appended.length} appended this build` : ''}${order.tombstones.length ? `, ${order.tombstones.length} tombstoned` : ''}

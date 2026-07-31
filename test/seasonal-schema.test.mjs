@@ -4,12 +4,8 @@ import assert from 'node:assert/strict'
 import * as SS from '../src/lib/seasonal-schema.mjs'
 
 const site = {
-  brand: {
-    origin: 'https://parkseason.guide',
-    locale: 'en-US',
-    sisterSite: { name: 'Ride Ready Guide', origin: 'https://rideready.guide', note: 'Evergreen sister site.' },
-  },
-  author: { name: 'Park Season Guide', url: '/about/' },
+  brand: { origin: 'https://ridereadyguide.com', locale: 'en-US' },
+  author: { name: 'Ride Ready Guide', url: '/about/' },
 }
 
 const event = {
@@ -41,8 +37,8 @@ test('a confirmed edition produces a full Event node', () => {
   assert.equal(node.endDate, '2026-10-31')
   assert.equal(node.eventStatus, 'https://schema.org/EventScheduled')
   assert.equal(node.location['@type'], 'AmusementPark')
-  // The park lives on the other domain, so the node must point at that origin, not ours.
-  assert.equal(node.location.url, 'https://rideready.guide/walt-disney-world/magic-kingdom/')
+  // The park page is on this same origin now that the two sites merged.
+  assert.equal(node.location.url, 'https://ridereadyguide.com/walt-disney-world/magic-kingdom/')
   assert.equal(node.offers.lowPrice, 129)
   assert.equal(node.offers.highPrice, 229)
 })
@@ -103,16 +99,4 @@ test('price lists are ranges, and a stale page publishes none', () => {
 
   assert.equal(SS.priceList(site, { url: '/x/', name: 'x', rows }, { stale: true }), null)
   assert.equal(SS.priceList(site, { url: '/x/', name: 'x', rows: [] }), null)
-})
-
-test('the two sites are linked into one entity graph', () => {
-  const node = SS.siteRelationship(site)
-  assert.equal(node['@id'], 'https://rideready.guide/#website')
-  assert.equal(node.publisher['@id'], 'https://parkseason.guide/#organization')
-  // Without a sister site declared there is nothing to relate, and we must not invent one.
-  assert.equal(SS.siteRelationship({ brand: {} }), null)
-})
-
-test('sisterAbs resolves against the sister origin, never ours', () => {
-  assert.equal(SS.sisterAbs(site, '/guides/lightning-lane/'), 'https://rideready.guide/guides/lightning-lane/')
 })

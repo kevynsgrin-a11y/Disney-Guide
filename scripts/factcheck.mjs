@@ -111,7 +111,13 @@ const SNACK_PRICES = [
 const FILLER = ['magical', 'immersive', 'unforgettable', 'beloved', 'nestled', 'delve', 'a testament to', 'whimsical']
 const FILLER_OPENERS = ['whether you', 'in the world of', 'from the moment you']
 
-/** Seasonal content that must not appear on the evergreen site. */
+/**
+ * Seasonal content that must not appear on an evergreen page.
+ *
+ * The two kinds of content share a site but not a data tree, and this is what keeps one canonical
+ * owner per topic: an evergreen page naming a party night has quietly become a second owner of a
+ * fact that will move without it.
+ */
 const SEASONAL = [
   'not-so-scary', 'not so scary', 'very merry', 'food & wine festival', 'food and wine festival',
   'flower & garden', 'flower and garden', 'festival of the arts', 'festival of the holidays',
@@ -246,7 +252,7 @@ async function checkPark (slug) {
   }
   for (const item of food) {
     if (item.price != null && item.priceVerified == null) fail(slug, `"${item.name}" has a price with no priceVerified month`)
-    if (item.seasonal === true) fail(slug, `"${item.name}" is marked seasonal — that belongs on the seasonal site`)
+    if (item.seasonal === true) fail(slug, `"${item.name}" is marked seasonal — that belongs under data/seasonal/`)
   }
 }
 
@@ -291,7 +297,7 @@ async function checkProse () {
       note(label, `filler words present — ${[...fillerHits].map(([w, n]) => `${w} (${n})`).join(', ')}`)
     }
     if (seasonalHits.size) {
-      fail(label, `seasonal content on the evergreen site — ${[...seasonalHits].map(([t, n]) => `${t} (${n})`).join(', ')}`)
+      fail(label, `seasonal content on an evergreen page — ${[...seasonalHits].map(([t, n]) => `${t} (${n})`).join(', ')}`)
     }
   }
 }

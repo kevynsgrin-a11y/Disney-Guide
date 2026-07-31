@@ -19,6 +19,7 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      # Two data contracts, two validators, two fact checkers — one site.
       - name: Validate data
         run: npm run validate
 
@@ -36,26 +37,4 @@ jobs:
         with:
           name: dist
           path: dist
-          retention-days: 7
-
-      # Site 2 runs the same shape of gate against its own data. It is a separate job step rather
-      # than a separate workflow because its validator resolves every cross-link against Site 1's
-      # live URL set — the two builds are only meaningfully green together.
-      - name: Validate seasonal data
-        run: npm run validate:seasonal
-
-      - name: Fact check seasonal data
-        run: npm run factcheck:seasonal
-
-      - name: Build seasonal site
-        run: npm run build:seasonal:fast
-
-      - name: Audit rendered seasonal site
-        run: npm run audit:seasonal
-
-      - name: Upload seasonal build
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist-seasonal
-          path: dist-seasonal
           retention-days: 7

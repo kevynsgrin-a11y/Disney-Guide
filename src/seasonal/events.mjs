@@ -13,7 +13,7 @@ import * as C from '../templates/components.mjs'
 import * as SC from '../templates/seasonal-components.mjs'
 import * as S from '../lib/schema.mjs'
 import * as SS from '../lib/seasonal-schema.mjs'
-import { urls, site1 } from '../lib/seasonal-data.mjs'
+import { urls } from '../lib/seasonal-data.mjs'
 import * as f from '../lib/format.mjs'
 
 const RESORT_LABEL = { 'walt-disney-world': 'Walt Disney World', disneyland: 'Disneyland Resort', both: 'Both resorts' }
@@ -137,7 +137,7 @@ export function eventPage (event, data) {
 
     ${C.faqSection(event.faqs)}
 
-    ${SC.evergreenLinks(crossLinkTiles(event), site.brand.sisterSite)}
+    ${SC.evergreenLinks(crossLinkTiles(event))}
 
     ${event.relatedEvents.length ? C.relatedLinks(
       event.relatedEvents.map((e) => ({ href: e.url, label: e.name, summary: e.summary })),
@@ -172,7 +172,6 @@ export function eventPage (event, data) {
           section: 'Events',
         }),
         S.faqPage(site, { url, faqs: event.faqs }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }
@@ -232,7 +231,7 @@ export function editionPage (event, edition, data) {
       `,
     })}
 
-    ${SC.evergreenLinks(crossLinkTiles(event), site.brand.sisterSite)}
+    ${SC.evergreenLinks(crossLinkTiles(event))}
   `
 
   const eventNode = SS.event(site, schemaShape(event, edition), edition, { stale })
@@ -333,7 +332,6 @@ export function eventsIndex (data) {
       body,
       schema: [
         S.itemList(site, { url, name: 'Seasonal events at the US Disney parks', items: events }),
-        SS.siteRelationship(site),
       ].filter(Boolean),
     }),
   }

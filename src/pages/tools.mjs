@@ -357,6 +357,20 @@ export function toolsIndex (data) {
           summary: `${data.allFood.length} snacks with checked prices. Mark want, tried, or skip; share the list as a link; print it as a checklist; use it offline.`,
         }),
         C.card({
+          href: urls.tripTiming(),
+          tone: 'feature',
+          eyebrow: 'Interactive',
+          title: 'Trip Timing',
+          summary: 'All twelve months re-ranked against what you actually care about — thin crowds, low cost, good weather, or plenty running. Most crowd calendars decide that for you.',
+        }),
+        C.card({
+          href: urls.calendar(),
+          tone: 'feature',
+          eyebrow: 'Reference',
+          title: 'Seasonal calendar',
+          summary: 'Every event at both resorts on one twelve-month timeline, colour-coded by how much has actually been confirmed.',
+        }),
+        C.card({
           href: urls.parksIndex(),
           tone: 'feature',
           eyebrow: 'Printable',
@@ -382,7 +396,7 @@ export function toolsIndex (data) {
       page: {
         url: urls.toolsIndex(),
         title: 'Free Disney planning tools',
-        description: 'A height checker, a food tracker that works offline, and printable maps for all six US Disney parks. No account, no upload, no cost.',
+        description: 'A height checker, an offline food tracker, a trip-timing ranker, and printable maps for all six US Disney parks. No account, no upload, no cost.',
         trail,
         modified: '2026-07-01',
       },

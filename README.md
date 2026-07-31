@@ -1,58 +1,51 @@
-# Theme Park Guide — two sites, one repository
+# Ride Ready Guide
 
-Two static, data-driven guides to the six US Disney parks, sharing one generator, one component
-library, and one stylesheet. Every page is produced from JSON. No framework, no dependencies, no
-build tooling beyond Node itself.
+A static, data-driven guide to the US theme parks, on one domain. Every page is generated from JSON.
+No framework, no runtime dependencies, no build tooling beyond Node itself.
 
-| | **Site 1 — Ride Ready Guide** | **Site 2 — Park Season Guide** |
+The site carries two kinds of content, and the difference is structural:
+
+| | **Permanent** | **Dated** |
 |---|---|---|
-| Owns | Facts that do not move | Facts with a shelf life |
-| | Heights, ride mechanics, accessibility, permanent dining, maps | Parties, festivals, prices, closures, when to go |
-| Data | `data/` | `data/seasonal/` |
-| Build | `npm run build` → `dist/` | `npm run build:seasonal` → `dist-seasonal/` |
+| Covers | Heights, ride mechanics, accessibility, dining, maps | Events, prices, closures, when to go |
+| Lives in | `data/` | `data/seasonal/` |
 | Contract | `docs/DATA-SCHEMA.md` | `docs/SEASONAL-SCHEMA.md` |
-| Launch | `docs/LAUNCH.md` | `docs/LAUNCH-SEASONAL.md` |
+| Stamped with | The month it was last checked | That, plus a confidence level and a review date |
 
-They are separate domains on purpose: seasonal churn dilutes an evergreen site's topical authority,
-and evergreen stability makes a seasonal site look abandoned. **One canonical owner per topic, in
-both directions** — Site 1 links out for anything dated, Site 2 links back for anything permanent,
-and both validators fail the build if a topic drifts onto the wrong side.
+They were briefly two sites on two domains. Merging them put every cross-link back inside one
+origin, which is where the linking actually pays — and gave the search index, the tools, and the
+authority profile one place to compound. **One canonical owner per topic** still holds, and both
+fact checkers fail the build if a topic drifts across the line: the evergreen one rejects seasonal
+needles, the seasonal one rejects permanent facts.
 
 > **Independent and unofficial.** Not affiliated with, endorsed by, or sponsored by The Walt Disney
-> Company. Park, attraction, restaurant, event, and character names are used for identification and
-> editorial commentary only.
+> Company or any other park operator. Park, attraction, restaurant, event, and character names are
+> used for identification and editorial commentary only.
 
 ---
 
 ## Quick start
 
 ```bash
-node --version           # 20 or newer
-npm test                 # unit tests (node:test, no dependencies)
-
-npm run build            # Site 1: validate + factcheck, then render dist/
-npm run serve            # preview dist/ at http://localhost:4321
-npm run dev              # build + serve
-npm run audit:site       # post-build QA: links, titles, JSON-LD, disclaimers
-npm run check            # test + build + audit, the full gate
-
-npm run build:seasonal   # Site 2: validate + factcheck, then render dist-seasonal/
-npm run serve:seasonal   # preview dist-seasonal/
-npm run audit:seasonal   # post-build QA, plus the freshness-contract checks
-npm run check:seasonal   # the full gate for Site 2
-
-npm run build:all        # both sites
-npm run check:all        # both gates
+node --version        # 20 or newer
+npm test              # unit tests (node:test, no dependencies)
+npm run build         # validate both contracts, fact-check both, render dist/
+npm run serve         # preview dist/ at http://localhost:4321
+npm run dev           # build + serve
+npm run validate      # both validators
+npm run factcheck     # both reference-table checks
+npm run audit:site    # post-build QA: links, titles, JSON-LD, disclaimers, freshness
+npm run check         # test + build + audit, the full gate
 ```
 
-There is nothing to `npm install`. `package.json` has no runtime dependencies, on purpose — these
-sites have to still build in five years.
+There is nothing to `npm install`. `package.json` has no runtime dependencies, on purpose — this
+site has to still build in five years.
 
 ---
 
 ## What this is
 
-Six parks, ~300 pages, generated from a validated dataset:
+379 pages across six US Disney parks, generated from a validated dataset:
 
 | Route | What it is |
 |---|---|
@@ -74,15 +67,20 @@ Six parks, ~300 pages, generated from a validated dataset:
 | `/compare/<slug>/` | Comparison pages that commit to a verdict |
 | `/tools/food-tracker/` | localStorage food tracker with share links and print checklist |
 | `/tools/height-checker/` | One-slider "what can my kid ride" across all six parks |
+| `/when-to-go/` · `/when-to-go/<month>/` | Twelve months graded on crowds, cost, weather, and what is on |
+| `/events/<slug>/` · `/events/<slug>/<year>/` | Pattern page per event, with dated editions beneath it |
+| `/calendar/` | Year-at-a-glance Gantt across both resorts |
+| `/prices/<slug>/` | Tickets, Lightning Lane, parking, dining plans, annual passes — dated ranges |
+| `/closures/<resort>/` | Refurbishment and closure trackers |
+| `/holidays/<slug>/` | Cross-resort holiday hubs |
+| `/tools/trip-timing/` | Re-ranks the twelve months against the reader's own priorities |
 | `/about/` `/editorial-policy/` `/affiliate-disclosure/` `/privacy/` `/terms/` `/contact/` | Legal and editorial |
 
-### Deliberately out of scope (Site 2 owns these)
+### Deliberately out of scope
 
-Party nights, festivals, seasonal ride overlays, limited-time menu items, current-day Lightning Lane
-prices, refurbishment news, construction updates. Every one of those changes every few weeks; putting
-them on an evergreen page just guarantees the page is wrong most of the year. Where a topic straddles
-the line, Site 1 owns the permanent version and links out — one canonical owner per topic, contextual
-links, never duplicated blocks.
+Live wait times and day-level crowd predictions. Both need a data feed and are a different product
+with different maintenance economics. The month pages state windows, which is what a planner can
+actually act on.
 
 ---
 
@@ -99,24 +97,36 @@ data/
   parks/<slug>/best-rides.json  the park's ranked best-rides page
   guides/<slug>.json            evergreen guides
   compare/<slug>.json           comparison pages
-docs/DATA-SCHEMA.md             the binding data contract + verified reference tables
+  seasonal/events/<slug>.json   one per recurring event: the pattern page plus its year editions
+  seasonal/months/<01-12>.json  when-to-go, one per month
+  seasonal/holidays/<slug>.json cross-resort holiday hubs
+  seasonal/prices/<slug>.json   what things cost, as dated ranges
+  seasonal/closures/<resort>.json  refurbishment trackers
+  seasonal/calendar.json        the year-at-a-glance timeline
+docs/DATA-SCHEMA.md             the binding evergreen contract + verified reference tables
+docs/SEASONAL-SCHEMA.md         the binding dated contract + the freshness rules
 src/
   build.mjs                     orchestrator: renders dist/, sitemap, robots, manifest, sw, search index
-  lib/                          html templating, formatters, data loader + URL builders, schema.org, map renderer
+  lib/                          html templating, formatters, data loaders + URL builders, schema.org,
+                                map renderer, and the staleness contract
   templates/                    page shell and the component library
-  pages/                        one module per route family
+  pages/                        one module per evergreen route family
+  seasonal/                     one module per dated route family
 assets/                         CSS, JS, service worker, icons — copied verbatim to dist/assets
 test/                           unit tests for the escaping, formatting, schema, map,
                                 and share-link-ordering guarantees
 scripts/
   validate.mjs                  enforces docs/DATA-SCHEMA.md; runs before every build
-  audit.mjs                     post-build QA
+  validate-seasonal.mjs         enforces docs/SEASONAL-SCHEMA.md, including cross-link integrity
+  factcheck.mjs                 evergreen facts against hard-coded reference tables
+  factcheck-seasonal.mjs        dated facts against their own reference tables
+  audit.mjs                     post-build QA, including the freshness-contract checks
   serve.mjs                     local preview server
   generate-icons.mjs            renders the PWA icon set as real PNGs, no image library
 ```
 
-**Nothing constructs a URL by hand.** `src/lib/data.mjs` exports `urls`, and every page module uses
-it. Change a route in one place and the whole site — including the sitemap, search index, and
+**Nothing constructs a URL by hand.** `src/lib/data.mjs` exports `urls` — every route on the site,
+evergreen and dated alike — and every page module uses it. Change a route in one place and the whole site — including the sitemap, search index, and
 service-worker precache list — follows.
 
 ---
@@ -157,7 +167,32 @@ height checker payload, and the search index — because they all read the same 
 
 ---
 
-## The two tools
+## The freshness contract
+
+Anything that moves with the season carries a `freshness` block: when it was checked, how confident
+we are, and when it must be re-checked.
+
+| Level | Means | Allowed to state |
+|---|---|---|
+| `confirmed` | Officially announced, with the announcement named | Exact dates and prices |
+| `expected` | Not announced; the pattern has held three years or more | Windows and ranges. **Never an exact date.** |
+| `historical` | Last confirmed cycle | Prior-year figures, labelled with their year |
+
+`src/lib/staleness.mjs` compares each page's review date against `BUILD_MONTH` — a constant, not the
+system clock, so a build cannot change its own output between two runs of the same commit. A page
+past its review date renders a banner above the content, drops to the bottom of the sitemap's
+priority band, and loses its `Event` JSON-LD `offers`.
+
+**There is no JSON field that suppresses the banner.** An author who forgot to re-check is exactly
+the case the automation exists for.
+
+Structured data follows the same rule: an `Event` node without a real `startDate` is either ignored
+or filled in with a guess, so a page without confirmed dates publishes as `Article` instead. That
+costs rich results on about half the event pages for part of each year, and it is the right trade.
+
+---
+
+## The three tools
 
 **Food Tracker** (`/tools/food-tracker/`). Three-state tracking (want / tried / skip) over every
 curated food item on the site.
@@ -237,22 +272,28 @@ Cloudflare Pages format and are ignored harmlessly elsewhere.
 | Output directory | `dist` |
 | Node version | 20 or newer |
 
-**Anything else** — Netlify, Vercel, S3, GitHub Pages — serve `dist/` as static files. On a host
-without `_redirects` support, port the legacy path rules from `src/build.mjs` to that host's format.
+Free tier, unlimited bandwidth, and commercial use is permitted — which matters, because the site
+carries affiliate links. Vercel's Hobby plan prohibits commercial use, so Vercel means Pro.
 
-`dist/` is gitignored. It is fully reproducible from source in under a second.
+`dist/` is gitignored. It is fully reproducible from source in about a second.
+
+### The one recurring maintenance task
+
+`src/lib/staleness.mjs` exports `BUILD_MONTH`. Bump it, rebuild, and the build reports how many
+pages just went stale; the audit lists them. Then re-verify each, move `verified` and `reviewBy`
+forward, and promote anything an operator has since announced from `expected` to `confirmed` with a
+`sourceNote` naming the announcement. `docs/LAUNCH-SEASONAL.md` has the full routine.
 
 ### Before going live
 
-`docs/LAUNCH.md` has the full plan — blockers, deploy steps, what to build next, and the decision
-points that should change the plan. The short version:
+`docs/LAUNCH.md` has the full plan. The short version:
 
-1. Register the domain and update `data/site.json → brand.domain` and `brand.origin`. Every canonical
-   URL, `og:url`, sitemap entry, and JSON-LD `@id` derives from that one value.
-2. Have an IP attorney review `/privacy/`, `/terms/`, `/affiliate-disclosure/`, and the image policy.
+1. Register `ridereadyguide.com` and set `data/site.json → brand.domain` and `brand.origin`. Every
+   canonical URL, `og:url`, sitemap entry, and JSON-LD `@id` derives from that one value.
+2. Provision `corrections@` and `hello@`. The contact page commits to a three-working-day
+   acknowledgement standard, and a correction route that bounces is worse than none.
+3. Have an IP attorney review `/privacy/`, `/terms/`, `/affiliate-disclosure/`, and the image policy.
    The disclaimers here are written carefully but they are not legal advice.
-3. Put a real correction route on `/contact/`. A site that promises accuracy with no way to report an
-   error is making a promise it cannot keep.
 4. Wire a consent management platform before any advertising or analytics ships, and flip
    `site.analytics.enabled` when analytics go live.
 5. Replace `assets/img/` icons if you rebrand — `node scripts/generate-icons.mjs` regenerates them.

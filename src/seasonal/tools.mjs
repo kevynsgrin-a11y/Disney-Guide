@@ -156,66 +156,7 @@ export function tripTimingPage (data) {
       },
       body,
       scripts: ['/assets/js/trip-timing.js'],
-      schema: [SS.siteRelationship(site)].filter(Boolean),
-    }),
-  }
-}
-
-export function toolsIndex (data) {
-  const { site } = data
-  const url = urls.toolsIndex()
-  const trail = [{ label: 'Home', href: urls.home() }, { label: 'Tools', href: url }]
-
-  const body = html`
-    ${C.breadcrumbs(trail)}
-    ${C.hero({
-      eyebrow: site.brand.name,
-      title: 'Tools',
-      lede: 'Small, fast, and entirely client-side. Nothing you enter leaves your device.',
-    })}
-    ${C.section({
-      children: C.cardGrid([
-        C.card({
-          href: urls.tripTiming(),
-          eyebrow: 'Tool',
-          title: 'Trip timing',
-          summary: 'Rank all twelve months against what you personally care about — thin crowds, low cost, good weather, or plenty running.',
-        }),
-        C.card({
-          href: urls.calendar(),
-          eyebrow: 'Reference',
-          title: 'Year-at-a-glance calendar',
-          summary: 'Every seasonal event at both resorts on one timeline, colour-coded by how much is actually confirmed.',
-        }),
-        C.card({
-          href: `${site.brand.sisterSite.origin}/tools/height-checker/`,
-          eyebrow: `On ${site.brand.sisterSite.name}`,
-          title: 'Height checker',
-          summary: 'Every height requirement at all six parks against one slider. Lives on our evergreen sister site, because height requirements do not change with the season.',
-        }),
-        C.card({
-          href: `${site.brand.sisterSite.origin}/tools/food-tracker/`,
-          eyebrow: `On ${site.brand.sisterSite.name}`,
-          title: 'Food tracker',
-          summary: 'Track every curated snack across the six parks, with share links and a printable checklist.',
-        }),
-      ], { columns: 2 }),
-    })}
-  `
-
-  return {
-    url,
-    html: renderPage({
-      site,
-      page: {
-        url,
-        title: 'Tools',
-        titleTail: ' for planning a Disney trip',
-        description: 'Client-side planning tools: rank the twelve months against your priorities, and browse the year-at-a-glance seasonal calendar.',
-        trail,
-      },
-      body,
-      schema: [SS.siteRelationship(site)].filter(Boolean),
+      schema: [],
     }),
   }
 }

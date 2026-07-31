@@ -63,6 +63,28 @@ export const urls = {
   toolsIndex: () => '/tools/',
   foodTracker: () => '/tools/food-tracker/',
   heightChecker: () => '/tools/height-checker/',
+  tripTiming: () => '/tools/trip-timing/',
+
+  /*
+   * Seasonal routes.
+   *
+   * These began life in a second module for a second domain. They live here now because the two
+   * sites merged, and two `urls` objects on one origin is exactly the drift this file exists to
+   * prevent — the moment a route is defined twice, one copy starts lying.
+   */
+  calendar: () => '/calendar/',
+  whenToGoIndex: () => '/when-to-go/',
+  month: (slug) => `/when-to-go/${slug}/`,
+  eventsIndex: () => '/events/',
+  event: (slug) => `/events/${slug}/`,
+  edition: (slug, year) => `/events/${slug}/${year}/`,
+  holidaysIndex: () => '/holidays/',
+  holiday: (slug) => `/holidays/${slug}/`,
+  pricesIndex: () => '/prices/',
+  price: (slug) => `/prices/${slug}/`,
+  closuresIndex: () => '/closures/',
+  closures: (resortSlug) => `/closures/${resortSlug}/`,
+
   about: () => '/about/',
   editorial: () => '/editorial-policy/',
   affiliate: () => '/affiliate-disclosure/',

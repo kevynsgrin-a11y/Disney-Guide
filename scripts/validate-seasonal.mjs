@@ -1,15 +1,15 @@
 /**
- * Site 2 data validator. Enforces docs/SEASONAL-SCHEMA.md.
+ * Seasonal data validator. Enforces docs/SEASONAL-SCHEMA.md.
  *
- * Runs before every seasonal build. Errors fail the build; warnings print and do not.
+ * Runs before every build. Errors fail the build; warnings print and do not.
  *
- * Two checks here do not exist on Site 1 and are the reason this file is separate rather than a
- * flag on scripts/validate.mjs:
+ * Two checks here do not exist in scripts/validate.mjs and are the reason this is a separate file
+ * rather than a flag on that one:
  *
- *   1. **Cross-site referential integrity.** Every `crossLinks` href is resolved against Site 1's
- *      actual generated URL set, built from Site 1's own `urls` builders. Cross-linking is the whole
- *      strategic purpose of running two sites; a dead link between them is a build failure, not a
- *      warning.
+ *   1. **Referential integrity against the evergreen dataset.** Every `crossLinks` href is resolved
+ *      against the URL set the evergreen half actually generates. Handing a reader from a dated page
+ *      to the permanent version of the same topic is the whole point of carrying both kinds of
+ *      content, so a dead link between them is a build failure, not a warning.
  *   2. **The freshness contract.** Confidence, review dates, and the ban on stating exact future
  *      dates at anything below `confirmed` confidence. Everything else on this site is ordinary
  *      travel content; this is the part that has to be mechanical, because "I'll remember to
@@ -22,7 +22,7 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { loadData } from '../src/lib/data.mjs'
-import { loadSite1Urls, urls } from '../src/lib/seasonal-data.mjs'
+import { evergreenUrlSet, urls } from '../src/lib/seasonal-data.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = join(ROOT, 'data', 'seasonal')
@@ -45,7 +45,7 @@ const LEVEL = new Set(['low', 'moderate', 'high', 'peak'])
 const GRADE = new Set(['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'])
 const PRICE_MODEL = new Set(['per-night', 'per-day', 'add-on', 'included'])
 /**
- * Closure statuses, aligned with Site 1's attraction vocabulary where the two overlap.
+ * Closure statuses, aligned with the evergreen attraction vocabulary where the two overlap.
  *
  * A bare "closed" is deliberately not a value. The distinction a reader actually needs is whether
  * the thing is coming back, and collapsing "down for six weeks" and "gone forever" into one word is
@@ -180,7 +180,7 @@ function checkNoExactDates (value, where, confidence) {
  * ------------------------------------------------------------------ */
 
 /**
- * Site 1's live URL set, taken from src/lib/seasonal-data.mjs rather than rebuilt here.
+ * The evergreen half's live URL set, taken from src/lib/seasonal-data.mjs rather than rebuilt here.
  *
  * An independently-derived second list was the obvious thing to write and the wrong thing: it would
  * have drifted from the one the build actually links against, and the validator would then be
@@ -188,13 +188,13 @@ function checkNoExactDates (value, where, confidence) {
  */
 async function site1UrlSet () {
   const data = await loadData()
-  return { set: await loadSite1Urls(data), data }
+  return { set: await evergreenUrlSet(data), data }
 }
 
 function checkCrossLinks (obj, where, s1Urls, { min = 1 } = {}) {
   const links = obj.crossLinks
   if (!Array.isArray(links) || links.length < min) {
-    err(where, `needs at least ${min} "crossLinks" entry — Site 1 owns every permanent fact and must be linked`)
+    err(where, `needs at least ${min} "crossLinks" entry — the evergreen pages own every permanent fact and must be linked`)
     return
   }
   links.forEach((link, i) => {
@@ -202,13 +202,13 @@ function checkCrossLinks (obj, where, s1Urls, { min = 1 } = {}) {
     if (!link || typeof link !== 'object') { err(scope, 'must be an object'); return }
     str(link, 'label', scope)
     if (typeof link.href !== 'string') { err(scope, 'missing "href"'); return }
-    if (!link.href.startsWith('/')) { err(scope, `"${link.href}" must be a root-relative Site 1 path`); return }
-    if (!s1Urls.has(link.href)) err(scope, `"${link.href}" does not exist on Site 1`)
+    if (!link.href.startsWith('/')) { err(scope, `"${link.href}" must be a root-relative path`); return }
+    if (!s1Urls.has(link.href)) err(scope, `"${link.href}" does not exist on this site`)
   })
 }
 
 /**
- * §7.4 rule 3. Site 1 owns permanent facts; restating them here creates two owners for one topic
+ * §7.4 rule 3. The evergreen dataset owns permanent facts; restating them here creates two owners
  * and guarantees they drift apart.
  */
 const DUPLICATION = [
@@ -218,12 +218,12 @@ const DUPLICATION = [
 ]
 
 function checkScope (obj, where) {
-  // crossLinks labels legitimately name Site 1's height pages, so they are excluded from the sweep.
+  // crossLinks labels legitimately name the evergreen height pages, so they are excluded.
   const { crossLinks, ...rest } = obj
   const text = JSON.stringify(rest)
   for (const re of DUPLICATION) {
     const hit = text.match(re)
-    if (hit) err(where, `restates a Site 1 permanent fact ("${hit[0]}") — link to Site 1 instead of repeating it`)
+    if (hit) err(where, `restates a permanent fact ("${hit[0]}") — link to the evergreen page instead of repeating it`)
   }
 }
 
@@ -273,7 +273,7 @@ async function validateEvents (s1Urls, s1Data) {
     oneOf(ev, 'season', SEASON, where)
 
     if (ev.parkSlug != null && !parkSlugs.has(ev.parkSlug)) {
-      err(where, `"parkSlug" is "${ev.parkSlug}", which is not a park on Site 1`)
+      err(where, `"parkSlug" is "${ev.parkSlug}", which is not a park in data/parks/`)
     }
 
     const win = ev.typicalWindow
@@ -516,10 +516,10 @@ async function validateClosures (s1Data) {
       str(item, 'name', scope)
       oneOf(item, 'status', CLOSURE_STATUS, scope)
       const parkSet = byPark.get(item.parkSlug)
-      if (!parkSet) { err(scope, `"parkSlug" is "${item.parkSlug}", which is not a park on Site 1`); continue }
+      if (!parkSet) { err(scope, `"parkSlug" is "${item.parkSlug}", which is not a park in data/parks/`); continue }
       // A tracker listing rides that do not exist is worse than no tracker.
       if (item.attractionSlug && !parkSet.has(item.attractionSlug)) {
-        err(scope, `"attractionSlug" is "${item.attractionSlug}", which is not an attraction at ${item.parkSlug} on Site 1`)
+        err(scope, `"attractionSlug" is "${item.attractionSlug}", which is not an attraction at ${item.parkSlug}`)
       }
       if (item.reopening && item.reopeningConfidence !== 'confirmed') {
         checkNoExactDates({ reopening: item.reopening }, scope, item.reopeningConfidence || 'expected')
@@ -553,26 +553,7 @@ async function validateCalendar (eventSlugs) {
   }
 }
 
-/**
- * Every nav href must resolve to a page this site actually builds.
- *
- * The nav is written before the content exists, so its slugs start life as guesses. One that never
- * gets reconciled produces a 404 in the footer of all 67 pages — the single most visible kind of
- * breakage, and the kind nobody notices because nobody clicks their own footer.
- */
-function validateNav (site, where, built) {
-  const links = [
-    ...(site.nav.primary || []),
-    ...(site.nav.footer || []).flatMap((column) => column.links || []),
-  ]
-  for (const link of links) {
-    if (!link || typeof link.href !== 'string') { err(`${where} → nav`, 'nav entry with no href'); continue }
-    if (!link.href.startsWith('/')) continue
-    if (!built.has(link.href)) err(`${where} → nav`, `"${link.label}" links to ${link.href}, which this site does not build`)
-  }
-}
-
-/** The URL set Site 2 will publish, derived from the data rather than from the built output. */
+/** The dated pages this build will publish, derived from the data rather than from built output. */
 async function builtUrlSet (eventSlugs) {
   const set = new Set([
     urls.home(), urls.calendar(), urls.whenToGoIndex(), urls.eventsIndex(), urls.holidaysIndex(),
@@ -591,26 +572,29 @@ async function builtUrlSet (eventSlugs) {
   return set
 }
 
-async function validateSite (eventSlugs) {
+/**
+ * Every nav href must resolve to a page this site actually builds.
+ *
+ * The nav is written before the content exists, so its slugs start life as guesses. One that never
+ * gets reconciled produces a 404 in the footer of every page on the site — the most visible kind of
+ * breakage, and the kind nobody notices because nobody clicks their own footer.
+ */
+async function validateNav (eventSlugs, evergreen) {
   const where = 'site.json'
-  const site = await readJson(join(DATA, 'site.json'), where)
-  if (!site) return
-  if (site.nav) validateNav(site, where, await builtUrlSet(eventSlugs))
-  for (const key of ['brand', 'meta', 'author', 'nav', 'legal', 'affiliates']) {
-    if (!site[key]) err(where, `missing "${key}"`)
-  }
-  if (site.brand) {
-    str(site.brand, 'name', `${where} → brand`)
-    str(site.brand, 'origin', `${where} → brand`)
-    if (site.brand.origin && !/^https:\/\//.test(site.brand.origin)) {
-      err(`${where} → brand`, '"origin" must be an https URL — every canonical, og:url and @id derives from it')
-    }
-    if (!site.brand.sisterSite || !site.brand.sisterSite.origin) {
-      err(`${where} → brand`, 'missing "sisterSite.origin" — the two sites must declare their relationship')
-    }
-    if (site.brand.themeKey !== 'season') {
-      err(`${where} → brand`, '"themeKey" must be "season" so the layout applies the seasonal palette')
-    }
+  const site = await readJson(join(ROOT, 'data', 'site.json'), where)
+  if (!site || !site.nav) return
+
+  const built = await builtUrlSet(eventSlugs)
+  for (const path of evergreen) built.add(path.split('#')[0])
+
+  const links = [
+    ...(site.nav.primary || []),
+    ...(site.nav.footer || []).flatMap((column) => column.links || []),
+  ]
+  for (const link of links) {
+    if (!link || typeof link.href !== 'string') { err(`${where} → nav`, 'nav entry with no href'); continue }
+    if (!link.href.startsWith('/')) continue
+    if (!built.has(link.href)) err(`${where} → nav`, `"${link.label}" links to ${link.href}, which this site does not build`)
   }
 }
 
@@ -628,7 +612,7 @@ async function main () {
   const { set: s1Urls, data: s1Data } = await site1UrlSet()
 
   const eventSlugs = await validateEvents(s1Urls, s1Data)
-  await validateSite(eventSlugs)
+  await validateNav(eventSlugs, s1Urls)
   await validateMonths(s1Urls, eventSlugs)
   await validateHolidays(s1Urls, eventSlugs)
   await validatePrices(s1Urls)
@@ -648,7 +632,7 @@ async function main () {
     return
   }
 
-  console.log(`\n  Seasonal data valid. ${eventSlugs.size} events checked against Site 1's ${s1Urls.size} live URLs.\n`)
+  console.log(`\n  Seasonal data valid. ${eventSlugs.size} events checked against ${s1Urls.size} live evergreen URLs.\n`)
 }
 
 main().catch((e) => { console.error('\nValidator crashed:\n', e); process.exitCode = 1 })

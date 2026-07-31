@@ -108,6 +108,31 @@
       "source": "/heights",
       "destination": "/guides/height-requirements/",
       "permanent": true
+    },
+    {
+      "source": "/best-time-to-visit",
+      "destination": "/when-to-go/",
+      "permanent": true
+    },
+    {
+      "source": "/crowd-calendar",
+      "destination": "/when-to-go/",
+      "permanent": true
+    },
+    {
+      "source": "/trip-timing",
+      "destination": "/tools/trip-timing/",
+      "permanent": true
+    },
+    {
+      "source": "/refurbishments",
+      "destination": "/closures/",
+      "permanent": true
+    },
+    {
+      "source": "/lightning-lane-price",
+      "destination": "/prices/lightning-lane/",
+      "permanent": true
     }
   ]
 }
