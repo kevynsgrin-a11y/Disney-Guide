@@ -637,9 +637,9 @@ async function validateOperator (operatorSlug) {
 }
 
 async function main () {
-  const { operators } = await import('../src/lib/data.mjs')
+  const { resolveTargets } = await import('../src/lib/data.mjs')
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+  const targets = (await resolveTargets(requested, { label: 'node scripts/validate-seasonal.mjs' })).map((o) => o.slug)
 
   let events = 0
   let urlCount = 0

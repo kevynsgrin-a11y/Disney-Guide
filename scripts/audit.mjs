@@ -30,9 +30,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
  * default. Each is a separate site on its own domain, so they are audited separately: a link that
  * resolves on one has no bearing on the other.
  */
-const { operators } = await import('../src/lib/data.mjs')
+const { resolveTargets } = await import('../src/lib/data.mjs')
 const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-const ALL = (await operators()).map((o) => o.slug)
+const ALL = (await resolveTargets(requested, { label: 'node scripts/audit.mjs' })).map((o) => o.slug)
 const TARGETS = (requested.length ? requested : ALL).filter((slug) => existsSync(join(ROOT, 'dist', slug)))
 
 if (!TARGETS.length) {

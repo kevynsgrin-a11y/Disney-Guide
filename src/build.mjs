@@ -19,7 +19,7 @@ import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
 
-import { loadData, operators, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
+import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
@@ -699,14 +699,7 @@ async function buildOperator (operator) {
  */
 async function main () {
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const all = await operators()
-  const targets = requested.length
-    ? requested.map((slug) => {
-        const found = all.find((o) => o.slug === slug)
-        if (!found) throw new Error(`Unknown operator "${slug}". data/operators.json declares: ${all.map((o) => o.slug).join(', ')}`)
-        return found
-      })
-    : all
+  const targets = await resolveTargets(requested, { label: 'node src/build.mjs' })
 
   if (!targets.length) {
     console.error('\n  data/operators.json declares no operators. Nothing to build.\n')

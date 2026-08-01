@@ -628,10 +628,9 @@ async function validateOperator (operatorSlug) {
 }
 
 async function main () {
-  const { operators } = await import('../src/lib/data.mjs')
+  const { resolveTargets } = await import('../src/lib/data.mjs')
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const all = await operators()
-  const targets = requested.length ? requested : all.map((o) => o.slug)
+  const targets = (await resolveTargets(requested, { label: 'node scripts/validate.mjs' })).map((o) => o.slug)
 
   for (const slug of targets) await validateOperator(slug)
 

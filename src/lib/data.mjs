@@ -109,6 +109,45 @@ export async function operators () {
   return (registry.operators || []).filter((o) => o && o.slug)
 }
 
+/**
+ * Which operators a command should act on, given what was asked for on the command line.
+ *
+ * This is the one place `status: "draft"` means anything, and it has to be one place. Five entry
+ * points — both validators, both fact checkers, the build and the audit — each pick their own
+ * targets, and a rule about which sites are publishable that is implemented five times is a rule
+ * that will eventually be implemented four times.
+ *
+ * Naming an operator explicitly always selects it, draft or not, so a half-built site is fully
+ * checkable on demand:
+ *
+ *   npm run check              → live operators only
+ *   node src/build.mjs universal → that one, whatever its status
+ *
+ * A draft is therefore never gated by default and never built by default, which is what keeps a
+ * registered-but-unfinished operator from either reddening the live site's CI or, much worse,
+ * shipping to dist/ because someone forgot it was in the registry.
+ */
+export async function resolveTargets (requested, { label = '' } = {}) {
+  const all = await operators()
+
+  if (requested.length) {
+    return requested.map((slug) => {
+      const found = all.find((o) => o.slug === slug)
+      if (!found) throw new Error(`Unknown operator "${slug}". data/operators.json declares: ${all.map((o) => o.slug).join(', ')}`)
+      return found
+    })
+  }
+
+  const live = all.filter((o) => o.status !== 'draft')
+  const drafts = all.filter((o) => o.status === 'draft')
+  if (drafts.length) {
+    // Announced, never silent. A skipped operator that nobody is told about is how a draft stays a
+    // draft for a year without anyone noticing it was never finished.
+    console.log(`  Skipping ${drafts.length} draft operator${drafts.length === 1 ? '' : 's'}: ${drafts.map((o) => o.slug).join(', ')}${label ? ` (${label} with the slug to include one)` : ''}`)
+  }
+  return live
+}
+
 export async function operatorDir (slug) {
   const found = (await operators()).find((o) => o.slug === slug)
   if (!found) {
