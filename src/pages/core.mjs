@@ -33,13 +33,36 @@ export function homePage (data, seasonal) {
   const totalHeights = data.allHeightAttractions.length
   const totalDining = data.allDining.length
 
-  const featuredGuides = ['height-requirements', 'lightning-lane', 'is-it-scary', 'rider-switch', 'rope-drop-strategy', 'what-to-pack']
-    .map((slug) => data.guideBySlug.get(slug))
-    .filter(Boolean)
+  /*
+   * The home page's featured lists, picked by role and then topped up.
+   *
+   * These were six Disney slugs and four more, which meant a second operator's home page featured
+   * whichever of them it happened to share — three guides and no comparisons at all. Roles pick the
+   * intended pages on any operator; the top-up keeps the grid full when a role has no equivalent,
+   * so the section is never half-empty for a reason no reader can see.
+   */
+  const pick = (roleNames, roleSlug, bySlug, count) => {
+    const chosen = []
+    const seen = new Set()
+    for (const role of roleNames) {
+      const slug = roleSlug[role]
+      if (slug && bySlug.has(slug) && !seen.has(slug)) { seen.add(slug); chosen.push(bySlug.get(slug)) }
+    }
+    for (const [slug, doc] of bySlug) {
+      if (chosen.length >= count) break
+      if (!seen.has(slug)) { seen.add(slug); chosen.push(doc) }
+    }
+    return chosen.slice(0, count)
+  }
 
-  const featuredCompare = ['disneyland-vs-disney-world', 'best-disney-park-for-toddlers', 'disney-park-rankings', 'which-disney-park-should-i-visit']
-    .map((slug) => data.compareBySlug.get(slug))
-    .filter(Boolean)
+  const featuredGuides = pick(
+    ['heights', 'queue', 'isItScary', 'riderSwitch', 'ropeDrop', 'whatToPack'],
+    { ...data.roleSlug, queue: data.guideBySlug.has(data.queue.guideSlug) ? data.queue.guideSlug : null },
+    data.guideBySlug, 6)
+
+  const featuredCompare = pick(
+    ['resortVsResort', 'bestForYoungChildren', 'parkRankings', 'whichPark'],
+    data.roleSlug, data.compareBySlug, 4)
 
   // Derived from the build month rather than authored, so the home page rotates itself and nobody
   // has to remember to take Halloween down in November.
@@ -50,7 +73,7 @@ export function homePage (data, seasonal) {
 
   const body = html`
     ${C.hero({
-      eyebrow: 'Six US Disney parks · independent & unofficial',
+      eyebrow: `${data.parks.length} US parks · independent & unofficial`,
       title: 'Know exactly what your family can ride, eat, and skip.',
       lede: 'Every height requirement, every ride worth queueing for, every snack worth the money — checked, dated, and built to work on park WiFi. No affiliate-driven rankings, no reprinted press releases.',
       actions: [
@@ -70,7 +93,7 @@ export function homePage (data, seasonal) {
 
     ${C.section({
       title: 'Start with your park',
-      kicker: 'The six parks',
+      kicker: `The ${data.parks.length} parks`,
       intro: 'Each park hub links to its full ride list, height chart, dining, printable map, accessibility notes, and a first-timer plan you can actually follow.',
       children: C.cardGrid(parks.map(parkCard), { columns: 3 }),
     })}
@@ -139,7 +162,7 @@ export function homePage (data, seasonal) {
     ${bands.length ? C.section({
       title: 'The whole year on one page',
       kicker: 'Seasonal calendar',
-      intro: 'Every party night, festival, and overlay at both resorts. Colour shows how much has actually been confirmed.',
+      intro: 'Every party night, festival, and overlay. Colour shows how much has actually been confirmed.',
       wide: true,
       children: html`
         ${SC.calendarGantt(bands)}
@@ -166,7 +189,7 @@ export function homePage (data, seasonal) {
             ${paragraphs([
               'A small number of affiliate links, mostly to authorized ticket resellers, and nothing else at present. That is the entire business model today. Display advertising may follow; if it does, it will be disclosed here before it ships. Affiliate links are disclosed directly above the link, not buried in the footer.',
               'What that money does not buy is placement. No restaurant, ride, or reseller can pay to be ranked higher, described more kindly, or added to a “best of” list. When we think something is overpriced or overrated, we say so — including things we would earn a commission on.',
-              'We are not affiliated with The Walt Disney Company in any way. We buy our own tickets.',
+              site.legal.shortDisclaimer + ' We buy our own tickets.',
             ])}
             <p class="mt-5"><a class="btn btn--ghost" href="${urls.editorial()}">Read the editorial policy</a></p>
           </div>
@@ -193,7 +216,7 @@ export function homePage (data, seasonal) {
       site,
       page: {
         url: '/',
-        title: 'Honest guides to the US Disney parks',
+        title: `Honest guides to the ${site.brand.shortName} parks`,
         titleTail: '',
         description: site.meta.defaultDescription,
         modified: '2026-07-01',
@@ -201,7 +224,7 @@ export function homePage (data, seasonal) {
       body,
       schema: [S.itemList(site, {
         url: '/',
-        name: 'US Disney theme parks',
+        name: `${site.brand.shortName} theme parks`,
         items: parks.map((p) => ({ name: p.name, url: p.url })),
       })],
     }),
@@ -215,8 +238,8 @@ export function parksIndexPage (data) {
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
-      eyebrow: 'All six parks',
-      title: 'Every US Disney park, side by side',
+      eyebrow: `All ${data.parks.length} parks`,
+      title: 'Every park, side by side',
       lede: 'Two resorts, six theme parks, and one honest answer to “which one should we actually do?” Pick a park for the deep dive, or jump straight to the comparison pages.',
       tone: 'compact',
     })}
@@ -261,13 +284,13 @@ export function parksIndexPage (data) {
       site,
       page: {
         url: urls.parksIndex(),
-        title: 'All six US Disney parks compared',
-        description: 'Attraction counts, height requirements, and how long each of the six US Disney parks actually takes — with a link to the full guide for every one.',
+        title: `All ${data.parks.length} parks compared`,
+        description: `Attraction counts, height requirements, and how long each of the ${data.parks.length} parks actually takes — with a link to the full guide for every one.`,
         trail,
         modified: '2026-07-01',
       },
       body,
-      schema: [S.itemList(site, { url: urls.parksIndex(), name: 'US Disney theme parks', items: parks.map((p) => ({ name: p.name, url: p.url })) })],
+      schema: [S.itemList(site, { url: urls.parksIndex(), name: `${site.brand.shortName} theme parks`, items: parks.map((p) => ({ name: p.name, url: p.url })) })],
     }),
   }
 }
@@ -293,7 +316,7 @@ export function resortPages (data) {
         ],
         actions: [
           { href: parkList[0] ? parkList[0].url : urls.parksIndex(), label: `Start with ${parkList[0] ? parkList[0].name : 'a park'}`, primary: true },
-          { href: urls.compare('disneyland-vs-disney-world'), label: 'Which resort should we pick?' },
+          { href: data.link.resortVsResort, label: 'Which resort should we pick?' },
         ],
       })}
 
@@ -351,7 +374,7 @@ export function resortPages (data) {
             body: `${data.queue.name} is dynamically priced by date and park. Any single figure you read anywhere is a snapshot. Our [full ${data.queue.name} guide](${urls.guide(data.queue.guideSlug)}) explains the mechanics, the booking windows, and when it is genuinely worth buying.`,
           })}
           ${C.affiliateBox(site, {
-            kind: resort.slug === 'disneyland' ? 'packagesDisneyland' : 'tickets',
+            kind: resort.ticketAffiliate && site.affiliates[resort.ticketAffiliate] ? resort.ticketAffiliate : 'tickets',
             heading: `Where we buy ${resort.shortName} tickets`,
           })}
         `,
@@ -359,9 +382,9 @@ export function resortPages (data) {
 
       ${C.relatedLinks([
         data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'What each tier buys and when it is worth it' } : null,
-        { href: urls.guide('first-disney-trip'), label: 'Your first trip', summary: 'The five decisions that matter most' },
-        { href: urls.compare('disneyland-vs-disney-world'), label: 'Disneyland vs Disney World', summary: 'An actual verdict, not a shrug' },
-        { href: urls.guide('height-requirements'), label: 'Every height requirement', summary: 'All six parks in one table' },
+        { href: data.link.firstTrip, label: 'Your first trip', summary: 'The five decisions that matter most' },
+        { href: data.link.resortVsResort, label: data.compareBySlug.get(data.roleSlug.resortVsResort)?.title || 'Compare the resorts', summary: 'An actual verdict, not a shrug' },
+        { href: data.link.heights, label: 'Every height requirement', summary: `All ${data.parks.length} parks in one table` },
       ])}
     `
 

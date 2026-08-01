@@ -1,0 +1,444 @@
+{
+  "slug": "which-universal-park-should-i-visit",
+  "title": "Which Universal Park Should I Visit? A Decision Tree",
+  "h1": "Which Universal Park Should You Visit?",
+  "metaDescription": "Four US Universal parks, one decision. A ranked answer by group, by number of days, and by height, with the specific mismatches that ruin trips named up front.",
+  "summary": "Islands of Adventure suits the widest range of visitors and is the safest single answer. Epic Universe is the better first day if you have never been. Universal Studios Florida wins on one specific thing, and Universal Studios Hollywood is a different trip entirely.",
+  "readingTimeMinutes": 12,
+  "contenders": [
+    {
+      "key": "islands-of-adventure",
+      "name": "Islands of Adventure",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "epic-universe",
+      "name": "Universal Epic Universe",
+      "subtitle": "Universal Orlando, separate campus"
+    },
+    {
+      "key": "universal-studios-florida",
+      "name": "Universal Studios Florida",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "universal-studios-hollywood",
+      "name": "Universal Studios Hollywood",
+      "subtitle": "Universal City, California"
+    }
+  ],
+  "verdict": {
+    "short": "One park, one day, no strong preferences: Islands of Adventure. First Universal trip with a day to spend: Epic Universe. Three days in Orlando: all three, in the order Epic Universe, Islands of Adventure, Universal Studios Florida.",
+    "body": [
+      "Three of the four US Universal parks are in Orlando and one is in Los Angeles, so the first question is not really which park — it is which coast, and that is usually answered by where you already are. Universal Studios Hollywood is a one-day park in a major city. Universal Orlando is a three-to-four-day resort. Nobody should be choosing between them on ride lists.",
+      "Inside Orlando, the default answer is Islands of Adventure. It has about 30 attractions, the best roller coaster in Florida in Jurassic World VelociCoaster, half of the Wizarding World, six single rider lines, and the only purpose-built small-child island at the resort in Seuss Landing. It suits more kinds of visitor than the other two, which is exactly what a default should do.",
+      "Epic Universe takes the top spot for a specific and common case: a first Universal Orlando trip with one day. It is the newest major theme park built in the United States, it is the best-built park Universal operates in Florida, and it is the one nobody has already seen. It also carries an overhead the other two do not — a separate campus, a shuttle at both ends of the day, and about 21 attractions against Islands of Adventure's 30.",
+      "Universal Studios Florida wins on one thing and it wins on it decisively: Diagon Alley. It is the best-built environment Universal has produced in Florida outside Epic Universe. It also has the most indoor, air-conditioned attractions of the three, which is a genuine August argument, and the highest concentration of screen-based rides in any major US park, which is a genuine argument against it if anyone in your group gets motion sick."
+    ]
+  },
+  "intro": [
+    "This page answers one question: given who is in your group and how many days you have, which Universal park should you actually spend them on. It is not a ranking of park quality — that is a different page with a different order.",
+    "The four parks are Universal Studios Florida, Islands of Adventure and Universal Epic Universe at Universal Orlando, and Universal Studios Hollywood in California. The first two sit either side of CityWalk and are a ten-minute walk apart. Epic Universe is on a separate campus reachable by shuttle bus or car. Hollywood is on the other side of the country.",
+    "One number decides more of this than anything else: the height of your shortest rider. Universal's thrill tier starts where Disney's tops out, with requirements at 48, 51, 52 and 54 inches. If anyone in your party is under 48 inches, read the height section before the decision tree — it will change the answer."
+  ],
+  "dimensions": [
+    {
+      "name": "First-time visitors",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "The safe answer. The strongest ride slate in Orlando and enough variety that nobody is stranded, provided everyone clears 48 inches.",
+        "epic-universe": "The best first day, if you can absorb the transfer. Five worlds, the most advanced attractions Universal has built, and the park nobody has already been to.",
+        "universal-studios-florida": "Third for a first visit unless Harry Potter is the reason for the trip, in which case Diagon Alley moves it up sharply.",
+        "universal-studios-hollywood": "Only if you are in Los Angeles. It is a complete day and a good introduction to what Universal does, at a smaller scale."
+      },
+      "note": "A first-timer with three days should do all three Orlando parks. A first-timer with one day should do Epic Universe."
+    },
+    {
+      "name": "Children under 40 inches",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "Roughly six rides, concentrated in Seuss Landing, which is a real children's island with shade and seating rather than a token. Add Camp Jurassic and Me Ship, The Olive.",
+        "epic-universe": "Isle of Berk is the most family-usable world at the park and SUPER NINTENDO WORLD has genuine small-child content. The two best rides in the park are both 48 inches.",
+        "universal-studios-florida": "The weakest of the three Orlando parks for this group. DreamWorks Land, Villain-Con Minion Blast, Kang and Kodos' Twirl 'n' Hurl, E.T. Adventure at 34 inches, and the shows.",
+        "universal-studios-hollywood": "Short list, but the Studio Tour carries no height requirement at all — the park's best attraction admits a three-year-old, which no Orlando park can say."
+      },
+      "note": "No Universal park is a strong choice under 40 inches. Magic Kingdom operates 37 attractions with no height requirement at all; the best Universal park has roughly six rides a child that size can board."
+    },
+    {
+      "name": "Children 40 to 47 inches",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "The worst band at this park. All five headliners need 48 inches. Spider-Man at 40, the river rides at 42 and 44, and that is most of it.",
+        "epic-universe": "The best band at any Universal park. Mario Kart, Hiccup's Wing Gliders and Curse of the Werewolf at 40 inches, Harry Potter and the Battle at the Ministry and Mine-Cart Madness at 42.",
+        "universal-studios-florida": "Solid. Transformers, Despicable Me Minion Mayhem and The Simpsons Ride at 40 inches, Escape from Gringotts and Men in Black Alien Attack at 42. The catch is that all five are screen rides.",
+        "universal-studios-hollywood": "Good. Transformers, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart at 40 inches, Jurassic World at 42, Flight of the Hippogriff at 39."
+      },
+      "note": "This is the band where park choice matters most and where the standard advice — go to Islands of Adventure — is worst."
+    },
+    {
+      "name": "Teenagers and thrill riders",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "The answer. Jurassic World VelociCoaster, The Incredible Hulk Coaster, Hagrid's, Doctor Doom's Fearfall and three soaking water rides in one loop.",
+        "epic-universe": "Stardust Racers is excellent and the thrill bench behind it is two deep. Better rides, fewer of them.",
+        "universal-studios-florida": "Hollywood Rip Ride Rockit at 51 inches and Revenge of the Mummy at 48 are the two, and Mummy is the better ride. Everything else is screens.",
+        "universal-studios-hollywood": "One indoor launch coaster in the compact version of Revenge of the Mummy. There is no large outdoor coaster on the property."
+      },
+      "note": "Universal is a genuine thrill destination in a way Disney is not, and Islands of Adventure is where that is concentrated."
+    },
+    {
+      "name": "Adults with no children",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "Strong. Ride hard, use single rider lines, eat at Mythos, leave. It is the most efficient adult day at the resort.",
+        "epic-universe": "The best adult day at Universal. Celestial Park holds both sit-down restaurants and every bar worth using, and the park after dark is its best two hours.",
+        "universal-studios-florida": "Diagon Alley, the Horror Make-Up Show, and the best snack bench at the resort. A good half-day built around one land.",
+        "universal-studios-hollywood": "The Studio Tour is genuinely interesting to an adult in a way most theme park attractions are not, and CityWalk outside the gate handles the eating."
+      },
+      "note": "Epic Universe is the only Universal park where sitting down to eat and drink is a legitimate reason to be there."
+    },
+    {
+      "name": "Harry Potter readers",
+      "winner": "tie",
+      "cells": {
+        "islands-of-adventure": "Hogsmeade: Hagrid's, Forbidden Journey, Flight of the Hippogriff, and the Hogwarts Express platform. Half of the original design.",
+        "epic-universe": "The Ministry of Magic, opened 2025 — 1920s Paris over a wizarding government, with the most technically ambitious ride at the park and a theatre show most visitors skip.",
+        "universal-studios-florida": "Diagon Alley: the better-built half, with Escape from Gringotts, two live shows, a wand ceremony and the Leaky Cauldron.",
+        "universal-studios-hollywood": "One village on the Upper Lot, with Forbidden Journey and Flight of the Hippogriff. Well realised at ground level and roughly a third of the total content."
+      },
+      "note": "For a Harry Potter trip, buy a park-to-park ticket. The Hogwarts Express runs only between Hogsmeade and Diagon Alley, shows different content each way, and cannot be upgraded to at the station."
+    },
+    {
+      "name": "Anyone prone to motion sickness",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "The best of the four. Its thrills are physical rather than visual. Forbidden Journey and Spider-Man are the two to be careful with, and they are far apart on the loop.",
+        "epic-universe": "Mixed, and manageable because the park is small enough to space things out. Mine-Cart Madness and Stardust Racers are physical rides.",
+        "universal-studios-florida": "The hardest park in Orlando for this, harder than Hollywood Studios and much harder than Magic Kingdom. Four screen-and-motion-base rides plus two heavily screen-assisted ones.",
+        "universal-studios-hollywood": "Also screen-heavy for its size. Minion Mayhem, The Simpsons Ride, Transformers, Forbidden Journey, Mario Kart and King Kong on the Studio Tour all stack."
+      },
+      "note": "The Simpsons Ride is the worst offender at both parks that have it, because the dome screen fills your peripheral vision."
+    },
+    {
+      "name": "Limited walking range",
+      "winner": "universal-studios-florida",
+      "cells": {
+        "islands-of-adventure": "A ring with no path across the middle. Seuss Landing and Marvel Super Hero Island are roughly twenty minutes apart on foot and there is no shortcut between them.",
+        "epic-universe": "Long distances and a hub-and-spoke layout that routes every world change back through the centre. Manageable with discipline, punishing without it.",
+        "universal-studios-florida": "The flattest and most forgiving of the four. Backlot streets with more connections between districts and shorter detours when you change your mind.",
+        "universal-studios-hollywood": "A hillside park joined by four long outdoor escalators. Hardest of the four for anyone who struggles with stairs, escalators or sustained inclines."
+      },
+      "note": "At Universal Studios Hollywood, plan to go down once and come up once. People who criss-cross the Starway lose the better part of an hour."
+    },
+    {
+      "name": "One day, no car, in the city already",
+      "winner": "universal-studios-hollywood",
+      "cells": {
+        "islands-of-adventure": "Reachable, but you are in Orlando and Orlando is not a city you visit without a car for other reasons.",
+        "epic-universe": "The hardest of the four to reach casually. Its own campus, its own parking structure, and a shuttle at both ends.",
+        "universal-studios-florida": "Same campus access as Islands of Adventure, so the same answer.",
+        "universal-studios-hollywood": "The Metro B Line stops at Universal City with a free shuttle up the hill. It is a rare Los Angeles attraction genuinely reachable without a car, and you can finish it in a day."
+      },
+      "note": "Budget 45 minutes from a car park to the turnstiles at Universal Studios Hollywood. Arriving at the posted opening time means walking through the gate closer to 45 minutes later."
+    },
+    {
+      "name": "Repeat visitors",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "The most durable. The point here is riding the same four rides repeatedly, which is more of the point at Universal than at Disney, and six single rider lines make the arithmetic work.",
+        "epic-universe": "High for now, because most visitors leave having properly seen two or three of five worlds. That is a function of newness and will fade.",
+        "universal-studios-florida": "Moderate. Diagon Alley rewards a slower second look and the ride list does not change.",
+        "universal-studios-hollywood": "Low on rides. The Studio Tour does change with the productions on the lot, which is the one thing here that is different on a second visit."
+      },
+      "note": "A second Universal Orlando trip should weight Islands of Adventure and Epic Universe and treat Universal Studios Florida as a half day."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "islands-of-adventure",
+      "headline": "The widest fit of the four, and the safest answer when you know nothing else about the group.",
+      "body": [
+        "This ranking is about breadth of fit rather than park quality, and Islands of Adventure fits more kinds of visitor than anything else Universal operates. About 30 attractions across seven islands, the best roller coaster in Florida, half of the Wizarding World, and a purpose-built small-child island at the far end of the loop.",
+        "The specific advantage is that it does not force a group to be homogeneous. A party of six with a teenager, two adults and a four-year-old can split at Port of Entry, send half to Marvel Super Hero Island and half to Seuss Landing, and meet in the middle for lunch at Thunder Falls Terrace. That is not possible at Universal Studios Florida, where the under-40-inch list is a half day, and it is awkward at Epic Universe, where every world change routes back through the hub.",
+        "It also has the most free time-saving on offer. Six attractions run single rider lines — Hulk, Spider-Man, Doctor Doom's, Skull Island: Reign of Kong, VelociCoaster and Forbidden Journey — and two adults using them separately will often clear all six in the time standby takes for two. Nothing at a Disney park in Orlando comes close to that.",
+        "**The case against it:** it measures you harder than any other park in the category. Fourteen attractions carry a height requirement, and The Incredible Hulk Coaster at 54 inches, Doctor Doom's Fearfall at 52, Jurassic World VelociCoaster at 51 and both Hagrid's and Forbidden Journey at 48 are a wall. A child of eight who has not reached 48 inches rides none of them. It also has no theatre show since 2018, no nighttime spectacle, and less shade than any other park here."
+      ],
+      "pros": [
+        "The best roller coaster slate in Florida.",
+        "Six single rider lines, the most useful free time-saver at Universal.",
+        "Seuss Landing is the only purpose-built children's island at the resort.",
+        "On the walkable campus, ten minutes from Universal Studios Florida.",
+        "Half of the Wizarding World, with the better ride in Hagrid's."
+      ],
+      "cons": [
+        "The strictest height requirements at any Orlando theme park.",
+        "A closed ring with no path across the middle and no shortcut when you change your mind.",
+        "Very little shade, and most of the ride list stops for a lightning hold.",
+        "The Lost Continent has had no ride since 2023 and no show since 2018.",
+        "No parade, no fireworks and no nighttime show at all."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "epic-universe",
+      "headline": "The best single day at Universal Orlando, with a transfer at both ends of it.",
+      "body": [
+        "Epic Universe opened in May 2025 and is the best-built park Universal operates in the United States. Five worlds around Celestial Park, a landscaped hub that holds the park's best coaster, its strangest ride, both sit-down restaurants and every bar worth using. The Ministry of Magic is 1920s Paris at genuine city scale with a wizarding government underneath it. Dark Universe is the most atmospheric thing at the resort.",
+        "It ranks second on breadth of fit rather than on quality, for two structural reasons. It is on a separate campus with no walkway and no train, so a day here has a shuttle or a drive at each end and cannot be joined to another park on a whim. And it has about 21 attractions, of which roughly ten are rides — fewer than any other Orlando park — so a group that runs out of things to do runs out faster.",
+        "What it does better than anything else at the resort is the 40-to-48-inch band. Mario Kart, Hiccup's Wing Gliders and Curse of the Werewolf are 40 inches, and Harry Potter and the Battle at the Ministry and Mine-Cart Madness are 42. Seven attractions carry a requirement and the tallest is 48. For a family with a child in that band, this is the park that works and Islands of Adventure is the one that does not.",
+        "**The case against it:** a first-time visitor treating this as a half-day add-on will see two of the five worlds and spend the rest of the time in queues. SUPER NINTENDO WORLD's entry system has changed more than once since opening and can gate the world you came for. And the shuttle queue at park close is the worst transport moment of a Universal Orlando trip."
+      ],
+      "pros": [
+        "The most advanced attractions Universal has built anywhere.",
+        "The best food and drink at Universal Orlando, most of it in the hub.",
+        "The widest 40-to-48-inch band at any Universal park.",
+        "The best park here after dark, by a distance.",
+        "Isle of Berk is the most family-usable world at the resort."
+      ],
+      "cons": [
+        "A separate campus with a shuttle or drive at both ends of the day.",
+        "About 21 attractions, fewer than any other Orlando park.",
+        "SUPER NINTENDO WORLD's entry system changes and can gate your morning.",
+        "The two best rides are both 48 inches.",
+        "Operational details move often, because the park is still young."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "universal-studios-florida",
+      "headline": "One land carries it, and that land is worth the ticket.",
+      "body": [
+        "Universal Studios Florida is third on breadth of fit and first on one specific thing. Diagon Alley, opened in July 2014, is the best-built environment Universal has produced in Florida outside Epic Universe: enclosed, reached through a brick wall on a London waterfront, with detailed shops, two live performances and a wand ceremony inside it. Escape from Gringotts has the best-built room in the park in its bank lobby, with animatronic goblins looking up from their ledgers as you pass.",
+        "Around that, the park is a set of backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions in the buildings behind them. About 31 of them, weighted toward screens. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all projection in front of a moving vehicle, and Gringotts and Men in Black lean on screens too.",
+        "It has two genuine strengths beyond Diagon Alley. It has the most indoor, air-conditioned attractions of the three Orlando parks, which is not a small thing in July. And its live entertainment is the best at the resort — Universal Orlando's Horror Make-Up Show has run since 1990, takes 25 air-conditioned minutes, and almost nobody goes.",
+        "**The case against it:** it has the highest concentration of screen-based rides of any major park in the United States. Three of them in a morning will put someone on a bench at noon who has never been travel sick in their life. It is also the weakest of the three Orlando parks for a child under 40 inches, and weaker than any Disney park in Orlando for that group."
+      ],
+      "pros": [
+        "Diagon Alley, which is worth the ticket on its own.",
+        "The most indoor, air-conditioned attractions of the three Orlando parks.",
+        "The best live show bench at the resort.",
+        "Six single rider lines, running at a third of standby or better.",
+        "The best snack and themed-food bench at Universal Orlando."
+      ],
+      "cons": [
+        "The highest concentration of screen-based rides of any major US park.",
+        "Only two genuine coasters, one of them indoors.",
+        "The weakest of the three Orlando parks under 40 inches.",
+        "Diagon Alley caps entry between roughly eleven and six, so the land queues before you do.",
+        "Very little that a repeat visitor has not already done."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "universal-studios-hollywood",
+      "headline": "A complete day on a real film lot, ranked last only because it is on the wrong coast for most readers.",
+      "body": [
+        "This ranking measures which park suits the most visitors, and three of the four are in Orlando. That is the entire reason Universal Studios Hollywood is fourth. On its own terms it is a good park and it does one thing nothing else in the industry can do.",
+        "The Studio Tour is a real working backlot, about an hour including the queue, with no height requirement, and King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale built into the route. It is the reason to buy a ticket rather than a curiosity attached to one, and most guides bury it under the coasters.",
+        "The park is on a hillside in two levels — the Upper Lot with the entrance, the shows, the Wizarding World and Super Nintendo World, and the Lower Lot with Jurassic World, Revenge of the Mummy and Transformers — joined by the Starway, four long outdoor escalators. One day genuinely covers it, which makes it a different proposition from Orlando and a better one for anybody who wanted to finish a park rather than sample one.",
+        "**The case against the placement:** for a reader in Los Angeles or anywhere on the west coast, this park is not fourth — it is first, and the other three are a flight away. Ranked by suitability for the person actually reading, geography beats every other criterion on this page, and this is the placement most likely to be wrong for any given visitor."
+      ],
+      "pros": [
+        "The Studio Tour, which no other theme park anywhere can offer.",
+        "The only one of the four you can genuinely finish in a day.",
+        "Reachable by rail with a free shuttle, unusual for Los Angeles.",
+        "The tallest height requirement is 48 inches, the lowest ceiling of the four.",
+        "Free same-day re-entry to a CityWalk with better food than the park."
+      ],
+      "cons": [
+        "About 25 attractions, several of them the shorter versions of Orlando rides.",
+        "One coaster, and it is the compact version.",
+        "A hillside site with four long escalators between the two levels.",
+        "No table-service restaurant inside the gate, at prices above Disneyland's.",
+        "No hotel tier that includes Express Pass, unlike Orlando."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "decision-tree",
+      "heading": "The decision tree",
+      "body": [
+        "Work down this list and stop at the first line that describes your group. It is ordered by how strongly the condition should override everything else.",
+        "If two lines both apply, the earlier one wins. The height conditions are near the top on purpose, because a wrong answer there is the one that produces a ruined day rather than a slightly worse one."
+      ],
+      "list": {
+        "style": "number",
+        "items": [
+          "**You are in Los Angeles or on the west coast and have one day.** Universal Studios Hollywood. The Orlando parks are a flight and three days away, and this one is complete in a day.",
+          "**Your shortest rider is under 40 inches.** Islands of Adventure, for Seuss Landing, and plan a half day rather than a full one. If your trip is short and this is the whole family, consider Magic Kingdom instead — that recommendation is on our Universal versus Disney page and it is meant seriously.",
+          "**Your shortest rider is between 40 and 47 inches.** Epic Universe. Five attractions open up in that band there and very few do at Islands of Adventure.",
+          "**Somebody in the group reliably gets motion sick.** Islands of Adventure, and put Forbidden Journey and Spider-Man at opposite ends of the day. Avoid a full day at Universal Studios Florida.",
+          "**Harry Potter is the reason for the trip.** Buy park-to-park and do Universal Studios Florida and Islands of Adventure across two days. One park gets you half the design and no train.",
+          "**Anyone came for roller coasters.** Islands of Adventure. VelociCoaster, Hulk, Hagrid's and Doctor Doom's in one loop, and nothing else at the resort is close.",
+          "**It is your first Universal Orlando trip and you have exactly one day.** Epic Universe. It is the best day and the thing you have not seen.",
+          "**You have three days in Orlando.** All three parks: Epic Universe, then Islands of Adventure, then Universal Studios Florida.",
+          "**You are travelling as adults and want to eat and drink well.** Epic Universe, and book a table in Celestial Park before you travel.",
+          "**None of the above applies.** Islands of Adventure. It is the widest fit and the hardest one to regret."
+        ]
+      },
+      "callout": {
+        "type": "note",
+        "body": "Measure your shortest rider at home, with shoes on, before you buy anything. Universal's headliners sit at 48, 51, 52 and 54 inches, and a borderline child is measured at the platform after the full queue rather than at the gate."
+      }
+    },
+    {
+      "id": "by-days",
+      "heading": "Which parks, by how many days you have",
+      "body": [
+        "Universal Orlando now needs three park days as an honest minimum, which is a change from what it needed before Epic Universe opened in May 2025. Advice written earlier than that is wrong by a whole park.",
+        "**One day.** Epic Universe if this is your first visit and you can absorb the shuttle at both ends. Islands of Adventure if anyone came for coasters, if you want to stay on the walkable campus, or if you have a child under 40 inches. Universal Studios Florida only if Diagon Alley is specifically the thing you came for.",
+        "**Two days.** Epic Universe and Islands of Adventure, in that order. Give the first day to Epic while your legs are fresh, and the second to Islands of Adventure, where six single rider lines carry a tired group. If Harry Potter is the point instead, swap Epic Universe for Universal Studios Florida and buy park-to-park so you can ride the Hogwarts Express.",
+        "**Three days.** All three. Epic Universe, Islands of Adventure, Universal Studios Florida. Buy park-to-park so the two original parks work as one long Wizarding World day at the end.",
+        "**Four days.** The same three plus a repeat day, and the repeat should go to Islands of Adventure. Riding the same four headliners again is more of the point at Universal than it is at a Disney park, and the single rider lines make it cheap in time.",
+        "**Half a day.** Universal Studios Florida, for Diagon Alley and two screen rides, or nothing at all. Half a day at Epic Universe is the most common planning mistake at this resort — you will see two of five worlds and spend the rest queuing."
+      ],
+      "table": {
+        "columns": [
+          "Days",
+          "Parks",
+          "Order"
+        ],
+        "rows": [
+          [
+            "Half a day",
+            "Universal Studios Florida",
+            "Diagon Alley first, everything else if there is time"
+          ],
+          [
+            "One day",
+            "One park",
+            "Epic Universe for a first visit, Islands of Adventure otherwise"
+          ],
+          [
+            "Two days",
+            "Two parks",
+            "Epic Universe, then Islands of Adventure"
+          ],
+          [
+            "Three days",
+            "All three Orlando parks",
+            "Epic Universe, Islands of Adventure, Universal Studios Florida"
+          ],
+          [
+            "Four days",
+            "All three plus a repeat",
+            "Add a second Islands of Adventure day at the end"
+          ],
+          [
+            "One day in Los Angeles",
+            "Universal Studios Hollywood",
+            "Lower Lot first, Upper Lot after"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "mismatches",
+      "heading": "The mismatches that ruin trips",
+      "body": [
+        "Most bad Universal days are not caused by choosing the wrong park. They are caused by choosing a park that was wrong for one specific person in the group, and finding out at a loading platform.",
+        "**A child between 40 and 47 inches at Islands of Adventure.** This is the worst mismatch at the resort. The park's five famous rides all need 48 inches or more, and a child at 45 watches their family ride every one of them. Epic Universe is the correct park for that height, and it is not a close call.",
+        "**A motion-sensitive adult at Universal Studios Florida.** Four screen-and-motion-base rides plus two heavily screen-assisted ones in a park you can cross in fifteen minutes. Three of them in a morning ends the day. This is the park to visit with a plan and a show between each ride, not the park to wander.",
+        "**A first-timer giving Epic Universe half a day.** The attraction count is low but the hub-and-spoke layout, the walking distances and the waits consume the time anyway. You will properly see two of the five worlds.",
+        "**A Harry Potter fan on a one-park ticket.** You get one half of a design built as one thing, and no Hogwarts Express, which is a real attraction with different content in each direction. There is no upgrade sold at the station.",
+        "**Anyone with limited walking range at Universal Studios Hollywood.** The park is a hillside cut into two levels joined by four long outdoor escalators. If stairs, escalators or sustained inclines are a problem, this is the hardest of the four parks and it is not obvious from a map.",
+        "**Buying Express Pass for Hagrid's.** It has never accepted Express and has no single rider line. People buy the pass specifically for that ride every day and it does not work. Rope drop, Early Park Admission, or the last hour before close."
+      ],
+      "callout": {
+        "type": "warning",
+        "body": "Height requirements at Universal are measured with shoes on, at the loading platform, after you have queued. Every headliner at Islands of Adventure and Epic Universe has a test seat outside the entrance with identical hardware. Forbidden Journey in particular turns guests away at the platform every day for chest clearance, and the test seat takes thirty seconds."
+      }
+    },
+    {
+      "id": "budget",
+      "heading": "Choosing on budget",
+      "body": [
+        "Ticket prices between the three Orlando parks are close enough that they rarely decide anything. What decides the budget is how many days you buy, whether you buy park-to-park, and how you get front-of-line access.",
+        "**Park-to-park versus one park per day.** Park-to-park is the Wizarding World ticket. It costs more, and it is the only way onto the Hogwarts Express. If Harry Potter is not part of why you are going, a one-park-per-day ticket is genuinely fine and the saving is real.",
+        "**Express Pass versus a Premier hotel room.** This is the highest-value calculation at Universal Orlando. Universal Express Unlimited is included with every room at the three Premier hotels, for every guest, for the whole stay, covering Universal Studios Florida and Islands of Adventure. For a family of four on a busy date, the nightly premium on those rooms can be less than buying Express separately for a single day. Confirm what applies at Epic Universe when you book, because coverage there has changed since the park opened.",
+        "**The free version.** Single rider lines cover six attractions at Universal Studios Florida, six at Islands of Adventure, and five at Universal Studios Hollywood. Two adults willing to ride apart get most of what Express buys, for nothing. It does not help a family that wants to sit together.",
+        "**Early Park Admission.** On-site hotel guests get an hour before posted opening, and Diagon Alley participates. An hour in that land with the entry cap off and Gringotts posting a short wait is the most valuable hour available at Universal Orlando. Confirm which parks and which hotels are included for your dates.",
+        "**Where not to save money.** Do not skip a day to save a ticket if it means giving Epic Universe half a day, and do not buy a one-park ticket for a Harry Potter trip. Both save the least and cost the most."
+      ],
+      "callout": {
+        "type": "money",
+        "body": "As of July 2026, Universal Express Pass at both resorts is priced dynamically by date and the swing between a quiet weekday and a peak Saturday is large. Price your specific dates against a Premier hotel room for the same nights before you buy either. Do not budget against an averaged figure from anywhere, including this site."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "islands-of-adventure": [
+      "Everyone in the group clears 48 inches, and preferably 51.",
+      "Roller coasters are a reason anyone is coming.",
+      "You want a park where a mixed-height group can split and meet in the middle.",
+      "You will use the six single rider lines.",
+      "You want to stay on the walkable campus and take a midday hotel break."
+    ],
+    "epic-universe": [
+      "This is your first Universal Orlando trip and you have one day.",
+      "Your shortest rider is between 40 and 47 inches.",
+      "You want to eat and drink properly inside a theme park.",
+      "You can stay until closing, because the last two hours are the best two hours.",
+      "You can absorb a shuttle or a drive at both ends of the day."
+    ],
+    "universal-studios-florida": [
+      "Diagon Alley is specifically what you came to Orlando to stand in.",
+      "You are visiting in high summer and want indoor attractions to retreat into.",
+      "Your shortest rider is between 40 and 42 inches and screen rides are fine with them.",
+      "You want the best live show bench at the resort.",
+      "You have a park-to-park ticket and are riding the Hogwarts Express."
+    ],
+    "universal-studios-hollywood": [
+      "You are already in Los Angeles or live on the west coast.",
+      "How films actually get made is more interesting to you than a coaster.",
+      "You want to finish a park in one day rather than sample one.",
+      "You are travelling without a car.",
+      "Your group sits between 40 and 48 inches, where Orlando's headliners lock them out."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which Universal park should I visit if I can only pick one?",
+      "a": "Islands of Adventure, unless something specific moves you. It has about 30 attractions, the best coaster in Florida, half of the Wizarding World and the only purpose-built children's island at the resort, which makes it the hardest of the four to regret. Pick Epic Universe instead if it is your first Universal Orlando trip and you want the newest park in the country."
+    },
+    {
+      "q": "How many days do I need at Universal Orlando?",
+      "a": "Three park days as an honest minimum now that Epic Universe exists, and four if you want to repeat headliners — which at Universal is more of the point than it is at a Disney park. Two days covers the two original parks at a rush and skips Epic Universe entirely. Any advice recommending a day and a half was written before May 2025."
+    },
+    {
+      "q": "Which Universal park is best for young children?",
+      "a": "Islands of Adventure, for Seuss Landing, which has four rides at 34 inches, 36 inches and no minimum at all, plus shade and seating. Expect roughly six rides for a child under 40 inches and plan a half day rather than a full one. Every Universal park is a harder sell for this age than any Disney park in Orlando, and that is worth knowing before you book."
+    },
+    {
+      "q": "Which park should I visit first?",
+      "a": "Epic Universe, if it is in your plan. It asks the most of your legs, it rewards arriving fresh, and SUPER NINTENDO WORLD's entry system is the one thing you cannot fix later in the day. Islands of Adventure carries a tired group better because six single rider lines do the work that careful sequencing has to do at Epic Universe."
+    },
+    {
+      "q": "Do I need a park-to-park ticket?",
+      "a": "You need one to ride the Hogwarts Express between Hogsmeade at Islands of Adventure and Diagon Alley at Universal Studios Florida. It is checked in both directions, it is an attraction with different content each way, and no upgrade is sold at the station. For a Harry Potter trip it is essential. For a coaster day at one park it is not."
+    },
+    {
+      "q": "Which Universal park has the best rides?",
+      "a": "Islands of Adventure on depth and on coasters — Jurassic World VelociCoaster, The Incredible Hulk Coaster, Hagrid's Magical Creatures Motorbike Adventure and The Amazing Adventures of Spider-Man. Epic Universe on individual ride technology, where Harry Potter and the Battle at the Ministry and Monsters Unchained are the most ambitious attractions Universal has built."
+    },
+    {
+      "q": "Is Epic Universe worth the extra travel?",
+      "a": "For a first visit, yes. It is the best-built park Universal operates in Florida and the best single day at the resort. The overhead is real, though: a separate campus, a shuttle or a drive at both ends, and roughly a fifth of the useful hours in the day spent on the transfer and the queue for it. Budget for that rather than discovering it."
+    },
+    {
+      "q": "Should I visit Universal Studios Hollywood instead of Orlando?",
+      "a": "Only if you are already on the west coast. Orlando is bigger in every direction — three parks, more rides, longer versions of several attractions Hollywood also has, and a hotel system that bundles Express Pass at the top tier. Hollywood has the Studio Tour, which Orlando cannot replicate, and it fits into a single day. Do not fly across the country for it; do add it to a Los Angeles trip."
+    }
+  ],
+  "related": [
+    "universal-park-rankings",
+    "universal-orlando-vs-universal-hollywood",
+    "universal-studios-florida-vs-islands-of-adventure",
+    "epic-universe-vs-islands-of-adventure",
+    "best-universal-park-for-young-children",
+    "universal-vs-disney-orlando"
+  ],
+  "lastVerified": "2026-07"
+}

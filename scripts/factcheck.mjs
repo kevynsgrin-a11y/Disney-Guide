@@ -42,11 +42,13 @@ let PROPER_NAMES = []
 let CONFLICTS = []
 let conflictsHit = new Set()
 let QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane' }
+let SITE = null
 
 async function loadReference (operatorSlug) {
   const { operatorDir, parkOrder } = await import('../src/lib/data.mjs')
   DATA = await operatorDir(operatorSlug)
   const site = JSON.parse(await readFile(join(DATA, 'site.json'), 'utf8'))
+  SITE = site
   PARK_SLUGS = parkOrder(site)
   QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane', ...(site.queue || {}) }
 
@@ -267,6 +269,42 @@ async function checkPark (slug) {
   }
 }
 
+/**
+ * The same food item priced differently in two parks of the same resort.
+ *
+ * Standardised items — a pretzel, a Butterbeer — carry one price across a resort, so a split is
+ * usually not a fact about the parks but an artefact of how the data was written: two authors, two
+ * files, one drink, two numbers. No reference table can catch this, because each price is perfectly
+ * plausible on its own; it is only the disagreement that is wrong.
+ *
+ * A note rather than a failure, because a genuinely location-specific price is legitimate and does
+ * happen. The point is to make someone look.
+ */
+async function checkResortPriceConsistency (site) {
+  const byResort = new Map()
+  for (const resort of site.resorts || []) {
+    for (const parkSlug of resort.parks || []) {
+      const path = join(DATA, 'parks', parkSlug, 'food.json')
+      if (!existsSync(path)) continue
+      for (const item of (await readJson(path)).items || []) {
+        if (item.price == null) continue
+        const key = `${resort.slug} ${norm(item.name)}`
+        if (!byResort.has(key)) byResort.set(key, [])
+        byResort.get(key).push({ park: parkSlug, name: item.name, price: item.price })
+      }
+    }
+  }
+
+  for (const [key, rows] of byResort) {
+    const prices = new Set(rows.map((r) => r.price))
+    if (prices.size < 2) continue
+    const [resortSlug] = key.split(' ')
+    note(`${resortSlug}/food`, `"${rows[0].name}" is priced differently within one resort — ` +
+      rows.map((r) => `${r.park} $${r.price}`).join(', ') +
+      '. Either it genuinely differs by location, which happens, or one of them is wrong.')
+  }
+}
+
 async function checkProse () {
   const files = []
   for (const slug of PARKS()) {
@@ -409,6 +447,7 @@ for (const operatorSlug of targets) {
   await loadReference(operatorSlug)
   for (const slug of PARKS()) await checkPark(slug)
   await checkProse()
+  await checkResortPriceConsistency(SITE)
   await checkGuideCounts()
   await checkQueueGuideClaims()
 

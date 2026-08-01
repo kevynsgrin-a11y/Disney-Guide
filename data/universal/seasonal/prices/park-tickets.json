@@ -1,0 +1,215 @@
+{
+  "slug": "park-tickets",
+  "title": "Universal Park Ticket Prices",
+  "titleTail": ": Both Resorts, Priced Per Day, July 2026",
+  "h1": "Universal park ticket prices, and the two decisions that actually move the number",
+  "description": "What Universal Orlando and Universal Studios Hollywood tickets cost as of July 2026, why park-to-park is the decision that matters, and where the real savings are.",
+  "summary": "Universal prices its tickets by date at both resorts, so the headline figure is close to meaningless, and the two decisions that genuinely move what you spend are how many days you buy and whether you buy park-to-park.",
+  "ownership": "This page is the price list. What each park contains, how the parks connect, and which one suits your party are owned by the park guides on the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "1-day, one park, adult — Universal Studios Florida or Islands of Adventure",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        110,
+        210
+      ],
+      "asOf": "July 2026",
+      "note": "Date-based. The bottom of this band exists on a small number of late-January, early-February and September weekdays; the top is the Christmas fortnight, Easter week and the Independence Day period. This is the widest band on the page relative to its midpoint, which is what date-based pricing does."
+    },
+    {
+      "label": "1-day, one park, adult — Epic Universe",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        140,
+        240
+      ],
+      "asOf": "July 2026",
+      "note": "Epic Universe prices above the two original parks at every date tier, in the same way the newest park at any resort does. On a one-day Orlando trip this is the row that decides whether the trip is worth taking at all, because a single day here costs more than a single day anywhere else in Florida."
+    },
+    {
+      "label": "1-day park-to-park, adult — the two original parks",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        170,
+        280
+      ],
+      "asOf": "July 2026",
+      "note": "The upgrade that lets you cross between Universal Studios Florida and Islands of Adventure on the same day, which is what the Hogwarts Express train requires. On a one-day or two-day trip this is the most consequential ticket decision at this resort, and we would take it."
+    },
+    {
+      "label": "1-day, one park, child aged 3 to 9",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        105,
+        205
+      ],
+      "asOf": "July 2026",
+      "note": "The child rate is a five-dollar gesture rather than a meaningful reduction, and it ends the day a child turns 10. Children under 3 enter free at both resorts and do not need a ticket at all, which is the only large family saving in the product."
+    },
+    {
+      "label": "3-day, one park per day, adult",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        270,
+        440
+      ],
+      "asOf": "July 2026",
+      "note": "Roughly $90 to $147 a day. Three days is the honest minimum for the resort now that Epic Universe exists, and the per-day price falls steeply from the one-day figure, which is the single most useful piece of arithmetic on this page."
+    },
+    {
+      "label": "3-day park-to-park, adult",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        350,
+        540
+      ],
+      "asOf": "July 2026",
+      "note": "Roughly $117 to $180 a day. The park-to-park premium narrows as a percentage on longer tickets, which is why we recommend it more readily at three days than at one. It is also what makes an evening park swap possible when a storm closes half of one park."
+    },
+    {
+      "label": "5-day park-to-park, adult",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        390,
+        600
+      ],
+      "asOf": "July 2026",
+      "note": "Roughly $78 to $120 a day, and the cheapest Universal Orlando park day anyone can buy without a residency-restricted product. Days four and five add very little to the total, which is the structural reason a longer trip costs less per day than a short one."
+    },
+    {
+      "label": "Volcano Bay, one day, adult",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        80,
+        110
+      ],
+      "asOf": "July 2026",
+      "note": "The cheapest park day at the resort and the highest-value one between June and September, because it is the only Universal product that is genuinely better in the heat. Sold on its own or as an add-on to a multi-day ticket, and the add-on is cheaper than the standalone."
+    },
+    {
+      "label": "1-day general admission, adult",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        109,
+        199
+      ],
+      "asOf": "July 2026",
+      "note": "Also date-based, and the spread is narrower than Orlando's because there is only one park and a much larger share of local business. The bottom of the band appears on midweek dates in January, February and late August; the top is the Christmas fortnight and Easter week."
+    },
+    {
+      "label": "1-day general admission, child aged 3 to 9",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        104,
+        194
+      ],
+      "asOf": "July 2026",
+      "note": "The same small gesture as in Orlando, ending at a child's tenth birthday. Universal Studios Hollywood is a one-day park for almost everybody, so there is no multi-day curve here to work with the way there is in Florida."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "How to read these bands",
+      "body": [
+        "Every figure here is a band because Universal does not sell a ticket at a price — it sells a ticket for a date, for a park, for a length. The bands describe the spread we observed as of July 2026 across the full calendar. They are not a quote for any specific date and they are deliberately wide, because a narrow band would imply a precision we do not have.",
+        "Where a band looks too wide to be useful, that width is mostly the product rather than our uncertainty. The distance between a September Tuesday and a Christmas-week Saturday at the same park for the same ticket is genuinely most of that gap.",
+        "Prices exclude tax, which is added at the payment screen and differs between Florida and California. Budget an additional six to eight percent on every figure on this page.",
+        "Universal raises prices, usually more than once a year and without advance announcement, at both resorts. If you are budgeting a trip more than six months out, budget above the midpoint of these bands rather than at it."
+      ]
+    },
+    {
+      "heading": "The park-to-park decision, answered",
+      "body": [
+        "Buy park-to-park in Orlando on any trip of one or two days, and consider skipping it only on a long trip where you have a day for each park anyway. Universal Studios Florida and Islands of Adventure are a ten-minute walk apart across CityWalk, which is a completely different proposition from four parks separated by bus journeys.",
+        "The Hogwarts Express is the specific reason. The train runs between the two parks and riding it requires park-to-park admission in both directions, and it is one of the resort's genuine set pieces rather than a transport link with a queue. A visitor who skips the upgrade and then discovers this at the platform has made the most avoidable mistake at this resort.",
+        "Epic Universe sits on a separate campus reached by shuttle bus or car, which changes the calculation. Park-to-park does not make Epic Universe convenient to combine with the other two on the same day, so treat it as a full day of its own regardless of which ticket you hold."
+      ]
+    },
+    {
+      "heading": "Where the discounts actually are",
+      "body": [
+        "There are four real discounts on Universal tickets and everything else is noise: authorized resellers, residency and military offers, buying more days, and the promotional multi-day tickets Universal runs in its own low seasons.",
+        "Authorized resellers save a modest amount on multi-day tickets — real money, but a few percent rather than a transformation, and largest on the longest tickets. Buy only from sellers Universal lists as authorized. The storefronts near both resorts advertising heavily discounted admission are trading in partly used tickets and timeshare presentations, and Universal does not honor them.",
+        "Florida residents and Southern California residents should never start with a gate ticket. Both resorts run resident-only multi-day products and resident-only pass tiers that price below the bands on this page, with blockout dates attached. If you qualify, the resident product is the starting point and the gate price is the fallback.",
+        "Universal runs periodic promotional multi-day offers, most often for travel in its own quiet windows, and they are announced with little notice and withdrawn the same way. They are worth checking before you buy and not worth waiting for, because there is no reliable pattern to when they appear."
+      ]
+    },
+    {
+      "heading": "The seasonal shape of ticket prices",
+      "body": [
+        "Tickets sit at the bottom of their bands in the second and third weeks of January, most of February outside the Presidents' holiday, the last week of August, the first three weeks of September, and the first ten days of December. Those windows are also the cheapest for hotels and for Express Pass, so the savings compound rather than trade off.",
+        "They sit at the top from just before Christmas into the first days of January, in the fortnight bracketing Easter, in the week around Independence Day, and across the Thanksgiving weekend. The cheapest and dearest one-day Orlando ticket are the same product at the same park at opposite ends of the same band.",
+        "For a family of four on a three-day Orlando trip, moving from a peak week to a shoulder week saves several hundred dollars on admission alone. That is before the hotel saving, which is larger, and before the Express Pass saving, which at this operator is larger still. Date selection is the single biggest lever on a Universal budget."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Add days rather than trips. The per-day price of a Universal Orlando ticket falls sharply from one day to five, so one longer trip costs materially less in admission than two short ones for the same number of park days. This is the largest structural saving on the page and it is available to anyone with flexible leave.",
+    "Move the dates rather than hunting for a code. The same one-park Orlando ticket sits at the bottom of its band on a September Tuesday and at the top in the Christmas fortnight. If two candidate weeks are interchangeable, price both in the booking flow before you commit to either — it costs nothing and it beats every other tactic here.",
+    "Buy park-to-park in Orlando on any trip of one or two days. At the bands above the upgrade is real money, and it is the only way to ride the Hogwarts Express, which is a set piece rather than a transport link. Skipping it and finding out at the platform is the most common and most avoidable ticket error at this resort.",
+    "Check residency and military eligibility before you price anything else. Florida-resident, Southern California-resident and armed forces products price below every band on this page and are sold through separate channels with blockout dates attached. If one applies to your party, start there.",
+    "Use an authorized reseller for multi-day tickets and nowhere else. The saving is modest and genuine, and it is largest on the longest tickets. Avoid the discount ticket storefronts near both resorts entirely, because they trade in partly used tickets and timeshare presentations that Universal will not honor.",
+    "Add Volcano Bay to a multi-day Orlando ticket rather than buying it standalone. The add-on price is lower than the separate ticket, and a water park day in the Florida summer is the highest-value park day the resort sells. In winter it is the opposite, so skip it entirely between December and February."
+  ],
+  "crossLinks": [
+    {
+      "label": "Park-to-park tickets and the Hogwarts Express",
+      "href": "/guides/park-to-park-tickets/",
+      "site": 1
+    },
+    {
+      "label": "Your first Universal trip",
+      "href": "/guides/first-universal-trip/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe first-timer guide",
+      "href": "/universal-orlando/epic-universe/first-timer-guide/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why do your prices not match what I see on the Universal site?",
+      "a": "Because Universal prices tickets by date at both resorts and reprices without announcement. The bands here describe the spread we observed as of July 2026 across the full calendar, not a quote for your date. If your date prices above the top of a band, that is information rather than an error — it means your date is busier than any we sampled, or prices have moved since."
+    },
+    {
+      "q": "Is park-to-park worth the money?",
+      "a": "On a one-day or two-day Orlando trip, yes, without much argument. The two original parks are a ten-minute walk apart, the Hogwarts Express requires it, and the flexibility to move parks when a storm closes half of one is worth real money in the summer. On a longer trip where you have a full day for each park it becomes optional."
+    },
+    {
+      "q": "Do Universal tickets expire?",
+      "a": "Yes, in two ways that catch people out. Multi-day tickets must be used within a defined window that begins on first use, and unused tickets carry an expiry date set at purchase. Universal does not routinely refund or extend an expired ticket. Buy the number of days you will actually use rather than banking days for a future trip."
+    },
+    {
+      "q": "How many days do we need at Universal Orlando?",
+      "a": "Three park days is the honest minimum now that Epic Universe exists, and four is better if you want to repeat the headliners, which at this operator is more of the point than it is elsewhere. Two days covers the two original parks at a rush and misses Epic entirely. That is a pricing question as much as a planning one, because the per-day cost falls as you add days."
+    },
+    {
+      "q": "Is a child ticket much cheaper?",
+      "a": "No. The child rate for ages 3 to 9 is roughly a five-dollar reduction per day at both resorts and it ends on a child's tenth birthday. Children under 3 enter free and do not need a ticket, which is the only genuinely large family saving in the product. Budget children at close to adult prices."
+    },
+    {
+      "q": "Should we buy tickets in advance or at the gate?",
+      "a": "In advance, and not because it is cheaper on the day — it is usually the same or slightly less online — but because Universal raises prices without notice and a ticket bought before an increase stays valid at the price paid within its expiry window. Advance purchase also lets you price several candidate dates against each other, which is where the real saving is."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Every band on this page describes gate pricing observed as of July 2026 and is deliberately wide. We label this page as last-confirmed rather than confirmed because Universal prices tickets by date at both resorts and reprices without advance announcement, and we have no operator announcement to cite for any current or future price structure. The Epic Universe and five-day Orlando bands are the least well sampled on the page and should be treated as the loosest figures here.",
+    "reviewBy": "2026-11",
+    "cycle": "rolling"
+  }
+}

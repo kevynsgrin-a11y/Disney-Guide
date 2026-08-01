@@ -1,0 +1,136 @@
+{
+  "slug": "christmas-and-holidays",
+  "season": "holidays",
+  "title": "Universal at Christmas",
+  "titleTail": ": Both Resorts, Included With Admission",
+  "h1": "Universal at Christmas: what runs on each coast, and the ten days worth booking",
+  "description": "Holiday overlays at Universal Orlando and Universal Studios Hollywood: what runs, why none of it costs extra, and which fortnight to avoid.",
+  "summary": "Universal's holiday content runs on regular park admission at both resorts, with no hard-ticket Christmas party anywhere in the company, which makes the date of your park ticket the only decision that changes what this season costs.",
+  "typicalWindow": {
+    "startsAround": "the middle of November in Orlando, late November or early December in Hollywood",
+    "endsAround": "the first days of January at both resorts"
+  },
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": [
+        "Book the first ten days of December on either coast. The holiday overlays are fully installed by then, they do not change at any point before the new year, and the crowd and the price roughly triple across the middle of the month. Nothing else in this season is worth as much as that one decision.",
+        "There is no hard-ticket Christmas party at Universal. The parades, the shows, the castle projection and the seasonal decoration all run on regular park admission at both resorts. That is a genuine structural difference from what visitors expect if they have only done the other Orlando resort, and it means the lever here is the date of your park ticket rather than the date of an event ticket.",
+        "The one thing that does need separate booking is New Year's Eve, where Universal Orlando has historically sold ticketed CityWalk celebrations. That has its own page on this site, because it behaves nothing like the rest of the season."
+      ]
+    },
+    {
+      "heading": "What runs in Orlando",
+      "body": [
+        "Universal Orlando's holiday layer spreads across the resort rather than concentrating in one park. Universal Studios Florida runs a holiday parade built around balloons and floats from the Macy's Thanksgiving Day Parade, which is the largest single piece of the season and the one worth planning an evening around.",
+        "Islands of Adventure carries the Grinch, with a stage show in Seuss Landing and a themed overlay of that land, and the Hogsmeade side of the park runs a projection show on the castle after dark. The castle show is the strongest thing in the Orlando season on a per-minute basis and it is free with your ticket, which puts it among the best value in this month at either resort.",
+        "Epic Universe has been folded into the resort's holiday season since it opened, and its programme is newer and less established than the other two parks'. We would not build a trip around it yet, and we would expect it to change between cycles more than the older parks' content does."
+      ]
+    },
+    {
+      "heading": "What runs in Hollywood",
+      "body": [
+        "Universal Studios Hollywood runs Grinchmas, which turns part of the park into Whoville with a stage show, and it runs the same Wizarding World castle projection show that Orlando does. Between them those two are the season, and both are included with regular admission.",
+        "The show schedule matters more here than in Orlando because the park is small and the shows fill. Check the times when you arrive and build the day around them rather than assuming you will catch one in passing. The Grinchmas show in particular has queues that form well before the performance.",
+        "Hollywood's holiday season is shorter and less dispersed than Orlando's, and it is also considerably cheaper to see, because a one-day ticket and a parking charge is the entire cost. For a Southern California local it is the best-value seasonal outing this operator runs."
+      ]
+    },
+    {
+      "heading": "The date arithmetic, which is the whole of the planning",
+      "body": [
+        "The seasonal content is identical on the fifth of December and the twenty-eighth. The queue is not, the hotel rate is not, and the ticket tier is not. In Orlando the swing across that boundary covers hotel, admission and Express Pass at once, and it is the largest date-driven price difference anywhere on the Universal calendar.",
+        "The second half of December is the busiest fortnight of the Universal year at both resorts, and Universal Orlando parks have historically stopped admitting guests on the worst days of it. That is a capacity closure rather than a long queue, and it applies to people holding valid tickets who arrive late.",
+        "If you must travel in the peak fortnight, the defence is arrival time and on-site accommodation. Early park admission for hotel guests is worth more in that window than at any other point in the year, and the Express Pass inclusion at the three top-tier Orlando hotels is closest to justifying its premium there.",
+        "Southern California schools break up later than many of the states that feed Orlando's holiday travel, so Hollywood holds a lower crowd level further into December. The second and third weeks are a better window in California than in Florida, and the days right after Christmas are worse in California relative to how much park there is."
+      ]
+    },
+    {
+      "heading": "What this season does not have",
+      "body": [
+        "No separately ticketed party. No after-hours holiday event. No dessert party at either resort of the kind visitors ask us about most often. If your mental model of a theme park Christmas involves buying a special evening ticket, that model does not apply here.",
+        "No snow-globe weather either. Orlando in December runs low 70s afternoons and the Los Angeles valley runs high 60s, so the holiday content is being delivered in mild weather at both resorts. That is pleasant and it is not what the marketing photography suggests.",
+        "The overlays also come down early. Both resorts have historically stripped their holiday layer within the first days of January, and the exact date is not published far in advance, so a trip in the second week of January gets January prices and no holiday content at all."
+      ]
+    }
+  ],
+  "byResort": {
+    "universal-orlando": {
+      "verdict": "The first ten days of December, spread across all three parks, with the castle projection show as the fixed point of the trip.",
+      "events": [
+        "holidays-at-universal-orlando"
+      ],
+      "note": "Universal Orlando's holiday season has run from around the middle of November into the first days of January across recent cycles and is included with regular park admission throughout. Universal Studios Florida runs the parade, Islands of Adventure runs the Grinch content and the Wizarding World castle projection show, and Epic Universe carries a newer and less established programme. There is no hard-ticket holiday party. The resort's peak fortnight from just before Christmas into the new year is the busiest and most expensive stretch of its year."
+    },
+    "universal-hollywood": {
+      "verdict": "Grinchmas plus the castle show on a weekday before Southern California schools break, which is later in December than most people assume.",
+      "events": [
+        "grinchmas-at-universal-hollywood"
+      ],
+      "note": "Universal Studios Hollywood runs Grinchmas and the Wizarding World castle projection show, both included with regular admission, from late November or early December into the first days of January. The park is compact and the shows fill, so performance times should shape the day rather than being fitted around it. Southern California districts break up in the last full week before Christmas, which makes the second and third weeks of the month the local sweet spot."
+    }
+  },
+  "crossLinks": [
+    {
+      "label": "Your first Universal trip",
+      "href": "/guides/first-universal-trip/",
+      "site": 1
+    },
+    {
+      "label": "Hogsmeade at Islands of Adventure",
+      "href": "/universal-orlando/islands-of-adventure/lands/hogsmeade/",
+      "site": 1
+    },
+    {
+      "label": "The Wizarding World at Universal Hollywood",
+      "href": "/universal-hollywood/universal-studios-hollywood/lands/wizarding-world-of-harry-potter/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "holidays-at-universal-orlando",
+    "grinchmas-at-universal-hollywood"
+  ],
+  "faqs": [
+    {
+      "q": "Does Universal sell a Christmas party ticket like the one at the other Orlando resort?",
+      "a": "No, and this is the question we get most often about the season. Neither Universal Orlando nor Universal Studios Hollywood runs a separately ticketed holiday party. The parades, shows, projection show and decoration are all included with regular park admission. The only ticketed holiday product is the New Year's Eve celebration at CityWalk in Orlando, which is a different thing entirely."
+    },
+    {
+      "q": "When is the cheapest time to see the holiday content?",
+      "a": "The first ten days of December at both resorts. The overlays are fully installed by then and the crowd and the rates have not moved yet. In Orlando the difference between that window and the fortnight after Christmas covers hotel rate, ticket tier and Express Pass simultaneously, and for a family of four across three park days it is the largest single saving available anywhere on this calendar."
+    },
+    {
+      "q": "How bad is the fortnight after Christmas, honestly?",
+      "a": "It is the busiest stretch of the Universal year at both resorts, worse than any week in July, and Universal Orlando parks have historically reached capacity and stopped admitting guests on the worst days of it. If you are travelling then, be at the gate before opening every day, stay on site if you can for the early admission, and plan fewer parks than you would otherwise."
+    },
+    {
+      "q": "Is the holiday season worth a trip on its own?",
+      "a": "At Universal Orlando in early December, yes. Three parks, mild weather, low crowds and a full seasonal layer at no extra charge is a strong combination and one of the two or three best weeks of the year to be at that resort. At Universal Studios Hollywood it is a very good day rather than a trip, which is true of that park in every month."
+    },
+    {
+      "q": "When does the holiday content start and finish?",
+      "a": "In Orlando it has opened around the middle of November across recent cycles and in Hollywood a week or two later, and both have closed in the first days of January. The exact dates are published per cycle and have moved by a week or more between years. A trip in early November can land between the Halloween season and the holiday one, and a trip in the second week of January can miss it entirely. Check the operator's own calendar before booking around it."
+    },
+    {
+      "q": "Do I need Express Pass in December?",
+      "a": "In the first ten days, no. Crowds are close to their autumn level and the money is better spent elsewhere. In the fortnight from just before Christmas into the new year, yes, or stay at one of the three Orlando hotels that include it, because that is the period when queues are longest and the separately purchased version is at its annual ceiling."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Season windows describe the pattern across recent cycles at both resorts. The statement that neither resort sells a hard-ticket holiday party reflects recent cycles rather than an announcement about any future one. Epic Universe's holiday programme rests on very few cycles and is deliberately described as unestablished. No current-cycle dates have been verified against either resort's published calendar as of July 2026.",
+    "reviewBy": "2026-11",
+    "cycle": "annual"
+  }
+}

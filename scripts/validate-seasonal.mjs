@@ -424,11 +424,13 @@ async function validateMonths (s1Urls, eventSlugs) {
     if (!m.cost) err(where, 'missing "cost"')
     else oneOf(m.cost, 'level', LEVEL, `${where} → cost`)
 
+    // One climate block per resort this operator declares, keyed by resort slug.
     const w = m.weather
-    if (!w || !w.wdw || !w.dlr) {
-      err(where, 'missing "weather" with both "wdw" and "dlr"')
+    const resortKeys = [...RESORT].filter((r) => r !== 'both')
+    if (!w || resortKeys.some((k) => !w[k])) {
+      err(where, `missing "weather" with a block for each resort: ${resortKeys.join(', ')}`)
     } else {
-      for (const key of ['wdw', 'dlr']) {
+      for (const key of resortKeys) {
         for (const field of ['highF', 'lowF', 'rainDays']) {
           if (typeof w[key][field] !== 'number') err(`${where} → weather.${key}`, `"${field}" must be a number`)
         }

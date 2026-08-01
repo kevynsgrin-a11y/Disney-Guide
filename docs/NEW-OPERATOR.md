@@ -88,6 +88,31 @@ do not change per operator; only what they are *called* does.
 `guideSlug` also names a page you must write. It is the most price-sensitive page on the site and the
 first one to go stale, which is why the fact checker asserts claims against it.
 
+#### The `crossLinks` block
+
+Shared templates offer cross-links — "the rider-switch guide", "best park for food" — and cannot name
+a slug, because one operator calls it Rider Switch and another calls it Child Swap. `crossLinks` maps
+a **semantic role** to *this* operator's slug:
+
+```jsonc
+"crossLinks": {
+  "guides":  { "riderSwitch": "child-swap", "firstTrip": "first-universal-trip", "ropeDrop": null, … },
+  "compare": { "parkRankings": "universal-park-rankings", "bestForFood": "best-universal-park-for-food", … }
+}
+```
+
+A role with no equivalent is `null`, and a role pointing at a page that was not built resolves to
+null too. The link components drop any link with no href, so the tile simply does not appear. A
+cross-link is a courtesy; a 404 is a defect.
+
+#### Other per-operator fields worth knowing
+
+| Field | What it prevents |
+|---|---|
+| `resorts[].weatherLabel` | Month pages label their climate rows from the resort. The weather block used to be keyed `wdw`/`dlr`, so every operator filed its climate data under two Disney resort names — and then rendered those names |
+| `resorts[].ticketAffiliate` | Which affiliate a resort's ticket box uses, instead of a template testing `resort.slug === 'disneyland'` |
+| `notes.accessibility` | The accessibility policy callout on every park page. Operator policy differs, and omitting the key omits the callout rather than showing someone else's |
+
 **The domain must not contain the operator's trademark.** Nominative fair use covers page content and
 URL paths; a domain functions as a source identifier and is analysed differently. See the Brand
 section of the README.

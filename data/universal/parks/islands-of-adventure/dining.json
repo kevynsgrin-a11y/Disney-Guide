@@ -1,0 +1,1203 @@
+{
+  "park": "islands-of-adventure",
+  "dining": [
+    {
+      "slug": "confisco-grille",
+      "name": "Confisco Grille",
+      "land": "port-of-entry",
+      "service": "table-service",
+      "cuisine": "Global - Mediterranean, Asian and American plates",
+      "priceTier": "$$",
+      "priceNote": "Entrees generally run about $17-29 as of July 2026; two people eat for around $60 with a drink each.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's dependable sit-down option by the entrance, and the table service most likely to seat a walk-up when everything else is full.",
+      "description": [
+        "Confisco Grille sits in Port of Entry a short walk inside the turnstiles, dressed as a customs house full of confiscated goods from every island in the park - there are props on the walls from Jurassic Park, Seuss Landing and Hogsmeade if you look. It is the least talked-about restaurant at Islands of Adventure and the most useful one.",
+        "The menu is deliberately scattered: pad thai, a Mediterranean plate with hummus and pita, flatbreads, burgers, ribs, salads. That looks unfocused on paper and works in practice, because it is the one place in the park that will feed a group where one person wants noodles, one wants a steak and one is vegan. The cooking is solid rather than exciting.",
+        "Its real advantage is availability. Mythos books out on busy dates and Confisco frequently does not, and it takes walk-ups more reliably than any other table service at Universal Orlando. When the park is hot, full and out of options, this is the room with a table in it."
+      ],
+      "signatureItems": [
+        "Pad Thai",
+        "Mediterranean hummus and pita platter",
+        "Flatbread of the day",
+        "Baby back ribs",
+        "Confisco burger"
+      ],
+      "goodFor": ["families", "groups", "air-conditioned-break", "vegetarian", "picky-eaters"],
+      "tips": [
+        "Book it, but do not panic if you did not - this is the walk-up restaurant at Islands of Adventure and it usually finds a table.",
+        "Ask for a table in the back room. The props on the walls back there are confiscated items from the other islands and they are worth ten minutes.",
+        "It sits by the entrance, which makes it the right choice for a late lunch on the way out rather than a mid-day stop that costs you a walk.",
+        "The Backwater Bar behind it serves the same food with no reservation at all if you are happy at a bar table."
+      ],
+      "verdict": "Not the best food in the park and easily the most useful restaurant in it. Book Mythos if you can and keep Confisco as the plan that works when the day goes sideways.",
+      "faqs": [
+        { "q": "Can you walk up to Confisco Grille without a reservation?", "a": "More often than not, yes. It is the most walk-up-friendly table service at Universal Orlando and it is rarely booked solid the way Mythos is. Checking in at the desk and waiting twenty minutes is a normal outcome even on a busy day." },
+        { "q": "Is Confisco Grille better than Mythos?", "a": "No. Mythos has the better cooking and much the better room. Confisco has better availability, a broader menu for mixed groups, and a location by the entrance that makes it easier to fit into a day. Book Mythos first and treat Confisco as the reliable alternative." },
+        { "q": "Does Confisco Grille have vegetarian options?", "a": "Yes, and it is one of the stronger places in the park for it. The Mediterranean platter, the flatbreads and several of the noodle dishes are vegetarian, and the kitchen handles allergy requests routinely." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "backwater-bar",
+      "name": "Backwater Bar",
+      "land": "port-of-entry",
+      "service": "lounge",
+      "cuisine": "Cocktails and bar plates",
+      "priceTier": "$$",
+      "priceNote": "Cocktails around $13-16 and shareable plates around $12-18 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The bar attached to Confisco Grille - dim, air-conditioned, almost always half empty, and the quietest seat inside the turnstiles.",
+      "description": [
+        "Backwater Bar shares a kitchen and a building with Confisco Grille and has its own door that most guests walk straight past looking for the restaurant entrance. It is small, dark, cool and rarely more than half full, which in a park with this little indoor space is worth a great deal more than the drinks list.",
+        "You can order most of the Confisco menu here without a reservation, which makes it the fastest route to a real plate of food in Islands of Adventure. The cocktails are decent rather than ambitious, the beer list covers the Florida basics, and nobody moves you on."
+      ],
+      "signatureItems": [
+        "Frozen margarita",
+        "Mediterranean hummus platter",
+        "Flatbread of the day",
+        "Draft beer flight"
+      ],
+      "goodFor": ["solo", "date-night", "air-conditioned-break", "quick-bite", "groups"],
+      "tips": [
+        "Order the Confisco menu here. Most of it is available, there is no reservation involved and the wait is usually zero.",
+        "This is the best air-conditioned sit-down in the park that is not a full restaurant. Use it at 2 PM in August.",
+        "It has its own entrance separate from the restaurant. If the Confisco podium has a queue, walk around to the bar door instead.",
+        "Bar seating fills before the tables do. If you want a table, go before 5 PM."
+      ],
+      "verdict": "The best-value seat at Islands of Adventure: Confisco's food, no reservation, air conditioning, and a room most guests never find. Worth knowing about before you need it.",
+      "faqs": [
+        { "q": "Can you eat a full meal at Backwater Bar?", "a": "Yes. It shares a kitchen with Confisco Grille and serves most of the same menu, with no reservation needed. For a party of two it is frequently the faster and better option." },
+        { "q": "Is Backwater Bar hard to find?", "a": "It is easy to walk past. It sits behind and beside Confisco Grille in Port of Entry with its own separate door, and most guests heading for the restaurant queue at the podium without noticing the bar entrance around the corner." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "croissant-moon-bakery",
+      "name": "Croissant Moon Bakery",
+      "land": "port-of-entry",
+      "service": "bakery",
+      "cuisine": "Pastries, sandwiches and coffee",
+      "priceTier": "$",
+      "priceNote": "Pastries around $5-8, sandwiches around $10-13 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's breakfast answer: croissants, pastries, sandwiches and decent coffee, a hundred yards inside the turnstiles.",
+      "description": [
+        "Croissant Moon Bakery is the first food location most guests pass and the one most likely to be useful at 8:30 AM. Croissants, danishes, cinnamon rolls, cookies, croissant sandwiches, and coffee that is better than a theme park has to serve.",
+        "It is a counter with a modest amount of indoor seating and more outside. The queue moves quickly early and backs up badly around 10 AM when the first wave of guests realizes they skipped breakfast, so it is worth being on the early side of that."
+      ],
+      "signatureItems": [
+        "Butter croissant",
+        "Croissant breakfast sandwich",
+        "Cinnamon roll",
+        "Chocolate croissant",
+        "Iced coffee"
+      ],
+      "goodFor": ["quick-bite", "budget", "families", "solo", "vegetarian"],
+      "tips": [
+        "Buy breakfast on the way in, not on the way past at 10 AM when everyone else has had the same idea.",
+        "This is one of very few places in the park to get a decent coffee. The alternative is the Starbucks across the street.",
+        "Take the pastry with you rather than eating it here. Hogsmeade is the priority at rope drop and this is a five-minute detour at most.",
+        "The indoor seating is small and it fills. There are more tables outside than in."
+      ],
+      "verdict": "Good pastries, fair coffee, no queue if you go early - the right way to eat breakfast inside the park rather than paying hotel prices for it.",
+      "faqs": [
+        { "q": "Is Croissant Moon Bakery open at park opening?", "a": "Yes, it opens with the park and is one of the first counters trading in the morning, which makes it the practical breakfast option for anyone who came straight from the car park." },
+        { "q": "Is the coffee any good?", "a": "Better than most park coffee and not as good as the Starbucks a short walk away in the same island. If coffee is the priority rather than food, go to the Starbucks; if you want both in one stop, come here." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cinnabon",
+      "name": "Cinnabon",
+      "land": "port-of-entry",
+      "service": "bakery",
+      "cuisine": "Cinnamon rolls and coffee",
+      "priceTier": "$",
+      "priceNote": "A Classic Cinnabon runs about $7.29 and a four-pack of MiniBons about $9.99 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The chain cinnamon roll counter in Port of Entry, exactly as you would expect and priced like a theme park.",
+      "description": [
+        "This is the standard Cinnabon franchise, dropped into Port of Entry, and it does what Cinnabon does. The smell reaches most of the street, which is the entire marketing strategy and it works.",
+        "It is worth listing for one reason: it is a known quantity in a park where most food is not, and the MiniBons are the cheapest way to feed a group of children something they will definitely eat."
+      ],
+      "signatureItems": [
+        "Classic Cinnabon",
+        "MiniBon four-pack",
+        "Caramel PecanBon",
+        "Chillatta frozen drink"
+      ],
+      "goodFor": ["quick-bite", "picky-eaters", "families", "budget"],
+      "tips": [
+        "Get the MiniBons rather than one Classic if you are feeding more than one child. Better value and less waste.",
+        "There is no seating attached. Take it to the tables outside Croissant Moon Bakery.",
+        "The queue is worst between 9 and 10 AM. It is nearly empty by mid-afternoon.",
+        "Prices here run above street Cinnabon prices, which surprises people who use it as a benchmark."
+      ],
+      "verdict": "It is a Cinnabon. That is either exactly what you wanted or an odd thing to spend a theme park meal on, and both positions are defensible.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "starbucks-port-of-entry",
+      "name": "Starbucks",
+      "land": "port-of-entry",
+      "service": "quick-service",
+      "cuisine": "Coffee and pastries",
+      "priceTier": "$",
+      "priceNote": "Standard Starbucks menu pricing with a modest theme park uplift, roughly $6-9 for most drinks as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A full Starbucks store in Port of Entry with the standard menu, and the only reliable specialty coffee inside the park.",
+      "description": [
+        "This is a real Starbucks with the full menu rather than a kiosk selling Starbucks-branded drip coffee, and it is fitted into the Port of Entry architecture well enough that people walk past without registering it.",
+        "It matters because coffee inside theme parks is generally poor, and because the store has air conditioning and seating. The trade-off is the queue, which is the longest of any counter in the park between 8:30 and 10 AM."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Iced latte",
+        "Refreshers",
+        "Breakfast sandwiches"
+      ],
+      "goodFor": ["quick-bite", "solo", "air-conditioned-break", "budget"],
+      "tips": [
+        "The queue at rope drop is genuinely long. Buy coffee before you get to the park if the first hour matters to you.",
+        "Mobile ordering through the Starbucks app does not work at theme park locations. Plan to queue.",
+        "It has air conditioning and seats, which puts it ahead of most counters here as a rest stop.",
+        "It is the only specialty coffee inside Islands of Adventure. Everything else is drip."
+      ],
+      "verdict": "Ordinary Starbucks in an extraordinary shortage of good coffee. Useful, predictable, and the queue at rope drop will cost you Hagrid's if you let it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cafe-4",
+      "name": "Cafe 4",
+      "land": "marvel-super-hero-island",
+      "service": "quick-service",
+      "cuisine": "Pizza and Italian-American",
+      "priceTier": "$$",
+      "priceNote": "Pizza slices around $10, whole pies around $30, pasta and salads around $13-16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Fantastic Four-themed pizza counter on Marvel Super Hero Island, and the only substantial air conditioning on that plaza.",
+      "description": [
+        "Cafe 4 is themed to the Baxter Building and serves pizza by the slice or the pie, pasta, meatball subs and salads from a counter, with a large indoor dining room upstairs. The food is unremarkable chain-quality pizza and the room is the point.",
+        "Marvel Super Hero Island has almost no shade, no other indoor space and two of the park's most physically demanding rides. Cafe 4 is where the members of your group who are not riding Hulk should be waiting, and where you should eat if the alternative is a bench in the sun.",
+        "Whole pies are the value play here. A family of four buying four individual meals will spend considerably more than the same four people buying one pie and a couple of drinks."
+      ],
+      "signatureItems": [
+        "Cheese pizza by the slice",
+        "Whole pepperoni pizza",
+        "Meatball sub",
+        "Caesar salad",
+        "Spaghetti and meatballs"
+      ],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break", "groups", "budget"],
+      "tips": [
+        "Buy a whole pie rather than individual slices if you are feeding three or more. The price difference is substantial.",
+        "This is the swap-out room for Hulk and Doctor Doom's. Park the non-riders here rather than on the plaza.",
+        "The dining room upstairs is much larger and quieter than the ground floor and most guests never go up.",
+        "Mobile order before you get in the Hulk queue and collect on the way out."
+      ],
+      "verdict": "Average pizza in the most valuable air-conditioned room on the least comfortable island in the park. Buy the whole pie and take the upstairs seats.",
+      "faqs": [
+        { "q": "Is Cafe 4 good?", "a": "The pizza is ordinary chain-standard and the pasta is worse. What makes it worth using is the large air-conditioned dining room on an island with no shade at all, and the whole-pie pricing, which is genuinely good value for a group." },
+        { "q": "Can you get vegetarian food at Cafe 4?", "a": "Yes - cheese pizza, a vegetable pie, salads and pasta options are all available. It is one of the easier counters in the park for a vegetarian to order from without a conversation." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "captain-america-diner",
+      "name": "Captain America Diner",
+      "land": "marvel-super-hero-island",
+      "service": "quick-service",
+      "cuisine": "Burgers and American diner food",
+      "priceTier": "$$",
+      "priceNote": "Burger combos run about $16-19 as of July 2026, chicken fingers and salads slightly less.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A burger counter on the lagoon side of Marvel with the best water views of any quick service in the park.",
+      "description": [
+        "Captain America Diner is a straightforward burger counter - cheeseburgers, chicken sandwiches, chicken fingers, fries, salads - in a comic-styled room on the lagoon edge of Marvel Super Hero Island. The food is competent theme park burger cooking and nothing more.",
+        "The seating is what distinguishes it. The dining room and terrace look straight out across the lagoon toward Hogsmeade and the Jurassic Park side, which is the best view from any counter-service seat at Islands of Adventure. On a clear evening it is genuinely a nice place to sit."
+      ],
+      "signatureItems": [
+        "Bacon cheeseburger",
+        "Crispy chicken sandwich",
+        "Chicken fingers",
+        "Loaded fries",
+        "Garden burger"
+      ],
+      "goodFor": ["families", "picky-eaters", "view", "quick-bite", "big-appetites"],
+      "tips": [
+        "Ask for the lagoon-side seats. The view across the water is the reason to eat here rather than at Cafe 4.",
+        "Mobile order and skip the counter queue, which backs up hard between 12 and 1:30.",
+        "It is a burger. If you want the better meal on this half of the park, walk to Thunder Falls Terrace in Jurassic Park instead.",
+        "The terrace is a good evening spot once the sun is off it, and almost nobody uses it after 6 PM."
+      ],
+      "verdict": "Standard burgers with the best quick-service view in the park. Come for the seats rather than the food, and eat properly in Jurassic Park instead.",
+      "faqs": [
+        { "q": "Does Captain America Diner have a view?", "a": "Yes, and it is the best of any counter-service location at Islands of Adventure. The dining room and terrace face the lagoon looking across toward Hogsmeade, and the seats on that side are worth asking for." },
+        { "q": "Is the food better than Cafe 4?", "a": "Marginally, and both are ordinary. If you want the best quick service in the park, it is Thunder Falls Terrace in Jurassic Park by a wide margin - about a ten-minute walk from here." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "blondies",
+      "name": "Blondie's",
+      "land": "toon-lagoon",
+      "service": "quick-service",
+      "cuisine": "Deli sandwiches",
+      "priceTier": "$$",
+      "priceNote": "The Dagwood runs about $17 and other sandwiches around $13-15 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A deli counter in Toon Lagoon built around the Dagwood, a stacked sandwich named after the comic strip that invented the genre.",
+      "description": [
+        "Blondie's is a small deli window in Toon Lagoon serving sandwiches made to order, and its centerpiece is The Dagwood - a comically over-stacked deli sandwich named after Dagwood Bumstead, the character from the Blondie comic strip who gave the sandwich its name in the first place. It is one of the few pieces of Toon Lagoon theming that actually lands with a modern audience.",
+        "The rest of the menu is standard deli work: turkey, ham, roast beef, a vegetarian option, chips and pickles. It is made properly rather than assembled from a warmer, which puts it ahead of most quick service in this park.",
+        "It has no indoor seating and limited shade, which is a problem in the middle of the day on the island where everyone is already wet."
+      ],
+      "signatureItems": [
+        "The Dagwood",
+        "Turkey club",
+        "Roast beef sandwich",
+        "Vegetarian sandwich",
+        "Deli pickle"
+      ],
+      "goodFor": ["quick-bite", "big-appetites", "budget", "solo", "vegetarian"],
+      "tips": [
+        "The Dagwood is shareable between two people who are not especially hungry. It is not a normal sandwich.",
+        "There is no air conditioning and very little shade. Take the food to the covered seating near the Comic Strip Cafe instead.",
+        "This is a made-to-order counter, so it is slower than the heat-lamp alternatives on the island. Mobile order if you are in a hurry.",
+        "It is one of the cheaper real meals in the park if two of you split one sandwich."
+      ],
+      "verdict": "A properly made deli sandwich in a park full of fryers, and the Dagwood is a genuinely good order. Losing marks only for having nowhere comfortable to eat it.",
+      "faqs": [
+        { "q": "What is The Dagwood?", "a": "A very tall stacked deli sandwich named after Dagwood Bumstead from the Blondie comic strip, which is where the term for that style of sandwich came from. It runs about $17 and it comfortably feeds two people with normal appetites." },
+        { "q": "Is there anywhere to sit at Blondie's?", "a": "Only outdoor tables with limited shade, which is uncomfortable in the middle of the day. The covered seating near Comic Strip Cafe a short walk away is the better place to take the food." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "comic-strip-cafe",
+      "name": "Comic Strip Cafe",
+      "land": "toon-lagoon",
+      "service": "quick-service",
+      "cuisine": "Mixed - Chinese, Italian, fish and chips, burgers",
+      "priceTier": "$$",
+      "priceNote": "Most plates run about $13-17 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A food-court counter in Toon Lagoon with several separate stations, and the only indoor seating on the island.",
+      "description": [
+        "Comic Strip Cafe is laid out as a food court with separate stations - Chinese, Italian, fish and chips, burgers - feeding a shared dining room. That structure is genuinely useful for a group that cannot agree, and it is the reason to eat here rather than at Blondie's next door.",
+        "The food is heat-lamp quality across all four stations and nobody should come here for it. What it has is a large air-conditioned dining room, which on the island where everybody is soaked and there is no other shelter is worth more than the cooking."
+      ],
+      "signatureItems": [
+        "Fish and chips",
+        "Sweet and sour chicken",
+        "Cheese pizza",
+        "Cheeseburger"
+      ],
+      "goodFor": ["families", "groups", "picky-eaters", "air-conditioned-break", "budget"],
+      "tips": [
+        "Come here for the dining room, not the food. It is the only indoor seating in Toon Lagoon and it is where to dry off after the Bilge-Rat Barges.",
+        "The separate stations mean a group that wants four different things can order in parallel rather than in sequence.",
+        "Not all stations run at all hours. Check what is open before everyone commits to a queue.",
+        "The fish and chips is the most reliable order of the four."
+      ],
+      "verdict": "Mediocre food across four cuisines, redeemed entirely by being the only air-conditioned room on the wettest island in the park. Eat elsewhere; sit here.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "thunder-falls-terrace",
+      "name": "Thunder Falls Terrace",
+      "land": "jurassic-park",
+      "service": "quick-service",
+      "cuisine": "Wood-fire rotisserie and barbecue",
+      "priceTier": "$$",
+      "priceNote": "Quarter rotisserie chicken plates run about $17 and rib platters about $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Wood-fired rotisserie chicken and ribs in a huge air-conditioned room with windows onto the River Adventure drop - the best quick service in the park.",
+      "description": [
+        "Thunder Falls Terrace is the best counter-service restaurant at Islands of Adventure and it is not particularly close. It runs a real wood-fired rotisserie and grill: quarter and half chickens, baby back ribs, turkey legs, corn on the cob, rice and beans. The chicken has actual smoke on it and comes off a spit rather than out of a warmer.",
+        "The room is the other half of the argument. It is large, high-ceilinged, properly air-conditioned, and one entire wall is glass looking directly at the bottom of the Jurassic Park River Adventure drop. You eat watching boats plunge past the window, which is a better lunchtime view than most table-service restaurants in Orlando manage.",
+        "It sits behind the River Adventure exit, which is why it gets missed. Guests come off the boat, turn toward the coaster, and walk past the best food in the park without seeing the door."
+      ],
+      "signatureItems": [
+        "Quarter rotisserie chicken with rice and beans",
+        "Baby back ribs platter",
+        "Turkey leg",
+        "Grilled corn on the cob",
+        "Half rotisserie chicken"
+      ],
+      "goodFor": ["families", "big-appetites", "air-conditioned-break", "view", "groups"],
+      "tips": [
+        "Eat here rather than anywhere else in the park. The rotisserie chicken is better than any quick-service main at Walt Disney World and costs about the same as a burger next door.",
+        "Get a window table on the River Adventure side. Boats drop past the glass every couple of minutes.",
+        "Mobile order before noon and collect at 12:15. The counter queue between 12:15 and 1:30 is the worst in the park.",
+        "It stays comfortable and staff do not move you along, which makes it a legitimate mid-afternoon rest stop as well as a meal.",
+        "The door is behind the River Adventure exit and easy to walk past. Look for the terrace rather than a shopfront."
+      ],
+      "verdict": "The best food at Islands of Adventure, in the best room, at ordinary counter-service prices. If you eat one meal in this park, eat it here.",
+      "faqs": [
+        { "q": "What is the best thing to order at Thunder Falls Terrace?", "a": "The quarter rotisserie chicken with rice and beans. It comes off a real wood-fired spit, it is properly seasoned, and it costs about the same as a burger elsewhere in the park. The ribs are the other strong order if you want something larger." },
+        { "q": "Is Thunder Falls Terrace air-conditioned?", "a": "Yes, and it is one of the largest air-conditioned dining rooms in the park. That plus the windows onto the River Adventure drop makes it the best midday break at Islands of Adventure, meal or no meal." },
+        { "q": "Where exactly is Thunder Falls Terrace?", "a": "In Jurassic Park, behind and beside the exit of Jurassic Park River Adventure, overlooking the bottom of the drop. It is easy to walk past because the entrance faces away from the main path - look for the terrace above the water." },
+        { "q": "Is it good for gluten-free diners?", "a": "Better than most counters here. The rotisserie chicken, ribs, corn and rice and beans are naturally gluten-free, and the team handles allergy orders routinely rather than as an exception." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-burger-digs",
+      "name": "The Burger Digs",
+      "land": "jurassic-park",
+      "service": "quick-service",
+      "cuisine": "Burgers and chicken sandwiches",
+      "priceTier": "$$",
+      "priceNote": "Burger combos run about $16-18 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The upstairs burger counter in the Jurassic Park visitor complex, with a toppings bar and air conditioning.",
+      "description": [
+        "The Burger Digs sits on the upper level of the Jurassic Park visitor complex and serves burgers, a chicken sandwich, chicken fingers and fries. The distinguishing feature is a toppings bar, which lets you build the burger up beyond what arrives on the tray - a small thing that materially improves an ordinary burger.",
+        "It is air-conditioned, it has plenty of seating, and it is almost always quieter than the counters closer to the walkway. It exists in the shadow of Thunder Falls Terrace two minutes away, which serves better food for similar money, and the honest advice is to walk the extra two minutes."
+      ],
+      "signatureItems": [
+        "Cheeseburger with the toppings bar",
+        "Crispy chicken sandwich",
+        "Chicken fingers",
+        "Veggie burger"
+      ],
+      "goodFor": ["families", "picky-eaters", "quick-bite", "air-conditioned-break", "budget"],
+      "tips": [
+        "Use the toppings bar properly. It is the only reason this burger is better than the one at Captain America Diner.",
+        "Walk two minutes further to Thunder Falls Terrace unless somebody in your group specifically wants a burger.",
+        "The upstairs room is quieter than almost any counter seating in the park and it is rarely full.",
+        "Mobile order works well here and the pickup window is fast."
+      ],
+      "verdict": "A perfectly fine burger with a good toppings bar, two minutes' walk from significantly better food. It only wins if a burger is what somebody actually wants.",
+      "faqs": [
+        { "q": "Is The Burger Digs better than Thunder Falls Terrace?", "a": "No. Thunder Falls Terrace is two minutes away, serves wood-fired rotisserie chicken and ribs for similar money, and has a better room. The Burger Digs wins only when somebody in the group specifically wants a burger." },
+        { "q": "Does The Burger Digs have a toppings bar?", "a": "Yes, and it is the main reason to eat here rather than at another burger counter in the park. It lets you build the burger past what comes on the tray at no extra cost." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pizza-predattoria",
+      "name": "Pizza Predattoria",
+      "land": "jurassic-park",
+      "service": "quick-service",
+      "cuisine": "Pizza and salads",
+      "priceTier": "$",
+      "priceNote": "Personal pizzas run about $13-14 and salads about $12 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A walk-up pizza and salad window in Jurassic Park with shaded outdoor seating and one of the shortest queues in the park.",
+      "description": [
+        "Pizza Predattoria is an outdoor window serving personal pizzas, meatball subs and salads on the lagoon side of Jurassic Park. There is no indoor seating, but the tables under the trees nearby are genuinely shaded, which is scarcer here than air conditioning.",
+        "The pizza is exactly what a personal pizza from a theme park window is. Its value is speed and price - it is one of the cheapest real meals in the park and the queue is almost always shorter than the counters inside the visitor complex."
+      ],
+      "signatureItems": [
+        "Personal cheese pizza",
+        "Personal pepperoni pizza",
+        "Meatball sub",
+        "Caesar salad"
+      ],
+      "goodFor": ["quick-bite", "budget", "families", "picky-eaters", "vegetarian"],
+      "tips": [
+        "The queue here is reliably shorter than at The Burger Digs or Thunder Falls Terrace at peak lunch. If speed matters more than quality, this is the move.",
+        "The shaded tables near the window are better than the seating at most counters in this park.",
+        "Not always open in the evening or on lower-attendance days. Check before walking over.",
+        "This is one of the cheapest ways to feed a child a full lunch inside the park."
+      ],
+      "verdict": "Ordinary pizza, short queue, shaded seating and a low price. It is the sensible option when the queue at Thunder Falls Terrace is twenty deep.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-watering-hole",
+      "name": "The Watering Hole",
+      "land": "jurassic-park",
+      "service": "lounge",
+      "cuisine": "Bar - beer, cocktails and light snacks",
+      "priceTier": "$$",
+      "priceNote": "Beers around $10-12 and frozen cocktails around $13-15 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An open-air bar in Jurassic Park with shaded stools, frozen drinks and a view of the VelociCoaster launch.",
+      "description": [
+        "The Watering Hole is an outdoor bar between the visitor complex and the VelociCoaster entrance, with covered seating, a decent beer list and frozen cocktails. It is a bar with a roof rather than a restaurant, and it does light snacks rather than meals.",
+        "Its position is the appeal. You can sit in the shade with a drink and watch the VelociCoaster launch and the top hat from below, which is one of the better free spectacles in the park and a legitimate way to spend twenty minutes while other people queue."
+      ],
+      "signatureItems": [
+        "Frozen margarita",
+        "Draft beer selection",
+        "Chips and queso",
+        "Frozen daiquiri"
+      ],
+      "goodFor": ["solo", "groups", "quick-bite", "date-night", "view"],
+      "tips": [
+        "This is the place to sit while the rest of your group queues for VelociCoaster. The launch and top hat are directly overhead.",
+        "It is covered but not air-conditioned. In August the shade helps and the frozen drinks help more.",
+        "The snacks are an afterthought. Eat at Thunder Falls Terrace and drink here.",
+        "Hours are shorter than the park's on quieter days, so it can be shut when you go looking for it."
+      ],
+      "verdict": "A shaded bar directly under the best roller coaster in Florida. Nothing to eat worth crossing the park for and a genuinely good place to sit.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "natural-selections",
+      "name": "Natural Selections",
+      "land": "jurassic-park",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit, snacks and cold drinks",
+      "priceTier": "$",
+      "priceNote": "Whole fruit around $3-4, snacks and bottled drinks around $4-7 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegan", "gluten-free", "vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The fresh fruit and cold drink stand near Camp Jurassic, and one of very few places in the park selling something that is not fried.",
+      "description": [
+        "Natural Selections is a small outdoor stand near the Camp Jurassic end of the island selling whole fruit, packaged snacks, frozen treats and cold drinks. It is not a meal and does not pretend to be.",
+        "It earns its listing because Islands of Adventure has a genuine shortage of food that is not fried, breaded or served in a bun. If someone in your group needs an apple or a banana rather than another portion of chips, this is where it is."
+      ],
+      "signatureItems": [
+        "Whole fresh fruit",
+        "Frozen lemonade",
+        "Bottled water and sports drinks",
+        "Packaged snacks"
+      ],
+      "goodFor": ["quick-bite", "budget", "toddlers", "families"],
+      "tips": [
+        "This is the easiest place in the park to buy fruit. Everywhere else it is a side item on a menu, if it exists at all.",
+        "It is right beside Camp Jurassic, which makes it the natural stop while children are in the play structure.",
+        "Buy bottled water here rather than in the shops - it is priced the same and the queue is shorter.",
+        "Hours vary with attendance and it does not always operate late."
+      ],
+      "verdict": "A fruit and drinks cart, doing an unglamorous job that almost nothing else in this park does. Useful with children, unnecessary otherwise.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "three-broomsticks",
+      "name": "Three Broomsticks",
+      "land": "hogsmeade",
+      "service": "quick-service",
+      "cuisine": "British pub food",
+      "priceTier": "$$",
+      "priceNote": "Mains run about $17-21 as of July 2026; the shareable Great Feast platter is considerably more.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Hogsmeade's pub - a timber-framed hall with rotisserie chicken, shepherd's pie and Butterbeer, and the best-themed room in the park.",
+      "description": [
+        "The Three Broomsticks is the interior everyone remembers from Hogsmeade: heavy timber beams, a high raftered ceiling with shadows of house-elves moving in it, long communal tables, and windows with warm light coming through. It is a counter-service restaurant dressed as a genuine pub, and the room does more work than any theming elsewhere in the park.",
+        "The food is British pub cooking, delivered better than it needs to be. Rotisserie smoked chicken, shepherd's pie, fish and chips, ribs, a Great Feast platter designed for a family to share. The smoked chicken is the strongest order and it is genuinely good rather than merely acceptable, which is not a sentence you write about most themed quick service.",
+        "The queue at peak is severe. Between noon and 2 PM the line goes out of the building, and the dining room is full enough that finding a table takes as long as ordering. Mobile ordering and eating at 11 AM or after 3 PM are the two fixes.",
+        "The Hog's Head pub is attached to the back of the same building and shares its seating, which is where to go for a drink without the food queue."
+      ],
+      "signatureItems": [
+        "Rotisserie smoked chicken",
+        "Shepherd's pie",
+        "Fish and chips",
+        "The Great Feast platter",
+        "Butterbeer potted cream"
+      ],
+      "goodFor": ["families", "groups", "air-conditioned-break", "big-appetites", "vegetarian"],
+      "tips": [
+        "Order the rotisserie smoked chicken. It is the best thing on the menu and the reason this is more than a themed room.",
+        "Eat at 11 AM or after 3 PM. The queue between noon and 2 PM regularly runs out of the door.",
+        "Mobile order through the Universal app and go straight to the pickup window rather than joining the main line.",
+        "Ask to sit in the back room by the fireplace rather than taking the first table you see. It is quieter and better lit for photographs.",
+        "The Hog's Head pub is attached at the back and shares the seating. Order drinks there and food here and meet at the same table."
+      ],
+      "verdict": "The best-themed room at Islands of Adventure with food good enough to justify eating in it. The smoked chicken is a genuinely strong order and the midday queue is genuinely awful - go early or late.",
+      "faqs": [
+        { "q": "What should I order at the Three Broomsticks?", "a": "The rotisserie smoked chicken. It is the best thing the kitchen does and it holds up against anything else in the park. Shepherd's pie is the next-best order, and the Great Feast platter is the way to feed four people at once without four separate queues." },
+        { "q": "Do you need a reservation for the Three Broomsticks?", "a": "No, it is counter service with no reservations. The constraint is the queue, which runs out of the door between noon and 2 PM. Mobile ordering through the Universal app is the single most effective fix." },
+        { "q": "Can you get Butterbeer at the Three Broomsticks?", "a": "Yes, in cold, frozen and hot forms, along with the Butterbeer potted cream dessert. If the queue inside is long, the outdoor Butterbeer carts in the village sell the drinks with a far shorter wait." },
+        { "q": "Is there vegetarian food at the Three Broomsticks?", "a": "Yes. There is a vegetarian pasty and salad option and the kitchen handles allergy requests properly, though the menu is meat-heavy by design. Vegetarians will find more choice at Confisco Grille or Mythos." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hogs-head",
+      "name": "Hog's Head",
+      "land": "hogsmeade",
+      "service": "lounge",
+      "cuisine": "Pub - beer, cider and Butterbeer",
+      "priceTier": "$$",
+      "priceNote": "Hog's Head Brew around $10-11, Butterbeer around $9, wine and spirits somewhat more, as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The pub attached to the Three Broomsticks, with an animatronic hog's head over the bar and the only beer brewed for this land.",
+      "description": [
+        "The Hog's Head is a small, dark pub sharing a building and a seating area with the Three Broomsticks, reached through a door at the back or from the terrace. Behind the bar hangs the mounted hog's head the pub is named for, which snarls and moves when the bartenders tap the right spot - a detail plenty of guests drink an entire pint without noticing.",
+        "The drinks list runs to Hog's Head Brew, a beer made specifically for this location, along with cider, wine, spirits and all three temperatures of Butterbeer. It is a bar rather than a restaurant, but you can eat Three Broomsticks food at the shared tables, which makes it the sensible way to have a proper meal here without standing in the main queue.",
+        "It is also one of the very few genuinely atmospheric adult spaces at Islands of Adventure, and it is small enough that it fills quickly in the evening."
+      ],
+      "signatureItems": [
+        "Hog's Head Brew",
+        "Frozen Butterbeer",
+        "Strongbow cider",
+        "Fire whisky"
+      ],
+      "goodFor": ["solo", "date-night", "air-conditioned-break", "groups", "late-night"],
+      "tips": [
+        "Watch the hog's head over the bar. It moves, and the bartenders trigger it - a tip in the jar reliably gets a demonstration.",
+        "Order drinks here and food at the Three Broomsticks counter, then meet at a shared table. It halves the queueing.",
+        "Hog's Head Brew is made for this location and is not sold across the lagoon in Diagon Alley. It is the one drink here worth ordering for novelty and for taste.",
+        "The pub is small and fills from about 5 PM. Go earlier if you want a table rather than a spot at the bar."
+      ],
+      "verdict": "The best bar in the park and one of the only rooms here with genuine atmosphere. Hog's Head Brew is worth ordering and the shared seating with Three Broomsticks is the efficiency nobody uses.",
+      "faqs": [
+        { "q": "What is Hog's Head Brew?", "a": "A beer brewed specifically for this pub and not sold at Diagon Alley across the lagoon. It is a Scottish-style ale, and it is the one drink in Hogsmeade worth ordering for its own sake rather than for the theme." },
+        { "q": "Can you eat at the Hog's Head?", "a": "You can eat Three Broomsticks food at the shared tables between the two rooms - order at the restaurant counter and drink at the pub. The Hog's Head itself serves drinks rather than meals." },
+        { "q": "Does the hog's head above the bar really move?", "a": "Yes. It is an animatronic that snarls and shifts, triggered by the bartenders rather than running on a timer. Most guests never see it because they order and leave without looking up." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "honeydukes",
+      "name": "Honeydukes",
+      "land": "hogsmeade",
+      "service": "snack-cart",
+      "cuisine": "Sweets and confectionery",
+      "priceTier": "$",
+      "priceNote": "Chocolate Frogs around $17, cauldron cakes and pasties around $7, fudge sold by weight, as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Hogsmeade's sweet shop, floor to ceiling in candy, with a Chocolate Frog that is mostly a collectible card in chocolate form.",
+      "description": [
+        "Honeydukes is the sweet shop from the books rendered as a genuinely dense retail space - pink and lilac shelving to the ceiling, jars, barrels, wrapped confectionery in every direction, and a connected room containing Zonko's joke merchandise. It is a shop rather than a restaurant, and it is one of the three or four things in this park that guests queue to get inside.",
+        "The famous purchase is the Chocolate Frog, a large solid chocolate frog in an ornate box with a collectible wizard card inside. At around $17 it is expensive chocolate, and what you are actually buying is the box and the card, both of which are well made. The cauldron cakes, pumpkin pasties and fudge are the better food value.",
+        "The queue to enter is real in the middle of the day - Universal meters entry because the room is small - and it evaporates in the evening."
+      ],
+      "signatureItems": [
+        "Chocolate Frog",
+        "Cauldron Cake",
+        "Pumpkin Pasty",
+        "Exploding Bon Bons",
+        "Fudge by the slice"
+      ],
+      "goodFor": ["families", "toddlers", "picky-eaters", "quick-bite", "air-conditioned-break"],
+      "tips": [
+        "Shop in the evening. There is a queue to get in the door between about 11 AM and 4 PM and no queue at all after dinner.",
+        "The Chocolate Frog is a card and a box with some chocolate attached. Buy it knowingly, and buy a cauldron cake if you want something to actually eat.",
+        "The fudge counter is the best-value sweet purchase in the shop and almost nobody looks at it.",
+        "Zonko's joke items share the building through a connecting doorway. Plenty of guests never notice the second room.",
+        "It is air-conditioned, which makes browsing it a legitimate heat break as well as a shopping trip."
+      ],
+      "verdict": "A genuinely well-built shop selling attractive, overpriced sweets. The Chocolate Frog is a souvenir rather than a snack, and the cauldron cakes and fudge are the things worth eating.",
+      "faqs": [
+        { "q": "How much is a Chocolate Frog?", "a": "Around $17 as of July 2026. It is a large solid milk chocolate frog in a decorated box with a collectible wizard card, and the card and the box are most of what you are paying for. As chocolate it is unremarkable." },
+        { "q": "Is there a queue to get into Honeydukes?", "a": "In the middle of the day, yes - Universal meters entry because the room is small and it backs up outside from late morning until mid-afternoon. After dinner you can generally walk straight in." },
+        { "q": "What is the best thing to buy at Honeydukes?", "a": "The fudge by weight is the best value and the cauldron cakes are the best thing to actually eat. The Chocolate Frog is the best souvenir. Exploding Bon Bons and the novelty items are priced for the packaging." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "butterbeer-cart",
+      "name": "Butterbeer Cart",
+      "land": "hogsmeade",
+      "service": "snack-cart",
+      "cuisine": "Butterbeer and frozen treats",
+      "priceTier": "$",
+      "priceNote": "Cold Butterbeer around $9, frozen around $9.50, souvenir mug versions roughly double, as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The outdoor Butterbeer carts in the village - the fastest route to the drink the whole land is built around.",
+      "description": [
+        "Universal operates outdoor Butterbeer carts in Hogsmeade street, selling the cold and frozen versions of the drink and, at some carts, the soft-serve. They exist because the Three Broomsticks and the Hog's Head cannot handle the demand on their own, and they are almost always the faster option.",
+        "Butterbeer is non-alcoholic, tastes of butterscotch and shortbread, and comes topped with a thick sweet foam. The frozen version is the one that works in Florida heat and the one most people prefer on a first try. The cold version is closer to what the books describe and divides opinion more.",
+        "Souvenir mugs are sold at roughly double the price of a normal serve and are not refillable, which is worth knowing before a child decides otherwise."
+      ],
+      "signatureItems": [
+        "Frozen Butterbeer",
+        "Cold Butterbeer",
+        "Butterbeer soft-serve",
+        "Souvenir tankard Butterbeer"
+      ],
+      "goodFor": ["quick-bite", "families", "toddlers", "budget"],
+      "tips": [
+        "Use the carts rather than queueing inside the Three Broomsticks. Same drink, a fraction of the wait.",
+        "Frozen beats cold in Florida heat, and it is not close. Try the cold one anyway so you can have an opinion.",
+        "Ask for it without the foam if you want to taste the drink underneath. It is sweeter than most people expect.",
+        "The souvenir mug costs roughly double and is not refillable. Buy it because you want the mug, not because it is a deal.",
+        "The cart nearest the Hogwarts Express station is usually the quietest of the ones in the village."
+      ],
+      "verdict": "The single most iconic thing to consume at Universal Orlando, and worth doing once whatever you think of butterscotch. Frozen is the version that works; buy it at a cart, not inside.",
+      "faqs": [
+        { "q": "Does Butterbeer contain alcohol?", "a": "No. Butterbeer is entirely non-alcoholic and children drink it constantly. It is a butterscotch and shortbread-flavored soft drink with a sweet cream foam on top." },
+        { "q": "What is the difference between cold and frozen Butterbeer?", "a": "Cold is a chilled soda-style drink with foam on top; frozen is essentially a slush with the same foam. In Florida heat the frozen version is substantially better, and it is what most first-timers prefer. The cold version is closer to the drink described in the books." },
+        { "q": "Is the souvenir Butterbeer mug refillable?", "a": "No. It costs roughly double a standard serve and comes with a single drink. Buy it if you want the tankard as a souvenir, not as a way of getting more Butterbeer." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "magic-neep-cart",
+      "name": "Magic Neep Cart",
+      "land": "hogsmeade",
+      "service": "snack-cart",
+      "cuisine": "Fresh fruit and wizarding drinks",
+      "priceTier": "$",
+      "priceNote": "Pumpkin juice around $7.50 and whole fruit around $3-4 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegan", "gluten-free", "vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The fresh produce cart in Hogsmeade street, selling pumpkin juice and whole fruit under a wooden awning.",
+      "description": [
+        "The Magic Neep cart sits in Hogsmeade street selling pumpkin juice, whole fresh fruit and bottled drinks from under a rustic awning. It is dressed as a village greengrocer's stall and it is one of the small set-dressing touches that makes the street feel populated rather than staged.",
+        "Pumpkin juice is the reason most people stop: a chilled spiced apple and pumpkin drink sold in a bottle. It is sweeter than the name suggests and it is the second most-photographed drink in the land after Butterbeer."
+      ],
+      "signatureItems": [
+        "Pumpkin juice",
+        "Whole fresh fruit",
+        "Bottled water"
+      ],
+      "goodFor": ["quick-bite", "toddlers", "families", "budget", "vegetarian"],
+      "tips": [
+        "Pumpkin juice is sweet and spiced rather than savory. Sample expectations accordingly before buying two.",
+        "This is one of very few places in Hogsmeade to buy fruit, which matters if you are here all day with children.",
+        "The bottle is a decent free souvenir once it is empty. Rinse it out rather than binning it.",
+        "The queue here is short even when the Butterbeer carts are backed up twenty deep."
+      ],
+      "verdict": "Pumpkin juice is worth trying once and is too sweet to want twice. The cart's real use is being the only place in the land selling an apple.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mythos-restaurant",
+      "name": "Mythos Restaurant",
+      "land": "lost-continent",
+      "service": "table-service",
+      "cuisine": "Mediterranean-influenced modern American",
+      "priceTier": "$$$",
+      "priceNote": "Entrees generally run about $21-30 as of July 2026; a full lunch with a drink lands around $40-45 per adult.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best restaurant at Islands of Adventure - a carved cave dining room over the lagoon with cooking that outclasses everything else in the park.",
+      "description": [
+        "Mythos is built into a rock face on the lagoon in The Lost Continent, and the room is the first argument for it: a carved cavern interior with a waterfall running down the exterior, high sculpted ceilings, and windows and a terrace looking out across the water toward Hogsmeade and Marvel Super Hero Island. It won best-themed-restaurant awards repeatedly through the 2000s and the build quality has held up.",
+        "The cooking is the second argument and it is the stronger one. The kitchen turns out braised short rib, pad thai, risotto, crab cakes and a properly composed vegetarian plate at a level that has no competitor inside this park and few across the walkway. Portions are generous, plating is careful, and the pricing sits well below what a comparable restaurant at Walt Disney World would charge.",
+        "It is not fine dining and does not pretend to be. It is a very good, moderately priced restaurant in a spectacular room, in a park where the alternative is a burger counter."
+      ],
+      "signatureItems": [
+        "Braised short rib",
+        "Pad Thai",
+        "Crab cake sandwich",
+        "Risotto of the day",
+        "Vegan Mediterranean plate"
+      ],
+      "goodFor": ["date-night", "special-occasion", "air-conditioned-break", "view", "vegetarian"],
+      "tips": [
+        "Book lunch rather than dinner. The menu overlaps heavily, the room is quieter, prices are lower and you are not spending prime evening ride time at a table.",
+        "Ask for a window table or the terrace. The lagoon view is half of what you are paying for and the interior tables away from the glass are noticeably less special.",
+        "It is the only genuinely good restaurant in the park. If you are eating one proper meal at Islands of Adventure, this is it.",
+        "Walk-ups are possible on quieter days but far less reliable than at Confisco Grille. Book if the meal matters.",
+        "The vegetarian and vegan options here are the best in the park by a distance, and the kitchen handles allergies properly."
+      ],
+      "verdict": "The best food and the best room at Islands of Adventure, at prices well below the Disney equivalent. Book it for lunch and take a window table - it is the one meal in this park worth planning around.",
+      "faqs": [
+        { "q": "Is Mythos worth it?", "a": "Yes, and it is the clearest yes in this park. The cooking is a level above everything else inside the gates, the room is genuinely impressive, and entrees around $21-30 are cheaper than the equivalent at Walt Disney World. Book lunch and take a window table." },
+        { "q": "Do you need a reservation at Mythos?", "a": "It is strongly recommended, especially at dinner and on weekends. Walk-ups are sometimes accommodated on quieter days but it is the one restaurant here that genuinely books out. Confisco Grille is the reliable fallback." },
+        { "q": "Is Mythos good for vegetarians and vegans?", "a": "It is the best option in the park by a wide margin. There is a composed vegan plate, several vegetarian entrees, and a kitchen that handles allergy and dietary requests as routine rather than as an interruption." },
+        { "q": "What should I order at Mythos?", "a": "The braised short rib is the signature and the most consistently praised dish. The pad thai has been on the menu in some form for years and has its own following, and the risotto is the strongest vegetarian-friendly main." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fire-eaters-grill",
+      "name": "Fire-Eater's Grill",
+      "land": "lost-continent",
+      "service": "quick-service",
+      "cuisine": "Gyros, chicken and hot dogs",
+      "priceTier": "$",
+      "priceNote": "Gyros around $14 and chicken fingers around $13 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small counter in The Lost Continent doing gyros and chicken fingers, with shaded seating and almost no queue.",
+      "description": [
+        "Fire-Eater's Grill is a modest window in The Lost Continent serving gyros, chicken fingers, hot dogs and fries, with covered outdoor seating alongside. The gyro is the order - the meat is properly seasoned and the portion is generous for the price.",
+        "Its main asset is that nobody goes there. The Lost Continent has no attractions to draw traffic, so the queue here is routinely a fraction of the wait at any counter in Hogsmeade sixty seconds' walk away, for food that is at least as good as most of it."
+      ],
+      "signatureItems": [
+        "Gyro",
+        "Chicken fingers",
+        "Hot dog",
+        "Fries"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "families", "picky-eaters"],
+      "tips": [
+        "Eat here when Hogsmeade is impossible. It is a minute's walk away and the queue is a fraction of the size.",
+        "The gyro is the order. The chicken fingers are ordinary and the hot dog is a last resort.",
+        "The covered seating here is among the shadiest in the park, which is the other reason to come.",
+        "Hours vary with attendance and it does not always trade in the evening."
+      ],
+      "verdict": "A decent gyro at a low price with no queue, a minute from the busiest food in the park. The best-kept lunch secret at Islands of Adventure.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "doc-sugrues-desert-kebab-house",
+      "name": "Doc Sugrue's Desert Kebab House",
+      "land": "lost-continent",
+      "service": "snack-cart",
+      "cuisine": "Grilled skewers and snacks",
+      "priceTier": "$",
+      "priceNote": "Skewers around $12-14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A grilled skewer window in The Lost Continent selling chicken and beef kebabs, and one of the few portable hot meals in the park.",
+      "description": [
+        "Doc Sugrue's is an outdoor grill window in The Lost Continent turning out chicken and beef skewers cooked to order. The theming is minimal and the food is straightforward, which is a fair description of most of what this island now offers.",
+        "It fills a genuine gap: this is a hot, protein-based, portable meal that can be eaten while walking, at a price below almost every counter in the park. In an environment where the standard option is a fried thing in a basket, that is worth something."
+      ],
+      "signatureItems": [
+        "Chicken skewer",
+        "Beef skewer",
+        "Grilled vegetable skewer"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "gluten-free"],
+      "tips": [
+        "This is one of very few portable hot meals in the park. If you are trying not to lose an hour to a sit-down lunch, it is the answer.",
+        "It is cooked to order, so there is a few minutes' wait even when nobody is queueing.",
+        "The skewers are naturally gluten-free, which is not true of most quick options here.",
+        "Hours are shorter than the park's and it closes early on quieter days."
+      ],
+      "verdict": "A cheap, hot, portable skewer in a park with almost no walking food. Not a destination, and a genuinely useful thing to know exists.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "circus-mcgurkus-cafe-stoo-pendous",
+      "name": "Circus McGurkus Cafe Stoo-pendous",
+      "land": "seuss-landing",
+      "service": "quick-service",
+      "cuisine": "American - fried chicken, pizza and pasta",
+      "priceTier": "$$",
+      "priceNote": "Plates run about $14-17 as of July 2026, with children's meals lower.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The big-top dining hall in Seuss Landing with a trolley train running through the ceiling and the largest indoor seating on this side of the park.",
+      "description": [
+        "Circus McGurkus Cafe Stoo-pendous is a very large indoor restaurant done as a circus tent, with striped fabric, ringmaster signage and - the good bit - the Seuss Trolley Train passing right through the upper part of the room on its track. Children stop eating every time it goes by, which is either charming or a logistical problem depending on your schedule.",
+        "The food is fried chicken, spaghetti and meatballs, pizza and salads, cooked to standard theme park counter quality. It is unremarkable and it is inoffensive, which is roughly the right target for the audience in this island.",
+        "The room's real function is capacity. It is the largest air-conditioned dining space on the Seuss Landing side of the park and it rarely fills, which makes it the correct place to put a hot, overstimulated four-year-old at 2 PM."
+      ],
+      "signatureItems": [
+        "Fried chicken platter",
+        "Spaghetti and meatballs",
+        "Cheese pizza",
+        "Chicken tenders",
+        "Caesar salad"
+      ],
+      "goodFor": ["families", "toddlers", "picky-eaters", "air-conditioned-break", "groups"],
+      "tips": [
+        "Sit under the trolley track. The train passes through the room overhead and it is the best thing about eating here.",
+        "This is the largest air-conditioned room on this side of the park and it rarely fills. Use it as a break as well as a meal.",
+        "Nothing on the menu is worth crossing the park for. Eat here because you are already in Seuss Landing with a tired child.",
+        "Mobile order is worth using at peak, though the queue here is milder than at Hogsmeade or Jurassic Park."
+      ],
+      "verdict": "Ordinary food in the most useful room in Seuss Landing. The trolley train passing through the ceiling buys it more goodwill than the fried chicken does.",
+      "faqs": [
+        { "q": "Does the Seuss trolley really go through the restaurant?", "a": "Yes. The High in the Sky Seuss Trolley Train Ride! passes through the upper part of the Circus McGurkus building on its circuit, which is visible from the dining room and is the single best piece of theming in the restaurant." },
+        { "q": "Is Circus McGurkus good for toddlers?", "a": "It is the best option in the park for them. Large air-conditioned room, plenty of space for a stroller, simple food that a picky child will eat, and something happening overhead. It rarely fills, so it works as a rest stop as well as a meal." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "green-eggs-and-ham-cafe",
+      "name": "Green Eggs and Ham Cafe",
+      "land": "seuss-landing",
+      "service": "quick-service",
+      "cuisine": "Novelty American - loaded tots and burgers",
+      "priceTier": "$$",
+      "priceNote": "Green Eggs and Ham Tots around $13 and burgers around $15 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": true,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The ham-shaped counter in Seuss Landing serving the tater tot dish it is named after, which is better than a novelty item has any duty to be.",
+      "description": [
+        "Green Eggs and Ham Cafe is the building shaped like a slice of green ham on the edge of Seuss Landing. It operated seasonally for years and now runs regularly, and it exists to serve one dish: the Green Eggs and Ham Tots, a bowl of tater tots loaded with ham, cheese sauce and a green herb sauce that supplies the color and, more importantly, the acidity that stops the whole thing being cloying.",
+        "It is a novelty and it is also a genuinely good plate of loaded tots. The green comes from herbs rather than dye, the ham is properly cooked, and the portion is large enough to share between two people or serve as a full lunch for one.",
+        "The rest of the short menu is burgers and sandwiches which are fine and not the reason to be here. Seating is outdoor only, with limited shade, which is the main thing against it."
+      ],
+      "signatureItems": [
+        "Green Eggs and Ham Tots",
+        "The Whoburger",
+        "Who Hash",
+        "Chicken sandwich"
+      ],
+      "goodFor": ["families", "quick-bite", "groups", "big-appetites", "picky-eaters"],
+      "tips": [
+        "Order the tots. That is the entire reason this building exists and it delivers better than the joke suggests.",
+        "One portion of tots feeds two people as a snack. Do not order one each unless you are skipping lunch.",
+        "Seating is outdoors with limited shade. Take the food into Circus McGurkus if you need air conditioning.",
+        "Opening hours vary with attendance more than most locations here. Check the app rather than walking over on spec."
+      ],
+      "verdict": "The Green Eggs and Ham Tots are the best novelty food at Universal Orlando and one of the few gimmick dishes anywhere worth ordering twice. Everything else on the menu is filler.",
+      "faqs": [
+        { "q": "What are Green Eggs and Ham Tots?", "a": "A bowl of tater tots loaded with ham, cheese sauce and a green herb sauce that supplies both the color and enough acidity to cut the richness. The green comes from herbs rather than food coloring. It runs about $13 and it comfortably feeds two as a snack." },
+        { "q": "Is Green Eggs and Ham Cafe open every day?", "a": "It runs regularly now after years of seasonal operation, but its hours still vary with park attendance more than most locations. Check the Universal app before walking across from another island." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "moose-juice-goose-juice",
+      "name": "Moose Juice Goose Juice",
+      "land": "seuss-landing",
+      "service": "snack-cart",
+      "cuisine": "Frozen drinks and snacks",
+      "priceTier": "$",
+      "priceNote": "Frozen drinks around $7.50 and snacks around $5-7 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegan", "gluten-free", "vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The frozen drink stand in Seuss Landing selling two colored slushes named after the animals that supposedly produced them.",
+      "description": [
+        "Moose Juice Goose Juice is a small stand selling exactly what its name implies: Moose Juice, an orange tangerine slush, and Goose Juice, a green sour apple one. Both are frozen, both are bright, and both are the sensible purchase for a child in Seuss Landing in July.",
+        "It also sells pretzels, cookies, churros and bottled drinks. Nothing here is remarkable and everything is cheap, which in this park is a reasonable position to occupy."
+      ],
+      "signatureItems": [
+        "Moose Juice",
+        "Goose Juice",
+        "Soft pretzel",
+        "Churro"
+      ],
+      "goodFor": ["quick-bite", "toddlers", "families", "budget", "vegetarian"],
+      "tips": [
+        "Moose Juice is the sweeter one and Goose Juice is the sour one. Children choose by color and then regret it, so ask first.",
+        "Both are frozen and both melt fast in July. Drink it here rather than carrying it around the loop.",
+        "It is one of the cheapest cold drinks in the park and the queue is short even at peak.",
+        "The stand has a couple of shaded tables that nobody uses, which are the only ones on that stretch."
+      ],
+      "verdict": "Two bright slushes with good names, priced sensibly, in the island where a small child most needs a cold drink. Exactly as good as it needs to be.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hop-on-pop-ice-cream-shop",
+      "name": "Hop On Pop Ice Cream Shop",
+      "land": "seuss-landing",
+      "service": "snack-cart",
+      "cuisine": "Ice cream and sundaes",
+      "priceTier": "$",
+      "priceNote": "Cones and cups around $6-8, sundaes around $9, as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The ice cream window in Seuss Landing, with shaded seating and the shortest queue of any sweet counter in the park.",
+      "description": [
+        "Hop On Pop is a small ice cream window in Seuss Landing serving scoops, cones, sundaes and floats. The theming is a nice piece of book-accurate lettering and the product is standard hard-scoop ice cream.",
+        "It is worth knowing because the sweet counters in Hogsmeade and Port of Entry queue badly and this one almost never does. If somebody wants ice cream and you are anywhere in the bottom half of the loop, this is the fast option."
+      ],
+      "signatureItems": [
+        "Waffle cone",
+        "Hot fudge sundae",
+        "Root beer float",
+        "Ice cream sandwich"
+      ],
+      "goodFor": ["toddlers", "families", "quick-bite", "budget", "vegetarian"],
+      "tips": [
+        "The queue here is a fraction of the ones in Hogsmeade and Port of Entry for a comparable product.",
+        "There is shaded seating alongside that most guests walk past.",
+        "It closes earlier than the park does on lower-attendance days.",
+        "This is the sensible bribe for a child who has just been told they are too short for something."
+      ],
+      "verdict": "Ordinary ice cream, short queue, shaded seats. In an island built for tired small children, that combination counts for a lot.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

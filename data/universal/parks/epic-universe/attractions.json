@@ -1,0 +1,1651 @@
+{
+  "park": "epic-universe",
+  "attractions": [
+    {
+      "slug": "stardust-racers",
+      "name": "Stardust Racers",
+      "land": "celestial-park",
+      "type": "roller-coaster",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "This is a speed-and-airtime coaster rather than a frightening one. There is nothing hiding in the dark, no theming designed to unsettle, and no surprises — you can see the whole layout from the queue. What gets people is the sustained airtime and the sensation of a second train arriving alongside you at speed. If heights and negative g-force are the problem, this is a hard no; if darkness and jump scares are the problem, it is completely fine."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer to the coaster train is required, and the restraints need reasonable upper-body stability. There is a test seat outside the queue — use it, because the restraint geometry on this train is tighter across the shoulders than the older Universal coasters."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A dual-track launch coaster that races two trains against each other over the top of Celestial Park, and the best ride in the park.",
+      "description": [
+        "Stardust Racers is a racing coaster: two tracks, two trains, launched in sequence and then run against each other over and around the hub. It is the fastest and tallest thing at Epic Universe, and unusually for a modern headliner it hides nothing — the whole layout sits out in the open above Celestial Park where you can watch it from the path before you commit.",
+        "What it does well is airtime. The layout is built around sustained negative g-force rather than inversions, with a long sequence of hills and twists that keep lifting you out of the seat, and the two tracks are choreographed so the trains cross, converge and separate through the run. Riding it once tells you which side you prefer; riding it twice is how most people end their day here.",
+        "It is also the ride that most changes character between day and night. The coaster runs over lit ground with the hub's fountains and the Chronos structure underneath it, and the night lap reads as a genuinely different attraction. Universal built the best coaster in the park into the hub rather than behind a portal, which is the single smartest decision in the layout."
+      ],
+      "experience": [
+        "The queue is short on story and quick on its feet, which is a relief in a park full of long themed transitions. You are sorted to one of the two tracks at the platform, and the choice matters more than the team members let on — the two sides do not do the same things at the same moments, and riders develop firm opinions fast.",
+        "The launch is smooth rather than violent, and then the ride never really lets up. The strongest stretch is the middle, where the two trains run close enough that you register the other one in peripheral vision while you are being lifted out of your seat. There are no inversions and no tunnels; the whole thing is speed, height and air.",
+        "It runs about as long as a modern launch coaster does — short by the clock and dense by the second. Get straight back in line if the posted wait is reasonable, because the second lap on the other track is where you actually work out what the ride is doing."
+      ],
+      "tips": [
+        "Ride it at night. This is the single most valuable timing tip in the park — the coaster runs over lit open ground and the difference between a noon lap and a 9 PM lap is enormous.",
+        "Ride both tracks. They are not mirror images and the sequencing differs, so a rider who has only done one side has only half the ride.",
+        "Take it at rope drop if SUPER NINTENDO WORLD is gated to a later entry slot. It is fifty yards inside the entrance and the morning crowd sprints straight past it.",
+        "Use the test seat by the entrance before you join the queue. The restraints are tighter across the shoulders than on Universal's older coasters, and finding out at the platform costs you the whole wait.",
+        "Everything loose leaves your pockets. Free lockers are provided at the entrance and enforcement at the platform is strict — there is no seat pocket and no forgiveness."
+      ],
+      "bestTime": "After dark, or in the first fifteen minutes of the day if the Nintendo world is gated to a later slot.",
+      "typicalWait": "Thirty to sixty minutes through the middle of the day; often under twenty-five in the final hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Stardust Racers?",
+          "a": "48 inches, which makes it one of the two tallest requirements at Epic Universe alongside Monsters Unchained. Measurement is at a fixed stick with shoes on, and borderline riders are measured again at the platform, so a child who scrapes through at the entrance should expect a second check."
+        },
+        {
+          "q": "Does Stardust Racers go upside down?",
+          "a": "No. There are no inversions. The layout is built around airtime hills and high-speed turns rather than loops, which makes it more approachable than its height and speed suggest for riders who dislike being inverted."
+        },
+        {
+          "q": "Which side of Stardust Racers is better?",
+          "a": "They are not mirror images and the two trains hit their best moments at different points, so riders split fairly evenly. Do both if you can. If you only get one lap, take whichever side has the shorter queue — the difference between them is smaller than the difference between riding once and riding twice."
+        },
+        {
+          "q": "Is Stardust Racers scary?",
+          "a": "It is intense rather than frightening. Nothing is hidden, nothing jumps out and none of it happens in the dark. The sustained airtime is what people react to, so if negative g-force is what you dislike, this is the ride to skip; if darkness and startles are the problem, it is one of the safest headliners in the park."
+        }
+      ],
+      "relatedSlugs": [
+        "mine-cart-madness",
+        "constellation-carousel",
+        "curse-of-the-werewolf"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "constellation-carousel",
+      "name": "Constellation Carousel",
+      "land": "celestial-park",
+      "type": "spinner",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "No minimum height verified for this edition; young children need a supervising companion. Check the sign at the entrance.",
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Nothing here is designed to frighten anybody. The one thing to know is that the vehicles rotate and rise rather than simply going up and down on a pole, which is more motion than a child expects from something that looks like a carousel. A few riders prone to motion sickness find the combined rotation mildly unsettling; almost nobody else does."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "ecv-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "There is an accessible vehicle that loads from the platform without stairs — ask at the entrance rather than at the load point so the message travels ahead of you. Riders must transfer out of an ECV; wheelchairs can be brought to the platform edge."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A carousel with celestial vehicles that rotate and rise independently — considerably stranger and better than it looks from the path.",
+      "description": [
+        "The Constellation Carousel is the attraction most visitors write off from the walkway and most of them are wrong. It looks like a decorative hub carousel. It is a carousel whose vehicles rotate on their own axis and lift as the platform turns, so instead of going round in a circle you trace a much more complicated path through the air, with the hub, the fountains and the coaster rotating past you.",
+        "The vehicles are built as constellation creatures rather than horses, and the whole thing sits under a canopy that reads better at night when it is lit. It is the rare hub decoration that is actually an attraction, and the only ride in Celestial Park that a family with a two-year-old can do together.",
+        "It also does something useful for the day's rhythm. Everything else at Epic Universe is either a headliner with a wait or a show on a schedule. This is a two-minute reset in the middle of the park that almost never has a serious queue."
+      ],
+      "experience": [
+        "You board from a platform at ground level and pick a creature. The seating is more open than a traditional carousel and the vehicles are larger, so adults do not feel silly riding, which matters more than it sounds.",
+        "Once it starts the vehicle begins rotating under you while the whole platform turns and the arm lifts, and the combination is genuinely disorienting in a good way. The best moment is the point in each revolution where you are facing outward and rising, with Stardust Racers running somewhere above the fountains behind you.",
+        "It is short. Two circuits and it is over, and the immediate reaction from most riders is that they did not expect that from a carousel. It is the single most efficient two minutes in the park."
+      ],
+      "tips": [
+        "Ride it after dark. The canopy lighting and the surrounding hub are the whole point, and at night this goes from a pleasant curiosity to one of the better things in Celestial Park.",
+        "Sit on the outside ring if you have a choice. The outer vehicles get more lift and a better view over the hub.",
+        "It is the best queue-free option in the park for a family with a toddler, and it sits in the middle of the hub, so it works as a reward between two long crossings.",
+        "Do not spend an Express selection here. Even at its worst the wait is short, and there are two headliners in this park that will eat that selection far more usefully."
+      ],
+      "bestTime": "After dark, or as a mid-afternoon reset while crossing the hub between worlds.",
+      "typicalWait": "Usually under fifteen minutes; rarely above twenty-five even at peak.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement for the Constellation Carousel?",
+          "a": "We have not verified a minimum height for this edition and are not publishing a number we cannot stand behind. Young children need a supervising companion in the vehicle. Check the sign at the ride entrance, which is the only source that is current on the day you visit."
+        },
+        {
+          "q": "Is the Constellation Carousel worth riding as an adult?",
+          "a": "Yes, and it is the attraction most likely to surprise you. The vehicles rotate and rise independently of the platform, which produces a genuinely odd sensation rather than a nostalgic one. Two minutes, almost no queue, and better at night."
+        },
+        {
+          "q": "Can toddlers ride the Constellation Carousel?",
+          "a": "It is the most toddler-friendly ride in Celestial Park and one of the few attractions in the park a family can do together with a very young child. The motion is more than a traditional carousel but nothing about it is aggressive."
+        }
+      ],
+      "relatedSlugs": [
+        "stardust-racers",
+        "yoshis-adventure",
+        "astronomica"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "astronomica",
+      "name": "Astronomica",
+      "land": "celestial-park",
+      "type": "play-area",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "The only startle here is a jet of water arriving when a child was not expecting it, which is the point. Nothing is dark, fast or loud enough to concern anyone."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Open paved area with no queue, no vehicle and no transfer. Surfaces get wet and can be slick, which is the only real hazard for mobility devices."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The interactive fountain area in the middle of Celestial Park, and the best free thing in the park for a child who is finished with queues.",
+      "description": [
+        "Astronomica is the interactive water feature at the heart of Celestial Park — a set of fountains and jets that respond to being touched, blocked and played with rather than simply running on a timer. It is not an attraction in the sense of having a queue or a vehicle, and it is one of the more useful things in the park.",
+        "It exists for the moment in the middle of the afternoon when a six-year-old is done. There is no wait, no height stick and no plan required, and children who have spent three hours standing in themed corridors get twenty minutes of running about in water. It is also a good adult stop, because the seating around the edge is shaded and looks out over the hub."
+      ],
+      "tips": [
+        "Bring a spare shirt for younger children if you are anywhere near this in the afternoon. It is not a full water play area, but nobody stays dry either.",
+        "Use it as the reward between two world crossings rather than as a destination. It sits exactly where your day already routes you.",
+        "It looks completely different lit at night, and the evening crowd here is thinner because the children have gone. It is worth a second look on your way out."
+      ],
+      "bestTime": "Mid-afternoon, when children have run out of patience, and again after dark for the lighting.",
+      "typicalWait": "None — walk-up open area with no queue at any time of day.",
+      "faqs": [],
+      "relatedSlugs": [
+        "constellation-carousel",
+        "stardust-racers"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "harry-potter-and-the-battle-at-the-ministry",
+      "name": "Harry Potter and the Battle at the Ministry",
+      "land": "ministry-of-magic",
+      "type": "dark-ride",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 4,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "The scares here are atmospheric rather than physical — sustained darkness, a courtroom sequence that goes wrong, creatures arriving suddenly at close range, and a great deal of noise. There are movement effects that feel like drops without being drops. Children who handled Escape from Gringotts will handle this; children who found Gringotts too much will find this harder, because it runs longer."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Riders transfer fully into the vehicle. The themed queue includes changes of level and some narrow sections; team members at the entrance will route mobility devices around them if you ask on arrival rather than partway in."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The park's technical centerpiece: a long ride through the French Ministry of Magic that combines several different ride systems in one trip.",
+      "description": [
+        "Battle at the Ministry is the most complicated attraction Universal has built and the reason a lot of people buy a ticket to this park. You descend from 1920s Paris into the French Ministry of Magic, and what follows is a long ride that changes what it is doing several times — moving through built sets, then screens, then sets again, with vehicle motion doing a great deal of the work in between.",
+        "It sits in the Fantastic Beasts era rather than the Hogwarts one, and the story is about a ministry hearing that goes badly wrong. Anyone arriving expecting a Hogwarts castle experience needs to reset first; this is a different corner of the same world and it is played closer to a period thriller than to a school story.",
+        "The build quality is the thing worth noting. The Ministry interior is the best single set at Epic Universe, the animatronic work in it is a step up from Universal's screen-heavy decade, and the ride is long enough that it actually feels like a journey rather than a sequence of gags. It is also the longest queue in the park most days, and that is not an accident."
+      ],
+      "experience": [
+        "The approach is half the attraction. You go from a Parisian street down through a themed transition into the Ministry's atrium, and the queue is one of the few in Orlando genuinely worth walking slowly. Do not race it, because the queue is doing work the ride depends on.",
+        "The ride itself opens in a courtroom sequence and then breaks out of it, and from there it alternates between physical sets you move through and screen sequences where the vehicle does the moving. The best passage is the one in the middle where you are in a fully built space with animatronics on both sides and nothing projected at all.",
+        "It runs long by modern standards and the pacing sags slightly in the screen-heavy stretch before the finale. The ending recovers it. Most riders come off talking about the sets rather than the story, which tells you where the money went."
+      ],
+      "tips": [
+        "Ride it in the first hour or the last ninety minutes. Between roughly 10 AM and 4 PM the wait settles onto a plateau it does not come off, and this is the longest queue in the park.",
+        "Walk the queue rather than powering through it. The Ministry atrium is one of the best-built spaces at Universal Orlando and you only see it properly on the way in.",
+        "Everything loose goes in a locker. Enforcement is strict, the lockers are free for the duration of the ride, and arguing at the platform costs everyone behind you.",
+        "If motion is a concern, this ride combines vehicle movement with large screens, which is the combination that makes people queasy. Sitting toward the middle of the vehicle rather than the outside edge takes the edge off it.",
+        "Check the Le Cirque Arcanus showtimes on the way in. The show is fifty yards away and the two things schedule around each other neatly."
+      ],
+      "bestTime": "The first hour after opening, or the last ninety minutes before close.",
+      "typicalWait": "Sixty to ninety minutes through the middle of the day; often forty or less late in the evening.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Harry Potter and the Battle at the Ministry?",
+          "a": "42 inches. That puts it within reach of most children over about five, though the height stick is not the right test here — the ride is dark, long and loud, and content is a bigger barrier than inches for younger riders."
+        },
+        {
+          "q": "Is Battle at the Ministry scary for children?",
+          "a": "It is atmospheric rather than violent, but it runs long in the dark with sudden creature appearances and a lot of noise. A child who managed Escape from Gringotts at Universal Studios Florida will manage this. A child who found Gringotts too much will find this harder, because there is more of it."
+        },
+        {
+          "q": "Does Battle at the Ministry make people motion sick?",
+          "a": "Some, yes. It pairs real vehicle motion with large screen sequences, which is the combination most likely to cause trouble. It is milder than Universal's simulator rides but stronger than a traditional dark ride. Sitting toward the middle of the vehicle helps."
+        },
+        {
+          "q": "Do you need to know Fantastic Beasts to enjoy it?",
+          "a": "No. The setting is the French Ministry of Magic in the Fantastic Beasts era rather than the Hogwarts era, but the ride explains itself as it goes. Knowing the films adds recognition rather than comprehension."
+        }
+      ],
+      "relatedSlugs": [
+        "le-cirque-arcanus",
+        "interactive-wand-magic",
+        "monsters-unchained-the-frankenstein-experiment"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "le-cirque-arcanus",
+      "name": "Le Cirque Arcanus",
+      "land": "ministry-of-magic",
+      "type": "stage-show",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A theater show in a dark auditorium with some large creature puppetry that arrives close to the audience. Nothing is aimed at frightening anyone, but the room goes properly dark and a very young child who dislikes darkness or large moving figures may need warning first."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Wheelchair positions are available in the auditorium without transferring; ask at the theater entrance rather than joining the general queue. The show leans heavily on visuals and staging rather than dialogue, which makes it one of the most accessible attractions in the park for guests with hearing loss."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A wizarding circus staged with puppetry and stage illusion rather than screens — the most skipped attraction at Epic Universe and one of the best.",
+      "description": [
+        "Le Cirque Arcanus is a theater show in the Ministry of Magic world, and it is the thing visitors leave off their plans and then regret. It is staged as a traveling wizarding circus, and the production is built on practical craft — puppetry, illusion, physical performance and lighting — rather than on projection. In a resort that has spent a decade putting screens in front of people, that is a deliberate and welcome choice.",
+        "The creature work is the reason to go. Several of the beasts are operated at close to full scale and they move convincingly enough that adults watch the mechanism rather than the story. It is also one of the few genuinely quiet, seated, air-conditioned experiences at Epic Universe, which by three in the afternoon is worth as much as the show itself.",
+        "It runs on a showtime schedule with a fixed auditorium, which is why it never appears on anyone's plan. Look up the times as you walk into the world and build one into your day, because the seats are rarely full and the show is better than its position on most people's lists."
+      ],
+      "experience": [
+        "You are seated in a proper theater rather than a standing pre-show space, and the show opens quietly, which after a morning of coaster launches and block-punching is disarming rather than dull.",
+        "The middle stretch is the strongest, with large creature puppetry moving through the space and a couple of illusions that get an audible reaction from a room full of people who thought they were killing half an hour. It does not talk down to children and it does not condescend to adults, which is a harder balance than it sounds.",
+        "Budget around half an hour including finding a seat. Sit toward the middle rather than the front — several of the effects need distance to read properly, and the front rows lose the composition."
+      ],
+      "tips": [
+        "Note the showtimes when you first walk into the Ministry of Magic, before you queue for anything. Building the rest of the world around one showtime is far easier than trying to catch the next one at 4 PM.",
+        "Sit in the middle of the auditorium, not the front. Several effects are staged to read from a distance and the front rows see the working rather than the trick.",
+        "Take the mid-afternoon showing. It is the longest air-conditioned sit-down in this half of the park and it lands exactly when everyone in your party has stopped enjoying queues.",
+        "This is one to prioritize on a busy day, not to save for a quiet one. A show with fixed seating and fixed times does not get better when you have less time."
+      ],
+      "bestTime": "Mid-afternoon, as an air-conditioned break between the Ministry ride and the rest of the park.",
+      "typicalWait": "No standby wait as such — arrive fifteen to twenty minutes before a showtime for a good seat.",
+      "faqs": [
+        {
+          "q": "Is Le Cirque Arcanus worth seeing?",
+          "a": "Yes, and it is the most underrated attraction at Epic Universe. It is staged with puppetry and practical illusion rather than screens, the creature work is genuinely impressive, and the auditorium is rarely full. It is also the best air-conditioned break in the Ministry of Magic."
+        },
+        {
+          "q": "Is Le Cirque Arcanus scary for young children?",
+          "a": "Not by design, but the auditorium goes properly dark and some of the creature puppetry is large and arrives close to the audience. A child who is comfortable with a dark theater will be fine. One who is not should be warned before the lights go down."
+        },
+        {
+          "q": "How long is Le Cirque Arcanus?",
+          "a": "Budget around half an hour including getting seated. It runs on a published showtime schedule rather than continuously, so check the times in the app or on the board outside the theater when you enter the world."
+        }
+      ],
+      "relatedSlugs": [
+        "harry-potter-and-the-battle-at-the-ministry",
+        "the-untrainable-dragon",
+        "interactive-wand-magic"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "interactive-wand-magic",
+      "name": "Interactive Wand Magic",
+      "land": "ministry-of-magic",
+      "type": "interactive-game",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Nothing here is frightening in any respect. The effects are small-scale window and street gags triggered by a wand movement."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Spell locations are on the street with no queue and no vehicle. Some of the marked spots require a specific standing position and arm height, which is harder from a seated position; team members in the streets will help with placement if asked."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Wand-activated effects hidden through the Paris streets, sold as an add-on and worth it only if someone genuinely wants to work the world.",
+      "description": [
+        "As at the two older Wizarding Worlds, the streets here hide effects that respond to an interactive wand — windows that react, objects that move, small pieces of staging that only exist for people holding the right stick and standing on the right medallion. The Paris setting gives the designers more building frontage to play with than Hogsmeade had, and the density of spell locations is correspondingly higher.",
+        "It is an add-on purchase, and it is not cheap. The honest calculation is whether someone in your party will spend a genuine hour walking the streets working through the spell list, or whether they will do four of them and want lunch. Both outcomes are common and only one of them justifies the price."
+      ],
+      "tips": [
+        "Do it in the evening. The effects read far better after dark and the streets are less crowded, which matters because each spell spot fits one person at a time.",
+        "The medallion on the ground is not decoration — stand on it. Most failed spells are a positioning problem rather than a technique problem.",
+        "If two children want wands, buy two. Sharing one wand between siblings in a crowded street is a worse experience than skipping the whole thing.",
+        "Wands bought at the older Universal Orlando Wizarding Worlds work here too. Bring the one you already own rather than buying a second."
+      ],
+      "bestTime": "After dark, when the effects read better and the spell locations are not queued.",
+      "typicalWait": "No queue as such, though popular spell spots gather a short line of two or three families in the afternoon.",
+      "faqs": [],
+      "relatedSlugs": [
+        "harry-potter-and-the-battle-at-the-ministry",
+        "le-cirque-arcanus"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mario-kart-bowsers-challenge",
+      "name": "Mario Kart: Bowser's Challenge",
+      "land": "super-nintendo-world",
+      "type": "dark-ride",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "Nothing about the content is frightening — it is a cartoon race. The genuine issues are the headset over your eyes, which a small number of children refuse once it is on, and the sensory load of a dark, loud, visually saturated environment. Bowser appears at scale and is loud rather than menacing."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Riders transfer into the kart and wear an AR visor that clips to a headset. The visor sits poorly over many prescription glasses, and the ride's content is delivered almost entirely through it — guests with significant vision limitations get very little from this attraction."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "An augmented-reality dark ride through Bowser's Castle that you steer and shoot in, and the most divisive attraction in the park.",
+      "description": [
+        "Mario Kart: Bowser's Challenge puts four riders in a kart, gives each of them a steering wheel and an AR visor, and sends them through a physically built race course inside Bowser's Castle. The sets are real, the karts move on a track, and the visor overlays the racers, the shells and the item boxes onto what you are actually looking at. You steer to aim and press a trigger to throw shells.",
+        "The queue is the best-built part of the attraction. You walk through Bowser's Castle past statuary, trophies and a genuinely impressive series of rooms, and a good number of riders enjoy the queue more than the ride. That is not entirely a criticism — this is one of the few Universal queues worth a slow walk.",
+        "The ride itself splits opinion harder than anything else at Epic Universe. Riders who get the visor seated correctly and understand what they are meant to be doing find it clever and repeatable. Riders who do not spend four minutes squinting at a blurry overlay and come off wondering what the queue was for. Which camp you end up in is decided almost entirely in the ten seconds at the load platform."
+      ],
+      "experience": [
+        "You are given a headset in the queue and a visor at the platform. Getting it right matters more than anything else about the ride: it should sit level and close, and adjusting it once you are moving is close to impossible. Wearers of large glasses should expect to fight it.",
+        "The course itself is a proper Mario Kart lap — Bowser's Castle, a beach section, a rainbow stretch — with physical sets, animatronics and lighting that stand up perfectly well without any overlay. Steering does nothing to where the kart goes; it aims your shells, and hitting things scores points for your team.",
+        "It is not fast and it does not try to be. The pleasure is in the density of what is happening around you and, if the visor cooperates, the sense of competing. Riders who go in expecting a thrill ride will be disappointed regardless of how well the headset fits."
+      ],
+      "tips": [
+        "Fix the visor at the platform, not on the move. Level, close to your face, and firmly seated — this single adjustment decides whether you enjoy the ride.",
+        "Contact lenses beat glasses here by a wide margin. If you have the option, wear them the day you do this.",
+        "Steering does not change your path. Use it to aim at the targets and enemies on your side of the course rather than trying to drive.",
+        "Walk the queue slowly. Bowser's Castle is one of the best queue environments Universal has built, and rushing it is a genuine loss.",
+        "Ride Mine-Cart Madness first if you have to choose. It has lower capacity, a faster-climbing wait, and it is the better ride."
+      ],
+      "bestTime": "In the first hour of your entry to SUPER NINTENDO WORLD, whatever time that entry turns out to be.",
+      "typicalWait": "Sixty to ninety minutes through the middle of the day, and it holds that plateau longer than most.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Mario Kart: Bowser's Challenge?",
+          "a": "40 inches. That makes it the most accessible of the park's three big-name rides for younger children, and the one most families with a five- or six-year-old build their SUPER NINTENDO WORLD visit around."
+        },
+        {
+          "q": "Why do people dislike Mario Kart: Bowser's Challenge?",
+          "a": "Almost always the visor. The AR headset has to be seated correctly to work, it fits badly over glasses, and the ride's content is delivered through it. Riders who get it right generally like the attraction; riders who do not spend four minutes looking at a blur and blame the ride."
+        },
+        {
+          "q": "Can you ride Mario Kart without the AR visor?",
+          "a": "You can ride without the overlay active, and the physical sets, animatronics and lighting hold up on their own. You lose the racers, the shells and the scoring, which is most of what the ride is doing, so treat it as a fallback rather than a choice."
+        },
+        {
+          "q": "Does Mario Kart make people motion sick?",
+          "a": "Some riders, yes. The combination of a moving vehicle and a screen fixed to your face is the classic trigger, though the kart itself moves gently and the ride is short. Anyone who struggles with VR should approach this one carefully."
+        }
+      ],
+      "relatedSlugs": [
+        "mine-cart-madness",
+        "yoshis-adventure",
+        "power-up-band-key-challenges"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mine-cart-madness",
+      "name": "Mine-Cart Madness",
+      "land": "super-nintendo-world",
+      "type": "roller-coaster",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 2,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "The startle here is engineered: the track appears to be missing and the cart appears to jump the gap. It works, and a child who has not been told it is coming will react. Beyond that it is a family coaster — no inversions, moderate speed, and a couple of short drops. Riders who are fine on a mine train coaster elsewhere will be fine here."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer into the mine cart is required. The restraint is a lap bar and riders need to be able to hold themselves upright through lateral movement. There is a test seat at the entrance."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The Donkey Kong Country coaster whose track appears to break and jump, and the most cleverly engineered ride at Epic Universe.",
+      "description": [
+        "Mine-Cart Madness is the best-engineered ride in the park and the one that rewards knowing nothing about it. It is a family coaster through the Donkey Kong Country jungle, and its signature trick is that the track appears to end — the cart appears to leave the rails, jump a gap, and land on the far side. The illusion is done mechanically and it holds up even once you understand it, which is the mark of a good one.",
+        "Around that trick sits a genuinely well-paced family coaster: not fast, not tall, no inversions, but with enough lateral movement and enough short drops to satisfy an eight-year-old and entertain an adult. The jungle setting is built rather than projected, with vine platforms, barrels and Donkey Kong Country iconography throughout.",
+        "It is also the capacity problem in SUPER NINTENDO WORLD. The trains are small, the throughput is lower than Mario Kart's, and its wait climbs faster and falls slower. If you have exactly one good slot inside this world, spend it here."
+      ],
+      "experience": [
+        "The queue runs through the Donkey Kong Country jungle at ground level and then up into the mine, and it is worth walking rather than rushing. You board a mine cart that runs alongside a second track rather than in a conventional coaster train, and the layout keeps that second rail in view for a reason.",
+        "The first jump comes early enough that most riders have not settled in, which is exactly the intention. The sensation is of leaving the track sideways and landing again, and the first-time reaction on a full train is audible from the queue below.",
+        "The rest of the layout keeps moving through the jungle with enough lateral swing to feel loose without ever feeling unsafe. It runs short. Most riders come off wanting to go straight back on, which given the capacity is the single most frustrating thing about it."
+      ],
+      "tips": [
+        "Ride it before Mario Kart if you get an early slot in this world. Lower capacity, faster-climbing wait, and it is the better attraction.",
+        "Do not read up on how the jump works before you ride. It is the one effect in the park that genuinely benefits from surprise, and you cannot un-know it.",
+        "Sit toward the back of the cart for more lateral movement, and toward the front for the clearest view of the track apparently ending in front of you.",
+        "It is a comfortable step up for a child who has outgrown gentle rides but is not ready for Stardust Racers. At 42 inches it sits neatly in the middle of the park's height ladder.",
+        "The Donkey Kong Country section is at the back of SUPER NINTENDO WORLD, so add the walk from the portal to whatever the app says the wait is."
+      ],
+      "bestTime": "First thing after you enter SUPER NINTENDO WORLD, or the last thirty minutes if the world is still admitting guests.",
+      "typicalWait": "Forty-five to ninety minutes for most of the day; it sheds its wait more slowly than anything else in the park.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Mine-Cart Madness?",
+          "a": "42 inches. That places it between Mario Kart at 40 and Stardust Racers at 48, and it makes a natural next step for a child who has done the gentler rides and wants something with actual speed."
+        },
+        {
+          "q": "Does the mine cart really jump off the track?",
+          "a": "No. The cart stays mechanically connected throughout — the jump is an engineered illusion using a second rail and the geometry of the vehicle. Knowing that does not spoil it, which is the best thing anyone can say about a trick like this."
+        },
+        {
+          "q": "Is Mine-Cart Madness scary?",
+          "a": "It is a family coaster with an engineered surprise rather than a thrill ride. No inversions, moderate speed and short drops. The jump moment startles first-time riders, and a child who has been warned about it will be fine."
+        },
+        {
+          "q": "Is Mine-Cart Madness better than Mario Kart?",
+          "a": "Yes, and it is not close. Mario Kart has the better queue and the more ambitious idea; Mine-Cart Madness has the better execution, works for every rider regardless of how a headset fits, and is the ride people want to repeat."
+        }
+      ],
+      "relatedSlugs": [
+        "mario-kart-bowsers-challenge",
+        "stardust-racers",
+        "hiccups-wing-gliders"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "yoshis-adventure",
+      "name": "Yoshi's Adventure",
+      "land": "super-nintendo-world",
+      "type": "dark-ride",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Any minimum here is low or supervision-based and is not verified for this edition — confirm at the sign by the entrance.",
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "This is the gentlest ride in SUPER NINTENDO WORLD and one of the gentlest in the park. It moves slowly, it is mostly outdoors and elevated, and nothing about it is designed to surprise anyone. The only concern is riders who dislike being up high on an open vehicle."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "ecv-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Riders transfer onto a Yoshi vehicle from a level platform; the step is low and the ride can be slowed for boarding on request. Wheelchairs come to the platform edge, ECV users transfer earlier in the queue."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A slow elevated ride through the Mushroom Kingdom for small children, with the best views of SUPER NINTENDO WORLD from above.",
+      "description": [
+        "Yoshi's Adventure is the small-child ride in a world otherwise built around a 40-inch and a 42-inch requirement, and its real value is exactly that. You ride a Yoshi at walking pace on an elevated track that loops around and above the Mushroom Kingdom, hunting for colored eggs hidden in the scenery along the way.",
+        "The ride is slight. Nobody would queue an hour for it on its merits, and yet it regularly draws a queue that long because it is the only thing here a four-year-old can do. That mismatch is the single most annoying planning problem in SUPER NINTENDO WORLD and the reason to take this one immediately on entry or not at all.",
+        "What it does offer, to riders of any age, is the view. The elevated track is the only place you get to see the built landscape of the Mushroom Kingdom from above, with the moving Piranha Plants and question blocks laid out below you. Adults riding without children generally come off talking about the vantage point rather than the eggs."
+      ],
+      "experience": [
+        "Boarding is from a level platform onto an open Yoshi vehicle that seats a small group. It moves off slowly and stays slow — this is not a ride with a second half that surprises you.",
+        "The loop climbs above the world and circles Mount Beanpole, and the egg hunt gives children something to do with their eyes. Point out the first two and they will find the rest themselves.",
+        "The best passage is the elevated section looking down over the Mushroom Kingdom, which is the only aerial view of the world available to anyone. It is a better piece of sightseeing than it is a ride, and knowing that in advance improves it."
+      ],
+      "tips": [
+        "Ride it in the first twenty minutes of entering the world or skip it. The wait here is driven by demand rather than by quality, and it does not fall off the way the headliner waits do.",
+        "It is the only ride in SUPER NINTENDO WORLD with no meaningful barrier for a small child, which makes it the anchor for a family with a preschooler rather than a nice extra.",
+        "Sit on the outside of the vehicle for the elevated views over the Mushroom Kingdom. That view is the actual reason for an adult to ride.",
+        "Do not spend an Express selection here unless you have a small child. On merit alone this is not a ride worth a paid skip."
+      ],
+      "bestTime": "The first twenty minutes after entering SUPER NINTENDO WORLD, before the family crowd finds it.",
+      "typicalWait": "Thirty to sixty minutes through the day — high for what it is, and slow to fall.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement for Yoshi's Adventure?",
+          "a": "Any minimum here is low or based on adult supervision, and we do not publish height numbers we have not verified against the park's own sign. Check the board at the entrance. In practice this is the ride in SUPER NINTENDO WORLD that a small child can do."
+        },
+        {
+          "q": "Is Yoshi's Adventure worth the wait?",
+          "a": "For a family with a preschooler, yes — it is the only thing in this world that child can ride. For adults without young children, only if the posted wait is under twenty minutes. The elevated views over the Mushroom Kingdom are genuinely the best in the world, but they are not an hour's worth."
+        },
+        {
+          "q": "Is Yoshi's Adventure scary?",
+          "a": "No. It moves at walking pace, it is mostly outdoors and elevated, and nothing in it is designed to startle. The only riders who find it uncomfortable are those who dislike open vehicles at height."
+        }
+      ],
+      "relatedSlugs": [
+        "mario-kart-bowsers-challenge",
+        "power-up-band-key-challenges",
+        "constellation-carousel"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "power-up-band-key-challenges",
+      "name": "Power-Up Band Key Challenges",
+      "land": "super-nintendo-world",
+      "type": "interactive-game",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "Nothing frightening. The only difficulty is the noise and density of the world itself, which is a sensory load rather than a scare."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Most challenge stations are reachable without transferring, but several require reaching, punching or standing in a specific spot, and a few sit above comfortable seated reach. Team members will help, and the app tracks progress regardless of how many stations you complete."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "The wearable-band game layered over SUPER NINTENDO WORLD — punch blocks, win mini-games, collect keys, and unlock a final challenge.",
+      "description": [
+        "The Power-Up Band is a wristband you buy separately and tap against interactive points across SUPER NINTENDO WORLD. Question blocks give coins. Hidden stations across both the Mushroom Kingdom and Donkey Kong Country run short physical mini-games — timing puzzles, aiming challenges, cooperative tasks — and completing them wins keys, which in turn open a final challenge.",
+        "It is a genuinely well-designed layer, and it is the difference between SUPER NINTENDO WORLD being a place you ride two things and a place you spend three hours. Progress syncs to the Universal app, so scores and coin totals persist across the day and across visits.",
+        "It also costs real money on top of park admission, and it is only worth it for the right visitor. A child who wants to complete the whole set is going to have a very good afternoon. An adult who taps four blocks out of curiosity has bought an expensive bracelet. Decide honestly before you queue for one."
+      ],
+      "experience": [
+        "Buying the band takes longer than anything you will do with it, which is why buying before you enter the world is the single most useful piece of advice about it. Once you are in, the mini-game stations are scattered deliberately — some obvious, some behind buildings and up steps.",
+        "The mini-games themselves are short, physical and cooperative rather than screen-based. Small groups play them together, and the queue for each one is usually two or three families deep rather than a proper line.",
+        "Collecting the full set of keys unlocks the final challenge, which is the intended climax of the whole thing. Working through the set takes real time — plan on the better part of an afternoon rather than the gap between two rides."
+      ],
+      "tips": [
+        "Buy Power-Up Bands before you enter the world. The purchase queue inside is longer than any mini-game queue.",
+        "Decide honestly whether your party will finish the set. Four bands bought on impulse and abandoned after two blocks is the most common wasted spend at Epic Universe.",
+        "Do the mini-games in the quieter afternoon window rather than the moment you arrive. First thing, everyone is running for Mine-Cart Madness and the ride waits are at their most beatable.",
+        "Bands work at SUPER NINTENDO WORLD locations at other Universal parks too, so a band bought here is not necessarily single-use if your trip includes Hollywood or Japan later."
+      ],
+      "bestTime": "The mid-afternoon lull, once your party has already ridden the headliners.",
+      "typicalWait": "No single queue — expect two or three families ahead of you at each mini-game station in the afternoon.",
+      "faqs": [
+        {
+          "q": "Do you need a Power-Up Band at SUPER NINTENDO WORLD?",
+          "a": "No. Every ride works without one and the world is fully walkable and enjoyable unbanded. The band adds the mini-games, the key challenges and the coin collecting, which is a substantial layer for children and close to irrelevant for most adults."
+        },
+        {
+          "q": "How much does a Power-Up Band cost?",
+          "a": "It is an add-on purchase on top of park admission, priced per band, and a family buying four is making a meaningful spending decision rather than a small one. Prices move, so check the current figure in the Universal app before committing the whole party."
+        },
+        {
+          "q": "Can you use a Power-Up Band from another park?",
+          "a": "Bands are designed to work across SUPER NINTENDO WORLD locations and sync progress through the Universal app. If someone in your party already owns one from Hollywood or Japan, bring it rather than buying again."
+        }
+      ],
+      "relatedSlugs": [
+        "mario-kart-bowsers-challenge",
+        "mine-cart-madness",
+        "meet-mario-and-friends"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "meet-mario-and-friends",
+      "name": "Meet Mario and Friends",
+      "land": "super-nintendo-world",
+      "type": "character-meet",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Full-costume characters at close range, which a small number of very young children find intimidating regardless of who is inside the suit. Everything else about it is calm."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "No transfer required and the meeting areas are level and paved. Team members will position wheelchairs for photographs without being asked twice."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Scheduled meet-and-greets with Mario, Luigi, Peach and Toad in the Mushroom Kingdom, on a published rotation.",
+      "description": [
+        "The Mushroom Kingdom runs character meets on a rotation through the day, typically with Mario, Luigi, Princess Peach and Toad appearing at set positions near Peach's Castle and around the central plaza. Costumes are full-body and the characters do not speak, which is the standard for these particular properties.",
+        "Demand is high and the lines are managed rather than open-ended, so this is one of the few things at Epic Universe genuinely worth checking a schedule for. The photographs are the point — the character positions are chosen so the built Mushroom Kingdom is behind you rather than a blank wall."
+      ],
+      "tips": [
+        "Check the day's schedule in the app rather than waiting hopefully in the plaza. Meet times are published and the queue closes when the slot fills.",
+        "Go at the start of a slot, not the middle. The line closes early on busy days and the last families in the queue get a rushed interaction.",
+        "Stand so the castle is behind you when the photo is taken. The characters are positioned for this and the team member with the camera will help if you ask."
+      ],
+      "bestTime": "The first meet slot of the day, when the queue is shortest and the interaction is least rushed.",
+      "typicalWait": "Twenty to forty minutes in the middle of the day; shorter at the first slot.",
+      "faqs": [],
+      "relatedSlugs": [
+        "power-up-band-key-challenges",
+        "yoshis-adventure"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hiccups-wing-gliders",
+      "name": "Hiccup's Wing Gliders",
+      "land": "isle-of-berk",
+      "type": "roller-coaster",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "A launched family coaster with no inversions, no long drops and no darkness. The launch is the only moment that gets a reaction, and it is brisk rather than aggressive. This is the right first real roller coaster for a child, and adults who dislike intensity can ride it comfortably."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer into the train is required and riders need to hold themselves upright under a lap restraint. There is a test seat by the entrance, which is worth using for larger adults."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A launched family coaster over the Isle of Berk, and the best step-up ride in the park for a child moving on from gentle attractions.",
+      "description": [
+        "Hiccup's Wing Gliders is the family coaster Epic Universe needed. It launches out of the Viking village and runs a low, fast circuit over and around the Isle of Berk, with a flight-themed conceit that puts you on a glider rather than in a cart. Nothing about it is extreme — no inversions, no big drops, no darkness — and it is genuinely exciting rather than merely tolerable.",
+        "At 40 inches it sits at the bottom of the park's height ladder alongside Mario Kart, and it is the far better ride of the two for a child working out whether they like roller coasters. The launch does the work, the layout keeps the speed up, and the whole thing is over before anyone has time to get frightened.",
+        "It is also the coaster adults dismiss and then enjoy. The sightlines over the village and the harbor are the best of any ride in the park, and being outdoors in the open air is a relief in a day otherwise spent inside dark buildings."
+      ],
+      "experience": [
+        "You board in the village and launch out over the settlement rather than climbing a lift hill, which is exactly the right decision for a family coaster — the ride is at speed before a nervous child has had time to think about it.",
+        "The layout runs low and fast around the world, with banked turns rather than airtime hills and one or two moments of genuine lift. The views over the harbor from the far side of the circuit are the best on any ride here.",
+        "It ends quickly, and the standard reaction from a first-time young rider is to ask to go again. That is the whole job of a coaster like this and it does it well."
+      ],
+      "tips": [
+        "This is the right first real coaster for a child. If your party is working up to Stardust Racers, ride this one first and read the reaction.",
+        "Take it in the first hour after opening. Isle of Berk is the least crowded world at rope drop because everyone runs for the Nintendo portal or the Ministry.",
+        "Sit toward the back for a bit more speed through the turns, and toward the front for the clearest views over the harbor.",
+        "Use the test seat if you are a larger adult. The restraint geometry on this train is tighter than it looks from the queue.",
+        "It shuts down in lightning, which in Florida summer is a near-daily afternoon event. If the forecast is bad, ride it in the morning."
+      ],
+      "bestTime": "The first hour after opening, or during a mid-afternoon lull while the rest of the park queues elsewhere.",
+      "typicalWait": "Twenty-five to fifty minutes most of the day, and it falls off quickly in the evening.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Hiccup's Wing Gliders?",
+          "a": "40 inches, which ties it with Mario Kart and Curse of the Werewolf for the lowest coaster requirement at Epic Universe. It is the natural first roller coaster for a child who clears that mark."
+        },
+        {
+          "q": "Is Hiccup's Wing Gliders scary?",
+          "a": "Not particularly. It launches rather than climbing a lift hill, has no inversions and no substantial drops, and stays outdoors and lit throughout. The launch is the only moment that startles anyone, and it is over in a second."
+        },
+        {
+          "q": "Is Hiccup's Wing Gliders worth it for adults?",
+          "a": "Yes, as a short, fast, open-air coaster with the best views in the park. It is not a headliner and will not compete with Stardust Racers, but it is the ride most adults are surprised to have enjoyed."
+        }
+      ],
+      "relatedSlugs": [
+        "dragon-racers-rally",
+        "fyre-drill",
+        "mine-cart-madness"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "dragon-racers-rally",
+      "name": "Dragon Racer's Rally",
+      "land": "isle-of-berk",
+      "type": "spinner",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "A minimum height applies. We have not verified the exact figure for this edition and do not publish numbers we cannot stand behind — check the sign at the entrance.",
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "This one catches families out. It looks like a gentle village attraction and it flips riders over on a rotating arm, which is more than most people expect from something in the same world as a puppet show. There is no darkness and nothing hidden, but the inversion-adjacent motion is real and it is the ride in Isle of Berk most likely to upset a nervous child."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer into an over-the-shoulder restraint is required and riders need good upper-body control. The motion is aggressive relative to everything else in this world, and the transfer is the least forgiving in Isle of Berk."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A pair of rotating arm rides that swing and flip riders over the Viking village — much more intense than its position in a family world suggests.",
+      "description": [
+        "Dragon Racer's Rally is two rotating rides working side by side over the courtyard of the Viking village, swinging riders out and around on arms and rolling them through the top of the arc. It looks like a piece of village scenery from the path and it is comfortably the most physically intense flat ride at Epic Universe.",
+        "That mismatch is the whole story of this attraction. It sits in the friendliest world in the park, between a family coaster and a puppet show, and a meaningful number of families put a nervous eight-year-old on it because everything else nearby was gentle. Read the ride before you queue, not after.",
+        "Taken on its own terms it is a good, well-themed flat ride with a strong view over the harbor at the top of the arc, and thrill riders will enjoy it. It is simply in the wrong neighborhood for its intensity."
+      ],
+      "experience": [
+        "You board on the courtyard platform under an over-the-shoulder restraint, which is the first clue that this is not the ride it looks like from the path.",
+        "The arms lift and rotate together, so you get both the swing of the arm and the roll of your own vehicle. The top of the arc gives you a second or two looking down over the village and the harbor, which is genuinely the best view of Isle of Berk available.",
+        "It is short, and it is the ride in this park most likely to send a queasy rider looking for a bench. If motion sickness is a problem for anyone in your party, this is the attraction to skip rather than the coasters."
+      ],
+      "tips": [
+        "Do not put a nervous child on this because the rest of Isle of Berk is gentle. Watch a cycle from the courtyard first — the whole ride is visible from the ground.",
+        "Ride it before you eat, not after. This is the most reliable motion-sickness generator at Epic Universe.",
+        "The height minimum here matters and is posted at the entrance. Check it before your child gets attached to the idea.",
+        "It is one of the shortest queues in the park most of the day, which is a fair signal about who ends up riding it."
+      ],
+      "bestTime": "Mid-afternoon, when the queue is short and you have not just eaten.",
+      "typicalWait": "Usually under twenty-five minutes, and often close to a walk-on.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Dragon Racer's Rally?",
+          "a": "There is one, and we are not publishing a figure we have not verified against the park's own signage. Check the board at the entrance before you queue. It is meaningfully higher than the rest of Isle of Berk, which is the practical thing to know."
+        },
+        {
+          "q": "Is Dragon Racer's Rally intense?",
+          "a": "More than anything else in Isle of Berk, by a distance. It swings riders on a rotating arm and rolls the vehicle through the top of the arc under an over-the-shoulder restraint. Families expecting a village flat ride are regularly caught out."
+        },
+        {
+          "q": "Will Dragon Racer's Rally make you sick?",
+          "a": "It is the most likely attraction in the park to do so. The combination of arm swing and vehicle roll is exactly what triggers motion sickness. Ride it before a meal rather than after, and skip it if anyone in the party is already feeling delicate."
+        }
+      ],
+      "relatedSlugs": [
+        "hiccups-wing-gliders",
+        "fyre-drill",
+        "the-untrainable-dragon"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fyre-drill",
+      "name": "Fyre Drill",
+      "land": "isle-of-berk",
+      "type": "boat-ride",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "A minimum height applies. We have not verified the exact figure for this edition and do not publish numbers we cannot stand behind — check the sign at the entrance.",
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "Nothing frightening at all — the only shock is cold water arriving unexpectedly, which is what everybody came for. The boats rotate gently and stay at ground level throughout."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "ecv-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Riders transfer into the boat from a level dock; the step over the gunwale is the main obstacle. Operating the water cannon needs enough arm strength and reach to aim it, though a companion can do the work while another rider watches."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "Two crews of Viking boats soak each other with water cannons in the harbor — the most straightforwardly fun four minutes at Epic Universe.",
+      "description": [
+        "Fyre Drill is a water-battle ride in the Isle of Berk harbor. You board a boat with a mounted water cannon, the boats rotate slowly around a central point, and everybody attempts to soak everybody else while spectators on the dock join in with their own cannons. There is no story to speak of and no technology worth a press release, and it is one of the best things in the park.",
+        "It works because it is genuinely participatory rather than a ride that sprays you on a schedule. You aim, you fire, you get hit, and the crews on the dock decide whether you leave damp or drenched. Children work out the rules within ten seconds of boarding.",
+        "In Florida heat this is not a novelty, it is a strategy. Taken at one in the afternoon it resets an entire family, and the walk back into the sun dries you inside twenty minutes."
+      ],
+      "experience": [
+        "The dock cannons are half the attraction and they are free to use without riding, so a party split between people who want to be wet and people who do not still works here.",
+        "Once you are aboard, the boat begins rotating and the exchange starts. There is no aiming skill required and the water pressure is enough to be satisfying without being punishing. Being soaked is the normal outcome rather than the worst case.",
+        "It runs a few minutes, which is exactly right. Everyone comes off wet and laughing, and the older members of the party who claimed they would sit this one out generally ask to go again."
+      ],
+      "tips": [
+        "You will get properly wet, not misted. Stow phones and anything else that matters before you walk onto the dock, not before you board.",
+        "The spectator cannons on the dock are free and they are aimed at you. Standing there in shoes you care about is a decision, not an accident.",
+        "Ride it in the hottest part of the afternoon. It is the single best heat-management tool at Epic Universe and it dries off in twenty minutes.",
+        "Bring or buy a cheap poncho only if you genuinely need to stay dry for a reservation later. Otherwise let it happen — half-measures here are wasted."
+      ],
+      "bestTime": "The hottest part of the afternoon, when being soaked is an advantage rather than an inconvenience.",
+      "typicalWait": "Twenty to forty minutes in the afternoon, and shorter first thing and after sunset.",
+      "faqs": [
+        {
+          "q": "How wet do you get on Fyre Drill?",
+          "a": "Soaked, in most cases. The cannons are operated by other riders and by spectators on the dock, so how wet you get is decided by other people rather than by the ride. Assume you will need to dry off and plan the rest of your afternoon accordingly."
+        },
+        {
+          "q": "Is there a height requirement for Fyre Drill?",
+          "a": "There is one, and we do not publish height figures we have not verified against the park's own sign. Check the board at the entrance. It is low enough that most children who can sit up unaided in a boat will clear it, but confirm rather than assume."
+        },
+        {
+          "q": "Can you watch Fyre Drill without riding?",
+          "a": "Yes, and the dock has water cannons for spectators, which makes it one of the better attractions in the park for a split party. Note that spectators are legitimate targets, so standing on the dock is not a way to stay dry."
+        }
+      ],
+      "relatedSlugs": [
+        "hiccups-wing-gliders",
+        "dragon-racers-rally",
+        "viking-training-camp"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-untrainable-dragon",
+      "name": "The Untrainable Dragon",
+      "land": "isle-of-berk",
+      "type": "stage-show",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A theatrical show with large-scale dragon puppetry, some loud passages and a genuinely large creature that moves close to the audience. Toddlers occasionally find the scale of the dragon startling in the first minute and then settle. Nothing here is designed to frighten."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Wheelchair positions are available without transferring; ask at the theater entrance rather than in the general queue. The show is heavily visual with a straightforward story, which makes it accessible for guests with hearing loss and for young children."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A large-scale puppetry stage show in the Isle of Berk theater, and the best air-conditioned hour in the park with young children.",
+      "description": [
+        "The Untrainable Dragon is a theatrical production in a purpose-built theater on the Isle of Berk, staged with large-scale puppetry, physical performance and practical effects. The dragons are operated at a scale that reads properly from the back of the house, and the craft on display is the reason adults who came in to sit down end up paying attention.",
+        "As a piece of day planning it is worth more than its ranking on a rides list suggests. It is a full-length, seated, air-conditioned experience with no height requirement, which at three in the afternoon is exactly what a family with a five-year-old needs and cannot otherwise get at this park.",
+        "It runs on showtimes rather than continuously. Check the board when you arrive in Isle of Berk and build one performance into your afternoon rather than hoping to catch the next one."
+      ],
+      "experience": [
+        "The auditorium is proper theater seating rather than a standing pre-show space, and the show begins at a scale that gets an immediate reaction — the dragons are large, and seeing one operated live rather than projected does something a screen cannot.",
+        "The story is simple and follows the films closely enough that children who know them are ahead of it and children who do not can keep up. The staging carries it, particularly in the second half where the puppetry and the lighting do most of the work.",
+        "Budget around half an hour with seating. Sit toward the middle and back rather than the very front, where the scale of the puppets works against you."
+      ],
+      "tips": [
+        "Take an early-afternoon showtime. It is the longest air-conditioned sit-down available to a family in this park and it lands when everyone needs it.",
+        "Check the showtimes as you enter Isle of Berk and plan the rest of the world around one, rather than trying to catch the next performance.",
+        "Sit in the middle to the back of the house. The puppetry is built to read from a distance and the front rows lose the composition.",
+        "It is the most accessible attraction in the park for a mixed-ability group — no height requirement, no transfer, and a story carried visually rather than in dialogue."
+      ],
+      "bestTime": "Early to mid-afternoon, as the air-conditioned break in the middle of the day.",
+      "typicalWait": "No standby queue — arrive fifteen to twenty minutes before a published showtime.",
+      "faqs": [
+        {
+          "q": "How long is The Untrainable Dragon?",
+          "a": "Budget around half an hour including getting seated. It runs on published showtimes rather than continuously, so check the board when you enter Isle of Berk and build your afternoon around one performance."
+        },
+        {
+          "q": "Is The Untrainable Dragon scary for toddlers?",
+          "a": "Rarely. The dragons are large and the theater is dim, which startles a few very young children in the opening minute, and almost all of them settle. There is nothing in the show designed to frighten anyone."
+        },
+        {
+          "q": "Is The Untrainable Dragon worth seeing if you do not know the films?",
+          "a": "Yes. The story is simple enough to follow cold, and the reason to go is the puppetry rather than the plot. Knowing the films adds recognition, not comprehension."
+        }
+      ],
+      "relatedSlugs": [
+        "le-cirque-arcanus",
+        "hiccups-wing-gliders",
+        "meet-hiccup-and-toothless"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "viking-training-camp",
+      "name": "Viking Training Camp",
+      "land": "isle-of-berk",
+      "type": "play-area",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A climbing and play structure with nothing dark, fast or loud in it. The only hazard is other children."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Ground level is accessible and the seating around the edge is shaded, but the climbing structure itself involves steps and net surfaces that are not usable from a wheelchair."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The climb-and-play structure in the Viking village, and the best place in the park to let a small child burn off two hours of queuing.",
+      "description": [
+        "Viking Training Camp is the play area in Isle of Berk — a themed structure of climbs, ropes, ladders and hiding places set into the village, with shaded seating for adults around the edge. It has no queue, no height stick and no schedule.",
+        "Its value in a day at Epic Universe is out of proportion to what it is. This is a park of long queues in themed corridors, and a child who has done two of those needs somewhere to run about before the third. Twenty minutes here buys back an hour of cooperation later."
+      ],
+      "tips": [
+        "Use it as a deliberate scheduled stop rather than a last resort. Twenty minutes here after two long queues genuinely changes the rest of the afternoon.",
+        "The shaded seating around the edge is some of the best adult seating in the park, and it is next to the food hall, so one adult can eat while the other watches.",
+        "It gets hot by mid-afternoon with the sun overhead. The morning and the last two hours of the day are the comfortable windows."
+      ],
+      "bestTime": "Late morning or the last two hours of the day, when the structure is not baking in direct sun.",
+      "typicalWait": "None — open play area with no queue.",
+      "faqs": [],
+      "relatedSlugs": [
+        "fyre-drill",
+        "the-untrainable-dragon"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "meet-hiccup-and-toothless",
+      "name": "Meet Hiccup and Toothless",
+      "land": "isle-of-berk",
+      "type": "character-meet",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A large dragon figure at close range occasionally gives a very young child pause, and the human characters speak and interact normally, which usually resolves it in a few seconds."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Level paved meeting area with no transfer required. Team members position wheelchairs for photographs and the human characters will crouch to meet a seated guest at eye level."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Scheduled meets with the Isle of Berk characters, including a Toothless figure large enough to be worth the queue on its own.",
+      "description": [
+        "Isle of Berk runs character meets on a published rotation through the day, with the human characters from the films appearing in the village and a large-scale Toothless the main draw. The human performers speak and interact, which makes these meets considerably more engaging than the silent full-costume format used elsewhere in the park.",
+        "The Toothless figure is the reason to queue. It is built at a scale that photographs well and operated well enough that children respond to it as a creature rather than a prop."
+      ],
+      "tips": [
+        "Check the app for the day's meet times rather than waiting in the village. The rotation is published and the queue closes when the slot is full.",
+        "Go at the start of a slot. The last families through get a rushed interaction, and with characters who actually talk that is a real loss.",
+        "Frame the photograph with the harbor behind you rather than the village wall. The team members with the cameras know the good angle and will set it up if asked."
+      ],
+      "bestTime": "The first meet slot of the day, or a late-afternoon slot once the family crowd has thinned.",
+      "typicalWait": "Twenty to forty minutes at peak; considerably less at the first and last slots.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-untrainable-dragon",
+        "viking-training-camp"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "monsters-unchained-the-frankenstein-experiment",
+      "name": "Monsters Unchained: The Frankenstein Experiment",
+      "land": "dark-universe",
+      "type": "dark-ride",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 5,
+        "darkness": 5,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 5,
+        "startles": 5,
+        "notes": "This is the most frightening attraction at Epic Universe and one of the most frightening at Universal Orlando, and the height stick is not the right test for it. Sustained darkness, close-quarters animatronics that move suddenly at head height, sustained loud sound design and a body-horror premise. Children who clear 48 inches and handled every other ride in the park are regularly upset by this one. Treat it as a scare attraction with a ride system attached."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer into the vehicle is required. The queue passes through Frankenstein Manor with changes of level and some tight sections; ask at the entrance for the accessible routing rather than partway through."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A trackless dark ride through Frankenstein Manor with the best animatronics at Universal Orlando, and the scariest thing in the park.",
+      "description": [
+        "Monsters Unchained is the attraction that justifies Dark Universe existing. You are taken through Frankenstein Manor as an experiment goes wrong, on a trackless vehicle that moves independently through a series of built rooms, and the animatronic work in it is a clear step above anything else Universal operates in Orlando. Figures move at close range with weight and speed, and the ride is confident enough to hold on them rather than cutting away to a screen.",
+        "The premise is body horror and the execution does not soften it. There is a lot of darkness, a great deal of noise, and several moments where something arrives close to your head faster than you expected. The 48-inch requirement means a lot of ten-year-olds clear it comfortably, and a lot of ten-year-olds should not be on it.",
+        "For adults who like this kind of thing it is the best dark ride at Universal Orlando and possibly in Florida. The set dressing, the lighting and the pacing are all a level up, and it repays a second ride because there is far more in the rooms than one trip lets you see."
+      ],
+      "experience": [
+        "The queue through Frankenstein Manor is long and deliberately oppressive, and it does the job of settling the mood before you board. It is worth walking rather than rushing, though nervous riders should understand that the queue is already part of the attraction.",
+        "The ride itself moves you between built rooms rather than along a corridor, and the trackless system lets the vehicle turn you toward whatever is about to happen. The strongest sequence is the middle stretch in the laboratory, where the animatronic work is close enough to study and moving fast enough that you cannot.",
+        "It ends more aggressively than most Universal dark rides. Riders come off either delighted or genuinely rattled, and both reactions are the correct response to what it is trying to do."
+      ],
+      "tips": [
+        "Judge this on content, not on height. A child who clears 48 inches and loved everything else in the park can be badly frightened here — it is closer to a haunted attraction than to a family dark ride.",
+        "Ride it after dark if you can. The whole world works better at night and the walk out into a fogged village afterwards is part of the experience.",
+        "Ride it twice if the wait allows. There is far more in the rooms than a single pass shows you, and the second ride is where the set dressing registers.",
+        "Sit toward the outside of the vehicle for the closest passes on the animatronics, and toward the middle if the intensity is a concern.",
+        "It builds a long wait early and holds it. Take it first thing or in the last ninety minutes rather than mid-afternoon."
+      ],
+      "bestTime": "After sunset, or in the first thirty minutes of the day if you can start in Dark Universe.",
+      "typicalWait": "Fifty to eighty minutes through the day; it drops meaningfully in the final hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Monsters Unchained?",
+          "a": "48 inches, tying it with Stardust Racers for the tallest requirement at Epic Universe. Clearing it is not the same as being ready for it — this is the most frightening attraction in the park and content is the real barrier for younger riders."
+        },
+        {
+          "q": "How scary is Monsters Unchained: The Frankenstein Experiment?",
+          "a": "Genuinely scary, and more so than the marketing suggests. Sustained darkness, loud sound design, close-quarters animatronics that move suddenly and a body-horror premise. Adults who enjoy haunted attractions will love it. Children who clear the height stick are regularly upset by it."
+        },
+        {
+          "q": "Is Monsters Unchained a roller coaster?",
+          "a": "No. It is a trackless dark ride — the vehicle moves freely between built rooms rather than along a fixed rail, and it turns you to face the action. There are no significant drops and no high speed. The intensity is atmospheric rather than physical."
+        },
+        {
+          "q": "Is Monsters Unchained the best ride at Epic Universe?",
+          "a": "It is the best dark ride, with animatronic work a clear step above anything else Universal operates in Orlando. Stardust Racers is the better overall attraction because it works for more people and repeats better, but for pure craft this is the most impressive thing in the park."
+        }
+      ],
+      "relatedSlugs": [
+        "curse-of-the-werewolf",
+        "de-laceys-cottage",
+        "harry-potter-and-the-battle-at-the-ministry"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "curse-of-the-werewolf",
+      "name": "Curse of the Werewolf",
+      "land": "dark-universe",
+      "type": "roller-coaster",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 3,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "Far gentler than its neighbor, but not a nothing ride. The spinning is the defining feature and it is what upsets people rather than the drops or the speed. There are dark sections and a couple of creature moments, played closer to a fairground ghost train than to the horror of Monsters Unchained."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Full transfer into a free-spinning car is required. The rotation is not controlled by the rider, so anyone who needs to brace against motion should consider carefully before boarding. Test seat available at the entrance."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A spinning family coaster through the woods around Darkmoor village — the gentler of Dark Universe's two rides, and it still spins hard.",
+      "description": [
+        "Curse of the Werewolf is a spinning coaster: the cars rotate freely as they run the track, so no two rides are the same and nobody controls which way they are facing at any given moment. The circuit runs through the woods around the Darkmoor village with dark passages, creature effects and a couple of short drops.",
+        "It is the family option in Dark Universe, and the gap between it and Monsters Unchained is enormous. Where the dark ride is designed to unsettle adults, this is played closer to a well-built fairground ghost train — atmospheric, a bit sinister, and fundamentally fun rather than frightening.",
+        "The one thing to take seriously is the spin. Free-spinning coasters affect people who are otherwise fine on roller coasters, and the rotation is unpredictable by design. If motion sickness is a factor for anyone in your party, this is the attraction that will find it."
+      ],
+      "experience": [
+        "You board a free-spinning car at the edge of the village and the rotation starts almost immediately, which means you are frequently facing backward or sideways through the early scenes without having chosen to.",
+        "The layout weaves through the woods with a mix of covered and open sections, and the creature effects land better because you cannot anticipate which direction you will be facing when you reach them. It is a clever use of a ride system that is usually just a gimmick.",
+        "It is over quickly. Most riders want to go again, and most riders who feel unwell after it were fine on every coaster they rode earlier in the day, which tells you where the difficulty lies."
+      ],
+      "tips": [
+        "The spin is the ride. If free-spinning cars are a problem for anyone in your party, this is a skip regardless of how they handle other coasters.",
+        "It is the right Dark Universe ride for a family. At 40 inches and with a far lower scare level than Monsters Unchained, this is where children in this world belong.",
+        "Ride it after dark. The woods sections and the creature effects are considerably better with real darkness outside rather than Florida afternoon glare.",
+        "Do not ride it straight after a meal. Between this and Dragon Racer's Rally, these are the two attractions at Epic Universe most likely to cause trouble.",
+        "Waits fall off here faster than at Monsters Unchained, so if you only have time for one more thing in Dark Universe late in the evening, this is usually the cheaper one in minutes."
+      ],
+      "bestTime": "After dark, when the woods sections finally work as intended.",
+      "typicalWait": "Thirty to fifty minutes for most of the day, dropping sharply in the last hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Curse of the Werewolf?",
+          "a": "40 inches, the same as Mario Kart and Hiccup's Wing Gliders. That makes it the Dark Universe ride a family can actually share, and it is much gentler in content than Monsters Unchained next door."
+        },
+        {
+          "q": "Is Curse of the Werewolf scary?",
+          "a": "Moderately, and far less than its neighbor. There are dark passages and creature effects, played closer to a fairground ghost train than to horror. The spinning unsettles more riders than the theming does."
+        },
+        {
+          "q": "Does Curse of the Werewolf make people sick?",
+          "a": "It can. The cars spin freely and unpredictably, which affects riders who are perfectly comfortable on conventional coasters. Ride it before a meal rather than after, and skip it if anyone in the party is already feeling delicate."
+        }
+      ],
+      "relatedSlugs": [
+        "monsters-unchained-the-frankenstein-experiment",
+        "stardust-racers",
+        "de-laceys-cottage"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "de-laceys-cottage",
+      "name": "De Lacey's Cottage",
+      "land": "dark-universe",
+      "type": "walkthrough",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 3,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "A small dark interior with staged effects and at least one moment designed to make people jump. Much milder than Monsters Unchained but not a neutral space — a child who found Dark Universe's street unsettling should not be taken in here as a break."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Step-free entry with no vehicle and no transfer, though the interior is small and can be tight when a full group is inside. Lighting is very low throughout."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A small staged walk-through in the Darkmoor village, and one of the quietest good things in the park.",
+      "description": [
+        "De Lacey's Cottage is a small piece of staged storytelling in Dark Universe — a short walk through a cottage interior with practical effects and lighting doing the work, tied to the Frankenstein corner of the Universal Monsters canon. There is no vehicle, no queue to speak of and no height requirement.",
+        "It takes a few minutes and most visitors walk past it entirely, which is the reason to go in. In a park where everything else costs forty-five minutes of standing, an attraction you can do on impulse is worth more than its scale suggests."
+      ],
+      "tips": [
+        "Go in after dark. The lighting design is the whole attraction and daylight leaking through the door undercuts it.",
+        "It is not a rest stop. The interior is dim and there is at least one moment designed to startle, so it is not the place to take a child who has just been unsettled by the street outside.",
+        "It is one of the few things in the park you can do on impulse without a queue, which makes it a good filler while another member of your party rides Monsters Unchained."
+      ],
+      "bestTime": "After dark, and ideally while someone else in your party is in the Monsters Unchained queue.",
+      "typicalWait": "Little to none — a few minutes at most, even at peak.",
+      "faqs": [],
+      "relatedSlugs": [
+        "monsters-unchained-the-frankenstein-experiment",
+        "meet-the-universal-monsters"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "meet-the-universal-monsters",
+      "name": "Meet the Universal Monsters",
+      "land": "dark-universe",
+      "type": "character-meet",
+      "opened": 2025,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 4,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 3,
+        "notes": "These are performers in serious monster makeup who approach guests and stay in character rather than posing cheerfully for photographs. That is exactly the point and it is also why small children are frequently frightened by them. The scare is entirely in the performance, not in effects."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Street-level encounters with no queue structure, no vehicle and no transfer. Performers approach guests, including seated guests, and will adjust their approach if a companion signals that a guest would prefer distance."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Costumed Universal Monsters roaming the Darkmoor village in character, and the best street performance at Universal Orlando.",
+      "description": [
+        "Dark Universe puts performers in full monster makeup out in the village on a rotation, and they work in character rather than posing. They approach guests, they respond, and they do not break — which makes this the strongest piece of street entertainment at Universal Orlando and one of the reasons the world holds up between rides.",
+        "It is also the part of Dark Universe most likely to upset a young child, precisely because it is done well. A costumed character who cheerfully waves is one thing; a performer in convincing makeup who fixes on your seven-year-old and stays in character is another. That is the intent, and it is worth knowing before you walk in."
+      ],
+      "tips": [
+        "Ask a team member when the next set is out rather than waiting hopefully in the square. They know the rotation and they will tell you.",
+        "After dark is when this works. The performers, the fog and the lighting are one piece, and the daytime version loses most of it.",
+        "If a child in your party is uneasy, keep to the edges of the square and let them watch from a distance first. The performers read a nervous child and will usually give them room.",
+        "Photographs work better in the street than in a posed line. Take the picture while the performer is working rather than asking them to stop and stand still."
+      ],
+      "bestTime": "After dark, when the fog, the lighting and the performances all work together.",
+      "typicalWait": "No queue — encounters happen in the street on a rotation through the day and evening.",
+      "faqs": [],
+      "relatedSlugs": [
+        "monsters-unchained-the-frankenstein-experiment",
+        "de-laceys-cottage"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

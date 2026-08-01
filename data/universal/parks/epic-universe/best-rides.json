@@ -1,0 +1,215 @@
+{
+  "park": "epic-universe",
+  "criteria": "Ranked on what the attraction actually does when you are on it: how much of it is built rather than projected, how well it holds up on a second ride, and whether it works for the people you brought with you. Queue length, Universal Express coverage and how new the park is were ignored, and the two theater shows are included, because a park with roughly ten rides produces a dishonest list if you leave them out.",
+  "intro": [
+    "Epic Universe has fewer attractions than any of the Orlando parks it competes with, which makes ranking it easier in one respect and harder in another. Easier, because there is very little filler — almost everything here was built in the last few years to a standard the older parks reached in stages. Harder, because two of the best things in the park are a stage show and a carousel, and any list that only counts ride vehicles runs out of material by number eight.",
+    "So the shows are in, judged on the same terms as everything else. That decision moves a puppetry production into the top half and a carousel into the top ten, which reflects how the park actually plays rather than how a ride-count comparison would like it to look. The other thing worth saying up front: the two best attractions here are in Celestial Park and Dark Universe, not in the two worlds that sold the tickets."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "stardust-racers",
+      "headline": "The best coaster at Universal Orlando, and the only attraction here that improves every single time you ride it.",
+      "why": [
+        "It is a dual-track racing coaster built around sustained airtime rather than inversions, and the two trains are choreographed to cross, converge and separate through the run. That gives it something almost no other coaster in Florida has: a reason to ride the other side, and then a reason to ride the first side again to compare.",
+        "It also sits in the open above the hub rather than inside a building, which is why the night lap reads as a different attraction. Nothing is hidden, nothing depends on a screen, and nothing about it will look dated in ten years. If Epic Universe has one thing that would headline any park in the country, this is it."
+      ],
+      "skipIf": "Skip it if sustained airtime or heights are the problem — there is no gentler version of this ride and the layout does not let up."
+    },
+    {
+      "rank": 2,
+      "slug": "monsters-unchained-the-frankenstein-experiment",
+      "headline": "The best animatronic dark ride Universal operates in Orlando, and by some distance the scariest thing in this park.",
+      "why": [
+        "The animatronic work here is a clear step up from the screen-heavy decade that preceded it. Figures move with weight and speed at close range, the trackless vehicle turns you toward the action instead of past it, and the ride is confident enough to hold on a physical effect rather than cutting to a projection. It repays a second ride because there is more in the rooms than one pass can register.",
+        "It sits second rather than first because it excludes people. Stardust Racers is a ride most of your party can do; this is a scare attraction with a ride system attached, and it genuinely upsets children who cleared the 48-inch stick and loved everything else in the park. That is a limitation, not a flaw, and it is why it does not top the list."
+      ],
+      "skipIf": "Skip it if anyone in your party is uneasy in the dark, dislikes sudden close-range effects, or is under about ten regardless of height."
+    },
+    {
+      "rank": 3,
+      "slug": "mine-cart-madness",
+      "headline": "A family coaster with the single cleverest effect in the park — a track that appears to break, and a cart that appears to jump it.",
+      "why": [
+        "The jump illusion is the best piece of engineering at Epic Universe. It is done mechanically, it is convincing on the first ride, and it survives you knowing exactly how it works, which is the highest compliment available for a trick like this. Around it sits a properly paced family coaster with enough lateral swing to entertain an adult and no drop long enough to worry a child.",
+        "It is also the ride that most rewards a good morning. Capacity is lower than Mario Kart's, its wait climbs faster and falls slower, and it is short enough that everyone comes off wanting another go. If you get exactly one good slot inside SUPER NINTENDO WORLD, this is where it belongs."
+      ],
+      "skipIf": "Skip it only if 42 inches is out of reach for the child you are planning around, because there is no gentler equivalent nearby."
+    },
+    {
+      "rank": 4,
+      "slug": "harry-potter-and-the-battle-at-the-ministry",
+      "headline": "The most technically ambitious ride Universal has built, with the best single set in the park attached to it.",
+      "why": [
+        "The Ministry interior is the best-built space at Epic Universe and the queue that leads into it is one of the few in Orlando worth walking slowly. The ride combines several systems in one trip — physical sets, screens, and vehicle motion doing the connective work — and it runs long enough to feel like a journey rather than a sequence of gags.",
+        "It is fourth rather than first because the pacing sags in the screen-heavy stretch before the finale, and because riders come off talking about the sets rather than the story. That is a real gap between ambition and result. Everything around that middle section is exceptional, which is why it still finishes ahead of most of the park."
+      ],
+      "skipIf": "Skip it if the combination of vehicle movement and large screens is what makes you queasy, because this ride is built on exactly that pairing."
+    },
+    {
+      "rank": 5,
+      "slug": "le-cirque-arcanus",
+      "headline": "A wizarding circus staged with puppetry and practical illusion instead of screens, and the most skipped good thing in the park.",
+      "why": [
+        "In a resort that has spent a decade putting screens in front of people, a show built on craft is genuinely startling. The creature puppetry is operated close to full scale and moves well enough that adults watch the mechanism rather than the story, and a couple of the illusions get an audible reaction from a room of people who thought they were killing half an hour.",
+        "It finishes fifth on merit rather than out of charity. Judged on what actually happens in front of you and how much of it is real, this beats several rides in this park outright. It also happens to be the best air-conditioned half hour available in the Ministry of Magic, which is worth something by three in the afternoon."
+      ],
+      "skipIf": "Skip it only if you genuinely cannot spare a fixed half hour on a one-day visit, which is a scheduling problem rather than a judgment on the show."
+    },
+    {
+      "rank": 6,
+      "slug": "mario-kart-bowsers-challenge",
+      "headline": "The most ambitious idea in the park and the most inconsistent delivery, decided by ten seconds at the load platform.",
+      "why": [
+        "The build is extraordinary. Bowser's Castle as a queue is among the best environments Universal has produced, the race course is physically constructed with animatronics and lighting that would hold up with no overlay at all, and the concept of steering and aiming from a moving kart is a real idea rather than a marketing line.",
+        "Then it hands you a visor. Riders who get it seated correctly find a clever, repeatable attraction; riders who do not spend four minutes squinting at a blur. That failure rate is high enough that it costs the ride four or five places on this list. It is the only attraction at Epic Universe whose quality depends on a piece of hardware fitting your face."
+      ],
+      "skipIf": "Skip it if you wear large glasses and have no contact lenses with you, because the visor will not sit properly and the ride is delivered entirely through it."
+    },
+    {
+      "rank": 7,
+      "slug": "hiccups-wing-gliders",
+      "headline": "The best step-up coaster in Orlando for a child who has outgrown gentle rides and is not ready for a real one.",
+      "why": [
+        "It launches instead of climbing a lift hill, which is exactly the right call for a family coaster — the ride is at speed before a nervous rider has had time to think about it. The layout runs low and fast around the Isle of Berk with banked turns rather than airtime hills, and it is over before anyone can build up a fear of it.",
+        "Adults dismiss it from the path and then enjoy it. The sightlines over the village and the harbor are the best from any ride in the park, and being outdoors in open air is a relief on a day otherwise spent inside dark buildings. At 40 inches it is the most useful ride in the park for a family."
+      ],
+      "skipIf": "Skip it if you have a single afternoon and nobody under about twelve, because it will not be the thing you remember."
+    },
+    {
+      "rank": 8,
+      "slug": "the-untrainable-dragon",
+      "headline": "Large-scale dragon puppetry in a proper theater, and the most valuable half hour of the day with young children.",
+      "why": [
+        "The dragons are operated live at a scale that reads from the back of the house, and watching one move as a physical object does something no screen manages. The story is simple and follows the films closely enough that children stay with it, and the staging carries the second half almost entirely on lighting and puppetry.",
+        "It also does a job nothing else in this park does. It is a full-length, seated, air-conditioned experience with no height requirement, arriving at the exact hour a family runs out of standing. Rank it eighth as a show and first as a piece of day planning."
+      ],
+      "skipIf": "Skip it if your party is all adults on a one-day visit and you have not yet ridden the top four."
+    },
+    {
+      "rank": 9,
+      "slug": "curse-of-the-werewolf",
+      "headline": "A free-spinning coaster through the Darkmoor woods that uses the spin as a design choice rather than a gimmick.",
+      "why": [
+        "Free-spinning cars are usually a cheap way to add a sensation to a small layout. Here the rotation does something useful: you cannot anticipate which way you will be facing when a creature effect lands, which makes a modest circuit through the woods land harder than its size suggests.",
+        "It is also the family option in a world otherwise built for adults. At 40 inches with a far lower scare level than Monsters Unchained, this is where children in Dark Universe belong, and it is a much better ride after dark than in Florida afternoon glare."
+      ],
+      "skipIf": "Skip it if free-spinning vehicles make you unwell — the rotation is not rider-controlled and it is what causes trouble here, not the drops."
+    },
+    {
+      "rank": 10,
+      "slug": "constellation-carousel",
+      "headline": "The only carousel anywhere that is worth ranking, with vehicles that rotate and rise while the platform turns.",
+      "why": [
+        "The vehicles do not simply go up and down on a pole — they rotate on their own axis and lift as the platform moves, so you trace a genuinely complicated path with the hub, the fountains and the coaster turning past you. The reaction from most adults getting off is that they did not expect that from a carousel, which is exactly the right reaction.",
+        "It sits in tenth because it lasts two minutes and asks nothing of you. That is also its strength: it is the only attraction in the park a family with a toddler can share, it almost never has a serious wait, and after dark under a lit canopy it is one of the better things in Celestial Park."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 11,
+      "slug": "fyre-drill",
+      "headline": "Two crews of Viking boats soaking each other with water cannons, and the most straightforwardly fun four minutes here.",
+      "why": [
+        "There is no technology worth a press release and no story at all. What there is instead is genuine participation: you aim, you fire, you get hit, and spectators on the dock decide how wet you leave. Children work out the rules in ten seconds and adults who said they would sit it out ask to go again.",
+        "In Florida heat it is not a novelty, it is a strategy. Taken at one in the afternoon it resets an entire family, and the walk back into the sun dries you inside twenty minutes. It is eleventh on ambition and considerably higher on how much you will enjoy it."
+      ],
+      "skipIf": "Skip it if you have a dinner reservation you need to look presentable for, because half measures do not work here."
+    },
+    {
+      "rank": 12,
+      "slug": "de-laceys-cottage",
+      "headline": "A short staged walk-through in the cursed village that most visitors walk straight past, and one of the quietest good things here.",
+      "why": [
+        "It is small, it takes a few minutes, and the lighting and practical effects do all the work. In a park where everything else costs forty-five minutes of standing, an attraction you can do on impulse is worth more than its scale suggests — particularly while another member of your party is deep in the Monsters Unchained queue.",
+        "It is also a genuine piece of storytelling rather than a photo opportunity with a roof, which is more than can be said for most walk-throughs at any park. Go in after dark, when daylight is not leaking through the door and undercutting the whole thing."
+      ],
+      "skipIf": "Skip it if a child in your party has already been unsettled by the street outside, because this is not the rest stop it looks like."
+    },
+    {
+      "rank": 13,
+      "slug": "power-up-band-key-challenges",
+      "headline": "A well-designed game layer over SUPER NINTENDO WORLD, sold separately, and worth it for exactly one kind of visitor.",
+      "why": [
+        "The mini-games are short, physical and cooperative rather than screen-based, they are hidden well enough that finding them is part of the fun, and progress syncs through the app so a full afternoon of collecting actually adds up to something. For a child who wants to complete the set, this turns a two-ride world into a three-hour one.",
+        "It ranks here rather than higher because of the price and the failure rate. Four bands bought on impulse and abandoned after two question blocks is the most common wasted spend at Epic Universe. The design is excellent; the decision to buy is where most families get it wrong."
+      ],
+      "skipIf": "Skip it if nobody in your party will realistically work through the full set, because a few taps on a question block is not worth what the band costs."
+    },
+    {
+      "rank": 14,
+      "slug": "yoshis-adventure",
+      "headline": "A slow elevated loop with the best aerial view of the Mushroom Kingdom, and a wait that bears no relation to the ride.",
+      "why": [
+        "As sightseeing it is genuinely good — the elevated track is the only way to see the built landscape of the Mushroom Kingdom from above, with the moving Piranha Plants and question blocks laid out beneath you. It is also the one thing in this world a four-year-old can do, which is the entire reason it exists and the entire reason it draws the queue it does.",
+        "As a ride it is slight, and the mismatch between what it is and how long people wait for it is the most frustrating planning problem in SUPER NINTENDO WORLD. Take it in the first twenty minutes after you enter the world or take it not at all."
+      ],
+      "skipIf": "Skip it if you have no children with you and the posted wait is over twenty minutes, which it usually is."
+    },
+    {
+      "rank": 15,
+      "slug": "dragon-racers-rally",
+      "headline": "A well-themed flat ride that flips you over the Viking village, and the most misjudged attraction in the park.",
+      "why": [
+        "Taken on its own terms it is a good rotating flat ride with a strong view over the harbor at the top of the arc, and thrill riders will enjoy it. The theming is better than a ride of this type usually gets and the queue is short almost all day.",
+        "It finishes last because of where it is. Sitting between a family coaster and a puppet show, it looks like village scenery and rides like a fairground thrill ride under an over-the-shoulder restraint, and families put nervous children on it because everything nearby was gentle. It is also the most reliable way to feel unwell at Epic Universe."
+      ],
+      "skipIf": "Skip it if anyone in your party is prone to motion sickness, or if you have just eaten — this is the ride that finds both."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "mario-kart-bowsers-challenge",
+      "why": "Ranked sixth above and overrated all the same, which is not a contradiction. The queue is spectacular, the sets are real and the idea is genuinely clever, and none of that helps if the AR visor does not sit right on your face — which for a meaningful fraction of riders it does not. It is treated as the reason to visit SUPER NINTENDO WORLD and routinely draws the park's longest wait, and a substantial number of people come off a ninety-minute queue having looked at a blur. Ride it early, ride it with contact lenses if you have them, and do not build your morning around it."
+    },
+    {
+      "slug": "yoshis-adventure",
+      "why": "A gentle five-minute loop that regularly posts an hour, purely because it is the only thing in SUPER NINTENDO WORLD a small child can ride. That is a supply problem, not a quality signal. With no young children in your party this is a twenty-minute ride at most, and the view over the Mushroom Kingdom — which is genuinely the best thing about it — is not worth an hour of anyone's day."
+    },
+    {
+      "slug": "dragon-racers-rally",
+      "why": "Not overrated by visitors so much as misrepresented by its surroundings. It sits in the gentlest world in the park, looks like scenery from the path, and rides like a fairground thrill ride with an over-the-shoulder restraint and a rotation that catches people out. Families put a nervous eight-year-old on it because Isle of Berk had been kind to them all afternoon. Watch a full cycle from the courtyard before you queue."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "le-cirque-arcanus",
+      "why": "The single most skipped good thing at Epic Universe. It is a theater show, which is why it never makes anyone's plan, and it is staged with practical puppetry and illusion rather than screens, which is why the people who do see it rank it in their top five. The auditorium is rarely full. Note the showtimes when you first walk into the Ministry and build a half hour around one."
+    },
+    {
+      "slug": "constellation-carousel",
+      "why": "Everyone crosses Celestial Park four times a day and nobody rides this, because from the path it reads as decoration. The vehicles rotate and rise independently of the platform, the sensation is genuinely odd rather than nostalgic, and after dark under lit canopy it is one of the better two minutes in the park. It also almost never has a wait."
+    },
+    {
+      "slug": "fyre-drill",
+      "why": "Written off by adults as a children's water ride and it is the most fun anyone has here. The soaking is done by other guests rather than by the ride, which makes it participatory in a way almost nothing else at Universal Orlando is, and taken at the hottest hour of the day it resets an entire family for the price of being wet for twenty minutes."
+    },
+    {
+      "slug": "de-laceys-cottage",
+      "why": "A few minutes, no queue, no vehicle, and most people walk straight past it on their way to the coaster. It is a real piece of staged storytelling carried by lighting and practical effects, and it is the ideal thing to do while another member of your party is stuck in the Monsters Unchained line. Go in after dark."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best ride at Epic Universe?",
+      "a": "Stardust Racers, and it is not particularly close. It is a dual-track racing coaster built on sustained airtime, it sits out in the open above Celestial Park rather than inside a building, and it is the only attraction here that gets better every time you ride it. Ride both tracks, and ride at least one of them after dark. The height requirement is 48 inches."
+    },
+    {
+      "q": "What is the scariest ride at Epic Universe?",
+      "a": "Monsters Unchained: The Frankenstein Experiment, by a wide margin. It is closer to a haunted attraction than to a family dark ride, with sustained darkness, loud sound design, close-range animatronics and a body-horror premise. Clearing the 48-inch requirement is not the same as being ready for it, and children who loved everything else in the park are regularly upset by this one."
+    },
+    {
+      "q": "Which rides should you do first at Epic Universe?",
+      "a": "Deal with SUPER NINTENDO WORLD entry first, because that is the one thing you cannot fix later in the day, and ride Mine-Cart Madness before Mario Kart once you are inside. If the world is gated to a later slot, take Stardust Racers instead — it sits fifty yards inside the entrance and the morning crowd runs straight past it."
+    },
+    {
+      "q": "Is Epic Universe better than Islands of Adventure for rides?",
+      "a": "For individual ride quality and for how new everything feels, yes. Islands of Adventure still has the deeper bench for coaster riders specifically, with more big rides to choose between. Epic Universe is the better single day; Islands of Adventure is the better second day if roller coasters are why you came to Orlando."
+    },
+    {
+      "q": "Is there anything at Epic Universe for a child under 40 inches?",
+      "a": "Yes, though you have to plan for it. Yoshi's Adventure, the Constellation Carousel, Fyre Drill, the two theater shows and the Isle of Berk play area all work, and the Power-Up Band game layer works at any height. What is off limits is the whole top of this ranking, so a party with a child under 40 inches should plan rider swap deliberately rather than discovering the problem at a load platform."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

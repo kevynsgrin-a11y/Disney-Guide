@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 90,
       "lowF": 73,
       "rainDays": 14,
       "note": "Climate normals for Orlando, not a forecast. September is still summer in every practical sense, with the afternoon thunderstorm pattern intact through most of the month and fourteen days of measurable rain. It is also the statistical peak of the Atlantic hurricane season, which is the entire reason this month is as cheap and as quiet as it is. Relief usually arrives in the final week."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 84,
       "lowF": 63,
       "rainDays": 1,
@@ -102,10 +102,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "EPCOT's best snacks", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
-    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
-    { "label": "Disneyland Park first-timer guide", "href": "/disneyland/disneyland-park/first-timer-guide/", "site": 1 }
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT's best snacks",
+      "href": "/walt-disney-world/epcot/best-snacks/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park first-timer guide",
+      "href": "/disneyland/disneyland-park/first-timer-guide/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

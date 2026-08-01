@@ -1,0 +1,280 @@
+{
+  "slug": "universal-orlando-vs-universal-hollywood",
+  "title": "Universal Orlando vs Universal Hollywood: Which One?",
+  "h1": "Universal Orlando vs Universal Studios Hollywood",
+  "metaDescription": "Three parks and a three-day trip against one park and a single day. A dimension-by-dimension comparison of the two US Universal resorts, with a verdict on which to book.",
+  "summary": "Universal Orlando is three parks and a three-to-four-day trip. Universal Studios Hollywood is one park you can finish in a day. If you are flying anywhere specifically for Universal, fly to Orlando. If you are already in Los Angeles, Hollywood is a genuinely good day rather than a consolation prize.",
+  "readingTimeMinutes": 12,
+  "contenders": [
+    { "key": "orlando", "name": "Universal Orlando Resort", "subtitle": "Three parks, Orlando, Florida" },
+    { "key": "hollywood", "name": "Universal Studios Hollywood", "subtitle": "One park, Universal City, California" }
+  ],
+  "verdict": {
+    "short": "Flying somewhere specifically for Universal: Orlando, and give it three days. Already in Los Angeles, or you have one day and one park in you: Hollywood, and one day is genuinely enough.",
+    "body": [
+      "This is the clearest decision on this site, and it is not close on the merits. Universal Orlando operates three theme parks — Universal Studios Florida, Islands of Adventure, and Epic Universe — with roughly 82 attractions between them and a hotel system that bundles front-of-line access into its top tier. Universal Studios Hollywood operates one park with about 25 attractions, and you can finish it inside a normal operating day.",
+      "That gap decides almost everything. A trip built around Universal Orlando needs three park days as an honest minimum and rewards four. A trip built around Universal Studios Hollywood needs one. Those are not the same product and they do not compete for the same week of anyone's year.",
+      "What complicates it is that Hollywood has one thing Orlando cannot build: a real working film lot with a tram running through it. The Studio Tour is about an hour long, carries no height requirement, and crosses standing sets, a working production facility, and three large in-tour attractions. Orlando has nothing comparable and could not construct one, because the asset is the studio rather than the ride.",
+      "So the honest recommendation splits on why you are going. If you want theme parks, Orlando, without hesitation. If you want to see how films are actually made, or you are in Los Angeles anyway and have a spare day, Hollywood earns that day on its own terms. What Hollywood does not earn is a flight from the east coast when the bigger version of most of its rides is in Florida."
+    ]
+  },
+  "intro": [
+    "Two resorts, four parks, and a decision most people get wrong in the same direction: they assume the two are broadly interchangeable and pick on airfare. They are not interchangeable. One is a multi-day destination resort and the other is a one-day attraction inside a major city, and the correct choice usually follows from your calendar rather than your preferences.",
+    "A terminology note, because the names collide. **Universal Orlando Resort** is three theme parks plus a water park across two campuses in Florida. **Universal Studios Florida** is one of those three parks. **Universal Studios Hollywood** is the entire California operation — one park, no sibling gate. When someone says \"Universal Studios,\" they could mean any of the three, and half the bad advice online comes from that collision.",
+    "Everything here is written as of July 2026 and describes permanent operations only. Express Pass pricing at both resorts moves by date, sometimes dramatically, so it appears here as a structure to understand rather than a number to budget against."
+  ],
+  "dimensions": [
+    {
+      "name": "Trip length it rewards",
+      "winner": "tie",
+      "cells": {
+        "orlando": "Three park days minimum now that Epic Universe exists, four if you want to repeat headliners — which at Universal is more of the point than it is at Disney. Two days covers the two original parks at a rush and skips Epic entirely.",
+        "hollywood": "One day. A second only makes sense if the first was cut short. The park's own operating pattern assumes you will finish it, and with an early arrival you can ride everything, see both shows worth seeing, take the Studio Tour, and still sit down for a meal."
+      },
+      "note": "This is the most useful row on the page. Match the resort to the days you actually have rather than the days you wish you had."
+    },
+    {
+      "name": "Parks and attraction count",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "Three parks: Universal Studios Florida (about 31 attractions), Islands of Adventure (about 30), and Epic Universe (about 21). Roughly 82 in total, plus Volcano Bay water park.",
+        "hollywood": "One park, about 25 attractions, several of which are shorter versions of Orlando counterparts. Revenge of the Mummy here is a compact version of the Orlando coaster."
+      },
+      "note": "Attraction counts include shows, walkthroughs, and play areas at both resorts, so treat them as a measure of how a day fills rather than a ride count."
+    },
+    {
+      "name": "The Studio Tour",
+      "winner": "hollywood",
+      "cells": {
+        "orlando": "Does not exist. The backlot streets at Universal Studios Florida are architecture — a New York block, a San Francisco waterfront — with attractions in the buildings behind them. Nothing is filmed there.",
+        "hollywood": "About an hour, no height requirement, and a real working lot. King Kong 360 3-D, the earthquake subway sequence, and the Fast and Furious finale are built into the route. It is the single best reason to buy a ticket here and most guides bury it under the coasters."
+      },
+      "note": "The only category on this page where Hollywood wins outright and Orlando has no answer at all."
+    },
+    {
+      "name": "Roller coasters",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "The strongest coaster slate in the country outside a dedicated amusement park. Jurassic World VelociCoaster and The Incredible Hulk Coaster at Islands of Adventure, Hagrid's Magical Creatures Motorbike Adventure, Hollywood Rip Ride Rockit and Revenge of the Mummy at Universal Studios Florida, and Stardust Racers at Epic Universe.",
+        "hollywood": "One indoor launch coaster in Revenge of the Mummy, in its compact version. There is no large outdoor coaster on the property and the hillside site makes one difficult to add."
+      },
+      "note": "If anyone in the group came for coasters, this row ends the discussion."
+    },
+    {
+      "name": "The Wizarding World",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "Two connected lands across two parks — Hogsmeade at Islands of Adventure and Diagon Alley at Universal Studios Florida — joined by the Hogwarts Express, which is a real attraction with different content in each direction and requires a park-to-park ticket. A third wizarding area, the Ministry of Magic, opened with Epic Universe in 2025.",
+        "hollywood": "One village: Hogsmeade and Hogwarts Castle built into the hillside, with Harry Potter and the Forbidden Journey and Flight of the Hippogriff. At ground level it is arguably better realised than the Orlando original, and it is roughly a third of the total wizarding content."
+      },
+      "note": "Interactive wands and the spell-casting locations work at both resorts. An Orlando wand works in both Hogsmeade and Diagon Alley, which is a genuine second attraction for a child too short for the headliners."
+    },
+    {
+      "name": "Super Nintendo World",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "At Epic Universe, built at full height with a Donkey Kong Country expansion behind it and more than one ride. It is the world that reaches capacity first and its entry system has changed more than once since the park opened, so check the app on the day.",
+        "hollywood": "One ride — Mario Kart: Bowser's Challenge — plus the interactive game layer and a restaurant worth eating at. Worth walking through, not worth planning a day around, and not worth a ninety-minute wait."
+      },
+      "note": "Mario Kart: Bowser's Challenge is 40 inches at both resorts and is technically impressive and genuinely frustrating to play well."
+    },
+    {
+      "name": "Express Pass economics",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "Universal Express Unlimited is included with every room at the three Premier hotels, for every guest, for the whole stay, covering Universal Studios Florida and Islands of Adventure. Coverage at Epic Universe has moved since that park opened, so confirm it at booking. On a busy day for a family of four, the nightly premium on those rooms is often less than a single day of Express bought separately.",
+        "hollywood": "Sold per day, priced sharply by date, and there is no hotel tier that includes it. The free substitute is the single rider lines at Jurassic World — The Ride, Revenge of the Mummy, Transformers, Forbidden Journey and Mario Kart, which cover most of the same ground for two adults willing to ride apart."
+      },
+      "note": "As of July 2026, Express Pass at both resorts is dynamically priced by date. Check your specific date rather than an averaged figure from anywhere, including here."
+    },
+    {
+      "name": "Getting there and getting around",
+      "winner": "hollywood",
+      "cells": {
+        "orlando": "Orlando International is about 20 minutes away, closer than it is to Walt Disney World, but there is no free airport shuttle. Universal Studios Florida, Islands of Adventure and CityWalk are walkable from each other. Epic Universe is on a separate campus and needs the resort shuttle bus or a car at both ends of the day.",
+        "hollywood": "The Metro B Line stops at Universal City with a free shuttle up the hill, which makes this a rare Los Angeles attraction genuinely reachable without a car. Burbank is the closest airport; LAX is cheaper and anything from 30 minutes to well over an hour away depending on traffic. Inside the park you walk, and part of that walk is vertical."
+      },
+      "note": "Hollywood's internal transport problem is the Starway — four long outdoor escalators between Upper and Lower Lot, four to five minutes each way. Plan to go down once and come up once."
+    },
+    {
+      "name": "Food",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "Table-service inside the gates at all three parks, the best of it in Celestial Park at Epic Universe. Thunder Falls Terrace at Islands of Adventure is the best quick service on the property, and the Leaky Cauldron at Universal Studios Florida serves food better than a theme park has any obligation to serve.",
+        "hollywood": "The weak spot. No table-service restaurant inside the gate, and quick-service prices run above what comparable food costs at Disneyland forty minutes down the freeway. CityWalk sits thirty seconds outside the turnstiles with real restaurants, and same-day re-entry is free."
+      },
+      "note": "Walking out of Universal Studios Hollywood for lunch is a plan rather than a defeat, and it is the single best food decision available there."
+    },
+    {
+      "name": "Small children and height requirements",
+      "winner": "orlando",
+      "cells": {
+        "orlando": "Harsher at the top and deeper at the bottom. The Incredible Hulk Coaster is 54 inches and Doctor Doom's Fearfall is 52, but Seuss Landing at Islands of Adventure, Isle of Berk at Epic Universe and DreamWorks Land at Universal Studios Florida are three purpose-built children's areas across three parks.",
+        "hollywood": "Gentler ceiling, thinner floor. The tallest requirement is 48 inches, and the Studio Tour — the best thing in the park — has none at all. Below 40 inches the rest of the list is short: the shows, Super Silly Fun Land, the Wizarding World village, and The Secret Life of Pets: Off the Leash at 34 inches."
+      },
+      "note": "Neither resort is a strong choice for a child under 40 inches. Hollywood's saving grace is that its headline attraction admits everyone."
+    },
+    {
+      "name": "Total trip cost",
+      "winner": "hollywood",
+      "cells": {
+        "orlando": "Higher floor and higher ceiling. Three park days, three or four hotel nights, and either Express Pass bought per day or a Premier hotel rate that bundles it. Airfare to Orlando is usually cheap and nothing after that is.",
+        "hollywood": "A day ticket, parking or a Metro fare, and no hotel night if you are already in Los Angeles. It is the cheapest way to see a Universal park in the United States by a wide margin, and the cheapness comes from the trip around it rather than from the gate price."
+      },
+      "note": "Compare the trips, not the tickets. A Hollywood day bolted onto an existing California trip and a four-night Orlando package are different orders of magnitude."
+    },
+    {
+      "name": "Weather and crowd feel",
+      "winner": "hollywood",
+      "cells": {
+        "orlando": "Subtropical, and the summer afternoon thunderstorm is a planning fact rather than bad luck. Hulk, VelociCoaster, Hagrid's and Doctor Doom's are all outdoor and all stop for lightning in the area. Build the middle of the afternoon around indoor attractions and a meal.",
+        "hollywood": "Mild almost year-round, low humidity, very little rain from May to October. The park is compact enough that crowd levels are felt more sharply here than at a sprawling Orlando park, so weekdays outside Southern California school breaks matter more than they look like they should."
+      },
+      "note": "Orlando's storms empty the outdoor queues for 40 minutes at a time, which is an opportunity if you are standing somewhere indoors when it starts."
+    }
+  ],
+  "ranking": null,
+  "sections": [
+    {
+      "id": "the-real-difference",
+      "heading": "The real difference is that one is a trip and the other is a day",
+      "body": [
+        "Universal Orlando sells three or four days. Universal Studios Hollywood sells one. Nearly every other difference on this page falls out of that.",
+        "Three days buys Orlando the ability to spread its content. Universal Studios Florida is a screen-heavy backlot park with Diagon Alley in it. Islands of Adventure is the coaster park. Epic Universe is the new flagship on its own campus. They are genuinely different days, and a visitor who does all three has seen three parks rather than one park three times.",
+        "One day forces Hollywood to be complete in a way Orlando's parks individually are not. There is a tram tour, a Wizarding World, a Nintendo area, a Springfield, two shows, and three larger rides at the bottom of the hill. Nothing is deep, but nothing is missing, and you leave having finished it. That is a rarer feeling than it sounds and it is the strongest argument for the California park.",
+        "The failure mode on each side is predictable. People underbook Orlando — they arrive with two days for three parks and spend the trip choosing what to skip. And people overbook Hollywood, buying two days for a park that gives its best inside one and then padding the second with repeats."
+      ],
+      "callout": {
+        "type": "note",
+        "body": "The quickest test: count the days you can give to theme parks specifically. One or two, on the west coast, is a Hollywood trip. Three or more, anywhere, is an Orlando trip. There is no version of this where Hollywood is the better answer for a five-day theme-park holiday."
+      }
+    },
+    {
+      "id": "only-at-each",
+      "heading": "What exists at one resort and not the other",
+      "body": [
+        "Several attraction names appear at both resorts, and the shared names hide real differences in scale. Revenge of the Mummy in Hollywood is a compact version of the Orlando coaster. Hollywood's Wizarding World is one village rather than two lands with a train between them. Super Nintendo World in Hollywood has one ride where Epic Universe has more.",
+        "The list below is the honest version of what only exists on one coast. It is shorter on the Hollywood side and the one item at the top of it is the reason anybody argues about this at all."
+      ],
+      "table": {
+        "columns": ["Only at Universal Orlando", "Only at Universal Studios Hollywood"],
+        "rows": [
+          ["Jurassic World VelociCoaster (51in)", "The Studio Tour — a real working backlot, no height requirement"],
+          ["The Incredible Hulk Coaster (54in)", "WaterWorld, a live stunt show with real pyrotechnics and stunt performers"],
+          ["Hagrid's Magical Creatures Motorbike Adventure (48in)", "The Upper Lot and Lower Lot split, for better and worse"],
+          ["Diagon Alley and the Hogwarts Express, with a park-to-park ticket", "A park you can finish in one day"],
+          ["Epic Universe: Stardust Racers, Dark Universe, Isle of Berk, the Ministry of Magic", "Metro rail access without a car"],
+          ["Doctor Doom's Fearfall (52in) and The Amazing Adventures of Spider-Man (40in)", "Free same-day re-entry to a CityWalk with better food than the park"],
+          ["Toon Lagoon's two genuinely soaking water rides", "Mild weather and no afternoon thunderstorm season"],
+          ["Seuss Landing, the only purpose-built small-child island at either resort", "A ticket you can buy the night before and still use well"]
+        ]
+      }
+    },
+    {
+      "id": "express-and-hotels",
+      "heading": "Express Pass works differently on each coast, and it matters more in Orlando",
+      "body": [
+        "Universal sells a paid front-of-line product at both resorts, and the two versions are structured differently enough that advice from one coast misleads on the other.",
+        "In Orlando, the decision is a hotel decision before it is a ticket decision. Universal Express Unlimited comes free with every room at the three Premier hotels — for every guest in the room, for the whole stay, covering Universal Studios Florida and Islands of Adventure. What it includes at Epic Universe has changed since that park opened, so confirm it at booking rather than assuming either way. For a family of four on a busy date, the nightly premium on a Premier room can be less than buying Express separately for one day, which inverts the usual advice about resort hotels. Work that out before you book anything, because it is the highest-value calculation available at this resort.",
+        "In Hollywood, no hotel tier includes it. Express is sold per day and priced by date, and the price swing between a quiet February weekday and a peak Saturday is large. The free substitute is better here than most people realise: Jurassic World — The Ride, Revenge of the Mummy, Transformers, Harry Potter and the Forbidden Journey and Mario Kart: Bowser's Challenge all run single rider lines, and on a busy day those routinely cut a posted wait by more than half. Two adults willing to ride apart get most of what Express buys, for nothing.",
+        "One Orlando exception worth knowing before you spend the money: Hagrid's Magical Creatures Motorbike Adventure has never accepted Express Pass and has no single rider line. People buy Express specifically to ride it and it does not work. Rope drop, Early Park Admission, or the final hour before close are the three options."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Orlando, staying at a Premier hotel: Express Unlimited is included at Universal Studios Florida and Islands of Adventure, so plan those two days around using it hard, and check separately what applies at Epic Universe.",
+          "Orlando, staying anywhere else: price Express per park day against a Premier room upgrade for the same nights before you decide.",
+          "Orlando, any hotel: Hagrid's is not covered by any paid product, so it needs a rope drop or a late-evening queue regardless.",
+          "Hollywood, two adults: try the single rider lines first. They cover five attractions and cost nothing.",
+          "Hollywood, a family who wants to sit together: single rider does not help you, so price Express for your specific date."
+        ]
+      }
+    },
+    {
+      "id": "hollywood-day",
+      "heading": "What a good day at Universal Studios Hollywood actually looks like",
+      "body": [
+        "The California park has one structural trap and one structural gift, and a good day is mostly a matter of respecting both.",
+        "The trap is the hill. The park sits on a hillside cut into two levels. The Upper Lot holds the entrance, the Studio Tour boarding area, both shows, the Wizarding World and Super Nintendo World. The Lower Lot holds Jurassic World — The Ride, Revenge of the Mummy and Transformers, and very little else. They are joined by the Starway, a chain of four long outdoor escalators that takes four to five minutes each way when everything is running and considerably longer when a section is down. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
+        "The gift is that the arriving crowd turns toward the Wizarding World and Super Nintendo World and stays up top. Go down first instead. Jurassic World, Revenge of the Mummy and Transformers can all be done in the first hour with short waits, and those same three rides cost you two hours in the afternoon. Come back up once, and spend the rest of the day on the Upper Lot.",
+        "Budget 45 minutes from your car to the turnstiles. Parking, the walk down through the structure, the escalators up through CityWalk, and security screening add up to considerably more than people expect, and arriving at the posted opening time means walking through the gate closer to 45 minutes later — which is the entire quiet hour gone.",
+        "Then walk out for lunch. There is no table-service restaurant inside this park, CityWalk is thirty seconds outside the turnstiles, and same-day re-entry is free."
+      ],
+      "callout": {
+        "type": "tip",
+        "body": "The Studio Tour is the headliner, and its queue behaves like one. Ride it early or in the last two hours, not at midday, and take it before the Lower Lot only if your group would rather see the backlot than beat the coaster queues."
+      }
+    },
+    {
+      "id": "when-hollywood-wins",
+      "heading": "When Hollywood is genuinely the right answer",
+      "body": [
+        "A comparison that only ever points one direction is not worth reading, so here are the cases where the California park is the correct booking and Orlando is not.",
+        "**You are already in Los Angeles.** A day at Universal Studios Hollywood costs you a day and a ticket. The Orlando equivalent costs flights, three or four hotel nights, and a week of planning. For a visitor with a spare day in Southern California, this is not a close call.",
+        "**You care how films get made.** The Studio Tour is a working backlot with standing sets and active production, and there is nothing else like it in the industry. Orlando's studio framing is set dressing on buildings that hold rides. If the appeal of a Universal park is the studio rather than the coasters, the California park is the only one delivering it.",
+        "**You have one day and no appetite for logistics.** Hollywood is reachable by rail, finishable in a day, and forgiving of a visitor who did no planning. Orlando punishes improvisation across three parks, two campuses, a shuttle bus, and a park-to-park ticket decision.",
+        "**Everyone in your group is between 40 and 48 inches.** Orlando's headliners cluster at 48, 51, 52 and 54 inches. Hollywood's tallest requirement is 48, four of its rides sit at 40, and its best attraction has no requirement at all. A child in that band gets proportionally more of the California park than of the Florida ones.",
+        "What Hollywood does not justify is a cross-country flight for the theme park alone. The shared attractions are the shorter versions, the coaster bench is one ride deep, and the thing it has that Orlando lacks — the backlot — is an hour of a day rather than a day in itself."
+      ]
+    }
+  ],
+  "pickThisIf": {
+    "orlando": [
+      "You have three or more days to give to theme parks.",
+      "Anyone in the group came for roller coasters.",
+      "You want the full Wizarding World, including the Hogwarts Express and Diagon Alley.",
+      "You want to see Epic Universe, which is the newest major theme park built in the United States.",
+      "You are willing to price a Premier hotel room against buying Express Pass per day."
+    ],
+    "hollywood": [
+      "You are already in Los Angeles or live on the west coast.",
+      "The Studio Tour and a real working backlot are the appeal.",
+      "You have one day and want to finish a park rather than sample one.",
+      "You are travelling without a car and want somewhere reachable by rail.",
+      "Your group is in the 40-to-48-inch band, where Orlando's headliners lock them out."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is Universal Orlando or Universal Hollywood better?",
+      "a": "Universal Orlando, on almost every measure that involves rides. It has three parks to Hollywood's one, roughly 82 attractions to about 25, the entire coaster bench, and both halves of the Wizarding World with a train between them. Hollywood's advantage is the Studio Tour, which crosses a real working film lot and which Orlando cannot replicate at any budget."
+    },
+    {
+      "q": "How many days do I need at each?",
+      "a": "Universal Orlando needs three park days as an honest minimum now that Epic Universe exists, and four if you want to repeat headliners. Universal Studios Hollywood needs one. With an early arrival you can ride everything at the California park, see both worthwhile shows, take the Studio Tour, and still eat properly."
+    },
+    {
+      "q": "Are the rides the same at both resorts?",
+      "a": "Several share names and differ in scale. Revenge of the Mummy in Hollywood is a compact version of the Orlando coaster. Hollywood's Wizarding World is one village rather than two lands connected by the Hogwarts Express. Super Nintendo World in Hollywood has one ride where Epic Universe has more. Transformers, Despicable Me Minion Mayhem and The Simpsons Ride exist at both."
+    },
+    {
+      "q": "Is the Studio Tour worth it?",
+      "a": "Yes, and it is the reason to buy a Hollywood ticket rather than a curiosity attached to one. It runs about an hour including the queue, has no height requirement, and crosses a genuinely working backlot with King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale built into the route. It is the only attraction at the park a first-time visitor would regret missing."
+    },
+    {
+      "q": "Does Express Pass work the same way at both resorts?",
+      "a": "No. In Orlando, Universal Express Unlimited is included with every room at the three Premier hotels for the whole stay, covering Universal Studios Florida and Islands of Adventure, with Epic Universe coverage worth confirming at booking because it has changed since that park opened. In Hollywood there is no hotel tier that includes it, and Express is sold per day at prices that swing sharply by date. Both resorts price it dynamically as of July 2026, so check your own date."
+    },
+    {
+      "q": "Which resort is better for young children?",
+      "a": "Neither is strong, and Universal is a harder sell than Disney for anyone under 40 inches at both. Orlando has more purpose-built small-child space across three parks — Seuss Landing, Isle of Berk and DreamWorks Land — but also the harshest height requirements anywhere in the category, at 51, 52 and 54 inches. Hollywood's ceiling is lower at 48 inches and its best attraction, the Studio Tour, admits everyone."
+    },
+    {
+      "q": "Can I get to Universal Studios Hollywood without a car?",
+      "a": "Yes, which is unusual for Los Angeles. The Metro B Line stops at Universal City and a free shuttle runs up the hill to the entrance. Burbank Airport is the closest and least stressful option; LAX is cheaper to fly into and anything from 30 minutes to well over an hour away depending on traffic."
+    },
+    {
+      "q": "Is it worth flying across the country for Universal Studios Hollywood?",
+      "a": "Not for the theme park alone. Most of what Hollywood does, Orlando does at greater scale, and several shared attractions are the shorter versions in California. The Studio Tour is genuinely exclusive and genuinely good, but it is an hour of a day rather than a destination in itself. Fly for Los Angeles and add the park; do not fly for the park."
+    }
+  ],
+  "related": [
+    "which-universal-park-should-i-visit",
+    "universal-park-rankings",
+    "epic-universe-vs-islands-of-adventure",
+    "universal-studios-florida-vs-islands-of-adventure",
+    "best-universal-park-for-one-day",
+    "universal-vs-disney-orlando"
+  ],
+  "lastVerified": "2026-07"
+}

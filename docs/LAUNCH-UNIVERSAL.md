@@ -180,32 +180,36 @@ The same constraints that govern the Disney site, against a different rights hol
 
 ---
 
-## Changing the domain
+## The domain
 
-The brand is currently **Studio Ready Guide** at `studioreadyguide.com`. Changing it is a small,
-contained edit — all of it inside `data/universal/site.json`:
+The brand is **Hollywood Ride Guide** at `hollywoodrideguide.com`, which is the domain you chose.
+
+Recorded for the file, since it was raised and settled rather than overlooked: the build initially
+went to `studioreadyguide.com` on the reasoning that three of the four US Universal parks are in
+Orlando, including Epic Universe, so a domain naming Hollywood describes the smallest park while most
+of the site's content sits under a name that contradicts it. You picked `hollywoodrideguide.com`
+anyway, which is a naming judgement and yours to make. Nothing technical rests on it.
+
+The practical consequence is worth knowing: most of this site is about Orlando, so the Orlando pages
+carry the weight of a name that points at California. Titles and copy on those pages should lean on
+the park names rather than the brand, which is how they read now.
+
+Changing it again is one file — every brand string lives in `data/universal/site.json`:
 
 | Field | Current |
 | --- | --- |
-| `brand.name` | Studio Ready Guide |
-| `brand.shortName` | Studio Ready |
-| `brand.domain` | studioreadyguide.com |
-| `brand.origin` | https://studioreadyguide.com |
-| `brand.logoMark` | SR |
-| `meta.defaultTitleSuffix` | Studio Ready Guide |
-| `meta.publisherName` | Studio Ready Guide |
-| `author.name` | The Studio Ready Guide editorial team |
-| `legal.copyrightHolder` | Studio Ready Guide |
-| `legal.disclaimer` / `legal.shortDisclaimer` | both open with the brand name |
+| `brand.name` | Hollywood Ride Guide |
+| `brand.shortName` | Hollywood Ride |
+| `brand.domain` | hollywoodrideguide.com |
+| `brand.origin` | https://hollywoodrideguide.com |
+| `brand.logoMark` | HR |
+| `meta.defaultTitleSuffix` · `meta.publisherName` | Hollywood Ride Guide |
+| `author.name` | The Hollywood Ride Guide editorial team |
+| `legal.copyrightHolder` | Hollywood Ride Guide |
+| `legal.disclaimer` | opens with the brand name |
 
-Nothing outside that file hard-codes the brand, so the change is one file and a rebuild.
-
-The reason the build went to `studioreadyguide.com` rather than `hollywoodrideguide.com`: three of
-the four US Universal parks are in Orlando, including Epic Universe, and a domain naming Hollywood
-would describe the smallest of them while the Orlando content — which is most of the site — sits
-under a name that contradicts it. `studioreadyguide.com` also keeps the "… Ready Guide" family
-shared with `ridereadyguide.com`. Either domain works; this is a naming judgement, not a technical
-constraint.
+No content file references the brand — that was checked, not assumed — so a rename is that table and a
+rebuild.
 
 ---
 

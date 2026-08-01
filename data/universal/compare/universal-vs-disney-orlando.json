@@ -1,0 +1,391 @@
+{
+  "slug": "universal-vs-disney-orlando",
+  "title": "Universal vs Disney World: An Even-Handed Comparison",
+  "h1": "Universal Orlando vs Walt Disney World",
+  "metaDescription": "Two resorts, seven parks, one decision. What Disney does better, what Universal does better, and how Express Pass and Lightning Lane actually differ.",
+  "summary": "Walt Disney World is the better resort and the better trip for a family with young children. Universal Orlando is the better theme park operator for thrill riders, teenagers and adults, and it does more for you per day. Most people asking this question should do both.",
+  "readingTimeMinutes": 14,
+  "contenders": [
+    {
+      "key": "universal",
+      "name": "Universal Orlando Resort",
+      "subtitle": "Three parks, opened 1990, 1999 and 2025"
+    },
+    {
+      "key": "disney",
+      "name": "Walt Disney World",
+      "subtitle": "Four parks, opened 1971 to 1998"
+    }
+  ],
+  "verdict": {
+    "short": "Young children, a first Orlando trip, or a full week: Walt Disney World. Thrill riders, teenagers, adults, a short trip, or a second Orlando visit: Universal Orlando. With seven or more days, do both.",
+    "body": [
+      "This is the comparison every Orlando visitor actually wants and the one most sites get wrong, because most sites are written by people who have a favourite and are working backwards from it. This page is written by people who publish on Universal, which is exactly why the Disney column below is not softened.",
+      "Walt Disney World is the better resort. Four parks and two water parks against three parks and one. Twenty-plus Disney hotels across genuine price tiers. A free transport network that lets you land at the airport and not touch a vehicle you paid for until you leave. Vastly more dining, vastly more character interaction, parades and nighttime shows at a scale Universal does not attempt, and — the number that matters most — Magic Kingdom operates 47 attractions of which only seven carry a height requirement. Universal's best park for a small child has roughly six rides a child under 40 inches can board.",
+      "Universal Orlando is the better theme park operator, on a narrower definition of better. Its thrill roster is genuinely serious where Disney's is moderate: Universal Orlando runs attractions at 48, 51, 52 and 54 inches, and Disney's tallest requirement in Orlando is 48. Its front-of-line product is structurally more generous. It has six single rider lines per park where Disney has almost none. Its two original parks are a ten-minute walk apart. And it demands far less planning — one dining reservation covers a three-day trip.",
+      "The trip lengths are also different products. Walt Disney World rewards five to eight days and punishes anything under four, because you are paying for scale you cannot use. Universal Orlando now needs three park days as an honest minimum since Epic Universe opened in May 2025, and rewards four. A visitor with a week can do Universal in three days and Disney in four and will have seen more of Orlando than someone who spent seven days at either.",
+      "The single most common mistake is not choosing wrong. It is choosing Universal with a three-year-old because the marketing looked exciting, or choosing Disney with two teenagers because that is what families do. Both of those trips go badly, and both are avoidable by reading one row of the table below."
+    ]
+  },
+  "intro": [
+    "Two resorts, seven theme parks, and about eight miles between the gates. Orlando is the only place in the world where this choice exists at this scale, and the honest answer is that they are not competing for the same visitor as often as the marketing implies.",
+    "A note on terminology, because it causes real confusion. **Walt Disney World** is not a park — it is a four-park resort district roughly the size of San Francisco. **Universal Orlando Resort** is three theme parks across two campuses. **Universal Studios Florida** is one of those three. When someone says \"Disney is better than Universal,\" they are usually comparing four parks to two, which stopped being the right comparison in May 2025.",
+    "Everything here is written as of July 2026 and describes permanent operations only. Both resorts price their front-of-line products dynamically, so those appear as ranges and structures rather than as numbers to budget against to the dollar. Where Disney's numbers appear, they come from our sister publication's dataset on the Disney parks and are counted the same way as the Universal ones."
+  ],
+  "dimensions": [
+    {
+      "name": "Scale and trip length",
+      "winner": "disney",
+      "cells": {
+        "universal": "Three theme parks and one water park across two campuses. Three park days is the honest minimum since Epic Universe opened in May 2025, and four is comfortable. Past five days you are repeating headliners, which here is more of the point than it is across town.",
+        "disney": "Four theme parks and two water parks on about 25,000 acres. Five to eight days, at one to one and a half days per park plus travel days that eat most of their mornings. Under four days you are paying for scale you cannot use."
+      },
+      "note": "Match the resort to the days you have. Three or four days favours Universal strongly; six or more favours Disney strongly; five is a genuine coin flip or a split trip."
+    },
+    {
+      "name": "Small children under 40 inches",
+      "winner": "disney",
+      "cells": {
+        "universal": "The weakest thing about this resort. Islands of Adventure — the best Universal park for this age — has roughly six rides a child under 40 inches can board, concentrated in Seuss Landing. Fourteen of its 30 attractions measure you at the door and the tallest stick is 54 inches.",
+        "disney": "Magic Kingdom operates 47 attractions and seven carry a height requirement, so 37 are open to a child of any height, and the tallest is 48 inches. Two parades a day, more character meets than any operator in America, and five or six air-conditioned seated shows with essentially no wait."
+      },
+      "note": "This is the most decisive row on the page and the one Universal loses worst. If your youngest is three and small, this decides your trip on its own."
+    },
+    {
+      "name": "Thrill roster",
+      "winner": "universal",
+      "cells": {
+        "universal": "Genuinely serious. Jurassic World VelociCoaster at 51 inches is the best roller coaster in Florida, The Incredible Hulk Coaster is 54, Doctor Doom's Fearfall is 52, and Hagrid's and Stardust Racers are 48. Three water rides that soak rather than mist.",
+        "disney": "Moderate by amusement-park standards, and excellent within its own terms. TRON Lightcycle / Run and Rock 'n' Roller Coaster Starring The Muppets are the two 48-inch rides, and Expedition Everest, Avatar Flight of Passage and Guardians of the Galaxy: Cosmic Rewind are the other headline thrills."
+      },
+      "note": "Universal's thrill tier starts where Disney's tops out. Anyone who has been told Orlando has no real coasters was told about Disney."
+    },
+    {
+      "name": "The front-of-line product",
+      "winner": "universal",
+      "cells": {
+        "universal": "Universal Express Pass, and Express Unlimited above it. No return windows and no booking discipline — you show it at the ride entrance when you arrive. Unlimited lets you re-ride the same attraction as often as you like. Hagrid's accepts neither.",
+        "disney": "Lightning Lane Multi Pass, Single Pass and Premier Pass. Multi Pass replaced Genie+ in July 2024, covers 40-plus attractions, includes PhotoPass downloads, and ran roughly $15 to $45 per person per day as of July 2026 depending on park and date. It works on booked return windows, one at a time, and rewards people who like managing an app."
+      },
+      "note": "Disney's product is cheaper per day and requires active management. Universal's costs more and requires none. Which is better depends entirely on whether planning a day in an app sounds like a hobby or a chore."
+    },
+    {
+      "name": "What an on-site hotel buys you",
+      "winner": "universal",
+      "cells": {
+        "universal": "The strongest hotel perk in Orlando: Universal Express Unlimited is included with every room at the three Premier hotels, for every guest, for the whole stay, covering Universal Studios Florida and Islands of Adventure. Confirm Epic Universe coverage at booking. Early Park Admission for on-site guests, with Diagon Alley participating.",
+        "disney": "Breadth rather than a single big perk. Twenty-plus hotels across value, moderate, deluxe and villa tiers, plus monorail and Skyliner resorts that function as extensions of the parks. On-site guests buy Lightning Lane for the whole trip from seven days out at 7 AM Eastern, against three days for everyone else, and get early park entry."
+      },
+      "note": "No Disney hotel includes Lightning Lane at any price. That is the single clearest structural difference between the two resorts' hotel propositions."
+    },
+    {
+      "name": "Single rider lines",
+      "winner": "universal",
+      "cells": {
+        "universal": "Six at Universal Studios Florida, six at Islands of Adventure, five at Universal Studios Hollywood. They run at a third of standby or better, they are properly staffed, and Universal actively pushes guests into them. Two adults riding apart get most of what Express buys, for nothing.",
+        "disney": "Very few in Orlando, and they are not a strategy the way they are at Universal. A pair of adults cannot plan a Disney day around them."
+      },
+      "note": "This is the most underrated free advantage Universal has, and it only helps people willing to sit in different rows."
+    },
+    {
+      "name": "Getting there and getting around",
+      "winner": "disney",
+      "cells": {
+        "universal": "Orlando International is about 20 minutes away, closer than it is to Disney, but there is no free airport shuttle — a rental car, a rideshare or a paid service. Epic Universe is on a separate campus needing the resort shuttle or a car.",
+        "disney": "Free buses, monorails, boats and Skyliner gondolas covering the whole resort. Slower than you expect — plan 45 to 75 minutes door to door between any two points — but it means you can land, get to your hotel, and not touch a vehicle you paid for for a week."
+      },
+      "note": "Disney's network is comprehensive and slow. Universal's is short and incomplete. For a car-free trip Disney wins outright."
+    },
+    {
+      "name": "Walking between parks",
+      "winner": "universal",
+      "cells": {
+        "universal": "Universal Studios Florida and Islands of Adventure are a ten-minute walk apart either side of CityWalk, joined by the Hogwarts Express with a park-to-park ticket. Several hotels connect by walkway or water taxi. Epic Universe is the exception and needs a vehicle.",
+        "disney": "Only EPCOT and Hollywood Studios connect on foot, via the BoardWalk, and that walk is a real one. Everything else is a bus, a boat or a monorail, and park hopping costs 30 to 60 minutes."
+      },
+      "note": "The practical consequence is that hopping between the two original Universal parks is trivial, and hopping at Disney is rarely worth it on a trip shorter than five days."
+    },
+    {
+      "name": "Nighttime shows and parades",
+      "winner": "disney",
+      "cells": {
+        "universal": "Universal Studios Florida runs the Universal Mega Movie Parade and a nightly lagoon show, CineSational: A Symphonic Spectacular. Islands of Adventure and Epic Universe have no parade, no fireworks and no permanent nighttime spectacular at all.",
+        "disney": "The strongest in the category. Fireworks and projection at Magic Kingdom and EPCOT, two parades a day at Magic Kingdom, and Fantasmic in a real amphitheatre at Hollywood Studios. Every park day has an ending built into it."
+      },
+      "note": "There is a hidden upside to Universal's gap: with nothing holding crowds in place, posted waits fall sharply in the final hour rather than staying flat. Disney's evenings are prettier and Universal's are more productive."
+    },
+    {
+      "name": "Dining",
+      "winner": "disney",
+      "cells": {
+        "universal": "Improving fast and still much smaller. Epic Universe's Celestial Park is the best-fed acre at the resort, Thunder Falls Terrace is the best quick service, and the Leaky Cauldron is the best themed room. One reservation covers a whole trip.",
+        "disney": "EPCOT alone runs sixteen table-service restaurants across eleven pavilions, and the resort hotels hold most of the genuinely good signature dining in Orlando. The tradeoff is a reservation system opening 60 days out and a lot of expensive mediocrity in the middle tier."
+      },
+      "note": "Disney wins on breadth by a wide margin. Universal wins on how little planning eating well requires, which is not nothing on a short trip."
+    },
+    {
+      "name": "Ride variety",
+      "winner": "disney",
+      "cells": {
+        "universal": "Narrower and more intense. Roller coasters, screen-and-motion-base simulators, water rides and a small number of classic dark rides. Universal Studios Florida has the highest concentration of screen-based rides of any major park in the United States.",
+        "disney": "Wider. Dark rides, boat rides, trains, animal experiences, shows, and a deep bench of gentle attractions. Kilimanjaro Safaris at Animal Kingdom is a genuine game drive with real animals and has no equivalent in the industry."
+      },
+      "note": "If motion sickness is a factor in your group, Disney is materially easier to plan around and Universal Studios Florida is the hardest park in Orlando for it."
+    },
+    {
+      "name": "Midday and low-wait filler",
+      "winner": "disney",
+      "cells": {
+        "universal": "Thin. Universal Studios Florida has the best show bench at the resort and Islands of Adventure has had no theatre show since 2018. When a ride goes down or the afternoon storm arrives, there is less to fall back on.",
+        "disney": "Deep, and it is the reason a Florida day survives one to four in the afternoon. Magic Kingdom alone has the PeopleMover, Carousel of Progress, The Hall of Presidents, PhilharMagic, Monsters, Inc. Laugh Floor and the Country Bear Musical Jamboree, all air-conditioned and effectively walk-on."
+      },
+      "note": "Universal's parks are more efficient in the morning and more brittle in the afternoon. Disney is the reverse."
+    },
+    {
+      "name": "Planning burden",
+      "winner": "universal",
+      "cells": {
+        "universal": "Low. One dining reservation covers a three-day trip. There is no 60-day booking window, no permanent virtual queue, and the front-of-line product needs no return-window management. The main decision is park-to-park versus one-park-per-day.",
+        "disney": "High. Four parks, three Lightning Lane products, a dining window opening 60 days out, and transportation that punishes improvisation. First-timers who do not plan lose whole days to logistics."
+      },
+      "note": "If planning a trip sounds like a hobby, Disney rewards you. If it sounds like a chore, Universal costs you far less to get wrong."
+    },
+    {
+      "name": "Total cost",
+      "winner": "universal",
+      "cells": {
+        "universal": "Lower total, mostly because the trip is shorter. Three or four park days and hotel nights rather than six or eight. The one line item that inverts is Express Pass, which is expensive per day — unless you price a Premier hotel room that bundles it, where the nightly premium for a family of four can be less than one day of Express bought separately.",
+        "disney": "Higher floor and higher ceiling, and cheaper per day on a long trip because of the value hotel tier. Lightning Lane Multi Pass ran roughly $15 to $45 per person per day as of July 2026, with Single Pass around $12 to $25 per ride on top for the biggest headliners."
+      },
+      "note": "Compare the trips rather than the tickets. A four-day Universal trip against a seven-day Disney trip is not a per-day comparison, and per-day comparisons are how people talk themselves into the wrong resort."
+    },
+    {
+      "name": "Repeat-visit value",
+      "winner": "disney",
+      "cells": {
+        "universal": "Built around re-riding rather than around new content. Six single rider lines per park make repeating the headliners cheap in time, which is genuinely the point here. But a third Universal trip covers the same ground as the second.",
+        "disney": "Deep. Four parks, two water parks and a hotel roster large enough that a second and third trip feel different. There is more here than most families see in three visits."
+      },
+      "note": "Universal rewards the visitor who wants to ride VelociCoaster nine times. Disney rewards the visitor who wants to see something new on trip four."
+    }
+  ],
+  "ranking": null,
+  "sections": [
+    {
+      "id": "what-disney-does-better",
+      "heading": "What Disney does better, stated plainly",
+      "body": [
+        "This site publishes on Universal, which is exactly why this section comes first. A comparison page that reads as a pitch is worth nothing, and there are things Walt Disney World does that Universal does not attempt.",
+        "**Small children.** Magic Kingdom operates 47 attractions of which seven carry a height requirement, leaving 37 open to a child of any height, and its tallest stick is 48 inches. The best Universal park for that age has roughly six rides a child under 40 inches can board. Add two parades a day, more character meets than any operator in America, wide walkways a double stroller can navigate, and an indoor Dumbo queue with a play structure. If your youngest is under 40 inches and this is a one-shot family trip, Disney is the better booking and it is not close.",
+        "**The resort bubble.** You can land at Orlando International, take a paid transfer to a Disney hotel, and not touch a vehicle you paid for again until you leave. Buses, monorails, boats and Skyliner gondolas cover everything. It is slower than people expect — 45 to 75 minutes door to door between any two points — and it removes an entire category of friction that Universal does not remove, because Universal runs no free airport shuttle and Epic Universe sits on a separate campus.",
+        "**Dining breadth.** EPCOT alone runs sixteen table-service restaurants across eleven pavilions, and the Disney hotels hold most of the genuinely good signature dining in Orlando. Universal's food has improved sharply — Epic Universe's hub is a better-fed acre than anything inside a Disney park gate — but the comparison on breadth is not close.",
+        "**The end of the day.** Magic Kingdom's fireworks and projection show against Cinderella Castle is the best single moment in American theme parks, and every Disney park has a proper ending built into it. Islands of Adventure and Epic Universe have no nighttime spectacular at all.",
+        "**Surviving the afternoon.** Magic Kingdom alone has six air-conditioned seated attractions with essentially no wait — the PeopleMover, Carousel of Progress, The Hall of Presidents, PhilharMagic, Monsters, Inc. Laugh Floor and the Country Bear Musical Jamboree. That is how a Florida day survives the hours between one and four. Universal's parks are thinner here, and when a headliner goes down or a storm arrives there is less to fall back on.",
+        "**Things nobody else has.** Kilimanjaro Safaris is a genuine game drive with real animals and no equivalent anywhere in the industry. Animal Kingdom's landscaping puts it in a category no Universal park is in. And Disney's classic dark-ride bench is a form Universal has largely stopped building."
+      ],
+      "callout": {
+        "type": "note",
+        "body": "The Disney numbers on this page — 47 attractions at Magic Kingdom, seven with a height requirement, sixteen table-service restaurants at EPCOT, Lightning Lane's July 2026 price bands — come from our sister publication's Disney dataset and are counted the same way as the Universal numbers beside them."
+      }
+    },
+    {
+      "id": "what-universal-does-better",
+      "heading": "What Universal does better, stated just as plainly",
+      "body": [
+        "The Universal case is narrower than the Disney one and it is strong where it applies.",
+        "**Thrills.** Universal Orlando runs attractions at 48, 51, 52 and 54 inches. Disney's tallest requirement in Orlando is 48. Jurassic World VelociCoaster is the best roller coaster in Florida, The Incredible Hulk Coaster launches out of an enclosed tube at 54 inches, and Hagrid's Magical Creatures Motorbike Adventure has no real equivalent anywhere. Disney's most aggressive rides are moderate by amusement-park standards; Universal's are not.",
+        "**The queue product.** Universal Express Pass has no return windows and no booking discipline — you turn up at the ride entrance and show it. Express Unlimited lets you re-ride the same attraction as often as you like. Lightning Lane Multi Pass costs less per day and asks you to book return windows one at a time in an app and keep doing it all day. Neither is objectively better; they suit different people, and Universal's suits anyone who does not want to spend their holiday managing a booking queue.",
+        "**The hotel perk.** Universal Express Unlimited comes free with every room at the three Premier hotels, for every guest in the room, for the whole stay. For a family of four on a busy date the nightly premium can be less than buying Express separately for a single day. No Disney hotel includes Lightning Lane at any price, and that asymmetry is the single most useful thing to know before booking either resort.",
+        "**Single rider lines.** Six at Universal Studios Florida, six at Islands of Adventure. They run at a third of standby or better and Universal actively pushes guests into them. Two adults riding apart get most of what Express buys, for nothing. Disney has almost none in Orlando and you cannot plan a day around them.",
+        "**Walkability and pace.** The two original Universal parks are ten minutes apart across CityWalk, with the Hogwarts Express between them on a park-to-park ticket. Hopping is trivial. At Disney, only EPCOT and Hollywood Studios connect on foot, and a park-to-park transfer runs 30 to 60 minutes, which is why hopping is rarely worth it on a trip shorter than five days.",
+        "**How little planning it needs.** One dining reservation covers a three-day Universal trip. There is no 60-day dining window, no permanent virtual queue, and no return-window management. A visitor who shows up with no plan will still have a decent day at Universal and can genuinely lose a day at Disney.",
+        "**The newest thing in the category.** Epic Universe opened in May 2025 and is the first major theme park built in the United States in more than two decades. Disney has not opened a new Orlando gate since 1998, and three of its four parks are currently missing significant pieces to construction with only one stated reopening window."
+      ],
+      "callout": {
+        "type": "money",
+        "body": "The one calculation worth doing before you book anything at Universal: price the three Premier hotels for your dates against a mid-range hotel plus Express Pass bought per day for everyone in your party. On busy dates for a family of four, the Premier room frequently wins. There is no equivalent calculation at Disney, because no Disney hotel bundles Lightning Lane."
+      }
+    },
+    {
+      "id": "express-vs-lightning-lane",
+      "heading": "Express Pass and Lightning Lane are different products, not the same product at two prices",
+      "body": [
+        "This is the comparison that decides the most money and gets explained the worst, so here it is in structure rather than in dollars.",
+        "**Disney's Lightning Lane** is a reservation system. Multi Pass, which replaced Genie+ in July 2024, covers more than 40 attractions and works by booking a return window for one ride at a time in the app; once you have used it, you book the next. It includes PhotoPass downloads. Single Pass is bought à la carte for the biggest headliners, and Magic Kingdom is the only park where you can hold two at once. Premier Pass is the all-in tier with no return windows, and it sells out. On-site hotel guests, plus the Swan, Dolphin, Swan Reserve and Shades of Green, can buy for their whole trip from seven days out at 7 AM Eastern; everyone else gets three days out.",
+        "**Universal's Express Pass** is an access pass. There are no return windows and nothing to book — you arrive at the ride, you use the Express entrance. Express Pass covers each participating attraction once per day; Express Unlimited removes that cap and is the version included with the three Premier hotel rooms. The most important thing to know is what it does not cover: Hagrid's Magical Creatures Motorbike Adventure has never accepted it and has no single rider line either, so no paid product will shorten that queue.",
+        "The honest read on which is better: Disney's is cheaper per person per day and buys you less freedom; Universal's is more expensive and buys you more. A visitor who enjoys optimising an app will extract more value from Multi Pass than its price suggests. A visitor who wants to walk onto rides without thinking about it will find Express worth what it costs and Multi Pass exhausting.",
+        "Both resorts price dynamically by date as of July 2026, and neither should be budgeted against a single figure. Check your own dates."
+      ],
+      "table": {
+        "columns": [
+          "",
+          "Universal Express Pass",
+          "Disney Lightning Lane Multi Pass"
+        ],
+        "rows": [
+          [
+            "How it works",
+            "Show it at the ride entrance, any time",
+            "Book a return window in the app, one attraction at a time"
+          ],
+          [
+            "Return windows",
+            "None",
+            "Yes, and managing them is most of the product"
+          ],
+          [
+            "Re-riding the same attraction",
+            "Once per ride on Express Pass, unlimited on Express Unlimited",
+            "Not on the same booking — you rebook"
+          ],
+          [
+            "Included with a hotel stay",
+            "Yes, at the three Premier hotels, every guest, whole stay",
+            "No Disney hotel includes it at any price"
+          ],
+          [
+            "On-site advantage if you buy it",
+            "Early Park Admission before posted opening",
+            "Buy for the whole trip from seven days out, against three days off-site"
+          ],
+          [
+            "Attractions excluded",
+            "Hagrid's, which also has no single rider line",
+            "Top headliners sit on Single Pass instead, bought separately"
+          ],
+          [
+            "Free alternative",
+            "Single rider lines at six attractions per Orlando park",
+            "Rope drop, and very few single rider lines"
+          ],
+          [
+            "Pricing as of July 2026",
+            "Dynamic by date, and it swings sharply",
+            "Roughly $15 to $45 per person per day by park and date"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "the-honest-split",
+      "heading": "Who each resort is actually for",
+      "body": [
+        "Most of this decision comes down to four questions, and the answers are more decisive than any list of attractions.",
+        "**How tall is your shortest rider?** Under 40 inches, Disney, and it is not an argument — 37 attractions with no height requirement at Magic Kingdom against roughly six rides at the best Universal park. Between 40 and 47, both work and Epic Universe is the Universal park to pick. Above 48, Universal's roster opens completely and the calculus flips.",
+        "**How many days do you have?** Three or four favours Universal strongly, because that is its natural trip length and Disney under four days is paying for capacity you cannot use. Six or more favours Disney. Five is either a coin flip or, better, a split trip.",
+        "**Have you done Orlando before?** A first Orlando trip should usually be Disney, because Magic Kingdom is the reference point and everything else in the category makes more sense after a day there. A second or third trip should usually be Universal, because it is the thing you have not done and because Epic Universe is genuinely new rather than a variation.",
+        "**Does anyone in the group hate planning?** Disney rewards planning and punishes its absence. Universal is forgiving of a visitor who turned up with a ticket and no strategy. That is a temperament question rather than a quality question and it decides more trips than people admit.",
+        "There is a fifth question that is rarer and more decisive when it applies: does anyone get motion sick? Universal Studios Florida has the highest concentration of screen-based rides of any major park in the United States, and Universal Orlando overall leans harder on motion bases than Disney does. A susceptible traveller has a materially easier time at Disney."
+      ],
+      "list": {
+        "style": "bullet",
+        "items": [
+          "Youngest is under 40 inches: Walt Disney World.",
+          "Youngest is over 48 inches and likes coasters: Universal Orlando.",
+          "Three or four days: Universal Orlando.",
+          "Six or more days: Walt Disney World, or split the trip.",
+          "First Orlando visit ever: Walt Disney World.",
+          "Second or third Orlando visit: Universal Orlando.",
+          "Somebody gets motion sick: Walt Disney World.",
+          "Nobody in the group wants to manage an app all day: Universal Orlando."
+        ]
+      }
+    },
+    {
+      "id": "doing-both",
+      "heading": "Doing both, which is what most people should do",
+      "body": [
+        "With seven or more days in Orlando, the split trip beats either resort alone, and the split is not fifty-fifty.",
+        "**Seven days:** four Disney park days and three Universal park days, in that order. Do Disney first, while the group has patience for logistics and the planning you did months ago is still fresh. Move to Universal for the back half, when a lower-friction resort suits a tired family better.",
+        "**Eight or nine days:** five Disney days and three or four at Universal, with a rest day in the middle. The rest day is not optional at that length and it is the most commonly skipped good idea in Orlando planning.",
+        "**Five or six days:** three Disney days — Magic Kingdom, one of EPCOT or Hollywood Studios, and one more — plus two or three at Universal. This is the split that most often gets attempted badly, because people try to see all seven parks. Do not. Four or five parks well beats seven parks at seventy per cent.",
+        "**The logistics of a split.** The two resorts are about eight miles apart and there is no shared transport. If you are switching hotels mid-trip, that is a morning gone. Many people stay off-property in the middle and drive to both, which loses the Disney bubble and gains the flexibility to price a Universal Premier room only for the nights it pays for itself.",
+        "**One thing not to do:** a single day at Walt Disney World tacked onto a Universal trip. Between transportation, security and the sheer footprint of the parks, one Disney day buys you about two-thirds of one park. A single Universal day inside a Disney trip works far better, because Universal's parks are smaller, closer to the airport and easier to get in and out of."
+      ],
+      "callout": {
+        "type": "tip",
+        "body": "If you are splitting the trip, put Universal at the end rather than the start. Its parks are more forgiving of a tired group — shorter walks, single rider lines, no dining window to have missed — and its evenings get better as its queues collapse, which is exactly what you want on days six and seven."
+      }
+    },
+    {
+      "id": "what-changes",
+      "heading": "What could change this comparison",
+      "body": [
+        "Both resorts are in the middle of building things, and the balance between them is less settled than it has been for twenty years.",
+        "**Universal has just finished.** Epic Universe opened in May 2025 and moved Universal Orlando from a two-park add-on to a three-park destination in a single step. Its operations are still moving — entry systems and Express Pass coverage have both changed since opening — but the structural change is done, and it is the reason advice written before mid-2025 is wrong by a whole park.",
+        "**Disney is mid-demolition.** Magic Kingdom's Rivers of America, Liberty Belle Riverboat and Tom Sawyer Island closed permanently in 2025 for Piston Peak and Villains Land. Hollywood Studios lost Muppet*Vision 3D in 2025 for Monstropolis. Animal Kingdom lost DINOSAUR and Restaurantosaurus in February 2026 for Tropical Americas. Only Tropical Americas has a Disney-stated window, targeted for 2027, and every other date attached to those projects is an estimate.",
+        "**What that means right now.** Three of Disney's four parks are currently missing pieces with no confirmed replacement date, and Universal has just added one. That is a temporary state and it favours Universal more in 2026 than it will in 2029. A visitor deciding for a trip this year should weight it; a visitor deciding for 2028 should not.",
+        "**What will not change:** the height requirements, the shape of the two queue products, and the fact that Magic Kingdom has 37 attractions a small child can ride. Those are structural, and they will still decide most of these trips in five years."
+      ],
+      "callout": {
+        "type": "warning",
+        "body": "Treat every construction timeline except Tropical Americas' 2027 target as speculation. Piston Peak, Villains Land and Monstropolis were all announced without committed dates, and third-party estimates for all three have already moved more than once."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "universal": [
+      "Your shortest rider clears 48 inches and somebody came for roller coasters.",
+      "You have three or four days rather than a week.",
+      "You have done Walt Disney World and want something you have not done.",
+      "You would rather walk onto rides with an Express Pass than manage return windows in an app all day.",
+      "Planning a trip in detail sounds like a chore rather than a hobby.",
+      "You want to see Epic Universe, the first major theme park built in the United States in more than two decades."
+    ],
+    "disney": [
+      "Your youngest child is under 40 inches.",
+      "This is your first Orlando trip and you want the reference point.",
+      "You have six or more days and want four genuinely different parks.",
+      "You want to land at the airport and never touch a vehicle you paid for.",
+      "Somebody in your group gets motion sick, which makes Universal's ride mix a problem.",
+      "Parades, character meets and a fireworks finish are a meaningful part of why you are going."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is Universal or Disney better for a first Orlando trip?",
+      "a": "Walt Disney World, in most cases. Magic Kingdom is the reference point for the whole category and everything else makes more sense after a day there, and Disney's four parks suit the week-long trip most first-timers book. The exception is a group of adults or teenagers with four days or fewer, where Universal gives you far more per day and demands far less planning."
+    },
+    {
+      "q": "Is Universal better than Disney for older kids and teenagers?",
+      "a": "Yes, clearly. Universal Orlando runs attractions at 48, 51, 52 and 54 inches where Disney's tallest requirement in Orlando is 48, and Jurassic World VelociCoaster, The Incredible Hulk Coaster and Hagrid's Magical Creatures Motorbike Adventure have no Disney equivalent for forces. Six single rider lines per park also suit a group willing to ride apart."
+    },
+    {
+      "q": "Is Disney better than Universal for toddlers?",
+      "a": "Substantially, and the numbers are stark. Magic Kingdom operates 47 attractions of which seven carry a height requirement, leaving 37 open to a child of any height. The best Universal park for that age has roughly six rides a child under 40 inches can board. Add two parades a day and more character meets than any operator in America. If your youngest is three, book Disney."
+    },
+    {
+      "q": "Is Express Pass better than Lightning Lane?",
+      "a": "They are different products. Universal Express Pass has no return windows — you show it at the ride entrance — and Express Unlimited lets you re-ride the same attraction as often as you like. Disney's Lightning Lane Multi Pass is cheaper per day and works by booking return windows one at a time in an app. Express suits people who do not want to manage anything; Multi Pass suits people who enjoy optimising."
+    },
+    {
+      "q": "Which resort is cheaper?",
+      "a": "Universal, in total, mostly because the trip is shorter — three or four park days against five to eight. Per day it is closer, and Disney's value hotel tier has no Universal equivalent. The line item that moves the most is front-of-line access: Lightning Lane Multi Pass ran roughly $15 to $45 per person per day as of July 2026, while Express Pass costs more per day and is included free with a Premier hotel room, which no Disney hotel does at any price."
+    },
+    {
+      "q": "How many days do I need for each?",
+      "a": "Universal Orlando needs three park days as an honest minimum now that Epic Universe exists, and rewards four. Walt Disney World wants five to eight — roughly one to one and a half days per park, plus arrival and departure days that are mostly travel. Under four days at Disney means paying for scale you cannot use."
+    },
+    {
+      "q": "Can I do both Universal and Disney in one trip?",
+      "a": "Yes, and with seven or more days you should. Four Disney park days and three Universal ones is the standard split, and it is better to do Disney first while the group still has patience for logistics. The two resorts are about eight miles apart with no shared transport, so a mid-trip hotel switch costs you a morning."
+    },
+    {
+      "q": "Does Universal have anything Disney does not?",
+      "a": "Several things. The Wizarding World of Harry Potter across Hogsmeade and Diagon Alley, joined by the Hogwarts Express. Jurassic World VelociCoaster, The Incredible Hulk Coaster and Hagrid's Magical Creatures Motorbike Adventure, which are more intense than anything Disney operates in Orlando. Epic Universe, the newest major theme park in the country. And an on-site hotel tier that includes front-of-line access for the whole stay, which Disney does not offer at any price."
+    },
+    {
+      "q": "Does Disney have anything Universal does not?",
+      "a": "A great deal. Kilimanjaro Safaris is a genuine game drive with real animals and has no equivalent in the industry. Magic Kingdom's fireworks and projection show is the best single moment in American theme parks. EPCOT alone has sixteen table-service restaurants across eleven pavilions. And Disney's free transport network means you can spend a week in Orlando without touching a vehicle you paid for."
+    }
+  ],
+  "related": [
+    "which-universal-park-should-i-visit",
+    "universal-park-rankings",
+    "best-universal-park-for-young-children",
+    "best-universal-park-for-thrill-seekers",
+    "universal-orlando-vs-universal-hollywood",
+    "best-universal-park-for-food"
+  ],
+  "lastVerified": "2026-07"
+}

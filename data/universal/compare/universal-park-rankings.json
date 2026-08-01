@@ -1,0 +1,338 @@
+{
+  "slug": "universal-park-rankings",
+  "title": "Universal Park Rankings: All Four US Parks, 1 to 4",
+  "h1": "Every US Universal Park, Ranked 1 to 4",
+  "metaDescription": "An unhedged ranking of all four US Universal theme parks, with the reasoning for each placement and the strongest counterargument against it printed alongside.",
+  "summary": "Islands of Adventure is the best Universal park in the United States. Epic Universe is the best-built one and finishes second. Both of those are arguable, and the argument against each placement is printed with it.",
+  "readingTimeMinutes": 13,
+  "contenders": [
+    { "key": "islands-of-adventure", "name": "Islands of Adventure", "subtitle": "Universal Orlando, opened 1999" },
+    { "key": "epic-universe", "name": "Universal Epic Universe", "subtitle": "Universal Orlando, opened 2025" },
+    { "key": "universal-studios-florida", "name": "Universal Studios Florida", "subtitle": "Universal Orlando, opened 1990" },
+    { "key": "universal-studios-hollywood", "name": "Universal Studios Hollywood", "subtitle": "Universal City, opened 1964" }
+  ],
+  "verdict": {
+    "short": "1. Islands of Adventure. 2. Universal Epic Universe. 3. Universal Studios Florida. 4. Universal Studios Hollywood. No ties, no hedging.",
+    "body": [
+      "Islands of Adventure is first on roster depth, which is the criterion this list weights most heavily. About 30 attractions across seven islands, four roller coasters, three water rides that genuinely soak you, a drop tower, the best coaster in Florida in Jurassic World VelociCoaster, half of the Wizarding World, and a purpose-built children's island at the far end of the loop. No other Universal park in the country puts that many usable things in front of you in one day.",
+      "Epic Universe is second, and it wins more individual criteria than the park above it. It is better built, better fed, better lit after dark, and more coherent as a piece of design than anything else Universal operates in the United States. It loses on two structural facts: about 21 attractions to Islands of Adventure's 30, and a separate campus that costs a shuttle or a drive at each end of the day. Rank on quality per attraction instead of on roster and this park is first, comfortably.",
+      "Universal Studios Florida is third because one land carries it. Diagon Alley is the best-built environment Universal has produced in Florida outside Epic Universe and is worth a ticket on its own. Around it sits a park of backlot streets with the highest concentration of screen-based rides of any major park in the United States, two genuine coasters, and the thinnest under-40-inch list at Universal Orlando.",
+      "Universal Studios Hollywood is fourth on roster and first on the one thing nothing else in the industry has. The Studio Tour crosses a real working film lot, runs about an hour, carries no height requirement, and is the reason to buy a ticket rather than a curiosity attached to one. It finishes last because about 25 attractions on a hillside, several of them the shorter versions of Orlando rides, is a smaller park — not because it is a worse day than its placement implies."
+    ]
+  },
+  "intro": [
+    "Rankings that will not commit are worthless, so this one commits. Four parks, one order, no ties, and a defence of each placement that names what the park is bad at alongside what it is good at.",
+    "What was ranked: roster depth, the strength of the best two or three attractions, how coherent the place feels to stand in, whether the park supports a full day, food, and what a second and third visit are worth. What was ignored: crowd levels, wait times, and Express Pass pricing, all of which are functions of demand and of Universal's revenue strategy rather than of the park. A park is not worse because more people want to go to it.",
+    "Two structural facts shape the whole list. First, Epic Universe opened in May 2025 and changed the shape of Universal Orlando from a two-park add-on into a genuine three-to-four-day destination — any ranking written before that date is describing a different resort. Second, Universal's height requirements run higher than Disney's, with sticks at 48, 51, 52 and 54 inches, and a ranking that ignores who is locked out of the top of each park is not describing the day most families actually have.",
+    "As of July 2026: The Lost Continent at Islands of Adventure has had no ride since Poseidon's Fury closed permanently in 2023 and no show since 2018, and Universal has announced no replacement for either. Epic Universe is still young enough that its entry systems and Express coverage have moved more than once since opening, and anything written about its operations ages faster than the rest of this page."
+  ],
+  "dimensions": [
+    {
+      "name": "Roster depth",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "About 30 attractions on 101 acres, weighted hard toward rides — four coasters, three water rides, a drop tower, four small-child rides and a walkthrough discovery centre.",
+        "epic-universe": "About 21 attractions on 110 acres, of which roughly ten are rides. Fewer ride vehicles than any other Orlando park, and each one longer and more elaborate than the count suggests.",
+        "universal-studios-florida": "About 31 attractions on 108 acres, but weighted toward screens, shows and walkthroughs. Two genuine coasters and a great deal of projection.",
+        "universal-studios-hollywood": "About 25 attractions on a hillside site, several of which are the shorter versions of Orlando rides. One coaster."
+      },
+      "note": "This is the most heavily weighted criterion on the page and it does most of the work separating first from second."
+    },
+    {
+      "name": "Peak experience",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "Jurassic World VelociCoaster — two launches, a 155-foot top hat, four inversions and a run of track that skims the lagoon at speed. The best roller coaster in Florida.",
+        "epic-universe": "The Ministry of Magic: 1920s Paris at genuine city scale with a wizarding government built underneath it, holding the most technically ambitious ride Universal has made.",
+        "universal-studios-florida": "Diagon Alley, reached through a brick wall on a London waterfront, with the Gringotts bank lobby behind it.",
+        "universal-studios-hollywood": "The Studio Tour, on a real working backlot, with King Kong 360 3-D and the earthquake subway sequence built into the route."
+      },
+      "note": "If this were the only criterion, the order would be Epic Universe, Universal Studios Hollywood, Islands of Adventure, Universal Studios Florida — which is not the order below."
+    },
+    {
+      "name": "Sense of place",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "Strong in Hogsmeade and Jurassic Park, dated in Toon Lagoon and Marvel Super Hero Island, and hollowed out in The Lost Continent, which has lost both of its attractions.",
+        "epic-universe": "The best of the four and it is not close. Built in one piece with one design language, and Celestial Park is the rare hub that is worth standing in rather than crossing.",
+        "universal-studios-florida": "Diagon Alley is superb and the backlot streets around it are architecture rather than atmosphere. The park reads as a collection of sets, which is the intent and also the limitation.",
+        "universal-studios-hollywood": "Constrained by the hill and the real lot underneath it. The Wizarding World here is better realised at ground level than the Orlando original; the rest is functional."
+      },
+      "note": "Epic Universe wins this outright and still finishes second, which tells you how heavily roster depth was weighted."
+    },
+    {
+      "name": "Quality of a full day",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "The fullest day of the four. Enough attractions that the gaps between headliners fill themselves, and six single rider lines that turn two adults into an efficient machine.",
+        "epic-universe": "Excellent and unforgiving. The hub-and-spoke layout means a badly sequenced day walks half again as far, and there is less to fall back on when a headliner goes down.",
+        "universal-studios-florida": "Comfortable rather than full. The most indoor, air-conditioned attractions of the three Orlando parks and the best live show bench, with a ride list that runs out before the day does.",
+        "universal-studios-hollywood": "The only one you genuinely finish, which is a real virtue. It is also the shortest day of the four, and the Starway escalators take a bite out of it."
+      },
+      "note": "Neither Orlando park runs a nightly show, so waits fall sharply in the final hour rather than staying flat. Plan to ride late."
+    },
+    {
+      "name": "Food",
+      "winner": "epic-universe",
+      "cells": {
+        "islands-of-adventure": "Undersold. Mythos is the nicer meal, Confisco Grille takes walk-ups more reliably than any other table service on the property, and Thunder Falls Terrace is the best quick service at Universal Orlando.",
+        "epic-universe": "The best at Universal, and most of it is in Celestial Park rather than behind a portal. Atlantic and The Blue Dragon are the two sit-down rooms worth booking; Toadstool Cafe is the best themed meal at the resort.",
+        "universal-studios-florida": "The best snack and themed-food bench. The Leaky Cauldron serves better food than a theme park has any obligation to, and Springfield commits to its joke properly.",
+        "universal-studios-hollywood": "The weakest of the four. No table-service restaurant inside the gate and quick-service prices above what comparable food costs at Disneyland down the freeway."
+      },
+      "note": "Universal Studios Hollywood's saving grace is that same-day re-entry is free and CityWalk is thirty seconds outside the turnstiles."
+    },
+    {
+      "name": "What nothing else has",
+      "winner": "universal-studios-hollywood",
+      "cells": {
+        "islands-of-adventure": "Hagrid's Magical Creatures Motorbike Adventure, a story coaster with no real equivalent anywhere, and three water rides that soak rather than mist.",
+        "epic-universe": "The newest major theme park in the United States and the first built here in more than two decades, with the most advanced ride hardware Universal operates.",
+        "universal-studios-florida": "Diagon Alley and the Hogwarts Express, which together are one design split across two gates and cannot be experienced anywhere else in America.",
+        "universal-studios-hollywood": "A real working film lot with a tram running through it. Orlando cannot build this at any budget, because the asset is the studio rather than the ride."
+      },
+      "note": "This is the criterion that keeps Universal Studios Hollywood from being an also-ran, and the reason its last-place finish is about size rather than quality."
+    },
+    {
+      "name": "Second and third visit value",
+      "winner": "islands-of-adventure",
+      "cells": {
+        "islands-of-adventure": "The most durable. Riding the same four headliners repeatedly is more of the point at Universal than at Disney, and the single rider lines make it cheap in time.",
+        "epic-universe": "High for now, because most first visitors properly see two or three of five worlds. That is newness rather than depth and it will fade.",
+        "universal-studios-florida": "Moderate. Diagon Alley rewards a slower second look; the ride list does not change and the screens do not surprise twice.",
+        "universal-studios-hollywood": "Low on rides, and the exception is the Studio Tour, which changes with the productions actually on the lot."
+      },
+      "note": "A second Universal Orlando trip should weight Islands of Adventure and Epic Universe and treat Universal Studios Florida as a half day."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "key": "islands-of-adventure",
+      "headline": "About 30 attractions, four coasters, three soaking water rides, and the best roller coaster in Florida.",
+      "body": [
+        "Islands of Adventure is first because roster depth is the criterion this list weights most heavily and no other Universal park in the country is close. About 30 attractions on 101 acres, arranged as a ring of seven islands around a lagoon, and the great majority of them are rides rather than shows or walkthroughs.",
+        "The top of the roster is the strongest at Universal. Jurassic World VelociCoaster opened in 2021 and is the best roller coaster in Florida — two launches, a 155-foot top hat, four inversions, and a stretch of track that skims the lagoon at speed. Hagrid's Magical Creatures Motorbike Adventure is the more inventive ride and the one people queue longest for, a story coaster with backward sections and a drop track and no real equivalent anywhere. The Incredible Hulk Coaster still launches out of a tube into an inversion at 54 inches. The Amazing Adventures of Spider-Man remains a landmark of ride design even as its screens age.",
+        "Behind those, the depth is what separates the park. Doctor Doom's Fearfall at 52 inches. Dudley Do-Right's Ripsaw Falls and Popeye & Bluto's Bilge-Rat Barges, which do not mist you for atmosphere but empty water onto you. Jurassic Park River Adventure with an 85-foot drop at the end. Harry Potter and the Forbidden Journey inside Hogwarts Castle. Flight of the Hippogriff at 36 inches, which is the only Wizarding World ride in Orlando a small child can board. And Seuss Landing at the far end, with four rides at 34 inches, 36 inches and no minimum, plus shade, benches and the only quiet corner in the park.",
+        "It also gives away the most free time of any Universal park. Six attractions run single rider lines — Hulk, Spider-Man, Doctor Doom's, Skull Island: Reign of Kong, VelociCoaster and Forbidden Journey — and two adults using them separately will often clear all six in the time standby takes for two. No Disney park in Orlando offers anything of that scale.",
+        "**The counterargument:** it measures you harder than any other park in the category and it is showing its age in patches. Fourteen attractions carry a height requirement and the five the park is famous for all need 48 inches or more, which locks out an eight-year-old who has not grown into them. Toon Lagoon and much of Marvel Super Hero Island are visibly 1999 and have almost no shade. The Lost Continent has lost both of its attractions and is now a restaurant, a talking fountain and a walk-through. And Epic Universe is better built in every respect that a design critic would measure. Rank on quality per attraction rather than on how many good things you ride in a day, and this park is second."
+      ],
+      "pros": [
+        "The best roller coaster slate in Florida, four deep.",
+        "Six single rider lines — the most useful free time-saver at Universal.",
+        "Three water rides that genuinely soak you, which is a real August asset.",
+        "Seuss Landing is the only purpose-built children's island at the resort.",
+        "On the walkable campus, ten minutes from Universal Studios Florida and its Wizarding World half."
+      ],
+      "cons": [
+        "Fourteen attractions carry a height requirement, the most at any Orlando theme park, topping out at 54 inches.",
+        "A closed ring with no path across the middle and a twenty-minute walk between its ends.",
+        "Very little shade, and most of the ride list stops for a lightning hold.",
+        "The Lost Continent has had no ride since 2023 and no show since 2018.",
+        "Hagrid's accepts no Express Pass and has no single rider line, so it eats a morning."
+      ]
+    },
+    {
+      "rank": 2,
+      "key": "epic-universe",
+      "headline": "The best-built theme park in the United States, on a campus you have to be driven to.",
+      "body": [
+        "Epic Universe opened in May 2025 as the first major theme park built in the United States in more than two decades, and on craft it is the best park Universal has ever made. Five worlds arranged around Celestial Park, a landscaped hub with water, gardens and a coaster running over the top of it, and monumental portals into each world off the middle.",
+        "The individual attractions are the most ambitious the company operates. Harry Potter and the Battle at the Ministry sits under a 1920s Parisian wizarding quarter built at genuine city scale. Monsters Unchained: The Frankenstein Experiment is closer to a haunted attraction than a family dark ride and is the most atmospheric thing at the resort. Stardust Racers is a dueling coaster running over open, lit ground, and the night lap genuinely reads as a different ride from the day one. SUPER NINTENDO WORLD is built at full height with a Donkey Kong Country expansion behind it.",
+        "It also has the best food at Universal, and it is in the hub rather than behind a portal — Atlantic for seafood, The Blue Dragon for pan-Asian, and every bar worth sitting in. Visitors cross Celestial Park four times without stopping and then wonder where the good food was. It holds the park's best coaster too, fifty yards inside the entrance, which the morning crowd runs straight past on the way to a portal.",
+        "Second place comes down to two numbers and one fact. About 21 attractions, of which roughly ten are rides, against Islands of Adventure's 30. And a separate campus with no walkway and no train, which costs a shuttle or a drive at both ends of the day, cannot be hopped into or out of on a whim, and produces the worst transport moment of a Universal Orlando trip when a whole park's evening crowd reaches one loading area within twenty minutes.",
+        "**The counterargument:** on craft, coherence, ride technology and food, this park wins four of the seven criteria above and it is first on the ones a designer would care about. It also has the widest 40-to-48-inch band at Universal, which for a family with a child in that range makes it the only sensible choice. A ranking weighted toward quality per attraction rather than roster depth puts this park first and would not be wrong — it would simply be measuring something else."
+      ],
+      "pros": [
+        "The most advanced ride hardware Universal operates anywhere.",
+        "The best food and drink at Universal Orlando, most of it in the hub.",
+        "The most coherent design of any park on this list.",
+        "The widest 40-to-48-inch band at Universal, which decides a lot of family trips.",
+        "The best park here after dark, by a distance."
+      ],
+      "cons": [
+        "About 21 attractions — fewer than any other Orlando theme park.",
+        "A separate campus with a shuttle or a drive at both ends of every day.",
+        "SUPER NINTENDO WORLD's entry system has changed more than once and can gate your morning.",
+        "Fewer things to fall back on when a headliner goes down.",
+        "Operational details move often, because the park is still young."
+      ]
+    },
+    {
+      "rank": 3,
+      "key": "universal-studios-florida",
+      "headline": "One extraordinary land, a lot of screens around it, and the thinnest floor at Universal Orlando.",
+      "body": [
+        "Universal Studios Florida opened in June 1990 as a working production facility guests could tour, and almost none of that survives. What stands now is a set of backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions dropped into the buildings behind them. The studio framing is architecture, not a working business.",
+        "The Wizarding World of Harry Potter — Diagon Alley, opened July 2014, is the reason this park is not fourth. It is enclosed rather than open, reached through a brick wall on a London waterfront with a proper reveal, and it holds more detail per square foot than anything else Universal built in Florida before 2025. Harry Potter and the Escape from Gringotts has the best-built room in the park in its bank lobby, with animatronic goblins looking up from their ledgers as the vehicle passes.",
+        "The ride list around it is the park's problem. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all projection in front of a motion base, and Gringotts and Men in Black lean on screens too. That is the highest concentration of screen-based attractions of any major park in the United States, and it is worth saying plainly rather than describing as a strength: three of them in one morning will put someone on a bench at noon who has never been travel sick in their life.",
+        "Two genuine coasters carry the physical end. Revenge of the Mummy at 48 inches is an indoor launch coaster with a very good second half, it is nearly always the shortest queue among the headliners, and it has the best single rider line in the park. Hollywood Rip Ride Rockit at 51 inches is the outdoor one, with a 79-inch maximum as well as a minimum. Beyond them, the physical roster is thin.",
+        "**The counterargument:** on any measure that weights a single environment rather than a whole roster, Diagon Alley is the best land at Universal Orlando outside Epic Universe, and someone who ranks parks by the best hour they contain would put this one second. It also has the most indoor, air-conditioned attractions of the three Orlando parks, which is a serious argument in a Florida July, and the best live show bench at the resort in a theatre that almost never fills."
+      ],
+      "pros": [
+        "Diagon Alley, which is worth a ticket on its own.",
+        "The most indoor, air-conditioned attractions of the three Orlando parks.",
+        "Revenge of the Mummy is the most underrated headliner at Universal Orlando.",
+        "Six single rider lines running at a third of standby or better.",
+        "The best snack and themed-food bench at the resort."
+      ],
+      "cons": [
+        "The highest concentration of screen-based rides of any major US park.",
+        "Only two genuine coasters, and one of them is indoors.",
+        "The weakest of the three Orlando parks for a child under 40 inches.",
+        "Diagon Alley caps entry between roughly eleven and six, so the land queues before you do.",
+        "Very little for a repeat visitor who has already done it."
+      ]
+    },
+    {
+      "rank": 4,
+      "key": "universal-studios-hollywood",
+      "headline": "The oldest of the four, the smallest of the four, and the only one with a real backlot.",
+      "body": [
+        "Placing Universal Studios Hollywood fourth is a statement about size rather than about quality, and it deserves saying without softening. This park operates about 25 attractions to Islands of Adventure's 30 and Universal Studios Florida's 31, several of them are the shorter versions of Orlando rides, and it has one roller coaster.",
+        "It also does something none of the other three attempts. The Studio Tour opened in the summer of 1964 to sell tickets to a working film studio, and sixty years later it remains the single best reason to buy one. It runs about an hour, crosses a genuinely working backlot with standing sets and active production, has no height requirement at all, and folds King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale into the route. Orlando has no answer and could not construct one, because the asset is the studio rather than the ride.",
+        "The park is cut into two levels on a hillside. The Upper Lot holds the entrance, the Studio Tour, both shows, The Wizarding World of Harry Potter and Super Nintendo World. The Lower Lot holds Jurassic World — The Ride, Revenge of the Mummy and Transformers and very little else. They are joined by the Starway, four long outdoor escalators that take four to five minutes each way when everything is running. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
+        "One day is genuinely enough here, which is a compliment rather than a complaint. You can finish this park — every ride, both shows worth seeing, the tour — inside a normal operating day with time to sit down, and it is the one US Universal park a visitor can reasonably do without booking a hotel. It also has the lowest height ceiling of the four at 48 inches, and its Wizarding World is better realised at ground level than the Orlando original.",
+        "**The counterargument:** for a reader on the west coast, this park is not fourth — it is first, and the other three are a flight and three hotel nights away. It also wins the criterion that a ranking obsessed with attraction counts undervalues: it has the one thing in this entire industry that cannot be replicated, and an hour on a working lot is more interesting to a lot of adults than a fourth coaster would be. If you rank on distinctiveness rather than on scale, this park is second."
+      ],
+      "pros": [
+        "The Studio Tour, which no other theme park anywhere can offer.",
+        "The only one of the four you can genuinely finish in a day.",
+        "The lowest height ceiling of the four, topping out at 48 inches.",
+        "Reachable by rail with a free shuttle, which is unusual for Los Angeles.",
+        "Free same-day re-entry to a CityWalk with better food than the park."
+      ],
+      "cons": [
+        "About 25 attractions, several of them the shorter versions of Orlando rides.",
+        "One roller coaster, and it is the compact version of the Orlando one.",
+        "A hillside site with four long escalators between the two levels.",
+        "No table-service restaurant inside the gate, at prices above Disneyland's.",
+        "No hotel tier that includes Express Pass, unlike Orlando."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "criteria",
+      "heading": "What was ranked, and what was deliberately ignored",
+      "body": [
+        "A ranking is only as honest as its criteria, so here they are with the weights they carried.",
+        "**Roster depth, weighted heaviest.** How many attractions a park operates and how many of them are worth doing. This is the criterion that puts Islands of Adventure first, and it is the one most open to disagreement — someone weighting craft instead produces a different order and the counterarguments above say so each time.",
+        "**Peak experience.** The best two or three attractions in the park, judged on ride system, execution, and whether they hold up on a repeat ride.",
+        "**Sense of place.** How coherent and well-realised the environment is. Epic Universe wins this outright and still finishes second, which is the clearest illustration of how the weights work here.",
+        "**Quality of a full day.** Whether the park supports ten to twelve hours: filler content, shade, places to sit, and whether the day fills or pads.",
+        "**Food.** Weighted lightly, because it has its own page — but it is the main reason Epic Universe closes so much of the gap on the park above it.",
+        "**Distinctiveness.** What the park has that nothing else does. This is the criterion Universal Studios Hollywood wins, and the reason its fourth place is about scale rather than about being a poor day.",
+        "**Deliberately ignored:** crowd levels, wait times, and Express Pass pricing. All three are functions of demand and of Universal's revenue strategy rather than of the park. A park is not worse because more people want to go, and it is not better because it is under-visited."
+      ],
+      "callout": {
+        "type": "note",
+        "body": "Two other rankings on this site produce different orders on purpose. The best-park-for-one-day ranking weights finishability and arrival friction, which moves Universal Studios Hollywood up sharply. The which-park-should-I-visit ranking weights breadth of fit across group types. Neither contradicts this page; they measure different things."
+      }
+    },
+    {
+      "id": "close-calls",
+      "heading": "The two placements that were genuinely close",
+      "body": [
+        "**One versus two.** Islands of Adventure and Epic Universe are separated by roster depth and by a shuttle bus, and by almost nothing else. Epic Universe is better built, better fed, better lit, more coherent, and kinder to a child between 40 and 48 inches. Islands of Adventure has about nine more attractions, four coasters to two, three water rides to none of the same order, six single rider lines, and a location you walk to. If you value how good each individual thing is over how many good things you get through, flip these two. A great many people will, and the reason this page weights roster depth is stated openly above rather than smuggled in.",
+        "**Three versus four.** Universal Studios Florida has more attractions and the better single land. Universal Studios Hollywood has the better single attraction and the only day of the four you can actually finish. Universal Studios Florida takes third because a visitor with one day will do more there, and because the Wizarding World content in Orlando is twice the size and connected by a train. It is the placement most likely to be wrong for a specific reader, and the reader it is most likely to be wrong for lives in California.",
+        "**What was not close.** Nothing above the top two. Epic Universe and Islands of Adventure are the two best parks Universal operates in the United States and the gap between second and third is wider than the gap between first and second."
+      ]
+    },
+    {
+      "id": "if-you-only-do-two",
+      "heading": "If you can only ever visit two of them",
+      "body": [
+        "Most visitors never see all four. Here is the order to see them in, which is not the same as the ranking above because it accounts for travel and for what each park adds that the previous one did not.",
+        "**First: Epic Universe.** It is the newest thing in the category and the most complete single day at Universal, and it is the park most likely to change what you think a theme park can do. If you only ever visit one Universal park in your life, this is the one that will not feel like you missed the point.",
+        "**Second: Islands of Adventure.** Once you have seen what the company can build now, the ride park is the more interesting version of what it built before — deeper, faster, wetter, and holding the other half of the Wizarding World. Doing these two in the reverse order works perfectly well.",
+        "**Third: Universal Studios Florida**, mostly for Diagon Alley and the Hogwarts Express. On a park-to-park ticket the two original parks work as a single long Wizarding World day, which is the best argument for this park existing in your itinerary at all.",
+        "**Universal Studios Hollywood is not a third or fourth stop; it is a separate trip.** Add it to a Los Angeles visit, do not fly to it. And if you go, treat the Studio Tour as the headliner rather than the warm-up, because it is the one thing on this entire list that Orlando cannot copy."
+      ]
+    },
+    {
+      "id": "what-could-change",
+      "heading": "What could change this ranking",
+      "body": [
+        "Three things could move parks on this list, and it is worth naming them alongside how speculative each one is.",
+        "**Epic Universe settling down.** The park opened in May 2025 and its operations are still moving — SUPER NINTENDO WORLD has used a virtual queue on some days, timed entry on others, and an open door on quiet ones, and the Express Pass attraction list has changed since opening. If the entry system settles into an open door and the roster grows, the gap in roster depth narrows and this park takes first place on the criteria already in use.",
+        "**The Lost Continent at Islands of Adventure.** Poseidon's Fury closed permanently in 2023 and The Eighth Voyage of Sindbad Stunt Show closed in September 2018, leaving an entire island with no ride and no show. Universal has announced no replacement for either. Anything built there would strengthen the park that is already first; the absence is currently a real hole in a park otherwise defined by depth.",
+        "**Anything at Universal Studios Florida that is not a screen.** The park's placement is a function of its ride mix rather than its size — it has more attractions than Islands of Adventure and ranks below it. A physical headliner would move it more than another projection ride would.",
+        "**What would not change this ranking:** pricing. Express Pass rates, ticket prices, and crowd levels move constantly and were excluded from the criteria on purpose. They belong in a planning decision, not in a judgement about what a park is."
+      ],
+      "callout": {
+        "type": "warning",
+        "body": "Epic Universe opened in May 2025, which means it has less operating history behind it than any other park on this list. Entry systems, Express Pass coverage and showtimes there have already moved more than once. Treat anything written about its day-to-day operations, including on this page, as needing a check against the Universal app before you rely on it."
+      }
+    }
+  ],
+  "pickThisIf": {
+    "islands-of-adventure": [
+      "You want the most rides in a day of any Universal park in the country.",
+      "Roller coasters are the reason you booked.",
+      "You will use the six single rider lines.",
+      "You have a mixed-height group that needs to be able to split and meet again."
+    ],
+    "epic-universe": [
+      "You want the newest and best-built theme park in the United States.",
+      "Your shortest rider is between 40 and 47 inches.",
+      "Eating and drinking properly inside a park matters to you.",
+      "You can stay until closing, because the last two hours here are the best two hours."
+    ],
+    "universal-studios-florida": [
+      "Diagon Alley is the environment you came to stand in.",
+      "You are visiting in high summer and want indoor attractions to retreat into.",
+      "You want the best live show bench at the resort.",
+      "You hold a park-to-park ticket and want the full Wizarding World across two parks."
+    ],
+    "universal-studios-hollywood": [
+      "You are on the west coast, where this park is first rather than fourth.",
+      "How films actually get made interests you more than another coaster would.",
+      "You want to finish a park in one day rather than sample one.",
+      "Your group sits between 40 and 48 inches, where Orlando's headliners lock them out."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is the best Universal park in the US?",
+      "a": "Islands of Adventure, on roster depth. About 30 attractions on 101 acres, four roller coasters including Jurassic World VelociCoaster, three water rides that genuinely soak you, half of the Wizarding World, and six single rider lines. Epic Universe is the better-built park and the better single day, and a ranking weighted toward craft rather than depth would put it first."
+    },
+    {
+      "q": "Is Epic Universe the best Universal park?",
+      "a": "It is the best-built one and it wins four of the seven criteria on this page — peak experience, sense of place, food and distinctiveness in ride technology. It ranks second because it has about 21 attractions to Islands of Adventure's 30 and because it sits on a separate campus that costs a shuttle or a drive at both ends of the day."
+    },
+    {
+      "q": "Why is Universal Studios Hollywood ranked last?",
+      "a": "Because this ranking weights roster depth most heavily and Universal Studios Hollywood has about 25 attractions, one roller coaster, and several rides that are the shorter versions of Orlando ones. On distinctiveness it wins outright — the Studio Tour crosses a real working backlot and nothing else in the industry has one. For a visitor on the west coast it is first, not fourth."
+    },
+    {
+      "q": "Which Universal park has the best rides?",
+      "a": "Islands of Adventure on depth and on coasters, Epic Universe on individual ride technology. Jurassic World VelociCoaster, The Incredible Hulk Coaster, Hagrid's Magical Creatures Motorbike Adventure and The Amazing Adventures of Spider-Man is a stronger four than anything else at Universal. Harry Potter and the Battle at the Ministry and Monsters Unchained are the most ambitious individual attractions the company has built."
+    },
+    {
+      "q": "Did wait times factor into this ranking?",
+      "a": "No, deliberately. Crowd levels, wait times and Express Pass pricing are functions of demand and of Universal's revenue strategy rather than of the park itself. A park is not worse because more people want to go to it, and ranking on wait times would mostly measure popularity."
+    },
+    {
+      "q": "Which park is most likely to move up this list?",
+      "a": "Epic Universe. It opened in May 2025, its entry systems and Express Pass coverage are still moving, and most first visitors properly see only two or three of its five worlds. If the access management at SUPER NINTENDO WORLD settles and the roster grows, the roster-depth gap that keeps it second narrows on the criteria already in use here."
+    },
+    {
+      "q": "Is Islands of Adventure better than Universal Studios Florida?",
+      "a": "For rides, yes, and it is not particularly close. Jurassic World VelociCoaster, Hagrid's, Spider-Man and Hulk is a stronger top four than the park across the walkway can field. Universal Studios Florida has the better single land in Diagon Alley and more indoor attractions, which matters in August. Most people who visit both prefer Islands of Adventure."
+    },
+    {
+      "q": "Which park should I visit if I can only pick one?",
+      "a": "Epic Universe, if it is your first Universal Orlando trip — it is the most complete single day and the park you have not already seen a version of. Islands of Adventure if anyone in the group came for roller coasters, or if you have a child under 40 inches who needs Seuss Landing to have a day at all."
+    }
+  ],
+  "related": [
+    "which-universal-park-should-i-visit",
+    "epic-universe-vs-islands-of-adventure",
+    "universal-studios-florida-vs-islands-of-adventure",
+    "best-universal-park-for-one-day",
+    "best-universal-park-for-thrill-seekers",
+    "universal-orlando-vs-universal-hollywood"
+  ],
+  "lastVerified": "2026-07"
+}

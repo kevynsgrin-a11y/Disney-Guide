@@ -1,0 +1,119 @@
+{
+  "month": 2,
+  "name": "February",
+  "slug": "february",
+  "summary": "February is the best month of the Universal year on the balance of crowds, cost, weather and what is actually running, with one week in the middle that undoes all four and should be avoided outright.",
+  "verdict": {
+    "grade": "A",
+    "short": "Low crowds, low prices, the most comfortable Orlando weather of the year, and Mardi Gras running at no extra charge. Avoid the Presidents' week and this is the month we would book.",
+    "bestFor": [
+      "First-time Universal Orlando trips that need three park days without the heat",
+      "Anyone doing the Mardi Gras concert nights, which are included with regular admission",
+      "Couples and adult parties, since this is the least child-dominated month at both resorts",
+      "Budget-conscious trips, because Orlando hotel rates stay near their January floor",
+      "Southern California visitors willing to work around a wet forecast"
+    ],
+    "worstFor": [
+      "The Presidents' Day week, which prices and queues like a summer week",
+      "Anyone who needs guaranteed warm water-ride weather in Orlando",
+      "Visitors who want a complete ride list, because refurbishment season runs through this month too",
+      "Hollywood trips where rain would ruin the plan, since this is still Los Angeles's wet season",
+      "Travellers who want late nights, as park hours are only marginally longer than January's"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "February is a low month with a hard spike in the middle of it. Outside the Presidents' Day week, Orlando runs at or near its annual low: no US district is on break, international travel is in its post-holiday trough, and the three parks absorb what attendance there is comfortably enough that midweek waits stay under twenty minutes on most non-headliners. The Presidents' week itself is a different month. It is the first national school break of the year, it lands in the middle of a month everyone assumes is quiet, and it reliably catches families who booked on the strength of a February average. Hollywood's shape is different again and driven by two local forces the Orlando calendar does not have. Southern California districts do not take a uniform February break, so the weekday floor stays genuinely low, but the annual pass base is fully unblocked by now and turns out on any warm dry Saturday, which is why a February Saturday at Universal Studios Hollywood can be busier than a July Wednesday. Rain is the other variable: a wet week empties the park and the following dry weekend absorbs everyone who stayed home.",
+    "peakWindows": [
+      "The Presidents' Day long weekend and the school week attached to it, at both resorts",
+      "Mardi Gras concert nights at Universal Studios Florida, which fill the park after dark",
+      "Any warm dry Saturday at Universal Hollywood, regardless of what the rest of the week did"
+    ],
+    "quietWindows": [
+      "The first full week, before any district breaks",
+      "The last week, once the Presidents' crowd has gone and before spring break starts",
+      "Weekday mornings at Epic Universe, which absorbs crowd better than the two older Orlando parks"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 74,
+      "lowF": 52,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. This is the most comfortable park weather Orlando produces: mid-70s afternoons, low humidity by Florida standards, and enough of a chill in the morning to want a layer. The caveat is water rides. Islands of Adventure's soaking attractions are genuinely unpleasant below about 65 degrees and close on the coldest days, and February produces several of those most years."
+    },
+    "universal-hollywood": {
+      "highF": 68,
+      "lowF": 47,
+      "rainDays": 6,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. February is the second half of the Los Angeles wet season and behaves like January: mostly dry days, a handful of genuinely wet ones, and evenings in the high 40s. Afternoons in the high 60s are the most walkable conditions of the year for a park built on a hillside."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "February outside the Presidents' week prices almost identically to mid-January and is the better month for the same money, which is what puts it at the top of this calendar. Orlando hotel rates hold near their annual floor, ticket dates sit in the lower tiers on weekdays, and Express Pass stays cheap enough on midweek dates that a family can buy it for a single park day without restructuring the budget. The Presidents' week is priced as a peak week at both resorts and should be treated as one. The other February-specific cost point is Mardi Gras, which is the best free content Universal Orlando runs all year: the parade and the concerts are included with regular park admission, and the food booths are the only part you pay for. A family that would otherwise buy a hard-ticket event in another month gets a night of programming here for nothing beyond what they eat."
+  },
+  "whatsOn": [
+    "universal-orlando-mardi-gras"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Mardi Gras is included, and most visitors do not realise it",
+      "body": [
+        "Universal Orlando's Mardi Gras runs on regular park admission. The parade, the street party and the headline concerts are part of your ticket, and the only thing sold separately is the food and the reserved viewing packages. Nothing else Universal runs in the first half of the year delivers as much for nothing.",
+        "The concerts are the crowd driver. On a concert night, Universal Studios Florida holds people well past when they would otherwise have left, which thins the daytime queues and thickens the evening ones. If you are there for rides rather than music, a concert night is a good night to be in the park and a bad night to be in the crowd in front of the stage.",
+        "Concert line-ups and the nights they run on are announced closer to the season than most Universal content, and the schedule has moved between Saturdays-only and several nights a week across recent cycles. Check before you fix a date around a specific act."
+      ]
+    },
+    {
+      "heading": "Presidents' week is the trap in this month",
+      "body": [
+        "One week in February prices and queues like July, and it catches people every year because it sits inside a month with a reputation for being quiet. It is the first national school break of the calendar, it draws heavily from the northeastern states that supply Orlando's winter visitors, and it is short enough that everyone travels on the same days.",
+        "Moving a trip one week either side of it is the single highest-leverage decision available in February. The week before and the week after are both genuinely low, and the difference in ticket tier, hotel rate and Express Pass price across that boundary is larger than any tactic you can apply inside the busy week.",
+        "If the dates are fixed and you are stuck with it, buy Express Pass, arrive before opening, and treat it as a peak-season trip in every respect. What you must not do is plan it on the assumption that February is quiet."
+      ]
+    },
+    {
+      "heading": "The two coasts want different park days this month",
+      "body": [
+        "In Orlando, February is the month to take three or four park days rather than two, because the weather rewards being outside all day and the crowd level does not punish a slow pace. This is the one window where a full-length Islands of Adventure day is comfortable from opening to close without a midday retreat.",
+        "At Universal Hollywood, February wants a weekday and a rain contingency rather than more days. One day is the honest length for the park in any month, and the variable here is which day, not how many. A midweek visit after rain is the emptiest the park gets outside a January storm.",
+        "The water-ride problem runs the other way from summer. Orlando's soaking attractions are the ones most likely to be closed or unpleasant in February, so a family that came for them should weight the trip toward the second half of the month when averages start climbing."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Universal Orlando vs Universal Hollywood",
+      "href": "/compare/universal-orlando-vs-universal-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood first-timer guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Islands of Adventure park guide",
+      "href": "/universal-orlando/islands-of-adventure/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single February. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Mardi Gras concert nights and line-ups are announced close to the season and the number of nights per week has moved across recent cycles, so nothing here states a schedule.",
+    "reviewBy": "2027-06",
+    "cycle": "rolling"
+  }
+}

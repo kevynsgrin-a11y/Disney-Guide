@@ -1,0 +1,263 @@
+{
+  "park": "universal-studios-florida",
+  "criteria": "Ranked on what the attraction does to you between the load and the unload, how much of it is physically built rather than projected onto a screen, and whether it survives a second and fifth go. Posted waits, Express Pass eligibility and single rider availability were kept out of the ordering entirely; where they matter they are argued in the text instead.",
+  "intro": [
+    "Universal Studios Florida has nine substantial rides and a great many of them are screens. Any ranking of this park that pretends otherwise is not being straight with you, so the shows, the walkthroughs and the wand medallions are ranked against the rides on identical terms: what is built, what happens to you, and whether you would go back. A make-up demonstration that has run since 1990 gets judged the same way a launch coaster does, and it finishes higher than most of the coasters.",
+    "The other thing shaping this list is screen fatigue, which is a real planning constraint at this park rather than a preference. Transformers, Minion Mayhem, The Simpsons Ride and Fast & Furious are all a moving seat in front of a projection, and doing several in a row degrades every one of them — the third simulator of the morning is worse than the first even when it is the better attraction. That is why the two best things in this park are a coaster in the dark and a stage show, and why several unqueued, unheralded corners of Diagon Alley outrank rides with hour-long boards."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "revenge-of-the-mummy",
+      "headline": "A dark ride that turns into a launch coaster without warning, and the best thing at Universal Orlando.",
+      "why": [
+        "It opens as a slow, well-dressed dark ride with animatronics and effects, and it keeps that up long enough that a first-time rider settles into it. Then the train stops, something happens above your head, and a linear induction launch fires you into a blacked-out coaster layout with real fire overhead. The transition is the single best-staged moment at this park, and the ending is built specifically to fool you a second time.",
+        "It wins on density rather than length. The coaster section runs well under two minutes and there is not a wasted second in it: fire you feel as heat, a backwards launch, hard braking, direction changes you cannot anticipate because you cannot see. It is also the least-hyped headliner at this resort and consistently the shortest queue among the big rides, which means the best attraction here is usually also the easiest to get onto. Its single rider line is the most valuable queue at Universal Orlando and routinely runs at a fifth of standby. It is 48 inches, and it is the most frightening ride in the park by a wide margin — a child who rides outdoor coasters happily can still be badly shaken by this."
+      ],
+      "skipIf": "Skip it if darkness and startle effects frighten you rather than thrill you; there is no toned-down version and the lights never come up."
+    },
+    {
+      "rank": 2,
+      "slug": "harry-potter-and-the-escape-from-gringotts",
+      "headline": "The best-built environment in the park, wrapped around a ride that is good rather than great.",
+      "why": [
+        "Everything before the load platform is superb. The Gringotts banking hall with its animatronic goblins looking up from their ledgers as you pass is the best room at Universal Studios Florida, and the descent through the offices, the lift and the portrait corridor keeps that standard up for ten minutes. Then you board, drop into the vaults, and meet a run of encounters — a troll, a dragon, Bellatrix, Voldemort — staged across a mixture of enormous 3D screens and genuinely excellent animatronics.",
+        "It is second rather than first because the ride is carrying less than the building is. The coaster elements are mild, the vehicle spends a lot of its time rotating to face another screen, and by the third ride you are admiring something you have memorised. Ride standby the first time specifically so you walk the bank; Express Pass and single rider both route you past most of it, which is the rare case of a queue-skipping product actively costing you the best part of the attraction. Minimum height is 42 inches, and the initial free-fall drop into the vaults is the part nobody warns children about."
+      ],
+      "skipIf": "Skip the standby queue only after you have walked it once; skip the ride entirely if 3D screens and a rotating vehicle are a known problem."
+    },
+    {
+      "rank": 3,
+      "slug": "men-in-black-alien-attack",
+      "headline": "A 2000 shooting ride with a hidden scoring system deep enough that the fifth go beats the first.",
+      "why": [
+        "Two vehicles run the same track side by side, six riders each, and every shot feeds a public score at the end. That competitive structure is why an attraction from 2000 outranks things built two decades later. The scoring has genuine depth: ordinary aliens are worth almost nothing, high-value targets are hidden throughout, and there is one at the finish worth several thousand points on its own that most guests never find. Hitting a target in the opposing car spins it, which is both a tactic and a hazard.",
+        "The physical build holds up too. The sets are extensive and practical rather than projected, the animatronics still work, and the ride is longer than its reputation suggests at four and a half minutes. It is 42 inches, it has a single rider line that halves the wait, and its closing spin catches out adults who have already done the park's simulators. Ride it twice: knowing where the scoring is hidden roughly triples a competent total, and a ride that rewards knowledge is the cheapest repeat value a park can buy."
+      ],
+      "skipIf": "Skip it if the hard spin at the finish is likely to be a problem, particularly after a morning of screen rides."
+    },
+    {
+      "rank": 4,
+      "slug": "universal-orlandos-horror-make-up-show",
+      "headline": "Twenty-five minutes about practical effects that is funnier than most of the rides and never fills.",
+      "why": [
+        "A host and a make-up artist demonstrate how practical special effects are actually built, taking apart prosthetics on a table in front of you, and the script is loose enough that the pair improvise heavily with each other and with the audience. It has run since 1990 and the performers are good enough that it does not read as a script being delivered for the four thousandth time. Two moments are engineered to make the room jump, and both are then explained.",
+        "It ranks this high because of what it does to your day rather than only what it does in the theatre. This park has a brutal middle afternoon: no shade, screen rides that compound on each other, and queues at their worst. A cool theatre that seats a large number of people, runs on a published schedule and almost never turns anyone away is doing structural work in a way a fourth simulator cannot. It is also, straightforwardly, the funniest thing here. Most first-time guests walk straight past the door."
+      ],
+      "skipIf": "Skip it with a child under about eight who is startled easily; two moments are built to make the room jump."
+    },
+    {
+      "rank": 5,
+      "slug": "hogwarts-express-kings-cross-station",
+      "headline": "Four minutes each way, a different show in each direction, and the reason to buy park-to-park.",
+      "why": [
+        "It is presented as transport and it is an attraction. You go through the barrier at platform 9¾, where a projection and mirror effect makes the group in front of you appear to walk through a solid brick wall, board a compartment, and watch a journey through the window while silhouettes move past the frosted corridor door behind you. Two channels running at once is the trick, and it works because your eye keeps switching between them.",
+        "What earns the placement is that the two directions are genuinely different pieces of content, which makes the round trip a repeat-value attraction rather than a shuttle you ride once. It also boards level with no transfer and no restraint, making it the easiest headliner here for a wheelchair user and one of very few attractions in this park with no barrier at all. The cost is a park-to-park ticket, checked at the platform in both directions, and that is the ticketing decision this whole park turns on."
+      ],
+      "skipIf": "Skip it if you hold a one-park ticket, because you will not be allowed on regardless of how long you queue."
+    },
+    {
+      "rank": 6,
+      "slug": "transformers-the-ride-3d",
+      "headline": "The best-executed screen ride at the resort, and the one most likely to make you ill.",
+      "why": [
+        "A motion-base vehicle runs a track through alternating physical sets and enormous 3D screens, with the vehicle's own movement synchronised to the image so precisely that you cannot reliably tell where the built set ends. Four and a half minutes of running combat with no let-up: falls down the sides of buildings, a bridge collapse, fire, robots arriving at close range. Judged purely on execution it is among the two or three best things in this park.",
+        "It sits sixth because it is entirely a screen, entirely fixed, and physically punishing in a way that costs you the rest of your morning if you get the ordering wrong. The outer seats in each row are thrown noticeably harder than the middle, and doing this in the same hour as The Simpsons Ride or Minion Mayhem is the most common self-inflicted injury at this park. Its single rider line is excellent and frequently runs at a quarter of standby, which is the right way to ride it a second time. Minimum height is 40 inches."
+      ],
+      "skipIf": "Skip it if simulators are a known problem for you; this is the hardest-throwing screen ride at Universal Orlando."
+    },
+    {
+      "rank": 7,
+      "slug": "hollywood-rip-ride-rockit",
+      "headline": "A vertical lift, a past-vertical first drop, and a soundtrack you pick from a keypad in the restraint.",
+      "why": [
+        "The lift is the product. Instead of a chain hill you are pulled up a 90-degree wall on your back at a slow, deliberate pace with nothing to look at but sky, and the crest tips you into a 167-foot drop angled beyond vertical and straight into a non-inverting loop. Nothing else in Orlando does that opening, and the seat-mounted music system — a keypad menu plus a hidden library of unlisted tracks — is a genuinely good idea nobody else has copied properly.",
+        "It ranks seventh because the layout after the first thirty seconds does not sustain it. The second half rattles, the transitions are abrupt, and the whole thing is over in about two minutes. It also carries the tallest height requirement in the park at 51 inches with a 79-inch maximum, which splits more families than anything else here, and the over-the-shoulder harness is the least forgiving in the park for larger riders. Use the test seat. Ride it after dark, when the queue collapses and the lift-hill view is worth having."
+      ],
+      "skipIf": "Skip it if heights frighten you; the slow vertical lift on your back is the part people regret, not the drop."
+    },
+    {
+      "rank": 8,
+      "slug": "the-bourne-stuntacular",
+      "headline": "Live stunt performers handing off to a moving LED wall mid-motion, with no visible seam.",
+      "why": [
+        "The premise is that the boundary between a live performer and a screen image should be invisible, and for stretches of this show it genuinely is. A performer runs into the wall and a filmed double picks up the motion without a cut; a fight starts on screen and continues in front of it. Add practical stunts, wire work, a motorcycle and concussive pyrotechnics, and it is the most technically accomplished thing staged at Universal Orlando.",
+        "It is eighth because the story is a functional excuse and the effect depends entirely on where you sit. The LED wall is calibrated for a straight-on viewing angle and the illusion visibly fails from the far sides, which means a substantial share of the audience on any given performance is watching a lesser version of the show than the one being described here. Sit in the middle third. It is loud enough that ear defenders are a reasonable call for a child, and the theatre almost never fills."
+      ],
+      "skipIf": "Skip it if you cannot get a seat in the middle third; from the sides it is a different and much worse show."
+    },
+    {
+      "rank": 9,
+      "slug": "knockturn-alley",
+      "headline": "A covered, unlit side street with the best window displays in the park and nobody in it.",
+      "why": [
+        "It is a walkthrough with no queue, no ride time and no ticket, and it beats several attractions here that have all three. The alley is fully roofed, lit only by lanterns, kept noticeably cool, and lined with shop windows holding a hand of glory, talking shrunken heads, a vanishing cabinet and jars of things nobody would want. There is more detail per square foot in the Borgin and Burkes windows than anywhere else at Universal Studios Florida.",
+        "The interactive wand spells in here are also the best in Diagon Alley, because the effects were designed for darkness and they land properly against it rather than washing out in Florida daylight. And in the flattest possible terms, this is the coolest place to stand in this half of the park on a July afternoon. Ten minutes here at two o'clock does more for your day than a fourth screen ride does, and almost every guest walks past the entrance without registering that there is anything down there."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 10,
+      "slug": "the-simpsons-ride",
+      "headline": "The best-written attraction in the park and the most reliable way to end your day early.",
+      "why": [
+        "Eight minutes of properly written comedy with the real voice cast, staged on an eighty-foot dome with motion-base vehicles suspended in front of it. The jokes are about theme parks rather than about the series, which means they land harder on somebody who has spent the morning queueing than on a fan. The queue video is written to the same standard as the ride, which is unusual and worth not scrolling through.",
+        "It sits tenth for one reason: it is the worst motion-sickness offender at Universal Orlando and it is not close. The dome fills your entire peripheral vision while the motion base runs continuously rather than in discrete bursts, which is the specific combination that makes people unwell. There is no single rider line and no stationary seating, so there is no way to take the edge off it. Ride it before you eat, put a show between it and any other simulator, and sit in the back row where you are further from the screen. Minimum height is 40 inches."
+      ],
+      "skipIf": "Skip it if you have already ridden Transformers or Minion Mayhem today; the third simulator is the one that gets you."
+    },
+    {
+      "rank": 11,
+      "slug": "illuminations-villain-con-minion-blast",
+      "headline": "A moving-walkway shooting gallery with no height stick, no motion base and a score saved to your ticket.",
+      "why": [
+        "Structurally it is unlike anything else at this resort. There is no vehicle: you stand on a slow belt with a handheld blaster and work through six rooms of targets while a running score builds. It is not difficult and it is not trying to be, and the queue through the villain convention floor is the best-written part of the attraction.",
+        "It ranks this high because of who it lets in. In a park where nine attractions have a height requirement and six put you in front of a moving screen, this is the one substantial thing an entire family can do together — no height stick, no transfer, no restraint, and a wheelchair boards the belt directly. Scores accumulate across runs on the same park ticket, which gives it genuine repeat value. The posted wait overstates it badly because the belt never stops, so judge it by how far the physical queue extends rather than by the number on the board."
+      ],
+      "skipIf": "Skip it if noise and constant bright light are a problem; there is no quiet stretch and no obvious place to step off."
+    },
+    {
+      "rank": 12,
+      "slug": "e-t-adventure",
+      "headline": "The last opening-day ride still running, with a 34-inch stick and not a single screen in it.",
+      "why": [
+        "A suspended bicycle-bench glides through a dark pine forest, a night flight over a city and finally an alien planet full of slow-moving creatures. The animatronics are of their time, the sets are painted rather than projected, and the pace is slower than any ride built in the last twenty years would attempt. At this park, where almost everything else is a screen, that has stopped being a weakness and become the reason to ride it.",
+        "It also carries the lowest height requirement in the park at 34 inches, which makes it the anchor of what a small child can actually do here, and its queue runs through a cool dark forest set that makes the whole thing a rest as well as an attraction. The closing trick — a cast member takes your first name at boarding and E.T. thanks each rider by name at the end — is small, cheap and works on almost everybody. Give a real name."
+      ],
+      "skipIf": "Skip it if you cannot manage stepping up and swinging a leg over the seat; the boarding is harder than the ride."
+    },
+    {
+      "rank": 13,
+      "slug": "ollivanders-wand-shop",
+      "headline": "Six minutes, free, running all day, and one child per group gets chosen.",
+      "why": [
+        "Groups of about twenty-five are taken into a small dim room lined with wand boxes, one person is selected, and the wand chooses the wizard across a sequence of failed attempts with practical effects — boxes tumbling from the shelves, a gust of wind, a light going out. The performers are good enough that adults enjoy it, and the Diagon Alley version runs several rooms in parallel, so it moves considerably faster than the Hogsmeade one.",
+        "It ranks here rather than higher because of what happens to the twenty-four people who are not chosen. It is a shop demonstration with a genuinely good piece of theatre attached, and the emotional outcome for a small child who was certain it would be them is the most common disappointment in this land. Prepare them before you queue. The queue itself is outdoors and uncovered, which is the other reason to do this first thing or after dark."
+      ],
+      "skipIf": "Skip it if you only want to buy a wand; the shop is open to walk into without doing the ceremony."
+    },
+    {
+      "rank": 14,
+      "slug": "interactive-wand-experiences",
+      "headline": "The only thing you can buy here that still works on your next trip.",
+      "why": [
+        "Bronze medallions set into the paving across Diagon Alley, Knockturn Alley and the London waterfront trigger effects in the shop windows in front of them when you cast with an interactive wand, and a separate set does the same at Hogsmeade. The effects range from a fountain running to genuinely well-built pieces of practical theatre, and a map showing every location comes with the wand.",
+        "It is ranked as an attraction because it functions as one: it converts a five-minute walk through a land into an hour of something to do, it works in both Wizarding Worlds on a park-to-park ticket, and it still works when you come back in three years. That is a better return than anything else Universal sells inside these gates. The one honest caveat is that the sensors want a specific gesture at a specific distance, and small children usually need an adult holding their wrist for the first several attempts before it stops being frustrating."
+      ],
+      "skipIf": "Skip it if you are not buying an interactive wand; the standard wands do nothing at all at the medallions."
+    },
+    {
+      "rank": 15,
+      "slug": "despicable-me-minion-mayhem",
+      "headline": "A straightforward 3D simulator, and the only ride here with a real no-motion option.",
+      "why": [
+        "It is a large-theatre motion simulator with benches in front of a 3D screen, five minutes long, bright and fast and well suited to the source material. It does not attempt anything ambitious and it does not need to. The queue through Gru's laboratory is decently dressed, throughput is high, and the posted wait usually overstates the real one by ten minutes.",
+        "The genuinely valuable thing about it is the stationary seating at the back of the theatre, which has no height requirement, shows the identical film with no motion, and is granted to anyone who asks without argument. That is the best accessibility accommodation offered at this park, and it means a family with a 36-inch child or a motion-sensitive adult can do an attraction together that they otherwise could not. On the ride itself, it is more aggressive than its cartoon styling implies and it belongs on the motion-sickness list with the rest of them."
+      ],
+      "skipIf": "Skip the moving seats and ask for stationary seating if you are at all unsure; the film is exactly the same."
+    },
+    {
+      "rank": 16,
+      "slug": "celestina-warbeck-and-the-banshees",
+      "headline": "A wizarding torch singer and three backing vocalists, and the best free thing most guests walk past.",
+      "why": [
+        "A singer in a sequinned gown and a trio called the Banshees perform a set of original 1940s-style big-band numbers with wizarding lyrics on the Carkitt Market stage. It should be filler and it is not: the songs are properly written, the arrangements are good, and the performers commit completely. Fifteen minutes, several times a day, alternating with the puppet show on the same stage.",
+        "It ranks in the middle because it asks for fifteen minutes standing in an unshaded square and gives you nothing you could not get by sitting down. But it costs nothing, it needs no queue and no planning, and it is one of a very small number of things at this park that an adult with no interest in coasters or screens will genuinely enjoy. Buy a drink at the Hopping Pot a few steps away and watch from the edge of the crowd."
+      ],
+      "skipIf": "Skip it in the middle of the afternoon; the square is unshaded and fifteen minutes standing in it costs more than the show gives."
+    },
+    {
+      "rank": 17,
+      "slug": "cinesational-a-symphonic-spectacular",
+      "headline": "Fountains, fire and projection across the lagoon, priced at roughly an hour of your evening.",
+      "why": [
+        "The lagoon show runs fountains, water-screen projection, flame effects and fireworks to an orchestral arrangement of Universal film scores. The score and the fountain choreography are the strong elements and they are genuinely well done. It is twenty minutes and it is worth seeing once.",
+        "The reason it ranks below several things with no queue at all is arithmetic. Claiming a railing spot costs twenty-five minutes on a busy night and the walk out afterwards costs fifteen more, which turns twenty minutes of show into most of an hour. The projection is also spread thin across a very large body of water and reads much better from some angles than others — the San Francisco side is the better one, with a shorter exit. If you have already seen it, skipping it buys you the single best riding window of the day, because the entire park is standing at the water's edge."
+      ],
+      "skipIf": "Skip it if you have seen it before; the riding window it creates across the rest of the park is worth more than a second viewing."
+    },
+    {
+      "rank": 18,
+      "slug": "trolls-trollercoaster",
+      "headline": "Sixty seconds, 36 inches, and the first roller coaster a great many children will ever ride.",
+      "why": [
+        "It is a small family coaster on the compact track that carried Woody Woodpecker's Nuthouse Coaster for two decades, rethemed in 2024. One lap, a small lift, a first dip that produces a real reaction from a first-timer, and a run of gentle turns. There is nothing on it that would put a cautious five-year-old off coasters for good, which is exactly the job it was built to do.",
+        "It ranks near the bottom because an adult riding it alone will find it over before it starts, and because the queue is uncovered and moves slowly relative to a sixty-second ride. Its value is entirely the 36-inch stick, which is the lowest coaster requirement in the park, and the fact that adults sit with their knees up in these cars is a real consideration if you have knee or hip trouble and are the one accompanying the child."
+      ],
+      "skipIf": "Skip it if nobody in your group is under about ten; there is nothing here for an adult riding alone."
+    },
+    {
+      "rank": 19,
+      "slug": "fast-and-furious-supercharged",
+      "headline": "A party bus driven past screens for five minutes, and the weakest attraction at Universal Orlando.",
+      "why": [
+        "The queue is a long walk through a garage and a warehouse with two pre-shows that between them add ten minutes of plot nobody needs, and then a large open-sided bus drives slowly into a tunnel of wraparound projection while a chase happens to other people. The vehicle barely moves. Coming to it from Transformers in the same park makes the comparison unkind and unavoidable.",
+        "There is one honest argument for it and it belongs here rather than nowhere: it has no height requirement, no transfer requirement, no restraint and full air conditioning, it boards level with designated wheelchair positions, and it seats a large group together. For a mixed-ability party in the middle of a hot afternoon that combination has real value even when the attraction does not. Ride it when the board says fifteen minutes or fewer. Walk past it otherwise, and do not let it into your Express Pass calculation."
+      ],
+      "skipIf": "Skip it whenever the posted wait is above fifteen minutes; nothing in it earns more than that."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "harry-potter-and-the-escape-from-gringotts",
+      "why": "Ranked second above and listed here deliberately. The banking hall is the best room in the park and the ride behind it is a mild coaster that spends much of its running time rotating you to face another screen. People describe the land and the queue when they think they are describing the ride, and Express Pass sells you a shortcut past the best part of it."
+    },
+    {
+      "slug": "hollywood-rip-ride-rockit",
+      "why": "The vertical lift and the first drop are genuinely distinctive and the other ninety seconds are a rattly, abrupt layout that nobody describes at dinner. It also carries the park's tallest height requirement at 51 inches and the least forgiving restraint, so a great many families give up the most divisive ride here for the least rewarding second half."
+    },
+    {
+      "slug": "despicable-me-minion-mayhem",
+      "why": "A perfectly competent 2012 simulator that draws queues out of proportion to what it does, because it sits on the main walkway at the front of the park where everybody passes it twice. Its most valuable feature is the stationary seating, which is an accommodation rather than an attraction."
+    },
+    {
+      "slug": "cinesational-a-symphonic-spectacular",
+      "why": "Twenty minutes of show that costs most people close to an hour of their evening once you count claiming a spot and walking out. The score and the fountains are good and the projection is stretched thin across a lagoon that is too big for it. Worth seeing once and not worth planning a night around."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "universal-orlandos-horror-make-up-show",
+      "why": "Dismissed as an old show, which gets it backwards. It is twenty-five minutes of largely improvised comedy about how practical effects are actually built, in a cold theatre that almost never fills, running since 1990. It is funnier than anything else at this resort and most first-time guests never open the door."
+    },
+    {
+      "slug": "revenge-of-the-mummy",
+      "why": "The best ride at Universal Orlando hides behind a New York facade with no visible track, so guests assume it is a dark ride and walk past. It consistently posts the shortest queue among the headliners and has the best single rider line at the resort. The gap between its quality and its reputation is the biggest at either original park."
+    },
+    {
+      "slug": "men-in-black-alien-attack",
+      "why": "Written off as a dated 2000s shooter from the outside. It has the deepest hidden scoring system of any interactive ride in Orlando, extensive practical sets, a public score that turns a vehicle of strangers into a team, and the highest replay value in the park. A second ride scores roughly three times a first."
+    },
+    {
+      "slug": "knockturn-alley",
+      "why": "Guests walk past the entrance without registering that it is anything. It is covered, unlit, air conditioned, holds the best window displays in the park and the best interactive wand effects in Diagon Alley, and it is empty at every hour. On a July afternoon it is the most useful ten minutes available here."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best ride at Universal Studios Florida?",
+      "a": "Revenge of the Mummy, and it is not particularly close. It starts as a dark ride, launches into a blacked-out coaster without warning, uses real fire overhead and ends with a deliberate fake-out. Escape from Gringotts is the bigger production and has the better environment around it; Mummy is the better ride, and it usually has a shorter queue and a far better single rider line."
+    },
+    {
+      "q": "What should you do first at Universal Studios Florida?",
+      "a": "Diagon Alley, regardless of ticket type. It is small, enclosed, reached through one main entrance, and Universal caps entry when it fills, so there is often a queue to get into the land before you have queued for anything inside it. Ride Escape from Gringotts through the standby queue first, then walk the alley while it is still quiet enough to see."
+    },
+    {
+      "q": "Which rides at Universal Studios Florida are worth using single rider for?",
+      "a": "Revenge of the Mummy and Hollywood Rip Ride Rockit first, both of which routinely run at a fifth to a quarter of standby. Transformers is close behind because the vehicles hold twelve and gaps open constantly. Escape from Gringotts and Men in Black are worth it for repeat rides but not for a first ride, since single rider skips the queues that are half the point of both."
+    },
+    {
+      "q": "What can a child under 40 inches ride here?",
+      "a": "Villain-Con Minion Blast and Fast & Furious have no height requirement, and both are substantial attractions. Kang and Kodos' Twirl 'n' Hurl and the Hogwarts Express also have no stick. E.T. Adventure starts at 34 inches and Trolls Trollercoaster at 36. Everything else worth queueing for begins at 40, which is why this park is a poor fit for a family whose youngest is small."
+    },
+    {
+      "q": "How many rides at Universal Studios Florida are screen-based?",
+      "a": "Six of the nine substantial rides use screens as a primary element: Transformers, Despicable Me Minion Mayhem, The Simpsons Ride, Fast & Furious, and to a lesser degree Escape from Gringotts and Men in Black. Only Revenge of the Mummy, Hollywood Rip Ride Rockit, E.T. Adventure and Trolls Trollercoaster have no screen at their centre. Space the screen rides out across the day rather than doing three in a morning."
+    },
+    {
+      "q": "Is one day enough for Universal Studios Florida?",
+      "a": "Yes, for almost everyone, provided you are through the turnstiles before the posted opening time. One long day covers the nine rides and two shows. It is not enough to also walk Diagon Alley slowly, sit down for a table-service meal and watch the lagoon show, so decide which of those three you are giving up before you arrive."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

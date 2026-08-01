@@ -86,7 +86,7 @@ export function monthPage (month, data) {
     ${C.section({
       title: 'Weather',
       intro: 'Climate normals for each resort. These are averages over a long reference period, not a forecast — the only figures on this site that do not decay.',
-      children: SC.weatherTable(month.weather),
+      children: SC.weatherTable(month.weather, site.resorts || []),
     })}
 
     ${C.section({
@@ -162,6 +162,7 @@ export function monthPage (month, data) {
 
 export function whenToGoIndex (data) {
   const { site } = data
+  const resorts = site.resorts || []
   const url = urls.whenToGoIndex()
   const trail = [{ label: 'Home', href: urls.home() }, { label: 'When to go', href: url }]
 
@@ -200,8 +201,7 @@ export function whenToGoIndex (data) {
           { label: 'Grade' },
           { label: 'Crowds' },
           { label: 'Cost' },
-          { label: 'Orlando high', align: 'right', sort: 'number' },
-          { label: 'Anaheim high', align: 'right', sort: 'number' },
+          ...resorts.map((r) => ({ label: `${r.shortName || r.name} high`, align: 'right', sort: 'number' })),
           { label: 'On' },
         ],
         rows: ordered.map((m) => [
@@ -209,8 +209,7 @@ export function whenToGoIndex (data) {
           SC.gradeBadge(m.verdict.grade),
           LEVEL_NOUN[m.crowds.level] || m.crowds.level,
           LEVEL_NOUN[m.cost.level] || m.cost.level,
-          `${m.weather.wdw.highF}°F`,
-          `${m.weather.dlr.highF}°F`,
+          ...resorts.map((r) => (m.weather && m.weather[r.slug] ? `${m.weather[r.slug].highF}°F` : '—')),
           String(m.events.length),
         ]),
       }),
@@ -223,9 +222,9 @@ export function whenToGoIndex (data) {
       site,
       page: {
         url,
-        title: 'Best time to visit the Disney parks',
+        title: `Best time to visit the ${site.brand.shortName} parks`,
         titleTail: ': Every Month Graded',
-        description: 'All twelve months at Walt Disney World and Disneyland graded on crowds, cost, weather and events — with the months worth avoiding named outright.',
+        description: `All twelve months graded on crowds, cost, weather and events across ${resorts.map((r) => r.shortName || r.name).join(' and ')} — with the months worth avoiding named outright.`,
         trail,
       },
       body,

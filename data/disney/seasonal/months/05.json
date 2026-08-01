@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 89,
       "lowF": 68,
       "rainDays": 8,
       "note": "Climate normals for Orlando, not a forecast. May is the pivot month: the first half still behaves like spring with tolerable humidity, and the second half behaves like summer once the afternoon convective pattern establishes itself. The monthly average of eight rain days hides that split — most of them fall in the back half."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 75,
       "lowF": 57,
       "rainDays": 2,
@@ -101,10 +101,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
-    { "label": "Animal Kingdom first-timer guide", "href": "/walt-disney-world/animal-kingdom/first-timer-guide/", "site": 1 },
-    { "label": "Which Disney park should I visit", "href": "/compare/which-disney-park-should-i-visit/", "site": 1 }
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "What to pack for a Disney park day",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "Animal Kingdom first-timer guide",
+      "href": "/walt-disney-world/animal-kingdom/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Which Disney park should I visit",
+      "href": "/compare/which-disney-park-should-i-visit/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

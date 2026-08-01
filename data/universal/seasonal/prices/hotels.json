@@ -1,0 +1,174 @@
+{
+  "slug": "hotels",
+  "title": "Universal Hotel Prices",
+  "titleTail": ": Orlando Tiers, Hollywood Options, July 2026",
+  "h1": "Universal hotel prices, and the only tier decision that changes the trip",
+  "description": "What Universal Orlando's hotel tiers cost as of July 2026, why three of them include Express Pass, and what your options are near Universal Studios Hollywood.",
+  "summary": "Universal Orlando's hotel tiers are the rare resort accommodation decision that changes what a park day is like rather than only where you sleep, because three of the hotels include Express Pass for every guest in the room for the whole stay.",
+  "ownership": "This page is the price list and the tier arithmetic. Room detail, dining and on-site amenities are not covered here, and nothing on this page is a booking recommendation for a specific property.",
+  "rows": [
+    {
+      "label": "Value tier, per room per night",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        95,
+        220
+      ],
+      "asOf": "July 2026",
+      "note": "The cheapest on-site option, reached by bus rather than on foot or by boat, with early park admission but no Express Pass inclusion. In the quiet months this prices close to the off-site chains on International Drive, which is where its case is strongest."
+    },
+    {
+      "label": "Mid-tier resort hotels, per room per night",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        140,
+        340
+      ],
+      "asOf": "July 2026",
+      "note": "The largest group of on-site rooms and the one most families end up in. Early park admission, a mixture of bus, walkway and water taxi connections depending on the property, and no Express Pass inclusion. Family suites at the top of this band sleep more people than a premier room at a lower total cost."
+    },
+    {
+      "label": "Premier tier with Express Pass included, per room per night",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        280,
+        700
+      ],
+      "asOf": "July 2026",
+      "note": "Loews Portofino Bay, Hard Rock Hotel and Loews Royal Pacific. Express Pass is included for every guest in the room for the whole stay, along with early park admission, and all three connect to the two original parks by walkway and water taxi. This is the only hotel tier at either resort whose price should be compared against a queue product rather than against another hotel."
+    },
+    {
+      "label": "Universal Helios Grand at Epic Universe, per room per night",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        350,
+        800
+      ],
+      "asOf": "July 2026",
+      "note": "The hotel on the Epic Universe campus, which is a different location from every other on-site hotel and is the only one within walking distance of that park. We have not verified what queue benefits it carries, so do not assume it matches the three premier hotels — confirm before booking on that basis."
+    },
+    {
+      "label": "Universal City hotels within shuttle distance of the park, per room per night",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        170,
+        450
+      ],
+      "asOf": "July 2026",
+      "note": "Universal does not operate hotels at its Hollywood park. Several independent and chain properties sit at the bottom of the hill with shuttle connections, and none of them includes Express or early admission, because no such inclusion exists at this resort."
+    },
+    {
+      "label": "Burbank and wider San Fernando Valley hotels, per room per night",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        120,
+        320
+      ],
+      "asOf": "July 2026",
+      "note": "Ten to twenty minutes away by car and materially cheaper than the hotels on the hill. Because a Universal Studios Hollywood visit is a single day rather than a multi-day base, proximity is worth much less here than it is in Orlando, and this is usually the better buy."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The premier tier is a queue product with a bed attached",
+      "body": [
+        "Three Universal Orlando hotels include Express Pass for every guest in the room, for the whole stay, at no additional charge. That is the most distinctive thing either resort sells and it makes the hotel decision at this operator genuinely different from the equivalent decision anywhere else.",
+        "The comparison to run is the nightly premium over the hotel you would otherwise book, multiplied by your nights, against the per-person Express Pass price multiplied by your party size and your park days. For a family of four on a three-day or four-day trip in a busy month, the hotel frequently comes out cheaper, and it also buys early park admission and a walkable or boat-connected location.",
+        "The comparison flips in the quiet months. In the second and third weeks of January, in February outside the Presidents' holiday, and in September, Express Pass is cheap enough to buy for a single day, and paying a premier premium for four nights to get it is poor value. The inclusion is worth most in exactly the weeks those hotels are hardest to book.",
+        "It also runs out. Those three hotels are the first things to sell out for Thanksgiving week, the Christmas fortnight and Easter, because everybody who has done this arithmetic reaches the same conclusion. If a peak week is your only option, book the room before anything else."
+      ]
+    },
+    {
+      "heading": "What the cheaper tiers actually give you",
+      "body": [
+        "Early park admission is included at every on-site Universal Orlando hotel, not just the expensive ones. In the summer and in the December peak that is worth more than most people credit, because it is the mechanism by which you get through the first headliners before the crowd arrives.",
+        "The value tier is reached by bus rather than by walkway or water taxi, which is a real difference at the end of a long day. In the quiet months it prices close enough to the off-site chains that the early admission is the whole argument for it, and that argument is a good one.",
+        "The mid-tier properties are where most families land, and the family suites at the top of that band are worth pricing against two separate rooms elsewhere. Sleeping six in one suite at a mid-tier rate frequently beats two premier rooms even after you account for the Express Pass inclusion you are giving up."
+      ]
+    },
+    {
+      "heading": "Hollywood is a different problem entirely",
+      "body": [
+        "Universal does not run hotels at its Hollywood park, so there is no inclusion to chase and no on-site tier structure to work through. What exists is a handful of independent and chain hotels at Universal City with shuttle connections, and a much larger and cheaper set across Burbank and the valley.",
+        "Because the park is a single day rather than a multi-day base, proximity buys you very little. The hotels on the hill charge a premium for a walk you will make twice, and the valley hotels ten to twenty minutes away are usually the better value even after parking.",
+        "The exception is if you are not renting a car. The Metro B Line stops at Universal City with a free shuttle up the hill, which makes a hotel near a station worth more than a hotel near the park, and it is one of the rare Los Angeles trips that genuinely works without driving."
+      ]
+    },
+    {
+      "heading": "How these bands move across the year",
+      "body": [
+        "Orlando on-site rates sit at their floor in the second and third weeks of January, in February outside the Presidents' holiday, in the last week of August and through September, and in the first ten days of December. They sit at their ceiling from just before Christmas into the new year, across Thanksgiving weekend, in the Easter fortnight and in July.",
+        "The swing across those windows is larger for the premier tier than for the value tier, because premium rooms are more demand-elastic. A premier room in September and the same room in the Christmas fortnight can differ by more than the entire nightly rate of a value room.",
+        "Hollywood's hotel pricing follows Los Angeles rather than the park, which means it responds to conventions, events and general city demand more than to the theme park calendar. That is worth knowing because it breaks the compounding effect you get in Orlando, where tickets, Express Pass and hotels all move together."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Run the premier tier against the Express Pass price before you compare it against another hotel. Three Universal Orlando hotels include Express Pass for every guest in the room for the whole stay, so the honest comparison is the nightly premium times your nights against the per-person queue price times your party times your park days. In summer, October and the Christmas fortnight the hotel usually wins.",
+    "Book the premier hotels first for any peak week, or accept they will be gone. Thanksgiving, the Christmas fortnight and Easter sell those three properties out well ahead, because everybody who does the arithmetic reaches the same answer. In a peak week the room is the booking that has to happen before the flights.",
+    "Price a mid-tier family suite against two rooms anywhere else. Sleeping five or six in one suite at a mid-tier rate frequently beats two premier rooms even after giving up the Express Pass inclusion, and it beats two rooms off site comfortably. Party size changes this answer more than season does.",
+    "Stay off the hill in Hollywood. Burbank and valley hotels ten to twenty minutes away price well below the Universal City properties, and because the park is a single day the proximity premium buys you one short drive. The exception is if you are travelling without a car, in which case a hotel near a Metro B Line station is worth paying for.",
+    "Move the trip to a hotel-floor window if the dates are flexible. Orlando on-site rates bottom out in the second and third weeks of January, in February outside the Presidents' holiday, in late August and September, and in the first ten days of December — which are also the cheapest windows for tickets and Express Pass, so the savings compound.",
+    "Do not pay a premier rate in a quiet month to get Express Pass. In January, February and September the queue product is cheap enough to buy for a single day, and the premium across four nights costs several times what that day would. The inclusion is worth most in exactly the weeks the rooms cost most."
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Hollywood resort overview",
+      "href": "/universal-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood first-timer guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/first-timer-guide/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which Universal Orlando hotels include Express Pass?",
+      "a": "Loews Portofino Bay, Hard Rock Hotel and Loews Royal Pacific. It covers every guest in the room for the whole length of the stay, not per day, and it is the reason those three price above the rest of the resort. No hotel at Universal Studios Hollywood includes any equivalent, because no such product exists there."
+    },
+    {
+      "q": "Is the premier tier worth it?",
+      "a": "In a busy month for a family, usually yes. Take the nightly premium over the hotel you would otherwise book, multiply by nights, and compare against the per-person Express Pass price times your party times your park days. In July, October and the Christmas fortnight the hotel typically wins. In January, February and September it typically does not."
+    },
+    {
+      "q": "Do the cheaper on-site hotels get anything useful?",
+      "a": "Early park admission, which is included at every on-site Universal Orlando hotel. In the summer and the December peak that is the mechanism by which you clear the headliners before the crowd arrives, and it is worth more than most people credit. What the cheaper tiers do not get is Express Pass or a walkway connection."
+    },
+    {
+      "q": "Should we stay on site at Universal Studios Hollywood?",
+      "a": "There is no on site. Universal does not run hotels at that park. The Universal City properties at the bottom of the hill charge a premium for proximity you will use twice in one day, and the Burbank and valley hotels ten to twenty minutes away are usually the better buy. If you are not renting a car, choose a hotel near a Metro B Line station instead."
+    },
+    {
+      "q": "Does the hotel at Epic Universe include Express Pass?",
+      "a": "We have not verified what queue benefits Universal Helios Grand carries, and we are not going to assume it matches the three premier hotels. It is the only hotel within walking distance of Epic Universe, which is a genuine advantage on its own, but confirm the queue terms with the operator before booking it for that reason."
+    },
+    {
+      "q": "How far ahead should we book?",
+      "a": "For Thanksgiving week, the Christmas fortnight and Easter at Universal Orlando, as far ahead as you can, and book the room before the flights if you want a premier hotel. For quiet months, there is no advantage to booking early beyond locking a rate, and rates in January, February and September have historically softened rather than firmed as the date approaches."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Bands describe nightly rates observed as of July 2026 across the full calendar and are deliberately wide, because hotel pricing at both locations moves with demand and is repriced continuously. The three Universal Orlando hotels named as including Express Pass reflect long-standing resort policy rather than a dated offer. What queue benefits Universal Helios Grand at Epic Universe carries is explicitly unverified on this page. Hollywood rates track general Los Angeles demand rather than the theme park calendar.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

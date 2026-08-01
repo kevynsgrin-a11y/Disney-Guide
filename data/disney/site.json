@@ -30,6 +30,33 @@
       "none": "Standby"
     }
   },
+  "crossLinks": {
+    "note": "Semantic cross-link roles. Templates ask for a role; this maps it to THIS operator's slug. A role with no equivalent here is null and the link is dropped rather than rendered as a 404.",
+    "guides": {
+      "riderSwitch": "rider-switch",
+      "firstTrip": "first-disney-trip",
+      "ropeDrop": "rope-drop-strategy",
+      "whatToPack": "what-to-pack",
+      "accessibility": "disability-access-service",
+      "dining": "mobile-order-and-dining",
+      "heights": "height-requirements",
+      "isItScary": "is-it-scary",
+      "motionSickness": "motion-sickness"
+    },
+    "compare": {
+      "parkRankings": "disney-park-rankings",
+      "bestForFood": "best-disney-park-for-food",
+      "bestForYoungChildren": "best-disney-park-for-toddlers",
+      "whichPark": "which-disney-park-should-i-visit",
+      "resortVsResort": "disneyland-vs-disney-world"
+    }
+  },
+  "notes": {
+    "accessibility": {
+      "title": "DAS policy changes — check before you count on it",
+      "body": "Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip."
+    }
+  },
   "author": {
     "name": "The Ride Ready Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
@@ -76,7 +103,8 @@
           "title": "When to go",
           "body": "Late January through mid-February and the first half of May are the reliable low-crowd, low-heat windows. Summer is hot, crowded, and rains every afternoon. Late December is the single hardest week of the year."
         }
-      ]
+      ],
+      "weatherLabel": "Walt Disney World (Orlando)"
     },
     {
       "slug": "disneyland",
@@ -116,7 +144,9 @@
           "title": "When to go",
           "body": "Mid-January through February and the weeks after Labor Day are the quiet windows. Southern California weather is forgiving year-round — bring a jacket for evenings even in summer, because the marine layer is real."
         }
-      ]
+      ],
+      "ticketAffiliate": "packagesDisneyland",
+      "weatherLabel": "Disneyland Resort (Anaheim)"
     }
   ],
   "nav": {

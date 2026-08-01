@@ -1,0 +1,128 @@
+{
+  "month": 12,
+  "name": "December",
+  "slug": "december",
+  "summary": "December is two months in one: the first ten days are among the best value Universal sells, with holiday overlays running at low-season rates, and the fortnight from just before Christmas to the first days of January is the most crowded and most expensive stretch of the entire year.",
+  "verdict": {
+    "grade": "C-",
+    "short": "Book the first ten days and December is excellent. Book the Christmas fortnight and you get the year's worst queues at the year's worst prices, with parks reaching capacity on several days.",
+    "bestFor": [
+      "The first ten days, when the holiday overlays are up and the crowds are not",
+      "Anyone who wants seasonal content at both resorts without buying a separate event ticket",
+      "Mild Orlando weather that makes a full park day comfortable",
+      "Universal Hollywood in the first two weeks, before Southern California schools break",
+      "Evening park visits, since both resorts light the holiday overlays after dark"
+    ],
+    "worstFor": [
+      "The fortnight from just before Christmas into the new year, the busiest of the Universal year",
+      "Anyone who dislikes crowds enough that a capacity closure would ruin the trip",
+      "Budget travellers in the second half, when rates reach their annual ceiling",
+      "Water rides in Orlando, which are cold and frequently closed",
+      "Short daylight and short hours in the first half, which limits what fits in a day"
+    ]
+  },
+  "crowds": {
+    "level": "peak",
+    "shape": "December has the sharpest internal split of any month on the Universal calendar, and the boundary is the day school lets out rather than any date on the calendar. The first ten days are among the quietest of the year at both resorts: no district is on break, the holiday overlays are fully installed, and Universal Orlando's midweek waits sit close to their September and early-November levels. From roughly the middle of the month attendance climbs steeply, and from the weekend before Christmas until the first days of January both resorts run at their annual peak. Universal Orlando reaches attendance levels in that fortnight that it does not touch in July, and individual parks have historically stopped admitting guests on the busiest days. Universal Hollywood's peak is compressed but no gentler: Southern California districts break up in the last full week before Christmas and the park's local base is in it every day until they go back, which for a compact hillside park is the hardest crowd it handles all year. The lesson from both coasts is the same and unusually simple: the content is identical across the whole month and the crowd is not, so the first ten days are the entire opportunity.",
+    "peakWindows": [
+      "The days between Christmas and the first days of January, the busiest of the Universal year",
+      "The weekend before Christmas at both resorts, when the climb becomes a wall",
+      "New Year's Eve at Universal Orlando, which sells separate ticketed celebrations at CityWalk"
+    ],
+    "quietWindows": [
+      "The first ten days, the best-value window in the second half of the year",
+      "Christmas Day itself, which is marginally quieter than the days either side at both resorts",
+      "Weekday mornings in the first two weeks, when winter hours mean a late-opening park empties quickly at close"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 73,
+      "lowF": 53,
+      "rainDays": 6,
+      "note": "Climate normals for Orlando, not a forecast. Mild and dry: low 70s afternoons, evenings in the mid-50s, and six rain days. Cold fronts can drop a day into the 50s with a wind, which is the condition that closes the Islands of Adventure water rides. Pack layers for the evening, because a December night in Orlando is cooler than most visitors plan for."
+    },
+    "universal-hollywood": {
+      "highF": 67,
+      "lowF": 45,
+      "rainDays": 5,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. The coolest month of the Hollywood year and the start of the wet season, with afternoons in the high 60s and evenings in the mid-40s. The Studio Tour tram is open-sided and the escalators between the lots are exposed, so a cold evening here is felt more than the numbers suggest."
+    }
+  },
+  "cost": {
+    "level": "peak",
+    "note": "The two halves of December sit at opposite ends of the Universal price range. The first ten days carry low-season Orlando hotel rates, lower-tier ticket dates and cheap Express Pass, while delivering exactly the same holiday overlays as the fortnight that costs three times as much. That is the largest same-month value gap Universal produces and it is the single most useful thing on this page. From roughly the middle of the month everything moves to peak: hotel rates reach their annual ceiling, ticket dates sit in the top tier, and Express Pass hits its highest published levels of the year. Airfare into Orlando over the Christmas period is the least flexible line item and the one that punishes late booking hardest. Neither resort charges extra for the holiday content itself — the overlays run on regular admission at both — so what you are paying for in the second half of December is the crowd, not the season. New Year's Eve is the exception, with separately ticketed celebrations sold at CityWalk in Orlando."
+  },
+  "whatsOn": [
+    "holidays-at-universal-orlando",
+    "grinchmas-at-universal-hollywood"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The first ten days are the whole point of this month",
+      "body": [
+        "The holiday overlays at both resorts are fully installed by the start of December and do not change between then and the new year. The crowd and the price change enormously. A trip in the first ten days buys identical seasonal content to a trip on the twenty-eighth at a fraction of the cost and a fraction of the queue.",
+        "That is not a marginal saving. In Orlando the difference across that boundary covers hotel rate, ticket tier and Express Pass simultaneously, and for a family of four across three park days it is the largest date-driven swing anywhere on this calendar.",
+        "The only argument for the second half is that you want to be at a theme park at Christmas specifically, which is a real reason and should be recognised as an expensive one rather than dressed up as good planning."
+      ]
+    },
+    {
+      "heading": "Universal does not sell a hard-ticket holiday party, and that changes the budget",
+      "body": [
+        "Neither Universal Orlando nor Universal Studios Hollywood runs a separately ticketed Christmas party in the way visitors coming from the other Orlando resort expect. The holiday parades, the tree lightings, the Grinchmas show and the Hogsmeade projection show all run on regular park admission.",
+        "The practical consequence is that the holiday season costs less at Universal than the equivalent elsewhere, and it also means there is no cheap-night, expensive-night structure to arbitrage. The lever is the date of your park ticket, not the date of an event ticket.",
+        "The exception is New Year's Eve, where Universal Orlando has historically sold separately ticketed CityWalk celebrations with their own pricing. Those are the one holiday product here that needs booking rather than turning up for."
+      ]
+    },
+    {
+      "heading": "Capacity closures are a real risk in the Christmas fortnight",
+      "body": [
+        "On the busiest days between Christmas and the new year, Universal Orlando parks have historically stopped admitting guests, including guests holding valid tickets who arrived late. It is not a common event across the year and it is a recurring one in this specific fortnight.",
+        "The defence is arrival time. Being through the gate before opening on those days is not a tactic for shorter queues; it is what guarantees you get in at all. Anyone planning a leisurely start on the twenty-eighth is planning to be turned away.",
+        "On-site hotel guests get early park admission, which on those days is worth more than at any other point in the year. This is the fortnight where the Express Pass hotel inclusion and the early entry together most clearly justify the room premium."
+      ]
+    },
+    {
+      "heading": "Southern California's school break lands later than Florida's, and Hollywood follows it",
+      "body": [
+        "Southern California districts generally break up in the last full week before Christmas, which is later than many of the states that supply Orlando's holiday visitors. Universal Studios Hollywood therefore holds a lower crowd level further into December than Universal Orlando does, and its peak is shorter and steeper.",
+        "That makes the second and third weeks of December a better window in California than in Florida. It also makes the days right after Christmas worse in California relative to capacity, because a compact park takes a concentrated local crowd badly.",
+        "Grinchmas at Universal Studios Hollywood is the seasonal draw and it is included with admission. Its show schedule is published for each cycle and the shows fill, so plan the day around the performance times rather than fitting them in."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Hogsmeade at Islands of Adventure",
+      "href": "/universal-orlando/islands-of-adventure/lands/hogsmeade/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single December. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. The claim that neither resort sells a hard-ticket holiday party reflects recent cycles rather than an announcement about any future one, and the CityWalk New Year's Eve celebrations are ticketed separately with pricing published per cycle.",
+    "reviewBy": "2027-04",
+    "cycle": "rolling"
+  }
+}

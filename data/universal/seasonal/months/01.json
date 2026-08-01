@@ -1,0 +1,128 @@
+{
+  "month": 1,
+  "name": "January",
+  "slug": "january",
+  "summary": "January is the cheapest and quietest month of the Universal year once the first week clears, and the price you pay for it is short operating hours, the heaviest refurbishment season on the calendar, and a Hollywood park sitting in the wettest stretch Los Angeles gets.",
+  "verdict": {
+    "grade": "A-",
+    "short": "From the second week onward this is the best-value month at both resorts. You trade long days and a complete ride list for low crowds and low prices, which is a trade most visitors should take.",
+    "bestFor": [
+      "Anyone whose priority is walking onto rides rather than seeing everything the resort has",
+      "Budget trips, because Orlando hotel rates and Express Pass both sit at their annual floor",
+      "Adults and couples travelling without school-age children",
+      "Orlando visitors who want three parks in three days without an exhausting pace",
+      "Southern California locals who can pick a dry weekday and have Universal Hollywood close to themselves"
+    ],
+    "worstFor": [
+      "The first week of the month, which is still holiday-season pricing and holiday-season crowds",
+      "Anyone with a single must-ride attraction, because this is when Universal takes rides down",
+      "Visitors who want long evenings, since both resorts run their shortest hours of the year",
+      "Hollywood trips booked on fixed dates with no flexibility to move around a rain day",
+      "Anybody hoping for seasonal overlays, which come down within the first fortnight in Orlando and Hollywood alike"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "January splits hard in two, and the boundary is the end of the winter school holiday rather than the calendar. The first week is still peak: Orlando runs on international and domestic holiday travel that does not unwind until schools go back, and Universal Hollywood carries the tail of its holiday overlay with Southern California families who are off until the second week. After that, attendance falls off a cliff at both resorts and stays down. Orlando's quiet is broad and steady, driven by the absence of any US school break until the Presidents' holiday, and midweek waits on all three parks drop to the lowest of the year outside early December. Hollywood's quiet is spikier because the park runs on locals rather than tourists: a Tuesday in late January can feel empty and the Saturday four days later can feel like March, since the annual pass base turns out whenever the weather is good. The other January-specific effect is operating hours. Both resorts run their shortest days of the year this month, and a park that closes in the late afternoon delivers a lower crowd level into far fewer hours than the raw number suggests.",
+    "peakWindows": [
+      "The first week, which is holiday season in everything but name at both resorts",
+      "Saturdays at Universal Hollywood, especially after a run of dry weather",
+      "The Martin Luther King Jr long weekend, the only national three-day weekend in the month"
+    ],
+    "quietWindows": [
+      "The second and third full weeks, the quietest stretch of the Orlando year",
+      "Any Tuesday, Wednesday or Thursday at Universal Hollywood that follows rain",
+      "The last hour before close at every park, when short hours push families out early"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 71,
+      "lowF": 50,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. The most comfortable park weather of the Universal Orlando year and the month most likely to be genuinely cold: overnight lows near 50 mean a morning in the low 50s is normal, and a cold front can drop that into the 30s for a couple of days. Pack layers rather than a coat, and remember that the water rides at Islands of Adventure are miserable below about 65 degrees and often close outright."
+    },
+    "universal-hollywood": {
+      "highF": 68,
+      "lowF": 45,
+      "rainDays": 6,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. January is the wettest month of the Los Angeles year, and while six rain days out of thirty-one still means most days are dry, the Studio Tour is an open tram and the Lower Lot is reached by open escalators. Evenings drop into the 40s, which is colder than most visitors packing for California expect."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "January past the first week is the cheapest window Universal sells. Orlando hotel rates sit at their annual floor, date-based ticket pricing sits in its bottom tier on most weekdays, and Express Pass — which is priced by date and moves more sharply than anything else Universal sells — reaches its lowest published levels of the year on quiet midweek dates. That last point matters more at Universal than the equivalent does elsewhere, because Express Pass is a large enough line item on a family budget to change which month you pick. The first week inverts all of this: it carries holiday-season hotel rates and top-tier ticket dates, and the gap between the fourth of the month and the eighteenth is the widest same-month price swing on the Universal calendar. Hollywood's pricing moves less because the park sells mostly one-day tickets and annual passes, but its Express Pass follows the same shape, and a rainy January Tuesday is the cheapest day of the year to buy it."
+  },
+  "whatsOn": [
+    "holidays-at-universal-orlando",
+    "grinchmas-at-universal-hollywood"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The holiday overlays come down early, and nobody warns you",
+      "body": [
+        "Both resorts strip their holiday layer within the first fortnight, and the exact date is not published far ahead. Holidays at Universal Orlando and Grinchmas at Universal Hollywood have both historically run into the first week of January and then stopped, which means a trip booked for the third week gets January prices and no seasonal content at all.",
+        "That is usually the right trade. The overlays are worth a fare difference in December and they are not worth the first week's crowd levels in January. But book with your eyes open: if the seasonal shows are why your family is going, you need the first week and you need to pay for it.",
+        "Mardi Gras at Universal Orlando picks up where the holidays leave off, and it starts later than most people assume — early February in recent cycles rather than January. Treat the whole of January after the first week as a genuinely bare month for events at both resorts and plan the trip around rides."
+      ]
+    },
+    {
+      "heading": "This is refurbishment season, and Universal does not soften the blow",
+      "body": [
+        "More attractions are down in January and February than in any other window, at both resorts, because this is the only stretch of the year with attendance low enough to absorb it. Universal typically posts closures a few weeks out rather than months, so a trip booked in October cannot be planned around them.",
+        "The practical response is to build the trip around a park rather than around a ride. Islands of Adventure and Epic Universe both have enough headliners that losing one is an inconvenience; Universal Studios Hollywood is a single park where losing the Studio Tour for maintenance would change the day entirely.",
+        "Check the operator's own maintenance list in the fortnight before you travel, and check it again the morning you go. Our closure trackers carry only what we can verify, which in most Januaries is less than what is actually down."
+      ]
+    },
+    {
+      "heading": "Short hours change the arithmetic on Express Pass",
+      "body": [
+        "Both resorts run their shortest operating days of the year in January, and Universal Hollywood in particular can close in the late afternoon on a midweek date. A shorter day compresses everything: the same number of visitors arrive through a narrower window, so the middle of the day still queues even in a low month.",
+        "Express Pass is cheapest this month and least necessary this month, and those two facts do not cancel out. On a quiet Orlando weekday it is genuinely skippable, and the money is better spent on a park-to-park ticket. On a January Saturday at Universal Hollywood, where a compact park meets a local crowd inside a seven-hour day, it is closer to essential than the low season implies.",
+        "The rule that holds at both resorts: buy Express Pass for the day, not for the trip. Universal prices it per date and the spread within a single January is large enough that buying it for your busiest day and skipping it on the others is almost always the right shape."
+      ]
+    },
+    {
+      "heading": "Rain planning at Universal Hollywood is a real part of the trip",
+      "body": [
+        "Los Angeles gets most of its annual rain between December and March, and January is the wettest of those months. The park stays open, and a wet January Tuesday is the emptiest Universal Studios Hollywood ever gets, so this is an opportunity rather than a write-off — provided you have packed for it.",
+        "What rain actually affects: the Studio Tour tram is open-sided, the Starway escalators between Upper and Lower Lot are exposed, and the outdoor queue space is limited enough that a downpour pushes everybody into the same few indoor buildings. A poncho and waterproof shoes convert the day from unpleasant to excellent value.",
+        "If your dates are fixed and you have two candidate days, watch the forecast and take the wet one for the park and the dry one for the rest of Los Angeles. That is the opposite of most people's instinct and it is the right way round."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe first-timer guide",
+      "href": "/universal-orlando/epic-universe/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Islands of Adventure ride list",
+      "href": "/universal-orlando/islands-of-adventure/rides/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single January. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. The dates on which the holiday overlays are struck and on which Mardi Gras opens are not published far ahead and are deliberately described as windows.",
+    "reviewBy": "2027-06",
+    "cycle": "rolling"
+  }
+}

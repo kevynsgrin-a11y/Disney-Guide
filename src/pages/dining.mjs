@@ -77,7 +77,7 @@ export function diningHub (park, data) {
       title: 'How we handle menus and prices',
       children: html`
         <div class="prose">
-          <p>We do not mirror full live menus. Disney changes hundreds of menu items across its US resorts in a single month, and any site claiming a complete live menu database is either doing enormous manual work or is quietly out of date.</p>
+          <p>We do not mirror full live menus. The operators change hundreds of menu items across their US resorts in a single month, and any site claiming a complete live menu database is either doing enormous manual work or is quietly out of date.</p>
           <p>What we maintain instead is the part that stays true: what each restaurant is, how it is served, who it suits, whether the reservation is worth chasing, and a curated set of signature items with prices we have actually checked and dated. Every price on this site carries the month it was verified. If that month is old, treat the number as a guide and not a promise.</p>
         </div>
         ${C.callout({
@@ -91,8 +91,8 @@ export function diningHub (park, data) {
     ${C.relatedLinks([
       { href: urls.snacks(park), label: `Best snacks at ${park.shortLabel}`, summary: 'Ranked, priced, trackable' },
       { href: urls.foodTracker(), label: 'Food Tracker', summary: 'Build a list that saves offline' },
-      { href: urls.guide('mobile-order-and-dining'), label: 'Mobile order & reservations', summary: 'How to actually get a table' },
-      { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'We settle it' },
+      { href: data.link.dining, label: 'Mobile order & reservations', summary: 'How to actually get a table' },
+      { href: data.link.bestForFood, label: 'Best park for food', summary: 'We settle it' },
     ])}
   `
 
@@ -185,7 +185,7 @@ export function restaurantPage (restaurant, data) {
             ${restaurant.reservations === 'essential' ? C.callout({
               type: 'warning',
               title: 'Book this one early',
-              body: 'This is one of the reservations that disappears the moment the booking window opens. If it matters to your trip, set an alarm for the window and book it before anything else. Our [dining guide](/guides/mobile-order-and-dining/) covers the timing.',
+              body: `This is one of the reservations that disappears the moment the booking window opens. If it matters to your trip, set an alarm for the window and book it before anything else.${data.link.dining ? ` Our [dining guide](${data.link.dining}) covers the timing.` : ''}`,
             }) : ''}
             ${restaurant.landInfo ? C.linkGrid([
               { href: restaurant.landInfo.url, label: `More in ${restaurant.landInfo.name}` },
@@ -209,8 +209,8 @@ export function restaurantPage (restaurant, data) {
     ${C.relatedLinks([
       { href: urls.dining(park), label: `All ${park.shortLabel} dining`, summary: 'Every option, compared' },
       { href: urls.foodTracker(), label: 'Food Tracker', summary: 'Plan what you will eat' },
-      { href: urls.guide('mobile-order-and-dining'), label: 'Reservations & mobile order', summary: 'How to get a table' },
-      { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'The verdict' },
+      { href: data.link.dining, label: 'Reservations & mobile order', summary: 'How to get a table' },
+      { href: data.link.bestForFood, label: 'Best park for food', summary: 'The verdict' },
     ])}
   `
 
@@ -318,16 +318,16 @@ export function snacksPage (park, data) {
       title: 'A note on prices',
       children: html`
         <div class="prose">
-          <p>Snack prices at both resorts move once or twice a year, usually upward, and often without announcement. Every price here carries the month we last checked it. Where two sources disagreed we went with the one we could verify most recently, and we would rather show you a dated number than a confidently wrong one.</p>
+          <p>Snack prices move once or twice a year, usually upward, and often without announcement. Every price here carries the month we last checked it. Where two sources disagreed we went with the one we could verify most recently, and we would rather show you a dated number than a confidently wrong one.</p>
           <p>If you spot something that has changed, that is genuinely useful to us — corrections make this dataset better for everyone using it.</p>
         </div>
       `,
     })}
 
     ${C.relatedLinks([
-      { href: urls.foodTracker(), label: 'Food Tracker', summary: 'All six parks in one list' },
+      { href: urls.foodTracker(), label: 'Food Tracker', summary: `All ${data.parks.length} parks in one list` },
       { href: urls.dining(park), label: `${park.shortLabel} dining`, summary: 'Restaurants, not snacks' },
-      { href: urls.compare('best-disney-park-for-food'), label: 'Best park for food', summary: 'Where this park lands' },
+      { href: data.link.bestForFood, label: 'Best park for food', summary: 'Where this park lands' },
       { href: urls.map(park), label: 'Park map', summary: 'Find these on the ground' },
     ])}
   `

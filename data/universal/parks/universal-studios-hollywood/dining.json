@@ -1,0 +1,926 @@
+{
+  "park": "universal-studios-hollywood",
+  "dining": [
+    {
+      "slug": "mels-diner",
+      "name": "Mel's Diner",
+      "land": "upper-lot",
+      "service": "quick-service",
+      "cuisine": "American diner — burgers, fries and shakes",
+      "priceTier": "$$",
+      "priceNote": "Burgers around $17 to $19, shakes around $9, a full meal about $28 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A 1950s diner near the entrance, built from the American Graffiti set dressing, serving competent burgers at Los Angeles theme park prices.",
+      "description": [
+        "Mel's Diner sits close to the entrance on the Upper Lot and takes its identity from the diner in *American Graffiti*, which George Lucas shot before Universal was in the theme park business in any serious way. The building is a proper period piece with chrome, booths, a counter and neon, and there are classic cars parked outside that people photograph more than they eat.",
+        "The food is a straight American diner menu: burgers, chicken sandwiches, fries, milkshakes. It is competently executed and entirely unremarkable, which puts it above most of what is available inside this park. The shakes are the strongest item on the board.",
+        "What it really offers is indoor air-conditioned seating close to the gate, which is scarcer here than it should be. On a hot afternoon a booth at Mel's is worth more than the burger is."
+      ],
+      "signatureItems": [
+        "Bacon cheeseburger",
+        "Crispy chicken sandwich",
+        "Chocolate milkshake",
+        "Chili cheese fries",
+        "Veggie burger"
+      ],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break", "quick-bite"],
+      "tips": [
+        "Use mobile order through the app. The counter line at Mel's is one of the longest in the park at noon and the pickup window is not.",
+        "Eat here at 11:15am or after 2pm. Between those hours it is the busiest quick-service location on the Upper Lot because of where it sits.",
+        "The shakes are the reason to come. The burgers are fine; the shakes are actually good and they travel well across the park.",
+        "This is your air-conditioned indoor seating option near the entrance. Use it as that even if you bought food elsewhere and nobody will mind."
+      ],
+      "verdict": "Reliable, unexciting, and better value than most of the park because you get an air-conditioned booth with it. The shake is the item worth ordering.",
+      "faqs": [
+        {
+          "q": "Does Mel's Diner take mobile orders?",
+          "a": "Yes, through the Universal app, and it is the correct way to use this restaurant. The counter queue at lunchtime is long and the mobile pickup window usually is not."
+        },
+        {
+          "q": "Is there vegetarian food at Mel's Diner?",
+          "a": "Yes, there is a veggie burger on the menu alongside the standard diner items. The vegetarian options across this park are thin generally, and Mel's is one of the more reliable places to find one."
+        },
+        {
+          "q": "Is Mel's Diner air conditioned?",
+          "a": "Yes, with indoor booths and counter seating plus tables outside. It is one of the better indoor seating options near the park entrance, which makes it useful in the middle of a hot afternoon regardless of where you bought your food."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "illuminations-minion-cafe",
+      "name": "Illumination's Minion Cafe",
+      "land": "upper-lot",
+      "service": "quick-service",
+      "cuisine": "American comfort food with Minion theming",
+      "priceTier": "$$",
+      "priceNote": "Mains around $18 to $22, a full meal about $30 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A large themed cafe next to Minion Mayhem where the Minions have supposedly taken over the kitchen, with better food than the branding suggests.",
+      "description": [
+        "Illumination's Minion Cafe opened in 2023 next to Despicable Me Minion Mayhem, replacing the older cafe on the same site. The conceit is that the Minions have taken over a restaurant kitchen, which is carried through the decor with more commitment than these things usually get — the dining rooms are full of jokes and the ordering area has a working sense of humor.",
+        "The menu is American comfort food with themed presentation: fried chicken, mac and cheese, salads and a banana-themed dessert program, since a Minion restaurant was never going to avoid bananas. Portions are large and the execution is above the park average.",
+        "It is also one of the largest indoor air-conditioned dining rooms in the park, which is the practical reason to plan around it. Seating at Universal Studios Hollywood is a genuine constraint at lunchtime, and this is one of the few places with enough of it."
+      ],
+      "signatureItems": [
+        "Fried chicken plate",
+        "Minion mac and cheese",
+        "Banana cream dessert",
+        "Chicken and waffle sliders",
+        "Garden salad bowl"
+      ],
+      "goodFor": ["families", "toddlers", "picky-eaters", "air-conditioned-break", "big-appetites"],
+      "tips": [
+        "Mobile order and skip the counter. This is one of the highest-traffic ordering areas in the park between noon and 2pm.",
+        "The dining rooms extend further back than the entrance suggests. If the front looks full, walk through — there is usually seating at the rear.",
+        "The banana dessert items are the ones worth ordering. The savory food is fine; the desserts are the part the kitchen clearly enjoys.",
+        "This is where to eat if you have a child who has just come off Minion Mayhem and is not going to accept any other restaurant."
+      ],
+      "verdict": "Better than a Minion-branded restaurant has any right to be, with proper portions and one of the few large air-conditioned dining rooms in the park. A sensible default lunch.",
+      "faqs": [
+        {
+          "q": "Is Minion Cafe good, or just themed?",
+          "a": "Both, unusually. The theming is thorough and the food is above the park average, particularly the fried chicken and the desserts. It is not a destination restaurant, but it is a good default lunch inside the gate."
+        },
+        {
+          "q": "Is there enough seating?",
+          "a": "Yes, and that is a real advantage here. It has one of the largest indoor air-conditioned dining rooms in the park, and the rear sections stay open when the front looks full. Seating is a genuine constraint at Universal Studios Hollywood at lunchtime."
+        },
+        {
+          "q": "Are there gluten-free options?",
+          "a": "Yes, there are gluten-free items on the menu and staff will talk through allergen information at the counter. Ask before ordering rather than after, since preparation varies by item."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "universal-plaza-starbucks",
+      "name": "Starbucks (Upper Lot)",
+      "land": "upper-lot",
+      "service": "quick-service",
+      "cuisine": "Coffee, pastries and cold drinks",
+      "priceTier": "$",
+      "priceNote": "Standard Starbucks menu pricing, broadly in line with locations outside the park as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A full Starbucks on the Upper Lot, notable mainly because it is the one place in the park where the prices are not inflated.",
+      "description": [
+        "There is a Starbucks on the Upper Lot running the standard menu at broadly standard prices, which makes it the single best value proposition inside Universal Studios Hollywood. A cold brew here costs what a cold brew costs anywhere, while a soda thirty yards away does not.",
+        "It also solves the morning problem. Universal Studios Hollywood has very little in the way of a real breakfast offering inside the gate, and a coffee and a pastry from a chain you already understand is a more efficient start than hunting for something better."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Iced latte",
+        "Breakfast sandwiches",
+        "Refreshers"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "vegetarian"],
+      "tips": [
+        "This is the cheapest drink in the park by a wide margin. If you need caffeine or cold liquid and not a souvenir, come here.",
+        "Queue before 9:30am or after 3pm. The morning rush here is genuine and the line spills into the walkway.",
+        "Refill a water bottle at a nearby fountain rather than buying bottled water anywhere in this park; the markup is the worst on the property.",
+        "The Lower Lot has its own Starbucks, so you do not need to plan a trip up here for coffee."
+      ],
+      "verdict": "Not a destination, but it is the one place inside this park where you pay what things actually cost. Use it for breakfast and for cold drinks.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "upper-lot-churro-cart",
+      "name": "Churro Carts",
+      "land": "upper-lot",
+      "service": "snack-cart",
+      "cuisine": "Churros and sweet snacks",
+      "priceTier": "$",
+      "priceNote": "Around $8 for a churro as of July 2026, noticeably above the Disneyland price for the same item",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Cinnamon-sugar churros from carts around the Upper Lot, priced well above what the same thing costs down the freeway.",
+      "description": [
+        "Churro carts operate at several points around the Upper Lot, selling the standard cinnamon-sugar churro and occasionally a filled variant. The product is fine and the price is not — this is the clearest single example of Universal Studios Hollywood charging more than Disneyland does for an identical item.",
+        "They are useful for what carts are useful for: something warm and portable while you are walking, with no queue to speak of and nowhere to sit required."
+      ],
+      "signatureItems": [
+        "Cinnamon sugar churro"
+      ],
+      "goodFor": ["quick-bite", "families", "vegetarian"],
+      "tips": [
+        "Buy from a cart that is actively frying rather than one holding stock. The difference between a fresh churro and a warm one is the entire product.",
+        "Carts near the entrance charge the same as carts deep in the park, but the ones near the entrance are always busier.",
+        "This is roughly fifty percent more than the same churro at Disneyland. Worth knowing before you buy four.",
+        "Do not queue for a churro. There is another cart within two minutes' walk almost anywhere on the Upper Lot."
+      ],
+      "verdict": "A fine churro at a bad price. Buy one if you want one, but this is not the snack to build a memory around.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "upper-lot-turkey-leg-cart",
+      "name": "Turkey Leg Cart",
+      "land": "upper-lot",
+      "service": "snack-cart",
+      "cuisine": "Smoked turkey legs",
+      "priceTier": "$$",
+      "priceNote": "Around $17 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "lunch"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The theme park turkey leg, sold from a cart on the Upper Lot, feeding two people badly or one person very well.",
+      "description": [
+        "The smoked turkey leg is a theme park constant and Universal Studios Hollywood sells its version from a cart on the Upper Lot. It is enormous, salty, smoky, and closer to ham than to turkey in flavor because of the curing, which surprises people every single time.",
+        "As a novelty it works. As lunch it is a poor deal — you are paying most of a quick-service main course price for something you eat standing up with no napkin capable of coping."
+      ],
+      "signatureItems": [
+        "Smoked turkey leg"
+      ],
+      "goodFor": ["big-appetites", "groups", "quick-bite"],
+      "tips": [
+        "Share it. One leg genuinely feeds two adults and nobody finishes one alone without regretting it.",
+        "It tastes like ham, not turkey, because of the curing process. That is normal and not a fault with the one you bought.",
+        "Grab extra napkins at the cart. There is no clean way to eat this and no sink anywhere near it.",
+        "Do not buy this immediately before a ride. It is the single worst thing to be holding at a locker bank."
+      ],
+      "verdict": "A novelty rather than a meal, and priced like a meal. Buy one for the group to share and photograph, not one each.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "krusty-burger",
+      "name": "Krusty Burger",
+      "land": "springfield",
+      "service": "quick-service",
+      "cuisine": "Burgers and American fast food",
+      "priceTier": "$$",
+      "priceNote": "Burgers around $16 to $20; the Clogger with fries and a drink lands around $30 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Simpsons' fast food chain built at full scale, serving a deliberately absurd burger under a giant Krusty head.",
+      "description": [
+        "Krusty Burger is the anchor of Springfield and is built as a full-scale version of the restaurant from the show, complete with the enormous Krusty head over the entrance and the menu board jokes intact. The interior is one of the more entertaining rooms in the park to eat in.",
+        "The headline item is the Clogger, a deliberately excessive burger that leans into the joke, alongside a standard burger, a chicken sandwich and fries. The cooking is theme park cooking — nobody is going to describe it as good — but the presentation carries it further than the kitchen does.",
+        "It has real indoor seating and it serves beer, which between them make it a more useful stop than the theming alone would suggest. Springfield as a whole is where you should be eating in this park if you are eating for entertainment rather than for quality."
+      ],
+      "signatureItems": [
+        "The Clogger burger",
+        "Krusty Burger",
+        "Chicken sandwich",
+        "Curly fries",
+        "Duff Beer"
+      ],
+      "goodFor": ["families", "picky-eaters", "big-appetites", "air-conditioned-break", "groups"],
+      "tips": [
+        "Mobile order it. The counter queue in Springfield backs up badly at lunch and the pickup line moves far faster.",
+        "The Clogger is a joke you eat rather than a burger you enjoy. Order it if that is the point of your visit and a standard burger if it is not.",
+        "There is indoor air-conditioned seating here, which is scarcer in this park than you would expect. Use it.",
+        "Buy the Duff Beer here rather than at the outdoor bar if you want to sit down with it in air conditioning."
+      ],
+      "verdict": "The food is ordinary and the room is genuinely fun. Come for the joke and the air conditioning, order a normal burger, and spend the difference at Moe's next door.",
+      "faqs": [
+        {
+          "q": "What is the Clogger burger?",
+          "a": "A deliberately excessive multi-patty burger designed as a visual joke rather than a good sandwich. It is worth ordering once if the absurdity is the point of your visit, and worth avoiding if you actually want lunch."
+        },
+        {
+          "q": "Can you get beer at Krusty Burger?",
+          "a": "Yes, including Duff Beer. Krusty Burger is one of the few places in this park where you can sit indoors in air conditioning with a beer and a plate of food, which is a more useful combination than the theming suggests."
+        },
+        {
+          "q": "Is there vegetarian food at Krusty Burger?",
+          "a": "There is usually a vegetarian option on the board, though the menu leans heavily toward beef and chicken. Springfield generally is a difficult area for vegetarians, and Bumblebee Man's Taco Truck across the way is often the better bet."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cletus-chicken-shack",
+      "name": "Cletus' Chicken Shack",
+      "land": "springfield",
+      "service": "quick-service",
+      "cuisine": "Fried chicken",
+      "priceTier": "$$",
+      "priceNote": "Chicken plates and sandwiches around $17 to $21 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Fried chicken from the show's least hygienic character, and unexpectedly the best savory food in Springfield.",
+      "description": [
+        "Cletus' Chicken Shack sits along the Springfield frontage and serves fried chicken in various formats: a plate, a sandwich, and a chicken and waffle combination that is the item people come for. The theming leans hard into the character, with the usual run of jokes on the signage.",
+        "It is, quietly, the best savory food in Springfield. The chicken is fried to order rather than held, the coating holds up, and the waffle version is a genuinely good idea executed properly. It outperforms Krusty Burger next door by a clear margin.",
+        "Seating is outdoors at shared tables along the street. There is no air conditioning here, which is the reason many people default to Krusty Burger instead and end up with the worse meal."
+      ],
+      "signatureItems": [
+        "Chicken and waffle sandwich",
+        "Fried chicken plate",
+        "Chicken tenders",
+        "Waffle fries"
+      ],
+      "goodFor": ["big-appetites", "families", "quick-bite", "groups"],
+      "tips": [
+        "Order the chicken and waffle. It is the best savory item in Springfield and most people walk past it to queue at Krusty Burger.",
+        "The chicken is fried to order, so the wait at the window is longer than the queue length suggests. That is a good sign, not a bad one.",
+        "Seating is outdoors and shared. In the middle of a summer afternoon, take the food to the shaded tables rather than eating on the street.",
+        "Beer is available here as well as at Moe's and the Duff bar, and the queue is usually shorter."
+      ],
+      "verdict": "The best savory food in Springfield and one of the better things to eat inside this park. Order the chicken and waffle and ignore the Krusty Burger queue next door.",
+      "faqs": [
+        {
+          "q": "What should I order at Cletus' Chicken Shack?",
+          "a": "The chicken and waffle sandwich. It is the item the kitchen does best, it is fried to order, and it is a genuinely good version of the dish rather than a themed approximation of one."
+        },
+        {
+          "q": "Is it better than Krusty Burger?",
+          "a": "Yes, by a clear margin on food quality. Krusty Burger wins on air-conditioned indoor seating and on the strength of the joke. If you are eating for the meal rather than the room, come here."
+        },
+        {
+          "q": "Is there seating?",
+          "a": "Outdoor shared tables along the Springfield street, with limited shade. There is no indoor dining room, which is why Krusty Burger next door takes the overflow on hot afternoons."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lard-lad-donuts",
+      "name": "Lard Lad Donuts",
+      "land": "springfield",
+      "service": "bakery",
+      "cuisine": "Donuts and sweet snacks",
+      "priceTier": "$",
+      "priceNote": "The Big Pink Donut around $13 as of July 2026; standard donuts considerably less",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A donut stand under a giant statue, selling the Big Pink Donut that is the most photographed food item in the park.",
+      "description": [
+        "Lard Lad Donuts sits under a full-scale statue of the Lard Lad mascot holding an enormous pink donut, which is one of the better sight gags in the park. The stand sells the show's signature item: a pink-frosted donut roughly the size of a dinner plate.",
+        "The honest assessment is that it photographs considerably better than it tastes. It is a large, plain, cake-style donut with a great deal of frosting on top, and by the third mouthful most people are done. That is not a failure — it is a prop you are allowed to eat.",
+        "The standard-size donuts sold alongside it are perfectly good and cost a fraction of the price, and almost nobody buys them, which tells you exactly what this stand is selling."
+      ],
+      "signatureItems": [
+        "The Big Pink Donut",
+        "Standard glazed donuts",
+        "Iced coffee"
+      ],
+      "goodFor": ["groups", "families", "quick-bite", "vegetarian"],
+      "tips": [
+        "Buy one for the group, not one each. It feeds three or four people comfortably and nobody finishes one alone.",
+        "Photograph it under the statue. That is what you are buying, and everyone knows it.",
+        "The standard donuts alongside it are cheaper and taste better. Order those if you actually want a donut.",
+        "It is fresher earlier in the day. By late afternoon the Big Pink Donut has been sitting for a while and the difference is noticeable."
+      ],
+      "verdict": "A photograph you are permitted to eat. Buy one for the group, take the picture, and buy a normal donut if you actually want to enjoy it.",
+      "faqs": [
+        {
+          "q": "How big is the Big Pink Donut?",
+          "a": "Roughly the size of a dinner plate. It comfortably feeds three or four people, and buying one each is the most common mistake made in Springfield."
+        },
+        {
+          "q": "Does the Big Pink Donut taste good?",
+          "a": "It tastes fine and it is not the point. It is a plain cake donut with heavy frosting, and it works best as a shared novelty and a photograph. The standard donuts sold alongside it are better and cost far less."
+        },
+        {
+          "q": "When is it freshest?",
+          "a": "Earlier in the day. Stock sits through the afternoon and the texture suffers noticeably by late in the day, which matters more on a plain cake donut than it would on a filled one."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "moes-tavern",
+      "name": "Moe's Tavern",
+      "land": "springfield",
+      "service": "lounge",
+      "cuisine": "Bar — beer, cocktails and the Flaming Moe",
+      "priceTier": "$$",
+      "priceNote": "Flaming Moe around $16 with the souvenir glass, Duff Beer around $13 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["all-day", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A faithful recreation of the bar from the show, serving the Flaming Moe, and the best adult stop inside this park.",
+      "description": [
+        "Moe's Tavern is built as a genuine reproduction of the bar from the show: the dark wood, the grimy fittings, the Love Tester machine on the wall and the telephone that rings with prank calls. The commitment is total and the room is small enough that it feels like the actual set rather than a themed corner of a restaurant.",
+        "The drink is the Flaming Moe, served in a souvenir glass with a dry-ice effect that makes the whole thing smoke. It is a sweet, orange-forward drink that works better as theater than as a cocktail, and it is available in a non-alcoholic version, which makes it one of the few genuinely fun things to order for a child at this park.",
+        "It also serves Duff Beer, which is a real branded lager rather than a joke, and it has air conditioning and somewhere to sit. For adults at Universal Studios Hollywood this is the single best place to spend twenty minutes."
+      ],
+      "signatureItems": [
+        "Flaming Moe",
+        "Duff Beer",
+        "Duff Lite",
+        "Bar snacks"
+      ],
+      "goodFor": ["date-night", "groups", "air-conditioned-break", "solo", "late-night"],
+      "tips": [
+        "Order the Flaming Moe once. It is more effect than drink, and the souvenir glass is the actual product.",
+        "Ask for it non-alcoholic if you want a child to have one. The dry-ice effect is identical and it is the most entertaining thing they will be handed all day.",
+        "Answer the phone if it rings. That is not a joke — it is part of the attraction and the staff enjoy it as much as the guests.",
+        "The room is small and gets crowded at peak times. Late afternoon and evening are considerably more pleasant than lunchtime."
+      ],
+      "verdict": "The best twenty minutes an adult can have inside this park, and the Flaming Moe is worth the money once for the theater rather than the drink.",
+      "faqs": [
+        {
+          "q": "What is a Flaming Moe?",
+          "a": "A sweet orange-forward drink served in a souvenir glass over dry ice, so the whole thing smokes dramatically. The effect is the product. It is available with or without alcohol, and the non-alcoholic version is identical in every way that matters to a child."
+        },
+        {
+          "q": "Can children go into Moe's Tavern?",
+          "a": "Yes. It is a themed bar rather than an adults-only venue, and the non-alcoholic Flaming Moe is one of the more entertaining things you can order for a child at this park."
+        },
+        {
+          "q": "Is Duff Beer a real beer?",
+          "a": "Yes, it is a real branded lager brewed for Universal rather than a joke prop. It is served here, at the Duff Brewery bar outside, and at Krusty Burger next door."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "duff-brewery",
+      "name": "Duff Brewery",
+      "land": "springfield",
+      "service": "lounge",
+      "cuisine": "Outdoor beer garden",
+      "priceTier": "$$",
+      "priceNote": "Duff Beer around $13, souvenir steins considerably more, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["all-day", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An outdoor Duff-branded bar in Springfield with the Seven Duffs statues, quicker than Moe's and less atmospheric.",
+      "description": [
+        "The Duff Brewery is the outdoor bar in Springfield, with the Seven Duffs statues arranged around it and a straightforward beer-and-cocktail offering. It exists mostly to absorb the overflow from Moe's Tavern, which is small and fills fast.",
+        "The advantage is speed and space. The disadvantage is that you are standing outside in the sun with a beer, in a park where shade is limited, and you have given up the one properly atmospheric room in Springfield to do it."
+      ],
+      "signatureItems": [
+        "Duff Beer",
+        "Duff Lite",
+        "Frozen cocktails",
+        "Souvenir stein"
+      ],
+      "goodFor": ["groups", "quick-bite", "solo"],
+      "tips": [
+        "Come here when Moe's is full, not instead of it. The beer is the same and the room is the whole difference.",
+        "The Seven Duffs statues are the photograph. They are easy to miss because everyone is looking at the bar.",
+        "There is little shade here. On a hot afternoon this is a two-minute stop rather than a place to settle.",
+        "Souvenir steins cost several times a standard pour. Work out whether you will actually carry it around for the rest of the day."
+      ],
+      "verdict": "Fine, fast and forgettable. Go to Moe's Tavern instead unless it is full, in which case this does the job.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bumblebee-mans-taco-truck",
+      "name": "Bumblebee Man's Taco Truck",
+      "land": "springfield",
+      "service": "food-truck",
+      "cuisine": "Tacos",
+      "priceTier": "$",
+      "priceNote": "Around $12 for a taco order as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A taco truck parked in Springfield, and the closest thing to a light meal in an area otherwise built entirely from fried food.",
+      "description": [
+        "Bumblebee Man's Taco Truck is exactly what it sounds like: a themed food truck on the Springfield street serving a short menu of tacos. It is a small operation with a short queue and it does one thing.",
+        "Its value in this park is proportion. Springfield is otherwise a wall of burgers, fried chicken and donuts, and this is the only place in the area serving something you can eat without needing to lie down afterward. In Los Angeles the tacos would be unremarkable; inside a theme park in the middle of Springfield they are a relief."
+      ],
+      "signatureItems": [
+        "Carne asada tacos",
+        "Chicken tacos",
+        "Vegetarian tacos"
+      ],
+      "goodFor": ["quick-bite", "budget", "vegetarian", "solo"],
+      "tips": [
+        "This is the lightest thing to eat in Springfield by a wide margin. Use it if you have already eaten heavily once that day.",
+        "The queue is almost always shorter than Krusty Burger's for a meal that arrives faster.",
+        "Corn tortillas make several of the options gluten-free, but confirm at the window rather than assuming.",
+        "There is no dedicated seating. Take the food to the shared Springfield tables or eat standing."
+      ],
+      "verdict": "Unremarkable tacos by Los Angeles standards and a genuine relief by Springfield standards. The best light option in the area.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "three-broomsticks",
+      "name": "Three Broomsticks",
+      "land": "wizarding-world-of-harry-potter",
+      "service": "quick-service",
+      "cuisine": "British pub food",
+      "priceTier": "$$",
+      "priceNote": "Mains around $18 to $22; the shared Great Feast platter is considerably more, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Hogsmeade inn, serving British pub food in a timber hall with the best interior of any restaurant in the park.",
+      "description": [
+        "Three Broomsticks is the main restaurant in the Wizarding World and the only place inside Universal Studios Hollywood where the room is the reason to eat there. It is a large timber-framed hall with exposed beams, a high sloping roof, long shared tables and enough dressing in the rafters to reward a look upward while you wait for food.",
+        "The menu is British pub food, straightforwardly executed: fish and chips, shepherd's pie, roast chicken, and a large shared platter intended for a family. It is competent rather than exciting, and the fish and chips is the item most consistently worth ordering.",
+        "It has the practical advantages that matter here — air conditioning, real indoor seating and a lot of it, and a connected pub next door. On a hot afternoon in a park short of both shade and chairs, that combination is worth choosing it for even if you are not especially hungry."
+      ],
+      "signatureItems": [
+        "Fish and chips",
+        "Shepherd's pie",
+        "Rotisserie chicken platter",
+        "The Great Feast",
+        "Butterbeer"
+      ],
+      "goodFor": ["families", "groups", "air-conditioned-break", "big-appetites", "vegetarian"],
+      "tips": [
+        "Mobile order and walk in. The counter queue at Three Broomsticks is one of the longest in the park at lunch, and the pickup window is far shorter.",
+        "Eat here at 11:15am or after 2:15pm. Between those hours the Wizarding World is the most congested ground in the park and this room is the reason.",
+        "The Great Feast platter is genuinely good value for four or more people, and poor value for two.",
+        "Sit in the main hall rather than the covered terrace if you can. The room is the point, and the terrace is just outdoor seating.",
+        "The Hog's Head pub is the same building. Order a drink there and bring it to your table rather than queuing twice."
+      ],
+      "verdict": "The food is fine and the room is the best in the park. Worth going to for the hall, the air conditioning and the seating, and the fish and chips is the order.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Three Broomsticks?",
+          "a": "No. It is a quick-service restaurant with counter ordering and mobile ordering through the app. There is no reservation system, and mobile ordering ahead is the way to avoid the worst of the lunchtime queue."
+        },
+        {
+          "q": "What should I order at Three Broomsticks?",
+          "a": "The fish and chips is the most consistently good item. The Great Feast platter is good value for four or more and poor value for two. Butterbeer is available at the counter and at the Hog's Head next door."
+        },
+        {
+          "q": "Is the Great Feast worth it?",
+          "a": "For a group of four or more, yes — it is one of the better per-person deals inside the park. For two people it is expensive and more food than you will finish. Order individual plates instead."
+        },
+        {
+          "q": "Are there vegetarian and gluten-free options?",
+          "a": "Yes, there are vegetarian dishes on the standard menu and gluten-free preparations available on request. Ask at the counter before ordering rather than after, since it affects which items are possible."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hogs-head-pub",
+      "name": "Hog's Head",
+      "land": "wizarding-world-of-harry-potter",
+      "service": "lounge",
+      "cuisine": "Pub — beer, cider and Butterbeer",
+      "priceTier": "$$",
+      "priceNote": "Beers around $12 to $14, Butterbeer around $9, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["all-day", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The pub attached to Three Broomsticks, with an animatronic boar's head over the bar and the park's only interesting beer list.",
+      "description": [
+        "The Hog's Head is the bar attached to Three Broomsticks, sharing the same building through a connecting doorway. It is darker, smaller and considerably better than the dining hall next door, with an animatronic hog's head mounted behind the bar that snarls when the bartender pulls a particular tap.",
+        "The list includes Wizarding World exclusive beers brewed for Universal, standard beers and ciders, and the full Butterbeer range. It is the only bar in the park with anything approaching a beer list worth reading, and it is air conditioned.",
+        "Adults tend to walk past it because the Wizarding World reads as a family area. That is the whole reason it stays comparatively quiet when the village square outside is impassable."
+      ],
+      "signatureItems": [
+        "Wizarding World exclusive draft beer",
+        "Butterbeer",
+        "Frozen Butterbeer",
+        "Cider"
+      ],
+      "goodFor": ["date-night", "solo", "air-conditioned-break", "groups", "late-night"],
+      "tips": [
+        "Watch the hog's head above the bar. It moves when a specific tap is pulled, and most guests never notice it.",
+        "This is the shortest Butterbeer queue in the Wizarding World for most of the day, because everyone else is at the outdoor cart.",
+        "Order here and carry the drink through to a table in Three Broomsticks rather than queuing twice.",
+        "It stays comparatively quiet in the middle of the day because adults assume the Wizarding World has nothing for them. Use that."
+      ],
+      "verdict": "The best bar in the Wizarding World and the shortest Butterbeer line in it. Worth going out of your way for on a hot afternoon.",
+      "faqs": [
+        {
+          "q": "Is the Hog's Head separate from Three Broomsticks?",
+          "a": "It is a separate bar inside the same building, connected by a doorway. You can order a drink at the Hog's Head and carry it to a table in the Three Broomsticks dining hall, which saves queuing in two places."
+        },
+        {
+          "q": "Where is the shortest Butterbeer queue?",
+          "a": "Usually the Hog's Head, because most guests default to the outdoor cart in the village square. The bar serves the full Butterbeer range, and it is air conditioned while the cart line is not."
+        },
+        {
+          "q": "Are there beers you cannot get elsewhere?",
+          "a": "Yes, there are Wizarding World exclusive drafts brewed for Universal alongside standard beers and ciders. It is the only bar inside this park with a list worth reading rather than a single tap."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "butterbeer-cart",
+      "name": "Butterbeer Cart",
+      "land": "wizarding-world-of-harry-potter",
+      "service": "snack-cart",
+      "cuisine": "Butterbeer in all three forms",
+      "priceTier": "$",
+      "priceNote": "Around $9 for cold or frozen Butterbeer, around $18 to $20 in a souvenir mug, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "An outdoor cart in the Hogsmeade square serving cold, frozen and hot Butterbeer, with the longest drinks queue in the park.",
+      "description": [
+        "The Butterbeer cart stands in the Hogsmeade village square and serves the drink in all three forms: cold, frozen and hot. It is the single most photographed purchase at Universal Studios Hollywood and it has a queue to match, often twenty minutes deep in the middle of the day for a drink you can buy indoors nearby with no wait at all.",
+        "Butterbeer itself is a sweet cream-soda-style drink with a butterscotch foam on top, non-alcoholic in every version. The frozen version is the one that holds up in Southern California, which is a practical rather than an aesthetic judgment.",
+        "The souvenir mug costs roughly double and is a large ceramic tankard that you then carry for the rest of the day. Consider that honestly before buying one at 10am."
+      ],
+      "signatureItems": [
+        "Frozen Butterbeer",
+        "Cold Butterbeer",
+        "Hot Butterbeer",
+        "Souvenir Butterbeer mug"
+      ],
+      "goodFor": ["families", "quick-bite", "vegetarian", "groups"],
+      "tips": [
+        "Buy it at the Hog's Head instead. Same drink, air conditioning, and a queue that is usually a fraction of the length.",
+        "Order the frozen version. The cold one is fine and the frozen one is the version that works in Los Angeles heat.",
+        "The souvenir mug is heavy ceramic. If you buy one in the morning you carry it all day, including on the Starway.",
+        "All versions are non-alcoholic. There is no adult Butterbeer here and staff are asked this constantly."
+      ],
+      "verdict": "Butterbeer is worth trying once and the frozen version is the one to get. Buy it at the Hog's Head rather than standing in this line.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "toadstool-cafe",
+      "name": "Toadstool Cafe",
+      "land": "super-nintendo-world",
+      "service": "quick-service",
+      "cuisine": "Themed American and Italian-influenced dishes",
+      "priceTier": "$$",
+      "priceNote": "Mains around $19 to $23, desserts around $12, a full meal about $35 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "recommended",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "Toad's restaurant in Super Nintendo World, where every plate is themed and the food is genuinely the best inside this park.",
+      "description": [
+        "Toadstool Cafe is inside Super Nintendo World, presented as a restaurant run by Toad, with an animated Toad appearing on a screen in the kitchen hatch and the dining room done as a mushroom house interior. It uses a virtual queue or booking system at busy times rather than a straight counter line, so check the app before walking up.",
+        "Every dish is themed to the point of absurdity — a burger shaped like Mario's cap, a mushroom soup served in a bread bowl shaped like a Super Mushroom, a dessert built as a question block — and the remarkable thing is that the kitchen is not hiding behind that. The food is genuinely good. The burgers are properly cooked, the pasta is not an afterthought, and the plating survives being carried to a table.",
+        "It is the best food inside Universal Studios Hollywood and it is not a close contest. That says something about the competition as well as about this kitchen, but it holds up on its own terms too."
+      ],
+      "signatureItems": [
+        "Mario bacon cheeseburger",
+        "Super Mushroom soup in a bread bowl",
+        "Fire flower spaghetti and meatballs",
+        "Piranha Plant caprese",
+        "Question block tiramisu"
+      ],
+      "goodFor": ["families", "special-occasion", "air-conditioned-break", "picky-eaters", "splurge"],
+      "tips": [
+        "Sort this out early in the day. It runs on a queue or booking system through the app at busy times and it fills by lunchtime.",
+        "The question block dessert is the item to order. It is the best-looking plate in the park and it tastes better than it needs to.",
+        "Look for Toad in the kitchen hatch. He appears periodically on a screen and interacts with the room, and half the diners never notice.",
+        "Vegetarians do better here than anywhere else inside this park. The caprese and the mushroom soup are both properly conceived rather than afterthoughts.",
+        "It is air conditioned and it is inside the busiest land in the park, which makes it a genuinely good midday reset even at the price."
+      ],
+      "verdict": "The best food inside Universal Studios Hollywood, and the only restaurant here worth planning your day around. Expensive, themed to the hilt, and the kitchen is doing real work behind it.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Toadstool Cafe?",
+          "a": "Not a reservation in the traditional sense, but at busy times it runs a queue or booking system through the Universal app rather than a walk-up counter line. Check the app early in the day, because it fills by lunchtime."
+        },
+        {
+          "q": "Is the food at Toadstool Cafe actually good?",
+          "a": "Yes. It is the best food inside this park by a clear margin — the burgers are properly cooked, the pasta is not an afterthought, and the themed plating does not come at the expense of the kitchen. It is the one restaurant here worth planning around."
+        },
+        {
+          "q": "What should I order at Toadstool Cafe?",
+          "a": "The Mario bacon cheeseburger for the signature plate, the Super Mushroom soup in a bread bowl if you want the best-looking savory dish, and the question block tiramisu for dessert. The dessert is the item people photograph and then eat entirely."
+        },
+        {
+          "q": "Are there vegetarian options?",
+          "a": "Yes, and better ones than anywhere else in the park. The Piranha Plant caprese and the mushroom soup are both properly designed dishes rather than a substitution off a meat menu."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jurassic-cafe",
+      "name": "Jurassic Cafe",
+      "land": "lower-lot",
+      "service": "quick-service",
+      "cuisine": "American — grilled chicken, ribs and burgers",
+      "priceTier": "$$",
+      "priceNote": "Plates around $19 to $24 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Lower Lot's main restaurant, next to Jurassic World, and the only substantial place to eat without going back up the Starway.",
+      "description": [
+        "Jurassic Cafe sits beside Jurassic World — The Ride and is the Lower Lot's principal place to eat. The menu is grilled and smoked American food — chicken, ribs, burgers, sides — served at a counter with covered outdoor seating around it.",
+        "The food is ordinary and the location is the point. If you have committed to spending your morning on the Lower Lot, this is what stands between you and taking four escalators back up for lunch, which is the correct reason to eat here.",
+        "Seating is outdoors and partly covered. It is noticeably cooler down here in the mornings than up top because of the shade from the hillside, which is one of the few advantages the Lower Lot has."
+      ],
+      "signatureItems": [
+        "Smoked ribs plate",
+        "Grilled chicken plate",
+        "Cheeseburger",
+        "Mac and cheese"
+      ],
+      "goodFor": ["families", "big-appetites", "quick-bite", "groups"],
+      "tips": [
+        "Eat here rather than going back up the Starway for lunch. Four escalators each way costs you more than the meal quality difference is worth.",
+        "Mobile order through the app. The counter here backs up around 12:30pm because it is the only real option on this level.",
+        "Sit under the covered section. The Lower Lot gets hillside shade in the morning and loses it by early afternoon.",
+        "Do not eat here immediately before Jurassic World. The 84-foot drop and a plate of ribs are a bad combination in either order."
+      ],
+      "verdict": "Ordinary food in the one place where that does not matter much. Eat here to avoid a round trip on the escalators, not because the ribs are worth seeking out.",
+      "faqs": [
+        {
+          "q": "Is there anywhere else to eat on the Lower Lot?",
+          "a": "Not substantially. There is a Starbucks and a bar down here, but Jurassic Cafe is the only real meal on this level. Everything else means going back up the Starway, which is four long escalators each way."
+        },
+        {
+          "q": "Is the food any good?",
+          "a": "It is ordinary theme park counter food, competently done. The reason to eat here is location rather than quality — it saves you a round trip on the escalators, which is worth more than the difference in food."
+        },
+        {
+          "q": "Is there shade?",
+          "a": "Partly. The seating is outdoors with covered sections, and the Lower Lot picks up hillside shade in the mornings that it loses by early afternoon. Aim for the covered tables if you are eating after noon."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "isla-nu-bar",
+      "name": "Isla Nu-Bar",
+      "land": "lower-lot",
+      "service": "lounge",
+      "cuisine": "Tropical cocktails and beer",
+      "priceTier": "$$",
+      "priceNote": "Cocktails around $17 to $19, beer around $13, as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["all-day", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A Jurassic-themed outdoor bar on the Lower Lot, serving tropical cocktails to people who have just been soaked.",
+      "description": [
+        "Isla Nu-Bar is the outdoor bar attached to the Jurassic World area on the Lower Lot, serving tropical cocktails, beer and frozen drinks in a covered thatched setting. The theming is light but the setting works, and it is one of the few places on the Lower Lot to sit down at all.",
+        "Its practical role is recovery. You come off Jurassic World — The Ride wet through, and this is thirty seconds away with somewhere shaded to sit while you dry out. That sequence is a better use of an afternoon than most things at this park."
+      ],
+      "signatureItems": [
+        "Frozen tropical cocktails",
+        "Draft beer",
+        "Specialty rum drinks"
+      ],
+      "goodFor": ["groups", "date-night", "solo", "quick-bite"],
+      "tips": [
+        "Do Jurassic World first, then come here. Wet clothes and a shaded seat with a cold drink is the correct order of operations.",
+        "It is one of very few places to sit on the Lower Lot. Use it as a rest stop even if you only want a soft drink.",
+        "Souvenir cups cost several times a standard pour, and you will be carrying one up four escalators later.",
+        "It is quieter than any bar on the Upper Lot because so few people come down here twice."
+      ],
+      "verdict": "Not a destination bar, but the right place at the right moment. A cold drink in the shade after Jurassic World is one of the better twenty minutes here.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lower-lot-starbucks",
+      "name": "Starbucks (Lower Lot)",
+      "land": "lower-lot",
+      "service": "quick-service",
+      "cuisine": "Coffee, pastries and cold drinks",
+      "priceTier": "$",
+      "priceNote": "Standard Starbucks menu pricing, broadly in line with locations outside the park as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Lower Lot's coffee stop, and the reason you do not need to take the escalators back up for a cold drink.",
+      "description": [
+        "There is a Starbucks on the Lower Lot running the standard menu at standard prices, which is worth knowing precisely because so little else is available on this level. Between this and Jurassic Cafe, you can spend a full morning down here without going back up.",
+        "It also matters for the same reason the Upper Lot one does: it is the only place in this park where a drink costs what a drink costs. Everything else on the property carries a substantial markup."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Iced latte",
+        "Refreshers",
+        "Pastries"
+      ],
+      "goodFor": ["quick-bite", "budget", "solo", "vegetarian"],
+      "tips": [
+        "This is why you do not need to go back up for a drink. Plan a full Lower Lot morning knowing coffee and food are both available down here.",
+        "Standard chain prices, unlike everything else at this park. It is the cheapest cold drink on the property.",
+        "The queue is usually short because most guests do not realize it is here.",
+        "Refill a water bottle at a fountain instead of buying bottled water anywhere in this park."
+      ],
+      "verdict": "Exactly what it says it is, at normal prices, in the one part of the park with almost nothing else. Genuinely useful rather than interesting.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

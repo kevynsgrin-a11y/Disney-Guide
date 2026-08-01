@@ -37,13 +37,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 72,
       "lowF": 51,
       "rainDays": 7,
       "note": "Climate normals for Orlando, not a forecast. January is the mildest month of the year here and one of the two driest, with low humidity and comfortable afternoons. The variance is what catches people out: a cold front can hold highs in the 50s and lows in the 30s for two or three days at a stretch, and Orlando's parks have very little indoor waiting space when it does. Pack for 70 degrees and carry a layer for 45."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 69,
       "lowF": 46,
       "rainDays": 6,
@@ -102,10 +102,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "EPCOT first-timer guide", "href": "/walt-disney-world/epcot/first-timer-guide/", "site": 1 },
-    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
-    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 }
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT first-timer guide",
+      "href": "/walt-disney-world/epcot/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "What to pack for a Disney park day",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland vs Disney World",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

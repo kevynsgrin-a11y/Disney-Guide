@@ -272,7 +272,15 @@ export function cardGrid (cards, { columns = 3, className = '' } = {}) {
 }
 
 export function linkGrid (links, { columns = 3 } = {}) {
-  const arr = (links || []).filter(Boolean)
+  /*
+   * A link with no href is dropped rather than rendered.
+   *
+   * Cross-links are resolved per operator — one site's "Rider Switch" guide is another's "Child
+   * Swap", and a third may not have one at all — so a template that offers a link cannot know the
+   * page exists. Resolving to null and filtering here means an operator without an equivalent page
+   * silently omits the link, instead of shipping a tile that 404s.
+   */
+  const arr = (links || []).filter((l) => l && l.href)
   if (!arr.length) return raw('')
   return html`
     <div class="link-grid link-grid--${columns}">
@@ -448,7 +456,7 @@ export function affiliateBox (site, { kind = 'tickets', heading, body }) {
 }
 
 export function relatedLinks (links, { title = 'Keep reading' } = {}) {
-  const arr = (links || []).filter(Boolean)
+  const arr = (links || []).filter((l) => l && l.href)
   if (!arr.length) return raw('')
   return html`
     <section class="band band--tint">

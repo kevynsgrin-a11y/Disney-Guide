@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 79,
       "lowF": 58,
       "rainDays": 7,
       "note": "Climate normals for Orlando, not a forecast. This is the best weather month of the Orlando year by a clear margin — warm afternoons, cool evenings, low humidity, and no afternoon convective storm pattern yet. It is also precisely why March is priced and attended the way it is. The good-weather months and the good-crowd months at Walt Disney World barely overlap."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 71,
       "lowF": 50,
       "rainDays": 5,
@@ -102,10 +102,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "EPCOT's best snacks", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
-    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 }
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT's best snacks",
+      "href": "/walt-disney-world/epcot/best-snacks/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland vs Disney World",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

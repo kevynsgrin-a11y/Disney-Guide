@@ -1,0 +1,191 @@
+{
+  "slug": "halloween-horror-nights-hollywood",
+  "name": "Halloween Horror Nights Hollywood",
+  "shortName": "HHN Hollywood",
+  "resort": "universal-hollywood",
+  "parkSlug": "universal-studios-hollywood",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "A shorter, tighter version of the Orlando event with one thing Orlando cannot copy: the Terror Tram, which takes the backlot after dark. It is an adult horror event, it is small enough that Los Angeles fills it on Fridays and Saturdays, and the night you pick matters more than anything else you decide.",
+  "h1": "Halloween Horror Nights Hollywood: the mazes, the Terror Tram, and which nights are worth buying",
+  "title": "Halloween Horror Nights Hollywood",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Universal Studios Hollywood's hard-ticket horror event: mazes, the Terror Tram, last cycle's price band, which nights to buy, and who should skip it.",
+
+  "typicalWindow": {
+    "startsAround": "early September",
+    "endsAround": "the first weekend of November",
+    "nightsTypical": 30,
+    "nightsRange": [25, 38],
+    "daysOfWeek": ["Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Roughly 19:00 to 01:00 on most nights and later on peak weekend dates, with the park closing to daytime guests in the early evening and reopening as a ticketed event"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [69, 179],
+    "asOf": "2025 season",
+    "cheapestNights": "Weeknights in the first two weeks of the run",
+    "priciestNights": "October Fridays and Saturdays, and Halloween night itself",
+    "notes": [
+      "Tax is additional, and every night is priced separately. The spread across one season has been wider than the cheapest ticket costs.",
+      "Multi-night passes covering blocks of dates have been sold each season, and two visits on one of those has generally cost less than two single-night tickets.",
+      "Event Express Pass is a separate product from the daytime one, priced by date, and it is the difference between four mazes and eight on an October weekend.",
+      "There is no hotel here that includes Express Pass the way three of the Orlando hotels do, so the Express decision is a straight cash decision.",
+      "Annual and Season Pass holders have had discounted dates and earlier purchase windows in past seasons, and those have not extended to the peak October weekends."
+    ]
+  },
+
+  "whatYouGet": [
+    "Around eight walk-through mazes, spread across the Upper Lot, the Lower Lot, and the backlot, built and staffed to the same standard as the Orlando event on a smaller footprint.",
+    "The Terror Tram, which runs the Studio Tour route on foot rather than by tram for part of its length and puts you out on the working backlot in the dark. Nothing at any other park does this, and it is the single reason to pick Hollywood over Orlando.",
+    "Outdoor scare zones on the walkways and in the plazas between mazes, which you pass through whether or not you queue for anything.",
+    "A short list of the park's regular rides operating during event hours, weighted toward the coasters and the big simulators.",
+    "Event-only bars and food stands, and a seasonal retail build-out on the Upper Lot.",
+    "A way to stay inside the park through the changeover if you also hold a daytime ticket, rather than leaving and rejoining the event queue outside."
+  ],
+
+  "whatYouDont": [
+    "A family event. Universal's guidance is that this is not recommended for anyone under thirteen. There is no age limit at the gate and no ID check, so the call belongs to the adult buying the ticket, and the content does not soften for a younger guest.",
+    "A costume night. Costumes, masks, and face paint are not permitted for guests. Several hundred of the people around you are performers, and the event depends on that being unambiguous.",
+    "Short queues on a weekend. Los Angeles alone fills this park on an October Friday, and the marquee mazes and the Terror Tram have all run past an hour on those dates.",
+    "An easy walk. The park is built on a hillside and the mazes are split across both levels, so a night here means several trips on the Starway escalators between them. That is a real cost in time and in legs, and it is the thing visitors from Orlando are least prepared for.",
+    "The full park. Most of the gentler attractions are closed during event hours, and the operating list is published close to the date.",
+    "A refund or a rain check. The event runs in rain; the indoor mazes hold up and the outdoor scare zones and the Terror Tram are what get thin.",
+    "The maze lineup at the point of sale. Universal announces mazes in stages through the summer, so an early ticket is bought on the event's record rather than on its content."
+  ],
+
+  "verdict": {
+    "short": "Go for the Terror Tram, go on an early-run weeknight, and buy Express Pass if the only date you can get is in October. It is a real horror event and it is not for children.",
+    "worthItIf": [
+      "You like horror rather than Halloween. This is a gore and jump-scare event for its whole length, and the two are not the same taste.",
+      "The Terror Tram appeals. It is the one thing at this event with no equivalent anywhere else, and it is the reason to pick Hollywood over the Orlando version if you can only do one.",
+      "You can go on a weeknight in the first two weeks of the run, where the cheapest tickets and the shortest queues sit together.",
+      "You will buy Express Pass for an October weekend rather than hoping. Without it, a peak Saturday here gets you about half the event.",
+      "You are already in Los Angeles for something else. This is a one-park event on a single evening and it does not need a trip built around it."
+    ],
+    "skipIf": [
+      "Anyone in your group is under about thirteen. The gate will not stop you and that is not the same as the event being appropriate.",
+      "Anyone in your group is pregnant, has a heart condition, or reacts badly to strobe lighting. Mazes run sustained strobes, heavy fog, and loud sudden noise, and there is no toned-down route through them.",
+      "Stairs and long escalator rides are a problem for anyone with you. The split between the Upper and Lower Lots is unavoidable at this event, and the crowd on the Starway at ten in the evening is dense.",
+      "You want ride count. The operating list during event hours is short and the queues are long, and a regular day ticket delivers several times more riding for less money.",
+      "Your only date is an October Saturday and Express Pass is out of budget. That combination reliably produces an expensive night with four mazes in it."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "The Lower Lot first, then everything else",
+      "body": [
+        "Go down the Starway in the first twenty minutes and clear the Lower Lot mazes before the escalator queue builds. The crowd entering the event starts on the Upper Lot because that is where the gates put it, and the descent is the one bottleneck that gets worse rather than better as the night goes on.",
+        "Coming back up is slower than going down, so treat the Lower Lot as one trip rather than two. Do every maze down there, ride anything you want on that level while you are there, and then commit to the top of the park for the rest of the night.",
+        "The last hour reverses this. The Lower Lot empties earliest because people drift up toward the exit, so if there is one maze down there you missed, that is when to go back for it rather than at nine in the evening.",
+        "Budget several minutes each way for the Starway itself. On an event night it is not a shortcut and it is not scenic, and people who plan a night here as though the park were flat lose about an hour to it."
+      ]
+    },
+    {
+      "heading": "The Terror Tram, and when to do it",
+      "body": [
+        "Do the Terror Tram early or do it last, and do not do it at nine in the evening. It boards from the Upper Lot and its queue behaves like an attraction rather than like a maze, which means it builds steadily through the middle of the night and drains sharply at both ends.",
+        "It is the longest single item at the event by some distance once you count the tram ride out and the walk back. Plan it as roughly a third of your evening rather than as one more maze.",
+        "It is also the item most affected by weather. The walking section is outdoors on the backlot, and heavy rain thins what is out there rather than closing the event.",
+        "If you only get one thing done on a busy Saturday, make it this rather than a maze. The mazes have Orlando equivalents and better versions of themselves elsewhere in the season; the backlot after dark does not exist anywhere else."
+      ]
+    },
+    {
+      "heading": "Which night to buy",
+      "body": [
+        "Take the earliest weeknight you can get. The park is small, the local population is enormous, and the difference between an early-run Wednesday and an October Saturday is the difference between doing the whole event and doing half of it.",
+        "October Fridays and Saturdays are the peak in both directions: the top of the price band and the longest queues of the season. If those are your only dates, buy Express Pass in the same transaction rather than deciding later.",
+        "Halloween night prices at the ceiling and contains nothing that a September Wednesday does not. It is the worst-value date on the calendar here for the same reason it is in Orlando.",
+        "The calendar starts thin. Early-run dates are the scarcest thing about this event, not the most expensive, so they need booking earlier than the peak dates people worry about."
+      ]
+    },
+    {
+      "heading": "Who should not be there, and why we say it plainly",
+      "body": [
+        "Universal advises against attendance for children under thirteen and does not enforce an age limit. Both parts of that are true at once: the advice is meant seriously, and nothing at the turnstile acts on it.",
+        "The content is continuous rather than occasional. Each maze is several minutes of low light, dense fog, sustained strobe lighting, loud sudden noise, and performers who move toward you and follow you out, and the scare zones do the same thing outdoors where there is no queue to leave.",
+        "There is no gentle version of a maze, no marked quiet path, and no way to cross the park at this event without passing through a scare zone. The only accommodation is not attending.",
+        "If you are in Los Angeles with young children and want a Halloween day at this park, plan it around the regular season instead. This event replaces the park rather than adding to it, and it does not soften in its first hour."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Halloween Horror Nights Hollywood suitable for children?",
+      "a": "No. Universal's published guidance is that the event is not recommended for anyone under thirteen, and it does not enforce an age limit, so the decision rests with the adult buying the ticket. The mazes run sustained strobes, heavy fog, gore, and performers who follow guests, and the outdoor scare zones mean there is no route across the park that avoids the content."
+    },
+    {
+      "q": "What is the Terror Tram, and is it worth it?",
+      "a": "It is the Studio Tour route after dark, part ridden and part walked, with the backlot dressed and staffed for the event. It is the one thing at this event with no equivalent at any other theme park, including the Orlando version, and it is the strongest argument for picking Hollywood. Allow roughly a third of your evening for it once you count the queue, the ride out, and the walk."
+    },
+    {
+      "q": "Do I need a separate ticket?",
+      "a": "Yes, in both directions. The park closes to daytime guests in the early evening and reopens as a ticketed event, so a day ticket does not admit you to the event and an event ticket does not admit you during the day. If you want both you are buying both, which makes for a long day on a hillside park that ends after midnight."
+    },
+    {
+      "q": "How many mazes can I do in one night?",
+      "a": "All of them plus the Terror Tram on a quiet early-run weeknight if you start on the Lower Lot. Four or five on an October Saturday without Express Pass. That gap is the whole case for choosing your date carefully, and it is wider here than in Orlando because the park is smaller and the local crowd is larger."
+    },
+    {
+      "q": "Can I wear a costume?",
+      "a": "No. Costumes, masks, and face paint are not permitted for guests at this event. The reason is operational rather than decorative: a large share of the people moving around you are performers, and the event only works if guests can identify them without hesitating."
+    },
+    {
+      "q": "Is Express Pass worth buying here?",
+      "a": "On an October weekend, yes, and it is closer to essential here than in Orlando because the park is small enough that queues have nowhere to spread. On an early-run weeknight, no. There is no hotel at this resort that includes Express Pass, so unlike Orlando there is no accommodation-based route around the decision."
+    },
+    {
+      "q": "How does it compare to the Orlando event?",
+      "a": "Orlando has more houses, a longer run, and more room to absorb a crowd. Hollywood has the Terror Tram and a park you can cross in ten minutes, and it is the easier of the two to fit into a trip that is not about theme parks. If you want the maximum number of houses, go to Orlando. If you want the backlot at night, only one of them has it."
+    },
+    {
+      "q": "Are this season's dates confirmed?",
+      "a": "No. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, maze lineup, or on-sale timing, so none are stated here. The stable shape is select nights at Universal Studios Hollywood from early September to the first weekend of November, on a run in the high twenties to mid thirties of nights, with around eight mazes plus the Terror Tram."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Universal Studios Hollywood park guide", "href": "/universal-hollywood/universal-studios-hollywood/", "site": 1 },
+    { "label": "Universal Studios Hollywood ride list", "href": "/universal-hollywood/universal-studios-hollywood/rides/", "site": 1 },
+    { "label": "Lower Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/lower-lot/", "site": 1 },
+    { "label": "Upper Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/upper-lot/", "site": 1 },
+    { "label": "Universal Studios Hollywood height requirements", "href": "/universal-hollywood/universal-studios-hollywood/height-requirements/", "site": 1 },
+    { "label": "Universal Studios Hollywood park map", "href": "/universal-hollywood/universal-studios-hollywood/map/", "site": 1 }
+  ],
+
+  "related": [
+    "halloween-horror-nights-orlando",
+    "grinchmas-at-universal-hollywood"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "priceRangeUsd": [69, 179],
+      "changes": [
+        "The event again ran select nights from early September to the first weekend of November, on a run in the low thirties of nights.",
+        "The Terror Tram returned, as it has every season, with a fresh theme rather than a repeat of the previous year's.",
+        "Around eight mazes ran, mixing licensed horror properties with originals, and the per-night price band again spread widely between early weeknights and October weekends."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 season figures, stated as 2025 figures: select nights at Universal Studios Hollywood from early September to the first weekend of November, around eight mazes plus the Terror Tram, and a per-night ticket band of roughly $69 to $179 before tax. We have not re-verified the exact night count or the maze list for that season, so neither is published as precise here.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run at Universal Studios Hollywood on select nights from early September to the first weekend of November for more than a decade, with around eight mazes and the Terror Tram every season. That pattern is strong enough to plan around. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, maze lineup, or on-sale timing, so this page states the pattern and the last documented cycle's price band only, and names no mazes.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}

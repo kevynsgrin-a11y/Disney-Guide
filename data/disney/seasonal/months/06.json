@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 92,
       "lowF": 73,
       "rainDays": 15,
       "note": "Climate normals for Orlando, not a forecast. Fifteen days with measurable rain, almost all of it in a convective window between roughly 3 and 6 PM, and heat index values well above the raw 92 because the dewpoint sits in the low 70s. June is the month the Florida summer pattern locks in and stops varying."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 78,
       "lowF": 60,
       "rainDays": 1,
@@ -101,10 +101,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 },
-    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 }
+    {
+      "label": "Disneyland vs Disney World",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    },
+    {
+      "label": "What to pack for a Disney park day",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

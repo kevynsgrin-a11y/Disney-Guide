@@ -1,0 +1,185 @@
+{
+  "slug": "parking-and-transportation",
+  "title": "Universal Parking and Transport Costs",
+  "titleTail": ": Both Resorts, July 2026",
+  "h1": "Universal parking and transport costs, and when not to bring a car at all",
+  "description": "Parking charges at Universal Orlando and Universal Studios Hollywood as of July 2026, airport transfer costs, and the one park you can reach without driving.",
+  "summary": "Parking is a per-car per-day charge at both Universal resorts and it is the line item most trip budgets forget entirely, which for a week in Orlando adds up to more than a day's admission.",
+  "ownership": "This page covers what it costs to get there and to park. Getting around inside the parks, and the walkways, boats and shuttles that connect them, are covered on the evergreen resort pages.",
+  "rows": [
+    {
+      "label": "Theme park self-parking, per car per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        30,
+        40
+      ],
+      "asOf": "July 2026",
+      "note": "Charged per car per day at both Orlando campuses, and paying at one does not automatically cover the other on the same day. Annual passes at the middle and upper tiers usually include it, which is a large part of why those tiers make sense for anyone visiting more than a few times."
+    },
+    {
+      "label": "Preferred or prime parking, per car per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        50,
+        70
+      ],
+      "asOf": "July 2026",
+      "note": "Closer rows in the same structures. What you are buying is a shorter walk through the garage rather than a shorter walk to the park, because the moving walkways from the Orlando garages are long regardless of where you park. Worth it in July, hard to justify in February."
+    },
+    {
+      "label": "Valet parking, per car per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        40,
+        90
+      ],
+      "asOf": "July 2026",
+      "note": "Priced by duration on some versions, which is why this band is wide. Its case is an evening at CityWalk rather than a full park day, and for a short evening visit the cheaper valet rate can undercut a full day of self-parking."
+    },
+    {
+      "label": "General parking, per car per day",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        30,
+        40
+      ],
+      "asOf": "July 2026",
+      "note": "Charged per car per day in the structures below the park. Prices step up on peak dates. Season passes at the middle and upper tiers usually include it, and for a local visiting monthly that benefit is worth more than the discount on food."
+    },
+    {
+      "label": "Preferred and front gate parking, per car per day",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        45,
+        80
+      ],
+      "asOf": "July 2026",
+      "note": "The park sits on a hillside and the general structures are a walk and an escalator ride from the gate, so this upgrade buys something more tangible here than it does in Orlando. On a hot day or with small children it is the one parking upgrade at either resort we would consider."
+    },
+    {
+      "label": "Rideshare, Orlando International to the Universal Orlando area, one way",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        30,
+        60
+      ],
+      "asOf": "July 2026",
+      "note": "Roughly twenty minutes in normal traffic, which is closer than the drive to the other Orlando resort. Universal runs no free airport shuttle, so the realistic options are a rental car, a rideshare, or a paid shuttle service. Surge pricing at peak arrival times pushes this to the top of the band."
+    },
+    {
+      "label": "Rideshare, Hollywood Burbank Airport to Universal City, one way",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        20,
+        45
+      ],
+      "asOf": "July 2026",
+      "note": "Burbank is the closest and easiest airport for this park. Los Angeles International is cheaper to fly into and thirty to sixty minutes away depending on traffic, with a correspondingly higher rideshare fare, so the cheaper flight is frequently not the cheaper trip."
+    },
+    {
+      "label": "Metro B Line fare to Universal City, per person, single ride up to the daily cap",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        1.75,
+        5
+      ],
+      "asOf": "July 2026",
+      "note": "The Metro B Line stops at Universal City with a free shuttle up the hill to the park entrance. This is the rare Los Angeles attraction genuinely reachable without a car, and at these fares it removes both the parking charge and the rental entirely for anyone staying near the line."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Parking is the line item nobody budgets",
+      "body": [
+        "Both resorts charge per car per day, and the charge does not fall on a multi-day visit. A four-day Orlando trip with a rental car adds a meaningful sum in parking alone before you have bought anything else, and it is the most consistently forgotten item in a Universal budget.",
+        "In Orlando the two campuses are separate. Epic Universe sits on its own campus a short drive from the original parks, and paying to park at one does not automatically cover the other on the same day. Anyone planning to move between campuses by car should check what their parking payment actually covers before doing it twice.",
+        "Universal Orlando has historically not charged for self-parking after a set hour in the evening, which if it still applies makes a CityWalk dinner materially cheaper than a park day. We are not stating it as current policy because we have not verified it for this cycle, and it is exactly the kind of perk that gets withdrawn quietly."
+      ]
+    },
+    {
+      "heading": "When not to bring a car at all",
+      "body": [
+        "At Universal Studios Hollywood, if you are staying anywhere near the Metro B Line, do not drive. The line stops at Universal City with a free shuttle up the hill, the fares are trivial next to a day of parking, and Los Angeles traffic around the Cahuenga Pass at the end of a park day is genuinely unpleasant.",
+        "At Universal Orlando the answer depends on whether you are staying on site. On-site guests can reach the two original parks and CityWalk on foot, by walkway or by water taxi, and a resort shuttle bus runs to Epic Universe, so a car earns its parking charge only if you intend to leave the resort. Off-site guests generally need one.",
+        "The airport question differs by coast. Orlando International is about twenty minutes away and Universal runs no free shuttle, so a rideshare each way often beats a rental plus parking on a short trip. In Los Angeles, Burbank is close enough that the same logic applies with a smaller fare, and Los Angeles International rarely is."
+      ]
+    },
+    {
+      "heading": "Which parking upgrade is worth buying",
+      "body": [
+        "In Hollywood, the front gate or preferred parking upgrade is the one parking purchase at either resort we would genuinely consider. The park is on a hillside, the general structures involve a walk and an escalator ride, and on a hot afternoon at the end of a long day that walk is the worst part of it.",
+        "In Orlando the case is much weaker. The moving walkways from the garages to CityWalk are long regardless of which row you parked in, so the preferred upgrade shortens the garage portion and not the rest. In July it buys a few minutes out of the sun; in February it buys almost nothing.",
+        "Valet in Orlando is worth pricing for an evening at CityWalk specifically, where a short-duration rate can undercut a full day of self-parking. For a full park day it is an expensive convenience rather than a saving."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Take the Metro B Line to Universal Studios Hollywood if you are staying anywhere near it. The station has a free shuttle to the park entrance, the fare is a rounding error against a day of parking, and it removes the Cahuenga Pass traffic from the end of your day. This is the largest transport saving available at either resort.",
+    "Check whether your annual or season pass includes parking before paying for it separately. Middle and upper tiers at both resorts usually do, and for anyone visiting more than a handful of times that benefit is worth more than the food and merchandise discount that gets advertised alongside it.",
+    "Price a rideshare each way against a rental plus parking on a short Orlando trip. Orlando International is about twenty minutes from the resort and there is no free shuttle. For a three-day on-site stay where you do not intend to leave the resort, two rideshares beat a rental car and three days of parking comfortably.",
+    "Skip the preferred parking upgrade in Orlando and consider it in Hollywood. The Orlando moving walkways are long whichever row you park in, so the upgrade shortens the least tiring part of the walk. Hollywood's hillside layout means the same upgrade genuinely shortens the climb, which matters most in summer and with small children.",
+    "Check what your parking payment covers before driving between the two Orlando campuses. Epic Universe is on its own campus a short drive from the original parks, and paying at one does not automatically cover the other on the same day. Working this out at the second gate is how a day acquires a second parking charge.",
+    "Fly into Burbank rather than Los Angeles International for a Universal Studios Hollywood trip if the fare difference is modest. Burbank is close enough that the rideshare fare is small, while the Los Angeles International trip can take an hour in traffic and costs several times as much, which frequently erases the cheaper airfare."
+  ],
+  "crossLinks": [
+    {
+      "label": "Your first Universal trip",
+      "href": "/guides/first-universal-trip/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Hollywood resort overview",
+      "href": "/universal-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood map",
+      "href": "/universal-hollywood/universal-studios-hollywood/map/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is parking free at any point?",
+      "a": "Universal Orlando has historically not charged for self-parking after a set hour in the evening, which made a CityWalk dinner much cheaper than a park day. We have not verified whether that still applies for the current cycle and we are not going to state it as policy. Check on the day rather than budgeting on it, because perks like this get withdrawn quietly."
+    },
+    {
+      "q": "Do I need a car at Universal Orlando?",
+      "a": "Not if you are staying on site and not leaving the resort. The two original parks and CityWalk are walkable or reachable by water taxi from several hotels, and a resort shuttle bus runs to the Epic Universe campus. Off-site guests generally do need one, and in that case two rideshares from the airport often beat a rental plus several days of parking."
+    },
+    {
+      "q": "Can I get to Universal Studios Hollywood without driving?",
+      "a": "Yes, and it is one of the few Los Angeles attractions where that is genuinely true. The Metro B Line stops at Universal City and a free shuttle runs up the hill to the park entrance. At Metro fares this removes both the parking charge and the rental car for anyone staying near the line, and it avoids the traffic at the end of the day."
+    },
+    {
+      "q": "Does one parking payment cover both Orlando campuses?",
+      "a": "Do not assume so. Epic Universe sits on its own campus a short drive from Universal Studios Florida and Islands of Adventure, and the parking arrangements are separate. If you intend to drive between them on the same day, check what your payment covers before you do it, because discovering otherwise at the second gate costs a second full day's charge."
+    },
+    {
+      "q": "Is preferred parking worth the extra?",
+      "a": "In Hollywood, often, because the park is on a hillside and the general structures add a walk and an escalator ride to each end of the day. In Orlando, rarely, because the moving walkways from the garages are long whichever row you are in and the upgrade only shortens the garage portion. In a Florida July it buys a few minutes out of the sun."
+    },
+    {
+      "q": "Which airport should I use?",
+      "a": "Orlando International for Universal Orlando, at about twenty minutes away with no free resort shuttle. Hollywood Burbank for Universal Studios Hollywood, because it is closest and the transfer is short. Los Angeles International is often the cheaper flight and thirty to sixty minutes away depending on traffic, and the transfer cost frequently erases the fare difference."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Parking bands describe charges observed as of July 2026 and are wide because both resorts step parking pricing up on peak dates. The historical evening self-parking waiver at Universal Orlando is described on the page as unverified for the current cycle and is deliberately not stated as policy. Rideshare figures are typical fares rather than quotes and move with surge pricing. Metro fares are the published single ride and daily cap at the time of checking.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

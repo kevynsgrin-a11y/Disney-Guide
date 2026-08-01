@@ -1,0 +1,196 @@
+{
+  "slug": "express-pass",
+  "title": "Universal Express Pass Prices",
+  "titleTail": ": Both Resorts, and the Hotel Arithmetic, July 2026",
+  "h1": "Universal Express Pass prices, and whether the hotel that includes it is cheaper",
+  "description": "What Express Pass costs at Universal Orlando and Universal Studios Hollywood as of July 2026, how sharply it moves by date, and when the hotel is the cheaper buy.",
+  "summary": "Express Pass is the most date-sensitive thing Universal sells and the largest discretionary line on most trips, which means the arithmetic that matters is not whether to buy it but whether a hotel that includes it costs less than buying it.",
+  "ownership": "This page is the price list. What Express Pass does, which attractions accept it, and how the queue mechanics work are owned by the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Express Pass, one park, per person per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        80,
+        200
+      ],
+      "asOf": "July 2026",
+      "note": "One ride per participating attraction. Priced entirely by date and by expected demand, and the spread between a January weekday and a Christmas-week Saturday is larger than for any other product Universal sells. The bottom of this band is close to impulse money and the top is more than the park ticket."
+    },
+    {
+      "label": "Express Pass, park-to-park, per person per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        100,
+        240
+      ],
+      "asOf": "July 2026",
+      "note": "Covers Universal Studios Florida and Islands of Adventure on the same day and requires a park-to-park ticket to be useful. On a busy day this is the version most visitors want, because the two parks are ten minutes apart and being locked into one halves the value."
+    },
+    {
+      "label": "Express Unlimited, park-to-park, per person per day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        130,
+        320
+      ],
+      "asOf": "July 2026",
+      "note": "Unlimited rides on participating attractions rather than one each. Worth the premium only if you intend to repeat headliners, which at this operator is a more common plan than at most. On a first visit trying to see everything once, the standard version does the same job for less."
+    },
+    {
+      "label": "Express Pass for Halloween Horror Nights, per person per night",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        110,
+        300
+      ],
+      "asOf": "2025 season",
+      "note": "Sold separately from the daytime product and the most expensive queue item Universal offers. It sells out in advance for the busiest October nights. On an early-season weeknight it is genuinely optional; on the last Saturdays before Halloween it is the difference between six houses and two."
+    },
+    {
+      "label": "Standard Express Pass for a family of four, one Orlando park day",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        320,
+        800
+      ],
+      "asOf": "July 2026",
+      "note": "Four times the per-person one-park band, because there is no family rate and no multi-day discount on any Express Pass product at either resort. This is the number to hold against a hotel rate difference, an extra park day, or a second night of an event."
+    },
+    {
+      "label": "Universal Express, per person per day",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        110,
+        320
+      ],
+      "asOf": "July 2026",
+      "note": "Hollywood sells one product and it is the unlimited kind, which is why its floor sits above Orlando's. Priced by date and moving sharply between a rainy January weekday and a July Saturday. There is no hotel here that includes it, so this is always a straight purchase."
+    },
+    {
+      "label": "Universal Express for Halloween Horror Nights, per person per night",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        100,
+        290
+      ],
+      "asOf": "2025 season",
+      "note": "The same shape as the Orlando event product and the same advice. A compact park with a large local pass base means peak nights here queue at least as hard as Florida's relative to capacity, so the argument for buying it on a late-October Saturday is if anything stronger."
+    },
+    {
+      "label": "Guided VIP tour, per person per day",
+      "resort": "both",
+      "rangeUsd": [
+        300,
+        700
+      ],
+      "asOf": "July 2026",
+      "note": "The tier above Express Pass at both resorts: a guide, back-door access to attractions, and food included on most versions. It never saves money and is not sold as though it does. Priced by date and by whether the tour is private or shared, and the private versions price well above the top of this band."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The hotel arithmetic, which is the whole reason this page exists",
+      "body": [
+        "Universal Orlando includes Express Pass with a stay at three of its hotels — Loews Portofino Bay, Hard Rock Hotel and Loews Royal Pacific — for every guest in the room, for the whole stay, with no per-day purchase. That is the single most distinctive value proposition either resort has, and it is the calculation to run before you book anything else.",
+        "The shape of it is straightforward. Take the nightly premium of one of those three hotels over the value or mid-tier hotel you would otherwise book, multiply by your nights, and compare that against the Express Pass band above multiplied by your party size and your park days. On a busy-season trip for a family of four across three or four park days, the hotel frequently comes out cheaper, and it also buys you early park admission and a walkable or boat-connected location.",
+        "The calculation flips in the quiet months. In the second and third weeks of January, in February outside the Presidents' holiday, and in September, Express Pass is cheap enough that buying it for one day beats paying a premium hotel rate for four nights. The inclusion is worth most in exactly the weeks it is hardest to book.",
+        "At Universal Studios Hollywood there is no equivalent. No hotel includes Express there, so it is a straight per-day purchase and the only lever is which day you buy it for."
+      ]
+    },
+    {
+      "heading": "Why the same product costs three times as much on a different date",
+      "body": [
+        "Express Pass is priced dynamically at both resorts by date and by expected demand, and it is repriced without announcement. That is why every figure on this page is a band with a month attached rather than a quote. The Orlando one-park band is not a range across products or party sizes — it is the range for one person, one day, depending only on which date.",
+        "That pricing tracks the crowd calendar more accurately than any third-party forecast, which makes it the most honest crowd prediction Universal publishes. If Express Pass for your date is near the top of its band, that is the operator telling you the park will be busy. Checking the price for two candidate dates before booking either one costs nothing and is the single most useful planning tool here.",
+        "The practical consequence on a multi-day trip is to buy per day rather than per trip. Universal does not discount it across days, so there is no penalty for buying it on your worst day and going without on the others, and on a four-day Orlando trip that shape usually returns more than any other tactic."
+      ]
+    },
+    {
+      "heading": "When it is worth buying, stated plainly",
+      "body": [
+        "Buy it when the alternative is standing in a queue during hours you cannot get back. In an Orlando summer that means the middle of the day, when the heat has already halved the usable hours; in October it means a Halloween Horror Nights night, when the queues are the product you came for; in the Christmas fortnight it means every day.",
+        "Do not buy it in the second and third weeks of January, in February outside the Presidents' holiday, or on a September weekday, unless the day is a Saturday. In those windows arriving before the gate opens does most of the same work for nothing, and the money is better spent on the park-to-park upgrade.",
+        "At Universal Studios Hollywood the decision is sharper because the park is small. On a weekday, rope drop clears the Lower Lot coasters and the Studio Tour before the crowd arrives, and Express is genuinely optional. On a Saturday or in any school holiday, a compact hillside park with a large local pass base queues hard enough that it is close to necessary.",
+        "The event version is a separate decision from the daytime one and should be made separately. Two cheap Halloween Horror Nights weeknights usually cost less than one peak Saturday plus event Express, and deliver more houses."
+      ]
+    },
+    {
+      "heading": "What this page does not cover",
+      "body": [
+        "The mechanics belong on the evergreen side of this site: which attractions participate, how the queue merge works, what happens when an attraction is down, and how the product differs between the two Orlando campuses. Those facts do not decay the way prices do, so they have one owner and it is not this page.",
+        "Volcano Bay uses a different system from the theme parks and is not covered by the Express Pass products above. Check what is being sold for that park separately rather than assuming a resort-wide purchase covers it.",
+        "Nothing here is a quote. Universal reprices this product more often than anything else it sells, and a band that was accurate in July 2026 may not describe the same calendar a year later. Check the price for your own date in the booking flow before you budget against these figures."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Run the hotel comparison before you book a room. Express Pass is included for every guest in the room, for the whole stay, at three Universal Orlando hotels. Take the nightly premium over the hotel you would otherwise book, multiply by nights, and compare it against the per-person band above multiplied by your party and your park days. On a busy-season family trip the hotel usually wins, and it includes early park admission as well.",
+    "Buy it for the day rather than the trip. There is no multi-day discount on any Express Pass product at either resort, so there is no penalty for buying it on your busiest park day and going without on the rest. On a four-day Orlando trip that shape typically saves more than every other tactic on this page combined.",
+    "Price two candidate dates before you commit to either. The product is priced by date and the spread across a single month is enormous, which means the cheapest way to buy Express Pass is to need it less. If two of your park days are interchangeable, put the paid one on the day that prices high and rope drop the other.",
+    "Deselect anyone who will not use it. Every pass is tied to an individual ticket, so the grandparent who plans to sit in the shade and the toddler who will nap through the afternoon should come off the purchase screen. On a party of six in Orlando that is real money for doing nothing, and it is easy to miss at seven in the morning.",
+    "Skip it in the genuinely quiet windows. The second and third weeks of January, February outside the Presidents' holiday, and September weekdays do not need it at either resort. Arriving before the gate opens does most of the same work, and the money is better spent on the park-to-park upgrade in Orlando.",
+    "Treat the Halloween Horror Nights version as a separate decision. Two cheap weeknights early in the season usually cost less than one peak Saturday with event Express attached, and they deliver more houses. Buying the date instead of the upgrade is the strongest move available in that season.",
+    "Buy the standard version rather than Unlimited on a first Orlando visit. Unlimited is worth its premium only if you intend to repeat headliners. If the plan is to see everything once, the standard product does the same job and the difference is enough to cover a park day at Volcano Bay."
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal single rider lines",
+      "href": "/guides/single-rider/",
+      "site": 1
+    },
+    {
+      "label": "Universal Virtual Line explained",
+      "href": "/guides/virtual-line/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the hotel that includes Express Pass actually cheaper than buying it?",
+      "a": "Often, on a busy-season trip for a family. Universal Orlando includes it with a stay at three of its hotels for every guest in the room for the whole stay, so the comparison is the nightly premium over your alternative hotel times your nights, against the per-person price times your party times your park days. In summer, October and the Christmas fortnight the hotel usually wins. In January, February and September it usually does not."
+    },
+    {
+      "q": "Is there a multi-day or family discount?",
+      "a": "No, at either resort, on any Express Pass product. Everything is priced per person, per day. That is the largest single difference between Express Pass and every ticket product Universal sells, and it is why buying it for one day rather than the whole trip is usually the right shape."
+    },
+    {
+      "q": "Do I need Express Unlimited or is the standard version enough?",
+      "a": "Standard is enough on a first visit where the plan is to see everything once. Unlimited is worth its premium when you intend to repeat headliners, which at this operator is a more common plan than at most because the ride list skews toward high-intensity attractions people want to ride twice. Decide by whether you are collecting or repeating."
+    },
+    {
+      "q": "Does Express Pass work for Halloween Horror Nights?",
+      "a": "No. The event has its own Express Pass, sold separately and priced by date, and the daytime product does not carry over. It is the most expensive queue item Universal offers and it sells out in advance for the busiest October nights. On an early-season weeknight it is optional; on a peak Saturday it is close to necessary."
+    },
+    {
+      "q": "Why is Hollywood's floor higher than Orlando's?",
+      "a": "Because Hollywood sells only the unlimited version, while Orlando sells a cheaper one-ride-per-attraction product alongside it. Comparing like with like, Orlando's unlimited band and Hollywood's overlap closely. Hollywood also has no hotel inclusion, so there is no way to get it as part of something else."
+    },
+    {
+      "q": "Should I buy it in advance or on the day?",
+      "a": "In advance for any peak date, and on the day is fine for a quiet one. Prices are set per date rather than rising through the day, but the busiest dates sell out — particularly the event version in October — and buying at the gate on a peak morning sometimes means not buying it at all. On a quiet weekday you can decide when you see the queues."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Every band here describes pricing observed as of July 2026 for the daytime products, and the 2025 season for the Halloween Horror Nights products, and all are deliberately wide. We label this page as last-confirmed because Universal prices Express Pass dynamically at both resorts and reprices it without announcement, and we have no operator announcement to cite. The guided VIP tour band is the least well sampled row on the page and private tours price above it. The hotel inclusion at three Universal Orlando hotels is standing policy rather than a dated offer.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

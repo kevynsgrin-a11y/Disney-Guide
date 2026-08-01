@@ -37,13 +37,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 85,
       "lowF": 67,
       "rainDays": 9,
       "note": "Climate normals for Orlando, not a forecast. The rainy season breaks somewhere in the first half of the month and the humidity drops noticeably with it, which makes the back half of October arguably the best weather of the Florida fall. Hurricane season is still technically running but the statistical risk falls sharply from September's peak."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 79,
       "lowF": 57,
       "rainDays": 2,
@@ -103,10 +103,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
-    { "label": "Magic Kingdom first-timer guide", "href": "/walt-disney-world/magic-kingdom/first-timer-guide/", "site": 1 },
-    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
-    { "label": "Is it scary? Ride-by-ride intensity", "href": "/guides/is-it-scary/", "site": 1 }
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom first-timer guide",
+      "href": "/walt-disney-world/magic-kingdom/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    },
+    {
+      "label": "Is it scary? Ride-by-ride intensity",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

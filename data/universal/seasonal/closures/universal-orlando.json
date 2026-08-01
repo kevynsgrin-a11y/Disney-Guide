@@ -1,0 +1,50 @@
+{
+  "resort": "universal-orlando",
+  "slug": "universal-orlando",
+  "title": "Universal Orlando Closures and Construction",
+  "titleTail": ": Nothing Verified, July 2026",
+  "h1": "Universal Orlando closures and construction: what we can actually support",
+  "description": "An honest, empty refurbishment tracker for Universal Orlando as of July 2026, with no invented closures and no invented reopening dates.",
+  "summary": "This tracker is empty as of July 2026. We have no Universal Orlando closure or refurbishment we can verify and support, and an empty tracker is a more useful thing to publish than a list assembled from rumour — check the operator's own app on the morning you travel.",
+  "scope": "This tracker would list attractions closed for refurbishment, closed permanently, or under construction at Universal Studios Florida, Islands of Adventure and Epic Universe. Routine short-term maintenance closures are deliberately out of scope, because they are announced weeks rather than months ahead and a tracker that tried to predict them would be wrong more often than right.",
+  "items": [],
+  "sections": [
+    {
+      "heading": "Why this page is empty",
+      "body": [
+        "We publish closures we can verify and nothing else. As of July 2026 we have no Universal Orlando attraction closure or construction item that meets that bar, so the list is empty rather than padded. An empty tracker is a real state and a useful one, and it is a great deal more useful than a list assembled from forum posts and construction photographs.",
+        "That is not the same as saying nothing is closed. Universal takes attractions down for maintenance throughout the year at all three Orlando parks, most heavily in January and February, and it typically posts those closures a few weeks ahead rather than a few months. Anything currently down is very likely to be one of those.",
+        "The place to check is the operator's own app and refurbishment calendar in the fortnight before you travel, and again on the morning of your visit. No published tracker anywhere, including this one, moves fast enough to be the right source for a closure announced eleven days out."
+      ]
+    },
+    {
+      "heading": "What would appear here",
+      "body": [
+        "Long-lead closures with a stated end, such as a headline attraction down for a multi-month rebuild. Those are announced with enough notice to be worth planning around and are exactly what a tracker is for.",
+        "Permanent closures, which change what a park is rather than what a week at it looks like. Those matter most to returning visitors working from a mental map more than a year old.",
+        "Construction with an announced opening, stated as a year or a season rather than a date, and labelled as expected rather than confirmed unless the operator has published a date we can cite. We would not print a fixed opening day for anything that is not yet open."
+      ]
+    },
+    {
+      "heading": "What we will not print",
+      "body": [
+        "Reopening dates we cannot source. A year on a construction wall in a photograph is not an announcement, and a date circulating on an enthusiast forum is not a source. Where we have nothing, this page says so.",
+        "Routine refurbishments guessed from past patterns. Most major attractions at this resort go down for maintenance at some point in a year, usually for a couple of weeks, and the timing moves. Predicting them would produce a page that is wrong more often than right at exactly the moment somebody consults it.",
+        "Construction walls, scrim and crane positions. Those change monthly and are a photography concern rather than a planning one. If that is the question, recent visitor reports closer to your dates will serve you better than any published tracker can."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Universal Studios Florida ride list", "href": "/universal-orlando/universal-studios-florida/rides/", "site": 1 },
+    { "label": "Islands of Adventure ride list", "href": "/universal-orlando/islands-of-adventure/rides/", "site": 1 },
+    { "label": "Epic Universe ride list", "href": "/universal-orlando/epic-universe/rides/", "site": 1 },
+    { "label": "Universal Orlando resort overview", "href": "/universal-orlando/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "This tracker is intentionally empty. As of July 2026 we hold no verified closure, refurbishment or construction item for any of the three Universal Orlando parks that we are prepared to publish, and we would rather show nothing than a list we cannot support. Routine short-term maintenance is out of scope by design, because Universal announces it weeks rather than months ahead. Check the operator's own refurbishment calendar before travelling.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

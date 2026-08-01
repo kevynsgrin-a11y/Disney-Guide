@@ -43,6 +43,7 @@ export function holidayPage (holiday, data) {
       title: 'Your options, by resort',
       intro: 'Both coasts do this differently, and the right answer depends on which one you are going to.',
       children: SC.resortSplit(holiday.byResort, {
+        resorts: (data.site && data.site.resorts) || [],
         renderer: (key, block) => {
           const events = (block.events || []).map((slug) => data.eventBySlug.get(slug)).filter(Boolean)
           return html`
@@ -158,7 +159,7 @@ export function pricePage (price, data) {
 
     ${C.section({
       title: 'What it costs',
-      children: SC.priceTable(price.rows, { caption: `Checked ${SC.monthLabel(price.freshness.verified)}. Ranges, not fixed prices — see the note above.` }),
+      children: SC.priceTable(price.rows, { resorts: (data.site && data.site.resorts) || [], caption: `Checked ${SC.monthLabel(price.freshness.verified)}. Ranges, not fixed prices — see the note above.` }),
     })}
 
     ${price.sections && price.sections.length ? C.section({ children: SC.sectionBlocks(price.sections) }) : ''}

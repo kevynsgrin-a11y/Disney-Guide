@@ -1,0 +1,132 @@
+{
+  "slug": "spring-break-and-easter",
+  "season": "spring",
+  "title": "Universal at Spring Break and Easter",
+  "titleTail": ": Which Weeks Are Survivable",
+  "h1": "Universal at spring break and Easter: which weeks are survivable and which are not",
+  "description": "How spring break crowds hit Universal Orlando and Universal Hollywood differently, when Easter week peaks, and the one week worth moving your trip to.",
+  "summary": "Spring break hits the two Universal resorts on completely different schedules, and knowing which one applies to your dates is worth more than every queue tactic combined: Orlando is busy for six weeks straight while Hollywood only really feels the Easter fortnight.",
+  "typicalWindow": {
+    "startsAround": "the first week of March at Universal Orlando",
+    "endsAround": "the week after Easter, wherever Easter falls"
+  },
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": [
+        "Go to Universal Studios Hollywood in March and to Universal Orlando in late April, and avoid both in the fortnight bracketing Easter. That single sentence covers the whole season, because the two resorts draw their spring crowd from completely different school calendars.",
+        "Orlando is the destination that US spring break travels to. Districts stagger their breaks across four or five weeks, so no week in March empties and no week is dramatically worse than the others, which removes the usual lever of moving your dates. Hollywood is a local park in a region whose districts mostly attach spring break to Easter rather than taking a fixed March week, so its March weekdays stay moderate while Orlando's do not.",
+        "Easter week is the exception that catches both. It is the last national break before summer, it concentrates into about ten days rather than staggering, and Southern California breaks with everybody else. Both resorts run at genuine peak, and Orlando at least has three parks to spread the crowd across."
+      ]
+    },
+    {
+      "heading": "Why March behaves so differently on each coast",
+      "body": [
+        "Universal Orlando's March is high-attendance from the first weekend to the last, with the middle two weeks worst. That is a function of who travels: northeastern and midwestern districts break at different points in the month, international spring travel overlaps them, and Florida's own schools take a week in there too. The result is a plateau rather than a spike.",
+        "Universal Studios Hollywood's March is moderate on weekdays and high at weekends, and the weekend part is local rather than tourist. The park's business is dominated by Southern California annual pass holders who turn out on any dry Saturday, which is why a March Saturday there can be busier than a March Tuesday in Orlando while the reverse holds midweek.",
+        "For a visitor with a choice of coast and no choice of month, March is the strongest argument California ever makes. Excellent weather, moderate midweek crowds, and prices that move far less across the season than Orlando's do."
+      ]
+    },
+    {
+      "heading": "The Easter fortnight, and why it is worse than the numbers suggest",
+      "body": [
+        "Easter moves between late March and late April, and where it lands determines which month is the bad one. Look it up before you look at anything else about a spring trip, because it is knowable a year ahead, it costs nothing to check, and it is worth more than any tactic you can apply once you are there.",
+        "The busy window is the week before and the week after, not just the holiday weekend. European and Latin American school breaks do not align with the US one, and Orlando gets all of them, which is why the week before Easter is nearly as heavy as the week after. Universal Orlando sees its highest non-summer attendance of the year across that fortnight.",
+        "Hollywood loses its March advantage here. Southern California districts overwhelmingly attach their break to Easter, so the local base that keeps the park calm in March is off school and in the park. A compact hillside park under concentrated local demand is a specific kind of unpleasant, and it is worse in relative terms than what Orlando experiences."
+      ]
+    },
+    {
+      "heading": "The late-April window is the one to move to",
+      "body": [
+        "The last week to ten days of April is the quiet before summer: every district is back at school, the Easter travel has gone, operating hours have extended from the winter schedule, and Orlando is in its driest month with the afternoon thunderstorm pattern not yet started.",
+        "Prices step back down with the crowd. Orlando hotel rates fall from the Easter peak, ticket dates move down a tier or two on weekdays, and Express Pass becomes affordable again. That combination does not recur until the second half of September, which carries hurricane risk that April does not.",
+        "The trade is that nothing seasonal is running. Mardi Gras is finishing in Orlando, the summer programme has not started, and neither resort has a spring overlay of substance. If you are buying rides and weather rather than atmosphere, late April is the best week of the spring at either resort."
+      ]
+    },
+    {
+      "heading": "What is actually on in the spring",
+      "body": [
+        "Universal Orlando runs Mardi Gras through this season, and it is the best free content the resort produces all year. The parade, the street party and the headline concerts are included with regular park admission, and only the food booths and reserved viewing are sold separately.",
+        "The concerts drive the crowd shape at Universal Studios Florida on the nights they run. People stay far later than they otherwise would, which thins daytime queues and thickens evening ones. If you are there for rides rather than music, a concert night is a good night to be in the park and a bad night to be in front of the stage.",
+        "Universal Studios Hollywood runs no equivalent spring event. What changes there through the season is the Studio Tour content and the occasional limited-run addition, neither of which is worth planning dates around. In spring, Hollywood is the park itself and nothing more."
+      ]
+    }
+  ],
+  "byResort": {
+    "universal-orlando": {
+      "verdict": "Late April if you can, the first week of March if you cannot, and never the fortnight bracketing Easter.",
+      "events": [
+        "universal-orlando-mardi-gras"
+      ],
+      "note": "Universal Orlando runs high attendance for the whole of March because US districts stagger their spring breaks across four or five weeks, which means moving your dates inside the month accomplishes almost nothing. The Easter fortnight is the resort's highest non-summer attendance of the year and its on-site hotels sell out first. Mardi Gras runs through the season on regular park admission and is the strongest free content the resort offers."
+    },
+    "universal-hollywood": {
+      "verdict": "March on a weekday is one of the best days of the Hollywood year. Easter week is the worst.",
+      "events": [],
+      "note": "Universal Studios Hollywood stays moderate on March weekdays because Southern California districts mostly tie spring break to Easter rather than taking a fixed March week. Weekends run high all season on the local annual pass base. The Easter fortnight is the park's hardest crowd outside summer and the December peak, and a compact park across two levels handles concentrated demand worse than a sprawling Orlando park does. There is no spring event here."
+    }
+  },
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Park-to-park tickets and the Hogwarts Express",
+      "href": "/guides/park-to-park-tickets/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood first-timer guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe first-timer guide",
+      "href": "/universal-orlando/epic-universe/first-timer-guide/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "universal-orlando-mardi-gras"
+  ],
+  "faqs": [
+    {
+      "q": "Which week of March is quietest at Universal Orlando?",
+      "a": "The first few days, before most districts break, and it is a small advantage rather than a real one. US spring breaks stagger across four or five weeks, so whichever week you pick, some large state is off. This is the one month where moving your dates inside it is not worth the effort, and where the money is better spent on Express Pass and early arrival."
+    },
+    {
+      "q": "Is Universal Studios Hollywood really quieter than Orlando in March?",
+      "a": "On weekdays, yes, and the gap is large enough to change which coast you should pick. Southern California districts mostly attach spring break to Easter rather than taking a March week, and the park draws far fewer out-of-state visitors than Orlando does. Weekends are a different matter, because the local annual pass base turns out on any dry Saturday."
+    },
+    {
+      "q": "How far ahead do the Orlando hotels sell out for Easter?",
+      "a": "The three top-tier hotels that include Express Pass go first and they go months ahead, because the dates are fixed and everybody knows them. If Easter week is your only option and you want the Express Pass inclusion, book the room before you book anything else. The value hotels hold availability longer but lose the inclusion, which is the whole reason to be on site in a peak week."
+    },
+    {
+      "q": "Does Mardi Gras cost extra?",
+      "a": "No. The parade, the street party and the concerts at Universal Orlando are included with regular park admission. Food from the international booths is sold separately, and reserved viewing packages exist for the concerts. That makes it the best-value seasonal content this operator runs, and it is the main reason to prefer a spring Orlando trip over a spring Hollywood one if atmosphere matters."
+    },
+    {
+      "q": "Should we buy Express Pass for a spring break trip?",
+      "a": "In Orlando in March or Easter week, yes, for at least your busiest park day. The crowd plateau means there is no quiet day to fall back on and the queues justify it. In Hollywood, buy it for a weekend or for Easter week and consider skipping it on a March weekday, when arriving at opening does most of the same work for free."
+    },
+    {
+      "q": "When exactly does Mardi Gras run?",
+      "a": "It has opened in early February and finished in late March, and in recent seasons into April, with the closing date moving between years. Concert nights have varied between Saturdays only and several nights a week. Nothing on this page states dates for that reason — check the operator's own calendar before you fix a trip around a specific act."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd shapes describe multi-year patterns at both resorts rather than a forecast for any single spring. The difference between staggered US spring breaks and the Southern California pattern of tying breaks to Easter is a structural feature rather than a fixed set of dates, and individual district calendars vary. Mardi Gras opening and closing dates and its concert schedule are published per cycle and have moved between years.",
+    "reviewBy": "2027-01",
+    "cycle": "annual"
+  }
+}

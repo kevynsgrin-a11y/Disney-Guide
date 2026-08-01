@@ -143,9 +143,9 @@ export function parkHub (park, data) {
 
     ${C.relatedLinks([
       data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'Mechanics, booking windows, and whether to bother' } : null,
-      { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'What actually frightens small children' },
+      { href: data.link.isItScary, label: 'Is it scary?', summary: 'What actually frightens small children' },
       { href: urls.heightChecker(), label: 'Height checker', summary: 'One slider, every ride they clear' },
-      { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'We commit to an order' },
+      { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'We commit to an order' },
     ])}
   `
 
@@ -624,10 +624,10 @@ export function heightsPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.heightChecker(), label: 'Interactive height checker', summary: 'All six parks, one slider' },
-      { href: urls.guide('height-requirements'), label: 'Every US Disney height requirement', summary: 'The master table' },
-      { href: urls.guide('rider-switch'), label: 'Rider Switch explained', summary: 'How adults still ride when a child cannot' },
-      { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'Height is not the only limit' },
+      { href: urls.heightChecker(), label: 'Interactive height checker', summary: `All ${data.parks.length} parks, one slider` },
+      { href: data.link.heights, label: 'Every height requirement', summary: 'The master table' },
+      { href: data.link.riderSwitch, label: 'Rider switch explained', summary: 'How adults still ride when a child cannot' },
+      { href: data.link.isItScary, label: 'Is it scary?', summary: 'Height is not the only limit' },
     ])}
   `
 
@@ -732,18 +732,18 @@ export function accessibilityPage (park, data) {
       })), { columns: 3 }),
     }) : ''}
 
-    ${C.section({
+    ${site.notes && site.notes.accessibility ? C.section({
       children: C.callout({
         type: 'warning',
-        title: 'DAS policy changes — check before you count on it',
-        body: 'Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip.',
+        title: site.notes.accessibility.title,
+        body: site.notes.accessibility.body,
       }),
-    })}
+    }) : ''}
 
     ${C.relatedLinks([
-      { href: urls.guide('disability-access-service'), label: 'DAS and accessibility, explained', summary: 'Both resorts, in depth' },
-      { href: urls.guide('rider-switch'), label: 'Rider Switch', summary: 'Everyone rides, nobody queues twice' },
-      { href: urls.guide('motion-sickness'), label: 'Motion sickness guide', summary: 'Which rides trigger which kind' },
+      { href: data.link.accessibility, label: 'Accessibility, explained', summary: 'Every park, in depth' },
+      { href: data.link.riderSwitch, label: 'Rider switch', summary: 'Everyone rides, nobody queues twice' },
+      { href: data.link.motionSickness, label: 'Motion sickness guide', summary: 'Which rides trigger which kind' },
       { href: urls.map(park), label: `${park.name} map`, summary: 'Plan the walking distances' },
     ])}
   `
@@ -830,9 +830,9 @@ export function firstTimerPage (park, data) {
               </div>` : ''}
 
             ${C.affiliateBox(site, {
-              kind: park.resort === 'disneyland' ? 'packagesDisneyland' : 'tickets',
+              kind: park.resortInfo && park.resortInfo.ticketAffiliate && site.affiliates[park.resortInfo.ticketAffiliate] ? park.resortInfo.ticketAffiliate : 'tickets',
               heading: 'Tickets, honestly',
-              body: 'Disney does not discount its own tickets. Authorized resellers do, by a little, and the savings are real on multi-day tickets. We use this one; it is where our own money goes.',
+              body: 'Parks do not discount their own tickets. Authorized resellers do, by a little, and the savings are real on multi-day tickets. We use this one; it is where our own money goes.',
             })}
           </div>
           <aside class="doc-layout__aside">
@@ -854,10 +854,10 @@ export function firstTimerPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.guide('first-disney-trip'), label: 'Your first Disney trip', summary: 'The resort-level decisions' },
-      { href: urls.guide('rope-drop-strategy'), label: 'Rope drop strategy', summary: 'What being early actually buys' },
+      { href: data.link.firstTrip, label: 'Your first trip', summary: 'The resort-level decisions' },
+      { href: data.link.ropeDrop, label: 'Rope drop strategy', summary: 'What being early actually buys' },
       data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: data.queue.name, summary: 'Worth it here, or not' } : null,
-      { href: urls.guide('what-to-pack'), label: 'What to pack', summary: 'The bag that survives a full day' },
+      { href: data.link.whatToPack, label: 'What to pack', summary: 'The bag that survives a full day' },
     ])}
   `
 
@@ -937,15 +937,15 @@ export function mapPage (park, data) {
               <button class="btn btn--ghost btn--small" type="button" data-map-reset hidden>Reset</button>
               <button class="btn btn--ghost btn--small" type="button" onclick="window.print()">Print this map</button>
               <a class="btn btn--ghost btn--small" href="/maps/${park.slug}-map.svg" download>Download SVG</a>
-              <a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>
+              ${park.hasMapPng ? html`<a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>` : ''}
             </div>
             <p class="map-attribution">
               Original artwork by ${site.brand.name}, drawn from open geographic data including data
               © OpenStreetMap contributors, available under the Open Database Licence. The vintage
               styling uses generic cartographic devices — compass rose, ribbon title, ruled frame —
               and is not traced from, measured against, or styled after any official park map.
-              Positions are schematic and not to scale. This is not an official park map and is not
-              affiliated with or endorsed by The Walt Disney Company.
+              Positions are schematic and not to scale. This is not an official park map.
+              ${site.legal.shortDisclaimer}
             </p>
           </div>
           <div class="split__aside">
@@ -1112,7 +1112,7 @@ export function bestRidesPage (park, data) {
       { href: urls.rides(park), label: 'Every attraction', summary: 'The full list, sortable' },
       { href: urls.heights(park), label: 'Height requirements', summary: 'What your child clears' },
       { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'The order to do them in' },
-      { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'Zoom out' },
+      { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'Zoom out' },
     ])}
   `
 

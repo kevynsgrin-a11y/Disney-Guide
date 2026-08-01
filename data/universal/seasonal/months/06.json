@@ -1,0 +1,125 @@
+{
+  "month": 6,
+  "name": "June",
+  "slug": "june",
+  "summary": "June is when the Orlando summer arrives in full — heat, daily storms and a crowd that stops falling back on weekdays — and it is the month Universal Hollywood fills earliest, because Southern California schools finish before the rest of the country does.",
+  "verdict": {
+    "grade": "D+",
+    "short": "Long hours are the only thing June does better than May. Orlando becomes a morning-and-evening destination, Hollywood fills up from the first week, and prices reach summer level at both.",
+    "bestFor": [
+      "Late nights, since both resorts run their longest operating hours from this month",
+      "Families with school-age children who have no other option and want to beat July",
+      "Volcano Bay days in Orlando, which are the best-value park days of the summer",
+      "The first week to ten days, which still runs below the July plateau in Orlando",
+      "Anyone who will genuinely be at the gate before opening every single day"
+    ],
+    "worstFor": [
+      "Anyone heat-sensitive, pregnant, elderly or travelling with children under five in Orlando",
+      "Outdoor coaster fans, because afternoon lightning closes them almost daily in Florida",
+      "Budget trips, as hotel and Express Pass pricing reaches summer levels at both resorts",
+      "Universal Hollywood after the first week, when local schools finish and the park fills",
+      "Visitors planning a full open-to-close day, which is not a realistic Orlando plan this month"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "June is the ramp rather than the plateau, and the two coasts climb it on different schedules. Universal Orlando starts the month closer to May than to July: national school districts finish across the first three weeks, so the first ten days still show weekday dips before attendance flattens into the summer level it holds until late August. Universal Hollywood does the opposite. Southern California districts finish earliest in the country, so the park is already at summer crowd from the first week, and by mid-June a Hollywood weekday feels like an Orlando weekend. Anyone booking on the assumption that early summer is the quieter half of it is right in Florida and wrong in California. The other thing that changes in June is what a crowd level means in Orlando. Heat and the daily afternoon storm compress the usable day into roughly the first three hours and the last three, so a park nominally at the same crowd level as a March park is delivering that crowd into half the hours anyone wants to be outside. The queues do not get longer; the time available to stand in them gets shorter.",
+    "peakWindows": [
+      "The Juneteenth long weekend and every weekend after it at both resorts",
+      "Universal Hollywood from the second week onward, once local districts have finished",
+      "Late morning through late afternoon at every indoor Orlando attraction, which becomes shade rather than a ride"
+    ],
+    "quietWindows": [
+      "The first week to ten days at Universal Orlando, before national districts break",
+      "The first ninety minutes after opening at all four parks, which is the whole strategy from now until September",
+      "The last two hours before close in Orlando, once families with small children have gone"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 91,
+      "lowF": 73,
+      "rainDays": 15,
+      "note": "Climate normals for Orlando, not a forecast. The rainy season begins in earnest: fifteen days with measurable rain means the afternoon thunderstorm is the default rather than the exception, and with dewpoints in the low 70s the heat index climbs well past the raw temperature by late morning. Lightning closes the outdoor coasters and the water attractions with no notice and reopens them just as suddenly."
+    },
+    "universal-hollywood": {
+      "highF": 86,
+      "lowF": 61,
+      "rainDays": 1,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. Dry heat in the mid-80s with evenings falling into the low 60s, and effectively no rain. The valley runs consistently hotter than the Los Angeles coast, so a forecast quoted for the city centre understates what the Upper Lot actually feels like at three in the afternoon."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "June prices as a summer month at both resorts from about the second week, and the first week is the only genuine value in it. Universal Orlando's hotel rates move to summer season, date-based ticket pricing sits in the upper tiers on almost every date, and Express Pass climbs to levels it holds until late August. The one cost that moves in your favour is operating hours: summer days are the longest of the year, so the per-hour value of a ticket is better than in any winter month, provided you are willing to use the hours at either end. Volcano Bay is the other value point in an Orlando summer budget, because a water park day costs less than a theme park day and is the one Universal product that is genuinely better in June than in February. Hollywood's pricing climbs earlier than Orlando's because its local schools finish earlier, and its Express Pass is the line item that moves most — the same product on a mid-June Saturday can cost several times what it did on a February Tuesday."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "Rope drop stops being a tactic and becomes the plan",
+      "body": [
+        "The comfortable, walkable version of Universal Orlando exists between opening and roughly noon, and it does not exist again until the evening. Everything else in a June plan is downstream of whether you are actually at the gate before the park opens rather than at it.",
+        "In practice that means being through security thirty to forty-five minutes before the published opening time. Early park admission for on-site guests moves that boundary earlier still, and it is the single strongest argument for staying on property in the summer. The first three attractions of a June morning take less total time than the first one does at two in the afternoon.",
+        "Then leave. The mistake families make is grinding through the middle of the day because they paid for the ticket, which converts a good morning into a bad afternoon and an abandoned evening. Out by one, back by six is the shape that works."
+      ]
+    },
+    {
+      "heading": "Express Pass is worth more in June than in any month except October",
+      "body": [
+        "Universal's paid queue product is priced by date and its value rises with the crowd, which makes the summer its strongest window. On a June Orlando day the arithmetic is straightforward: the queues you skip are longer, the heat you avoid standing in is worse, and the usable hours you save are scarcer than at any other time of year.",
+        "The version of this that is easy to miss is the hotel calculation. Express Pass is included with a stay at the three top-tier Universal Orlando hotels, for every guest in the room, for the whole stay. On a June trip for a family of four the premium on those hotels can come in under the cost of buying Express Pass separately for the same days, and June is the month where that gap is widest.",
+        "At Universal Hollywood there is no hotel that includes it, so it is a straight purchase. Buy it for a summer Saturday and think hard before buying it for a summer Tuesday, because the compact park means the difference between those two days is larger here than in Orlando."
+      ]
+    },
+    {
+      "heading": "Volcano Bay is the highest-value park day in an Orlando June",
+      "body": [
+        "A water park day costs less than a theme park day, it is the one place where the Florida heat is the point rather than the problem, and it does not require the gate-before-opening discipline that a June theme park day does. On a week-long Orlando trip it is the day that makes the other days work.",
+        "It is not a day without planning. Water park capacity is far lower than theme park capacity, shaded loungers are gone within an hour of opening, and a hot June weekend can see the park reach capacity before lunch. Arrive at opening or accept what is left.",
+        "Lightning closes water park attractions faster than it closes anything else, and a storm can end the day rather than pause it. Take the morning and treat the afternoon as a bonus."
+      ]
+    },
+    {
+      "heading": "California's summer starts three weeks before Florida's",
+      "body": [
+        "Southern California districts finish the school year in the first half of June, and many are done before the month begins. Universal Studios Hollywood therefore reaches its summer crowd level while Universal Orlando is still running weekday dips, which is the reverse of what most visitors assume.",
+        "That makes the first ten days of June the wrong time for California and one of the better summer windows for Florida. If a trip has to happen in June and either coast will do, take Orlando early in the month and take nothing in Hollywood until the pattern reverses in the second half of August.",
+        "The heat argument runs the other way and is the reason Hollywood still wins on comfort. Valley afternoons in the mid-80s with no humidity and no storms are a fundamentally easier day than Orlando's low 90s with a heat index over 100, even when the queues are the same length."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "What to pack for Universal",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe first-timer guide",
+      "href": "/universal-orlando/epic-universe/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single June. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. The claim that Express Pass is included with a stay at three Universal Orlando hotels is a standing resort policy rather than a dated one, and the value comparison against buying it separately depends on rates we have not quoted here.",
+    "reviewBy": "2027-06",
+    "cycle": "rolling"
+  }
+}

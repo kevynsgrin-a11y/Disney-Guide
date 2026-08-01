@@ -194,8 +194,11 @@ export const MUST_BE_OPEN = {
  * detail everyone gets wrong. Treat a note from this table as "go look", not as "this is wrong".
  */
 export const SNACK_PRICES = [
-  { match: 'frozen butterbeer', parks: ['universal-studios-florida', 'islands-of-adventure'], price: 9.99 },
-  { match: 'butterbeer', parks: ['universal-studios-florida', 'islands-of-adventure'], price: 8.99 },
+  // Needles are per-product, not per-word. A bare "butterbeer" also matches the soft serve and the
+  // potted cream, which are different things at different prices, and a note that fires on four
+  // items when it means one is a note nobody reads.
+  { match: 'frozen butterbeer', parks: ['universal-studios-florida', 'islands-of-adventure', 'epic-universe', 'universal-studios-hollywood'], price: 9.99 },
+  { match: 'hot butterbeer', parks: ['islands-of-adventure', 'epic-universe', 'universal-studios-hollywood'], price: 8.99 },
 ]
 
 /**

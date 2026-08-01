@@ -1,0 +1,519 @@
+{
+  "slug": "epic-universe",
+  "name": "Universal Epic Universe",
+  "shortName": "Epic Universe",
+  "resort": "universal-orlando",
+  "resortName": "Universal Orlando Resort",
+  "opened": "2025-05-22",
+  "sizeAcres": 110,
+  "location": "Orlando, Florida",
+  "coordinates": {
+    "lat": 28.4056,
+    "lng": -81.4523
+  },
+  "tagline": "Five themed worlds around a hub that is worth its own time, on a campus of its own.",
+  "summary": "Epic Universe is Universal's newest park and the first major theme park built in the United States in decades — five worlds arranged around Celestial Park, a garden hub that holds real attractions and the best food on the resort, on a campus you cannot walk to from the two original parks.",
+  "intro": [
+    "Epic Universe is worth a full day, and it needs one. That is the question people actually arrive with, and the answer is not close. The ride count is lower than at any Disney park in Orlando, but the layout, the walking distances and the waits all work against you, and a visitor who treats this as a half-day add-on will spend most of it in queues and leave having properly seen two of the five worlds.",
+    "The shape of the park is the first thing to understand. Celestial Park is a landscaped hub in the middle, and the four themed worlds sit behind monumental portals off it — the Wizarding World of Harry Potter's Ministry of Magic, SUPER NINTENDO WORLD, How to Train Your Dragon's Isle of Berk, and Dark Universe. There is no loop and no back path. Every move between worlds routes you through the middle, so the total distance you walk is decided almost entirely by how well you sequence the day rather than by how much you see.",
+    "Celestial Park itself is the part visitors get wrong. It looks like a thoroughfare — fountains, gardens, a broad canal, the Chronos portal structure at the center — and people hurry across it on the way to a portal. It holds Stardust Racers, the best roller coaster in the park; the Constellation Carousel, which is a far stranger ride than it looks from the path; and most of the restaurants and bars worth sitting down in. Budget real time here, ideally in the evening when the lighting comes up and the crowd is behind a portal somewhere.",
+    "The campus fact reshapes the whole trip. Epic Universe sits on its own land a short drive south of the original resort, and neither the CityWalk walkway nor the Hogwarts Express reaches it. Getting here means the shuttle bus, a car into Epic's own parking structure, or a rideshare. Build that transfer into both ends of the day, and do not plan to park-hop out of here on a whim the way you can between Universal Studios Florida and Islands of Adventure.",
+    "This is also the intense end of a resort that already skews intense. Seven attractions carry a height requirement, the tallest at 48 inches, and the two best rides in the park are both on that list. Families with a child under 40 inches will still find a genuine day here — the Isle of Berk and the gentler half of SUPER NINTENDO WORLD are built for exactly that — but the headliners will be a rider-swap exercise rather than a family activity."
+  ],
+  "bestFor": [
+    "Adults and older kids who want modern ride technology",
+    "Roller coaster riders",
+    "Nintendo, Harry Potter and Universal Monsters fans",
+    "Anyone who eats and drinks well in a park",
+    "Evening visitors — this park is better after dark"
+  ],
+  "notIdealFor": [
+    "Toddlers and anyone under 40 inches chasing headliners",
+    "Half-day visits squeezed around another park",
+    "Anyone with limited walking range and no mobility device",
+    "Visitors who want parades and a nightly fireworks routine"
+  ],
+  "stats": {
+    "attractionCount": 21,
+    "ridesWithHeightRequirements": 7,
+    "tallestRequirement": 48,
+    "typicalFullDayHours": "10–12 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "celestial-park",
+      "name": "Celestial Park",
+      "order": 1,
+      "opened": 2025,
+      "summary": "The landscaped hub every path runs through, holding the park's best coaster, its strangest carousel and most of its good food.",
+      "description": [
+        "Celestial Park is the ground floor of the whole park — you enter into it, you cross it to reach every world, and you leave through it. It is built as a garden rather than a main street: fountains, water channels, planted terraces, bridges, and the Chronos portal structure at the center with gateways leading off to the four themed worlds. The scale is deliberately open, which makes it the one part of Epic Universe that does not feel crowded even when the park is full.",
+        "It is not a thoroughfare, and treating it as one is the most common planning error here. Stardust Racers, a dual-track launch coaster that races two trains against each other over the top of the hub, is the best ride in the park and it lives out here in the open. The Constellation Carousel does something no other carousel does, with vehicles that rise and rotate under you. The interactive fountain area draws children who have run out of patience for queues.",
+        "The dining is the other reason to stay. Atlantic and The Blue Dragon are the two sit-down restaurants worth a reservation, Oak & Star Tavern handles a fast group meal better than anything behind a portal, and the bars out here are the only place in the park to sit down with a drink and actually see something. If you plan one meal at Epic Universe, plan it in Celestial Park."
+      ],
+      "vibe": "A wide, planted, water-heavy garden with a coaster running over the top of it and portals on every side.",
+      "anchorAttraction": "stardust-racers",
+      "highlights": [
+        "Stardust Racers, the dual-launch coaster that runs over the hub",
+        "The Constellation Carousel, which rotates and rises rather than just going around",
+        "The Chronos portal structure and the four gateways off it",
+        "Atlantic and The Blue Dragon, the two best sit-down meals in the park",
+        "The interactive fountains, and the whole hub after dark"
+      ],
+      "eatHere": [
+        "atlantic",
+        "the-blue-dragon-pan-asian-restaurant",
+        "oak-and-star-tavern",
+        "bar-ithaca"
+      ],
+      "tips": [
+        "Ride Stardust Racers at night. It runs over open, lit ground with no tunnel to hide the layout, and the difference between a midday lap and a 9 PM lap is larger here than on any other coaster at Universal Orlando.",
+        "Do the hub last, not first. Everyone arrives, looks at the fountains for ninety seconds and runs for a portal. Celestial Park is at its emptiest and its best in the final two hours.",
+        "The two sit-down restaurants take reservations and both fill on busy days. Book before you arrive rather than trying to walk up at 1 PM.",
+        "Every world transfer routes through here, so plan your day as a set of spokes and accept the crossings rather than trying to invent a shortcut. There is not one."
+      ]
+    },
+    {
+      "slug": "ministry-of-magic",
+      "name": "The Wizarding World of Harry Potter – Ministry of Magic",
+      "order": 2,
+      "opened": 2025,
+      "summary": "1920s Paris on the surface and the French Ministry of Magic underneath, with the park's most technically ambitious ride and a theater show people do not expect.",
+      "description": [
+        "This is the third Wizarding World at Universal Orlando and the most architecturally convincing of the three. The street level is Place Cachée, a wizarding quarter off 1920s Paris, and it is built at real city scale — narrow frontages, upper storeys with practical windows, a plaza that reads like a place rather than a set. The Fantastic Beasts era is the reference point rather than Hogwarts, so visitors expecting a castle and a Hogsmeade repeat need to reset before they walk in.",
+        "Underneath Paris is the French Ministry of Magic, reached through a themed transition rather than a plain queue corridor, and that is where Harry Potter and the Battle at the Ministry sits. It is the park's most complicated attraction and its longest queue, and it earns both. Le Cirque Arcanus, the theater show in the same world, is the single most underestimated thing at Epic Universe — a wizarding circus staged with puppetry and stage illusion rather than screens.",
+        "The world is also the most detail-dense and the slowest to walk. Interactive wand spots are scattered through the streets, the shop windows do things, and it rewards a second lap after dark when the street lighting comes up. Two visits, one early and one late, works better here than one long stretch."
+      ],
+      "vibe": "A wizarding quarter off 1920s Paris at genuine city scale, with a government ministry buried under it.",
+      "anchorAttraction": "harry-potter-and-the-battle-at-the-ministry",
+      "highlights": [
+        "Harry Potter and the Battle at the Ministry, the park's technical centerpiece",
+        "Le Cirque Arcanus, staged with puppetry rather than projection",
+        "Place Cachée at street level, built at real Parisian scale",
+        "Interactive wand spots hidden through the streets",
+        "Butterbeer, in the same three forms as the older Wizarding Worlds"
+      ],
+      "eatHere": [
+        "le-gobelet-noir",
+        "cafe-lair-de-la-sirene"
+      ],
+      "tips": [
+        "Battle at the Ministry builds its longest line between roughly 10 AM and 4 PM. Take it at opening or in the last ninety minutes and you will save an hour of standing.",
+        "Le Cirque Arcanus runs on a showtime schedule with limited seating. Check the times when you first walk in and build the rest of the world around one of them rather than hoping to catch the next one.",
+        "Buy the interactive wand only if someone in the party genuinely wants to work the streets for an hour. The spells are fun and the wand is not cheap, and a child who wants one for ten minutes will be finished before you have recovered the money.",
+        "Walk the street level twice — once for the ride and once, after dark, for the buildings. It is the only world at Epic Universe where the architecture is the attraction."
+      ]
+    },
+    {
+      "slug": "super-nintendo-world",
+      "name": "SUPER NINTENDO WORLD",
+      "order": 3,
+      "opened": 2025,
+      "summary": "The Mushroom Kingdom built at full height with a Donkey Kong Country expansion behind it, and the world most likely to need a virtual queue or timed entry.",
+      "description": [
+        "SUPER NINTENDO WORLD is the most photographed part of Epic Universe and the most likely to control your morning. The Mushroom Kingdom section is a built, three-dimensional Mario level with moving Piranha Plants, question blocks you punch, and Peach's Castle at the back. Behind it, Donkey Kong Country adds a jungle of vine-strung platforms and the park's best-engineered roller coaster.",
+        "There are three rides. Mario Kart: Bowser's Challenge is an augmented-reality dark ride you steer with a visor, and it is the most divisive attraction in the park. Mine-Cart Madness is a family coaster whose track appears to break and jump, done with a trick that holds up even after you know how it works. Yoshi's Adventure is a slow ride-through built for small children with the best elevated views of the world.",
+        "The layer over the top of all of it is the Power-Up Band, a wearable you tap against blocks and mini-games around the world to collect coins and keys. It costs extra, it is genuinely the point of the land for children, and adults who skip it are not missing anything they will regret.",
+        "Access to this world has been managed since opening day, and the mechanism has not been static. At various points it has used a virtual queue or timed entry through the Universal app, and it has also run as a straightforward walk-in on quieter days. Treat the app as the source of truth rather than any guide, including this one — check it the night before and again as you tap into the park."
+      ],
+      "vibe": "A Mario level built at full size and full volume, with a jungle behind it and a queue system that may be gating the door.",
+      "anchorAttraction": "mine-cart-madness",
+      "highlights": [
+        "Mine-Cart Madness and its jumping-track illusion, the best-engineered ride in the park",
+        "Mario Kart: Bowser's Challenge, steered with an AR visor",
+        "Power-Up Band key challenges scattered through both sections",
+        "Yoshi's Adventure, the one headline-area ride built for small children",
+        "Toadstool Cafe, where the food is themed to the point of absurdity and still good"
+      ],
+      "eatHere": [
+        "toadstool-cafe",
+        "yoshis-snack-island"
+      ],
+      "tips": [
+        "Check the Universal app for this world's entry system before you plan your morning. It has used both a virtual queue and timed entry since the park opened, and it has changed more than once — what is stable is that this world fills first and fills fast.",
+        "If you get in early, ride Mine-Cart Madness before Mario Kart. Mine-Cart Madness has lower capacity and its wait climbs faster.",
+        "Buy Power-Up Bands before you enter the world, not at the first kiosk inside. The lines to buy them are longer than the lines to use them.",
+        "The AR visor on Mario Kart sits over glasses awkwardly and is the reason a lot of people dislike the ride. Adjust it properly at the load platform rather than during the pre-show, and keep your head still — the tracking does the rest."
+      ]
+    },
+    {
+      "slug": "isle-of-berk",
+      "name": "How to Train Your Dragon – Isle of Berk",
+      "order": 4,
+      "opened": 2025,
+      "summary": "A Viking harbor village with three rides, a stage show and a play area — the most family-usable world at Epic Universe by a wide margin.",
+      "description": [
+        "Isle of Berk is the world that saves the day for families with young children. It is a full Viking settlement built around a harbor, with dragons perched on the rooflines and a sightline down to the water that is the best framed view in the park. Nothing here is trying to frighten anyone, and three of its five experiences have no meaningful barrier to entry.",
+        "Hiccup's Wing Gliders is a launched family coaster and the best first big ride for a child moving up from carousels. Dragon Racer's Rally is a pair of spinning arm rides that flip riders over a courtyard. Fyre Drill puts you in a boat with a water cannon and lets two crews soak each other, which is the most fun anyone has in this park for four minutes.",
+        "The Untrainable Dragon is the stage show, built around large-scale puppetry rather than film, and it is a genuine sit-down break with air conditioning and a full-size dragon in the room. The play area gives smaller children somewhere to burn energy that is not a queue.",
+        "This is also the world to eat in if you are feeding children rather than yourself. Mead Hall does volume well, and the harborside seating is the only place in the park where a long lunch outdoors is genuinely pleasant."
+      ],
+      "vibe": "A working Viking harbor with dragons on the roofs, kids everywhere, and someone getting soaked in the middle distance.",
+      "anchorAttraction": "hiccups-wing-gliders",
+      "highlights": [
+        "Hiccup's Wing Gliders, the best step-up coaster in the park",
+        "Fyre Drill, where two boat crews soak each other with water cannons",
+        "The Untrainable Dragon, staged with full-size puppetry",
+        "Dragon Racer's Rally, flipping riders over the courtyard",
+        "The harbor view, the best-composed sightline at Epic Universe"
+      ],
+      "eatHere": [
+        "mead-hall",
+        "spit-fyre-grill",
+        "hooligans-grog-and-gruel"
+      ],
+      "tips": [
+        "Fyre Drill gets you properly wet, not lightly misted, and the spectator cannons on the dock mean you can be soaked without riding. Stow phones before you walk onto the dock, not before you board.",
+        "Take The Untrainable Dragon in the early afternoon. It is the longest air-conditioned sit-down in the park and it lands exactly when small children are finished with standing.",
+        "This is the least crowded world for the first hour after opening, because everyone runs to SUPER NINTENDO WORLD or the Ministry. If your party is height-limited anyway, start here and reverse the standard plan.",
+        "The harbor rail on the far side of the village is the best photo position in the park in the late afternoon, with the light behind the village rather than in your lens."
+      ]
+    },
+    {
+      "slug": "dark-universe",
+      "name": "Dark Universe",
+      "order": 5,
+      "opened": 2025,
+      "summary": "A cursed Carpathian village built around the Universal Monsters, with the park's most atmospheric dark ride and its highest scare factor.",
+      "description": [
+        "Dark Universe is the world Universal has wanted to build for decades, and it is the strongest piece of pure themed design at Epic Universe. The setting is Darkmoor, a village in the shadow of Frankenstein Manor, with fog in the streets, gaslight, dead trees and a Burning Blade Tavern whose windmill sails are on fire. It works in daylight and it is considerably better after dark.",
+        "Monsters Unchained: The Frankenstein Experiment is the headliner — a trackless dark ride through the manor that is closer to a haunted attraction than to a family dark ride, with animatronics good enough to be worth studying and a scare level that catches parents out. Curse of the Werewolf is a spinning family coaster that runs through the woods around the village and is much gentler than its neighbor.",
+        "The street layer is what makes this world. Costumed monsters roam the village at intervals and interact rather than pose, De Lacey's Cottage runs a small piece of staged storytelling, and the ambient design keeps working whether or not you are queuing for anything.",
+        "Bring an honest assessment of your children before you walk in. This is the one world at Epic Universe designed to unsettle people, and a seven-year-old who was fine on everything else can be genuinely frightened here."
+      ],
+      "vibe": "A fogged Carpathian village under a burning windmill, with monsters in the street and a manor on the hill.",
+      "anchorAttraction": "monsters-unchained-the-frankenstein-experiment",
+      "highlights": [
+        "Monsters Unchained, the best animatronic dark ride at Universal Orlando",
+        "Curse of the Werewolf, a spinning coaster through the woods",
+        "Costumed Universal Monsters roaming the village and interacting",
+        "The Burning Blade Tavern, a windmill with its sails on fire",
+        "The whole village after dark, which is a different place from the daytime one"
+      ],
+      "eatHere": [
+        "das-stakehaus",
+        "burning-blade-tavern"
+      ],
+      "tips": [
+        "Monsters Unchained is more frightening than the marketing suggests. It is dark, loud, close-quarters and built around a body-horror premise — treat it as a scare attraction and decide accordingly, not as a family dark ride with a height requirement.",
+        "Come back after dark even if you have already ridden everything. The lighting design does most of the work in this world and it is a different place at 9 PM than at 1 PM.",
+        "The monsters in the street work on a rotation. Ask a team member when the next set is out rather than standing around hoping — they will tell you.",
+        "Curse of the Werewolf is the gentler of the two rides by a wide margin, but it does spin, and the spin is what makes people queasy rather than the drops."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Epic Universe rewards a plan more than any other park at Universal Orlando, because the hub-and-spoke layout punishes improvisation. Every world change costs you a crossing of Celestial Park, so a day built as five focused visits is dramatically shorter on foot than the same day built as wandering. Decide the order before you arrive.",
+      "The other planning fact is that this is a separate campus. Getting here is a bus ride or a drive rather than a walk, so the day starts earlier and ends later than the clock suggests. Add thirty to forty-five minutes at each end and you will not be surprised."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Work out how you are getting here",
+        "body": "Epic Universe is on its own campus a short drive south of the original parks. The CityWalk walkway and the Hogwarts Express do not reach it. You are taking a resort shuttle bus, driving into Epic's own parking structure, or paying for a rideshare — and the shuttle at park opening and park close is the busiest transport moment of a Universal Orlando trip."
+      },
+      {
+        "title": "Check the SUPER NINTENDO WORLD entry system in the app",
+        "body": "Access to that world has been managed since the park opened, using a virtual queue or timed entry depending on the day and the season, and the mechanism has changed more than once. Open the Universal app the night before and again as you tap in. What has stayed constant is that this is the world that fills first."
+      },
+      {
+        "title": "Decide about Universal Express before you buy anything",
+        "body": "Universal Express is sold for Epic Universe and comes free with a stay at the resort's top-tier hotels. Which attractions it covers here has moved since opening, so confirm the current list at the point of purchase rather than assuming it matches the older parks. On a busy day it is the difference between five headliners and two."
+      },
+      {
+        "title": "Measure your children at home",
+        "body": "Seven attractions carry a height requirement and the tallest is 48 inches. A child at 40 inches gets most of Isle of Berk, Mario Kart and the gentler rides; a child at 48 inches gets everything. The gap between 40 and 48 inches is where a family day at this park is decided."
+      },
+      {
+        "title": "Book one sit-down meal in Celestial Park",
+        "body": "Atlantic and The Blue Dragon are the two table-service restaurants and both fill on busy days. Booking one — ideally an early dinner, so you are eating while the queues are at their worst — is the single highest-value reservation at Epic Universe."
+      },
+      {
+        "title": "Plan to stay until close",
+        "body": "This park is meaningfully better after dark. Stardust Racers at night, Dark Universe under gaslight and Celestial Park lit up are three of the best things here, and none of them exist at 11 AM. Build the day so the last two hours are unhurried rather than a sprint."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "45 minutes before opening",
+        "body": "Be at the gate, not on the bus. Transport to a separate campus is the part of the morning most people underestimate, and arriving at the tapstiles as the park opens means you are already thirty minutes behind the front of the crowd."
+      },
+      {
+        "time": "Park opening",
+        "body": "Go straight to SUPER NINTENDO WORLD if the app is letting people walk in, or secure whatever entry the app is issuing that day before you do anything else. If the world is gated to a later slot, take Stardust Racers instead — it is fifty yards from the entrance and everyone else is running past it."
+      },
+      {
+        "time": "First hour inside SUPER NINTENDO WORLD",
+        "body": "Mine-Cart Madness first, then Mario Kart: Bowser's Challenge, then Yoshi's Adventure if you have small children. Mine-Cart Madness has the lower capacity and the faster-climbing wait of the two headliners."
+      },
+      {
+        "time": "Around 10:30 AM",
+        "body": "Cross the hub to the Ministry of Magic and take Harry Potter and the Battle at the Ministry before its wait settles into the day's plateau. Check the Le Cirque Arcanus showtimes on your way in."
+      },
+      {
+        "time": "11:30 AM",
+        "body": "Walk Place Cachée properly — the street level, the shop windows, the wand spots. This is the world that rewards slow walking and it is the last time today it will be quiet."
+      },
+      {
+        "time": "12:30 PM",
+        "body": "Eat. Oak & Star Tavern back in the hub handles a group fastest, Toadstool Cafe is the better story if the children care, and the Ministry's café is the best of the three if you are feeding adults."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "1:30 PM",
+        "body": "Isle of Berk while the sun is at its worst. Fyre Drill is the one attraction where being soaked is an advantage, and the harborside seating is genuinely pleasant with a drink."
+      },
+      {
+        "time": "2:15 PM",
+        "body": "Hiccup's Wing Gliders, then Dragon Racer's Rally. Both hold shorter waits than anything in the Ministry or SUPER NINTENDO WORLD at this hour."
+      },
+      {
+        "time": "3:00 PM",
+        "body": "The Untrainable Dragon. The longest air-conditioned sit-down in the park, arriving exactly when the youngest member of your party has run out of standing."
+      },
+      {
+        "time": "4:00 PM",
+        "body": "Le Cirque Arcanus in the Ministry of Magic, at whichever showtime you noted this morning. It is the attraction most visitors skip and the one most of them would rank in their top five if they saw it."
+      },
+      {
+        "time": "5:00 PM",
+        "body": "Eat early in Celestial Park while everyone else is still queuing. An early dinner at Atlantic or The Blue Dragon buys you an empty park at 7 PM, which is when this place is at its best."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "6:30 PM",
+        "body": "Dark Universe, in the dark. Monsters Unchained first, then Curse of the Werewolf, then walk the village slowly and let the monsters find you."
+      },
+      {
+        "time": "8:00 PM",
+        "body": "Back to anything you missed. Waits across the park drop through the last two hours, and the Ministry ride in particular sheds a great deal of its afternoon plateau."
+      },
+      {
+        "time": "9:00 PM",
+        "body": "Stardust Racers at night, and ride it twice if the queue allows. The coaster runs over open lit ground and the night lap is a different ride from the daytime one."
+      },
+      {
+        "time": "Last 30 minutes",
+        "body": "Celestial Park. The fountains, the lighting and the Chronos structure are what the park looks like on a postcard, and this is the only time all day you will have room to look at any of it."
+      },
+      {
+        "time": "After close",
+        "body": "Do not sprint for the shuttle. The bus queue at park close is the worst twenty minutes of the day — have a drink in the hub, leave fifteen minutes late, and skip the crush entirely."
+      }
+    ],
+    "rookieMistakes": [
+      "Treating Epic Universe as a half day. It is a full day, and a half day here is a day spent queuing.",
+      "Walking through Celestial Park without stopping. The hub holds the best coaster in the park and most of the good food, and people cross it four times without looking up.",
+      "Assuming you can walk or take the Hogwarts Express here from the original parks. You cannot — this is a separate campus reached by bus, car or rideshare.",
+      "Not checking the app for the SUPER NINTENDO WORLD entry system before arriving. It has used a virtual queue and timed entry at different points, and finding out at the portal is too late.",
+      "Taking a young child on Monsters Unchained because it has a height requirement they clear. It is a scare attraction with a ride system, and the height stick is not the relevant test.",
+      "Leaving at 7 PM because you have ridden everything. This park is better in its last two hours than in its first two.",
+      "Skipping Le Cirque Arcanus because it is a show. It is one of the best things at Epic Universe and the seats are rarely full.",
+      "Planning world-to-world moves as if there is a perimeter path. There is not — everything routes back through the hub, and an unplanned day doubles the walking."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Arrive at the tapstiles 45 minutes before opening, allowing for the shuttle or the drive to a separate campus.",
+      "Deal with SUPER NINTENDO WORLD entry first — walk in if you can, or secure whatever the app is issuing that day before doing anything else.",
+      "Ride Mine-Cart Madness, then Mario Kart: Bowser's Challenge, in that order.",
+      "Cross to the Ministry of Magic and ride Harry Potter and the Battle at the Ministry before mid-morning, noting the Le Cirque Arcanus showtimes as you enter.",
+      "Eat lunch early, in the hub or the Ministry, and treat it as a rest rather than a refuel.",
+      "Spend the hot part of the afternoon in Isle of Berk: Fyre Drill, Hiccup's Wing Gliders, then The Untrainable Dragon indoors.",
+      "See Le Cirque Arcanus at the showtime you picked this morning.",
+      "Take Dark Universe after sunset — Monsters Unchained, Curse of the Werewolf, then the village at walking pace.",
+      "Ride Stardust Racers at night, twice if the wait allows.",
+      "Finish in Celestial Park with the lighting up, and leave fifteen minutes after the crowd rather than with it."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Epic Universe is the newest park at Universal Orlando and it shows in the accessibility basics: wide paved paths, generous queue widths, modern restrooms and step-free routing between the hub and every world. It is also the largest, and distance is the real barrier here rather than terrain. Celestial Park is a broad open crossing that you will make four or five times in a day, and the total walking is comparable to the biggest park at Walt Disney World.",
+      "Universal runs its own accessibility program rather than a Disney-style pass, administered through Guest Services near the entrance and through an accredited third-party registration that is best completed before you travel. Ride access, transfer requirements and attraction-specific advisories are posted at each entrance; the team members at the portals will route you to the correct queue if you ask. For guests with sensory sensitivities, Dark Universe is the world to approach carefully and Isle of Berk is the safest."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Rental counter just inside the main entrance, before you reach the hub",
+      "priceNote": "Manual wheelchairs rent for a modest daily fee with a refundable deposit; expect a low double-digit daily amount as of July 2026",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Same counter just inside the main entrance; quantities are limited and they run out on busy mornings",
+      "priceNote": "ECVs rent for a daily fee plus a refundable deposit; expect a mid double-digit daily amount as of July 2026. Off-site vendors deliver to Universal hotels for less on multi-day trips",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Main entrance rental counter; single and double strollers available",
+      "priceNote": "Single and double strollers rent at a daily rate; expect low to mid double digits per day as of July 2026",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Main entrance area, near the rental counter",
+      "Celestial Park, near the central hub restrooms",
+      "The Ministry of Magic, in the Place Cachée street block",
+      "SUPER NINTENDO WORLD, near the Toadstool Cafe building",
+      "Isle of Berk, near the harbor seating",
+      "Dark Universe, near the village square"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Celestial Park garden terraces",
+        "where": "The planted edges of the hub, away from the main crossing paths",
+        "note": "Shaded benches set back from the walkways, with water noise covering the park soundtrack. The easiest reset in the park and almost always free."
+      },
+      {
+        "name": "The Untrainable Dragon theater",
+        "where": "Isle of Berk",
+        "note": "A full-length indoor seated show with air conditioning and a dark auditorium. Arriving early gives a family fifteen quiet minutes before the show as well as the show itself."
+      },
+      {
+        "name": "Isle of Berk harborside seating",
+        "where": "The far side of the village, past the main food hall",
+        "note": "Open-air tables looking down at the water, with the lowest ambient noise of any seating area at Epic Universe."
+      },
+      {
+        "name": "Sit-down restaurants in the hub",
+        "where": "Atlantic and The Blue Dragon, Celestial Park",
+        "note": "A booked table is the most reliable quiet hour available in this park. Both rooms are cool, dim and considerably calmer than any counter-service space."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Near the main entrance, just outside the tapstiles",
+      "At the edge of Celestial Park near the Stardust Racers side",
+      "Near the Isle of Berk portal",
+      "Near the Dark Universe portal"
+    ],
+    "sensoryNotes": [
+      "Monsters Unchained: The Frankenstein Experiment is the most intense attraction in the park for sensory-sensitive guests — sustained darkness, sudden loud effects, close-quarters animatronics and a body-horror premise. Height clearance is not the right test for this one.",
+      "Dark Universe as a whole runs fog, low light, sudden sound cues and roaming costumed characters who approach guests. Some children find the street more distressing than the rides.",
+      "SUPER NINTENDO WORLD is the loudest and most visually busy world in the park, with constant music, flashing block effects and high crowd density. It is a difficult environment for guests who struggle with visual overload even though nothing in it is frightening.",
+      "Mario Kart: Bowser's Challenge requires wearing an AR visor over your eyes for the length of the ride, which some guests find claustrophobic independently of the ride itself. It is possible to ride without the visor active, which removes most of the ride's content but keeps the vehicle.",
+      "Stardust Racers is a high-speed outdoor coaster with sustained airtime and no dark sections — loud, fast and completely exposed, which suits some sensitive riders better than an indoor coaster and suits others far worse.",
+      "Isle of Berk is the gentlest world in the park across every sensory axis, and The Untrainable Dragon is the only long indoor sit-down that is not attached to a ride queue."
+    ],
+    "mobilityNotes": [
+      "The park is flat and fully paved, but it is big and the hub-and-spoke layout means every world change is a full crossing of Celestial Park. Total walking distance over a full day is comparable to the largest park at Walt Disney World.",
+      "Renting an ECV here is worth considering even for guests who would not at a smaller park. The distances, not the gradients, are what exhaust people at Epic Universe.",
+      "Most rides require transferring out of a wheelchair or ECV. Roller coasters — Stardust Racers, Mine-Cart Madness, Hiccup's Wing Gliders, Curse of the Werewolf — all require a full transfer and a degree of upper-body stability for the restraints.",
+      "The theater shows and the indoor walk-through experiences have wheelchair positions that do not require transferring. Ask at the entrance rather than at the door.",
+      "Queue routing in this park is unusually generous compared with the older Universal parks, but the themed transitions into some attractions include narrow sections and changes of level. Team members at each entrance will route mobility devices around them.",
+      "The shuttle buses to and from the campus are accessible, but the boarding queue at park close is long and largely unshaded. Leaving fifteen minutes after the crowd is a real accessibility strategy here, not just a comfort one."
+    ],
+    "visionHearingNotes": [
+      "Assistive listening and closed-captioning devices are available from Guest Services near the main entrance and cover the theater shows and several ride pre-shows.",
+      "Le Cirque Arcanus and The Untrainable Dragon are both heavily visual productions with limited dialogue, which makes them the two most accessible attractions in the park for guests with hearing loss.",
+      "Audio description is available for a number of attractions through the park's assistive device program. Request it at Guest Services when you arrive rather than at each attraction entrance.",
+      "The AR visor on Mario Kart: Bowser's Challenge does not work well over many prescription glasses and the ride's content is delivered almost entirely through it. Guests with significant vision limitations get very little from this attraction.",
+      "Dark Universe and the Ministry of Magic are both lit low by design, and the Ministry's street-level detail is largely visual. Both worlds are better experienced with a sighted companion narrating than either is alone.",
+      "Sign language interpretation is scheduled rather than available on request. Contact Universal's accessibility team before your visit rather than asking on the day."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Plan the day as spokes, not a loop",
+      "body": "There is no perimeter path at Epic Universe. Every world change routes you back through Celestial Park, so a day planned as four focused visits walks perhaps two-thirds of the distance of the same day planned loosely. Pick your order at breakfast and stick to it."
+    },
+    {
+      "title": "Celestial Park is an attraction, not a corridor",
+      "body": "The best coaster in the park, the strangest carousel, both table-service restaurants and every bar worth sitting in are all in the hub. Visitors cross it four times without stopping and then wonder why they never found the good food."
+    },
+    {
+      "title": "Ride Stardust Racers after dark",
+      "body": "It runs over open, lit ground with no tunnels and no building to hide behind, which means the night lap genuinely reads as a different ride. It is also the last headliner to shed its wait, so the two things line up."
+    },
+    {
+      "title": "Check the app for SUPER NINTENDO WORLD before you plan the morning",
+      "body": "Access to that world has been managed since opening and the mechanism has changed more than once — virtual queue on some days, timed entry on others, straightforward walk-in on quiet ones. The app is the only reliable source, and the world fills first regardless of which system is running."
+    },
+    {
+      "title": "Confirm what Universal Express covers here",
+      "body": "Express is sold for Epic Universe and included with the top-tier hotels, but the attraction list at this park has moved since opening and does not necessarily match the older parks. Check the current coverage at the point of purchase, because a pass that excludes the two rides you care about is not worth what it costs."
+    },
+    {
+      "title": "Book one hub table and eat early",
+      "body": "An early dinner at Atlantic or The Blue Dragon takes you off your feet while the queues are at their worst and puts you back into an emptying park at seven. It is the most efficient hour of the day disguised as the least."
+    },
+    {
+      "title": "The 40-to-48-inch gap decides your family day",
+      "body": "At 40 inches a child gets Mario Kart, Hiccup's Wing Gliders, Curse of the Werewolf and everything gentle. At 48 they get Stardust Racers and Monsters Unchained too. If your party sits in that gap, plan rider swap deliberately rather than discovering it at a load platform."
+    },
+    {
+      "title": "Leave late on purpose",
+      "body": "The shuttle queue at park close is the single worst transport moment of a Universal Orlando trip. Spend the last fifteen minutes in the hub with a drink, walk out behind the wave, and you will be back at your hotel at the same time with a far better final hour."
+    },
+    {
+      "title": "Dark Universe scares children the height stick allows on",
+      "body": "Monsters Unchained is closer to a haunted attraction than a family dark ride, and Dark Universe's street is designed to unsettle. A child who cleared the height and loved everything else can be genuinely frightened here. Decide on content, not inches."
+    },
+    {
+      "title": "Take Le Cirque Arcanus seriously",
+      "body": "It is a theater show, which is why it is the most skipped thing in the park, and it is staged with puppetry and illusion rather than screens. Note the showtimes when you first enter the Ministry and build one into the plan — the seats are rarely full and it is a genuinely good hour."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Epic Universe worth a full day?",
+      "a": "Yes, and it needs one. The attraction count is lower than at any Disney park in Orlando, but the hub-and-spoke layout, the walking distances and the wait times consume the day. Anyone planning to add it to a half-day at another park will see two of the five worlds and spend the rest of the time queuing."
+    },
+    {
+      "q": "Can you walk to Epic Universe from Universal Studios Florida or Islands of Adventure?",
+      "a": "No. Epic Universe is on a separate campus a short drive south of the original resort. The CityWalk walkway and the Hogwarts Express both stop at the two original parks. Getting to Epic Universe means the resort shuttle bus, driving to its own parking structure, or a rideshare, and that transfer needs building into both ends of your day."
+    },
+    {
+      "q": "What are the height requirements at Epic Universe?",
+      "a": "Seven attractions carry one, and the tallest is 48 inches for Stardust Racers and Monsters Unchained. Mario Kart, Hiccup's Wing Gliders and Curse of the Werewolf sit at 40 inches, and Harry Potter and the Battle at the Ministry and Mine-Cart Madness at 42. Measure at home before you go — the 40-to-48-inch band is where a family's day is decided."
+    },
+    {
+      "q": "Does SUPER NINTENDO WORLD use a virtual queue?",
+      "a": "It has, and it has also used timed entry, and on quieter days it has admitted guests directly. The mechanism has changed more than once since the park opened, so the Universal app is the only reliable answer on any given day. What has stayed true is that this is the world that reaches capacity first."
+    },
+    {
+      "q": "How many rides does Epic Universe have?",
+      "a": "Around ten rides, plus two theater shows, a play area, interactive experiences and character encounters. That is fewer ride vehicles than most Orlando parks, and the individual attractions are longer and more elaborate than the count suggests. It is still the reason a first visit needs a full day rather than a rushed one."
+    },
+    {
+      "q": "Is Universal Express worth it at Epic Universe?",
+      "a": "On a busy day it is the difference between five headliners and two, which is a bigger swing here than at the older parks because there are fewer attractions to fall back on. Confirm the current attraction coverage at the point of purchase — the list at this park has changed since it opened and does not necessarily match Universal Studios Florida or Islands of Adventure."
+    },
+    {
+      "q": "Is Epic Universe good for young children?",
+      "a": "Better than its reputation, but only if you plan for it. Isle of Berk is built for families and SUPER NINTENDO WORLD has genuine small-child content. The two best rides in the park are both 48 inches, so a party with a child under that height should plan rider swap deliberately and treat Berk as the anchor rather than an afterthought."
+    },
+    {
+      "q": "Which world should you do first?",
+      "a": "SUPER NINTENDO WORLD, because it fills first and its entry system is the one thing you cannot fix later in the day. If the app has gated it to a later slot, take Stardust Racers in the hub instead — it sits fifty yards inside the entrance and the morning crowd runs straight past it."
+    },
+    {
+      "q": "Is Dark Universe too scary for kids?",
+      "a": "For some, yes. Monsters Unchained is closer to a haunted attraction than a family dark ride, with sustained darkness, loud effects and close-quarters animatronics, and the village outside runs fog, low light and roaming costumed monsters. Judge it on content rather than on whether your child clears the height stick."
+    },
+    {
+      "q": "What is the best thing to eat at Epic Universe?",
+      "a": "The best sit-down food is in Celestial Park, at Atlantic for seafood and The Blue Dragon for pan-Asian. Toadstool Cafe in SUPER NINTENDO WORLD is the best themed meal, and Butterbeer in the Ministry of Magic is the same drink as in the older Wizarding Worlds. Book one hub table before you travel and improvise the rest."
+    },
+    {
+      "q": "When did Epic Universe open?",
+      "a": "May 2025, making it the newest major theme park in the United States and the first built here in more than two decades. It is still a young park, which means operational details — entry systems, Express coverage, showtimes — move more often than at the established parks. Check the app rather than relying on anything written more than a few months ago."
+    },
+    {
+      "q": "Is Epic Universe better than Islands of Adventure?",
+      "a": "For ride technology and for design coherence, yes. For sheer roller coaster quality, Islands of Adventure still holds its own with a deeper bench of thrill rides. Epic Universe is the better single day; Islands of Adventure is the better second day for anyone who came to Orlando for coasters."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Epic Universe has its own multi-storey parking structure directly beside the entrance, separate from the garages that serve Universal Studios Florida and Islands of Adventure. Standard self-parking is charged per vehicle per day with a preferred tier closer to the gate. The walk from the structure to the tapstiles is genuinely short, which is a real improvement on the long moving-walkway trek at the original campus.",
+    "transportation": [
+      "Resort shuttle buses: Universal runs buses between the original campus and CityWalk and Epic Universe. This is how most on-site hotel guests arrive. The queue at park opening and again at park close is the busiest transport moment of a Universal Orlando trip — arrive early for the first and leave fifteen minutes late for the second.",
+      "Driving: Epic Universe has its own parking structure with its own entrance road, separate from the original campus garages. If you have a car, this is the fastest and least stressful option by a wide margin.",
+      "Rideshare: drop-off and pick-up areas serve the entrance directly. At park close the surge pricing is predictable and steep; the shuttle is slower but free.",
+      "Walking from the original parks: not possible. Epic Universe is a separate campus and there is no pedestrian route from CityWalk, Universal Studios Florida or Islands of Adventure.",
+      "Hogwarts Express: does not serve Epic Universe. The train runs only between Hogsmeade at Islands of Adventure and Diagon Alley at Universal Studios Florida, and the Ministry of Magic here is not connected to either."
+    ],
+    "entranceNote": "You enter through the gateway beneath the Universal Helios Grand Hotel arch and walk straight into Celestial Park, the hub. From there the Chronos structure and the surrounding portals lead to each of the four themed worlds. There is no second entrance, so the gate you enter through is the gate you leave through — which is why the park close crush is worth planning around."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "eu"
+}

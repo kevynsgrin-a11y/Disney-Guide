@@ -1,0 +1,133 @@
+{
+  "month": 7,
+  "name": "July",
+  "slug": "july",
+  "summary": "July is the worst month to visit Universal Orlando on every measure that matters and it is the month with no better week to move to, while Universal Hollywood gets the same crowds in dry heat with no storms, which is the widest the two resorts diverge all year.",
+  "verdict": {
+    "grade": "D-",
+    "short": "Peak prices, a flat four-week crowd plateau, and an Orlando heat index over 100 most afternoons. Go only if the school calendar leaves you no choice, and plan fewer park days than you think.",
+    "bestFor": [
+      "Families with no flexibility at all, who will trade money for skipped queues and hours for shade",
+      "Universal Hollywood, which gets dry mid-90s heat and cool evenings instead of Florida's swamp",
+      "Volcano Bay days, which are the highest-value park days available in Orlando this month",
+      "Night owls, since operating hours are the longest of the year and the evening is the good part",
+      "Anyone who will build the trip around a hotel pool and treat park days as a morning activity"
+    ],
+    "worstFor": [
+      "Anyone heat-sensitive, pregnant, elderly or travelling with children under five in Orlando",
+      "Budget trips of any description, because this is the most expensive month on the calendar",
+      "Visitors hoping to find a quieter week inside the month, because there is not one",
+      "First-timers trying to do three Orlando parks in three consecutive days",
+      "Anyone who will not be at the gate before opening, which is the entire strategy this month"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "July is the longest continuous stretch of high attendance in the Universal year, and its defining feature is flatness rather than height. Independence Day week is the local maximum at both resorts, but the rest of the month never falls far below it, because every US district is out at once and international summer travel is at its annual peak. That flatness changes what planning effort is worth: in February or November, moving your dates a week is the highest-leverage decision available, and in July it accomplishes nothing, so the same effort spent on gate times, park order and Express Pass returns far more. The heat compounds it in Orlando specifically. The usable day compresses into roughly the first three hours and the last three, so a park nominally at the same crowd level as a March park delivers that crowd into half the hours. Hollywood in July is the same crowd in a completely different climate: mid-90s afternoons with almost no humidity, no thunderstorm shutdowns, and evenings that fall into the mid-60s. It is a hot day rather than a dangerous one, and the gap between the two resorts is wider in July than in any other month.",
+    "peakWindows": [
+      "The Independence Day long weekend at both resorts, the busiest days of the summer",
+      "Every weekend, with Saturday the worst day at Universal Studios Hollywood",
+      "Late morning through late afternoon at every indoor Orlando attraction, which is functioning as shade"
+    ],
+    "quietWindows": [
+      "The first ninety minutes after opening, which is the entire strategy this month",
+      "The last two hours before close on a weeknight, once families with small children have left",
+      "The hour after an afternoon storm clears in Orlando, when half the park has gone back to the hotel"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 93,
+      "lowF": 75,
+      "rainDays": 17,
+      "note": "Climate normals for Orlando, not a forecast. The hottest and wettest month of the Orlando year. Seventeen days with measurable rain makes the afternoon thunderstorm the default condition rather than the exception, and with dewpoints in the mid-70s the heat index routinely passes 100 by mid-morning. Overnight lows of 75 mean the pavement never really cools, and outdoor coasters close for lightning most afternoons."
+    },
+    "universal-hollywood": {
+      "highF": 93,
+      "lowF": 66,
+      "rainDays": 0,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. The same afternoon high as Orlando and a fundamentally different day: humidity in the twenties rather than the seventies, effectively no rain, and evenings dropping into the mid-60s. The valley runs hotter than coastal Los Angeles, so a forecast quoted for the city understates the Upper Lot by several degrees, and shade on the Studio Tour tram is limited."
+    }
+  },
+  "cost": {
+    "level": "peak",
+    "note": "July carries Universal Orlando's top pricing alongside the Christmas fortnight, and it is the only peak period that lasts four weeks rather than one, which removes the usual escape of shifting a few days. Hotel rates run summer season across the whole month, ticket dates sit at or near the top tier, and Express Pass reaches its annual ceiling on the busiest days — which for a family of four is the largest single discretionary line on the trip. Airfare is the most punishing item and the least responsive to planning: fares into Orlando and the Southern California airports reach their annual high because family leisure demand peaks with no offsetting off-season anywhere in the domestic network. The one cost that moves in your favour is operating hours, which are the longest of the year, so the per-hour value of a ticket is better than in any winter month. Hollywood costs less in absolute terms because it is a one-day park with no hotel premium attached, but its Express Pass sits at its annual peak too, and on a July Saturday it is the most expensive day of the Hollywood year."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "Buy fewer park days over more nights",
+      "body": [
+        "The single most useful structural change to a July Universal Orlando trip is reducing park days and extending the stay. Three park days across six nights beats five park days across six, because the rest days restore enough capacity to make the three good days genuinely good.",
+        "Multi-day ticket pricing pushes the other way, since the per-day cost falls as the number of days rises, which tempts people into buying more days than they will use well. In July that pricing structure is actively working against you.",
+        "Volcano Bay counts as one of those days without counting as a heat day. It is the highest-value park day available in Orlando this month, and it is the one Universal product that is genuinely better in July than in any other month."
+      ]
+    },
+    {
+      "heading": "The Express Pass arithmetic changes in July, and so does the hotel one",
+      "body": [
+        "Express Pass value rises with the crowd, which makes July its strongest month at both resorts. What you are buying in Orlando is not just skipped queues but skipped queues in the only hours the park is comfortable, which is worth more than the same product in March.",
+        "The Orlando hotel calculation is the one worth doing before booking anything else. Express Pass is included with a stay at the three top-tier resort hotels, for every guest in the room, for the whole stay, and in July the separately purchased version reaches its annual ceiling. For a family of four on a three-day or four-day trip, the hotel premium can come in below the cost of buying it, and July is the month with the widest gap.",
+        "At Universal Hollywood there is no equivalent inclusion, so it is a straight per-day purchase priced by date. Buy it for a July weekend without hesitating; on a July weekday, price it against arriving at opening instead, because a compact park at rope drop still clears its headliners quickly."
+      ]
+    },
+    {
+      "heading": "Lightning is a scheduling problem, not a weather problem",
+      "body": [
+        "Orlando's afternoon storms close outdoor coasters and water attractions with no notice, usually for thirty to sixty minutes, and reopen them just as abruptly. On a July day this happens most afternoons and it is the reason a plan built around outdoor rides in the middle of the day does not survive contact with the month.",
+        "Build the outdoor headliners into the morning and leave the indoor ones for the afternoon if you insist on staying. Universal Studios Florida holds up best under a storm because so much of it is indoors; Islands of Adventure and Epic Universe both have more sky over their queues and their walkways.",
+        "The other consequence is that a storm empties the park for about an hour afterwards, because a lot of people leave rather than wait it out. If you stay, that is the best hour of the afternoon."
+      ]
+    },
+    {
+      "heading": "Hollywood is the answer if you have any choice of coast",
+      "body": [
+        "The same afternoon temperature in the San Fernando Valley and in Orlando produces two completely different days. Valley heat is dry, the evenings cool by twenty-five degrees or more, and there is no storm shutdown, so a July day at Universal Studios Hollywood is a hot day you can work through rather than a day that dictates your schedule.",
+        "The crowd is comparable and the shape of it differs. Hollywood is at full summer level all month, weekends are markedly worse than weekdays because the local pass base is large, and the compact hillside park feels crowd more sharply than a sprawling Orlando park does at the same attendance.",
+        "The trade is that Universal Studios Hollywood is one day and Universal Orlando is three or four. A July trip that only needs one park day should be in California; one that needs a week has to be in Florida and has to be planned around the heat."
+      ]
+    },
+    {
+      "heading": "Hydration is a logistics problem rather than a willpower problem",
+      "body": [
+        "Free cups of ice water are available on request at quick-service counters at both resorts, and they are the cheapest and most underused item in the parks. A family of four asking at every stop saves real money and, more to the point, actually drinks enough.",
+        "Carry a bottle and refill it rather than relying on buying. The queue for a drinks cart at three in the afternoon in Orlando is itself a heat exposure, and the queue for a refill station is not.",
+        "Watch for the early signs in children rather than waiting for complaints, because small children stop asking for things before they say they feel unwell. A midday break in air conditioning is not a lost hour in July; it is what makes the evening possible."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "What to pack for Universal",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Islands of Adventure ride list",
+      "href": "/universal-orlando/islands-of-adventure/rides/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single July. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. The Express Pass hotel inclusion at Universal Orlando is standing resort policy rather than a seasonal offer; the comparison between the hotel premium and the separate purchase depends on rates that move by date and are not quoted here.",
+    "reviewBy": "2027-05",
+    "cycle": "rolling"
+  }
+}

@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 79,
       "lowF": 60,
       "rainDays": 6,
       "note": "Climate normals for Orlando, not a forecast. The dry season is fully established and Orlando is comfortable from open to close for the first time since March. Evenings drop into the 50s often enough that a jacket is not optional for a nighttime show, and a late-month cold front can take the overnight low into the 40s."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 73,
       "lowF": 50,
       "rainDays": 3,
@@ -103,10 +103,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "EPCOT first-timer guide", "href": "/walt-disney-world/epcot/first-timer-guide/", "site": 1 },
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
-    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
-    { "label": "Disneyland Park first-timer guide", "href": "/disneyland/disneyland-park/first-timer-guide/", "site": 1 }
+    {
+      "label": "EPCOT first-timer guide",
+      "href": "/walt-disney-world/epcot/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park first-timer guide",
+      "href": "/disneyland/disneyland-park/first-timer-guide/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

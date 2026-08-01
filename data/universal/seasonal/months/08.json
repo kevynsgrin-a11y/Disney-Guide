@@ -1,0 +1,127 @@
+{
+  "month": 8,
+  "name": "August",
+  "slug": "august",
+  "summary": "August splits down the middle at both resorts: the first half is July with the same heat and the same crowds, and the second half is the year's sharpest drop in attendance arriving at exactly the moment Halloween Horror Nights opens in Orlando.",
+  "verdict": {
+    "grade": "C-",
+    "short": "The last two weeks are one of the best-value windows Universal sells, and the first two are July. The whole month is hot, and Orlando adds hurricane risk to the deal.",
+    "bestFor": [
+      "The last two weeks in Orlando, when crowds fall, rates fall and Halloween Horror Nights has usually opened",
+      "Anyone who wants Halloween Horror Nights at the bottom of its price band on an early-season weeknight",
+      "Universal Hollywood from the middle of the month, once Southern California schools go back",
+      "Visitors who tolerate heat well and are buying value rather than comfort",
+      "Volcano Bay, which stays warm and gets markedly quieter in the second half"
+    ],
+    "worstFor": [
+      "The first two weeks, which carry July's crowds and July's prices with none of the payoff",
+      "Anyone travelling without flexible or insured plans, since this is the heart of hurricane season",
+      "Heat-sensitive visitors in Orlando, where August is barely cooler than July",
+      "Families with small children hoping for a Halloween event, because Horror Nights is not one",
+      "Anyone expecting the Hollywood Halloween season to have started, which it usually has not"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "August is the steepest crowd gradient on the Universal calendar and the two coasts run down it at different times. Universal Hollywood empties first: Southern California districts return in the middle of August, earlier than most of the country, so the park drops from summer level to genuinely moderate weekdays around mid-month while Orlando is still full. Universal Orlando holds longer because Florida schools go back in the second week and the rest of the country staggers through the end of the month, and because international visitors — who make up a larger share of Orlando's August than of any other month — do not follow US school calendars at all. By the last full week both resorts are quiet on weekdays. The complication in Orlando is that Halloween Horror Nights usually opens in this window, which puts a large evening crowd into Universal Studios Florida on select nights while the daytime parks are emptying. That is a genuinely useful asymmetry: an August weekday at Islands of Adventure or Epic Universe can be the quietest daytime park of the second half of the year while the Horror Nights park across the walkway is selling out.",
+    "peakWindows": [
+      "The first two weeks at Universal Orlando, indistinguishable from July",
+      "Halloween Horror Nights nights at Universal Studios Florida once the season opens",
+      "Weekends at Universal Hollywood throughout, even after local schools return"
+    ],
+    "quietWindows": [
+      "The last full week at both resorts, the sharpest attendance drop of the year",
+      "Universal Hollywood weekdays from mid-month, once Southern California districts are back",
+      "Daytime at Islands of Adventure and Epic Universe on a Horror Nights evening, when the crowd has gone next door"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 92,
+      "lowF": 75,
+      "rainDays": 17,
+      "note": "Climate normals for Orlando, not a forecast. Functionally identical to July: low 90s afternoons, overnight lows that never drop below the mid-70s, and seventeen days with measurable rain. The difference is hurricane season, which reaches its most active stretch from mid-August, and which is a trip-planning risk rather than a daily-weather one."
+    },
+    "universal-hollywood": {
+      "highF": 94,
+      "lowF": 66,
+      "rainDays": 0,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. The hottest month of the Hollywood year, with afternoons in the mid-90s and occasional stretches well above that. It stays dry and it still cools into the mid-60s overnight, so the evening is comfortable in a way an Orlando August evening never is."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "August is the fastest-falling price on the Universal calendar, and where you sit in the month decides whether it is expensive or cheap. The first two weeks carry summer hotel rates, upper-tier ticket dates and summer Express Pass pricing at Universal Orlando. From roughly the third week, rates drop toward their autumn level, ticket dates move down a tier or two on weekdays, and Express Pass becomes affordable again on any night that is not a Horror Nights night. The exception, and it is a large one, is Halloween Horror Nights itself: separately ticketed, priced by date, and at its cheapest in exactly this window because the season has just opened and the weeknights are not yet in demand. An early-season Horror Nights weeknight is the single best value Universal Orlando sells all year. Hollywood's costs fall earlier, tracking its earlier school return, and its Halloween season has usually not opened yet, so late August is a straightforwardly cheap time to visit a park with nothing seasonal on."
+  },
+  "whatsOn": [
+    "halloween-horror-nights-orlando"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Move your dates to the back half of the month and everything improves at once",
+      "body": [
+        "The gap between the first week of August and the last week is the largest same-month swing in crowd and price that Universal Orlando produces. Hotel rates fall, ticket tiers fall, Express Pass falls, and daytime queues fall, all within about three weeks and all in the same direction.",
+        "The heat does not improve, which is the honest caveat. Late August in Orlando is as hot and as wet as mid-July, and the only thing that has changed is how many people are standing in it with you. If heat is your limiting factor rather than crowd, this month is not the answer at any point in it.",
+        "For Hollywood the same instruction applies a week or two earlier, because Southern California schools return before Florida's do. Mid-August onward is the beginning of the best stretch of the Hollywood year, which runs through September and into October."
+      ]
+    },
+    {
+      "heading": "Halloween Horror Nights opens in Orlando, and the early nights are the cheap ones",
+      "body": [
+        "Universal Orlando's Halloween season has opened in late August or the first days of September across recent cycles, and the opening weeknights are the least expensive and least crowded nights of the entire run. The same event in late October costs substantially more and delivers substantially longer house queues.",
+        "This is a separately ticketed evening event rather than an overlay, and it is not a family Halloween product. The houses are built to frighten adults, there is no trick-or-treating layer, and Universal is explicit that it is not recommended for young children. Families looking for a costume-and-candy evening should look elsewhere on the calendar entirely.",
+        "The event ticket admits you to the park in the evening rather than replacing a day ticket, and the daytime park closes early on event nights to change over. That is the detail that catches first-timers: an event night is not a full park day with a party attached, and planning it as one wastes the afternoon."
+      ]
+    },
+    {
+      "heading": "Hurricane season is a booking decision, not a packing decision",
+      "body": [
+        "The most active part of the Atlantic hurricane season runs from mid-August through October, and Orlando is inland enough that the usual outcome is a day of heavy rain and closed outdoor attractions rather than anything worse. The planning risk is not the storm; it is the airport.",
+        "Buy refundable or flexible fares if you are travelling to Orlando in this window, and check what the hotel and the ticket seller will do if you cannot travel. Universal has historically been reasonable about rebooking around named storms, but the airline is the part that costs money.",
+        "This is the reason we grade late August below late September on value despite similar crowd levels. Same crowd, same heat, more risk, and the Horror Nights price advantage is the thing that partly offsets it."
+      ]
+    },
+    {
+      "heading": "The Hollywood Halloween season has usually not started yet",
+      "body": [
+        "Halloween Horror Nights at Universal Studios Hollywood has typically opened later than Orlando's, generally in early September rather than August. A mid-August California trip therefore gets low crowds and no seasonal content, which is a reasonable trade but not the one most people think they are booking.",
+        "If Horror Nights is the point of a Hollywood trip, September and October are the months, and the same early-season pricing logic applies there as in Orlando: the first weeknights of the run are the cheapest and the shortest-queued.",
+        "The daytime park in late August is at its best of the second half of the year. Local schools are back, the summer visitors have gone, and the weather is hot but dry. It is a good month to do the park properly and a poor month to expect atmosphere."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is it scary? Universal rides and young children",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Height Checker",
+      "href": "/tools/height-checker/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single August. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Halloween Horror Nights opening dates are announced during the spring or early summer for each cycle and are described here as a window rather than a date; the Orlando season has opened in late August or the first days of September in recent cycles and Hollywood's has typically opened a week or two later.",
+    "reviewBy": "2027-05",
+    "cycle": "rolling"
+  }
+}

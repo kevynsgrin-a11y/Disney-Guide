@@ -1,0 +1,128 @@
+{
+  "month": 10,
+  "name": "October",
+  "slug": "october",
+  "summary": "October is the busiest and most expensive month Universal runs outside the summer, because Halloween Horror Nights is at full strength on both coasts and the last three weekends of it are the hardest tickets of the year.",
+  "verdict": {
+    "grade": "B-",
+    "short": "The best weather and the best event of the Universal year, sold at the worst prices and the longest queues. Take a weeknight in the first half and October becomes a very good month.",
+    "bestFor": [
+      "Halloween Horror Nights at full strength, with every house open and the season fully staffed",
+      "Weather in Orlando, which finally breaks out of the summer pattern by mid-month",
+      "Adults and horror fans, who will not find a better month at this operator",
+      "Weeknights in the first half of the month, which price and queue far below the last three weekends",
+      "Universal Hollywood, where valley evenings in the 60s make a night event genuinely comfortable"
+    ],
+    "worstFor": [
+      "Anyone travelling on the last three weekends, which are the peak of the Universal autumn",
+      "Budget trips, since event tickets, Express Pass and hotels all price near their annual ceiling",
+      "Families with young children, because the whole month is built around an adult horror event",
+      "Daytime park value at Universal Studios Florida, which closes early on event nights",
+      "Last-minute planning, as event Express Pass sells out for the busiest nights"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "October runs on a weekly cycle rather than a monthly one, and the cycle steepens as the month goes on. Weeknights early in the month are still close to September's level; the last three Fridays and Saturdays before Halloween are the busiest nights Universal Studios Florida and Universal Studios Hollywood see all year, including anything in July. House queues on those nights routinely exceed anything a daytime park produces, and both parks sell to capacity. Daytime is a different question and differs by coast. Universal Orlando's daytime parks stay moderate on weekdays through the first half of the month and then climb, because the resort's autumn draw is genuinely the evening event and much of the demand arrives late in the day. Universal Hollywood's daytime does not get that reprieve past mid-month, because it is one park serving both audiences and Southern California's local pass base treats October weekends as a fixed annual outing. The Columbus Day weekend is the first hard peak of the month at both resorts, and from there the trend is upward until Halloween itself, which is the single busiest night of the Universal year on both coasts.",
+    "peakWindows": [
+      "The last three Fridays and Saturdays before Halloween, the busiest nights of the Universal year",
+      "Halloween night itself at both resorts, at the top of every price band",
+      "The Columbus Day long weekend, the first hard peak of the month"
+    ],
+    "quietWindows": [
+      "Weeknights in the first half of the month, which still price and queue like September",
+      "Weekday daytimes at Islands of Adventure and Epic Universe, away from the event park",
+      "The first ninety minutes of a Horror Nights night, before the standby queues build"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 85,
+      "lowF": 67,
+      "rainDays": 9,
+      "note": "Climate normals for Orlando, not a forecast. The month the Florida summer finally breaks: mid-80s afternoons early on, falling into the low 80s by the end, humidity dropping noticeably, and nine rain days instead of the summer's seventeen. Evenings in the high 60s are what make a five-hour night event outdoors comfortable rather than an endurance test."
+    },
+    "universal-hollywood": {
+      "highF": 83,
+      "lowF": 58,
+      "rainDays": 2,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. Warm dry afternoons in the low 80s and evenings dropping into the high 50s, which is the single best night-event weather either resort produces. Early October can still deliver a heat spike well into the 90s when an offshore wind pattern sets up, so do not pack only for the average."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "October is the most expensive month Universal runs outside July and the Christmas fortnight, and almost all of the increase is concentrated in the event. Halloween Horror Nights tickets on the last three weekends before Halloween sit at the top of their date-based range, event Express Pass reaches its annual ceiling and sells out in advance for the busiest nights, and Orlando hotel rates climb back from their September floor across the month. Daytime admission moves less than any of those. The single largest saving available in October is therefore not a discount but a date: the same event on a weeknight in the first half of the month costs a fraction of the last Saturday and delivers more houses per hour. Multi-night event tickets and season passes for the event exist at both resorts and are worth pricing if you intend more than two nights, because the marginal night on those products is far cheaper than a second single-night ticket. Hollywood's admission pricing moves less than Orlando's across the month, but its event pricing follows the same steep curve toward Halloween."
+  },
+  "whatsOn": [
+    "halloween-horror-nights-orlando",
+    "halloween-horror-nights-hollywood"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The date you pick is worth more than everything else combined",
+      "body": [
+        "A Halloween Horror Nights ticket for a weeknight in the first half of October and one for the last Saturday before Halloween buy the same houses, the same scare zones and the same hours. They do not cost the same and they do not deliver the same number of houses, because the queues on a peak Saturday can run several times longer.",
+        "If you have any flexibility at all, take a Wednesday or Thursday early in the month. If you have none, budget for event Express Pass and accept that it is the price of the date rather than an upgrade.",
+        "The corollary is that two cheap weeknights often beat one expensive Saturday for the same money, and they beat it comfortably on houses completed. That is the arithmetic most first-time attendees do not run."
+      ]
+    },
+    {
+      "heading": "Event Express Pass is a different product from daytime Express Pass",
+      "body": [
+        "Universal sells a separate Express Pass for Halloween Horror Nights at both resorts, priced by date and independent of the daytime version. It is the most expensive queue product Universal offers, and on the busiest nights it sells out in advance rather than being available at the gate.",
+        "On a peak night it is close to necessary if you want to see most of the houses. On an early-season weeknight it is genuinely optional, because the standby queues in the first two hours are short enough to get through several houses before the crowd builds.",
+        "The strategy that costs nothing and works on any night: be at the front for the event opening, go to the furthest houses first, and do the ones nearest the entrance last. Almost everybody does the reverse, which is why the queue pattern is so predictable."
+      ]
+    },
+    {
+      "heading": "Orlando's daytime parks are the underrated part of October",
+      "body": [
+        "Islands of Adventure and Epic Universe do not host the event, which means their weekday daytime crowd in the first half of October is closer to September's than to a summer month's. A trip that pairs quiet daytime park days at those two with event nights at Universal Studios Florida is the best structure this month offers.",
+        "The constraint is stamina rather than tickets. Halloween Horror Nights runs late, and a full daytime park day followed by a five-hour night event is a schedule most people can do once and not three times. Plan a late start on the days after an event night.",
+        "Universal Studios Florida itself closes early to daytime guests on event nights and reopens for ticket holders. Do not plan a full day there on an event date, and check the daytime closing time before you build a schedule around it."
+      ]
+    },
+    {
+      "heading": "Hollywood is the more comfortable coast for a night event",
+      "body": [
+        "Valley evenings in October fall into the high 50s, which is the best weather either resort produces for standing outdoors for five hours. Orlando's October evenings in the high 60s are good by Florida standards and still warmer and stickier than California's.",
+        "The trade is scale. Universal Orlando runs more houses across a much larger park and a longer season, so a serious horror fan gets more event per night in Florida. Hollywood's version is more compact, uses the backlot in ways Orlando cannot, and is a shorter night.",
+        "Hollywood's peak nights are, if anything, harder than Orlando's relative to capacity, because a compact hillside park with a large local pass base absorbs crowd badly. The advice to take an early weeknight applies at least as strongly here."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is it scary? Universal rides and young children",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    },
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single October. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Halloween Horror Nights runs on select nights published for each cycle; house counts, event Express Pass availability and the daytime closing time on event dates have all varied between cycles and are described as patterns rather than as this year's schedule.",
+    "reviewBy": "2027-05",
+    "cycle": "rolling"
+  }
+}

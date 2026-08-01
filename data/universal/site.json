@@ -1,21 +1,21 @@
 {
   "operator": "universal",
   "brand": {
-    "name": "Studio Ready Guide",
-    "shortName": "Studio Ready",
+    "name": "Hollywood Ride Guide",
+    "shortName": "Hollywood Ride",
     "tagline": "Independent, unofficial planning for the four US Universal theme parks.",
-    "domain": "studioreadyguide.com",
-    "origin": "https://studioreadyguide.com",
+    "domain": "hollywoodrideguide.com",
+    "origin": "https://hollywoodrideguide.com",
     "locale": "en-US",
     "themeColor": "#1b3a5c",
     "founded": 2026,
-    "logoMark": "SR"
+    "logoMark": "HR"
   },
   "meta": {
-    "defaultTitleSuffix": "Studio Ready Guide",
-    "defaultDescription": "Height requirements, ride-by-ride honesty, Express Pass maths, dining worth the money, and month-by-month timing for the four US Universal parks. Independent and unofficial.",
+    "defaultTitleSuffix": "Hollywood Ride Guide",
+    "defaultDescription": "Height requirements, ride-by-ride honesty, Express Pass maths, and month-by-month timing for the four US Universal parks. Independent and unofficial.",
     "twitterSite": "",
-    "publisherName": "Studio Ready Guide"
+    "publisherName": "Hollywood Ride Guide"
   },
   "queue": {
     "name": "Express Pass",
@@ -31,8 +31,35 @@
       "none": "Standby"
     }
   },
+  "crossLinks": {
+    "note": "Semantic cross-link roles. Templates ask for a role; this maps it to THIS operator's slug. A role with no equivalent here is null and the link is dropped rather than rendered as a 404.",
+    "guides": {
+      "riderSwitch": "child-swap",
+      "firstTrip": "first-universal-trip",
+      "ropeDrop": null,
+      "whatToPack": "what-to-pack",
+      "accessibility": null,
+      "dining": "mobile-order-and-dining",
+      "heights": "height-requirements",
+      "isItScary": "is-it-scary",
+      "motionSickness": "motion-sickness"
+    },
+    "compare": {
+      "parkRankings": "universal-park-rankings",
+      "bestForFood": "best-universal-park-for-food",
+      "bestForYoungChildren": "best-universal-park-for-young-children",
+      "whichPark": "which-universal-park-should-i-visit",
+      "resortVsResort": "universal-orlando-vs-universal-hollywood"
+    }
+  },
+  "notes": {
+    "accessibility": {
+      "title": "Attraction assistance — confirm the current process before you travel",
+      "body": "Universal's attraction assistance programme requires advance registration, and both the registration route and the eligibility criteria have changed more than once in recent years. Treat anything you read about the process, here or elsewhere, as a starting point and confirm the current requirements on Universal's own accessibility pages before your trip. Registering late is the failure mode — it is not something you can arrange at the gate on the day."
+    }
+  },
   "author": {
-    "name": "The Studio Ready Guide editorial team",
+    "name": "The Hollywood Ride Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
     "url": "/about/"
   },
@@ -76,7 +103,8 @@
           "title": "Express Pass, and whether to buy it",
           "body": "Express Pass is included with a stay at the three top-tier hotels for every guest in the room, for the whole stay. On a busy day for a family of four, the premium on those hotels can be less than buying Express Pass separately. That calculation is the single highest-value thing to work out before booking."
         }
-      ]
+      ],
+      "weatherLabel": "Universal Orlando (Orlando)"
     },
     {
       "slug": "universal-hollywood",
@@ -115,7 +143,9 @@
           "title": "When to go",
           "body": "Weekdays outside Southern California school holidays. The park is compact enough that crowd levels are felt more sharply here than at a sprawling Orlando park."
         }
-      ]
+      ],
+      "ticketAffiliate": "packagesDisneyland",
+      "weatherLabel": "Universal Hollywood (Los Angeles)"
     }
   ],
   "nav": {
@@ -233,11 +263,11 @@
     ]
   },
   "legal": {
-    "disclaimer": "Studio Ready Guide is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to NBCUniversal, Universal Destinations & Experiences, or any of their subsidiaries. Park, attraction, restaurant, and character names are used for identification and editorial commentary only, and all trademarks remain the property of their respective owners.",
+    "disclaimer": "Hollywood Ride Guide is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to NBCUniversal, Universal Destinations & Experiences, or any of their subsidiaries. Park, attraction, restaurant, and character names are used for identification and editorial commentary only, and all trademarks remain the property of their respective owners.",
     "shortDisclaimer": "Independent and unofficial. Not affiliated with NBCUniversal or Universal Destinations & Experiences.",
     "affiliateDisclosure": "This section contains affiliate links. If you buy through one, we may earn a commission at no additional cost to you. It never changes what we recommend or how we rank anything.",
     "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so in a banner we cannot switch off.",
-    "copyrightHolder": "Studio Ready Guide"
+    "copyrightHolder": "Hollywood Ride Guide"
   },
   "affiliates": {
     "tickets": {

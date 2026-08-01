@@ -26,8 +26,8 @@ export function foodTrackerPage (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: 'Tool · saves on your device · works offline',
-      title: 'Disney Food Tracker',
-      lede: `Every snack worth knowing about across all six US Disney parks — ${total} of them, with checked prices and honest verdicts. Mark what you want, tick off what you have tried, share the list, print it, take it into the park with no signal.`,
+      title: `${site.brand.shortName} Food Tracker`,
+      lede: `Every snack worth knowing about across all ${data.parks.length} parks — ${total} of them, with checked prices and honest verdicts. Mark what you want, tick off what you have tried, share the list, print it, take it into the park with no signal.`,
       tone: 'compact',
     })}
 
@@ -130,7 +130,7 @@ export function foodTrackerPage (data) {
             ${C.callout({
               type: 'note',
               title: 'Prices are dated, not live',
-              body: 'Every price here carries the month we last checked it. Snack prices at both resorts move once or twice a year, almost always upward. Treat an older date as a guide.',
+              body: 'Every price here carries the month we last checked it. Snack prices move once or twice a year, almost always upward. Treat an older date as a guide.',
             })}
           </div>
         </div>
@@ -152,9 +152,9 @@ export function foodTrackerPage (data) {
       site,
       page: {
         url: urls.foodTracker(),
-        title: 'Disney Food Tracker',
+        title: `${site.brand.shortName} Food Tracker`,
         titleTail: ' — all six US parks',
-        description: `Track ${total} Disney park snacks across all six US parks. Saves to your device, shares as a link, prints as a checklist, and works offline in the park.`,
+        description: `Track ${total} theme park snacks across all ${data.parks.length} parks. Saves to your device, shares as a link, prints as a checklist, and works offline in the park.`,
         trail,
         modified: '2026-07-01',
         bodyClass: 'page-tracker',
@@ -163,7 +163,7 @@ export function foodTrackerPage (data) {
       scripts: ['/assets/js/food-tracker.js'],
       schema: [S.itemList(site, {
         url: urls.foodTracker(),
-        name: 'Disney park snacks worth trying',
+        name: 'Park snacks worth trying',
         items: data.allFood.filter((i) => i.mustTry >= 4).slice(0, 60),
       })],
     }),
@@ -200,7 +200,7 @@ export function heightCheckerPage (data) {
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
-      eyebrow: 'Tool · all six parks',
+      eyebrow: `Tool · all ${data.parks.length} parks`,
       title: 'What can my child ride?',
       lede: 'Set one slider to your child’s height and see, park by park, exactly what they clear, what they miss, and what they miss by less than two inches. Measure with shoes on — that is how the parks do it.',
       tone: 'compact',
@@ -241,7 +241,7 @@ export function heightCheckerPage (data) {
 
     ${C.section({
       tone: 'tint',
-      title: 'Every height requirement at all six parks',
+      title: `Every height requirement at all ${data.parks.length} parks`,
       intro: 'The complete reference table. Sort by height to see what unlocks next, or by park to plan a single day.',
       children: html`
         ${C.dataTable({
@@ -296,9 +296,9 @@ export function heightCheckerPage (data) {
 
     ${C.relatedLinks([
       { href: urls.guide('height-requirements'), label: 'The full height guide', summary: 'Bands, edge cases, and per-park breakdowns' },
-      { href: urls.guide('rider-switch'), label: 'Rider Switch', summary: 'How adults ride when a child cannot' },
+      { href: data.link.riderSwitch, label: 'Rider switch', summary: 'How adults ride when a child cannot' },
       { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'The other limit that matters' },
-      { href: urls.compare('best-disney-park-for-toddlers'), label: 'Best park for toddlers', summary: 'Where short riders get the most' },
+      { href: data.link.bestForYoungChildren, label: 'Best park for young children', summary: 'Where short riders get the most' },
     ])}
 
     <script type="application/json" id="height-data">${raw(JSON.stringify(payload))}</script>
@@ -310,9 +310,9 @@ export function heightCheckerPage (data) {
       site,
       page: {
         url: urls.heightChecker(),
-        title: 'Disney height checker',
+        title: `${site.brand.shortName} height checker`,
         titleTail: ': what can my kid ride?',
-        description: 'Set one slider to your child’s height and see every ride they can and cannot do at all six US Disney parks — including the ones they miss by an inch.',
+        description: `Set one slider to your child’s height and see every ride they can and cannot do at all ${data.parks.length} parks — including the ones they miss by an inch.`,
         trail,
         modified: '2026-07-01',
       },
@@ -346,7 +346,7 @@ export function toolsIndex (data) {
           tone: 'feature',
           eyebrow: 'Interactive',
           title: 'Height Checker',
-          summary: `One slider against ${data.allHeightAttractions.length} height requirements across all six parks. Shows what they clear, what they miss, and what they miss by an inch.`,
+          summary: `One slider against ${data.allHeightAttractions.length} height requirements across all ${data.parks.length} parks. Shows what they clear, what they miss, and what they miss by an inch.`,
         }),
         C.card({
           href: urls.foodTracker(),
@@ -367,14 +367,14 @@ export function toolsIndex (data) {
           tone: 'feature',
           eyebrow: 'Reference',
           title: 'Seasonal calendar',
-          summary: 'Every event at both resorts on one twelve-month timeline, colour-coded by how much has actually been confirmed.',
+          summary: 'Every event on one twelve-month timeline, colour-coded by how much has actually been confirmed.',
         }),
         C.card({
           href: urls.parksIndex(),
           tone: 'feature',
           eyebrow: 'Printable',
           title: 'Park maps',
-          summary: 'Schematic maps for all six parks, drawn by us from open geographic data. One page, black and white, no signal required.',
+          summary: `Schematic maps for all ${data.parks.length} parks, drawn by us from open geographic data. One page, black and white, no signal required.`,
         }),
       ], { columns: 3 }),
     })}
@@ -394,8 +394,8 @@ export function toolsIndex (data) {
       site,
       page: {
         url: urls.toolsIndex(),
-        title: 'Free Disney planning tools',
-        description: 'A height checker, an offline food tracker, a trip-timing ranker, and printable maps for all six US Disney parks. No account, no upload, no cost.',
+        title: `Free ${site.brand.shortName} planning tools`,
+        description: `A height checker, an offline food tracker, a trip-timing ranker, and printable maps for all ${data.parks.length} parks. No account, no upload, no cost.`,
         trail,
         modified: '2026-07-01',
       },
