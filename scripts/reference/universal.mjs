@@ -232,7 +232,7 @@ export const CONFLICTS = [
     field: 'heightIn',
     reference: 34,
     dataset: null,
-    note: 'The table asserts 34in; the authoring agent declined to state a height it was not confident about, which is the instructed behaviour. Either the ride has no minimum, or it has one nobody has confirmed. Epic Universe is the least-corroborated park on the site — resolve this from the operator directly.',
+    note: 'The table asserts 34in. The dataset states no figure and carries a heightNote saying any minimum is low or supervision-based and unverified — which is the instructed behaviour, not an omission. So the two sources agree a restriction may exist and disagree on whether it is 34in. Epic Universe is the least-corroborated park on the site; resolve this from the operator directly.',
   },
 ]
 

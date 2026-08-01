@@ -80,6 +80,37 @@ to a park for a ride their child cannot board.
 Heights that could not be confirmed should be **removed**, not guessed. An absent height renders as
 "not stated" and sends the reader to the operator. A wrong one sends them to the park.
 
+### 1b. Express Pass and single-rider coverage — blocking
+
+Reported by the authoring agents as their single largest unknown, above heights, and it is not
+something the fact checker can catch: `lightningLane` and `singleRider` are plausible on their face
+whatever value they hold, so a wrong one fails silently and costs a reader either money or hours.
+
+- [ ] **Which attractions actually accept Universal Express.** Every `lightningLane` value in the
+      Universal dataset is an authoring judgement rather than a verified list. Epic Universe is the
+      worst case — 15 of its 21 attractions are set `multi-pass` on inference alone. Check each
+      against Universal's published Express list per park.
+- [ ] **`singleRider` is `false` on every Epic Universe attraction**, set conservatively because none
+      could be verified. Universal's single-rider lines are one of its genuine advantages over
+      Disney, so a blanket false understates the product and costs readers real queue time. Confirm
+      per attraction.
+- [ ] Confirm Hagrid's still does not accept Express. `QUEUE_ASSIGNMENT` asserts this, and it is the
+      claim most likely to sell someone a pass on a promise the park will not honour.
+
+### 1c. Attraction and venue names — blocking
+
+Names are load-bearing here in a way they are not on the Disney site, because Epic Universe is new
+enough that several were authored from description rather than from a confirmed name.
+
+- [ ] Verify these specifically, all flagged low-confidence at Epic Universe: `Astronomica` (the hub
+      feature exists; the name is uncertain), `Viking Training Camp`, `De Lacey's Cottage`,
+      `Spit Fyre Grill`, `de Lacus Cocktail Bar`, `Pizza Moon`, `Hooligan's Grog & Gruel`.
+- [ ] **`Café L'air De La Sirène` is placed in Ministry of Magic and may belong to Celestial Park.**
+      If it moves, four food items move with it.
+- [ ] Menu item names outside Toadstool Cafe and Butterbeer are descriptive rather than proper nouns
+      ("Smoked brisket plate"), on purpose. Replace with real names or leave them descriptive — do not
+      invent proper nouns.
+
 ### 2. Closures — blocking
 
 `MUST_BE_CLOSED` in `scripts/reference/universal.mjs` is **empty**. That is deliberate and it is a
@@ -99,6 +130,10 @@ which teaches everyone to ignore the checker.
       stay" is the single most expensive thing a reader could believe here.
 - [ ] Butterbeer, cold and frozen, at both resorts. `SNACK_PRICES` pins these as *notes* rather than
       failures, so a mismatch will not block a build — it has to be read.
+- [ ] **Every food price in the dataset is a plausible band, not a confirmed figure.** The authoring
+      agents said so explicitly. Butterbeer is the most defensible; the Epic Universe lounge and
+      speciality-drink prices are the least. These render as numbers next to a "verified July 2026"
+      stamp, which is a stronger claim than the data supports until this is done.
 - [ ] Halloween Horror Nights bands in `scripts/reference/universal-seasonal.mjs`. They are
       deliberately wide (Orlando $70–200) because Universal prices by date aggressively. Confirm the
       real spread sits inside them rather than merely overlapping.
