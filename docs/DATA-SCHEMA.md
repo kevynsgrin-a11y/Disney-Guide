@@ -16,7 +16,9 @@ parks/<park-slug>/map.json           schematic map geometry (authored separately
 parks/<park-slug>/best-rides.json    the park's ranked "best rides" page (authored separately)
 ```
 
-Park slugs (exactly these, no others):
+An operator's park slugs and their resorts come from its own `site.json`, under
+`resorts[].parks`. That array is the single declaration of which parks exist and in what order —
+no script carries a park list. The Disney operator's is:
 
 | Slug | Park | Resort slug | Resort name |
 |---|---|---|---|
@@ -26,6 +28,28 @@ Park slugs (exactly these, no others):
 | `animal-kingdom` | Disney's Animal Kingdom | `walt-disney-world` | Walt Disney World |
 | `disneyland-park` | Disneyland Park | `disneyland` | Disneyland Resort |
 | `california-adventure` | Disney California Adventure | `disneyland` | Disneyland Resort |
+
+### The paid queue product
+
+`lightningLane` on an attraction is a **tier**, not a brand: `multi-pass`, `single-pass`, or `none`.
+The enum is the same on every site because the underlying question is — is this attraction covered
+by the paid queue-skipping product, and at which tier.
+
+What that product is *called* is not shared. Each operator declares it in `site.json`:
+
+```jsonc
+"queue": {
+  "name": "Express Pass",
+  "guideSlug": "express-pass",
+  "labels": { "multi-pass": "Universal Express Pass", "single-pass": "Universal Express Unlimited", "none": "Standby only" },
+  "short":  { "multi-pass": "Express", "single-pass": "Express Unlimited", "none": "Standby" }
+}
+```
+
+Labels are resolved onto each attraction when the data loads, so **never write a product name in
+prose that the operator does not sell.** Writing "Lightning Lane" on a Universal page, or "Express
+Pass" on a Disney one, is a factual error about a paid product and not a stylistic slip. The one
+exception is an explicit comparison page where the contrast between the two products is the subject.
 
 ---
 
@@ -323,7 +347,16 @@ where warranted — that is the editorial voice that earns trust.
 
 ---
 
-## Verified reference data (use these, do not contradict them)
+## Verified reference data — the Disney operator
+
+**These figures are Disney's.** They are reproduced here for authors working on `data/disney/`, and
+they are mirrored as executable assertions in `scripts/reference/disney.mjs`, which is what the fact
+checker actually runs against.
+
+If you are authoring a different operator, none of this applies to you — not the heights, not the
+queue mechanics, not the snack prices. Write that operator's own tables under
+`scripts/reference/<operator>.mjs` and see `docs/NEW-OPERATOR.md` step 5. Copying these values across
+would produce a checker that agrees with the wrong parks.
 
 These facts were verified as of **July 2026**. If your knowledge conflicts, these win.
 
