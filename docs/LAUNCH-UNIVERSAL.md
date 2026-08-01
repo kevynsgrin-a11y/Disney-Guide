@@ -31,6 +31,36 @@ That distinction is the whole reason for the draft flag.
 
 ## The gates
 
+### 0. Unresolved source conflicts — blocking, and start here
+
+`CONFLICTS` in `scripts/reference/universal.mjs` records every place the reference table and the
+dataset disagree. These are the highest-value items on this list, because they are the only ones a
+machine has already told you are wrong somewhere.
+
+`node scripts/factcheck.mjs universal` prints them in full. As of writing:
+
+| Park | Attraction | Field | Table says | Data says |
+| --- | --- | --- | --- | --- |
+| Islands of Adventure | Skull Island: Reign of Kong | `heightIn` | 34 | 36 |
+| Epic Universe | Yoshi's Adventure | `heightIn` | 34 | *(none stated)* |
+
+Two inches is exactly the width of a bad day at a height stick. Resolve each against the operator's
+own published figure and **delete the row** — the fact checker reports a row that no longer matches
+as stale, and `test/operators.test.mjs` refuses to let the operator go live while the list is
+non-empty. The list is a way to record a disagreement honestly, not a way to make one go away.
+
+Three earlier disagreements have already been settled and are recorded here as worked examples of
+what to look for:
+
+- **`transformers` matched a character meet-and-greet.** The table's needle was too broad, so it
+  asserted a 40in requirement against a walk-up photo op. The needle, not the data, was wrong.
+- **Woody Woodpecker's Nuthouse Coaster was not in the dataset.** It was rethemed as Trolls
+  Trollercoaster with DreamWorks Land. Both sources independently put the coaster at 36in, so the
+  number was corroborated and only the name had moved.
+- **"Magical" appeared as filler thirteen times in one file.** Twelve were Hagrid's Magical Creatures
+  Motorbike Adventure. Fixed by scrubbing proper names before the sweep rather than by relaxing the
+  rule — see `PROPER_NAMES`.
+
 ### 1. Heights — blocking
 
 The highest-stakes numbers on the site. A wrong height is not an inaccuracy; it is a family driving

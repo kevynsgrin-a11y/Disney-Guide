@@ -39,9 +39,14 @@ export const HEIGHTS = {
     'men in black': 42,
     'escape from gringotts': 42,
     'despicable me': 40,
-    transformers: 40,
+    // "transformers: the ride", not "transformers" — the bare word also matches the character
+    // meet-and-greet, which has no height stick and should not have one asserted against it.
+    'transformers: the ride': 40,
     'the simpsons ride': 40,
-    'woody woodpecker': 36,
+    // Written blind as "woody woodpecker", which the dataset did not have: the coaster was rethemed
+    // with DreamWorks Land. Both sources independently put it at 36, so the number is corroborated
+    // and only the name moved.
+    'trolls trollercoaster': 36,
     'e.t. adventure': 34,
   },
 
@@ -83,7 +88,7 @@ export const HEIGHTS = {
     'forbidden journey': 48,
     'jurassic world': 42,
     'mario kart': 40,
-    transformers: 40,
+    'transformers: the ride': 40,
     'despicable me': 40,
     'flight of the hippogriff': 39,
     'secret life of pets': 34,
@@ -175,7 +180,7 @@ export const MUST_BE_CLOSED = {}
 
 /** Attractions that must be present AND operating. Headliners only — omission is the failure mode. */
 export const MUST_BE_OPEN = {
-  'universal-studios-florida': ['escape from gringotts', 'revenge of the mummy', 'hollywood rip ride rockit', 'transformers'],
+  'universal-studios-florida': ['escape from gringotts', 'revenge of the mummy', 'hollywood rip ride rockit', 'transformers: the ride'],
   'islands-of-adventure': ['incredible hulk', 'velocicoaster', 'hagrid', 'forbidden journey'],
   'epic-universe': ['stardust racers', 'mario kart'],
   'universal-studios-hollywood': ['studio tour', 'revenge of the mummy', 'forbidden journey'],
@@ -200,6 +205,50 @@ export const SNACK_PRICES = [
  * thing Universal does, it is enormously tempting to mention on a park overview, and its dates,
  * houses and prices change every single year. One canonical owner, under data/universal/seasonal/.
  */
+/**
+ * Recorded disagreements between this table and the dataset that a human has not settled.
+ *
+ * Both were written from the same model's knowledge, but independently and in that order — the table
+ * first, blind, before any park data existed. Where they agree that is weak evidence. Where they
+ * disagree it is a genuine flag, and resolving it by editing either side would throw away the only
+ * signal the arrangement produces.
+ *
+ * So both values are recorded and the row goes on the launch checklist. This is not a suppression
+ * mechanism: an operator cannot go live with a non-empty list, and a row that stops matching is
+ * reported as stale rather than quietly ignored.
+ */
+export const CONFLICTS = [
+  {
+    park: 'islands-of-adventure',
+    attraction: 'Skull Island: Reign of Kong',
+    field: 'heightIn',
+    reference: 34,
+    dataset: 36,
+    note: 'Two inches apart, and two inches is exactly the width of a bad day at a height stick. Check the operator\'s own published figure and delete this row.',
+  },
+  {
+    park: 'epic-universe',
+    attraction: "Yoshi's Adventure",
+    field: 'heightIn',
+    reference: 34,
+    dataset: null,
+    note: 'The table asserts 34in; the authoring agent declined to state a height it was not confident about, which is the instructed behaviour. Either the ride has no minimum, or it has one nobody has confirmed. Epic Universe is the least-corroborated park on the site — resolve this from the operator directly.',
+  },
+]
+
+/**
+ * Proper names containing a word the filler sweep bans, scrubbed from prose before that sweep runs.
+ *
+ * House style bans "magical" as filler. Universal sells a ride called Hagrid's Magical Creatures
+ * Motorbike Adventure. Without this list, one park file reported thirteen filler hits of which twelve
+ * were the ride's own name — and a check that is mostly false positives is one everybody learns to
+ * scroll past, which costs you the one real hit hiding among them.
+ */
+export const PROPER_NAMES = [
+  "Hagrid's Magical Creatures Motorbike Adventure",
+  'Magical Creatures Motorbike Adventure',
+]
+
 export const SEASONAL = [
   'halloween horror nights', 'halloween horror', 'hhn',
   'mardi gras', 'grinchmas', 'holidays at universal',

@@ -38,6 +38,9 @@ let DUAL_HEIGHTS = {}
 let QUEUE_ASSIGNMENT = {}
 let VIRTUAL_QUEUE_ALLOWED = []
 let QUEUE_CLAIMS = {}
+let PROPER_NAMES = []
+let CONFLICTS = []
+let conflictsHit = new Set()
 let QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane' }
 
 async function loadReference (operatorSlug) {
@@ -62,6 +65,31 @@ async function loadReference (operatorSlug) {
   QUEUE_ASSIGNMENT = ref.QUEUE_ASSIGNMENT || {}
   VIRTUAL_QUEUE_ALLOWED = ref.VIRTUAL_QUEUE_ALLOWED || []
   QUEUE_CLAIMS = ref.QUEUE_CLAIMS || {}
+  PROPER_NAMES = (ref.PROPER_NAMES || []).map((n) => n.toLowerCase())
+  CONFLICTS = ref.CONFLICTS || []
+  conflictsHit = new Set()
+}
+
+/**
+ * A recorded disagreement between the reference table and the dataset that a human has not settled.
+ *
+ * When two independent sources disagree, there are three things you can do. Change the table to
+ * match the data — which destroys the check, because the table now says what the data says and
+ * agreeing with itself is what it was built to not do. Change the data to match the table — which
+ * assumes the table is the more reliable source, and nothing establishes that. Or write down that
+ * they disagree, with both values, and send it to someone who can look it up.
+ *
+ * Only the third is honest, so it is the only one with a mechanism. A conflict downgrades the
+ * failure to a loud note and puts the row on the launch checklist. It is never a way to make a
+ * disagreement go away: an operator cannot go live with a non-empty CONFLICTS list — see
+ * test/operators.test.mjs — and a row that stops matching is reported as stale rather than ignored.
+ */
+function conflictFor (park, name, field, reference, dataset) {
+  const row = CONFLICTS.find((c) =>
+    c.park === park && c.field === field && matches(name, c.attraction) &&
+    c.reference === reference && c.dataset === dataset)
+  if (row) conflictsHit.add(row)
+  return row
 }
 
 /* ------------------------------------------------------------------ *
@@ -136,7 +164,11 @@ async function checkPark (slug) {
     if (!found.length) { fail(slug, `no attraction matching "${needle}" — the reference table expects one at ${expected}in`); continue }
     const allowed = dual[needle] || [expected]
     for (const a of found) {
-      if (!allowed.includes(a.heightIn)) {
+      if (allowed.includes(a.heightIn)) continue
+      const conflict = conflictFor(slug, a.name, 'heightIn', expected, a.heightIn === undefined ? null : a.heightIn)
+      if (conflict) {
+        note(slug, `UNRESOLVED — "${a.name}" heightIn: reference says ${JSON.stringify(expected)}, dataset says ${JSON.stringify(a.heightIn ?? null)}. ${conflict.note}`)
+      } else {
         fail(slug, `"${a.name}" has heightIn ${JSON.stringify(a.heightIn)} but the reference table says ${allowed.join(' or ')}`)
       }
     }
@@ -261,11 +293,27 @@ async function checkProse () {
       // Skip identifier-ish fields; this is about prose.
       if (/\.(slug|id|image|url|href|restaurantSlug|land|park|resort)$/.test(where)) continue
       const lower = value.toLowerCase()
+
+      /*
+       * Proper names are scrubbed before the filler sweep, not after.
+       *
+       * "Magical" is banned as filler and is also the fourth word of Hagrid's Magical Creatures
+       * Motorbike Adventure. Without this, one park's file reported thirteen filler hits of which
+       * twelve were the ride's actual name — which is worse than not checking, because a check that
+       * is mostly false positives is a check everybody learns to scroll past. Same principle as
+       * NAME_EXCLAMATIONS in the seasonal checker: keep the rule strict by removing the cases where
+       * obeying it would require misnaming something.
+       *
+       * Deliberately not applied to the SEASONAL sweep below. Halloween Horror Nights is a proper
+       * name too, and banning it from evergreen pages is the entire point.
+       */
+      const prose = PROPER_NAMES.reduce((acc, name) => acc.split(name).join(' '), lower)
+
       for (const word of FILLER) {
-        if (lower.includes(word)) fillerHits.set(word, (fillerHits.get(word) || 0) + 1)
+        if (prose.includes(word)) fillerHits.set(word, (fillerHits.get(word) || 0) + 1)
       }
       for (const opener of FILLER_OPENERS) {
-        if (lower.startsWith(opener)) fillerHits.set(`opens with "${opener}"`, (fillerHits.get(`opens with "${opener}"`) || 0) + 1)
+        if (prose.startsWith(opener)) fillerHits.set(`opens with "${opener}"`, (fillerHits.get(`opens with "${opener}"`) || 0) + 1)
       }
       for (const term of SEASONAL) {
         if (lower.includes(term)) seasonalHits.set(term, (seasonalHits.get(term) || 0) + 1)
@@ -363,6 +411,18 @@ for (const operatorSlug of targets) {
   await checkProse()
   await checkGuideCounts()
   await checkQueueGuideClaims()
+
+  // A conflict row that no longer matches anything means the disagreement was settled and nobody
+  // deleted the row. Left alone it is a standing exemption for a check that would now pass, which
+  // is how a temporary allowance becomes permanent.
+  for (const row of CONFLICTS) {
+    if (!conflictsHit.has(row)) {
+      fail(`${operatorSlug} reference`, `CONFLICTS row for "${row.attraction}" (${row.field}) no longer matches the dataset — the disagreement is resolved, so delete the row`)
+    }
+  }
+  if (conflictsHit.size) {
+    note(`${operatorSlug} reference`, `${conflictsHit.size} unresolved source conflict${conflictsHit.size === 1 ? '' : 's'} — this operator cannot go live until they are settled by a human`)
+  }
 }
 
 if (notes.length) {

@@ -50,6 +50,31 @@ test('an unknown operator is an error, not a silent empty build', async () => {
   )
 })
 
+test('no live operator carries an unresolved source conflict', async () => {
+  /*
+   * CONFLICTS records a disagreement between an operator's reference table and its dataset that a
+   * human has not settled. It exists so the honest third option — write down that two sources
+   * disagree and send it to someone who can look it up — is available alongside the two dishonest
+   * ones, editing either side to match the other.
+   *
+   * Its whole value depends on it being temporary. Without this test it is simply a way to make a
+   * failing check pass, which is the opposite of what it is for.
+   */
+  const { pathToFileURL } = await import('node:url')
+  const { join, dirname } = await import('node:path')
+  const { fileURLToPath } = await import('node:url')
+  const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+
+  for (const o of await resolveTargets([])) {
+    const ref = await import(pathToFileURL(join(root, 'scripts', 'reference', `${o.slug}.mjs`)).href)
+    const conflicts = ref.CONFLICTS || []
+    assert.equal(conflicts.length, 0,
+      `live operator "${o.slug}" has ${conflicts.length} unresolved conflict(s): ` +
+      conflicts.map((c) => `${c.attraction} ${c.field} (reference ${c.reference} vs dataset ${c.dataset})`).join('; ') +
+      '. Settle them against the operator\'s published figures, or set status back to "draft".')
+  }
+})
+
 test('every live operator has both of its reference tables', async () => {
   // A dataset checked against nothing is not checked. The fact checkers refuse to run without
   // these, so a live operator missing one would fail at the gate rather than here — but failing
