@@ -1,0 +1,266 @@
+{
+  "operator": "universal",
+  "brand": {
+    "name": "Studio Ready Guide",
+    "shortName": "Studio Ready",
+    "tagline": "Independent, unofficial planning for the four US Universal theme parks.",
+    "domain": "studioreadyguide.com",
+    "origin": "https://studioreadyguide.com",
+    "locale": "en-US",
+    "themeColor": "#1b3a5c",
+    "founded": 2026,
+    "logoMark": "SR"
+  },
+  "meta": {
+    "defaultTitleSuffix": "Studio Ready Guide",
+    "defaultDescription": "Height requirements, ride-by-ride honesty, Express Pass maths, dining worth the money, and month-by-month timing for the four US Universal parks. Independent and unofficial.",
+    "twitterSite": "",
+    "publisherName": "Studio Ready Guide"
+  },
+  "queue": {
+    "name": "Express Pass",
+    "guideSlug": "express-pass",
+    "labels": {
+      "multi-pass": "Universal Express Pass",
+      "single-pass": "Universal Express Unlimited",
+      "none": "Standby only"
+    },
+    "short": {
+      "multi-pass": "Express",
+      "single-pass": "Express Unlimited",
+      "none": "Standby"
+    }
+  },
+  "author": {
+    "name": "The Studio Ready Guide editorial team",
+    "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
+    "url": "/about/"
+  },
+  "resorts": [
+    {
+      "slug": "universal-orlando",
+      "name": "Universal Orlando Resort",
+      "shortName": "Universal Orlando",
+      "location": "Orlando, Florida",
+      "coordinates": {
+        "lat": 28.4749,
+        "lng": -81.4682
+      },
+      "tagline": "Three theme parks, the highest concentration of modern thrill rides in the country, and a queue-skipping system you can actually buy your way out of.",
+      "summary": "Universal Orlando is three theme parks and a water park on two campuses joined by a walkway and a boat. It rewards shorter trips, higher tolerance for intensity, and a willingness to do the Express Pass arithmetic.",
+      "intro": [
+        "Universal Orlando is now a three-park destination, and that changed the trip. For two decades it was a two-park add-on you did in a day and a half while visiting somewhere else. Epic Universe, which opened in May 2025 on a separate campus a short drive south, is a full-size park in its own right, and the resort now genuinely needs three to four days.",
+        "The two original parks — Universal Studios Florida and Islands of Adventure — sit either side of the CityWalk entertainment district and are close enough to walk between in about ten minutes. The Hogwarts Express train connects them, and riding it requires a park-to-park ticket, which is the single most consequential ticket decision you will make here.",
+        "The defining difference from the Disney parks down the road is intensity. Universal's headline attractions skew toward high-motion simulators and serious roller coasters, and the height requirements are correspondingly stricter. A family whose youngest is under 40 inches will find far more to do at Magic Kingdom than at Islands of Adventure, and pretending otherwise is how a trip goes wrong."
+      ],
+      "parks": [
+        "universal-studios-florida",
+        "islands-of-adventure",
+        "epic-universe"
+      ],
+      "lightningLaneNote": "Universal sells Universal Express Pass, a paid front-of-line product, and includes it with a stay at three of its hotels. That inclusion is the resort's most distinctive value proposition and the thing worth doing the arithmetic on before booking anything.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Orlando International (MCO) is about 20 minutes away, closer than it is to Walt Disney World. Universal runs no free airport shuttle; a rental car, a rideshare, or a paid shuttle service are the options."
+        },
+        {
+          "title": "Getting around",
+          "body": "The two original parks and CityWalk are walkable. Epic Universe is on a separate campus and needs the resort shuttle bus or a car. Several hotels connect by water taxi or a garden walkway, which is a genuine quality-of-life difference worth choosing a hotel over."
+        },
+        {
+          "title": "How many days",
+          "body": "Three park days is the honest minimum now that Epic Universe exists. Two days covers the two original parks at a rush. Four lets you repeat the headliners, which at Universal is more of the point than it is elsewhere."
+        },
+        {
+          "title": "Express Pass, and whether to buy it",
+          "body": "Express Pass is included with a stay at the three top-tier hotels for every guest in the room, for the whole stay. On a busy day for a family of four, the premium on those hotels can be less than buying Express Pass separately. That calculation is the single highest-value thing to work out before booking."
+        }
+      ]
+    },
+    {
+      "slug": "universal-hollywood",
+      "name": "Universal Studios Hollywood",
+      "shortName": "Universal Hollywood",
+      "location": "Universal City, California",
+      "coordinates": {
+        "lat": 34.1381,
+        "lng": -118.3534
+      },
+      "tagline": "One park on a working studio lot, doable in a day, built around a tram tour nothing else replicates.",
+      "summary": "Universal Studios Hollywood is a single park on a real working backlot in Los Angeles. It is a one-day visit, it is built on a hillside, and the Studio Tour is the reason to go rather than a sideshow.",
+      "intro": [
+        "Universal Studios Hollywood is the original, opened as a studio tour in 1964 and still built around one. It is a single park on a genuine working lot, which is both its distinguishing feature and the constraint that shapes everything else about it.",
+        "The park is split across two levels connected by a long series of escalators locally known as the Starway. Upper Lot holds the entrance, the Studio Tour, and most of the show buildings; Lower Lot holds the bulk of the roller coasters. Budget real time for moving between them, especially with small children or anyone who tires on stairs.",
+        "One day is genuinely enough, which makes it a different proposition from Orlando. It works as a half-day add-on to a Los Angeles trip rather than a destination in itself, and it is the one US Universal park a visitor can reasonably do without a hotel stay."
+      ],
+      "parks": [
+        "universal-studios-hollywood"
+      ],
+      "lightningLaneNote": "Universal Express is sold here too, priced per day and varying sharply by date. There is no hotel tier that includes it the way Orlando's does.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Burbank (BUR) is closest and easiest. LAX is cheaper to fly into and 30 to 60 minutes away depending on traffic. The Metro B Line stops at Universal City with a free shuttle up the hill, which is the rare Los Angeles attraction genuinely reachable without a car."
+        },
+        {
+          "title": "Getting around",
+          "body": "You walk, and part of that walk is vertical. The Starway escalators between Upper and Lower Lot take several minutes each way. Plan your day to minimise round trips rather than criss-crossing."
+        },
+        {
+          "title": "How many days",
+          "body": "One. A second day only makes sense if the first was cut short or you want to repeat the Studio Tour, which does change with the seasonal overlays."
+        },
+        {
+          "title": "When to go",
+          "body": "Weekdays outside Southern California school holidays. The park is compact enough that crowd levels are felt more sharply here than at a sprawling Orlando park."
+        }
+      ]
+    }
+  ],
+  "nav": {
+    "primary": [
+      {
+        "label": "Parks",
+        "href": "/parks/"
+      },
+      {
+        "label": "Heights",
+        "href": "/guides/height-requirements/"
+      },
+      {
+        "label": "Express Pass",
+        "href": "/guides/express-pass/"
+      },
+      {
+        "label": "Guides",
+        "href": "/guides/"
+      },
+      {
+        "label": "Compare",
+        "href": "/compare/"
+      },
+      {
+        "label": "Tools",
+        "href": "/tools/"
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Universal Orlando",
+        "links": [
+          {
+            "label": "Resort overview",
+            "href": "/universal-orlando/"
+          },
+          {
+            "label": "Universal Studios Florida",
+            "href": "/universal-orlando/universal-studios-florida/"
+          },
+          {
+            "label": "Islands of Adventure",
+            "href": "/universal-orlando/islands-of-adventure/"
+          },
+          {
+            "label": "Epic Universe",
+            "href": "/universal-orlando/epic-universe/"
+          }
+        ]
+      },
+      {
+        "heading": "Universal Hollywood",
+        "links": [
+          {
+            "label": "Park overview",
+            "href": "/universal-hollywood/universal-studios-hollywood/"
+          },
+          {
+            "label": "Ride list",
+            "href": "/universal-hollywood/universal-studios-hollywood/rides/"
+          },
+          {
+            "label": "Height requirements",
+            "href": "/universal-hollywood/universal-studios-hollywood/height-requirements/"
+          }
+        ]
+      },
+      {
+        "heading": "Plan your visit",
+        "links": [
+          {
+            "label": "All guides",
+            "href": "/guides/"
+          },
+          {
+            "label": "Comparisons",
+            "href": "/compare/"
+          },
+          {
+            "label": "All parks",
+            "href": "/parks/"
+          }
+        ]
+      },
+      {
+        "heading": "Tools & about",
+        "links": [
+          {
+            "label": "Height Checker",
+            "href": "/tools/height-checker/"
+          },
+          {
+            "label": "Food Tracker",
+            "href": "/tools/food-tracker/"
+          },
+          {
+            "label": "About",
+            "href": "/about/"
+          },
+          {
+            "label": "Editorial policy",
+            "href": "/editorial-policy/"
+          },
+          {
+            "label": "Privacy",
+            "href": "/privacy/"
+          },
+          {
+            "label": "Contact & corrections",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "disclaimer": "Studio Ready Guide is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to NBCUniversal, Universal Destinations & Experiences, or any of their subsidiaries. Park, attraction, restaurant, and character names are used for identification and editorial commentary only, and all trademarks remain the property of their respective owners.",
+    "shortDisclaimer": "Independent and unofficial. Not affiliated with NBCUniversal or Universal Destinations & Experiences.",
+    "affiliateDisclosure": "This section contains affiliate links. If you buy through one, we may earn a commission at no additional cost to you. It never changes what we recommend or how we rank anything.",
+    "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so in a banner we cannot switch off.",
+    "copyrightHolder": "Studio Ready Guide"
+  },
+  "affiliates": {
+    "tickets": {
+      "label": "Undercover Tourist",
+      "note": "Authorized reseller. Discounted multi-day tickets for Universal Orlando and Hollywood.",
+      "href": "https://www.undercovertourist.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "packagesDisneyland": {
+      "label": "Get Away Today",
+      "note": "Southern California ticket and hotel packages, including Universal Studios Hollywood.",
+      "href": "https://www.getawaytoday.com/",
+      "rel": "sponsored nofollow noopener"
+    },
+    "gear": {
+      "label": "Amazon",
+      "note": "Park bag gear.",
+      "href": "https://www.amazon.com/",
+      "rel": "sponsored nofollow noopener"
+    }
+  },
+  "analytics": {
+    "enabled": false,
+    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+  }
+}

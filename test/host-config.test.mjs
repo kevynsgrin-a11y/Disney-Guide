@@ -2,6 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 
 import { buildHeaders, buildRedirects } from '../src/build.mjs'
+import { loadData } from '../src/lib/data.mjs'
 
 /**
  * These two files are the only part of the build nothing else validates: they are plain text
@@ -9,7 +10,19 @@ import { buildHeaders, buildRedirects } from '../src/build.mjs'
  * shows up only as a 404 or a missing header in production. Both of which happened.
  */
 
-const redirects = buildRedirects()
+const { site } = await loadData('disney')
+
+/*
+ * The URL set is passed as "every convenience target exists" so these tests read the full table.
+ * Whether a given target is really built is the build's business and is asserted there; what is
+ * being pinned here is the shape of each rule.
+ */
+const ALL_TARGETS = new Set([
+  '/tools/food-tracker/', '/tools/height-checker/', '/guides/height-requirements/',
+  '/when-to-go/', '/tools/trip-timing/', '/closures/', '/prices/lightning-lane/',
+])
+
+const redirects = buildRedirects(site, ALL_TARGETS)
 const headers = buildHeaders()
 
 /** `/from  /to  301` → the set of source paths that have a rule. */
@@ -53,6 +66,34 @@ test('no redirect points at a path that is itself redirected', () => {
     assert.ok(!sources.has(target.replace(/\/$/, '')) || target.replace(/\/$/, '') === from.replace(/\/$/, ''),
       `${from} redirects to ${target}, which is itself a redirect source`)
   }
+})
+
+test('park redirects come from the operator, not from a literal table', async () => {
+  // The bug this pins: the table was two hard-coded Disney lists, so every operator shipped a
+  // _redirects file pointing /magic-kingdom at a Walt Disney World path — on a site that has no
+  // Walt Disney World. A second operator's rules must mention only its own parks.
+  const { site: universal } = await loadData('universal')
+  const out = buildRedirects(universal, ALL_TARGETS)
+
+  assert.ok(!/disney|magic-kingdom|epcot|animal-kingdom/i.test(out),
+    `Universal's redirects name Disney paths:\n${out}`)
+  assert.match(out, /^\/islands-of-adventure {2}\/universal-orlando\/islands-of-adventure\/ {2}301$/m)
+  assert.match(out, /^\/universal-studios-hollywood\/\* {2}\/universal-hollywood\/universal-studios-hollywood\/:splat {2}301$/m)
+})
+
+test('the queue-price convenience path follows the operator\'s own product', async () => {
+  const { site: universal } = await loadData('universal')
+  const out = buildRedirects(universal, new Set(['/prices/express-pass/']))
+  assert.match(out, /^\/express-pass-price {2}\/prices\/express-pass\/ {2}301$/m)
+  assert.ok(!out.includes('lightning-lane'), 'Universal advertises a Lightning Lane price path')
+})
+
+test('a convenience redirect whose target was never built is dropped', () => {
+  // A redirect into a 404 is a slower 404 than the one it replaced. An operator without seasonal
+  // content has no /closures/, so it must not advertise /refurbishments/.
+  const out = buildRedirects(site, new Set(['/tools/food-tracker/']))
+  assert.ok(out.includes('/food-tracker'), 'kept target was dropped')
+  assert.ok(!out.includes('/refurbishments'), 'advertised a redirect to an unbuilt /closures/')
 })
 
 test('security headers are on every rule, not only the catch-all', () => {

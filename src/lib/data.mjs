@@ -167,6 +167,18 @@ export async function loadData (operatorSlug = 'disney') {
 function index (data) {
   const { site, parks } = data
 
+  /*
+   * Queue-product labels are resolved here rather than in the templates.
+   *
+   * The field values are operator-neutral — an attraction is either covered by the paid
+   * queue-skipping product or it is not — but the product's NAME is not. Disney sells Lightning
+   * Lane, Universal sells Express Pass, and a component that hardcodes either is wrong on the other
+   * site. The components stay dumb and render a resolved string.
+   */
+  const queue = site.queue || {}
+  const queueLabels = queue.labels || {}
+  const queueShort = queue.short || {}
+
   data.parkBySlug = new Map(parks.map((p) => [p.slug, p]))
   data.resortBySlug = new Map(site.resorts.map((r) => [r.slug, r]))
 
@@ -197,6 +209,8 @@ function index (data) {
         : `${urls.rides(park)}#${attraction.slug}`
       attraction.hasPage = Boolean(attraction.standalonePage)
       attraction.isOpen = (attraction.status || 'open') === 'open'
+      attraction.queueLabel = queueLabels[attraction.lightningLane] || 'Standby only'
+      attraction.queueLabelShort = queueShort[attraction.lightningLane] || 'Standby'
     }
     for (const restaurant of park.dining) {
       restaurant.park = park
@@ -258,6 +272,12 @@ function index (data) {
   // Distinct height thresholds across the whole site, ascending.
   data.heightThresholds = [...new Set(data.allHeightAttractions.map((a) => a.heightIn))]
     .sort((a, b) => a - b)
+
+  // The queue product's own name and guide slug, for the pages that reference it in prose.
+  data.queue = {
+    name: queue.name || 'Lightning Lane',
+    guideSlug: queue.guideSlug || 'lightning-lane',
+  }
 
   data.guideBySlug = new Map(data.guides.map((g) => [g.slug, g]))
   data.compareBySlug = new Map(data.compare.map((c) => [c.slug, c]))

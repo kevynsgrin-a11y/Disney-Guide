@@ -340,7 +340,7 @@ export function resortPages (data) {
       })}
 
       ${C.section({
-        title: 'Lightning Lane here',
+        title: `${data.queue.name} here`,
         children: html`
           <div class="prose">
             <p>${inline(resort.lightningLaneNote)}</p>
@@ -348,7 +348,7 @@ export function resortPages (data) {
           ${C.callout({
             type: 'money',
             title: 'Prices move constantly — we publish ranges, not today’s number',
-            body: 'Lightning Lane is dynamically priced by date and park. Any single figure you read anywhere is a snapshot. Our [full Lightning Lane guide](/guides/lightning-lane/) explains the mechanics, the booking windows, and when it is genuinely worth buying.',
+            body: `${data.queue.name} is dynamically priced by date and park. Any single figure you read anywhere is a snapshot. Our [full ${data.queue.name} guide](${urls.guide(data.queue.guideSlug)}) explains the mechanics, the booking windows, and when it is genuinely worth buying.`,
           })}
           ${C.affiliateBox(site, {
             kind: resort.slug === 'disneyland' ? 'packagesDisneyland' : 'tickets',
@@ -358,7 +358,7 @@ export function resortPages (data) {
       })}
 
       ${C.relatedLinks([
-        { href: urls.guide('lightning-lane'), label: 'Lightning Lane, explained', summary: 'What each tier buys and when it is worth it' },
+        data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'What each tier buys and when it is worth it' } : null,
         { href: urls.guide('first-disney-trip'), label: 'Your first trip', summary: 'The five decisions that matter most' },
         { href: urls.compare('disneyland-vs-disney-world'), label: 'Disneyland vs Disney World', summary: 'An actual verdict, not a shrug' },
         { href: urls.guide('height-requirements'), label: 'Every height requirement', summary: 'All six parks in one table' },

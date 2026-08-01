@@ -16,6 +16,20 @@
     "twitterSite": "@rideready",
     "publisherName": "Ride Ready Guide"
   },
+  "queue": {
+    "name": "Lightning Lane",
+    "guideSlug": "lightning-lane",
+    "labels": {
+      "multi-pass": "Lightning Lane Multi Pass",
+      "single-pass": "Lightning Lane Single Pass",
+      "none": "Standby only"
+    },
+    "short": {
+      "multi-pass": "Multi Pass",
+      "single-pass": "Single Pass",
+      "none": "Standby"
+    }
+  },
   "author": {
     "name": "The Ride Ready Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",

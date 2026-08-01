@@ -40,7 +40,14 @@ const CONFIDENCE = new Set(['confirmed', 'expected', 'historical'])
 const CYCLE = new Set(['annual', 'rolling', 'one-off'])
 const CATEGORY = new Set(['hard-ticket', 'festival', 'overlay', 'after-hours', 'run'])
 const SEASON = new Set(['halloween', 'holidays', 'spring', 'summer', 'lunar-new-year', 'year-round'])
-const RESORT = new Set(['walt-disney-world', 'disneyland', 'both'])
+/**
+ * Valid `resort` keys, rebuilt per operator from that operator's own site.json.
+ *
+ * This was a hard-coded Disney pair, which meant a second operator's every dated file failed on a
+ * resort key that was perfectly correct for it. "both" is always valid and always means "both of
+ * this operator's resorts" — it is a scope, not a name.
+ */
+let RESORT = new Set(['both'])
 const EDITION_STATUS = new Set(['announced', 'expected', 'past', 'cancelled'])
 const LEVEL = new Set(['low', 'moderate', 'high', 'peak'])
 const GRADE = new Set(['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'])
@@ -608,6 +615,10 @@ async function validateOperator (operatorSlug) {
   const { seasonalDir } = await import('../src/lib/seasonal-data.mjs')
   OPERATOR_DIR = await operatorDir(operatorSlug)
   DATA = await seasonalDir(operatorSlug)
+
+  const site = JSON.parse(await readFile(join(OPERATOR_DIR, 'site.json'), 'utf8'))
+  RESORT = new Set([...(site.resorts || []).map((r) => r.slug), 'both'])
+
   if (!existsSync(DATA)) {
     warn(operatorSlug, 'no seasonal/ directory — nothing dated to validate')
     return { size: 0 }

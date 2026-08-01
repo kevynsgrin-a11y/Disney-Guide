@@ -33,12 +33,19 @@ let MUST_BE_OPEN = {}
 let SNACK_PRICES = []
 let SEASONAL = []
 let PARK_SLUGS = []
+let PLAUSIBLE_HEIGHTS = []
+let DUAL_HEIGHTS = {}
+let QUEUE_ASSIGNMENT = {}
+let VIRTUAL_QUEUE_ALLOWED = []
+let QUEUE_CLAIMS = {}
+let QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane' }
 
 async function loadReference (operatorSlug) {
   const { operatorDir, parkOrder } = await import('../src/lib/data.mjs')
   DATA = await operatorDir(operatorSlug)
   const site = JSON.parse(await readFile(join(DATA, 'site.json'), 'utf8'))
   PARK_SLUGS = parkOrder(site)
+  QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane', ...(site.queue || {}) }
 
   const path = join(ROOT, 'scripts', 'reference', `${operatorSlug}.mjs`)
   if (!existsSync(path)) {
@@ -50,6 +57,11 @@ async function loadReference (operatorSlug) {
   MUST_BE_OPEN = ref.MUST_BE_OPEN || {}
   SNACK_PRICES = ref.SNACK_PRICES || []
   SEASONAL = ref.SEASONAL || []
+  PLAUSIBLE_HEIGHTS = ref.PLAUSIBLE_HEIGHTS || []
+  DUAL_HEIGHTS = ref.DUAL_HEIGHTS || {}
+  QUEUE_ASSIGNMENT = ref.QUEUE_ASSIGNMENT || {}
+  VIRTUAL_QUEUE_ALLOWED = ref.VIRTUAL_QUEUE_ALLOWED || []
+  QUEUE_CLAIMS = ref.QUEUE_CLAIMS || {}
 }
 
 /* ------------------------------------------------------------------ *
@@ -113,32 +125,43 @@ async function checkPark (slug) {
   const food = existsSync(join(dir, 'food.json')) ? (await readJson(join(dir, 'food.json'))).items || [] : []
 
   /* Heights */
+  /*
+   * A few attractions legitimately carry two heights, because they are two experiences sharing a
+   * name and a queue — Mission: SPACE splits Green at 40 and Orange at 44. DUAL_HEIGHTS names them
+   * per operator so the exception is declared in the reference table rather than special-cased here.
+   */
+  const dual = DUAL_HEIGHTS[slug] || {}
   for (const [needle, expected] of Object.entries(HEIGHTS[slug] || {})) {
     const found = attractions.filter((a) => matches(a.name, needle))
     if (!found.length) { fail(slug, `no attraction matching "${needle}" — the reference table expects one at ${expected}in`); continue }
-    // Mission: SPACE legitimately splits into two entries at 40 and 44.
+    const allowed = dual[needle] || [expected]
     for (const a of found) {
-      if (a.heightIn !== expected && !(needle === 'mission' && [40, 44].includes(a.heightIn))) {
-        fail(slug, `"${a.name}" has heightIn ${JSON.stringify(a.heightIn)} but the reference table says ${expected}`)
+      if (!allowed.includes(a.heightIn)) {
+        fail(slug, `"${a.name}" has heightIn ${JSON.stringify(a.heightIn)} but the reference table says ${allowed.join(' or ')}`)
       }
     }
   }
 
-  /* Mission: SPACE is the one attraction with two legitimate heights. */
-  if (slug === 'epcot') {
-    const mission = attractions.filter((a) => matches(a.name, 'mission: space') || matches(a.name, 'mission space'))
-    const heights = new Set(mission.map((a) => a.heightIn))
-    if (!mission.length) fail(slug, 'Mission: SPACE is missing')
-    else if (!heights.has(40) && !heights.has(44)) {
-      fail(slug, `Mission: SPACE heights are ${[...heights].join('/')}, expected 40 (Green) and 44 (Orange)`)
+  for (const [needle, expected] of Object.entries(dual)) {
+    const found = attractions.filter((a) => matches(a.name, needle))
+    if (!found.length) { fail(slug, `"${needle}" is missing — the reference table expects it at ${expected.join(' and ')}in`); continue }
+    const heights = new Set(found.map((a) => a.heightIn))
+    if (!expected.some((h) => heights.has(h))) {
+      fail(slug, `"${needle}" heights are ${[...heights].join('/')}, expected ${expected.join(' and ')}`)
     }
   }
 
-  /* Nothing outside the reference table should carry an implausible height. */
+  /*
+   * Nothing outside the reference table should carry an implausible height.
+   *
+   * The plausible set is per-operator because it is a fact about a specific set of parks, not about
+   * theme parks generally: Disney's restrictions cluster at 32–48in, while Universal's coasters run
+   * to 51, 52 and 54. A shared list would either miss real typos here or cry wolf there.
+   */
   for (const a of attractions) {
-    if (a.heightIn == null) continue
+    if (a.heightIn == null || !PLAUSIBLE_HEIGHTS.length) continue
     const known = Object.keys(HEIGHTS[slug] || {}).some((needle) => matches(a.name, needle))
-    if (!known && ![32, 35, 38, 40, 42, 44, 46, 48].includes(a.heightIn)) {
+    if (!known && !PLAUSIBLE_HEIGHTS.includes(a.heightIn)) {
       note(slug, `"${a.name}" has an unusual height of ${a.heightIn}in — verify it`)
     }
   }
@@ -160,18 +183,30 @@ async function checkPark (slug) {
     }
   }
 
-  /* Test Track uses Multi Pass, not Single Pass — a common and specific error. */
-  if (slug === 'epcot') {
-    for (const a of attractions.filter((x) => matches(x.name, 'test track'))) {
-      if (a.lightningLane !== 'multi-pass') {
-        fail(slug, `Test Track has lightningLane "${a.lightningLane}" — the 2025 version uses Multi Pass`)
+  /*
+   * Attractions whose queue-product tier is specifically easy to get wrong — Test Track moved to
+   * Multi Pass with its 2025 rebuild and is still widely written up as Single Pass. Declared per
+   * operator, since which tier an attraction sits in is exactly the kind of fact that differs.
+   */
+  for (const [needle, expected] of Object.entries(QUEUE_ASSIGNMENT[slug] || {})) {
+    for (const a of attractions.filter((x) => matches(x.name, needle))) {
+      if (a.lightningLane !== expected) {
+        fail(slug, `"${a.name}" has lightningLane "${a.lightningLane}" but the reference table says "${expected}"`)
       }
     }
   }
 
-  /* Virtual queues: none are permanent at either resort as of mid-2026. */
+  /*
+   * Virtual queues.
+   *
+   * Disney runs none permanently as of mid-2026, so any claim of one is an error. Universal runs
+   * several as standing policy. The allow-list is per operator; an empty one means "none", which is
+   * an assertion the reference table makes rather than something assumed here.
+   */
   for (const a of attractions.filter((x) => x.virtualQueue === true)) {
-    fail(slug, `"${a.name}" claims a virtual queue — no attraction at either resort permanently uses one`)
+    if (!VIRTUAL_QUEUE_ALLOWED.some((needle) => matches(a.name, needle))) {
+      fail(slug, `"${a.name}" claims a virtual queue, which the reference table does not list as one`)
+    }
   }
 
   /* Ranked pages must not rank a closed attraction. */
@@ -285,22 +320,32 @@ async function checkGuideCounts () {
   }
 }
 
-async function checkLightningLaneClaims () {
+/**
+ * The paid queue-skipping guide, whichever product the operator sells.
+ *
+ * Every operator has one of these pages, it is the most price-sensitive page on the site, and the
+ * ways it goes stale are operator-specific: Disney's says Genie+ two years after Genie+ stopped
+ * existing, Universal's conflates Express Pass with Express Unlimited. The page is located from
+ * site.queue.guideSlug and the claims come from the reference table, so this function knows only
+ * that such a page exists — not what it is called or what it should say.
+ */
+async function checkQueueGuideClaims () {
   const base = join(DATA, 'guides')
   if (!existsSync(base)) return
-  const path = join(base, 'lightning-lane.json')
-  if (!existsSync(path)) { note('guides', 'lightning-lane.json is missing'); return }
+  const label = `guides/${QUEUE.guideSlug}.json`
+  const path = join(base, `${QUEUE.guideSlug}.json`)
+  if (!existsSync(path)) { note('guides', `${QUEUE.guideSlug}.json is missing — the ${QUEUE.name} guide is the page prices go stale on first`); return }
   const doc = await readJson(path)
   const text = [...strings(doc)].map(([, v]) => v).join(' ').toLowerCase()
 
-  if (!/as of (july )?2026|july 2026/.test(text)) {
-    fail('guides/lightning-lane.json', 'no "as of July 2026" framing — dynamic prices must never read as fixed')
+  for (const rule of QUEUE_CLAIMS.require || []) {
+    if (!rule.re.test(text)) fail(label, rule.message)
   }
-  if (!/\$34/.test(text)) {
-    note('guides/lightning-lane.json', 'does not mention the $34 Disneyland Multi Pass starting price')
+  for (const rule of QUEUE_CLAIMS.expect || []) {
+    if (!rule.re.test(text)) note(label, rule.message)
   }
-  if (/genie\+/.test(text) && !/replaced|until|formerly|used to/.test(text)) {
-    fail('guides/lightning-lane.json', 'refers to Genie+ without noting it was replaced in July 2024')
+  for (const rule of QUEUE_CLAIMS.forbid || []) {
+    if (rule.re.test(text) && !(rule.unless && rule.unless.test(text))) fail(label, rule.message)
   }
 }
 
@@ -317,7 +362,7 @@ for (const operatorSlug of targets) {
   for (const slug of PARKS()) await checkPark(slug)
   await checkProse()
   await checkGuideCounts()
-  await checkLightningLaneClaims()
+  await checkQueueGuideClaims()
 }
 
 if (notes.length) {

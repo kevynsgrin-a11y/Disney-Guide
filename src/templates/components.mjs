@@ -294,7 +294,7 @@ export function linkGrid (links, { columns = 3 } = {}) {
 export function attractionCard (attraction) {
   const badges = [
     attraction.heightIn != null ? { label: `${attraction.heightIn}" min`, tone: 'height' } : { label: 'Any height', tone: 'good' },
-    attraction.lightningLane !== 'none' ? { label: f.lightningLaneShort(attraction.lightningLane), tone: 'll' } : null,
+    attraction.lightningLane !== 'none' ? { label: attraction.queueLabelShort, tone: 'll' } : null,
     !attraction.isOpen ? { label: 'Closed', tone: 'closed' } : null,
     attraction.singleRider ? { label: 'Single rider', tone: '' } : null,
   ].filter(Boolean)
@@ -383,7 +383,7 @@ export function attractionInline (attraction) {
       <p class="inline-attraction__meta">
         ${f.attractionType(attraction.type)}
         ${attraction.durationMinutes != null ? html` · ${f.duration(attraction.durationMinutes)}` : ''}
-        ${attraction.lightningLane !== 'none' ? html` · ${f.lightningLaneShort(attraction.lightningLane)}` : ''}
+        ${attraction.lightningLane !== 'none' ? html` · ${attraction.queueLabelShort}` : ''}
         ${!attraction.isOpen ? html` · <strong class="is-closed">Closed</strong>` : ''}
       </p>
       <p class="inline-attraction__summary">${inline(attraction.summary)}</p>
@@ -465,7 +465,7 @@ export function seasonalHandoff (topic) {
   return callout({
     type: 'note',
     title: 'Looking for what is on right now?',
-    body: `This page covers the permanent, year-round version of ${topic}. Seasonal overlays, festival menus, party nights, and today's Lightning Lane prices change constantly, so we keep them off this page on purpose — check the park's official site or app for live details before you go.`,
+    body: `This page covers the permanent, year-round version of ${topic}. Seasonal overlays, festival menus, party nights, and today's queue-pass prices change constantly, so we keep them off this page on purpose — check the park's official site or app for live details before you go.`,
   })
 }
 

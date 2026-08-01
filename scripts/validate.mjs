@@ -598,7 +598,10 @@ async function validateSite () {
   if (!site.brand || !site.brand.origin || !/^https?:\/\//.test(site.brand.origin)) {
     err(where, 'brand.origin must be an absolute URL')
   }
-  if (!Array.isArray(site.resorts) || site.resorts.length !== 2) err(where, 'resorts must contain exactly 2 entries')
+  // How many resorts an operator has is a fact about that operator, not a rule. Disney has two,
+  // Universal has two, a future one-resort operator is not malformed. What matters is that it has
+  // at least one and that every park it names actually exists.
+  if (!Array.isArray(site.resorts) || site.resorts.length < 1) err(where, 'resorts must contain at least 1 entry')
   for (const resort of site.resorts || []) {
     for (const slug of resort.parks || []) {
       if (!PARKS.some((p) => p.slug === slug)) err(where, `resort "${resort.slug}" lists unknown park "${slug}"`)

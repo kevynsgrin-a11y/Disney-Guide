@@ -142,7 +142,7 @@ export function parkHub (park, data) {
     ${C.faqSection(park.faqs, { title: `${park.name} questions, answered` })}
 
     ${C.relatedLinks([
-      { href: urls.guide('lightning-lane'), label: 'Lightning Lane, explained', summary: 'Mechanics, booking windows, and whether to bother' },
+      data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'Mechanics, booking windows, and whether to bother' } : null,
       { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'What actually frightens small children' },
       { href: urls.heightChecker(), label: 'Height checker', summary: 'One slider, every ride they clear' },
       { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'We commit to an order' },
@@ -187,7 +187,7 @@ export function ridesPage (park, data) {
     html`<span data-value="${a.heightIn || 0}">${a.heightIn ? `${a.heightIn}"` : 'Any'}</span>`,
     html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
     html`<span data-value="${a.scary && a.scary.score ? a.scary.score : 0}">${a.scary && a.scary.score ? `${a.scary.score}/5` : '—'}</span>`,
-    f.lightningLaneShort(a.lightningLane),
+    a.queueLabelShort,
   ])
 
   const body = html`
@@ -195,7 +195,7 @@ export function ridesPage (park, data) {
     ${C.hero({
       eyebrow: park.name,
       title: `Every attraction at ${park.name}`,
-      lede: `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and Lightning Lane status for each. Sort any column.`,
+      lede: `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and ${data.queue.name} status for each. Sort any column.`,
       tone: 'compact',
       meta: [
         { label: 'Attractions', value: String(open.length) },
@@ -216,7 +216,7 @@ export function ridesPage (park, data) {
             { label: 'Height', align: 'num', sort: 'number' },
             { label: 'Intensity', align: 'center', sort: 'number' },
             { label: 'Scare', align: 'center', sort: 'number' },
-            'Lightning Lane',
+            data.queue.name,
           ],
           rows,
         })}
@@ -275,7 +275,7 @@ export function ridesPage (park, data) {
         url: urls.rides(park),
         title: `${park.shortLabel} rides & attractions`,
         titleTail: `: all ${open.length}`,
-        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and Lightning Lane status for every ride, show, and experience.`, 158),
+        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and ${data.queue.name} status for every ride, show, and experience.`, 158),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -311,7 +311,7 @@ export function attractionPage (attraction, data) {
       meta: [
         { label: 'Minimum height', value: attraction.heightIn ? f.height(attraction.heightIn) : 'None' },
         attraction.durationMinutes != null ? { label: 'Ride length', value: f.duration(attraction.durationMinutes) } : null,
-        { label: 'Lightning Lane', value: f.lightningLaneShort(attraction.lightningLane) },
+        { label: data.queue.name, value: attraction.queueLabelShort },
         attraction.opened ? { label: 'Opened', value: String(attraction.opened) } : null,
       ].filter(Boolean),
       aside: html`
@@ -388,7 +388,7 @@ export function attractionPage (attraction, data) {
             ${C.factPanel([
               attraction.bestTime ? { label: 'Best time to ride', value: attraction.bestTime } : null,
               attraction.typicalWait ? { label: 'Typical wait', value: attraction.typicalWait } : null,
-              { label: 'Lightning Lane', value: f.lightningLane(attraction.lightningLane) },
+              { label: data.queue.name, value: attraction.queueLabel },
             ].filter(Boolean), { title: 'Timing', columns: 1 })}
             ${attraction.heightIn ? C.callout({
               type: 'tip',
@@ -548,7 +548,7 @@ export function heightsPage (park, data) {
             { label: 'Height', align: 'num', sort: 'number' },
             'Land', 'Type',
             { label: 'Intensity', align: 'center', sort: 'number' },
-            'Lightning Lane',
+            data.queue.name,
           ],
           rows: park.heightAttractions.map((a) => [
             a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
@@ -556,7 +556,7 @@ export function heightsPage (park, data) {
             a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
             f.attractionType(a.type),
             html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
-            f.lightningLaneShort(a.lightningLane),
+            a.queueLabelShort,
           ]),
         })}
         ${C.lastVerified(park.lastVerified)}
@@ -856,7 +856,7 @@ export function firstTimerPage (park, data) {
     ${C.relatedLinks([
       { href: urls.guide('first-disney-trip'), label: 'Your first Disney trip', summary: 'The resort-level decisions' },
       { href: urls.guide('rope-drop-strategy'), label: 'Rope drop strategy', summary: 'What being early actually buys' },
-      { href: urls.guide('lightning-lane'), label: 'Lightning Lane', summary: 'Worth it here, or not' },
+      data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: data.queue.name, summary: 'Worth it here, or not' } : null,
       { href: urls.guide('what-to-pack'), label: 'What to pack', summary: 'The bag that survives a full day' },
     ])}
   `
@@ -1036,7 +1036,7 @@ export function bestRidesPage (park, data) {
         ${C.callout({
           type: 'note',
           title: 'How we ranked these',
-          body: `${doc.criteria} Queue length and Lightning Lane status are noted on each entry but do not move anything up or down — a great ride with a bad queue is still a great ride.`,
+          body: `${doc.criteria} Queue length and ${data.queue.name} status are noted on each entry but do not move anything up or down — a great ride with a bad queue is still a great ride.`,
         })}
       `,
     })}
@@ -1060,7 +1060,7 @@ export function bestRidesPage (park, data) {
                   ${a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a> · ` : ''}
                   ${f.attractionType(a.type)}
                   ${a.durationMinutes != null ? html` · ${f.duration(a.durationMinutes)}` : ''}
-                  · ${f.lightningLaneShort(a.lightningLane)}
+                  · ${a.queueLabelShort}
                   ${a.scary && a.scary.score ? html` · Scare factor ${a.scary.score}/5` : ''}
                 </p>
                 ${paragraphs(entry.why)}

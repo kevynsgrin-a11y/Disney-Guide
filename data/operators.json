@@ -6,6 +6,13 @@
       "name": "Disney Parks",
       "dir": "disney",
       "status": "live"
+    },
+    {
+      "slug": "universal",
+      "name": "Universal Destinations",
+      "dir": "universal",
+      "status": "draft",
+      "note": "DRAFT. Reference tables are model-derived rather than independently sourced, so the fact check is not yet a real second opinion. Human verification of heights, closures and prices is a launch gate — see docs/LAUNCH-UNIVERSAL.md."
     }
   ]
 }
