@@ -1,0 +1,174 @@
+{
+  "slug": "annual-passes",
+  "title": "Universal Annual Pass Prices",
+  "titleTail": ": Every Tier, Both Resorts, July 2026",
+  "h1": "Universal annual passes: what each tier costs and when one beats a ticket",
+  "description": "Annual and season pass pricing at Universal Orlando and Universal Studios Hollywood as of July 2026, the break-even against day tickets, and the blockouts that matter.",
+  "summary": "An annual pass at either Universal resort pays for itself faster than most visitors expect, and the reason is not the admission — it is the parking, the discounts and, at the top Orlando tiers, what the pass does to the cost of a second trip.",
+  "ownership": "This page is the price list and the break-even arithmetic. What each park contains and how to plan a day in it are owned by the park guides on the evergreen side of this site.",
+  "rows": [
+    {
+      "label": "Annual pass, entry tier, per person per year",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        350,
+        550
+      ],
+      "asOf": "July 2026",
+      "note": "The cheapest tier carries the heaviest blockouts — typically the Christmas fortnight, the Easter period and much of the summer — and the thinnest benefits. Florida residents can usually pay this in monthly instalments after a down payment, which is the mechanism that makes the entry tiers popular locally."
+    },
+    {
+      "label": "Annual pass, middle tiers, per person per year",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        500,
+        850
+      ],
+      "asOf": "July 2026",
+      "note": "Fewer blockouts, some parking included, and a modest discount on food and merchandise. This is the band most out-of-state buyers land in, because it is the cheapest tier that works during school holidays and the difference against the entry tier is usually smaller than a single blocked-out trip would cost."
+    },
+    {
+      "label": "Annual pass, top tier, per person per year",
+      "resort": "universal-orlando",
+      "rangeUsd": [
+        850,
+        1400
+      ],
+      "asOf": "July 2026",
+      "note": "No blockouts, the best parking and discount benefits, and the tier where the perks start to matter more than the admission. Whether Epic Universe is included and on what terms has differed by tier since that park opened, which is the single detail to verify before buying anything at this resort."
+    },
+    {
+      "label": "Season pass, entry tier, per person per year",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        150,
+        300
+      ],
+      "asOf": "July 2026",
+      "note": "Heavily blocked out — typically most weekends in the busy months, the summer peak and the December holiday period — and aimed squarely at Southern California locals who can go on a Tuesday. At this price it breaks even against roughly two day tickets, which is why the local pass base is so large."
+    },
+    {
+      "label": "Season pass, middle tiers, per person per year",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        280,
+        480
+      ],
+      "asOf": "July 2026",
+      "note": "Fewer blocked dates and some parking or discount benefits attached. The step up from the entry tier is the one worth paying for if you cannot reliably visit midweek, because the entry tier's weekend blockouts are what make it cheap."
+    },
+    {
+      "label": "Season pass, top tier, per person per year",
+      "resort": "universal-hollywood",
+      "rangeUsd": [
+        500,
+        900
+      ],
+      "asOf": "July 2026",
+      "note": "No blockouts and the fullest benefits, including parking on most versions. For a one-park resort this is a lot of money, and it makes sense mainly for locals who visit monthly rather than for visitors planning two trips."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The break-even, stated plainly",
+      "body": [
+        "At Universal Orlando, a middle-tier annual pass breaks even against gate tickets somewhere around five or six park days, depending on the dates those days would have been. That is one long trip plus a short one, or two short ones, which is why the pass is a genuinely mainstream product for out-of-state visitors here in a way it is not at every operator.",
+        "At Universal Studios Hollywood the entry-tier pass breaks even against roughly two day tickets. For a Southern California resident that is a trivially easy decision and it is the reason the park's crowd behaves the way it does at weekends. For a visitor flying in once, it almost never makes sense.",
+        "The arithmetic that catches people is the blockout calendar rather than the price. A pass that is blocked on every date you can actually travel has a break-even of infinity. Read the blockout list before the price list, at both resorts and at every tier.",
+        "The other thing the headline price hides is that pass benefits are worth real money at this operator. Parking on the mid and upper tiers, a discount on food and merchandise, and periodic passholder-only pricing on the Halloween event add up over a year and are the reason the upper tiers are less absurd than they look."
+      ]
+    },
+    {
+      "heading": "Blockouts are the product",
+      "body": [
+        "Every tier below the top one is defined by when you cannot use it. Entry-tier passes at both resorts are typically blocked across the Christmas fortnight, the Easter period, much of the summer, and — at Universal Studios Hollywood — a large share of weekends in the busy months.",
+        "That structure is deliberate and it works. It fills quiet weekdays with local visitors who would not otherwise come, and it keeps them out of the days the operator can sell at full price. If your travel is dictated by a school calendar, the entry tiers are not cheap, they are unusable.",
+        "The step between tiers is usually smaller than the cost of one blocked trip. Anyone buying a pass to cover two specific trips should price the tier that works on both dates first and only then look at whether a cheaper tier happens to fit."
+      ]
+    },
+    {
+      "heading": "The Epic Universe question in Orlando",
+      "body": [
+        "Since Epic Universe opened, whether and how a pass covers that park has been the most consequential detail in Universal Orlando's pass line-up, and it has differed by tier. Do not assume an annual pass covers all three parks equally, and do not assume the terms you remember from a previous year still hold.",
+        "This is the one thing on this page we would verify directly with the operator before buying, at any tier. The price difference between a pass that includes Epic Universe freely and one that does not is large enough to change which product you want, and it is exactly the kind of detail that moves between cycles.",
+        "The same caution applies to any add-on: parking, water park access and the Halloween event are variously bundled or sold separately depending on tier and cycle, and the bundling has changed more than once."
+      ]
+    },
+    {
+      "heading": "When a pass is the wrong answer",
+      "body": [
+        "For a single trip of three or four days at Universal Orlando, a multi-day ticket is cheaper than any pass tier that would work on your dates. The per-day price of a multi-day ticket falls steeply, and it does not carry blockouts, an expiry you have to plan around, or a renewal decision a year later.",
+        "For a visitor flying into Los Angeles once, a Universal Studios Hollywood pass is almost never right. One day is enough at that park for almost everybody, and the entry tier's blockouts will catch a visitor whose dates are fixed.",
+        "Passes also lock you into one operator's calendar. In Orlando specifically, an annual pass bought for a summer trip and a Christmas trip has to survive the blockout list on both, and the tier that does is usually expensive enough that two separate multi-day tickets would have cost less."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Read the blockout calendar before the price. A tier that is blocked on the dates you can actually travel has no break-even at any price, and this is the single most common mistake buyers make at both resorts. Price the cheapest tier that works on all your intended dates, then compare that against multi-day tickets for the same days.",
+    "Check residency terms first if you live in Florida or Southern California. Both resorts run resident-only pass products and instalment plans that price below the bands here, and in Florida the monthly payment structure changes the decision for households that would not pay a year up front.",
+    "Count the benefits, not just the admission. Parking on the mid and upper tiers, food and merchandise discounts, and passholder pricing on the Halloween event are worth real money over a year at this operator, and they are what make the upper tiers defensible. A pass compared on admission alone will always look worse than it is.",
+    "Do not buy a pass for a single trip. Three or four days at Universal Orlando is cheaper on a multi-day ticket than on any tier that would work on your dates, and one day at Universal Studios Hollywood is cheaper than any pass. The pass only wins when there is a second trip, and it only wins if the blockouts allow it.",
+    "Verify what your Orlando tier does about Epic Universe before you buy anything. That detail has differed by tier since the park opened and it is worth more than the price difference between adjacent tiers. Confirm it with the operator rather than with a forum post or with this page.",
+    "Time the purchase against your first visit rather than against the calendar year. Passes at both resorts run from first use rather than from a fixed date, so buying immediately before a trip rather than months ahead extends the window in which a second trip can happen."
+  ],
+  "crossLinks": [
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Which Universal park should I visit?",
+      "href": "/compare/which-universal-park-should-i-visit/",
+      "site": 1
+    },
+    {
+      "label": "Universal Orlando resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Hollywood resort overview",
+      "href": "/universal-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many days does an annual pass need to pay for itself?",
+      "a": "At Universal Orlando, roughly five or six park days on a middle tier, depending on which dates those days would otherwise have been. At Universal Studios Hollywood, roughly two day tickets on the entry tier. Both figures assume the blockout calendar allows the days you actually want, which is the assumption that usually fails."
+    },
+    {
+      "q": "Which tier should an out-of-state visitor buy?",
+      "a": "A middle tier at Universal Orlando, if any pass at all, because the entry tier is typically blocked across the school holidays that out-of-state visitors travel in. At Universal Studios Hollywood, none — one day is enough at that park for almost everybody and a pass will not pay for itself on a single visit."
+    },
+    {
+      "q": "Do annual passes include parking?",
+      "a": "On the middle and upper tiers at both resorts, usually, and not on the entry tiers. Because parking is charged per car per day at both resorts, this benefit is worth more to a household visiting monthly than the headline suggests, and it is a large part of why the step up from the entry tier is often the right buy."
+    },
+    {
+      "q": "Does an Orlando annual pass cover Epic Universe?",
+      "a": "That has differed by tier since the park opened and it is the one detail on this page we would verify directly with the operator before buying. Do not assume a pass covers all three Orlando parks equally, and do not assume terms you remember from a previous year still apply. The difference is large enough to change which tier you want."
+    },
+    {
+      "q": "Can I upgrade a day ticket to a pass?",
+      "a": "Both resorts have historically allowed a ticket to be applied toward a pass within a window after first use, which makes a day ticket a low-risk way to decide. Terms differ between resorts and between cycles, so confirm the current policy at guest services on the day rather than planning around it in advance."
+    },
+    {
+      "q": "Are these prices reliable?",
+      "a": "They are wide observed bands as of July 2026, not quotes. Universal restructures its pass tiers more often than it restructures its tickets, tier names change, and what is bundled into each tier changes with them. Treat this page as a guide to the shape of the line-up and check the operator's own page for the figure that will be charged to your card."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "historical",
+    "sourceNote": "Bands describe pass pricing observed as of July 2026 and are deliberately wide because Universal restructures pass tiers, names and bundled benefits more often than it changes ticket pricing. We deliberately describe tiers as entry, middle and top rather than by product name, because those names have changed across recent cycles. Whether and how Universal Orlando's tiers cover Epic Universe is flagged on the page as unverified and is the detail most likely to be out of date here.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

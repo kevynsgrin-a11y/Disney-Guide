@@ -1,0 +1,127 @@
+{
+  "month": 3,
+  "name": "March",
+  "slug": "march",
+  "summary": "March is spring break for somebody every single week, which makes it the most expensive non-summer month at Universal Orlando and the month where moving your dates by a week accomplishes almost nothing.",
+  "verdict": {
+    "grade": "C",
+    "short": "Excellent weather, heavy crowds, and no reliably quiet week to escape into. Go in March if the school calendar decides for you, and buy Express Pass rather than hoping for a gap.",
+    "bestFor": [
+      "Weather, which is the best Orlando produces all year alongside February and November",
+      "Mardi Gras, which runs through the month at Universal Orlando on regular admission",
+      "Families who have no flexibility and would otherwise be looking at July",
+      "Water rides at Islands of Adventure, which become genuinely pleasant this month",
+      "Universal Hollywood on a midweek date, which stays far calmer than Orlando does"
+    ],
+    "worstFor": [
+      "Anyone trying to date-shop, because spring break staggers across the whole month",
+      "Budget trips, since Orlando hotel and Express Pass pricing runs near summer levels",
+      "Epic Universe on a weekend, which concentrates demand harder than the older parks",
+      "Visitors who dislike crowds enough to need a quiet park at any point in the day",
+      "Anyone booking late, as the better Orlando hotels sell out further ahead than in any other spring month"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "March is busy for the whole month rather than in a spike, and that changes what planning effort is worth. US school districts stagger spring break across four or five weeks, so there is no single week that empties and no single week that is catastrophically worse than the others; whichever week you pick, some large state is off. Orlando feels this hardest because it is the destination those breaks travel to, and Universal specifically feels it harder than it used to, because Epic Universe pulled a second wave of demand into a resort that had settled into a two-park rhythm. Hollywood's March is genuinely different. Southern California districts do not share a spring break week, most of them tie theirs to Easter rather than to March, and the park draws far fewer out-of-state visitors, so weekdays stay moderate while weekends run high. The result is that the coasts diverge more in March than in almost any other month: an Orlando Wednesday can be busier than a Hollywood Saturday. If you have a choice of coast and no choice of month, this is the month to choose California.",
+    "peakWindows": [
+      "The middle two weeks, when the largest state districts overlap",
+      "Every weekend at Universal Orlando, with Saturday the worst day at all three parks",
+      "Easter week when it falls in March, which prices and queues above everything else in the month"
+    ],
+    "quietWindows": [
+      "The first few days, before most districts break",
+      "Midweek at Universal Studios Hollywood, which stays moderate all month",
+      "The first ninety minutes after opening at every park, which is the only reliably short-queue window"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 79,
+      "lowF": 57,
+      "rainDays": 7,
+      "note": "Climate normals for Orlando, not a forecast. Close to ideal: high 70s afternoons, comfortable mornings, humidity still low enough that a full day outdoors is reasonable, and warm enough that the Islands of Adventure water rides stop being a mistake. Cold fronts still reach central Florida this month and can knock ten degrees off for a day or two."
+    },
+    "universal-hollywood": {
+      "highF": 71,
+      "lowF": 49,
+      "rainDays": 5,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. The tail of the wet season, with most days dry and the occasional soaking one. Low 70s afternoons make this the most comfortable month for the walking and the escalators a Universal Studios Hollywood day involves, and evenings still need a layer."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "March prices like a shoulder-to-peak month at Universal Orlando and gets away with it because demand does not flinch. Hotel rates step up from the winter floor and stay there for the whole month, date-based ticket pricing sits in the upper-middle tiers on almost every date, and Express Pass — the most demand-sensitive thing Universal sells — runs at levels closer to July than to February on the busiest weeks. Because no week is meaningfully cheaper than the others, the usual lever of moving dates inside the month does not work here, and the money is better spent making the busy days function than on trying to find a bargain that is not there. Hollywood is the cheaper coast this month by a clear margin: its one-day ticket tiers move less, its Express Pass responds to local weekend demand rather than a national school calendar, and there is no hotel premium to pay because most visitors are not staying on site."
+  },
+  "whatsOn": [
+    "universal-orlando-mardi-gras"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Stop looking for a quiet week and buy the day back instead",
+      "body": [
+        "In February or November, moving your trip a week is the highest-value decision available. In March it is worth almost nothing, because the districts that make up the crowd rotate through the month rather than clustering. Effort spent hunting for a gap is effort not spent on the things that actually work.",
+        "What works in March is arriving before the gate opens, front-loading the headliners, and buying Express Pass for the busiest of your park days. Universal prices Express Pass per date, so on a four-day Orlando trip the sensible shape is to buy it for the one or two days you expect to be worst and go without on the rest.",
+        "The second thing that works is splitting the day. Orlando afternoons in March are pleasant enough that people stay in the parks all day, which is exactly why the middle of the day is the worst part of it. A pool break from one until five and a return until close converts a bad March day into a good one."
+      ]
+    },
+    {
+      "heading": "Epic Universe concentrates March demand more than the older parks",
+      "body": [
+        "Epic Universe is the newest park in the resort and still the one everybody wants a day at, which means it absorbs a disproportionate share of a busy month. On a March Saturday it is the hardest ticket at Universal Orlando, and it holds its queues later into the evening than Universal Studios Florida or Islands of Adventure do.",
+        "The counter is straightforward and most people do not take it: put Epic Universe on a weekday and take the older parks on the weekend. Islands of Adventure and Universal Studios Florida have more attractions per acre and more indoor capacity, so they degrade more gracefully under crowd than a park where demand is pointed at a handful of new headliners.",
+        "Epic Universe also sits on a separate campus reached by shuttle bus or car, which adds a transport step that matters more on a busy morning than a quiet one. Budget the extra time or you will lose the first hour, which is the hour that matters most this month."
+      ]
+    },
+    {
+      "heading": "The Hollywood case for March is the strongest it gets",
+      "body": [
+        "Universal Studios Hollywood in March is a moderate-crowd park in excellent weather at close to its lowest prices, at exactly the moment Orlando is expensive and busy. If your trip is flexible on coast, this is the month where the two diverge most in California's favour.",
+        "The reason is the school calendar. Southern California districts overwhelmingly attach their spring break to Easter rather than taking a fixed March week, and the park's business is local rather than national, so the March surge that fills Orlando simply does not arrive here. Weekends still run high on the local pass base, but weekdays hold.",
+        "The trade is that one day is still one day. Universal Studios Hollywood does not become a longer trip because the month is good, so March is the month to pair it with the rest of Los Angeles rather than the month to extend it."
+      ]
+    },
+    {
+      "heading": "Easter moves, and it decides how bad the end of the month is",
+      "body": [
+        "Easter falls anywhere from late March to late April, and where it lands is the largest single variable in this month's crowd shape. In a year when it falls in March, the last week of the month is the worst week of the spring at both resorts and prices accordingly. In a year when it falls in April, March's back end is the calmest part of the month.",
+        "Check where Easter sits before you assume anything about late March. It is the one date on the spring calendar that is fixed well in advance and knowable for free, and it is the one most trip planners forget to look up.",
+        "Our spring break and Easter page carries the full picture across both months, including which resort handles the peak better and how far ahead the Orlando hotels sell out."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Universal Orlando vs Universal Hollywood",
+      "href": "/compare/universal-orlando-vs-universal-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe first-timer guide",
+      "href": "/universal-orlando/epic-universe/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single March. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Epic Universe opened in 2025, so its effect on the resort's March crowd distribution rests on fewer cycles than the rest of this page and is stated as a direction rather than a measured shift.",
+    "reviewBy": "2027-06",
+    "cycle": "rolling"
+  }
+}

@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 75,
       "lowF": 53,
       "rainDays": 7,
       "note": "Climate normals for Orlando, not a forecast. February is the driest stretch of the Orlando year with the lowest humidity, and the afternoons are the most comfortable the park schedule ever offers. Mornings and nights are cold by Florida standards — a 6 PM temperature in the upper 50s is normal, and the water parks close outright when a front pushes through."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 69,
       "lowF": 48,
       "rainDays": 6,
@@ -104,10 +104,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 },
-    { "label": "Disney California Adventure first-timer guide", "href": "/disneyland/california-adventure/first-timer-guide/", "site": 1 },
-    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
-    { "label": "Mobile order and dining reservations", "href": "/guides/mobile-order-and-dining/", "site": 1 }
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "Disney California Adventure first-timer guide",
+      "href": "/disneyland/california-adventure/first-timer-guide/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    },
+    {
+      "label": "Mobile order and dining reservations",
+      "href": "/guides/mobile-order-and-dining/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

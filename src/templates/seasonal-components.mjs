@@ -100,7 +100,7 @@ export function priceRange (rangeUsd, asOf, { label, per } = {}) {
   `
 }
 
-export function priceTable (rows, { caption } = {}) {
+export function priceTable (rows, { caption, resorts = [] } = {}) {
   const arr = (rows || []).filter(Boolean)
   if (!arr.length) return raw('')
   return dataTable({
@@ -114,7 +114,7 @@ export function priceTable (rows, { caption } = {}) {
     ],
     rows: arr.map((r) => [
       r.label,
-      r.resort === 'walt-disney-world' ? 'Walt Disney World' : r.resort === 'disneyland' ? 'Disneyland' : 'Both',
+      resortLabel(r.resort, resorts),
       Array.isArray(r.rangeUsd) ? html`${f.price(r.rangeUsd[0])}–${f.price(r.rangeUsd[1])}` : '—',
       r.asOf || '—',
       r.note ? inline(r.note) : '',
@@ -302,11 +302,29 @@ export function monthCard (month) {
   `
 }
 
-export function weatherTable (weather) {
+/**
+ * Climate normals, one row per resort.
+ *
+ * The weather block used to be keyed `wdw` and `dlr`, which forced every operator to file its own
+ * climate data under two Disney resort names — and then rendered those names as the row labels, so a
+ * Universal month page reported the Orlando weather as "Walt Disney World". Keys are resort slugs
+ * now, and the label comes from the resort.
+ */
+/** A resort slug rendered as its name, from the operator's own list. "both" is a scope, not a resort. */
+export function resortLabel (slug, resorts = []) {
+  if (slug === 'both') return resorts.length === 2 ? 'Both resorts' : 'All resorts'
+  const found = (resorts || []).find((r) => r.slug === slug)
+  return found ? found.name : slug
+}
+
+export function weatherTable (weather, resorts = []) {
   if (!weather) return raw('')
   const rows = []
-  if (weather.wdw) rows.push(['Walt Disney World (Orlando)', `${weather.wdw.highF}°F`, `${weather.wdw.lowF}°F`, `${weather.wdw.rainDays}`, weather.wdw.note ? inline(weather.wdw.note) : ''])
-  if (weather.dlr) rows.push(['Disneyland (Anaheim)', `${weather.dlr.highF}°F`, `${weather.dlr.lowF}°F`, `${weather.dlr.rainDays}`, weather.dlr.note ? inline(weather.dlr.note) : ''])
+  for (const resort of resorts) {
+    const w = weather[resort.slug]
+    if (!w) continue
+    rows.push([resort.weatherLabel || resort.name, `${w.highF}°F`, `${w.lowF}°F`, `${w.rainDays}`, w.note ? inline(w.note) : ''])
+  }
   if (!rows.length) return raw('')
   return dataTable({
     caption: 'Climate normals, not a forecast. Averages over a 30-year reference period.',
@@ -454,11 +472,11 @@ export function evergreenLinks (links, sisterSite, { title = 'The permanent vers
   `
 }
 
-export function resortSplit (byResort, { renderer }) {
+export function resortSplit (byResort, { renderer, resorts = [] }) {
   if (!byResort) return raw('')
   const keys = Object.keys(byResort)
   if (!keys.length) return raw('')
-  const LABEL = { 'walt-disney-world': 'Walt Disney World', disneyland: 'Disneyland Resort' }
+  const LABEL = Object.fromEntries((resorts || []).map((r) => [r.slug, r.name]))
   return html`
     <div class="resort-split">
       ${keys.map((key) => html`

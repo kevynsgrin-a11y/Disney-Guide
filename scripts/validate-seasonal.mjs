@@ -40,7 +40,14 @@ const CONFIDENCE = new Set(['confirmed', 'expected', 'historical'])
 const CYCLE = new Set(['annual', 'rolling', 'one-off'])
 const CATEGORY = new Set(['hard-ticket', 'festival', 'overlay', 'after-hours', 'run'])
 const SEASON = new Set(['halloween', 'holidays', 'spring', 'summer', 'lunar-new-year', 'year-round'])
-const RESORT = new Set(['walt-disney-world', 'disneyland', 'both'])
+/**
+ * Valid `resort` keys, rebuilt per operator from that operator's own site.json.
+ *
+ * This was a hard-coded Disney pair, which meant a second operator's every dated file failed on a
+ * resort key that was perfectly correct for it. "both" is always valid and always means "both of
+ * this operator's resorts" — it is a scope, not a name.
+ */
+let RESORT = new Set(['both'])
 const EDITION_STATUS = new Set(['announced', 'expected', 'past', 'cancelled'])
 const LEVEL = new Set(['low', 'moderate', 'high', 'peak'])
 const GRADE = new Set(['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'])
@@ -417,11 +424,13 @@ async function validateMonths (s1Urls, eventSlugs) {
     if (!m.cost) err(where, 'missing "cost"')
     else oneOf(m.cost, 'level', LEVEL, `${where} → cost`)
 
+    // One climate block per resort this operator declares, keyed by resort slug.
     const w = m.weather
-    if (!w || !w.wdw || !w.dlr) {
-      err(where, 'missing "weather" with both "wdw" and "dlr"')
+    const resortKeys = [...RESORT].filter((r) => r !== 'both')
+    if (!w || resortKeys.some((k) => !w[k])) {
+      err(where, `missing "weather" with a block for each resort: ${resortKeys.join(', ')}`)
     } else {
-      for (const key of ['wdw', 'dlr']) {
+      for (const key of resortKeys) {
         for (const field of ['highF', 'lowF', 'rainDays']) {
           if (typeof w[key][field] !== 'number') err(`${where} → weather.${key}`, `"${field}" must be a number`)
         }
@@ -608,6 +617,10 @@ async function validateOperator (operatorSlug) {
   const { seasonalDir } = await import('../src/lib/seasonal-data.mjs')
   OPERATOR_DIR = await operatorDir(operatorSlug)
   DATA = await seasonalDir(operatorSlug)
+
+  const site = JSON.parse(await readFile(join(OPERATOR_DIR, 'site.json'), 'utf8'))
+  RESORT = new Set([...(site.resorts || []).map((r) => r.slug), 'both'])
+
   if (!existsSync(DATA)) {
     warn(operatorSlug, 'no seasonal/ directory — nothing dated to validate')
     return { size: 0 }
@@ -626,9 +639,9 @@ async function validateOperator (operatorSlug) {
 }
 
 async function main () {
-  const { operators } = await import('../src/lib/data.mjs')
+  const { resolveTargets } = await import('../src/lib/data.mjs')
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+  const targets = (await resolveTargets(requested, { label: 'node scripts/validate-seasonal.mjs' })).map((o) => o.slug)
 
   let events = 0
   let urlCount = 0

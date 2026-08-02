@@ -19,7 +19,7 @@ import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
 
-import { loadData, operators, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
+import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
@@ -209,13 +209,15 @@ function buildSearchIndex (data, seasonal) {
  * Sitemap / robots / manifest
  * ------------------------------------------------------------------ */
 
-function priorityFor (url, staleUrls) {
+function priorityFor (url, staleUrls, resortSlugs) {
   // A page past its own review date keeps its place in the index but loses its claim on crawl
   // priority. Telling a crawler to prioritise a page that carries a "needs rechecking" banner would
   // be talking out of both sides.
   if (staleUrls.has(url)) return '0.3'
   if (url === '/') return '1.0'
-  if (/^\/(walt-disney-world|disneyland)\/[^/]+\/$/.test(url)) return '0.9'
+  // Park pages are the site's highest-value URLs. The resort slugs come from the operator rather
+  // than a literal, or a second operator's park pages quietly drop to the 0.6 catch-all.
+  if (resortSlugs.some((r) => new RegExp(`^/${r}/[^/]+/$`).test(url))) return '0.9'
   if (url.includes('/height-requirements/') || url.startsWith('/tools/')) return '0.9'
   if (url.startsWith('/when-to-go/') || url.startsWith('/prices/')) return '0.9'
   if (url.startsWith('/events/') && url.split('/').length === 4) return '0.8'
@@ -227,13 +229,14 @@ function priorityFor (url, staleUrls) {
 }
 
 function buildSitemap (site, pages, staleUrls) {
+  const resortSlugs = (site.resorts || []).map((r) => r.slug)
   const entries = pages
     .filter((p) => !p.url.endsWith('.html') && p.url !== '/offline/')
     .map((p) => `  <url>
     <loc>${site.brand.origin}${p.url}</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>${p.url === '/' ? 'weekly' : 'monthly'}</changefreq>
-    <priority>${priorityFor(p.url, staleUrls)}</priority>
+    <priority>${priorityFor(p.url, staleUrls, resortSlugs)}</priority>
   </url>`)
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -408,26 +411,36 @@ const SECURITY_HEADERS = {
   'Permissions-Policy': 'geolocation=(), microphone=(), camera=(), interest-cohort=()',
 }
 
-/** Legacy and convenience paths, as [from, to] with a trailing wildcard where the segment splits. */
-const REDIRECTS = [
-  ['/magic-kingdom', '/walt-disney-world/magic-kingdom'],
-  ['/epcot', '/walt-disney-world/epcot'],
-  ['/hollywood-studios', '/walt-disney-world/hollywood-studios'],
-  ['/animal-kingdom', '/walt-disney-world/animal-kingdom'],
-  ['/disneyland-park', '/disneyland/disneyland-park'],
-  ['/california-adventure', '/disneyland/california-adventure'],
-]
+/**
+ * Legacy and convenience paths, derived per operator rather than listed.
+ *
+ * These used to be two literal Disney tables, which meant every operator's _redirects file sent
+ * /magic-kingdom to a Walt Disney World path — on a site that has no Walt Disney World. The park
+ * rules are exactly "bare park slug → its resort-qualified home", which every operator can generate
+ * from its own site.json, and the convenience rules are filtered against the URLs actually built so
+ * a site without seasonal content does not advertise a redirect into a 404.
+ */
+function redirectTables (site, urlSet) {
+  const parks = []
+  for (const resort of site.resorts || []) {
+    for (const parkSlug of resort.parks || []) parks.push([`/${parkSlug}`, `/${resort.slug}/${parkSlug}`])
+  }
 
-const EXACT_REDIRECTS = [
-  ['/food-tracker/', '/tools/food-tracker/'],
-  ['/height-checker/', '/tools/height-checker/'],
-  ['/heights/', '/guides/height-requirements/'],
-  ['/best-time-to-visit/', '/when-to-go/'],
-  ['/crowd-calendar/', '/when-to-go/'],
-  ['/trip-timing/', '/tools/trip-timing/'],
-  ['/refurbishments/', '/closures/'],
-  ['/lightning-lane-price/', '/prices/lightning-lane/'],
-]
+  const queueSlug = (site.queue && site.queue.guideSlug) || 'lightning-lane'
+  const exact = [
+    ['/food-tracker/', '/tools/food-tracker/'],
+    ['/height-checker/', '/tools/height-checker/'],
+    ['/heights/', '/guides/height-requirements/'],
+    ['/best-time-to-visit/', '/when-to-go/'],
+    ['/crowd-calendar/', '/when-to-go/'],
+    ['/trip-timing/', '/tools/trip-timing/'],
+    ['/refurbishments/', '/closures/'],
+    [`/${queueSlug}-price/`, `/prices/${queueSlug}/`],
+  ]
+
+  // A redirect to a page that does not exist is a slower 404 than the 404 it replaced.
+  return { parks, exact: urlSet ? exact.filter(([, to]) => urlSet.has(to)) : exact }
+}
 
 /* Cloudflare Pages: _headers and _redirects, plain text. */
 
@@ -455,13 +468,14 @@ export function buildHeaders () {
  * while the wildcard version worked. Every rule now emits both, and the trailing-slash variants of
  * the exact rules too, for the same reason.
  */
-export function buildRedirects () {
+export function buildRedirects (site, urlSet) {
+  const { parks, exact } = redirectTables(site, urlSet)
   const lines = []
-  for (const [from, to] of REDIRECTS) {
+  for (const [from, to] of parks) {
     lines.push(`${from}  ${to}/  301`)
     lines.push(`${from}/*  ${to}/:splat  301`)
   }
-  for (const [from, to] of EXACT_REDIRECTS) {
+  for (const [from, to] of exact) {
     const bare = from.replace(/\/$/, '')
     lines.push(`${bare}  ${to}  301`)
     if (bare !== from) lines.push(`${from}  ${to}  301`)
@@ -605,7 +619,7 @@ async function buildOperator (operator) {
   await writeFile(join(dist, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
   await writeFile(join(dist, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
   await writeFile(join(dist, '_headers'), buildHeaders(), 'utf8')
-  await writeFile(join(dist, '_redirects'), buildRedirects(), 'utf8')
+  await writeFile(join(dist, '_redirects'), buildRedirects(data.site, new Set(pages.map((p) => p.url))), 'utf8')
 
   // Standalone, downloadable map plates. A downloaded file has no stylesheet, so the renderer
   // inlines one; everything else is already self-contained by design.
@@ -685,14 +699,7 @@ async function buildOperator (operator) {
  */
 async function main () {
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const all = await operators()
-  const targets = requested.length
-    ? requested.map((slug) => {
-        const found = all.find((o) => o.slug === slug)
-        if (!found) throw new Error(`Unknown operator "${slug}". data/operators.json declares: ${all.map((o) => o.slug).join(', ')}`)
-        return found
-      })
-    : all
+  const targets = await resolveTargets(requested, { label: 'node src/build.mjs' })
 
   if (!targets.length) {
     console.error('\n  data/operators.json declares no operators. Nothing to build.\n')

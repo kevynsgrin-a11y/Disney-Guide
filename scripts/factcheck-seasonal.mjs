@@ -227,9 +227,9 @@ async function checkScope () {
  * ------------------------------------------------------------------ */
 
 async function main () {
-  const { operators } = await import('../src/lib/data.mjs')
+  const { resolveTargets } = await import('../src/lib/data.mjs')
   const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-  const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+  const targets = (await resolveTargets(requested, { label: 'node scripts/factcheck-seasonal.mjs' })).map((o) => o.slug)
 
   for (const operatorSlug of targets) {
     await loadReference(operatorSlug)

@@ -36,13 +36,13 @@
     ]
   },
   "weather": {
-    "wdw": {
+    "walt-disney-world": {
       "highF": 93,
       "lowF": 75,
       "rainDays": 17,
       "note": "Climate normals for Orlando, not a forecast. The hottest and wettest month of the Orlando year. Seventeen days with measurable rain means the afternoon thunderstorm is the default condition rather than the exception, and with dewpoints in the mid-70s the heat index routinely passes 100 by mid-morning. Overnight lows of 75 mean the pavement never really cools."
     },
-    "dlr": {
+    "disneyland": {
       "highF": 83,
       "lowF": 64,
       "rainDays": 0,
@@ -109,10 +109,26 @@
     }
   ],
   "crossLinks": [
-    { "label": "Disneyland vs Disney World", "href": "/compare/disneyland-vs-disney-world/", "site": 1 },
-    { "label": "What to pack for a Disney park day", "href": "/guides/what-to-pack/", "site": 1 },
-    { "label": "How rope drop actually works", "href": "/guides/rope-drop-strategy/", "site": 1 },
-    { "label": "Best Disney park for one day", "href": "/compare/best-disney-park-for-one-day/", "site": 1 }
+    {
+      "label": "Disneyland vs Disney World",
+      "href": "/compare/disneyland-vs-disney-world/",
+      "site": 1
+    },
+    {
+      "label": "What to pack for a Disney park day",
+      "href": "/guides/what-to-pack/",
+      "site": 1
+    },
+    {
+      "label": "How rope drop actually works",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for one day",
+      "href": "/compare/best-disney-park-for-one-day/",
+      "site": 1
+    }
   ],
   "freshness": {
     "verified": "2026-07",

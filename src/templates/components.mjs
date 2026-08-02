@@ -272,7 +272,15 @@ export function cardGrid (cards, { columns = 3, className = '' } = {}) {
 }
 
 export function linkGrid (links, { columns = 3 } = {}) {
-  const arr = (links || []).filter(Boolean)
+  /*
+   * A link with no href is dropped rather than rendered.
+   *
+   * Cross-links are resolved per operator — one site's "Rider Switch" guide is another's "Child
+   * Swap", and a third may not have one at all — so a template that offers a link cannot know the
+   * page exists. Resolving to null and filtering here means an operator without an equivalent page
+   * silently omits the link, instead of shipping a tile that 404s.
+   */
+  const arr = (links || []).filter((l) => l && l.href)
   if (!arr.length) return raw('')
   return html`
     <div class="link-grid link-grid--${columns}">
@@ -294,7 +302,7 @@ export function linkGrid (links, { columns = 3 } = {}) {
 export function attractionCard (attraction) {
   const badges = [
     attraction.heightIn != null ? { label: `${attraction.heightIn}" min`, tone: 'height' } : { label: 'Any height', tone: 'good' },
-    attraction.lightningLane !== 'none' ? { label: f.lightningLaneShort(attraction.lightningLane), tone: 'll' } : null,
+    attraction.lightningLane !== 'none' ? { label: attraction.queueLabelShort, tone: 'll' } : null,
     !attraction.isOpen ? { label: 'Closed', tone: 'closed' } : null,
     attraction.singleRider ? { label: 'Single rider', tone: '' } : null,
   ].filter(Boolean)
@@ -383,7 +391,7 @@ export function attractionInline (attraction) {
       <p class="inline-attraction__meta">
         ${f.attractionType(attraction.type)}
         ${attraction.durationMinutes != null ? html` · ${f.duration(attraction.durationMinutes)}` : ''}
-        ${attraction.lightningLane !== 'none' ? html` · ${f.lightningLaneShort(attraction.lightningLane)}` : ''}
+        ${attraction.lightningLane !== 'none' ? html` · ${attraction.queueLabelShort}` : ''}
         ${!attraction.isOpen ? html` · <strong class="is-closed">Closed</strong>` : ''}
       </p>
       <p class="inline-attraction__summary">${inline(attraction.summary)}</p>
@@ -448,7 +456,7 @@ export function affiliateBox (site, { kind = 'tickets', heading, body }) {
 }
 
 export function relatedLinks (links, { title = 'Keep reading' } = {}) {
-  const arr = (links || []).filter(Boolean)
+  const arr = (links || []).filter((l) => l && l.href)
   if (!arr.length) return raw('')
   return html`
     <section class="band band--tint">
@@ -465,7 +473,7 @@ export function seasonalHandoff (topic) {
   return callout({
     type: 'note',
     title: 'Looking for what is on right now?',
-    body: `This page covers the permanent, year-round version of ${topic}. Seasonal overlays, festival menus, party nights, and today's Lightning Lane prices change constantly, so we keep them off this page on purpose — check the park's official site or app for live details before you go.`,
+    body: `This page covers the permanent, year-round version of ${topic}. Seasonal overlays, festival menus, party nights, and today's queue-pass prices change constantly, so we keep them off this page on purpose — check the park's official site or app for live details before you go.`,
   })
 }
 

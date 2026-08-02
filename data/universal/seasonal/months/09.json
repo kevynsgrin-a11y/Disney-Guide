@@ -1,0 +1,128 @@
+{
+  "month": 9,
+  "name": "September",
+  "slug": "september",
+  "summary": "September is the best month of the Universal year for anyone who can travel outside school holidays: the lowest daytime crowds since February, prices near their annual floor, and Halloween Horror Nights running at both resorts on nights that cost less than they will in October.",
+  "verdict": {
+    "grade": "A",
+    "short": "Empty daytime parks, cheap hotels, and the year's best event running at early-season prices. The costs are Orlando heat that has barely broken and the peak of hurricane season.",
+    "bestFor": [
+      "Halloween Horror Nights at either resort, on a weeknight, at the bottom of its price band",
+      "Adults and couples, since this is the least child-heavy month of the year at both resorts",
+      "Anyone whose measure of a good trip is walking onto rides in the daytime",
+      "Budget trips, with Orlando hotel rates at or near their annual low",
+      "Universal Hollywood weekdays, which are as quiet as they get outside a January storm"
+    ],
+    "worstFor": [
+      "Families with young children, because the dominant seasonal content is an adult horror event",
+      "Anyone travelling to Orlando on non-refundable flights during the peak of hurricane season",
+      "Heat-sensitive visitors, since Orlando in early September is still a summer month",
+      "Saturdays at either resort, which run at October levels once the Halloween season is open",
+      "Visitors who want long park hours, as daytime operating hours shorten on event nights"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "September has the widest gap between daytime and evening attendance of any month in the year, and understanding that gap is most of what there is to know about it. Every US school district is back, the international summer wave has gone, and the daytime parks at both resorts run at the lowest level they reach between February and the following January. At the same time Halloween Horror Nights is running at Universal Studios Florida and, from early in the month, at Universal Studios Hollywood, which puts a heavy sold-ticket crowd into those two parks after dark on event nights. The practical consequence is that Islands of Adventure and Epic Universe deliver near-empty September weekdays while the Studios park next door is at capacity in the evening. Hollywood's version of this is sharper because it is one park: the same gates that are quiet at eleven in the morning are queueing hard at eight at night, and the changeover between the two happens inside a few hours. Weekends are the exception at both resorts. Once the Halloween season is open, a September Saturday behaves like an October Saturday, and the discount you came for exists on weeknights only.",
+    "peakWindows": [
+      "Every Halloween Horror Nights evening at Universal Studios Florida and Universal Studios Hollywood",
+      "Saturdays at both resorts once the Halloween season has opened",
+      "The Labor Day long weekend at the start of the month, the last summer-level crowd of the year"
+    ],
+    "quietWindows": [
+      "Weekday daytimes at Islands of Adventure and Epic Universe, the quietest of the second half of the year",
+      "Universal Studios Hollywood on any weekday morning before the event changeover",
+      "The two weeks after the Labor Day weekend, before Halloween demand builds"
+    ]
+  },
+  "weather": {
+    "universal-orlando": {
+      "highF": 90,
+      "lowF": 74,
+      "rainDays": 14,
+      "note": "Climate normals for Orlando, not a forecast. Barely cooler than August: high 80s to low 90s afternoons, humidity still high, and fourteen days with measurable rain. September is also the statistical peak of the Atlantic hurricane season, which matters far more to a September trip than the daily forecast does. Evenings cool a little more than in August, which is what makes the Halloween event nights bearable."
+    },
+    "universal-hollywood": {
+      "highF": 90,
+      "lowF": 64,
+      "rainDays": 1,
+      "note": "Climate normals for the San Fernando Valley around Universal City, not a forecast. Still genuinely hot in the afternoon, and September produces some of the year's most extreme valley heat when an offshore wind pattern sets up. Dry throughout, with evenings falling into the mid-60s, so a Halloween Horror Nights night here is comfortable in a way the same night in Orlando is not."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "September is the cheapest month at Universal Orlando outside the middle of January and the first week of December, and it is the only one of those three that comes with the year's biggest event attached. Hotel rates fall to their autumn floor, weekday ticket dates sit in the lower tiers, and daytime Express Pass is affordable on any non-event day. What you pay for separately is Halloween Horror Nights, and its pricing is the sharpest date-based curve Universal operates: an early-September weeknight sits near the bottom of the range and the last Saturdays before Halloween sit at the top, for the same houses and the same hours. If the event is the reason for the trip, the date you pick is worth more than every other saving on this page combined. Hollywood follows the same shape with a smaller spread on admission and a similar spread on its event tickets, and it carries no hotel premium because most visitors are not staying on site."
+  },
+  "whatsOn": [
+    "halloween-horror-nights-orlando",
+    "halloween-horror-nights-hollywood"
+  ],
+  "planningNotes": [
+    {
+      "heading": "Buy the event on a weeknight and buy it early in the season",
+      "body": [
+        "Halloween Horror Nights is priced by date at both resorts and the spread across a single season is larger than for anything else Universal sells. A September weeknight and a late-October Saturday deliver the same houses, the same scare zones and the same hours at very different prices, with very different queue lengths.",
+        "The queue difference is the part people underestimate. On an early-season weeknight a determined visitor can get through most of the house list in one night. On the last Saturday before Halloween, the same list is a two-night proposition, which means the cheaper night is also the one that needs fewer tickets.",
+        "Express Pass for the event is sold separately from daytime Express Pass and is expensive. On an early-September weeknight it is genuinely optional; on any Friday or Saturday in October it is the difference between six houses and two. Buying the cheap night instead of the expensive night plus Express Pass is usually the better trade."
+      ]
+    },
+    {
+      "heading": "Use the daytime and evening split rather than fighting it",
+      "body": [
+        "The best-value September plan at Universal Orlando puts your daytime park days at Islands of Adventure and Epic Universe and your evenings at Universal Studios Florida for the event. The two crowds barely overlap, and the daytime parks in a September week are as close to empty as this resort gets in the second half of the year.",
+        "The Studios park closes early to daytime guests on event nights, which is the operational fact that makes this work. Trying to spend a full day there and then stay for the event is the plan that does not work, because you will be asked to leave and re-enter.",
+        "At Universal Hollywood there is only one park, so the split is within a single day rather than across parks. The daytime is quiet, the changeover happens in the late afternoon, and a visitor who wants both the park and the event on the same date needs a ticket that covers both."
+      ]
+    },
+    {
+      "heading": "Hurricane season peaks this month, and it is the real cost of September",
+      "body": [
+        "September is the statistical peak of the Atlantic hurricane season. Orlando is inland and the usual outcome is a wet day with the outdoor coasters closed, but a storm track that closes the airport is the scenario worth insuring against, and it is the reason this otherwise excellent month is not a straightforward recommendation.",
+        "Book flexible fares to Orlando in September, check the hotel's cancellation terms, and be aware that Halloween Horror Nights tickets are dated and generally not refundable. Universal has historically been reasonable about rebooking around named storms, but do not plan on it as a right.",
+        "None of this applies to Hollywood, which has no equivalent seasonal risk. If you are choosing between the two resorts for a September Halloween trip and the flexibility of your travel is the constraint, California is the lower-risk booking."
+      ]
+    },
+    {
+      "heading": "This is not a family Halloween month at either resort",
+      "body": [
+        "Universal's autumn product is an adult horror event. There is no trick-or-treat layer, no daytime family overlay of any substance, and the houses are built to frighten adults rather than to entertain children. Universal does not enforce a minimum age but is explicit that it does not recommend the event for young children, and that recommendation is sound.",
+        "The daytime parks in September are decorated lightly and otherwise normal. A family with small children visiting this month is buying quiet parks and low prices, which is a good deal, and is not buying a Halloween experience.",
+        "If a family Halloween is what you want, the honest answer is that this operator does not sell one, and our Halloween hub page says so at more length rather than dressing the horror event up as something it is not."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Is it scary? Universal rides and young children",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    },
+    {
+      "label": "Is Express Pass worth the money?",
+      "href": "/guides/express-pass/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida ride list",
+      "href": "/universal-orlando/universal-studios-florida/rides/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood ride list",
+      "href": "/universal-hollywood/universal-studios-hollywood/rides/",
+      "site": 1
+    },
+    {
+      "label": "Islands of Adventure park guide",
+      "href": "/universal-orlando/islands-of-adventure/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single September. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Halloween Horror Nights runs on select nights whose schedule is published for each cycle; this page describes the pattern of which nights are cheapest rather than naming any dates, and event operating practice including the daytime changeover is described from prior cycles.",
+    "reviewBy": "2027-05",
+    "cycle": "rolling"
+  }
+}

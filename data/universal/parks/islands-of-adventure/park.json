@@ -1,0 +1,634 @@
+{
+  "slug": "islands-of-adventure",
+  "name": "Universal's Islands of Adventure",
+  "shortName": "Islands of Adventure",
+  "resort": "universal-orlando",
+  "resortName": "Universal Orlando Resort",
+  "opened": "1999-05-28",
+  "sizeAcres": 101,
+  "location": "Orlando, Florida",
+  "coordinates": {
+    "lat": 28.4715,
+    "lng": -81.4713
+  },
+  "tagline": "The most intense park in Orlando, and the one that measures your children the hardest.",
+  "summary": "Islands of Adventure is a loop of seven themed islands around a central lagoon, holding the best roller coaster in Florida, half of the Wizarding World, and the strictest run of height requirements at any Orlando theme park.",
+  "intro": [
+    "Islands of Adventure opened in 1999 as the ride park - the one built to give Universal Orlando a second gate with hardware Disney had no equivalent for. Twenty-seven years later that is still exactly what it is. Fourteen of its attractions measure you at the entrance, five of them at 48 inches or above, and the two best rides on the property are both here. If your group is over about 51 inches and likes going fast, this is the strongest single park day in Orlando.",
+    "The layout is a closed loop around a lagoon, which is unusually easy to navigate and unusually unforgiving if you get it wrong. Port of Entry is the only way in and out. Walking left takes you through Marvel Super Hero Island, Toon Lagoon, Skull Island, Jurassic Park, Hogsmeade, The Lost Continent and Seuss Landing before returning you to the gate. There is no path across the middle. Realizing at 4 PM that you left something in Seuss Landing and you are standing in Toon Lagoon costs you twenty minutes each way.",
+    "The height requirements are the single most important planning fact here and they are worse than people expect. The Incredible Hulk Coaster is 54 inches, Doctor Doom's Fearfall is 52, Jurassic World VelociCoaster is 51, and both Hagrid's Magical Creatures Motorbike Adventure and Harry Potter and the Forbidden Journey are 48. That is the headline slate, and a child of eight who has not hit 48 inches yet is shut out of all five. Magic Kingdom this is not.",
+    "Seuss Landing is the correction to that, and it is a real one. Four rides with minimums of 34, 36 and none at all, a genuinely good dark ride in The Cat in the Hat, shade, benches and the only quiet corner in the park. A family with a four-year-old is not doomed here - they are confined to one island, plus Camp Jurassic, plus the two Hogsmeade attractions that take smaller riders. That is a real half day. It is not a full one.",
+    "The other thing that shapes a visit is water. Toon Lagoon's two rides do not mist you for atmosphere; they empty water onto you. Dudley Do-Right's Ripsaw Falls sends a wall of it over the front of the log on the final drop, and Popeye & Bluto's Bilge-Rat Barges is capable of putting a rider in the boat back to their hotel in soaked jeans. Ride them after lunch, in swim-friendly clothes, with your phone in a locker."
+  ],
+  "bestFor": [
+    "Roller coaster riders - this is the best coaster slate in Florida",
+    "Harry Potter fans doing both halves of the Wizarding World",
+    "Teenagers and adults without small children in tow",
+    "Anyone over 51 inches who does not mind getting drenched",
+    "Single riders, who get more time back here than at any Disney park"
+  ],
+  "notIdealFor": [
+    "Children under 48 inches, who are locked out of all five headliners",
+    "Children under 40 inches, who have roughly six rides in the entire park",
+    "Anyone prone to motion sickness - four of the big rides are screen-based motion simulators",
+    "Visitors who want a parade, a nighttime show or a character-heavy day",
+    "Guests who need to stay dry between 11 AM and closing"
+  ],
+  "stats": {
+    "attractionCount": 30,
+    "ridesWithHeightRequirements": 14,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "9-11 hours",
+    "minimumDaysRecommended": 1.5
+  },
+  "lands": [
+    {
+      "slug": "port-of-entry",
+      "name": "Port of Entry",
+      "order": 1,
+      "opened": 1999,
+      "summary": "The entry bazaar and the park's only crossroads - no attractions at all, and most of the useful services.",
+      "description": [
+        "Port of Entry is a trading-port street built out of borrowed architecture from about a dozen places at once - Moroccan arches, Indonesian roofs, a lighthouse, a canal. It contains no rides. That is not a gap in this guide; there genuinely are none, and knowing that saves you from wandering it looking for one.",
+        "What it does contain is everything operational. Guest Services, lockers, wheelchair and stroller rental, the package pickup counter, First Aid, and the largest concentration of shops in the park. It is also where the two paths of the loop begin: left toward Marvel Super Hero Island, right toward Seuss Landing. There is no route across the lagoon, so this street is the only place your day can turn around.",
+        "Food-wise it is stronger than it looks. Confisco Grille is the park's only sit-down restaurant outside Mythos and takes walk-ups when nowhere else will, the Backwater Bar behind it is a properly good bar that almost nobody finds, and Croissant Moon Bakery is the correct answer to breakfast if you are not eating at the hotel."
+      ],
+      "vibe": "A cluttered trading port that borrows from four continents and sells you sunscreen on the way through.",
+      "anchorAttraction": null,
+      "highlights": [
+        "The only sit-down walk-up restaurant in the park at Confisco Grille",
+        "Backwater Bar, the quietest drink in Universal Orlando",
+        "Wheelchair, ECV and stroller rental just inside the turnstiles",
+        "The Islands of Adventure Trading Company for anything you forgot"
+      ],
+      "eatHere": [
+        "confisco-grille",
+        "backwater-bar",
+        "croissant-moon-bakery",
+        "cinnabon",
+        "starbucks-port-of-entry"
+      ],
+      "tips": [
+        "Rent strollers and wheelchairs here at rope drop or not at all - the counter runs out on busy mornings and there is no second location inside the park.",
+        "Confisco Grille takes walk-ups more reliably than any other table service at Universal Orlando. It is the fallback when Mythos says no.",
+        "This is the only turning point in the loop. Decide left or right before you walk through the arch, because reversing later costs you a full half circuit."
+      ]
+    },
+    {
+      "slug": "marvel-super-hero-island",
+      "name": "Marvel Super Hero Island",
+      "order": 2,
+      "opened": 1999,
+      "summary": "Primary-colored comic architecture wrapped around the park's two most physically aggressive rides and its best dark ride.",
+      "description": [
+        "Marvel Super Hero Island is loud in every sense - shouting primary colors, hard edges, rock music on the speakers, and a 150-foot green coaster launching over your head every couple of minutes. The theming is 1990s comic book rather than Marvel Cinematic Universe, which reads as dated to anyone who arrived through the films and reads as correct to anyone who arrived through the books. Universal's licensing deal means the movie versions of these characters cannot appear here, and they do not.",
+        "The rides are the point. The Amazing Adventures of Spider-Man is still, twenty-seven years on, one of the best dark rides ever built, and the 2012 rebuild put it on modern high-definition projection without touching what made it work. The Incredible Hulk Coaster launches you from zero to about 40 mph inside two seconds and puts you through seven inversions. Doctor Doom's Fearfall shoots you up a 200-foot tower and lets you fall.",
+        "It is also the least kid-friendly island in the park. Hulk is 54 inches, Doctor Doom's is 52, Spider-Man is 40. Storm Force Accelatron is the only ride here a small child can walk onto, and it is a teacup spinner that will make you queasy. Families with young children should treat this island as a swap zone and use Universal's Child Swap room, which is air-conditioned and has a television."
+      ],
+      "vibe": "Comic-page primary colors, a launch coaster roaring overhead, and no shade worth the name.",
+      "anchorAttraction": "the-amazing-adventures-of-spider-man",
+      "highlights": [
+        "The Amazing Adventures of Spider-Man, still a masterclass in ride design",
+        "The Incredible Hulk Coaster's uphill launch, the only one of its kind in Florida",
+        "Single rider lines on all three big rides",
+        "Marvel character meets on the plaza, in comic-book rather than film costume"
+      ],
+      "eatHere": [
+        "cafe-4",
+        "captain-america-diner"
+      ],
+      "tips": [
+        "Use single rider on Hulk, Spider-Man and Doctor Doom's. All three have one, all three are worth using, and together they are the biggest time saving available in the park.",
+        "The Hulk lockers are mandatory and free for the posted ride duration. Empty every pocket - the loose-article policy here is enforced hard, and phones do come out of pockets in the inversions.",
+        "Ride Doctor Doom's before you eat, not after. It is the shortest ride here and the one most likely to make a full stomach regret it.",
+        "There is almost no shade on this plaza. If someone in the group is sitting out the coasters, put them in Cafe 4 rather than on a bench."
+      ]
+    },
+    {
+      "slug": "toon-lagoon",
+      "name": "Toon Lagoon",
+      "order": 3,
+      "opened": 1999,
+      "summary": "Newspaper comic strips rendered in three dimensions, and two water rides that will genuinely soak you through.",
+      "description": [
+        "Toon Lagoon is built from American newspaper comics - Popeye, Blondie, Beetle Bailey, Dudley Do-Right, Betty Boop - which means the intellectual property on display peaked around 1955 and most guests under forty recognize none of it. It does not matter much. The island reads as bright, chaotic and funny on its own terms, and Comic Strip Lane is one of the better-designed walkways in Orlando even if you cannot name a single character on it.",
+        "The two rides are the reason to come and they are wetter than any water ride at Walt Disney World. Dudley Do-Right's Ripsaw Falls is a log flume with a 75-foot final drop that goes below the waterline, and the wave it throws comes over the front of the boat and lands on the people in it. Popeye & Bluto's Bilge-Rat Barges is a spinning raft ride where the water arrives from waterfalls, from cannons, from a boat wash and from the guests operating water jets on the bridge above you. Neither of these is a splash. Both are a soaking.",
+        "Plan around it rather than being surprised by it. Lockers sit at both entrances. Ponchos help with Ripsaw Falls and are close to useless on the Barges, where water comes up from the floor of the raft. The right move is to do both back to back in the early afternoon, in clothes that dry, with everything electronic locked up, and then walk into Jurassic Park to dry off.",
+        "Me Ship, The Olive is the third attraction and the one parents overlook: a three-deck walk-through boat with slides, interactive gadgets and water cannons aimed directly at the Bilge-Rat rafts passing below. It has no height requirement, no queue and a good half hour of play in it."
+      ],
+      "vibe": "Loud comic-strip color, the smell of chlorinated water, and a soundtrack of people shrieking as they get hit.",
+      "anchorAttraction": "dudley-do-rights-ripsaw-falls",
+      "highlights": [
+        "Dudley Do-Right's Ripsaw Falls and its below-waterline final drop",
+        "Popeye & Bluto's Bilge-Rat Barges, the wettest ride in Orlando",
+        "Me Ship, The Olive's water cannons, aimed at the rafts below",
+        "Comic Strip Lane's three-dimensional cartoon storefronts and photo boards"
+      ],
+      "eatHere": [
+        "blondies",
+        "comic-strip-cafe"
+      ],
+      "tips": [
+        "Do both water rides consecutively in the early afternoon. Getting soaked at 10 AM means eight hours in wet shoes; getting soaked at 2 PM in July is a service.",
+        "Use the lockers. Both rides take water over the sides and both have a loose-article problem - a phone in a shorts pocket on the Barges is a phone in the water.",
+        "Send a non-rider to Me Ship, The Olive with quarters for the water cannons while you queue for the Barges. Being shot at from the boat is the best part of the ride.",
+        "Bring a spare pair of socks in the locker. It is a trivial thing that changes the entire back half of the day."
+      ]
+    },
+    {
+      "slug": "skull-island",
+      "name": "Skull Island",
+      "order": 4,
+      "opened": 2016,
+      "summary": "A single attraction on its own island - a temple gate, a dark expedition truck ride, and a huge animatronic at the end.",
+      "description": [
+        "Skull Island is the smallest island in the park and holds exactly one thing: Skull Island: Reign of Kong, which opened in 2016 in the strip of land between Toon Lagoon and Jurassic Park. Universal built the whole island for one ride, and that includes an enormous temple facade with carved gates that is arguably better than the attraction behind it.",
+        "The queue is genuinely part of the experience and genuinely unpleasant for some people. It runs through a dark, tight, humid temple interior with live performers who appear from alcoves, animatronic natives, and lighting designed to make you uncertain what is scenery and what is about to move. Children who were fine with the outside of the building sometimes turn around inside it, and there is a bypass queue for exactly that reason - ask a team member.",
+        "The ride itself is a large expedition truck on a trackless-feeling path through 3D screen sequences, with an unusually good practical finish: a 16-foot animatronic Kong face at the end that is one of the best physical effects at Universal Orlando. The screens have aged less well than the animatronic, and the whole thing is more atmospheric than thrilling. It is worth doing once, and it is worth doing after dark."
+      ],
+      "vibe": "A humid stone temple with things moving in the dark, five minutes' walk from a cartoon log flume.",
+      "anchorAttraction": "skull-island-reign-of-kong",
+      "highlights": [
+        "The temple gate facade, the best piece of architecture in the park",
+        "A queue with live performers in it rather than props",
+        "The 16-foot Kong animatronic at the finale",
+        "A single rider line that regularly halves the wait"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Ask about the alternate queue if anyone in your group is nervous. The scary part is the indoor walkthrough, not the ride, and it can be skipped.",
+        "Use single rider. The trucks seat a lot of people in bench rows and the line moves faster than you expect.",
+        "Ride it in the evening. The temple exterior and the queue both work considerably better in the dark than at 11 AM.",
+        "There is no food or drink on this island at all. Fill your bottle in Toon Lagoon or Jurassic Park before you cross."
+      ]
+    },
+    {
+      "slug": "jurassic-park",
+      "name": "Jurassic Park",
+      "order": 5,
+      "opened": 1999,
+      "summary": "The 1993 film's visitor center rendered in full scale, plus the best roller coaster in Florida bolted onto the back of it.",
+      "description": [
+        "Jurassic Park is the island that has changed most since 1999, and the change made it the strongest part of the park. The original build was a faithful reconstruction of the film's visitor complex - the gates, the jeeps, the John Williams score, the river boat ride - and it was pleasant rather than essential. Then Jurassic World VelociCoaster opened in 2021 along the lagoon edge and the island acquired a headliner that competes with anything in the United States.",
+        "VelociCoaster is a launched coaster with two launches, a top speed around 70 mph, an 155-foot top hat, four inversions and a stretch of track that runs inches above the water of the lagoon. It is 51 inches, it has a single rider line, and it is the best ride at Universal Orlando. Anyone tall enough who does coasters should plan their morning around it.",
+        "The rest of the island is the counterweight and it is genuinely good. Jurassic Park River Adventure is a boat ride with a slow-build first half and an 85-foot drop at the end that soaks the front rows. Camp Jurassic is the best playground in Orlando - a multi-level structure of caves, nets, rope bridges and lava pits that swallows children for an hour. The Discovery Center is air-conditioned, free, quiet and virtually empty. Raptor Encounter puts you a few feet from a very convincing velociraptor puppet with a handler managing the interaction.",
+        "Pteranodon Flyers is the island's problem child. It is a suspended gliding ride over the island with a 36-to-56-inch requirement, meaning adults may only ride as the companion of a child in that band. Its capacity is dismal, its queue moves at a crawl, and the ride lasts about eighty seconds. Manage expectations accordingly."
+      ],
+      "vibe": "Warm concrete, John Williams on the speakers, and a coaster screaming past the lagoon every ninety seconds.",
+      "anchorAttraction": "jurassic-world-velocicoaster",
+      "highlights": [
+        "Jurassic World VelociCoaster, the best ride at Universal Orlando",
+        "Camp Jurassic, the best free playground in the city",
+        "The 85-foot drop at the end of Jurassic Park River Adventure",
+        "Raptor Encounter's handler-managed raptor meet",
+        "Thunder Falls Terrace, the best quick service in the park"
+      ],
+      "eatHere": [
+        "thunder-falls-terrace",
+        "the-burger-digs",
+        "pizza-predattoria",
+        "the-watering-hole",
+        "natural-selections"
+      ],
+      "tips": [
+        "VelociCoaster's single rider line is the most valuable one in the resort. Use it for every ride after your first.",
+        "Sit in the back row of the River Adventure boat if you want to stay drier and the front two rows if you do not. The difference is dramatic and it is the only water ride here where seat choice really matters.",
+        "Thunder Falls Terrace has floor-to-ceiling windows looking at the River Adventure drop, air conditioning, and rotisserie chicken that is better than any quick service at Walt Disney World. It is the correct lunch in this park.",
+        "Send children into Camp Jurassic while the adults ride VelociCoaster. It is directly adjacent, shaded, and it will hold them longer than the queue takes."
+      ]
+    },
+    {
+      "slug": "hogsmeade",
+      "name": "The Wizarding World of Harry Potter - Hogsmeade",
+      "order": 6,
+      "opened": 2010,
+      "summary": "A snow-roofed village under Hogwarts Castle holding two headline rides, the train to Diagon Alley, and Butterbeer.",
+      "description": [
+        "Hogsmeade opened in 2010 and reset what a theme park land was allowed to cost. The village is a single continuous street of leaning, snow-capped rooflines with no visible modern signage, ending at Hogwarts Castle on the rock above. The trick that makes it work is compression: the buildings are built to a forced perspective that makes a small footprint read as a whole village, and the sightlines are managed so that you almost never see the rest of the park from inside it.",
+        "Three rides sit here. Harry Potter and the Forbidden Journey, inside the castle, is a robotic-arm ride combining physical sets with dome screens, at 48 inches. Hagrid's Magical Creatures Motorbike Adventure, which opened in 2019, is a multi-launch story coaster with seven launches, a free-fall drop and a vertical spike, also at 48 inches, and it has the longest waits in the resort. Flight of the Hippogriff is a short family coaster at 36 inches and the only Hogsmeade ride most small children can do.",
+        "Two facts do more work here than anything else. The first is that Hagrid's is excluded from Universal Express Pass and has no single rider line, which makes it the one attraction in the park you cannot buy your way past. The second is that Hogsmeade is half of the Wizarding World - Diagon Alley sits in Universal Studios Florida across the walkway - and the Hogwarts Express train between them requires a park-to-park ticket. That ticket is the reason the two-park upgrade exists, and for a Potter fan it is not optional.",
+        "The retail here is a genuine attraction in its own right. Ollivanders runs a wand ceremony for a chosen child in a small room roughly every fifteen minutes, Honeydukes and Zonko's occupy one connected building, and interactive wands trigger about a dozen hidden spell effects around the village. The shops are cramped and the queues to enter them are real; do them early or late, not at 1 PM."
+      ],
+      "vibe": "Crooked snow-capped roofs, a castle on a rock, and a smell of butterscotch that never quite goes away.",
+      "anchorAttraction": "hagrids-magical-creatures-motorbike-adventure",
+      "highlights": [
+        "Hagrid's Magical Creatures Motorbike Adventure, and its total absence from Express Pass",
+        "Harry Potter and the Forbidden Journey inside Hogwarts Castle",
+        "The Hogwarts Express to Diagon Alley, with a different film in each direction",
+        "Butterbeer in three forms from the carts and the Hog's Head",
+        "Interactive wand spell-casting spots hidden around the village"
+      ],
+      "eatHere": [
+        "three-broomsticks",
+        "hogs-head",
+        "honeydukes",
+        "butterbeer-cart",
+        "magic-neep-cart"
+      ],
+      "tips": [
+        "Hagrid's is not on Express Pass and has no single rider line. Ride it in the first thirty minutes of the day or the last hour, and treat any other plan as a two-hour queue.",
+        "Do the castle walkthrough if you are not riding Forbidden Journey. Universal runs a non-rider tour of the queue - Dumbledore's office, the Defense Against the Dark Arts classroom, the portraits - and it is one of the best things in the park.",
+        "Use the Forbidden Journey test seat outside the entrance before you queue. The restraint has a hard chest limit and larger guests are turned away at the platform, which is a miserable way to end an hour in line.",
+        "Frozen Butterbeer beats the regular version in Florida heat and it is not close. Try the cold one anyway so you can have the argument.",
+        "The Hogwarts Express needs a park-to-park ticket in both directions. Standard one-park tickets cannot ride it, and no upgrade is sold at the platform."
+      ]
+    },
+    {
+      "slug": "lost-continent",
+      "name": "The Lost Continent",
+      "order": 7,
+      "opened": 1999,
+      "summary": "What is left of the park's mythology island after Hogsmeade took half of it - one restaurant, one talking fountain, two dark theaters.",
+      "description": [
+        "The Lost Continent was originally the park's largest island, a sprawl of Greek, Arabian and Arthurian mythology. In 2010 the Merlinwood section of it was demolished to build Hogsmeade, and what remains is a narrow strip between the Wizarding World and Seuss Landing. It is quiet, it is heavily shaded, and it contains the best restaurant in the park.",
+        "Both of its show attractions have closed. The Eighth Voyage of Sindbad Stunt Show, a pyrotechnic stunt spectacular in an open-air theater, ran from 1999 until September 2018. Poseidon's Fury, a walkthrough effects show with a water vortex tunnel, closed permanently in 2023 after years of intermittent operation. Universal has not announced a replacement for either space, and the buildings stand behind fencing.",
+        "That leaves Mythos Restaurant - a cave-like sit-down room over the lagoon that repeatedly won best-themed-restaurant awards, and which still serves the most ambitious food at Islands of Adventure - along with Fire-Eater's Grill, Doc Sugrue's kebab window, and The Mystic Fountain. The Mystic Fountain is a talking fountain operated by a live off-stage performer who insults passing children and squirts them with water. It is free, it is genuinely funny, and it has held its own against nine-figure attractions for twenty-seven years."
+      ],
+      "vibe": "Shaded stone colonnades and running water, noticeably emptier than the two islands either side of it.",
+      "anchorAttraction": "the-mystic-fountain",
+      "highlights": [
+        "Mythos Restaurant, the best food in the park",
+        "The Mystic Fountain, free and better than it has any right to be",
+        "Real shade and low crowds between two of the busiest islands",
+        "Fire-Eater's Grill and Doc Sugrue's for a cheap, fast lunch"
+      ],
+      "eatHere": [
+        "mythos-restaurant",
+        "fire-eaters-grill",
+        "doc-sugrues-desert-kebab-house"
+      ],
+      "tips": [
+        "Book Mythos for lunch rather than dinner. The room is quieter, the menu is nearly identical, and you are not giving up evening ride time.",
+        "This is the shadiest walkable stretch in the park. If you need to sit down between Hogsmeade and Seuss Landing, sit down here.",
+        "Stop at The Mystic Fountain for five minutes with children in tow. It responds to what they say, which almost nothing else in the park does.",
+        "Do not plan around Poseidon's Fury or Sindbad. Both are permanently closed and both still appear on old maps and blog posts."
+      ]
+    },
+    {
+      "slug": "seuss-landing",
+      "name": "Seuss Landing",
+      "order": 8,
+      "opened": 1999,
+      "summary": "The only island built for small children, and the reason a family with a preschooler can still have a day here.",
+      "description": [
+        "Seuss Landing is the counterweight to everything else in this park, and it is executed with more care than its pastel palette suggests. Universal's designers took the position that nothing in a Dr. Seuss world should have a straight line in it, and they held to it - the buildings lean, the fences curve, the palm trees on the site were sourced from groves bent by Hurricane Andrew rather than shaped artificially. Standing in the middle of it and finding a true vertical is genuinely hard.",
+        "Four rides, and the height requirements finally relax. The Cat in the Hat is a spinning-couch dark ride at 36 inches that is a legitimately good attraction rather than a children's consolation prize. The High in the Sky Seuss Trolley Train Ride! is an elevated track that circles the island at rooftop height at 34 inches, and it is the best low-intensity view in the park. Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish have no minimum height at all, and One Fish is the rare spinner where the ride actively squirts riders who steer wrong.",
+        "It is also where the shade, the benches and the bathrooms are on the Seuss Landing side of the loop, and where an adult can sit for twenty minutes without a coaster roaring overhead. Green Eggs and Ham Cafe reopened in this island serving the tater tot dish it is named for, which is better food than a novelty item has any obligation to be.",
+        "One structural warning: Seuss Landing is at the far end of the loop from Marvel Super Hero Island. If your group splits so that one half rides Hulk and the other half stays with a toddler here, they are twenty minutes apart on foot with the lagoon in between. Plan the split around that, not around ride times."
+      ],
+      "vibe": "Nothing straight, nothing gray, and the only place in the park where a four-year-old sets the pace.",
+      "anchorAttraction": "the-cat-in-the-hat",
+      "highlights": [
+        "The Cat in the Hat, a real dark ride rather than a kiddie ride",
+        "The High in the Sky Seuss Trolley Train Ride! circling the island at roof height",
+        "Two rides with no minimum height at all",
+        "Green Eggs and Ham Cafe's tater tots",
+        "The only substantial shade and seating outside Port of Entry"
+      ],
+      "eatHere": [
+        "circus-mcgurkus-cafe-stoo-pendous",
+        "green-eggs-and-ham-cafe",
+        "moose-juice-goose-juice",
+        "hop-on-pop-ice-cream-shop"
+      ],
+      "tips": [
+        "Do Seuss Landing first if your group's youngest is under 40 inches. Waits here build through the day like everywhere else and this is the island they can actually use.",
+        "The Cat in the Hat's benches rotate as they travel. Anyone prone to motion sickness should sit and face forward deliberately rather than turning to look at the scenes.",
+        "The Trolley Train has two separate tracks with different routes and different narration. Ride both if the wait is short - most guests never notice there are two.",
+        "This is the far end of the loop from Marvel. If you are splitting the group by height, put the meeting point in Port of Entry, not here."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "The first thing to settle about Islands of Adventure is whether your group clears the heights, because the answer changes the entire shape of the day. Fourteen attractions measure riders. Five of them - Hulk at 54 inches, Doctor Doom's at 52, VelociCoaster at 51, Hagrid's at 48 and Forbidden Journey at 48 - are the reason people buy tickets. A group where everyone is over 51 inches has one of the great theme park days in the country ahead of it. A group with a 42-inch child has about six rides and needs a different plan.",
+      "The second thing is Hagrid's Magical Creatures Motorbike Adventure. It is excluded from Universal Express Pass, has no single rider line, and posts the longest waits at Universal Orlando on most days. There is no product you can buy to fix that. You ride it at rope drop, you ride it in the last hour before close, or you spend between ninety minutes and two hours in a queue. Every other headliner in this park has an escape hatch; this one does not.",
+      "Third, do the Express Pass arithmetic before you book anything. Universal Express Pass is a paid front-of-line product sold per day, and it is included for every guest staying in a room at three of Universal's hotels for the length of the stay. On a busy day for a family of four, the nightly premium on one of those hotels can come in under the cost of buying Express separately - which makes it a hotel decision rather than a ticket decision, and one you cannot make retroactively.",
+      "Fourth, Islands of Adventure has six single rider lines - Hulk, Spider-Man, Doctor Doom's, Kong, VelociCoaster and Forbidden Journey. Disney parks have almost none. If you are two adults who do not mind being split up for four minutes, single rider is close to free Express Pass, and using it well is worth more than most paid upgrades."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Measure your children at home, honestly",
+        "body": "Do it in the shoes they will wear, against a door frame, and write the number down. Universal measures with a fixed stick at the queue entrance and again at the platform on some rides. The gap between 47 and 48 inches is the difference between five headliners and none of them, and finding out at the front of the Hagrid's queue is the worst possible way to learn it."
+      },
+      {
+        "title": "Decide on park-to-park before you buy tickets",
+        "body": "The Hogwarts Express between Hogsmeade and Diagon Alley requires a park-to-park ticket in both directions, and no upgrade is sold at the station. If anyone in your group cares about Harry Potter, this is not a marginal upgrade - the train is an attraction, the two halves of the Wizarding World are designed as one place, and a one-park ticket cuts it in half."
+      },
+      {
+        "title": "Work out whether Express Pass is a hotel decision",
+        "body": "Universal Express Pass comes free with every room at three of Universal Orlando's hotels, for every guest in the room, for the whole stay. Price that against buying Express separately for your party on your actual dates before you book a room anywhere. On peak dates for four people it frequently favors the hotel, and it is the highest-value calculation in a Universal trip."
+      },
+      {
+        "title": "Check whether your hotel gets Early Park Admission",
+        "body": "Universal hotel guests get into a park an hour before official opening, and at Islands of Adventure that early hour usually opens the Wizarding World. That hour is the single best time to ride Hagrid's, which is otherwise the hardest ride to get in Orlando. Confirm which park and which attractions are included for your dates in the app the night before, because it moves."
+      },
+      {
+        "title": "Pack for water, not weather",
+        "body": "Three rides here will make you wet and two of them will soak you through. Bring a spare pair of socks, a dry shirt in a locker, and a waterproof phone pouch if you have one. Ponchos handle Ripsaw Falls and do very little on the Bilge-Rat Barges, where water comes up through the raft floor."
+      },
+      {
+        "title": "Understand the loose-article rules before the queue",
+        "body": "The Hulk, VelociCoaster, Hagrid's, Doctor Doom's and Forbidden Journey all require you to put everything in a locker, including phones in zipped pockets. The lockers are free for the duration of the ride and the metal detectors at the platform are not negotiable. Wear shorts with fewer pockets and carry less."
+      },
+      {
+        "title": "Book Mythos or Confisco if you want a sit-down meal",
+        "body": "There are two table-service restaurants in the entire park. Mythos takes reservations and is the better meal; Confisco Grille takes reservations and is far more likely to accommodate a walk-up. If your day includes anyone who needs an hour off their feet in air conditioning, book one of them at the point you book the ticket."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Be at the turnstiles forty-five minutes before official opening, or before Early Park Admission if you have it. Walk right through Port of Entry and go straight for Hogsmeade. This is the one hour of the day where Hagrid's Magical Creatures Motorbike Adventure is a twenty-minute wait rather than a two-hour one."
+      },
+      {
+        "time": "First ride",
+        "body": "Hagrid's Magical Creatures Motorbike Adventure, standby, no exceptions. It has no Express Pass and no single rider line, so this is the only cheap way to ride it. If the ride is down for weather when you arrive, stay in Hogsmeade and come back the moment it reopens rather than leaving the island."
+      },
+      {
+        "time": "About 30 minutes after opening",
+        "body": "Harry Potter and the Forbidden Journey while the castle queue is still short. Do the full standby route the first time - the greenhouse, the portrait gallery, Dumbledore's office and the Defense Against the Dark Arts classroom are the reason to walk it rather than use single rider."
+      },
+      {
+        "time": "About an hour in",
+        "body": "Walk into Jurassic Park and ride Jurassic World VelociCoaster in standby. It is the best ride in the resort, the queue is worth seeing once, and the wait at this hour is a fraction of what it will be at noon. Use single rider for every subsequent ride."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "Continue counterclockwise to Skull Island: Reign of Kong, using single rider if the posted wait is above thirty minutes. Then Jurassic Park River Adventure, taking the back row if you would rather stay dry this early in the day."
+      },
+      {
+        "time": "Late morning",
+        "body": "Cross to Marvel Super Hero Island and take The Incredible Hulk Coaster, The Amazing Adventures of Spider-Man and Doctor Doom's Fearfall in that order, all on single rider. Three of the park's biggest rides in well under an hour is routine here."
+      },
+      {
+        "time": "Just before noon",
+        "body": "Walk back into Jurassic Park and get in line at Thunder Falls Terrace before the lunch rush lands at 12:15. The rotisserie chicken is the best quick-service food in the park and the dining room looks straight at the River Adventure drop."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "12:30 PM",
+        "body": "Eat at Thunder Falls Terrace and stay in the air conditioning longer than you need to. This park has less indoor space than any Disney park in Orlando and the middle of the day is when that becomes obvious."
+      },
+      {
+        "time": "1:30 PM",
+        "body": "Now do Toon Lagoon, both rides back to back. Dudley Do-Right's Ripsaw Falls first, Popeye & Bluto's Bilge-Rat Barges second, everything in a locker, and accept that you are going to be wet. In Florida in the afternoon this is a benefit."
+      },
+      {
+        "time": "2:30 PM",
+        "body": "Send anyone who wants to dry off into the Jurassic Park Discovery Center, which is air-conditioned, free, quiet and almost always empty. Anyone with children should point them at Camp Jurassic instead, which will absorb an hour without complaint."
+      },
+      {
+        "time": "3:15 PM",
+        "body": "Walk into The Lost Continent for the shade. Stop at The Mystic Fountain, which is free and will hold children for ten minutes, and use the colonnades to sit down properly rather than perching on a wall in the sun."
+      },
+      {
+        "time": "4:00 PM",
+        "body": "Seuss Landing, which is now at its calmest of the day. The Cat in the Hat, the Trolley Train and Caro-Seuss-el all clear quickly in the late afternoon, and the light on this island is better than at any other hour."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "5:00 PM",
+        "body": "Take the Hogwarts Express to Diagon Alley if you hold a park-to-park ticket. The journey takes about four minutes, the film in the compartment window is different in each direction, and Diagon Alley in the evening is the best-looking thing Universal Orlando has built."
+      },
+      {
+        "time": "Or, if you are staying put",
+        "body": "Shop Hogsmeade at this hour instead. Ollivanders, Honeydukes and Dervish and Banges all queue to get in during the middle of the day and walk straight in during dinner, and the wand spell-casting spots around the village are far less crowded."
+      },
+      {
+        "time": "Around sunset",
+        "body": "Ride Jurassic World VelociCoaster again on single rider. The section that skims the lagoon is a completely different ride in low light, and the wait typically drops through the evening rather than building."
+      },
+      {
+        "time": "After dark",
+        "body": "Skull Island: Reign of Kong, which works substantially better at night - the temple facade is lit properly and the queue's live performers have more to work with. Then The Incredible Hulk Coaster, which is the best night ride in the park."
+      },
+      {
+        "time": "Final hour",
+        "body": "Go back to Hagrid's Magical Creatures Motorbike Adventure. Posted waits fall sharply in the last hour at this park because there is no nighttime show holding people in place, and a second ride is often achievable when the morning ride was not."
+      },
+      {
+        "time": "On the way out",
+        "body": "Walk Port of Entry slowly rather than funneling out with everyone else. The shops here stay open past park close, the street lighting is the best in the park, and the exit crush clears in about fifteen minutes if you let it."
+      }
+    ],
+    "rookieMistakes": [
+      "Assuming Express Pass covers Hagrid's Magical Creatures Motorbike Adventure. It does not, it never has, and buying Express specifically to ride it is the single most common money mistake at this park.",
+      "Riding Toon Lagoon first thing in the morning and spending the next eight hours in wet shoes and wet denim.",
+      "Buying a one-park ticket and discovering at the Hogsmeade station that the Hogwarts Express requires park-to-park.",
+      "Ignoring the single rider lines. Six attractions have them, almost nobody uses them properly, and together they are worth more than most of what Universal sells.",
+      "Bringing a 45-inch child and planning the day around the headliners. Five of the six biggest rides here require 48 inches or more and there is no workaround.",
+      "Walking the loop the wrong way at rope drop. Hogsmeade is the correct first stop and it is a genuine ten-minute walk from the turnstiles.",
+      "Queuing for Forbidden Journey without using the test seat first. Larger guests are turned away at the platform after the full wait, which happens daily.",
+      "Planning around Poseidon's Fury or The Eighth Voyage of Sindbad. Both are permanently closed and both are still all over old guides and maps.",
+      "Treating Pteranodon Flyers like a normal ride. It has terrible capacity, a strict 36-to-56-inch band, and an eighty-second ride at the end of a very long line."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Be at the turnstiles forty-five minutes before opening and walk straight to Hogsmeade for Hagrid's Magical Creatures Motorbike Adventure in standby.",
+      "Ride Harry Potter and the Forbidden Journey next, doing the full castle queue rather than single rider on your first ride.",
+      "Walk to Jurassic Park and ride Jurassic World VelociCoaster in standby before mid-morning.",
+      "Do Skull Island: Reign of Kong and Jurassic Park River Adventure while the loop is still quiet.",
+      "Take Hulk, Spider-Man and Doctor Doom's on single rider in one block in Marvel Super Hero Island.",
+      "Eat lunch at Thunder Falls Terrace before 12:15, and take the seats by the windows.",
+      "Do both Toon Lagoon water rides back to back in the early afternoon with everything in a locker.",
+      "Spend the hot middle of the afternoon in The Lost Continent's shade and Seuss Landing, which is at its emptiest then.",
+      "Take the Hogwarts Express to Diagon Alley in the early evening if you hold a park-to-park ticket.",
+      "Return to VelociCoaster on single rider after dark, then Hagrid's again in the final hour."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Islands of Adventure is flat, paved and step-free almost everywhere, and the loop layout means you never have to backtrack through a bottleneck. The difficulty here is not the ground - it is the rides. This is a thrill park, and a much higher proportion of its attractions require a full transfer out of a wheelchair, a specific body position, or a restraint that has to close to a fixed point than at any Walt Disney World park.",
+      "Universal's access system works differently from Disney's. Guests who cannot wait in a conventional queue use the Attraction Assistance Pass, obtained at Guest Services in Port of Entry on arrival. Universal also partners with IBCCES for an accessibility card that can be applied for online before the trip, and doing that in advance meaningfully shortens the Guest Services conversation on the day. Bring documentation of need rather than diagnosis.",
+      "The single most useful accessibility feature in this park is the test seat. Hulk, VelociCoaster, Hagrid's, Forbidden Journey and Doctor Doom's all have a sample restraint outside the entrance, and they are the same hardware as the ride. Sitting in one takes thirty seconds and prevents the worst outcome available here, which is being turned away at the platform after ninety minutes in a queue."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Just inside the main entrance in Port of Entry, on the right past the turnstiles",
+      "priceNote": "Manual wheelchairs rent for roughly $15-20 per day as of July 2026, with a refundable deposit. Quantities are limited and they go early on busy mornings.",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Just inside the main entrance in Port of Entry, alongside wheelchair rental",
+      "priceNote": "ECVs run roughly $65-80 per day plus a refundable deposit as of July 2026. They sell out regularly; third-party rentals delivered to a Universal hotel avoid that risk and are usually cheaper for multi-day stays.",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Just inside the main entrance in Port of Entry",
+      "priceNote": "Single strollers run roughly $18-20 per day and doubles roughly $28-32 per day as of July 2026. There is no second rental point inside the park.",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Port of Entry, near Guest Services just inside the turnstiles",
+      "Marvel Super Hero Island, adjacent to Cafe 4",
+      "Toon Lagoon, near the Comic Strip Cafe restrooms",
+      "Jurassic Park, at the Discovery Center",
+      "Hogsmeade, in the block behind the Three Broomsticks",
+      "Seuss Landing, near Circus McGurkus Cafe Stoo-pendous"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Jurassic Park Discovery Center",
+        "where": "Jurassic Park, the domed building on the lagoon side",
+        "note": "Air-conditioned, seated, free to enter, and routinely close to empty. The best sensory break inside this park by a wide margin, and it has interactive exhibits for children who need something to do while they calm down."
+      },
+      {
+        "name": "The Lost Continent colonnades",
+        "where": "The shaded stone walkways between Hogsmeade and Seuss Landing",
+        "note": "Real shade, low foot traffic and the quietest outdoor stretch in the loop. No ride noise carries here, which is not true of anywhere on the Marvel side."
+      },
+      {
+        "name": "Backwater Bar",
+        "where": "Port of Entry, tucked behind Confisco Grille",
+        "note": "Air-conditioned, dim and almost always half empty because guests walk past it looking for the restaurant entrance. It costs the price of a drink and it is the calmest adult space in the park."
+      },
+      {
+        "name": "Seuss Landing benches by the lagoon",
+        "where": "Between Caro-Seuss-el and the water",
+        "note": "Shaded through the afternoon, with a breeze off the lagoon and no coaster audible. This is the correct meeting point for a group that has split by height."
+      },
+      {
+        "name": "Thunder Falls Terrace dining room",
+        "where": "Jurassic Park, beside the River Adventure drop",
+        "note": "Large, air-conditioned, high-ceilinged and quiet outside the lunch rush. Staff do not move you on, which makes it a legitimate rest stop at 3 PM as well as a restaurant."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Port of Entry, behind the wheelchair rental building near the main entrance",
+      "Toon Lagoon, on the walkway toward Skull Island",
+      "Jurassic Park, near the Camp Jurassic entrance",
+      "Seuss Landing, at the far end near the lagoon path"
+    ],
+    "sensoryNotes": [
+      "Skull Island: Reign of Kong has the most difficult queue in the park - dark, tight, humid, with live performers appearing without warning and animatronics that move at close range. There is an alternate queue that bypasses the walkthrough; ask a team member at the entrance rather than discovering the problem inside.",
+      "Harry Potter and the Forbidden Journey includes giant spiders, dementors and a sequence of close-range face effects in near darkness. It frightens more children than any other ride here, and considerably more than its 48-inch requirement would suggest.",
+      "The Incredible Hulk Coaster's launch tunnel is loud enough to be startling from outside the ride, and the queue passes directly beneath the track. Guests who are noise-sensitive often find the plaza harder than the ride.",
+      "The Amazing Adventures of Spider-Man uses strobe lighting, sudden fire effects with radiant heat, and a simulated 400-foot drop. The 3D is aggressive and the vehicle motion is constant.",
+      "Toon Lagoon is unpredictable by design - water arrives from cannons operated by other guests, from overhead, and from the ride vehicles. Being hit without warning while walking past is a normal part of that island.",
+      "Seuss Landing is the one area with no loud effects, no darkness and no sudden startles. If someone in your group needs to regulate, that is where to go rather than to a bench in Marvel."
+    ],
+    "mobilityNotes": [
+      "Nine attractions require a full transfer out of a wheelchair or ECV: Hulk, Doctor Doom's, Spider-Man, VelociCoaster, Hagrid's, Forbidden Journey, Flight of the Hippogriff, Ripsaw Falls and the Bilge-Rat Barges. That is a much higher proportion than any Disney park in Orlando.",
+      "Forbidden Journey has a hard restraint limit and a test bench outside the entrance. Larger guests and broad-chested guests are turned away at the platform daily; the test seat is the only reliable way to know in advance.",
+      "Hagrid's uses a motorbike-and-sidecar seat. The bike side requires straddling the seat and leaning forward for the duration; the sidecar is a conventional seated position and is the right request for anyone with hip, knee or back limitations.",
+      "The Bilge-Rat Barges require stepping down into a moving-ish raft with a low floor and no handrail on the approach, and Ripsaw Falls requires straddling a log seat. Both are among the harder transfers in the park.",
+      "The loop itself is flat and fully paved, but it is a genuine mile and a half of circumference with no shortcut across the lagoon. Plan seated breaks into the route rather than assuming you can cut the walk short.",
+      "Camp Jurassic and Me Ship, The Olive are multi-level play structures reached by steps, ramps and netting. Ground-level areas are accessible; the upper decks in both are not."
+    ],
+    "visionHearingNotes": [
+      "Universal provides assistive listening devices and closed-captioning receivers through Guest Services in Port of Entry. Availability is per-attraction rather than park-wide, and the list is worth asking for on arrival rather than assuming coverage.",
+      "The Wizarding World's interactive wands are entirely visual - a wand motion triggers a physical effect with no audio cue - which makes the spell-casting spots one of the most accessible activities in the park for deaf and hard-of-hearing guests.",
+      "Screen-based rides carry most of the narrative load here. Spider-Man, Forbidden Journey and Kong all deliver their story through dialogue over loud effects, and low-vision guests get substantially less from all three than from Hagrid's or VelociCoaster, which are physical rides with physical scenery.",
+      "Hogsmeade and The Lost Continent are deliberately dim at night with low-contrast paving, which is a real navigation issue. The Marvel and Seuss sides are brightly lit throughout.",
+      "Service animals are permitted throughout the park but not on the thrill rides. Kennels are available near the entrance, and most attractions have a designated waiting area where a member of your party can stay with the animal."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Hagrid's is not on Express Pass, and that is the most useful fact about this park",
+      "body": "Hagrid's Magical Creatures Motorbike Adventure has been excluded from Universal Express Pass since it opened in 2019, and it has no single rider line either. It also posts the longest waits at Universal Orlando on most days. There are exactly three ways to ride it without losing two hours: be in the park at rope drop, use Early Park Admission if your hotel gives it to you, or queue in the final hour before close. People buy Express specifically for this ride and it does not work."
+    },
+    {
+      "title": "Six single rider lines, and they are worth more than they look",
+      "body": "Hulk, Spider-Man, Doctor Doom's, Skull Island: Reign of Kong, VelociCoaster and Forbidden Journey all have single rider queues. Two adults using them separately will often clear all six of those rides in the time a standby queue takes for two. The trade is that you do not sit together and you may miss part of the themed queue, which is why you ride standby once and single rider every time after."
+    },
+    {
+      "title": "The loop has no shortcut and people forget it",
+      "body": "Islands of Adventure is a ring around a lagoon with a single entrance. There is no path across the middle and no transportation inside the park. Seuss Landing and Marvel Super Hero Island are at opposite ends of that ring, roughly twenty minutes apart on foot. If your group is splitting by height, set the meeting point in Port of Entry rather than at either end."
+    },
+    {
+      "title": "Get soaked on purpose, in the afternoon",
+      "body": "Ripsaw Falls and the Bilge-Rat Barges are not decorative water rides. Riders leave the Barges wet through to the skin on a regular basis. Doing both together after lunch, with dry clothes and a phone in a locker, converts the worst two hours of a Florida day into the best. Doing them at 10 AM converts the rest of the day into a slog in wet shoes."
+    },
+    {
+      "title": "The Forbidden Journey test seat prevents the worst thing that happens here",
+      "body": "The Forbidden Journey restraint has a fixed chest clearance and the ride's benches are unforgiving of broader builds. Guests are turned away at the loading platform every single day, after the full queue. There is a test seat outside the entrance with identical hardware, and it takes thirty seconds. VelociCoaster, Hulk and Hagrid's all have one too."
+    },
+    {
+      "title": "Afternoon storms shut this park down harder than a Disney park",
+      "body": "Hulk, VelociCoaster, Hagrid's, Pteranodon Flyers and Doctor Doom's are all outdoor and all stop for lightning in the area, and Hagrid's in particular is famously weather-sensitive. Central Florida gets a thunderstorm on most summer afternoons. Build the plan so that the middle of the afternoon is Toon Lagoon, Seuss Landing, the Discovery Center or a meal, and keep the outdoor coasters for morning and evening."
+    },
+    {
+      "title": "The park-to-park ticket is the Wizarding World ticket",
+      "body": "Hogsmeade is one half of a single design; Diagon Alley at Universal Studios Florida is the other. The Hogwarts Express connecting them is a real attraction with a different film in each direction, and riding it in either direction requires a park-to-park ticket. If Harry Potter is any part of why you are here, buy park-to-park. If it is not, you can skip it without much loss."
+    },
+    {
+      "title": "Thunder Falls Terrace is the best quick service at Universal Orlando",
+      "body": "Rotisserie chicken and ribs, cooked over a real wood fire, in a large air-conditioned room with windows looking straight at the Jurassic Park River Adventure drop. It costs about what a burger costs at the counter service next door. It is the correct lunch in this park and it is consistently overlooked because it sits behind the River Adventure exit."
+    },
+    {
+      "title": "Wands work, and the spell-casting is a genuine second attraction",
+      "body": "Interactive wands sold in Hogsmeade trigger about a dozen hidden effects around the village - and the same wand works across the lagoon in Diagon Alley, which has more of them. The wands are expensive and the map comes with them. For a child who is too short for the headliners, this is the best thing in the Wizarding World that they can actually do."
+    },
+    {
+      "title": "Two table-service restaurants, and one of them takes walk-ups",
+      "body": "Mythos in The Lost Continent is the better meal and books out on busy dates. Confisco Grille in Port of Entry is the reliable one - it accepts walk-ups more often than any other table service on the property, and it sits by the exit so it works as a late lunch on the way out. Everything else in the park is a counter."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the height requirements at Islands of Adventure?",
+      "a": "Fourteen attractions have one. The tallest is The Incredible Hulk Coaster at 54 inches, followed by Doctor Doom's Fearfall at 52, Jurassic World VelociCoaster at 51, and both Hagrid's Magical Creatures Motorbike Adventure and Harry Potter and the Forbidden Journey at 48. Below that: Dudley Do-Right's Ripsaw Falls at 44, Popeye & Bluto's Bilge-Rat Barges and Jurassic Park River Adventure at 42, The Amazing Adventures of Spider-Man at 40, Skull Island: Reign of Kong, Flight of the Hippogriff and The Cat in the Hat at 36, and The High in the Sky Seuss Trolley Train Ride! at 34. Pteranodon Flyers requires riders to be between 36 and 56 inches."
+    },
+    {
+      "q": "Is Islands of Adventure good for young children?",
+      "a": "One island of it is. Seuss Landing has four rides at 34 inches, 36 inches and no minimum at all, plus shade and seating, and it is genuinely well made rather than a token. Add Camp Jurassic, Me Ship, The Olive, Flight of the Hippogriff and The Cat in the Hat and a preschooler has a solid half day. What they do not have is any access to the five rides the park is famous for, all of which need 48 inches or more."
+    },
+    {
+      "q": "Does Universal Express Pass cover Hagrid's?",
+      "a": "No. Hagrid's Magical Creatures Motorbike Adventure has been excluded from Universal Express Pass since it opened in 2019 and it has no single rider line. Ride it at rope drop, during Early Park Admission if your hotel provides it, or in the final hour before close. No paid product will shorten that queue."
+    },
+    {
+      "q": "How many days do you need at Islands of Adventure?",
+      "a": "One long day covers everything if you are efficient about it and are not stopping to shop. A day and a half is more realistic for a first visit that includes the Hogsmeade shops, the wand spell-casting and a sit-down meal. If you are riding the headliners repeatedly, which is more the point here than at a Disney park, two days is not excessive."
+    },
+    {
+      "q": "Which rides get you wet at Islands of Adventure?",
+      "a": "Three. Dudley Do-Right's Ripsaw Falls and Popeye & Bluto's Bilge-Rat Barges in Toon Lagoon will soak you through - not mist you, soak you - and Jurassic Park River Adventure ends with an 85-foot drop that drenches the front rows and dampens the back. Use lockers, ride them in the afternoon, and keep a dry pair of socks."
+    },
+    {
+      "q": "Do I need a park-to-park ticket?",
+      "a": "You do if you want to ride the Hogwarts Express, which is the only way between Hogsmeade here and Diagon Alley at Universal Studios Florida, and which is an attraction in its own right with different content in each direction. No upgrade is sold at the station. For a Harry Potter trip it is essential; for a coaster-focused day at this park alone it is not."
+    },
+    {
+      "q": "Which rides have single rider lines?",
+      "a": "The Incredible Hulk Coaster, The Amazing Adventures of Spider-Man, Doctor Doom's Fearfall, Skull Island: Reign of Kong, Jurassic World VelociCoaster and Harry Potter and the Forbidden Journey. That is a far richer set than any Disney park in Orlando offers and it is the closest thing to free front-of-line access at Universal. Hagrid's does not have one."
+    },
+    {
+      "q": "What is the best ride at Islands of Adventure?",
+      "a": "Jurassic World VelociCoaster, which opened in 2021 and is the best roller coaster in Florida. Two launches, a 155-foot top hat, four inversions and a run of track that skims the lagoon at speed. Hagrid's is the more inventive ride and the one people queue longest for; VelociCoaster is the better one."
+    },
+    {
+      "q": "Is Poseidon's Fury still open?",
+      "a": "No. Poseidon's Fury closed permanently in 2023 after several years of intermittent operation, and The Eighth Voyage of Sindbad Stunt Show in the same island closed in September 2018. Universal has not announced replacements for either, so The Lost Continent currently has no ride or show attractions at all."
+    },
+    {
+      "q": "Is Islands of Adventure better than Universal Studios Florida?",
+      "a": "For rides, yes, and it is not particularly close - VelociCoaster, Hagrid's, Spider-Man and Hulk is a stronger top four than the park across the walkway can field. Universal Studios Florida has the better single land in Diagon Alley and more indoor attractions, which matters in August. Most people who visit both prefer Islands of Adventure."
+    },
+    {
+      "q": "Does Islands of Adventure have a nighttime show?",
+      "a": "No. There is no parade, no fireworks and no permanent nighttime spectacular here. The practical consequence is good news for riders: nothing holds crowds in place at the end of the evening, so posted waits fall sharply in the last hour rather than staying flat the way they do at Magic Kingdom."
+    },
+    {
+      "q": "How early should I arrive?",
+      "a": "Forty-five minutes before official opening if you do not have Early Park Admission, and forty-five minutes before the early entry time if you do. Security and turnstiles at Universal move reasonably fast, but the walk from the gate to Hogsmeade is a genuine ten minutes and Hagrid's is the reason you are hurrying."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Universal Orlando runs one enormous parking structure serving both original parks, with self-parking around $30-35 per day and Prime parking closer to the walkway for more, as of July 2026. It is a covered garage rather than an open lot, which is a real advantage in July, but the walk from the structure through CityWalk to the Islands of Adventure turnstiles takes ten to fifteen minutes including security. Budget for that at rope drop rather than discovering it.",
+    "transportation": [
+      "Walking is the primary option. Islands of Adventure sits directly across CityWalk from Universal Studios Florida, and several Universal hotels connect by a landscaped garden walkway that takes five to fifteen minutes depending on which hotel.",
+      "Water taxis run from several Universal hotels to a dock in CityWalk, a few minutes' walk from the Islands of Adventure entrance. They are slower than walking from the closest hotels and considerably more pleasant.",
+      "Universal runs shuttle buses between the hotels, CityWalk and the separate Epic Universe campus. There is no free airport shuttle from Orlando International.",
+      "Rideshare drop-off is at the parking structure rather than at the gate, so the same ten-to-fifteen minute walk applies. Orlando International Airport is about twenty minutes away by car, which is closer than Walt Disney World."
+    ],
+    "entranceNote": "Security screening sits before the turnstiles at the top of the walkway and is the same checkpoint for both original parks. Once through, Port of Entry is the only route in and out - there is no back gate. The Islands of Adventure and Universal Studios Florida entrances are about a three-minute walk apart, which makes park-hopping on a park-to-park ticket genuinely easy on foot as well as by train."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "ioa"
+}

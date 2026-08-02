@@ -1,0 +1,245 @@
+{
+  "park": "universal-studios-hollywood",
+  "criteria": "Ranked on the experience itself — what it is like to be on the thing — across everything the park operates, not only what runs on a track. Queue length, Universal Express eligibility and single rider availability moved nothing up or down. Segments of the Studio Tour are not ranked separately, because you cannot choose to do them.",
+  "intro": [
+    "Universal Studios Hollywood has one attraction that nothing else in the world can copy, and about fifteen that range from very good to entirely skippable. That imbalance is the whole shape of this list. The Studio Tour is first by a distance that is not close enough to argue about, and everything below it is competing for second.",
+    "The other thing worth stating up front: the two best things here after the tour are a boat ride from 1996 and a stunt show from 1995. The newest land in the park contains the ride we rank eighth. That is not nostalgia. It is what happens when a park's older attractions were built around practical effects and its newer ones were built around screens.",
+    "One day covers all of this comfortably. Nothing on this list requires a second visit, and the correct order is roughly: the three Lower Lot rides at rope drop, Super Nintendo World and Harry Potter before noon, the Studio Tour in the early afternoon, WaterWorld after that, and Springfield in the evening."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "studio-tour",
+      "headline": "A real working backlot, narrated for an hour, and the only attraction of its kind anywhere on earth.",
+      "why": [
+        "There is no argument to be had here. The Studio Tour runs an hour across an actual film production facility, past standing sets that are still shot on, with a live guide and three purpose-built set pieces layered into the route. Nothing at Universal Orlando, Disneyland or anywhere else replicates it, because nobody else has a functioning backlot to drive a tram across.",
+        "It is also the attraction most first-time visitors underrate, because a tram tour sounds like the thing you do when you have run out of rides. Treat it as the headliner and build the day around when you ride it. Missing it is the only genuine regret available at this park."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 2,
+      "slug": "harry-potter-and-the-forbidden-journey",
+      "headline": "The best ride system in the park, in the best-looking building, with the worst motion sickness record.",
+      "why": [
+        "A bench on a robotic arm that itself rides a track, moving through practical sets and enormous screens in ways nothing else moves. The Quidditch flight, the dragon and the acromantula nest are all staged at close range and the arm puts you at angles a conventional vehicle cannot reach.",
+        "The queue through Hogwarts is half the attraction and is worth walking slowly. There is also a castle walk-through option for anyone who wants the interior without the ride, which is the right answer for a lot of people.",
+        "It is second rather than first for one reason: it makes a meaningful number of riders ill, and it is the same ride you can do in Orlando. The Studio Tour is not."
+      ],
+      "skipIf": "You are prone to motion sickness. This is the worst offender in a park with several."
+    },
+    {
+      "rank": 3,
+      "slug": "jurassic-world-the-ride",
+      "headline": "A gentle dinosaur boat ride that turns into an 84-foot drop in the dark, and the best big ride here.",
+      "why": [
+        "The structure is what makes it work. Six minutes of slow drifting past herbivores in daylight, then the boat is diverted into the containment building, the lights drop, and the Indominus rex sequence delivers the single best moment at Universal Studios Hollywood.",
+        "It is also the only major ride here where practical scenery does the work rather than a screen, and the animatronics are the best in the park. The 84-foot drop is genuinely steep and genuinely soaking.",
+        "Ride it in the first hour, when the Lower Lot is empty and the rest of the park is queuing up top for Mario Kart."
+      ],
+      "skipIf": "You are going straight home afterward, or it is a cold evening. You will be wet, not damp."
+    },
+    {
+      "rank": 4,
+      "slug": "waterworld",
+      "headline": "A live stunt show with real falls, real fire and a seaplane crash — the best show at any US theme park.",
+      "why": [
+        "Running since 1995 and still doing things no modern theme park show attempts: high falls into water, a full fire burn on a performer, jet skis at speed through gaps in the set, and a seaplane crashing into the atoll with a fireball you feel as heat from the back rows.",
+        "There is not a screen in it. Everything you watch is a person doing something difficult, live, twice an hour, and the set is destroyed and reset between performances.",
+        "It ranks this high on merit and it is skipped by more guests than anything else here, which tells you how badly a stunt show sells itself on a park map."
+      ],
+      "skipIf": "Sudden loud explosions are a problem for someone in your group — the pyrotechnics are not gentle."
+    },
+    {
+      "rank": 5,
+      "slug": "revenge-of-the-mummy",
+      "headline": "The park's only real roller coaster: launched, fully dark, with fire overhead and the best false ending anywhere.",
+      "why": [
+        "Two minutes, entirely enclosed, entirely dark. A slow themed setup with an Imhotep animatronic, then an abrupt launch into unlit banked turns, a reverse section, and a ceiling of fire that produces real heat.",
+        "The darkness is the design. With no reference points, riders who are comfortable on much bigger outdoor coasters find this genuinely disorienting, and the false ending catches almost everybody the first time.",
+        "It is the shorter of the two Revenge of the Mummy coasters — Orlando's has more show scenes and more track. Hollywood's is the tighter, more relentless version of the same idea."
+      ],
+      "skipIf": "Total darkness is a problem for you. There is nothing to look at and no warning of what is coming."
+    },
+    {
+      "rank": 6,
+      "slug": "transformers-the-ride-3d",
+      "headline": "The best screen ride in the park, and the loudest five minutes on the property by a wide margin.",
+      "why": [
+        "The same ride system as Spider-Man in Orlando, used at higher volume and higher speed. The synchronization between the motion base and the projection is excellent, and the sequence where the vehicle appears to fall down the side of a building is the best illusion at this park.",
+        "It is relentless in a way that divides people. Five minutes of continuous motion, cutting and noise with essentially no pause. Riders who enjoy that come off elated and riders who do not come off needing a bench.",
+        "It sits below the Mummy because it is a screen ride in a park with too many of them, and because doing it back to back with Forbidden Journey or The Simpsons Ride ends afternoons."
+      ],
+      "skipIf": "You have already done two screen simulators today. This is the one that tips people over."
+    },
+    {
+      "rank": 7,
+      "slug": "the-secret-life-of-pets-off-the-leash",
+      "headline": "A trackless dark ride full of practical animatronics, in a park that otherwise runs on screens.",
+      "why": [
+        "This is the most consistently underestimated attraction at Universal Studios Hollywood, and it is here at seven on merit rather than as a curiosity. It is a trackless dark ride with dense practical figures, built at puppy eye level so the sets loom over you, and it is the closest thing this park has to a classic Disney dark ride.",
+        "It is also air conditioned end to end, has a 34-inch requirement — the lowest on any real ride here — and rarely posts a wait that matches its quality.",
+        "Adults skip it because the films do not appeal to them. That is a bad reason to skip a well-built ride, and it is why this one stays quiet while Mario Kart posts ninety minutes."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 8,
+      "slug": "mario-kart-bowsers-challenge",
+      "headline": "Technically remarkable, genuinely frustrating to play, and not worth the wait it commands.",
+      "why": [
+        "The engineering deserves the praise it gets. Universal built an augmented reality system that places objects accurately in a moving vehicle inside a set full of practical scenery, and the queue through Bowser's castle is the best-built queue in the park.",
+        "The game is the problem. The overlay is dim, aiming is imprecise, steering barely matters, and most riders finish with no idea how they scored. It is a demonstration rather than a game, and a demonstration is not worth ninety minutes.",
+        "Ride it once, early, and use the single rider line. Then go and do something that rewards the time."
+      ],
+      "skipIf": "Anyone in your group dislikes wearing something over their eyes. The visor is mandatory and cannot come off mid-ride."
+    },
+    {
+      "rank": 9,
+      "slug": "ollivanders",
+      "headline": "Ten minutes, no screens, live performance and practical effects — the best small thing in the park.",
+      "why": [
+        "A group of about twenty-five goes into a dark room, a wandmaker picks a child, three wands fail with well-timed practical effects, and one works. That is the whole attraction and it is executed better than anything else at this scale here.",
+        "It is entirely analog in a park that leans hard on projection, it is cool and dark in the middle of a hot afternoon, and the performers do live work that adjusts to whoever they picked.",
+        "The exit is through the shop and the commercial logic is unsubtle, but nobody makes you buy anything and the experience holds either way."
+      ],
+      "skipIf": null
+    },
+    {
+      "rank": 10,
+      "slug": "raptor-encounter",
+      "headline": "A puppeteered velociraptor that behaves like an animal, and the best live performance here after WaterWorld.",
+      "why": [
+        "The raptor never breaks character. It tracks movement across the queue, reacts to sound, snaps at its handlers and lunges at whoever is being photographed, and the puppeteering is good enough that adults who queued out of curiosity leave impressed.",
+        "It ranks above four actual rides because it is better made than they are. A character meeting that a meaningful number of children refuse to approach is a compliment to the people operating it.",
+        "It sits on the Lower Lot, so fold it into the single trip down rather than making a special journey for it."
+      ],
+      "skipIf": "You have a small child who will be genuinely frightened — ask the handlers to keep the raptor back if you go anyway."
+    },
+    {
+      "rank": 11,
+      "slug": "the-simpsons-ride",
+      "headline": "Very funny writing on a 2008 dome simulator that makes more people ill than anything else here.",
+      "why": [
+        "The script is the best thing about it. Dense gags, the real voice cast, and a premise built as an affectionate attack on theme parks that plays much better inside one than it should. Even the queue video is well written.",
+        "The ride mechanics have aged badly. A domed screen fills your peripheral vision with no fixed reference point while an abrupt motion base throws you around, which is a textbook recipe for nausea, and there is no stationary seating alternative.",
+        "It is worth doing once if simulators agree with you, in the evening when the queue drops and Springfield looks better lit."
+      ],
+      "skipIf": "Anyone in your group is at all prone to motion sickness. This is the one that ends days."
+    },
+    {
+      "rank": 12,
+      "slug": "despicable-me-minion-mayhem",
+      "headline": "A funny film on a rough motion base, redeemed by a stationary seating option almost nobody asks for.",
+      "why": [
+        "The animation is genuinely well timed and the queue through Gru's laboratory has more detail than anything else in this half of the park. It is a better-made simulator than The Simpsons Ride and a considerably shorter one.",
+        "The motion is sharper than the cartoon presentation prepares anyone for, which is exactly why the stationary seating option matters. It shows the same film without the movement and it carries no height requirement.",
+        "The dance party at the exit is rated higher than the ride by every child who goes through it, and you should budget fifteen minutes for that whether you planned to or not."
+      ],
+      "skipIf": "You have already done Transformers and Forbidden Journey today."
+    },
+    {
+      "rank": 13,
+      "slug": "power-up-band-key-challenges",
+      "headline": "A physical scavenger hunt that turns Super Nintendo World from a twenty-minute walk into an hour.",
+      "why": [
+        "Three built puzzle mechanisms hidden around the courtyard, question blocks that respond to a punch, and a Bowser Jr. finale, all tracked through a band and the app. The challenges are physical rather than screen-based, which is rarer here than it should be.",
+        "Without a band, this land is one ride and a restaurant. With one, a child has structured work to do in an environment designed for exactly that, and the leaderboard is a stronger motivator than anything else at the park for a ten-year-old.",
+        "The value depends entirely on committing the time. Buy one band per child, stay an hour, and it earns its place. Buy four and leave in thirty minutes and it does not."
+      ],
+      "skipIf": "You are not spending at least an hour in the land. The bands are not worth the money for a walk-through."
+    },
+    {
+      "rank": 14,
+      "slug": "flight-of-the-hippogriff",
+      "headline": "Sixty seconds of gentle family coaster behind a queue that routinely runs forty-five minutes.",
+      "why": [
+        "As a first roller coaster it is well judged. The whole layout is visible from the queue so a nervous child can see exactly what they are agreeing to, the 39-inch requirement is one of the lowest here, and there is never a moment of real force.",
+        "As a use of your day it is difficult to defend at anything over half an hour. Low capacity, an unshaded queue, and a ride shorter than the walk to it.",
+        "Ride it in the first hour or accept the trade knowingly. Hagrid's hut in the queue is genuinely well built and is most of what you are getting."
+      ],
+      "skipIf": "The posted wait is over 25 minutes and nobody in your group is riding their first coaster."
+    },
+    {
+      "rank": 15,
+      "slug": "dreamworks-theatre",
+      "headline": "A middling show in an excellent seat: high capacity, fully air conditioned, and quick.",
+      "why": [
+        "Judge this on its shape rather than its content. Several hundred seats, a fast cycle, a dark cool room, and a posted wait that is a countdown to the next showing rather than a queue you stand in.",
+        "The in-seat effects are well timed and the presentation is competent. Nobody has ever left this theater talking about the story.",
+        "In a park short of shade and short of seating, twenty minutes here in the middle of the afternoon is worth more than another ride."
+      ],
+      "skipIf": "It is your last hour in the park and you have not done the Studio Tour."
+    },
+    {
+      "rank": 16,
+      "slug": "animal-actors",
+      "headline": "Trained animals doing film work in a covered stadium, and the softest landing in the park.",
+      "why": [
+        "Unfashionable, low-key and genuinely restful. Dogs, birds and a rotating cast work with handlers who explain how the behaviors are actually built for camera, which fits this park better than it would fit any other.",
+        "The practical value is the covered stadium, the plentiful seating and the low volume, with no queue to speak of. For anyone traveling with a tired toddler it is the best twenty minutes available.",
+        "It is last on this list and it is not filler. Everything below it is either a walkthrough, a photo stop, or the escalators."
+      ],
+      "skipIf": "You are short on time and have not yet done the Studio Tour or WaterWorld."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "mario-kart-bowsers-challenge",
+      "why": "The most impressive engineering in the park attached to gameplay that does not work. The AR overlay is dim, aiming is imprecise, steering does almost nothing, and riders regularly finish without knowing whether they did well. It commands the longest wait here and does not repay it. Ride it once, early, on single rider."
+    },
+    {
+      "slug": "flight-of-the-hippogriff",
+      "why": "A sixty-second junior coaster that routinely posts a forty-five minute wait in an unshaded queue. It is a good first coaster for a cautious child and it is nothing else. The wait-to-ride ratio is the worst at this park by a distance, and people queue for it because it is in the Wizarding World rather than because it is worth it."
+    },
+    {
+      "slug": "the-simpsons-ride",
+      "why": "The writing is excellent and the ride is a 2008 dome simulator that makes more people ill than anything else in the park. There is no stationary seating alternative, the motion base is rough, and it carries a 40-inch requirement for what is fundamentally a film. Do it once if simulators suit you, and do not build a plan around it."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "waterworld",
+      "why": "Ranked fourth here and skipped by more guests than anything else at this park. It is a live stunt show with real high falls, a genuine fire burn, jet skis at speed and a seaplane crashing into the set, running since 1995 with no screens in it at all. Guests walk past it because a stunt show reads as filler on a park map."
+    },
+    {
+      "slug": "the-secret-life-of-pets-off-the-leash",
+      "why": "A trackless dark ride with the densest practical animatronics in the park, air conditioned end to end, with the lowest height requirement on any real ride here at 34 inches. Adults skip it on the strength of the branding and are wrong to. It is better made than three of the rides above it and it almost never posts the wait it deserves."
+    },
+    {
+      "slug": "raptor-encounter",
+      "why": "Written off as a photo stop and actually the second-best live performance in the park. The raptor puppet tracks movement, reacts to noise and lunges at guests without ever breaking, and the handlers work it as though the animal were dangerous. It is on the Lower Lot, which is the only reason more people do not see it."
+    },
+    {
+      "slug": "animal-actors",
+      "why": "Nobody plans for it and it is the most restful twenty minutes at Universal Studios Hollywood: covered stadium, plentiful seating, low volume, no queue. The training-focused framing also sits better at a working studio than it would anywhere else. For anyone with a tired child, it is worth more than another ride."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best ride at Universal Studios Hollywood?",
+      "a": "The Studio Tour, and the gap is not close. It runs an hour across a genuinely working film backlot with a live guide, and no other theme park on earth can offer it. Every other attraction here is competing for second place."
+    },
+    {
+      "q": "What order should I do the rides in?",
+      "a": "Take the Starway down at rope drop and do Jurassic World, Revenge of the Mummy and Transformers in one pass while the Lower Lot is empty. Come back up for Super Nintendo World and Harry Potter before noon. Studio Tour in the early afternoon, WaterWorld after it, Springfield in the evening."
+    },
+    {
+      "q": "Is Mario Kart worth the wait?",
+      "a": "No. It is technically remarkable and frustrating to play — the AR overlay is dim, aiming is imprecise, and most riders cannot tell how they scored. Ride it once early, or on the single rider line, and spend a ninety-minute wait on almost anything else."
+    },
+    {
+      "q": "What is the scariest ride at Universal Studios Hollywood?",
+      "a": "Revenge of the Mummy, which runs in total darkness with a hard launch, a reverse section, a fire effect you feel as heat and a false ending. Harry Potter and the Forbidden Journey is a close second because of the spider and dementor sequences, and King Kong on the Studio Tour frightens more small children than either."
+    },
+    {
+      "q": "How many of these can I do in one day?",
+      "a": "All of them, with an early arrival and one trip down to the Lower Lot rather than four. This is a one-day park and the ranked list above is a realistic single-day plan rather than an aspirational one."
+    },
+    {
+      "q": "Which rides are worth using Universal Express on?",
+      "a": "The Studio Tour, Harry Potter and the Forbidden Journey and Mario Kart: Bowser's Challenge, in that order, because those three have the least effective free alternatives. Jurassic World, Revenge of the Mummy and Transformers all run single rider lines that do most of the same work for nothing."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

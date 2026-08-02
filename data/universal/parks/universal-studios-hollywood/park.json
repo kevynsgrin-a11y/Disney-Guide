@@ -1,0 +1,525 @@
+{
+  "slug": "universal-studios-hollywood",
+  "name": "Universal Studios Hollywood",
+  "shortName": "Universal Hollywood",
+  "resort": "universal-hollywood",
+  "resortName": "Universal Studios Hollywood",
+  "opened": "1964-07-15",
+  "sizeAcres": 415,
+  "location": "Universal City, California",
+  "coordinates": {
+    "lat": 34.1381,
+    "lng": -118.3534
+  },
+  "tagline": "A working studio backlot with a theme park built on top, and one day is genuinely enough.",
+  "summary": "Universal Studios Hollywood is a single park on a real working film lot above the San Fernando Valley, split across two levels joined by a long chain of escalators. The Studio Tour is the reason to come, and one day covers the whole park.",
+  "intro": [
+    "Universal Studios Hollywood is the oldest continuously operating attraction in this industry, and it is still built around the thing it started as. The tram tour opened in the summer of 1964 to sell tickets to a working film studio, and sixty years later that tour remains the single best reason to buy one. The coasters, the Wizarding World and Super Nintendo World were all added later, around the edges of a backlot that was never laid out to be a theme park.",
+    "The park sits on a hillside and is cut into two levels. The **Upper Lot** holds the entrance, the Studio Tour boarding area, all of the shows, The Wizarding World of Harry Potter and Super Nintendo World. The **Lower Lot** holds three of the park's biggest rides and very little else. The two are joined by the Starway, a chain of four long outdoor escalators. Going down takes four or five minutes when they are all running. Coming back up takes longer and feels longer still. The single most useful planning decision you will make here is to go down once and come up once, rather than criss-crossing all day.",
+    "One day is enough, and that is a compliment rather than a complaint. You can finish this park — every ride, both shows worth seeing, the tour — inside a normal operating day with time to sit down. That makes it a genuinely different proposition from Universal Orlando, where three days is the honest minimum. It works as the anchor of a Los Angeles trip rather than as a trip in itself, and it is the one US Universal park you can reasonably do without booking a hotel.",
+    "Several attractions here are shorter or smaller versions of Orlando counterparts, and you should know which before you decide the coasts are interchangeable. Revenge of the Mummy is a compact version of the Orlando coaster. Harry Potter and the Forbidden Journey is the same ride, but Hollywood's Wizarding World is one village rather than two connected lands with a train between them. Super Nintendo World here has one ride where Epic Universe has more. What Hollywood has that Orlando does not is the backlot, and no amount of construction in Florida is going to replicate a real one.",
+    "The weak spot is food. There is no table-service restaurant inside the gate, the quick-service prices run above what the same food costs at Disneyland forty minutes down the freeway, and the best eating on the property is at CityWalk, outside the turnstiles. Same-day re-entry is allowed, which turns that from a complaint into a plan."
+  ],
+  "bestFor": [
+    "Anyone who cares how films actually get made",
+    "One-day visits and half-day add-ons to a Los Angeles trip",
+    "Travelers without a car",
+    "Older children, teenagers and adults",
+    "West-coast fans of Harry Potter and Nintendo who cannot get to Orlando"
+  ],
+  "notIdealFor": [
+    "Families whose youngest child is under 40 inches",
+    "Anyone who struggles with stairs, long escalators or sustained inclines",
+    "Guests prone to motion sickness — this is a screen-and-simulator park",
+    "Anyone looking for a multi-day resort holiday"
+  ],
+  "stats": {
+    "attractionCount": 25,
+    "ridesWithHeightRequirements": 9,
+    "tallestRequirement": 48,
+    "typicalFullDayHours": "7–9 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "upper-lot",
+      "name": "Upper Lot",
+      "order": 1,
+      "opened": 1964,
+      "summary": "The park's original level: the entrance, the Studio Tour boarding area, every show, and most of the walking.",
+      "description": [
+        "The Upper Lot is the park as it existed before there were rides. You enter here, and the first thing on your right is the entrance to the Studio Tour, which is the correct order of priorities. Around it sit the theaters, the Illumination and DreamWorks attractions, and the two newest lands, with the whole thing wrapped around a central plaza.",
+        "It is the flatter of the two levels, but flat is relative on a hillside. The walking is longer than the park map suggests because the paths curve around show buildings and the backlot boundary, and there is very little straight-line routing between two points that look adjacent.",
+        "Almost everything with seating is up here. WaterWorld, Animal Actors and the DreamWorks Theatre are the three places you can sit in shade for twenty minutes without buying anything, and on a hot Valley afternoon that matters more than the show quality does.",
+        "The Upper Lot is also where the queue psychology of this park plays out. Guests arrive, walk fifty yards, and stop at the first thing they see. If you keep walking for another six minutes you will find shorter lines at nearly everything."
+      ],
+      "vibe": "A studio front lot with a theme park bolted on — soundstage walls on one side, a plaza and a tram queue on the other.",
+      "anchorAttraction": "studio-tour",
+      "highlights": [
+        "The Studio Tour, which is the park",
+        "WaterWorld, the best live stunt show at any US theme park",
+        "Illumination's Minion Cafe and the Minion Mayhem simulator",
+        "The Secret Life of Pets: Off the Leash, the park's most underrated ride",
+        "Shaded theater seating you can use without buying anything"
+      ],
+      "eatHere": [
+        "mels-diner",
+        "illuminations-minion-cafe",
+        "universal-plaza-starbucks",
+        "upper-lot-churro-cart"
+      ],
+      "tips": [
+        "Ride the Studio Tour in the first hour or the last two. The queue builds from mid-morning and the boarding area is one of the few places in the park where a posted wait genuinely means a full hour.",
+        "The theaters are your air conditioning strategy. WaterWorld and the DreamWorks Theatre both seat several hundred people at a time, so the posted wait almost never means what it means at a ride.",
+        "Do not stop at the first attraction you see. Guest flow bunches within a hundred yards of the turnstiles, and six more minutes of walking regularly halves a wait.",
+        "This is where the restrooms, lockers and the only substantial shade are. Do what you need to do before you take the Starway down, because the Lower Lot has far less of everything."
+      ]
+    },
+    {
+      "slug": "springfield",
+      "name": "Springfield",
+      "order": 2,
+      "opened": 2015,
+      "summary": "A built-out corner of the Simpsons town, with one ride and a genuinely funny run of themed food windows.",
+      "description": [
+        "Springfield opened at Universal Studios Hollywood in 2015, some seven years after The Simpsons Ride itself, and it works as a piece of set dressing better than it works as an attraction area. Krusty Burger, Cletus' Chicken Shack, Moe's Tavern, the Duff bar and Lard Lad's giant donut are all here, built to full scale, with the jokes carried through to the menu boards and the litter bins.",
+        "There is exactly one ride. The Simpsons Ride is a large-format screen simulator from 2008 that replaced Back to the Future: The Ride in the same building, and it has aged in the way screen simulators from 2008 age. The gags still land. The motion base is rougher and more nauseating than anything else in the park.",
+        "Treat this as an eating and photographs stop rather than a ride stop and it earns its place. Moe's Tavern serves the park's most entertaining drink, Lard Lad sells the park's most photographed food item, and the whole area is one of the few places at Universal Studios Hollywood where the theming exists for its own sake rather than to hold a queue."
+      ],
+      "vibe": "A cartoon main street rebuilt at real scale, with a purple donut on a pole and a bar that serves Duff.",
+      "anchorAttraction": "the-simpsons-ride",
+      "highlights": [
+        "Moe's Tavern and the Flaming Moe",
+        "Lard Lad's Big Pink Donut, the park's most photographed food",
+        "Krusty Burger and Cletus' Chicken Shack",
+        "Bumblebee Man's Taco Truck",
+        "The Simpsons Ride, if screen simulators agree with you"
+      ],
+      "eatHere": [
+        "krusty-burger",
+        "moes-tavern",
+        "lard-lad-donuts",
+        "cletus-chicken-shack",
+        "bumblebee-mans-taco-truck",
+        "duff-brewery"
+      ],
+      "tips": [
+        "Eat here rather than riding here. The food windows are the reason this area exists and the ride is the weakest simulator in the park.",
+        "The Flaming Moe at Moe's Tavern is served in a souvenir glass with a dry-ice effect, and it is worth the money once. Ask for it without alcohol if you want the effect for a child.",
+        "The Big Pink Donut at Lard Lad is the size of a dinner plate and feeds three people. Buying one each is a mistake people make daily.",
+        "Skip The Simpsons Ride entirely if anyone in your group is prone to motion sickness. It is the most reliable way to end a day early at this park."
+      ]
+    },
+    {
+      "slug": "wizarding-world-of-harry-potter",
+      "name": "The Wizarding World of Harry Potter",
+      "order": 3,
+      "opened": 2016,
+      "summary": "Hogsmeade village and Hogwarts Castle, built into the hillside on the Upper Lot and better than the Orlando original at ground level.",
+      "description": [
+        "The Wizarding World of Harry Potter opened here in April 2016, six years after the Orlando version, and the extra six years show. The village is denser, the snow-topped rooflines sit better against the hillside, and the castle is placed so it rises out of the terrain rather than standing on flat ground. It is the best-looking thing at Universal Studios Hollywood by a clear margin.",
+        "What it does not have is scale. Orlando's Wizarding World is two lands in two parks joined by a train. Hollywood has one village, one castle, one dark ride, one small coaster and one wand shop, and you can walk it end to end in three minutes. That is not a criticism of what is here — it is a warning against expecting a day's worth of it.",
+        "Harry Potter and the Forbidden Journey is the headliner and is mechanically identical to the Orlando ride: a robotic arm on a moving track that pitches you through screens and practical sets. Flight of the Hippogriff is a sixty-second family coaster with a 39-inch requirement and a queue out of all proportion to it. Ollivanders runs a wand ceremony for a couple of dozen people at a time and is much better than it sounds.",
+        "The interactive wands are a real spend decision. Around twenty spell-casting locations are scattered through the village, they need a specific interactive wand rather than the cheaper ones, and children who get one will want to find all of them. Budget the time or do not buy the wand."
+      ],
+      "vibe": "A snow-roofed village in a hillside hollow with a castle above it and a chimney smoking somewhere behind the shops.",
+      "anchorAttraction": "harry-potter-and-the-forbidden-journey",
+      "highlights": [
+        "Hogwarts Castle rising out of the hillside — the best sightline in the park",
+        "Harry Potter and the Forbidden Journey",
+        "Butterbeer, in all three temperatures",
+        "The Ollivanders wand ceremony",
+        "Interactive wand spell locations hidden through the village"
+      ],
+      "eatHere": [
+        "three-broomsticks",
+        "hogs-head-pub",
+        "butterbeer-cart"
+      ],
+      "tips": [
+        "Come here first or come here last. Between 11am and 4pm this is the most congested ground in the park and the village is too small to absorb it.",
+        "The Forbidden Journey queue through the castle is a genuine attraction and there is a walk-through option that lets you see it without riding. Ask a team member at the entrance.",
+        "If you buy one Butterbeer, make it the frozen one. It is the version that holds up in Southern California heat and the only one worth the queue at the outdoor cart.",
+        "Interactive wands only work with the interactive models, which cost considerably more than the standard ones. Check the box before you buy, because the disappointment is entirely avoidable.",
+        "Flight of the Hippogriff runs about sixty seconds. Ride it early or accept a long wait for very little."
+      ]
+    },
+    {
+      "slug": "super-nintendo-world",
+      "name": "Super Nintendo World",
+      "order": 4,
+      "opened": 2023,
+      "summary": "A built environment of pipes, blocks and moving Koopas, with one ride, one interactive game layer and a restaurant worth eating at.",
+      "description": [
+        "Super Nintendo World opened at Universal Studios Hollywood in February 2023, the first version in the United States. You enter through a warp pipe into a courtyard beneath Bowser's castle, and the build quality is the best in the park: the ground level moves, Piranha Plants snap, Koopa shells rotate, and the whole thing is engineered to be looked at from several heights at once.",
+        "There is one ride. Mario Kart: Bowser's Challenge is an augmented-reality dark ride where you wear a visor over a cap and steer a car through a Mario Kart course, throwing shells at targets. It is technically remarkable and, for a lot of people, not much fun to play — the AR overlay is dim, aiming is fiddly, and it is difficult to tell whether you are doing well. It is worth riding once and is not worth a ninety-minute wait.",
+        "The other half of the land is the Power-Up Band game layer. A band on your wrist plus the Universal app turns the land into a scavenger hunt: hit blocks, collect digital coins, solve three Key Challenges hidden around the courtyard, then face Bowser Jr. Children get considerably more out of this land than adults do, and families who buy bands and commit to the hunt get an hour out of an area that otherwise takes twenty minutes.",
+        "Capacity is the structural problem. This is a small footprint with one ride and it fills fast. On peak days Universal has managed entry with a timed virtual line rather than letting the courtyard jam, so check the app on arrival rather than assuming you can wander in at 2pm."
+      ],
+      "vibe": "A side-scrolling level built at full scale, with everything moving slightly and a castle overhead.",
+      "anchorAttraction": "mario-kart-bowsers-challenge",
+      "highlights": [
+        "Walking in through the warp pipe for the first time",
+        "Mario Kart: Bowser's Challenge, worth one ride",
+        "Power-Up Band Key Challenges and the Bowser Jr. finale",
+        "Toadstool Cafe, the best food inside this park",
+        "Meeting Mario, Luigi and Princess Peach in the courtyard"
+      ],
+      "eatHere": [
+        "toadstool-cafe"
+      ],
+      "tips": [
+        "Go at opening or in the last two hours. This is the smallest high-demand footprint in the park and the middle of the day here is unpleasant.",
+        "Check the app for a timed entry requirement before you walk over. On busy days Universal meters access rather than letting the courtyard fill.",
+        "Buy Power-Up Bands only if you will actually do the Key Challenges. One band per child is enough to play; the parents do not need one.",
+        "Book Toadstool Cafe or order it early. It is the only place in the park where the food is worth planning around, and it fills by noon.",
+        "Mario Kart uses a visor that clips to a cap. If you wear glasses it still works, but expect to spend the first thirty seconds adjusting it rather than playing."
+      ]
+    },
+    {
+      "slug": "lower-lot",
+      "name": "Lower Lot",
+      "order": 5,
+      "summary": "The bottom of the hill: three of the park's biggest rides, reached by four long escalators and very little else down there.",
+      "description": [
+        "The Lower Lot is where Universal Studios Hollywood put the things that needed room. Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D all sit down here, along with a handful of food windows, a bar and the shops attached to each ride. It is a narrow strip of the hillside rather than a land in the theming sense, and there is no attempt at a unifying story.",
+        "Getting here is the whole planning problem with this park. The Starway is four long outdoor escalators in sequence, and the trip takes four to five minutes when everything is running and considerably longer when a section is down or the queue at the top backs up. Coming back up is the same journey against gravity, at the end of a long day, usually in the dark. There is an accessible route between the levels that does not use the escalators, and it is worth asking a team member about at the top rather than discovering the escalators are the only obvious option.",
+        "Because the trip is a commitment, the Lower Lot behaves differently from the rest of the park. It is frequently quiet in the first hour while everyone stays up top at the Wizarding World and Super Nintendo World, and it empties again in the last hour as people head back up to leave. Both windows are the best value on the property.",
+        "Plan the day so you come down once. Do all three rides, eat if you need to, then take the escalators up and stay up. People who bounce between levels lose an hour of walking they never account for."
+      ],
+      "vibe": "A concrete canyon at the bottom of a hill with a T. rex on one side and a mummy's tomb on the other.",
+      "anchorAttraction": "jurassic-world-the-ride",
+      "highlights": [
+        "Jurassic World — The Ride and its 84-foot drop",
+        "Revenge of the Mummy, the park's only real roller coaster",
+        "Transformers: The Ride-3D",
+        "The Raptor Encounter, which is better than any character meet up top",
+        "The first hour of the day, when almost nobody is down here"
+      ],
+      "eatHere": [
+        "jurassic-cafe",
+        "isla-nu-bar"
+      ],
+      "tips": [
+        "Come down once and do all three rides in one pass. The escalators are the hidden tax on this park and every extra round trip costs you close to fifteen minutes.",
+        "First thing in the morning is the best window down here by a wide margin, because the crowd defaults to the Upper Lot lands.",
+        "Use the lockers before Jurassic World rather than after. The soaking is real and the front rows get the worst of it.",
+        "All three big rides here run single rider lines, and they work. If you are two adults, riding apart on all three saves the better part of an hour.",
+        "Ask about the accessible route between the lots at the top of the Starway. The escalators are not the only way down and the alternative is not signposted well."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "This is a one-day park and the plan below assumes you have one day. There is no version of Universal Studios Hollywood that needs two unless something goes badly wrong on the first, and any guide that tells you otherwise is selling a ticket upgrade.",
+      "Three decisions shape the day, and all three happen before 10am: buying Universal Express or not, going down to the Lower Lot first or starting with Super Nintendo World and Harry Potter, and where in the day the Studio Tour goes. That last one matters most, because the tour is a sixty-minute commitment you cannot squeeze into a gap."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Download the Universal app and log in at the hotel",
+        "body": "Wait times, mobile food ordering, the Super Nintendo World virtual line when it is running and the Power-Up Band game layer all live in the app. Set up the account and the payment method before you arrive, because the in-park network is congested and the morning you need it working is the worst morning to troubleshoot it."
+      },
+      {
+        "title": "Do the Universal Express arithmetic honestly",
+        "body": "Express here is priced per day and swings sharply with the date — it can more than double between a quiet Tuesday and a Saturday in July. There is no hotel tier that includes it the way three of the Orlando hotels do. On a genuinely busy day it is the difference between doing everything and doing half of it; on a quiet weekday in the off season it is money for nothing. Check the price for your specific date before you decide."
+      },
+      {
+        "title": "Understand the two levels before you arrive",
+        "body": "The park is on a hillside and split into an Upper Lot and a Lower Lot connected by four long escalators. The Lower Lot holds three major rides and nothing else you need. Plan one trip down and one trip up, not four. This single fact will save you more time than any other piece of planning."
+      },
+      {
+        "title": "Measure a borderline child before you buy the ticket",
+        "body": "Forty inches is the gate that matters here. Below it, a child cannot ride Transformers, The Simpsons Ride, Minion Mayhem or Mario Kart, and Jurassic World is 42 inches on top of that. A family whose youngest is 38 inches will find this a much thinner park than the marketing suggests."
+      },
+      {
+        "title": "Plan to eat outside the gate at least once",
+        "body": "There is no table-service restaurant inside this park. CityWalk sits immediately outside the turnstiles with a full range of real restaurants, and same-day re-entry is allowed. Walking out for lunch and back in afterward is a legitimate strategy rather than a compromise."
+      },
+      {
+        "title": "Know that this is a screen-heavy park",
+        "body": "Minion Mayhem, The Simpsons Ride, Transformers, Forbidden Journey, Mario Kart and King Kong on the Studio Tour are all built around screens with motion. If anyone in your group gets motion sick, this park will find out. Plan which ones they skip in advance rather than at the loading platform."
+      },
+      {
+        "title": "Get there before the posted opening",
+        "body": "Parking, the walk up through CityWalk and security screening together take longer than people expect — budget 30 to 45 minutes from parking your car to standing at the turnstiles. Arriving at the posted opening time means entering the park close to an hour later than the people who planned for it."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Take the Starway straight down to the Lower Lot and ride Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D back to back. Almost the entire arriving crowd turns toward Super Nintendo World and Harry Potter instead, and the Lower Lot stays quiet for the first hour. This is the highest-value hour of the day."
+      },
+      {
+        "time": "About 10:15am",
+        "body": "Come back up the Starway and go straight to Super Nintendo World. Check the app on the way in case a timed entry is running. Ride Mario Kart: Bowser's Challenge once and start the Key Challenges if you have bought Power-Up Bands."
+      },
+      {
+        "time": "About 11:15am",
+        "body": "Walk to The Wizarding World of Harry Potter and ride Harry Potter and the Forbidden Journey, then Flight of the Hippogriff if the posted wait is under 30 minutes. It is a sixty-second ride and it is never worth more than that."
+      },
+      {
+        "time": "About 12:15pm",
+        "body": "Ollivanders wand ceremony, then a Butterbeer. The ceremony runs for a small group at a time, takes about ten minutes, and is the best-executed small thing in the park."
+      },
+      {
+        "time": "About 12:45pm",
+        "body": "Eat. Toadstool Cafe in Super Nintendo World is the best food inside the gate, Three Broomsticks is the reliable option, and walking out to CityWalk is legitimate if you want a real restaurant."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "2pm",
+        "body": "Ride the Studio Tour. It is a full hour including the queue, it is the reason to come to this park, and the middle of the afternoon is the only part of the day large enough to absorb it without disrupting anything else. Sit on the left-hand side of the tram for the better view of the backlot street sets."
+      },
+      {
+        "time": "3:15pm",
+        "body": "WaterWorld. Shaded stadium seating, a genuinely good stunt show, and the highest-capacity thing in the park — the posted wait is a show time rather than a queue. If you sit in the front rows you will be soaked, which is a feature at this hour."
+      },
+      {
+        "time": "4pm",
+        "body": "The Secret Life of Pets: Off the Leash. It is the most underrated ride at Universal Studios Hollywood, it is air conditioned, and the wait almost never matches its quality."
+      },
+      {
+        "time": "4:45pm",
+        "body": "Despicable Me Minion Mayhem and Super Silly Fun Land, or the DreamWorks Theatre if you want to sit down. This is the part of the afternoon where a shaded seat is worth more than a ride."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "5:30pm",
+        "body": "The Simpsons Ride and a walk through Springfield. Ride it now if you are going to — the queue drops in the evening and the area looks considerably better with the lights on."
+      },
+      {
+        "time": "6:30pm",
+        "body": "Eat properly, or eat entertainingly. Krusty Burger and Cletus' Chicken Shack are the fun version. Moe's Tavern is where the adults should be. Lard Lad's Big Pink Donut feeds three people and photographs better than it tastes."
+      },
+      {
+        "time": "7:30pm",
+        "body": "Back to The Wizarding World of Harry Potter. The village is at its best after dark, the castle is lit, and the queues at both rides collapse in the last two hours."
+      },
+      {
+        "time": "About an hour before close",
+        "body": "Second trip to the Lower Lot only if you genuinely want a re-ride. Waits down there fall to almost nothing at the end of the night, but you will be taking those escalators back up afterward and it is a long way at the end of a long day."
+      },
+      {
+        "time": "Close",
+        "body": "Walk out through CityWalk rather than straight to the parking structure. It is the way you have to go anyway, it is open later than the park, and the food out there is better than anything inside the gate."
+      }
+    ],
+    "rookieMistakes": [
+      "Going to Super Nintendo World at rope drop with everybody else, instead of taking the Starway down to a nearly empty Lower Lot.",
+      "Crossing between the Upper and Lower Lot three or four times. Each round trip on the Starway costs close to fifteen minutes, and nobody budgets for it.",
+      "Leaving the Studio Tour until late in the day and finding a 60-minute queue for a 60-minute attraction with two hours of park left.",
+      "Assuming this is a two-day park because Universal Orlando is a three-day resort. It is not, and buying a second day is the most common money wasted here.",
+      "Riding The Simpsons Ride, Transformers, Minion Mayhem and Forbidden Journey in the same block and discovering the limits of your inner ear at the fourth one.",
+      "Buying a standard wand in the Wizarding World and then finding it will not cast at any of the spell locations, which need the more expensive interactive model.",
+      "Bringing a child between 36 and 40 inches and expecting a full day. Below 40 inches, most of this park is closed to them.",
+      "Eating every meal inside the gate when CityWalk is thirty seconds outside it and same-day re-entry is free."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Be at the turnstiles 30 minutes before the posted opening, having already parked and walked up through CityWalk.",
+      "Take the Starway straight down and ride Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D in one pass.",
+      "Come back up and do Super Nintendo World and Mario Kart: Bowser's Challenge before 11am.",
+      "Ride Harry Potter and the Forbidden Journey, then Flight of the Hippogriff only if it is under 30 minutes.",
+      "Eat at Toadstool Cafe, or walk out to CityWalk for a real lunch and come back in.",
+      "Ride the Studio Tour in the early afternoon and sit on the left-hand side of the tram.",
+      "See WaterWorld in a shaded seat, and sit outside the splash zone unless you want to be wet.",
+      "Do The Secret Life of Pets: Off the Leash, which almost everybody underestimates.",
+      "Walk Springfield in the evening and eat something ridiculous at Moe's Tavern or Lard Lad.",
+      "Finish in the Wizarding World after dark, when the castle is lit and the queues have gone."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The defining accessibility fact about Universal Studios Hollywood is the terrain. This park is built on a hillside, split across two levels, and the standard connection between them is a chain of four long outdoor escalators. Anyone using a wheelchair or ECV, anyone with a mobility condition, anyone with a heart or breathing condition, and anyone traveling with a stroller needs a plan for that before arrival rather than at the top of the Starway.",
+      "There is an accessible route between the Upper and Lower Lot that does not use the escalators. It is not obvious from the walkways and it is not always signposted where you would expect. Ask a team member at Guest Relations near the entrance on your way in, and ask again at the top of the Starway, rather than working it out when you are already tired.",
+      "Beyond the terrain the park is manageable. Distances are short compared with any Orlando park, most attractions are indoors and air conditioned, and the theaters offer easy seated breaks. Universal's Attraction Assistance Pass is the equivalent of Disney's Disability Access Service and is arranged through Guest Relations; requirements change periodically, so check Universal's own site rather than relying on a guide, including this one."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Rental window just inside the main entrance on the Upper Lot, near Guest Relations",
+      "priceNote": "Daily rate plus a refundable deposit; budget roughly $15 to $25 per day as of July 2026 and confirm at the window, since Universal adjusts these without notice",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Same rental window inside the main entrance; quantities are limited and they go early on busy mornings",
+      "priceNote": "Roughly $60 to $80 per day plus a deposit as of July 2026. Off-site providers deliver to nearby hotels and are cheaper for multi-day trips",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Stroller rental at the main entrance on the Upper Lot",
+      "priceNote": "Roughly $20 to $30 per day for a single and more for a double as of July 2026",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Upper Lot, near the main entrance and Guest Relations",
+      "Upper Lot, near the Studio Tour boarding area",
+      "The Wizarding World of Harry Potter, at the village restrooms",
+      "Super Nintendo World, near the land entrance",
+      "Lower Lot, near the Jurassic World gift shop"
+    ],
+    "quietSpaces": [
+      {
+        "name": "The DreamWorks Theatre",
+        "where": "Upper Lot",
+        "note": "A seated indoor theater on a fast cycle with air conditioning and a dark room. The show has strong effects, but the lobby and the waiting area are calm, and a team member will usually let you sit rather than enter if you explain."
+      },
+      {
+        "name": "WaterWorld's shaded stadium seating",
+        "where": "Upper Lot",
+        "note": "The amphitheater is open between shows and the upper covered rows are one of the few places you can sit in shade at this park for as long as you like without buying anything."
+      },
+      {
+        "name": "The Wizarding World village side streets",
+        "where": "The Wizarding World of Harry Potter",
+        "note": "The narrow lanes off the main square are markedly quieter than the square itself, and the shop interiors are air conditioned. Not silent, but a real drop in noise and sun."
+      },
+      {
+        "name": "Three Broomsticks interior seating",
+        "where": "The Wizarding World of Harry Potter",
+        "note": "A large indoor dining hall with high ceilings and dim lighting. Off peak meal times it is one of the calmest indoor spaces in the park, and you can sit for a long time over one drink."
+      },
+      {
+        "name": "The Lower Lot walkways",
+        "where": "Lower Lot",
+        "note": "Between ride entrances the Lower Lot is genuinely quiet for most of the day because so few people are willing to make the trip twice. Benches are limited but the noise level is the lowest in the park."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Near the main entrance on the Upper Lot, close to Guest Relations",
+      "Upper Lot, near the Studio Tour boarding area",
+      "Lower Lot, near the base of the Starway"
+    ],
+    "sensoryNotes": [
+      "Revenge of the Mummy is the park's most intense sensory experience: a fully dark indoor coaster with a launch, a fire effect you feel as heat, loud sustained sound and a sudden reverse section. There is no gentle version of it.",
+      "Transformers: The Ride-3D, The Simpsons Ride and Despicable Me Minion Mayhem are all screen-based with aggressive motion, loud sound and 3D glasses. Doing more than one in a row is the most common cause of a ruined afternoon here.",
+      "King Kong 360 3-D on the Studio Tour happens inside a tunnel with the whole tram in darkness, surrounded by screens, with the vehicle pitching and roaring around you. It cannot be skipped once the tram is moving — the tour goes straight through it.",
+      "The Studio Tour also includes a subway earthquake sequence with a collapsing ceiling, fire, water and a very loud rumble, and a flash flood that sends water past the tram. Both are startling rather than frightening, but they arrive without warning.",
+      "Harry Potter and the Forbidden Journey uses a robotic arm to pitch riders in the dark past screens and practical effects, including spiders and dementors. It has the highest motion-sickness rate of anything in the park.",
+      "Mario Kart: Bowser's Challenge requires wearing an AR visor over a cap for the whole ride. Children who dislike anything on their face will not tolerate it, and there is no version of the ride without it."
+    ],
+    "mobilityNotes": [
+      "The Starway escalators are the park's central mobility issue. There is an accessible route between the Upper and Lower Lot, but it is not well signposted — ask at Guest Relations on your way in and confirm at the top of the Starway.",
+      "The park is on a hillside throughout, and even the Upper Lot has sustained gentle grades between the entrance, the Wizarding World and Super Nintendo World. Distances are short but they are rarely flat.",
+      "Revenge of the Mummy, Transformers: The Ride-3D, Jurassic World — The Ride, Harry Potter and the Forbidden Journey, Mario Kart: Bowser's Challenge and The Simpsons Ride all require a full transfer out of a wheelchair or ECV.",
+      "The Studio Tour trams have designated wheelchair-accessible cars that load from a separate position. Ask at the boarding area rather than joining the main queue, and expect to wait for the right tram rather than the next one.",
+      "Jurassic World — The Ride requires stepping down into a boat from a moving platform, with a raised sill, and you will get wet, which matters more for some conditions than the transfer does.",
+      "The Wizarding World village has cobbled-effect paving and narrow shop doorways. It is navigable in a wheelchair but slow, and it is genuinely difficult at peak times."
+    ],
+    "visionHearingNotes": [
+      "Assistive listening and captioning equipment is available through Guest Relations near the main entrance. Arrange it on arrival rather than at an attraction, since not every location can issue devices.",
+      "The Studio Tour is narrated throughout and is one of the most rewarding attractions in the park for blind and low-vision guests, because the value is in what the guide tells you rather than only what you see.",
+      "WaterWorld is heavily visual and largely non-verbal, which makes it one of the easier shows for deaf and hard-of-hearing guests, and one of the harder ones for blind guests.",
+      "Harry Potter and the Forbidden Journey, Transformers and The Simpsons Ride all depend on screens for most of their content. Guests with significant vision loss get very little from them beyond the motion.",
+      "Sign language interpretation for shows is arranged in advance through Universal rather than requested on the day. Contact them before your visit rather than assuming a given performance is covered.",
+      "Super Nintendo World's Key Challenges rely on visual cues and app feedback, and the Power-Up Band game layer is difficult to play without sight. The land is still worth walking for its sound design, which is unusually good."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Go down before you go anywhere else",
+      "body": "At opening, the arriving crowd turns toward Super Nintendo World and the Wizarding World and stays on the Upper Lot. Take the Starway straight down instead. Jurassic World, Revenge of the Mummy and Transformers can all be done in the first hour with waits under 15 minutes, and the same three rides cost you two hours in the afternoon."
+    },
+    {
+      "title": "The Starway is a tax, so pay it twice and no more",
+      "body": "Four long outdoor escalators, four to five minutes each way when everything is running, and considerably longer when a section is down. Plan a day that goes down once and comes up once. People who bounce between levels lose the better part of an hour without ever noticing where it went."
+    },
+    {
+      "title": "The Studio Tour is the park, not a curiosity",
+      "body": "It is a real working backlot, and there is nothing else like it anywhere in the world. Sixty minutes including the queue, no height requirement, and the only attraction here that a first-time visitor would regret missing. Treat it as the headliner it is and build the day around when you ride it."
+    },
+    {
+      "title": "Single rider lines are the cheap version of Express",
+      "body": "Jurassic World — The Ride, Revenge of the Mummy, Transformers, Harry Potter and the Forbidden Journey and Mario Kart: Bowser's Challenge all run single rider queues. For two adults willing to ride apart, that is most of what an Express Pass buys, for nothing. It does not help a family that wants to sit together."
+    },
+    {
+      "title": "Eat outside the gate at least once",
+      "body": "There is no table-service restaurant inside this park, and the quick-service prices run above Disneyland's for comparable food. CityWalk is thirty seconds outside the turnstiles, has real restaurants, and same-day re-entry is free. Walking out for lunch is a plan rather than a defeat."
+    },
+    {
+      "title": "This park is smaller than Orlando's, and several rides are the shorter versions",
+      "body": "Revenge of the Mummy here is a compact version of the Orlando coaster. The Wizarding World is one village rather than two lands and a train. Super Nintendo World has one ride where Epic Universe has more. If you are choosing between coasts on the strength of shared attractions, Orlando wins on scale and Hollywood wins on the backlot."
+    },
+    {
+      "title": "Forty inches is the number that decides your day",
+      "body": "Transformers, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge are all 40 inches. Jurassic World is 42. Forbidden Journey and Revenge of the Mummy are 48. A child at 38 inches can do the Studio Tour, the shows, Super Silly Fun Land and not a great deal else."
+    },
+    {
+      "title": "Count how many screens you are riding",
+      "body": "Minion Mayhem, The Simpsons Ride, Transformers, Forbidden Journey, Mario Kart and King Kong on the Studio Tour are all screens with motion, and they stack. Space them across the day and put the two roughest — The Simpsons Ride and Forbidden Journey — as far apart as you can."
+    },
+    {
+      "title": "Buy interactive wands, not ordinary ones",
+      "body": "The spell-casting locations scattered around Hogsmeade only respond to the interactive wands, which cost noticeably more than the standard ones. Children who get the wrong one find out at the first spell location, and it is a bad twenty minutes. Check the box at the counter."
+    },
+    {
+      "title": "Budget 45 minutes from your car to the turnstiles",
+      "body": "Parking, the walk down through the structure, the escalators up through CityWalk and security screening add up to considerably more than people expect. Arriving at the posted opening time means walking through the gate closer to 45 minutes later, which is the entire quiet hour gone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is one day enough at Universal Studios Hollywood?",
+      "a": "Yes. With an early arrival you can ride everything, see the Studio Tour and WaterWorld, and still eat properly. A second day is only worth buying if the first was cut short. This is the clearest difference between Universal Hollywood and Universal Orlando, where three days is the honest minimum."
+    },
+    {
+      "q": "What is the best attraction at Universal Studios Hollywood?",
+      "a": "The Studio Tour, and it is not close. It runs about an hour, crosses a genuinely working backlot, and includes King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale along the way. No other theme park anywhere can offer a real film lot, and most guides bury it under the coasters."
+    },
+    {
+      "q": "How does the Upper Lot and Lower Lot split work?",
+      "a": "The park is built on a hillside in two levels. The Upper Lot has the entrance, the Studio Tour, both shows, the Wizarding World and Super Nintendo World. The Lower Lot has Jurassic World — The Ride, Revenge of the Mummy and Transformers. They connect via the Starway, four long outdoor escalators that take four to five minutes each way. Plan to make the trip once in each direction."
+    },
+    {
+      "q": "Is Universal Express Pass worth it at Universal Studios Hollywood?",
+      "a": "On a busy day, usually yes. On a quiet weekday in the off season, usually no. Pricing is per day and swings sharply with the date, and unlike Orlando there is no hotel tier that includes it. Check the price for your specific date, and if you are two adults willing to ride apart, the free single rider lines cover most of the same ground."
+    },
+    {
+      "q": "What are the height requirements at Universal Studios Hollywood?",
+      "a": "Harry Potter and the Forbidden Journey and Revenge of the Mummy are 48 inches. Jurassic World — The Ride is 42. Transformers: The Ride-3D, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge are 40. Flight of the Hippogriff is 39 and The Secret Life of Pets: Off the Leash is 34. The Studio Tour and both shows have no requirement at all."
+    },
+    {
+      "q": "Is this park good for young children?",
+      "a": "Only partly. Below 40 inches the list is short: the Studio Tour, WaterWorld, Animal Actors, the DreamWorks Theatre, Super Silly Fun Land, the Wizarding World village and The Secret Life of Pets: Off the Leash at 34 inches. That is a solid half day rather than a full one. Above 40 inches the park opens up sharply."
+    },
+    {
+      "q": "How does it compare to Universal Orlando?",
+      "a": "Orlando is bigger in every direction — three parks, more rides, longer versions of several attractions Hollywood also has, and a hotel system that includes Express Pass at the top tiers. Hollywood has the backlot, which Orlando cannot replicate, and it fits into one day. If you only ever visit one, visit Orlando; if you live on the west coast or you are already in Los Angeles, Hollywood is a genuinely good day out rather than a consolation prize."
+    },
+    {
+      "q": "Can you leave the park and come back the same day?",
+      "a": "Yes. Same-day re-entry is allowed, and CityWalk sits immediately outside the turnstiles with a full range of restaurants. Given that there is no table-service restaurant inside the park, walking out for a proper lunch and coming back in is one of the better moves available here."
+    },
+    {
+      "q": "Do you need a car to get to Universal Studios Hollywood?",
+      "a": "No, and that is unusual for Los Angeles. The Metro B Line stops at Universal City/Studio City, and a free shuttle runs up the hill to the park entrance. Burbank Airport is the closest and least stressful airport; LAX is cheaper to fly into and anything from 30 minutes to well over an hour away depending on traffic."
+    },
+    {
+      "q": "Which rides have single rider lines?",
+      "a": "Jurassic World — The Ride, Revenge of the Mummy, Transformers: The Ride-3D, Harry Potter and the Forbidden Journey and Mario Kart: Bowser's Challenge. They are the most effective free time-saver at this park, and on a busy day they routinely cut a posted wait by more than half."
+    },
+    {
+      "q": "Is Super Nintendo World worth it here?",
+      "a": "Worth walking through, yes. Worth planning a whole day around, no. It is one ride, a good restaurant and a game layer that children get far more out of than adults. Mario Kart: Bowser's Challenge is technically impressive and frustrating to play, and it is not worth a ninety-minute wait. Go at opening or in the last two hours."
+    },
+    {
+      "q": "Does anything here use a virtual queue?",
+      "a": "Nothing permanently. Super Nintendo World has used a timed virtual entry system on peak days to stop the courtyard overfilling, so check the app when you arrive, but no attraction requires you to set an alarm and grab a boarding group the way some rides have elsewhere."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Universal parks in a set of structures below the park, off Universal Hollywood Drive and Lankershim Boulevard. General parking runs roughly $35 to $40 per car as of July 2026, with Preferred and front-gate tiers costing meaningfully more for a shorter walk. The walk from general parking is genuinely long: down through the structure, along a walkway, then up a series of escalators through CityWalk to the gate. Budget 30 to 45 minutes between parking the car and standing at the turnstiles, and considerably more on a weekend morning.",
+    "transportation": [
+      "Metro B Line to Universal City/Studio City station, with a free shuttle running up the hill to the park entrance — the rare Los Angeles attraction genuinely reachable without a car",
+      "Driving from Burbank Airport, about 15 minutes and the least stressful option",
+      "Driving from LAX, anywhere from 30 minutes to well over an hour depending on traffic and time of day",
+      "Rideshare drop-off at the designated zone, which puts you at the bottom of the same CityWalk escalator climb as the parking structures",
+      "Hotel shuttles from several Universal City and Studio City hotels, some within walking distance of the entrance"
+    ],
+    "entranceNote": "The park gate sits at the top of CityWalk, so almost everyone arrives on foot up a series of escalators regardless of how they got to Universal City. Security screening happens at the top before the turnstiles. Once inside, the entrance plaza is on the Upper Lot, and the Studio Tour entrance is a short walk to your right — which is where you should be heading if you have not already decided to take the Starway down to the Lower Lot first."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "ush"
+}

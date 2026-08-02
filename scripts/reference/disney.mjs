@@ -62,6 +62,49 @@ export const HEIGHTS = {
   },
 }
 
+/**
+ * Heights that are plausible at these parks.
+ *
+ * Anything outside this set is flagged for a second look rather than failed — it is a typo detector,
+ * not a fact. Disney's restrictions cluster tightly; Universal's do not, which is why this lives per
+ * operator instead of in the checker.
+ */
+export const PLAUSIBLE_HEIGHTS = [32, 35, 38, 40, 42, 44, 46, 48]
+
+/**
+ * Attractions that legitimately carry two heights, because they are two experiences behind one name.
+ * Mission: SPACE splits Green at 40in and Orange at 44in.
+ */
+export const DUAL_HEIGHTS = {
+  epcot: { 'mission: space': [40, 44] },
+}
+
+/** Queue-tier assignments that are specifically easy to get wrong. */
+export const QUEUE_ASSIGNMENT = {
+  // Test Track moved to Multi Pass with its 2025 rebuild and is still widely written up as Single Pass.
+  epcot: { 'test track': 'multi-pass' },
+}
+
+/** Attractions permitted to claim a virtual queue. Disney runs none permanently as of mid-2026. */
+export const VIRTUAL_QUEUE_ALLOWED = []
+
+/** Claims the Lightning Lane guide must, should, and must not make. */
+export const QUEUE_CLAIMS = {
+  require: [
+    { re: /as of (july )?2026|july 2026/, message: 'no "as of July 2026" framing — dynamic prices must never read as fixed' },
+  ],
+  expect: [
+    { re: /\$34/, message: 'does not mention the $34 Disneyland Multi Pass starting price' },
+  ],
+  forbid: [
+    {
+      re: /genie\+/,
+      unless: /replaced|until|formerly|used to/,
+      message: 'refers to Genie+ without noting it was replaced in July 2024',
+    },
+  ],
+}
+
 /** Attractions that must be present AND marked closed. */
 export const MUST_BE_CLOSED = {
   'magic-kingdom': ['rivers of america', 'tom sawyer island', 'liberty belle'],

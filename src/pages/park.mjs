@@ -142,10 +142,10 @@ export function parkHub (park, data) {
     ${C.faqSection(park.faqs, { title: `${park.name} questions, answered` })}
 
     ${C.relatedLinks([
-      { href: urls.guide('lightning-lane'), label: 'Lightning Lane, explained', summary: 'Mechanics, booking windows, and whether to bother' },
-      { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'What actually frightens small children' },
+      data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'Mechanics, booking windows, and whether to bother' } : null,
+      { href: data.link.isItScary, label: 'Is it scary?', summary: 'What actually frightens small children' },
       { href: urls.heightChecker(), label: 'Height checker', summary: 'One slider, every ride they clear' },
-      { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'We commit to an order' },
+      { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'We commit to an order' },
     ])}
   `
 
@@ -187,7 +187,7 @@ export function ridesPage (park, data) {
     html`<span data-value="${a.heightIn || 0}">${a.heightIn ? `${a.heightIn}"` : 'Any'}</span>`,
     html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
     html`<span data-value="${a.scary && a.scary.score ? a.scary.score : 0}">${a.scary && a.scary.score ? `${a.scary.score}/5` : '—'}</span>`,
-    f.lightningLaneShort(a.lightningLane),
+    a.queueLabelShort,
   ])
 
   const body = html`
@@ -195,7 +195,7 @@ export function ridesPage (park, data) {
     ${C.hero({
       eyebrow: park.name,
       title: `Every attraction at ${park.name}`,
-      lede: `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and Lightning Lane status for each. Sort any column.`,
+      lede: `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and ${data.queue.name} status for each. Sort any column.`,
       tone: 'compact',
       meta: [
         { label: 'Attractions', value: String(open.length) },
@@ -216,7 +216,7 @@ export function ridesPage (park, data) {
             { label: 'Height', align: 'num', sort: 'number' },
             { label: 'Intensity', align: 'center', sort: 'number' },
             { label: 'Scare', align: 'center', sort: 'number' },
-            'Lightning Lane',
+            data.queue.name,
           ],
           rows,
         })}
@@ -275,7 +275,7 @@ export function ridesPage (park, data) {
         url: urls.rides(park),
         title: `${park.shortLabel} rides & attractions`,
         titleTail: `: all ${open.length}`,
-        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and Lightning Lane status for every ride, show, and experience.`, 158),
+        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and ${data.queue.name} status for every ride, show, and experience.`, 158),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -311,7 +311,7 @@ export function attractionPage (attraction, data) {
       meta: [
         { label: 'Minimum height', value: attraction.heightIn ? f.height(attraction.heightIn) : 'None' },
         attraction.durationMinutes != null ? { label: 'Ride length', value: f.duration(attraction.durationMinutes) } : null,
-        { label: 'Lightning Lane', value: f.lightningLaneShort(attraction.lightningLane) },
+        { label: data.queue.name, value: attraction.queueLabelShort },
         attraction.opened ? { label: 'Opened', value: String(attraction.opened) } : null,
       ].filter(Boolean),
       aside: html`
@@ -388,7 +388,7 @@ export function attractionPage (attraction, data) {
             ${C.factPanel([
               attraction.bestTime ? { label: 'Best time to ride', value: attraction.bestTime } : null,
               attraction.typicalWait ? { label: 'Typical wait', value: attraction.typicalWait } : null,
-              { label: 'Lightning Lane', value: f.lightningLane(attraction.lightningLane) },
+              { label: data.queue.name, value: attraction.queueLabel },
             ].filter(Boolean), { title: 'Timing', columns: 1 })}
             ${attraction.heightIn ? C.callout({
               type: 'tip',
@@ -548,7 +548,7 @@ export function heightsPage (park, data) {
             { label: 'Height', align: 'num', sort: 'number' },
             'Land', 'Type',
             { label: 'Intensity', align: 'center', sort: 'number' },
-            'Lightning Lane',
+            data.queue.name,
           ],
           rows: park.heightAttractions.map((a) => [
             a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
@@ -556,7 +556,7 @@ export function heightsPage (park, data) {
             a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
             f.attractionType(a.type),
             html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
-            f.lightningLaneShort(a.lightningLane),
+            a.queueLabelShort,
           ]),
         })}
         ${C.lastVerified(park.lastVerified)}
@@ -624,10 +624,10 @@ export function heightsPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.heightChecker(), label: 'Interactive height checker', summary: 'All six parks, one slider' },
-      { href: urls.guide('height-requirements'), label: 'Every US Disney height requirement', summary: 'The master table' },
-      { href: urls.guide('rider-switch'), label: 'Rider Switch explained', summary: 'How adults still ride when a child cannot' },
-      { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'Height is not the only limit' },
+      { href: urls.heightChecker(), label: 'Interactive height checker', summary: `All ${data.parks.length} parks, one slider` },
+      { href: data.link.heights, label: 'Every height requirement', summary: 'The master table' },
+      { href: data.link.riderSwitch, label: 'Rider switch explained', summary: 'How adults still ride when a child cannot' },
+      { href: data.link.isItScary, label: 'Is it scary?', summary: 'Height is not the only limit' },
     ])}
   `
 
@@ -732,18 +732,18 @@ export function accessibilityPage (park, data) {
       })), { columns: 3 }),
     }) : ''}
 
-    ${C.section({
+    ${site.notes && site.notes.accessibility ? C.section({
       children: C.callout({
         type: 'warning',
-        title: 'DAS policy changes — check before you count on it',
-        body: 'Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip.',
+        title: site.notes.accessibility.title,
+        body: site.notes.accessibility.body,
       }),
-    })}
+    }) : ''}
 
     ${C.relatedLinks([
-      { href: urls.guide('disability-access-service'), label: 'DAS and accessibility, explained', summary: 'Both resorts, in depth' },
-      { href: urls.guide('rider-switch'), label: 'Rider Switch', summary: 'Everyone rides, nobody queues twice' },
-      { href: urls.guide('motion-sickness'), label: 'Motion sickness guide', summary: 'Which rides trigger which kind' },
+      { href: data.link.accessibility, label: 'Accessibility, explained', summary: 'Every park, in depth' },
+      { href: data.link.riderSwitch, label: 'Rider switch', summary: 'Everyone rides, nobody queues twice' },
+      { href: data.link.motionSickness, label: 'Motion sickness guide', summary: 'Which rides trigger which kind' },
       { href: urls.map(park), label: `${park.name} map`, summary: 'Plan the walking distances' },
     ])}
   `
@@ -830,9 +830,9 @@ export function firstTimerPage (park, data) {
               </div>` : ''}
 
             ${C.affiliateBox(site, {
-              kind: park.resort === 'disneyland' ? 'packagesDisneyland' : 'tickets',
+              kind: park.resortInfo && park.resortInfo.ticketAffiliate && site.affiliates[park.resortInfo.ticketAffiliate] ? park.resortInfo.ticketAffiliate : 'tickets',
               heading: 'Tickets, honestly',
-              body: 'Disney does not discount its own tickets. Authorized resellers do, by a little, and the savings are real on multi-day tickets. We use this one; it is where our own money goes.',
+              body: 'Parks do not discount their own tickets. Authorized resellers do, by a little, and the savings are real on multi-day tickets. We use this one; it is where our own money goes.',
             })}
           </div>
           <aside class="doc-layout__aside">
@@ -854,10 +854,10 @@ export function firstTimerPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.guide('first-disney-trip'), label: 'Your first Disney trip', summary: 'The resort-level decisions' },
-      { href: urls.guide('rope-drop-strategy'), label: 'Rope drop strategy', summary: 'What being early actually buys' },
-      { href: urls.guide('lightning-lane'), label: 'Lightning Lane', summary: 'Worth it here, or not' },
-      { href: urls.guide('what-to-pack'), label: 'What to pack', summary: 'The bag that survives a full day' },
+      { href: data.link.firstTrip, label: 'Your first trip', summary: 'The resort-level decisions' },
+      { href: data.link.ropeDrop, label: 'Rope drop strategy', summary: 'What being early actually buys' },
+      data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: data.queue.name, summary: 'Worth it here, or not' } : null,
+      { href: data.link.whatToPack, label: 'What to pack', summary: 'The bag that survives a full day' },
     ])}
   `
 
@@ -937,15 +937,15 @@ export function mapPage (park, data) {
               <button class="btn btn--ghost btn--small" type="button" data-map-reset hidden>Reset</button>
               <button class="btn btn--ghost btn--small" type="button" onclick="window.print()">Print this map</button>
               <a class="btn btn--ghost btn--small" href="/maps/${park.slug}-map.svg" download>Download SVG</a>
-              <a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>
+              ${park.hasMapPng ? html`<a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>` : ''}
             </div>
             <p class="map-attribution">
               Original artwork by ${site.brand.name}, drawn from open geographic data including data
               © OpenStreetMap contributors, available under the Open Database Licence. The vintage
               styling uses generic cartographic devices — compass rose, ribbon title, ruled frame —
               and is not traced from, measured against, or styled after any official park map.
-              Positions are schematic and not to scale. This is not an official park map and is not
-              affiliated with or endorsed by The Walt Disney Company.
+              Positions are schematic and not to scale. This is not an official park map.
+              ${site.legal.shortDisclaimer}
             </p>
           </div>
           <div class="split__aside">
@@ -1036,7 +1036,7 @@ export function bestRidesPage (park, data) {
         ${C.callout({
           type: 'note',
           title: 'How we ranked these',
-          body: `${doc.criteria} Queue length and Lightning Lane status are noted on each entry but do not move anything up or down — a great ride with a bad queue is still a great ride.`,
+          body: `${doc.criteria} Queue length and ${data.queue.name} status are noted on each entry but do not move anything up or down — a great ride with a bad queue is still a great ride.`,
         })}
       `,
     })}
@@ -1060,7 +1060,7 @@ export function bestRidesPage (park, data) {
                   ${a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a> · ` : ''}
                   ${f.attractionType(a.type)}
                   ${a.durationMinutes != null ? html` · ${f.duration(a.durationMinutes)}` : ''}
-                  · ${f.lightningLaneShort(a.lightningLane)}
+                  · ${a.queueLabelShort}
                   ${a.scary && a.scary.score ? html` · Scare factor ${a.scary.score}/5` : ''}
                 </p>
                 ${paragraphs(entry.why)}
@@ -1112,7 +1112,7 @@ export function bestRidesPage (park, data) {
       { href: urls.rides(park), label: 'Every attraction', summary: 'The full list, sortable' },
       { href: urls.heights(park), label: 'Height requirements', summary: 'What your child clears' },
       { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'The order to do them in' },
-      { href: urls.compare('disney-park-rankings'), label: 'All six parks ranked', summary: 'Zoom out' },
+      { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'Zoom out' },
     ])}
   `
 

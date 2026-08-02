@@ -48,7 +48,7 @@ function heightAppendix (data) {
   return C.section({
     id: 'every-height-requirement',
     tone: 'tint',
-    title: 'Every height requirement at all six parks',
+    title: `Every height requirement at all ${data.parks.length} parks`,
     kicker: 'Generated from our live dataset',
     intro: `All ${data.allHeightAttractions.length} attractions with a minimum height, shortest first. This table is generated from the same data as every ride page on the site, so it cannot drift out of step with them.`,
     children: html`
@@ -263,8 +263,8 @@ export function guidesIndex (data) {
       site,
       page: {
         url: urls.guidesIndex(),
-        title: 'Disney park planning guides',
-        description: `${guides.length} evergreen guides to the six US Disney parks: Lightning Lane, height requirements, accessibility, motion sickness, packing, and park etiquette.`,
+        title: `${site.brand.shortName} park planning guides`,
+        description: `${guides.length} evergreen guides to the ${data.parks.length} parks: ${data.queue.name}, height requirements, accessibility, motion sickness, packing, and park etiquette.`,
         trail,
         modified: '2026-07-01',
       },
@@ -427,7 +427,7 @@ export function comparePage (page, data) {
       children: C.affiliateBox(site, {
         kind: 'tickets',
         heading: 'When you have decided',
-        body: 'Whichever way you go, Disney does not discount its own tickets — authorized resellers do. The savings are modest but real on multi-day tickets, and this is the reseller we use ourselves.',
+        body: 'Whichever way you go, the parks do not discount their own tickets — authorized resellers do. The savings are modest but real on multi-day tickets, and this is the reseller we use ourselves.',
       }),
     })}
 
@@ -509,8 +509,8 @@ export function compareIndex (data) {
       site,
       page: {
         url: urls.compareIndex(),
-        title: 'Disney park comparisons with actual verdicts',
-        description: 'Disneyland vs Disney World, the best park for toddlers, all six parks ranked — comparison pages that commit to an answer instead of hedging.',
+        title: 'Park comparisons with actual verdicts',
+        description: `Resort against resort, the best park for young children, all ${data.parks.length} parks ranked — comparison pages that commit to an answer instead of hedging.`,
         trail,
         modified: '2026-07-01',
       },

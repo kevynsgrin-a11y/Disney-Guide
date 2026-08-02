@@ -1,0 +1,50 @@
+{
+  "resort": "universal-hollywood",
+  "slug": "universal-hollywood",
+  "title": "Universal Hollywood Closures and Construction",
+  "titleTail": ": Nothing Verified, July 2026",
+  "h1": "Universal Studios Hollywood closures and construction: what we can actually support",
+  "description": "An honest, empty refurbishment tracker for Universal Studios Hollywood as of July 2026, with no invented closures and no invented reopening dates.",
+  "summary": "This tracker is empty as of July 2026, because we have no Universal Studios Hollywood closure we can verify and support — which matters more at a one-park resort than at a three-park one, so check the operator's app before you travel rather than trusting any published list.",
+  "scope": "This tracker would list attractions closed for refurbishment, closed permanently, or under construction at Universal Studios Hollywood. Routine short-term maintenance closures are deliberately out of scope, because they are announced weeks rather than months ahead and predicting them would produce a page that is wrong more often than right.",
+  "items": [],
+  "sections": [
+    {
+      "heading": "Why this page is empty, and why it matters more here",
+      "body": [
+        "We publish closures we can verify and nothing else. As of July 2026 we hold no Universal Studios Hollywood closure or construction item that meets that bar, so this list is empty rather than padded from rumour.",
+        "The stakes are higher at this park than in Orlando, and that is worth saying plainly. This is a single park where a handful of attractions carry the day, so one headline closure changes the value of a ticket in a way that the same closure in a three-park resort does not. A visitor flying in for one day has no second park to move to.",
+        "The Studio Tour is the specific case. It is the reason most people come, it is a long-duration attraction on a working lot, and portions of it change with production activity and with seasonal overlays as well as with maintenance. Check what is running before you buy a ticket for a single specific day."
+      ]
+    },
+    {
+      "heading": "What would appear here",
+      "body": [
+        "Long-lead closures with a stated end, such as a coaster down for a multi-month rebuild, which are announced with enough notice to plan around.",
+        "Permanent closures, which at a park this compact reshape the day rather than removing one option from many.",
+        "Construction with an announced opening, stated as a year or a season and labelled expected rather than confirmed unless the operator has published something we can cite. We would not print a fixed opening day for something not yet open."
+      ]
+    },
+    {
+      "heading": "How to check for yourself",
+      "body": [
+        "The operator's own app and website carry the current attraction status and are updated faster than any third-party tracker. Check them in the fortnight before you travel and again on the morning of your visit, particularly if your trip is a single day.",
+        "Ask about the Studio Tour specifically. Its content varies with what is filming and with the seasonal overlays, and a portion of it being unavailable is a different kind of problem from a coaster being down, because there is no equivalent elsewhere in the park.",
+        "If a specific attraction is the reason for the visit and it is closed on your date, this is a park worth moving your date for rather than visiting anyway. That advice does not apply in Orlando and it does apply here."
+      ]
+    }
+  ],
+  "crossLinks": [
+    { "label": "Universal Studios Hollywood ride list", "href": "/universal-hollywood/universal-studios-hollywood/rides/", "site": 1 },
+    { "label": "Universal Studios Hollywood park guide", "href": "/universal-hollywood/universal-studios-hollywood/", "site": 1 },
+    { "label": "Lower Lot at Universal Studios Hollywood", "href": "/universal-hollywood/universal-studios-hollywood/lands/lower-lot/", "site": 1 },
+    { "label": "Universal Hollywood resort overview", "href": "/universal-hollywood/", "site": 1 }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "This tracker is intentionally empty. As of July 2026 we hold no verified closure, refurbishment or construction item for Universal Studios Hollywood that we are prepared to publish, and an empty tracker is a more honest state than a list assembled from unverified reports. Routine short-term maintenance is out of scope by design. Studio Tour content varies with production activity and seasonal overlays as well as with maintenance, which is a separate matter from a closure and is not tracked here.",
+    "reviewBy": "2026-10",
+    "cycle": "rolling"
+  }
+}

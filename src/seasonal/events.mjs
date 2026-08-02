@@ -16,15 +16,20 @@ import * as SS from '../lib/seasonal-schema.mjs'
 import { urls } from '../lib/seasonal-data.mjs'
 import * as f from '../lib/format.mjs'
 
-const RESORT_LABEL = { 'walt-disney-world': 'Walt Disney World', disneyland: 'Disneyland Resort', both: 'Both resorts' }
+/** Resort slug → label, built per operator. `both` is a scope rather than a resort name. */
+function resortLabels (site) {
+  const map = Object.fromEntries((site.resorts || []).map((r) => [r.slug, r.name]))
+  map.both = (site.resorts || []).length === 2 ? 'Both resorts' : 'All resorts'
+  return map
+}
 
 /** Shaped for src/lib/seasonal-schema.mjs, which must not reach into loader internals itself. */
-function schemaShape (event, edition) {
+function schemaShape (event, edition, labels = {}) {
   return {
     ...event,
     parkName: event.parkInfo ? event.parkInfo.name : null,
     parkUrl: event.parkInfo ? event.parkInfo.url : null,
-    resortName: RESORT_LABEL[event.resort],
+    resortName: labels[event.resort] || event.resort,
     locality: event.parkInfo ? event.parkInfo.location : null,
     editionUrl: edition ? urls.edition(event.slug, edition.year) : null,
   }
@@ -40,6 +45,7 @@ function crossLinkTiles (event) {
 
 export function eventPage (event, data) {
   const { site } = data
+  const labels = resortLabels(site)
   const url = event.url
   const state = event.staleness
   const stale = state.state === 'stale'
@@ -47,7 +53,7 @@ export function eventPage (event, data) {
   const latest = event.editions.find((e) => e.status === 'announced') || event.editions[0] || null
 
   const heroMeta = [
-    { label: 'Where', value: event.parkInfo ? event.parkInfo.name : RESORT_LABEL[event.resort] },
+    { label: 'Where', value: event.parkInfo ? event.parkInfo.name : labels[event.resort] || event.resort },
     { label: 'Type', value: SC.categoryLabel(event.category) },
     event.typicalWindow
       ? { label: 'Usually runs', value: `${event.typicalWindow.startsAround} – ${event.typicalWindow.endsAround}` }
@@ -58,7 +64,7 @@ export function eventPage (event, data) {
   const body = html`
     ${C.breadcrumbs(event.breadcrumbTrail)}
     ${C.hero({
-      eyebrow: RESORT_LABEL[event.resort],
+      eyebrow: labels[event.resort] || event.resort,
       title: event.h1 || event.name,
       lede: event.summary,
       meta: heroMeta,
@@ -147,7 +153,7 @@ export function eventPage (event, data) {
 
   // An Event node needs a real start date. Without confirmed dates this page is honestly an article
   // about a recurring event, so that is what it says it is.
-  const eventNode = latest ? SS.event(site, schemaShape(event, latest), latest, { stale }) : null
+  const eventNode = latest ? SS.event(site, schemaShape(event, latest, labels), latest, { stale }) : null
 
   return {
     url,
@@ -183,6 +189,7 @@ export function eventPage (event, data) {
 
 export function editionPage (event, edition, data) {
   const { site } = data
+  const labels = resortLabels(site)
   const url = urls.edition(event.slug, edition.year)
   const state = edition.staleness
   const stale = state.state === 'stale'
@@ -234,7 +241,7 @@ export function editionPage (event, edition, data) {
     ${SC.evergreenLinks(crossLinkTiles(event))}
   `
 
-  const eventNode = SS.event(site, schemaShape(event, edition), edition, { stale })
+  const eventNode = SS.event(site, schemaShape(event, edition, labels), edition, { stale })
 
   return {
     url,
@@ -275,20 +282,17 @@ export function eventsIndex (data) {
   const url = urls.eventsIndex()
   const trail = [{ label: 'Home', href: urls.home() }, { label: 'Events', href: url }]
 
-  const byResort = [
-    { key: 'walt-disney-world', label: 'Walt Disney World' },
-    { key: 'disneyland', label: 'Disneyland Resort' },
-  ]
+  const byResort = (site.resorts || []).map((r) => ({ key: r.slug, label: r.name }))
 
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'Every seasonal event at the US Disney parks',
-      lede: 'Parties, festivals, overlays and after-hours events at both resorts — what each one is, what it costs, and whether it is worth the money. Every page states whether this year is confirmed or still expected.',
+      title: `Every seasonal event at the ${site.brand.shortName} parks`,
+      lede: 'Parties, festivals, overlays and after-hours events — what each one is, what it costs, and whether it is worth the money. Every page states whether this year is confirmed or still expected.',
       meta: [
         { label: 'Events tracked', value: String(events.length) },
-        { label: 'Resorts', value: '2' },
+        { label: 'Resorts', value: String((site.resorts || []).length) },
       ],
     })}
 

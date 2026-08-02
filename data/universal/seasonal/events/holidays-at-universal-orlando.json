@@ -1,0 +1,198 @@
+{
+  "slug": "holidays-at-universal-orlando",
+  "name": "Holidays at Universal Orlando",
+  "shortName": "Universal Orlando Holidays",
+  "resort": "universal-orlando",
+  "parkSlug": null,
+  "category": "overlay",
+  "season": "holidays",
+  "summary": "Everything Universal Orlando does at Christmas is included with regular admission, which makes it the best-value season on the resort's calendar and the only one with no ticket to buy. It is also split across separate parks, so the ticket type you choose decides how much of it you actually see.",
+  "h1": "Holidays at Universal Orlando: what is included, which park has what, and the fortnight to avoid",
+  "title": "Holidays at Universal Orlando",
+  "titleTail": ": What's Included & When To Go",
+  "description": "Universal Orlando's holiday season across three parks, included with admission: the parade, Grinchmas, the Wizarding World, and the fortnight worth avoiding.",
+
+  "typicalWindow": {
+    "startsAround": "mid-November",
+    "endsAround": "the first days of January",
+    "nightsTypical": 50,
+    "nightsRange": [45, 58],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Every operating day in the window, during regular park hours. The parade and the castle projection show are the two items with fixed times; the rest of the season is decoration, food, and shows that sit on the daily entertainment schedule."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [7, 17],
+    "asOf": "2025 holiday season",
+    "cheapestNights": "The week before Thanksgiving, and the first full week of January once the New Year crowd has left",
+    "priciestNights": "The stretch from the week before Christmas through New Year, which is the most crowded and most expensive period of Universal Orlando's year",
+    "notes": [
+      "There is no holiday ticket at this resort. The parade, the shows, the castle projection, and every decorated street are included with regular park admission.",
+      "The range above is not an admission price. It is roughly what a seasonal food or drink item has run, and that is close to the only spend the season adds beyond merchandise.",
+      "Ticket prices are date-based here as elsewhere, and the late-December dates sit in the top tier. That is the closest thing this season has to a price.",
+      "The season is split across separate parks, so a single-park ticket sees a fraction of it. Park-to-park is worth pricing specifically for a December visit in a way it is not in September.",
+      "Orlando hotel rates in the last two weeks of December run at their annual high, and Universal's own hotels price with them."
+    ]
+  },
+
+  "whatYouGet": [
+    "Universal's Holiday Parade featuring Macy's at Universal Studios Florida, which runs balloons and floats built with the team behind the New York Thanksgiving parade, on most days of the window.",
+    "The Magic of Christmas at Hogwarts Castle, a projection show on the castle at Islands of Adventure, running several times each evening once it is dark.",
+    "Grinchmas at Islands of Adventure: a redressed Seuss Landing, a live stage show, and a Grinch performance that is the best character work at either original park.",
+    "Christmas decoration across all three parks and CityWalk, with Hogsmeade and Diagon Alley the most thoroughly dressed areas on the property.",
+    "A holiday concert series at Universal Studios Florida on select nights, included with admission rather than ticketed separately.",
+    "Seasonal food and drink at both original parks, and a holiday build-out of the Tribute Store in the New York area at Universal Studios Florida.",
+    "All of it on a regular ticket. Universal Orlando runs no hard-ticket holiday party, so there is no second purchase and no quieter paid version of any of this."
+  ],
+
+  "whatYouDont": [
+    "A quiet park. The last two weeks of December are the busiest and most expensive of the Universal Orlando year, and the resort now carries three parks' worth of demand with Epic Universe absorbing a disproportionate share of it.",
+    "A hard-ticket alternative. There is no Christmas party here, which means there is no way to buy an evening with fewer people in it, however much you are willing to spend.",
+    "Guaranteed shows. The parade, the castle projection, and the outdoor concerts are weather-dependent and get cancelled rather than moved indoors.",
+    "A settled Epic Universe offering. That park ran its first holiday season in 2025 and its seasonal programming is the least established thing on this page. We do not state what returns there because we have not verified it.",
+    "Any change to the rides. Universal does not overlay its attractions for the season the way the California Disney parks do; the whole of this season is decoration, entertainment, and food, and the ride lineup runs its ordinary versions throughout.",
+    "The full season on one park ticket. The parade is at one park and Grinchmas and the castle show are at another, so a single-park ticket in December buys you roughly half the thing you came for.",
+    "A cheap trip. Late-December hotel rates, top-tier date-based ticket pricing, and peak flights into Orlando all land in the same fortnight."
+  ],
+
+  "verdict": {
+    "short": "Go the week before Thanksgiving or the first week of January and you get the whole season at a third of the crowd. Go between Christmas and New Year and you get it plus the worst week of the year.",
+    "worthItIf": [
+      "You want a heavily decorated park without paying for an event ticket on top of admission. Nothing else on Universal Orlando's calendar is free in that way.",
+      "You can travel in the second half of November or the first ten days of January, which is where nearly all of the value sits.",
+      "The Wizarding World is a draw. Both Wizarding World areas are the most thoroughly decorated parts of the resort, and the castle projection show is the strongest single item of the season.",
+      "You are traveling with young children. Grinchmas is the most child-friendly thing Universal Orlando does all year, and it is the opposite end of the calendar from Halloween Horror Nights in every sense.",
+      "You already hold a park-to-park ticket, which is what turns a split-across-parks season into one visit rather than two."
+    ],
+    "skipIf": [
+      "Your only dates are the last two weeks of December and crowds bother anyone in your group. No amount of planning fixes that fortnight at this resort.",
+      "You are holding a single-park ticket and will not upgrade. Half the season happens at the park you are not in.",
+      "You are optimizing for rides. Nothing about this season shortens a queue, and the December crowd lengthens most of them.",
+      "You are price-sensitive on lodging or flights. This is the one season where Orlando's usual advantage on both largely disappears.",
+      "You are counting on Epic Universe having a comparable holiday offering to the two original parks. It may, and we cannot tell you that it does."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "The two windows that make this work",
+      "body": [
+        "The season is the same product on every day it runs, and the crowd is not. That is the whole planning problem here, and it has two good answers: the week or so before Thanksgiving, and the first full week of January.",
+        "The installation is not phased in. Decoration, the parade, the castle show, and Grinchmas are all running from the opening days of the window, so a mid-November Tuesday sees what a late-December Saturday sees at a fraction of the crowd and a lower date-based ticket price.",
+        "The January end is the better-kept secret. The decoration stays up into the first days of January, well past the point most visitors assume it comes down, while the crowd has already dropped back to its ordinary off-peak level.",
+        "The January caveat is refurbishment season. Universal does its heavy maintenance in the first quarter, so an empty park in January often comes with a headliner or two behind walls. Check what is closed before you commit to those dates."
+      ]
+    },
+    {
+      "heading": "The Wizarding World is the reason to come",
+      "body": [
+        "Both Wizarding World areas are decorated more thoroughly than anything else on the property, and the castle projection show at Islands of Adventure is the strongest single item of the season. Build your evening around it rather than fitting it in.",
+        "It runs several times after dark and it is short. That combination means you do not need to hold a spot for an hour; you need to be in Hogsmeade for one of the later showings, when the crowd holding position since the first one has moved on.",
+        "Watch from further back along the street rather than directly beneath the castle. The projection is designed to be read from a distance and the crush directly in front of it is the worst crowd position in the park on a December evening.",
+        "Diagon Alley at Universal Studios Florida gets its own decoration and its own seasonal entertainment. It is the quieter of the two and it is where to be if the Hogsmeade crowd has made the street unpleasant."
+      ]
+    },
+    {
+      "heading": "The parade, and where to stand for it",
+      "body": [
+        "The parade runs at Universal Studios Florida and it is the item that shuts walkways, so plan the rest of your day at that park around its route rather than across it.",
+        "Stand along the later stretch of the route. The crowd stacks near the front of the park because that is where people stop walking, and the same parade passes the far end of the route in front of a fraction of the people.",
+        "The balloons are the reason to watch it rather than the floats, and they read better from a spot with sky above them than from a narrow stretch of street set.",
+        "If the parade is not a priority, its half hour is the best riding window of a December afternoon at that park. The crowd concentrates on the route, and the queues on the far side of the park drop while it runs."
+      ]
+    },
+    {
+      "heading": "Grinchmas, and who it is for",
+      "body": [
+        "Grinchmas at Islands of Adventure is the most child-friendly thing this resort does all year, and it is the strongest argument for a December visit with young children rather than an October one.",
+        "The live show runs on a published daily schedule with a limited number of performances. Check the times when you enter the park; there is no standby version of a show you missed.",
+        "The Grinch character performance is genuinely good and the queue for it is the longest in Seuss Landing during the season. Join it early in the day rather than after the show, which is when everyone else has the same idea.",
+        "The rest of Seuss Landing is redressed for the season and costs nothing to walk through, which makes it a reasonable place to park a family for an hour when the rest of the park is at its worst."
+      ]
+    },
+    {
+      "heading": "Christmas week, if you have no choice",
+      "body": [
+        "Be through the gates before the park opens rather than at opening. December mornings at this resort are the one time of year when the queue to get in is a meaningful part of the day, and early entry is the only reliable hour of the day.",
+        "Express Pass changes value sharply in this fortnight. On an ordinary September Tuesday it is a convenience; between Christmas and New Year it is the difference between six attractions and two, and it prices accordingly.",
+        "Split the resort deliberately. The two original parks are ten minutes apart on foot and Epic Universe is a separate campus reached by bus or car, so a plan that bounces between all three on a peak day spends its afternoon in transit.",
+        "Set the target low. On a peak December day at Universal Orlando, four or five attractions plus the parade or the castle show is a realistic day, and a family that agrees to that in advance has a much better time than one arriving with a list of twelve."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is there a Christmas party ticket at Universal Orlando?",
+      "a": "No. Universal Orlando runs no hard-ticket holiday event, so everything in the season is included with regular park admission and there is no paid route into a quieter evening. That is a genuine advantage on price and a genuine disadvantage on crowds, and it is the main structural difference between this resort and the Disney parks down the road in December."
+    },
+    {
+      "q": "When do the decorations go up and come down?",
+      "a": "They go up in mid-November and stay up into the first days of January. The installation is complete from the first days of the window rather than being phased in, which is why a mid-November visit sees the same season as a late-December one. As of July 2026 we have not verified this cycle's start, so no date is stated on this page."
+    },
+    {
+      "q": "Is Grinchmas included with a regular ticket?",
+      "a": "Yes. Grinchmas runs at Islands of Adventure and is included with admission to that park, including the live show and the character meets. There is no separate Grinchmas ticket and no upcharge seating for the show. What it does need is a park ticket that covers Islands of Adventure, which a single-park ticket for Universal Studios Florida does not."
+    },
+    {
+      "q": "What happens at Epic Universe for the holidays?",
+      "a": "We do not know, and we are not going to guess. Epic Universe ran its first holiday season in 2025 and one cycle is not a pattern, so we have no basis for telling you what returns or in what form. Check Universal's own park page before you build a December day around it, and treat the two original parks as the reliable part of this season."
+    },
+    {
+      "q": "Do I need a park-to-park ticket in December?",
+      "a": "It matters more in December than at any other time of year. The parade is at Universal Studios Florida, and Grinchmas and the castle projection show are at Islands of Adventure, so a single-park ticket sees roughly half the season. If you are visiting specifically for the holidays, price park-to-park before you price anything else."
+    },
+    {
+      "q": "When is the least crowded time to see it?",
+      "a": "The week before Thanksgiving, and the first full week of January. Both windows carry the complete season at roughly a third of peak crowds and lower date-based ticket prices. January comes with one trade-off, which is that the first quarter is refurbishment season, so check the closure list before booking those dates."
+    },
+    {
+      "q": "Do any rides get holiday overlays?",
+      "a": "No. Universal does not re-theme its attractions for the season, so every ride runs its ordinary version throughout. The whole season is decoration, entertainment, food, and merchandise. That is worth knowing if you are comparing this resort with the California Disney parks, where the ride overlays are the main event."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Universal Orlando Resort overview", "href": "/universal-orlando/", "site": 1 },
+    { "label": "Universal Studios Florida park guide", "href": "/universal-orlando/universal-studios-florida/", "site": 1 },
+    { "label": "Islands of Adventure park guide", "href": "/universal-orlando/islands-of-adventure/", "site": 1 },
+    { "label": "Epic Universe park guide", "href": "/universal-orlando/epic-universe/", "site": 1 },
+    { "label": "Hogsmeade at Islands of Adventure", "href": "/universal-orlando/islands-of-adventure/lands/hogsmeade/", "site": 1 },
+    { "label": "Seuss Landing at Islands of Adventure", "href": "/universal-orlando/islands-of-adventure/lands/seuss-landing/", "site": 1 },
+    { "label": "Diagon Alley at Universal Studios Florida", "href": "/universal-orlando/universal-studios-florida/lands/diagon-alley/", "site": 1 }
+  ],
+
+  "related": [
+    "grinchmas-at-universal-hollywood",
+    "universal-orlando-mardi-gras",
+    "halloween-horror-nights-orlando"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "The season ran the established roster at the two original parks: the Macy's holiday parade at Universal Studios Florida, the Hogwarts castle projection show and Grinchmas at Islands of Adventure, and decoration across both.",
+        "It was Epic Universe's first holiday season, and that park's programming is the part of the resort's December offering with the shortest track record.",
+        "The season again ran with no hard-ticket component, so everything in it was included with regular park admission."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 into 2026 season, stated at the level we can support: the season ran from mid-November into the first days of January across the resort, with the parade at Universal Studios Florida and Grinchmas and the castle projection show at Islands of Adventure, all included with admission. We have not re-verified Epic Universe's holiday roster for that cycle and so do not describe it.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Universal Orlando has run its holiday season from mid-November into the first days of January for well over a decade, with the Macy's holiday parade at Universal Studios Florida, the Hogwarts castle projection show and Grinchmas at Islands of Adventure, and no hard-ticket component anywhere in it. That pattern is strong enough to plan around at the level of a fortnight. As of July 2026 we have not verified an announcement of this cycle's start, its entertainment schedule, or what Epic Universe will run, so none of those are stated here.",
+    "reviewBy": "2026-11",
+    "cycle": "annual"
+  }
+}

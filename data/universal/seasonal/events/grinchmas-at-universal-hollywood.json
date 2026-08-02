@@ -1,0 +1,194 @@
+{
+  "slug": "grinchmas-at-universal-hollywood",
+  "name": "Grinchmas at Universal Studios Hollywood",
+  "shortName": "Grinchmas",
+  "resort": "universal-hollywood",
+  "parkSlug": "universal-studios-hollywood",
+  "category": "overlay",
+  "season": "holidays",
+  "summary": "The best value in the Universal Studios Hollywood year, because none of it costs anything beyond a regular ticket: a live Grinch show, a redressed Upper Lot, and the Wizarding World's castle projection after dark. It is also the season that makes this park worth a day with young children, which it otherwise is not.",
+  "h1": "Grinchmas at Universal Studios Hollywood: what runs, when to go, and what the season does not change",
+  "title": "Grinchmas at Universal Studios Hollywood",
+  "titleTail": ": What's Included & When To Go",
+  "description": "Grinchmas at Universal Studios Hollywood is included with admission. What runs, where it sits in the park, which dates to pick, and what it does not change.",
+
+  "typicalWindow": {
+    "startsAround": "late November or early December",
+    "endsAround": "the first days of January",
+    "nightsTypical": 37,
+    "nightsRange": [30, 45],
+    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Every operating day in the window, during regular park hours. The decoration is up throughout; the stage show, the tree lighting, and the character meets sit on a daily entertainment schedule with a limited number of performances."
+  },
+
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [8, 18],
+    "asOf": "2025 holiday season",
+    "cheapestNights": "Weekdays in the first half of December, before the Los Angeles school holidays start",
+    "priciestNights": "The week between Christmas and New Year, which is the busiest and highest-priced stretch of this park's year",
+    "notes": [
+      "There is no Grinchmas ticket. The show, the character meets, the decoration, and the Wizarding World's seasonal entertainment are all included with regular park admission.",
+      "The range above is not an admission price. It is roughly what a seasonal food or drink item has run, and that is the only spend the season adds beyond merchandise.",
+      "Ticket prices at this park are date-based, and the late-December dates sit in the top tier. That is the closest thing this season has to a price.",
+      "Express Pass is priced by date here and rises with the December calendar. It is a convenience on a weekday in early December and close to necessary in the week after Christmas.",
+      "There is no hotel at this resort that includes Express Pass, so unlike Orlando there is no accommodation-based route around that decision."
+    ]
+  },
+
+  "whatYouGet": [
+    "A live Grinchmas stage show in the Upper Lot, with a cast of Whos, live music, and a Grinch performance that is the best character work this park does in any season.",
+    "A redressed Upper Lot built around a large tree, with a nightly lighting moment and snow effects on the plaza after dark.",
+    "Christmas in The Wizarding World of Harry Potter: a decorated Hogsmeade and the castle projection show, which runs several times each evening once it is dark.",
+    "Grinch and Max character meets on a published daily schedule, which are the single most popular thing in the park with young children during the season.",
+    "Seasonal food and drink through the Upper Lot and the Wizarding World, priced per item.",
+    "All of it included with regular admission. There is no separate ticket, no evening event, and no upcharge seating for anything."
+  ],
+
+  "whatYouDont": [
+    "A whole-park overlay. Grinchmas is concentrated in the Upper Lot and the Wizarding World. The Lower Lot gets decoration and very little else, which matters because that is where most of the coasters are.",
+    "A show that runs continuously. The stage show and the character meets sit on a daily schedule with a limited number of performances, and there is no standby version of one you missed.",
+    "Any change to the Studio Tour. The tram runs its standard route and script through the season. The seasonal tram overlay at this park belongs to the Halloween event, not this one.",
+    "Any change to the rides. Nothing in the ride lineup is re-themed for the season, so the attraction day is the ordinary attraction day with decoration around it.",
+    "A quiet park in the last week of December. This park is small enough that a peak crowd is felt immediately, and the week after Christmas is the hardest stretch of its year.",
+    "Weather cover. The stage show, the tree, the snow effects, and the castle projection are all outdoors, and Los Angeles rain in December cancels them rather than moving them."
+  ],
+
+  "verdict": {
+    "short": "The best-value season this park runs and the one time of year it genuinely works for young children. Go on a weekday in the first half of December, or in the first days of January.",
+    "worthItIf": [
+      "You are visiting with young children. Grinchmas is the only substantial thing this park does that is aimed squarely at them, and the rest of its lineup is not.",
+      "You want a decorated park without an event ticket. Everything here is included, which is not true of the Halloween season at the same park.",
+      "The Wizarding World matters to you. Hogsmeade is the most thoroughly decorated part of the park and the castle projection show is the best single item of the season.",
+      "You can go on a weekday before the Los Angeles school holidays start, which is where the entire value of this season sits.",
+      "You are already in Los Angeles in December and want a park day that is not weather-dependent from end to end."
+    ],
+    "skipIf": [
+      "Your only dates are the week between Christmas and New Year. This is a small park at capacity and no plan improves that.",
+      "You are here for the coasters. The Lower Lot is barely touched by the season, and a September weekday delivers the same rides with a fraction of the crowd.",
+      "You need the Studio Tour to be different. It is not; the seasonal version of the tram belongs to the Halloween event.",
+      "You cannot work around a fixed show schedule. The best content here runs a handful of times a day, and a plan that ignores the schedule misses most of it.",
+      "Rain is forecast and the season is your reason for going. Nearly all of the seasonal content at this park is outdoors."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Get the show times before you do anything else",
+      "body": [
+        "The stage show, the tree lighting, and the character meets all run a limited number of times a day, and the schedule is the constraint your whole day hangs off. Pick it up at the gate or in the app in the first five minutes and build around it rather than checking it at noon.",
+        "Take an earlier performance rather than a later one. The last showing of the day draws everyone who spent the afternoon meaning to get to it, and on a December Saturday that is a substantially worse crowd for the identical show.",
+        "The character meets are the item that runs out. Queues for the Grinch build through the morning and get cut when the scheduled window ends, so that is the thing to do first rather than the thing to do after lunch.",
+        "Everything that is decoration rather than entertainment is available all day and needs no planning at all. Spend your scheduling effort on the three or four timed items and let the rest happen."
+      ]
+    },
+    {
+      "heading": "Do the Lower Lot first, then stay up top",
+      "body": [
+        "The season lives on the Upper Lot, which means the Lower Lot is comparatively quiet for the first part of a December day while everyone else is looking at the tree. Go down the Starway early, clear the coasters, and come back up for the first scheduled show.",
+        "Treat the descent as a one-way trip. The Starway takes several minutes each way and the queue at the top of it builds through the afternoon, so a day that crosses between levels three times spends close to an hour on escalators.",
+        "The Lower Lot is also the fallback when the Upper Lot is unbearable. On a peak day between Christmas and New Year, the bottom of the park holds a noticeably thinner crowd than the plaza with the tree in it.",
+        "This park is built on a hillside and December brings pushchairs and grandparents in numbers the rest of the year does not. Build in more transition time than the map suggests."
+      ]
+    },
+    {
+      "heading": "The Wizarding World after dark",
+      "body": [
+        "The castle projection show is the strongest single item of this season and it needs no queue, which makes it the easiest good decision on the page. It runs several times once it is properly dark and it is short.",
+        "Stand toward the far end of the Hogsmeade street rather than directly beneath the castle. The projection is designed to read from a distance, and the crush at the front is the worst crowd position in the park on a December evening.",
+        "Take a later showing. The first one after dark collects everyone who has been waiting for sunset; two showings later the same street holds a fraction of the people.",
+        "Hogsmeade is also the most thoroughly decorated part of the park and is worth walking through in daylight as well, when it is doing nothing in particular and nobody is standing still in it."
+      ]
+    },
+    {
+      "heading": "Which dates to pick, and which to refuse",
+      "body": [
+        "Weekdays in the first half of December are the answer. The season is fully installed from its opening days, the Los Angeles school holidays have not started, and date-based ticket prices are at their lowest point inside the window.",
+        "The week between Christmas and New Year is the one stretch to refuse if you have any choice. This is a compact park and it reaches its practical ceiling on those days; the season is identical and the day is much worse.",
+        "The first days of January are the second-best window and almost nobody plans for them. The decoration is still up, the local crowd has gone back to work and school, and the park is behaving normally again.",
+        "The January trade-off is refurbishment season, which starts as soon as the holidays end. Check what is scheduled to be closed before you book those dates, because at a park this size two closures is a noticeable fraction of the ride list."
+      ]
+    },
+    {
+      "heading": "Doing this park with young children",
+      "body": [
+        "December is the month this park works for small children, and that is worth saying plainly because for most of the year it does not. The permanent ride lineup skews toward high-intensity coasters and simulators, and the seasonal content is the part of the day that is built for a five-year-old.",
+        "Check the park's height chart before you plan around rides rather than after you arrive. The evergreen page linked below is where that lives, and a December day planned on the assumption that everyone rides everything goes wrong quickly here.",
+        "Anchor the day on the show and the character meet, then treat the Studio Tour as the second fixed item. The tour is the one major attraction the whole group can do together and it is roughly an hour, which is a useful block in the middle of a cold afternoon.",
+        "Evening is the payoff. The snow effects, the lit tree, and the castle projection all happen after dark, and the park's closing hours in December are early enough that a young family can genuinely stay for them."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Grinchmas included with a regular ticket?",
+      "a": "Yes, all of it. The stage show, the character meets, the tree, the snow effects, the decoration, and the Wizarding World's seasonal entertainment are included with regular park admission. There is no Grinchmas ticket, no evening event to buy, and no upcharge seating for the show, which makes this the best-value season this park runs."
+    },
+    {
+      "q": "When does Grinchmas run?",
+      "a": "Late November or early December into the first days of January, on every operating day within that window. The decoration is complete from the opening days rather than being phased in. As of July 2026 we have not verified an announcement of this cycle's start or its entertainment schedule, so no dates are stated on this page."
+    },
+    {
+      "q": "Can I meet the Grinch?",
+      "a": "Yes, and it is the most popular thing in the park with young children during the season. The meets run on a published daily schedule with a limited window rather than continuously, so check the times when you arrive and go early. Queues build through the morning and are cut when the scheduled window closes rather than being held open."
+    },
+    {
+      "q": "Does the Studio Tour change for the holidays?",
+      "a": "No. The tram runs its standard route and script through the season. The seasonal version of the Studio Tour at this park is the Terror Tram, which belongs to the Halloween event in the autumn and has nothing to do with this one. If a changed tour is the reason you are considering December, it is not a reason."
+    },
+    {
+      "q": "Is the Hogwarts castle show worth planning around?",
+      "a": "Yes, and it costs nothing to see. The projection show runs several times each evening once it is dark, it needs no queue, and it is the strongest single item of the season. Take a later showing and stand toward the far end of the Hogsmeade street; the first showing after sunset collects a crowd that the third one does not."
+    },
+    {
+      "q": "When is the least crowded time to go?",
+      "a": "Weekdays in the first half of December, before the Los Angeles school holidays start, and the first days of January once they end. Both windows carry the complete season. The week between Christmas and New Year carries the same season plus the heaviest crowd of this park's year, and this park is too small to absorb it."
+    },
+    {
+      "q": "Is there a separate holiday evening event here?",
+      "a": "No. Unlike the Halloween season at the same park, the holidays here run entirely inside regular operating hours on a regular ticket. There is no hard-ticket night, no after-hours version, and consequently no paid route into a quieter evening. What you can buy is Express Pass, which is priced by date and rises steeply through late December."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Universal Studios Hollywood park guide", "href": "/universal-hollywood/universal-studios-hollywood/", "site": 1 },
+    { "label": "Upper Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/upper-lot/", "site": 1 },
+    { "label": "Lower Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/lower-lot/", "site": 1 },
+    { "label": "The Wizarding World of Harry Potter", "href": "/universal-hollywood/universal-studios-hollywood/lands/wizarding-world-of-harry-potter/", "site": 1 },
+    { "label": "Universal Studios Hollywood ride list", "href": "/universal-hollywood/universal-studios-hollywood/rides/", "site": 1 },
+    { "label": "Universal Studios Hollywood height requirements", "href": "/universal-hollywood/universal-studios-hollywood/height-requirements/", "site": 1 }
+  ],
+
+  "related": [
+    "holidays-at-universal-orlando",
+    "halloween-horror-nights-hollywood"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "changes": [
+        "The season again ran from around the end of November into the first days of January, included with regular park admission.",
+        "The Grinchmas stage show, the Upper Lot tree, and the Grinch and Max meets returned on a daily entertainment schedule rather than running continuously.",
+        "Christmas in The Wizarding World of Harry Potter ran alongside it, with the castle projection show several times each evening."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 into 2026 season, stated at the level we can support: the season ran from around the end of November into the first days of January at Universal Studios Hollywood, included with admission, with the Grinchmas stage show and character meets on a daily schedule and the Wizarding World castle projection show each evening. We have not re-verified the opening and closing days or the performance counts for that cycle.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Grinchmas has run at Universal Studios Hollywood from late November or early December into the first days of January for many consecutive seasons, with a live stage show, Grinch and Max meets, a redressed Upper Lot, and the Wizarding World's castle projection show, all included with regular admission and none of it ticketed separately. That pattern is strong enough to plan around at the level of a fortnight. As of July 2026 we have not verified an announcement of this cycle's dates or its entertainment schedule, so neither is stated here.",
+    "reviewBy": "2026-11",
+    "cycle": "annual"
+  }
+}

@@ -251,9 +251,9 @@ a site cannibalises itself.
     "quietWindows": ["The first full week, before most districts break"]
   },
   "weather": {
-    "wdw": { "highF": 79, "lowF": 57, "rainDays": 7, "note": "…" },
-    "dlr": { "highF": 70, "lowF": 51, "rainDays": 6, "note": "…" }
-  },
+    "walt-disney-world": { "highF": 79, "lowF": 57, "rainDays": 7, "note": "…" },
+    "disneyland":        { "highF": 70, "lowF": 51, "rainDays": 6, "note": "…" }
+  },   // one block per resort, keyed by resort SLUG
   "cost": { "level": "high", "note": "…" },   // low | moderate | high | peak
   "whatsOn": ["event-slug", "…"],             // must resolve to events/<slug>.json
   "planningNotes": [ { "heading": "…", "body": ["…"] } ],   // ≥ 2

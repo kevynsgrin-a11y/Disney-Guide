@@ -33,12 +33,24 @@ let MUST_BE_OPEN = {}
 let SNACK_PRICES = []
 let SEASONAL = []
 let PARK_SLUGS = []
+let PLAUSIBLE_HEIGHTS = []
+let DUAL_HEIGHTS = {}
+let QUEUE_ASSIGNMENT = {}
+let VIRTUAL_QUEUE_ALLOWED = []
+let QUEUE_CLAIMS = {}
+let PROPER_NAMES = []
+let CONFLICTS = []
+let conflictsHit = new Set()
+let QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane' }
+let SITE = null
 
 async function loadReference (operatorSlug) {
   const { operatorDir, parkOrder } = await import('../src/lib/data.mjs')
   DATA = await operatorDir(operatorSlug)
   const site = JSON.parse(await readFile(join(DATA, 'site.json'), 'utf8'))
+  SITE = site
   PARK_SLUGS = parkOrder(site)
+  QUEUE = { name: 'Lightning Lane', guideSlug: 'lightning-lane', ...(site.queue || {}) }
 
   const path = join(ROOT, 'scripts', 'reference', `${operatorSlug}.mjs`)
   if (!existsSync(path)) {
@@ -50,6 +62,36 @@ async function loadReference (operatorSlug) {
   MUST_BE_OPEN = ref.MUST_BE_OPEN || {}
   SNACK_PRICES = ref.SNACK_PRICES || []
   SEASONAL = ref.SEASONAL || []
+  PLAUSIBLE_HEIGHTS = ref.PLAUSIBLE_HEIGHTS || []
+  DUAL_HEIGHTS = ref.DUAL_HEIGHTS || {}
+  QUEUE_ASSIGNMENT = ref.QUEUE_ASSIGNMENT || {}
+  VIRTUAL_QUEUE_ALLOWED = ref.VIRTUAL_QUEUE_ALLOWED || []
+  QUEUE_CLAIMS = ref.QUEUE_CLAIMS || {}
+  PROPER_NAMES = (ref.PROPER_NAMES || []).map((n) => n.toLowerCase())
+  CONFLICTS = ref.CONFLICTS || []
+  conflictsHit = new Set()
+}
+
+/**
+ * A recorded disagreement between the reference table and the dataset that a human has not settled.
+ *
+ * When two independent sources disagree, there are three things you can do. Change the table to
+ * match the data — which destroys the check, because the table now says what the data says and
+ * agreeing with itself is what it was built to not do. Change the data to match the table — which
+ * assumes the table is the more reliable source, and nothing establishes that. Or write down that
+ * they disagree, with both values, and send it to someone who can look it up.
+ *
+ * Only the third is honest, so it is the only one with a mechanism. A conflict downgrades the
+ * failure to a loud note and puts the row on the launch checklist. It is never a way to make a
+ * disagreement go away: an operator cannot go live with a non-empty CONFLICTS list — see
+ * test/operators.test.mjs — and a row that stops matching is reported as stale rather than ignored.
+ */
+function conflictFor (park, name, field, reference, dataset) {
+  const row = CONFLICTS.find((c) =>
+    c.park === park && c.field === field && matches(name, c.attraction) &&
+    c.reference === reference && c.dataset === dataset)
+  if (row) conflictsHit.add(row)
+  return row
 }
 
 /* ------------------------------------------------------------------ *
@@ -113,32 +155,47 @@ async function checkPark (slug) {
   const food = existsSync(join(dir, 'food.json')) ? (await readJson(join(dir, 'food.json'))).items || [] : []
 
   /* Heights */
+  /*
+   * A few attractions legitimately carry two heights, because they are two experiences sharing a
+   * name and a queue — Mission: SPACE splits Green at 40 and Orange at 44. DUAL_HEIGHTS names them
+   * per operator so the exception is declared in the reference table rather than special-cased here.
+   */
+  const dual = DUAL_HEIGHTS[slug] || {}
   for (const [needle, expected] of Object.entries(HEIGHTS[slug] || {})) {
     const found = attractions.filter((a) => matches(a.name, needle))
     if (!found.length) { fail(slug, `no attraction matching "${needle}" — the reference table expects one at ${expected}in`); continue }
-    // Mission: SPACE legitimately splits into two entries at 40 and 44.
+    const allowed = dual[needle] || [expected]
     for (const a of found) {
-      if (a.heightIn !== expected && !(needle === 'mission' && [40, 44].includes(a.heightIn))) {
-        fail(slug, `"${a.name}" has heightIn ${JSON.stringify(a.heightIn)} but the reference table says ${expected}`)
+      if (allowed.includes(a.heightIn)) continue
+      const conflict = conflictFor(slug, a.name, 'heightIn', expected, a.heightIn === undefined ? null : a.heightIn)
+      if (conflict) {
+        note(slug, `UNRESOLVED — "${a.name}" heightIn: reference says ${JSON.stringify(expected)}, dataset says ${JSON.stringify(a.heightIn ?? null)}. ${conflict.note}`)
+      } else {
+        fail(slug, `"${a.name}" has heightIn ${JSON.stringify(a.heightIn)} but the reference table says ${allowed.join(' or ')}`)
       }
     }
   }
 
-  /* Mission: SPACE is the one attraction with two legitimate heights. */
-  if (slug === 'epcot') {
-    const mission = attractions.filter((a) => matches(a.name, 'mission: space') || matches(a.name, 'mission space'))
-    const heights = new Set(mission.map((a) => a.heightIn))
-    if (!mission.length) fail(slug, 'Mission: SPACE is missing')
-    else if (!heights.has(40) && !heights.has(44)) {
-      fail(slug, `Mission: SPACE heights are ${[...heights].join('/')}, expected 40 (Green) and 44 (Orange)`)
+  for (const [needle, expected] of Object.entries(dual)) {
+    const found = attractions.filter((a) => matches(a.name, needle))
+    if (!found.length) { fail(slug, `"${needle}" is missing — the reference table expects it at ${expected.join(' and ')}in`); continue }
+    const heights = new Set(found.map((a) => a.heightIn))
+    if (!expected.some((h) => heights.has(h))) {
+      fail(slug, `"${needle}" heights are ${[...heights].join('/')}, expected ${expected.join(' and ')}`)
     }
   }
 
-  /* Nothing outside the reference table should carry an implausible height. */
+  /*
+   * Nothing outside the reference table should carry an implausible height.
+   *
+   * The plausible set is per-operator because it is a fact about a specific set of parks, not about
+   * theme parks generally: Disney's restrictions cluster at 32–48in, while Universal's coasters run
+   * to 51, 52 and 54. A shared list would either miss real typos here or cry wolf there.
+   */
   for (const a of attractions) {
-    if (a.heightIn == null) continue
+    if (a.heightIn == null || !PLAUSIBLE_HEIGHTS.length) continue
     const known = Object.keys(HEIGHTS[slug] || {}).some((needle) => matches(a.name, needle))
-    if (!known && ![32, 35, 38, 40, 42, 44, 46, 48].includes(a.heightIn)) {
+    if (!known && !PLAUSIBLE_HEIGHTS.includes(a.heightIn)) {
       note(slug, `"${a.name}" has an unusual height of ${a.heightIn}in — verify it`)
     }
   }
@@ -160,18 +217,30 @@ async function checkPark (slug) {
     }
   }
 
-  /* Test Track uses Multi Pass, not Single Pass — a common and specific error. */
-  if (slug === 'epcot') {
-    for (const a of attractions.filter((x) => matches(x.name, 'test track'))) {
-      if (a.lightningLane !== 'multi-pass') {
-        fail(slug, `Test Track has lightningLane "${a.lightningLane}" — the 2025 version uses Multi Pass`)
+  /*
+   * Attractions whose queue-product tier is specifically easy to get wrong — Test Track moved to
+   * Multi Pass with its 2025 rebuild and is still widely written up as Single Pass. Declared per
+   * operator, since which tier an attraction sits in is exactly the kind of fact that differs.
+   */
+  for (const [needle, expected] of Object.entries(QUEUE_ASSIGNMENT[slug] || {})) {
+    for (const a of attractions.filter((x) => matches(x.name, needle))) {
+      if (a.lightningLane !== expected) {
+        fail(slug, `"${a.name}" has lightningLane "${a.lightningLane}" but the reference table says "${expected}"`)
       }
     }
   }
 
-  /* Virtual queues: none are permanent at either resort as of mid-2026. */
+  /*
+   * Virtual queues.
+   *
+   * Disney runs none permanently as of mid-2026, so any claim of one is an error. Universal runs
+   * several as standing policy. The allow-list is per operator; an empty one means "none", which is
+   * an assertion the reference table makes rather than something assumed here.
+   */
   for (const a of attractions.filter((x) => x.virtualQueue === true)) {
-    fail(slug, `"${a.name}" claims a virtual queue — no attraction at either resort permanently uses one`)
+    if (!VIRTUAL_QUEUE_ALLOWED.some((needle) => matches(a.name, needle))) {
+      fail(slug, `"${a.name}" claims a virtual queue, which the reference table does not list as one`)
+    }
   }
 
   /* Ranked pages must not rank a closed attraction. */
@@ -197,6 +266,42 @@ async function checkPark (slug) {
   for (const item of food) {
     if (item.price != null && item.priceVerified == null) fail(slug, `"${item.name}" has a price with no priceVerified month`)
     if (item.seasonal === true) fail(slug, `"${item.name}" is marked seasonal — that belongs under data/seasonal/`)
+  }
+}
+
+/**
+ * The same food item priced differently in two parks of the same resort.
+ *
+ * Standardised items — a pretzel, a Butterbeer — carry one price across a resort, so a split is
+ * usually not a fact about the parks but an artefact of how the data was written: two authors, two
+ * files, one drink, two numbers. No reference table can catch this, because each price is perfectly
+ * plausible on its own; it is only the disagreement that is wrong.
+ *
+ * A note rather than a failure, because a genuinely location-specific price is legitimate and does
+ * happen. The point is to make someone look.
+ */
+async function checkResortPriceConsistency (site) {
+  const byResort = new Map()
+  for (const resort of site.resorts || []) {
+    for (const parkSlug of resort.parks || []) {
+      const path = join(DATA, 'parks', parkSlug, 'food.json')
+      if (!existsSync(path)) continue
+      for (const item of (await readJson(path)).items || []) {
+        if (item.price == null) continue
+        const key = `${resort.slug} ${norm(item.name)}`
+        if (!byResort.has(key)) byResort.set(key, [])
+        byResort.get(key).push({ park: parkSlug, name: item.name, price: item.price })
+      }
+    }
+  }
+
+  for (const [key, rows] of byResort) {
+    const prices = new Set(rows.map((r) => r.price))
+    if (prices.size < 2) continue
+    const [resortSlug] = key.split(' ')
+    note(`${resortSlug}/food`, `"${rows[0].name}" is priced differently within one resort — ` +
+      rows.map((r) => `${r.park} $${r.price}`).join(', ') +
+      '. Either it genuinely differs by location, which happens, or one of them is wrong.')
   }
 }
 
@@ -226,11 +331,27 @@ async function checkProse () {
       // Skip identifier-ish fields; this is about prose.
       if (/\.(slug|id|image|url|href|restaurantSlug|land|park|resort)$/.test(where)) continue
       const lower = value.toLowerCase()
+
+      /*
+       * Proper names are scrubbed before the filler sweep, not after.
+       *
+       * "Magical" is banned as filler and is also the fourth word of Hagrid's Magical Creatures
+       * Motorbike Adventure. Without this, one park's file reported thirteen filler hits of which
+       * twelve were the ride's actual name — which is worse than not checking, because a check that
+       * is mostly false positives is a check everybody learns to scroll past. Same principle as
+       * NAME_EXCLAMATIONS in the seasonal checker: keep the rule strict by removing the cases where
+       * obeying it would require misnaming something.
+       *
+       * Deliberately not applied to the SEASONAL sweep below. Halloween Horror Nights is a proper
+       * name too, and banning it from evergreen pages is the entire point.
+       */
+      const prose = PROPER_NAMES.reduce((acc, name) => acc.split(name).join(' '), lower)
+
       for (const word of FILLER) {
-        if (lower.includes(word)) fillerHits.set(word, (fillerHits.get(word) || 0) + 1)
+        if (prose.includes(word)) fillerHits.set(word, (fillerHits.get(word) || 0) + 1)
       }
       for (const opener of FILLER_OPENERS) {
-        if (lower.startsWith(opener)) fillerHits.set(`opens with "${opener}"`, (fillerHits.get(`opens with "${opener}"`) || 0) + 1)
+        if (prose.startsWith(opener)) fillerHits.set(`opens with "${opener}"`, (fillerHits.get(`opens with "${opener}"`) || 0) + 1)
       }
       for (const term of SEASONAL) {
         if (lower.includes(term)) seasonalHits.set(term, (seasonalHits.get(term) || 0) + 1)
@@ -285,22 +406,32 @@ async function checkGuideCounts () {
   }
 }
 
-async function checkLightningLaneClaims () {
+/**
+ * The paid queue-skipping guide, whichever product the operator sells.
+ *
+ * Every operator has one of these pages, it is the most price-sensitive page on the site, and the
+ * ways it goes stale are operator-specific: Disney's says Genie+ two years after Genie+ stopped
+ * existing, Universal's conflates Express Pass with Express Unlimited. The page is located from
+ * site.queue.guideSlug and the claims come from the reference table, so this function knows only
+ * that such a page exists — not what it is called or what it should say.
+ */
+async function checkQueueGuideClaims () {
   const base = join(DATA, 'guides')
   if (!existsSync(base)) return
-  const path = join(base, 'lightning-lane.json')
-  if (!existsSync(path)) { note('guides', 'lightning-lane.json is missing'); return }
+  const label = `guides/${QUEUE.guideSlug}.json`
+  const path = join(base, `${QUEUE.guideSlug}.json`)
+  if (!existsSync(path)) { note('guides', `${QUEUE.guideSlug}.json is missing — the ${QUEUE.name} guide is the page prices go stale on first`); return }
   const doc = await readJson(path)
   const text = [...strings(doc)].map(([, v]) => v).join(' ').toLowerCase()
 
-  if (!/as of (july )?2026|july 2026/.test(text)) {
-    fail('guides/lightning-lane.json', 'no "as of July 2026" framing — dynamic prices must never read as fixed')
+  for (const rule of QUEUE_CLAIMS.require || []) {
+    if (!rule.re.test(text)) fail(label, rule.message)
   }
-  if (!/\$34/.test(text)) {
-    note('guides/lightning-lane.json', 'does not mention the $34 Disneyland Multi Pass starting price')
+  for (const rule of QUEUE_CLAIMS.expect || []) {
+    if (!rule.re.test(text)) note(label, rule.message)
   }
-  if (/genie\+/.test(text) && !/replaced|until|formerly|used to/.test(text)) {
-    fail('guides/lightning-lane.json', 'refers to Genie+ without noting it was replaced in July 2024')
+  for (const rule of QUEUE_CLAIMS.forbid || []) {
+    if (rule.re.test(text) && !(rule.unless && rule.unless.test(text))) fail(label, rule.message)
   }
 }
 
@@ -308,16 +439,29 @@ async function checkLightningLaneClaims () {
  * Run
  * ------------------------------------------------------------------ */
 
-const { operators } = await import('../src/lib/data.mjs')
+const { resolveTargets } = await import('../src/lib/data.mjs')
 const requested = process.argv.slice(2).filter((a) => !a.startsWith('-'))
-const targets = requested.length ? requested : (await operators()).map((o) => o.slug)
+const targets = (await resolveTargets(requested, { label: 'node scripts/factcheck.mjs' })).map((o) => o.slug)
 
 for (const operatorSlug of targets) {
   await loadReference(operatorSlug)
   for (const slug of PARKS()) await checkPark(slug)
   await checkProse()
+  await checkResortPriceConsistency(SITE)
   await checkGuideCounts()
-  await checkLightningLaneClaims()
+  await checkQueueGuideClaims()
+
+  // A conflict row that no longer matches anything means the disagreement was settled and nobody
+  // deleted the row. Left alone it is a standing exemption for a check that would now pass, which
+  // is how a temporary allowance becomes permanent.
+  for (const row of CONFLICTS) {
+    if (!conflictsHit.has(row)) {
+      fail(`${operatorSlug} reference`, `CONFLICTS row for "${row.attraction}" (${row.field}) no longer matches the dataset — the disagreement is resolved, so delete the row`)
+    }
+  }
+  if (conflictsHit.size) {
+    note(`${operatorSlug} reference`, `${conflictsHit.size} unresolved source conflict${conflictsHit.size === 1 ? '' : 's'} — this operator cannot go live until they are settled by a human`)
+  }
 }
 
 if (notes.length) {

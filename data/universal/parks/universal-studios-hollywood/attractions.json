@@ -1,0 +1,2053 @@
+{
+  "park": "universal-studios-hollywood",
+  "attractions": [
+    {
+      "slug": "studio-tour",
+      "name": "The World-Famous Studio Tour",
+      "land": "upper-lot",
+      "type": "transportation",
+      "opened": 1964,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 60,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 3,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 4,
+        "startles": 4,
+        "notes": "The tram itself is gentle throughout, but three sequences arrive without warning and startle children badly: the subway earthquake, the flash flood, and King Kong 360 3-D in a fully dark tunnel with the tram pitching. None of them can be opted out of once the tour is moving. Children who handle a loud cinema handle this; children who do not will want the aisle seat and a hand to hold."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": true,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Designated trams carry wheelchair-accessible cars that load from a separate position — ask at the boarding area rather than joining the main queue, and expect to wait for the right tram rather than the next one. The tour is narrated throughout, which makes it one of the most rewarding attractions here for blind and low-vision guests."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "An hour-long tram tour across a genuinely working film backlot, and the only attraction of its kind anywhere in the world.",
+      "description": [
+        "The Studio Tour is what Universal Studios Hollywood is. It started in 1964 as a way of selling tickets to a working film studio, the theme park grew up around it, and it remains the one thing here that no other park on earth can copy. The route runs off the visitor side of the property and out onto the actual backlot — the standing exterior sets that productions still shoot on, with crew trucks and equipment carts parked where they happened to be that morning.",
+        "You pass Courthouse Square from *Back to the Future*, the New York and European street sets, the Bates Motel and the Psycho house on the hill, the *Jaws* lagoon, the crashed 747 fuselage built for *War of the Worlds*, and the Wisteria Lane houses from *Desperate Housewives*. The guide talks the whole way, the on-tram screens cut to clips of what was shot where, and the whole thing has the pleasant quality of a very good behind-the-scenes documentary you happen to be sitting inside.",
+        "Built into the route are three purpose-made attractions: the Earthquake: The Big One subway set, the flash flood, and King Kong 360 3-D, a Peter Jackson-directed tunnel sequence with 3D screens on both sides of the tram. They are the parts of the tour that read as theme park rather than studio, and they are also the parts that startle small children.",
+        "The backlot is a real production facility, which means the tour is not identical twice. Sets get struck and rebuilt, routes get diverted around shoots, and what you see depends on what is filming. That is a feature. It is also the reason a second ride on a different visit is worth doing."
+      ],
+      "experience": [
+        "You board a long articulated tram from a covered platform near the entrance, sitting on bench rows facing forward with screens overhead. The guide sets the tone in the first two minutes, and a good one makes the whole hour. The tram noses out of the visitor area and onto the lot proper, past soundstages with call sheets taped to the doors.",
+        "The middle third is the backlot itself, and this is the part people remember. Street sets that look like Manhattan from one angle and plywood from the other. A European village with the same facades used in twenty films you have seen. The flash flood, which fills a street with several thousand gallons of water and drains it in under a minute, close enough that you feel the air move.",
+        "The set pieces punctuate it. The subway station goes dark, a train derails, the ceiling opens and a tanker truck comes through it. King Kong 360 3-D puts the tram inside a tunnel between two enormous screens with the vehicle rocking, and it is genuinely disorienting. The Fast & Furious finale closes the tour with a projected chase along both walls.",
+        "Sit on the left-hand side of the tram if you can choose. It gets the better angle on the street sets and the Bates Motel. The front cars have the guide's live commentary at its clearest; the rear cars sway more on the turns."
+      ],
+      "tips": [
+        "Ride in the first hour or the last two. The tour queue builds steadily from mid-morning, and unlike the show buildings, a posted 60-minute wait here genuinely means an hour before you board.",
+        "Sit on the left-hand side of the tram. It gets the better view of Courthouse Square, the street sets and the Psycho house.",
+        "Do not save this for the end of the day. It is a full hour of park time and people routinely run out of daylight and skip the single best thing here.",
+        "Ask the guide a question when the tram stops. The good ones know the lot cold and will tell you what is shooting that week, which is not in any script.",
+        "If you have a child who hates dark tunnels and loud noises, sit them on the aisle and warn them before the subway sequence and King Kong. Neither can be skipped once the tram is moving."
+      ],
+      "bestTime": "First hour after opening, or the early afternoon when the crowd is spread across the rest of the park.",
+      "typicalWait": "Usually 20 to 40 minutes; 60 to 90 minutes on peak summer and holiday afternoons.",
+      "faqs": [
+        {
+          "q": "How long is the Studio Tour?",
+          "a": "About 60 minutes on the tram, plus the queue. Budget a full hour and a quarter of park time. It is the longest single commitment at Universal Studios Hollywood and the only attraction here that needs to be planned around rather than slotted in."
+        },
+        {
+          "q": "Is there a height requirement for the Studio Tour?",
+          "a": "No. Anyone can ride, including infants. The tram is gentle throughout — the intensity comes from three loud, dark set pieces rather than from motion."
+        },
+        {
+          "q": "Is the Studio Tour scary for children?",
+          "a": "Parts of it. The subway earthquake sequence, the flash flood and King Kong 360 3-D all arrive suddenly, go dark and get very loud. Children who cope with a loud cinema cope with this. None of the three can be skipped once the tram has left the platform."
+        },
+        {
+          "q": "Which side of the tram should I sit on?",
+          "a": "The left-hand side gets the better view of Courthouse Square, the New York street sets and the Bates Motel on the hill. The right side gets a better look at parts of the European set. If you have no choice, the difference is real but small."
+        },
+        {
+          "q": "Is the backlot really a working studio?",
+          "a": "Yes. The route runs through active production territory, and what you see changes with what is filming. Sets get struck, rebuilt and rented out, and the tram gets rerouted around live shoots. That is the reason this attraction cannot be replicated in Orlando or anywhere else."
+        },
+        {
+          "q": "Is the Studio Tour covered by Universal Express?",
+          "a": "Yes, Express covers the Studio Tour, and it is one of the better uses of it on a busy day given how long the standby queue can run. On a quiet weekday morning it is unnecessary — just ride early."
+        }
+      ],
+      "relatedSlugs": [
+        "king-kong-360-3d",
+        "earthquake-the-big-one",
+        "fast-and-furious-supercharged",
+        "waterworld"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "king-kong-360-3d",
+      "name": "King Kong 360 3-D",
+      "land": "upper-lot",
+      "type": "film",
+      "opened": 2010,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 4,
+        "darkness": 5,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 5,
+        "startles": 5,
+        "notes": "This is the single most frightening thing on the Studio Tour for young children. The tram enters a tunnel, everything goes black, and 3D screens on both sides put you in the middle of a fight between King Kong and three V. rexes at close range, with the vehicle pitching and the sound at full volume. It lasts about four minutes and cannot be skipped once the tram is moving."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Experienced from the Studio Tour tram, so accessibility follows the tour. There is no way to leave the tram or opt out once it has entered the tunnel."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A Peter Jackson-directed 3D tunnel sequence built into the Studio Tour, and the loudest four minutes in the park.",
+      "description": [
+        "King Kong 360 3-D opened in 2010 on the site of the old King Kong Encounter, which burned down in the 2008 backlot fire. It is not a separate attraction — you cannot queue for it, and there is no way to ride it without riding the Studio Tour. The tram drives into a purpose-built tunnel, the doors close, and you are inside a Peter Jackson-directed sequence projected onto enormous curved screens on both sides at once.",
+        "The premise is that the tram has strayed onto Skull Island during a fight between Kong and three V. rexes. The screens wrap the full width of the vehicle, the tram platform pitches and rolls underneath you, and there are physical effects — wind, spray and heat — layered on top. It is the most aggressive four minutes of anything at Universal Studios Hollywood, and it happens to people who did not think they were getting on a thrill ride.",
+        "The technical achievement is real: it was one of the largest 3D projection installations ever built when it opened, and the scale still lands. Whether you enjoy it depends almost entirely on how you feel about being shouted at in the dark."
+      ],
+      "experience": [
+        "The tram slows, the guide gives a short warning, and you go through a set of doors into darkness. There is a moment of nothing, then the screens come up on both sides simultaneously and the vehicle drops into a pitch that feels much steeper than it is.",
+        "What follows is four minutes of Kong and the V. rexes fighting across and above the tram, with the vehicle sliding, rocking and lurching in time with the action. Water and air effects hit you at close range. The sound is at concert volume with heavy low frequencies you feel through the bench seat.",
+        "The doors open, the daylight is a shock, and the guide picks up the commentary as if nothing happened. Most adults find it impressive rather than frightening. A meaningful number of children under seven do not, and there is no exit."
+      ],
+      "tips": [
+        "There is no separate queue and no way to skip it. If a child in your group cannot handle it, the decision is whether to ride the Studio Tour at all, not whether to ride this.",
+        "Warn a nervous child at the start of the tour, not thirty seconds before. The tunnel arrives quickly and the guide's warning is brief.",
+        "The middle rows of the tram get the least distorted 3D. The very front and the very back sit off the projection's sweet spot.",
+        "If you get motion sick from 3D screens, close your eyes and look down. Four minutes passes quickly and the rest of the tour is gentle."
+      ],
+      "bestTime": "Whenever you ride the Studio Tour — there is no independent access.",
+      "typicalWait": "No separate wait; it is a segment of the Studio Tour.",
+      "faqs": [
+        {
+          "q": "Can you ride King Kong 360 3-D without the Studio Tour?",
+          "a": "No. It is a tunnel sequence built into the Studio Tour route, with no separate entrance, queue or exit. The only way to experience it is to ride the full tram tour."
+        },
+        {
+          "q": "Is King Kong 360 3-D scary?",
+          "a": "It is the most frightening part of the Studio Tour for young children. The tram goes fully dark, screens on both sides put you inside a fight between King Kong and three V. rexes at close range, and the sound is at concert volume. It lasts about four minutes and there is no way out."
+        },
+        {
+          "q": "Is there a height requirement?",
+          "a": "No, because it is part of the Studio Tour, which has no height requirement. That is exactly why it catches families out — nothing about the tour's rating prepares you for this segment."
+        },
+        {
+          "q": "Does it make people motion sick?",
+          "a": "Some people, yes. The combination of full-width 3D projection and a pitching vehicle platform is a common trigger. Closing your eyes and looking down works, and the effect passes quickly once the tram leaves the tunnel."
+        }
+      ],
+      "relatedSlugs": [
+        "studio-tour",
+        "earthquake-the-big-one",
+        "fast-and-furious-supercharged"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "earthquake-the-big-one",
+      "name": "Earthquake: The Big One",
+      "land": "upper-lot",
+      "type": "show",
+      "opened": 1989,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 3,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 5,
+        "startles": 5,
+        "notes": "A subway station tears itself apart around a stationary tram: the platform splits, a tanker truck comes through the ceiling, fire and water follow, and the noise is enormous. Nothing threatens the tram and nobody moves fast, but the suddenness and the volume make it the second most common cause of tears on the Studio Tour after King Kong."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "indoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Experienced from the Studio Tour tram, so accessibility follows the tour. The effects are physical rather than screen-based, which makes this the segment blind and low-vision guests get the most out of."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The Studio Tour's subway earthquake set piece, running since 1989 and still one of the best practical effects in the business.",
+      "description": [
+        "Earthquake: The Big One has been on the Studio Tour since 1989, built around the 1974 disaster film. The tram pulls into a full-scale San Francisco BART station set and stops. What happens next is entirely practical — no screens, no projection, just hydraulics, water, fire and a great deal of steel.",
+        "The platform cracks and drops. A subway train slides toward the tram. The ceiling opens and a tanker truck falls through it. A ruptured main floods the station and the water runs toward you, and then the whole thing resets in about ninety seconds ready for the next tram.",
+        "It has survived four decades because practical effects at this scale age far better than screens do. The set is the oldest thing on the tour by some margin, and it is still the segment that makes people put their phones down."
+      ],
+      "tips": [
+        "This is the segment to point out to anyone interested in how effects actually work. Everything you see is mechanical and it resets in under two minutes.",
+        "Expect a small amount of water. Nobody gets soaked, but the front rows can catch spray from the flooding effect.",
+        "Warn nervous children before the tram enters the station. The set looks entirely ordinary right up until it does not.",
+        "Watch the ceiling rather than the platform. The tanker truck sequence is the best-engineered moment and most people are looking the wrong way when it starts."
+      ],
+      "bestTime": "Whenever you ride the Studio Tour — there is no independent access.",
+      "typicalWait": "No separate wait; it is a segment of the Studio Tour.",
+      "faqs": [],
+      "relatedSlugs": [
+        "studio-tour",
+        "king-kong-360-3d"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fast-and-furious-supercharged",
+      "name": "Fast & Furious – Supercharged",
+      "land": "upper-lot",
+      "type": "film",
+      "opened": 2015,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "Loud, fast-cut and busy, but far less frightening than King Kong earlier on the same tour. The tram does not move much; the sense of speed comes from wraparound projection. Children who made it through the subway sequence will be fine here."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Experienced from the Studio Tour tram, so accessibility follows the tour. Almost all of the content is projected, so guests with significant vision loss get little beyond the sound and the wind effects."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The Studio Tour's closing set piece: a projected 200 mph chase along both walls of a tunnel, added in 2015.",
+      "description": [
+        "Fast & Furious – Supercharged was added to the Studio Tour in 2015 as its finale, in a purpose-built tunnel near the end of the route. Cast members from the films appear on screens, a chase breaks out, and the tram is nominally caught in the middle of it.",
+        "The technology is the same idea as King Kong 360 3-D but scaled up and stretched longer: projection across enormous screens on both sides of the tram, synchronized to the vehicle's own movement and to wind, sound and haze effects. It is the newest thing on the tour and the least interesting, which is a fair summary of the difference between a real backlot and a screen.",
+        "It works best if you treat it as a demonstration of what the studio can do with projection rather than as a ride. The chase is coherent, the scale is genuine, and it is over quickly."
+      ],
+      "tips": [
+        "This is the tour's finale, so if you are watching the clock you are nearly back at the platform when it starts.",
+        "The projection reads best from the middle cars of the tram. Front and back sit off the sweet spot and the perspective skews.",
+        "If 3D and wraparound projection make you queasy, this is the second of two such segments on the tour. Look down rather than at the walls.",
+        "It is considerably less frightening than King Kong earlier on the same route, so a child who coped with that will cope with this."
+      ],
+      "bestTime": "Whenever you ride the Studio Tour — there is no independent access.",
+      "typicalWait": "No separate wait; it is a segment of the Studio Tour.",
+      "faqs": [],
+      "relatedSlugs": [
+        "studio-tour",
+        "king-kong-360-3d"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "despicable-me-minion-mayhem",
+      "name": "Despicable Me Minion Mayhem",
+      "land": "upper-lot",
+      "type": "simulator",
+      "opened": 2014,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": "Guests under 40 inches may ride in stationary seating instead of on the motion platform",
+      "durationMinutes": 5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 2,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "Almost nothing here is designed to frighten — the tone is slapstick throughout. What catches children is the motion, which is jerkier than the cartoon presentation suggests, combined with a screen filling their entire field of view. Stationary seating is available and is a genuinely good option for anyone unsure."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": true,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV onto a bench seat on a motion platform, with a lap restraint. Stationary seating is available on request and does not require the 40-inch minimum, which makes it the most flexible motion simulator in the park."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A cartoon motion simulator where you are turned into a Minion, with a dance party at the exit that children rate higher than the ride.",
+      "description": [
+        "Despicable Me Minion Mayhem opened at Universal Studios Hollywood in 2014, in the building that previously held Terminator 2: 3-D. The premise is a training program in Gru's laboratory that turns the audience into Minions, which is a sensible piece of design — it gives a screen simulator a reason to throw you around.",
+        "The ride itself is a bank of motion platforms facing a large screen, with 3D glasses. The animation is genuinely funny and the timing is good, which is more than most simulators manage. The problem is the motion base, which is sharper and more abrupt than the cheerful presentation prepares anyone for.",
+        "The exit is the part parents underestimate. It opens into a dance party area with music, projections and floor effects, and small children will happily stay in there for twenty minutes. Factor that in rather than fighting it."
+      ],
+      "experience": [
+        "The queue winds through Gru's house and laboratory, which is well built and has real detail worth looking at — the gadgets, the family photographs and the lab equipment reward a slow walk. A pre-show sets up the premise in a couple of minutes.",
+        "In the theater you are seated on a bench on a motion platform, restrained by a lap bar, wearing 3D glasses. The film runs about four minutes: a training sequence goes wrong, the Minions cause chaos, and the platform pitches, drops and jolts in sync with it. The drops are short and sharp rather than sustained.",
+        "The exit deposits you into a Minion dance party with music and projected effects. Children respond to this far more strongly than to the ride itself. If yours are in that age band, budget the extra time here."
+      ],
+      "tips": [
+        "Ask for stationary seating if anyone is unsure about the motion. It is available on request, it does not carry the 40-inch minimum, and the film is identical.",
+        "This is one of the roughest motion bases in the park. Do not ride it back to back with The Simpsons Ride unless you have tested both before.",
+        "The queue is part of the attraction. Gru's laboratory has more detail than anything else in this half of the park, so do not rush through it on a short wait.",
+        "The dance party at the exit is not optional in practical terms if you have a preschooler with you. Plan an extra fifteen minutes.",
+        "Rider switch is available, so one adult can wait with a child under 40 inches and ride afterward without queuing twice."
+      ],
+      "bestTime": "First 90 minutes of the day, or after 6pm when families with young children have left.",
+      "typicalWait": "Usually 20 to 40 minutes; can reach 60 on peak days.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Despicable Me Minion Mayhem?",
+          "a": "40 inches to ride on the motion platform. Guests under 40 inches can ride in stationary seating instead, which shows the same film without the movement. Ask at the entrance rather than at the theater door."
+        },
+        {
+          "q": "Is Minion Mayhem too rough for children?",
+          "a": "The motion is sharper than the cartoon tone suggests, with abrupt jolts and short drops. Children who dislike simulators will not enjoy it. The stationary seating option solves the problem entirely and is under-advertised."
+        },
+        {
+          "q": "Does it cause motion sickness?",
+          "a": "For susceptible people, yes — it is one of the worst offenders in a park full of them. The combination of a full-field 3D screen and a jerky motion base is a reliable trigger. The stationary seating removes most of the risk."
+        },
+        {
+          "q": "Is the dance party at the exit worth staying for?",
+          "a": "If you have children under about eight, yes, and you may not have a choice. It is a projected dance floor with music and effects, and small children routinely rate it higher than the ride. Budget fifteen minutes for it."
+        }
+      ],
+      "relatedSlugs": [
+        "super-silly-fun-land",
+        "the-secret-life-of-pets-off-the-leash",
+        "the-simpsons-ride"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "super-silly-fun-land",
+      "name": "Super Silly Fun Land",
+      "land": "upper-lot",
+      "type": "play-area",
+      "opened": 2014,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "The Silly Swirly spinner inside this area carries its own posted minimum height; check the sign at the ride entrance rather than assuming the play area's rules apply.",
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Nothing here is designed to frighten. The water jets fire on a cycle and catch children by surprise the first time, which produces shrieking rather than distress. The spinner lifts and rotates gently."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The water play area is at ground level and navigable in a wheelchair, though the surface is wet and the spray is unavoidable. The spinner requires a transfer into a seat."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A carnival-styled water play area next to Minion Mayhem, with a small spinner attached, and the best thing here for under-fives.",
+      "description": [
+        "Super Silly Fun Land sits alongside Despicable Me Minion Mayhem and is styled as the seaside carnival from the first film. The main draw is a wet play area — jets, buckets, sprayers and slides that fire on a cycle — plus a small spinning ride, the Silly Swirly, that lifts and circles on an arm.",
+        "For a park with very little for children under 40 inches, this is the one place designed entirely around them, and it is free of any queue. Children who have been dragged past four rides they cannot go on will stay here for an hour.",
+        "The catch is that it is genuinely wet, not a light misting, and there is nowhere to change. Either commit to it — swimwear underneath, spare clothes in the bag — or keep everyone out of it entirely, because a half-committed child ends up cold and miserable for the rest of the afternoon."
+      ],
+      "tips": [
+        "Bring a change of clothes and a small towel if you intend to use the water area. It soaks children thoroughly and there is nowhere convenient to dry off.",
+        "This is the single best use of an hour at this park if you have a child under 40 inches, and it costs nothing. Take turns riding the things they cannot.",
+        "Do it in the middle of the afternoon when the heat makes it useful, not in the morning when everyone is still dry and the queues elsewhere are short.",
+        "The Silly Swirly has its own posted height minimum at the ride entrance. Read the sign before you join the queue rather than after."
+      ],
+      "bestTime": "Early afternoon, when the heat is at its worst and everyone else is queuing for rides.",
+      "typicalWait": "No wait for the water play area; the spinner is usually 10 to 20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "despicable-me-minion-mayhem",
+        "the-secret-life-of-pets-off-the-leash"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-secret-life-of-pets-off-the-leash",
+      "name": "The Secret Life of Pets: Off the Leash",
+      "land": "upper-lot",
+      "type": "dark-ride",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 34,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Gentle almost throughout. There is a short sequence involving the animals in the alley and the animal control van that goes darker and louder, and it is the one point where toddlers occasionally object. It passes in under a minute and there are no drops or fast movement anywhere on the ride."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You transfer from a wheelchair or ECV into an open vehicle with a bench seat and a low step over the sill. The queue is entirely indoor and air conditioned, which makes it one of the more comfortable waits in the park."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A trackless dark ride full of practical animatronics, air conditioned, gentle, and consistently the most underrated attraction at this park.",
+      "description": [
+        "The Secret Life of Pets: Off the Leash opened in 2021 and is the only attraction built at Universal Studios Hollywood in recent memory that is not built around a screen. It is a trackless dark ride through a stylized New York apartment building and the streets around it, populated with a very large number of animated figures.",
+        "The design conceit is that you are a puppy being taken home, which puts you at floor level looking up at everything. The sets are built at that scale — furniture and doorways loom, and the animals are at eye height. It is a small idea executed with real care, and it is the closest thing at Universal Studios Hollywood to a classic Disney dark ride.",
+        "It is also the park's most consistently underestimated attraction. Adults walk past it because the intellectual property does not appeal to them, which means the wait is usually shorter than the ride deserves. If you want a gentle, air-conditioned, well-made four minutes in the middle of a hot afternoon, this is the best one here."
+      ],
+      "experience": [
+        "The queue runs through the interior of the apartment building, with the corridors, mailboxes and stairwells built out properly rather than painted on. It is indoors and air conditioned end to end, which by itself makes it worth choosing over an outdoor queue in August.",
+        "You board an open trackless vehicle that seats a small group and moves without visible rails, drifting between scenes rather than being pulled through them. The route runs through apartments, out into the street, into an alley and eventually back home. The animatronics are dense — there are far more figures per scene than you expect.",
+        "The one darker beat involves the alley animals and the animal control van, with the lighting dropping and the sound rising. It lasts under a minute. Everything else is bright, slow and funny, and there are no drops or sudden movements at any point."
+      ],
+      "tips": [
+        "Ride this in the middle of the afternoon. It is air conditioned start to finish, the wait is usually short, and it is the best available break from the heat that is not a theater.",
+        "It is the most family-friendly real ride in the park at 34 inches, which is well below the 40-inch wall that closes off most of Universal Studios Hollywood.",
+        "Look up rather than ahead. The scenes are built at puppy eye level and most of the jokes are placed above the vehicle.",
+        "Do not skip this because the film does not interest you. The ride is better than the intellectual property and the animatronic work is the best in the park."
+      ],
+      "bestTime": "Mid-afternoon, when the queue stays short and the air conditioning is worth as much as the ride.",
+      "typicalWait": "Usually 15 to 35 minutes, and rarely the longest wait in this half of the park.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for The Secret Life of Pets: Off the Leash?",
+          "a": "34 inches, which is the lowest requirement on any real ride at Universal Studios Hollywood. That makes it one of very few options for a family with a child too small for the 40-inch attractions."
+        },
+        {
+          "q": "Is it scary for toddlers?",
+          "a": "Barely. There is one short sequence in the alley where the lighting drops and the sound rises, lasting under a minute. There are no drops, no fast movement and no sudden effects anywhere else on the ride."
+        },
+        {
+          "q": "Is it worth riding if I have not seen the films?",
+          "a": "Yes. The ride does not depend on the plot — you are a puppy being taken through a building full of animals, which is legible without any prior knowledge. The animatronic work is the reason to ride it, not the story."
+        },
+        {
+          "q": "Is this ride better than it looks?",
+          "a": "Considerably. It is a trackless dark ride with dense practical animatronics in a park that otherwise leans almost entirely on screens, and it is air conditioned end to end. Adults skip it on the strength of the branding and are usually wrong to."
+        }
+      ],
+      "relatedSlugs": [
+        "despicable-me-minion-mayhem",
+        "super-silly-fun-land",
+        "studio-tour"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "dreamworks-theatre",
+      "name": "DreamWorks Theatre",
+      "land": "upper-lot",
+      "type": "film",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 15,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "The theater goes dark and uses in-seat effects, wind, water spray and scent alongside the projection, and the effects arrive without warning. Nothing in the story is frightening, but the physical sensations catch small children off guard. Sitting toward the back reduces most of it."
+      },
+      "motionSickness": "low",
+      "getsWet": "light",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": true,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": true,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Wheelchair and ECV spaces are available in the theater without transferring. The in-seat effects do not apply in those positions, which some guests prefer. Captioning devices are available from Guest Relations."
+      },
+      "tier": "minor",
+      "standalonePage": true,
+      "summary": "A high-capacity theater on the Upper Lot with in-seat effects, air conditioning, and a show that changes with the season.",
+      "description": [
+        "The DreamWorks Theatre opened in 2018 in the building that held Shrek 4-D for the previous fifteen years. It is a purpose-built effects theater — projection across a wide screen, in-seat motion, wind, water and scent — running a DreamWorks Animation property, most recently a Kung Fu Panda story.",
+        "The show itself is fine rather than remarkable. What makes this attraction useful is its shape: it seats several hundred people at once, runs on a fast cycle, is fully air conditioned, and the posted wait is essentially a countdown to the next showing rather than a queue. On a hot afternoon in a park with limited shade, that combination is worth more than the content.",
+        "It also carries seasonal overlays, so the show you get is not always the one you read about. Check what is playing on the day rather than assuming."
+      ],
+      "experience": [
+        "You wait in a pre-show space, which handles a full theater's worth of people at once, then file into a wide auditorium with fixed seating. The room is dark, cool, and considerably larger than the exterior suggests.",
+        "The presentation runs about ten minutes: projection across the front of the room, with the seats moving underneath you and physical effects layered in — air blasts, mist, scent and vibration. The effects are the point rather than the story, and they are well timed.",
+        "It ends, the lights come up, and you are back outside in daylight in under fifteen minutes total. As a way of resetting in the middle of a hot day, it is one of the better things on the Upper Lot."
+      ],
+      "tips": [
+        "Use this as your air conditioning strategy. The posted wait is a show time rather than a queue — a 20-minute posting usually means you are seated within 20 minutes, not standing for them.",
+        "Sit toward the back if anyone in your group dislikes water and air effects. The front rows get the most of everything.",
+        "Check what show is running when you arrive. The theater carries seasonal overlays and the programming is not fixed.",
+        "Wheelchair positions do not receive the in-seat motion effects, which some guests specifically prefer. Ask at the door if that suits you better."
+      ],
+      "bestTime": "Mid-afternoon, when a seated air-conditioned twenty minutes is worth more than another queue.",
+      "typicalWait": "Usually one show cycle, 15 to 25 minutes. Capacity means it rarely runs longer.",
+      "faqs": [
+        {
+          "q": "Is there a height requirement at the DreamWorks Theatre?",
+          "a": "No. It is a theater with in-seat effects rather than a ride, and anyone can sit in it. Very small children may find the air blasts and water spray startling, which is a reason to sit toward the back rather than to skip it."
+        },
+        {
+          "q": "What show is playing at the DreamWorks Theatre?",
+          "a": "Most recently a Kung Fu Panda presentation, but the theater carries seasonal overlays and the programming changes. Check the app or the board outside on the day of your visit rather than relying on a guide."
+        },
+        {
+          "q": "Do you get wet?",
+          "a": "Lightly. There are water spray effects directed at the audience alongside wind and scent. Nobody leaves soaked, but people in the front rows notice it. Sit further back if that matters to you."
+        },
+        {
+          "q": "Is it worth the time?",
+          "a": "As a show, it is middling. As a high-capacity air-conditioned seat in the middle of a hot Valley afternoon, it is one of the more useful twenty minutes on the Upper Lot. Judge it on that basis."
+        }
+      ],
+      "relatedSlugs": [
+        "waterworld",
+        "animal-actors",
+        "despicable-me-minion-mayhem"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "waterworld",
+      "name": "WaterWorld: A Live Sea War Spectacular",
+      "land": "upper-lot",
+      "type": "show",
+      "opened": 1995,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 17,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 5,
+        "startles": 4,
+        "notes": "Nothing about the story frightens anyone, but the pyrotechnics are genuinely loud and the fireball at the climax produces heat you feel from the back rows. Gunfire effects, explosions and a seaplane crashing into the water all arrive suddenly. Small children who dislike bangs should sit high and far back, or skip it."
+      },
+      "motionSickness": "none",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Wheelchair and ECV seating is available without transferring, in positions outside the soak zone. The show is largely non-verbal and heavily visual, which makes it one of the more accessible attractions here for deaf and hard-of-hearing guests."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A live stunt show based on a 1995 film nobody liked, and one of the best things at any theme park in the United States.",
+      "description": [
+        "WaterWorld has been running at Universal Studios Hollywood since 1995, which is remarkable given that the film it is based on is chiefly remembered as an expensive failure. The show outlived that reputation entirely. It is a live stunt production in a purpose-built lagoon amphitheater, with performers doing real work: high falls, fire burns, jet ski chases and hand-to-hand fighting, in front of a set that is destroyed and rebuilt daily.",
+        "The reason it is good is that almost none of it is faked in the way modern theme park shows fake things. There are no screens. The falls are real falls from real height into real water. The fire is real. A seaplane genuinely crashes through the set at the climax, and the pyrotechnic blast that follows is felt as heat several rows back.",
+        "It runs several times a day in a stadium that seats a large crowd, so the practical wait is just the gap until the next performance. Guests skip it because a stunt show sounds like filler between rides. Skipping it is the most common mistake made at this park."
+      ],
+      "experience": [
+        "You file into a covered stadium facing a lagoon with a rusted atoll set in the middle of it. The pre-show is run live by performers who spend fifteen minutes soaking the front rows with water cannons, which is where the soak zone signage stops being a suggestion.",
+        "The show proper runs about fifteen minutes and does not slow down. Jet skis come through gaps in the set at speed, performers fall from the top of the structure into the water, one takes a full fire burn, and the fighting choreography is close and fast enough to look genuinely dangerous.",
+        "The ending is the reason people remember it. A seaplane comes in low, crashes into the atoll, and the resulting fireball is large enough that the heat reaches the back of the stadium. It is the single most impressive practical effect at Universal Studios Hollywood.",
+        "The soak zone is the front several rows and it is not a fine mist. If you sit there you will be wet through for the rest of the afternoon, which on a hot day is a benefit and on a cool evening is not."
+      ],
+      "tips": [
+        "Sit outside the soak zone unless you want to be genuinely wet. The marked rows get hit repeatedly and deliberately, and there is nowhere to dry off afterward.",
+        "Arrive 15 to 20 minutes before showtime for a good seat, not an hour. Stadium capacity is large and the queue psychology here does not work like a ride queue.",
+        "Sit high and to the center. You get the full width of the set, the best angle on the plane crash, and enough distance from the pyrotechnics for a child who dislikes bangs.",
+        "Do not skip this because it is a stunt show. It is the best live show at any US theme park and it is included in your ticket.",
+        "The climax involves a real fireball with felt heat. Warn anyone sensitive to sudden loud explosions before it starts rather than during."
+      ],
+      "bestTime": "Any showing, but a mid-afternoon one doubles as a shaded seated break in the hottest part of the day.",
+      "typicalWait": "No queue in the usual sense — arrive 15 to 20 minutes before a posted showtime for a good seat.",
+      "faqs": [
+        {
+          "q": "Is WaterWorld worth seeing?",
+          "a": "Yes, and it is the most commonly skipped good thing at this park. It is a live stunt show with real falls, real fire and a seaplane crash, running since 1995, and it holds up better than most of the rides here. Budget 35 minutes including seating."
+        },
+        {
+          "q": "How wet do you get at WaterWorld?",
+          "a": "In the marked soak zone at the front, thoroughly — performers aim water cannons at those rows during the pre-show and repeatedly through the performance. Outside the soak zone you may catch spray and nothing more."
+        },
+        {
+          "q": "Is WaterWorld scary for children?",
+          "a": "The story is not, but the effects are loud. There is sustained gunfire, several explosions, and a climactic fireball you feel as heat from the back rows. Children who dislike sudden bangs should sit high and far back, and some will still find it too much."
+        },
+        {
+          "q": "How long is the show and how often does it run?",
+          "a": "About fifteen minutes, several times a day on a posted schedule. Check the app or the times board when you enter the park, because the schedule varies with the season and the last performance is often well before park close."
+        },
+        {
+          "q": "Do I need Universal Express for WaterWorld?",
+          "a": "Express gets you reserved seating, but the stadium is large and the show almost never sells out. Arriving 15 to 20 minutes early achieves the same thing for nothing. Save the Express for the rides."
+        }
+      ],
+      "relatedSlugs": [
+        "studio-tour",
+        "animal-actors",
+        "dreamworks-theatre"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "animal-actors",
+      "name": "Animal Actors",
+      "land": "upper-lot",
+      "type": "show",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 20,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "There is nothing here to frighten anyone at any age. The volume is conversational, the pace is slow, and the animals are trained to work around a crowd. It is the gentlest attraction in the park by a wide margin."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Covered stadium seating with wheelchair and ECV positions that do not require transferring. Service animals are not permitted at this attraction because of the working animals on stage; a team member will hold your place."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A covered-stadium show of trained dogs, birds and other animals doing film and television work, and a genuinely restful twenty minutes.",
+      "description": [
+        "Animal Actors is a live show in a covered outdoor stadium on the Upper Lot, built around animals trained for film and television work. Dogs, birds and a rotating cast of others run through routines with their handlers, framed around how animal performances are actually achieved on set.",
+        "It is unfashionable and it is not going to be the highlight of anyone's day, which is precisely why it is useful. The stadium is covered, the seats are plentiful, the noise level is low, and it runs on a schedule with no meaningful queue. For a family with a tired toddler, or anyone who needs to sit down without buying anything, it is the softest landing in the park.",
+        "The training-focused framing also makes it a better fit with this park than it would be anywhere else. It is a working-studio show at a working studio, and the handlers are open about how the behaviors are built."
+      ],
+      "tips": [
+        "Use this as a rest stop as much as a show. Covered seating, low volume, no queue, and twenty minutes off your feet.",
+        "Check the times board when you enter the park. This show runs fewer performances than WaterWorld and the last one is often early in the afternoon.",
+        "Sit near the front if you have small children. The animals work close to the first rows and are more likely to come along them.",
+        "Service animals are not permitted here because of the working animals on stage. Plan around that rather than discovering it at the entrance."
+      ],
+      "bestTime": "Early afternoon, as a shaded break between the Studio Tour and the rest of the Upper Lot.",
+      "typicalWait": "No queue in the usual sense — arrive 10 minutes before a posted showtime.",
+      "faqs": [],
+      "relatedSlugs": [
+        "waterworld",
+        "dreamworks-theatre"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-walking-dead-attraction",
+      "name": "The Walking Dead Attraction",
+      "land": "upper-lot",
+      "type": "walkthrough",
+      "opened": 2016,
+      "status": "closed",
+      "closedNote": "The year-round Walking Dead walkthrough on the Upper Lot is no longer operating. It ran daily from 2016 as a permanent maze with live performers, and Universal has not announced a permanent replacement for the space. Do not plan a visit around it; check Universal's own attraction list if you want to confirm the current status.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 5,
+        "darkness": 5,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 4,
+        "startles": 5,
+        "notes": "While it operated, this was by a distance the most frightening thing in the park and the only attraction here aimed squarely at adults. Live performers in prosthetics jumped out of the dark at close range, repeatedly. It was not suitable for children and was never marketed as though it were."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Listed for reference only — the attraction is not operating."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A permanent year-round horror maze with live performers that ran on the Upper Lot from 2016, and is no longer operating.",
+      "description": [
+        "The Walking Dead Attraction opened on the Upper Lot in 2016 and was unusual for two reasons: it was a year-round horror maze at a park that otherwise confines that material to a seasonal event, and it was the only attraction at Universal Studios Hollywood built for adults with no family-friendly reading at all.",
+        "The format was a short walkthrough of sets recreated from the television series — the hospital, the woods, the prison — with live performers in prosthetics working the dark corners. It ran continuously through the operating day rather than on a show cycle, and the queue was rarely long.",
+        "It is no longer operating and Universal has not announced a permanent replacement for the space. It remains a common search because it ran for the better part of a decade and appears in a great many older guides. If a source published before this listing tells you to allow half an hour for it, that source is out of date."
+      ],
+      "tips": [
+        "Do not build a plan around this attraction. It is not operating and there is no announced replacement.",
+        "If a guide or video published a few years ago recommends it, treat everything else in that source as needing a second look too.",
+        "The park's year-round line-up is now free of anything comparably frightening, which is worth knowing if a horror maze was the reason you were considering a ticket.",
+        "Check Universal's own attraction list before you travel if this specific attraction matters to you, rather than trusting any third-party guide including this one."
+      ],
+      "bestTime": "Not applicable — the attraction is not operating.",
+      "typicalWait": "Not applicable — the attraction is not operating.",
+      "faqs": [],
+      "relatedSlugs": [
+        "studio-tour",
+        "revenge-of-the-mummy"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-simpsons-ride",
+      "name": "The Simpsons Ride",
+      "land": "springfield",
+      "type": "simulator",
+      "opened": 2008,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 2,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "Nothing in the content frightens anyone — it is a cartoon throughout, with jokes aimed over children's heads. The problem is purely physical: the motion base is aggressive, the drops feel real, and the dome screen fills your entire field of view. Children who are fine with the story often are not fine with the ride."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": true,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a bench seat inside a simulator vehicle, with a step up and a lap restraint. There is no stationary seating option, which distinguishes it from Minion Mayhem."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A 2008 dome-screen simulator through a Springfield theme park, funny in writing and rough in motion.",
+      "description": [
+        "The Simpsons Ride opened in 2008 in the building that housed Back to the Future: The Ride, reusing the same style of attraction: a simulator vehicle facing an enormous domed screen, with a motion base doing the work. The premise sends the family through Krustyland, a theme park run by Krusty the Clown, while Sideshow Bob tries to kill them.",
+        "The writing is genuinely good. The gags are dense, the voice cast is the real one, and the whole thing is built as an affectionate attack on theme parks, which is a funnier idea inside a theme park than it has any right to be. The queue video alone is better written than most attractions manage in their entirety.",
+        "The ride mechanics have not aged as well. The dome format means the image fills your peripheral vision with no fixed reference point, and the motion base is abrupt. This is the single most reliable cause of motion sickness at Universal Studios Hollywood, and people who are fine on every other simulator here still occasionally lose an afternoon to it."
+      ],
+      "experience": [
+        "The queue is themed as the entrance to Krustyland and runs through a series of screens and gags that are worth actually watching rather than scrolling past. It is indoors and air conditioned for most of its length.",
+        "You climb a short flight into an eight-seat vehicle facing a domed screen, with a lap restraint. The film runs about four and a half minutes through a series of Krustyland attractions, each of which goes wrong, with the vehicle pitching, dropping and yawing to match.",
+        "The drops are the part people remember physically, and the dome is the part that causes the trouble. Because the image wraps past your peripheral vision, your inner ear gets no fixed point of reference. Sitting toward the back of the vehicle and fixing your eyes on the center of the screen reduces the effect, but does not remove it."
+      ],
+      "tips": [
+        "Do not ride this back to back with Minion Mayhem, Transformers or Forbidden Journey. Four screen simulators in a row is how people end up sitting on a bench for an hour.",
+        "Sit in the back row if you have a choice. The motion is slightly less severe and the screen distortion at the edges is less pronounced.",
+        "Watch the queue video properly. It is the best-written part of the attraction and most people walk past it looking at a phone.",
+        "There is no stationary seating option here, unlike Minion Mayhem. A child who cannot handle the motion cannot ride at all.",
+        "Ride it in the evening. The queue drops sharply after dark and Springfield is worth walking with the lights on anyway."
+      ],
+      "bestTime": "Evening, when the queue falls away and Springfield looks better with the lights on.",
+      "typicalWait": "Usually 20 to 45 minutes; longer in the middle of a summer afternoon.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for The Simpsons Ride?",
+          "a": "40 inches. There is no stationary seating alternative, so a child under 40 inches cannot experience it at all, unlike Despicable Me Minion Mayhem where a non-moving option exists."
+        },
+        {
+          "q": "Does The Simpsons Ride make people sick?",
+          "a": "More reliably than anything else at this park. The domed screen fills your peripheral vision while an abrupt motion base moves you, and that combination is a classic trigger. If you are at all susceptible, this is the one to skip."
+        },
+        {
+          "q": "Is The Simpsons Ride scary?",
+          "a": "Not in content — it is a cartoon and the tone is comic throughout. The intensity is entirely physical: sharp drops, fast pitching and a screen filling your whole field of view. Children are far more likely to be shaken than frightened."
+        },
+        {
+          "q": "Is it worth riding if I do not watch the show?",
+          "a": "The jokes work better with some familiarity, but the ride is legible without it — a theme park where everything goes wrong is a self-explanatory premise. The bigger question is whether you tolerate dome simulators, not whether you know the characters."
+        }
+      ],
+      "relatedSlugs": [
+        "despicable-me-minion-mayhem",
+        "transformers-the-ride-3d",
+        "harry-potter-and-the-forbidden-journey"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "harry-potter-and-the-forbidden-journey",
+      "name": "Harry Potter and the Forbidden Journey",
+      "land": "wizarding-world-of-harry-potter",
+      "type": "dark-ride",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 4.5,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 4,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 4,
+        "notes": "The two sequences that upset people are the acromantula nest, where enormous spiders come at the bench at close range, and the dementor sequence in near-total darkness. Both are genuinely intense and neither is brief. This is the scariest operating attraction at the park and the 48-inch requirement does not begin to describe how intense it is for a child who just cleared it."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a bench seat with an over-the-shoulder restraint. There is a test seat outside the entrance and it is worth using — the restraint geometry rules out a meaningful number of larger guests, and finding out at the loading platform after an hour in the queue is the worst possible outcome."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A robotic-arm dark ride through Hogwarts that pitches you past screens and practical sets, and the most intense ride in the park.",
+      "description": [
+        "Harry Potter and the Forbidden Journey opened with the Wizarding World here in April 2016 and is mechanically identical to the Orlando original. The ride system is a bench mounted on a robotic arm, which itself rides a track — meaning the vehicle can pitch, roll and turn to face any direction while moving through the building. When it was new it was the most sophisticated ride system in the world, and it still moves in ways nothing else does.",
+        "The queue is the other half of the attraction. It runs through Hogwarts: the greenhouses, the portrait gallery with the moving portraits arguing among themselves, Dumbledore's office, the Defense Against the Dark Arts classroom and the Gryffindor common room. On a quiet morning it is worth deliberately slowing down for, and there is a walk-through option for people who want the castle without the ride.",
+        "The ride alternates between practical sets with animatronics and enormous curved screens. That alternation is the reason it makes people sick: your eyes and inner ear are handed different information every twenty seconds. It has the highest motion sickness rate of anything at Universal Studios Hollywood, in a park that competes hard for that title."
+      ],
+      "experience": [
+        "You are seated four abreast on a bench with an over-the-shoulder restraint, and the bench detaches from the loading area onto the arm. The first movement is unusual and slightly alarming — the whole row tips backward and lifts, which nothing else prepares you for.",
+        "What follows is a flight around the castle grounds: a Quidditch match, a dragon, the Whomping Willow, an acromantula nest and a dementor sequence, cutting between screen projections and practical sets. The arm pitches you forward, rolls you sideways, and at points has you facing almost straight down.",
+        "The acromantula nest and the dementors are where children who just cleared 48 inches get into trouble. Both put things very close to the bench in low light, and neither is over quickly.",
+        "Ask for a seat on the end of the bench if you are prone to motion sickness. The outer positions travel through a smaller arc than the center, and the difference is noticeable."
+      ],
+      "tips": [
+        "Use the test seat outside the entrance before you queue. The over-the-shoulder restraint has a genuine size limit and the queue is the wrong place to discover it.",
+        "The single rider line is excellent here and cuts a long standby dramatically. The ride is not a shared experience in any meaningful sense, so you lose nothing by splitting up.",
+        "There is a castle walk-through option that gives you the queue without the ride. It is the right answer for anyone who wants to see Hogwarts but cannot or does not want to ride.",
+        "This is the worst ride in the park for motion sickness. Leave a large gap between this and The Simpsons Ride, and do not do both after a heavy meal.",
+        "Leave loose items in the free lockers outside. Nothing stays in a pocket on this ride and the enforcement at the platform is strict."
+      ],
+      "bestTime": "First 45 minutes of the day, or the last hour before close when the standby line collapses.",
+      "typicalWait": "Usually 40 to 75 minutes from mid-morning; single rider is often under 20.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Harry Potter and the Forbidden Journey?",
+          "a": "48 inches, which is the tallest requirement at Universal Studios Hollywood alongside Revenge of the Mummy. Clearing it is not the same as being ready for it — the spider and dementor sequences are intense for children who have only just made the height."
+        },
+        {
+          "q": "Does Forbidden Journey make you sick?",
+          "a": "It has the highest motion sickness rate of any attraction at this park. The ride alternates rapidly between screen projections and practical sets while the bench pitches and rolls, which hands your eyes and inner ear conflicting information. Sitting on the end of the bench helps a little."
+        },
+        {
+          "q": "Is there a size limit on Forbidden Journey?",
+          "a": "Yes. The over-the-shoulder restraint has to close fully, and it rules out a meaningful number of larger guests. There is a test seat outside the entrance — use it before you join the queue rather than after an hour in it."
+        },
+        {
+          "q": "Can I see Hogwarts Castle without riding?",
+          "a": "Yes. There is a castle walk-through option that takes you through the queue — the portrait gallery, Dumbledore's office, the Defense Against the Dark Arts classroom — and out again without boarding. Ask a team member at the entrance."
+        },
+        {
+          "q": "Is this the same ride as the one in Orlando?",
+          "a": "Mechanically, yes — the same robotic-arm system and broadly the same sequence of scenes. The difference between the two Wizarding Worlds is scale: Orlando has two lands in two parks connected by a train, while Hollywood has one village. The ride itself is not the reason to choose one coast over the other."
+        },
+        {
+          "q": "Is there a single rider line?",
+          "a": "Yes, and it is one of the most effective at this park. On a busy day it routinely takes a 60-minute posted wait down to under 20. You will be split from your group, which costs you nothing on this particular ride."
+        }
+      ],
+      "relatedSlugs": [
+        "flight-of-the-hippogriff",
+        "ollivanders",
+        "revenge-of-the-mummy",
+        "transformers-the-ride-3d"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "flight-of-the-hippogriff",
+      "name": "Flight of the Hippogriff",
+      "land": "wizarding-world-of-harry-potter",
+      "type": "roller-coaster",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 39,
+      "heightNote": null,
+      "durationMinutes": 1,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A first coaster in the truest sense: one modest lift hill, a few gentle banked curves and a small drop, all outdoors in daylight with nothing hidden. The only thing that upsets children is the lift hill itself, and it is over in seconds. Almost everyone who clears 39 inches is fine."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a small coaster car with a lap restraint and a fairly high step over the side. The queue is largely outdoors with limited shade, which is the main practical issue on a hot day."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A sixty-second family coaster past Hagrid's hut, with a queue routinely four times longer than the ride is.",
+      "description": [
+        "Flight of the Hippogriff is the Wizarding World's junior coaster, tucked behind Hogsmeade village next to a very good recreation of Hagrid's hut with Buckbeak standing outside it. It is a small steel coaster with one lift, a handful of banked turns and a modest drop, and it lasts about a minute from dispatch to brake run.",
+        "As a first roller coaster it is well judged. The 39-inch requirement is one of the lowest in the park, the pacing is gentle, nothing is hidden, and children who are nervous about coasters can see the entire layout from the queue before they commit. Plenty of people have their first coaster experience here.",
+        "As a use of your day it is difficult to defend at anything over a 30-minute wait. The capacity is low, the queue is mostly unshaded, and you are standing in Southern California heat for a ride shorter than the walk to it. Ride it early, or accept the trade knowingly."
+      ],
+      "experience": [
+        "The queue winds past Hagrid's hut, which is worth a proper look — it is one of the better small builds in the land, with the pumpkin patch and Buckbeak's paddock done at full scale. Most of the queue after that is switchbacks in the open.",
+        "You climb into a small car with a lap restraint. The lift hill takes maybe fifteen seconds, there is a short drop, then a run of banked turns and a small hill, and you are back at the station. The top speed is modest and there is never a moment of real force.",
+        "Sit in the back row if you want the most out of it — the drop pulls slightly harder there. In practice the difference between rows on a coaster this size is marginal."
+      ],
+      "tips": [
+        "Ride it in the first hour or skip it. Sixty seconds is not worth a 45-minute wait in an unshaded queue, and that is the standard midday trade here.",
+        "This is a good first coaster for a nervous child. The entire layout is visible from the queue, so they can see exactly what they are agreeing to.",
+        "At 39 inches it is one of the lowest thresholds in the park, which makes it a genuine option for families otherwise locked out by the 40-inch wall.",
+        "Rider switch is available, so an adult can wait with a smaller sibling and ride afterward without queuing again.",
+        "The queue has little shade. On a hot afternoon this is one of the least pleasant places to stand at Universal Studios Hollywood."
+      ],
+      "bestTime": "First hour of the day, or the last hour before close.",
+      "typicalWait": "Usually 25 to 50 minutes, which is badly out of proportion to a one-minute ride.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Flight of the Hippogriff?",
+          "a": "39 inches at Universal Studios Hollywood. That is one of the lowest thresholds in the park and lower than the 40-inch requirement that governs most of the other rides here."
+        },
+        {
+          "q": "Is Flight of the Hippogriff scary?",
+          "a": "Very little. It is a junior coaster with one modest lift hill, a small drop and gentle banked turns, all outdoors in full daylight. The whole layout is visible from the queue, which makes it an unusually good first coaster for a cautious child."
+        },
+        {
+          "q": "How long is the ride?",
+          "a": "About one minute from dispatch to the brake run. That is the central problem with it — the queue routinely runs 25 to 50 minutes for a ride shorter than the walk from the Wizarding World entrance."
+        },
+        {
+          "q": "Is it worth the wait?",
+          "a": "Under 20 minutes, yes, particularly for a child riding their first coaster. Over 30 minutes, no. Ride it in the first hour of the day when it is close to a walk-on and spend the afternoon queue time on something longer."
+        }
+      ],
+      "relatedSlugs": [
+        "harry-potter-and-the-forbidden-journey",
+        "ollivanders",
+        "hogsmeade-interactive-wands"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ollivanders",
+      "name": "Ollivanders",
+      "land": "wizarding-world-of-harry-potter",
+      "type": "show",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 10,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "The room is dim and the effects — wind, falling boxes, a shelf collapsing — are startling for a moment rather than frightening. Very young children occasionally jump at the first failed wand. Nothing here is designed to scare anyone."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The room is entered at ground level and there is no transfer required. It is standing room for a small group, and a wheelchair user can be positioned at the front. Being chosen for the ceremony is at the performer's discretion and they will accommodate a request made quietly beforehand."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A ten-minute wand ceremony for two dozen people at a time, and the best-executed small thing in the park.",
+      "description": [
+        "Ollivanders is a wand shop with a performance attached. Groups of roughly twenty-five are admitted into a dim room stacked floor to ceiling with wand boxes, a wandmaker appears, and one person from the group is chosen to be matched with a wand. Several attempts go badly — drawers fly open, wind blows, a shelf collapses — and then one works.",
+        "It is small, short and entirely analog, which in this park makes it stand out. There are no screens. The effects are practical and the performer is doing live work with a real audience, adjusting to whoever they picked. A good wandmaker makes it genuinely memorable for the child chosen, and pleasant for everyone else.",
+        "The commercial logic is unsubtle — the ceremony ends at the till and you are expected to buy a wand — but the experience holds up whether or not you do. If you are buying anyway, buying the wand you were just matched with is worth the two dollars of theater."
+      ],
+      "experience": [
+        "You queue outside the shop, usually in the sun, in a line that moves in batches as each ceremony finishes. The wait is genuinely short — a group goes in every ten minutes or so.",
+        "Inside, the room is dark, cluttered and cool, with wand boxes stacked to the ceiling. The wandmaker enters, works the room, and picks someone. Children waving enthusiastically get picked more often than adults do, which is not a coincidence.",
+        "Three wands are tried. Each failure produces a practical effect — wind, boxes falling, a shelf giving way — and each one is well timed. The successful match gets light and music, and the chosen child gets a genuinely good sixty seconds.",
+        "The group is then released into the shop, where you can buy the wand from the ceremony or any other. Interactive wands cost more than standard ones and are the only ones that work at the spell locations around the village."
+      ],
+      "tips": [
+        "Go in the morning or the evening. The line is short at both ends of the day and unpleasant in the sun in between.",
+        "Children who wave and make eye contact get chosen. Adults essentially never do. If your child wants to be picked, get them to the front of the group.",
+        "If you intend to buy a wand at all, buy the interactive model. The standard wands do not work at any of the spell locations and the disappointment is entirely avoidable.",
+        "You are not obliged to buy anything. The ceremony is free and nobody will stop you walking through the shop and out the other side.",
+        "This is one of the few attractions here with no screen in it at all, which makes it a good palate cleanser between simulators."
+      ],
+      "bestTime": "First hour of the day or after dark, when the line outside is short and out of the sun.",
+      "typicalWait": "Usually 10 to 25 minutes; groups are admitted every ten minutes or so.",
+      "faqs": [
+        {
+          "q": "How do you get chosen at Ollivanders?",
+          "a": "The wandmaker picks someone from the group, and children who are near the front, waving and making eye contact are picked far more often than anyone else. Adults are chosen occasionally but rarely. There is no way to book or guarantee it."
+        },
+        {
+          "q": "Do you have to buy a wand?",
+          "a": "No. The ceremony is free and the exit is through the shop, but nobody will pressure you. If you are buying anyway, the wand from the ceremony is the one to take."
+        },
+        {
+          "q": "What is the difference between interactive and standard wands?",
+          "a": "Interactive wands trigger the spell-casting locations scattered around Hogsmeade; standard wands do not. Interactive models cost noticeably more. Children who get the wrong one discover it at the first spell location, so check the box at the counter."
+        },
+        {
+          "q": "Is Ollivanders worth the time?",
+          "a": "Yes, and it is the best-executed small thing at this park. Ten minutes, no screens, live performance and practical effects, in a room that is dark and cool. It is a particularly good use of time in the middle of a hot afternoon."
+        }
+      ],
+      "relatedSlugs": [
+        "hogsmeade-interactive-wands",
+        "harry-potter-and-the-forbidden-journey",
+        "flight-of-the-hippogriff"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hogsmeade-interactive-wands",
+      "name": "Hogsmeade Spell-Casting Locations",
+      "land": "wizarding-world-of-harry-potter",
+      "type": "interactive-game",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Nothing here frightens anyone. The effects are small and mechanical — a fountain starts, a puppet moves, a window lights up — and they are triggered deliberately by the guest rather than sprung on them."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Spell locations are marked with medallions in the pavement and most can be reached from a seated position, though a few require a specific standing angle to trigger reliably. Team members in the area will help if a spell will not fire."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Around twenty hidden effects around Hogsmeade that fire when you cast at them, and only with an interactive wand.",
+      "description": [
+        "Scattered around the Hogsmeade village are roughly twenty marked spots where an interactive wand triggers a physical effect: a fountain runs, a shop window lights, a puppet dances, an umbrella opens. Bronze medallions in the pavement mark each location and show the wand movement required.",
+        "The system reads infrared reflectors in the wand tip through cameras hidden in the shopfronts. It works, but it needs the right movement at roughly the right distance and it is genuinely fiddly for a small child on the first few attempts. Team members stationed nearby will step in and coach, and they are good at it.",
+        "This is the reason to buy an interactive wand rather than a standard one, and the reason to budget an hour if you do. Children who get a wand and find one spell will want to find all of them, and the village is small enough that completing the set is realistic in a single visit."
+      ],
+      "tips": [
+        "Only interactive wands work. Standard wands, souvenir wands and character replicas will not trigger anything, and the difference is not obvious on the shelf.",
+        "One wand per child is enough — they will happily take turns and adults get very little out of holding their own.",
+        "Ask a nearby team member if a spell will not fire. They know the exact angle and distance each location needs and they will demonstrate it.",
+        "Do this in the evening. The medallions are easier to spot when the crowd thins and the village is at its best after dark anyway."
+      ],
+      "bestTime": "After dark, when the village empties and the lit effects read much better.",
+      "typicalWait": "No queue, though popular locations gather a small group at peak times.",
+      "faqs": [],
+      "relatedSlugs": [
+        "ollivanders",
+        "harry-potter-and-the-forbidden-journey"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mario-kart-bowsers-challenge",
+      "name": "Mario Kart: Bowser's Challenge",
+      "land": "super-nintendo-world",
+      "type": "dark-ride",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Nothing about the content is frightening — it is bright, cartoonish and slow-moving throughout. The sticking point for children is the AR visor, which sits over the eyes for the whole ride and cannot be removed while moving. Children who dislike anything on their face will not tolerate it, and there is no version without it."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a four-seat kart with a lap restraint. The AR visor clips to a headband or cap and is required for the ride to make sense; it works over glasses but takes adjusting. The queue is indoors and air conditioned for most of its length."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "An augmented-reality dark ride through a Mario Kart course, technically remarkable and genuinely frustrating to play.",
+      "description": [
+        "Mario Kart: Bowser's Challenge opened with Super Nintendo World in February 2023 and is the only ride in the land. You wear a visor clipped to a cap, sit in a four-seat kart on a trackless-feeling guided path, steer with a wheel and press a trigger to throw shells at targets projected into your view. The physical sets are built around you and the augmented reality layer adds karts, characters, shells and coins on top of them.",
+        "The engineering is genuinely impressive. Universal built an AR system that tracks head position accurately enough to place objects in a moving vehicle at the right depth, in a set full of practical scenery, and it works. The queue through Bowser's castle is also the best-built queue in the park, with a full-scale trophy room, a statue of Bowser, and detail that rewards a slow walk.",
+        "The gameplay is where it comes apart. The AR overlay is dim, targets are hard to aim at, steering barely affects anything, and it is difficult to tell at any point whether you are doing well. Riders regularly finish without knowing what happened. It is worth riding once for what it is; it is not worth ninety minutes."
+      ],
+      "experience": [
+        "The queue runs up through Bowser's castle, past the trophy room and a large Bowser statue, and it is genuinely good — this is one of the few queues at Universal Studios Hollywood built to be looked at. Team members hand out visors and headbands near the end.",
+        "You sit four abreast in a kart with a steering wheel in front of each seat and a trigger on it. Once the visor is down, the physical set fills in with projected racers, shells, coins and Bowser's minions. Steering nudges the kart within a narrow arc; the trigger throws shells at whatever you are looking at.",
+        "The course runs through Bowser's castle, an underwater section, Rainbow Road and a finish, with the physical sets carrying most of the visual weight and the AR adding the race on top. The motion is mild throughout — no drops, no speed to speak of.",
+        "It ends with a score, which is where most riders discover they have no idea how the scoring worked. The visor comes off, and the whole thing feels more like a demonstration of a technology than a game you played."
+      ],
+      "tips": [
+        "Ride it once, early. It is worth doing and it is not worth a long wait, and the queue here builds faster than anywhere else in the park.",
+        "The single rider line works and cuts the wait substantially. You lose nothing by riding apart, because the gameplay is individual anyway.",
+        "Aim by turning your head, not by steering. The trigger throws at whatever is in the center of your view, and people who try to aim with the wheel score almost nothing.",
+        "The visor works over glasses but takes a moment to seat properly. Sort it out in the station rather than after the kart has left.",
+        "If a child in your group dislikes things on their face, do not queue for this. There is no version of the ride without the visor and no way to bail once you are moving."
+      ],
+      "bestTime": "At opening, or in the last two hours. The middle of the day is the worst wait in the park.",
+      "typicalWait": "Usually 45 to 90 minutes from mid-morning; single rider is often half that or better.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Mario Kart: Bowser's Challenge?",
+          "a": "40 inches. That is the same threshold as Transformers, The Simpsons Ride and Despicable Me Minion Mayhem, and it is the number that decides how much of this park a family can actually do."
+        },
+        {
+          "q": "Do you have to wear the AR visor?",
+          "a": "Yes. The visor is required and there is no alternative version of the ride. It clips to a headband or cap, works over glasses, and cannot be removed while the kart is moving. Children who dislike anything on their face will not tolerate it."
+        },
+        {
+          "q": "Is Mario Kart: Bowser's Challenge any good?",
+          "a": "It is technically remarkable and frustrating to play. The AR overlay is dim, aiming is imprecise, steering has little effect, and most riders finish unclear on how they scored. Ride it once for the queue and the engineering. Do not spend ninety minutes on it."
+        },
+        {
+          "q": "Is it scary or intense?",
+          "a": "Neither. There are no drops, the speed is low, and the tone is bright throughout. The only real barrier is the visor. It is one of the gentlest rides at the park in physical terms."
+        },
+        {
+          "q": "Do I need a Power-Up Band to ride?",
+          "a": "No. The band is for the Key Challenge game layer around the land, not for the ride. You can ride Mario Kart without one, and most adults should."
+        }
+      ],
+      "relatedSlugs": [
+        "power-up-band-key-challenges",
+        "meet-mario-and-friends",
+        "harry-potter-and-the-forbidden-journey"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "power-up-band-key-challenges",
+      "name": "Power-Up Band Key Challenges",
+      "land": "super-nintendo-world",
+      "type": "interactive-game",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Nothing here frightens anyone. The challenges are physical puzzles at ground level with cartoon sound effects. The only distress this generates is competitive, between siblings."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The courtyard is largely navigable in a wheelchair, but two of the Key Challenges require reaching or standing at a specific position, and the question blocks are mounted at a standing child's height. The game layer relies heavily on visual cues and app feedback."
+      },
+      "tier": "major",
+      "standalonePage": true,
+      "summary": "A wearable-band scavenger hunt across Super Nintendo World, with three hidden keys, a Bowser Jr. finale, and an hour of a child's attention.",
+      "description": [
+        "The Power-Up Band is a wristband sold in Super Nintendo World that pairs with the Universal app and turns the whole land into a game. Punching question blocks collects digital coins. Three Key Challenges hidden around the courtyard — puzzle mechanisms built into the scenery rather than screens — each yield a key. Collect all three and you unlock a final confrontation with Bowser Jr.",
+        "It is the reason this land is worth more than twenty minutes. Without a band, Super Nintendo World is one ride, one restaurant and a very good-looking courtyard. With one, a child has an hour of structured hunting in an environment built for it, and the physical challenges are properly designed — you are turning, pushing and timing things rather than tapping a screen.",
+        "The economics need thinking about. Bands cost real money, one per child, and adults get considerably less out of them. Families who buy four bands and then leave the land in half an hour have wasted the money. Families who buy one or two and commit the time get the best value in the park."
+      ],
+      "experience": [
+        "You buy a band, tap it to your app account, and the game starts immediately — question blocks around the courtyard respond to a punch with a coin sound and a tally in the app. Children work this out in about four seconds without instruction.",
+        "The three Key Challenges are the substance. Each is a built mechanism hidden in a corner of the land, with its own rules, and none of them are obvious from the walkway. Working out where they are is part of it, and team members will nudge you if you are stuck.",
+        "With three keys collected, the Bowser Jr. finale opens up as a final challenge. Children who get there are extremely pleased with themselves, which is a fair measure of whether the band was worth buying.",
+        "Everything ties back to the app, which also tracks your coin total against other guests. That leaderboard is a bigger motivator for a ten-year-old than anything else at this park."
+      ],
+      "tips": [
+        "Buy one band per child and none for the adults. Children will share happily and grown-ups get very little out of holding their own.",
+        "Do not buy bands unless you are staying in the land for at least an hour. The value is entirely in completing the Key Challenges, and a rushed visit wastes the money.",
+        "Charge your phone. The whole game layer runs through the Universal app and a dead battery ends it.",
+        "Ask a team member where a Key Challenge is if you cannot find it. Two of the three are genuinely hidden and there is no shame in it.",
+        "Do this at opening or in the last two hours. Working the challenges in a packed midday courtyard is much less fun than it sounds."
+      ],
+      "bestTime": "At opening or the last two hours, when the courtyard is walkable and the challenges are not queued.",
+      "typicalWait": "No queue as such, though each Key Challenge gathers a short line at peak times.",
+      "faqs": [
+        {
+          "q": "Do you need a Power-Up Band at Super Nintendo World?",
+          "a": "Not to ride Mario Kart or eat at Toadstool Cafe. You do need one to play the question blocks, the Key Challenges and the Bowser Jr. finale, which is most of what makes this land worth more than twenty minutes."
+        },
+        {
+          "q": "How many Power-Up Bands should I buy?",
+          "a": "One per child, and none for the adults. Children share readily, and grown-ups get very little out of holding their own band. Families who buy four and then leave the land after thirty minutes have wasted the money."
+        },
+        {
+          "q": "How long do the Key Challenges take?",
+          "a": "Budget an hour for all three plus the Bowser Jr. finale, longer at busy times when each challenge has a short line. If you cannot spare that, skip the bands entirely."
+        },
+        {
+          "q": "Does the band work anywhere else in the park?",
+          "a": "No. The game layer only exists inside Super Nintendo World. Outside the land the band is a wristband and nothing more, though it does keep working across the same day if you leave and come back."
+        }
+      ],
+      "relatedSlugs": [
+        "mario-kart-bowsers-challenge",
+        "meet-mario-and-friends",
+        "hogsmeade-interactive-wands"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "meet-mario-and-friends",
+      "name": "Meet Mario, Luigi and Princess Peach",
+      "land": "super-nintendo-world",
+      "type": "character-meet",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A standard outdoor character meeting with nothing to frighten anyone. Very small children occasionally find the full-head costumes unsettling at close range, which is true of costumed characters everywhere and resolves if you approach slowly."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Ground-level meeting with no transfer required. Performers will come down to a seated guest's height. The queue is outdoors with limited shade."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Character meetings in the Super Nintendo World courtyard, with queues that run longer than the ride's on some mornings.",
+      "description": [
+        "Mario, Luigi and Princess Peach appear in the Super Nintendo World courtyard on a rotating schedule, meeting guests against the backdrop of the land rather than in a dedicated building. The costumes are among the better full-head character suits in operation and the performers are well drilled at working with small children.",
+        "The queue is the surprise. On busy mornings the line to meet Mario has been known to run longer than the wait for the ride, partly because the character set is small and partly because this is the only place in the United States outside Epic Universe to meet these characters in this setting.",
+        "Check the app for appearance times rather than hoping. The schedule is published, the sets are relatively short, and turning up at the wrong moment costs you a walk across the land."
+      ],
+      "tips": [
+        "Check the app for the posted appearance times. The sets are short and there are long gaps between them.",
+        "Do this at opening if it matters to your children. By late morning the line is frequently longer than the Mario Kart queue.",
+        "The courtyard has almost no shade and the queue is in the open. On a hot day, weigh that against how much the photograph is worth.",
+        "Approach small children slowly. The full-head costumes are excellent and precisely for that reason some toddlers find them alarming at close range."
+      ],
+      "bestTime": "The first appearance of the day, before the land fills.",
+      "typicalWait": "Usually 20 to 40 minutes, and occasionally longer than the ride queue on busy mornings.",
+      "faqs": [],
+      "relatedSlugs": [
+        "mario-kart-bowsers-challenge",
+        "power-up-band-key-challenges"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jurassic-world-the-ride",
+      "name": "Jurassic World — The Ride",
+      "land": "lower-lot",
+      "type": "water-ride",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 4,
+        "drops": 4,
+        "speed": 3,
+        "loudness": 4,
+        "startles": 4,
+        "notes": "The first two thirds are a gentle boat ride past dinosaurs in daylight. Then the boat goes indoors, the lighting drops, the Indominus rex appears at close range, and the ride finishes with an 84-foot drop in near-darkness. That drop is the tallest at the park and it is genuinely steep. Children who clear 42 inches frequently are not ready for it."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a boat from a moving platform, stepping down over a raised sill. You will get wet, which for some conditions matters more than the transfer does. Lockers are available near the entrance and should be used."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A boat ride through a dinosaur park that goes badly wrong, ending in an 84-foot drop in the dark — the best big ride here.",
+      "description": [
+        "Jurassic World — The Ride is the 2019 retheme of Jurassic Park: The Ride, which opened on the Lower Lot in 1996 and was for years the most expensive attraction ever built. The bones of the original are intact: a boat drifts through a dinosaur preserve, something goes wrong, and the escape route is an 84-foot drop through the dark. The 2019 work updated the scenery, the animatronics and the story to the newer films.",
+        "The animatronics are the reason to ride. The Mosasaurus in the lagoon at the start is enormous, the Stegosaurus and Parasaurolophus sequences are well staged, and the Indominus rex in the final building is one of the biggest figures Universal operates. It is also the only ride at Universal Studios Hollywood where the scenery does most of the work rather than a screen.",
+        "The drop is the headline. Eighty-four feet, steep, in near-darkness, and considerably more severe than the family-boat-ride framing prepares people for. It also produces a genuine soaking rather than a splash, which matters if you have a long walk and a set of escalators between you and your car."
+      ],
+      "experience": [
+        "You board a boat from a moving platform and drift out into the lagoon, where the Mosasaurus rises out of the water at close range — a good, cheap thrill in the first ninety seconds. The early sections are slow, bright and full of herbivores.",
+        "The mood turns when the boat is diverted off course into the containment building. The lighting drops, alarms start, and the scale of the animatronics steps up sharply. The Indominus rex sequence in the dark is the best single moment at Universal Studios Hollywood.",
+        "The lift hill takes you up in near-total darkness with the sound of something following you, and then the drop. It is 84 feet, steep, and the wave at the bottom soaks the front two rows completely and everyone else substantially.",
+        "Sit in the back if you want to stay drier. Sit in the front if you want the full effect. There is no middle option that keeps you dry."
+      ],
+      "tips": [
+        "Ride it first thing. This is the best thing on the Lower Lot and the Lower Lot is nearly empty in the first hour while everyone else is up top.",
+        "You will get soaked, not splashed. Use the lockers by the entrance for phones and bags, and think hard about riding this at 7pm in February.",
+        "The single rider line works well here and is one of the most effective at the park.",
+        "The front row gets the worst of the water and the best view of the Indominus rex. Pick your priority before you reach the platform.",
+        "Children who just cleared 42 inches often handle the dinosaurs fine and are genuinely shaken by the drop. It is much steeper and darker than the rest of the ride suggests."
+      ],
+      "bestTime": "The first hour of the day, when the Lower Lot is empty, or a hot afternoon when the soaking is a benefit.",
+      "typicalWait": "Usually 30 to 60 minutes from mid-morning; often under 15 in the first hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Jurassic World — The Ride?",
+          "a": "42 inches. That is two inches above the 40-inch threshold that governs most of this park, and it locks out a band of children who can do Transformers and Mario Kart but not this."
+        },
+        {
+          "q": "How wet do you get on Jurassic World — The Ride?",
+          "a": "Soaked, not splashed. The 84-foot drop throws a large wave over the boat and the front two rows take the worst of it. Use the lockers, and think twice about riding late in the day when you still have the Starway escalators between you and the exit."
+        },
+        {
+          "q": "How big is the drop?",
+          "a": "84 feet, in near-total darkness, and it is steep. It is the tallest drop at Universal Studios Hollywood by a wide margin and the part of the ride that surprises people who assumed a boat ride through a dinosaur park would be gentle."
+        },
+        {
+          "q": "Is it scary for children?",
+          "a": "The first two thirds are not. The final building is dark and loud with a very large Indominus rex at close range, and then there is the drop. Children who have just cleared 42 inches frequently find the ending too much even when the dinosaurs were fine."
+        },
+        {
+          "q": "Is this the same as the Orlando version?",
+          "a": "No. Orlando's Islands of Adventure has Jurassic World VelociCoaster and a separate river adventure; Hollywood's is the original 1996 river ride, rethemed in 2019 with newer animatronics and story. The Hollywood version has the better final animatronic; Orlando has the better coaster."
+        }
+      ],
+      "relatedSlugs": [
+        "revenge-of-the-mummy",
+        "transformers-the-ride-3d",
+        "raptor-encounter",
+        "the-starway"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "revenge-of-the-mummy",
+      "name": "Revenge of the Mummy",
+      "land": "lower-lot",
+      "type": "roller-coaster",
+      "opened": 2004,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 5,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 5,
+        "startles": 5,
+        "notes": "This is the most frightening operating attraction at the park. It runs in total darkness, launches hard, reverses without warning, and includes a ceiling of fire you feel as heat on your face. There is a false ending that catches almost everyone the first time. Clearing 48 inches says nothing about whether a child is ready for it."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a coaster car with a lap restraint. All loose articles must go in the free lockers before the queue — enforcement at the platform is strict and there is no pocket that will hold anything through this ride."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "An indoor launched coaster in total darkness with fire, a reverse section and a false ending — the park's only real roller coaster.",
+      "description": [
+        "Revenge of the Mummy opened on the Lower Lot in 2004 and is the only genuine roller coaster at Universal Studios Hollywood. It is an indoor, fully enclosed, electromagnetically launched coaster with a themed first act: you move slowly through Egyptian tomb sets, an animatronic Imhotep threatens the car, and then the launch takes the whole thing from a walking pace to full speed in about two seconds.",
+        "The Hollywood version is the shorter of the two Revenge of the Mummy coasters. Orlando's is longer, with more show scenes between the coaster sections. What Hollywood keeps is the essential structure: a slow scare-setup, a hard launch, a run through total darkness with a reverse segment and a fire effect, and a false ending that is one of the best-executed gags in any theme park.",
+        "The darkness is what makes it work. There is no reference point, no advance warning of a turn, and no lighting except the deliberate effects. Riders who are comfortable with much bigger outdoor coasters find this one genuinely disorienting, and that is the intended effect rather than a flaw."
+      ],
+      "experience": [
+        "The queue runs through an Egyptian excavation site and into a tomb, well themed and mercifully indoors. Free lockers at the entrance are compulsory in practice — nothing survives this ride in a pocket.",
+        "The ride opens slowly. The car climbs through tomb chambers with scarab effects and an Imhotep animatronic, everything gets dark, and there is a moment of stillness that is the setup for what follows. Then the launch, which is abrupt and hard.",
+        "The coaster section runs in near-total darkness at speed, with a reverse segment, banked turns you cannot see coming, and a ceiling of fire above the track that you feel as real heat. It is short — the whole ride is about two minutes — and relentless while it lasts.",
+        "The false ending is the part people talk about afterward. The car comes to a stop, the lights come up, everything appears to be over, and it is not. Do not spoil it for anyone; it is the best moment on the ride."
+      ],
+      "tips": [
+        "Use the free lockers. Enforcement is strict, there is nowhere to hold anything, and phones do not survive the launch in a lap.",
+        "Ride it first thing. The Lower Lot is close to empty in the first hour and this is often a walk-on before ten in the morning.",
+        "The single rider line is short and effective. In total darkness you cannot see who you are sitting with anyway.",
+        "Do not tell first-time riders about the ending. It is the best gag at the park and it only works once.",
+        "The fire effect above the track produces genuine heat, and the whole ride runs in true darkness with no reference points. Clearing 48 inches does not mean a child is ready for it."
+      ],
+      "bestTime": "The first hour of the day, or the last hour before close when the Lower Lot empties out.",
+      "typicalWait": "Usually 25 to 50 minutes from mid-morning; frequently under 15 in the first hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Revenge of the Mummy?",
+          "a": "48 inches, the tallest at Universal Studios Hollywood alongside Harry Potter and the Forbidden Journey. It is also the most intense ride here, and clearing the height says very little about whether a child will enjoy it."
+        },
+        {
+          "q": "Is Revenge of the Mummy scary?",
+          "a": "It is the most frightening operating attraction at this park. The whole ride is in darkness, the launch is abrupt, there is a reverse section, a fire effect you feel as heat, and a false ending. Riders comfortable with big outdoor coasters still find it disorienting."
+        },
+        {
+          "q": "Does Revenge of the Mummy go upside down?",
+          "a": "No. It has no inversions. It does have a backward section, sharp unlit turns and a hard launch, and the darkness makes all of it feel more extreme than the layout is on paper."
+        },
+        {
+          "q": "How does it compare to the Orlando version?",
+          "a": "Hollywood's is the shorter of the two. Orlando's has more show scenes between the coaster sections and a longer track. The core — the launch, the darkness, the fire, the false ending — is the same, and Hollywood's is the more compact, more relentless ride of the two."
+        },
+        {
+          "q": "Do I need to use a locker?",
+          "a": "Yes, in practice. Free lockers sit outside the queue and platform enforcement is strict. There is no safe place to hold a phone, a hat or a bag through the launch and the reverse section."
+        }
+      ],
+      "relatedSlugs": [
+        "jurassic-world-the-ride",
+        "transformers-the-ride-3d",
+        "harry-potter-and-the-forbidden-journey"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "transformers-the-ride-3d",
+      "name": "Transformers: The Ride-3D",
+      "land": "lower-lot",
+      "type": "dark-ride",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 40,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "multi-pass",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 4,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 5,
+        "startles": 4,
+        "notes": "Relentless rather than frightening. The vehicle moves fast and unpredictably through a dark building, the volume is the highest of any ride here, and there is a simulated fall from a great height near the end. Children are more likely to be overwhelmed by the noise and pace than scared by anything specific."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "You must transfer out of a wheelchair or ECV into a twelve-seat vehicle with a lap restraint. The queue is indoors and air conditioned for most of its length. Almost all of the content is projected, so guests with significant vision loss get little beyond the motion and the sound."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "A motion-base dark ride through a Transformers battle, technically excellent, extremely loud, and hard on the inner ear.",
+      "description": [
+        "Transformers: The Ride-3D opened on the Lower Lot in 2012, using the same ride system as Spider-Man at Islands of Adventure: a motion-base vehicle on a track, moving between enormous 3D screens with practical sets, effects and lighting between them. The premise is that you are riding an autonomous vehicle helping the Autobots protect an artifact from Megatron.",
+        "It is the most technically accomplished screen ride at the park, and by some distance the loudest thing on the property. The synchronization between the vehicle's motion and the projected action is genuinely good — there is a sequence where you appear to fall from the top of a building that works far better than it has any right to.",
+        "It is also unrelenting. Five minutes of continuous noise, motion and cutting, with almost no pause anywhere in it. People who enjoy that come off elated. People who do not come off needing to sit down, and the motion sickness rate here is second only to Forbidden Journey and The Simpsons Ride."
+      ],
+      "experience": [
+        "The queue is themed as a NEST military base with briefing screens and equipment, entirely indoors and air conditioned, which is worth something on the Lower Lot in August. You are handed 3D glasses at the end.",
+        "The vehicle seats twelve across three rows and moves off immediately into the action. What follows is a continuous chase: the vehicle spins, tilts, drops and accelerates between screens, with practical fire, smoke and air effects filling the gaps.",
+        "The standout sequence is a simulated fall down the side of a building, where the motion base pitches the vehicle forward and the screen does the rest. It is the best-executed illusion at the park.",
+        "The middle row gives the least distorted 3D image. The back row takes the motion harder, which some riders prefer and some very much do not."
+      ],
+      "tips": [
+        "Ride it in the first hour with the rest of the Lower Lot. Doing Jurassic World, Revenge of the Mummy and this back to back before 10am is the most efficient block of the day.",
+        "Do not stack this with The Simpsons Ride, Forbidden Journey or Minion Mayhem in the same hour. Those four together are how people lose an afternoon.",
+        "The middle row gives the cleanest 3D image and the least motion. Ask for it if you have a choice.",
+        "The single rider line is effective and, given that this ride is a wall of noise, you lose nothing by sitting apart.",
+        "This is the loudest attraction at Universal Studios Hollywood. If anyone in your group uses ear defenders, this is the ride to bring them for."
+      ],
+      "bestTime": "The first hour of the day, alongside the other two Lower Lot rides.",
+      "typicalWait": "Usually 30 to 60 minutes from mid-morning; often under 15 in the first hour.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Transformers: The Ride-3D?",
+          "a": "40 inches, the same as The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge. Forty inches is the threshold that decides how much of this park a family can do."
+        },
+        {
+          "q": "Does Transformers make you sick?",
+          "a": "For susceptible riders, frequently. Five minutes of continuous motion synchronized to full-field 3D projection is a reliable trigger. It ranks behind Forbidden Journey and The Simpsons Ride at this park, which is not much of a reassurance."
+        },
+        {
+          "q": "Is Transformers scary for children?",
+          "a": "More overwhelming than frightening. There is nothing designed to terrify, but the volume is the highest of any ride here, the pace never lets up, and there is a simulated fall from a great height. Younger children tend to find it too much rather than too scary."
+        },
+        {
+          "q": "Which row is best?",
+          "a": "The middle row gives the cleanest 3D image and the least aggressive motion. The back row amplifies everything, which some riders prefer. The front sits close enough to the screens that the edges of the projection become noticeable."
+        },
+        {
+          "q": "Is it the same ride as the one in Orlando?",
+          "a": "It was built to the same design, and Hollywood's opened first in 2012. If you have ridden one, you have effectively ridden the other. It shares its ride system with Spider-Man at Islands of Adventure, which is the more charming use of the same technology."
+        }
+      ],
+      "relatedSlugs": [
+        "revenge-of-the-mummy",
+        "jurassic-world-the-ride",
+        "the-simpsons-ride"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "raptor-encounter",
+      "name": "Raptor Encounter",
+      "land": "lower-lot",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 2,
+        "startles": 3,
+        "notes": "The raptor is a puppet operated by performers and it behaves like a predator — it tracks movement, snaps, and lunges toward the guest being photographed. That is the entire point and it is very well done, which is also why a meaningful number of small children want nothing to do with it once they see it working."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Ground-level meeting with no transfer required and a short approach. Handlers control the pace and will keep the raptor at a distance if you ask, which is worth doing for a nervous child."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "A puppeteered velociraptor on the Lower Lot that behaves like an animal rather than a costume, and it is better than it sounds.",
+      "description": [
+        "The Raptor Encounter is a character meeting on the Lower Lot near Jurassic World — The Ride, and it is the most convincing piece of live performance in the park after WaterWorld. The raptor is a full-body puppet worked by performers inside and out, with handlers in character managing the interaction as if the animal were genuinely dangerous.",
+        "What makes it work is that the raptor never breaks. It tracks movement across the queue, reacts to noise, snaps at handlers, and lunges at whoever is being photographed. Nothing about it behaves like a costumed character posing for pictures, and adults who queue for it out of curiosity come away impressed.",
+        "It is also the reason a number of small children refuse to go anywhere near it, which is a compliment to the puppeteering. Handlers will hold the animal at a distance if you ask, and a photograph from six feet back still looks like a photograph with a raptor."
+      ],
+      "tips": [
+        "Ask the handlers to hold the raptor back if your child is nervous. They will, and the photograph still works from a few feet further away.",
+        "Do not wave your arms. The raptor tracks movement, and that is what triggers the lunge — which is fine if you were expecting it and less fine if you were not.",
+        "This is the best character meeting in the park, which surprises people who wrote it off as a photo stop.",
+        "Combine it with your one trip down to the Lower Lot rather than making a special journey. The escalators are not worth a photograph on their own."
+      ],
+      "bestTime": "Whenever you are already on the Lower Lot for the rides; the queue is rarely long.",
+      "typicalWait": "Usually 10 to 25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "jurassic-world-the-ride",
+        "transformers-meet-and-greet"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "transformers-meet-and-greet",
+      "name": "Transformers Character Meetings",
+      "land": "lower-lot",
+      "type": "character-meet",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "The costumes are very tall and the voices are processed and loud, which is enough to intimidate a small child at close range. Nothing about the interaction is aggressive and the performers are practiced at reading a nervous approach."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Ground-level meeting with no transfer required. The performers will come down to a seated guest's height, though the costumes limit how far they can bend."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Optimus Prime and Bumblebee appear outside the Transformers ride, and the costumes are considerably better than they need to be.",
+      "description": [
+        "Optimus Prime and Bumblebee appear on a rotating schedule outside the Transformers ride on the Lower Lot. The costumes are large, articulated and genuinely well built, with working lights and processed voices, and the performers stay in character throughout.",
+        "It is a straightforward photo stop rather than an experience, but the scale of the suits makes it a better one than most. Optimus Prime in particular is tall enough that the photographs work without any special framing.",
+        "Because it sits on the Lower Lot, the queue is almost always shorter than an equivalent character meeting up top. If you are already down here for the rides, it costs you ten minutes."
+      ],
+      "tips": [
+        "Check the app for appearance times. The sets are short and the gaps between them are long.",
+        "Stand back a little for the photograph. The costumes are tall enough that a close shot cuts the head off.",
+        "The voices are loud and processed, which is enough to startle a small child on a first approach. Give them a moment before stepping in.",
+        "Fold this into your single trip to the Lower Lot rather than coming back down for it."
+      ],
+      "bestTime": "Whenever you are already on the Lower Lot for the rides.",
+      "typicalWait": "Usually 10 to 20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "transformers-the-ride-3d",
+        "raptor-encounter"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-starway",
+      "name": "The Starway",
+      "land": "lower-lot",
+      "type": "transportation",
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Not an attraction and nothing here is designed to affect anyone, but the escalators are long, steep and open, with a substantial drop visible beside them. Guests with a fear of heights find the descent genuinely uncomfortable, and it is worth knowing that before you are standing on it."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "The escalators themselves are not usable by wheelchair or ECV guests, and are difficult with a loaded stroller. There is an accessible route between the two lots that avoids them — ask at Guest Relations on your way into the park and confirm with a team member at the top of the Starway, because it is not well signposted."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "Not an attraction: four long outdoor escalators between the Upper and Lower Lot, and the single biggest drain on your day here.",
+      "description": [
+        "The Starway is a chain of four long outdoor escalators connecting the Upper Lot to the Lower Lot down the hillside. It is listed here because it behaves like an attraction in every way that matters to planning: it has a queue at peak times, it takes real minutes, and it is the reason people fail to see half of this park.",
+        "Four to five minutes each way when everything is running, longer when a section is out of service or the crowd backs up at the top. Coming up at the end of the night, on tired legs, it feels considerably longer than going down. There are landings between sections with views out over the Valley, which is a genuine consolation on the way up.",
+        "The planning consequence is simple and it is the most useful thing to know about Universal Studios Hollywood: go down once, do all three Lower Lot rides, and come back up once. Every additional round trip costs you close to fifteen minutes of walking you will not have budgeted for."
+      ],
+      "tips": [
+        "Go down once and come up once. Plan the whole day around that and you will get more out of this park than any other single decision achieves.",
+        "There is an accessible route between the lots that does not use the escalators. Ask at Guest Relations on your way in — it is not signposted where you would expect.",
+        "Use the restrooms and buy drinks on the Upper Lot before you go down. The Lower Lot has far less of everything.",
+        "Do not come back up for lunch and go down again. Eat on the Lower Lot or wait until you are back up top.",
+        "If a section is out of service, expect the queue at the top to back up substantially. Check before committing to a late trip down."
+      ],
+      "bestTime": "Once at the start of the day going down, and once when you are finished with the Lower Lot.",
+      "typicalWait": "No queue most of the day; a few minutes at the top during peak arrival and departure periods.",
+      "faqs": [],
+      "relatedSlugs": [
+        "jurassic-world-the-ride",
+        "revenge-of-the-mummy",
+        "transformers-the-ride-3d"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

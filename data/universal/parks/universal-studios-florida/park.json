@@ -1,0 +1,664 @@
+{
+  "slug": "universal-studios-florida",
+  "name": "Universal Studios Florida",
+  "shortName": "Universal Studios",
+  "resort": "universal-orlando",
+  "resortName": "Universal Orlando Resort",
+  "opened": "1990-06-07",
+  "sizeAcres": 108,
+  "location": "Orlando, Florida",
+  "coordinates": {
+    "lat": 28.4752,
+    "lng": -81.4686
+  },
+  "tagline": "The screen-heavy studio park. Diagon Alley is the reason to come; 40 inches is the gate.",
+  "summary": "A backlot-street park built around Diagon Alley and a ride list that leans harder on screens than any other major park in the United States. Nine attractions carry a height stick, the tallest at 51 inches, and the motion sickness risk here is real rather than theoretical.",
+  "intro": [
+    "Universal Studios Florida opened on June 7, 1990 as a working production facility that guests could tour. Almost none of that survives. What stands now is a park laid out as a series of movie-backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions dropped into the buildings behind them. The studio framing is architecture, not a working business.",
+    "The single most consequential thing about this park is The Wizarding World of Harry Potter – Diagon Alley, which opened in July 2014 and is the best-built environment Universal has produced in Florida outside Epic Universe. It is also the reason the ticket question matters. The Hogwarts Express runs only between this park and Islands of Adventure, and boarding it in either direction requires a park-to-park ticket. On a one-park ticket you can still walk into Diagon Alley, ride Escape from Gringotts, drink the Butterbeer and eat at the Leaky Cauldron. What you cannot do is ride the train, which is a real attraction with two different shows depending on which way you are travelling, and you cannot do the Hogsmeade half of the story at all. If Harry Potter is the reason you booked Universal, buy park-to-park and do not think about it again.",
+    "The second thing to understand is what this park's rides actually are. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all screens in front of a motion base or a moving vehicle, and Escape from Gringotts and Men in Black are heavily screen-assisted too. Most guides describe this as a strength and move on. It is worth saying plainly instead: if anyone in your group gets sick on simulators, this is the hardest park in Orlando for them, harder than Hollywood Studios and much harder than Magic Kingdom. Three of the four screen rides in a single morning will do it to people who thought they were fine.",
+    "Heights are the third constraint. Nine attractions have a requirement and it runs from 34 inches at E.T. Adventure to 51 inches at Hollywood Rip Ride Rockit, which is the tallest stick at any Orlando theme park other than the biggest coasters at Islands of Adventure. A child at 36 inches can ride two things here. At 40 they can ride six. At 51 they can ride everything. That number decides whether this park is worth a full day for your family, and no amount of shows and character meets changes the arithmetic.",
+    "Used well it is a one-day park with a hard front load: be at the gates before opening, take Diagon Alley or Rip Ride Rockit in the first hour, and use the single rider lines, which are more numerous and more useful here than at any Disney park. Universal Express Pass is sold on the day and included for every guest staying in a room at the three top-tier hotels, and on a busy day that inclusion is worth more than the room upgrade costs."
+  ],
+  "bestFor": [
+    "Harry Potter readers doing both Wizarding Worlds",
+    "Teenagers and adults who clear 51 inches",
+    "Thrill riders who want coasters that run in the dark",
+    "Adults on a short Orlando trip",
+    "Solo riders and pairs who will actually use single rider lines"
+  ],
+  "notIdealFor": [
+    "Families whose youngest child is under 40 inches",
+    "Anyone who reliably gets motion sick on simulators",
+    "Guests on a one-park ticket who came for Harry Potter",
+    "Toddlers and preschoolers",
+    "Visitors who want a slow, wandering, low-intensity park day"
+  ],
+  "stats": {
+    "attractionCount": 31,
+    "ridesWithHeightRequirements": 9,
+    "tallestRequirement": 51,
+    "typicalFullDayHours": "8-10 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "production-central",
+      "name": "Production Central",
+      "order": 1,
+      "opened": 1990,
+      "summary": "The entrance area and soundstage district, holding the park's only outdoor coaster and its loudest screen ride.",
+      "description": [
+        "Production Central is what you walk into: a plaza of white soundstage exteriors, a music stage, and the two biggest buildings in the front half of the park. It was designed to read as the working end of a studio lot, and it is the least themed part of the park by some distance. Nobody lingers here for atmosphere.",
+        "The two attractions carry it. Hollywood Rip Ride Rockit is the tall X-Car coaster whose first element is a vertical lift you can see from the parking garages, and it carries the highest height requirement in the park at 51 inches. Transformers: The Ride-3D sits in the building beside it and is the park's most aggressive screen ride, a motion-base vehicle thrown through a 3D fight sequence for about four and a half minutes.",
+        "Both have single rider lines and both are Universal Express eligible, which makes this a good place to bank rides late in the day when the rest of the park is congested. Rip Ride Rockit in particular runs a single rider queue that is frequently a quarter of the standby time, because the ride loads two per row and singles fill gaps constantly.",
+        "Practically, this is also the corridor everyone walks four or five times. TODAY Cafe near the front is the only serious coffee in the park and the fastest breakfast if you mobile order it before you tap in."
+      ],
+      "vibe": "A working studio backlot with a coaster lift hill sticking out over the top of it and a lot of people walking fast.",
+      "anchorAttraction": "hollywood-rip-ride-rockit",
+      "highlights": [
+        "Hollywood Rip Ride Rockit, 51 inches, with a vertical lift and a song you choose yourself",
+        "Transformers: The Ride-3D, the most intense screen ride in the park",
+        "Two of the park's best single rider lines, both frequently under a third of standby",
+        "TODAY Cafe, the only real espresso inside the gates",
+        "Optimus Prime and Bumblebee character meets outside the Transformers building"
+      ],
+      "eatHere": [
+        "today-cafe"
+      ],
+      "tips": [
+        "Do not rope drop this land. Both rides hold their capacity all day and both have single rider lines; Diagon Alley does not open a second entrance when it gets busy.",
+        "Rip Ride Rockit's song selection is made on the restraint keypad after you are locked in, and there is a hidden menu of unlisted tracks reached by holding the logo button. Cast members will not stop you looking for it.",
+        "Transformers loads riders three across in each row and the outer seats get thrown noticeably harder than the middle. Ask for the middle if you are on the fence about the motion.",
+        "Mobile order breakfast at TODAY Cafe before you go through the turnstiles. The morning line there is one of the worst in the park and the app does not care where you are standing."
+      ]
+    },
+    {
+      "slug": "minion-land",
+      "name": "Minion Land",
+      "order": 2,
+      "opened": 2023,
+      "summary": "A bright Illumination district built along the front-left of the park, with two screen attractions and the park's best-designed quick-service.",
+      "description": [
+        "Minion Land opened in 2023 on the strip of the park that used to hold Shrek 4-D and the plaza around Despicable Me Minion Mayhem. It is loud, saturated and pitched squarely at children under about ten, and it is the busiest bottleneck in the front of the park because everybody walks through it on the way in.",
+        "Despicable Me Minion Mayhem is the older of the two attractions: a motion-base simulator in front of a 3D screen, 40 inches to ride, with stationary seating available for anyone who does not want the motion. Illumination's Villain-Con Minion Blast joined it in 2023 and is a different animal — a walk-through shooting gallery on a moving walkway, no height requirement, no motion base, and by some distance the most accessible attraction in this park for a small child or a guest who cannot transfer.",
+        "The land's food is better than the theming suggests. Minion Cafe is a large air-conditioned quick-service with a bakery counter, and it absorbs a lot of the front-of-park lunch demand that would otherwise queue somewhere worse.",
+        "The thing to know about Villain-Con Minion Blast is that the posted wait is misleading in both directions. It is a continuously loading walkthrough, so a 40-minute board often clears in 20; but on quiet mornings it is a walk-on and worth doing immediately."
+      ],
+      "vibe": "Yellow, very loud, and full of people under four feet tall who are extremely pleased to be there.",
+      "anchorAttraction": "despicable-me-minion-mayhem",
+      "highlights": [
+        "Illumination's Villain-Con Minion Blast, with no height requirement and no motion base",
+        "Despicable Me Minion Mayhem at 40 inches, with stationary seating for anyone avoiding the motion",
+        "Minion Cafe, one of the better air-conditioned quick-service rooms in the park",
+        "Gru and the Minions character meets, which run more reliably than most in this park",
+        "Freeze Ray Pops for a cheap cold thing that is not a Butterbeer"
+      ],
+      "eatHere": [
+        "minion-cafe",
+        "freeze-ray-pops"
+      ],
+      "tips": [
+        "Ask for stationary seating at Minion Mayhem if simulators are a problem. It is a real option, it is granted without argument, and the ride still works from a still seat.",
+        "Villain-Con Minion Blast scores are stored to your park ticket, so a second run genuinely builds on the first. Scan in with the same ticket both times.",
+        "This land is the front-of-park chokepoint between about 10am and noon. If you are crossing to Diagon Alley, cut through Production Central instead.",
+        "Minion Cafe has far more indoor seating than the queue implies. It is a reasonable place to sit out a downpour even if you only buy a drink."
+      ]
+    },
+    {
+      "slug": "new-york",
+      "name": "New York",
+      "order": 3,
+      "opened": 1990,
+      "summary": "A full-scale New York street set that hides the park's best coaster behind a facade and hosts the parade route.",
+      "description": [
+        "New York is the best piece of pure backlot construction in the park: brownstones, a Delancey Street corner, Fifth Avenue storefronts, a library facade, and the forced perspective that makes a two-block set read as a city. It is worth walking slowly once, which almost nobody does because there is nothing here that posts a wait time on the street.",
+        "Behind it sits Revenge of the Mummy, an indoor launch coaster from 2004 that remains the single best ride at Universal Studios Florida and is routinely mistaken for a dark ride by people who have not been on it. It is 48 inches, it runs entirely in the dark, and it does something in the second half that this write-up will not spoil.",
+        "The Blues Brothers Show plays on the Delancey Street corner on a published schedule and is the last survivor of the park's original street-entertainment programme. It is fifteen minutes, it is free, and the band is genuinely good.",
+        "The parade runs through here, which is worth planning around rather than watching. When the route is set, New York becomes impassable and the crowd flow between the front of the park and Diagon Alley collapses. If you are not watching, be on the side of the park you want to be on before it starts."
+      ],
+      "vibe": "A convincing city block with a launch coaster roaring somewhere behind the third-floor windows.",
+      "anchorAttraction": "revenge-of-the-mummy",
+      "highlights": [
+        "Revenge of the Mummy, the best ride in the park and one of the best indoor coasters anywhere",
+        "The Blues Brothers Show on the Delancey Street corner",
+        "Finnegan's Bar & Grill, the park's most useful sit-down room",
+        "The forced-perspective street set, which repays one slow walk",
+        "The main parade route, and the crowd wall it creates"
+      ],
+      "eatHere": [
+        "finnegans-bar-and-grill",
+        "louies-italian-restaurant",
+        "ben-and-jerrys"
+      ],
+      "tips": [
+        "Revenge of the Mummy's single rider line is the most valuable one in the park. It regularly runs at a fifth of standby and the seat you get is no worse.",
+        "There are lockers before the Mummy queue and they are mandatory, not optional. Leave a bag with somebody outside if you can; the locker bank backs up worse than the ride does.",
+        "The Blues Brothers set times are listed under entertainment in the app rather than with the attractions, which is why most guests never see it.",
+        "Check the parade time on arrival and decide which half of the park you want to be trapped in. The route cuts the park in two for roughly forty minutes including staging."
+      ]
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "order": 4,
+      "opened": 1990,
+      "summary": "A thin waterfront district that functions mostly as the walk from New York to Diagon Alley, with one screen ride and the best lagoon-side bar.",
+      "description": [
+        "San Francisco is a wharf set — pier pilings, a Fisherman's Wharf frontage, a Ghirardelli-style corner — wrapped around the back of the lagoon. It has always been the thinnest land in the park and it has got thinner. Its whole ride offering is Fast & Furious – Supercharged, which loads guests onto a party bus and drives them past screens for a few minutes.",
+        "Being honest about that ride is the useful thing a guide can do here: it is widely considered the weakest attraction at Universal Orlando, the queue is longer than the payoff, and its main virtue is that it is air conditioned and has no height requirement. Ride it if the wait is under twenty minutes or you have Express. Otherwise it is the easiest thing in the park to skip without regret.",
+        "What San Francisco genuinely has is food and shade. Lombard's Seafood Grille is a proper sit-down room with a lagoon view and same-day availability when nothing else has it. Chez Alcatraz is a small covered bar on the water that is the best place in this park to lose thirty minutes, and Richter's Burger Co. is a large air-conditioned room that is usually half empty at lunch while Springfield is heaving.",
+        "It is also the natural viewing side for the nighttime lagoon show, which matters more than the ride does."
+      ],
+      "vibe": "A quiet wharf frontage where the main activity is people walking through it to get somewhere else.",
+      "anchorAttraction": "fast-and-furious-supercharged",
+      "highlights": [
+        "Chez Alcatraz, a covered waterside bar with the best sit-down-and-do-nothing seat in the park",
+        "Lombard's Seafood Grille, the easiest table-service booking here",
+        "Richter's Burger Co., a big cool room that is empty while Springfield queues",
+        "Lagoon-side viewing for the nighttime show",
+        "Fast & Furious – Supercharged, with no height requirement and the weakest payoff at the resort"
+      ],
+      "eatHere": [
+        "lombards-seafood-grille",
+        "richters-burger-co",
+        "san-francisco-pastry-company",
+        "chez-alcatraz",
+        "universal-studios-classic-monsters-cafe"
+      ],
+      "tips": [
+        "Do not spend Express Pass capital planning around Fast & Furious. Walk in when the board says fifteen minutes or fewer and walk past otherwise.",
+        "Chez Alcatraz is covered, on the water, and takes walk-ups all day. It is the single best rest stop in the park and almost nobody plans for it.",
+        "Richter's Burger Co. is a five-minute walk from Springfield and consistently quieter at lunch. If Fast Food Boulevard is a wall of people, come here instead.",
+        "Claim a spot along the San Francisco railing about twenty-five minutes before the lagoon show. The sightline is better than the Hollywood side and the exit path is shorter."
+      ]
+    },
+    {
+      "slug": "diagon-alley",
+      "name": "The Wizarding World of Harry Potter – Diagon Alley",
+      "order": 5,
+      "opened": 2014,
+      "summary": "A London waterfront that hides a full wizarding high street behind a brick wall, and the reason most people buy a park-to-park ticket.",
+      "description": [
+        "You do not see Diagon Alley from the park. What you see is a London embankment: Grimmauld Place, a red phone box, the Knight Bus with a shrunken head that talks back, and King's Cross Station. The alley itself is reached through a gap in the brick wall, and the reveal — a crooked high street with a full-size fire-breathing dragon on the roof of Gringotts at the far end — is the single best moment Universal has built in Florida outside Epic Universe.",
+        "Harry Potter and the Escape from Gringotts is the headliner: a 42-inch coaster-and-screen hybrid running through the vaults beneath the bank, with a queue that is genuinely worth walking rather than skipping. The Hogwarts Express leaves from King's Cross for Hogsmeade at Islands of Adventure and requires a park-to-park ticket. The two directions are not the same ride; the compartment window shows different scenes and different people walk past the corridor door each way, so riding both is the point rather than a completist's indulgence.",
+        "The rest of the alley is not queued. Ollivanders runs a wand ceremony in a small room every few minutes and picks one child from each group. Knockturn Alley is a covered, deliberately dark side street that is also the coldest place to stand in this half of the park. Carkitt Market stages two short live shows on a rotation through the day. The Gringotts money exchange has an animatronic goblin behind the counter who will insult you if you talk to him, which is free and better than most paid attractions.",
+        "Interactive wands are sold at Ollivanders and in the shops, and the medallions set into the pavement mark spell locations in both this alley and Hogsmeade. It is the best money Universal takes off you here, and the only purchase in the park that keeps working on a second trip.",
+        "The catch is capacity. Diagon Alley is small, entirely enclosed and reached through one main entrance, and Universal caps entry when it fills. On a busy day there is a queue to get into the land itself before you have queued for anything in it. Early Park Admission, which comes with any on-site hotel stay, opens this land an hour before the rest of the park, and it is the most valuable early hour available anywhere at this resort."
+      ],
+      "vibe": "A crooked, soot-dark high street with a dragon on the bank roof and no sight lines out to the rest of the park.",
+      "anchorAttraction": "harry-potter-and-the-escape-from-gringotts",
+      "highlights": [
+        "Harry Potter and the Escape from Gringotts, 42 inches, with the best queue in the park",
+        "Hogwarts Express to Hogsmeade, different in each direction, park-to-park ticket required",
+        "The Ollivanders wand ceremony, free, running every few minutes",
+        "Knockturn Alley, dark, covered, air conditioned and almost always empty",
+        "The Gringotts money exchange goblin, who will argue with you for nothing"
+      ],
+      "eatHere": [
+        "the-leaky-cauldron",
+        "florean-fortescues-ice-cream-parlour",
+        "the-hopping-pot",
+        "the-fountain-of-fair-fortune",
+        "eternelles-elixir-of-refreshment",
+        "london-taxi-hut"
+      ],
+      "tips": [
+        "If you are staying on site, use Early Park Admission here and nowhere else. An hour in Diagon Alley before the gates open is worth more than any other early hour at this resort.",
+        "Ride the Hogwarts Express in both directions on the same day. They are different shows, and doing only one is the most common way people waste a park-to-park ticket they already paid for.",
+        "Do Escape from Gringotts standby on your first ride. The bank lobby with its animatronic goblins is the best room in the park and Express Pass skips most of it.",
+        "Knockturn Alley is covered and air conditioned. On a July afternoon it is the coolest place to stand in this half of the park and there is never anyone in it.",
+        "Buy the interactive wand at Ollivanders rather than a non-interactive one. The spell medallions work in both Wizarding Worlds and it is the only souvenir here that still does something on your next trip."
+      ]
+    },
+    {
+      "slug": "world-expo",
+      "name": "World Expo",
+      "order": 6,
+      "opened": 1990,
+      "summary": "A short 1960s world's fair district holding one attraction, and one of the best rides in the park.",
+      "description": [
+        "World Expo is the smallest and least developed area in the park: a stretch of angular 1960s exposition architecture between Diagon Alley and Springfield, with almost nothing in it. Guests walk through it in ninety seconds and do not register that it is a separate land.",
+        "The reason to stop is Men in Black Alien Attack, which opened in 2000 and is one of the two or three best attractions Universal Studios Florida has. It is a competitive shooting dark ride: two vehicles run the same track side by side, you shoot aliens for points, and the car spins when you hit certain targets. Unlike most shooter rides, the score genuinely depends on knowledge — there are high-value targets that most riders never find, and the final score is announced to the whole vehicle.",
+        "It is 42 inches, it has a single rider line, and it is Express eligible. The spinning at the end catches a few people out, so it belongs on the motion-sickness list even though it looks tame from outside.",
+        "There is no dining in World Expo. Springfield is a two-minute walk in one direction and Diagon Alley is three minutes in the other."
+      ],
+      "vibe": "An empty stretch of 1960s expo architecture that most people jog through without looking up.",
+      "anchorAttraction": "men-in-black-alien-attack",
+      "highlights": [
+        "Men in Black Alien Attack, 42 inches, with a real skill curve and a public score",
+        "A single rider line that regularly halves the wait",
+        "The shortest walk between Diagon Alley and Springfield",
+        "One of the quietest walkways in the park, and useful for that alone"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Shoot the alien in the crashed vehicle at the start and keep firing at the same target repeatedly; the ride rewards holding the trigger far more than aiming carefully.",
+        "There is a very high-value target at the end of the ride that is worth several thousand points on its own. Look up and forward in the final room rather than at the aliens beside you.",
+        "The car spins hard in the closing sequence. If somebody in your group is already fragile from the simulators, this is the ride that finishes them.",
+        "There is no food in this land at all. Eat in Springfield before you come across, or in Diagon Alley after."
+      ]
+    },
+    {
+      "slug": "springfield",
+      "name": "Springfield: Home of the Simpsons",
+      "order": 7,
+      "opened": 2013,
+      "summary": "A built-out block of the Simpsons' town with one big simulator, a spinner, and the most committed themed food in the park.",
+      "description": [
+        "Springfield expanded around The Simpsons Ride in 2013 and it is the most complete piece of environmental joke-writing at Universal Orlando. Moe's Tavern is a real bar with the phone behind the counter. The Kwik-E-Mart is a shop. Lard Lad stands outside with a donut the size of a tractor tyre. The gags are dense enough that people who have never watched the show still enjoy standing in it.",
+        "The Simpsons Ride is a large-format simulator from 2008 — a domed screen with motion-base vehicles suspended in front of it, 40 inches to ride. It is funny and the animation is good, and it also produces more motion sickness complaints than anything else in the park because the screen fills your entire field of view. If you are going to be ill on one ride here, it is this one.",
+        "Kang and Kodos' Twirl 'n' Hurl is a hub-and-spoke spinner in the plaza with no height requirement, which makes it one of a small handful of rides a preschooler can do at this park. It is exactly what it looks like and it is over in ninety seconds.",
+        "The food is the real draw. Fast Food Boulevard is a food hall of Springfield-branded windows sharing one seating room, Moe's Tavern pours the Flaming Moe, Duff Brewery is an outdoor bar, and Lard Lad sells a pink-frosted donut big enough for four people. None of it is fine dining and all of it is the point."
+      ],
+      "vibe": "A cartoon town rendered at full scale, with a working bar, a donut you can see from two lands away, and jokes on every sign.",
+      "anchorAttraction": "the-simpsons-ride",
+      "highlights": [
+        "The Simpsons Ride, 40 inches, and the worst motion sickness offender in the park",
+        "Kang and Kodos' Twirl 'n' Hurl, one of the few rides here with no height stick",
+        "Moe's Tavern, a functioning bar with the Flaming Moe and the phone gag intact",
+        "The Lard Lad Big Pink Donut, genuinely shareable between four people",
+        "Fast Food Boulevard, a food hall of Springfield-branded windows around one seating room"
+      ],
+      "eatHere": [
+        "fast-food-boulevard",
+        "moes-tavern",
+        "duff-brewery",
+        "bumblebee-mans-taco-truck",
+        "lard-lad-donuts"
+      ],
+      "tips": [
+        "Do not ride The Simpsons Ride after lunch. The dome screen fills your peripheral vision and it is the most reliable way to end a day early.",
+        "Fast Food Boulevard's windows share one seating room, so split your party across counters and meet at a table. Nobody checks which window your tray came from.",
+        "The Flaming Moe is served with dry ice in the glass and the fog is the whole trick. Drink it there rather than carrying it away; it is flat and ordinary within five minutes.",
+        "Duff Brewery is an outdoor bar with real shade and a lagoon view, and it is consistently the least crowded place to sit in the back half of the park."
+      ]
+    },
+    {
+      "slug": "dreamworks-land",
+      "name": "DreamWorks Land",
+      "order": 8,
+      "opened": 2024,
+      "summary": "The park's only genuinely small-child area, built in 2024 on the site of the old Woody Woodpecker's KidZone.",
+      "description": [
+        "DreamWorks Land opened in June 2024 on the ground that held Woody Woodpecker's KidZone for two decades. It is bright, it is built around Shrek, Trolls and Kung Fu Panda, and it is the single reason a family with a preschooler can spend a full day at this park rather than half of one.",
+        "Trolls Trollercoaster is the ride, a small family coaster on the old Nuthouse Coaster track with a 36-inch requirement. Po's Kung Fu Training Camp is a climbing and play structure, there are splash and water-play areas that will get children properly wet, and a stage show and character meets run on a published schedule.",
+        "The honest framing is that this is a play area with a coaster in it, not a land of attractions. An adult without a child in tow has no reason to walk here. With a child under 48 inches, it is the most useful acre in the park and the place to spend the hottest part of the afternoon, because the water play is real and there is shade.",
+        "Bring a change of clothes or accept wet shoes. The splash zones are not a light mist, and there is no dryer here."
+      ],
+      "vibe": "Saturated colour, running water, and a lot of small children who are having a much better day than the adults on the benches.",
+      "anchorAttraction": "trolls-trollercoaster",
+      "highlights": [
+        "Trolls Trollercoaster at 36 inches, the lowest coaster requirement in the park",
+        "Po's Kung Fu Training Camp, a climb-and-play structure with real shade",
+        "Water play areas that soak children properly rather than misting them",
+        "Shrek character meets on a published schedule rather than a hopeful wander",
+        "The only part of this park designed around guests under 40 inches"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Pack a change of clothes and a towel if you have children under about eight. The water play here is not decorative and they will use all of it.",
+        "There is no substantial quick-service in this land. Mel's Drive-In in Hollywood is the closest real meal, about four minutes away.",
+        "Use this land in the early afternoon, which is when the rest of the park is at its worst and this corner is at its best.",
+        "Check the show and character times in the app when you arrive. This land runs on a schedule more than any other part of the park and wandering in blind wastes the trip."
+      ]
+    },
+    {
+      "slug": "hollywood",
+      "name": "Hollywood",
+      "order": 9,
+      "opened": 1990,
+      "summary": "A Sunset Boulevard street set holding the park's two best live shows, its oldest dark ride, and the lagoon-show viewing.",
+      "description": [
+        "Hollywood is the park's other backlot street: a 1950s Los Angeles boulevard with a Brown Derby hat, Schwab's soda fountain and Mel's Drive-In with the cars parked outside. It closes the loop back to the entrance and it is where the park's live-show programming lives.",
+        "Universal Orlando's Horror Make-Up Show has run since the park opened in 1990 and is the best thing in this park that is not a ride. It is a twenty-five-minute two-hander about practical special effects, it is genuinely funny, it is scripted to be scary for about eight seconds and comedic for the rest, and it plays in a cool theatre that never fills. The Bourne Stuntacular, which opened in 2020, is a live stunt show fused with a moving LED wall and is the most technically impressive thing staged at Universal Orlando.",
+        "E.T. Adventure sits at the far end where the boulevard meets DreamWorks Land. It opened with the park in 1990, it is the last original opening-day ride still running, and it is a slow flying-bicycle dark ride at 34 inches — the lowest height requirement here. It is dated and it is also the only ride in the park that feels like it was built to be gentle.",
+        "The lagoon frontage along Hollywood is the other viewing side for the nighttime show, and Mel's Drive-In behind it is a large air-conditioned room that stays open late."
+      ],
+      "vibe": "A palm-lined 1950s boulevard with a stunt show going off behind the facades and a soda fountain that still works.",
+      "anchorAttraction": "universal-orlandos-horror-make-up-show",
+      "highlights": [
+        "Universal Orlando's Horror Make-Up Show, running since 1990 and still the best non-ride here",
+        "The Bourne Stuntacular, live stunts fused to a moving LED wall",
+        "E.T. Adventure at 34 inches, the last opening-day ride still operating",
+        "Animal Actors on Location, the park's most reliable option for young children",
+        "Mel's Drive-In and Schwab's Pharmacy, both open late and both air conditioned"
+      ],
+      "eatHere": [
+        "mels-drive-in",
+        "cafe-la-bamba",
+        "schwabs-pharmacy"
+      ],
+      "tips": [
+        "The Horror Make-Up Show almost never fills and runs on a published schedule. It is the highest-value twenty-five minutes in the park and most guests never go in.",
+        "Sit in the middle third at the Bourne Stuntacular. The LED wall is designed for a straight-on viewing angle and the effect breaks down badly from the sides.",
+        "E.T. Adventure asks for your first name at the boarding station and uses it in the closing scene. Give a real one; the payoff is the only reason the ride still charms anyone.",
+        "Mel's Drive-In stays open past most of the park's kitchens and has substantial indoor seating. It is the fallback when everything else has shut its windows."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Universal Studios Florida rewards two decisions made before you arrive and punishes both of them if you get them wrong. The first is the ticket: park-to-park or one-park. The second is the height number for the smallest person in your group. Everything else about the day is recoverable.",
+      "Beyond that, this is a park where the crowd-management tools genuinely work. Universal Express Pass is a real product sold on the day and included free with a stay at three of the resort hotels. Single rider lines exist at six attractions and regularly run at a third of standby. Early Park Admission opens Diagon Alley an hour early for on-site guests. A first-timer who uses two of those three will have a substantially better day than one who arrives at ten and queues."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Buy park-to-park if Harry Potter is why you came",
+        "body": "The Hogwarts Express runs only between this park and Islands of Adventure, and boarding it in either direction requires a park-to-park ticket. On a one-park ticket you can still walk into Diagon Alley and ride Escape from Gringotts; what you lose is the train, which is a real attraction with a different show in each direction, and the Hogsmeade half of the story entirely."
+      },
+      {
+        "title": "Measure your children with their shoes on",
+        "body": "Nine attractions here carry a height requirement, from 34 inches at E.T. Adventure to 51 inches at Hollywood Rip Ride Rockit. Universal measures at the ride entrance and gives borderline guests a wristband so they are not re-measured. Knowing the real number at home tells you whether this park is worth a full day for your family."
+      },
+      {
+        "title": "Do the Express Pass arithmetic before you book a hotel",
+        "body": "Universal Express Unlimited is included for every guest in the room at the three top-tier Universal hotels, for the whole stay, at Universal Studios Florida and Islands of Adventure. On a busy day for a family of four, the nightly premium on those hotels is often less than buying Express separately for one day. Note that the hotel-included Express does not cover Epic Universe."
+      },
+      {
+        "title": "Know which rides are screens",
+        "body": "Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious are all screens in front of a motion base or a moving vehicle, and Escape from Gringotts and Men in Black lean heavily on screens too. If motion sickness is a known problem for anyone in your group, plan around it rather than discovering it at eleven in the morning."
+      },
+      {
+        "title": "Plan to use single rider lines",
+        "body": "Six attractions here run a single rider queue: Rip Ride Rockit, Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem. They routinely run at a third of standby or less. A party of two or three that is willing to be split across rows will do a full park in an afternoon."
+      },
+      {
+        "title": "Sort out accessibility registration in advance",
+        "body": "Universal's Attraction Assistance Pass is arranged at Guest Services just inside the entrance, and the resort routes queue-accommodation requests through an advance registration process with a third-party accessibility organisation. Starting that days before your visit rather than at the turnstile saves a long morning at the Guest Services window."
+      },
+      {
+        "title": "Book a table if you want to sit down",
+        "body": "Finnegan's Bar & Grill, Lombard's Seafood Grille and the Leaky Cauldron all take some form of advance booking, and the Leaky Cauldron fills solidly between noon and two. A booking is not essential the way it is at Walt Disney World, but a walk-up at 12:30 in Diagon Alley means eating standing up."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Before opening",
+        "body": "Be at the turnstiles 30 to 45 minutes before the posted time. Universal routinely opens the gates early and holds guests in Production Central, and where you are standing when they drop the rope decides your first hour."
+      },
+      {
+        "time": "Early Park Admission",
+        "body": "If you are staying on site, go straight to Diagon Alley. It opens an hour before the rest of the park and it is the most valuable early hour at this resort. Ride Escape from Gringotts, then walk the alley while it is still quiet enough to see."
+      },
+      {
+        "time": "Rope drop, off-site guests",
+        "body": "Go to Diagon Alley first regardless. It is the land that fills earliest, it caps entry when it is full, and Escape from Gringotts posts its lowest wait of the day in the first forty minutes. Rip Ride Rockit and Transformers hold capacity all day and both have single rider lines."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "Ride the Hogwarts Express to Hogsmeade and back if you hold a park-to-park ticket. Doing the round trip early gets both directions done while the platform queues are short, and you are back in this park before the middle of the day."
+      },
+      {
+        "time": "Late morning",
+        "body": "Work backwards through World Expo and Springfield: Men in Black, then The Simpsons Ride. Both are Express eligible and Men in Black has a single rider line. Do The Simpsons Ride before you eat rather than after."
+      },
+      {
+        "time": "Around 11:30",
+        "body": "Eat early. Every kitchen in this park is under pressure from noon to two, and the Leaky Cauldron and Fast Food Boulevard both back up badly. Eating at 11:30 rather than 12:30 buys back most of an hour."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "Noon to 1pm",
+        "body": "Standby waits peak here and the pavement in New York and Production Central becomes genuinely unpleasant. This is the hour to use Express Pass returns if you hold them, or to be indoors."
+      },
+      {
+        "time": "1pm to 2pm",
+        "body": "Take the Horror Make-Up Show in Hollywood. It runs on a published schedule, the theatre almost never fills, it is twenty-five minutes, it is properly cold and it is the funniest thing in the park."
+      },
+      {
+        "time": "2pm to 3pm",
+        "body": "Do the unqueued half of Diagon Alley: the Ollivanders wand ceremony, Knockturn Alley, the Gringotts money exchange goblin, and the two Carkitt Market shows. Knockturn Alley is covered and air conditioned and is the coolest standing spot in this half of the park."
+      },
+      {
+        "time": "3pm to 4pm",
+        "body": "With small children, this is DreamWorks Land: the water play, Po's Kung Fu Training Camp and Trolls Trollercoaster. Without them, this is Chez Alcatraz in San Francisco with a drink and thirty minutes of doing nothing on the water."
+      },
+      {
+        "time": "4pm to 5pm",
+        "body": "Ride the screen attractions you have left using single rider lines, which are at their most useful in the late afternoon: Transformers, Rip Ride Rockit and Revenge of the Mummy in that order if you are heading back toward the front of the park."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "5pm to 6:30pm",
+        "body": "Eat at Finnegan's in New York or Lombard's in San Francisco, both of which take walk-ups more often than their Disney equivalents. Duff Brewery and Moe's Tavern in Springfield are the cheaper version of the same hour."
+      },
+      {
+        "time": "6:30pm to 8pm",
+        "body": "This is the best riding window of the day at this park. Waits at Revenge of the Mummy, Transformers and Rip Ride Rockit fall sharply once the families with small children have left, and the single rider lines empty out completely."
+      },
+      {
+        "time": "Before the lagoon show",
+        "body": "Claim a railing spot along San Francisco about twenty-five minutes ahead. The sightline is better than the Hollywood side and the walk out afterwards is shorter and far less congested."
+      },
+      {
+        "time": "During the lagoon show",
+        "body": "If you are skipping it, ride. The crowd concentrates entirely on the lagoon edge and the queues at the front of the park briefly collapse. Revenge of the Mummy in that window is often a walk-on."
+      },
+      {
+        "time": "Last hour before close",
+        "body": "Diagon Alley after dark is a different place, and the entry cap is off by then. Walk it once with the lights on, buy nothing, and leave through the London waterfront rather than the way you came in."
+      }
+    ],
+    "rookieMistakes": [
+      "Buying a one-park ticket and then discovering the Hogwarts Express needs park-to-park. This is the single most common and most expensive mistake made at this resort.",
+      "Riding three simulators before lunch. Transformers, Minion Mayhem and The Simpsons Ride in one morning will make a surprising number of adults ill, and there is no recovering the afternoon.",
+      "Ignoring the single rider lines. Six attractions here have one, they are unusually well run, and a party of two willing to sit apart can do the whole park in an afternoon.",
+      "Assuming a 40-inch child can ride most things. At 40 inches they still cannot ride Escape from Gringotts, Men in Black, Revenge of the Mummy or Rip Ride Rockit, which is most of the ride list worth queueing for.",
+      "Arriving at Diagon Alley at midday. It is small, enclosed and reached through one main entrance, and Universal caps entry when it fills. Go first thing or go after seven.",
+      "Skipping the Escape from Gringotts standby queue because you have Express. The bank lobby with its animatronic goblins is the best room in the park and Express routes you past most of it.",
+      "Treating the Horror Make-Up Show as filler. It is twenty-five minutes, it never fills, it is air conditioned and it is better than four of the rides.",
+      "Planning to eat in Diagon Alley at 12:30. The Leaky Cauldron is the only substantial kitchen in the land and it is a wall of people from noon to two."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Be at the turnstiles 30 to 45 minutes before the posted opening time.",
+      "Go straight to Diagon Alley and ride Harry Potter and the Escape from Gringotts through the standby queue, not the Express entrance.",
+      "Ride the Hogwarts Express to Hogsmeade and straight back, if you hold a park-to-park ticket, before the platform queues build.",
+      "Do Men in Black Alien Attack and The Simpsons Ride mid-morning, in that order, and before you eat.",
+      "Eat at 11:30 rather than 12:30, at the Leaky Cauldron or Fast Food Boulevard.",
+      "Spend the worst hour of the afternoon in the Horror Make-Up Show in Hollywood.",
+      "Come back to Diagon Alley for the unqueued half: Ollivanders, Knockturn Alley, the money exchange goblin and the Carkitt Market shows.",
+      "Ride Revenge of the Mummy and Transformers using the single rider lines in the late afternoon.",
+      "Do Hollywood Rip Ride Rockit after dark if you clear 51 inches, when the queue collapses and the lift hill view is worth having.",
+      "Finish with the lagoon show from the San Francisco railing, or skip it and ride while everybody else is watching."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Universal Studios Florida is flat, fully paved and compact, which makes the walking side of it straightforward. The problems here are transfers and screens, and both are worse than at any Disney park in Orlando.",
+      "Of the nine attractions with a height requirement, most also require a full transfer from a wheelchair or ECV into a ride seat, and the two coasters have restraint systems that are unforgiving of body shape as well as mobility. Universal is direct about this in a way that is genuinely useful: test seats sit outside the entrances at Hollywood Rip Ride Rockit and Revenge of the Mummy, and using one before you queue is normal rather than embarrassing.",
+      "The screen density is an accessibility issue that rarely gets listed as one. Six attractions put a large 3D or wraparound screen in front of a moving seat. For guests with vestibular conditions, migraine triggers or visual processing differences, that is most of the ride list, and the honest answer is that this park will be harder work than Magic Kingdom or Animal Kingdom.",
+      "Queue accommodation runs through Universal's Attraction Assistance Pass, arranged at Guest Services immediately inside the main entrance. Universal routes eligibility for this through an advance registration process with a third-party accessibility organisation, so starting it several days before your visit rather than on the morning is the difference between a five-minute stop and a long wait at the window."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "The rental stand immediately inside the main entrance, on the right past the turnstiles",
+      "priceNote": "Manual wheelchairs rent for a modest daily fee; expect the daily rate to sit in the high teens as of July 2026. Supply is finite and the stand is picked clean on busy mornings.",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "The rental stand immediately inside the main entrance, on the right past the turnstiles",
+      "priceNote": "ECVs rent for a daily fee plus a refundable deposit, typically in the region of $65 to $75 per day as of July 2026. They sell out by mid-morning on busy days; off-site suppliers deliver to Universal hotels and work out cheaper across a multi-day trip.",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "The rental stand immediately inside the main entrance, on the right past the turnstiles",
+      "priceNote": "Single and double strollers rent by the day; expect roughly $20 for a single and $35 for a double as of July 2026. Universal's rentals are basic hard-shell strollers with no recline, which matters on a full day.",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Just inside the main entrance beside Guest Services",
+      "Production Central, near the Transformers building",
+      "The Wizarding World of Harry Potter – Diagon Alley, off Carkitt Market",
+      "Springfield, beside the Fast Food Boulevard seating room",
+      "Hollywood, near Mel's Drive-In",
+      "DreamWorks Land, adjacent to the play areas"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Knockturn Alley",
+        "where": "Off the main run of Diagon Alley, past the Leaky Cauldron",
+        "note": "Covered, deliberately dark, air conditioned and almost always empty. Low light, low noise, and enough room to turn a wheelchair. The best decompression space in the park."
+      },
+      {
+        "name": "Universal Studios' Classic Monsters Cafe seating rooms",
+        "where": "San Francisco",
+        "note": "A large indoor dining room that is usually well under capacity outside the lunch peak. Nobody moves you along if you buy a drink and sit for half an hour."
+      },
+      {
+        "name": "Richter's Burger Co. back seating",
+        "where": "San Francisco",
+        "note": "Big, cool and consistently quiet while Springfield is heaving. The back tables are the least trafficked indoor seats in this half of the park."
+      },
+      {
+        "name": "Chez Alcatraz",
+        "where": "San Francisco, on the lagoon edge",
+        "note": "Outdoors but fully covered, on the water, with a breeze most afternoons. Not quiet in the sound sense, but low stimulation and the easiest place to stop moving."
+      },
+      {
+        "name": "The Bourne Stuntacular theatre between shows",
+        "where": "Hollywood",
+        "note": "A large dark air-conditioned theatre that fills to nowhere near capacity. Arriving early for a performance gets you twenty minutes of cool, dim, seated quiet."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Near Guest Services just inside the main entrance",
+      "Adjacent to the World Expo walkway between Diagon Alley and Springfield",
+      "Behind the show buildings in the Hollywood area",
+      "Near the DreamWorks Land play areas"
+    ],
+    "sensoryNotes": [
+      "Revenge of the Mummy runs almost entirely in darkness with sudden fire effects overhead, a backwards launch and a deliberate false ending; it is the most startling attraction in the park and the one most likely to frighten a child who cleared the 48-inch stick.",
+      "Hollywood Rip Ride Rockit pipes a track of your choosing directly into the seat at high volume and cannot be turned down, which makes it a poor fit for anyone sensitive to sound pressure.",
+      "The Simpsons Ride uses a domed screen that fills your entire peripheral vision, and it is the single most reliable motion-sickness trigger in the park by a wide margin.",
+      "Transformers: The Ride-3D combines a hard-throwing motion base with a full-field 3D screen and loud percussive audio for four and a half minutes with no let-up.",
+      "The Horror Make-Up Show is scripted to startle at two specific moments and is comedic for the rest of its twenty-five minutes; the theatre lights stay up enough to leave easily, and staff will not make an issue of it.",
+      "Illumination's Villain-Con Minion Blast has no motion base and no drops, but it is very loud and very bright throughout and runs on a continuously moving walkway with no obvious exit point."
+    ],
+    "mobilityNotes": [
+      "Most height-restricted attractions here require a full transfer from a wheelchair or ECV into a ride seat, including both coasters, the two simulators, Escape from Gringotts and Men in Black.",
+      "Test seats sit outside the entrances to Hollywood Rip Ride Rockit and Revenge of the Mummy. Use them before joining the queue if the restraint may be a problem; the Rip Ride Rockit harness is the least forgiving in the park for larger riders.",
+      "Illumination's Villain-Con Minion Blast is the most accessible substantial attraction in the park: no transfer, no motion base, and a moving walkway that can be boarded from a wheelchair.",
+      "Hogwarts Express boards from a level platform and takes wheelchairs directly into a designated compartment, with no transfer required in either direction.",
+      "The park is flat and fully paved, but Diagon Alley uses uneven cobbled-effect paving that is noticeably rougher to push a manual chair across than anywhere else in the park.",
+      "Escape from Gringotts uses restraints and a vehicle configuration that is unfriendly to riders with limited trunk control; ask at the entrance for the accessible loading vehicle rather than joining the main queue."
+    ],
+    "visionHearingNotes": [
+      "The Horror Make-Up Show is dialogue-driven and unamplified in places, which makes it one of the harder shows in the park to follow with hearing loss; ask at the door about assistive listening before the house opens.",
+      "The Bourne Stuntacular depends almost entirely on a moving LED wall for its effect and offers little to a guest with significant vision loss, while the Blues Brothers Show — being music — works well for exactly the opposite group.",
+      "Assistive listening and captioning devices are collected from Guest Services immediately inside the main entrance, with a refundable deposit.",
+      "Diagon Alley and Knockturn Alley are deliberately dim with small, low-contrast signage, and shop interiors more so. Using a phone torch is normal and staff will not object.",
+      "Men in Black Alien Attack depends on hitting small illuminated targets in a dark moving vehicle, which makes it one of the least rewarding rides here for a guest with low vision even though the ride itself is fully accessible."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Buy park-to-park, or accept what you are giving up",
+      "body": "The Hogwarts Express only runs between this park and Islands of Adventure and needs a park-to-park ticket in either direction. It is a real attraction, not a shuttle, and the two directions show different scenes. If Harry Potter is the reason you are here, this is not the place to save money."
+    },
+    {
+      "title": "The single rider lines are the best-kept advantage in Orlando",
+      "body": "Rip Ride Rockit, Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem all run one. They are consistently at a third of standby or better, they are properly staffed, and Universal actively pushes guests into them. A pair willing to sit in different rows can clear this park in an afternoon."
+    },
+    {
+      "title": "Do Diagon Alley first or last, never in the middle",
+      "body": "The land is small, enclosed and reached through one main entrance, and Universal caps entry when it fills. Between about eleven and six there is frequently a queue to get into the land before you have queued for anything inside it. It is a different place at nine in the morning and at nine at night."
+    },
+    {
+      "title": "Express Pass is included with three hotels and that changes the maths",
+      "body": "Universal Express Unlimited comes free with every room at the three top-tier Universal hotels, for every guest, for the whole stay, at this park and Islands of Adventure. On a busy day for a family of four the nightly premium is often less than a single day of Express bought separately. It does not cover Epic Universe."
+    },
+    {
+      "title": "Space the screen rides out",
+      "body": "Transformers, Minion Mayhem, The Simpsons Ride and Fast & Furious are all screens in front of moving seats, and Gringotts and Men in Black lean on screens too. Doing three of them in a morning is how people who never get travel sick end up sitting on a bench at noon. Put a show or a meal between each one."
+    },
+    {
+      "title": "Ride the standby queue at Gringotts once",
+      "body": "The Gringotts bank lobby, with its animatronic goblins looking up from their ledgers as you pass, is the best-built room in this park. Universal Express routes you past most of it. Ride standby the first time and use Express or single rider for repeats."
+    },
+    {
+      "title": "The Horror Make-Up Show is the most underused thing in the park",
+      "body": "Twenty-five minutes, air conditioned, a published schedule, a theatre that almost never fills, and a two-hander about practical effects that is funnier than it has any need to be. It has run since 1990 and most first-time guests walk straight past the door."
+    },
+    {
+      "title": "Lockers at the two coasters are mandatory and slower than the ride",
+      "body": "Revenge of the Mummy and Hollywood Rip Ride Rockit both require you to store loose articles in a locker bank before boarding. The bank backs up worse than the ride does. Travel light or leave the bag with somebody outside; that alone can save twenty minutes across a day."
+    },
+    {
+      "title": "Early Park Admission is worth more here than anywhere else at the resort",
+      "body": "On-site hotel guests get one hour before the posted opening, and Diagon Alley participates. An hour in that land with the entry cap off and Gringotts posting a ten-minute wait is the single most valuable hour available at Universal Orlando."
+    },
+    {
+      "title": "Eat on the shoulders, not on the hour",
+      "body": "The Leaky Cauldron and Fast Food Boulevard both become a wall of people from noon to two. Eating at 11:30 or 2:15 costs you nothing and buys back most of an hour. Richter's Burger Co. in San Francisco is the reliable pressure valve at peak lunch."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need a park-to-park ticket at Universal Studios Florida?",
+      "a": "You need it to ride the Hogwarts Express, which runs only between this park and Islands of Adventure and is checked in both directions. Without it you can still enter Diagon Alley, ride Escape from Gringotts, eat at the Leaky Cauldron and buy a wand. If Harry Potter is the reason for the trip, buy park-to-park; the train is a genuine attraction with different content each way, not a transfer service."
+    },
+    {
+      "q": "What is the tallest height requirement at Universal Studios Florida?",
+      "a": "51 inches, for Hollywood Rip Ride Rockit, which also has a 79-inch maximum. Below that, Revenge of the Mummy is 48 inches, Escape from Gringotts and Men in Black Alien Attack are 42, Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36 and E.T. Adventure is 34."
+    },
+    {
+      "q": "Is Universal Studios Florida good for toddlers?",
+      "a": "It is the weakest of the three Universal Orlando parks for children under 40 inches, and weaker than any Disney park in Orlando for that group. What a preschooler can do here is DreamWorks Land, Villain-Con Minion Blast, Kang and Kodos' Twirl 'n' Hurl, E.T. Adventure if they clear 34 inches, and the shows. That is a real half-day rather than a full one."
+    },
+    {
+      "q": "Which rides at Universal Studios Florida make people motion sick?",
+      "a": "The Simpsons Ride is the worst offender because the dome screen fills your peripheral vision. Transformers is second, combining a hard motion base with a full-field 3D screen. Despicable Me Minion Mayhem and Fast & Furious are milder versions of the same thing, and Men in Black spins hard in its closing sequence. This park has a higher concentration of screen-based rides than any other major park in the United States, and it is worth planning around."
+    },
+    {
+      "q": "Which attractions have single rider lines?",
+      "a": "Hollywood Rip Ride Rockit, Revenge of the Mummy, Transformers: The Ride-3D, Harry Potter and the Escape from Gringotts, Men in Black Alien Attack and Despicable Me Minion Mayhem. They routinely run at a third of the standby time or better and are far more useful here than the equivalent lines at Walt Disney World."
+    },
+    {
+      "q": "Is Universal Express Pass worth it at this park?",
+      "a": "On a busy day, yes, and more so than a Lightning Lane purchase at a Disney park, because Universal Express Unlimited has no return windows and no selection limit. The better question is whether to get it free by staying at one of the three top-tier Universal hotels, where it is included for every guest in the room for the whole stay at this park and Islands of Adventure. Work that out before you book a room."
+    },
+    {
+      "q": "How many days do you need at Universal Studios Florida?",
+      "a": "One full day covers the ride list and two shows if you are there before opening. A second day only makes sense if you want to do Diagon Alley slowly, sit down for real meals, and repeat the coasters. Most people should give this park one day and put the extra time into Islands of Adventure or Epic Universe."
+    },
+    {
+      "q": "What is the best ride at Universal Studios Florida?",
+      "a": "Revenge of the Mummy, and it is not particularly close. It is an indoor launch coaster with a genuinely great second half, it is nearly always the shortest queue among the headliners, and its single rider line is the best in the park. Harry Potter and the Escape from Gringotts is the bigger production and the better environment; Mummy is the better ride."
+    },
+    {
+      "q": "What is the best thing to eat at Universal Studios Florida?",
+      "a": "The Leaky Cauldron's bangers and mash or the fisherman's pie, both of which are better than a theme park has any obligation to serve. After that: the Big Pink Donut at Lard Lad, which four people can genuinely share, the Butterbeer ice cream at Florean Fortescue's, and the tacos from Bumblebee Man's Taco Truck in Springfield."
+    },
+    {
+      "q": "Is Diagon Alley better than Hogsmeade?",
+      "a": "Yes, on build quality and on density of things to do. Diagon Alley is enclosed, it has a better reveal, its shops are more detailed and it has two live shows and a wand ceremony inside it. Hogsmeade has the better ride in Hagrid's Motorbike Adventure over at Islands of Adventure. Both together are the reason to buy park-to-park."
+    },
+    {
+      "q": "Does anything at Universal Studios Florida use a virtual queue?",
+      "a": "No. Universal manages demand with paid Express Pass and single rider lines rather than a free virtual queue, so every attraction here has a conventional standby line. Diagon Alley itself can be capped when the land reaches capacity, which functions like a queue for the land but is not a booking system."
+    },
+    {
+      "q": "How early should you arrive at Universal Studios Florida?",
+      "a": "At the turnstiles 30 to 45 minutes before the posted opening time, and earlier if you are using Early Park Admission from an on-site hotel. Universal frequently opens the gates ahead of the posted hour and holds guests in Production Central. Diagon Alley is the land that fills first and caps entry, so the first hour is worth more here than at most parks."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Universal Orlando parks in two large garages shared by both original parks and CityWalk, with a paid daily rate as of July 2026 and a higher preferred rate that puts you closer to the walkway. The walk from the garages through CityWalk to the park gates is genuinely long — budget 15 to 20 minutes from car to turnstile, more with a stroller — and there is a security screening point on the way.",
+    "transportation": [
+      "Water taxis from Loews Portofino Bay, Hard Rock Hotel, Loews Royal Pacific Resort and Loews Sapphire Falls Resort to a dock in CityWalk, a short walk from the entrance.",
+      "Garden walkways from the same hotels plus Universal's Aventura Hotel, which are often faster than waiting for a boat.",
+      "Resort buses from the value and prime-value hotels to the CityWalk bus stop.",
+      "Resort shuttle buses to Epic Universe, which is on a separate campus and not walkable from here.",
+      "Rideshare and taxi drop-off at a designated level in the parking structures, which is the quickest exit immediately after the nighttime show.",
+      "There is no free shuttle from Orlando International Airport; a rental car, a rideshare or a paid shuttle service are the options."
+    ],
+    "entranceNote": "One entrance plaza, reached through CityWalk, with bag screening before the turnstiles. The no-bag lane moves several times faster than the bag lane, so anyone travelling without one should split off and regroup inside. Guest Services sits immediately inside on the left and handles the Attraction Assistance Pass, assistive devices and ticket problems; the wheelchair, ECV and stroller rental stand is on the right."
+  },
+  "lastVerified": "2026-07",
+  "idPrefix": "usf"
+}

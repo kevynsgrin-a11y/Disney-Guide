@@ -50,8 +50,7 @@ function payload (data) {
       // are looking for, and it still scores badly only on the "plenty on" dimension.
       events: Math.min(5, 2 + m.events.length),
       w: {
-        'walt-disney-world': weatherScore(m.weather.wdw),
-        disneyland: weatherScore(m.weather.dlr),
+        ...Object.fromEntries(Object.entries(m.weather || {}).map(([slug, w]) => [slug, weatherScore(w)])),
       },
     })),
   }
@@ -151,7 +150,7 @@ export function tripTimingPage (data) {
         url,
         title: 'Trip timing tool',
         titleTail: ': Rank Months By What You Care About',
-        description: 'Rank all twelve months for a Walt Disney World or Disneyland trip against what you actually care about — crowds, cost, weather, or what is running.',
+        description: 'Rank all twelve months against what you actually care about — crowds, cost, weather, or what is running.',
         trail,
       },
       body,

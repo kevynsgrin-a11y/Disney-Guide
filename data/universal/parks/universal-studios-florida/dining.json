@@ -1,0 +1,1509 @@
+{
+  "park": "universal-studios-florida",
+  "dining": [
+    {
+      "slug": "today-cafe",
+      "name": "TODAY Cafe",
+      "land": "production-central",
+      "service": "quick-service",
+      "cuisine": "Coffee, pastries and light sandwiches",
+      "priceTier": "$",
+      "priceNote": "Espresso drinks roughly $5 to $8; pastries and sandwiches roughly $6 to $14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The only serious espresso inside the gates, a few steps from the entrance, with real seating and a mobile order queue that works.",
+      "description": [
+        "TODAY Cafe sits near the front of the park, themed as the New York studio of the morning television programme, and it is the first useful thing you pass on the way in. It serves proper espresso drinks rather than filter coffee, a bakery case, and a short menu of breakfast sandwiches and lunch salads.",
+        "The coffee is genuinely better than the park average, which is a low bar it clears comfortably. The food is fine and unremarkable. What makes this location matter is that it is air conditioned, it has real seating, and it takes mobile orders.",
+        "The morning line is one of the worst in the park between about 8:30 and 10:30, because everybody walks past it on the way in and nobody plans ahead."
+      ],
+      "signatureItems": [
+        "Cold brew",
+        "Espresso drinks",
+        "Breakfast sandwiches",
+        "Bakery case pastries"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "air-conditioned-break",
+        "solo",
+        "vegetarian"
+      ],
+      "tips": [
+        "Mobile order before you go through the turnstiles. The app does not care where you are standing and the morning queue here is brutal.",
+        "The indoor seating is genuinely comfortable and half empty after 11am, which makes this a good mid-morning regroup point.",
+        "It is a two-minute walk from the entrance, so it works as a meeting spot for a group arriving separately."
+      ],
+      "verdict": "Worth using for the coffee and the seating rather than the food. Mobile order it on your way in and you will save fifteen minutes on a busy morning.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "minion-cafe",
+      "name": "Minion Cafe",
+      "land": "minion-land",
+      "service": "quick-service",
+      "cuisine": "American with a bakery counter",
+      "priceTier": "$$",
+      "priceNote": "Mains roughly $16 to $24; bakery items roughly $6 to $10 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The large air-conditioned quick-service at the front of the park, better designed than it needed to be and with far more seating than the queue implies.",
+      "description": [
+        "Minion Cafe opened with Minion Land in 2023 and is the biggest quick-service in the front half of the park. It is themed as a restaurant staffed by Minions and the interior detail is well above what a counter-service room usually gets, with a separate bakery counter and a lot of visual gags in the kitchen.",
+        "The menu is broad American counter food — sandwiches, burgers, chicken, salads, bowls — plus a dessert counter that is the more interesting half of the operation. It rotates more than the park's older locations, so check the boards rather than planning a specific dish in advance.",
+        "The real argument for eating here is capacity. It has substantially more indoor seating than the queue suggests, it sits at the front of the park where the alternatives are thin, and it absorbs lunch demand that would otherwise pile into Diagon Alley or Springfield."
+      ],
+      "signatureItems": [
+        "Counter-service burgers and sandwiches",
+        "Fried chicken plates",
+        "Rotating bakery counter desserts",
+        "Kids' meal boxes"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "air-conditioned-break",
+        "quick-bite",
+        "groups"
+      ],
+      "tips": [
+        "Mobile order and then walk in. The indoor room is far larger than the entrance implies and there is nearly always a table somewhere at the back.",
+        "The bakery counter is the more interesting half of this operation and gets far less attention than the hot food.",
+        "It is a legitimate place to sit out a downpour or the worst of the afternoon heat even if you only buy a drink.",
+        "The menu here changes more than at the park's older locations, so check the boards rather than arriving with a specific dish in mind."
+      ],
+      "verdict": "The most useful quick-service in the front half of the park. The food is ordinary and the room is excellent, and on a hot day the room is what you are actually buying.",
+      "faqs": [
+        {
+          "q": "Is Minion Cafe worth eating at?",
+          "a": "For the seating and the air conditioning, yes. It is the largest indoor quick-service at the front of the park and it absorbs the lunch crowd that would otherwise queue in Diagon Alley. The food is standard counter fare; the room is the reason to come."
+        },
+        {
+          "q": "Does Minion Cafe take mobile orders?",
+          "a": "Yes, and it is the right way to use it. Order in the app while you are walking over, then collect and find a table in the back rooms, which are usually much emptier than the entrance area suggests."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "freeze-ray-pops",
+      "name": "Freeze Ray Pops",
+      "land": "minion-land",
+      "service": "snack-cart",
+      "cuisine": "Frozen treats",
+      "priceTier": "$",
+      "priceNote": "Frozen pops roughly $6 to $8 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small frozen-treat window in Minion Land, and the cheapest cold thing at the front of the park that is not a bottle of water.",
+      "description": [
+        "Freeze Ray Pops is a walk-up window in Minion Land selling frozen fruit pops and similar cold treats. It exists because the front of the park has almost no shade and a great many small children.",
+        "The offering is simple and the prices are at the lower end for this resort, which is worth noting in a park where a specialty drink runs close to ten dollars.",
+        "There is no seating and no shade at the window, so this is a walk-and-eat purchase rather than a stop."
+      ],
+      "signatureItems": [
+        "Fruit freeze pops",
+        "Frozen novelty treats"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "toddlers",
+        "families"
+      ],
+      "tips": [
+        "This is the cheapest cold purchase in the front of the park and a reasonable way to buy ten minutes of goodwill from a small child.",
+        "There is no seating or shade at the window. Buy and keep walking toward Production Central, which has more cover.",
+        "Queues here are short at almost any hour because most guests do not notice the window at all."
+      ],
+      "verdict": "Cheap, cold and entirely unambitious, which is exactly what it should be. A useful stop with children and pointless without them.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "finnegans-bar-and-grill",
+      "name": "Finnegan's Bar & Grill",
+      "land": "new-york",
+      "service": "table-service",
+      "cuisine": "Irish pub food",
+      "priceTier": "$$",
+      "priceNote": "Mains generally $18 to $32; pints in the low teens. Expect $35 to $50 per adult with a drink as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An Irish pub on the New York street set with live music, a proper bar, and the most useful sit-down room in the park.",
+      "description": [
+        "Finnegan's is built as a New York Irish bar of no particular vintage: dark wood, a long counter, tin ceiling, a stage in the corner for a musician. It has been here since the park opened and it is the room most likely to make you forget you are in a theme park, largely because it is dim and loud in the way an actual bar is dim and loud.",
+        "The menu is pub food done properly rather than ambitiously — fish and chips, shepherd's pie, burgers, a decent selection of Irish and craft beer on draft. Nothing on it will surprise you and nothing on it is bad.",
+        "The reason to book it is not the cooking. It is that this park has very few places to sit down for an hour with table service, and this is the one with the shortest booking lead time, the longest opening hours and the best atmosphere."
+      ],
+      "signatureItems": [
+        "Fish and chips",
+        "Shepherd's pie",
+        "Guinness beef stew",
+        "Irish coffee",
+        "Draft Guinness"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "air-conditioned-break",
+        "date-night",
+        "solo"
+      ],
+      "tips": [
+        "Same-day availability is common here in a way it is not at Walt Disney World. Check on the morning of your visit before writing it off.",
+        "Sit at the bar if you are a party of one or two. Full menu, no wait, and the live musician is right there.",
+        "The outdoor tables catch the Blues Brothers set on the Delancey Street corner, which is the comfortable way to see that show in July.",
+        "It stays open later than most of the park's kitchens, which makes it a genuine option after the nighttime show."
+      ],
+      "verdict": "The best sit-down room in the park and the easiest booking. Not destination cooking, but a proper hour off your feet with a real pint, which at this park is worth more.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Finnegan's?",
+          "a": "It helps at peak dinner but is far from essential, and same-day availability is common. Walk-ups at the bar are usually seated immediately with the full menu, which is the best option for one or two people."
+        },
+        {
+          "q": "Is Finnegan's good for families?",
+          "a": "Yes. It is loud enough that a restless child is not a problem, the menu has straightforward options, and the live musician holds attention. It is a bar, but it functions as a family restaurant during the day."
+        },
+        {
+          "q": "How late does Finnegan's stay open?",
+          "a": "Later than most kitchens in this park, which makes it one of the few genuine options after the nighttime lagoon show. Check the app on the day, since closing times move with the park's operating hours."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "louies-italian-restaurant",
+      "name": "Louie's Italian Restaurant",
+      "land": "new-york",
+      "service": "quick-service",
+      "cuisine": "Italian-American",
+      "priceTier": "$$",
+      "priceNote": "Pizza slices roughly $10 to $13; pasta and entree plates roughly $15 to $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A large indoor pizza and pasta counter on the New York street, serving oversized slices and the fastest sit-down lunch in the middle of the park.",
+      "description": [
+        "Louie's occupies a corner of the New York set and is dressed as a family Italian restaurant with a marble counter, a gelato case and a large dining room behind it. Food is ordered at a counter and carried to a table.",
+        "The slices are the reason people come: they are enormous, they are reliable, and a slice with a drink is one of the cheaper full lunches in the park. Pasta and chicken plates are also available and are less good.",
+        "It is worth knowing about the indoor seating, which is extensive and rarely full, because it sits in the middle of the park between New York and San Francisco where the shade runs out."
+      ],
+      "signatureItems": [
+        "Large cheese pizza slice",
+        "Pepperoni slice",
+        "Spaghetti and meatballs",
+        "Gelato and Italian ices"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "budget",
+        "quick-bite",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Buy a slice rather than a plate. The pizza is the strongest thing here and the cheapest way to feed a group.",
+        "The dining room at the back is much larger than the counter area suggests and is usually where the free tables are.",
+        "It is on the parade route, which means it is either a great place to watch from or a place you cannot get out of. Check the time.",
+        "Beer and wine are available at the counter, which is unusual for a quick-service in this park."
+      ],
+      "verdict": "Solid, cheap, fast and indoors. The pizza slice is genuinely good value in a park where value is scarce; skip the pasta.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ben-and-jerrys",
+      "name": "Ben & Jerry's",
+      "land": "new-york",
+      "service": "snack-cart",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Scoops roughly $7 to $10; sundaes and shakes roughly $10 to $14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A standard Ben & Jerry's scoop shop on the New York street, notable mainly for having reliable non-dairy options.",
+      "description": [
+        "This is a straightforward Ben & Jerry's counter on the New York street set, serving the standard flavour list in cups, cones and sundaes. There is nothing park-specific about it.",
+        "It earns its place in a guide for one reason: it carries the brand's non-dairy line, which makes it the most reliable vegan dessert in the park outside Diagon Alley.",
+        "Seating is a handful of outdoor tables with limited shade. Most people walk away with a cone."
+      ],
+      "signatureItems": [
+        "Scoop cones",
+        "Non-dairy scoops",
+        "Sundaes",
+        "Milkshakes"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "vegetarian",
+        "budget"
+      ],
+      "tips": [
+        "The non-dairy flavours here are the most reliable vegan dessert in the park outside the Wizarding World.",
+        "Queues are short compared with the themed dessert locations because nobody photographs a Ben & Jerry's cone.",
+        "There is very little shade at the outdoor tables. Eat and move on rather than treating this as a break."
+      ],
+      "verdict": "Exactly what it says it is. Worth knowing about only because it solves the vegan dessert problem better than anything else in this half of the park.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lombards-seafood-grille",
+      "name": "Lombard's Seafood Grille",
+      "land": "san-francisco",
+      "service": "table-service",
+      "cuisine": "Seafood and American",
+      "priceTier": "$$$",
+      "priceNote": "Mains generally $22 to $40; expect $40 to $60 per adult with a drink and dessert as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The park's most substantial sit-down restaurant, on the lagoon in San Francisco, with the easiest same-day availability of anywhere here.",
+      "description": [
+        "Lombard's is built as a Fisherman's Wharf seafood house: high ceilings, a central fountain, big windows onto the lagoon and a wraparound terrace. It is the closest thing this park has to a proper restaurant and the room is genuinely handsome.",
+        "The menu leans seafood — fish, shrimp, crab cakes, chowder — alongside steak, pasta and a burger for anyone who does not want any of that. It is competently cooked rather than exciting, and it is priced accordingly.",
+        "Two practical things make it worth knowing about. The terrace has a view over the lagoon, which is where the nighttime show happens, and same-day availability here is more common than anywhere else in the park."
+      ],
+      "signatureItems": [
+        "Clam chowder",
+        "Fish and chips",
+        "Crab cakes",
+        "Shrimp and grits",
+        "Key lime pie"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "air-conditioned-break",
+        "view",
+        "date-night"
+      ],
+      "tips": [
+        "Ask for a terrace table if you are eating in the evening. The lagoon view is the best seat in the park for a meal.",
+        "Same-day availability is common here even when Finnegan's is booked. Check on the morning of your visit.",
+        "It is a five-minute walk from Diagon Alley, which makes it the obvious escape when the Leaky Cauldron is a wall of people at lunchtime.",
+        "The chowder and the fish are the strongest things on the menu. The steak is the least interesting reason to be here."
+      ],
+      "verdict": "The most comfortable meal in the park and rarely fully booked. Competent rather than memorable food in a genuinely good room, which is a fair trade at these prices.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Lombard's Seafood Grille?",
+          "a": "Not usually. It has the most reliable same-day availability of any table-service location in this park, and walk-ups are frequently seated outside peak dinner. Booking ahead only really matters for a terrace table on a busy evening."
+        },
+        {
+          "q": "Can you watch the nighttime show from Lombard's?",
+          "a": "The terrace faces the lagoon and gets an angle on the show, though it is not a guaranteed or reserved viewing position and the restaurant does not sell it as one. If that is your plan, book the latest terrace slot you can get and manage expectations."
+        },
+        {
+          "q": "Is Lombard's good for families?",
+          "a": "Yes. The room is big and noisy enough that children are not a problem, the menu has straightforward non-seafood options, and it is one of the few places in this park where a family can sit down properly for an hour."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "richters-burger-co",
+      "name": "Richter's Burger Co.",
+      "land": "san-francisco",
+      "service": "quick-service",
+      "cuisine": "Burgers",
+      "priceTier": "$$",
+      "priceNote": "Burger combinations roughly $16 to $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A large air-conditioned burger counter themed around the 1906 earthquake, and the reliable pressure valve when Springfield and Diagon Alley are full.",
+      "description": [
+        "Richter's is dressed as a San Francisco warehouse that survived the 1906 earthquake, with cracked masonry, a seismograph gag and a lot of period signage. It serves burgers, chicken sandwiches and a toppings bar, ordered at a counter.",
+        "The food is unremarkable and the room is the point. It is large, properly air conditioned, and consistently half empty at lunchtime while the Leaky Cauldron and Fast Food Boulevard are at capacity five minutes away in either direction.",
+        "The toppings bar is better stocked than most and it is free, which quietly makes a plain burger here better value than it looks on the board."
+      ],
+      "signatureItems": [
+        "Cheeseburger with the toppings bar",
+        "Chicken sandwich",
+        "Veggie burger",
+        "Loaded fries"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "air-conditioned-break",
+        "quick-bite",
+        "budget"
+      ],
+      "tips": [
+        "This is the pressure valve at peak lunch. When Diagon Alley and Springfield are impossible, walk five minutes and eat here instead.",
+        "The toppings bar is free and well stocked. Order the plain burger and build it yourself rather than paying for a specialty one.",
+        "The back of the dining room is the quietest indoor seating in this half of the park.",
+        "Beer is available at the counter, which is unusual for a burger quick-service."
+      ],
+      "verdict": "Ordinary burgers in an excellent room at the exact moment you need one. Not a destination, but the smartest lunch decision in the park between noon and two.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "san-francisco-pastry-company",
+      "name": "San Francisco Pastry Company",
+      "land": "san-francisco",
+      "service": "bakery",
+      "cuisine": "Bakery and sandwiches",
+      "priceTier": "$",
+      "priceNote": "Pastries roughly $6 to $10; sandwiches and salads roughly $12 to $16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small bakery counter on the San Francisco waterfront doing pastries, sandwiches and the best cinnamon roll in the park.",
+      "description": [
+        "The Pastry Company is a compact bakery on the wharf frontage with a display case of cakes, cookies and pastries plus a short menu of sandwiches and salads. It is one of the few places in the park doing anything that reads as baked rather than assembled.",
+        "The cinnamon roll is the item people come back for and it is large enough to share. The cakes and cookies are competent; the sandwiches are the least interesting part of the counter.",
+        "Seating is limited but indoors, and the location on the quiet side of the park means it is rarely busy outside the mid-morning window."
+      ],
+      "signatureItems": [
+        "Cinnamon roll",
+        "Layer cake slices",
+        "Cookies",
+        "Deli sandwiches"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "air-conditioned-break",
+        "vegetarian"
+      ],
+      "tips": [
+        "The cinnamon roll is the reason to stop and it is easily shared between two people.",
+        "It sits between New York and Diagon Alley, which makes it a good breakfast stop if you are heading for the Wizarding World at opening.",
+        "Seating is limited. Grab and go if the handful of indoor tables are taken.",
+        "Skip the sandwiches; they are the weakest thing here and Richter's is two minutes away."
+      ],
+      "verdict": "Worth a stop for the cinnamon roll and nothing else. A cheap, quick, quiet breakfast on the way to Diagon Alley.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "chez-alcatraz",
+      "name": "Chez Alcatraz",
+      "land": "san-francisco",
+      "service": "lounge",
+      "cuisine": "Cocktails and small plates",
+      "priceTier": "$$",
+      "priceNote": "Cocktails and specialty frozen drinks roughly $13 to $17; small plates roughly $10 to $18 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A small covered bar on the lagoon edge in San Francisco, and the best place in this park to stop moving for half an hour.",
+      "description": [
+        "Chez Alcatraz is a compact open-air bar built into the wharf set, with a roof, a handful of tables and a railing directly onto the lagoon. It serves cocktails, frozen drinks, beer and a short list of snacks.",
+        "It is the single most underrated location in the park, and the reason is structural rather than culinary. This park has almost no shaded outdoor seating, and this bar has a roof, a breeze off the water, no queue at most hours and a view across the lagoon to New York.",
+        "Drinks are priced in line with the rest of the resort, which is to say high. Nobody is here for the value; they are here because it is the one place in this park where sitting still is genuinely pleasant."
+      ],
+      "signatureItems": [
+        "Frozen specialty cocktails",
+        "Draft beer",
+        "Margaritas",
+        "Bar snacks"
+      ],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "view",
+        "quick-bite",
+        "groups"
+      ],
+      "tips": [
+        "This is the best rest stop in the park and almost nobody plans for it. Covered, on the water, walk-up at most hours.",
+        "It gets an angle on the nighttime lagoon show, and claiming a railing table an hour ahead is a legitimate strategy on a busy night.",
+        "Mid-afternoon is nearly always immediate. The queue only appears between about 5pm and 7pm.",
+        "Non-alcoholic frozen drinks are on the menu, so this works as a stop with children in tow."
+      ],
+      "verdict": "The smartest thirty minutes you can spend in this park. Expensive drinks, but you are paying for shade, a breeze and a seat, and all three are scarce here.",
+      "faqs": [
+        {
+          "q": "Can you watch the nighttime show from Chez Alcatraz?",
+          "a": "You get an angle on it from the railing tables, though it is not a reserved viewing area and the bar does not sell it as one. Claiming a table an hour ahead on a busy night is a reasonable plan if you would rather sit than stand at the rail."
+        },
+        {
+          "q": "Is Chez Alcatraz suitable with children?",
+          "a": "Yes. It is an open-air bar rather than an enclosed one, non-alcoholic frozen drinks are on the menu, and children are a normal sight here. It is one of very few shaded outdoor seating areas in the park."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "universal-studios-classic-monsters-cafe",
+      "name": "Universal Studios' Classic Monsters Cafe",
+      "land": "san-francisco",
+      "service": "quick-service",
+      "cuisine": "Pizza, pasta and rotisserie",
+      "priceTier": "$$",
+      "priceNote": "Entrees roughly $15 to $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A large themed quick-service dressed as a laboratory of Universal's classic horror characters, with the most seating capacity in the middle of the park.",
+      "description": [
+        "Classic Monsters Cafe is themed around Universal's black-and-white horror properties — Frankenstein's monster, the Wolf Man, the Bride — with laboratory props, film stills and a dim, deliberately theatrical dining room. It is one of the more committed pieces of theming attached to a counter-service location at this resort.",
+        "The food is pizza, pasta, rotisserie chicken and salads, ordered at a counter. It is fine. The theming is the reason to walk in.",
+        "Its practical value is capacity. The dining rooms are large and rarely full, which makes this another useful escape from the lunchtime crush in Diagon Alley and Springfield."
+      ],
+      "signatureItems": [
+        "Rotisserie chicken",
+        "Pizza",
+        "Pasta plates",
+        "Caesar salad"
+      ],
+      "goodFor": [
+        "families",
+        "air-conditioned-break",
+        "groups",
+        "picky-eaters",
+        "quick-bite"
+      ],
+      "tips": [
+        "Walk in and look at the room even if you are not eating. The props and film material are the best thing about the location.",
+        "It has substantial indoor capacity and is rarely full, which makes it a reliable lunch fallback in the middle of the park.",
+        "Characters from the classic horror films sometimes appear in the dining area, which is a free photo opportunity most guests miss.",
+        "Mobile order and skip the counter queue at peak."
+      ],
+      "verdict": "Average food in an above-average room with real capacity. Worth choosing over queueing forty minutes for something marginally better.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-leaky-cauldron",
+      "name": "The Leaky Cauldron",
+      "land": "diagon-alley",
+      "service": "quick-service",
+      "cuisine": "British pub food",
+      "priceTier": "$$",
+      "priceNote": "Main plates roughly $18 to $24; a meal with a Butterbeer runs around $30 per adult as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The best quick-service food at Universal Orlando, serving proper British pub plates in a dim timbered inn at the entrance to Diagon Alley.",
+      "description": [
+        "The Leaky Cauldron is a large, dark, low-beamed inn straddling the wall between the London waterfront and Diagon Alley, and it is the only substantial kitchen inside the land. You order at a counter, are given a table number, and the food is brought out to you — a hybrid model that works better than either pure quick-service or table service in a room this busy.",
+        "The cooking is a genuine step above what a theme park counter usually produces. The bangers and mash, the fisherman's pie and the cottage pie are all properly made British pub plates, served hot, in portions large enough to be a real meal. The Ploughman's platter of cheeses, meats and pickles is designed to be shared and is the best-value thing on the menu for two people.",
+        "It is also the busiest bottleneck in the land. From noon until two the queue runs out of the door and the seating rooms are full, and the two of those together mean a forty-minute round trip for lunch. Eat at 11:15 or after 2:15 and the same meal takes fifteen minutes."
+      ],
+      "signatureItems": [
+        "Bangers and mash",
+        "Fisherman's pie",
+        "Cottage pie",
+        "Ploughman's platter",
+        "Sticky toffee pudding",
+        "Butterbeer potted cream"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "air-conditioned-break",
+        "big-appetites",
+        "vegetarian"
+      ],
+      "tips": [
+        "Eat at 11:15 or after 2:15. Between noon and two this is the single worst queue in the park for what you get.",
+        "The Ploughman's platter is the best value on the menu and feeds two people comfortably.",
+        "Butterbeer is available at the counter here, so you do not have to queue separately at the Hopping Pot for it.",
+        "The back seating rooms are dimmer, cooler and much quieter than the front. Walk past the first room you see.",
+        "Breakfast is served here and is one of the few sit-down breakfasts inside the gates, which makes it a good use of Early Park Admission after you have ridden Gringotts."
+      ],
+      "verdict": "The best food in this park and among the best quick-service at any Orlando theme park. Worth eating at twice on a trip, provided you go at a shoulder hour rather than at noon.",
+      "faqs": [
+        {
+          "q": "What should you order at the Leaky Cauldron?",
+          "a": "The bangers and mash or the fisherman's pie, both of which are properly made and hot. For two people sharing, the Ploughman's platter is the best value on the menu. The sticky toffee pudding and the Butterbeer potted cream are the two desserts worth ordering."
+        },
+        {
+          "q": "Does the Leaky Cauldron take reservations?",
+          "a": "No. It is a counter-order location where you are given a table number and food is brought to you. The way to manage it is timing rather than booking: arrive before 11:30 or after 2:15 and the whole process takes a fraction of the time."
+        },
+        {
+          "q": "Can you get Butterbeer at the Leaky Cauldron?",
+          "a": "Yes, at the counter with your meal, which saves queueing separately at the Hopping Pot outside. Cold and frozen are both usually available, and the frozen version holds up better if you are sitting down to eat."
+        },
+        {
+          "q": "Is there a vegetarian option at the Leaky Cauldron?",
+          "a": "Yes, and more than a token one. There is a vegetarian main plate on the menu alongside the Ploughman's platter, which can be built without meat on request. Gluten-free options are also available; ask at the counter rather than assuming from the board."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "florean-fortescues-ice-cream-parlour",
+      "name": "Florean Fortescue's Ice-Cream Parlour",
+      "land": "diagon-alley",
+      "service": "bakery",
+      "cuisine": "Ice cream",
+      "priceTier": "$",
+      "priceNote": "Single scoops roughly $7 to $9; sundaes roughly $11 to $14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Diagon Alley ice cream shop, with Butterbeer soft serve and a rotating list of flavours nobody else makes.",
+      "description": [
+        "Florean Fortescue's occupies a corner of Diagon Alley with a small indoor seating room and a few outdoor tables. It scoops a rotating list of unusual flavours alongside a soft-serve Butterbeer that is the single most ordered item in the shop.",
+        "The flavour list is the interesting part. Earl Grey and lavender, salted caramel blondie, clotted cream, sticky toffee pudding and strawberry and peanut butter turn up on the board, and they are properly made rather than novelty-coloured versions of vanilla.",
+        "The Butterbeer soft serve is the reason most guests queue, and it does the job better than the drink does — the flavour works considerably better cold and solid than it does carbonated."
+      ],
+      "signatureItems": [
+        "Butterbeer soft serve",
+        "Earl Grey and lavender ice cream",
+        "Salted caramel blondie ice cream",
+        "Sticky toffee pudding ice cream",
+        "Strawberry and peanut butter ice cream"
+      ],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "toddlers",
+        "vegetarian",
+        "budget"
+      ],
+      "tips": [
+        "The Butterbeer soft serve is better than the Butterbeer drink. If you only try the flavour once, try it here.",
+        "The rotating scoop flavours are the real find and most guests never look past the soft serve.",
+        "There is a small indoor seating room, which is one of very few air-conditioned seats in Diagon Alley outside the Leaky Cauldron.",
+        "Queues here are shortest in the first hour and after nine at night; midday it backs into the alley."
+      ],
+      "verdict": "The best dessert in the park and cheap by Diagon Alley standards. Order the Butterbeer soft serve once and then work through the rotating scoops.",
+      "faqs": [
+        {
+          "q": "What flavours does Florean Fortescue's have?",
+          "a": "A rotating list rather than a fixed one, typically including Earl Grey and lavender, salted caramel blondie, sticky toffee pudding, clotted cream and strawberry and peanut butter, alongside the permanent Butterbeer soft serve. Check the board on the day."
+        },
+        {
+          "q": "Is the Butterbeer ice cream better than the drink?",
+          "a": "Yes, and it is not close. The butterscotch and shortbread flavour works considerably better as a cold soft serve than it does as a sweet carbonated drink. If you are only trying Butterbeer once, try it here."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-hopping-pot",
+      "name": "The Hopping Pot",
+      "land": "diagon-alley",
+      "service": "lounge",
+      "cuisine": "Wizarding drinks and snacks",
+      "priceTier": "$",
+      "priceNote": "Specialty non-alcoholic drinks roughly $9 to $11; beers and cocktails roughly $11 to $15; snacks roughly $6 to $12 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The outdoor drinks window on Carkitt Market, serving Butterbeer, the exclusive wizarding beers and the drinks nobody else sells.",
+      "description": [
+        "The Hopping Pot is a walk-up window on Carkitt Market square, with a handful of outdoor tables beside the stage where the two live shows run. It sells the full run of Wizarding World drinks: Butterbeer cold and frozen, Fishy Green Ale, Otter's Fizzy Orange Juice, Tongue Tying Lemon Squash, Gillywater, and the exclusive wizarding beers on draft.",
+        "The exclusive drinks are the reason to come rather than the food, which is a short list of snacks and pretzels. Fishy Green Ale in particular is a genuine curiosity: a mint and cinnamon drink with blueberry boba spheres at the bottom that pop when you bite them.",
+        "Being outdoors in an unshaded square, it is not a place to sit for long in the afternoon. It is a place to buy a drink and stand and watch whichever show is on the stage."
+      ],
+      "signatureItems": [
+        "Butterbeer, cold and frozen",
+        "Fishy Green Ale",
+        "Tongue Tying Lemon Squash",
+        "Otter's Fizzy Orange Juice",
+        "Wizarding draft beers"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "groups",
+        "families",
+        "solo",
+        "vegetarian"
+      ],
+      "tips": [
+        "Fishy Green Ale is the drink to try here. It is genuinely unlike anything else at the resort and it is not sold outside the Wizarding World.",
+        "Butterbeer is also available at the Leaky Cauldron counter, so if you are eating there you can skip this queue entirely.",
+        "Time a drink here to whichever show is next on the Carkitt Market stage and watch from the edge of the crowd with a seat.",
+        "The square is unshaded and hot in the afternoon. This is a morning or evening stop in July and August."
+      ],
+      "verdict": "The best drinks list in the park and the only place to get several of them. Worth queueing for the exclusives, not worth queueing for a Butterbeer you could get inside.",
+      "faqs": [
+        {
+          "q": "What is Fishy Green Ale?",
+          "a": "A cold, non-alcoholic mint and cinnamon drink with blueberry-flavoured boba spheres at the bottom that burst when you bite them. It is the most genuinely unusual drink at Universal Orlando and it is sold only in the Wizarding World."
+        },
+        {
+          "q": "Is the Hopping Pot the only place to get Butterbeer at this park?",
+          "a": "No. Butterbeer is also served at the Leaky Cauldron counter and at other windows across Diagon Alley and the London waterfront. If you are already eating at the Leaky Cauldron, order it there and skip this queue."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-fountain-of-fair-fortune",
+      "name": "The Fountain of Fair Fortune",
+      "land": "diagon-alley",
+      "service": "lounge",
+      "cuisine": "Wizarding beers and drinks",
+      "priceTier": "$",
+      "priceNote": "Draft wizarding beers roughly $11 to $14; Butterbeer roughly $9 to $10 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A tiny indoor pub in Diagon Alley pouring the exclusive wizarding beers, and one of the few air-conditioned seats in the land.",
+      "description": [
+        "The Fountain of Fair Fortune is a small pub tucked into the alley, with a bar, a fountain and standing room for not very many people. It pours the two exclusive wizarding beers brewed for the Wizarding World alongside Butterbeer and a short list of drinks.",
+        "The beers are the point. They are made specifically for these lands, they are not sold anywhere else in the world, and they are considerably better than the novelty framing suggests — one dark and sweet, one lighter and drier.",
+        "It is small, it is indoors and it is air conditioned, which in Diagon Alley makes it valuable out of proportion to its size."
+      ],
+      "signatureItems": [
+        "Wizard's Brew",
+        "Dragon Scale",
+        "Butterbeer",
+        "Gillywater"
+      ],
+      "goodFor": [
+        "solo",
+        "date-night",
+        "air-conditioned-break",
+        "quick-bite"
+      ],
+      "tips": [
+        "The two exclusive beers are only made for the Wizarding Worlds and are not sold anywhere else. That is the reason to come in.",
+        "It is tiny. Go at an off hour or expect to stand in a doorway.",
+        "It is air conditioned, which makes it one of very few indoor stops in the alley besides the Leaky Cauldron and the ice cream parlour.",
+        "Order a taster of both beers rather than committing to a full one; the dark and the light are genuinely different."
+      ],
+      "verdict": "Worth ten minutes for a beer you cannot buy anywhere else on earth. Too small to plan around, and the queue outside is never worth it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "eternelles-elixir-of-refreshment",
+      "name": "Eternelle's Elixir of Refreshment",
+      "land": "diagon-alley",
+      "service": "snack-cart",
+      "cuisine": "Flavoured drinks",
+      "priceTier": "$",
+      "priceNote": "An elixir with a bottle of Gillywater runs roughly $11 to $13 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A drinks cart in Carkitt Market where you pour a coloured elixir into a bottle of water and watch it change colour.",
+      "description": [
+        "Eternelle's is a small cart in Carkitt Market selling flavoured concentrates in tiny vials, each one poured into a bottle of Gillywater. The water changes colour dramatically as the elixir goes in, which is the entire show and the reason children want one.",
+        "There are several elixirs with different flavours and colours, and they are marketed with effects the buyer is invited to take as seriously as they like. The flavours are pleasant and lightly sweet rather than remarkable.",
+        "You are paying about eleven dollars for a bottle of water with flavouring in it. It photographs well and it hydrates a child, which for some visitors is a fair trade."
+      ],
+      "signatureItems": [
+        "Draught of Peace elixir",
+        "Fire Protection Potion elixir",
+        "Babbling Beverage elixir",
+        "Gillywater"
+      ],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "quick-bite",
+        "vegetarian"
+      ],
+      "tips": [
+        "Pour it yourself rather than letting the attendant do it. The colour change is the product and it is over in two seconds.",
+        "It is roughly eleven dollars for flavoured water. Know that before you queue rather than after.",
+        "The bottle is the souvenir most guests actually keep, so hold on to it rather than binning it with the cap.",
+        "It is fully vegan and gluten free, which makes it a rare safe purchase for a child with allergies in this land."
+      ],
+      "verdict": "Overpriced flavoured water with a good trick attached. Buy it once for a child who will enjoy the colour change and never again.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "london-taxi-hut",
+      "name": "London Taxi Hut",
+      "land": "diagon-alley",
+      "service": "snack-cart",
+      "cuisine": "Hot dogs and drinks",
+      "priceTier": "$",
+      "priceNote": "Hot dogs roughly $10 to $13; beer and soft drinks roughly $5 to $12 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A small hot dog and drinks stand on the London waterfront outside Diagon Alley, and the only quick food on that side of the wall.",
+      "description": [
+        "The London Taxi Hut is a walk-up kiosk on the embankment outside the entrance to Diagon Alley, selling hot dogs, crisps, soft drinks and beer. It sits with the taxi and the phone box on the London street.",
+        "It exists to catch people who are waiting on the waterfront, and it is the only food on that side of the wall. There is no seating and no shade.",
+        "It is entirely unambitious and it is the fastest food purchase anywhere near the Wizarding World, which occasionally matters more than quality."
+      ],
+      "signatureItems": [
+        "Hot dogs",
+        "Draft beer",
+        "Bottled drinks",
+        "Crisps"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo"
+      ],
+      "tips": [
+        "This is the fastest food anywhere near the Wizarding World. Use it when the Leaky Cauldron queue is out of the door and you just need to eat.",
+        "There is no seating. Take it to the embankment wall or eat standing.",
+        "It sells beer, which makes it the cheapest drink stop in this corner of the park.",
+        "It is easy to miss on the London waterfront. Look for it near the taxi and the red phone box."
+      ],
+      "verdict": "A hot dog stand with a good address. Nobody should plan a meal here, and it is genuinely useful when Diagon Alley is at capacity.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fast-food-boulevard",
+      "name": "Fast Food Boulevard",
+      "land": "springfield",
+      "service": "quick-service",
+      "cuisine": "American, themed to the Simpsons",
+      "priceTier": "$$",
+      "priceNote": "Burgers, chicken and pizza plates roughly $15 to $22 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A food hall of Springfield-branded counters around one shared seating room, including Krusty Burger, and the best themed eating in the park.",
+      "description": [
+        "Fast Food Boulevard is a run of separate counters inside one building, each themed to a Springfield business: Krusty Burger for burgers, Luigi's for pizza, Cletus' Chicken Shack for fried chicken, The Frying Dutchman for seafood, Lisa's Teahouse of Horror for salads and wraps, and Flaming Moe's for drinks. They share one large seating room.",
+        "The gag is executed thoroughly, down to the signage, the menu naming and the props. The food is straightforward American counter cooking, and the Clogger Burger and the chicken and waffle sandwich are the two items people actually recommend to each other.",
+        "The shared seating model is genuinely useful for a group that cannot agree: everybody orders from a different window and meets at a table. Nobody checks where your tray came from."
+      ],
+      "signatureItems": [
+        "Krusty Burger",
+        "Clogger Burger",
+        "Chicken and waffle sandwich",
+        "Square pizza slice",
+        "Fried shrimp basket",
+        "Flaming Moe"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "picky-eaters",
+        "big-appetites",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Split your party across the counters and meet at a table. That is how the room is designed to work and almost nobody uses it that way.",
+        "The Clogger Burger and the chicken and waffle sandwich are the two things worth ordering. The plain Krusty Burger is ordinary.",
+        "It is at capacity between noon and two. Eat at 11:30 or after 2, or go to Richter's five minutes away.",
+        "Mobile order works here and lets you walk straight past the counter queues to collect.",
+        "Duff beer is available inside as well as at the outdoor brewery, so you do not need to make two stops."
+      ],
+      "verdict": "The most fun eating in the park and the food is better than it needs to be. Go at a shoulder hour, split across counters, and order the Clogger Burger.",
+      "faqs": [
+        {
+          "q": "What should you order at Fast Food Boulevard?",
+          "a": "The Clogger Burger from Krusty Burger and the chicken and waffle sandwich from Cletus' Chicken Shack are the two standouts. The square pizza slice from Luigi's is the best cheap option, and the plain Krusty Burger is the least interesting thing in the building."
+        },
+        {
+          "q": "Is Krusty Burger a separate restaurant?",
+          "a": "It is one of several counters inside Fast Food Boulevard, all sharing a single seating room. You can order from any window and sit anywhere, which is the sensible way to feed a group that wants different things."
+        },
+        {
+          "q": "Can you get a Flaming Moe at Fast Food Boulevard?",
+          "a": "Yes, from the Flaming Moe's counter inside, as well as at Moe's Tavern next door. Drink it where you buy it — the dry ice fog that makes it worth ordering is gone within a few minutes."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "moes-tavern",
+      "name": "Moe's Tavern",
+      "land": "springfield",
+      "service": "lounge",
+      "cuisine": "Bar",
+      "priceTier": "$",
+      "priceNote": "Duff beer roughly $10 to $13; the Flaming Moe roughly $12 to $15 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A full-scale recreation of the bar from the show, serving Duff and the Flaming Moe, with the phone gag intact.",
+      "description": [
+        "Moe's Tavern is a working bar built as an exact recreation of the one in the series: the dim room, the pool table, the Love Tester on the wall, the payphone behind the bar. It is small and it is one of the most complete pieces of set reconstruction at Universal Orlando.",
+        "It serves Duff beer in its three varieties on draft plus the Flaming Moe, a non-alcoholic orange drink served over dry ice so the glass smokes continuously. The Flaming Moe is the item people queue for and the fog is genuinely the whole trick.",
+        "The payphone rings. Somebody behind the bar answers it in character. It is a small thing and it is the reason people who do not drink still come in here."
+      ],
+      "signatureItems": [
+        "Flaming Moe",
+        "Duff Beer",
+        "Duff Lite",
+        "Duff Dry",
+        "Buzz Cola"
+      ],
+      "goodFor": [
+        "groups",
+        "solo",
+        "air-conditioned-break",
+        "date-night"
+      ],
+      "tips": [
+        "The Flaming Moe is non-alcoholic, so children can order one and most of the queue is families rather than drinkers.",
+        "Drink it in the bar. The dry ice fog is the entire product and it is gone within five minutes of walking out.",
+        "Answer the payphone if it rings while you are standing near it. That is the joke and the staff will play along.",
+        "It is small and it fills. Go before noon or after eight for a seat at the bar."
+      ],
+      "verdict": "The best-realised room in the park and worth going in even if you buy nothing. The Flaming Moe is a fifteen-dollar orange drink and it is still worth ordering once.",
+      "faqs": [
+        {
+          "q": "Is the Flaming Moe alcoholic?",
+          "a": "No. It is a non-alcoholic orange-flavoured drink served over dry ice so the glass smokes continuously. Children can order it, and most of the queue at Moe's Tavern is families rather than people drinking beer."
+        },
+        {
+          "q": "Can you drink real beer at Moe's Tavern?",
+          "a": "Yes. Duff is brewed for Universal in three varieties — regular, Lite and Dry — and poured on draft here and at Duff Brewery outside. A flight of all three is the usual way to work out which one you actually want."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "duff-brewery",
+      "name": "Duff Brewery",
+      "land": "springfield",
+      "service": "lounge",
+      "cuisine": "Outdoor bar",
+      "priceTier": "$",
+      "priceNote": "Duff beer roughly $10 to $13; cocktails roughly $13 to $16 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "An outdoor bar on the Springfield lagoon frontage with real shade, a water view and the least crowded seating in the back half of the park.",
+      "description": [
+        "Duff Brewery is an open-air bar built on the lagoon edge behind Springfield, with a covered seating area, the Duff Gardens signage and a view across the water. It serves the three Duff varieties on draft plus cocktails and soft drinks.",
+        "It is consistently one of the emptiest places in the park, which is difficult to explain given it has shade, seating and a water view. Guests walk past it toward Fast Food Boulevard and never look left.",
+        "The beer is brewed for Universal and is perfectly decent light American lager. The reason to come is a covered seat by the water in the middle of an afternoon."
+      ],
+      "signatureItems": [
+        "Duff Beer",
+        "Duff Lite",
+        "Duff Dry",
+        "Frozen cocktails"
+      ],
+      "goodFor": [
+        "groups",
+        "solo",
+        "view",
+        "date-night",
+        "quick-bite"
+      ],
+      "tips": [
+        "This is the least crowded shaded seating in the back half of the park and one of the best rest stops available.",
+        "Order a flight of the three Duff varieties rather than committing to a pint of one.",
+        "It has a lagoon view, which makes it a reasonable place to wait out the last hour before the nighttime show.",
+        "Springfield is a heat trap and this is the one part of it with proper cover."
+      ],
+      "verdict": "Shade, seating, a water view and nobody in it. The beer is unremarkable and the seat is worth the price of one anyway.",
+      "faqs": [
+        {
+          "q": "Is Duff Beer real beer?",
+          "a": "Yes. It is brewed for Universal in three varieties — regular, Lite and Dry — and it is a straightforward American lager rather than a novelty. A flight of all three is the sensible order if you are unsure."
+        },
+        {
+          "q": "Is Duff Brewery a good place to sit?",
+          "a": "It is one of the best in the park. There is covered seating, a lagoon view and a breeze off the water, and it is consistently emptier than anywhere comparable because guests walk past it on the way to Fast Food Boulevard."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bumblebee-mans-taco-truck",
+      "name": "Bumblebee Man's Taco Truck",
+      "land": "springfield",
+      "service": "food-truck",
+      "cuisine": "Tacos",
+      "priceTier": "$",
+      "priceNote": "A trio of tacos runs roughly $11 to $14 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A taco truck parked in Springfield serving three tacos for the price of a burger, and the best cheap savoury food in the park.",
+      "description": [
+        "Bumblebee Man's Taco Truck is a genuine parked truck in the Springfield plaza selling tacos in trios, with a small covered seating area beside it. The gag is thin and the food is better than the gag.",
+        "The taco varieties rotate but typically include a Korean beef, a carnitas or Cuban style, and a chipotle chicken. They are properly seasoned and served hot, and a trio is a real lunch for a price that undercuts almost everything else in the park.",
+        "It is a walk-up window with no mobile order, and the queue moves quickly because the operation is simple."
+      ],
+      "signatureItems": [
+        "Korean beef taco",
+        "Carnitas taco",
+        "Chipotle chicken taco",
+        "Taco trio"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "groups"
+      ],
+      "tips": [
+        "A trio is a genuine lunch for under fifteen dollars, which makes this the best cheap savoury food in the park.",
+        "The queue moves fast because there is no mobile order and the menu is short. It is often quicker than Fast Food Boulevard next door.",
+        "The taco line-up rotates. Check the board rather than arriving expecting a specific one.",
+        "There is a small covered seating area beside the truck, which is the only shade in the Springfield plaza."
+      ],
+      "verdict": "The best value savoury food at Universal Studios Florida. Three good tacos for less than a mediocre burger, and almost nobody thinks to eat here.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "lard-lad-donuts",
+      "name": "Lard Lad Donuts",
+      "land": "springfield",
+      "service": "bakery",
+      "cuisine": "Doughnuts",
+      "priceTier": "$",
+      "priceNote": "The Big Pink Donut runs roughly $10 to $13; standard doughnuts roughly $5 to $7 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The doughnut stand under the giant Lard Lad statue, home of the Big Pink Donut that four people can genuinely share.",
+      "description": [
+        "Lard Lad is a walk-up counter under a two-storey statue of a boy holding a doughnut, and it is the most photographed spot in Springfield. It sells standard doughnuts and one very large one.",
+        "The Big Pink Donut is the reason it exists: a pink-frosted doughnut roughly the diameter of a dinner plate, covered in sprinkles, sold to be shared. It is a decent cake doughnut rather than a great one, and it is not trying to be more than a joke made real.",
+        "Split between three or four people it costs less per head than a standard park snack and produces better photographs than anything else in the land."
+      ],
+      "signatureItems": [
+        "Big Pink Donut",
+        "Chocolate frosted doughnut",
+        "Doughnut sundae",
+        "Coffee"
+      ],
+      "goodFor": [
+        "families",
+        "groups",
+        "budget",
+        "quick-bite",
+        "vegetarian"
+      ],
+      "tips": [
+        "Buy one Big Pink Donut for the group, not one each. It is a plate-sized cake doughnut and one person will not finish it.",
+        "Ask for it cut at the counter if you are sharing; they will do it and it saves a mess.",
+        "Photograph it under the statue rather than at a table. That is the shot everybody actually wants.",
+        "The standard doughnuts are better eating than the big one, if quality rather than spectacle is the point."
+      ],
+      "verdict": "A joke made real and worth doing once. Split it between four people, take the photograph, and buy a standard doughnut if you actually want a good doughnut.",
+      "faqs": [
+        {
+          "q": "How big is the Big Pink Donut?",
+          "a": "Roughly the diameter of a dinner plate, and genuinely intended to be shared between three or four people. Buying one each is the most common mistake made at this counter and produces a lot of abandoned doughnut."
+        },
+        {
+          "q": "Is the Big Pink Donut any good?",
+          "a": "It is a decent cake doughnut with a lot of frosting rather than a great pastry. You are buying the spectacle and the photograph. The standard doughnuts at the same counter are better eating."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mels-drive-in",
+      "name": "Mel's Drive-In",
+      "land": "hollywood",
+      "service": "quick-service",
+      "cuisine": "Burgers and shakes",
+      "priceTier": "$$",
+      "priceNote": "Burger combinations roughly $16 to $22; shakes roughly $8 to $11 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A 1950s diner on the Hollywood boulevard with classic cars parked outside, a jukebox, and the latest kitchen hours in the park.",
+      "description": [
+        "Mel's Drive-In is a full recreation of a 1950s American diner, with chrome, red vinyl booths, a jukebox and classic cars parked outside on the boulevard. It is a counter-service operation despite the diner styling.",
+        "The menu is burgers, chicken sandwiches, fries and thick milkshakes. It is unremarkable food executed reliably, and the shakes are the best thing on the board by a clear margin.",
+        "It matters practically because it stays open later than most of the park's kitchens and has a large air-conditioned room at the end of the park where the lagoon show empties out. On a night when everything else has closed its windows, this is where you eat."
+      ],
+      "signatureItems": [
+        "Cheeseburger",
+        "Bacon cheeseburger",
+        "Thick milkshakes",
+        "Chicken tenders",
+        "Onion rings"
+      ],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "late-night",
+        "air-conditioned-break",
+        "quick-bite"
+      ],
+      "tips": [
+        "The milkshakes are the best thing here and better than the burgers by a distance.",
+        "It stays open later than most kitchens in the park, which makes it the fallback after the nighttime show.",
+        "The booths inside are the most comfortable seating in the Hollywood end of the park.",
+        "The classic cars outside are the photograph, and you do not have to buy anything to take it."
+      ],
+      "verdict": "Ordinary diner food in a very good-looking room with the longest hours in the park. Come for a shake and the late opening rather than the burger.",
+      "faqs": [
+        {
+          "q": "Is Mel's Drive-In table service?",
+          "a": "No, despite the diner styling. You order at a counter and carry the food to a booth. The room is dressed as a full 1950s diner and the service model is standard quick-service."
+        },
+        {
+          "q": "How late does Mel's Drive-In stay open?",
+          "a": "Later than most kitchens in this park, which makes it the reliable option after the nighttime lagoon show. Times move with the park's operating hours, so check the app on the day."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cafe-la-bamba",
+      "name": "Cafe La Bamba",
+      "land": "hollywood",
+      "service": "quick-service",
+      "cuisine": "Grilled chicken and Latin-influenced plates",
+      "priceTier": "$$",
+      "priceNote": "Plates roughly $16 to $24 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A hacienda-style quick-service in Hollywood doing grilled and rotisserie plates, with an open courtyard and irregular opening hours.",
+      "description": [
+        "Cafe La Bamba occupies a Spanish colonial building off the Hollywood boulevard, with a tiled courtyard and an indoor dining room. It serves grilled and rotisserie chicken, ribs and Latin-influenced plates from a counter.",
+        "The food is a step above the park's burger counters, and the courtyard is one of the more pleasant places to sit in this end of the park. Portions are substantial.",
+        "The important caveat is that this location does not operate every day or every meal period, and it is frequently given over to seasonal or event use. Check the app before walking over."
+      ],
+      "signatureItems": [
+        "Rotisserie chicken",
+        "Grilled chicken platter",
+        "Ribs",
+        "Rice and beans"
+      ],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "groups",
+        "air-conditioned-break"
+      ],
+      "tips": [
+        "Check the app before walking over. This location is not open every day and is often used for events.",
+        "The courtyard seating is among the better outdoor spots in the park, with real shade from the building.",
+        "Portions are large. Two people can reasonably share a rotisserie plate.",
+        "It is a short walk from both the Horror Make-Up Show and the Bourne Stuntacular, which makes it the natural lunch stop if you are doing both."
+      ],
+      "verdict": "Better cooking than the burger counters when it is open, which is the catch. Worth checking for and not worth planning around.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "schwabs-pharmacy",
+      "name": "Schwab's Pharmacy",
+      "land": "hollywood",
+      "service": "snack-cart",
+      "cuisine": "Ice cream and soda fountain",
+      "priceTier": "$",
+      "priceNote": "Sundaes and floats roughly $8 to $13; scoops roughly $6 to $9 as of July 2026.",
+      "priceVerified": "2026-07",
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A recreated Hollywood soda fountain serving sundaes and floats, small, air conditioned and usually empty.",
+      "description": [
+        "Schwab's is built as the Hollywood drugstore soda fountain where, according to a story nobody has ever verified, actresses were discovered at the counter. It is small, has a proper counter with stools, and serves ice cream, sundaes and floats.",
+        "The hot fudge sundae is the item to order and it is made at the counter rather than pre-assembled. Prices are lower than the themed dessert stops elsewhere in the park.",
+        "It is indoors, it is air conditioned and it is nearly always empty, which in this park is worth as much as the ice cream."
+      ],
+      "signatureItems": [
+        "Hot fudge sundae",
+        "Root beer float",
+        "Banana split",
+        "Scoop cones"
+      ],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "air-conditioned-break",
+        "families",
+        "solo"
+      ],
+      "tips": [
+        "Sit at the counter rather than taking it away. That is the whole point of the room and the stools are almost always free.",
+        "Cheaper than the themed dessert stops elsewhere in the park for a comparable amount of ice cream.",
+        "It is air conditioned and almost always empty, which makes it a legitimate short rest in the Hollywood end.",
+        "It is easy to walk past on the boulevard. Look for the pharmacy frontage between the show buildings."
+      ],
+      "verdict": "A cheap, cold, quiet stop that most guests never find. The hot fudge sundae is made properly and costs less than a themed dessert elsewhere.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

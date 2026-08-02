@@ -1,0 +1,765 @@
+{
+  "park": "epic-universe",
+  "dining": [
+    {
+      "slug": "atlantic",
+      "name": "Atlantic",
+      "land": "celestial-park",
+      "service": "table-service",
+      "cuisine": "Seafood",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly run in the $30s and $40s per adult as of July 2026, with a full raw bar and cocktail list on top",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The seafood restaurant in Celestial Park and the best sit-down meal at Epic Universe, with a raw bar and a genuinely serious kitchen.",
+      "description": [
+        "Atlantic is the closest thing Universal Orlando has to a proper restaurant inside a theme park. It is a full-service seafood room in the hub, with a raw bar, whole fish, and a nautical-celestial design that manages to be theatrical without tipping into a theme restaurant. The kitchen is cooking at a level that would be respectable at a hotel and is genuinely surprising behind a park gate.",
+        "The room does two things unusually well. It is properly cool and properly quiet — a rare combination at Epic Universe — and the service is paced for people who intend to sit for an hour rather than for people trying to make a showtime. If you have been on your feet since eight in the morning, that hour is worth more than the food is.",
+        "It is not cheap and it is not trying to be. A couple eating a starter, a main and a drink each is spending real money. What you get for it is the best meal in the park and the best hour of rest available in it, which for most visitors is the correct trade exactly once in a day."
+      ],
+      "signatureItems": [
+        "Raw bar oysters",
+        "Whole roasted fish",
+        "Seafood tower",
+        "Grilled octopus",
+        "Lobster roll"
+      ],
+      "goodFor": ["date-night", "special-occasion", "splurge", "air-conditioned-break", "solo"],
+      "tips": [
+        "Book before you travel. It fills on busy days and walking up at one in the afternoon is a coin flip you will usually lose.",
+        "Take an early dinner around five. You eat while the queues are at their worst and walk back out into a park that is starting to empty, which is the single most efficient hour available at Epic Universe.",
+        "Sit inside rather than out. The terrace looks better in photographs and the dining room is twenty degrees more comfortable in Florida.",
+        "The raw bar works as a light meal if a full dinner is more than you want. Two people can eat well here without ordering entrees."
+      ],
+      "verdict": "The best food at Epic Universe and worth the price once in a trip. Treat the hour off your feet as half of what you are buying and it becomes straightforwardly good value.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Atlantic?",
+          "a": "Strongly recommended. It is the best-regarded restaurant in the park and fills on busy days, particularly at dinner. Walk-ups are possible at off-peak times but should not be your plan."
+        },
+        {
+          "q": "Is Atlantic expensive?",
+          "a": "Yes by theme-park standards. Entrees mostly sit in the $30s and $40s as of July 2026, and a couple ordering starters and drinks is spending real money. The cooking justifies it more than most in-park restaurants do."
+        },
+        {
+          "q": "Is Atlantic good for children?",
+          "a": "It works for older children who will sit through a meal, and it is not the right room for a restless toddler. Families with young children are better served by Oak & Star Tavern in the same part of the hub."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-blue-dragon-pan-asian-restaurant",
+      "name": "The Blue Dragon Pan-Asian Restaurant",
+      "land": "celestial-park",
+      "service": "table-service",
+      "cuisine": "Pan-Asian",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly run in the $20s and $30s per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The second table-service restaurant in the hub, cooking across several Asian cuisines, and the better choice of the two for a mixed group.",
+      "description": [
+        "The Blue Dragon covers a lot of ground — noodles, rice bowls, dumplings, curries and grilled dishes drawn from several Asian cuisines — and it does it more successfully than pan-regional restaurants usually manage. The room is dark, cool and dramatic, and it seats larger parties more comfortably than Atlantic does.",
+        "It is the more flexible of the two hub restaurants. Vegetarians and vegans have real options rather than a token dish, the price ceiling is lower, and a table with a nine-year-old at it does not feel out of place. For a family that wants one proper sit-down meal in the day, this is usually the right one.",
+        "The cooking is good rather than exceptional, which is the honest read. Nothing here will change your understanding of any of the cuisines represented, and everything arrives properly seasoned and properly hot, which inside a theme park is most of the battle."
+      ],
+      "signatureItems": [
+        "Pork belly bao",
+        "Ramen",
+        "Pad thai",
+        "Crispy whole fish",
+        "Assorted dumplings"
+      ],
+      "goodFor": ["families", "groups", "vegetarian", "air-conditioned-break", "date-night"],
+      "tips": [
+        "This is the better hub restaurant for a group or a family. Atlantic is the better meal; The Blue Dragon is the easier table.",
+        "Book ahead on busy days. It takes walk-ups more readily than Atlantic but not reliably at peak dinner times.",
+        "The vegetarian and vegan options here are real dishes rather than substitutions, which makes it the most useful restaurant in the park for a mixed-diet party.",
+        "Order a couple of the small plates to share before the mains land. The kitchen is stronger on those than on the larger entrees."
+      ],
+      "verdict": "Good, flexible, reliably cooked food in a cool dark room, and the right sit-down choice for most families. Atlantic is the better meal if you are two adults with a budget.",
+      "faqs": [
+        {
+          "q": "Is The Blue Dragon good for vegetarians and vegans?",
+          "a": "Yes, and it is the strongest option in the park for both. The plant-based dishes are built as dishes rather than as substitutions, and the menu spans enough cuisines that a mixed-diet table works easily."
+        },
+        {
+          "q": "Do you need a reservation at The Blue Dragon?",
+          "a": "Recommended rather than essential. It takes walk-ups more readily than Atlantic, but at peak dinner on a busy day you should have booked."
+        },
+        {
+          "q": "Which is better, Atlantic or The Blue Dragon?",
+          "a": "Atlantic is the better food and the better room for two adults. The Blue Dragon is the better table for a family or a group, has a lower price ceiling, and handles dietary requirements far more comfortably."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "oak-and-star-tavern",
+      "name": "Oak & Star Tavern",
+      "land": "celestial-park",
+      "service": "quick-service",
+      "cuisine": "American smokehouse",
+      "priceTier": "$$",
+      "priceNote": "Plates mostly run roughly $18 to $26 per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The smokehouse counter in Celestial Park, and the fastest way to feed a mixed group properly without leaving the hub.",
+      "description": [
+        "Oak & Star Tavern is the hub's big counter-service operation: smoked meats, sausages, sandwiches and sides, ordered at a counter and eaten at real tables. It handles volume well, it has a beer list worth looking at, and it sits at the point every route through the park crosses, which makes it the default lunch for a lot of visitors.",
+        "The smoked meat is competent barbecue rather than destination barbecue. The brisket is the item to order and the sides are better than they need to be. What sets it apart from the counters behind the portals is that you can get a plate of real food, in air conditioning, without a reservation and without a themed queue.",
+        "It also solves the mixed-party problem better than anywhere else at Epic Universe. Someone can eat a full plate, someone can have a sandwich, someone can have a beer and nothing else, and nobody has to walk to a different world to do it."
+      ],
+      "signatureItems": [
+        "Smoked brisket plate",
+        "Sausage platter",
+        "Pulled pork sandwich",
+        "Mac and cheese",
+        "Smoked turkey"
+      ],
+      "goodFor": ["families", "groups", "big-appetites", "quick-bite", "air-conditioned-break"],
+      "tips": [
+        "Mobile order it. This is the busiest counter in the park at 12:30 and the pickup window you want will be gone if you order once you are hungry.",
+        "Order the brisket over the pulled pork. It is the item the kitchen is actually built around.",
+        "Indoor seating fills first; the outdoor tables on the hub side are usually free and shaded in the afternoon.",
+        "It is the best group solution in the park. Everyone eats what they want, at once, without crossing a portal."
+      ],
+      "verdict": "The most useful meal at Epic Universe rather than the best one. Competent barbecue, real seating, no reservation, and it sits where your day already goes.",
+      "faqs": [
+        {
+          "q": "Is Oak & Star Tavern worth eating at?",
+          "a": "For a fast group lunch, yes — it is the best-organized counter-service in the park with real tables and air conditioning. As a destination meal it is ordinary barbecue at theme-park prices."
+        },
+        {
+          "q": "Can you mobile order at Oak & Star Tavern?",
+          "a": "Yes, through the Universal app, and you should. It is the busiest counter in the park at peak lunch and ordering ahead is the difference between eating at 12:40 and eating at 1:20."
+        },
+        {
+          "q": "Does Oak & Star Tavern serve alcohol?",
+          "a": "Yes, including a beer list that is better than a counter-service operation needs. It is one of the more comfortable places in the park to sit with a drink and a plate at the same time."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pizza-moon",
+      "name": "Pizza Moon",
+      "land": "celestial-park",
+      "service": "quick-service",
+      "cuisine": "Pizza",
+      "priceTier": "$$",
+      "priceNote": "Individual pizzas run roughly $16 to $22 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Wood-fired pizza in the hub, and the most reliable way to feed a child who has rejected everything else in the park.",
+      "description": [
+        "Pizza Moon does what it says: individual wood-fired pizzas, salads and a short list of drinks, ordered at a counter in Celestial Park. The crust is better than a theme-park pizza has any obligation to be, and the margherita is the one to order because the kitchen is set up for it.",
+        "Its role in a day here is the picky eater. Epic Universe is a park of themed menus — Viking food, wizarding food, Mushroom Kingdom food — and a seven-year-old who wants none of that will eat a pizza. That is worth knowing before the argument starts."
+      ],
+      "signatureItems": [
+        "Margherita pizza",
+        "Pepperoni pizza",
+        "Garlic knots",
+        "Caesar salad"
+      ],
+      "goodFor": ["families", "picky-eaters", "quick-bite", "budget", "vegetarian"],
+      "tips": [
+        "Order the margherita. The simpler pizzas come out of the oven better than the loaded ones.",
+        "Mobile order and collect. The counter queue at lunch moves slowly for what is essentially a fast product.",
+        "It is the picky-eater solution for the whole park, and it sits in the hub, so it is reachable from wherever the argument starts."
+      ],
+      "verdict": "Better pizza than it needs to be and the most reliable meal in the park for a child who has rejected everything themed. Nobody is coming to Epic Universe for it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "bar-ithaca",
+      "name": "Bar Ithaca",
+      "land": "celestial-park",
+      "service": "lounge",
+      "cuisine": "Cocktails and small plates",
+      "priceTier": "$$",
+      "priceNote": "Cocktails run roughly $16 to $20 as of July 2026, with small plates in the teens",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The open-air cocktail bar in the middle of Celestial Park, with the best seat in the house for watching Stardust Racers.",
+      "description": [
+        "Bar Ithaca is an outdoor bar in the hub with proper seating, a real cocktail list and a direct view of the coaster running overhead. It is the closest thing Epic Universe has to a place adults go to sit rather than to eat, and it is considerably better designed for that than the equivalent spots at the older parks.",
+        "The drinks are made rather than poured, which is a meaningful difference from most theme-park bars, and the small plates are enough to hold you between meals. What you are really buying is a seat in the hub with something to look at, which after six hours of walking is worth the price of a cocktail.",
+        "It is at its best in the last two hours of the day, once the children have gone and the lighting has come up. That is also when the coaster overhead is at its most watchable."
+      ],
+      "signatureItems": [
+        "House cocktails",
+        "Draft beer",
+        "Charcuterie board",
+        "Small sharing plates"
+      ],
+      "goodFor": ["date-night", "solo", "view", "late-night", "groups"],
+      "tips": [
+        "Sit on the side facing the coaster. Watching Stardust Racers run overhead with a drink is one of the better twenty minutes available in this park.",
+        "Come in the last two hours. The hub empties, the lighting comes up, and this goes from a pleasant bar to the best place in the park to be.",
+        "It is outdoors and unshaded in places, so it is a poor midday choice in Florida summer and an excellent evening one.",
+        "Use it as the wait-out spot at park close. Fifteen minutes here instead of in the shuttle queue is the single best transport decision of the day."
+      ],
+      "verdict": "The best place in the park to sit down with a drink, and the right way to end the day. Overpriced by the glass and worth it for the seat.",
+      "faqs": [
+        {
+          "q": "Is Bar Ithaca worth it?",
+          "a": "For adults, yes — it is the best-designed drinking spot in the park with a real cocktail list and a direct view of Stardust Racers. Drinks are theme-park priced, and what you are actually buying is the seat and the view."
+        },
+        {
+          "q": "Do you need a reservation at Bar Ithaca?",
+          "a": "No. It works as a walk-up bar with seating that turns over steadily. Later in the evening you may wait a few minutes for a table with a coaster view."
+        },
+        {
+          "q": "Is Bar Ithaca indoors?",
+          "a": "No, it is an open-air bar in the hub with partial shade. That makes it a poor choice in the middle of a Florida afternoon and an excellent one after sunset."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "de-lacus-cocktail-bar",
+      "name": "de Lacus Cocktail Bar",
+      "land": "celestial-park",
+      "service": "lounge",
+      "cuisine": "Cocktails",
+      "priceTier": "$$",
+      "priceNote": "Cocktails run roughly $16 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "A second waterside cocktail bar in the hub, quieter than Bar Ithaca and better for a conversation.",
+      "description": [
+        "de Lacus sits by the water in Celestial Park and does a shorter, quieter version of what Bar Ithaca does. There is no coaster overhead and less of a crowd, which is precisely the appeal for some visitors and the reason others walk past it.",
+        "The drinks list is similar and the seating is more relaxed. If you want to sit and actually hear the person opposite you, this is the hub bar to pick."
+      ],
+      "tips": [
+        "Pick this over Bar Ithaca if you want a conversation rather than a view. The trade is exactly that and nothing else.",
+        "It is quieter in the middle of the afternoon than any other seating in the hub, which makes it a decent adult rest stop rather than only an evening one.",
+        "The water setting works far better after dark once the hub lighting is up."
+      ],
+      "verdict": "The quieter of the hub's two bars and the better one for talking. Nothing here is worth crossing the park for, and that is fine.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "le-gobelet-noir",
+      "name": "Le Gobelet Noir",
+      "land": "ministry-of-magic",
+      "service": "table-service",
+      "cuisine": "French",
+      "priceTier": "$$$",
+      "priceNote": "Entrees mostly run in the $20s and $30s per adult as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The sit-down restaurant in the wizarding Paris quarter, and the only table-service meal in the park with real theming around it.",
+      "description": [
+        "Le Gobelet Noir is a French restaurant in the wizarding quarter off 1920s Paris, and it is the only table-service room at Epic Universe that is part of a themed world rather than sitting in the hub. The design does most of the heavy lifting — a dark, detailed dining room that feels like it belongs to the street outside — and the kitchen turns out competent bistro cooking behind it.",
+        "It is the theming that people book for, and that is a legitimate reason. Eating inside a world rather than crossing back to the hub is worth something on a day built around long crossings, and this is the only place in the park that offers it at table service.",
+        "The food is a step behind Atlantic and roughly level with The Blue Dragon. Order the simpler dishes; the kitchen is more confident on bistro standards than on the elaborate ones."
+      ],
+      "signatureItems": [
+        "Steak frites",
+        "French onion soup",
+        "Roast chicken",
+        "Croque monsieur",
+        "Chocolate dessert"
+      ],
+      "goodFor": ["date-night", "special-occasion", "air-conditioned-break", "families", "splurge"],
+      "tips": [
+        "Book it if you want to eat inside a themed world. It is the only table-service restaurant at Epic Universe that is not in the hub, and that is most of the reason to choose it.",
+        "Order simply. Steak frites and the soup are the kitchen's strongest ground; the more elaborate plates are less consistent.",
+        "Take a late lunch here rather than a dinner. The Ministry world is at its worst for queues in the early afternoon and this is the best possible way to sit that hour out.",
+        "It is a dark room by design, which is atmospheric for adults and occasionally unsettling for a small child at the end of a long day."
+      ],
+      "verdict": "Worth booking for the room rather than the plate. The cooking is solid bistro fare; the reason to be here is that it is the only table service inside a themed world.",
+      "faqs": [
+        {
+          "q": "Do you need a reservation at Le Gobelet Noir?",
+          "a": "Recommended, particularly at dinner and on busy days. It is the only table-service restaurant inside a themed world at Epic Universe, which makes it a popular booking for reasons that have nothing to do with the menu."
+        },
+        {
+          "q": "Is Le Gobelet Noir good for families?",
+          "a": "Yes, though it is a dark and fairly formal room. Older children do well here; a tired toddler at the end of a long day may not. The menu has enough straightforward dishes to feed a picky eater."
+        },
+        {
+          "q": "What should you order at Le Gobelet Noir?",
+          "a": "The bistro standards. Steak frites and the onion soup are what the kitchen does most consistently, and the more elaborate plates on the menu are the ones that vary."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "cafe-lair-de-la-sirene",
+      "name": "Café L'air De La Sirène",
+      "land": "ministry-of-magic",
+      "service": "quick-service",
+      "cuisine": "French cafe",
+      "priceTier": "$$",
+      "priceNote": "Most items run roughly $12 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["breakfast", "lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Parisian café counter in the wizarding quarter, and the best quick-service food at Epic Universe for adults.",
+      "description": [
+        "Café L'air De La Sirène is the counter-service operation in the Paris streets of the Ministry of Magic world, and it is the one quick-service location in the park where an adult can eat something they would order outside a theme park. Sandwiches on decent bread, pastries, coffee that is actually coffee, and a short list of hot dishes.",
+        "The setting does a lot for it. Eating at a café table on a Parisian street with the building fronts around you is a better lunch experience than any of the hub counters can offer, and it costs the same.",
+        "It is also the best breakfast in the park if you are in early. A pastry and a coffee here at nine in the morning, in a street that is briefly empty, is one of the quiet pleasures of a day at Epic Universe."
+      ],
+      "signatureItems": [
+        "Baguette sandwiches",
+        "Croissants and pastries",
+        "Quiche",
+        "Coffee and espresso drinks",
+        "Butterbeer"
+      ],
+      "goodFor": ["quick-bite", "solo", "date-night", "vegetarian", "budget"],
+      "tips": [
+        "This is the adult lunch in this park. If you eat one quick-service meal at Epic Universe and you are not feeding a child, eat it here.",
+        "Come early for breakfast. A coffee and a pastry at a street table before the crowd arrives is the best fifteen minutes in the Ministry of Magic.",
+        "Sit outside at a street table rather than inside. The whole point of this place is the Parisian frontage around you.",
+        "Mobile order at lunch. The counter queue backs up into the street between noon and two."
+      ],
+      "verdict": "The best quick-service in the park for adults, and the only counter here that produces food you would order outside a theme park. Go for breakfast if you can.",
+      "faqs": [
+        {
+          "q": "What is the best quick-service restaurant at Epic Universe?",
+          "a": "Café L'air De La Sirène for adults, and Toadstool Cafe if you have children who care about the theming. The café serves proper sandwiches, pastries and coffee at street tables in the Paris quarter, which is a better lunch than anything the hub counters offer."
+        },
+        {
+          "q": "Does Café L'air De La Sirène serve Butterbeer?",
+          "a": "Yes. Butterbeer is available in the Ministry of Magic world in the same forms as at the older Universal Orlando Wizarding Worlds, and this is one of the places to get it alongside actual food."
+        },
+        {
+          "q": "Can you eat breakfast at Epic Universe?",
+          "a": "Yes, and this is the best place to do it. A pastry and a coffee at a street table before the crowds build is one of the more pleasant fifteen minutes in the park, and it is a genuine reason to be inside early."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "toadstool-cafe",
+      "name": "Toadstool Cafe",
+      "land": "super-nintendo-world",
+      "service": "quick-service",
+      "cuisine": "Themed American",
+      "priceTier": "$$",
+      "priceNote": "Entrees mostly run roughly $17 to $24 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The Mushroom Kingdom restaurant, where the food is themed to the point of absurdity and is also, unexpectedly, good.",
+      "description": [
+        "Toadstool Cafe is Toad's restaurant, and it commits completely. Burgers shaped like characters, a mushroom soup served in a bread bowl, a caprese salad dressed as a Piranha Plant, a tiramisu built as a question block. Every plate is a piece of set dressing, and the kitchen visible behind the counter is staffed by Toads working over the food.",
+        "What surprises people is that it tastes fine. This could easily have been a photograph you pay twenty dollars for, and instead it is a competently cooked meal that happens to look ridiculous. The burger is a real burger; the soup is a real soup.",
+        "It is the single best themed meal at Epic Universe and the one children will remember. It is also inside a world that may be gated by a queue system, which makes it the hardest meal in the park to schedule."
+      ],
+      "signatureItems": [
+        "Mario Bacon Cheeseburger",
+        "Super Mushroom Soup in a bread bowl",
+        "Piranha Plant Caprese Salad",
+        "Fire Flower Spaghetti and Meatballs",
+        "Question Block Tiramisu"
+      ],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break", "quick-bite", "groups"],
+      "tips": [
+        "Mobile order the moment you get into SUPER NINTENDO WORLD, before you queue for a ride. This is the busiest restaurant in the park and the pickup windows go early.",
+        "The soup in the bread bowl is the item to order if you are only ordering one thing. It photographs well and it is genuinely the best thing on the menu.",
+        "Eat here at an odd hour — 11:15 or 2:30 — rather than at peak. The room fills completely between noon and one.",
+        "Sit where you can see the Toads working the kitchen. Small children will get more out of that than out of the food."
+      ],
+      "verdict": "The best themed meal in the park and better cooked than it needs to be. It is expensive for what it is and worth doing once with children.",
+      "faqs": [
+        {
+          "q": "Is Toadstool Cafe worth it?",
+          "a": "With children, yes — it is the meal they will remember from the trip and the food is genuinely decent rather than a photograph you pay for. Without children it is an expensive novelty and Café L'air De La Sirène is the better lunch."
+        },
+        {
+          "q": "Can you mobile order at Toadstool Cafe?",
+          "a": "Yes, through the Universal app, and you should order the moment you enter SUPER NINTENDO WORLD. It is the busiest restaurant in the park and the pickup windows fill early."
+        },
+        {
+          "q": "Do you need to be in SUPER NINTENDO WORLD to eat at Toadstool Cafe?",
+          "a": "Yes, it sits inside the world, so if entry is being managed by a virtual queue or timed entry that day, your meal is gated by the same system. Plan the meal around the entry rather than the other way round."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "yoshis-snack-island",
+      "name": "Yoshi's Snack Island",
+      "land": "super-nintendo-world",
+      "service": "snack-cart",
+      "cuisine": "Snacks and drinks",
+      "priceTier": "$",
+      "priceNote": "Most items run roughly $6 to $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The snack and drink stand in the Mushroom Kingdom, and the fruit-and-water stop in the world least likely to offer one.",
+      "description": [
+        "Yoshi's Snack Island is the walk-up stand in SUPER NINTENDO WORLD selling fruit, light snacks and themed drinks. It is small, it has no seating, and it does a job nothing else in this world does — it sells something a child can eat in three minutes without sitting down.",
+        "The fruit cups and the themed soft drinks are the useful items. In a world this hot, this loud and this crowded, a cold drink from here is worth more to a family's afternoon than another sit-down meal."
+      ],
+      "tips": [
+        "Use it as the alternative to queuing for Toadstool Cafe when nobody is actually hungry enough to justify a sit-down meal.",
+        "The fruit options here are the only genuinely light thing available inside this world, which matters more than it sounds by day three of a trip.",
+        "There is no seating, so pair it with the shaded edges of the plaza rather than trying to eat in the middle of the crowd."
+      ],
+      "verdict": "A useful stand rather than a destination. The value is that it exists inside a world with almost no other quick options.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mead-hall",
+      "name": "Mead Hall",
+      "land": "isle-of-berk",
+      "service": "quick-service",
+      "cuisine": "Viking-themed American",
+      "priceTier": "$$",
+      "priceNote": "Plates mostly run roughly $16 to $24 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The big timber food hall in the Viking village, and the best place at Epic Universe to feed a family without a fight.",
+      "description": [
+        "Mead Hall is the main counter-service operation on the Isle of Berk: a large timber hall with long tables, a broad menu of roasted and grilled plates, and enough capacity to absorb a lunch rush without collapsing. The room is genuinely well built, with a scale that reads as a Viking hall rather than as a food court with beams glued on.",
+        "The menu is broad rather than adventurous, which is exactly right for the world it sits in. Roast chicken, ribs, sandwiches, a couple of vegetarian plates and children's options, cooked competently and served fast. Nobody is going to write about the food and every member of a family will find something.",
+        "The harborside seating outside is the best outdoor eating at Epic Universe, looking down at the water with the village behind you. On a tolerable day it is worth taking your tray outside rather than staying in the hall."
+      ],
+      "signatureItems": [
+        "Roast chicken",
+        "Barbecue ribs",
+        "Grilled sausage plate",
+        "Meatball sub",
+        "Vegetarian stew"
+      ],
+      "goodFor": ["families", "groups", "picky-eaters", "big-appetites", "air-conditioned-break"],
+      "tips": [
+        "Take the food outside to the harborside tables if the weather allows. It is the best outdoor seating in the park by a wide margin.",
+        "Mobile order in advance. The hall absorbs a rush better than most, but the ordering counter still backs up at one in the afternoon.",
+        "This is the family meal at Epic Universe. Broad menu, fast service, real tables, and it sits next to the play area so one adult can eat while the other supervises.",
+        "It is the coolest large indoor space in Isle of Berk, which makes it the world's rain shelter as well as its restaurant."
+      ],
+      "verdict": "The most family-usable meal in the park. The food is unremarkable and everything else about it — capacity, speed, seating, the harbor view — is right.",
+      "faqs": [
+        {
+          "q": "Is Mead Hall good for families?",
+          "a": "It is the best family meal at Epic Universe. Broad menu, fast counter service, genuine seating for large groups, and it is next to the play area so one adult can eat while the other supervises."
+        },
+        {
+          "q": "Where is the best outdoor seating at Epic Universe?",
+          "a": "The harborside tables outside Mead Hall on the Isle of Berk, looking down at the water with the Viking village behind you. It is the only outdoor eating in the park that is genuinely pleasant rather than merely available."
+        },
+        {
+          "q": "Can you get vegetarian food at Mead Hall?",
+          "a": "Yes, though the range is narrower than at The Blue Dragon in the hub. There are vegetarian plates on the standing menu and the counter staff will point out the allergy-friendly options if asked."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "spit-fyre-grill",
+      "name": "Spit Fyre Grill",
+      "land": "isle-of-berk",
+      "service": "quick-service",
+      "cuisine": "Grill",
+      "priceTier": "$",
+      "priceNote": "Most items run roughly $10 to $18 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The open-air grill counter on the Isle of Berk, for a fast handheld meal without committing to the food hall.",
+      "description": [
+        "Spit Fyre Grill is the smaller outdoor counter in the Viking village, doing grilled handheld items — skewers, sandwiches, sausages — for people who want to eat in ten minutes rather than sit down for forty. Seating is outdoor picnic-style and limited.",
+        "It exists for the gap between snack and meal, which is a gap Epic Universe otherwise handles poorly. A skewer here at four in the afternoon is often the right call over a full plate at Mead Hall."
+      ],
+      "tips": [
+        "Use it when you want food but not a meal. That is the gap it fills and the reason it is worth knowing about.",
+        "Seating is outdoors and limited. Eat standing at the harbor rail rather than circling for a picnic table.",
+        "It is considerably faster than Mead Hall at peak, which matters if you are trying to hold a showtime for The Untrainable Dragon."
+      ],
+      "verdict": "A useful fast option rather than a good meal. Take it when the clock matters more than the plate.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hooligans-grog-and-gruel",
+      "name": "Hooligan's Grog & Gruel",
+      "land": "isle-of-berk",
+      "service": "lounge",
+      "cuisine": "Beer and bar snacks",
+      "priceTier": "$",
+      "priceNote": "Beers roughly $10 to $14 and snacks under $12 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The Viking drinking spot in the harbor village, and the one bar in the park that works while children are playing nearby.",
+      "description": [
+        "Hooligan's is the bar on the Isle of Berk: beer, a short list of themed drinks, and bar snacks, served at an open-air counter in the village. It is not trying to be Bar Ithaca and it does not need to be.",
+        "The reason to know about it is the geography. It sits within sight of the play area and the harbor seating, which makes it the only bar in the park an adult can reasonably use while children are still occupied."
+      ],
+      "tips": [
+        "Its value is the location. Adults can sit here with a drink while children are still on the play structure, which no other bar in the park allows.",
+        "The themed drinks are gimmicks and the draft beer is the better order.",
+        "It is entirely outdoors and mostly unshaded, so it is a late-afternoon and evening proposition rather than a midday one."
+      ],
+      "verdict": "Ordinary drinks in the right place. Worth knowing about purely because it is the bar you can use without abandoning your children.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "das-stakehaus",
+      "name": "Das Stakehaus",
+      "land": "dark-universe",
+      "service": "quick-service",
+      "cuisine": "Central European",
+      "priceTier": "$$",
+      "priceNote": "Plates mostly run roughly $16 to $24 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The counter-service restaurant in the cursed village, doing sausages, schnitzel and roasted meats with a pun for a name.",
+      "description": [
+        "Das Stakehaus is the food operation in Darkmoor, and it plays the Central European village setting straight — sausages, schnitzel, roasted meats, spaetzle, dark bread, heavy sides. The name is a vampire joke and the menu is not.",
+        "It is the most atmospheric place to eat in the park after dark, with the village outside and the interior lit low. The cooking is solid and the portions are large enough to justify the price, which is more than can be said for several counters at the older Universal parks.",
+        "It is also the only substantial food in Dark Universe, so if you are working this world in the evening — which you should be — this is where you are eating."
+      ],
+      "signatureItems": [
+        "Bratwurst platter",
+        "Schnitzel",
+        "Roasted pork",
+        "Spaetzle",
+        "Pretzel with dip"
+      ],
+      "goodFor": ["big-appetites", "families", "air-conditioned-break", "groups", "quick-bite"],
+      "tips": [
+        "Eat here at dusk. The village outside is at its best as the light goes, and this is the only substantial food in Dark Universe.",
+        "The sausage platter is the safest order and the schnitzel is the best one. Both come with more food than the price suggests.",
+        "Portions are large. Two people ordering three items between them generally works better than two full plates.",
+        "It is the only air-conditioned indoor seating in this world, which makes it the retreat when a child has had enough of the monsters outside."
+      ],
+      "verdict": "Better than it needs to be, and the right place to eat if you are doing Dark Universe after sunset. Order the schnitzel and share the sides.",
+      "faqs": [
+        {
+          "q": "Is Das Stakehaus worth eating at?",
+          "a": "Yes, particularly in the evening. The cooking is solid, the portions are generous, and it is the only substantial food in Dark Universe — which is the world you should be doing after dark anyway."
+        },
+        {
+          "q": "What should you order at Das Stakehaus?",
+          "a": "The schnitzel is the best plate and the sausage platter is the safest. Portions are large enough that sharing sides across two people works better than ordering two full meals."
+        },
+        {
+          "q": "Is there indoor seating in Dark Universe?",
+          "a": "Das Stakehaus is the only air-conditioned indoor seating in the world, which makes it the retreat if the village atmosphere has been too much for a child in your party."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "burning-blade-tavern",
+      "name": "The Burning Blade Tavern",
+      "land": "dark-universe",
+      "service": "lounge",
+      "cuisine": "Cocktails and bar snacks",
+      "priceTier": "$$",
+      "priceNote": "Cocktails run roughly $16 to $20 as of July 2026",
+      "priceVerified": "2026-07",
+      "mealPeriods": ["snacks", "all-day"],
+      "reservations": "walk-up-ok",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "A windmill with its sails on fire, serving cocktails in the middle of the cursed village — the best-looking bar at Universal Orlando.",
+      "description": [
+        "The Burning Blade Tavern is a bar built into a windmill whose sails are alight, standing in the middle of Darkmoor. It is the best piece of visual design at Epic Universe that you can also buy a drink at, and photographs of it are why a good number of people put this park on their list in the first place.",
+        "The drinks are theme-park cocktails — well-made, heavily themed, priced accordingly — and the seating is outdoor, which in this world is entirely the point. You are here to sit in the village with the manor on the hill and the fire turning overhead.",
+        "Go after dark. The whole thing is a lighting effect, and in the middle of a Florida afternoon it is a windmill with some flames on it. At nine at night it is the single most striking thing in the park."
+      ],
+      "signatureItems": [
+        "Themed house cocktails",
+        "Draft beer",
+        "Bar snacks",
+        "Non-alcoholic specialty drinks"
+      ],
+      "goodFor": ["date-night", "view", "late-night", "groups", "solo"],
+      "tips": [
+        "Come after dark. Daylight strips most of this away and night restores all of it.",
+        "The specialty non-alcoholic drinks are served in the same glassware and are genuinely worth ordering, which makes this a bar the whole party can use.",
+        "Stand rather than hunt for a seat if it is busy. The view of the burning sails is the same standing up and the seats turn over slowly.",
+        "It is the natural last stop in Dark Universe before you walk back across the hub to leave."
+      ],
+      "verdict": "The best-looking bar at Universal Orlando and worth one drink for the setting alone. Go at night or do not bother.",
+      "faqs": [
+        {
+          "q": "Is The Burning Blade Tavern worth visiting?",
+          "a": "For one drink after dark, absolutely. It is a windmill with burning sails in the middle of a fogged village and it is the most striking thing to look at in the park. The cocktails are ordinary theme-park cocktails at ordinary theme-park prices."
+        },
+        {
+          "q": "Do they serve non-alcoholic drinks at The Burning Blade Tavern?",
+          "a": "Yes, and the specialty non-alcoholic options come in the same themed glassware, which makes this a bar that works for a whole party rather than just the drinkers in it."
+        },
+        {
+          "q": "Is there food at The Burning Blade Tavern?",
+          "a": "Bar snacks rather than meals. For actual food in Dark Universe you want Das Stakehaus a short walk away, which is the world's only substantial counter-service."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

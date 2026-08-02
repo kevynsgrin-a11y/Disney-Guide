@@ -1,0 +1,230 @@
+{
+  "park": "islands-of-adventure",
+  "criteria": "Ranked on what the attraction delivers once you are on it: ride engineering, pacing, staging and how well it holds up on a second and third go. Queue length, Universal Express eligibility and single rider availability were deliberately excluded from the ordering - they are decisive for planning a day and they are not evidence about whether a ride is good.",
+  "intro": [
+    "Islands of Adventure has the strongest ride slate of any theme park in Florida, and a ranking here has to make a harder set of choices than at a Disney park. The top five are all defensible as number one on some reading, the middle of the list is packed with attractions that would headline elsewhere, and the bottom of it is genuinely thin because this park has only about fifteen real rides.",
+    "Two positions shape the order. The first is that Jurassic World VelociCoaster and Hagrid's Magical Creatures Motorbike Adventure are separated by what you value, not by quality: VelociCoaster is the better roller coaster and Hagrid's is the better ride. VelociCoaster wins because the thing it does well is harder to do and holds up on repeat. The second is that the two 1999 dark rides - Spider-Man and the River Adventure - are ranked on merit rather than nostalgia, and both survive the test.",
+    "One structural note. Two attractions in The Lost Continent are permanently closed and cannot appear here: Poseidon's Fury shut for good in 2023 and The Eighth Voyage of Sindbad Stunt Show closed in September 2018. Neither has been replaced, which is why an island that once held two show attractions now contributes nothing to this list."
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "slug": "jurassic-world-velocicoaster",
+      "headline": "The best roller coaster in Florida, and one of the best in the country - two rides bolted into one layout.",
+      "why": [
+        "The structural trick is having two personalities. The first launch is deliberately modest, running you low and fast through a raptor paddock at ground level with animatronics either side, and it reads as fun rather than frightening. Then the second launch fires at full power into a 155-foot top hat and the ride becomes something else entirely. Very few coasters change gear like that, and it is why the layout never settles into predictability the way a single-launch ride does.",
+        "The other reason it is first is the restraint. A lap bar rather than an over-the-shoulder harness leaves riders feeling genuinely unheld, and that decision is what makes the airtime over the top hat and the stretch skimming the lagoon register as strongly as they do. Ride it in the front row for the water, the back row for the forces, and at dusk for both. It also has the best single rider line at Universal Orlando, which means you can do all three."
+      ],
+      "skipIf": "Skip it if 51 inches is a problem, or if an exposed lap-bar restraint at 70 mph is the specific thing that stops you enjoying a coaster."
+    },
+    {
+      "rank": 2,
+      "slug": "hagrids-magical-creatures-motorbike-adventure",
+      "headline": "The most inventive coaster Universal has built, and the only major ride here you cannot buy your way onto.",
+      "why": [
+        "Hagrid's is a coaster written as a story rather than assembled as a sequence of forces. Seven launches, one of them backwards, a vertical spike where the train stalls and falls back, a free-fall drop track with no warning, and a Forbidden Forest full of animatronics that are good enough to look at while moving at 50 mph. Nothing else in the country combines dark ride density with coaster hardware at this level, and the absence of inversions is a feature - the ride never needs them.",
+        "It ranks second rather than first for one reason: repeatability. The surprises that make the first ride extraordinary are surprises exactly once, and after four or five goes the layout settles into something merely very good. VelociCoaster gets better with familiarity and this gets slightly worse. It remains the ride most people talk about on the drive home, and it is worth restructuring an entire morning around because there is no Express Pass and no single rider line to rescue you."
+      ],
+      "skipIf": "Skip it if you cannot be in the park at rope drop or in the final hour - the middle of the day costs two hours and no product shortens it."
+    },
+    {
+      "rank": 3,
+      "slug": "the-amazing-adventures-of-spider-man",
+      "headline": "Twenty-seven years old and still the benchmark for how to combine screens, sets and motion without seams.",
+      "why": [
+        "This ride invented a category and nothing since has bettered its central skill, which is concealing the joins. It hands you between physical scenery, projected film and pure motion simulation continuously across four and a half minutes, and it does it so precisely that riders cannot reliably say which is which. The simulated 400-foot fall - produced by a vehicle dropping a few inches in sync with film and a moving set - is one of the great illusions in the industry, and it works on people who know exactly how it is done.",
+        "The 2012 rebuild is the reason it ranks this high rather than being a period piece. Universal replaced the film with 4K projection and left the ride profile, the sets and the timing untouched, which preserved the choreography that took years to tune. It is also the best indoor, air-conditioned attraction in a park with almost no indoor space - a fact worth more than its ranking suggests on an August afternoon."
+      ],
+      "skipIf": "Skip it if wide-field 3D combined with a pitching vehicle makes you unwell - this is the same category as Star Tours, only denser."
+    },
+    {
+      "rank": 4,
+      "slug": "harry-potter-and-the-forbidden-journey",
+      "headline": "The best queue in the park attached to a ride system nobody has improved on in sixteen years.",
+      "why": [
+        "The robotic arm is still remarkable. Mounting a bench on an articulated arm carried along a track lets the vehicle pitch, roll and rotate freely while moving, which means it can lay you flat under a dome screen one second and swing you into a physical set the next. The physical sequences - the acromantula nest, the dementors reaching into the vehicle - are staged at a range no other ride attempts, and they land harder than the projection does.",
+        "It ranks fourth because the screen work has aged in a way the mechanics have not. The dome projections are visibly lower resolution than anything built since, and the ride is also the most reliable source of motion sickness at Islands of Adventure. The queue is genuine compensation: the greenhouses, the portrait gallery, Dumbledore's office and the Defense Against the Dark Arts classroom are among the best-realized interiors in any theme park, and Universal will walk you through them without riding if you ask."
+      ],
+      "skipIf": "Skip it if you are prone to simulator sickness, or use the test seat first - the restraint has a fixed closing point and guests are turned away at the platform daily."
+    },
+    {
+      "rank": 5,
+      "slug": "the-incredible-hulk-coaster",
+      "headline": "The best two seconds in Orlando, followed by a very good and slightly ordinary two minutes.",
+      "why": [
+        "The uphill launch is the whole argument. Nothing else in Florida accelerates a train from a standstill to around 40 mph inside a tunnel and spits it out at 110 feet into an immediate inverted roll. Conventional coasters give you a lift hill and thirty seconds to prepare; this gives you a compressor blast and no time at all, and after twenty-seven years it still produces a genuine physical shock.",
+        "What follows is a strong, fast, well-shaped seven-inversion layout that would headline most parks and does not quite match its own opening. The 2016 rebuild replaced the entire track and every train, so it rides smoother now than it did when it was new, and the two inversions out over the lagoon are the highlight of the back half. Ride it after dark, when the launch tunnel and the lighting package do their best work, and use the single rider line, which is one of the fastest here."
+      ],
+      "skipIf": "Skip it if 54 inches is a problem, or if seven inversions in two minutes is more than your inner ear will forgive."
+    },
+    {
+      "rank": 6,
+      "slug": "jurassic-park-river-adventure",
+      "headline": "The best-paced attraction in the park: four minutes of calm, then two minutes of everything going wrong.",
+      "why": [
+        "This is a masterclass in structure that people skip because it looks like a boat ride. The first four minutes are genuinely gentle - daylight, large well-maintained herbivore animatronics, the John Williams score, a tour narration that means it. All of that exists to make the turn work. When the boat drifts past a downed fence and the lighting drops, the change of register is one of the most effective in Orlando.",
+        "The finish earns the build. A full-size Tyrannosaurus rex lunges down at the boat at the top of the lift, and the 85-foot drop that follows is in near-darkness, which makes it feel considerably longer than it is. The animatronics here are physical, large and well maintained in a park that increasingly leans on screens. Sit in the back rows to stay dry and the front two to be drenched - it is the only water ride at Islands of Adventure where the choice genuinely works."
+      ],
+      "skipIf": "Skip it if you cannot get wet at all, or if you have a small child who was fine with the gentle opening and will not be fine with the last two minutes."
+    },
+    {
+      "rank": 7,
+      "slug": "dudley-do-rights-ripsaw-falls",
+      "headline": "A 75-foot drop that finishes below the waterline, wrapped around a better dark ride than its reputation admits.",
+      "why": [
+        "Everyone remembers the drop and almost nobody remembers the middle, which is a shame because the indoor scenes with the original cartoon voices are properly built and there is a backwards drop in the dark that catches out most first-time riders. The whole circuit runs five minutes, which makes it far more of an actual attraction than the two-minute flumes it gets compared to.",
+        "The finale is the reason it ranks here. Seventy-five feet, steep, ending in a trough below the waterline so the log appears to submerge, followed by a wall of water that comes over the bow and lands on everybody. It is taller and wetter than Tiana's Bayou Adventure and it is not close. There is no dry seat, so stop looking for one - lockers, an afternoon slot and a spare pair of socks are the correct preparation."
+      ],
+      "skipIf": "Skip it if you cannot spend the next two hours wet, or if 44 inches is a problem for someone in your group."
+    },
+    {
+      "rank": 8,
+      "slug": "skull-island-reign-of-kong",
+      "headline": "A queue that outclasses the ride, and a 16-foot animatronic finale that redeems both.",
+      "why": [
+        "The temple queue is the most committed piece of atmosphere Universal has built in this park - dark, tight, humid, with live performers stepping out of the walls and animatronic figures at head height. It is genuinely unsettling and it is too much for a fair number of children, which is why an alternate queue exists. As an attraction in its own right it beats the ride it leads to.",
+        "The ride is a large expedition truck through 3D creature encounters, and the projection is the weakest thing about it - it deflates a little more on each visit. What rescues it is the finish: a 16-foot articulated Kong at close range, physically present, correctly lit, immediately after five minutes of screens. That contrast is exactly the point of how the ride is assembled, and it is one of the best animatronics at Universal Orlando. Ride it at night, and use the single rider line."
+      ],
+      "skipIf": "Skip it if a long dark confined queue with live performers appearing without warning is a problem - or take the alternate queue and ride anyway."
+    },
+    {
+      "rank": 9,
+      "slug": "hogwarts-express-hogsmeade-station",
+      "headline": "Transportation that is genuinely an attraction, with different content in each direction and a ticket requirement to match.",
+      "why": [
+        "The Hogwarts Express does something no Disney transportation attraction attempts: it stages a complete show inside a moving vehicle where the ride content is entirely in the windows. The compartment window plays a four-minute journey, the corridor glass on the other side shows silhouettes of characters passing, and the two layers run simultaneously so a second trip shows you things you missed. The exit through the Platform 9¾ wall is a simple mirror trick executed perfectly.",
+        "It ranks ninth because it is calm and short rather than because it is weak, and because the ticket requirement is a real cost - riding it in either direction needs a park-to-park ticket and no upgrade is sold at the station. What buys it this position is that the outbound and return journeys are separate productions. Ride both, in different directions, on the same day."
+      ],
+      "skipIf": "Skip it if you only hold a one-park ticket, in which case you cannot board it anyway - it is not a queue problem, it is a ticket problem."
+    },
+    {
+      "rank": 10,
+      "slug": "popeye-and-blutos-bilge-rat-barges",
+      "headline": "The wettest ride in Orlando, and the quality of it depends entirely on the temperature outside.",
+      "why": [
+        "There is no pretending this is a great ride in the abstract. The rapids are mild, there are no meaningful drops, and the theming is a set of comic characters most guests cannot name. What it has is a genuinely relentless commitment to getting you wet - waterfalls, spray effects, a boat wash, standing water sloshing over the sides, and guest-operated cannons on the bridge above aimed directly at your raft.",
+        "That makes this the most conditional attraction on the list. At 3 PM in August it is the best thing in the park and worth a forty-minute wait. At 10 AM in January it is a punishment. Ride it back to back with Ripsaw Falls in the early afternoon with everything in a locker, and send someone in your group up onto Me Ship, The Olive to shoot at you as you pass."
+      ],
+      "skipIf": "Skip it if you are not prepared to be wet through to the skin - ponchos do not work here, because water arrives from the raft floor as well as from above."
+    },
+    {
+      "rank": 11,
+      "slug": "the-cat-in-the-hat",
+      "headline": "A properly built dark ride that adults skip because of the island it sits in.",
+      "why": [
+        "Judged as a dark ride rather than as a children's attraction, this is better than most of the equivalent category at Magic Kingdom. The scenic work is dense, the animatronic count is high, the palette is faithful to the book down to the refusal of straight lines, and the Thing One and Thing Two sequence is a genuinely well-staged set piece. It runs three and a half minutes, which is long for its type.",
+        "The spinning couch is the design decision that lifts it. Because the vehicle rotates freely as it travels, scenes arrive sideways and backwards as often as forwards, which means a second ride shows you a different set of gags. It is also the reason a minority of adults come off mildly unwell, and the reason the ride is more interesting than a straight track past a row of dioramas."
+      ],
+      "skipIf": "Skip it if continuous rotation makes you queasy - the couch spins throughout and there is no way to switch it off."
+    },
+    {
+      "rank": 12,
+      "slug": "camp-jurassic",
+      "headline": "The best free thing at Universal Orlando, and the answer to what non-riders do while you queue for VelociCoaster.",
+      "why": [
+        "Camp Jurassic is an adventure playground built with more ambition than most paid attractions: three effective levels of rope bridges, cargo nets, dark amber-mine tunnels, hissing lava pits, dig areas, slides and water cannons, spread across real terrain. It has no queue, no height requirement, no capacity limit and no cost, and it will absorb an hour of a child's day without complaint.",
+        "It ranks here on a straightforward argument about value per minute. In a park where five headliners require 48 inches or more, this is the single most useful attraction for any family with a small child, and it sits directly beside the VelociCoaster entrance so a group can split without separating. Agree a ground-level meeting point first - it has multiple exits at different heights and children reliably come out somewhere other than where they went in."
+      ],
+      "skipIf": "Skip it if there is nobody under about twelve in your group - it is a genuinely good playground and it is still a playground."
+    },
+    {
+      "rank": 13,
+      "slug": "doctor-dooms-fearfall",
+      "headline": "The most concentrated forty seconds in the park, and the worst wait-to-ride ratio in it.",
+      "why": [
+        "As a sensation this is efficient. Compressed air fires the seats up a 200-foot tower, produces a genuine second of free fall at the apex, and drops you through two bounces to the platform. Sustained weightlessness frightens more people than inversions do, which is why plenty of riders who handle the Hulk without difficulty find this harder. The view over the lagoon and CityWalk at the top is genuinely good and about one rider in five keeps their eyes open long enough to see it.",
+        "It ranks this low because there is nothing else to it. The theming is a facade, the pre-show is thin, the story is absent, and the whole cycle from launch to unload takes about forty seconds. Standby here is the worst value in the park by a distance. Use the single rider line, which usually runs under ten minutes, and ride it before you eat rather than after."
+      ],
+      "skipIf": "Skip it if your day is short - this is the headliner you will least regret missing, and the one 52-inch requirement that costs you least."
+    },
+    {
+      "rank": 14,
+      "slug": "high-in-the-sky-seuss-trolley-train-ride",
+      "headline": "The lowest height requirement in the park attached to the best low-intensity view in it.",
+      "why": [
+        "At 34 inches this is the first ride a great many children at Islands of Adventure can go on, and it earns its place on more than that. The elevated track loops the island at rooftop height, passes through the Circus McGurkus building, and runs a stretch close enough to the lagoon to show you the whole park across the water. Seuss Landing is designed to be read from the ground and getting above it reveals how carefully the roofs and color transitions were composed.",
+        "There are two separate tracks with different routes and different narration, and the queue feeds both without telling you. Most guests ride whichever car arrives and never learn there is a second version. Ride both if the wait is short, and go an hour before sunset when the light across the lagoon is at its best."
+      ],
+      "skipIf": "Skip it if there is nobody small in your group and the posted wait is over twenty minutes - three minutes at walking pace is a hard sell for adults."
+    },
+    {
+      "rank": 15,
+      "slug": "flight-of-the-hippogriff",
+      "headline": "A sixty-second family coaster carrying the entire under-48-inch Wizarding World on its back.",
+      "why": [
+        "The ride is modest: a lift hill, one real drop, a lap of small hills and banked turns, done in a minute. What makes it structurally important is that both other Hogsmeade rides require 48 inches and this one requires 36, so for a family with a small child it is not one option in the land - it is the option. It is also a good first coaster, with no darkness, no inversions and a single moment of force.",
+        "The queue is better than the ride, running past Hagrid's hut and a Buckbeak animatronic that bows back if you bow to it, which about a third of guests walk past without noticing. The view from the top of the lift toward Hogwarts Castle is the best on-ride view in the land and lasts roughly three seconds. Waits of forty minutes for sixty seconds are normal, which makes this one of the few small rides where Express Pass genuinely earns its money."
+      ],
+      "skipIf": "Skip it if there is nobody in your group between 36 and 48 inches - the wait almost never justifies the ride for anyone else."
+    },
+    {
+      "rank": 16,
+      "slug": "caro-seuss-el",
+      "headline": "The most detailed carousel in Orlando, and one of only two rides in the park with no height requirement at all.",
+      "why": [
+        "Every mount is an invented Seuss creature rather than a horse, and every one of them is animated - eyes blink, heads turn, tails swish, and several respond when a child pulls the reins. The sculpting work involved is far beyond what a carousel needs, and it is the clearest demonstration of how seriously Universal took Seuss Landing when nobody would have noticed if they had not.",
+        "It ranks last because it is a carousel, and a carousel is a carousel. Its real significance is structural: in a park with fourteen height requirements, this and One Fish, Two Fish, Red Fish, Blue Fish are the only two rides a child of any size can board. For a family with a toddler, that fact matters more than anything else on this list."
+      ],
+      "skipIf": "Skip it if there are no small children in your group - the sculpting is admirable and the ride is still two minutes of going round."
+    }
+  ],
+  "overrated": [
+    {
+      "slug": "doctor-dooms-fearfall",
+      "why": "Ranked thirteenth here and still overrated, because it looks like a headliner from the ground and delivers forty seconds. The launch and the apex are excellent, the theming is a painted facade, and standby waits of thirty to forty minutes are routine for a ride that ends before you have finished reacting to it. The single rider line is the only defensible way to do it, and plenty of first-timers never see the sign."
+    },
+    {
+      "slug": "flight-of-the-hippogriff",
+      "why": "A sixty-second family coaster that regularly posts a forty-minute wait because it has a Harry Potter name on it. If there is nobody in your party between 36 and 48 inches, the same forty minutes buys you Forbidden Journey with its castle queue, or two rides on VelociCoaster using single rider. It is a fine first coaster and a poor use of an adult's afternoon."
+    },
+    {
+      "slug": "pteranodon-flyers",
+      "why": "The worst wait-to-ride ratio at Universal Orlando and the most misunderstood attraction in the park. Riders must be between 36 and 56 inches, adults may only ride as the companion of a qualifying child, capacity is two people per vehicle, there is no Express Pass and no single rider line, and the ride lasts ninety seconds. A forty-five minute queue for it is normal. Camp Jurassic sits underneath it, is free, and is better."
+    },
+    {
+      "slug": "skull-island-reign-of-kong",
+      "why": "Ranked eighth and still slightly oversold, because the reputation rests on the queue and the final animatronic rather than the ride between them. The 3D creature sequences are the weakest screen work in a park that also contains Spider-Man, and they deflate a little on each visit. Worth doing once, at night, on single rider - and not worth a sixty-minute standby on a short day."
+    }
+  ],
+  "underrated": [
+    {
+      "slug": "jurassic-park-river-adventure",
+      "why": "Skipped daily by people who walked past it to queue for VelociCoaster, on the assumption that a 1999 boat ride cannot compete. It has the best pacing of any attraction in the park, the largest physical animatronics on the property, an 85-foot drop in near darkness and a Tyrannosaurus reveal that still works. It also builds later in the day than everything around it, which makes mid-morning a genuinely good window."
+    },
+    {
+      "slug": "camp-jurassic",
+      "why": "Adults classify it as a playground and stop thinking about it, which means the single most useful attraction in this park for a family with a small child goes unplanned. It is three levels of caves, nets, bridges and water cannons, free, uncapped, with no queue, sitting directly beside the VelociCoaster entrance. For a group splitting by height it solves the whole problem."
+    },
+    {
+      "slug": "the-cat-in-the-hat",
+      "why": "Dismissed on sight because of the pastel island it sits in, and it is a better traditional dark ride than most of the equivalent category at Magic Kingdom. Dense scenic work, a high animatronic count, three and a half minutes of runtime and a spinning vehicle that makes a second ride genuinely different from the first. Adults skip it for the wrong reason entirely."
+    },
+    {
+      "slug": "the-mystic-fountain",
+      "why": "A talking stone fountain in an island most guests cross without stopping, operated live by a performer who will hold an actual conversation with your child, use their name, and squirt them. In a park where every other attraction runs a fixed program on a cycle, it is the only thing that answers back. It costs nothing, has no queue, and sits in the shadiest plaza in the loop."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best ride at Islands of Adventure?",
+      "a": "Jurassic World VelociCoaster. It is the best roller coaster in Florida and the ride that holds up best on repeat, thanks to a layout that changes character halfway through and a lap-bar restraint that makes the airtime register properly. Hagrid's Magical Creatures Motorbike Adventure is the more inventive attraction and the one people talk about afterward, but VelociCoaster is the better ride."
+    },
+    {
+      "q": "What should I ride first at Islands of Adventure?",
+      "a": "Hagrid's Magical Creatures Motorbike Adventure, without exception. It is excluded from Universal Express Pass, it has no single rider line, and it posts the longest waits at the resort on most days. Rope drop and the final hour before close are the only two cheap ways onto it, so it goes first and everything else follows."
+    },
+    {
+      "q": "Which rides at Islands of Adventure have single rider lines?",
+      "a": "The Incredible Hulk Coaster, The Amazing Adventures of Spider-Man, Doctor Doom's Fearfall, Skull Island: Reign of Kong, Jurassic World VelociCoaster and Harry Potter and the Forbidden Journey. Using them properly is worth more than most paid upgrades. The rule of thumb is to ride standby once for the themed queue and single rider every time after that."
+    },
+    {
+      "q": "How many rides at Islands of Adventure can a small child go on?",
+      "a": "Fewer than parents expect. Under 48 inches, the five headliners are all out. Between 36 and 48 inches a child can do Flight of the Hippogriff, The Cat in the Hat, Skull Island: Reign of Kong, Pteranodon Flyers and the Trolley Train at 34 inches. Under 36 inches, only Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish have no requirement at all, plus Camp Jurassic and Me Ship, The Olive."
+    },
+    {
+      "q": "Is Islands of Adventure worth it if you do not like roller coasters?",
+      "a": "Yes, though it is not the obvious choice. Spider-Man, the Forbidden Journey, Skull Island: Reign of Kong, the Jurassic Park River Adventure and The Cat in the Hat are all dark rides rather than coasters, and the Hogwarts Express, the Wizarding World shops and the wand spell-casting fill out a full day without a single inversion. The two coasters you would be skipping are the two best rides in the park, which is the honest cost."
+    }
+  ],
+  "lastVerified": "2026-07"
+}

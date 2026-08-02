@@ -1,0 +1,201 @@
+{
+  "slug": "halloween-horror-nights-orlando",
+  "name": "Halloween Horror Nights",
+  "shortName": "HHN Orlando",
+  "resort": "universal-orlando",
+  "parkSlug": "universal-studios-florida",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "The strongest hard-ticket haunt event in the country, and an adult horror event rather than a Halloween party. Buy an early-run weeknight and you see most of it; buy an October Saturday without Express Pass and you will see about half of what you paid for.",
+  "h1": "Halloween Horror Nights Orlando: what the ticket buys, which nights to pick, and who should not go",
+  "title": "Halloween Horror Nights Orlando",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Universal Studios Florida's hard-ticket horror event: what the ticket covers, the last cycle's price band, which nights to buy, and who genuinely should not go.",
+
+  "typicalWindow": {
+    "startsAround": "late August or early September",
+    "endsAround": "the first weekend of November",
+    "nightsTypical": 48,
+    "nightsRange": [40, 52],
+    "daysOfWeek": ["Wed", "Thu", "Fri", "Sat", "Sun"],
+    "hours": "Roughly 18:30 to 01:00 on most nights and later on peak weekend dates, with the park closing to daytime guests in the late afternoon and reopening as a ticketed event"
+  },
+
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [75, 185],
+    "asOf": "2025 season",
+    "cheapestNights": "Wednesday and Thursday nights in the first two weeks of the run",
+    "priciestNights": "Fridays and Saturdays in the second half of October, and Halloween night itself",
+    "notes": [
+      "Tax is additional, and Universal prices every night separately. The gap between a quiet early-run weeknight and a peak October Saturday has been larger than the cheapest ticket costs.",
+      "Multi-night passes change the arithmetic completely. Universal has sold blocks-of-nights passes for several seasons, and two visits on one of those has usually cost less than two single-night tickets.",
+      "Express Pass for this event is a separate product from the daytime Express Pass, priced by date, and on peak October dates it has cost more than the event ticket itself.",
+      "The Express Pass included with a stay at Universal's premier hotels does not cover this event. That is the most expensive wrong assumption a first-time visitor makes here.",
+      "Annual Passholder pricing has appeared on some dates in past seasons and is worth checking before you buy, but it has not reached the peak October weekends."
+    ]
+  },
+
+  "whatYouGet": [
+    "Around ten walk-through haunted houses, built inside soundstages and purpose-built tents and staffed by several hundred performers. This is the product, and nothing else at an American theme park is doing it at this scale.",
+    "Roughly five outdoor scare zones filling the streets between the houses. These are free-roaming rather than queued, which makes them the part of the event you cannot avoid once you are inside.",
+    "A live show built for the event, running several times a night, plus a run of event-only bars and food stands that are genuinely part of the programming rather than an afterthought.",
+    "A short list of the park's regular rides operating during event hours, weighted toward the headliners rather than the family attractions.",
+    "The Tribute Store, a retail build-out in the New York area themed as heavily as the houses, which is free to walk through and takes about ten minutes.",
+    "A way to stay in the park through the changeover if you also hold a daytime ticket, using the holding area Universal opens in the late afternoon, rather than leaving and re-entering through the event queue."
+  ],
+
+  "whatYouDont": [
+    "A family event. Universal's own guidance is that this is not recommended for anyone under thirteen, and it means it. There is no age limit at the gate and no ID check, so the decision sits entirely with the adult buying the ticket.",
+    "A costume night. Costumes, masks, and face paint are not permitted for guests here, which is the opposite of the rule at the Halloween parties across town. Several hundred of the people around you are performers, and the event depends on you being able to tell.",
+    "Short queues. On a peak October Saturday the marquee houses have run past 90 minutes each, and a night without Express Pass realistically gets you four or five of the ten.",
+    "The full park. Most of the family attractions are closed during event hours, and the operating ride list is published close to the date rather than in advance.",
+    "Any coverage from your hotel's Express Pass. The Express Unlimited included at the premier hotels is a daytime benefit and admits you to nothing during the event.",
+    "A refund or a rain check. The event runs in rain. The houses stay open because they are indoors; the scare zones, the show, and the outdoor queues are what suffer.",
+    "The house lineup at the point of sale. Universal announces houses in stages across the summer, so a ticket bought early is bought on the event's track record rather than on its content."
+  ],
+
+  "verdict": {
+    "short": "Worth the money on an early-run weeknight and worth Express Pass on anything else. It is the best haunt event in the country, and it is genuinely not for children.",
+    "worthItIf": [
+      "You actually like horror. This is a gore, fog, and jump-scare event for its full length, and liking Halloween is not the same thing as liking this.",
+      "You can travel on a Wednesday or Thursday in the first two weeks of the run, where the price floor and the shortest queues sit together.",
+      "You will buy Express Pass or a multi-night pass if your only dates fall in October. Both cost real money, and both cost less than paying peak price for a night in which you see four houses.",
+      "Your group is adults or older teenagers who have each opted in, rather than one enthusiast and three people who were brought along.",
+      "You are staying on property and can be at the gates before the event opens, which is worth roughly two extra houses over the course of the night."
+    ],
+    "skipIf": [
+      "Anyone in your group is under about thirteen. Universal will not stop you at the gate, and that is not the same as the event being suitable.",
+      "Anyone in your group is pregnant, has a heart condition, or is strongly affected by strobe lighting. The houses run heavy fog, sustained strobes, and loud sudden noise for their entire length, and there is no quieter route through them.",
+      "You want to ride. The operating list during event hours is short and the queues are long. A normal park day costs less and delivers several times the rides.",
+      "Your only available date is an October Saturday and you will not buy Express Pass. That combination is the most common way people spend event money on a night they do not enjoy.",
+      "You were hoping to do the daytime park and the event on one ticket. They are two separate purchases, and the event on its own is a full evening that ends after midnight."
+    ]
+  },
+
+  "strategy": [
+    {
+      "heading": "Pick the night before you pick anything else",
+      "body": [
+        "The date decides your night more than any other choice you make here, and the spread between a good date and a bad one is wider than at any hard-ticket event at the Disney parks. The first two weeks of the run, midweek, are simultaneously the cheapest tickets of the season and the shortest queues of the season.",
+        "October weekends are the opposite on both counts. The marquee houses run past 90 minutes, the walkways between them clog to a shuffle, and the event sells out. If that is your only window, budget for Express Pass rather than hoping the crowd is light.",
+        "Halloween night is the worst-value date of the run. It prices at the ceiling, it sells out first, and it contains nothing that an early-September Wednesday does not.",
+        "Sunday is the underrated night in the back half of the run. It prices below Friday and Saturday, it draws a smaller local crowd than either, and it is the only weekend date that still behaves like a weeknight."
+      ]
+    },
+    {
+      "heading": "Express Pass, and the arithmetic that decides it",
+      "body": [
+        "Buy Express Pass for any October weekend and skip it in early September. That is the whole rule, and the reason is queue length rather than ticket price.",
+        "Universal sells a separate Express Pass for this event, priced by date in the same way the ticket is. The standard version covers one express entry per house rather than unlimited re-entry, which is a distinction people discover at the second house rather than at the point of sale.",
+        "The Express Unlimited included with a stay at Universal's premier hotels is a daytime product. It does not admit you to a single house on an event night. Guests who booked those hotels specifically for this and found out at the first queue are a fixture of every season.",
+        "The comparison worth running is not Express Pass against nothing. It is one October Saturday with Express Pass against two early-run weeknights on a multi-night pass. On most seasons the two weeknights win on houses seen per dollar, and it is not close."
+      ]
+    },
+    {
+      "heading": "Working the houses",
+      "body": [
+        "Start at the far end of the park and work back toward the entrance. Most of the crowd attacks the first house it sees, which stacks the longest queues nearest the gate for the opening hour and leaves the far sites comparatively open.",
+        "The houses sit in two clusters: the soundstages toward the front of the park, and the tented sites reached through the far end. The tents are the longer walk, which is exactly why they are the ones to do first.",
+        "The final hour is the second-best hour of the night. Queues at the back of the park fall away once the day-trip crowd starts leaving, and the last 45 minutes routinely buys two houses that cost 90 minutes each earlier in the evening.",
+        "Do not repeat a house until you have done all ten, and do not queue for food between about nine and eleven. Ten houses is more than most people manage once; repeats and a 40-minute food line are what turn eight houses into five."
+      ]
+    },
+    {
+      "heading": "What an event night does to the rest of your trip",
+      "body": [
+        "An event night replaces the evening of a park day rather than extending one. Universal Studios Florida closes to daytime guests in the late afternoon and reopens as a ticketed event, so a day ticket does not admit you in and an event ticket does not admit you before the changeover.",
+        "If you hold a day ticket as well, use the holding area rather than leaving the park. Guests who exit and come back join the general event queue at the front gate, which on a Saturday runs back through CityWalk.",
+        "Write off the following morning. The event runs past one in the morning on most nights and later on peak weekends, and early entry at the parks is at the other end of the same clock.",
+        "Islands of Adventure and Epic Universe run normal hours on event nights, which makes the afternoon before an event night the right time to be at either of them rather than at the park that is about to close around you."
+      ]
+    },
+    {
+      "heading": "Who should not be there, and why we say it plainly",
+      "body": [
+        "Universal advises against attendance for children under thirteen and does not enforce an age limit. Both halves of that sentence matter: the advice is serious, and nothing at the turnstile will act on it for you.",
+        "The content is sustained rather than occasional. Each house is several minutes of low light, dense fog, strobes, loud sudden noise, and performers who move toward you and follow you out. The scare zones do the same thing outdoors, with no queue to step out of and no way to route around them once you are inside the park.",
+        "There is no toned-down version of a house and no marked quiet path through the event. The only accommodation available is not going in.",
+        "If you are in Orlando with young children and want a Halloween evening, this is the wrong event and there is no daytime children's version of it here to fall back on. Plan that evening somewhere else rather than assuming the first hour will be gentle."
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Halloween Horror Nights suitable for children?",
+      "a": "No, and Universal says so. Its published guidance is that the event is not recommended for anyone under thirteen. There is no age limit at the gate and no ID check, so the decision sits with the adult buying the ticket. This is not a Halloween overlay with a few scares in it: each house is several minutes of strobes, fog, gore, and performers who follow guests, and there is no gentler route through the event."
+    },
+    {
+      "q": "Do I need a separate ticket, or does my park ticket work?",
+      "a": "Separate, in both directions. Universal Studios Florida closes to daytime guests in the late afternoon and reopens as a ticketed event, so a day ticket does not admit you to the event and an event ticket does not admit you during the day. If you want both halves of that day you are buying both tickets, and the combination makes for a very long day that ends after midnight."
+    },
+    {
+      "q": "Does the Express Pass included with my hotel work at the event?",
+      "a": "No. Universal Express Unlimited included with a stay at the premier hotels is a daytime benefit and covers nothing during event hours. Event Express Pass is a separate purchase, priced by date like the ticket, and it sells out on peak nights. This is the most expensive assumption people make about this event, and it is made at the first house queue rather than before booking."
+    },
+    {
+      "q": "How many houses can I actually do in one night?",
+      "a": "Four or five without Express Pass on a busy October night, and eight to ten on a quiet early-run weeknight if you start at the far end of the park and do not repeat anything. That range is the entire argument for choosing an early weeknight: the ticket costs less and delivers roughly twice the content for the same hours on your feet."
+    },
+    {
+      "q": "Can I wear a costume?",
+      "a": "No. Costumes, masks, and face paint are not permitted for guests at this event. That surprises visitors arriving from the Disney Halloween parties, where adult costumes are part of the ticket. Universal's reasoning is practical rather than fussy: several hundred of the people moving around you are performers, and the event only works if guests can tell the difference instantly."
+    },
+    {
+      "q": "Are the house lineups announced before tickets go on sale?",
+      "a": "No. Universal announces houses in stages through the summer, and tickets are on sale well before the full lineup is public, so an early purchase is made on the event's track record rather than on its content. We do not publish house names on this page until we can source them for the cycle in question, because a lineup carried over from last year is worse than no lineup at all."
+    },
+    {
+      "q": "Is Express Pass worth buying?",
+      "a": "On any October weekend, yes. On an early-run weeknight, no. Event Express Pass is priced by date in the same way the ticket is, and on peak dates it has cost more than the ticket itself, which is a large sum to spend on a queue. Price the alternative first: two cheaper weeknights on a multi-night pass usually buys more houses than one expensive night with Express Pass."
+    },
+    {
+      "q": "Are this season's dates confirmed?",
+      "a": "Not on this page. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, house lineup, or on-sale timing, so none of them are stated here. What is stable is the shape: select nights at Universal Studios Florida from late August or early September to the first weekend of November, on a run that has grown past forty nights, with around ten houses."
+    }
+  ],
+
+  "crossLinks": [
+    { "label": "Universal Studios Florida park guide", "href": "/universal-orlando/universal-studios-florida/", "site": 1 },
+    { "label": "Universal Studios Florida ride list", "href": "/universal-orlando/universal-studios-florida/rides/", "site": 1 },
+    { "label": "Universal Studios Florida height requirements", "href": "/universal-orlando/universal-studios-florida/height-requirements/", "site": 1 },
+    { "label": "Universal Studios Florida park map", "href": "/universal-orlando/universal-studios-florida/map/", "site": 1 },
+    { "label": "New York at Universal Studios Florida", "href": "/universal-orlando/universal-studios-florida/lands/new-york/", "site": 1 },
+    { "label": "Universal Orlando Resort overview", "href": "/universal-orlando/", "site": 1 }
+  ],
+
+  "related": [
+    "halloween-horror-nights-hollywood",
+    "universal-orlando-mardi-gras",
+    "holidays-at-universal-orlando"
+  ],
+
+  "editions": [
+    {
+      "year": 2025,
+      "status": "past",
+      "priceRangeUsd": [75, 185],
+      "changes": [
+        "The run again extended past forty nights, continuing more than a decade of the event growing at both ends of its calendar.",
+        "Around ten houses ran, split between licensed horror properties and originals created for the event, which has been the standing shape for several seasons.",
+        "Per-night pricing continued to spread, with the cheapest early-run weeknights sitting at well under half the peak October Saturday rate before tax."
+      ],
+      "freshness": {
+        "verified": "2026-07",
+        "confidence": "historical",
+        "sourceNote": "2025 season figures, stated as 2025 figures: select nights at Universal Studios Florida from late August to the first weekend of November, around ten houses, and a per-night ticket band of roughly $75 to $185 before tax. We have not re-verified the final night count or the house list for that season, so neither is published as precise here, and the price band is stated as a band rather than as a quote.",
+        "reviewBy": "2027-07",
+        "cycle": "annual"
+      }
+    }
+  ],
+
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run at Universal Studios Florida on select nights from late August or early September to the first weekend of November for more than a decade, on a run that has grown past forty nights, with around ten houses and roughly five scare zones each season. That pattern is strong enough to plan around. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, house lineup, or on-sale timing, so this page carries the pattern and the last documented cycle's price band only, and states no house names at all.",
+    "reviewBy": "2026-09",
+    "cycle": "annual"
+  }
+}
