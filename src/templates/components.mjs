@@ -29,9 +29,25 @@ export function breadcrumbs (trail) {
 /**
  * Page hero. `meta` is an array of {label, value} chips; `actions` an array of {href,label,primary}.
  */
-export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', aside }) {
+/**
+ * The page masthead.
+ *
+ * `image` is optional and, when supplied, promotes the hero to its photographic form: a full-bleed
+ * picture behind a two-layer scrim. The scrim is not decoration — it is what keeps the headline
+ * above AA contrast over an image whose brightness nobody controls, so it is applied whenever a
+ * photograph is present and never applied when one is not.
+ *
+ * With no image this renders exactly as before, on the gradient. That is the state the site ships in
+ * today, and the state it returns to if a photograph is ever pulled.
+ */
+export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', aside, image }) {
   return html`
-    <section class="hero hero--${tone}">
+    <section class="hero hero--${tone}${image ? ' hero--photo' : ''}">
+      ${image ? html`
+        <div class="hero__media" aria-hidden="${image.alt ? 'false' : 'true'}">
+          ${photo(image, { className: 'hero__photo', sizes: '100vw', priority: true })}
+          <div class="hero__scrim"></div>
+        </div>` : ''}
       <div class="shell hero__inner">
         <div class="hero__body">
           ${eyebrow ? html`<p class="hero__eyebrow">${eyebrow}</p>` : ''}
@@ -133,6 +149,68 @@ export function factPanel (items, { title, columns = 2 } = {}) {
         `)}
       </dl>
     </div>
+  `
+}
+
+/**
+ * A responsive photograph, or nothing at all.
+ *
+ * Takes a resolved entry from `data.photo`, which is null when the file is not on disk — so every
+ * call site can render this unconditionally and get a graceful absence rather than a broken image.
+ *
+ * Three formats in preference order and three widths, with `width`/`height` always set so the space
+ * is reserved before the bytes arrive. Everything is lazy except the one image flagged `priority`,
+ * which is the hero: making the largest-contentful element lazy is a measurable own goal.
+ *
+ * The LQIP is a ~20px base64 blur held behind the real image. It costs a few hundred bytes and buys
+ * the difference between a grey rectangle and something that looks intentional on a slow connection
+ * — which is the connection this site claims to work on.
+ */
+export function photo (img, { className = '', sizes = '100vw', priority = false } = {}) {
+  if (!img || !img.file) return raw('')
+  const widths = img.widths || [640, 1280, 1920]
+  const widest = Math.max(...widths)
+  const set = (ext) => widths.map((w) => `/assets/img/photos/${img.file}-${w}.${ext} ${w}w`).join(', ')
+  const ratio = img.width && img.height ? `${img.width} / ${img.height}` : '16 / 9'
+
+  return html`
+    <picture class="photo ${className}"${img.lqip ? raw(` style="--lqip:url('${escapeHtml(img.lqip)}');--photo-ratio:${ratio}"`) : raw(` style="--photo-ratio:${ratio}"`)}>
+      <source type="image/avif" srcset="${raw(escapeHtml(set('avif')))}" sizes="${sizes}">
+      <source type="image/webp" srcset="${raw(escapeHtml(set('webp')))}" sizes="${sizes}">
+      <img
+        src="/assets/img/photos/${img.file}-${widest}.jpg"
+        alt="${img.alt || ''}"
+        width="${img.width || 1920}"
+        height="${img.height || 1080}"
+        ${raw(priority ? 'fetchpriority="high" decoding="async"' : 'loading="lazy" decoding="async"')}
+        ${raw(img.focal ? `style="object-position:${escapeHtml(img.focal)}"` : '')}>
+    </picture>
+  `
+}
+
+/**
+ * The proof strip under the hero.
+ *
+ * Every claim here is one the site already makes and already keeps, which is the only reason it is
+ * allowed to sit this prominently. It is typographic rather than a card grid on purpose: four boxes
+ * would read as marketing, and the point of this band is that it is not.
+ */
+export function trustStrip (items) {
+  const list = (items || []).filter(Boolean)
+  if (!list.length) return raw('')
+  return html`
+    <section class="band band--tint band--tight trust-strip">
+      <div class="shell">
+        <ul class="trust-strip__list">
+          ${list.map((i) => html`
+            <li class="trust-strip__item">
+              <span class="trust-strip__icon" aria-hidden="true">${raw(i.icon)}</span>
+              <span class="trust-strip__text"><strong>${i.title}</strong> ${inline(i.body)}</span>
+            </li>
+          `)}
+        </ul>
+      </div>
+    </section>
   `
 }
 
@@ -253,8 +331,9 @@ export function faqSection (faqs, { title = 'Frequently asked questions', id = '
  * Cards
  * ------------------------------------------------------------------ */
 
-export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', footer }) {
+export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', footer, image }) {
   const inner = html`
+    ${image ? html`<div class="card__media">${photo(image, { className: 'card__photo', sizes: '(min-width: 940px) 33vw, (min-width: 620px) 50vw, 100vw' })}</div>` : ''}
     ${eyebrow ? html`<p class="card__eyebrow">${eyebrow}</p>` : ''}
     <h3 class="card__title">${href ? html`<a href="${href}">${title}</a>` : title}</h3>
     ${summary ? html`<p class="card__summary">${inline(summary)}</p>` : ''}
@@ -262,7 +341,7 @@ export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', 
     ${meta && meta.length ? html`<ul class="card__meta">${meta.filter(Boolean).map((m) => html`<li><span>${m.label}</span><strong>${m.value}</strong></li>`)}</ul>` : ''}
     ${footer || ''}
   `
-  return html`<article class="card ${tone ? `card--${tone}` : ''}">${inner}</article>`
+  return html`<article class="card ${tone ? `card--${tone}` : ''}${image ? ' card--media' : ''}">${inner}</article>`
 }
 
 export function cardGrid (cards, { columns = 3, className = '' } = {}) {

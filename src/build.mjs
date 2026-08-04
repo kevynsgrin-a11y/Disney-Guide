@@ -24,6 +24,7 @@ import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import { renderParkMap } from './lib/map.mjs'
+import { buildPodcastFeed, resolveEpisodes } from './lib/podcast.mjs'
 import * as core from './pages/core.mjs'
 import * as parkPages from './pages/park.mjs'
 import * as diningPages from './pages/dining.mjs'
@@ -599,6 +600,17 @@ async function buildOperator (operator) {
     }, null, 2) + '\n', 'utf8')
   }
 
+  /*
+   * The feed is computed before the pages so the layout can advertise it, and only advertise it when
+   * it exists. A <link rel="alternate"> pointing at a 404 is the same error as an enclosure pointing
+   * at one: it teaches a client that this site's feed is broken.
+   */
+  const podcast = buildPodcastFeed(data.site, seasonal)
+  data.site.hasPodcast = Boolean(podcast)
+  for (const reason of resolveEpisodes(data.site, seasonal).skipped) {
+    console.log(`    podcast: skipped ${reason}`)
+  }
+
   const pages = buildPages(data, seasonal)
 
   const staleUrls = new Set()
@@ -617,6 +629,16 @@ async function buildOperator (operator) {
   await writeFile(join(dist, 'sitemap.xml'), buildSitemap(data.site, pages, staleUrls), 'utf8')
   await writeFile(join(dist, 'robots.txt'), buildRobots(data.site), 'utf8')
   await writeFile(join(dist, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
+
+  /*
+   * The podcast feed, only when there is something real to put in it.
+   *
+   * buildPodcastFeed returns null when no episode can prove it exists — an empty channel validates,
+   * can be submitted to a directory, and presents as a podcast with no episodes, which is a worse
+   * artefact than no feed. Skips are reported rather than swallowed, because a feed quietly shorter
+   * than the author expected is the failure nobody notices.
+   */
+  if (podcast) await writeFile(join(dist, 'podcast.xml'), podcast, 'utf8')
   await writeFile(join(dist, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
   await writeFile(join(dist, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(dist, '_redirects'), buildRedirects(data.site, new Set(pages.map((p) => p.url))), 'utf8')

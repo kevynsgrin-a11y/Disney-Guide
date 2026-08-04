@@ -345,6 +345,99 @@ main:focus { outline: none; }
 .hero--compact { padding-block: clamp(1.75rem, 3.5vw, 2.75rem); }
 .hero--plain { background: var(--surface); }
 
+/* ---------- 6b. Photography ---------------------------------------------- */
+
+/*
+ * A photo reserves its space before it has any bytes.
+ *
+ * aspect-ratio plus the LQIP means the layout is final at first paint and the image fades into a
+ * blur rather than into a hole. On a slow connection — the one this site claims to work on — that
+ * is the whole difference between "loading" and "broken".
+ */
+.photo {
+  display: block; position: relative; overflow: hidden;
+  aspect-ratio: var(--photo-ratio, 16 / 9);
+  background-color: var(--surface-3);
+  background-image: var(--lqip, none);
+  background-size: cover; background-position: center;
+}
+.photo img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  animation: photo-in .5s ease both;
+}
+@media (prefers-reduced-motion: reduce) { .photo img { animation: none; } }
+@keyframes photo-in { from { opacity: 0; } to { opacity: 1; } }
+
+/*
+ * The photographic hero.
+ *
+ * Two scrim layers, not one. The linear gradient carries the contrast where the text actually sits;
+ * the radial vignette stops the corners going flat and keeps the eye centred. Measured against the
+ * brightest hero candidate (a firework burst, roughly #f6e6b8): the .78 floor on the linear layer
+ * puts the text background at ~#2a2a24, giving white text about 12.4:1 — comfortably past AA, with
+ * headroom for a brighter photograph than the ones currently briefed.
+ */
+.hero--photo { position: relative; isolation: isolate; border-bottom: 0; background: var(--ink); }
+.hero--photo .hero__inner { position: relative; z-index: 2; }
+.hero__media { position: absolute; inset: 0; z-index: 0; }
+.hero__media .photo, .hero__media .photo img { width: 100%; height: 100%; aspect-ratio: auto; }
+.hero__scrim {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(6, 10, 9, .30) 0%, rgba(6, 10, 9, .55) 45%, rgba(6, 10, 9, .78) 100%),
+    radial-gradient(120% 90% at 50% 40%, transparent 35%, rgba(6, 10, 9, .45) 100%);
+}
+@media (min-width: 900px) {
+  .hero--photo { min-height: min(78vh, 720px); display: grid; align-items: end; }
+  .hero--photo .hero__inner { padding-block: clamp(3rem, 6vw, 5rem); }
+  .hero__scrim {
+    background:
+      linear-gradient(90deg, rgba(6, 10, 9, .82) 0%, rgba(6, 10, 9, .62) 45%, rgba(6, 10, 9, .25) 100%),
+      linear-gradient(180deg, rgba(6, 10, 9, .25) 0%, transparent 40%, rgba(6, 10, 9, .55) 100%);
+  }
+}
+
+/* Over photography the type is light regardless of theme — the scrim is always dark. */
+.hero--photo .hero__title, .hero--photo .hero__meta-value { color: #fff; }
+.hero--photo .hero__lede { color: rgba(255, 255, 255, .88); }
+.hero--photo .hero__eyebrow { color: var(--accent-2); }
+.hero--photo .hero__meta { border-top-color: rgba(255, 255, 255, .22); }
+.hero--photo .hero__meta-label { color: rgba(255, 255, 255, .72); }
+.hero--photo .btn--ghost { border-color: rgba(255, 255, 255, .55); color: #fff; background: rgba(255, 255, 255, .06); }
+.hero--photo .btn--ghost:hover { background: rgba(255, 255, 255, .14); border-color: #fff; color: #fff; }
+
+/* A slow drift. Long enough that it reads as depth rather than as movement. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero--photo .hero__photo img { animation: photo-in .5s ease both, hero-drift 24s ease-in-out infinite alternate; }
+}
+@keyframes hero-drift { from { transform: scale(1.02); } to { transform: scale(1.09); } }
+
+/* ---------- 6c. Trust strip ---------------------------------------------- */
+
+.trust-strip__list {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; gap: var(--space-4) var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.trust-strip__item { display: flex; gap: var(--space-3); align-items: flex-start; }
+.trust-strip__icon { flex: none; color: var(--brand-3); margin-top: .1rem; }
+.trust-strip__icon svg { display: block; width: 20px; height: 20px; }
+.trust-strip__text { font-size: var(--step--1); color: var(--ink-2); line-height: 1.5; }
+.trust-strip__text strong { color: var(--ink); font-family: var(--font-display); display: block; }
+
+/* ---------- 6d. Masthead scroll state ------------------------------------ */
+
+.site-header { transition: box-shadow .2s ease, background-color .2s ease; }
+.site-header[data-scrolled] {
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
+  backdrop-filter: saturate(1.6) blur(10px);
+  box-shadow: 0 1px 0 var(--line), var(--shadow-sm);
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .site-header[data-scrolled] { background: var(--paper); }
+}
+
 /* ---------- 7. Buttons --------------------------------------------------- */
 
 .btn {
@@ -412,6 +505,19 @@ main:focus { outline: none; }
 .card__meta li { display: flex; flex-direction: column; }
 .card__meta span { color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; }
 .card--feature { background: linear-gradient(160deg, var(--brand-soft), var(--surface) 65%); }
+
+/*
+ * Card imagery. A card with no image must look equally deliberate — most of them have none, and a
+ * grid where some cards are photographic and some are not should read as a designed mix rather than
+ * as missing assets. So the media block is a full-bleed top edge and everything else is unchanged.
+ */
+.card--media { padding-top: 0; overflow: hidden; }
+.card__media { margin: 0 calc(var(--space-5) * -1) var(--space-1); }
+.card__media .photo { aspect-ratio: 16 / 9; border-radius: 0; }
+.card--media:hover .card__photo img { transform: scale(1.03); }
+@media (prefers-reduced-motion: no-preference) {
+  .card__photo img { transition: transform .4s cubic-bezier(.2, .6, .2, 1); }
+}
 
 .link-grid { display: grid; gap: .75rem; }
 @media (min-width: 620px) { .link-grid--2, .link-grid--3, .link-grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -558,12 +664,56 @@ main:focus { outline: none; }
 
 /* ---------- 13. Tables --------------------------------------------------- */
 
+/*
+ * A table that is cut off must look cut off.
+ *
+ * These tables scroll horizontally on a phone, and a scrolled-out column is invisible — the table
+ * simply looks complete and narrower than it is. The classic four-layer background trick shows a
+ * shadow at whichever edge has more content, using background-attachment: local against scroll, and
+ * costs no JavaScript and no scroll listener.
+ */
 .table-wrap {
   overflow-x: auto; -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line); border-radius: var(--radius);
-  background: var(--surface); margin-block: var(--space-5);
+  background:
+    linear-gradient(to right, var(--surface) 30%, transparent),
+    linear-gradient(to left,  var(--surface) 30%, transparent),
+    linear-gradient(to right, rgba(20, 25, 26, .13), transparent 18px),
+    linear-gradient(to left,  rgba(20, 25, 26, .13), transparent 18px);
+  background-color: var(--surface);
+  background-repeat: no-repeat;
+  background-size: 42px 100%, 42px 100%, 16px 100%, 16px 100%;
+  background-position: 0 0, 100% 0, 0 0, 100% 0;
+  background-attachment: local, local, scroll, scroll;
+  margin-block: var(--space-5);
 }
-.data-table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+/* The shadow layers need more weight on a dark surface to register at all. */
+:root[data-theme="dark"] .table-wrap {
+  background-image:
+    linear-gradient(to right, var(--surface) 30%, transparent),
+    linear-gradient(to left,  var(--surface) 30%, transparent),
+    linear-gradient(to right, rgba(0, 0, 0, .55), transparent 18px),
+    linear-gradient(to left,  rgba(0, 0, 0, .55), transparent 18px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .table-wrap {
+    background-image:
+      linear-gradient(to right, var(--surface) 30%, transparent),
+      linear-gradient(to left,  var(--surface) 30%, transparent),
+      linear-gradient(to right, rgba(0, 0, 0, .55), transparent 18px),
+      linear-gradient(to left,  rgba(0, 0, 0, .55), transparent 18px);
+  }
+}
+
+/*
+ * Tabular numerals across the whole table rather than only in .ta-num columns.
+ *
+ * Every figure on this site sits in a column next to another figure — heights, prices, wait times,
+ * crowd grades. Proportional digits make those columns ragged and genuinely harder to compare,
+ * which is the one thing a table exists to make easy.
+ */
+.data-table { width: 100%; border-collapse: collapse; font-size: .93rem; font-variant-numeric: tabular-nums; }
+.data-table tbody tr:nth-child(even) { background: color-mix(in srgb, var(--surface-2) 55%, transparent); }
 .data-table caption {
   text-align: left; padding: var(--space-4) var(--space-5) 0;
   color: var(--muted); font-size: .85rem;
@@ -768,6 +918,41 @@ main:focus { outline: none; }
 .hchecker__park { margin-block: var(--space-5); }
 .hchecker__park h3 { display: flex; align-items: baseline; gap: .6rem; margin-bottom: var(--space-3); }
 .hchecker__park h3 small { font-weight: 500; color: var(--muted); font-size: .8rem; font-family: var(--font-sans); }
+
+/*
+ * The near-miss block.
+ *
+ * This is the most useful thing the tool says and it was rendered in `.small .muted` — the least
+ * prominent styling on the site. "Your child misses this one by an inch" is what decides whether a
+ * family waits a season or books now, and it deserves to be the thing the eye lands on after the
+ * height itself.
+ */
+.nearmiss {
+  margin-block: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+}
+.nearmiss__title {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: .88rem; color: var(--accent); margin: 0 0 .35rem;
+}
+.nearmiss__list { list-style: none; margin: 0; padding: 0; display: grid; gap: .25rem; }
+.nearmiss__list li { font-size: .9rem; color: var(--ink-2); display: flex; gap: .5rem; align-items: baseline; }
+.nearmiss__gap {
+  font-family: var(--font-display); font-weight: 800;
+  font-variant-numeric: tabular-nums; color: var(--accent);
+  min-width: 2.4rem; flex: none;
+}
+
+/* Tick marks on the scale, so the next threshold is visible rather than merely listed. */
+.hchecker__scale { position: relative; padding-top: .5rem; }
+.hchecker__scale span { position: relative; }
+.hchecker__scale span::before {
+  content: ""; position: absolute; top: -.5rem; left: 50%;
+  width: 1px; height: .3rem; background: var(--line-strong);
+}
 .ride-chiplist { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; }
 .ride-chiplist li {
   font-size: .82rem; padding: .25rem .6rem; border-radius: var(--radius-sm);
@@ -1045,25 +1230,51 @@ body[data-offline] .offline-note { display: block; }
 .freshness__lead { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; font-size: .92rem; }
 .freshness__lead strong { font-family: var(--font-display); letter-spacing: -.01em; }
 .freshness__sep { color: var(--muted); }
-.freshness__dot { width: .55rem; height: .55rem; border-radius: 999px; background: var(--line-strong); flex: none; }
+/*
+ * The dot encodes state by SHAPE as well as colour.
+ *
+ * Four states differing only in hue fails for anyone with a colour-vision deficiency, fails in
+ * greyscale print, and fails on a phone in direct sun at a park — which is precisely where this
+ * ribbon gets read. Filled / ring / half / hollow survives all three, and the label beside it still
+ * says the word, so the shape is reinforcement rather than the only signal.
+ */
+.freshness__dot {
+  width: .62rem; height: .62rem; border-radius: 999px; flex: none;
+  background: var(--line-strong);
+  border: 2px solid var(--line-strong);
+  box-sizing: border-box;
+}
 .freshness__note { font-size: .88rem; color: var(--ink-2); line-height: 1.5; }
 .freshness__meta { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .8rem; color: var(--muted); }
 .freshness__overdue { color: var(--danger); font-weight: 650; }
 
 /* Tone suffixes come straight from staleness.mjs: good | warn | muted | danger. A stale page is
    forced to `danger` there, so a confirmed-but-unreviewed fact can never wear a green ribbon. */
+/* good — solid. Checked and in date. */
 .freshness--good { background: var(--good-soft); border-color: transparent; border-left-color: var(--good); }
-.freshness--good .freshness__dot { background: var(--good); }
+.freshness--good .freshness__dot { background: var(--good); border-color: var(--good); }
 .freshness--good .freshness__lead strong { color: var(--good); }
+
+/* warn — half. Expected rather than confirmed. */
 .freshness--warn { background: var(--warn-soft); border-color: transparent; border-left-color: var(--warn); }
-.freshness--warn .freshness__dot { background: var(--warn); }
+.freshness--warn .freshness__dot {
+  border-color: var(--warn);
+  background: linear-gradient(90deg, var(--warn) 0 50%, transparent 50% 100%);
+}
 .freshness--warn .freshness__lead strong { color: var(--warn); }
+
+/* muted — hollow. Historical, stated as the past. */
+.freshness--muted .freshness__dot { background: transparent; border-color: var(--muted); }
 .freshness--muted .freshness__lead strong { color: var(--ink-2); }
+
+/* danger — ring. Past its review date, and saying so. */
 .freshness--danger { background: var(--danger-soft); border-color: transparent; border-left-color: var(--danger); }
-.freshness--danger .freshness__dot { background: var(--danger); }
+.freshness--danger .freshness__dot {
+  background: transparent; border-color: var(--danger); border-width: 3px;
+}
 .freshness--danger .freshness__lead strong { color: var(--danger); }
 .freshness--stale { border-left-color: var(--danger); }
-.freshness--stale .freshness__dot { background: var(--danger); }
+.freshness--stale .freshness__dot { background: transparent; border-color: var(--danger); border-width: 3px; }
 
 .pill--conf-confirmed { background: var(--good-soft); color: var(--good); border-color: transparent; }
 .pill--conf-expected { background: var(--warn-soft); color: var(--warn); border-color: transparent; }

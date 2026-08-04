@@ -58,6 +58,32 @@
       "body": "Universal's attraction assistance programme requires advance registration, and both the registration route and the eligibility criteria have changed more than once in recent years. Treat anything you read about the process, here or elsewhere, as a starting point and confirm the current requirements on Universal's own accessibility pages before your trip. Registering late is the failure mode — it is not something you can arrange at the gate on the day."
     }
   },
+  "photos": {
+    "hero": {
+      "file": "hero-coaster-night",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 45%",
+      "note": "Decorative: alt is empty on purpose. Atmospheric night coaster silhouette — no licensed property, no characters, no identifiable faces."
+    },
+    "social": {
+      "file": "social-card",
+      "alt": "",
+      "width": 1280,
+      "height": 672,
+      "widths": [
+        640,
+        1280
+      ],
+      "note": "Open Graph / Twitter card, 1.91:1."
+    }
+  },
   "author": {
     "name": "The Hollywood Ride Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",

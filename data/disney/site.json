@@ -57,6 +57,32 @@
       "body": "Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip."
     }
   },
+  "photos": {
+    "hero": {
+      "file": "hero-fireworks",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 45%",
+      "note": "Decorative: alt is empty on purpose. Atmospheric fireworks over a generic fairground — no castle, no characters, no identifiable faces. Drop -640/-1280/-1920 .avif/.webp/.jpg into assets/img/photos/ to activate."
+    },
+    "social": {
+      "file": "social-card",
+      "alt": "",
+      "width": 1280,
+      "height": 672,
+      "widths": [
+        640,
+        1280
+      ],
+      "note": "Open Graph / Twitter card, 1.91:1. Absent until the file exists, and the card type falls back to summary rather than promising a large image and delivering none."
+    }
+  },
   "author": {
     "name": "The Ride Ready Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
@@ -326,5 +352,17 @@
     "enabled": false,
     "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
   },
-  "operator": "disney"
+  "operator": "disney",
+  "podcast": {
+    "note": "Audio is hosted off-repo. An episode needs a real byte length and duration to be published — you only know those if the file exists, which is the check. Missing either drops it from the feed rather than shipping a 404 enclosure. See docs/ELEVENLABS-PROMPTS.md.",
+    "title": "Ride Ready Monthly",
+    "description": "A dated, sourced three-minute brief on what each month is actually like at the six US Disney parks — crowds, weather, cost, and what is running. Every episode states the month its facts were checked. Independent and unofficial.",
+    "author": "Ride Ready Guide",
+    "email": "",
+    "category": "Society & Culture",
+    "subcategory": "Places & Travel",
+    "artwork": "",
+    "audioBase": "",
+    "episodes": []
+  }
 }

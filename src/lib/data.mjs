@@ -355,6 +355,39 @@ function index (data) {
     ...resolve(roles.compare, (s) => data.compareBySlug.has(s), (s) => s),
   }
 
+  /*
+   * Photography, resolved against the files that actually exist on disk.
+   *
+   * A photo is declared in site.json — where its alt text and focal point live, because those are
+   * editorial decisions and belong with the other authored content — but declaring one does not make
+   * it real. The widest variant is checked for on disk, and a photo whose file is missing resolves
+   * to null so the component renders nothing and the layout falls back to its unphotographic form.
+   *
+   * That fallback is the point. Every photographic treatment on this site has to look deliberate
+   * with no photograph at all, because that is the state the site is in today and the state it
+   * returns to the moment an image is pulled for a rights problem.
+   */
+  const photoDir = join(ASSETS_DIR, 'img', 'photos')
+  data.photo = Object.fromEntries(
+    Object.entries((site.photos || {})).map(([key, meta]) => {
+      if (!meta || !meta.file) return [key, null]
+      const widest = Math.max(...(meta.widths || [1920]))
+      const exists = existsSync(join(photoDir, `${meta.file}-${widest}.avif`)) ||
+        existsSync(join(photoDir, `${meta.file}-${widest}.webp`)) ||
+        existsSync(join(photoDir, `${meta.file}-${widest}.jpg`))
+      return [key, exists ? { ...meta, widths: meta.widths || [640, 1280, 1920] } : null]
+    })
+  )
+
+  /*
+   * The social card, hoisted onto `site` so the layout can reach it.
+   *
+   * The layout receives `site`, not `data`, and every page needs this — so it is resolved once here
+   * rather than threaded through every page module.
+   */
+  const social = data.photo.social
+  site.socialImage = social ? `${site.brand.origin}/assets/img/photos/${social.file}-1280.jpg` : null
+
   return data
 }
 

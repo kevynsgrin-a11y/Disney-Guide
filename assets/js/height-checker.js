@@ -58,14 +58,20 @@
           if (ride.h == null || ride.h <= inches) { can.push(ride); totalCan++ }
           else cant.push(ride)
         })
+        /* Sorted by how close they are, so the nearest miss reads first — that is the one that
+           decides whether a family waits a season or books now. */
         var nearMiss = cant.filter(function (r) { return r.h - inches <= 2 })
+          .sort(function (a, b) { return a.h - b.h })
         return '<section class="hchecker__park">' +
           '<h3><a href="' + esc(park.url) + '">' + esc(park.name) + '</a> ' +
           '<small>' + can.length + ' of ' + park.rides.length + ' rideable</small></h3>' +
           (nearMiss.length
-            ? '<p class="small muted">So close: ' + nearMiss.map(function (r) {
-              return esc(r.n) + ' needs just ' + (r.h - inches) + '" more'
-            }).join(', ') + '.</p>'
+            ? '<div class="nearmiss"><p class="nearmiss__title">' +
+              (nearMiss.length === 1 ? 'One ride is just out of reach' : nearMiss.length + ' rides are just out of reach') +
+              '</p><ul class="nearmiss__list">' + nearMiss.map(function (r) {
+                var gap = r.h - inches
+                return '<li><span class="nearmiss__gap">+' + gap + '"</span> ' + esc(r.n) + '</li>'
+              }).join('') + '</ul></div>'
             : '') +
           '<ul class="ride-chiplist">' +
             can.map(function (r) { return '<li>' + esc(r.n) + '</li>' }).join('') +
