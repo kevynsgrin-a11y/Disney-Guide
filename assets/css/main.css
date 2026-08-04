@@ -506,6 +506,19 @@ main:focus { outline: none; }
 .card__meta span { color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; }
 .card--feature { background: linear-gradient(160deg, var(--brand-soft), var(--surface) 65%); }
 
+/*
+ * Card imagery. A card with no image must look equally deliberate — most of them have none, and a
+ * grid where some cards are photographic and some are not should read as a designed mix rather than
+ * as missing assets. So the media block is a full-bleed top edge and everything else is unchanged.
+ */
+.card--media { padding-top: 0; overflow: hidden; }
+.card__media { margin: 0 calc(var(--space-5) * -1) var(--space-1); }
+.card__media .photo { aspect-ratio: 16 / 9; border-radius: 0; }
+.card--media:hover .card__photo img { transform: scale(1.03); }
+@media (prefers-reduced-motion: no-preference) {
+  .card__photo img { transition: transform .4s cubic-bezier(.2, .6, .2, 1); }
+}
+
 .link-grid { display: grid; gap: .75rem; }
 @media (min-width: 620px) { .link-grid--2, .link-grid--3, .link-grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 940px) {
@@ -651,12 +664,56 @@ main:focus { outline: none; }
 
 /* ---------- 13. Tables --------------------------------------------------- */
 
+/*
+ * A table that is cut off must look cut off.
+ *
+ * These tables scroll horizontally on a phone, and a scrolled-out column is invisible — the table
+ * simply looks complete and narrower than it is. The classic four-layer background trick shows a
+ * shadow at whichever edge has more content, using background-attachment: local against scroll, and
+ * costs no JavaScript and no scroll listener.
+ */
 .table-wrap {
   overflow-x: auto; -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line); border-radius: var(--radius);
-  background: var(--surface); margin-block: var(--space-5);
+  background:
+    linear-gradient(to right, var(--surface) 30%, transparent),
+    linear-gradient(to left,  var(--surface) 30%, transparent),
+    linear-gradient(to right, rgba(20, 25, 26, .13), transparent 18px),
+    linear-gradient(to left,  rgba(20, 25, 26, .13), transparent 18px);
+  background-color: var(--surface);
+  background-repeat: no-repeat;
+  background-size: 42px 100%, 42px 100%, 16px 100%, 16px 100%;
+  background-position: 0 0, 100% 0, 0 0, 100% 0;
+  background-attachment: local, local, scroll, scroll;
+  margin-block: var(--space-5);
 }
-.data-table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+/* The shadow layers need more weight on a dark surface to register at all. */
+:root[data-theme="dark"] .table-wrap {
+  background-image:
+    linear-gradient(to right, var(--surface) 30%, transparent),
+    linear-gradient(to left,  var(--surface) 30%, transparent),
+    linear-gradient(to right, rgba(0, 0, 0, .55), transparent 18px),
+    linear-gradient(to left,  rgba(0, 0, 0, .55), transparent 18px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .table-wrap {
+    background-image:
+      linear-gradient(to right, var(--surface) 30%, transparent),
+      linear-gradient(to left,  var(--surface) 30%, transparent),
+      linear-gradient(to right, rgba(0, 0, 0, .55), transparent 18px),
+      linear-gradient(to left,  rgba(0, 0, 0, .55), transparent 18px);
+  }
+}
+
+/*
+ * Tabular numerals across the whole table rather than only in .ta-num columns.
+ *
+ * Every figure on this site sits in a column next to another figure — heights, prices, wait times,
+ * crowd grades. Proportional digits make those columns ragged and genuinely harder to compare,
+ * which is the one thing a table exists to make easy.
+ */
+.data-table { width: 100%; border-collapse: collapse; font-size: .93rem; font-variant-numeric: tabular-nums; }
+.data-table tbody tr:nth-child(even) { background: color-mix(in srgb, var(--surface-2) 55%, transparent); }
 .data-table caption {
   text-align: left; padding: var(--space-4) var(--space-5) 0;
   color: var(--muted); font-size: .85rem;
@@ -1138,25 +1195,51 @@ body[data-offline] .offline-note { display: block; }
 .freshness__lead { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; font-size: .92rem; }
 .freshness__lead strong { font-family: var(--font-display); letter-spacing: -.01em; }
 .freshness__sep { color: var(--muted); }
-.freshness__dot { width: .55rem; height: .55rem; border-radius: 999px; background: var(--line-strong); flex: none; }
+/*
+ * The dot encodes state by SHAPE as well as colour.
+ *
+ * Four states differing only in hue fails for anyone with a colour-vision deficiency, fails in
+ * greyscale print, and fails on a phone in direct sun at a park — which is precisely where this
+ * ribbon gets read. Filled / ring / half / hollow survives all three, and the label beside it still
+ * says the word, so the shape is reinforcement rather than the only signal.
+ */
+.freshness__dot {
+  width: .62rem; height: .62rem; border-radius: 999px; flex: none;
+  background: var(--line-strong);
+  border: 2px solid var(--line-strong);
+  box-sizing: border-box;
+}
 .freshness__note { font-size: .88rem; color: var(--ink-2); line-height: 1.5; }
 .freshness__meta { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .8rem; color: var(--muted); }
 .freshness__overdue { color: var(--danger); font-weight: 650; }
 
 /* Tone suffixes come straight from staleness.mjs: good | warn | muted | danger. A stale page is
    forced to `danger` there, so a confirmed-but-unreviewed fact can never wear a green ribbon. */
+/* good — solid. Checked and in date. */
 .freshness--good { background: var(--good-soft); border-color: transparent; border-left-color: var(--good); }
-.freshness--good .freshness__dot { background: var(--good); }
+.freshness--good .freshness__dot { background: var(--good); border-color: var(--good); }
 .freshness--good .freshness__lead strong { color: var(--good); }
+
+/* warn — half. Expected rather than confirmed. */
 .freshness--warn { background: var(--warn-soft); border-color: transparent; border-left-color: var(--warn); }
-.freshness--warn .freshness__dot { background: var(--warn); }
+.freshness--warn .freshness__dot {
+  border-color: var(--warn);
+  background: linear-gradient(90deg, var(--warn) 0 50%, transparent 50% 100%);
+}
 .freshness--warn .freshness__lead strong { color: var(--warn); }
+
+/* muted — hollow. Historical, stated as the past. */
+.freshness--muted .freshness__dot { background: transparent; border-color: var(--muted); }
 .freshness--muted .freshness__lead strong { color: var(--ink-2); }
+
+/* danger — ring. Past its review date, and saying so. */
 .freshness--danger { background: var(--danger-soft); border-color: transparent; border-left-color: var(--danger); }
-.freshness--danger .freshness__dot { background: var(--danger); }
+.freshness--danger .freshness__dot {
+  background: transparent; border-color: var(--danger); border-width: 3px;
+}
 .freshness--danger .freshness__lead strong { color: var(--danger); }
 .freshness--stale { border-left-color: var(--danger); }
-.freshness--stale .freshness__dot { background: var(--danger); }
+.freshness--stale .freshness__dot { background: transparent; border-color: var(--danger); border-width: 3px; }
 
 .pill--conf-confirmed { background: var(--good-soft); color: var(--good); border-color: transparent; }
 .pill--conf-expected { background: var(--warn-soft); color: var(--warn); border-color: transparent; }

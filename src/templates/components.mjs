@@ -331,8 +331,9 @@ export function faqSection (faqs, { title = 'Frequently asked questions', id = '
  * Cards
  * ------------------------------------------------------------------ */
 
-export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', footer }) {
+export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', footer, image }) {
   const inner = html`
+    ${image ? html`<div class="card__media">${photo(image, { className: 'card__photo', sizes: '(min-width: 940px) 33vw, (min-width: 620px) 50vw, 100vw' })}</div>` : ''}
     ${eyebrow ? html`<p class="card__eyebrow">${eyebrow}</p>` : ''}
     <h3 class="card__title">${href ? html`<a href="${href}">${title}</a>` : title}</h3>
     ${summary ? html`<p class="card__summary">${inline(summary)}</p>` : ''}
@@ -340,7 +341,7 @@ export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', 
     ${meta && meta.length ? html`<ul class="card__meta">${meta.filter(Boolean).map((m) => html`<li><span>${m.label}</span><strong>${m.value}</strong></li>`)}</ul>` : ''}
     ${footer || ''}
   `
-  return html`<article class="card ${tone ? `card--${tone}` : ''}">${inner}</article>`
+  return html`<article class="card ${tone ? `card--${tone}` : ''}${image ? ' card--media' : ''}">${inner}</article>`
 }
 
 export function cardGrid (cards, { columns = 3, className = '' } = {}) {
