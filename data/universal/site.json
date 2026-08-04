@@ -71,6 +71,17 @@
       ],
       "focal": "50% 45%",
       "note": "Decorative: alt is empty on purpose. Atmospheric night coaster silhouette — no licensed property, no characters, no identifiable faces."
+    },
+    "social": {
+      "file": "social-card",
+      "alt": "",
+      "width": 1280,
+      "height": 672,
+      "widths": [
+        640,
+        1280
+      ],
+      "note": "Open Graph / Twitter card, 1.91:1."
     }
   },
   "author": {

@@ -1,3 +1,15 @@
+> **Superseded by [`ASSET-RUNBOOK.md`](./ASSET-RUNBOOK.md).**
+>
+> This described building the front end in Lovable. It is not being built that way: Lovable, v0,
+> Bolt and Builder.io all emit React apps in their own sandboxes and cannot touch a
+> zero-dependency template-literal generator. The front end is built directly in the repo and only
+> the assets come from outside.
+>
+> Kept because the art direction and the IP guardrails below are still the reasoning behind the
+> runbook, and because the record of why this path was chosen is worth having.
+
+---
+
 # Lovable prompts — visual overhaul
 
 Verbatim prompts for a front-end visual overhaul, to be pasted into Lovable by hand. Read the two

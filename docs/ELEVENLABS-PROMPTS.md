@@ -1,3 +1,10 @@
+> **Superseded by [`ASSET-RUNBOOK.md`](./ASSET-RUNBOOK.md),** which batches every prompt by program
+> in the order worth doing them, and adds the social card and podcast artwork this file omitted.
+>
+> Kept for the longer reasoning on voice and settings.
+
+---
+
 # ElevenLabs — verbatim inputs
 
 Two separate jobs. The audio half is ElevenLabs' core product and the instructions below are exact.

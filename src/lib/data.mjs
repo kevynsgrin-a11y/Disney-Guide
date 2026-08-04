@@ -379,6 +379,15 @@ function index (data) {
     })
   )
 
+  /*
+   * The social card, hoisted onto `site` so the layout can reach it.
+   *
+   * The layout receives `site`, not `data`, and every page needs this — so it is resolved once here
+   * rather than threaded through every page module.
+   */
+  const social = data.photo.social
+  site.socialImage = social ? `${site.brand.origin}/assets/img/photos/${social.file}-1280.jpg` : null
+
   return data
 }
 

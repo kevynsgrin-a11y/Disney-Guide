@@ -70,6 +70,17 @@
       ],
       "focal": "50% 45%",
       "note": "Decorative: alt is empty on purpose. Atmospheric fireworks over a generic fairground — no castle, no characters, no identifiable faces. Drop -640/-1280/-1920 .avif/.webp/.jpg into assets/img/photos/ to activate."
+    },
+    "social": {
+      "file": "social-card",
+      "alt": "",
+      "width": 1280,
+      "height": 672,
+      "widths": [
+        640,
+        1280
+      ],
+      "note": "Open Graph / Twitter card, 1.91:1. Absent until the file exists, and the card type falls back to summary rather than promising a large image and delivering none."
     }
   },
   "author": {
