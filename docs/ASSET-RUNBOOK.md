@@ -274,6 +274,66 @@ files land, the hero switches from its gradient on its own.
 
 # BATCH 5 · ElevenLabs
 
+## Do it with the renderer, not by hand
+
+Twelve pastes into the web UI is fine once. The problem is that this is not a one-time job: the
+scripts are generated from month data and CI fails when the two disagree, so every correction to a
+crowd pattern or a price band produces a new script and the audio has to be re-cut. A hand-driven
+workflow survives exactly as long as somebody remembers, and stale audio is the specific failure the
+whole freshness design exists to prevent.
+
+```bash
+# 1. Generate the scripts (free, no API involved)
+node scripts/audio-script.mjs disney --pron
+
+# 2. See what would be rendered — calls nothing, spends nothing
+node scripts/audio-render.mjs disney --voice <voice_id> --dry-run
+
+# 3. Audition one month before committing to twelve
+ELEVENLABS_API_KEY=sk_... node scripts/audio-render.mjs disney --voice <voice_id> --month 03
+
+# 4. Listen to it. Then do the rest.
+ELEVENLABS_API_KEY=sk_... node scripts/audio-render.mjs disney --voice <voice_id>
+```
+
+Existing files are skipped unless you pass `--force`, so step 4 costs eleven episodes rather than
+twelve. It stops on the first failure rather than continuing — a partial run burns quota on a
+misconfiguration and leaves a half-rendered set that looks complete — and it prints the full error
+body, because "401" alone sends people to regenerate a key that was never the problem.
+
+Output lands in `build/audio/<operator>/`, which is gitignored. At the end it prints the `episodes`
+block for `site.json` with **real byte lengths already filled in**, so nobody is hand-typing the one
+number that breaks a download for every subscriber if it is wrong.
+
+The API key is read from the environment and never written to disk. Do not put it in `site.json`.
+
+### Picking the voice, which is the part that needs you
+
+The renderer takes a voice ID, so this is the one step to do in the web UI. Open the voice library,
+paste **just these four lines**, and listen:
+
+```
+Our grade for March is C plus. Perfect Orlando weather, permanently high attendance, and upper-tier pricing for four straight weeks.
+
+Everything in this brief was checked in July 2026. Nothing here is a forecast for a specific date.
+
+Who March suits. Anyone whose priority is comfortable temperatures over short lines.
+
+Who it does not. Anyone hoping to find a quiet week.
+```
+
+The last line is the test. It has to land as candour, not as a complaint and not as cheerfulness. A
+voice that sounds delighted delivering it will make every honest thing on this site sound like
+salesmanship.
+
+Two more filters worth applying:
+- **Mid-range over very deep.** Deep voices lose intelligibility through a car speaker at motorway
+  noise, which is one of the two places this will actually be heard.
+- **Listen to the numbers.** "Highs around 79 degrees, lows around 58, about 7 days with measurable
+  rain" is a third of every episode. Some voices rush figures into mush.
+
+Copy the voice ID from the URL or the voice's detail panel and pass it to the renderer.
+
 ## The scripts already exist
 
 ```bash
