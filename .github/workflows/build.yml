@@ -27,6 +27,16 @@ jobs:
       - name: Fact check against the reference tables
         run: npm run factcheck
 
+      # The audio scripts are generated from the month data and committed, so a data change that
+      # was not followed by a regeneration shows up here as a diff. Audio is the one format where a
+      # stale claim reaches a listener with nothing on screen to contradict it, so the drift has to
+      # fail a build rather than wait for someone to notice.
+      - name: Audio scripts are in sync with the data they narrate
+        run: |
+          node scripts/audio-script.mjs disney
+          git diff --exit-code -- build/audio-scripts \
+            || (echo "::error::Audio scripts are stale. Run: node scripts/audio-script.mjs disney" && exit 1)
+
       - name: Build site
         run: npm run build:fast
 
