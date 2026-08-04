@@ -34,9 +34,100 @@ Given how much of this brief is intellectual property, that indemnification is a
 than a footnote. Midjourney gives the better cinematic result if you would rather carry the IP
 question yourself. Both work with these prompts.
 
+## Storing the rules so you stop re-pasting them
+
+Worth doing, with one correction and one caveat.
+
+**Use a Gemini Gem, not a NotebookLM notebook.** NotebookLM is grounded Q&A over sources — summaries,
+study guides, mind maps. It does not generate images. A Gem holds persistent instructions plus
+knowledge files and can generate, which is the shape you want.
+
+**Avoid NotebookLM's Audio Overview entirely for this project.** It produces two AI hosts riffing
+conversationally over your sources. That output would sit completely outside the verification
+perimeter — unscripted claims about heights and prices, delivered confidently, with no freshness
+statement and no gate. It would undo the reason the briefs in Batch 5 are generated from validated
+data rather than written.
+
+**The caveat that matters more than the storage question.** A stored wall of "never depict X" is
+weaker than it feels. Diffusion models handle negation badly: the tokens are still encoded, so
+"no Mickey-shaped pretzel" can raise the odds of one rather than lower them. Reliable avoidance comes
+from two places, neither of which is a prose prohibition:
+
+1. **Positive specificity.** Describing exactly what the object *is* leaves no room for the model to
+   reach for the thing you are avoiding. "A fresh-cut churro dusted in cinnamon sugar" is a stronger
+   guard than "no character-shaped food", because it fully determines the subject.
+2. **True negative conditioning**, where the tool supports it. Midjourney's `--no` is a real
+   mechanism; a sentence in the prompt is not.
+
+So the block below leads with what to produce and keeps the prohibition list short, for the handful
+of cases where naming the thing is unavoidable.
+
+**No stored instruction removes the need to look at the output.** The review is the control; the
+prompt is only a nudge. That is not pessimism about Gems — it is that an image model has no concept
+of trademark, and the only reliable check is a person deciding whether the castle looks like the
+castle.
+
+### The Gem instruction — paste once into the Gem's instructions field
+
+```
+You generate photographic assets for an independent, unofficial theme-park planning publication. It
+is not affiliated with Disney, Universal, or any park operator, and its entire value is that readers
+trust it. Every image must be safe to publish commercially against that claim.
+
+HOUSE STYLE — apply to every image unless told otherwise:
+Shot on a full-frame camera, 35mm prime, wide aperture, natural light. Rich but believable colour,
+deep shadows that retain detail, slight film grain. Warm highlights, cool shadows. Editorial
+documentary photography — a magazine photo essay, not stock and not a brochure. Photorealistic.
+16:9 unless a different ratio is specified.
+
+SUBJECTS ARE GENERIC BY CONSTRUCTION:
+- Fairgrounds, travelling carnivals and generic amusement parks. Ferris wheels, striped canvas
+  awnings, string lights, painted carousel horses, log flumes, steel coasters.
+- Food is described by what it physically is: a cinnamon-sugar churro, a waffle cone, a paper tray
+  of fries. Round, conventional shapes only.
+- Staff wear plain solid-colour uniforms with no logo, no badge and no name tag.
+- Castles, when asked for, are drawn from real European architectural traditions and are explicitly
+  asymmetric.
+
+HARD EXCLUSIONS:
+No Disney or Universal characters, logos, wordmarks, ride vehicles, monorails or costumed
+characters. No three-circle arrangements in any object. No Sleeping Beauty or Cinderella castle
+silhouette. No Harry Potter, Star Wars, Marvel or Nintendo properties. No recognisable real people.
+No text, readable signage or watermarks in frame.
+
+BEFORE RETURNING AN IMAGE, CHECK IT AND SAY WHAT YOU CHECKED:
+1. Does any object form three circles in a head-and-ears arrangement — including balloons, food,
+   topiary and shadows?
+2. Does any castle resemble a real theme-park castle in silhouette?
+3. Is any lettering, logo or badge visible anywhere?
+4. Is any face recognisable as a specific real person?
+If yes to any, regenerate rather than returning it, and say which check failed.
+```
+
+The self-check block is the part that actually earns its place. Gemini mediates image generation
+through a text model, so asking it to inspect and report is meaningfully better than asking it to
+avoid — and when it says which check failed, you learn where the prompts are weak.
+
+**For Midjourney**, add this to the end of every prompt, or store it with `/prefer option set`:
+
+```
+--no text, logos, watermarks, signage, cartoon characters, mascot costumes, character-shaped food, castle spires
+```
+
+### Organising the output
+
+A Gem will not help here — it has no asset library. Google Drive, or a plain folder, is fine.
+
+What actually matters is provenance, and it belongs in the repository rather than in a Google
+product: `assets/img/photos/CREDITS.md`, one line per file recording the generator and the prompt, or
+the licence and source. If a rights question ever arrives, that file is the answer, and a folder in
+Drive is not.
+
+---
+
 ## Paste once — the standing rules
 
-Put this in the tool's system/style field if it has one, or prepend it to each prompt.
+If you are not using a Gem, put this in the tool's system/style field, or prepend it to each prompt.
 
 ```
 NEVER depict or evoke: Mickey Mouse or any Disney character; the three-circle "Mickey head"
