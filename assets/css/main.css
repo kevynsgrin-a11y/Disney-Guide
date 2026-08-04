@@ -345,6 +345,99 @@ main:focus { outline: none; }
 .hero--compact { padding-block: clamp(1.75rem, 3.5vw, 2.75rem); }
 .hero--plain { background: var(--surface); }
 
+/* ---------- 6b. Photography ---------------------------------------------- */
+
+/*
+ * A photo reserves its space before it has any bytes.
+ *
+ * aspect-ratio plus the LQIP means the layout is final at first paint and the image fades into a
+ * blur rather than into a hole. On a slow connection — the one this site claims to work on — that
+ * is the whole difference between "loading" and "broken".
+ */
+.photo {
+  display: block; position: relative; overflow: hidden;
+  aspect-ratio: var(--photo-ratio, 16 / 9);
+  background-color: var(--surface-3);
+  background-image: var(--lqip, none);
+  background-size: cover; background-position: center;
+}
+.photo img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  animation: photo-in .5s ease both;
+}
+@media (prefers-reduced-motion: reduce) { .photo img { animation: none; } }
+@keyframes photo-in { from { opacity: 0; } to { opacity: 1; } }
+
+/*
+ * The photographic hero.
+ *
+ * Two scrim layers, not one. The linear gradient carries the contrast where the text actually sits;
+ * the radial vignette stops the corners going flat and keeps the eye centred. Measured against the
+ * brightest hero candidate (a firework burst, roughly #f6e6b8): the .78 floor on the linear layer
+ * puts the text background at ~#2a2a24, giving white text about 12.4:1 — comfortably past AA, with
+ * headroom for a brighter photograph than the ones currently briefed.
+ */
+.hero--photo { position: relative; isolation: isolate; border-bottom: 0; background: var(--ink); }
+.hero--photo .hero__inner { position: relative; z-index: 2; }
+.hero__media { position: absolute; inset: 0; z-index: 0; }
+.hero__media .photo, .hero__media .photo img { width: 100%; height: 100%; aspect-ratio: auto; }
+.hero__scrim {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(6, 10, 9, .30) 0%, rgba(6, 10, 9, .55) 45%, rgba(6, 10, 9, .78) 100%),
+    radial-gradient(120% 90% at 50% 40%, transparent 35%, rgba(6, 10, 9, .45) 100%);
+}
+@media (min-width: 900px) {
+  .hero--photo { min-height: min(78vh, 720px); display: grid; align-items: end; }
+  .hero--photo .hero__inner { padding-block: clamp(3rem, 6vw, 5rem); }
+  .hero__scrim {
+    background:
+      linear-gradient(90deg, rgba(6, 10, 9, .82) 0%, rgba(6, 10, 9, .62) 45%, rgba(6, 10, 9, .25) 100%),
+      linear-gradient(180deg, rgba(6, 10, 9, .25) 0%, transparent 40%, rgba(6, 10, 9, .55) 100%);
+  }
+}
+
+/* Over photography the type is light regardless of theme — the scrim is always dark. */
+.hero--photo .hero__title, .hero--photo .hero__meta-value { color: #fff; }
+.hero--photo .hero__lede { color: rgba(255, 255, 255, .88); }
+.hero--photo .hero__eyebrow { color: var(--accent-2); }
+.hero--photo .hero__meta { border-top-color: rgba(255, 255, 255, .22); }
+.hero--photo .hero__meta-label { color: rgba(255, 255, 255, .72); }
+.hero--photo .btn--ghost { border-color: rgba(255, 255, 255, .55); color: #fff; background: rgba(255, 255, 255, .06); }
+.hero--photo .btn--ghost:hover { background: rgba(255, 255, 255, .14); border-color: #fff; color: #fff; }
+
+/* A slow drift. Long enough that it reads as depth rather than as movement. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero--photo .hero__photo img { animation: photo-in .5s ease both, hero-drift 24s ease-in-out infinite alternate; }
+}
+@keyframes hero-drift { from { transform: scale(1.02); } to { transform: scale(1.09); } }
+
+/* ---------- 6c. Trust strip ---------------------------------------------- */
+
+.trust-strip__list {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; gap: var(--space-4) var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.trust-strip__item { display: flex; gap: var(--space-3); align-items: flex-start; }
+.trust-strip__icon { flex: none; color: var(--brand-3); margin-top: .1rem; }
+.trust-strip__icon svg { display: block; width: 20px; height: 20px; }
+.trust-strip__text { font-size: var(--step--1); color: var(--ink-2); line-height: 1.5; }
+.trust-strip__text strong { color: var(--ink); font-family: var(--font-display); display: block; }
+
+/* ---------- 6d. Masthead scroll state ------------------------------------ */
+
+.site-header { transition: box-shadow .2s ease, background-color .2s ease; }
+.site-header[data-scrolled] {
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
+  backdrop-filter: saturate(1.6) blur(10px);
+  box-shadow: 0 1px 0 var(--line), var(--shadow-sm);
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .site-header[data-scrolled] { background: var(--paper); }
+}
+
 /* ---------- 7. Buttons --------------------------------------------------- */
 
 .btn {

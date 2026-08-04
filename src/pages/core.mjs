@@ -89,7 +89,23 @@ export function homePage (data, seasonal) {
         ])}
         ${C.lastVerified('2026-07', 'Everything on this site verified')}
       `,
+      image: data.photo.hero,
     })}
+
+    ${C.trustStrip([
+      { title: 'Independent and unofficial',
+        body: 'We buy our own tickets. No park pays for a place on this site.',
+        icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 8.3 8 9 4.8-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>' },
+      { title: 'Every fact is dated',
+        body: 'Each page carries the month it was checked, and says so when it is overdue.',
+        icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' },
+      { title: 'Rankings are not for sale',
+        body: 'Affiliate links exist and are disclosed. They never change an order or a verdict.',
+        icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M7 7v11a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V7"/><path d="M10 4h4"/><path d="M10 11v5M14 11v5"/></svg>' },
+      { title: 'Works without signal',
+        body: 'The tools keep running on park WiFi, or on none at all.',
+        icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/><path d="m3 3 18 18"/></svg>' },
+    ])}
 
     ${C.section({
       title: 'Start with your park',

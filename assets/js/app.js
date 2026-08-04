@@ -254,9 +254,29 @@
     else document.addEventListener('DOMContentLoaded', fn)
   }
 
+  /* Masthead gains a border and a blur once the page has moved. Passive, and rAF-throttled so it
+     cannot become the reason scrolling stutters on a mid-range phone. */
+  function initHeaderScroll () {
+    var header = document.querySelector('.site-header')
+    if (!header) return
+    var ticking = false
+    function update () {
+      ticking = false
+      if (window.scrollY > 80) header.setAttribute('data-scrolled', '')
+      else header.removeAttribute('data-scrolled')
+    }
+    window.addEventListener('scroll', function () {
+      if (ticking) return
+      ticking = true
+      window.requestAnimationFrame(update)
+    }, { passive: true })
+    update()
+  }
+
   ready(function () {
     initTheme()
     initNav()
+    initHeaderScroll()
     initSortableTables()
     initSearch()
     initConnectivity()

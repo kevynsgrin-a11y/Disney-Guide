@@ -57,6 +57,21 @@
       "body": "Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip."
     }
   },
+  "photos": {
+    "hero": {
+      "file": "hero-fireworks",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 45%",
+      "note": "Decorative: alt is empty on purpose. Atmospheric fireworks over a generic fairground — no castle, no characters, no identifiable faces. Drop -640/-1280/-1920 .avif/.webp/.jpg into assets/img/photos/ to activate."
+    }
+  },
   "author": {
     "name": "The Ride Ready Guide editorial team",
     "shortBio": "Independent theme-park writers who plan, ride, eat, and measure their way through the parks so you do not have to guess.",
