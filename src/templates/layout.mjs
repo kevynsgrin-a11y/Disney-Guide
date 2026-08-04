@@ -44,6 +44,7 @@ function metaTags (site, page) {
     <meta name="twitter:card" content="summary_large_image">
     ${site.meta.twitterSite ? html`<meta name="twitter:site" content="${site.meta.twitterSite}">` : ''}
     ${page.noindex ? html`<meta name="robots" content="noindex,follow">` : ''}
+    ${site.hasPodcast ? html`<link rel="alternate" type="application/rss+xml" title="${site.podcast.title || site.brand.name}" href="${site.brand.origin}/podcast.xml">` : ''}
   `
 }
 

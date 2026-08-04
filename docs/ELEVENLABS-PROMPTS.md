@@ -245,10 +245,61 @@ switches from its gradient to photographic on its own.
 
 ---
 
+## Part 3 — Publishing the podcast
+
+The feed is built and tested. It is inert until you fill in three things in
+`data/disney/site.json` under `podcast`:
+
+```jsonc
+"podcast": {
+  "email":     "hello@ridereadyguide.com",     // required — Apple rejects a feed with no owner
+  "audioBase": "https://audio.ridereadyguide.com/",
+  "artwork":   "https://audio.ridereadyguide.com/art-3000.jpg",
+  "episodes": [
+    { "month": 3,
+      "file": "2026-07/03-march.mp3",
+      "bytes": 2914560,            // the REAL byte size — from the file, not an estimate
+      "durationSeconds": 188,
+      "published": "2026-07-15" }
+  ]
+}
+```
+
+**`bytes` is the honesty check.** RSS requires a real byte length on the enclosure, and you only know
+one if the file exists and you have looked at it. An episode without `bytes` and `durationSeconds` is
+dropped from the feed rather than published, because a broken enclosure is worse than a missing
+episode — several clients cache the download failure and stop retrying.
+
+Get both figures with:
+
+```bash
+ls -l 03-march.mp3                    # bytes
+ffprobe -v error -show_entries format=duration -of csv=p=0 03-march.mp3
+```
+
+Three things to know:
+
+- **The GUID carries the verification month.** Re-verify March in the month data and the GUID
+  changes, so subscribers receive it as a new episode. A downloaded MP3 is beyond correction — it
+  sits on a device saying whatever it said — so republishing on a real change is the only remedy
+  there is.
+- **Nothing is advertised until it exists.** No episodes means no `podcast.xml` and no
+  `<link rel="alternate">` in any page head. An empty channel would validate, be submittable to a
+  directory, and present as a podcast with no episodes.
+- **Artwork must be square, 1400–3000px, JPEG or PNG.** Apple rejects the submission otherwise. Same
+  IP rules as everything else — no castle resembling a real one, no character shapes.
+
+### Blocking on you
+
+`corrections@` and `hello@` on the domain still are not provisioned. The owner email is a hard
+requirement for directory submission, and an address printed on a feed that bounces is worse than no
+address at all.
+
+---
+
 ## What I still owe you
 
 - The audio player component and the month-page slot, once files exist to point at.
-- A podcast RSS feed, if you want the briefs discoverable outside the site — that is the part with
-  genuine traffic upside, since nobody else in this space publishes a dated, sourced monthly brief.
+- An `/audio/` landing page, which Apple wants as the podcast's home.
 - Provenance recorded in `assets/img/photos/CREDITS.md` before anything ships: generator and prompt,
   or licence and source, per file.

@@ -341,5 +341,17 @@
     "enabled": false,
     "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
   },
-  "operator": "disney"
+  "operator": "disney",
+  "podcast": {
+    "note": "Audio is hosted off-repo. An episode needs a real byte length and duration to be published — you only know those if the file exists, which is the check. Missing either drops it from the feed rather than shipping a 404 enclosure. See docs/ELEVENLABS-PROMPTS.md.",
+    "title": "Ride Ready Monthly",
+    "description": "A dated, sourced three-minute brief on what each month is actually like at the six US Disney parks — crowds, weather, cost, and what is running. Every episode states the month its facts were checked. Independent and unofficial.",
+    "author": "Ride Ready Guide",
+    "email": "",
+    "category": "Society & Culture",
+    "subcategory": "Places & Travel",
+    "artwork": "",
+    "audioBase": "",
+    "episodes": []
+  }
 }
