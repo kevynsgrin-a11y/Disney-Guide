@@ -70,7 +70,9 @@ self.addEventListener('fetch', function (event) {
   // Static assets: cache first, refresh in the background.
   event.respondWith(
     caches.match(request).then(function (cached) {
-      var network = fetch(request).then(function (response) {
+      /* `cache: 'reload'` because /assets/* ships `immutable` with a one-year max-age: a plain
+         fetch here is answered by the HTTP cache, so the background refresh refreshes nothing. */
+      var network = fetch(request, { cache: 'reload' }).then(function (response) {
         if (response && response.status === 200) {
           var copy = response.clone()
           caches.open(RUNTIME).then(function (cache) { cache.put(request, copy) })

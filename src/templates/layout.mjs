@@ -9,7 +9,37 @@ const v = (path) => `${path}?v=${ASSET_VERSION}`
  * Runs before first paint so a stored theme choice never flashes. Kept to one statement and
  * inlined deliberately — an external file here would be a guaranteed flash of the wrong theme.
  */
-const THEME_BOOTSTRAP = `try{var t=localStorage.getItem('rrg-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}`
+export const THEME_BOOTSTRAP = `try{var t=localStorage.getItem('rrg-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}`
+
+const TITLE_MAX = 66
+
+/**
+ * Last resort for the one part of the title that is not optional.
+ *
+ * `composeTitle` drops the tail and then the brand suffix, but `page.title` itself has no floor —
+ * so "For the First Time in Forever: A Frozen Sing-Along Celebration (Hollywood Studios)" shipped
+ * at 82 characters and got cut by the search engine instead, mid-word and past the park.
+ *
+ * A trailing parenthetical is the park and it is the part that must survive: it is the whole
+ * reason the title carries it (see park.mjs — Space Mountain exists at both resorts). So the
+ * subtitle goes first, which is usually the right edit anyway — Expedition Everest is the name,
+ * "Legend of the Forbidden Mountain" is decoration — and only then does the name get trimmed.
+ */
+export function fitTitle (title) {
+  if (title.length <= TITLE_MAX) return title
+
+  const qualifier = (title.match(/ \([^()]*\)$/) || [''])[0]
+  const name = qualifier ? title.slice(0, -qualifier.length) : title
+  const budget = TITLE_MAX - qualifier.length
+
+  const subtitle = name.search(/(: | [-–—~] )/)
+  if (subtitle > 0 && subtitle <= budget) return name.slice(0, subtitle) + qualifier
+  if (name.length <= budget) return name + qualifier
+
+  const cut = name.slice(0, budget - 1)
+  const space = cut.lastIndexOf(' ')
+  return `${(space > 0 ? cut.slice(0, space) : cut).replace(/[,:;–—-]$/, '')}…${qualifier}`
+}
 
 /**
  * Compose the <title> to fit.
@@ -20,10 +50,10 @@ const THEME_BOOTSTRAP = `try{var t=localStorage.getItem('rrg-theme');if(t==='dar
  * important — each is appended only while it still fits inside roughly what Google renders.
  */
 function composeTitle (site, page) {
-  let out = page.title || site.brand.name
+  let out = fitTitle(page.title || site.brand.name)
   if (page.titleTail && (out + page.titleTail).length <= 60) out += page.titleTail
   const suffix = ` | ${site.meta.defaultTitleSuffix}`
-  if ((out + suffix).length <= 66) out += suffix
+  if ((out + suffix).length <= TITLE_MAX) out += suffix
   return out
 }
 

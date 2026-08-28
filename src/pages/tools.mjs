@@ -230,6 +230,12 @@ export function heightCheckerPage (data) {
             </p>
           </div>
 
+          <!-- The slider's result is a list of a hundred-odd rides. Announcing that on every tick
+               is unusable, and announcing nothing — which is what shipped — leaves the tool's whole
+               answer invisible to a screen reader. So the live region carries the count, debounced,
+               and the list stays off it for anyone to read at their own pace. -->
+          <p class="visually-hidden" role="status" aria-live="polite" data-height-announce></p>
+
           <div data-height-results></div>
 
           <noscript>
