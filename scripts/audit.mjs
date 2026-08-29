@@ -20,6 +20,7 @@
 
 import { readdir, readFile, stat } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
+import { createHash } from 'node:crypto'
 import { join, dirname, extname, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -76,6 +77,7 @@ async function auditOperator (slug) {
   let totalLinks = 0
   let ribbons = 0
   let banners = 0
+  let noindexPages = 0
   let eventNodes = 0
 
   /**
@@ -100,6 +102,7 @@ async function auditOperator (slug) {
     const html = await readFile(file, 'utf8')
     const page = '/' + relative(DIST, file).split('\\').join('/').replace(/index\.html$/, '')
     const isUtility = page === '/404.html' || page === '/offline/'
+    if (/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(html)) noindexPages++
 
     /* -- head -- */
     const title = pick(html, /<title>([^<]*)<\/title>/)
@@ -171,6 +174,16 @@ async function auditOperator (slug) {
     /* -- legal -- */
     if (!/not affiliated with/i.test(html)) fail(page, 'missing the unaffiliated disclaimer')
 
+    /*
+     * The FTC disclosure has to sit with the link, and today it does — affiliateBox() emits both or
+     * neither, so there is no path through the templates that separates them. That is a property of
+     * one component rather than of the output, which is exactly the kind of guarantee that survives
+     * until someone hand-rolls a second affiliate link and nothing notices. This notices.
+     */
+    if (/rel="sponsored/.test(html) && !/affiliate__disclosure/.test(html)) {
+      fail(page, 'sponsored link with no affiliate disclosure block')
+    }
+
     /* -- leaked placeholders -- */
     if (/\bTODO\b|\bTBD\b|Lorem ipsum|\[object Object\]|undefined<\/|>NaN</.test(html)) {
       fail(page, 'contains placeholder or undefined output')
@@ -203,19 +216,25 @@ async function auditOperator (slug) {
 
   /* -- map PNG freshness --
      The PNG plates are rasterised by a separate script rather than by the build, which keeps the site
-     dependency-free but means they can silently fall behind the geometry or styling they came from. */
+     dependency-free but means they can silently fall behind the geometry or styling they came from.
+
+     Compared by content hash, not by mtime. Timestamps reported drift that was not there: git does
+     not preserve mtimes, so on any fresh clone — every CI run — the plates looked older than their
+     sources and all six warned on plates that were byte-for-byte correct. The geometry path was
+     wrong as well (data/parks/<slug> rather than data/<operator>/parks/<slug>), so the geometry
+     side of that comparison never resolved and only the stylesheet was ever consulted. Hashing the
+     built SVG covers geometry and styling together, because the SVG is rendered from both. */
   {
-    const styleSrc = join(ROOT, 'src', 'lib', 'map-style.mjs')
-    const styleTime = existsSync(styleSrc) ? (await stat(styleSrc)).mtimeMs : 0
+    const stamp = join(ROOT, 'assets', 'img', 'maps', 'GENERATED.json')
+    const recorded = existsSync(stamp) ? (JSON.parse(await readFile(stamp, 'utf8')).sources || null) : null
     for (const svg of files.filter((f) => f.includes('/maps/') && f.endsWith('.svg'))) {
       const slug = svg.split('/').pop().replace('-map.svg', '')
       const png = join(ROOT, 'assets', 'img', 'maps', `${slug}-map.png`)
-      const geometry = join(ROOT, 'data', 'parks', slug, 'map.json')
       if (!existsSync(png)) { note('maps', `${slug} has no PNG plate — run \`npm run maps:png\``); continue }
-      const pngTime = (await stat(png)).mtimeMs
-      const geoTime = existsSync(geometry) ? (await stat(geometry)).mtimeMs : 0
-      if (pngTime < Math.max(geoTime, styleTime)) {
-        note('maps', `${slug} PNG is older than its geometry or the map styling — run \`npm run maps:png\``)
+      if (!recorded) { note('maps', 'GENERATED.json records no source hashes — run `npm run maps:png`'); break }
+      const current = createHash('sha256').update(await readFile(svg, 'utf8'), 'utf8').digest('hex').slice(0, 16)
+      if (recorded[slug] !== current) {
+        note('maps', `${slug} PNG was rendered from different geometry or styling — run \`npm run maps:png\``)
       }
     }
   }
@@ -228,8 +247,16 @@ async function auditOperator (slug) {
       const path = new URL(loc).pathname
       if (!served.has(path)) fail('sitemap.xml', `lists a URL that was not built: ${path}`)
     }
-    const indexable = htmlFiles.length - 2 // 404 + offline are noindex
-    if (locs.length < indexable - 2) note('sitemap.xml', `${locs.length} URLs for ${htmlFiles.length} pages — check the exclusions`)
+    /*
+     * Every page that is not noindex belongs in the sitemap, and nothing else does. Counting the
+     * noindex pages rather than assuming two of them (404 and offline) keeps this honest as dated
+     * editions come and go — it was that assumption, plus a slack of two, that let thirteen
+     * noindexed event editions sit in the sitemap without the audit saying a word.
+     */
+    const indexable = htmlFiles.length - noindexPages
+    if (locs.length !== indexable) {
+      note('sitemap.xml', `${locs.length} URLs but ${indexable} indexable pages (${htmlFiles.length} built, ${noindexPages} noindex) — check the exclusions`)
+    }
   }
 
 
