@@ -11,19 +11,31 @@
   "title": "EPCOT International Food & Wine Festival",
   "titleTail": ": Dates, Booths & Verdict",
   "description": "What the EPCOT food festival costs in practice, which perennial booth items are worth the money, and the days to avoid. Prose windows, no invented dates.",
-
   "typicalWindow": {
     "startsAround": "late July/August",
     "endsAround": "mid-November",
     "nightsTypical": 100,
-    "nightsRange": [100, 125],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      100,
+      125
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Daily with park admission. Marketplace booths typically open late morning and serve until park close."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [5, 13],
+    "rangeUsd": [
+      5,
+      13
+    ],
     "asOf": "July 2026",
     "cheapestNights": "Weekday visits in the opening weeks, when the full booth lineup is running and the fall crowd has not arrived",
     "priciestNights": "Saturdays from late September onward, and any evening with a headline act in the concert series",
@@ -34,7 +46,6 @@
       "Culinary demonstrations, beverage seminars, signature dining events and the festival scavenger hunt are all separate purchases on top of park admission."
     ]
   },
-
   "whatYouGet": [
     "Around thirty temporary marketplace booths ringing the World Showcase promenade and extending into the front of the park, each with a short menu of small plates and pours built around one country or one theme.",
     "The Eat to the Beat concert series at the America Gardens Theatre, included with park admission, running several sets a night through the festival.",
@@ -43,7 +54,6 @@
     "The longest festival Disney runs anywhere. At roughly a hundred days it covers most of a Florida autumn, so nearly any trip between late summer and mid-November catches it.",
     "A merchandise and collectible program that is substantial enough to be its own reason some visitors go, and its own reason to set a budget before you arrive."
   ],
-
   "whatYouDont": [
     "The festival is included; the food is not. Two adults working ten booths will spend $120 to $150 before a single drink, and the small plates are small in the literal sense — three to five bites, not a course.",
     "There is no paid line-skipping for booths and no reservation system for them. On an October Saturday the popular marketplaces run 20 to 30 minute lines and the only lever you have is going somewhere else.",
@@ -53,7 +63,6 @@
     "The back half of World Showcase after 20:00 on a weekend is the most crowded walking environment at Walt Disney World. It is genuinely unpleasant with a stroller and close to unmanageable with two.",
     "Items at the top of the band are rarely good value. A $13 small plate is a $13 small plate, and the permanent quick-service counters a hundred feet away frequently serve more food for less money."
   ],
-
   "verdict": {
     "short": "Go, and go on a weekday. The food is genuinely good, the booth lines on a Saturday are not worth anybody's evening, and the festival is included with admission you were buying anyway.",
     "worthItIf": [
@@ -72,7 +81,6 @@
       "You are going specifically for a dish you loved two years ago. Menus rotate and the odds of that exact item returning are worse than even."
     ]
   },
-
   "strategy": [
     {
       "heading": "Walk the loop backwards",
@@ -120,7 +128,6 @@
       ]
     }
   ],
-
   "food": {
     "note": "Booth lineups are rebuilt every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive festivals and are the closest thing this event has to a fixed menu. Prices are stated at the July 2026 band and move upward most years. Treat this as the shape of the menu rather than as the current year's menu.",
     "items": [
@@ -186,7 +193,6 @@
       }
     ]
   },
-
   "faqs": [
     {
       "q": "Do I need a separate ticket for the festival?",
@@ -221,25 +227,68 @@
       "a": "This one, on food, and the Festival of the Arts on everything else. Food & Wine has the widest booth lineup, the strongest savory menu and the longest run. The Arts festival has better weather, far smaller crowds and a more interesting non-food program, and Flower & Garden sits between them with the best value per plate."
     }
   ],
-
   "crossLinks": [
-    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
-    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 },
-    { "label": "Les Halles Boulangerie-Patisserie", "href": "/walt-disney-world/epcot/dining/les-halles-boulangerie-patisserie/", "site": 1 },
-    { "label": "Frozen Ever After at EPCOT", "href": "/walt-disney-world/epcot/rides/frozen-ever-after/", "site": 1 },
-    { "label": "Remy's Ratatouille Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/remys-ratatouille-adventure/", "site": 1 },
-    { "label": "Best Disney park for food", "href": "/compare/best-disney-park-for-food/", "site": 1 },
-    { "label": "Disney food tracker", "href": "/tools/food-tracker/", "site": 1 }
+    {
+      "label": "World Showcase at EPCOT",
+      "href": "/walt-disney-world/epcot/lands/world-showcase/",
+      "site": 1
+    },
+    {
+      "label": "Best snacks at EPCOT",
+      "href": "/walt-disney-world/epcot/best-snacks/",
+      "site": 1
+    },
+    {
+      "label": "Les Halles Boulangerie-Patisserie",
+      "href": "/walt-disney-world/epcot/dining/les-halles-boulangerie-patisserie/",
+      "site": 1
+    },
+    {
+      "label": "Frozen Ever After at EPCOT",
+      "href": "/walt-disney-world/epcot/rides/frozen-ever-after/",
+      "site": 1
+    },
+    {
+      "label": "Remy's Ratatouille Adventure at EPCOT",
+      "href": "/walt-disney-world/epcot/rides/remys-ratatouille-adventure/",
+      "site": 1
+    },
+    {
+      "label": "Best Disney park for food",
+      "href": "/compare/best-disney-park-for-food/",
+      "site": 1
+    },
+    {
+      "label": "Disney food tracker",
+      "href": "/tools/food-tracker/",
+      "site": 1
+    }
   ],
-
   "related": [
     "epcot-festival-of-the-holidays",
     "epcot-festival-of-the-arts",
     "epcot-flower-and-garden-festival",
     "mickeys-not-so-scary-halloween-party"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "August 27 – November 21, 2026",
+      "startDate": "2026-08-27",
+      "endDate": "2026-11-21",
+      "changes": [
+        "Runs 27 August through 21 November 2026, included with valid EPCOT admission — no separate ticket.",
+        "The Eat to the Beat concert series returns alongside the Global Marketplaces."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Disney’s official EPCOT International Food & Wine Festival page and the Disney Parks Blog announcement, viewed September 2026.",
+        "reviewBy": "2026-12",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
@@ -256,12 +305,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "The festival has run every year since 1995 and has held the same window shape for many consecutive cycles: a late-July or August start, a mid-November finish, and roughly a hundred days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates and the 2026 booth lineup are not confirmed to us as of July 2026, so this page states the window, the July 2026 price band, and the perennial menu rather than any specific date or current roster.",
-    "reviewBy": "2026-09",
+    "sourceNote": "2026 dates are officially announced; see the 2026 edition below. Pattern re-checked against those announcements in September 2026.",
+    "reviewBy": "2026-12",
     "cycle": "annual"
   }
 }

@@ -6,6 +6,7 @@ import { urls } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
 import * as SC from '../templates/seasonal-components.mjs'
 import { bandCovers, ganttBands, BUILD_MONTH_NUMBER } from '../seasonal/core.mjs'
+import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
 
 function parkCard (park) {
@@ -87,7 +88,7 @@ export function homePage (data, seasonal) {
           { value: totalFood, label: 'Snacks with real prices' },
           { value: totalDining, label: 'Places to eat' },
         ])}
-        ${C.lastVerified('2026-07', 'Everything on this site verified')}
+        ${C.lastVerified(BUILD_MONTH, 'Everything on this site verified')}
       `,
       image: data.photo.hero,
     })}
@@ -258,6 +259,7 @@ export function parksIndexPage (data) {
       title: 'Every park, side by side',
       lede: 'Two resorts, six theme parks, and one honest answer to “which one should we actually do?” Pick a park for the deep dive, or jump straight to the comparison pages.',
       tone: 'compact',
+      image: data.photo['scene-coaster'],
     })}
 
     ${C.section({
@@ -324,6 +326,7 @@ export function resortPages (data) {
         eyebrow: resort.location,
         title: resort.name,
         lede: resort.tagline,
+        image: data.photo['scene-carousel'],
         meta: [
           { label: 'Theme parks', value: String(parkList.length) },
           { label: 'Attractions', value: String(parkList.reduce((n, p) => n + p.attractions.filter((a) => a.isOpen).length, 0)) },

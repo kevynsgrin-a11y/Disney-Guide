@@ -7,3 +7,4 @@ dist/
 .wrangler/
 .cache/
 build/audio/
+build/artwork/

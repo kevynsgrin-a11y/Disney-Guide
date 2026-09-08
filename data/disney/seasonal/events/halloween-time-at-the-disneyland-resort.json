@@ -187,6 +187,24 @@
   ],
   "editions": [
     {
+      "year": 2026,
+      "status": "announced",
+      "dates": "August 21 – October 31, 2026",
+      "startDate": "2026-08-21",
+      "endDate": "2026-10-31",
+      "changes": [
+        "Runs 21 August through 31 October 2026 across both parks, the resort hotels, and Downtown Disney, included with regular admission.",
+        "Plaza de la Familia and A Musical Celebration of Coco return as part of the season."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Disney’s official Halloween Time at the Disneyland Resort page, viewed September 2026.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
+    {
       "year": 2025,
       "status": "past",
       "changes": [
@@ -204,10 +222,10 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Halloween Time has run across both Disneyland Resort parks from late August through the end of October for more than a decade, with the Haunted Mansion overlay installed for the season and left up through the December holidays. As of July 2026 we have not verified an announcement of the coming season's start date, its fireworks calendar, or whether the Space Mountain overlay returns, so none of those are stated here.",
-    "reviewBy": "2026-09",
+    "sourceNote": "2026 dates are officially announced; see the 2026 edition below. Pattern re-checked against those announcements in September 2026.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }

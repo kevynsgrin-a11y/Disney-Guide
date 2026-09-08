@@ -97,6 +97,27 @@ export function webPage (site, { url, title, description, trail, modified }) {
   }
 }
 
+/**
+ * A browser tool offered as a product page. No rich result rides on WebApplication directly, but
+ * entity extraction reads it: it states that the height checker / food tracker / trip timing are
+ * interactive applications with no account and no cost, which is what an AI answer surface needs
+ * to cite the tool rather than a blog post about it.
+ */
+export function webApplication (site, { url, name, description }) {
+  return {
+    '@type': 'WebApplication',
+    '@id': abs(site, url) + '#app',
+    url: abs(site, url),
+    name,
+    description: truncate(description, 300),
+    applicationCategory: 'TravelApplication',
+    operatingSystem: 'Any (web browser)',
+    browserRequirements: 'Requires JavaScript',
+    isAccessibleForFree: true,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  }
+}
+
 export function place (site, park) {
   return {
     '@type': ['TouristAttraction', 'AmusementPark'],
