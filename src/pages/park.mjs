@@ -33,6 +33,7 @@ export function parkHub (park, data) {
       eyebrow: park.resortInfo ? `${park.resortInfo.name} · ${park.location}` : park.location,
       title: park.name,
       lede: park.tagline || park.summary,
+      image: data.photo[park.slug.charCodeAt(0) % 2 ? 'scene-coaster' : 'scene-carousel'],
       meta: [
         { label: 'Opened', value: f.humanDate(park.opened) },
         { label: 'Attractions', value: String(open.length) },

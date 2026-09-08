@@ -1,6 +1,7 @@
 import { html, raw, escapeHtml, truncate, plain } from '../lib/html.mjs'
 import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
+import { BUILD_MONTH } from '../lib/staleness.mjs'
 
 const ASSET_VERSION = '1'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
@@ -141,7 +142,9 @@ function searchDialog () {
 }
 
 function siteFooter (site) {
-  const year = 2026
+  // Derives from BUILD_MONTH so the two can never disagree — a hardcoded year silently goes
+  // wrong on January 1 while the staleness contract still reads current.
+  const year = Number(BUILD_MONTH.slice(0, 4))
   return html`
     <footer class="site-footer">
       <div class="shell">

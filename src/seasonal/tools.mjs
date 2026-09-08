@@ -155,7 +155,13 @@ export function tripTimingPage (data) {
       },
       body,
       scripts: ['/assets/js/trip-timing.js'],
-      schema: [],
+      schema: [
+        S.webApplication(site, {
+          url,
+          name: `${site.brand.shortName} trip timing`,
+          description: 'Rank all twelve months against what you actually care about — crowds, cost, weather, or what is running.',
+        }),
+      ],
     }),
   }
 }

@@ -11,19 +11,29 @@
   "title": "Mickey's Not-So-Scary Halloween Party",
   "titleTail": ": Dates, Prices & Verdict",
   "description": "What the Magic Kingdom Halloween party costs, which nights are worth buying, and the specific reasons to skip it entirely. No dates we cannot source.",
-
   "typicalWindow": {
     "startsAround": "mid-August",
     "endsAround": "1 November",
     "nightsTypical": 38,
-    "nightsRange": [30, 40],
-    "daysOfWeek": ["Sun", "Tue", "Wed", "Thu", "Fri"],
+    "nightsRange": [
+      30,
+      40
+    ],
+    "daysOfWeek": [
+      "Sun",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
     "hours": "19:00 – 00:00, with park entry from 16:00"
   },
-
   "pricing": {
     "model": "per-night",
-    "rangeUsd": [119, 219],
+    "rangeUsd": [
+      119,
+      219
+    ],
     "asOf": "2025 season",
     "cheapestNights": "Early-season Sunday and Tuesday nights",
     "priciestNights": "The last three Fridays before Halloween",
@@ -34,7 +44,6 @@
       "The band is wide because Disney prices each night individually. Two nights in the same week can differ by $60."
     ]
   },
-
   "whatYouGet": [
     "Park entry from 16:00 on a ticket sold for a 19:00 event. Three hours of ordinary Magic Kingdom time is the largest single piece of value in the purchase and the piece most first-timers waste.",
     "Two runs of Mickey's Boo-to-You Halloween Parade on most nights, plus a party-exclusive fireworks show that is a different production from the one that runs on ordinary nights.",
@@ -44,7 +53,6 @@
     "The only nights of the year an adult may wear a costume into Magic Kingdom, subject to a specific and enforced rules list.",
     "Complimentary digital downloads of the PhotoPass photos taken during the party, which is a real saving for a family that was otherwise weighing a photo package."
   ],
-
   "whatYouDont": [
     "You will not walk onto Seven Dwarfs Mine Train. It holds a 30-to-50 minute standby line for most of the party because every family with a small child made the same plan, and it is the one queue at the event that behaves like a normal August afternoon.",
     "Lightning Lane Multi Pass is not sold for party hours. If you bought it for the day, it stops being useful when the party begins, and there is no paid way to skip a party line.",
@@ -54,7 +62,6 @@
     "The quietest, best hour of the party is the last one, which starts at 23:00. A five-year-old will not be awake for the part of the night you paid the premium for.",
     "On the late-October Fridays, attendance is capped high enough that Main Street at 21:00 looks like an ordinary summer evening. The crowd relief that justifies the price is largely absent on the nights people most want to buy."
   ],
-
   "verdict": {
     "short": "Buy it once, on a late-August or early-September weeknight, and treat it as a show-and-characters evening. Buy it to clear rides, or buy it for a late-October Friday, and you have wasted the money.",
     "worthItIf": [
@@ -73,7 +80,6 @@
       "You are hoping the party is where you finally get onto TRON Lightcycle / Run or Tiana's Bayou Adventure. Party-night waits on the newest headliners hold up better than any other ride in the park."
     ]
   },
-
   "strategy": [
     {
       "heading": "The three hours before the party are the party",
@@ -121,7 +127,6 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Do I need a separate park ticket to attend?",
@@ -156,29 +161,71 @@
       "a": "The Halloween party is the better event and the Christmas party is the better night in the park. Not-So-Scary has the stronger parade, a wider costume and character offer, and a much wider price band, so a cheap night is genuinely cheap. Mickey's Very Merry Christmas Party has a narrower price floor and a shorter season, but the park itself is dressed more thoroughly."
     }
   ],
-
   "crossLinks": [
-    { "label": "Seven Dwarfs Mine Train at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/", "site": 1 },
-    { "label": "Haunted Mansion at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/haunted-mansion/", "site": 1 },
-    { "label": "Space Mountain at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/space-mountain/", "site": 1 },
-    { "label": "Magic Kingdom height requirements chart", "href": "/walt-disney-world/magic-kingdom/height-requirements/", "site": 1 },
-    { "label": "Is it scary? A ride-by-ride guide", "href": "/guides/is-it-scary/", "site": 1 },
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 }
+    {
+      "label": "Seven Dwarfs Mine Train at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/",
+      "site": 1
+    },
+    {
+      "label": "Haunted Mansion at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/haunted-mansion/",
+      "site": 1
+    },
+    {
+      "label": "Space Mountain at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/space-mountain/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom height requirements chart",
+      "href": "/walt-disney-world/magic-kingdom/height-requirements/",
+      "site": 1
+    },
+    {
+      "label": "Is it scary? A ride-by-ride guide",
+      "href": "/guides/is-it-scary/",
+      "site": 1
+    },
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    }
   ],
-
   "related": [
     "mickeys-very-merry-christmas-party",
     "disney-jollywood-nights",
     "disney-after-hours",
     "epcot-food-and-wine-festival"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "August 7 – October 31, 2026 (select nights)",
+      "startDate": "2026-08-07",
+      "endDate": "2026-10-31",
+      "changes": [
+        "The 2026 season opens on 7 August — earlier than any previous year — and runs select nights through 31 October, with event hours 7pm to midnight.",
+        "Tickets are on sale through Disney’s special-event ticketing, and coverage of on-sale day reported several dates selling out."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates and event hours from Disney’s official event page and the Disney Parks Blog announcement, viewed September 2026; tickets on sale via the Walt Disney World special-event tickets page.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
       "nights": 38,
-      "priceRangeUsd": [119, 219],
+      "priceRangeUsd": [
+        119,
+        219
+      ],
       "changes": [
         "Ran across roughly 38 nights from mid-August to Halloween, the widest calendar the event has held.",
         "The Rivers of America closed permanently in July 2025 for Magic Kingdom's expansion work, which removed the waterfront staging the party had used for its riverside musical act.",
@@ -193,12 +240,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "The event has run on the same shape of calendar for more than a decade: mid-August through Halloween, 30 to 40 nights, Sundays and midweek. That pattern is strong enough to plan around. The 2026 dates and 2026 pricing are not confirmed to us as of July 2026, so everything on this page is stated as a window or a prior-cycle range, never as a date.",
-    "reviewBy": "2026-09",
+    "sourceNote": "2026 dates are officially announced; see the 2026 edition below. Pattern re-checked against those announcements in September 2026.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }

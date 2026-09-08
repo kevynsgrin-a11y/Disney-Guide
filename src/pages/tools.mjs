@@ -161,7 +161,13 @@ export function foodTrackerPage (data) {
       },
       body,
       scripts: ['/assets/js/food-tracker.js'],
-      schema: [S.itemList(site, {
+      schema: [
+        S.webApplication(site, {
+          url: urls.foodTracker(),
+          name: `${site.brand.shortName} Food Tracker`,
+          description: `Track ${total} theme park snacks across all ${data.parks.length} parks. Saves to your device, shares as a link, prints as a checklist, works offline.`,
+        }),
+        S.itemList(site, {
         url: urls.foodTracker(),
         name: 'Park snacks worth trying',
         items: data.allFood.filter((i) => i.mustTry >= 4).slice(0, 60),
@@ -324,6 +330,13 @@ export function heightCheckerPage (data) {
       },
       body,
       scripts: ['/assets/js/height-checker.js'],
+      schema: [
+        S.webApplication(site, {
+          url: urls.heightChecker(),
+          name: `${site.brand.shortName} height checker`,
+          description: `Set one slider to your child's height and see every ride they can and cannot do at all ${data.parks.length} parks.`,
+        }),
+      ],
     }),
   }
 }

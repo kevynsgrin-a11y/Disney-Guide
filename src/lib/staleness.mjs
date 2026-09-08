@@ -17,7 +17,7 @@ import { humanDate } from './format.mjs'
  * its own output between two runs of the same commit, so a page could go stale in production with no
  * diff, no review, and nothing for the audit to catch.
  */
-export const BUILD_MONTH = '2026-07'
+export const BUILD_MONTH = '2026-09'
 
 const MONTH_PATTERN = /^\d{4}-(0[1-9]|1[0-2])$/
 

@@ -25,7 +25,7 @@
       "startMonth": 7,
       "endMonth": 11,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "epcot-festival-of-the-holidays",
@@ -39,7 +39,7 @@
       "startMonth": 8,
       "endMonth": 11,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "mickeys-very-merry-christmas-party",
@@ -81,14 +81,14 @@
       "startMonth": 8,
       "endMonth": 10,
       "resort": "disneyland",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "halloween-time-at-the-disneyland-resort",
       "startMonth": 8,
       "endMonth": 10,
       "resort": "disneyland",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "holidays-at-the-disneyland-resort",

@@ -25,17 +25,24 @@ test('isMonth rejects the shapes that would silently become NaN', () => {
   assert.equal(isMonth(null), false)
 })
 
+// Expected overdue counts derive from BUILD_MONTH so bumping the constant (the monthly
+// maintenance task) cannot silently falsify these tests — they assert the arithmetic,
+// not one particular calendar.
+const monthOrdinal = (m) => Number(m.slice(0, 4)) * 12 + Number(m.slice(5, 7)) - 1
+const monthsBetween = (later, earlier) => monthOrdinal(later) - monthOrdinal(earlier)
+
 test('a review date in the future is fresh, the build month is due, the past is stale', () => {
-  assert.equal(staleness(fresh('2027-01')).state, 'fresh')
+  assert.equal(staleness(fresh('2030-01')).state, 'fresh')
   assert.equal(staleness(fresh(BUILD_MONTH)).state, 'due')
-  assert.equal(staleness(fresh('2026-01')).state, 'stale')
-  assert.equal(staleness(fresh('2026-01')).monthsOverdue, 6)
+  assert.equal(staleness(fresh('2025-01')).state, 'stale')
+  assert.equal(staleness(fresh('2025-01')).monthsOverdue, monthsBetween(BUILD_MONTH, '2025-01'))
 })
 
 test('overdue arithmetic crosses a year boundary correctly', () => {
-  // BUILD_MONTH is 2026-07; a review due in 2025-07 is a full year late, not zero.
-  assert.equal(staleness({ ...fresh('2025-07') }).monthsOverdue, 12)
-  assert.equal(staleness({ ...fresh('2025-12') }).monthsOverdue, 7)
+  // A review due exactly one year before the build month is a full year late, not zero.
+  const yearBack = `${Number(BUILD_MONTH.slice(0, 4)) - 1}${BUILD_MONTH.slice(4)}`
+  assert.equal(staleness({ ...fresh(yearBack) }).monthsOverdue, 12)
+  assert.equal(staleness({ ...fresh('2025-12') }).monthsOverdue, monthsBetween(BUILD_MONTH, '2025-12'))
 })
 
 test('a missing or malformed freshness block resolves to stale, never to fresh', () => {

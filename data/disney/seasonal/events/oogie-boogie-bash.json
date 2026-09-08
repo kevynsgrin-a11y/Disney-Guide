@@ -11,19 +11,29 @@
   "title": "Oogie Boogie Bash",
   "titleTail": ": Dates, Prices & Verdict",
   "description": "Disney California Adventure's Halloween party — what the ticket covers, the 2025 price band, why it sells out months ahead, and the buying plan that works.",
-
   "typicalWindow": {
     "startsAround": "early to mid-August",
     "endsAround": "31 October",
     "nightsTypical": 27,
-    "nightsRange": [25, 30],
-    "daysOfWeek": ["Sun", "Tue", "Wed", "Thu", "Fri"],
+    "nightsRange": [
+      25,
+      30
+    ],
+    "daysOfWeek": [
+      "Sun",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
     "hours": "18:00 - 23:00, with ticketed park entry from 15:00"
   },
-
   "pricing": {
     "model": "per-night",
-    "rangeUsd": [154, 224],
+    "rangeUsd": [
+      154,
+      224
+    ],
     "asOf": "2025 season",
     "cheapestNights": "Sunday and weeknight dates in the first half of the run, before Southern California schools settle into the Halloween habit",
     "priciestNights": "The last two weeks of the run, and Halloween night itself",
@@ -34,7 +44,6 @@
       "Parking is not included. Standard Disneyland Resort parking ran $35 to $40 as of July 2026."
     ]
   },
-
   "whatYouGet": [
     "Ticketed entry to Disney California Adventure from mid-afternoon, three hours before the party proper begins, which is the single most underused part of the ticket.",
     "Villain character encounters that appear on no other night of the year. This is the actual product, and the queues for the rarer villains are the longest lines in the park during the event.",
@@ -44,7 +53,6 @@
     "Costumes permitted for adults, which is not allowed on a regular operating day at either park.",
     "A park capped well below its normal capacity, which means the standby waits on the major attractions are the shortest you will see them between June and January."
   ],
-
   "whatYouDont": [
     "A ticket, most likely. The event sells out, and in recent seasons the entire run has gone before the first night was held. October dates disappear within hours of going on sale.",
     "Disneyland Park. The ticket covers Disney California Adventure and nothing else, on that night only.",
@@ -53,7 +61,6 @@
     "Value measured in rides. For $154 to $224 you are buying villains, costumes, and a half-empty park for five hours. If ride count is the metric, a regular September weekday beats it comfortably for the price of an ordinary ticket.",
     "Any flexibility once bought. Party tickets are date-specific and Disney does not routinely move them, so a delayed flight costs you the whole ticket."
   ],
-
   "verdict": {
     "short": "The strongest hard-ticket night at either resort and the hardest to buy. If you can get an early-September weeknight, take it. If you are shopping in October, you are already too late.",
     "worthItIf": [
@@ -71,7 +78,6 @@
       "You resent paying twice for the same park. The party ticket does not extend a regular day, it replaces the evening of one."
     ]
   },
-
   "strategy": [
     {
       "heading": "Buying the ticket is the whole game",
@@ -119,7 +125,6 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Is Oogie Boogie Bash at Disneyland Park or Disney California Adventure?",
@@ -154,21 +159,63 @@
       "a": "Not on this page. As of July 2026 we have not verified an announcement of the coming season's dates, prices, or on-sale timing, so nothing here states them. What is stable is the shape: the event has run on select nights at Disney California Adventure from August through the end of October for several consecutive years, on a run in the mid-to-high twenties of nights."
     }
   ],
-
   "crossLinks": [
-    { "label": "Guardians of the Galaxy - Mission: BREAKOUT!", "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/", "site": 1 },
-    { "label": "Redwood Creek Challenge Trail", "href": "/disneyland/california-adventure/rides/redwood-creek-challenge-trail/", "site": 1 },
-    { "label": "Radiator Springs Racers", "href": "/disneyland/california-adventure/rides/radiator-springs-racers/", "site": 1 },
-    { "label": "How Lightning Lane works at both resorts", "href": "/guides/lightning-lane/", "site": 1 },
-    { "label": "Disney California Adventure ride list", "href": "/disneyland/california-adventure/rides/", "site": 1 }
+    {
+      "label": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "href": "/disneyland/california-adventure/rides/guardians-of-the-galaxy-mission-breakout/",
+      "site": 1
+    },
+    {
+      "label": "Redwood Creek Challenge Trail",
+      "href": "/disneyland/california-adventure/rides/redwood-creek-challenge-trail/",
+      "site": 1
+    },
+    {
+      "label": "Radiator Springs Racers",
+      "href": "/disneyland/california-adventure/rides/radiator-springs-racers/",
+      "site": 1
+    },
+    {
+      "label": "How Lightning Lane works at both resorts",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    },
+    {
+      "label": "Disney California Adventure ride list",
+      "href": "/disneyland/california-adventure/rides/",
+      "site": 1
+    }
   ],
-  "related": ["halloween-time-at-the-disneyland-resort", "disneyland-after-dark"],
-
+  "related": [
+    "halloween-time-at-the-disneyland-resort",
+    "disneyland-after-dark"
+  ],
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "August 18 – October 31, 2026 (select nights)",
+      "startDate": "2026-08-18",
+      "endDate": "2026-10-31",
+      "changes": [
+        "The first party lands on 18 August at Disney California Adventure — a few days before the resort’s Halloween Time season begins on 21 August.",
+        "Select nights 18 August through 31 October 2026; tickets have been on sale and early dates have been selling out."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from the Disney Parks Bash announcement and Disney’s official Oogie Boogie Bash page, viewed September 2026; first party night 18 August 2026.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
-      "priceRangeUsd": [154, 224],
+      "priceRangeUsd": [
+        154,
+        224
+      ],
       "changes": [
         "The full run sold out in advance, continuing a pattern that has held every year since the event returned in 2021.",
         "Pricing spread further across the calendar than in earlier seasons, with a wider gap between the cheapest early-season weeknights and the last October dates.",
@@ -183,12 +230,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "The event has run at Disney California Adventure on select nights from August through the end of October every year since 2021, on a run of roughly 25 to 30 nights, with 2025 priced at $154 to $224 per person per night. As of July 2026 we have not verified an announcement of the coming season's dates, prices, or on-sale timing, so this page states the pattern and the last confirmed cycle's prices only.",
-    "reviewBy": "2026-09",
+    "sourceNote": "2026 dates are officially announced; see the 2026 edition below. Pattern re-checked against those announcements in September 2026.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }
