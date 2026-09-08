@@ -23,7 +23,9 @@
   --brand-3:     #2a8a6b;
   --brand-soft:  #e6f0eb;
 
-  --accent:      #a9660f;
+  /* 5.60:1 on --paper, 5.26:1 on --accent-soft. The previous #a9660f cleared neither at the size
+     the kickers and eyebrows actually render (4.31:1 and 4.05:1), and it is body-size text. */
+  --accent:      #8f5709;
   --accent-2:    #d08c28;
   --accent-soft: #fbf0dd;
 

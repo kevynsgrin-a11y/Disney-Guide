@@ -28,8 +28,18 @@
     var cantEl = document.querySelector('[data-height-cant]')
     var pctEl = document.querySelector('[data-height-pct]')
     var results = document.querySelector('[data-height-results]')
+    var announce = document.querySelector('[data-height-announce]')
     var unitToggle = document.querySelector('[data-height-unit]')
     var useMetric = false
+    var announceTimer = null
+
+    /* Dragging the slider fires `input` on every pixel. Announcing each one would talk over the
+       previous sentence and never finish one; this waits for the value to settle instead. */
+    function announceResult (text) {
+      if (!announce) return
+      if (announceTimer) clearTimeout(announceTimer)
+      announceTimer = setTimeout(function () { announce.textContent = text }, 400)
+    }
 
     function persist (inches) {
       try { localStorage.setItem('rrg-height', String(inches)) } catch (e) { /* ignore */ }
@@ -85,6 +95,12 @@
       if (canEl) canEl.textContent = String(totalCan)
       if (cantEl) cantEl.textContent = String(totalAll - totalCan)
       if (pctEl) pctEl.textContent = totalAll ? Math.round((totalCan / totalAll) * 100) + '%' : '—'
+
+      announceResult(
+        (useMetric ? cm + ' centimetres' : inches + ' inches') + ': ' +
+        totalCan + ' of ' + totalAll + ' rides they can do, ' +
+        (totalAll - totalCan) + ' still too short.'
+      )
     }
 
     function esc (s) {
