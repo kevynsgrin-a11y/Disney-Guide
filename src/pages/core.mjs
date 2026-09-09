@@ -6,6 +6,7 @@ import { urls } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
 import * as SC from '../templates/seasonal-components.mjs'
 import { bandCovers, ganttBands, BUILD_MONTH_NUMBER } from '../seasonal/core.mjs'
+import { BUILD_MONTH as BUILD_MONTH_RAW } from '../lib/staleness.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
 
@@ -25,6 +26,83 @@ function parkCard (park) {
       { label: 'Plan for', value: park.stats && park.stats.typicalFullDayHours ? park.stats.typicalFullDayHours : '—' },
     ],
   })
+}
+
+
+/**
+ * The season spotlight: a themed, self-retiring homepage band.
+ *
+ * Driven by site.json -> seasonSpotlight so the season rotates by config, not by code edits:
+ * Halloween now, the holidays next, nothing in between. Renders only while BUILD_MONTH is at
+ * or before the block's `until` month. The scene is drawn from SVG primitives - pumpkins,
+ * bats, a crescent moon, string lights - generic harvest iconography that belongs to no one.
+ */
+function seasonSpotlight (site, running) {
+  const spot = site.seasonSpotlight
+  if (!spot || !spot.season || !spot.until) return raw('')
+  const [untilYear, untilMonth] = String(spot.until).split('-').map(Number)
+  // BUILD_MONTH-based retirement: the band disappears the month after `until`.
+  const buildKey = Number(BUILD_MONTH_RAW.slice(0, 4)) * 12 + Number(BUILD_MONTH_RAW.slice(5, 7))
+  const untilKey = untilYear * 12 + untilMonth
+  if (buildKey > untilKey) return raw('')
+
+  const inSeason = (running || []).filter((e) => e.season === spot.season).slice(0, 3)
+  const pumpkins = [0, 1, 2, 3].map((i) => {
+    const x = 1080 + i * 190 + (i % 2) * 26
+    const y = [318, 300, 326, 306][i]
+    const r = [52, 64, 46, 58][i]
+    return `<g><ellipse cx="${x}" cy="${y}" rx="${r}" ry="${r * 0.82}" fill="#c8621a"/>
+      <ellipse cx="${x - r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#a94f13" opacity="0.55"/>
+      <ellipse cx="${x + r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#a94f13" opacity="0.55"/>
+      <path d="M ${x} ${y - r * 0.8} q 6 -18 22 -20 q -4 12 -8 20 z" fill="#3f5d2e"/>
+      <path d="M ${x - r * 0.28} ${y - 2} q 4 -8 8 0 M ${x + r * 0.16} ${y - 6} q 4 -8 8 0" stroke="#7a3a0d" stroke-width="3" fill="none" stroke-linecap="round"/></g>`
+  }).join('')
+  const bats = [[210, 120, 1], [420, 78, 0.7], [760, 140, 0.85], [900, 66, 0.6]].map(([x, y, k]) =>
+    `<path d="M ${x} ${y} q ${-14 * k} ${-10 * k} ${-26 * k} ${-4 * k} q ${-2 * k} ${8 * k} ${-16 * k} ${10 * k} q ${12 * k} ${2 * k} ${14 * k} ${10 * k} q ${10 * k} ${-8 * k} ${28 * k} ${-8 * k} q ${18 * k} ${0} ${28 * k} ${8 * k} q ${2 * k} ${-8 * k} ${14 * k} ${-10 * k} q ${-14 * k} ${-2 * k} ${-16 * k} ${-10 * k} q ${-12 * k} ${-6 * k} ${-26 * k} ${4 * k} z" fill="#0d0714"/>`
+  ).join('')
+  const lights = [0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) =>
+    `<circle cx="${64 + i * 210 + (i % 3) * 30}" cy="${34 + (i % 2) * 10}" r="4" fill="#e8a13c" opacity="0.9"/>`
+  ).join('')
+
+  return html`
+    <section class="band spotlight spotlight--${spot.season}" aria-labelledby="season-spotlight-title">
+      <div class="shell spotlight__inner">
+        <div class="spotlight__scene" aria-hidden="true">
+          <svg viewBox="0 0 1920 420" preserveAspectRatio="xMidYMax slice">
+            <defs>
+              <linearGradient id="spot-sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#170d24"/><stop offset="0.6" stop-color="#241238"/><stop offset="1" stop-color="#31173a"/>
+              </linearGradient>
+              <radialGradient id="spot-moon" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#f6e9c9" stop-opacity="0.95"/><stop offset="0.55" stop-color="#f6e9c9" stop-opacity="0.28"/><stop offset="1" stop-color="#f6e9c9" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="1920" height="420" fill="url(#spot-sky)"/>
+            <circle cx="1560" cy="96" r="120" fill="url(#spot-moon)"/>
+            <path d="M 1560 44 a 52 52 0 1 0 34 90 a 44 44 0 1 1 -34 -90 z" fill="#f2e2b8"/>
+            ${bats}
+            <path d="M 0 40 Q 480 78 960 44 T 1920 52" fill="none" stroke="#0d0714" stroke-width="1.6" opacity="0.9"/>
+            ${lights}
+            <rect x="0" y="352" width="1920" height="68" fill="#0d0714"/>
+            ${pumpkins}
+          </svg>
+        </div>
+        <div class="spotlight__content">
+          <p class="spotlight__label">${spot.label}</p>
+          <h2 id="season-spotlight-title" class="spotlight__title">${spot.title}</h2>
+          <p class="spotlight__lede">${spot.lede}</p>
+          ${inSeason.length ? html`
+            <div class="spotlight__events">
+              ${inSeason.map((e) => SC.eventCard(e, e.staleness))}
+            </div>` : ''}
+          <p class="spotlight__actions">
+            <a class="btn btn--solid spotlight__cta" href="/holidays/halloween/">The Halloween guide</a>
+            <a class="btn btn--ghost spotlight__cta" href="/when-to-go/october/">October, honestly graded</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  `
 }
 
 export function homePage (data, seasonal) {
@@ -115,6 +193,8 @@ export function homePage (data, seasonal) {
       intro: 'Each park hub links to its full ride list, height chart, dining, printable map, accessibility notes, and a first-timer plan you can actually follow.',
       children: C.cardGrid(parks.map(parkCard), { columns: 3 }),
     })}
+
+    ${seasonSpotlight(site, runningNow)}
 
     ${C.section({
       tone: 'tint',
