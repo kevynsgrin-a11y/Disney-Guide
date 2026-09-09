@@ -1578,3 +1578,101 @@ body[data-offline] .offline-note { display: block; }
 .status-hint { font-size: .75rem; color: var(--muted); }
 .status-report-btn { padding: .25rem .7rem; font-size: .78rem; }
 @media (max-width: 640px) { .status-row { grid-template-columns: 1fr; } }
+
+/* ---------- C1: Reading mode ("night before your trip") ------------------- */
+
+html[data-lamp] {
+  --paper: #f5ead0;
+  --surface: #f9f1dc;
+  --surface-2: #f0e4c8;
+  --surface-3: #e8dab8;
+  --ink: #3d3528;
+  --ink-2: #5a4e3a;
+  --muted: #8a7a60;
+  --line: #d8c8a4;
+  --line-strong: #c4b088;
+  --brand: #1a4a34;
+  --brand-2: #256b4e;
+  --brand-3: #3a8a66;
+  --brand-soft: #e8e0c8;
+  --accent: #b8750e;
+  --accent-2: #d89228;
+  --accent-soft: #f5e8cc;
+}
+
+html[data-lamp] body {
+  background:
+    radial-gradient(ellipse 120% 80% at 50% 0%, transparent 40%, rgba(120, 90, 40, .06) 100%),
+    var(--paper);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html, body, .band, .site-header, .site-footer, .card, .data-table, .callout {
+    transition: background-color .4s ease, color .4s ease, border-color .4s ease;
+  }
+}
+
+.lamp-toggle {
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .5rem .9rem; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink-2);
+  font-size: .8rem; font-weight: 600; cursor: pointer;
+  transition: background .3s ease, border-color .3s ease, color .3s ease;
+}
+.lamp-toggle:hover { border-color: var(--accent-2); color: var(--accent); }
+.lamp-toggle[aria-pressed="true"] {
+  background: var(--accent-soft); border-color: var(--accent-2); color: var(--accent);
+}
+.lamp-toggle svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+
+/* ---------- C2: Hidden fairground details ---------------------------------- */
+
+/* The footer ferris wheel: 12px, barely there, slowly turning. */
+.footer-ferris {
+  display: inline-block; width: 14px; height: 14px; vertical-align: -2px;
+  margin-left: .4rem; opacity: .35;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .footer-ferris { animation: ferris-turn 42s linear infinite; }
+}
+@keyframes ferris-turn { to { transform: rotate(360deg); } }
+
+/* The 404 bumper car */
+.bumper-404 {
+  display: block; margin: var(--space-6) auto; width: 120px; height: auto;
+  opacity: .8;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bumper-404 { animation: bumper-bump 3s ease-in-out infinite; }
+}
+@keyframes bumper-bump {
+  0%, 100% { transform: translateX(0); }
+  30% { transform: translateX(6px) rotate(2deg); }
+  60% { transform: translateX(-4px) rotate(-1deg); }
+}
+
+/* C4: Golden-hour palette for the when-to-go family */
+.palette--dawn {
+  --paper: #faf5ea;
+  --surface: #fdf9f0;
+  --surface-2: #f5eddc;
+  --brand: #1a4a34;
+  --accent: #c47f1a;
+  --accent-2: #e09a2e;
+  --accent-soft: #fdf3dc;
+}
+.palette--dawn .band--tint {
+  background: linear-gradient(180deg, rgba(228, 180, 100, .08), transparent);
+}
+
+/* C8: Return-visitor greeting bar */
+.welcome-back {
+  display: flex; align-items: center; justify-content: center; gap: .75rem;
+  padding: .6rem 1rem; background: var(--brand-soft);
+  border-bottom: 1px solid var(--line); font-size: .85rem; color: var(--ink-2);
+}
+.welcome-back a { color: var(--brand-2); font-weight: 650; }
+.welcome-back__close {
+  background: none; border: none; color: var(--muted); cursor: pointer;
+  font-size: 1rem; line-height: 1; padding: .2rem .4rem;
+}

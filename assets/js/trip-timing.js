@@ -153,6 +153,23 @@
         summary.textContent = 'For ' + resortName + ', weighing ' + listify(labels) + ': ' +
           listify(top) + ' come out on top.'
       }
+      /* C5: the send-off, after the data has done its job */
+      if (summary && !window.__rrtSentOff) {
+        var prev = results ? results.querySelector('.timing-result__fill') : null
+        if (prev && prev.style.width === '100%') return
+        window.__rrtSentOff = true
+        var sendoff = document.createElement('p')
+        sendoff.className = 'timing-sendoff muted small mt-3'
+        sendoff.setAttribute('role', 'status')
+        sendoff.textContent = 'Have a wonderful trip.'
+        var panel = document.querySelector('[data-timing]')
+        if (panel) panel.appendChild(sendoff)
+        setTimeout(function () {
+          sendoff.style.transition = 'opacity 1s ease'
+          sendoff.style.opacity = '0'
+          setTimeout(function () { sendoff.remove() }, 1100)
+        }, 4000)
+      }
     }
 
     function listify (arr) {

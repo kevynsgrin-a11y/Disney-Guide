@@ -29,6 +29,7 @@ export function monthPage (month, data) {
   const next = data.monthByNumber.get(month.month === 12 ? 1 : month.month + 1)
 
   const body = html`
+    <div class="palette--dawn">
     ${C.breadcrumbs(month.breadcrumbTrail)}
     ${C.hero({
       eyebrow: 'When to go',
@@ -176,6 +177,7 @@ export function whenToGoIndex (data) {
   })
 
   const body = html`
+    <div class="palette--dawn">
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
