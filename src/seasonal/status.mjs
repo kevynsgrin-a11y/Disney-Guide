@@ -43,19 +43,22 @@ function statusDisclaimer (site) {
   `
 }
 
-/** Build the scheduled-closure lookup for one park from the resort tracker. */
-function scheduledFor (data, park) {
+/** Build the scheduled-closure lookup for one park across all resort trackers. */
+function scheduledFor (seasonal, park) {
   const map = new Map()
-  const tracker = (data.closures || []).find((t) => t.resort === park.resortInfo?.slug || t.slug === park.resortInfo?.slug)
-  for (const item of tracker?.items || []) {
-    if (item.parkSlug !== park.slug) continue
-    map.set(item.attractionSlug, item)
+  for (const tracker of (seasonal && seasonal.closures) || []) {
+    for (const item of tracker.items || []) {
+      if (item.parkSlug === park.slug) map.set(item.attractionSlug, item)
+    }
   }
   return map
 }
 
 function scheduledLabel (item) {
   if (item.status === 'permanently-closed') return { label: 'Closed — permanently', tone: 'danger', note: item.note }
+  if (item.status === 'under-construction') return { label: 'Not yet open — under construction', tone: 'muted', note: item.note }
+  if (item.status === 'indefinite') return { label: 'Closed — no reopening announced', tone: 'warn', note: item.note }
+  if (item.status === 'closed') return { label: 'Closed', tone: 'muted', note: item.note }
   if (item.reopening) return {
     label: `Closed — scheduled${item.reopeningConfidence === 'confirmed' ? `, reopening ${f.humanDate(item.reopening)}` : ''}`,
     tone: 'warn',
@@ -126,18 +129,20 @@ export function statusIndex (data) {
   }
 }
 
-export function statusParkPage (park, data) {
+export function statusParkPage (park, data, seasonal) {
   const { site } = data
   const url = urls.statusPark(park.slug)
   const trail = [{ label: 'Home', href: '/' }, { label: 'Ride status', href: urls.statusIndex() }, { label: park.shortLabel || park.name, href: url }]
-  const scheduled = scheduledFor(data, park)
+  const scheduled = scheduledFor(seasonal, park)
   const official = OFFICIAL_LINKS[park.resortInfo?.slug] || OFFICIAL_LINKS['walt-disney-world']
-  const openRides = park.attractions.filter((a) => a.isOpen)
-  const closedNow = openRides.filter((a) => scheduled.has(a.slug))
-  const rides = openRides.map((a) => {
-    const item = scheduled.get(a.slug)
-    return { slug: a.slug, name: a.name, url: a.url, item }
+  /* Every attraction the dataset knows: open rides as live rows, closed or unbuilt ones
+     as their verified tracker state - a board that omits the closed rides answers a
+     different question than the one a reader brings to it. */
+  const rides = park.attractions.map((a) => {
+    const item = scheduled.get(a.slug) || (a.isOpen ? null : { status: 'closed', note: a.closedNote || null })
+    return { slug: a.slug, name: a.name, url: a.url, item, isOpen: a.isOpen }
   })
+  const closedCount = rides.filter((r) => r.item).length
 
   const body = html`
     ${C.breadcrumbs(trail)}
@@ -147,8 +152,8 @@ export function statusParkPage (park, data) {
       lede: `Scheduled closures are verified and dated. Everything else is guest-reported and unverified — and the operator's app outranks all of it.`,
       tone: 'compact',
       meta: [
-        { label: 'Open attractions', value: String(rides.length - closedNow.length) },
-        { label: 'Scheduled closures', value: String(closedNow.length) },
+        { label: 'Open attractions', value: String(rides.length - closedCount) },
+        { label: 'Closed or scheduled', value: String(closedCount) },
         { label: 'Guest reports', value: 'rolling 12-hour window' },
       ],
     })}
@@ -169,8 +174,8 @@ export function statusParkPage (park, data) {
                   ${r.item.note ? html`<span class="status-row__note">${r.item.note}</span>` : ''}
                 </div>`
               }
-              return html`<div class="status-row" data-ride="${r.slug}">
-                <span class="status-row__name"><a href="${r.url}">${r.name}</a></span>
+              return html`<div class="status-row" data-ride="${r.isOpen ? r.slug : ''}">
+                <span class="status-row__name">${r.url ? html`<a href="${r.url}">${r.name}</a>` : r.name}</span>
                 <span class="pill status-row__pill status-row__pill--open" data-open-pill>Not scheduled for closure</span>
                 <span class="status-row__report" data-report-slot></span>
               </div>`
