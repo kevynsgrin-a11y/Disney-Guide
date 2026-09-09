@@ -126,11 +126,11 @@ export function statusIndex (data) {
   }
 }
 
-export function statusParkPage (park, data) {
+export function statusParkPage (park, data, seasonal) {
   const { site } = data
   const url = urls.statusPark(park.slug)
   const trail = [{ label: 'Home', href: '/' }, { label: 'Ride status', href: urls.statusIndex() }, { label: park.shortLabel || park.name, href: url }]
-  const scheduled = scheduledFor(data, park)
+  const scheduled = scheduledFor(seasonal, park)
   const official = OFFICIAL_LINKS[park.resortInfo?.slug] || OFFICIAL_LINKS['walt-disney-world']
   const openRides = park.attractions.filter((a) => a.isOpen)
   const closedNow = openRides.filter((a) => scheduled.has(a.slug))
