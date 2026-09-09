@@ -84,7 +84,7 @@
             if (va > vb) return asc ? 1 : -1
             return 0
           })
-          rows.forEach(function (row) { body.appendChild(row) })
+          applySort(body, rows)
         }
         th.addEventListener('click', sort)
         th.addEventListener('keydown', function (e) {
@@ -252,6 +252,93 @@
     })
   }
 
+  /* ---------- Sort motion -------------------------------------------------- */
+
+  var REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)')
+
+  /**
+   * FLIP row sort: rows glide from their old position to their new one instead of snapping.
+   * Ported from the Bolt dossier comp — measured against the site's own table markup, and
+   * skipped entirely under reduced motion where the reorder is instant, as before.
+   */
+  function applySort (body, rows) {
+    if (REDUCED_MOTION.matches) {
+      rows.forEach(function (row) { body.appendChild(row) })
+      return
+    }
+    var before = rows.map(function (row) { return row.getBoundingClientRect().top })
+    rows.forEach(function (row) { body.appendChild(row) })
+    rows.forEach(function (row, i) {
+      var delta = before[i] - row.getBoundingClientRect().top
+      if (!delta) return
+      row.style.transition = 'none'
+      row.style.transform = 'translateY(' + delta + 'px)'
+      requestAnimationFrame(function () {
+        row.style.transition = 'transform .3s cubic-bezier(.22,.61,.36,1)'
+        row.style.transform = ''
+      })
+    })
+    setTimeout(function () {
+      rows.forEach(function (row) { row.style.transition = '' })
+    }, 400)
+  }
+
+  /* ---------- Stat count-up ------------------------------------------------ */
+
+  /* Numbers in the stat bands count up once, on first view. The final value is what the
+     server rendered, so no-JS and reduced-motion visitors see exactly the same figures. */
+  function initStatCountUp () {
+    if (REDUCED_MOTION.matches) return
+    var seen = false
+    var targets = []
+    document.querySelectorAll('.stat-row__value').forEach(function (el) {
+      var text = el.textContent.trim()
+      if (/^\d{2,}$/.test(text)) targets.push({ el: el, value: Number(text) })
+    })
+    if (!targets.length) return
+    var obs = new IntersectionObserver(function (entries) {
+      if (seen || !entries.some(function (e) { return e.isIntersecting })) return
+      seen = true
+      obs.disconnect()
+      targets.forEach(function (t) {
+        var start = null
+        var DURATION = 900
+        function frame (ts) {
+          if (start === null) start = ts
+          var p = Math.min(1, (ts - start) / DURATION)
+          var eased = 1 - Math.pow(1 - p, 3)
+          t.el.textContent = String(Math.round(t.value * eased))
+          if (p < 1) requestAnimationFrame(frame)
+          else t.el.textContent = String(t.value)
+        }
+        requestAnimationFrame(frame)
+      })
+    }, { threshold: 0.4 })
+    obs.observe(targets[0].el)
+  }
+
+  /* ---------- Scroll reveal ------------------------------------------------- */
+
+  /* One restrained fade-and-rise as a band enters the viewport — the class is added by
+     JavaScript only, so the page without JS renders exactly as it always has. */
+  function initReveal () {
+    if (REDUCED_MOTION.matches) return
+    var bands = document.querySelectorAll('main .band')
+    if (!bands.length || !('IntersectionObserver' in window)) return
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-revealed')
+          obs.unobserve(e.target)
+        }
+      })
+    }, { threshold: 0.08 })
+    bands.forEach(function (el) {
+      el.classList.add('reveal')
+      obs.observe(el)
+    })
+  }
+
   /* ---------- Go ---------------------------------------------------------- */
 
   function ready (fn) {
@@ -299,6 +386,8 @@
     initSearch()
     initConnectivity()
     initDataSaver()
+    initStatCountUp()
+    initReveal()
     initServiceWorker()
   })
 })()
