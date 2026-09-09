@@ -3,14 +3,8 @@ import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
-const ASSET_VERSION = '15'
+const ASSET_VERSION = '16'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
-
-/**
- * Runs before first paint so a stored theme choice never flashes. Kept to one statement and
- * inlined deliberately — an external file here would be a guaranteed flash of the wrong theme.
- */
-export const THEME_BOOTSTRAP = `document.documentElement.dataset.theme='dark'`
 
 const TITLE_MAX = 66
 
@@ -201,10 +195,9 @@ export function renderPage ({ site, page, body, schema = [], scripts = [] }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0b0f0d">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#100f0c">
+<meta name="color-scheme" content="dark">
 ${metaTags(site, page)}
-<script>${raw(THEME_BOOTSTRAP)}</script>
 <link rel="stylesheet" href="${v('/assets/css/main.css')}">
 <link rel="stylesheet" href="${v('/assets/css/print.css')}" media="print">
 <link rel="manifest" href="/manifest.webmanifest">

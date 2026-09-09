@@ -596,6 +596,15 @@
     "title": "Halloween is already here at both resorts",
     "lede": "The parties, the overlays, and the free daytime layer are running now, with dates we have confirmed against the operators’ own announcements. Everything below states what is confirmed and what it costs.",
     "until": "2026-10-31",
-    "note": "Rotates by season: set season/label/title/lede/until and the homepage band follows. Renders only while BUILD_MONTH is at or before the until month, so it retires itself."
+    "events": [
+      "halloween-time-at-the-disneyland-resort",
+      "mickeys-not-so-scary-halloween-party",
+      "oogie-boogie-bash"
+    ],
+    "primaryHref": "/holidays/halloween/",
+    "primaryLabel": "The Halloween guide",
+    "secondaryHref": "/when-to-go/october/",
+    "secondaryLabel": "October, honestly graded",
+    "note": "Rotates by season: set season, label, title, lede, until, event slugs, and CTA labels/paths. It renders only while BUILD_MONTH is at or before the until month, so it retires itself."
   }
 }

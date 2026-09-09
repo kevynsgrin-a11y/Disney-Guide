@@ -6,8 +6,6 @@
 (function () {
   'use strict'
 
-  var THEME_KEY = 'rrg-theme'
-
   /* ---------- Mobile nav ------------------------------------------------- */
 
   function initNav () {
@@ -318,25 +316,6 @@
     update()
   }
 
-  /* ---------- Reading mode (the lamp) --------------------------------------- */
-
-  function initLamp () {
-    var btn = document.querySelector('[data-lamp-toggle]')
-    if (!btn) return
-    function apply (on) {
-      if (on) document.documentElement.setAttribute('data-lamp', '')
-      else document.documentElement.removeAttribute('data-lamp')
-      btn.setAttribute('aria-pressed', String(on))
-      try { localStorage.setItem('rrg-lamp', on ? 'on' : 'off') } catch (e) { }
-    }
-    var stored
-    try { stored = localStorage.getItem('rrg-lamp') } catch (e) { }
-    if (stored === 'on') apply(true)
-    btn.addEventListener('click', function () {
-      apply(!document.documentElement.hasAttribute('data-lamp'))
-    })
-  }
-
   /* ---------- Return-visitor greeting ----------------------------------------- */
 
   function initWelcomeBack () {
@@ -375,15 +354,24 @@
     }
   }
 
+  /* A decorative landing moment only: no keyboard focus, no pointer capture, and no retained DOM
+     after the three-second flight. Hidden tabs skip it so nothing launches when a reader returns. */
+  function initLandingBats () {
+    var stage = document.querySelector('[data-landing-bats]')
+    if (!stage) return
+    if (REDUCED_MOTION.matches || document.hidden) { stage.remove(); return }
+    window.setTimeout(function () { stage.remove() }, 3400)
+  }
+
   ready(function () {
     initNav()
     initHeaderScroll()
     initSortableTables()
     initSearch()
     initConnectivity()
-    initLamp()
     initWelcomeBack()
     initDataSaver()
+    initLandingBats()
     initReveal()
     initServiceWorker()
   })
