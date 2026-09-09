@@ -139,7 +139,11 @@ export async function loadSeasonal (operatorSlug = 'disney', evergreenData) {
   const site1Data = evergreenData || await loadData(operatorSlug)
   const site1Urls = await evergreenUrlSet(site1Data)
 
-  return index({ site: site1Data.site, events, months, holidays, prices, closures, calendar, site1Data, site1Urls })
+  const seasonal = index({ site: site1Data.site, events, months, holidays, prices, closures, calendar, site1Data, site1Urls })
+  // Resolved photo slots ride along so seasonal index heroes can carry imagery the same way
+  // evergreen pages do; null per slot when a file is absent, same as the evergreen side.
+  seasonal.photo = site1Data.photo || {}
+  return seasonal
 }
 
 /* ------------------------------------------------------------------ *

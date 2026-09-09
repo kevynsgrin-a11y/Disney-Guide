@@ -23,6 +23,11 @@ BUDGETS = {
     "social-card": {1280: 60 * 1024, 640: 32 * 1024},
     # Apple's podcast artwork ceiling is 500 KB at 1400-3000px square.
     "podcast-cover": {1440: 300 * 1024},
+    # Section scenes (runbook batch 4) — same budget band as the park scenes.
+    "scene-castle": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
+    "scene-drop": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
+    "scene-splash": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
+    "day-end": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
 }
 
 FORMATS = (

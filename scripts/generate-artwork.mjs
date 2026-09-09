@@ -254,6 +254,23 @@ function skyDefs () {
     <stop offset="0.62" stop-color="#000000" stop-opacity="0"/>
     <stop offset="1" stop-color="#000000" stop-opacity="0.42"/>
   </radialGradient>
+  <linearGradient id="skyTeal" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#071e26"/>
+    <stop offset="0.55" stop-color="#0d3a44"/>
+    <stop offset="0.85" stop-color="#1d5a58"/>
+    <stop offset="1" stop-color="#3f4f4a"/>
+  </linearGradient>
+  <radialGradient id="horizonGlowRose" cx="0.52" cy="1" r="0.8">
+    <stop offset="0" stop-color="#c26a6e" stop-opacity="0.42"/>
+    <stop offset="0.4" stop-color="#b06a50" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#b06a50" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="skyWarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#160d08"/>
+    <stop offset="0.5" stop-color="#241108"/>
+    <stop offset="0.85" stop-color="#402008"/>
+    <stop offset="1" stop-color="#59300c"/>
+  </linearGradient>
   <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
     <feGaussianBlur stdDeviation="7"/>
   </filter>
@@ -399,6 +416,209 @@ function scenePodcastCover () {
   return body
 }
 
+/* ---------- section scenes (runbook batch 4, the four that fit this medium) ---------- *
+ *
+ * Each is the stylised-illustration reading of its runbook prompt: the castle keeps its
+ * asymmetric Moorish-Gothic brief (no conical fairytale spires, nothing resembling a real
+ * park's castle), the drop and the splash reduce riders to anonymous silhouettes, and the
+ * end-of-day pair is silhouetted as the prompt itself specifies. No faces, no brands.
+ */
+
+function sceneCastle () {
+  const rand = rng(5077)
+  const water = 905
+  const reflection = `
+    <g transform="translate(0 ${2 * water}) scale(1 -1)" opacity="0.22">
+      CASTLE_BODY
+    </g>
+    <g opacity="0.25">
+      ${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="${240 + i * 240 + rand() * 60}" y="${water + 14 + i * 16}" width="${120 + rand() * 140}" height="2.4" rx="1.2" fill="${WARM_WHITE}" opacity="${0.16 + rand() * 0.2}"/>`).join('')}
+    </g>`
+
+  // Architecture from primitives: off-center square keep, exactly two slim onion-dome towers,
+  // a wide arcaded terrace. Deliberately asymmetric; no cluster of conical spires.
+  const arches = []
+  for (let i = 0; i < 9; i++) {
+    const ax = 430 + i * 118
+    arches.push(`<path d="M ${ax} ${water - 88} v -46 a 26 30 0 0 1 52 0 v 46 z" fill="#07141a"/>`)
+    arches.push(`<path d="M ${ax + 8} ${water - 92} v -40 a 18 22 0 0 1 36 0 v 40 z" fill="${AMBER_DEEP}" opacity="${0.28 + rand() * 0.3}"/>`)
+  }
+  const windows = []
+  for (let i = 0; i < 26; i++) {
+    const wx = 470 + rand() * 940
+    const wy = water - 360 + rand() * 250
+    windows.push(`<rect x="${wx.toFixed(0)}" y="${wy.toFixed(0)}" width="10" height="17" rx="4" fill="${WARM_WHITE}" opacity="${(0.5 + rand() * 0.5).toFixed(2)}"/>`)
+  }
+  const tower = (x, h) => `
+    <rect x="${x - 26}" y="${water - h}" width="52" height="${h}" fill="#07141a"/>
+    <path d="M ${x - 30} ${water - h} q 30 -18 60 0 l -6 -44 q -24 -34 -48 0 z" fill="#07141a"/>
+    <path d="M ${x} ${water - h - 96} q 22 40 -4 62 q 30 -6 26 -44 q -4 -30 -22 -18 z" fill="#2c6455" opacity="0.85"/>
+    <path d="M ${x} ${water - h - 96} v -26" stroke="#07141a" stroke-width="4"/>
+    <circle cx="${x}" cy="${water - h - 124}" r="5" fill="${AMBER}" opacity="0.9"/>
+    <rect x="${x - 9}" y="${water - h + 60}" width="18" height="26" rx="8" fill="${AMBER}" opacity="0.6"/>
+    <rect x="${x - 9}" y="${water - h + 130}" width="18" height="26" rx="8" fill="${AMBER}" opacity="0.45"/>`
+
+  const castleBody = `
+    <rect x="380" y="${water - 300}" width="330" height="300" fill="#07141a"/>
+    <path d="M 380 ${water - 300} h 330 v -18 h -22 v 14 h -28 v -14 h -28 v 14 h -28 v -14 h -28 v 14 h -28 v -14 h -28 v 14 h -28 v -14 h -28 v 14 h -28 v -14 h -26 z" fill="#07141a"/>
+    <rect x="396" y="${water - 288}" width="298" height="10" fill="${AMBER_DEEP}" opacity="0.25"/>
+    ${windows.join('')}
+    ${tower(790, 560)}
+    ${tower(1090, 500)}
+    <rect x="760" y="${water - 320}" width="420" height="320" fill="#07141a"/>
+    <path d="M 760 ${water - 320} h 420 v -16 h -24 v 12 h -34 v -12 h -34 v 12 h -34 v -12 h -34 v 12 h -34 v -12 h -34 v 12 h -34 v -12 h -34 v 12 h -34 v -12 h -34 v 12 h -34 v -12 h -22 z" fill="#07141a"/>
+    <rect x="410" y="${water - 100}" width="1100" height="26" fill="#07141a"/>
+    ${arches.join('')}
+    <circle cx="960" cy="${water - 130}" r="400" fill="url(#halo-e8a13c)" opacity="0.42" filter="url(#soft)"/>`
+
+  const body = `
+  <rect width="1920" height="1080" fill="url(#skyTeal)"/>
+  <rect width="1920" height="1080" fill="url(#horizonGlowRose)"/>
+  ${stars(1920, 1080, rand, 70)}
+  <ellipse cx="430" cy="250" rx="380" ry="46" fill="#123239" opacity="0.5" filter="url(#soft)"/>
+  <ellipse cx="1500" cy="180" rx="300" ry="34" fill="#123239" opacity="0.4" filter="url(#soft)"/>
+  ${castleBody}
+  <rect x="0" y="${water - 2}" width="1920" height="${1080 - water + 2}" fill="#04121a"/>
+  ${reflection.replace('CASTLE_BODY', castleBody)}
+  ${treeline(water + 26, 0, 1920, rand, '#06202a')}
+  <rect width="1920" height="1080" fill="url(#vignette)"/>`
+  return page(1920, 1080, body)
+}
+
+function sceneDrop () {
+  const rand = rng(8123)
+  const ground = 960
+  const track = `M -20 ${ground - 40} C 240 ${ground - 60}, 420 ${ground - 80}, 560 ${ground - 220}
+    C 660 ${ground - 320}, 700 ${ground - 430}, 960 ${ground - 450}
+    C 1220 ${ground - 470}, 1320 ${ground - 560}, 1500 ${ground - 590}
+    C 1660 ${ground - 615}, 1800 ${ground - 600}, 1940 ${ground - 560}`
+  // Five cars cresting, riders as anonymous silhouettes with raised arms.
+  const cars = []
+  for (let i = 0; i < 5; i++) {
+    const t = 0.44 + i * 0.052
+    // Approximate points along the cresting arc.
+    const cx = 620 + i * 132 + rand() * 8
+    const cy = ground - 452 - Math.sin((i / 5) * Math.PI) * 46
+    cars.push(`<g>
+      <rect x="${cx}" y="${cy}" width="96" height="34" rx="14" fill="${SILHOUETTE}"/>
+      <circle cx="${cx + 22}" cy="${cy - 12}" r="11" fill="${SILHOUETTE}"/>
+      <circle cx="${cx + 56}" cy="${cy - 14}" r="11" fill="${SILHOUETTE}"/>
+      <line x1="${cx + 14}" y1="${cy - 16}" x2="${cx + 2}" y2="${cy - 48}" stroke="${SILHOUETTE}" stroke-width="8" stroke-linecap="round"/>
+      <line x1="${cx + 48}" y1="${cy - 18}" x2="${cx + 60}" y2="${cy - 52}" stroke="${SILHOUETTE}" stroke-width="8" stroke-linecap="round"/>
+      <line x1="${cx + 84}" y1="${cy - 10}" x2="${cx + 98}" y2="${cy - 40}" stroke="${SILHOUETTE}" stroke-width="8" stroke-linecap="round"/>
+    </g>`)
+  }
+  const streaks = []
+  for (let i = 0; i < 14; i++) {
+    const sy = ground - 420 + rand() * 200
+    streaks.push(`<line x1="${60 + rand() * 500}" y1="${sy.toFixed(0)}" x2="${420 + rand() * 560}" y2="${sy.toFixed(0)}" stroke="${AMBER}" stroke-width="${(1 + rand() * 2).toFixed(1)}" opacity="${(0.1 + rand() * 0.25).toFixed(2)}"/>`)
+  }
+  const body = `
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#horizonGlow)"/>
+  ${stars(1920, 1080, rand, 60)}
+  ${streaks.join('')}
+  <path d="${track}" fill="none" stroke="${SILHOUETTE}" stroke-width="14"/>
+  <path d="${track}" fill="none" stroke="${AMBER_DEEP}" stroke-width="2" opacity="0.5"/>
+  ${[400, 640, 880, 1120, 1360, 1600].map((x, i) => `<line x1="${x}" y1="${ground - 60 - i * 40}" x2="${x + 30}" y2="${ground}" stroke="${SILHOUETTE}" stroke-width="6"/>`).join('')}
+  ${cars.join('')}
+  ${stringLights(0, 760, 760, 720, 44, rand)}
+  ${stringLights(1180, 720, 1920, 770, 44, rand)}
+  ${ferrisWheel(180, 700, 150, rand)}
+  ${treeline(ground, 0, 1920, rand)}
+  <rect x="0" y="${ground - 6}" width="1920" height="${1080 - ground + 6}" fill="${SILHOUETTE}"/>
+  <rect width="1920" height="1080" fill="url(#vignette)"/>`
+  return page(1920, 1080, body)
+}
+
+function sceneSplash () {
+  const rand = rng(9410)
+  const ground = 900
+  // The wall of spray: layered glow, arcs, and scattered droplets, backlit.
+  const spray = []
+  for (let i = 0; i < 90; i++) {
+    const angle = -Math.PI / 2 + (rand() - 0.5) * 2.4
+    const dist = 60 + rand() * 320
+    const px = 1020 + Math.cos(angle) * dist * 1.25
+    const py = ground - 120 + Math.sin(angle) * dist
+    spray.push(`<circle cx="${px.toFixed(0)}" cy="${py.toFixed(0)}" r="${(2 + rand() * 7).toFixed(1)}" fill="${WARM_WHITE}" opacity="${(0.25 + rand() * 0.6).toFixed(2)}"/>`)
+  }
+  const arcs = []
+  for (let i = 0; i < 7; i++) {
+    const r = 140 + i * 44
+    arcs.push(`<path d="M ${1020 - r * 1.3} ${ground - 100} A ${r * 1.3} ${r} 0 0 1 ${1020 + r * 1.3} ${ground - 100}" fill="none" stroke="${WARM_WHITE}" stroke-width="${(10 - i).toFixed(0)}" opacity="${(0.28 - i * 0.03).toFixed(2)}"/>`)
+  }
+  const body = `
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#horizonGlow)"/>
+  ${stars(1920, 1080, rand, 50)}
+  <circle cx="1020" cy="${ground - 120}" r="420" fill="url(#halo-e8a13c)" opacity="0.5" filter="url(#soft)"/>
+  <path d="M 520 ${ground - 430} C 700 ${ground - 410}, 880 ${ground - 360}, 960 ${ground - 150}" fill="none" stroke="${SILHOUETTE}" stroke-width="22"/>
+  <path d="M 480 ${ground - 460} C 680 ${ground - 440}, 860 ${ground - 390}, 950 ${ground - 175}" fill="none" stroke="${SILHOUETTE}" stroke-width="8" opacity="0.7"/>
+  <rect x="920" y="${ground - 150}" width="190" height="54" rx="26" fill="${SILHOUETTE}"/>
+  <circle cx="970" cy="${ground - 172}" r="13" fill="${SILHOUETTE}"/>
+  <circle cx="1040" cy="${ground - 176}" r="13" fill="${SILHOUETTE}"/>
+  ${arcs.join('')}
+  ${spray.join('')}
+  <rect x="0" y="${ground - 4}" width="1920" height="${1080 - ground + 4}" fill="#04121a"/>
+  ${[0, 1, 2, 3, 4, 5, 6, 7].map((i) => `<ellipse cx="${300 + i * 200 + rand() * 60}" cy="${ground + 40 + (i % 3) * 34}" rx="${130 + rand() * 90}" ry="${7 + rand() * 6}" fill="${WARM_WHITE}" opacity="${(0.08 + rand() * 0.12).toFixed(2)}"/>`).join('')}
+  ${treeline(ground + 4, 0, 420, rand)}
+  ${treeline(ground + 4, 1500, 1920, rand)}
+  <rect width="1920" height="1080" fill="url(#vignette)"/>`
+  return page(1920, 1080, body)
+}
+
+function sceneDayEnd () {
+  const rand = rng(26099)
+  const ground = 940
+  // Warm blurred fairground behind: bokeh circles and lamp glows.
+  const bokeh = []
+  for (let i = 0; i < 26; i++) {
+    const bx = rand() * 1920
+    const by = 260 + rand() * 460
+    const br = 26 + rand() * 72
+    bokeh.push(`<circle cx="${bx.toFixed(0)}" cy="${by.toFixed(0)}" r="${br.toFixed(0)}" fill="${rand() > 0.5 ? AMBER : '#d97b4f'}" opacity="${(0.1 + rand() * 0.3).toFixed(2)}" filter="url(#soft)"/>`)
+  }
+  const lamps = []
+  for (let i = 0; i < 7; i++) {
+    const t = i / 6
+    const lx = 760 + t * 400
+    const ly = ground - 40 - Math.pow(1 - t, 0) * (140 + i * 8)
+    const scale = 0.55 + t * 0.75
+    lamps.push(`<g opacity="0.95">
+      <line x1="${lx}" y1="${ly}" x2="${lx}" y2="${ly - 190 * scale}" stroke="${SILHOUETTE}" stroke-width="${(7 * scale).toFixed(1)}"/>
+      <circle cx="${lx}" cy="${ly - 210 * scale}" r="${(20 * scale).toFixed(0)}" fill="${AMBER}" opacity="0.9"/>
+      <circle cx="${lx}" cy="${ly - 210 * scale}" r="${(46 * scale).toFixed(0)}" fill="url(#halo-e8a13c)" opacity="0.55"/>
+    </g>`)
+  }
+  // The pair: an adult walking away, a sleeping child carried high on one shoulder. The
+  // child's head and body break the adult's silhouette line so the carry reads instantly.
+  const pair = `
+  <g fill="${SILHOUETTE}">
+    <circle cx="948" cy="${ground - 250}" r="27"/>
+    <path d="M 926 ${ground - 226} q 22 -12 44 0 l 16 94 l -14 10 l 4 96 q -20 10 -40 0 l 6 -92 l -16 -12 z"/>
+    <path d="M 930 ${ground - 28} l -8 -4 l -14 36 l 12 6 z"/>
+    <path d="M 968 ${ground - 28} l 8 -4 l 12 36 l -12 6 z"/>
+    <circle cx="993" cy="${ground - 282}" r="19"/>
+    <path d="M 976 ${ground - 288} q 16 -16 34 -4 q 10 10 8 30 q -6 26 -24 26 q -18 0 -20 -24 q -2 -18 2 -28 z"/>
+    <path d="M 972 ${ground - 252} q 14 -12 34 -8" fill="none" stroke="${SILHOUETTE}" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="955" cy="${ground + 6}" rx="92" ry="10" fill="#000000" opacity="0.4"/>`
+  const body = `
+  <rect width="1920" height="1080" fill="url(#skyWarm)"/>
+  ${bokeh.join('')}
+  ${stringLights(0, 380, 640, 420, 60, rand)}
+  ${stringLights(1280, 420, 1920, 380, 56, rand)}
+  ${lamps.join('')}
+  <rect x="620" y="${ground}" width="680" height="${1080 - ground}" fill="#120d07"/>
+  <path d="M 0 ${ground} L 620 ${ground} L 760 1080 L 0 1080 Z" fill="#0d0906"/>
+  <path d="M 1300 ${ground} L 1920 ${ground} L 1920 1080 L 1160 1080 Z" fill="#0d0906"/>
+  ${pair}
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+  <rect width="1920" height="1080" fill="#3a1f08" opacity="0.06"/>`
+  return page(1920, 1080, body)
+}
+
 /* ---------- render --------------------------------------------------------- */
 
 const SCENES = [
@@ -407,6 +627,10 @@ const SCENES = [
   { name: 'scene-coaster', svg: sceneCoaster(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
   { name: 'social-card', svg: sceneSocial(), widths: [1280, 640], ratio: 672 / 1280 },
   { name: 'podcast-cover', svg: scenePodcastCover(), widths: [1440], ratio: 1 },
+  { name: 'scene-castle', svg: sceneCastle(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
+  { name: 'scene-drop', svg: sceneDrop(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
+  { name: 'scene-splash', svg: sceneSplash(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
+  { name: 'day-end', svg: sceneDayEnd(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
 ]
 
 async function main () {

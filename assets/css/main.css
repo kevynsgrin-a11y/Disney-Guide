@@ -1430,3 +1430,17 @@ body[data-offline] .offline-note { display: block; }
 .timing-result__bar { height: 8px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
 .timing-result__fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--brand-3), var(--brand-2)); }
 .timing-result__name { font-weight: 650; }
+
+/* ---------- Consent bar (analytics gate) --------------------------------- */
+
+.consent-bar {
+  position: fixed; left: 50%; bottom: var(--space-4); transform: translateX(-50%);
+  z-index: 60; display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3) var(--space-5);
+  max-width: min(46rem, calc(100vw - 2rem));
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .18);
+}
+.consent-bar p { margin: 0; font-size: var(--step--1); color: var(--ink-2); max-width: 34rem; }
+.consent-bar__actions { display: flex; gap: var(--space-2); margin-left: auto; }
+@media print { .consent-bar { display: none; } }

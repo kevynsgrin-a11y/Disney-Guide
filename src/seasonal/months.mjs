@@ -182,6 +182,7 @@ export function whenToGoIndex (data) {
       title: 'The best and worst months to visit the Disney parks',
       lede: 'Every month graded on crowds, cost, weather and what is actually running. We commit to a letter grade for each one — including the months we think you should avoid.',
       actions: [{ href: urls.tripTiming(), label: 'Rank months by what you care about', primary: true }],
+      image: data.photo['day-end'],
     })}
 
     ${C.section({

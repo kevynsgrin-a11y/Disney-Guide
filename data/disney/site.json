@@ -107,6 +107,58 @@
       ],
       "focal": "50% 50%",
       "note": "Decorative: alt is empty on purpose. Coaster hills and a ferris wheel silhouetted against a dusk sky with a low moon - generic structures only."
+    },
+    "scene-castle": {
+      "file": "scene-castle",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative section scene (runbook batch 4): alt is empty on purpose. An asymmetric fantasy castle at blue hour, lit from below in warm amber - a Moorish-Gothic hybrid that deliberately resembles no real park castle."
+    },
+    "scene-drop": {
+      "file": "scene-drop",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 45%",
+      "note": "Decorative section scene (runbook batch 4): alt is empty on purpose. A coaster train cresting a drop at dusk, riders as anonymous silhouettes with raised arms."
+    },
+    "scene-splash": {
+      "file": "scene-splash",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 50%",
+      "note": "Decorative section scene (runbook batch 4): alt is empty on purpose. A log-flume boat hitting the bottom of its drop behind a backlit wall of white spray; riders as silhouettes."
+    },
+    "day-end": {
+      "file": "day-end",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 60%",
+      "note": "Decorative section scene (runbook batch 4): alt is empty on purpose. A parent carrying a sleeping child on a shoulder, both silhouetted on a lamplit path toward warm fairground bokeh."
     }
   },
   "author": {
@@ -375,8 +427,10 @@
     }
   },
   "analytics": {
+    "provider": "cloudflare-web-analytics",
+    "token": "",
     "enabled": false,
-    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+    "note": "Aggregate, cookieless Cloudflare Web Analytics behind the first-party consent gate in assets/js/analytics.js. Paste the site token from the Web Analytics dashboard and set enabled=true; the privacy page copy flips with it."
   },
   "operator": "disney",
   "podcast": {
