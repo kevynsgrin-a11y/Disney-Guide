@@ -84,7 +84,7 @@
             if (va > vb) return asc ? 1 : -1
             return 0
           })
-          rows.forEach(function (row) { body.appendChild(row) })
+          applySort(body, rows)
         }
         th.addEventListener('click', sort)
         th.addEventListener('keydown', function (e) {
@@ -252,6 +252,66 @@
     })
   }
 
+  /* ---------- Sort motion -------------------------------------------------- */
+
+  var REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)')
+
+  /**
+   * FLIP row sort: rows glide from their old position to their new one instead of snapping.
+   * Ported from the Bolt dossier comp — measured against the site's own table markup, and
+   * skipped entirely under reduced motion where the reorder is instant, as before.
+   */
+  function applySort (body, rows) {
+    if (REDUCED_MOTION.matches) {
+      rows.forEach(function (row) { body.appendChild(row) })
+      return
+    }
+    var before = rows.map(function (row) { return row.getBoundingClientRect().top })
+    rows.forEach(function (row) { body.appendChild(row) })
+    rows.forEach(function (row, i) {
+      var delta = before[i] - row.getBoundingClientRect().top
+      if (!delta) return
+      row.style.transition = 'none'
+      row.style.transform = 'translateY(' + delta + 'px)'
+      requestAnimationFrame(function () {
+        row.style.transition = 'transform .3s cubic-bezier(.22,.61,.36,1)'
+        row.style.transform = ''
+      })
+    })
+    setTimeout(function () {
+      rows.forEach(function (row) { row.style.transition = '' })
+    }, 400)
+  }
+
+  /* ---------- Scroll reveal ------------------------------------------------- */
+
+  /* One restrained fade-and-rise as a band enters the viewport — the class is added by
+     JavaScript only, so the page without JS renders exactly as it always has. */
+  function initReveal () {
+    /* Never hide anything in a hidden tab: observers and frames are throttled there, and a
+       page that loaded in the background must not still be invisible when it is focused. */
+    if (REDUCED_MOTION.matches || document.hidden) return
+    var bands = document.querySelectorAll('main .band')
+    if (!bands.length || !('IntersectionObserver' in window)) return
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-revealed')
+          obs.unobserve(e.target)
+        }
+      })
+    }, { threshold: 0.08 })
+    bands.forEach(function (el) {
+      el.classList.add('reveal')
+      obs.observe(el)
+    })
+    /* Failsafe: whatever throttling did or did not fire, nothing stays hidden for long. */
+    setTimeout(function () {
+      bands.forEach(function (el) { el.classList.add('is-revealed') })
+      obs.disconnect()
+    }, 1500)
+  }
+
   /* ---------- Go ---------------------------------------------------------- */
 
   function ready (fn) {
@@ -299,6 +359,7 @@
     initSearch()
     initConnectivity()
     initDataSaver()
+    initReveal()
     initServiceWorker()
   })
 })()

@@ -1452,3 +1452,49 @@ body[data-offline] .offline-note { display: block; }
 .consent-bar p { margin: 0; font-size: var(--step--1); color: var(--ink-2); max-width: 34rem; }
 .consent-bar__actions { display: flex; gap: var(--space-2); margin-left: auto; }
 @media print { .consent-bar { display: none; } }
+
+/* ---------- Ported polish (from the Bolt design comps) -------------------- */
+
+/* Restrained scroll reveal: the .reveal class is added by JavaScript only, so the page
+   without JS renders exactly as it always has, and reduced motion never adds it. */
+.reveal { opacity: 0; transform: translateY(12px); }
+.reveal.is-revealed { opacity: 1; transform: none; transition: opacity .2s ease-out, transform .2s ease-out; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+/* Height checker: near-miss cards carry a progress bar — how close the child already is. */
+.nearmiss__item { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; padding: .55rem .75rem; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); }
+.nearmiss__item + .nearmiss__item { margin-top: .5rem; }
+.nearmiss__bar { flex: 1 1 6rem; height: 6px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
+.nearmiss__fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--accent-2), var(--brand-3)); }
+.nearmiss__pct { font-size: var(--step--2); color: var(--muted); white-space: nowrap; }
+
+/* Height checker: the quiet unlock moment — one soft glow pulse on the chip, one line of prose. */
+.ride-chiplist li[data-unlocked] { animation: unlock-glow 1.2s ease-out 1; }
+@keyframes unlock-glow {
+  0% { box-shadow: 0 0 0 0 rgba(42, 138, 107, 0); }
+  30% { box-shadow: 0 0 0 5px rgba(42, 138, 107, .28); }
+  100% { box-shadow: 0 0 0 0 rgba(42, 138, 107, 0); }
+}
+.hchecker__toast {
+  position: fixed; left: 50%; bottom: var(--space-4); transform: translateX(-50%) translateY(8px);
+  margin: 0; padding: .6rem 1.1rem; border-radius: 999px;
+  background: var(--brand); color: #f6efe4; font-size: var(--step--1); font-weight: 600;
+  box-shadow: 0 10px 26px rgba(6, 24, 17, .35);
+  opacity: 0; pointer-events: none; transition: opacity .25s ease, transform .25s ease;
+}
+.hchecker__toast[data-open] { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* Food tracker: the segmented toggle settles with a spring; the ring eases its arc. */
+@media (prefers-reduced-motion: no-preference) {
+  .food-card [data-track] { transition: transform .18s cubic-bezier(.34,1.56,.64,1), background-color .15s ease, border-color .15s ease, color .15s ease; }
+  .food-card [data-track]:active { transform: scale(.94); }
+  .tracker-progress__fg { transition: stroke-dasharray .35s ease; }
+  .timing-result__fill { transition: width .3s ease; }
+}
+
+/* Theme cross-fade: structural surfaces ease their colours over a third of a second.
+   Component-level hover transitions are untouched — this only smooths the light/dark swap. */
+@media (prefers-reduced-motion: no-preference) {
+  html, body { transition: background-color .32s ease; }
+  .site-header, .site-footer, .band { transition: background-color .32s ease, border-color .32s ease; }
+}

@@ -52,20 +52,51 @@
       return Number(slider.value)
     }
 
-    function render (inches) {
+    var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)')
+    var toast = null
+    var toastTimer = null
+
+    /* A quiet line of prose, not a popup: one unlock at a time, gone in two and a half
+       seconds. Ported from the height-checker comp's milestone moment, minus everything
+       that would have turned it into a celebration. */
+    function announceUnlock (ride) {
+      if (!ride || REDUCED.matches) return
+      if (!toast) {
+        var host = document.querySelector('.hchecker') || document.body
+        toast = document.createElement('p')
+        toast.className = 'hchecker__toast'
+        toast.setAttribute('role', 'status')
+        host.appendChild(toast)
+      }
+      toast.textContent = ride.n + ' just unlocked.'
+      toast.setAttribute('data-open', '')
+      clearTimeout(toastTimer)
+      toastTimer = setTimeout(function () { toast.removeAttribute('data-open') }, 2500)
+    }
+
+    function render (inches, prevInches) {
       var cm = Math.round(inches * 2.54)
       if (valueEl) valueEl.textContent = useMetric ? String(cm) : String(inches)
       if (cmEl) cmEl.textContent = useMetric ? inches + ' inches' : cm + ' cm'
 
       var totalCan = 0
       var totalAll = 0
+      var unlocked = null
 
       var html = parks.map(function (park) {
         var can = []
         var cant = []
         park.rides.forEach(function (ride) {
           totalAll++
-          if (ride.h == null || ride.h <= inches) { can.push(ride); totalCan++ }
+          if (ride.h == null || ride.h <= inches) {
+            can.push(ride)
+            totalCan++
+            /* Crossing a threshold on this movement is the unlock moment; the tallest such
+               ride is the one worth naming. */
+            if (prevInches != null && ride.h != null && ride.h > prevInches && ride.h <= inches) {
+              if (!unlocked || ride.h > unlocked.h) unlocked = ride
+            }
+          }
           else cant.push(ride)
         })
         /* Sorted by how close they are, so the nearest miss reads first — that is the one that
@@ -80,11 +111,18 @@
               (nearMiss.length === 1 ? 'One ride is just out of reach' : nearMiss.length + ' rides are just out of reach') +
               '</p><ul class="nearmiss__list">' + nearMiss.map(function (r) {
                 var gap = r.h - inches
-                return '<li><span class="nearmiss__gap">+' + gap + '"</span> ' + esc(r.n) + '</li>'
+                /* How close the child already is — the bar is the encouragement. */
+                var pct = Math.max(4, Math.min(96, Math.round((inches / r.h) * 100)))
+                return '<li class="nearmiss__item"><span class="nearmiss__gap">+' + gap + '"</span> ' + esc(r.n) +
+                  '<span class="nearmiss__bar" aria-hidden="true"><span class="nearmiss__fill" style="width:' + pct + '%"></span></span>' +
+                  '<span class="nearmiss__pct">' + pct + '% of the way there</span></li>'
               }).join('') + '</ul></div>'
             : '') +
           '<ul class="ride-chiplist">' +
-            can.map(function (r) { return '<li>' + esc(r.n) + '</li>' }).join('') +
+            can.map(function (r) {
+              var glow = unlocked && r.n === unlocked.n && r.h === unlocked.h ? ' data-unlocked' : ''
+              return '<li' + glow + '>' + esc(r.n) + '</li>'
+            }).join('') +
             cant.map(function (r) {
               return '<li data-blocked data-need="' + r.h + '">' + esc(r.n) + '</li>'
             }).join('') +
@@ -101,6 +139,8 @@
         totalCan + ' of ' + totalAll + ' rides they can do, ' +
         (totalAll - totalCan) + ' still too short.'
       )
+
+      if (unlocked) announceUnlock(unlocked)
     }
 
     function esc (s) {
@@ -111,8 +151,10 @@
 
     slider.addEventListener('input', function () {
       var inches = Number(slider.value)
+      var prev = Number(slider.getAttribute('data-prev'))
       persist(inches)
-      render(inches)
+      render(inches, isNaN(prev) ? null : prev)
+      slider.setAttribute('data-prev', String(inches))
     })
 
     if (unitToggle) {

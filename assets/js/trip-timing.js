@@ -82,39 +82,67 @@
       } catch (e) { /* ignore */ }
     }
 
-    function render () {
-      var st = state()
-      persist(st)
+      var prevTops = null
+      var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)')
 
-      var ranked = months.map(function (m) {
-        return { m: m, score: scoreFor(m, st) }
-      }).sort(function (a, b) {
-        return b.score - a.score || a.m.n - b.m.n
-      })
+      function render () {
+        var st = state()
+        persist(st)
 
-      var best = ranked[0].score
-      var worst = ranked[ranked.length - 1].score
-      var span = best - worst
-      // A perfect tie has no spread to normalise against; full bars read as "equally good",
-      // which is the true answer, where 8% slivers would read as a ranking that does not exist.
-      var tie = span < 0.001
-      span = Math.max(0.001, span)
+        // FLIP reorder: capture where each month's row sits now, re-render, then glide every
+        // row from its old position to the new one with a small stagger — the reorder itself
+        // is the demo. Under reduced motion the list simply re-renders instantly, as before.
+        if (results && !REDUCED.matches) {
+          prevTops = {}
+          Array.prototype.forEach.call(results.children, function (li) {
+            var key = li.getAttribute('data-m')
+            if (key) prevTops[key] = li.getBoundingClientRect().top
+          })
+        }
 
-      if (results) {
-        results.innerHTML = ranked.map(function (row, i) {
-          // Normalised against the visible spread rather than the 1–5 absolute, so the bars stay
-          // readable when every month scores similarly on the chosen dimensions.
-          var pct = tie ? 100 : Math.round(((row.score - worst) / span) * 92) + 8
-          return '<li class="timing-result">' +
-            '<span class="timing-result__rank">' + (i + 1) + '</span>' +
-            '<span>' +
-              '<a class="timing-result__name" href="' + esc(row.m.url) + '">' + esc(row.m.name) + '</a>' +
-              '<span class="timing-result__bar"><span class="timing-result__fill" style="width:' + pct + '%"></span></span>' +
-            '</span>' +
-            '<span class="grade grade--' + esc(row.m.tone) + '">' + esc(row.m.grade) + '</span>' +
-          '</li>'
-        }).join('')
-      }
+        var ranked = months.map(function (m) {
+          return { m: m, score: scoreFor(m, st) }
+        }).sort(function (a, b) {
+          return b.score - a.score || a.m.n - b.m.n
+        })
+
+        var best = ranked[0].score
+        var worst = ranked[ranked.length - 1].score
+        var span = best - worst
+        // A perfect tie has no spread to normalise against; full bars read as "equally good",
+        // which is the true answer, where 8% slivers would read as a ranking that does not exist.
+        var tie = span < 0.001
+        span = Math.max(0.001, span)
+
+        if (results) {
+          results.innerHTML = ranked.map(function (row, i) {
+            var pct = tie ? 100 : Math.round(((row.score - worst) / span) * 92) + 8
+            return '<li class="timing-result" data-m="' + row.m.n + '">' +
+              '<span class="timing-result__rank">' + (i + 1) + '</span>' +
+              '<span>' +
+                '<a class="timing-result__name" href="' + esc(row.m.url) + '">' + esc(row.m.name) + '</a>' +
+                '<span class="timing-result__bar"><span class="timing-result__fill" style="width:' + pct + '%"></span></span>' +
+              '</span>' +
+              '<span class="grade grade--' + esc(row.m.tone) + '">' + esc(row.m.grade) + '</span>' +
+            '</li>'
+          }).join('')
+
+          if (prevTops) {
+            Array.prototype.forEach.call(results.children, function (li, i) {
+              var oldTop = prevTops[li.getAttribute('data-m')]
+              if (oldTop == null) return
+              var delta = oldTop - li.getBoundingClientRect().top
+              if (!delta) return
+              li.style.transition = 'none'
+              li.style.transform = 'translateY(' + delta + 'px)'
+              requestAnimationFrame(function () {
+                li.style.transition = 'transform .35s cubic-bezier(.22,.61,.36,1) ' + (i * 20) + 'ms'
+                li.style.transform = ''
+              })
+            })
+            prevTops = null
+          }
+        }
 
       if (summary) {
         var top = ranked.slice(0, 3).map(function (r) { return r.m.name })
