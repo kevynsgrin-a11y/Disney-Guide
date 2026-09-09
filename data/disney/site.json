@@ -389,6 +389,91 @@
     "subcategory": "Places & Travel",
     "artwork": "https://ridereadyguide.com/assets/img/photos/podcast-cover-1440.jpg",
     "audioBase": "https://ridereadyguide.com/assets/audio",
-    "episodes": []
+    "episodes": [
+      {
+        "month": 1,
+        "file": "01-january.mp3",
+        "bytes": 3566907,
+        "durationSeconds": 223,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 2,
+        "file": "02-february.mp3",
+        "bytes": 3342463,
+        "durationSeconds": 209,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 3,
+        "file": "03-march.mp3",
+        "bytes": 2990959,
+        "durationSeconds": 187,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 4,
+        "file": "04-april.mp3",
+        "bytes": 3290636,
+        "durationSeconds": 206,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 5,
+        "file": "05-may.mp3",
+        "bytes": 3578192,
+        "durationSeconds": 224,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 6,
+        "file": "06-june.mp3",
+        "bytes": 3411426,
+        "durationSeconds": 213,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 7,
+        "file": "07-july.mp3",
+        "bytes": 3689369,
+        "durationSeconds": 231,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 8,
+        "file": "08-august.mp3",
+        "bytes": 3856553,
+        "durationSeconds": 241,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 9,
+        "file": "09-september.mp3",
+        "bytes": 3303175,
+        "durationSeconds": 206,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 10,
+        "file": "10-october.mp3",
+        "bytes": 3256364,
+        "durationSeconds": 204,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 11,
+        "file": "11-november.mp3",
+        "bytes": 3593657,
+        "durationSeconds": 225,
+        "published": "2026-09-09"
+      },
+      {
+        "month": 12,
+        "file": "12-december.mp3",
+        "bytes": 3444445,
+        "durationSeconds": 215,
+        "published": "2026-09-09"
+      }
+    ]
   }
 }
