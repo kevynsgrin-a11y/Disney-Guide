@@ -241,6 +241,7 @@ export function guidesIndex (data) {
       title: 'Guides that stay true',
       lede: 'The mechanics that do not change week to week: how Lightning Lane works, how heights are measured, what actually frightens a four-year-old, and what belongs in the bag.',
       tone: 'compact',
+      image: data.photo['scene-castle'],
     })}
 
     ${categories.map((category) => C.section({
@@ -490,6 +491,7 @@ export function compareIndex (data) {
       title: 'The arguments, settled',
       lede: 'Every comparison page here commits to an answer and shows the reasoning. If we think it is genuinely a tie, we say that too — but only when it is.',
       tone: 'compact',
+      image: data.photo['scene-splash'],
     })}
 
     ${C.section({

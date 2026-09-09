@@ -476,7 +476,7 @@ export function legalPages (data) {
         id: 'analytics',
         body: [
           site.analytics.enabled
-            ? 'Privacy-focused analytics run here, reporting in aggregate only: how many people opened a page and roughly where they arrived from. No tracking cookie is set, no profile is assembled across sites, and no individual visitor is identified.'
+            ? 'Privacy-focused analytics run here, reporting in aggregate only: how many people opened a page and roughly where they arrived from. No tracking cookie is set, no profile is assembled across sites, and no individual visitor is identified. The script loads only after you say yes to the consent bar — declining is stored in your browser and honoured on every later visit, and clearing this site’s data revokes either answer.'
             : 'No analytics are loaded on this site. Not a self-hosted script, not a privacy-focused one, not a tag firing quietly on page load. If that changes, this section is updated before the script ships rather than after.',
         ],
       },

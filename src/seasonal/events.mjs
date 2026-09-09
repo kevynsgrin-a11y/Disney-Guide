@@ -290,6 +290,7 @@ export function eventsIndex (data) {
       eyebrow: site.brand.name,
       title: `Every seasonal event at the ${site.brand.shortName} parks`,
       lede: 'Parties, festivals, overlays and after-hours events — what each one is, what it costs, and whether it is worth the money. Every page states whether this year is confirmed or still expected.',
+      image: data.photo['scene-drop'],
       meta: [
         { label: 'Events tracked', value: String(events.length) },
         { label: 'Resorts', value: String((site.resorts || []).length) },

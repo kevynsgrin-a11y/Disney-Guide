@@ -438,11 +438,14 @@ const INLINE_SCRIPT_HASH = `sha256-${createHash('sha256').update(THEME_BOOTSTRAP
  */
 const CSP = [
   "default-src 'self'",
-  `script-src 'self' '${INLINE_SCRIPT_HASH}'`,
+  // static.cloudflareinsights.com is the aggregate, cookieless Web Analytics beacon. It appears
+  // here so the policy does not need a rebuild the day analytics is switched on; the real gate is
+  // the consent bar in assets/js/analytics.js, which never injects the script before "granted".
+  `script-src 'self' '${INLINE_SCRIPT_HASH}' https://static.cloudflareinsights.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self'",
   "font-src 'none'",
-  "connect-src 'self'",
+  "connect-src 'self' https://cloudflareinsights.com",
   "manifest-src 'self'",
   "worker-src 'self'",
   "object-src 'none'",

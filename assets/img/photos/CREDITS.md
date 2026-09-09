@@ -3,7 +3,7 @@
 Every file in this directory is recorded here before it ships, per the rights rules in
 `README.md` and `docs/ASSET-RUNBOOK.md`.
 
-## hero-fireworks, scene-carousel, scene-coaster, social-card
+## hero-fireworks, scene-carousel, scene-coaster, scene-castle, scene-drop, scene-splash, day-end, social-card, podcast-cover
 
 - **Provenance:** generated in-repo. `scripts/generate-artwork.mjs` draws each scene as SVG
   from geometric primitives (seeded, deterministic) and renders it through headless Chromium;

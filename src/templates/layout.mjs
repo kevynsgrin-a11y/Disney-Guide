@@ -227,6 +227,9 @@ ${siteFooter(site)}
 ${searchDialog()}
 <script defer src="${v('/assets/js/app.js')}"></script>
 ${scripts.map((src) => html`<script defer src="${v(src)}"></script>`)}
+${site.analytics && site.analytics.enabled && site.analytics.token ? html`
+<script id="analytics-config" type="application/json" data-token="${site.analytics.token}">{ "provider": "${site.analytics.provider || 'cloudflare-web-analytics'}" }</script>
+<script defer src="${v('/assets/js/analytics.js')}"></script>` : ''}
 </body>
 </html>
 `.toString()
