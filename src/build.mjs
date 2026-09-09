@@ -37,6 +37,7 @@ import * as seasonalCore from './seasonal/core.mjs'
 import * as events from './seasonal/events.mjs'
 import * as months from './seasonal/months.mjs'
 import * as reference from './seasonal/reference.mjs'
+import * as statusPages from './seasonal/status.mjs'
 import * as seasonalTools from './seasonal/tools.mjs'
 
 const started = performance.now()
@@ -128,6 +129,11 @@ function buildPages (data, seasonal) {
     pages.push(reference.closuresIndex(seasonal))
     for (const tracker of seasonal.closures) pages.push(reference.closuresPage(tracker, seasonal))
   }
+
+  // Ride status: the per-park open/closed board with the guest-report layer (Phase 2 client
+  // hydrates from /api/status; the scheduled half is complete without it).
+  pages.push(statusPages.statusIndex(data))
+  for (const park of data.parks) pages.push(statusPages.statusParkPage(park, data))
 
   pages.push(...legalPages(data))
 
@@ -441,12 +447,12 @@ const CSP = [
   // static.cloudflareinsights.com is the aggregate, cookieless Web Analytics beacon. It appears
   // here so the policy does not need a rebuild the day analytics is switched on; the real gate is
   // the consent bar in assets/js/analytics.js, which never injects the script before "granted".
-  `script-src 'self' '${INLINE_SCRIPT_HASH}' https://static.cloudflareinsights.com`,
+  `script-src 'self' '${INLINE_SCRIPT_HASH}' https://static.cloudflareinsights.com https://challenges.cloudflare.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self'",
   "media-src 'self'",
   "font-src 'none'",
-  "connect-src 'self' https://cloudflareinsights.com",
+  "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",
   "manifest-src 'self'",
   "worker-src 'self'",
   "object-src 'none'",
@@ -681,6 +687,16 @@ async function buildOperator (operator) {
   }
 
   await copyAssets(dist)
+
+  // The slug manifest the report endpoint validates against: same build, same truth — the
+  // API cannot accept a ride slug the pages do not know about, because both read this file.
+  const statusManifest = {}
+  for (const park of data.parks) {
+    statusManifest[park.slug] = park.attractions.filter((a) => a.isOpen).map((a) => a.slug)
+  }
+  await mkdir(join(dist, 'data'), { recursive: true })
+  await writeFile(join(dist, 'data', 'status-manifest.json'), JSON.stringify(statusManifest), 'utf8')
+
   await writeFile(join(dist, 'sitemap.xml'), buildSitemap(data.site, pages, staleUrls), 'utf8')
   await writeFile(join(dist, 'robots.txt'), buildRobots(data.site), 'utf8')
   await writeFile(join(dist, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
