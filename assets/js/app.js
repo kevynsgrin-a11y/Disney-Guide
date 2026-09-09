@@ -288,7 +288,9 @@
   /* Numbers in the stat bands count up once, on first view. The final value is what the
      server rendered, so no-JS and reduced-motion visitors see exactly the same figures. */
   function initStatCountUp () {
-    if (REDUCED_MOTION.matches) return
+    /* In a background tab rAF is throttled and an animation that started there would freeze
+       mid-number; the server-rendered figure is the whole point, so hidden tabs simply keep it. */
+    if (REDUCED_MOTION.matches || document.hidden) return
     var seen = false
     var targets = []
     document.querySelectorAll('.stat-row__value').forEach(function (el) {
@@ -322,7 +324,9 @@
   /* One restrained fade-and-rise as a band enters the viewport — the class is added by
      JavaScript only, so the page without JS renders exactly as it always has. */
   function initReveal () {
-    if (REDUCED_MOTION.matches) return
+    /* Never hide anything in a hidden tab: observers and frames are throttled there, and a
+       page that loaded in the background must not still be invisible when it is focused. */
+    if (REDUCED_MOTION.matches || document.hidden) return
     var bands = document.querySelectorAll('main .band')
     if (!bands.length || !('IntersectionObserver' in window)) return
     var obs = new IntersectionObserver(function (entries) {
@@ -337,6 +341,11 @@
       el.classList.add('reveal')
       obs.observe(el)
     })
+    /* Failsafe: whatever throttling did or did not fire, nothing stays hidden for long. */
+    setTimeout(function () {
+      bands.forEach(function (el) { el.classList.add('is-revealed') })
+      obs.disconnect()
+    }, 1500)
   }
 
   /* ---------- Go ---------------------------------------------------------- */
