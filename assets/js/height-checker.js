@@ -141,6 +141,18 @@
       )
 
       if (unlocked) announceUnlock(unlocked)
+      /* C5: the one moment of earned warmth */
+      if (totalAll > 0 && totalCan === totalAll && !window.__rrkAllClear) {
+        window.__rrkAllClear = true
+        var allClear = document.createElement('p')
+        allClear.className = 'hchecker__toast'
+        allClear.setAttribute('role', 'status')
+        allClear.textContent = 'They’re ready for it all.'
+        document.querySelector('.hchecker') && document.querySelector('.hchecker').appendChild(allClear)
+        setTimeout(function () { allClear.removeAttribute('data-open') }, 3000)
+        setTimeout(function () { allClear.setAttribute('data-open', '') }, 50)
+        setTimeout(function () { allClear.remove() }, 4500)
+      }
     }
 
     function esc (s) {

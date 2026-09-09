@@ -338,6 +338,50 @@
     update()
   }
 
+  /* ---------- Reading mode (the lamp) --------------------------------------- */
+
+  function initLamp () {
+    var btn = document.querySelector('[data-lamp-toggle]')
+    if (!btn) return
+    function apply (on) {
+      if (on) document.documentElement.setAttribute('data-lamp', '')
+      else document.documentElement.removeAttribute('data-lamp')
+      btn.setAttribute('aria-pressed', String(on))
+      try { localStorage.setItem('rrg-lamp', on ? 'on' : 'off') } catch (e) { }
+    }
+    var stored
+    try { stored = localStorage.getItem('rrg-lamp') } catch (e) { }
+    if (stored === 'on') apply(true)
+    btn.addEventListener('click', function () {
+      apply(!document.documentElement.hasAttribute('data-lamp'))
+    })
+  }
+
+  /* ---------- Return-visitor greeting ----------------------------------------- */
+
+  function initWelcomeBack () {
+    var hasFood, hasHeight
+    try {
+      hasFood = !!localStorage.getItem('rrg-food')
+      hasHeight = !!localStorage.getItem('rrg-height')
+    } catch (e) { return }
+    if (!hasFood && !hasHeight) return
+    try { if (sessionStorage.getItem('rrg-welcomed')) return } catch (e) { }
+    var bar = document.createElement('div')
+    bar.className = 'welcome-back'
+    bar.setAttribute('role', 'status')
+    bar.innerHTML = 'Welcome back — your list is still here. <a href="/tools/food-tracker/">Open your tracker</a>'
+    var close = document.createElement('button')
+    close.className = 'welcome-back__close'
+    close.setAttribute('aria-label', 'Dismiss')
+    close.textContent = '×'
+    close.addEventListener('click', function () { bar.remove() })
+    bar.appendChild(close)
+    var main = document.querySelector('main')
+    if (main && main.parentNode) main.parentNode.insertBefore(bar, main)
+    try { sessionStorage.setItem('rrg-welcomed', '1') } catch (e) { }
+  }
+
   /* ---------- Data saver --------------------------------------------------- */
 
   /* The hero loop is 0.6 MB, but a visitor on a metered plan who asked their browser to save
@@ -358,6 +402,8 @@
     initSortableTables()
     initSearch()
     initConnectivity()
+    initLamp()
+    initWelcomeBack()
     initDataSaver()
     initReveal()
     initServiceWorker()

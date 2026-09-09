@@ -159,6 +159,12 @@ export function guidePage (guide, data) {
 
   const body = html`
     ${C.breadcrumbs(trail)}
+    <p class="right mb-0 mt-2" data-print-hide>
+      <button type="button" class="lamp-toggle" data-lamp-toggle aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.6 1 1.5 1 2.5h6c0-1 .3-1.9 1-2.5A6 6 0 0 0 12 3Z"/></svg>
+        Lamp mode
+      </button>
+    </p>
     ${C.hero({
       eyebrow: CATEGORY_LABEL[guide.category] || 'Guide',
       title: guide.h1 || guide.title,

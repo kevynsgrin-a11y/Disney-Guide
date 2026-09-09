@@ -3,7 +3,7 @@ import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
-const ASSET_VERSION = '10'
+const ASSET_VERSION = '11'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 /**
@@ -168,7 +168,7 @@ function siteFooter (site) {
         </div>
         <div class="site-footer__legal">
           <p class="disclaimer">${site.legal.disclaimer}</p>
-          <p class="copyright">© ${year} ${site.legal.copyrightHolder}. Independent editorial. <a href="${urls.editorial()}">How we work</a> · <a href="${urls.affiliate()}">Affiliate disclosure</a> · <a href="${urls.privacy()}">Privacy</a></p>
+          <p class="copyright"><span class="footer-ferris" aria-hidden="true"><svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1"><circle cx="10" cy="10" r="8"/><circle cx="10" cy="10" r="1.5" fill="currentColor"/><path d="M10 2v16M2 10h16M4.3 4.3l11.4 11.4M15.7 4.3L4.3 15.7" stroke-width=".5"/></svg></span> © ${year} ${site.legal.copyrightHolder}. Independent editorial. <a href="${urls.editorial()}">How we work</a> · <a href="${urls.affiliate()}">Affiliate disclosure</a> · <a href="${urls.privacy()}">Privacy</a></p>
         </div>
       </div>
     </footer>

@@ -129,6 +129,11 @@
     if (labelEl) {
       var pct = c.total ? Math.round((c.tried / c.total) * 100) : 0
       labelEl.textContent = pct + '% tried · ' + c.want + ' on your list'
+      /* C5: the 10-item nod */
+      if (c.tried === 10 && !window.__rrfNod) {
+        window.__rrfNod = true
+        flash('That’s a well-planned day of eating.')
+      }
     }
     if (ring) {
       var r = Number(ring.getAttribute('r')) || 18
