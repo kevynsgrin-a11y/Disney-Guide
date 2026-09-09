@@ -290,93 +290,6 @@ export function ridesPage (park, data) {
  * Attraction detail
  * ------------------------------------------------------------------ */
 
-
-/**
- * V6: The ride dossier card — the internal-operations treatment for standalone ride pages.
- * A dense, visual data display replacing the plain label/value fact panel.
- */
-function rideDossier (a, queueName) {
-  const scary = a.scary || {}
-  const acc = a.accessibility || {}
-  const heightPct = a.heightIn ? Math.round(((a.heightIn - 28) / 28) * 100) : null
-  const isOpen = (a.status || 'open') === 'open'
-  const motionRisk = a.motionSickness || 'none'
-  const cells = []
-
-  if (a.heightIn != null) {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Height</span>
-      <span class="dossier__value dossier__value--accent">${a.heightIn}" (${Math.round(a.heightIn * 2.54)}cm)</span>
-      <span class="dossier__height-bar"><span class="dossier__height-fill" style="width:${heightPct}%"></span></span>
-    </div>`)
-  } else {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Height</span>
-      <span class="dossier__value">No gate</span>
-    </div>`)
-  }
-
-  if (a.intensity != null) {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Intensity</span>
-      <span class="dossier__dots" aria-label="Intensity ${a.intensity} of 5">
-        ${[1,2,3,4,5].map(i => html`<span class="dossier__dot${i <= a.intensity ? ' dossier__dot--on' : ''}${a.intensity >= 4 && i <= a.intensity ? ' dossier__dot--high' : ''}"></span>`)}
-      </span>
-    </div>`)
-  }
-
-  if (a.lightningLane) {
-    const tier = a.lightningLane === 'multi-pass' ? 'Multi Pass'
-      : a.lightningLane === 'single-pass' ? 'Single Pass' : 'Standby'
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Queue</span>
-      <span class="dossier__queue dossier__queue--${a.lightningLane === 'multi-pass' ? 'multi' : a.lightningLane === 'single-pass' ? 'single' : 'standby'}">${tier}</span>
-    </div>`)
-  }
-
-  cells.push(html`<div class="dossier__cell">
-    <span class="dossier__label">Status</span>
-    <span class="dossier__status">
-      <span class="dossier__status-dot dossier__status-dot--${isOpen ? 'open' : 'refurb'}"></span>
-      <span class="dossier__value">${isOpen ? 'Open' : 'Refurbishment'}</span>
-    </span>
-  </div>`)
-
-  if (a.durationMinutes != null) {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Ride length</span>
-      <span class="dossier__value">${f.duration(a.durationMinutes)}</span>
-    </div>`)
-  }
-
-  if (a.opened) {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Opened</span>
-      <span class="dossier__value">${a.opened}</span>
-    </div>`)
-  }
-
-  const chips = []
-  if (acc.transfer) chips.push(html`<span class="dossier__chip dossier__chip--transfer">${f.transfer(acc.transfer)}</span>`)
-  if (motionRisk === 'moderate') chips.push(html`<span class="dossier__chip dossier__chip--motion-mod">Mod motion</span>`)
-  if (motionRisk === 'high') chips.push(html`<span class="dossier__chip dossier__chip--motion-high">High motion</span>`)
-  if (chips.length) {
-    cells.push(html`<div class="dossier__cell">
-      <span class="dossier__label">Access</span>
-      <span class="dossier__chips">${chips}</span>
-    </div>`)
-  }
-
-  const opsNote = scary.notes || a.summary
-  if (opsNote) {
-    cells.push(html`<div class="dossier__ops">
-      <strong>Intel:</strong> ${opsNote}
-    </div>`)
-  }
-
-  return html`<div class="dossier" role="region" aria-label="Ride data">${cells}</div>`
-}
-
 export function attractionPage (attraction, data) {
   const { site } = data
   const park = attraction.park
@@ -392,7 +305,6 @@ export function attractionPage (attraction, data) {
 
   const body = html`
     ${C.breadcrumbs(trail)}
-    <div class="scene-band scene-band--ride" aria-hidden="true"></div>
     ${C.hero({
       eyebrow: `${park.name}${attraction.landInfo ? ` · ${attraction.landInfo.name}` : ''}`,
       title: attraction.name,
@@ -425,8 +337,6 @@ export function attractionPage (attraction, data) {
       tone: 'tight',
       children: C.callout({ type: 'warning', title: 'Not currently operating', body: attraction.closedNote || 'This attraction is closed.' }),
     }) : ''}
-
-    ${rideDossier(attraction, data.queue.name)}
 
     ${C.section({
       children: html`

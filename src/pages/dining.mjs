@@ -30,7 +30,6 @@ export function diningHub (park, data) {
 
   const body = html`
     ${C.breadcrumbs(trail)}
-    <div class="scene-band scene-band--dining" aria-hidden="true"></div>
     ${C.hero({
       eyebrow: park.name,
       title: `Where to eat at ${park.name}`,
