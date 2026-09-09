@@ -100,6 +100,13 @@
         "The practical response is the same as in March: stop hunting for a quiet week and start optimizing day of week. Tuesdays and Wednesdays in the first half of October are consistently the softest days, and the difference between a Tuesday and a Saturday in this month is larger than the difference between two different weeks.",
         "The compensating advantage is that October's weather is the best available at Walt Disney World between April and November, which is worth a certain amount of crowd on its own terms."
       ]
+    },
+    {
+      "heading": "The 2026 October, specifically",
+      "body": [
+        "Halloween falls on a Saturday in 2026, which stacks weekend demand onto the party finale and makes the October 25–31 week the one to avoid if you have any flexibility. The crowd-data publishers broadly agree on the shape of the month: October 1–4 runs light, roughly October 5–9 ramps, October 10–25 is the fall-break peak, and November 1–6 dips before Jersey Week.",
+        "For scale: the 2025 fall-break peak averaged about 50 minutes per attraction at Magic Kingdom — the worst Disney World crowds since the prior Easter — and 2026 is tracking to a similar peak inside that October 10–25 band even though overall 2026 demand has run soft (July 2026 was the slowest month since 2021). October’s problem is structural, not a demand surge."
+      ]
     }
   ],
   "crossLinks": [
@@ -125,9 +132,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Party night counts and their placement in the week vary by cycle and are described as a pattern rather than a schedule.",
+    "sourceNote": "October 2026 window shape and 2025 comparison from Disney Tourist Blog’s October 2026 crowd calendar and fall-break 2025 reporting, WDW Prep School’s 2026 calendar breakdown, and Thrill Data’s 2025 resort numbers, viewed September 2026.",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }
