@@ -34,6 +34,7 @@ export function holidayPage (holiday, data) {
       eyebrow: 'Holidays',
       title: holiday.h1 || holiday.title,
       lede: holiday.summary,
+      image: holiday.slug === 'halloween' ? data.photo['halloween-mansion'] : undefined,
       aside: SC.freshnessRibbon(holiday.freshness, state),
     })}
 

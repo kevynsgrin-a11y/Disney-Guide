@@ -41,3 +41,18 @@ Every file in this directory is recorded here before it ships, per the rights ru
   construction details.
 - **Re-encode:** the delivered 3,506 KB file was re-encoded in-repo (ffmpeg libx264 CRF 32)
   to 635 KB at identical resolution and frame rate; no generative step was involved or needed.
+
+## halloween-mansion, halloween-costume-night, halloween-treats, halloween-pumpkin-patch
+
+- **Provenance:** generated 2026-09-09 with Google Gemini (Ultra daily quota), from the four
+  verbatim briefs in the Halloween launch package's Gemini batch. Converted, sized, and
+  measured in-repo; AVIF and WebP land inside the section-scene byte budgets.
+- **Licence:** generated for Ride Ready Guide; no external image or reference material
+  incorporated. AI-generated media is treated as uncopyrightable and recorded as such.
+- **IP position:** each image was inspected against the full guardrail checklist before
+  shipping — no park-operator characters, logos, or wordmarks; no licensed costumes; no
+  three-circle arrangements in any object; the mansion is a generic storybook Victorian that
+  deliberately resembles no real venue; jack-o-lantern faces are conventional triangle
+  carvings; all figures anonymous with no identifiable faces; no readable text or branding.
+  Inspection verdicts recorded in the September 2026 launch notes: all four PASS.
+- **Use:** decorative section imagery for the Halloween season pages.
