@@ -278,6 +278,19 @@
     update()
   }
 
+  /* ---------- Data saver --------------------------------------------------- */
+
+  /* The hero loop is 0.6 MB, but a visitor on a metered plan who asked their browser to save
+     data gets the poster and nothing else. The poster already sits beneath the video, so
+     removing the element is the whole change — zero video bytes, same first paint. */
+  function initDataSaver () {
+    var conn = navigator.connection
+    if (conn && conn.saveData) {
+      var video = document.querySelector('.hero__video')
+      if (video) video.parentNode.removeChild(video)
+    }
+  }
+
   ready(function () {
     initTheme()
     initNav()
@@ -285,6 +298,7 @@
     initSortableTables()
     initSearch()
     initConnectivity()
+    initDataSaver()
     initServiceWorker()
   })
 })()
