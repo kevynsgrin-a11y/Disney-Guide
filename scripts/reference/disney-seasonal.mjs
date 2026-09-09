@@ -47,10 +47,11 @@ export const WINDOWS = {
 
 /* §7.3  Price bands. The authored range must sit inside the verified band, not merely overlap it. */
 export const PRICE_BANDS = {
-  'mickeys-not-so-scary-halloween-party': [119, 219],
+  // Widened to the verified 2026 cycle (Sep 2026): MNSSHP peaks at $229, Oogie opens at $139.
+  'mickeys-not-so-scary-halloween-party': [119, 229],
   'mickeys-very-merry-christmas-party': [169, 219],
   'disney-jollywood-nights': [159, 209],
-  'oogie-boogie-bash': [154, 224],
+  'oogie-boogie-bash': [139, 224],
   'disney-after-hours': [139, 209],
 }
 

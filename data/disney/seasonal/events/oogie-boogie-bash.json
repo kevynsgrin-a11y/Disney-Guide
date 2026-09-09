@@ -31,10 +31,10 @@
   "pricing": {
     "model": "per-night",
     "rangeUsd": [
-      154,
-      224
+      139,
+      199
     ],
-    "asOf": "2025 season",
+    "asOf": "2026 season",
     "cheapestNights": "Sunday and weeknight dates in the first half of the run, before Southern California schools settle into the Halloween habit",
     "priciestNights": "The last two weeks of the run, and Halloween night itself",
     "notes": [
@@ -199,15 +199,23 @@
       "endDate": "2026-10-31",
       "changes": [
         "The first party lands on 18 August at Disney California Adventure — a few days before the resort’s Halloween Time season begins on 21 August.",
-        "Select nights 18 August through 31 October 2026; tickets have been on sale and early dates have been selling out."
+        "Select nights 18 August through 31 October 2026; tickets have been on sale and early dates have been selling out.",
+        "A record thirty-three nights — the widest calendar the Bash has held — select nights August 18 through October 31, 6pm to 11pm.",
+        "Per-night tickets run $139 to $199: the cheapest nights are $139 and the Halloween-week nights reach $199.",
+        "The cheaper August and September nights began selling out first after the June 18 general on-sale, following the June 16–17 Magic Key presale."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from the Disney Parks Bash announcement and Disney’s official Oogie Boogie Bash page, viewed September 2026; first party night 18 August 2026.",
+        "sourceNote": "Full night-by-night date and price list from Disney’s official event page (viewed September 2026); cross-checked against Disney Tourist Blog’s 2026 guide.",
         "reviewBy": "2026-11",
         "cycle": "annual"
-      }
+      },
+      "nights": 33,
+      "priceRangeUsd": [
+        139,
+        199
+      ]
     },
     {
       "year": 2025,

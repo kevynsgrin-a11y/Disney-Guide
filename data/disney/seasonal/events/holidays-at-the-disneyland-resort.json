@@ -11,19 +11,31 @@
   "title": "Holidays at the Disneyland Resort",
   "titleTail": ": What's Included & When To Go",
   "description": "Disneyland Resort's holiday season is included with admission — five ride overlays, a parade, two shows, a food festival. Here is what it costs you in crowds.",
-
   "typicalWindow": {
     "startsAround": "mid-November",
     "endsAround": "early to mid-January",
     "nightsTypical": 57,
-    "nightsRange": [52, 62],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      52,
+      62
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Every operating day in the window during regular park hours. The parade runs twice most days, the castle lighting and the Main Street snowfall are evening-only, and the food festival marketplaces close before the park does."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [6, 15],
+    "rangeUsd": [
+      6,
+      15
+    ],
     "asOf": "July 2026",
     "cheapestNights": "The ten days before Thanksgiving, and the first full week of January once the New Year crowd has gone home",
     "priciestNights": "The stretch from the week before Christmas through New Year's Day, which is the most expensive and most crowded period of the Disneyland Resort year",
@@ -35,7 +47,6 @@
       "Anaheim hotel rates in the last two weeks of December are the highest of the year, and the walkable independent hotels lose most of their usual price advantage."
     ]
   },
-
   "whatYouGet": [
     "\"it's a small world\" Holiday at Disneyland Park, which changes the ride's score and turns the facade into an evening light sequence that you can watch without queueing.",
     "Haunted Mansion Holiday, carried straight over from the Halloween season and left in place until the first week or two of January.",
@@ -46,7 +57,6 @@
     "Festival of Holidays at Disney California Adventure: marketplaces serving holiday dishes from a rotating set of culinary traditions, plus the Viva Navidad street party in Paradise Gardens Park.",
     "Sleeping Beauty's Winter Castle, lit each evening, and the Main Street tree at Disneyland Park."
   ],
-
   "whatYouDont": [
     "Any relief from the crowds. The week between Christmas and New Year is the busiest of the Disneyland Resort year, and in most recent seasons the resort has reached capacity and stopped admitting guests on at least one of those days. A valid ticket does not guarantee entry once that happens.",
     "The standard versions of \"it's a small world\", the Haunted Mansion, or the Jungle Cruise. All three are overlaid for the whole window, and the small world overlay in particular covers the entire season with no gaps.",
@@ -55,7 +65,6 @@
     "Shorter queues on the overlaid rides. Jingle Cruise roughly doubles the Jungle Cruise's normal standby wait, and \"it's a small world\" Holiday runs waits it never sees in October.",
     "A cheap trip. The tickets cost the same as any other peak date, but late-December lodging, parking, and flights into Southern California all price at their annual highs at once."
   ],
-
   "verdict": {
     "short": "The best value of any seasonal offering at either resort, because all of it is included with a normal ticket. Go before Thanksgiving or in early January; the last two weeks of December are brutal.",
     "worthItIf": [
@@ -73,7 +82,6 @@
       "You need reliable weather for an outdoor-heavy plan. December and January are Southern California's wettest months and a rained-out day takes the parade and fireworks with it."
     ]
   },
-
   "strategy": [
     {
       "heading": "The two windows that make this work",
@@ -122,18 +130,41 @@
       ]
     }
   ],
-
   "food": {
     "note": "Festival of Holidays runs marketplaces around Disney California Adventure with a menu that rotates every season and is published a few weeks before the festival opens. The items below come from the most recently documented cycle and are here to show the format and the price band rather than as a menu to plan around. Items ran $6 to $15 each as of July 2026.",
     "items": [
-      { "name": "Holiday Slider with Braised Beef", "where": "Winter Sliderland", "priceUsd": 11.0, "verdict": "The most filling thing in the festival for the money and the easiest sell to anyone who is not enthusiastic about small plates." },
-      { "name": "Pozole", "where": "Merry Mashups", "priceUsd": 10.5, "verdict": "Better than it needs to be, and the only marketplace item that works as an actual meal on a cold evening." },
-      { "name": "Latke with Applesauce", "where": "Holiday Duets", "priceUsd": 8.5, "verdict": "Small, reliably good, and the fastest-moving line of the marketplaces most days." },
-      { "name": "Seasonal Dessert Flight", "where": "Holiday Duets", "priceUsd": 12.0, "verdict": "Three small sweets for the price of one dessert elsewhere in the park, and the item most worth splitting between four people." },
-      { "name": "Korean-style Short Rib Bowl", "where": "Paradise Garden Grill", "priceUsd": 14.5, "verdict": "A permanent restaurant running a festival menu, which means real seating and a shorter line than the marketplace stalls a few feet away." }
+      {
+        "name": "Holiday Slider with Braised Beef",
+        "where": "Winter Sliderland",
+        "priceUsd": 11.0,
+        "verdict": "The most filling thing in the festival for the money and the easiest sell to anyone who is not enthusiastic about small plates."
+      },
+      {
+        "name": "Pozole",
+        "where": "Merry Mashups",
+        "priceUsd": 10.5,
+        "verdict": "Better than it needs to be, and the only marketplace item that works as an actual meal on a cold evening."
+      },
+      {
+        "name": "Latke with Applesauce",
+        "where": "Holiday Duets",
+        "priceUsd": 8.5,
+        "verdict": "Small, reliably good, and the fastest-moving line of the marketplaces most days."
+      },
+      {
+        "name": "Seasonal Dessert Flight",
+        "where": "Holiday Duets",
+        "priceUsd": 12.0,
+        "verdict": "Three small sweets for the price of one dessert elsewhere in the park, and the item most worth splitting between four people."
+      },
+      {
+        "name": "Korean-style Short Rib Bowl",
+        "where": "Paradise Garden Grill",
+        "priceUsd": 14.5,
+        "verdict": "A permanent restaurant running a festival menu, which means real seating and a shorter line than the marketplace stalls a few feet away."
+      }
     ]
   },
-
   "faqs": [
     {
       "q": "Is the Disneyland holiday season included with a regular ticket?",
@@ -164,18 +195,60 @@
       "a": "No. The holiday overlay is installed for the whole window with no gaps, and the same is true of the Haunted Mansion. The Jungle Cruise keeps its normal layout but runs a seasonal script. If you want the standard versions of all three, visit between February and August."
     }
   ],
-
   "crossLinks": [
-    { "label": "\"it's a small world\" at Disneyland Park", "href": "/disneyland/disneyland-park/rides/its-a-small-world/", "site": 1 },
-    { "label": "Jungle Cruise at Disneyland Park", "href": "/disneyland/disneyland-park/rides/jungle-cruise/", "site": 1 },
-    { "label": "Haunted Mansion at Disneyland Park", "href": "/disneyland/disneyland-park/rides/haunted-mansion/", "site": 1 },
-    { "label": "Cars Land", "href": "/disneyland/california-adventure/lands/cars-land/", "site": 1 },
-    { "label": "World of Color", "href": "/disneyland/california-adventure/rides/world-of-color/", "site": 1 },
-    { "label": "Disneyland Park fireworks", "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/", "site": 1 }
+    {
+      "label": "\"it's a small world\" at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/its-a-small-world/",
+      "site": 1
+    },
+    {
+      "label": "Jungle Cruise at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/jungle-cruise/",
+      "site": 1
+    },
+    {
+      "label": "Haunted Mansion at Disneyland Park",
+      "href": "/disneyland/disneyland-park/rides/haunted-mansion/",
+      "site": 1
+    },
+    {
+      "label": "Cars Land",
+      "href": "/disneyland/california-adventure/lands/cars-land/",
+      "site": 1
+    },
+    {
+      "label": "World of Color",
+      "href": "/disneyland/california-adventure/rides/world-of-color/",
+      "site": 1
+    },
+    {
+      "label": "Disneyland Park fireworks",
+      "href": "/disneyland/disneyland-park/rides/disneyland-fireworks/",
+      "site": 1
+    }
   ],
-  "related": ["halloween-time-at-the-disneyland-resort", "lunar-new-year-at-disney-california-adventure"],
-
+  "related": [
+    "halloween-time-at-the-disneyland-resort",
+    "lunar-new-year-at-disney-california-adventure"
+  ],
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "November 13, 2026 – January 6, 2027",
+      "startDate": "2026-11-13",
+      "endDate": "2027-01-06",
+      "changes": [
+        "The season starts November 13 — moved earlier than the originally published mid-November date, with the holiday changeover install running November 3–12."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Disney’s official Holidays page and the Disney Parks Blog 2026 calendar announcement of July 24, 2026 (viewed September 2026); the earlier start confirmed by Theme Park IQ.",
+        "reviewBy": "2026-12",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
@@ -193,12 +266,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The season has run across both Disneyland Resort parks from mid-November into early or mid-January for more than a decade, with the same core roster of overlays and entertainment, and with no hard-ticket component. As of July 2026 we have not verified an announcement of the coming season's start date, its Festival of Holidays menu, or its entertainment schedule, so none of those are stated here.",
-    "reviewBy": "2026-11",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates officially announced (Nov 13 – Jan 6); see the 2026 edition below.",
+    "reviewBy": "2026-12",
     "cycle": "annual"
   }
 }

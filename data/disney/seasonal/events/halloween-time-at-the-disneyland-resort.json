@@ -194,12 +194,15 @@
       "endDate": "2026-10-31",
       "changes": [
         "Runs 21 August through 31 October 2026 across both parks, the resort hotels, and Downtown Disney, included with regular admission.",
-        "Plaza de la Familia and A Musical Celebration of Coco return as part of the season."
+        "Plaza de la Familia and A Musical Celebration of Coco return as part of the season.",
+        "Haunted Mansion closes August 8–20 for its holiday overlay install and reopens August 21 as Haunted Mansion Holiday, on the season’s first day.",
+        "Space Mountain runs its Hyperspace Mountain overlay through the Halloween season; the Ghost Galaxy Halloween overlay, last run in 2018, is not returning in 2026.",
+        "Plaza de la Familia at Disney California Adventure runs August 21 through November 2, extending past Halloween to cover Día de los Muertos."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from Disney’s official Halloween Time at the Disneyland Resort page, viewed September 2026.",
+        "sourceNote": "Overlay install and reopen dates, Space Mountain overlay status, and Plaza de la Familia window from Disney’s official Halloween Time and Plaza de la Familia pages (viewed September 2026); overlay reporting cross-checked against the OC Register and Mousedining.",
         "reviewBy": "2026-11",
         "cycle": "annual"
       }

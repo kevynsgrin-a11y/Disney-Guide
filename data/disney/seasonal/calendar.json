@@ -32,7 +32,7 @@
       "startMonth": 11,
       "endMonth": 12,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "mickeys-not-so-scary-halloween-party",
@@ -46,7 +46,7 @@
       "startMonth": 11,
       "endMonth": 12,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "disney-jollywood-nights",
@@ -95,7 +95,7 @@
       "startMonth": 11,
       "endMonth": 1,
       "resort": "disneyland",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "disneyland-after-dark",
