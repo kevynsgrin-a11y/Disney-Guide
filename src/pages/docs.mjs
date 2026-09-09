@@ -159,6 +159,7 @@ export function guidePage (guide, data) {
 
   const body = html`
     ${C.breadcrumbs(trail)}
+    <div class="scene-band scene-band--guide" aria-hidden="true"></div>
     <p class="right mb-0 mt-2" data-print-hide>
       <button type="button" class="lamp-toggle" data-lamp-toggle aria-pressed="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.6 1 1.5 1 2.5h6c0-1 .3-1.9 1-2.5A6 6 0 0 0 12 3Z"/></svg>
@@ -367,6 +368,17 @@ function pickThisIf (page) {
   `
 }
 
+
+function verdictCard (verdict) {
+  if (!verdict || !verdict.short) return ''
+  return html`
+    <aside class="verdict-card" aria-label="The verdict">
+      <p class="verdict-card__label">The verdict</p>
+      <p class="verdict-card__text">${verdict.short}</p>
+    </aside>
+  `
+}
+
 export function comparePage (page, data) {
   const { site } = data
   const trail = [
@@ -378,6 +390,7 @@ export function comparePage (page, data) {
 
   const body = html`
     ${C.breadcrumbs(trail)}
+    <div class="scene-band scene-band--compare" aria-hidden="true"></div>
     ${C.hero({
       eyebrow: 'Comparison',
       title: page.h1 || page.title,
@@ -388,6 +401,7 @@ export function comparePage (page, data) {
         { label: 'Last verified', value: f.humanDate(page.lastVerified) },
       ].filter(Boolean),
     })}
+    ${verdictCard(page.verdict)}
 
     ${C.section({
       children: html`
