@@ -57,6 +57,14 @@
       "body": "Disney tightened Disability Access Service eligibility in 2024 and continues to adjust both the criteria and the request process. We cover the durable mechanics in our [accessibility guide](/guides/disability-access-service/), but always confirm the current process on Disney’s official accessibility pages before your trip."
     }
   },
+  "heroVideo": {
+    "src": "/assets/video/hero-fairground-fireworks-loop.mp4",
+    "poster": "/assets/img/photos/hero-fairground-fireworks-poster.jpg",
+    "type": "video/mp4",
+    "width": 1920,
+    "height": 1080,
+    "note": "Decorative and silent: a six-second seamless loop over a generic fairground. The named poster remains visible for first paint, reduced motion, and unsupported video. See docs/HERO-VIDEO-LOOP.md."
+  },
   "photos": {
     "hero": {
       "file": "hero-fireworks",

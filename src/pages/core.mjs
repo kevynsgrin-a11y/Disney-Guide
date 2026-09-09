@@ -91,6 +91,7 @@ export function homePage (data, seasonal) {
         ${C.lastVerified(BUILD_MONTH, 'Everything on this site verified')}
       `,
       image: data.photo.hero,
+      video: site.heroVideo,
     })}
 
     ${C.trustStrip([
