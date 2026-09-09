@@ -453,3 +453,53 @@ and source — in `assets/img/photos/CREDITS.md` before anything ships.
 
 If the hero misses 120 KB and cannot be squeezed, I will say so and we cut it or drop the park-WiFi
 claim. The claim does not quietly lose to a photograph.
+
+
+---
+
+## Podcast batch — state and finish line (2026-09-09)
+
+**Where this stopped and why.** The render was greenlit and the March audition was attempted, but
+`~/.zcode-secrets/elevenlabs.token` authenticates and then fails with
+`missing_permissions: text_to_speech`. The key needs to be recreated in the ElevenLabs dashboard
+with TTS allowed, then dropped into the same path (nothing else changes). Voice choice pending a
+listen: Rachel (`21m00Tcm4TlvDq8ikWAM`) is staged as the default — measured, mid-range, credible
+with numbers; re-cutting all twelve with a different voice is one `--force` command.
+
+**What is already done.**
+
+- Podcast artwork rendered and committed (`assets/img/photos/podcast-cover-1440.*`, 124 KB JPG —
+  Apple's ceiling is 500 KB). Extends `scripts/generate-artwork.mjs` like the other scenes.
+- `site.json → podcast` is fully configured (title, owner email, category, artwork, audioBase).
+  With `episodes: []` the feed builder correctly stays dormant — no `podcast.xml`, nothing broken.
+- Scripts regenerated from the September data: `node scripts/audio-script.mjs disney --pron`.
+
+**Audio hosting decision.** R2 was tried and abandoned: a proxy Worker bound to the bucket listed
+zero objects while the CLI round-tripped them on the same account and bucket name — two surfaces
+disagreeing about the same storage is not something to build a podcast enclosure URL on. Episodes
+ship from the Pages deploy instead, under `assets/audio/`, which CI builds and the service worker
+correctly does not precache. The (empty) `ridereadyguide-podcast` R2 bucket still exists and can be
+deleted via the dashboard if the path is never revisited.
+
+**The finish line, in order.**
+
+```bash
+# 1. Fix the key: ElevenLabs dashboard -> API keys -> create with text_to_speech,
+#    save to ~/.zcode-secrets/elevenlabs.token (same path, same read-token flow).
+
+# 2. Audition one month, listen, confirm the voice:
+ELEVENLABS_API_KEY=$(~/bin/read-token elevenlabs) node scripts/audio-render.mjs disney --voice 21m00Tcm4TlvDq8ikWAM --month 03
+
+# 3. Render the remaining eleven (existing files are skipped automatically):
+ELEVENLABS_API_KEY=$(~/bin/read-token elevenlabs) node scripts/audio-render.mjs disney --voice 21m00Tcm4TlvDq8ikWAM
+
+# 4. Copy the MP3s into the deploy tree (they are gitignored in build/audio/ on purpose;
+#    assets/audio/ is where the feed's audioBase points):
+mkdir -p assets/audio && cp build/audio/disney/*.mp3 assets/audio/
+
+# 5. Paste the episodes block the renderer prints into data/disney/site.json -> podcast.episodes,
+#    replacing SUBFOLDER/ with nothing (audioBase already carries the directory) and setting each
+#    published date (month first of the current cycle is the convention).
+
+# 6. npm run check, PR, merge. podcast.xml goes live on the next deploy automatically.
+```

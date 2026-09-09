@@ -370,6 +370,35 @@ function sceneSocial () {
   return body
 }
 
+/** Podcast cover: the night language at square, lockup dominant. 1440x1440 of its own. */
+function scenePodcastCover () {
+  const rand = rng(31337)
+  const body = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1440" viewBox="0 0 1440 1440">
+    <defs>${skyDefs()}</defs>
+    <rect width="1440" height="1440" fill="url(#sky)"/>
+    <rect width="1440" height="1440" fill="url(#horizonGlow)"/>
+    ${stars(1440, 1440, rand, 90)}
+    ${burst(360, 330, 0.95, '#e8a13c', '#fff3d6', rand)}
+    ${burst(1120, 260, 0.75, '#fff3d6', '#e8a13c', rand)}
+    ${burst(1220, 1180, 0.6, '#e8a13c', '#1c6b47', rand)}
+    ${stringLights(0, 1000, 520, 950, 46, rand)}
+    ${stringLights(560, 950, 1440, 990, 46, rand)}
+    ${ferrisWheel(150, 1120, 190, rand)}
+    ${carousel(1240, 1300, 150, rand)}
+    ${treeline(1300, 0, 1440, rand)}
+    <rect x="0" y="1294" width="1440" height="146" fill="${SILHOUETTE}"/>
+    <rect x="470" y="480" width="190" height="190" rx="36" fill="#0f3d2e"/>
+    <rect x="470" y="480" width="190" height="190" rx="36" fill="none" stroke="#e8a13c" stroke-width="3" opacity="0.5"/>
+    <text x="565" y="610" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-size="104" font-weight="700" fill="#f6e9c9" text-anchor="middle" letter-spacing="2">RR</text>
+    <text x="720" y="850" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-size="128" font-weight="700" fill="#faf8f4" text-anchor="middle">Ride Ready</text>
+    <text x="720" y="985" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-size="128" font-weight="700" fill="#faf8f4" text-anchor="middle">Guide</text>
+    <text x="720" y="1080" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-size="40" fill="#cfc6b4" text-anchor="middle" letter-spacing="6">THE MONTHLY BRIEF</text>
+    <rect width="1440" height="1440" fill="url(#vignette)" opacity="0.75"/>
+  </svg>`
+  return body
+}
+
 /* ---------- render --------------------------------------------------------- */
 
 const SCENES = [
@@ -377,6 +406,7 @@ const SCENES = [
   { name: 'scene-carousel', svg: sceneCarousel(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
   { name: 'scene-coaster', svg: sceneCoaster(), widths: [1920, 1280, 640], ratio: 1080 / 1920 },
   { name: 'social-card', svg: sceneSocial(), widths: [1280, 640], ratio: 672 / 1280 },
+  { name: 'podcast-cover', svg: scenePodcastCover(), widths: [1440], ratio: 1 },
 ]
 
 async function main () {

@@ -384,11 +384,11 @@
     "title": "Ride Ready Monthly",
     "description": "A dated, sourced three-minute brief on what each month is actually like at the six US Disney parks — crowds, weather, cost, and what is running. Every episode states the month its facts were checked. Independent and unofficial.",
     "author": "Ride Ready Guide",
-    "email": "",
+    "email": "hello@ridereadyguide.com",
     "category": "Society & Culture",
     "subcategory": "Places & Travel",
-    "artwork": "",
-    "audioBase": "",
+    "artwork": "https://ridereadyguide.com/assets/img/photos/podcast-cover-1440.jpg",
+    "audioBase": "https://ridereadyguide.com/assets/audio",
     "episodes": []
   }
 }
