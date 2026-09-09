@@ -23,3 +23,19 @@ Every file in this directory is recorded here before it ships, per the rights ru
   reproduces every file from the seeds in the script. The SVG source is byte-deterministic; the
   Chromium render step is visually identical but not byte-identical across runs (encoder metadata),
   so expect binary churn without visual change when re-rendering.
+
+## hero-fairground-fireworks-loop and hero-fairground-fireworks-poster
+
+- **Provenance:** generated for this repository on 2026-09-09 with Manus built-in image generation
+  (the named poster) and Veo 3.1 (the motion source). The loop source used that poster as both the
+  first and final keyframe, then was retimed to six seconds and encoded as a silent H.264 MP4.
+- **Licence:** generated for Ride Ready Guide; no external image, footage, or reference material was
+  supplied or incorporated.
+- **IP position:** the prompt specifies a generic travelling fairground, a conventional Ferris wheel,
+  low unbranded rooflines, string lights, and one restrained gold-and-magenta firework. It excludes
+  park-operator characters, logos, wordmarks, ride vehicles, monorails, costumed characters, real
+  castles, recognizable architecture, recognizable people, text, watermarks, and three-circle
+  arrangements.
+- **Use:** the video is decorative and silent. Its named poster supplies first paint and the
+  `prefers-reduced-motion` fallback. See `docs/HERO-VIDEO-LOOP.md` for the implementation and loop
+  construction details.

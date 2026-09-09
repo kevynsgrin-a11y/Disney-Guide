@@ -384,8 +384,13 @@ main:focus { outline: none; }
 .hero--photo .hero__inner { position: relative; z-index: 2; }
 .hero__media { position: absolute; inset: 0; z-index: 0; }
 .hero__media .photo, .hero__media .photo img { width: 100%; height: 100%; aspect-ratio: auto; }
+.hero__media .hero__poster, .hero__media .hero__video {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;
+}
+.hero__media .hero__poster { z-index: 0; }
+.hero__media .hero__video { z-index: 1; }
 .hero__scrim {
-  position: absolute; inset: 0; z-index: 1;
+  position: absolute; inset: 0; z-index: 2;
   background:
     linear-gradient(180deg, rgba(6, 10, 9, .30) 0%, rgba(6, 10, 9, .55) 45%, rgba(6, 10, 9, .78) 100%),
     radial-gradient(120% 90% at 50% 40%, transparent 35%, rgba(6, 10, 9, .45) 100%);
@@ -412,6 +417,9 @@ main:focus { outline: none; }
 /* A slow drift. Long enough that it reads as depth rather than as movement. */
 @media (prefers-reduced-motion: no-preference) {
   .hero--photo .hero__photo img { animation: photo-in .5s ease both, hero-drift 24s ease-in-out infinite alternate; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero--video .hero__video { display: none; }
 }
 @keyframes hero-drift { from { transform: scale(1.02); } to { transform: scale(1.09); } }
 

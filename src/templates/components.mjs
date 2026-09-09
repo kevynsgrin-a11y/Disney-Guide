@@ -33,17 +33,27 @@ export function breadcrumbs (trail) {
  * The page masthead.
  *
  * `image` is optional and, when supplied, promotes the hero to its photographic form: a full-bleed
- * picture behind a two-layer scrim. The scrim is not decoration — it is what keeps the headline
- * above AA contrast over an image whose brightness nobody controls, so it is applied whenever a
- * photograph is present and never applied when one is not.
+ * picture behind a two-layer scrim. `video` uses the same treatment, placing a named poster under a
+ * decorative, muted loop so there is always a stable first paint and reduced-motion fallback. The
+ * scrim is not decoration — it is what keeps the headline above AA contrast over media whose
+ * brightness nobody controls, so it is applied whenever media is present and never applied when it
+ * is not.
  *
  * With no image this renders exactly as before, on the gradient. That is the state the site ships in
- * today, and the state it returns to if a photograph is ever pulled.
+ * today, and the state it returns to if a photograph or video is ever pulled.
  */
-export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', aside, image }) {
+export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', aside, image, video }) {
+  const hasMedia = Boolean(video || image)
   return html`
-    <section class="hero hero--${tone}${image ? ' hero--photo' : ''}">
-      ${image ? html`
+    <section class="hero hero--${tone}${hasMedia ? ' hero--photo' : ''}${video ? ' hero--video' : ''}">
+      ${video ? html`
+        <div class="hero__media" aria-hidden="true">
+          <img class="hero__poster" src="${video.poster}" alt="" width="${video.width || 1920}" height="${video.height || 1080}" fetchpriority="high" decoding="async">
+          <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="${video.poster}" tabindex="-1" disablepictureinpicture>
+            <source src="${video.src}" type="${video.type || 'video/mp4'}">
+          </video>
+          <div class="hero__scrim"></div>
+        </div>` : image ? html`
         <div class="hero__media" aria-hidden="${image.alt ? 'false' : 'true'}">
           ${photo(image, { className: 'hero__photo', sizes: '100vw', priority: true })}
           <div class="hero__scrim"></div>

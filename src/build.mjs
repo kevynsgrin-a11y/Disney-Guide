@@ -444,6 +444,7 @@ const CSP = [
   `script-src 'self' '${INLINE_SCRIPT_HASH}' https://static.cloudflareinsights.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self'",
+  "media-src 'self'",
   "font-src 'none'",
   "connect-src 'self' https://cloudflareinsights.com",
   "manifest-src 'self'",
