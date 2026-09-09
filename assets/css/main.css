@@ -262,6 +262,14 @@ main:focus { outline: none; }
   color: var(--ink-2); text-decoration: none; font-weight: 600; font-size: .95rem;
 }
 .primary-nav a:hover { background: var(--surface-2); color: var(--ink); }
+/* Amber underline wipes in from the left — the masthead's one flourish (from the design comp). */
+.primary-nav a { position: relative; }
+.primary-nav a::after {
+  content: ""; position: absolute; left: .6rem; right: .6rem; bottom: .3rem; height: 1.5px;
+  background: var(--accent-2); transform: scaleX(0); transform-origin: left;
+  transition: transform .25s ease;
+}
+.primary-nav a:hover::after, .primary-nav a[aria-current]::after { transform: scaleX(1); }
 .primary-nav a[aria-current] { color: var(--brand-2); background: var(--brand-soft); }
 
 .header-actions { display: flex; gap: .25rem; flex: 0 0 auto; }
