@@ -11,19 +11,31 @@
   "title": "EPCOT International Festival of the Holidays",
   "titleTail": ": Dates, Kitchens & Verdict",
   "description": "EPCOT's holiday festival: how the Candlelight Processional dining package math actually works, whether the Cookie Stroll is worth it, and the weeks to avoid.",
-
   "typicalWindow": {
     "startsAround": "mid-November",
     "endsAround": "30 December",
     "nightsTypical": 45,
-    "nightsRange": [40, 50],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      40,
+      50
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Daily with park admission. Holiday kitchens typically open late morning; the Candlelight Processional runs three performances each evening."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [5, 13],
+    "rangeUsd": [
+      5,
+      13
+    ],
     "asOf": "July 2026",
     "cheapestNights": "Weekdays in the opening fortnight, before Thanksgiving week",
     "priciestNights": "Christmas week through the festival's final days, when EPCOT reaches its yearly crowd peak",
@@ -34,7 +46,6 @@
       "The dining package is the largest optional cost at any EPCOT festival. Price it against the same meal ordered without the package and judge the difference as what you are paying for a guaranteed seat."
     ]
   },
-
   "whatYouGet": [
     "The Candlelight Processional at the America Gardens Theatre: a massed choir, a live orchestra and a guest narrator reading the Christmas story, three performances each evening, included with park admission.",
     "Holiday storytellers installed in the World Showcase pavilions, each performing short sets several times a day, in character and in the traditions of that country. This is the most distinctive free content at any EPCOT festival and the least attended.",
@@ -43,7 +54,6 @@
     "A scavenger hunt around World Showcase sold as a separate map-and-prize purchase, which works well for younger children than the autumn festival's equivalent.",
     "EPCOT's full holiday dressing, which is included with any ticket in the window and is a genuinely better decorative job than the park gets at any other time of year."
   ],
-
   "whatYouDont": [
     "The festival's last two weeks sit inside the worst crowd period at Walt Disney World. EPCOT during Christmas week reaches its yearly peak, the promenade does not walk at normal speed, and the festival adds people to a park that has no space for them.",
     "The festival closes ahead of New Year's Eve rather than running to the end of the year, which catches out a surprising number of visitors. The last night of the year at EPCOT has the decorations and the crowd and no festival at all — the kitchens are gone and the Candlelight Processional has finished.",
@@ -53,7 +63,6 @@
     "Fewer kitchens than Food & Wine means longer lines at each one. The per-stand wait in mid-December is worse here than in October even though the total crowd is comparable.",
     "The storytellers perform on a fixed schedule with short sets, so seeing all of them in one day is not possible. Most visitors see two and assume they saw the program."
   ],
-
   "verdict": {
     "short": "Worth a full day in mid-November and worth avoiding entirely in Christmas week. The Candlelight Processional is the best thing Disney gives away free, and the seat for it is the thing to plan.",
     "worthItIf": [
@@ -72,7 +81,6 @@
       "You are hoping to combine a full ride day with a full festival day in December. The park does not have the capacity for both in that month, and attempting it produces a day where you did neither properly."
     ]
   },
-
   "strategy": [
     {
       "heading": "The Candlelight Processional, and the dining package math",
@@ -120,7 +128,6 @@
       ]
     }
   ],
-
   "food": {
     "note": "Holiday kitchen lineups rotate every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive cycles — priced at the July 2026 band. This list is deliberately short: this festival rotates its kitchen roster harder than Food & Wine does, and we would rather name five items we can stand behind than pad the list with dishes we could not confirm have returned.",
     "items": [
@@ -156,7 +163,6 @@
       }
     ]
   },
-
   "faqs": [
     {
       "q": "Is the Candlelight Processional included with park admission?",
@@ -191,24 +197,59 @@
       "a": "Yes, and they are the most underused free content at any EPCOT festival. Each pavilion runs a holiday storyteller performing short sets several times a day with no queue and no charge. Pick four from the times guide and build your kitchen loop to arrive at each pavilion shortly before its set — seeing all of them in one day is not achievable."
     }
   ],
-
   "crossLinks": [
-    { "label": "The American Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/the-american-adventure/", "site": 1 },
-    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
-    { "label": "Gran Fiesta Tour in the Mexico pavilion", "href": "/walt-disney-world/epcot/rides/gran-fiesta-tour/", "site": 1 },
-    { "label": "Frozen Ever After in the Norway pavilion", "href": "/walt-disney-world/epcot/rides/frozen-ever-after/", "site": 1 },
-    { "label": "EPCOT dining", "href": "/walt-disney-world/epcot/dining/", "site": 1 },
-    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 }
+    {
+      "label": "The American Adventure at EPCOT",
+      "href": "/walt-disney-world/epcot/rides/the-american-adventure/",
+      "site": 1
+    },
+    {
+      "label": "World Showcase at EPCOT",
+      "href": "/walt-disney-world/epcot/lands/world-showcase/",
+      "site": 1
+    },
+    {
+      "label": "Gran Fiesta Tour in the Mexico pavilion",
+      "href": "/walt-disney-world/epcot/rides/gran-fiesta-tour/",
+      "site": 1
+    },
+    {
+      "label": "Frozen Ever After in the Norway pavilion",
+      "href": "/walt-disney-world/epcot/rides/frozen-ever-after/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT dining",
+      "href": "/walt-disney-world/epcot/dining/",
+      "site": 1
+    },
+    {
+      "label": "Best snacks at EPCOT",
+      "href": "/walt-disney-world/epcot/best-snacks/",
+      "site": 1
+    }
   ],
-
   "related": [
     "epcot-food-and-wine-festival",
     "mickeys-very-merry-christmas-party",
     "disney-jollywood-nights",
     "epcot-festival-of-the-arts"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "November 27 – December 30, 2026",
+      "startDate": "2026-11-27",
+      "endDate": "2026-12-30",
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Disney’s official festival page (viewed September 2026); included with valid EPCOT admission. Offerings detail is still being published.",
+        "reviewBy": "2026-12",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
@@ -225,12 +266,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The festival has run in the same shape every year since 2017, with the Candlelight Processional running at EPCOT for decades before that: a mid-November start, an end in the final days of December ahead of New Year's Eve, and roughly 45 days of daily operation included with park admission. That pattern is strong enough to plan a trip around. The 2026 dates, kitchen lineup and narrator schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and names no narrator and no date.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates officially announced (Nov 27 – Dec 30); see the 2026 edition below.",
+    "reviewBy": "2026-12",
     "cycle": "annual"
   }
 }

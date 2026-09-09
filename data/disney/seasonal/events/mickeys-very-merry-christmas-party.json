@@ -11,19 +11,30 @@
   "title": "Mickey's Very Merry Christmas Party",
   "titleTail": ": Dates, Prices & Verdict",
   "description": "What the Magic Kingdom Christmas party costs, what it adds over a free holiday-season park day, and the nights that are worth the money.",
-
   "typicalWindow": {
     "startsAround": "early November",
     "endsAround": "shortly before Christmas",
     "nightsTypical": 24,
-    "nightsRange": [20, 26],
-    "daysOfWeek": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri"],
+    "nightsRange": [
+      20,
+      26
+    ],
+    "daysOfWeek": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
     "hours": "19:00 – 00:00, with park entry from 16:00"
   },
-
   "pricing": {
     "model": "per-night",
-    "rangeUsd": [169, 219],
+    "rangeUsd": [
+      169,
+      219
+    ],
     "asOf": "2025 season",
     "cheapestNights": "The opening week in early November, and Sunday and Monday nights through the first half of the run",
     "priciestNights": "The Friday and weekend nights in the final two weeks before Christmas",
@@ -34,7 +45,6 @@
       "Passholder and DVC discounts have historically been thin on this event and limited to the earliest nights."
     ]
   },
-
   "whatYouGet": [
     "Park entry from 16:00 on a ticket priced for a 19:00 event, which is three hours of standard Magic Kingdom operation before any party content begins.",
     "Mickey's Once Upon a Christmastime Parade, run twice on most nights, with a snow effect on Main Street that is genuinely the best physical gag Disney does anywhere in Florida.",
@@ -44,7 +54,6 @@
     "A castle stage show built around the holiday characters, run several times a night, which is the easiest thing at the party to see without queuing.",
     "Complimentary digital downloads of PhotoPass photos taken during the party."
   ],
-
   "whatYouDont": [
     "You are not buying the decorations. Magic Kingdom is fully dressed for the holidays from early November through the first days of January, and every garland, the Main Street tree, and the castle's nightly lighting sequence are included with any ordinary day ticket. People pay $200 for scenery they could have photographed for free that afternoon.",
     "You are not buying the ride overlays either. Jungle Cruise runs its holiday version across the whole season, not just on party nights, and the same is true of the seasonal soundtrack changes elsewhere in the park.",
@@ -54,7 +63,6 @@
     "There is no refund and no rain check. A December cold front in Central Florida can put the fireworks and the parade out for wind, and the ticket stands.",
     "The nights people want — the two weeks before Christmas — sell out first and are also the nights when Magic Kingdom is at its most crowded before the party even starts, so your 16:00 head start is worth much less."
   ],
-
   "verdict": {
     "short": "Skip it unless the party itself is the point of the trip. The decorations, castle lighting and holiday overlays are free with any November ticket, and this event's price floor is unforgiving.",
     "worthItIf": [
@@ -73,7 +81,6 @@
       "The cost matters to you at all. This is the least defensible of the three parties on a dollars-per-thing-you-cannot-otherwise-do basis, and saying so is the whole reason this page exists."
     ]
   },
-
   "strategy": [
     {
       "heading": "Decide whether you need a ticket at all",
@@ -121,7 +128,6 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Is the party the only way to see Magic Kingdom decorated for the holidays?",
@@ -156,28 +162,66 @@
       "a": "Yes, and a second night in the same trip is close to wasted money. Every element repeats identically each night: the same parade, the same fireworks, the same stage show, the same meets. The only case for a second night is a group that split up and missed something on the first."
     }
   ],
-
   "crossLinks": [
-    { "label": "Jungle Cruise at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/jungle-cruise/", "site": 1 },
-    { "label": "Seven Dwarfs Mine Train at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/", "site": 1 },
-    { "label": "Peter Pan's Flight at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/rides/peter-pans-flight/", "site": 1 },
-    { "label": "Magic Kingdom's nightly fireworks show", "href": "/walt-disney-world/magic-kingdom/rides/nighttime-fireworks/", "site": 1 },
-    { "label": "Best snacks at Magic Kingdom", "href": "/walt-disney-world/magic-kingdom/best-snacks/", "site": 1 },
-    { "label": "Rope drop strategy", "href": "/guides/rope-drop-strategy/", "site": 1 }
+    {
+      "label": "Jungle Cruise at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/jungle-cruise/",
+      "site": 1
+    },
+    {
+      "label": "Seven Dwarfs Mine Train at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/seven-dwarfs-mine-train/",
+      "site": 1
+    },
+    {
+      "label": "Peter Pan's Flight at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/rides/peter-pans-flight/",
+      "site": 1
+    },
+    {
+      "label": "Magic Kingdom's nightly fireworks show",
+      "href": "/walt-disney-world/magic-kingdom/rides/nighttime-fireworks/",
+      "site": 1
+    },
+    {
+      "label": "Best snacks at Magic Kingdom",
+      "href": "/walt-disney-world/magic-kingdom/best-snacks/",
+      "site": 1
+    },
+    {
+      "label": "Rope drop strategy",
+      "href": "/guides/rope-drop-strategy/",
+      "site": 1
+    }
   ],
-
   "related": [
     "mickeys-not-so-scary-halloween-party",
     "disney-jollywood-nights",
     "epcot-festival-of-the-holidays",
     "disney-after-hours"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "November 8 – December 22, 2026 (select nights)",
+      "startDate": "2026-11-08",
+      "endDate": "2026-12-22",
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Disney’s official event page and the June 2026 announcement reported by WDWMagic (viewed September 2026); per-night prices are published and vary by date. The night-by-night count is not yet restated here until the full list is re-verified in one pass.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
-      "priceRangeUsd": [169, 219],
+      "priceRangeUsd": [
+        169,
+        219
+      ],
       "changes": [
         "The per-night band stayed narrow, with roughly $50 between the cheapest early-November night and the most expensive night before Christmas.",
         "The season continued to run from early November to shortly before Christmas, ending well ahead of the Christmas week itself — a point that catches out visitors who assume a Christmas party runs at Christmas."
@@ -191,12 +235,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The calendar shape has held for many consecutive years: an early-November start, an end shortly before Christmas, and 20 to 26 nights on Sundays and midweek. That is strong enough to plan a trip around. The 2026 dates and 2026 prices are not confirmed to us as of July 2026, so this page states a window and a 2025 price band and no exact night.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates officially announced (Nov 8 – Dec 22); see the 2026 edition below.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }

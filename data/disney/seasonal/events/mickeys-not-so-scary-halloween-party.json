@@ -32,9 +32,9 @@
     "model": "per-night",
     "rangeUsd": [
       119,
-      219
+      229
     ],
-    "asOf": "2025 season",
+    "asOf": "2026 season",
     "cheapestNights": "Early-season Sunday and Tuesday nights",
     "priciestNights": "The last three Fridays before Halloween",
     "notes": [
@@ -208,15 +208,23 @@
       "endDate": "2026-10-31",
       "changes": [
         "The 2026 season opens on 7 August — earlier than any previous year — and runs select nights through 31 October, with event hours 7pm to midnight.",
-        "Tickets are on sale through Disney’s special-event ticketing, and coverage of on-sale day reported several dates selling out."
+        "Tickets are on sale through Disney’s special-event ticketing, and coverage of on-sale day reported several dates selling out.",
+        "Thirty-eight nights, August 7 through October 31 — the earliest season start the party has held, with roughly nine August, thirteen September, and sixteen October dates.",
+        "Per-night tickets run $119 to $229 plus tax: the cheapest August weeknights sit at $119 and peak October and Halloween nights reach $229.",
+        "Halloween night sold out on the first day of general sale (May 12), and by late July at least sixteen of the thirty-eight nights were gone."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates and event hours from Disney’s official event page and the Disney Parks Blog announcement, viewed September 2026; tickets on sale via the Walt Disney World special-event tickets page.",
+        "sourceNote": "Dates, per-night prices, and sold-out status from Disney’s official event page and the Disney Parks Blog announcement (viewed September 2026); sold-out tracking cross-checked against Disney Tourist Blog’s 2026 guide and WDW Prep School.",
         "reviewBy": "2026-11",
         "cycle": "annual"
-      }
+      },
+      "nights": 38,
+      "priceRangeUsd": [
+        119,
+        229
+      ]
     },
     {
       "year": 2025,
