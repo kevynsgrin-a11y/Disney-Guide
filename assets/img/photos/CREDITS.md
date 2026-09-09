@@ -20,4 +20,6 @@ Every file in this directory is recorded here before it ships, per the rights ru
   real place. They are decorative by construction (empty alt text), and the about page states
   that site imagery is illustrative.
 - **Regenerate:** `node scripts/generate-artwork.mjs && python scripts/convert-artwork.py`
-  reproduces every file byte-deterministically from the seeds in the script.
+  reproduces every file from the seeds in the script. The SVG source is byte-deterministic; the
+  Chromium render step is visually identical but not byte-identical across runs (encoder metadata),
+  so expect binary churn without visual change when re-rendering.

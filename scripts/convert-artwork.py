@@ -21,6 +21,8 @@ BUDGETS = {
     "scene-carousel": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
     "scene-coaster": {1920: 80 * 1024, 1280: 60 * 1024, 640: 32 * 1024},
     "social-card": {1280: 60 * 1024, 640: 32 * 1024},
+    # Apple's podcast artwork ceiling is 500 KB at 1400-3000px square.
+    "podcast-cover": {1440: 300 * 1024},
 }
 
 FORMATS = (
