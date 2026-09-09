@@ -302,20 +302,24 @@
       if (seen || !entries.some(function (e) { return e.isIntersecting })) return
       seen = true
       obs.disconnect()
+      targets.forEach(function (t) { t.done = false })
       var finisher = setTimeout(function () {
-        /* rAF can be starved in throttled renderers; the real figure wins regardless. */
-        targets.forEach(function (t) { t.el.textContent = String(t.value) })
+        /* rAF can be starved in throttled renderers; the real figure wins regardless —
+           and the flag stops any late frame from overwriting it back to a mid-count. */
+        targets.forEach(function (t) { t.done = true; t.el.textContent = String(t.value) })
       }, 1000)
       targets.forEach(function (t) {
         var start = null
         var DURATION = 900
         function frame (ts) {
+          if (t.done) return
           if (start === null) start = ts
           var p = Math.min(1, (ts - start) / DURATION)
           var eased = 1 - Math.pow(1 - p, 3)
           t.el.textContent = String(Math.round(t.value * eased))
           if (p < 1) requestAnimationFrame(frame)
           else {
+            t.done = true
             t.el.textContent = String(t.value)
             clearTimeout(finisher)
           }
