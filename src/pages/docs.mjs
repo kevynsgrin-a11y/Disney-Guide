@@ -200,6 +200,7 @@ export function guidePage (guide, data) {
     ${related.length ? C.relatedLinks(related.map((g) => ({
       href: urls.guide(g.slug), label: g.h1 || g.title, summary: g.summary,
     }))) : ''}
+    </div>
   `
 
   return {
@@ -215,6 +216,7 @@ export function guidePage (guide, data) {
         ogType: 'article',
       },
       body,
+      scripts: ['/assets/js/stardust.js'],
       schema: [
         S.article(site, {
           url: urls.guide(guide.slug),

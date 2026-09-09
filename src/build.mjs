@@ -451,7 +451,7 @@ const CSP = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self'",
   "media-src 'self'",
-  "font-src 'none'",
+  "font-src 'self'",
   "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",
   "manifest-src 'self'",
   "worker-src 'self'",
