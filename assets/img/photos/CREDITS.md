@@ -39,3 +39,5 @@ Every file in this directory is recorded here before it ships, per the rights ru
 - **Use:** the video is decorative and silent. Its named poster supplies first paint and the
   `prefers-reduced-motion` fallback. See `docs/HERO-VIDEO-LOOP.md` for the implementation and loop
   construction details.
+- **Re-encode:** the delivered 3,506 KB file was re-encoded in-repo (ffmpeg libx264 CRF 32)
+  to 635 KB at identical resolution and frame rate; no generative step was involved or needed.
