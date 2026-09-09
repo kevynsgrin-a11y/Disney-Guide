@@ -179,7 +179,7 @@ export function statusParkPage (park, data, seasonal) {
                 <span class="pill status-row__pill status-row__pill--open" data-open-pill>Not scheduled for closure</span>
                 <span class="status-row__report" data-report-slot></span>
               </div>`
-            }).join('')}
+            })}
           </div>
         </div>
       `,
@@ -194,7 +194,7 @@ export function statusParkPage (park, data, seasonal) {
         url,
         title: `${park.name} ride status`,
         titleTail: ' — closures and guest reports',
-        description: `Ride status at ${park.name}: verified scheduled closures plus anonymous guest reports on a twelve-hour window. Unofficial and unaffiliated — the operator's app is authoritative.`,
+        description: `Ride status at ${park.name}: verified scheduled closures plus unverified guest reports, expiring on a rolling window. The operator's app is authoritative.`,
         trail,
         modified: `${BUILD_MONTH}-01`,
         noindex: false,
