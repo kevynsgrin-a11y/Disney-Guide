@@ -304,10 +304,22 @@
       obs.disconnect()
       targets.forEach(function (t) { t.done = false })
       var finisher = setTimeout(function () {
-        /* rAF can be starved in throttled renderers; the real figure wins regardless —
-           and the flag stops any late frame from overwriting it back to a mid-count. */
+        /* Belt and braces; the health probe below is the real guard. */
         targets.forEach(function (t) { t.done = true; t.el.textContent = String(t.value) })
       }, 1000)
+      /* Health probe: if the first animation frame is slow to arrive, the renderer is
+         throttled and a count-up would freeze mid-number. Land on the real figures
+         immediately — the animation is a nicety, the number is a fact. */
+      var scheduledAt = performance.now()
+      requestAnimationFrame(function (firstTs) {
+        if (firstTs - scheduledAt > 250) {
+          targets.forEach(function (t) { t.done = true; t.el.textContent = String(t.value) })
+          clearTimeout(finisher)
+          return
+        }
+        runCountUp()
+      })
+      function runCountUp () {
       targets.forEach(function (t) {
         var start = null
         var DURATION = 900
@@ -326,6 +338,7 @@
         }
         requestAnimationFrame(frame)
       })
+      }
     }, { threshold: 0.4 })
     obs.observe(targets[0].el)
   }
