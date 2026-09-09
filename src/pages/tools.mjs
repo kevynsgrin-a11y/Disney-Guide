@@ -161,7 +161,13 @@ export function foodTrackerPage (data) {
       },
       body,
       scripts: ['/assets/js/food-tracker.js'],
-      schema: [S.itemList(site, {
+      schema: [
+        S.webApplication(site, {
+          url: urls.foodTracker(),
+          name: `${site.brand.shortName} Food Tracker`,
+          description: `Track ${total} theme park snacks across all ${data.parks.length} parks. Saves to your device, shares as a link, prints as a checklist, works offline.`,
+        }),
+        S.itemList(site, {
         url: urls.foodTracker(),
         name: 'Park snacks worth trying',
         items: data.allFood.filter((i) => i.mustTry >= 4).slice(0, 60),
@@ -229,6 +235,12 @@ export function heightCheckerPage (data) {
               <button class="chip" type="button" data-height-unit aria-pressed="false">Show centimetres</button>
             </p>
           </div>
+
+          <!-- The slider's result is a list of a hundred-odd rides. Announcing that on every tick
+               is unusable, and announcing nothing — which is what shipped — leaves the tool's whole
+               answer invisible to a screen reader. So the live region carries the count, debounced,
+               and the list stays off it for anyone to read at their own pace. -->
+          <p class="visually-hidden" role="status" aria-live="polite" data-height-announce></p>
 
           <div data-height-results></div>
 
@@ -318,6 +330,13 @@ export function heightCheckerPage (data) {
       },
       body,
       scripts: ['/assets/js/height-checker.js'],
+      schema: [
+        S.webApplication(site, {
+          url: urls.heightChecker(),
+          name: `${site.brand.shortName} height checker`,
+          description: `Set one slider to your child's height and see every ride they can and cannot do at all ${data.parks.length} parks.`,
+        }),
+      ],
     }),
   }
 }

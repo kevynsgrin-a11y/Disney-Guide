@@ -94,13 +94,17 @@
 
       var best = ranked[0].score
       var worst = ranked[ranked.length - 1].score
-      var span = Math.max(0.001, best - worst)
+      var span = best - worst
+      // A perfect tie has no spread to normalise against; full bars read as "equally good",
+      // which is the true answer, where 8% slivers would read as a ranking that does not exist.
+      var tie = span < 0.001
+      span = Math.max(0.001, span)
 
       if (results) {
         results.innerHTML = ranked.map(function (row, i) {
           // Normalised against the visible spread rather than the 1–5 absolute, so the bars stay
           // readable when every month scores similarly on the chosen dimensions.
-          var pct = Math.round(((row.score - worst) / span) * 92) + 8
+          var pct = tie ? 100 : Math.round(((row.score - worst) / span) * 92) + 8
           return '<li class="timing-result">' +
             '<span class="timing-result__rank">' + (i + 1) + '</span>' +
             '<span>' +

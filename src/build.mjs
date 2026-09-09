@@ -15,6 +15,7 @@
 
 import { mkdir, writeFile, readFile, readdir, rm, cp, stat } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
+import { createHash } from 'node:crypto'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
@@ -23,6 +24,7 @@ import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DI
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
+import { THEME_BOOTSTRAP } from './templates/layout.mjs'
 import { renderParkMap } from './lib/map.mjs'
 import { buildPodcastFeed, resolveEpisodes } from './lib/podcast.mjs'
 import * as core from './pages/core.mjs'
@@ -229,10 +231,20 @@ function priorityFor (url, staleUrls, resortSlugs) {
   return '0.6'
 }
 
+const NOINDEX = /<meta\s+name="robots"\s+content="[^"]*noindex/i
+
 function buildSitemap (site, pages, staleUrls) {
   const resortSlugs = (site.resorts || []).map((r) => r.slug)
   const entries = pages
-    .filter((p) => !p.url.endsWith('.html') && p.url !== '/offline/')
+    // A noindex page in the sitemap is the site contradicting itself: the file asks a crawler to
+    // consider a URL the page then tells it not to index. The dated event editions are the case —
+    // they carry noindex,follow so the pattern page holds the ranking.
+    //
+    // Read off the rendered page rather than a flag on the entry: `noindex` is set inside the
+    // object handed to renderPage, so it never reaches the { url, html } a page module returns —
+    // which is how these thirteen got listed in the first place. The markup cannot drift from
+    // itself.
+    .filter((p) => !p.url.endsWith('.html') && p.url !== '/offline/' && !NOINDEX.test(p.html))
     .map((p) => `  <url>
     <loc>${site.brand.origin}${p.url}</loc>
     <lastmod>2026-07-01</lastmod>
@@ -405,11 +417,50 @@ const CACHE_RULES = [
   { path: '/maps/*', vercel: '/maps/(.*)', value: 'public, max-age=86400' },
 ]
 
+/**
+ * The one inline script on the site, hashed for the CSP.
+ *
+ * `THEME_BOOTSTRAP` has to be inline — an external file there is a guaranteed flash of the wrong
+ * theme — so the policy names it by hash rather than opening `script-src` to `'unsafe-inline'`.
+ * The hash is derived from the same constant the layout renders, so the two cannot drift: change
+ * the bootstrap and the header follows on the next build.
+ *
+ * JSON-LD blocks need no allowance. `script-src` governs execution, and `application/ld+json` is
+ * data the parser never runs.
+ */
+const INLINE_SCRIPT_HASH = `sha256-${createHash('sha256').update(THEME_BOOTSTRAP, 'utf8').digest('base64')}`
+
+/*
+ * `style-src` still carries 'unsafe-inline' because the templates set `style="…"` attributes for
+ * per-item values a stylesheet cannot know — chart bar widths, map focal points. Hashes do not
+ * cover attributes, so closing this means moving those to custom properties first. Everything
+ * else is as tight as the site actually needs: no third-party origin appears in any built page.
+ */
+const CSP = [
+  "default-src 'self'",
+  `script-src 'self' '${INLINE_SCRIPT_HASH}'`,
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self'",
+  "font-src 'none'",
+  "connect-src 'self'",
+  "manifest-src 'self'",
+  "worker-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'self'",
+  'upgrade-insecure-requests',
+].join('; ')
+
 const SECURITY_HEADERS = {
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
   'X-Frame-Options': 'SAMEORIGIN',
   'Permissions-Policy': 'geolocation=(), microphone=(), camera=(), interest-cohort=()',
+  'Content-Security-Policy': CSP,
+  // Six months, not two years: the preload list is a one-way door and this domain has not carried
+  // HSTS before. Raise it to 63072000 and add `preload` once this has ridden a couple of releases.
+  'Strict-Transport-Security': 'max-age=15552000; includeSubDomains',
 }
 
 /**

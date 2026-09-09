@@ -81,6 +81,32 @@
         1280
       ],
       "note": "Open Graph / Twitter card, 1.91:1. Absent until the file exists, and the card type falls back to summary rather than promising a large image and delivering none."
+    },
+    "scene-carousel": {
+      "file": "scene-carousel",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative: alt is empty on purpose. A lit carousel and ferris wheel at a generic fairground at dusk - no park-specific venue, no characters, no signage."
+    },
+    "scene-coaster": {
+      "file": "scene-coaster",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 50%",
+      "note": "Decorative: alt is empty on purpose. Coaster hills and a ferris wheel silhouetted against a dusk sky with a low moon - generic structures only."
     }
   },
   "author": {

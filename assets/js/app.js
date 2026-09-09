@@ -156,6 +156,7 @@
     function close () {
       overlay.hidden = true
       document.body.style.overflow = ''
+      input.removeAttribute('aria-activedescendant')
       if (lastFocus && lastFocus.focus) lastFocus.focus()
     }
 
@@ -177,11 +178,12 @@
         results.innerHTML = '<p class="search-panel__hint">Nothing matched “' + escapeHtml(query) + '”.</p>'
         return
       }
-      results.innerHTML = top.map(function (entry) {
-        return '<a class="search-result" role="option" href="' + escapeHtml(entry.item.u) + '">' +
+      results.innerHTML = top.map(function (entry, i) {
+        return '<a class="search-result" role="option" id="search-result-' + i + '" href="' + escapeHtml(entry.item.u) + '">' +
           '<strong>' + highlight(entry.item.t, q) + '</strong>' +
           '<span>' + escapeHtml(entry.item.c || '') + '</span></a>'
       }).join('')
+      input.removeAttribute('aria-activedescendant')
     }
 
     function move (delta) {
@@ -191,6 +193,9 @@
       active = (active + delta + nodes.length) % nodes.length
       nodes[active].setAttribute('data-active', '')
       nodes[active].scrollIntoView({ block: 'nearest' })
+      /* The highlight is a custom attribute, so without this the listbox looks navigable but
+         announces nothing: focus never leaves the input and no option is ever "current". */
+      if (nodes[active].id) input.setAttribute('aria-activedescendant', nodes[active].id)
     }
 
     document.querySelectorAll('[data-search-open]').forEach(function (b) { b.addEventListener('click', open) })
