@@ -167,6 +167,58 @@
       ],
       "focal": "50% 60%",
       "note": "Decorative section scene (runbook batch 4): alt is empty on purpose. A parent carrying a sleeping child on a shoulder, both silhouetted on a lamplit path toward warm fairground bokeh."
+    },
+    "halloween-mansion": {
+      "file": "halloween-mansion",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (runbook Halloween batch, generated externally, IP-checked): alt empty on purpose. A grand generic Victorian manor at twilight, amber windows, bats — a conventional storybook archetype that deliberately resembles no real venue."
+    },
+    "halloween-costume-night": {
+      "file": "halloween-costume-night",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (runbook Halloween batch, generated externally, IP-checked): alt empty on purpose. Anonymous costumed guests at a night event, backlit and soft-focus, generic homemade costumes only."
+    },
+    "halloween-treats": {
+      "file": "halloween-treats",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (runbook Halloween batch, generated externally, IP-checked): alt empty on purpose. Overhead flat-lay of conventional Halloween treats on dark wood, plain unbranded packaging."
+    },
+    "halloween-pumpkin-patch": {
+      "file": "halloween-pumpkin-patch",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (runbook Halloween batch, generated externally, IP-checked): alt empty on purpose. Carved jack-o-lanterns with generic triangle faces at dusk, a distant Ferris wheel soft in the background."
     }
   },
   "author": {

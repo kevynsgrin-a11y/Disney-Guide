@@ -67,6 +67,7 @@ export function eventPage (event, data) {
       eyebrow: labels[event.resort] || event.resort,
       title: event.h1 || event.name,
       lede: event.summary,
+      image: event.heroImage ? data.photo[event.heroImage] : undefined,
       meta: heroMeta,
       aside: SC.freshnessRibbon(event.freshness, state),
     })}
