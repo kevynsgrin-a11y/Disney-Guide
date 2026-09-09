@@ -8,26 +8,6 @@
 
   var THEME_KEY = 'rrg-theme'
 
-  /* ---------- Theme ------------------------------------------------------ */
-
-  function currentTheme () {
-    var stored = null
-    try { stored = localStorage.getItem(THEME_KEY) } catch (e) { /* private mode */ }
-    if (stored === 'dark' || stored === 'light') return stored
-    return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-  }
-
-  function initTheme () {
-    var button = document.querySelector('[data-theme-toggle]')
-    if (!button) return
-    button.addEventListener('click', function () {
-      var next = currentTheme() === 'dark' ? 'light' : 'dark'
-      document.documentElement.dataset.theme = next
-      try { localStorage.setItem(THEME_KEY, next) } catch (e) { /* ignore */ }
-      button.setAttribute('aria-label', next === 'dark' ? 'Switch to light theme' : 'Switch to dark theme')
-    })
-  }
-
   /* ---------- Mobile nav ------------------------------------------------- */
 
   function initNav () {
@@ -396,7 +376,6 @@
   }
 
   ready(function () {
-    initTheme()
     initNav()
     initHeaderScroll()
     initSortableTables()

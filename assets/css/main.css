@@ -6,76 +6,12 @@
 
 /* ---------- 1. Tokens ---------------------------------------------------- */
 
-:root {
-  /* Warm paper light theme. Deliberately not Disney-adjacent: forest + amber. */
-  --paper:       #faf8f4;
-  --surface:     #ffffff;
-  --surface-2:   #f3f0e9;
-  --surface-3:   #ebe7dd;
-  --ink:         #14191a;
-  --ink-2:       #3c4745;
-  --muted:       #64726e;
-  --line:        #e2ddd2;
-  --line-strong: #cdc5b6;
-
-  --brand:       #0f3d2e;
-  --brand-2:     #17604a;
-  --brand-3:     #2a8a6b;
-  --brand-soft:  #e6f0eb;
-
-  /* 5.60:1 on --paper, 5.26:1 on --accent-soft. The previous #a9660f cleared neither at the size
-     the kickers and eyebrows actually render (4.31:1 and 4.05:1), and it is body-size text. */
-  --accent:      #8f5709;
-  --accent-2:    #d08c28;
-  --accent-soft: #fbf0dd;
-
-  --danger:      #9a2f24;
-  --danger-soft: #fbeae7;
-  --warn:        #8a6100;
-  --warn-soft:   #fdf3dc;
-  --good:        #1c6b47;
-  --good-soft:   #e4f2ea;
-
-  --focus:       #1f7a5c;
-
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius:    12px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
-
-  --shadow-sm: 0 1px 2px rgba(20, 25, 26, .05), 0 1px 3px rgba(20, 25, 26, .04);
-  --shadow:    0 2px 4px rgba(20, 25, 26, .04), 0 8px 24px -12px rgba(20, 25, 26, .18);
-  --shadow-lg: 0 4px 8px rgba(20, 25, 26, .05), 0 24px 60px -24px rgba(20, 25, 26, .28);
-
-  --space-1: .25rem;  --space-2: .5rem;   --space-3: .75rem;
-  --space-4: 1rem;    --space-5: 1.5rem;  --space-6: 2rem;
-  --space-7: 3rem;    --space-8: 4rem;    --space-9: 6rem;
-
-  --shell: 1180px;
-  --shell-narrow: 760px;
-  --shell-wide: 1440px;
-  --gutter: clamp(1rem, 4vw, 2.5rem);
-
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-               "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
-               "Liberation Mono", monospace;
-
-  --step--1: clamp(.8125rem, .79rem + .11vw, .875rem);
-  --step-0:  clamp(1rem, .97rem + .15vw, 1.0625rem);
-  --step-1:  clamp(1.125rem, 1.07rem + .27vw, 1.3125rem);
-  --step-2:  clamp(1.3125rem, 1.22rem + .45vw, 1.625rem);
-  --step-3:  clamp(1.5rem, 1.35rem + .75vw, 2.0625rem);
-  --step-4:  clamp(1.75rem, 1.5rem + 1.25vw, 2.625rem);
-  --step-5:  clamp(2.0625rem, 1.65rem + 2vw, 3.4375rem);
-}
+:root { color-scheme: dark; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { color-scheme: dark; }
 }
-:root[data-theme="dark"] { color-scheme: dark; }
+:root
 
 /* Dark palette applied via a shared custom-property block. */
 @media (prefers-color-scheme: dark) {

@@ -3,14 +3,14 @@ import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
-const ASSET_VERSION = '14'
+const ASSET_VERSION = '15'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 /**
  * Runs before first paint so a stored theme choice never flashes. Kept to one statement and
  * inlined deliberately — an external file here would be a guaranteed flash of the wrong theme.
  */
-export const THEME_BOOTSTRAP = `try{var t=localStorage.getItem('rrg-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}`
+export const THEME_BOOTSTRAP = `document.documentElement.dataset.theme='dark'`
 
 const TITLE_MAX = 66
 
@@ -114,10 +114,7 @@ function siteHeader (site, page) {
           <button class="icon-button" type="button" data-search-open aria-label="Search the site">
             <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="6"/><path d="M13.5 13.5 18 18"/></svg>
           </button>
-          <button class="icon-button" type="button" data-theme-toggle aria-label="Switch colour theme">
-            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="icon-sun"><circle cx="10" cy="10" r="4"/><path d="M10 1v2M10 17v2M1 10h2M17 10h2M3.5 3.5l1.4 1.4M15.1 15.1l1.4 1.4M16.5 3.5l-1.4 1.4M4.9 15.1l-1.4 1.4"/></svg>
-            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="icon-moon"><path d="M16 12.5A7 7 0 0 1 7.5 4a7 7 0 1 0 8.5 8.5Z"/></svg>
-          </button>
+
         </div>
       </div>
     </header>
@@ -204,8 +201,7 @@ export function renderPage ({ site, page, body, schema = [], scripts = [] }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="${site.brand.themeColor}" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0b0f0d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0b0f0d">
 <meta name="color-scheme" content="light dark">
 ${metaTags(site, page)}
 <script>${raw(THEME_BOOTSTRAP)}</script>
