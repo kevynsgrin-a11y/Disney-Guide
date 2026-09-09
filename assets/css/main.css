@@ -1527,3 +1527,54 @@ body[data-offline] .offline-note { display: block; }
 .spotlight__cta.btn--ghost { color: #f4ecdd; border-color: rgba(244, 236, 221, .45); }
 .spotlight__cta.btn--ghost:hover { background: rgba(244, 236, 221, .1); color: #fff; }
 [data-theme="dark"] .spotlight { background: #120a1c; }
+
+/* ---------- Ride status board (guest-report layer) ------------------------ */
+/* Deliberately unlike anything else on the site: verified facts wear solid
+   pills; guest reports wear dashed borders and their own vocabulary. */
+
+.status-board { display: grid; gap: .5rem; }
+.status-row {
+  display: grid; grid-template-columns: minmax(12rem, 1fr) auto; gap: .5rem 1rem; align-items: center;
+  padding: .65rem .9rem; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface);
+}
+.status-row__name { font-weight: 650; }
+.status-row__note { grid-column: 1 / -1; font-size: var(--step--1); color: var(--muted); }
+.status-row__report { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.status-row__pill--open { background: var(--good-soft); color: var(--good); border: 1px solid var(--good); }
+.status-row--scheduled { border-left: 4px solid var(--warn); }
+.status-row--amber { border: 1px dashed var(--warn); background: var(--warn-soft); }
+.status-row--amber-faint { border: 1px dashed var(--line-strong); }
+.status-row--red { border: 2px dashed var(--danger); background: var(--danger-soft); }
+.status-pill--guest {
+  display: inline-block; padding: .2rem .6rem; border-radius: 999px; font-size: .72rem; font-weight: 800;
+  letter-spacing: .06em; text-transform: uppercase; border: 1px dashed currentColor;
+}
+.status-row--amber .status-pill--guest { color: var(--warn); }
+.
+
+/* ---------- Ride status board (guest-report layer) ------------------------ */
+/* Deliberately unlike anything else on the site: verified facts wear solid
+   pills; guest reports wear dashed borders and their own vocabulary. */
+
+.status-board { display: grid; gap: .5rem; }
+.status-row {
+  display: grid; grid-template-columns: minmax(12rem, 1fr) auto; gap: .5rem 1rem; align-items: center;
+  padding: .65rem .9rem; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface);
+}
+.status-row__name { font-weight: 650; }
+.status-row__note { grid-column: 1 / -1; font-size: var(--step--1); color: var(--muted); }
+.status-row__report { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.status-row__pill--open { background: var(--good-soft); color: var(--good); border: 1px solid var(--good); }
+.status-row--scheduled { border-left: 4px solid var(--warn); }
+.status-row--amber { border: 1px dashed var(--warn); background: var(--warn-soft); }
+.status-row--amber-faint { border: 1px dashed var(--line-strong); }
+.status-row--red { border: 2px dashed var(--danger); background: var(--danger-soft); }
+.status-pill--guest {
+  display: inline-block; padding: .2rem .6rem; border-radius: 999px; font-size: .72rem; font-weight: 800;
+  letter-spacing: .06em; text-transform: uppercase; border: 1px dashed currentColor;
+}
+.status-row--amber .status-pill--guest { color: var(--warn); }
+.status-row--red .status-pill--guest { color: var(--danger); }
+.status-hint { font-size: .75rem; color: var(--muted); }
+.status-report-btn { padding: .25rem .7rem; font-size: .78rem; }
+@media (max-width: 640px) { .status-row { grid-template-columns: 1fr; } }

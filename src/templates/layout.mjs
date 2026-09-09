@@ -3,7 +3,7 @@ import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
-const ASSET_VERSION = '9'
+const ASSET_VERSION = '10'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 /**

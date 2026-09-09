@@ -91,6 +91,8 @@ export const urls = {
   price: (slug) => `/prices/${slug}/`,
   closuresIndex: () => '/closures/',
   closures: (resortSlug) => `/closures/${resortSlug}/`,
+  statusIndex: () => '/status/',
+  statusPark: (parkSlug) => `/status/${parkSlug}/`,
 
   about: () => '/about/',
   editorial: () => '/editorial-policy/',

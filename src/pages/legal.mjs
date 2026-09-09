@@ -481,6 +481,14 @@ export function legalPages (data) {
         ],
       },
       {
+        heading: 'Ride reports',
+        id: 'ride-reports',
+        body: [
+          'The ride status pages let visitors report a ride as closed from inside the park. A report sends three things: the park, the ride, and a random id your browser generates for the day — rotated at midnight, stored only on your device, and never linked to a name, an account, or an email, because none exist here.',
+          'To keep the endpoint honest, the server also stores a one-way hash of that daily id and a one-way hash of your IP address salted with the date, held for at most a day and used only to rate-limit duplicates. A Cloudflare Turnstile check runs at the moment of reporting to stop bots; it runs only then, and nothing from it loads anywhere else on the site. Reports are anonymous, cannot be traced back to you by us, and are deleted within a day of being made.',
+        ],
+      },
+      {
         heading: 'The order we will do this in',
         id: 'consent',
         body: [
@@ -548,6 +556,7 @@ export function legalPages (data) {
           site.legal.accuracyNote,
           'The confidence labels are a description of what we know, not a warranty of what will happen. An entry marked expected is our reading of a pattern and may be wrong. An entry marked confirmed was accurate against an announcement at the time somebody checked it, and operators move dates, change prices, close attractions, and cancel events without notice.',
           'Anything that would ruin a trip if it turned out to be wrong — a height requirement you are counting on, a party night you are flying in for, a price you are budgeting against, an attraction you are going specifically to ride — should be confirmed with the operator before you commit money to it. We accept no liability for decisions taken on the basis of what is published here.',
+          'That applies doubly to the ride status pages. Scheduled closures there come from the operator’s published calendars, but guest reports are anonymous, unverified submissions from park visitors: they may be wrong, duplicated, or out of date, they expire on a twelve-hour rolling window, and they are provided as-is with no warranty of any kind. We do not confirm, moderate in real time, or endorse any guest report, and we accept no liability for acting or failing to act on one. The operator’s own app and channels are authoritative; the status pages link to them from every park.',
         ],
       },
       {
