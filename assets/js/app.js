@@ -283,66 +283,6 @@
     }, 400)
   }
 
-  /* ---------- Stat count-up ------------------------------------------------ */
-
-  /* Numbers in the stat bands count up once, on first view. The final value is what the
-     server rendered, so no-JS and reduced-motion visitors see exactly the same figures. */
-  function initStatCountUp () {
-    /* In a background tab rAF is throttled and an animation that started there would freeze
-       mid-number; the server-rendered figure is the whole point, so hidden tabs simply keep it. */
-    if (REDUCED_MOTION.matches || document.hidden) return
-    var seen = false
-    var targets = []
-    document.querySelectorAll('.stat-row__value').forEach(function (el) {
-      var text = el.textContent.trim()
-      if (/^\d{2,}$/.test(text)) targets.push({ el: el, value: Number(text) })
-    })
-    if (!targets.length) return
-    var obs = new IntersectionObserver(function (entries) {
-      if (seen || !entries.some(function (e) { return e.isIntersecting })) return
-      seen = true
-      obs.disconnect()
-      targets.forEach(function (t) { t.done = false })
-      var finisher = setTimeout(function () {
-        /* Belt and braces; the health probe below is the real guard. */
-        targets.forEach(function (t) { t.done = true; t.el.textContent = String(t.value) })
-      }, 1000)
-      /* Health probe: if the first animation frame is slow to arrive, the renderer is
-         throttled and a count-up would freeze mid-number. Land on the real figures
-         immediately — the animation is a nicety, the number is a fact. */
-      var scheduledAt = performance.now()
-      requestAnimationFrame(function (firstTs) {
-        if (firstTs - scheduledAt > 250) {
-          targets.forEach(function (t) { t.done = true; t.el.textContent = String(t.value) })
-          clearTimeout(finisher)
-          return
-        }
-        runCountUp()
-      })
-      function runCountUp () {
-      targets.forEach(function (t) {
-        var start = null
-        var DURATION = 900
-        function frame (ts) {
-          if (t.done) return
-          if (start === null) start = ts
-          var p = Math.min(1, (ts - start) / DURATION)
-          var eased = 1 - Math.pow(1 - p, 3)
-          t.el.textContent = String(Math.round(t.value * eased))
-          if (p < 1) requestAnimationFrame(frame)
-          else {
-            t.done = true
-            t.el.textContent = String(t.value)
-            clearTimeout(finisher)
-          }
-        }
-        requestAnimationFrame(frame)
-      })
-      }
-    }, { threshold: 0.4 })
-    obs.observe(targets[0].el)
-  }
-
   /* ---------- Scroll reveal ------------------------------------------------- */
 
   /* One restrained fade-and-rise as a band enters the viewport — the class is added by
@@ -419,7 +359,6 @@
     initSearch()
     initConnectivity()
     initDataSaver()
-    initStatCountUp()
     initReveal()
     initServiceWorker()
   })
