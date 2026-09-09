@@ -1506,3 +1506,24 @@ body[data-offline] .offline-note { display: block; }
   html, body { transition: background-color .32s ease; }
   .site-header, .site-footer, .band { transition: background-color .32s ease, border-color .32s ease; }
 }
+
+/* ---------- Season spotlight (homepage, self-retiring by config) ---------- */
+
+.spotlight { position: relative; background: #170d24; color: #f4ecdd; overflow: hidden; }
+.spotlight__inner { position: relative; padding: var(--space-8) 0; }
+.spotlight__scene { position: absolute; inset: 0; z-index: 0; }
+.spotlight__scene svg { width: 100%; height: 100%; display: block; }
+.spotlight__content { position: relative; z-index: 1; max-width: 46rem; }
+.spotlight__label {
+  margin: 0 0 var(--space-3); font-size: .72rem; font-weight: 800; letter-spacing: .16em;
+  text-transform: uppercase; color: #e8a13c;
+}
+.spotlight__title { margin: 0 0 var(--space-3); font-family: var(--font-display); font-size: var(--step-3); line-height: 1.05; letter-spacing: -.02em; color: #faf4e6; }
+.spotlight__lede { margin: 0 0 var(--space-5); max-width: 40rem; color: rgba(244, 236, 221, .82); }
+.spotlight__events { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin-bottom: var(--space-5); }
+.spotlight__events .card { background: rgba(13, 7, 20, .55); border-color: rgba(232, 161, 60, .28); }
+.spotlight__actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin: 0; }
+.spotlight__cta.btn--solid { background: #e8a13c; border-color: #e8a13c; color: #241238; }
+.spotlight__cta.btn--ghost { color: #f4ecdd; border-color: rgba(244, 236, 221, .45); }
+.spotlight__cta.btn--ghost:hover { background: rgba(244, 236, 221, .1); color: #fff; }
+[data-theme="dark"] .spotlight { background: #120a1c; }

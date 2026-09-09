@@ -135,10 +135,10 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Windows reflect the 2023, 2024 and 2025 seasons at both resorts, which is a strong enough pattern to plan around. Prices are 2025-season bands, labelled with that cycle. We have not verified 2026 dates or 2026 pricing against either operator's published calendar as of July 2026, so nothing here is presented as announced.",
-    "reviewBy": "2026-09",
+    "sourceNote": "Re-checked September 2026: the three Halloween events (Not-So-Scary, Halloween Time, Oogie Boogie Bash) all have confirmed 2026 editions with announced dates running through October 31 - see each event page for the dated detail.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }
