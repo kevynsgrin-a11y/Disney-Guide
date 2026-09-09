@@ -302,6 +302,10 @@
       if (seen || !entries.some(function (e) { return e.isIntersecting })) return
       seen = true
       obs.disconnect()
+      var finisher = setTimeout(function () {
+        /* rAF can be starved in throttled renderers; the real figure wins regardless. */
+        targets.forEach(function (t) { t.el.textContent = String(t.value) })
+      }, 1000)
       targets.forEach(function (t) {
         var start = null
         var DURATION = 900
@@ -311,7 +315,10 @@
           var eased = 1 - Math.pow(1 - p, 3)
           t.el.textContent = String(Math.round(t.value * eased))
           if (p < 1) requestAnimationFrame(frame)
-          else t.el.textContent = String(t.value)
+          else {
+            t.el.textContent = String(t.value)
+            clearTimeout(finisher)
+          }
         }
         requestAnimationFrame(frame)
       })
