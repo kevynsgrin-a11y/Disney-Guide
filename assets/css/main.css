@@ -6,59 +6,46 @@
 
 /* ---------- 1. Tokens ---------------------------------------------------- */
 
-:root { color-scheme: dark; }
+:root {
+  color-scheme: dark;
+  --paper:       #0b0f0e;
+  --surface:     #121817;
+  --surface-2:   #18201e;
+  --surface-3:   #1f2926;
+  --ink:         #e9efec;
+  --ink-2:       #c3cfca;
+  --muted:       #93a49e;
+  --line:        #26312e;
+  --line-strong: #35433f;
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { color-scheme: dark; }
-}
-:root
+  --brand:       #4fbf95;
+  --brand-2:     #3fae87;
+  --brand-3:     #6ed6b0;
+  --brand-soft:  #12241d;
 
-/* Dark palette applied via a shared custom-property block. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper:       #0b0f0e;
-    --surface:     #121817;
-    --surface-2:   #18201e;
-    --surface-3:   #1f2926;
-    --ink:         #e9efec;
-    --ink-2:       #c3cfca;
-    --muted:       #93a49e;
-    --line:        #26312e;
-    --line-strong: #35433f;
+  --accent:      #e9b264;
+  --accent-2:    #f0c384;
+  --accent-soft: #2a2113;
 
-    --brand:       #4fbf95;
-    --brand-2:     #3fae87;
-    --brand-3:     #6ed6b0;
-    --brand-soft:  #12241d;
+  --danger:      #f08a7c;
+  --danger-soft: #2b1714;
+  --warn:        #e3b458;
+  --warn-soft:   #2a2213;
+  --good:        #63c99b;
+  --good-soft:   #12241d;
 
-    --accent:      #e9b264;
-    --accent-2:    #f0c384;
-    --accent-soft: #2a2113;
+  --focus:       #6ed6b0;
 
-    --danger:      #f08a7c;
-    --danger-soft: #2b1714;
-    --warn:        #e3b458;
-    --warn-soft:   #2a2213;
-    --good:        #63c99b;
-    --good-soft:   #12241d;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
 
-    --focus:       #6ed6b0;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-lg: 12px;
+  --radius: 10px;
 
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4);
-    --shadow:    0 2px 4px rgba(0, 0, 0, .3), 0 10px 30px -14px rgba(0, 0, 0, .7);
-    --shadow-lg: 0 4px 10px rgba(0, 0, 0, .35), 0 30px 70px -28px rgba(0, 0, 0, .8);
-  }
-}
-:root[data-theme="dark"] {
-  --paper:#0b0f0e; --surface:#121817; --surface-2:#18201e; --surface-3:#1f2926;
-  --ink:#e9efec; --ink-2:#c3cfca; --muted:#93a49e; --line:#26312e; --line-strong:#35433f;
-  --brand:#4fbf95; --brand-2:#3fae87; --brand-3:#6ed6b0; --brand-soft:#12241d;
-  --accent:#e9b264; --accent-2:#f0c384; --accent-soft:#2a2113;
-  --danger:#f08a7c; --danger-soft:#2b1714; --warn:#e3b458; --warn-soft:#2a2213;
-  --good:#63c99b; --good-soft:#12241d; --focus:#6ed6b0;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
-  --shadow: 0 2px 4px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.7);
-  --shadow-lg: 0 4px 10px rgba(0,0,0,.35), 0 30px 70px -28px rgba(0,0,0,.8);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4);
+  --shadow:    0 2px 4px rgba(0, 0, 0, .3), 0 10px 30px -14px rgba(0, 0, 0, .7);
+  --shadow-lg: 0 4px 10px rgba(0, 0, 0, .35), 0 30px 70px -28px rgba(0, 0, 0, .8);
 }
 
 /* ---------- 2. Reset ----------------------------------------------------- */
