@@ -440,13 +440,12 @@ export function legalPages (data) {
         heading: 'What is stored on your device',
         id: 'local',
         body: [
-          'Four features save data in your browser\'s localStorage. All four stay on the device, none is transmitted anywhere, and we have no means of reading any of them.',
+          'Three features save data in your browser\'s localStorage. All three stay on the device, none is transmitted anywhere, and we have no means of reading any of them.',
         ],
         list: [
           '**Food Tracker** (`rrg-food`) — the want, tried, or skip status you set against each item, plus a schema version number.',
           '**Height Checker** (`rrg-height`) — the last height you set on the slider.',
           '**Trip timing** (`psg-timing`) — the resort you selected and which of the priority checkboxes you left ticked. The tool works without it.',
-          '**Theme preference** (`rrg-theme`) — whether you chose the light or dark color scheme, and nothing beyond that.',
         ],
       },
       {

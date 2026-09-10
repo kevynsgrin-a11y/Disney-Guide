@@ -27,81 +27,107 @@ function parkCard (park) {
     ],
   })
 }
+/** Resolve the smallest accurate location label available for a spotlight event. */
+function spotlightVenue (event, site) {
+  if (event.parkInfo) return event.parkInfo.name
+  const resort = (site.resorts || []).find((item) => item.slug === event.resort)
+  return resort ? (resort.shortName || resort.name) : 'Seasonal event'
+}
 
+/** The dedicated card stays compact so the season reads as an editorial plate, not a product grid. */
+function spotlightEventCard (event, site) {
+  const status = event.staleness && event.staleness.confidence === 'confirmed'
+    ? 'Confirmed'
+    : (event.staleness ? event.staleness.confidenceLabel : 'Not verified')
+  const statusClass = event.staleness && event.staleness.confidence === 'confirmed' ? ' spotlight__status--confirmed' : ''
+  return html`
+    <article class="spotlight__event">
+      <p class="spotlight__status${statusClass}">${status}</p>
+      <h3 class="spotlight__event-title"><a href="${event.url}">${event.shortName || event.name}</a></h3>
+      <p class="spotlight__event-venue">${spotlightVenue(event, site)}</p>
+    </article>
+  `
+}
 
 /**
- * The season spotlight: a themed, self-retiring homepage band.
- *
- * Driven by site.json -> seasonSpotlight so the season rotates by config, not by code edits:
- * Halloween now, the holidays next, nothing in between. Renders only while BUILD_MONTH is at
- * or before the block's `until` month. The scene is drawn from SVG primitives - pumpkins,
- * bats, a crescent moon, string lights - generic harvest iconography that belongs to no one.
+ * The season spotlight is a themed, self-retiring homepage plate. Its copy, dates, CTA links,
+ * and prioritized cards are authored in site.json; this renderer only supplies the shared scene.
  */
 function seasonSpotlight (site, running) {
   const spot = site.seasonSpotlight
   if (!spot || !spot.season || !spot.until) return raw('')
   const [untilYear, untilMonth] = String(spot.until).split('-').map(Number)
-  // BUILD_MONTH-based retirement: the band disappears the month after `until`.
   const buildKey = Number(BUILD_MONTH_RAW.slice(0, 4)) * 12 + Number(BUILD_MONTH_RAW.slice(5, 7))
   const untilKey = untilYear * 12 + untilMonth
   if (buildKey > untilKey) return raw('')
 
-  const inSeason = (running || []).filter((e) => e.season === spot.season).slice(0, 3)
+  const inSeason = (spot.events || [])
+    .map((slug) => (running || []).find((event) => event.slug === slug))
+    .filter(Boolean)
+  const fallbackEvents = (running || []).filter((event) => event.season === spot.season).slice(0, 3)
+  const events = inSeason.length ? inSeason : fallbackEvents
   const pumpkins = [0, 1, 2, 3].map((i) => {
-    const x = 1080 + i * 190 + (i % 2) * 26
-    const y = [318, 300, 326, 306][i]
-    const r = [52, 64, 46, 58][i]
-    return `<g><ellipse cx="${x}" cy="${y}" rx="${r}" ry="${r * 0.82}" fill="#c8621a"/>
-      <ellipse cx="${x - r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#a94f13" opacity="0.55"/>
-      <ellipse cx="${x + r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#a94f13" opacity="0.55"/>
-      <path d="M ${x} ${y - r * 0.8} q 6 -18 22 -20 q -4 12 -8 20 z" fill="#3f5d2e"/>
-      <path d="M ${x - r * 0.28} ${y - 2} q 4 -8 8 0 M ${x + r * 0.16} ${y - 6} q 4 -8 8 0" stroke="#7a3a0d" stroke-width="3" fill="none" stroke-linecap="round"/></g>`
+    const x = 1125 + i * 176 + (i % 2) * 20
+    const y = [322, 298, 326, 302][i]
+    const r = [48, 62, 44, 56][i]
+    return `<g class="spotlight-pumpkin"><ellipse cx="${x}" cy="${y}" rx="${r}" ry="${r * 0.82}" fill="#b55318"/>
+      <ellipse cx="${x - r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#813014" opacity="0.56"/>
+      <ellipse cx="${x + r * 0.42}" cy="${y}" rx="${r * 0.3}" ry="${r * 0.74}" fill="#813014" opacity="0.56"/>
+      <path d="M ${x} ${y - r * 0.79} q 6 -17 20 -19 q -4 11 -8 19 z" fill="#53632f"/>
+      <path class="spotlight-pumpkin__face" d="M ${x - r * 0.34} ${y - 8} l 12 8 l -14 1 z M ${x + r * 0.12} ${y - 8} l 12 8 l -14 1 z M ${x - 10} ${y + 14} q 10 7 20 0" fill="#ffd979" filter="url(#spotlight-glow)"/></g>`
   }).join('')
-  const bats = [[210, 120, 1], [420, 78, 0.7], [760, 140, 0.85], [900, 66, 0.6]].map(([x, y, k]) =>
-    `<path d="M ${x} ${y} q ${-14 * k} ${-10 * k} ${-26 * k} ${-4 * k} q ${-2 * k} ${8 * k} ${-16 * k} ${10 * k} q ${12 * k} ${2 * k} ${14 * k} ${10 * k} q ${10 * k} ${-8 * k} ${28 * k} ${-8 * k} q ${18 * k} ${0} ${28 * k} ${8 * k} q ${2 * k} ${-8 * k} ${14 * k} ${-10 * k} q ${-14 * k} ${-2 * k} ${-16 * k} ${-10 * k} q ${-12 * k} ${-6 * k} ${-26 * k} ${4 * k} z" fill="#0d0714"/>`
+  const bats = [[1260, 122, 1], [1450, 82, 0.72], [1690, 138, 0.84]].map(([x, y, k]) =>
+    `<path class="spotlight-bat" d="M ${x} ${y} q ${-14 * k} ${-10 * k} ${-26 * k} ${-4 * k} q ${-2 * k} ${8 * k} ${-16 * k} ${10 * k} q ${12 * k} ${2 * k} ${14 * k} ${10 * k} q ${10 * k} ${-8 * k} ${28 * k} ${-8 * k} q ${18 * k} ${0} ${28 * k} ${8 * k} q ${2 * k} ${-8 * k} ${14 * k} ${-10 * k} q ${-14 * k} ${-2 * k} ${-16 * k} ${-10 * k} q ${-12 * k} ${-6 * k} ${-26 * k} ${4 * k} z" fill="#110918"/>`
   ).join('')
-  const lights = [0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) =>
-    `<circle cx="${64 + i * 210 + (i % 3) * 30}" cy="${34 + (i % 2) * 10}" r="4" fill="#e8a13c" opacity="0.9"/>`
+  const lights = Array.from({ length: 13 }, (_, i) =>
+    `<circle cx="${60 + i * 156}" cy="${52 + (i % 2) * 13}" r="${i % 3 === 0 ? 5 : 4}" fill="${i % 2 ? '#c68dd5' : '#e8a13c'}" opacity="0.9" filter="url(#spotlight-light)"/>`
   ).join('')
 
   return html`
     <section class="band spotlight spotlight--${spot.season}" aria-labelledby="season-spotlight-title">
+      <div class="spotlight__scene" aria-hidden="true">
+        <svg viewBox="0 0 1920 500" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="spotlight-sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#170d24"/><stop offset="0.58" stop-color="#241238"/><stop offset="1" stop-color="#31173a"/></linearGradient>
+            <radialGradient id="spotlight-haze" cx="0.73" cy="0.18" r="0.52"><stop stop-color="#8e68a5" stop-opacity="0.28"/><stop offset="1" stop-color="#8e68a5" stop-opacity="0"/></radialGradient>
+            <filter id="spotlight-light"><feGaussianBlur stdDeviation="2.4"/></filter>
+            <filter id="spotlight-glow"><feGaussianBlur stdDeviation="3.6"/></filter>
+          </defs>
+          <rect width="1920" height="500" fill="url(#spotlight-sky)"/><rect width="1920" height="500" fill="url(#spotlight-haze)"/>
+          <circle cx="1610" cy="96" r="124" fill="#f5e5bd" opacity="0.1"/><path d="M 1608 41 a 52 52 0 1 0 32 92 a 43 43 0 1 1 -32 -92 z" fill="#f4dfaa"/>
+          ${bats}
+          <path d="M 0 54 Q 410 86 875 52 T 1920 58" fill="none" stroke="#120a1c" stroke-width="1.4" opacity="0.9"/>
+          ${lights}
+          <path d="M 0 386 Q 240 330 470 370 T 930 356 T 1370 382 T 1920 344 V 500 H 0 Z" fill="#120b17" opacity="0.96"/>
+          <path d="M 1012 366 H 1915 M 1012 406 H 1915 M 1040 344 V 430 M 1195 344 V 430 M 1350 344 V 430 M 1505 344 V 430 M 1660 344 V 430 M 1815 344 V 430" stroke="#20101d" stroke-width="9" opacity="0.94"/>
+          ${pumpkins}
+        </svg>
+      </div>
       <div class="shell spotlight__inner">
-        <div class="spotlight__scene" aria-hidden="true">
-          <svg viewBox="0 0 1920 420" preserveAspectRatio="xMidYMax slice">
-            <defs>
-              <linearGradient id="spot-sky" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#170d24"/><stop offset="0.6" stop-color="#241238"/><stop offset="1" stop-color="#31173a"/>
-              </linearGradient>
-              <radialGradient id="spot-moon" cx="0.5" cy="0.5" r="0.5">
-                <stop offset="0" stop-color="#f6e9c9" stop-opacity="0.95"/><stop offset="0.55" stop-color="#f6e9c9" stop-opacity="0.28"/><stop offset="1" stop-color="#f6e9c9" stop-opacity="0"/>
-              </radialGradient>
-            </defs>
-            <rect width="1920" height="420" fill="url(#spot-sky)"/>
-            <circle cx="1560" cy="96" r="120" fill="url(#spot-moon)"/>
-            <path d="M 1560 44 a 52 52 0 1 0 34 90 a 44 44 0 1 1 -34 -90 z" fill="#f2e2b8"/>
-            ${bats}
-            <path d="M 0 40 Q 480 78 960 44 T 1920 52" fill="none" stroke="#0d0714" stroke-width="1.6" opacity="0.9"/>
-            ${lights}
-            <rect x="0" y="352" width="1920" height="68" fill="#0d0714"/>
-            ${pumpkins}
-          </svg>
-        </div>
         <div class="spotlight__content">
           <p class="spotlight__label">${spot.label}</p>
           <h2 id="season-spotlight-title" class="spotlight__title">${spot.title}</h2>
           <p class="spotlight__lede">${spot.lede}</p>
-          ${inSeason.length ? html`
-            <div class="spotlight__events">
-              ${inSeason.map((e) => SC.eventCard(e, e.staleness))}
-            </div>` : ''}
+          ${events.length ? html`<div class="spotlight__events" aria-label="Seasonal events">${events.map((event) => spotlightEventCard(event, site))}</div>` : ''}
           <p class="spotlight__actions">
-            <a class="btn btn--solid spotlight__cta" href="/holidays/halloween/">The Halloween guide</a>
-            <a class="btn btn--ghost spotlight__cta" href="/when-to-go/october/">October, honestly graded</a>
+            <a class="btn spotlight__cta spotlight__cta--primary" href="${spot.primaryHref || urls.holidaysIndex()}">${spot.primaryLabel || 'Seasonal guide'}</a>
+            <a class="btn spotlight__cta spotlight__cta--quiet" href="${spot.secondaryHref || urls.whenToGoIndex()}">${spot.secondaryLabel || 'When to go'}</a>
           </p>
         </div>
       </div>
     </section>
+  `
+}
+
+/** A brief, decor-only welcome moment; it never captures input and removes itself after playing. */
+function landingBats () {
+  const bat = (name) => html`<svg class="landing-bats__bat landing-bats__bat--${name}" viewBox="0 0 80 28" aria-hidden="true"><path d="M0 12c9-10 19-10 29 0 4-9 9-12 11-12s7 3 11 12c10-10 20-10 29 0-9 1-15 5-19 12-5-2-10-5-21-5s-16 3-21 5C15 17 9 13 0 12Z" fill="currentColor" stroke="none"/></svg>`
+  return html`
+    <div class="landing-bats" data-landing-bats aria-hidden="true">
+      ${bat('one')}${bat('two')}${bat('three')}${bat('four')}${bat('five')}
+      <svg class="landing-bats__bolt" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M100 0 480 315 366 396 765 900"/><path d="M1440 80 1012 388 1136 468 748 900"/></svg>
+      <span class="landing-bats__flash"></span>
+    </div>
   `
 }
 
@@ -151,6 +177,7 @@ export function homePage (data, seasonal) {
   const nextMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER === 12 ? 1 : BUILD_MONTH_NUMBER + 1)
 
   const body = html`
+    ${landingBats()}
     ${C.hero({
       eyebrow: `${data.parks.length} US parks · independent & unofficial`,
       title: 'Know exactly what your family can ride, eat, and skip.',

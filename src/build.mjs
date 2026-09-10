@@ -15,7 +15,6 @@
 
 import { mkdir, writeFile, readFile, readdir, rm, cp, stat } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
-import { createHash } from 'node:crypto'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
@@ -24,7 +23,6 @@ import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DI
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
-import { THEME_BOOTSTRAP } from './templates/layout.mjs'
 import { renderParkMap } from './lib/map.mjs'
 import { buildPodcastFeed, resolveEpisodes } from './lib/podcast.mjs'
 import * as core from './pages/core.mjs'
@@ -423,19 +421,6 @@ const CACHE_RULES = [
   { path: '/maps/*', vercel: '/maps/(.*)', value: 'public, max-age=86400' },
 ]
 
-/**
- * The one inline script on the site, hashed for the CSP.
- *
- * `THEME_BOOTSTRAP` has to be inline — an external file there is a guaranteed flash of the wrong
- * theme — so the policy names it by hash rather than opening `script-src` to `'unsafe-inline'`.
- * The hash is derived from the same constant the layout renders, so the two cannot drift: change
- * the bootstrap and the header follows on the next build.
- *
- * JSON-LD blocks need no allowance. `script-src` governs execution, and `application/ld+json` is
- * data the parser never runs.
- */
-const INLINE_SCRIPT_HASH = `sha256-${createHash('sha256').update(THEME_BOOTSTRAP, 'utf8').digest('base64')}`
-
 /*
  * `style-src` still carries 'unsafe-inline' because the templates set `style="…"` attributes for
  * per-item values a stylesheet cannot know — chart bar widths, map focal points. Hashes do not
@@ -444,10 +429,11 @@ const INLINE_SCRIPT_HASH = `sha256-${createHash('sha256').update(THEME_BOOTSTRAP
  */
 const CSP = [
   "default-src 'self'",
+  // JSON-LD blocks are data rather than executable scripts and need no hash allowance.
   // static.cloudflareinsights.com is the aggregate, cookieless Web Analytics beacon. It appears
   // here so the policy does not need a rebuild the day analytics is switched on; the real gate is
   // the consent bar in assets/js/analytics.js, which never injects the script before "granted".
-  `script-src 'self' '${INLINE_SCRIPT_HASH}' https://static.cloudflareinsights.com https://challenges.cloudflare.com`,
+  "script-src 'self' https://static.cloudflareinsights.com https://challenges.cloudflare.com",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self'",
   "media-src 'self'",
