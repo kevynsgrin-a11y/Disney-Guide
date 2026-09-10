@@ -56,3 +56,16 @@ Every file in this directory is recorded here before it ships, per the rights ru
   carvings; all figures anonymous with no identifiable faces; no readable text or branding.
   Inspection verdicts recorded in the September 2026 launch notes: all four PASS.
 - **Use:** decorative section imagery for the Halloween season pages.
+
+## universal-studio-backlot, universal-express-lane, universal-food-flatlay, universal-resort-lagoon
+
+- **Provenance:** generated 2026-09-09 with Google Gemini (Ultra daily quota), from the four
+  verbatim briefs in the Hollywood Ride Guide launch package's Gemini batch. Converted, sized,
+  and measured in-repo; AVIF variants land inside the section-scene byte budgets.
+- **Licence:** generated for Hollywood Ride Guide; no external image or reference material
+  incorporated. AI-generated media is treated as uncopyrightable and recorded as such.
+- **IP position:** each image was generated from generic subject briefs (studio backlot,
+  express lane, food flat-lay, resort lagoon) with no reference to any real venue, attraction,
+  or licensed property. No park-operator characters, logos, wordmarks, ride vehicles, or
+  recognizable architecture. All food shapes conventional. No readable text or branding.
+- **Use:** decorative section imagery for the Universal (Hollywood Ride Guide) pages.
