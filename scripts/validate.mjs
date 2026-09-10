@@ -598,6 +598,20 @@ async function validateSite () {
   if (!site.brand || !site.brand.origin || !/^https?:\/\//.test(site.brand.origin)) {
     err(where, 'brand.origin must be an absolute URL')
   }
+  // A palette is optional — an operator without one ships the house tokens — but a partial or
+  // malformed one silently styles half the site, so when present it must be complete and every
+  // value a real 6-digit hex color.
+  if (site.brand?.palette) {
+    const { PALETTE_TOKENS } = await import('../src/lib/palette.mjs')
+    const palette = site.brand.palette
+    for (const key of Object.keys(palette)) {
+      if (!(key in PALETTE_TOKENS)) err(where, `brand.palette has unknown token "${key}"`)
+      else if (!/^#[0-9a-fA-F]{6}$/.test(palette[key])) err(where, `brand.palette.${key} must be a #rrggbb hex color`)
+    }
+    for (const key of Object.keys(PALETTE_TOKENS)) {
+      if (!(key in palette)) err(where, `brand.palette is missing token "${key}" — a palette must be complete`)
+    }
+  }
   // How many resorts an operator has is a fact about that operator, not a rule. Disney has two,
   // Universal has two, a future one-resort operator is not malformed. What matters is that it has
   // at least one and that every park it names actually exists.
