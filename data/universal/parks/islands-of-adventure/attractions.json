@@ -66,12 +66,28 @@
       "bestTime": "Midday, when you want air conditioning as much as you want a ride. Waits stay moderate all day because capacity is high.",
       "typicalWait": "Usually 25-50 minutes at peak, often under 20 in the first and last hours. Single rider frequently under 15.",
       "faqs": [
-        { "q": "Is Spider-Man scary for kids?", "a": "Moderately. It is dark, loud and fast, there is a real burst of flame with radiant heat, and there is a simulated 400-foot fall that feels convincing. Children over about seven who like Disney dark rides usually enjoy it. Under-fives frequently do not, and the 40-inch requirement rules out most of them anyway." },
-        { "q": "Does Spider-Man make people motion sick?", "a": "It can. The vehicle pitches, spins and rolls continuously while you are wearing 3D glasses, which is the exact combination that triggers simulator sickness. If Star Tours or Forbidden Journey are a problem for you, treat this as the same category." },
-        { "q": "Does the ride actually drop?", "a": "No. The famous 400-foot fall is produced by the vehicle tilting and dropping a few inches in sync with the film and a moving set piece. It is one of the best illusions in any theme park, and knowing how it works does not stop it from landing." },
-        { "q": "Is the single rider line worth using?", "a": "Yes, and it is one of the better ones here. The vehicles hold twelve, gaps open constantly, and the single rider queue rejoins near the load platform. You lose the Daily Bugle queue, which is worth seeing once and not three times." }
+        {
+          "q": "Is Spider-Man scary for kids?",
+          "a": "Moderately. It is dark, loud and fast, there is a real burst of flame with radiant heat, and there is a simulated 400-foot fall that feels convincing. Children over about seven who like Disney dark rides usually enjoy it. Under-fives frequently do not, and the 40-inch requirement rules out most of them anyway."
+        },
+        {
+          "q": "Does Spider-Man make people motion sick?",
+          "a": "It can. The vehicle pitches, spins and rolls continuously while you are wearing 3D glasses, which is the exact combination that triggers simulator sickness. If Star Tours or Forbidden Journey are a problem for you, treat this as the same category."
+        },
+        {
+          "q": "Does the ride actually drop?",
+          "a": "No. The famous 400-foot fall is produced by the vehicle tilting and dropping a few inches in sync with the film and a moving set piece. It is one of the best illusions in any theme park, and knowing how it works does not stop it from landing."
+        },
+        {
+          "q": "Is the single rider line worth using?",
+          "a": "Yes, and it is one of the better ones here. The vehicles hold twelve, gaps open constantly, and the single rider queue rejoins near the load platform. You lose the Daily Bugle queue, which is worth seeing once and not three times."
+        }
       ],
-      "relatedSlugs": ["the-incredible-hulk-coaster", "doctor-dooms-fearfall", "skull-island-reign-of-kong"],
+      "relatedSlugs": [
+        "the-incredible-hulk-coaster",
+        "doctor-dooms-fearfall",
+        "skull-island-reign-of-kong"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -140,12 +156,28 @@
       "bestTime": "After dark, or in the last ninety minutes of the day when waits collapse and the launch tunnel is at its most theatrical.",
       "typicalWait": "Typically 30-60 minutes midday, dropping under 20 late. Single rider is often a third of the posted standby time.",
       "faqs": [
-        { "q": "How tall do you have to be to ride the Hulk?", "a": "54 inches. That is the tallest requirement at Islands of Adventure and one of the tallest in Orlando, and it rules out a large share of children who can ride everything at Magic Kingdom. There is no exception and measurement is taken with shoes on at a fixed stick." },
-        { "q": "How many inversions does the Hulk have?", "a": "Seven, starting with a zero-gravity roll immediately after the launch and including a cobra roll and two inversions out over the lagoon. Total ride time is a little over two minutes." },
-        { "q": "Is the Hulk rough?", "a": "Much less than it used to be. The entire track and all the trains were replaced in the 2016 rebuild and the ride is now smooth by the standards of a 1999 layout. The back row is still noticeably more violent than the front." },
-        { "q": "Can I take my phone on the Hulk?", "a": "No. All loose articles go in the free lockers outside the entrance, zipped pockets included, and there is a metal detector before the platform. The lockers are free for the length of the ride cycle plus a buffer." }
+        {
+          "q": "How tall do you have to be to ride the Hulk?",
+          "a": "54 inches. That is the tallest requirement at Islands of Adventure and one of the tallest in Orlando, and it rules out a large share of children who can ride everything at Magic Kingdom. There is no exception and measurement is taken with shoes on at a fixed stick."
+        },
+        {
+          "q": "How many inversions does the Hulk have?",
+          "a": "Seven, starting with a zero-gravity roll immediately after the launch and including a cobra roll and two inversions out over the lagoon. Total ride time is a little over two minutes."
+        },
+        {
+          "q": "Is the Hulk rough?",
+          "a": "Much less than it used to be. The entire track and all the trains were replaced in the 2016 rebuild and the ride is now smooth by the standards of a 1999 layout. The back row is still noticeably more violent than the front."
+        },
+        {
+          "q": "Can I take my phone on the Hulk?",
+          "a": "No. All loose articles go in the free lockers outside the entrance, zipped pockets included, and there is a metal detector before the platform. The lockers are free for the length of the ride cycle plus a buffer."
+        }
       ],
-      "relatedSlugs": ["jurassic-world-velocicoaster", "doctor-dooms-fearfall", "the-amazing-adventures-of-spider-man"],
+      "relatedSlugs": [
+        "jurassic-world-velocicoaster",
+        "doctor-dooms-fearfall",
+        "the-amazing-adventures-of-spider-man"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -214,12 +246,28 @@
       "bestTime": "Late evening on single rider, when the queue is nearly empty and the lit skyline is the best part of the ride.",
       "typicalWait": "Usually 20-40 minutes, occasionally longer in the middle of the day. Single rider is often under ten.",
       "faqs": [
-        { "q": "How tall do you have to be for Doctor Doom's Fearfall?", "a": "52 inches. That puts it between Jurassic World VelociCoaster at 51 and The Incredible Hulk Coaster at 54, and it is the second-tallest requirement at Islands of Adventure." },
-        { "q": "Is Doctor Doom's Fearfall a drop tower?", "a": "It is a shot-and-drop tower. Compressed air launches the seats up the tower first, which produces a hard upward acceleration, and the fall comes afterward with a couple of bounces. That upward launch is what distinguishes it from a conventional drop ride like Tower of Terror." },
-        { "q": "How long is the ride?", "a": "About forty seconds from launch to unload. That is the honest number, and it is why this ride has one of the worst wait-to-ride ratios in the park and why the single rider line is the correct way to do it." },
-        { "q": "Is it scarier than the Hulk?", "a": "For most people, yes, and it is the shorter ride. Sustained free fall frightens more people than inversions do. If someone in your group can only face one of the two, the Hulk is the easier ride to talk them onto." }
+        {
+          "q": "How tall do you have to be for Doctor Doom's Fearfall?",
+          "a": "52 inches. That puts it between Jurassic World VelociCoaster at 51 and The Incredible Hulk Coaster at 54, and it is the second-tallest requirement at Islands of Adventure."
+        },
+        {
+          "q": "Is Doctor Doom's Fearfall a drop tower?",
+          "a": "It is a shot-and-drop tower. Compressed air launches the seats up the tower first, which produces a hard upward acceleration, and the fall comes afterward with a couple of bounces. That upward launch is what distinguishes it from a conventional drop ride like Tower of Terror."
+        },
+        {
+          "q": "How long is the ride?",
+          "a": "About forty seconds from launch to unload. That is the honest number, and it is why this ride has one of the worst wait-to-ride ratios in the park and why the single rider line is the correct way to do it."
+        },
+        {
+          "q": "Is it scarier than the Hulk?",
+          "a": "For most people, yes, and it is the shorter ride. Sustained free fall frightens more people than inversions do. If someone in your group can only face one of the two, the Hulk is the easier ride to talk them onto."
+        }
       ],
-      "relatedSlugs": ["the-incredible-hulk-coaster", "the-amazing-adventures-of-spider-man", "storm-force-accelatron"],
+      "relatedSlugs": [
+        "the-incredible-hulk-coaster",
+        "the-amazing-adventures-of-spider-man",
+        "storm-force-accelatron"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -281,7 +329,10 @@
       "bestTime": "Any time. It rarely builds a meaningful queue and the capacity is decent for a spinner.",
       "typicalWait": "Usually 5-20 minutes, longer only when the surrounding coasters are down.",
       "faqs": [],
-      "relatedSlugs": ["doctor-dooms-fearfall", "caro-seuss-el"],
+      "relatedSlugs": [
+        "doctor-dooms-fearfall",
+        "caro-seuss-el"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -343,7 +394,10 @@
       "bestTime": "Morning or evening slots - the plaza is brutally hot and shadeless in the middle of the day.",
       "typicalWait": "10-25 minutes per character during a posted appearance window.",
       "faqs": [],
-      "relatedSlugs": ["the-amazing-adventures-of-spider-man", "raptor-encounter"],
+      "relatedSlugs": [
+        "the-amazing-adventures-of-spider-man",
+        "raptor-encounter"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -412,12 +466,28 @@
       "bestTime": "Between 1 PM and 4 PM, when being drenched is a benefit rather than a problem.",
       "typicalWait": "Usually 20-45 minutes, and much shorter in cool weather or the first hour of the day.",
       "faqs": [
-        { "q": "How wet do you get on Ripsaw Falls?", "a": "Very. This is a soaking, not a splash - a full sheet of water comes over the front of the log on the final drop and catches every row. Expect to be wet through your shirt and shorts, with wet shoes, for a couple of hours afterward. A poncho helps your torso and nothing else." },
-        { "q": "How tall do you have to be for Ripsaw Falls?", "a": "44 inches. That makes it the shortest of the two Toon Lagoon water rides to qualify for at the top end - the Bilge-Rat Barges next door are 42 inches, so a child between 42 and 44 inches can do one and not the other." },
-        { "q": "How big is the final drop?", "a": "About 75 feet, and it finishes below the waterline of the surrounding trough so the log appears to go under. It is one of the taller flume drops in the United States and it is steeper than most." },
-        { "q": "Can I keep my phone with me?", "a": "You should not. Lockers are provided at the entrance and the volume of water that lands in the log is more than a pocket or a plastic pouch will reliably handle. Phones are lost on this ride regularly." }
+        {
+          "q": "How wet do you get on Ripsaw Falls?",
+          "a": "Very. This is a soaking, not a splash - a full sheet of water comes over the front of the log on the final drop and catches every row. Expect to be wet through your shirt and shorts, with wet shoes, for a couple of hours afterward. A poncho helps your torso and nothing else."
+        },
+        {
+          "q": "How tall do you have to be for Ripsaw Falls?",
+          "a": "44 inches. That makes it the shortest of the two Toon Lagoon water rides to qualify for at the top end - the Bilge-Rat Barges next door are 42 inches, so a child between 42 and 44 inches can do one and not the other."
+        },
+        {
+          "q": "How big is the final drop?",
+          "a": "About 75 feet, and it finishes below the waterline of the surrounding trough so the log appears to go under. It is one of the taller flume drops in the United States and it is steeper than most."
+        },
+        {
+          "q": "Can I keep my phone with me?",
+          "a": "You should not. Lockers are provided at the entrance and the volume of water that lands in the log is more than a pocket or a plastic pouch will reliably handle. Phones are lost on this ride regularly."
+        }
       ],
-      "relatedSlugs": ["popeye-and-blutos-bilge-rat-barges", "jurassic-park-river-adventure", "me-ship-the-olive"],
+      "relatedSlugs": [
+        "popeye-and-blutos-bilge-rat-barges",
+        "jurassic-park-river-adventure",
+        "me-ship-the-olive"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -486,12 +556,28 @@
       "bestTime": "The hottest ninety minutes of the afternoon, and never before noon.",
       "typicalWait": "Usually 20-40 minutes in summer, often walk-on in cool weather when nobody wants to be wet.",
       "faqs": [
-        { "q": "How wet do you get on the Bilge-Rat Barges?", "a": "Soaked to the skin. This is the wettest ride at Universal Orlando and probably in the city. Water comes from waterfalls, a boat wash, spray effects, standing water in the raft and guest-operated cannons on the bridge above. Plan on changing or on drying out over a couple of hours." },
-        { "q": "How tall do you have to be for the Bilge-Rat Barges?", "a": "42 inches, which is two inches lower than Dudley Do-Right's Ripsaw Falls next door. A child between 42 and 44 inches can ride the Barges but not the flume." },
-        { "q": "Does a poncho work?", "a": "Barely. Ponchos handle water that falls from above, and a substantial share of the water on this ride arrives from the raft floor, from the sides on the turns, and from cannons aimed horizontally. Lockers and a change of clothes are the actual answer." },
-        { "q": "Is it a rough ride?", "a": "No. The rapids are mild, there are no significant drops and the raft never feels unstable. The intensity here is entirely about water and disorientation from the spinning, not about force." }
+        {
+          "q": "How wet do you get on the Bilge-Rat Barges?",
+          "a": "Soaked to the skin. This is the wettest ride at Universal Orlando and probably in the city. Water comes from waterfalls, a boat wash, spray effects, standing water in the raft and guest-operated cannons on the bridge above. Plan on changing or on drying out over a couple of hours."
+        },
+        {
+          "q": "How tall do you have to be for the Bilge-Rat Barges?",
+          "a": "42 inches, which is two inches lower than Dudley Do-Right's Ripsaw Falls next door. A child between 42 and 44 inches can ride the Barges but not the flume."
+        },
+        {
+          "q": "Does a poncho work?",
+          "a": "Barely. Ponchos handle water that falls from above, and a substantial share of the water on this ride arrives from the raft floor, from the sides on the turns, and from cannons aimed horizontally. Lockers and a change of clothes are the actual answer."
+        },
+        {
+          "q": "Is it a rough ride?",
+          "a": "No. The rapids are mild, there are no significant drops and the raft never feels unstable. The intensity here is entirely about water and disorientation from the spinning, not about force."
+        }
       ],
-      "relatedSlugs": ["dudley-do-rights-ripsaw-falls", "me-ship-the-olive", "jurassic-park-river-adventure"],
+      "relatedSlugs": [
+        "dudley-do-rights-ripsaw-falls",
+        "me-ship-the-olive",
+        "jurassic-park-river-adventure"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -553,7 +639,11 @@
       "bestTime": "While the rest of your group queues for the Bilge-Rat Barges, so the water cannons have targets you know.",
       "typicalWait": "No wait, ever. It is a walk-through and it has no capacity limit in practice.",
       "faqs": [],
-      "relatedSlugs": ["popeye-and-blutos-bilge-rat-barges", "camp-jurassic", "comic-strip-lane"],
+      "relatedSlugs": [
+        "popeye-and-blutos-bilge-rat-barges",
+        "camp-jurassic",
+        "comic-strip-lane"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -615,7 +705,10 @@
       "bestTime": "First thing in the morning, when the lane is empty and you are still dry enough to want photographs.",
       "typicalWait": "No wait. It is a walkway, though the pinch point near Ripsaw Falls backs up in the afternoon.",
       "faqs": [],
-      "relatedSlugs": ["me-ship-the-olive", "dudley-do-rights-ripsaw-falls"],
+      "relatedSlugs": [
+        "me-ship-the-olive",
+        "dudley-do-rights-ripsaw-falls"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -684,12 +777,28 @@
       "bestTime": "After dark, when the temple exterior is lit and the queue's live performers have the atmosphere they were designed for.",
       "typicalWait": "Usually 30-60 minutes midday, dropping sharply in the evening. Single rider commonly halves it.",
       "faqs": [
-        { "q": "Is Reign of Kong scary?", "a": "It is the scariest attraction at Islands of Adventure, and its 36-inch height requirement gives no hint of that. The dark temple queue with live performers frightens more children than the ride does. There is an alternate queue that bypasses the walkthrough, and it is worth asking for." },
-        { "q": "How tall do you have to be for Reign of Kong?", "a": "36 inches, which is one of the lowest requirements in the park. Height is not the constraint here - tolerance for darkness, loud noises and things lunging at you is." },
-        { "q": "Is the queue really twenty minutes long?", "a": "The indoor temple section takes fifteen to twenty-five minutes to walk even when the ride is a walk-on, because the route is long by design. That is the attraction, not a delay, but it is worth knowing if you have a child who cannot cope with confined dark spaces." },
-        { "q": "Is the Kong animatronic real or a screen?", "a": "Real, and it is the best thing on the ride. A 16-foot articulated figure appears at close range in the finale after five minutes of projection, and the contrast is the whole point of how the ride is built." }
+        {
+          "q": "Is Reign of Kong scary?",
+          "a": "It is the scariest attraction at Islands of Adventure, and its 36-inch height requirement gives no hint of that. The dark temple queue with live performers frightens more children than the ride does. There is an alternate queue that bypasses the walkthrough, and it is worth asking for."
+        },
+        {
+          "q": "How tall do you have to be for Reign of Kong?",
+          "a": "36 inches, which is one of the lowest requirements in the park. Height is not the constraint here - tolerance for darkness, loud noises and things lunging at you is."
+        },
+        {
+          "q": "Is the queue really twenty minutes long?",
+          "a": "The indoor temple section takes fifteen to twenty-five minutes to walk even when the ride is a walk-on, because the route is long by design. That is the attraction, not a delay, but it is worth knowing if you have a child who cannot cope with confined dark spaces."
+        },
+        {
+          "q": "Is the Kong animatronic real or a screen?",
+          "a": "Real, and it is the best thing on the ride. A 16-foot articulated figure appears at close range in the finale after five minutes of projection, and the contrast is the whole point of how the ride is built."
+        }
       ],
-      "relatedSlugs": ["jurassic-park-river-adventure", "the-amazing-adventures-of-spider-man", "jurassic-world-velocicoaster"],
+      "relatedSlugs": [
+        "jurassic-park-river-adventure",
+        "the-amazing-adventures-of-spider-man",
+        "jurassic-world-velocicoaster"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -758,12 +867,28 @@
       "bestTime": "Rope drop for the shortest standby, or dusk for the best ride. Single rider works at any hour.",
       "typicalWait": "Usually 45-90 minutes through the middle of the day, under 30 at open and close. Single rider frequently 15-25.",
       "faqs": [
-        { "q": "How tall do you have to be for VelociCoaster?", "a": "51 inches. That sits between Jurassic Park River Adventure at 42 inches and Doctor Doom's Fearfall at 52, and it locks out a lot of children who can ride most of what Magic Kingdom offers." },
-        { "q": "Is VelociCoaster scarier than the Hulk?", "a": "For most riders, yes, despite being lower and only marginally faster. The lap-bar restraint leaves you feeling unheld, the top hat is 155 feet, and the over-water section at speed is genuinely exposed. The Hulk's over-the-shoulder harness is psychologically reassuring in a way this ride deliberately is not." },
-        { "q": "Does VelociCoaster have a single rider line?", "a": "Yes, and it is the best one at Universal Orlando. It routinely cuts a 75-minute posted standby to 20 minutes or less. The trade is that you skip most of the raptor paddock queue, which is worth walking once." },
-        { "q": "How many inversions does VelociCoaster have?", "a": "Four, including a zero-gravity stall near the end that holds riders inverted for an unusually long moment. There are also two launches and a 155-foot top hat, and the whole circuit runs about two and a half minutes." }
+        {
+          "q": "How tall do you have to be for VelociCoaster?",
+          "a": "51 inches. That sits between Jurassic Park River Adventure at 42 inches and Doctor Doom's Fearfall at 52, and it locks out a lot of children who can ride most of what Magic Kingdom offers."
+        },
+        {
+          "q": "Is VelociCoaster scarier than the Hulk?",
+          "a": "For most riders, yes, despite being lower and only marginally faster. The lap-bar restraint leaves you feeling unheld, the top hat is 155 feet, and the over-water section at speed is genuinely exposed. The Hulk's over-the-shoulder harness is psychologically reassuring in a way this ride deliberately is not."
+        },
+        {
+          "q": "Does VelociCoaster have a single rider line?",
+          "a": "Yes, and it is the best one at Universal Orlando. It routinely cuts a 75-minute posted standby to 20 minutes or less. The trade is that you skip most of the raptor paddock queue, which is worth walking once."
+        },
+        {
+          "q": "How many inversions does VelociCoaster have?",
+          "a": "Four, including a zero-gravity stall near the end that holds riders inverted for an unusually long moment. There are also two launches and a 155-foot top hat, and the whole circuit runs about two and a half minutes."
+        }
       ],
-      "relatedSlugs": ["the-incredible-hulk-coaster", "jurassic-park-river-adventure", "hagrids-magical-creatures-motorbike-adventure"],
+      "relatedSlugs": [
+        "the-incredible-hulk-coaster",
+        "jurassic-park-river-adventure",
+        "hagrids-magical-creatures-motorbike-adventure"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -832,12 +957,28 @@
       "bestTime": "Early afternoon, so the soaking is welcome, or first thing in the morning if you want to stay dry and take the back row.",
       "typicalWait": "Usually 20-45 minutes, and it builds later in the day than the surrounding attractions.",
       "faqs": [
-        { "q": "How wet do you get on Jurassic Park River Adventure?", "a": "It depends entirely on where you sit. The front two rows take a wall of water at the bottom of the 85-foot drop and come off soaked. The back rows get sprayed and are usually dry within twenty minutes. It is the one water ride at Islands of Adventure where seat choice makes a real difference." },
-        { "q": "How tall do you have to be?", "a": "42 inches, the same as Popeye & Bluto's Bilge-Rat Barges and two inches below Dudley Do-Right's Ripsaw Falls." },
-        { "q": "Is it scary for children?", "a": "More than parents expect. The first four minutes are a calm daylight boat tour, and the last two are dark, loud, and include a Tyrannosaurus rex lunging at the boat immediately before an 85-foot drop. Children who enjoyed the opening frequently find the ending too much." },
-        { "q": "How big is the drop?", "a": "About 85 feet, in near darkness, which makes it feel longer than the 75-foot drop on Ripsaw Falls even though the two are comparable. It is one of the steeper water ride drops in Florida." }
+        {
+          "q": "How wet do you get on Jurassic Park River Adventure?",
+          "a": "It depends entirely on where you sit. The front two rows take a wall of water at the bottom of the 85-foot drop and come off soaked. The back rows get sprayed and are usually dry within twenty minutes. It is the one water ride at Islands of Adventure where seat choice makes a real difference."
+        },
+        {
+          "q": "How tall do you have to be?",
+          "a": "42 inches, the same as Popeye & Bluto's Bilge-Rat Barges and two inches below Dudley Do-Right's Ripsaw Falls."
+        },
+        {
+          "q": "Is it scary for children?",
+          "a": "More than parents expect. The first four minutes are a calm daylight boat tour, and the last two are dark, loud, and include a Tyrannosaurus rex lunging at the boat immediately before an 85-foot drop. Children who enjoyed the opening frequently find the ending too much."
+        },
+        {
+          "q": "How big is the drop?",
+          "a": "About 85 feet, in near darkness, which makes it feel longer than the 75-foot drop on Ripsaw Falls even though the two are comparable. It is one of the steeper water ride drops in Florida."
+        }
       ],
-      "relatedSlugs": ["jurassic-world-velocicoaster", "dudley-do-rights-ripsaw-falls", "camp-jurassic"],
+      "relatedSlugs": [
+        "jurassic-world-velocicoaster",
+        "dudley-do-rights-ripsaw-falls",
+        "camp-jurassic"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -906,12 +1047,28 @@
       "bestTime": "The first thirty minutes of the day, and effectively never otherwise.",
       "typicalWait": "Routinely 30-60 minutes for a 90-second ride, with no Express or single rider option to shorten it.",
       "faqs": [
-        { "q": "Can adults ride Pteranodon Flyers?", "a": "Only as the accompanying companion of a child between 36 and 56 inches tall. Guests over 56 inches cannot ride alone or with other adults. This is enforced at the queue entrance and it is the most common source of disappointment at this attraction." },
-        { "q": "Why is the line for Pteranodon Flyers so long?", "a": "Capacity. The ride carries two people per vehicle along a slow track, which produces one of the lowest throughputs of any attraction at Universal Orlando. A 45-minute wait for a 90-second ride is the normal state of affairs rather than a bad day." },
-        { "q": "Does Express Pass work on Pteranodon Flyers?", "a": "No. It is not included in Universal Express Pass and it has no single rider line, so the posted standby wait is the only way to ride it. Going in the first half hour of the day is the only workaround." },
-        { "q": "Is it worth the wait?", "a": "Almost never. It is a pleasant ninety-second glide with a good view, and it costs the same queue time as two headliners. If the posted wait is over twenty minutes, send the child into Camp Jurassic instead - it is directly underneath, it is free, and it will hold them for an hour." }
+        {
+          "q": "Can adults ride Pteranodon Flyers?",
+          "a": "Only as the accompanying companion of a child between 36 and 56 inches tall. Guests over 56 inches cannot ride alone or with other adults. This is enforced at the queue entrance and it is the most common source of disappointment at this attraction."
+        },
+        {
+          "q": "Why is the line for Pteranodon Flyers so long?",
+          "a": "Capacity. The ride carries two people per vehicle along a slow track, which produces one of the lowest throughputs of any attraction at Universal Orlando. A 45-minute wait for a 90-second ride is the normal state of affairs rather than a bad day."
+        },
+        {
+          "q": "Does Express Pass work on Pteranodon Flyers?",
+          "a": "No. It is not included in Universal Express Pass and it has no single rider line, so the posted standby wait is the only way to ride it. Going in the first half hour of the day is the only workaround."
+        },
+        {
+          "q": "Is it worth the wait?",
+          "a": "Almost never. It is a pleasant ninety-second glide with a good view, and it costs the same queue time as two headliners. If the posted wait is over twenty minutes, send the child into Camp Jurassic instead - it is directly underneath, it is free, and it will hold them for an hour."
+        }
       ],
-      "relatedSlugs": ["camp-jurassic", "jurassic-park-river-adventure", "high-in-the-sky-seuss-trolley-train-ride"],
+      "relatedSlugs": [
+        "camp-jurassic",
+        "jurassic-park-river-adventure",
+        "high-in-the-sky-seuss-trolley-train-ride"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -980,12 +1137,28 @@
       "bestTime": "Midday, when the shade in the lower structure is the best deal in the park and the queues everywhere else are peaking.",
       "typicalWait": "No wait at any time. There is no queue and no capacity limit.",
       "faqs": [
-        { "q": "Is Camp Jurassic free?", "a": "Yes, it is included with park admission with no queue, no ticket and no capacity limit. It is the best-value attraction at Islands of Adventure for anyone traveling with children under the headline height requirements." },
-        { "q": "What age is Camp Jurassic for?", "a": "It works from about three to about twelve. Younger children stay at ground level with the dig areas and water cannons; older ones use the nets, rope bridges and upper slides. There is no height requirement anywhere in it." },
-        { "q": "Is Camp Jurassic dark inside?", "a": "In parts, yes. The amber mine tunnels and some of the cave routes are genuinely dark with dinosaur sound effects playing, and they catch out small children who wandered in alone. Walk a nervous child through once first." },
-        { "q": "Can I watch my child from one place?", "a": "Not really, and that is the main thing to plan for. The structure is large, has three levels and multiple exits, and sightlines are deliberately broken up. Agree a ground-level meeting point rather than trying to keep eyes on them throughout." }
+        {
+          "q": "Is Camp Jurassic free?",
+          "a": "Yes, it is included with park admission with no queue, no ticket and no capacity limit. It is the best-value attraction at Islands of Adventure for anyone traveling with children under the headline height requirements."
+        },
+        {
+          "q": "What age is Camp Jurassic for?",
+          "a": "It works from about three to about twelve. Younger children stay at ground level with the dig areas and water cannons; older ones use the nets, rope bridges and upper slides. There is no height requirement anywhere in it."
+        },
+        {
+          "q": "Is Camp Jurassic dark inside?",
+          "a": "In parts, yes. The amber mine tunnels and some of the cave routes are genuinely dark with dinosaur sound effects playing, and they catch out small children who wandered in alone. Walk a nervous child through once first."
+        },
+        {
+          "q": "Can I watch my child from one place?",
+          "a": "Not really, and that is the main thing to plan for. The structure is large, has three levels and multiple exits, and sightlines are deliberately broken up. Agree a ground-level meeting point rather than trying to keep eyes on them throughout."
+        }
       ],
-      "relatedSlugs": ["jurassic-park-discovery-center", "me-ship-the-olive", "pteranodon-flyers"],
+      "relatedSlugs": [
+        "jurassic-park-discovery-center",
+        "me-ship-the-olive",
+        "pteranodon-flyers"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1047,7 +1220,11 @@
       "bestTime": "The hottest part of the afternoon, or immediately after any attraction that has upset someone.",
       "typicalWait": "No wait. It is a walk-in building and it is rarely more than half full.",
       "faqs": [],
-      "relatedSlugs": ["camp-jurassic", "jurassic-park-river-adventure", "raptor-encounter"],
+      "relatedSlugs": [
+        "camp-jurassic",
+        "jurassic-park-river-adventure",
+        "raptor-encounter"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1109,7 +1286,11 @@
       "bestTime": "Late afternoon, when the queue is shortest and the light is better than the midday glare.",
       "typicalWait": "Usually 10-20 minutes during a posted appearance, occasionally longer at midday.",
       "faqs": [],
-      "relatedSlugs": ["jurassic-park-discovery-center", "marvel-character-meet", "camp-jurassic"],
+      "relatedSlugs": [
+        "jurassic-park-discovery-center",
+        "marvel-character-meet",
+        "camp-jurassic"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1178,13 +1359,32 @@
       "bestTime": "The first thirty minutes after opening, or the final hour before close. There is no good middle-of-the-day option.",
       "typicalWait": "Frequently 75-150 minutes through the middle of the day. Under 30 at rope drop and often under 45 in the last hour.",
       "faqs": [
-        { "q": "Does Express Pass work on Hagrid's?", "a": "No. Hagrid's Magical Creatures Motorbike Adventure has been excluded from Universal Express Pass since it opened in 2019, and it has no single rider line either. It is the only major attraction at Islands of Adventure with no way to shorten the queue, and buying Express in order to ride it is a common and expensive mistake." },
-        { "q": "How tall do you have to be for Hagrid's?", "a": "48 inches, the same as Harry Potter and the Forbidden Journey in the same land. A child under 48 inches can ride Flight of the Hippogriff at 36 inches and nothing else in Hogsmeade." },
-        { "q": "Does Hagrid's go upside down?", "a": "No. There are no inversions at all. It has seven launches, a backwards section, a vertical spike where the train stalls and a free-fall drop track, and its top speed is around 50 mph - it is an intense ride built out of surprise rather than force." },
-        { "q": "How do I ride Hagrid's without a two-hour wait?", "a": "Be through the turnstiles before the park opens and walk straight to Hogsmeade, use Early Park Admission if you are staying at a Universal hotel, or queue in the final hour before close. Those are the only three options and none of them can be bought." },
-        { "q": "Why does Hagrid's close so often?", "a": "It is a largely outdoor multi-launch coaster with complex show systems and it is unusually sensitive to weather, particularly the lightning that comes with Central Florida afternoon storms. It also has a reputation for technical downtime that it has never fully shaken." }
+        {
+          "q": "Does Express Pass work on Hagrid's?",
+          "a": "No. Hagrid's Magical Creatures Motorbike Adventure has been excluded from Universal Express Pass since it opened in 2019, and it has no single rider line either. It is the only major attraction at Islands of Adventure with no way to shorten the queue, and buying Express in order to ride it is a common and expensive mistake."
+        },
+        {
+          "q": "How tall do you have to be for Hagrid's?",
+          "a": "48 inches, the same as Harry Potter and the Forbidden Journey in the same land. A child under 48 inches can ride Flight of the Hippogriff at 36 inches and nothing else in Hogsmeade."
+        },
+        {
+          "q": "Does Hagrid's go upside down?",
+          "a": "No. There are no inversions at all. It has seven launches, a backwards section, a vertical spike where the train stalls and a free-fall drop track, and its top speed is around 50 mph - it is an intense ride built out of surprise rather than force."
+        },
+        {
+          "q": "How do I ride Hagrid's without a two-hour wait?",
+          "a": "Be through the turnstiles before the park opens and walk straight to Hogsmeade, use Early Park Admission if you are staying at a Universal hotel, or queue in the final hour before close. Those are the only three options and none of them can be bought."
+        },
+        {
+          "q": "Why does Hagrid's close so often?",
+          "a": "It is a largely outdoor multi-launch coaster with complex show systems and it is unusually sensitive to weather, particularly the lightning that comes with Central Florida afternoon storms. It also has a reputation for technical downtime that it has never fully shaken."
+        }
       ],
-      "relatedSlugs": ["harry-potter-and-the-forbidden-journey", "flight-of-the-hippogriff", "jurassic-world-velocicoaster"],
+      "relatedSlugs": [
+        "harry-potter-and-the-forbidden-journey",
+        "flight-of-the-hippogriff",
+        "jurassic-world-velocicoaster"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1253,13 +1453,32 @@
       "bestTime": "First thirty to sixty minutes of the day for the shortest standby, or late evening when the castle exterior lighting is at its best.",
       "typicalWait": "Usually 40-80 minutes midday, under 30 early and late. Single rider is often 15-25 minutes.",
       "faqs": [
-        { "q": "Will Forbidden Journey make me sick?", "a": "It is the most likely ride at Islands of Adventure to do so. The robotic arm rotates and tilts the bench continuously while wraparound dome projection fills your vision, which is the classic recipe for simulator sickness. If Star Tours or Spider-Man are a problem for you, this will be worse." },
-        { "q": "What is the Forbidden Journey test seat for?", "a": "The lap restraint has to close to a fixed point, and the bench is unforgiving of broader builds regardless of overall weight. The test bench outside the entrance uses identical hardware. Guests are turned away at the loading platform daily, which is a bad way to spend an hour, and thirty seconds in the test seat prevents it." },
-        { "q": "Can I walk through the castle without riding?", "a": "Yes. Universal runs a non-rider castle tour that follows the same route through the greenhouses, portrait gallery, Dumbledore's office and the Defense Against the Dark Arts classroom, and exits before the loading platform. Ask a team member at the entrance." },
-        { "q": "Is Forbidden Journey scary?", "a": "More than most people expect. There are giant spiders that drop toward the bench and spray, and a dementor sequence in near-total darkness with figures reaching into the vehicle. It frightens plenty of adults and it is the ride at Hogsmeade most likely to upset a child who was fine with everything else." },
-        { "q": "How tall do you have to be?", "a": "48 inches, the same as Hagrid's Magical Creatures Motorbike Adventure. Below that height, Flight of the Hippogriff at 36 inches is the only Hogsmeade ride available." }
+        {
+          "q": "Will Forbidden Journey make me sick?",
+          "a": "It is the most likely ride at Islands of Adventure to do so. The robotic arm rotates and tilts the bench continuously while wraparound dome projection fills your vision, which is the classic recipe for simulator sickness. If Star Tours or Spider-Man are a problem for you, this will be worse."
+        },
+        {
+          "q": "What is the Forbidden Journey test seat for?",
+          "a": "The lap restraint has to close to a fixed point, and the bench is unforgiving of broader builds regardless of overall weight. The test bench outside the entrance uses identical hardware. Guests are turned away at the loading platform daily, which is a bad way to spend an hour, and thirty seconds in the test seat prevents it."
+        },
+        {
+          "q": "Can I walk through the castle without riding?",
+          "a": "Yes. Universal runs a non-rider castle tour that follows the same route through the greenhouses, portrait gallery, Dumbledore's office and the Defense Against the Dark Arts classroom, and exits before the loading platform. Ask a team member at the entrance."
+        },
+        {
+          "q": "Is Forbidden Journey scary?",
+          "a": "More than most people expect. There are giant spiders that drop toward the bench and spray, and a dementor sequence in near-total darkness with figures reaching into the vehicle. It frightens plenty of adults and it is the ride at Hogsmeade most likely to upset a child who was fine with everything else."
+        },
+        {
+          "q": "How tall do you have to be?",
+          "a": "48 inches, the same as Hagrid's Magical Creatures Motorbike Adventure. Below that height, Flight of the Hippogriff at 36 inches is the only Hogsmeade ride available."
+        }
       ],
-      "relatedSlugs": ["hagrids-magical-creatures-motorbike-adventure", "flight-of-the-hippogriff", "hogwarts-express-hogsmeade-station"],
+      "relatedSlugs": [
+        "hagrids-magical-creatures-motorbike-adventure",
+        "flight-of-the-hippogriff",
+        "hogwarts-express-hogsmeade-station"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1271,7 +1490,7 @@
       "opened": 2010,
       "status": "open",
       "closedNote": null,
-      "heightIn": 36,
+      "heightIn": 34,
       "heightNote": null,
       "durationMinutes": 1,
       "lightningLane": "multi-pass",
@@ -1328,12 +1547,28 @@
       "bestTime": "The first hour of the day or the last hour before close, when the wait matches the ride length rather than dwarfing it.",
       "typicalWait": "Usually 25-50 minutes for a one-minute ride, which is the worst ratio in Hogsmeade.",
       "faqs": [
-        { "q": "How tall do you have to be for Flight of the Hippogriff?", "a": "36 inches, which makes it the only ride in Hogsmeade available to children under 48 inches. Both Hagrid's and the Forbidden Journey require 48." },
-        { "q": "Is Flight of the Hippogriff a good first roller coaster?", "a": "Yes, and it is one of the better ones for that purpose. It has one modest drop, small hills, no darkness, no inversions and a run time of about a minute, all in daylight. A child who manages this is generally ready for Slinky Dog Dash or the Barnstormer." },
-        { "q": "Is it worth the wait?", "a": "Only if you have a child in the 36-to-48-inch range, in which case it is essential because nothing else in the land will take them. For adults, a forty-minute queue for a sixty-second family coaster is a poor trade, and this is one of the few places where Express Pass on a small ride is justified." },
-        { "q": "Was it always called Flight of the Hippogriff?", "a": "No. The same track ran as The Flying Unicorn in The Lost Continent from 2000 until that section of the park was rebuilt as Hogsmeade in 2010. The layout is essentially unchanged; the theming is entirely new." }
+        {
+          "q": "How tall do you have to be for Flight of the Hippogriff?",
+          "a": "36 inches, which makes it the only ride in Hogsmeade available to children under 48 inches. Both Hagrid's and the Forbidden Journey require 48."
+        },
+        {
+          "q": "Is Flight of the Hippogriff a good first roller coaster?",
+          "a": "Yes, and it is one of the better ones for that purpose. It has one modest drop, small hills, no darkness, no inversions and a run time of about a minute, all in daylight. A child who manages this is generally ready for Slinky Dog Dash or the Barnstormer."
+        },
+        {
+          "q": "Is it worth the wait?",
+          "a": "Only if you have a child in the 36-to-48-inch range, in which case it is essential because nothing else in the land will take them. For adults, a forty-minute queue for a sixty-second family coaster is a poor trade, and this is one of the few places where Express Pass on a small ride is justified."
+        },
+        {
+          "q": "Was it always called Flight of the Hippogriff?",
+          "a": "No. The same track ran as The Flying Unicorn in The Lost Continent from 2000 until that section of the park was rebuilt as Hogsmeade in 2010. The layout is essentially unchanged; the theming is entirely new."
+        }
       ],
-      "relatedSlugs": ["hagrids-magical-creatures-motorbike-adventure", "harry-potter-and-the-forbidden-journey", "high-in-the-sky-seuss-trolley-train-ride"],
+      "relatedSlugs": [
+        "hagrids-magical-creatures-motorbike-adventure",
+        "harry-potter-and-the-forbidden-journey",
+        "high-in-the-sky-seuss-trolley-train-ride"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1402,12 +1637,28 @@
       "bestTime": "Late afternoon toward Diagon Alley, and after dinner on the way back.",
       "typicalWait": "Usually 15-40 minutes, spiking around the late-morning and late-afternoon park-hopping rushes.",
       "faqs": [
-        { "q": "Do I need a park-to-park ticket for the Hogwarts Express?", "a": "Yes, in both directions, with no exceptions. The train physically transports you between Islands of Adventure and Universal Studios Florida, so a standard one-park ticket cannot board it. No upgrade is sold at the station, so buy park-to-park before you arrive if the Wizarding World matters to you." },
-        { "q": "Is the Hogwarts Express the same in both directions?", "a": "No. The film shown in the compartment window is a different production each way, with different characters and different events. Riding it both directions is not a repeat, and doing so is the only way to see all of the content." },
-        { "q": "Is there a height requirement for the Hogwarts Express?", "a": "None. It is a seated train journey with no motion beyond the train itself, and wheelchairs board a dedicated compartment directly. It is the most accessible attraction in Hogsmeade by a wide margin." },
-        { "q": "How long does the journey take?", "a": "About four minutes on the train, plus the walk through each station. Allow twenty to thirty minutes door to door including the queue. Walking between the two park entrances through CityWalk takes about ten minutes and is often faster - the train is worth riding as an attraction, not as a shortcut." }
+        {
+          "q": "Do I need a park-to-park ticket for the Hogwarts Express?",
+          "a": "Yes, in both directions, with no exceptions. The train physically transports you between Islands of Adventure and Universal Studios Florida, so a standard one-park ticket cannot board it. No upgrade is sold at the station, so buy park-to-park before you arrive if the Wizarding World matters to you."
+        },
+        {
+          "q": "Is the Hogwarts Express the same in both directions?",
+          "a": "No. The film shown in the compartment window is a different production each way, with different characters and different events. Riding it both directions is not a repeat, and doing so is the only way to see all of the content."
+        },
+        {
+          "q": "Is there a height requirement for the Hogwarts Express?",
+          "a": "None. It is a seated train journey with no motion beyond the train itself, and wheelchairs board a dedicated compartment directly. It is the most accessible attraction in Hogsmeade by a wide margin."
+        },
+        {
+          "q": "How long does the journey take?",
+          "a": "About four minutes on the train, plus the walk through each station. Allow twenty to thirty minutes door to door including the queue. Walking between the two park entrances through CityWalk takes about ten minutes and is often faster - the train is worth riding as an attraction, not as a shortcut."
+        }
       ],
-      "relatedSlugs": ["harry-potter-and-the-forbidden-journey", "ollivanders-hogsmeade", "hagrids-magical-creatures-motorbike-adventure"],
+      "relatedSlugs": [
+        "harry-potter-and-the-forbidden-journey",
+        "ollivanders-hogsmeade",
+        "hagrids-magical-creatures-motorbike-adventure"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1476,12 +1727,28 @@
       "bestTime": "The first hour of the day or the last hour before close, when the outdoor queue is short.",
       "typicalWait": "Usually 20-45 minutes, driven entirely by the room holding about twenty-five people per eight-minute show.",
       "faqs": [
-        { "q": "How do you get chosen at Ollivanders?", "a": "There is no system and no way to guarantee it. The wandkeeper picks one guest per show from the group, most often a child standing near the front who looks engaged. Being at the front of the room helps and nothing else does. Managing a child's expectations before you go in is worth doing." },
-        { "q": "Do you have to buy a wand?", "a": "No. The show exits into the wand shop and there is no obligation or pressure to purchase. If you do buy, choose the interactive wand rather than a character replica - only the interactive version triggers the spell-casting spots hidden around Hogsmeade and Diagon Alley." },
-        { "q": "Is Ollivanders in Hogsmeade or Diagon Alley better?", "a": "Diagon Alley, for practical reasons. It is the larger build with multiple show rooms and much higher throughput, so the same experience comes with a fraction of the queue. The Hogsmeade original is the smaller, older, more cramped version of the same thing." },
-        { "q": "How long does the Ollivanders show last?", "a": "About eight minutes inside the room, running roughly every fifteen minutes. The queue is the time cost, not the show - budget thirty to fifty minutes in total during the middle of the day." }
+        {
+          "q": "How do you get chosen at Ollivanders?",
+          "a": "There is no system and no way to guarantee it. The wandkeeper picks one guest per show from the group, most often a child standing near the front who looks engaged. Being at the front of the room helps and nothing else does. Managing a child's expectations before you go in is worth doing."
+        },
+        {
+          "q": "Do you have to buy a wand?",
+          "a": "No. The show exits into the wand shop and there is no obligation or pressure to purchase. If you do buy, choose the interactive wand rather than a character replica - only the interactive version triggers the spell-casting spots hidden around Hogsmeade and Diagon Alley."
+        },
+        {
+          "q": "Is Ollivanders in Hogsmeade or Diagon Alley better?",
+          "a": "Diagon Alley, for practical reasons. It is the larger build with multiple show rooms and much higher throughput, so the same experience comes with a fraction of the queue. The Hogsmeade original is the smaller, older, more cramped version of the same thing."
+        },
+        {
+          "q": "How long does the Ollivanders show last?",
+          "a": "About eight minutes inside the room, running roughly every fifteen minutes. The queue is the time cost, not the show - budget thirty to fifty minutes in total during the middle of the day."
+        }
       ],
-      "relatedSlugs": ["interactive-wand-spell-casting", "hogwarts-express-hogsmeade-station", "hogsmeade-street-performances"],
+      "relatedSlugs": [
+        "interactive-wand-spell-casting",
+        "hogwarts-express-hogsmeade-station",
+        "hogsmeade-street-performances"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1544,7 +1811,11 @@
       "bestTime": "Early evening, when the village is at its best-looking and the crowd around each medallion has thinned.",
       "typicalWait": "No formal queue, but expect a few minutes' wait at the popular medallions in the afternoon.",
       "faqs": [],
-      "relatedSlugs": ["ollivanders-hogsmeade", "hogsmeade-street-performances", "hogwarts-express-hogsmeade-station"],
+      "relatedSlugs": [
+        "ollivanders-hogsmeade",
+        "hogsmeade-street-performances",
+        "hogwarts-express-hogsmeade-station"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1606,7 +1877,10 @@
       "bestTime": "Whenever the posted schedule puts one on while you are already in Hogsmeade.",
       "typicalWait": "No queue. Arrive five minutes before a posted showtime for a clear sightline.",
       "faqs": [],
-      "relatedSlugs": ["ollivanders-hogsmeade", "interactive-wand-spell-casting"],
+      "relatedSlugs": [
+        "ollivanders-hogsmeade",
+        "interactive-wand-spell-casting"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1668,7 +1942,10 @@
       "bestTime": "Midday, when the surrounding shade is worth more than anything else on this island.",
       "typicalWait": "No queue at all. Walk up, talk to it, leave.",
       "faqs": [],
-      "relatedSlugs": ["poseidons-fury", "comic-strip-lane"],
+      "relatedSlugs": [
+        "poseidons-fury",
+        "comic-strip-lane"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1730,7 +2007,10 @@
       "bestTime": "Not applicable - the attraction is permanently closed.",
       "typicalWait": "Permanently closed since 2023.",
       "faqs": [],
-      "relatedSlugs": ["the-eighth-voyage-of-sindbad", "the-mystic-fountain"],
+      "relatedSlugs": [
+        "the-eighth-voyage-of-sindbad",
+        "the-mystic-fountain"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1792,7 +2072,10 @@
       "bestTime": "Not applicable - the show is permanently closed.",
       "typicalWait": "Permanently closed since September 2018.",
       "faqs": [],
-      "relatedSlugs": ["poseidons-fury", "the-mystic-fountain"],
+      "relatedSlugs": [
+        "poseidons-fury",
+        "the-mystic-fountain"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1861,12 +2144,28 @@
       "bestTime": "Late afternoon, when Seuss Landing thins out and the wait falls under fifteen minutes.",
       "typicalWait": "Usually 15-35 minutes, peaking in the middle of the morning and clearing in the evening.",
       "faqs": [
-        { "q": "How tall do you have to be for The Cat in the Hat?", "a": "36 inches, which puts it among the lowest requirements at Islands of Adventure alongside Skull Island: Reign of Kong and Flight of the Hippogriff. It is by far the gentlest of the three." },
-        { "q": "Does The Cat in the Hat make people motion sick?", "a": "It can. The couch spins continuously throughout the ride and there is a tunnel section where the surroundings rotate around you, which is a combination that catches out more adults than the ride's appearance suggests. Looking at the vehicle floor for a few seconds resolves it." },
-        { "q": "Is it scary for toddlers?", "a": "Rarely. It is bright, busy and loud with some dark stretches, and the content is entirely from the book. The spinning bothers a small number of toddlers more than anything on screen does. It is one of the safest first dark rides in Orlando." },
-        { "q": "Is it worth riding as an adult?", "a": "Yes. The scenic work, the animatronic count and the staging are genuinely good, and the spinning couch is a smarter piece of ride design than it gets credit for. Adults skip it because of where it is, which is the wrong reason." }
+        {
+          "q": "How tall do you have to be for The Cat in the Hat?",
+          "a": "36 inches, which puts it among the lowest requirements at Islands of Adventure alongside Skull Island: Reign of Kong and Flight of the Hippogriff. It is by far the gentlest of the three."
+        },
+        {
+          "q": "Does The Cat in the Hat make people motion sick?",
+          "a": "It can. The couch spins continuously throughout the ride and there is a tunnel section where the surroundings rotate around you, which is a combination that catches out more adults than the ride's appearance suggests. Looking at the vehicle floor for a few seconds resolves it."
+        },
+        {
+          "q": "Is it scary for toddlers?",
+          "a": "Rarely. It is bright, busy and loud with some dark stretches, and the content is entirely from the book. The spinning bothers a small number of toddlers more than anything on screen does. It is one of the safest first dark rides in Orlando."
+        },
+        {
+          "q": "Is it worth riding as an adult?",
+          "a": "Yes. The scenic work, the animatronic count and the staging are genuinely good, and the spinning couch is a smarter piece of ride design than it gets credit for. Adults skip it because of where it is, which is the wrong reason."
+        }
       ],
-      "relatedSlugs": ["high-in-the-sky-seuss-trolley-train-ride", "caro-seuss-el", "one-fish-two-fish-red-fish-blue-fish"],
+      "relatedSlugs": [
+        "high-in-the-sky-seuss-trolley-train-ride",
+        "caro-seuss-el",
+        "one-fish-two-fish-red-fish-blue-fish"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -1935,12 +2234,28 @@
       "bestTime": "Late afternoon, both for the light across the lagoon and because Seuss Landing has emptied by then.",
       "typicalWait": "Usually 15-30 minutes. Capacity is low, so it builds faster than its profile suggests during the morning.",
       "faqs": [
-        { "q": "How tall do you have to be for the Trolley Train?", "a": "34 inches, which is the lowest height requirement at Islands of Adventure. Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish in the same island have no minimum at all." },
-        { "q": "Is the Trolley Train scary?", "a": "Almost never. It travels at walking pace, has no drops and stays level throughout. The only thing that bothers anyone is being up at roof height in a small open-sided car, which a minority of children notice once they are moving." },
-        { "q": "Are there really two different tracks?", "a": "Yes. There are two separate loops with different routes and different narration, and the queue feeds both. Most guests ride whichever car arrives and never realize there is a second version." },
-        { "q": "Is it worth the wait?", "a": "For families with small children, yes - it is the lowest requirement in the park and the view is genuinely the best thing in Seuss Landing. For adults alone, a twenty-five minute wait for a three-minute stroll at roof height is a hard sell." }
+        {
+          "q": "How tall do you have to be for the Trolley Train?",
+          "a": "34 inches, which is the lowest height requirement at Islands of Adventure. Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish in the same island have no minimum at all."
+        },
+        {
+          "q": "Is the Trolley Train scary?",
+          "a": "Almost never. It travels at walking pace, has no drops and stays level throughout. The only thing that bothers anyone is being up at roof height in a small open-sided car, which a minority of children notice once they are moving."
+        },
+        {
+          "q": "Are there really two different tracks?",
+          "a": "Yes. There are two separate loops with different routes and different narration, and the queue feeds both. Most guests ride whichever car arrives and never realize there is a second version."
+        },
+        {
+          "q": "Is it worth the wait?",
+          "a": "For families with small children, yes - it is the lowest requirement in the park and the view is genuinely the best thing in Seuss Landing. For adults alone, a twenty-five minute wait for a three-minute stroll at roof height is a hard sell."
+        }
       ],
-      "relatedSlugs": ["the-cat-in-the-hat", "caro-seuss-el", "pteranodon-flyers"],
+      "relatedSlugs": [
+        "the-cat-in-the-hat",
+        "caro-seuss-el",
+        "pteranodon-flyers"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -2002,7 +2317,11 @@
       "bestTime": "Any time. The wait rarely exceeds fifteen minutes even at peak.",
       "typicalWait": "Usually 5-20 minutes. Capacity is good and cycles are short.",
       "faqs": [],
-      "relatedSlugs": ["one-fish-two-fish-red-fish-blue-fish", "the-cat-in-the-hat", "storm-force-accelatron"],
+      "relatedSlugs": [
+        "one-fish-two-fish-red-fish-blue-fish",
+        "the-cat-in-the-hat",
+        "storm-force-accelatron"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -2064,7 +2383,11 @@
       "bestTime": "Midday, when a light spray is welcome, and late afternoon when the queue clears.",
       "typicalWait": "Usually 10-25 minutes. It loads slowly for a spinner, so it backs up more than expected mid-morning.",
       "faqs": [],
-      "relatedSlugs": ["caro-seuss-el", "the-cat-in-the-hat", "storm-force-accelatron"],
+      "relatedSlugs": [
+        "caro-seuss-el",
+        "the-cat-in-the-hat",
+        "storm-force-accelatron"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     }

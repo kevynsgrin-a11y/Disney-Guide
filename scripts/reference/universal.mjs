@@ -61,7 +61,7 @@ export const HEIGHTS = {
     'bilge-rat barges': 42,
     'jurassic park river adventure': 42,
     'spider-man': 40,
-    'flight of the hippogriff': 36,
+    'flight of the hippogriff': 34,
     'cat in the hat': 36,
     'reign of kong': 34,
   },
@@ -74,9 +74,10 @@ export const HEIGHTS = {
   'epic-universe': {
     'stardust racers': 48,
     'mario kart': 40,
-    'mine-cart madness': 42,
+    'mine-cart madness': 40,
     yoshi: 34,
-  },
+    'dragon-racers-rally': 48,
+},
 
   /*
    * Note the deliberate difference from Orlando: Flight of the Hippogriff is a different installation
