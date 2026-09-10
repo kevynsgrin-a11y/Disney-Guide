@@ -1,0 +1,407 @@
+{
+  "park": "legoland-florida",
+  "attractions": [
+    {
+      "slug": "the-dragon",
+      "name": "The Dragon",
+      "land": "castle-hill",
+      "type": "roller-coaster",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low minimum with supervision provisions — verify the current figure on the park's own attraction page. This site states no Legoland heights on purpose.",
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 4,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Dark-ride first half with cartoon dragon scenes, small outdoor coaster second half. The darkness is the only edge; the coaster is deliberately tame."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family coaster trains."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The castle dark ride that becomes a coaster — Florida's version of the signature graduation ride, and the park's longest family queue.",
+      "description": [
+        "The Dragon at Legoland Florida follows the signature formula: a gentle dark ride through the castle's animated interior, then a seamless transition to a small outdoor coaster around the castle grounds. It is the ride that graduates kids from merry-go-rounds to coasters, and it is the park's most popular attraction by a distance.",
+        "Florida's version is the larger sibling of California's, with a longer castle interior sequence. The audience is identical: the five-to-eight bracket, plus parents riding shotgun on a memory.",
+        "Rope-drop it. The queue is the park's longest, and the morning window is worth more than any other planning move here."
+      ],
+      "experience": [
+        "The station sits inside the castle. The dark-ride half builds the dragon story through brick-built scenes with light humor — the sequence is designed so the coaster half arrives as a surprise to first-timers and a known joy to repeaters.",
+        "Daylight, a lift, one fun drop, and a circuit around the turrets at family speed. The drop is calibrated to be a child's first real one and no more.",
+        "The return through the castle lands in the unload with most kids requesting an immediate re-queue. Budget for two laps at open when the queue allows."
+      ],
+      "tips": [
+        "Rope-drop it — the queue grows all morning and never shrinks until late.",
+        "Announce the transition to nervous kids; the surprise lands better prepared.",
+        "Second lap at open beats a second lap at close here — the evening family exodus is early."
+      ],
+      "bestTime": "Rope drop.",
+      "typicalWait": "20–45 minutes midday; under 10 at open.",
+      "faqs": [
+        {
+          "q": "Is the Dragon at Legoland Florida the same as California's?",
+          "a": "Same formula — dark ride into family coaster — with Florida's version running slightly longer in the castle interior. Riders of one will recognize the other immediately."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "Low with supervision provisions; this site deliberately states no Legoland heights because the bands are age-and-supervision based and change. Check the park's own attraction page."
+        },
+        {
+          "q": "How long is the Dragon's ride?",
+          "a": "About three minutes with the castle dark-ride half included — generous for the format, and the reason the queue paces slowly. The ride inside the queue is the theme here."
+        }
+      ],
+      "relatedSlugs": [
+        "coastersaurus",
+        "flying-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "coastersaurus",
+      "name": "Coastersaurus",
+      "land": "the-beginning",
+      "type": "roller-coaster",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low family minimum — verify on the park's own page.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Family wooden coaster through a landscaped dinosaur forest — small drops, mild speed, animated roars. The friendliest woodie tier."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family wooden-coaster trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The dinosaur family woodie — small drops through brick-built prehistory, the natural second coaster after the Dragon.",
+      "description": [
+        "Coastersaurus is Florida's family wooden coaster, wrapping a landscaped prehistoric garden of animated brick dinosaurs. The wooden-coaster feel scaled to kid size is the design: real structure, real (small) drops, real charm.",
+        "It is the confidence-builder between the Dragon and bigger parks. The dinosaurs give nervous riders a focus that isn't the drop."
+      ],
+      "tips": [
+        "Ride in the rope-drop window right after the Dragon.",
+        "Front row for the dinosaurs, back row for the (mild) airtime.",
+        "The front row is the dinosaur-view seat; the roar timing lands best from there."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "flying-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "flying-school",
+      "name": "Flying School",
+      "land": "the-beginning",
+      "type": "roller-coaster",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A suspended family coaster — trains hang below the track and swing gently through the turns. The dangling feet are the thrill; the forces are gentle."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended family-coaster trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The suspended family coaster — hanging trains that swing through the course, Florida's kid version of the big invert style.",
+      "description": [
+        "Flying School is a suspended family coaster: trains hang beneath the track and swing outward through the banked turns, giving kids the dangling-feet thrill of the big inverted coasters at thoroughly family forces.",
+        "It is the park's third coaster credit and the one that feels the most 'grown-up' per unit of actual intensity — the format does the work."
+      ],
+      "tips": [
+        "The swing is the point; let the car do the moving.",
+        "A natural pairing with Coastersaurus in the morning loop.",
+        "The swing amplitude builds through the second half — hold the harness lightly and let the car dance."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "10–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "coastersaurus"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "driving-school",
+      "name": "Driving School",
+      "land": "legoland-city",
+      "type": "interactive-game",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Age-banded — check the park's own page for the current bands.",
+      "durationMinutes": 8,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Not a ride — a real small-car driving experience on a signaled course. Automotive pride is the only intensity."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into electric cars; pedal-and-steer operation required."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The real driving school — electric cars on a signaled course, ending with the child's first license.",
+      "description": [
+        "Driving School is the participatory signature: children drive real electric cars around a signaled street network, untethered, after a rules briefing. The license at the end (small upcharge) is the souvenir that outlives every brick set in the shop.",
+        "The sign-up fills by midday. It is the day's one fixed appointment besides the Dragon's rope drop."
+      ],
+      "tips": [
+        "Sign up in the first two hours.",
+        "Prepare the kids for the briefing — the signals are real rules.",
+        "The license is worth the few dollars; decide before the counter, not during."
+      ],
+      "bestTime": "The first two hours after open.",
+      "typicalWait": "30–60 minutes at peak including the drive.",
+      "faqs": [],
+      "relatedSlugs": [
+        "boating-school",
+        "the-dragon"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "boating-school",
+      "name": "Boating School",
+      "land": "legoland-city",
+      "type": "boat-ride",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 6,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Self-driven boats on a guide channel — gentle, splash-free, and the driver gets a horn. Pure calm."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into self-drive boats."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The self-driven boat course — kids captain their own vessel around the city harbor with a working horn.",
+      "description": [
+        "Boating School lets children drive their own battery boats around a guided channel through the LEGO City harbor. The steering is real within the guide, the horn is functional, and the captain's face at the wheel is the product.",
+        "It is the calmest of the participatory trio and the one with the most re-ride requests per capita."
+      ],
+      "tips": [
+        "The horn is the joy — let the small captain use it generously.",
+        "Pairs with the fire academy for the participatory afternoon.",
+        "The channel's final turn is the tightest — young captains should slow before it, not during it."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "driving-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "miniland-usa",
+      "name": "Miniland USA",
+      "land": "cypress-gardens",
+      "type": "walkthrough",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 60,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A walking exhibit. The only risk is the hour you lose happily."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Fully paved walking exhibit."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The miniature brick cities — Florida's Miniland adds Daytona, Kennedy Space Center and Miami to the craft centerpiece.",
+      "description": [
+        "Florida's Miniland is the park's craft core: miniature cities and landmarks built from millions of bricks, with Floridian anchors — Daytona's speedway, the space center, Miami's waterfront — alongside the national set. Working trains, moving traffic and day-for-night lighting carry the same craft standard.",
+        "Positioned near the historic gardens, it doubles as the park's shaded spine. The slow hour here is the adult reward of a family day."
+      ],
+      "tips": [
+        "A full hour, slow pace, detail game on.",
+        "The lit evening version rewards a second pass at close.",
+        "The Florida sections hide tiny gators in the waterways — a find-them game that buys twenty quiet minutes."
+      ],
+      "bestTime": "Morning light and dusk.",
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "driving-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

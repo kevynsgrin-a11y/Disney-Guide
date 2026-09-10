@@ -1,0 +1,113 @@
+{
+  "park": "great-adventure",
+  "dining": [
+    {
+      "slug": "jbs-smokehouse-sfgadv",
+      "name": "JB's Smokehouse",
+      "land": "lakefront",
+      "service": "quick-service",
+      "cuisine": "Barbecue",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The lakefront smokehouse — brisket plates and a patio in the breeziest section of the park.",
+      "description": [
+        "JB's anchors the lakefront's food row with the chain's barbecue menu and a covered patio. The location is the draw: it sits in the one section where a lunch break comes with a view.",
+        "App ordering skips the register queue on weekends; the patio fills by 12:15 and turns over by one."
+      ],
+      "signatureItems": ["Brisket plate", "Pulled pork sandwich", "Cornbread"],
+      "goodFor": ["big-appetites", "groups", "quick-bite"],
+      "tips": [
+        "Claim patio shade before ordering in summer.",
+        "The 11:30 arrival beats the 12:15 wave."
+      ],
+      "verdict": "The park's best hot meal, in the park's best lunch location. Order the plate, not the sandwich.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "movietown-cafe",
+      "name": "Movietown Café",
+      "land": "movietown",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Burgers and baskets in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Indoor burgers-and-baskets in Movietown — the air-conditioned midday stop when the outdoor queues are punishing.",
+      "description": [
+        "Movietown Café is the section's indoor counter: burgers, chicken baskets, fries, and real air conditioning. It is the pragmatic heat and rain answer, two minutes' walk from the Dark Knight.",
+        "The food is standard park fare; the climate control is the product. In haunt season the building doubles as haunt infrastructure after dark."
+      ],
+      "signatureItems": ["Cheeseburger basket", "Chicken tenders", "Fries"],
+      "goodFor": ["families", "air-conditioned-break", "picky-eaters"],
+      "tips": [
+        "Sit down lunch here at the heat peak, then ride the Dark Knight next door.",
+        "Indoor tables are scarce at noon — send one adult to claim while the rest order."
+      ],
+      "verdict": "Unobjectionable food in a strategically air-conditioned building. That is the whole review and it is enough.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "boardwalk-funnel-cart",
+      "name": "Boardwalk Funnel Cart",
+      "land": "lakefront",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Low-to-mid teens with toppings",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The lakefront funnel cake cart — fried sugar eaten with a lake view at the end of the day.",
+      "description": [
+        "The funnel cart on the lakefront row is the classic: hot cake, powdered sugar, fruit toppings, and a railing to lean on while the coasters run the evening cycle.",
+        "The pre-close rush is real; the cart's fryer capacity is the constraint."
+      ],
+      "signatureItems": ["Funnel cake with strawberries", "Plain powdered funnel cake"],
+      "goodFor": ["late-night", "families"],
+      "tips": [
+        "Order by 20:00 or accept the close rush queue.",
+        "One cake, two people, one lake view — the correct configuration."
+      ],
+      "verdict": "Funnel cake at a lake at night. It costs too much and it is exactly right.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "park": "seaworld-san-diego",
+  "items": [
+    {
+      "id": "swsd-burrito-plate",
+      "name": "Burrito plate",
+      "restaurant": "Shipwreck Reef Café",
+      "restaurantSlug": "shipwreck-reef-cafe",
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": [],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "A substantial burrito plate on the waterfront patio, with flume-splash seating included.",
+      "verdict": "The best lunch at the park — eat it flume-side and let the soak show do the entertaining.",
+      "image": null
+    },
+    {
+      "id": "swsd-soft-serve",
+      "name": "Soft serve swirl",
+      "restaurant": "Soft Serve Cart",
+      "restaurantSlug": "moray-morsels-cart",
+      "land": "ocean-explorer",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": true,
+      "seasonal": false,
+      "description": "Cold swirl in a cup from the ride-cluster cart — the between-launch cooldown.",
+      "verdict": "Exactly what a soft-serve cart should be: fast, cold, correctly placed. Timing is everything — before the eel, not after.",
+      "image": null
+    },
+    {
+      "id": "swsd-churro",
+      "name": "Churro",
+      "restaurant": "Waterfront churro carts",
+      "restaurantSlug": null,
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "snack",
+      "dietaryTags": ["vegetarian"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": true,
+      "seasonal": false,
+      "description": "Cinnamon churro from the waterfront carts, eaten walking the bay side.",
+      "verdict": "The reliable walking snack in the park's best walking section.",
+      "image": null
+    }
+  ]
+}

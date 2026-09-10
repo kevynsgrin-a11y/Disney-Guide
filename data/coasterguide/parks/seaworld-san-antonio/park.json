@@ -1,0 +1,169 @@
+{
+  "slug": "seaworld-san-antonio",
+  "name": "SeaWorld San Antonio",
+  "shortName": "SeaWorld SA",
+  "idPrefix": "swsa",
+  "resort": "texas",
+  "resortName": "Texas",
+  "opened": "1988-04-15",
+  "sizeAcres": 250,
+  "location": "San Antonio, Texas",
+  "coordinates": { "lat": 29.4519, "lng": -98.7022 },
+  "tagline": "The Texas SeaWorld — Iron Rattler's quarry walls, three coasters, and the biggest water-park half in the chain.",
+  "summary": "SeaWorld San Antonio is the least traditional park on this site: marine park, water park and coaster park in one, with Iron Rattler riding the walls of an actual rock quarry as the headliner.",
+  "intro": [
+    "SeaWorld San Antonio opened in 1988 as the third SeaWorld and the one built around space: 250 acres of Texas hill country west of the city, including a water park that is genuinely half the product in summer. It is the only park on this site where the aquatic-center answer to 'what is this place' changes with the season.",
+    "The coaster core is small and serious: Iron Rattler, the 2013 Rocky Mountain hybrid that rides the walls of the park's former limestone quarry, is one of the best coasters in Texas and the reason coaster travelers make the drive from Arlington or Austin. The Great White's invert loops and Steel Eel's hyper-style hills complete a three-coaster lineup that punches above its size.",
+    "Zone names here are approximate clusters, as at every SeaWorld — the parks don't publish hard land boundaries. The quarry geography is the one undeniable structure: Iron Rattler's drops dive into the pit, and the park's layout wraps around it.",
+    "Summer is the complication: 95-plus days make the water-park half the main event and the coaster queues shorter than the slide queues. Spring and October — the fall haunt season — are the civilised windows for a ride-focused visit."
+  ],
+  "bestFor": ["Coaster enthusiasts collecting Iron Rattler", "Texas families combining water and rides", "San Antonio visitors", "Show-paced visits"],
+  "notIdealFor": ["Pure-thrill visitors in peak summer", "Readers wanting hard land maps", "Guests avoiding marine-animal venues on principle"],
+  "stats": {
+    "attractionCount": 7,
+    "ridesWithHeightRequirements": 3,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "8–10 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "entrance-plaza",
+      "name": "Entrance Plaza",
+      "order": 1,
+      "opened": 1988,
+      "summary": "The entry cluster — guest services, the park's orientation, and the first animal exhibits.",
+      "description": [
+        "The entrance plaza is the park's front door: guest services, lockers, and the first of the animal exhibits that open the SeaWorld formula — animals as the greeting, rides past them.",
+        "Grab the day's show schedule here. At this park more than either sister, the schedule (animal presentations plus the summer water-park hours) writes the day."
+      ],
+      "vibe": "Hill-country entrance plaza with the park's calmest acre.",
+      "anchorAttraction": "shamu-express",
+      "highlights": ["Show schedule pickup", "The entry exhibits"],
+      "eatHere": [],
+      "tips": ["Photograph the schedule board — the day's shape comes from it.", "Water-park locker strategy: rent at the plaza, not at the slides."]
+    },
+    {
+      "slug": "crackaxle-canyon",
+      "name": "Crackaxle Canyon (quarry coaster cluster)",
+      "order": 2,
+      "summary": "The quarry-edge cluster — Iron Rattler diving the canyon walls, with the park's biggest thrills concentrated at the pit.",
+      "description": [
+        "The canyon cluster holds Iron Rattler and the park's thrill core. The ride dives off the quarry's rim walls into the pit — a drop made of actual Texas limestone rather than structure — and the surrounding midways carry the classic flats and games.",
+        "The zone label is approximate as everywhere in SeaWorld; the quarry is the real structure. The rim views into the pit are the park's signature sight."
+      ],
+      "vibe": "Coaster steel over limestone — the park's defining view.",
+      "anchorAttraction": "iron-rattler",
+      "highlights": ["Iron Rattler's quarry dive", "The rim views into the pit", "The classic flat rides"],
+      "eatHere": [],
+      "tips": ["Iron Rattler first at open — its queue is the park's longest and the morning shade is the queue's only shade.", "The rim photo spot is best mid-morning."]
+    },
+    {
+      "slug": "the-waterfront",
+      "name": "The Waterfront (shows and steel)",
+      "order": 3,
+      "summary": "The lake-side spine — the orca habitat, the stadium, and the steel coasters that circle it.",
+      "description": [
+        "The waterfront spine holds the park's animal core — the orca habitat and its presentation stadium, the dolphin exhibits — plus Steel Eel's hyper hills and the Great White's invert loops nearby. The shows and the steel share a neighborhood here, as at the sister parks.",
+        "The presentation schedule drives the pacing; the coaster queues dip during shows. The waterfront's shade and benches make it the midday base."
+      ],
+      "vibe": "Lake-front shows with steel overhead — the park's pacing heart.",
+      "anchorAttraction": "orca-encounter",
+      "highlights": ["The orca habitat and presentations", "Steel Eel's airtime hills", "Waterfront shade and benches"],
+      "eatHere": [],
+      "tips": ["Time the coasters against the presentation schedule.", "The waterfront seating is the midday recovery zone."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "SeaWorld San Antonio is two parks sharing a gate: the ride-and-show park and the water park. A one-day visit must choose a primary; the summer-honest version is water-park mornings and coaster evenings, and the spring version is all rides.",
+      "The coaster core is walkable in a morning: Iron Rattler, the Great White and Steel Eel sit in two clusters. The show schedule and the quarry are the other half of the day."
+    ],
+    "beforeYouGo": [
+      { "title": "Decide which park you are visiting", "body": "The water park is a major component in summer and its admission structure matters — a ride-focused spring visit and a water-focused July visit are different tickets and different days. Check what your ticket includes." },
+      { "title": "Iron Rattler is the reason to come", "body": "The quarry hybrid is a legitimate top-tier Texas coaster. If you are driving from Arlington's Six Flags or Austin, it is the single ride that justifies the trip." },
+      { "title": "The fall haunt in October", "body": "The fall haunt is separately ticketed and genuinely intense — one of the three SeaWorld haunts this site covers. Families should verify their date before booking." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "Iron Rattler at the canyon — the queue's only short window." },
+      { "time": "First hour", "body": "Re-ride the Rattler, then the Great White's invert loops." },
+      { "time": "Mid-morning", "body": "Steel Eel's airtime hills as the steel loop completes." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Lunch on the waterfront, then the orca presentation from the schedule." },
+      { "time": "Early afternoon", "body": "Aquariums and exhibits in the heat peak — or the water park if that is the day." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Iron Rattler again as the queue ebbs and the canyon cools." },
+      { "time": "Close", "body": "Steel Eel's hills at dusk — the airtime reads best tired." }
+    ],
+    "rookieMistakes": [
+      "Buying the wrong ticket for the day you actually want — water park versus ride park.",
+      "Underestimating Texas heat in the unshaded coaster queue.",
+      "Missing the show schedule and doing rides-only; the park is half shows.",
+      "Skipping Steel Eel as 'the old one' — its airtime hills are the park's most rerideable steel."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Iron Rattler at rope drop, twice.",
+      "The Great White's loops in the first hour.",
+      "Steel Eel mid-morning.",
+      "Orca presentation at the scheduled time.",
+      "Aquariums in the heat peak.",
+      "Iron Rattler again at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is large but gently rolling, with the quarry rim the only real grade. The distances between clusters are long by SeaWorld standards — plan the walking like a bigger park.",
+      "United Parks & Resorts operates a ride-access system for guests who cannot queue conventionally; confirm the current process on the park's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "Entrance plaza", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Entrance plaza", "priceNote": "Limited quantity", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Entrance plaza", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["Entrance plaza", "Waterfront area"],
+    "quietSpaces": [
+      { "name": "Aquarium interiors", "where": "Exhibit buildings", "note": "Cool, dim and calm — the sensory-reset rooms are the exhibits." },
+      { "name": "First aid", "where": "Entrance area", "note": "Staffed and quiet." }
+    ],
+    "serviceAnimalRelief": ["Designated areas — confirm at guest services; animal exhibits have their own rules"],
+    "sensoryNotes": [
+      "Iron Rattler's first drop is steep, fast and exposed over the quarry wall.",
+      "The fall haunt adds scare actors and startles park-wide after dark in season.",
+      "The stadiums are amplified; back rows are the calmer seats."
+    ],
+    "mobilityNotes": [
+      "Long distances between clusters; the quarry rim has grades.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "The water park is a separate environment with its own terrain."
+    ],
+    "visionHearingNotes": [
+      "Presentations are audio-led; assistive listening subject to availability.",
+      "Ride hosts repeat boarding instructions on request."
+    ]
+  },
+  "tips": [
+    { "title": "Spring and October are the ride seasons", "body": "The coaster-focused visit belongs to March-through-May and late September through October. Summer belongs to the water park — plan accordingly or melt accordingly." },
+    { "title": "Iron Rattler against the shows", "body": "The Rattler's queue dips during the stadium presentations like every ride here. One schedule photograph saves an hour of queue." },
+    { "title": "The quarry is the photo", "body": "The rim views into the limestone pit, with the Rattler's track on the walls, are the park's signature image. Morning light is the one." },
+    { "title": "San Antonio pairs it right", "body": "The city's River Walk evenings plus a park day is the complete trip. The park is 20 minutes from downtown — stay central, not park-adjacent." },
+    { "title": "Quick Queue tiers matter less here", "body": "The three-coaster core means the mid tier usually suffices; this site's line-skip guide prices them as of July 2026." }
+  ],
+  "faqs": [
+    { "q": "What is the best ride at SeaWorld San Antonio?", "a": "Iron Rattler. The Rocky Mountain hybrid dives off real quarry walls — one of the best coaster settings in America and among the best rides in Texas. Steel Eel's airtime hills are the under-heralded second." },
+    { "q": "What are the height requirements at SeaWorld San Antonio?", "a": "Iron Rattler and Steel Eel at 48 inches; the Great White at 54. This site asserts only the figures it would stake a build on — check the park's own pages for the family tier before promising a rider." },
+    { "q": "Is the water park included?", "a": "It depends on the ticket — the water park is a major separate-admission component in summer with combined options. Check what your ticket includes before planning a ride-and-slide day." },
+    { "q": "Can you do SeaWorld San Antonio in one day?", "a": "The ride-and-show park, yes. Adding the water park honestly needs two days or a ruthless split. A coaster-focused morning plus the afternoon shows is the one-day core." },
+    { "q": "When does the Halloween haunt run in San Antonio?", "a": "Select fall nights, late September through Halloween, as a separate ticket. Dates shift annually — this site's Halloween section carries the current expectation with a confidence label." },
+    { "q": "Is SeaWorld San Antonio worth the drive from Arlington or Austin?", "a": "For Iron Rattler alone, coaster travelers say yes — it pairs naturally with Six Flags Over Texas for a Texas hybrid double (the Giant and the Rattler, four hours apart). For general families, the city and the River Walk close the argument." }
+  ],
+  "gettingThere": {
+    "parking": "Large lots at the park; the walk runs five to ten minutes with trams on peak days.",
+    "transportation": [
+      "By car: west of San Antonio off TX-151, about 20 minutes from downtown and the River Walk.",
+      "By air: San Antonio International (SAT) is 25 minutes; Austin (AUS) is 80.",
+      "Rideshare works but the west-side location makes the return trip at close slower than downtown's."
+    ],
+    "entranceNote": "Security at the entrance plaza. Iron Rattler's walk from the gate is ten-plus minutes — the rope-drop minutes are for its queue."
+  },
+  "lastVerified": "2026-07"
+}

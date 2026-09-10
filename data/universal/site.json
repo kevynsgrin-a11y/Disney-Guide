@@ -377,19 +377,22 @@
       "label": "Undercover Tourist",
       "note": "Authorized reseller. Discounted multi-day tickets for Universal Orlando and Hollywood.",
       "href": "https://www.undercovertourist.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "an authorized reseller of Universal Orlando and Universal Studios Hollywood tickets. We earn a commission on ticket sales made through our links."
     },
     "packagesDisneyland": {
       "label": "Get Away Today",
       "note": "Southern California ticket and hotel packages, including Universal Studios Hollywood.",
       "href": "https://www.getawaytoday.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "Southern California ticket and hotel packages. We earn a commission on bookings made through our links."
     },
     "gear": {
       "label": "Amazon",
       "note": "Park bag gear.",
       "href": "https://www.amazon.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "Associates — park gear on the packing recommendations. We earn a small percentage of qualifying purchases."
     }
   },
   "analytics": {

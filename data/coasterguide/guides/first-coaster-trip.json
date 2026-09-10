@@ -1,0 +1,97 @@
+{
+  "slug": "first-coaster-trip",
+  "title": "Your First Coaster Park Trip: A Planning Guide",
+  "h1": "Your first coaster park trip: how to plan it, what to ride first, and the mistakes everyone makes",
+  "metaDescription": "How to plan a first trip to America's big regional coaster parks: picking the park, the height and crowd arithmetic, the rope-drop logic, and what to skip on day one.",
+  "summary": "A first trip to the big regional parks runs on three arithmetic problems — height, crowds and heat — plus one skill: the rope drop. This guide solves all four and names the rookie mistakes that cost the most riding time.",
+  "category": "planning",
+  "readingTimeMinutes": 10,
+  "intro": [
+    "The regional coaster parks — the Six Flags, Knott's and SeaWorld parks on this site — reward planning differently than the destination resorts. There is no hotel-package ecosystem doing the work for you, no app choreography to master; the leverage is in three numbers and one habit. Get the height ladder, the crowd calendar and the weather window right, and arrive at open, and these parks are the best value in American theme parking.",
+    "This guide is the orientation: how to pick the park, how to read the crowd and heat curves, what the rope drop actually buys, and the rookie mistakes that cost first-timers the most. The park-specific versions live on each park's page — this is the layer above them.",
+    "One framing before the mechanics: the big regional parks are coasters-first environments. Shows, dark rides and theming exist, but nobody flies across the country for them. Plan for riding, pace for riding, and judge the day by riding — the parks will meet you there."
+  ],
+  "keyPoints": [
+    "Pick the park by your rider's height and tolerance before anything else — the 48-inch threshold decides half the day.",
+    "The crowd rule at regional parks is simple: school-year weekdays are calm, summer Saturdays are the year's peak.",
+    "Heat is a planning variable at the Texas and California parks in a way coastal visitors underestimate.",
+    "The rope drop — being at the gate before open — is worth more than any line-skip product on a weekday.",
+    "Plan the loop once: these parks are bigger than they photograph, and ping-ponging is the top time-killer.",
+    "Check the operating calendar before booking anything: regional parks run weekday gaps the resorts never do."
+  ],
+  "sections": [
+    {
+      "id": "pick-park",
+      "heading": "Picking the park",
+      "body": [
+        "Match the park to your party before you match it to your geography. Families with riders under 48 inches should weight toward Knott's or the Legolands, where the height ladder is friendly and the family tier is genuine. Parties of 48-inch-plus thrill riders should weight toward Magic Mountain or Great Adventure, where the headliner count is deepest. Mixed parties — the most common case — get the best answer at Knott's and Great America, which hold real thrill lineups alongside real family sections.",
+        "Geography then narrows it: Southern California concentrates four parks within two hours of each other, which makes a multi-park trip rational; the Texas parks are four hours apart, which makes combining them a road-trip decision; Orlando's SeaWorld is the easy add-on to any Florida trip.",
+        "And the honest tie-breaker for first-timers: Knott's. It is the most forgiving introduction to the category — compact, historic, family-capable and thrill-capable — and its day is the easiest to get right."
+      ],
+      "table": {
+        "title": "First park by party type",
+        "columns": ["Your party", "Best first park", "Why"],
+        "rows": [
+          ["Kids under 48 in", "Legoland CA or FL", "The height ladder barely exists there"],
+          ["Mixed ages", "Knott's Berry Farm", "Real thrill tier plus a genuine family park"],
+          ["Thrill-first teens and adults", "Magic Mountain", "The deepest coaster lineup on this site"],
+          ["Northeast locals", "Great Adventure", "El Toro plus a deep supporting lineup"],
+          ["Orlando trip add-on", "SeaWorld Orlando", "Five real coasters ten minutes from the resorts"]
+        ]
+      }
+    },
+    {
+      "id": "three-arithmetic",
+      "heading": "The three arithmetic problems",
+      "body": [
+        "Height: measure your riders at home, shoes on, against a hard wall, and plan around the confirmed number. The 48-inch rung unlocks most of the headliners at these parks; 54 unlocks the rest. A family with one 47-inch rider plans a genuinely different day than a family of 54s, and pretending otherwise wastes the morning.",
+        "Crowds: the regional-park curve is school-shaped. School-year weekdays run calm to near-empty — the same coasters that queue ninety minutes on a July Saturday are walk-ons on a September Wednesday. Summer weekends and holiday weeks are the peaks, and the fall haunt-season Saturdays at the big parks are among the year's busiest single days anywhere.",
+        "Heat: Texas in July is a survival problem, inland Southern California in August is a stamina problem, and Florida afternoons are thunderstorm o'clock — coasters close on distant lightning even under blue sky. The universal answer is the same shape: ride the exposed big coasters in the first two hours, spend the middle in shows, water rides and shade, and return to the big rides in the evening window."
+      ],
+      "list": {
+        "title": "The arithmetic in one list",
+        "items": [
+          "Height decides the ride list — measure at home and trust the number.",
+          "The school calendar decides the crowd — weekdays are the discount.",
+          "Weather decides the daily shape — mornings for the big rides, middles for the cool, evenings for the re-rides."
+        ]
+      }
+    },
+    {
+      "id": "rope-drop",
+      "heading": "The rope drop, and what it buys",
+      "body": [
+        "Being at the gate twenty minutes before open — through security before it, in the park at the first minute — is the single highest-leverage move at every park on this site. The first hour buys the day's most popular rides at a fraction of their midday queues: Tatsu at Magic Mountain, El Toro at Great Adventure, Mako at SeaWorld, GhostRider at Knott's. On a weekday that hour can clear three headliners before the park feels full.",
+        "The skill is picking the right first ride, which differs from the crowd's instinct. The herd runs to the biggest drop or the closest marquee; the informed rope-drop targets the ride whose queue grows fastest and recovers slowest. Every park page on this site names its own answer — the general rule is that the farthest big coaster from the gate is usually the calmest first hour.",
+        "The second window matters almost as much: the last hour. Day-trippers with kids leave by dinner, and the final sixty minutes routinely run the day's shortest queues on the marquee rides. Front-load and back-load; let the middle be the show-and-shade part of the day."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "The rookie mistakes, ranked",
+      "body": [
+        "The biggest is arriving at noon. Every regional-park queue curve peaks between one and four; arriving at open versus noon is routinely a two-to-one difference in rides completed on the same ticket. The second is ping-ponging: these parks are bigger than they photograph, and crossing Magic Mountain or Great Adventure repeatedly burns an hour of walking that a one-loop plan saves.",
+        "The third is misjudging the height ladder — bringing a 46-inch rider to a park whose headliners sit at 48 without a plan for what they can ride. The fourth is buying a line-skip product on a day that does not need it; the weekday versions of these parks make every tier a waste. The fifth is under-planning food: the good in-park options peak and empty like everything else, and the 11:30 lunch beats the 12:30 line everywhere on this site.",
+        "And the sixth, gentler mistake: over-scheduling. These parks reward a plan of six to eight deliberate rides over a checklist of twenty; the difference between a good day and a great one is usually the re-rides of the thing you loved, not the credits you collected."
+      ]
+    },
+    {
+      "id": "budget",
+      "heading": "What it costs, honestly",
+      "body": [
+        "The regional parks' base economics beat the destination resorts: single-day gates at the Six Flags and SeaWorld parks generally sit well below the Disney-tier parks, and the discount channels — online advance pricing, season-pass math for locals, the Coke-can-style promotions Six Flags runs — take real money off for anyone who books two weeks ahead instead of at the gate.",
+        "The add-ons are where budgets drift: parking, the line-skip products (see the dedicated guide — the short version is 'weekdays never, peak Saturdays maybe'), food at theme-park pricing, and the photo and souvenir funnel on the way out. A useful planning frame: budget the ticket, the parking and one meal per person as the fixed cost, and decide the line-skip question deliberately rather than at the gate.",
+        "Every price claim on this site is a range with a date attached, because all of these move. The 'as of July 2026' framing you see throughout is the honesty mechanism — the parks' own pages are the live numbers, and this site is the shape of the decision, not the receipt."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Which park should be my first coaster park?", "a": "Knott's Berry Farm for most first-timers — compact, historic, with a genuine spread from family to thrill. Magic Mountain if the party is uniformly thrill-first, and a Legoland if the riders are young. The first-trip goal is a clean, complete day, and Knott's is the most forgiving place to have one." },
+    { "q": "How early should I actually arrive?", "a": "Twenty minutes before the posted opening, through security before that. The security line — not the turnstiles — is the morning bottleneck at most of these parks, and the first sixty minutes inside buy more riding than any other hour of the day." },
+    { "q": "Are these parks good for non-riding members of the party?", "a": "Better than their reputation and worse than Disney. Knott's and the SeaWorld parks have real show-and-exhibit layers; Magic Mountain and Great Adventure are coasters-first with thinner alternates. The SeaWorld parks are the best choice when half the party would rather watch dolphins than ride dive coasters." },
+    { "q": "One park in one day — realistic?", "a": "Yes at every park on this site with a rope-drop start and a one-loop plan. The failure mode is not time but ping-ponging and midday queues; fix the plan and the day fits. Two days matter only at Magic Mountain for full-credit seekers and at the parks paired with water-park halves." },
+    { "q": "What should I skip on a first trip?", "a": "The line-skip product on any weekday, the upcharged attractions before you know you want them, and the souvenir funnel at exit. Spend the savings on the second day or the good lunch — both buy more day than the extras do." }
+  ],
+  "related": ["height-requirements", "line-skip-passes"],
+  "lastVerified": "2026-07"
+}

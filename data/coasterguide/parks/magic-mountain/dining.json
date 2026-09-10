@@ -1,0 +1,115 @@
+{
+  "park": "magic-mountain",
+  "dining": [
+    {
+      "slug": "jbs-smokehouse",
+      "name": "JB's Smokehouse",
+      "land": "six-flags-plaza",
+      "service": "quick-service",
+      "cuisine": "Barbecue",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens; pricing shifts by season",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The reliable hot-meal stop at the front of the park — brisket and pulled pork plates when the coaster queue has earned it.",
+      "description": [
+        "JB's is the Six Flags chain's smokehouse concept and the closest thing Magic Mountain has to a signature restaurant: meat plates, sides, and a shaded patio near the plaza. It is the answer to the midday question that is not a burger or a pretzel.",
+        "It fills by noon on weekends and thins by two. The mobile-order route through the park app is the move on crowded days — the pickup window bypasses the register queue entirely."
+      ],
+      "signatureItems": ["Brisket plate", "Pulled pork sandwich", "Mac and cheese"],
+      "goodFor": ["big-appetites", "quick-bite", "groups"],
+      "tips": [
+        "Order through the app at 11:15 and pickup lands right at the crowd lull.",
+        "The shaded patio is a legitimate 20-minute recovery spot on hot days."
+      ],
+      "verdict": "The best hot lunch at the park, which is modest praise at a Six Flags — but the brisket is genuinely decent and the portions are fair for the price.",
+      "faqs": [
+        { "q": "Do I need the app to order?", "a": "No, the registers work fine, but app ordering skips the register queue on weekends and is worth the two minutes of setup." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "primos-pizzeria",
+      "name": "Primo's Pizzeria",
+      "land": "rapids-camp-crossing",
+      "service": "quick-service",
+      "cuisine": "Pizza",
+      "priceTier": "$$",
+      "priceNote": "By the slice or whole pie",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Slices and whole pies in the air-conditioned lowlands — the family consensus meal and the best AC seating at the park.",
+      "description": [
+        "Primo's is the pizza workhorse in the Rapids Camp Crossing area, and its superpower is not the food — it is the air conditioning and the indoor tables. On a July afternoon this is where families regenerate.",
+        "Cheese and pepperoni by the slice, whole pies for groups, and enough shaded seating to make it the default reunion point for split parties."
+      ],
+      "signatureItems": ["Pepperoni slice", "Cheese slice", "Whole pies"],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break"],
+      "tips": [
+        "The indoor tables are the prize at peak heat — claim before ordering.",
+        "Whole pie for five beats five slices on price by a wide margin."
+      ],
+      "verdict": "Theme-park pizza that does its job: hot, fast, consensus-safe, and served in the only AC at the park worth planning around.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sweet-tooth-cart",
+      "name": "Sweet Tooth Funnel Cake Cart",
+      "land": "six-flags-plaza",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Funnel cake in the low-to-mid teens with toppings",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The plaza funnel cake cart — powdered sugar, strawberries, and the smell that defines every American park midway.",
+      "description": [
+        "The funnel cake cart at the plaza is the classic version of the classic: fresh-fried cake, powdered sugar, fruit toppings, eaten standing while the coaster noise rolls down the hill.",
+        "The queue peaks at night. Everyone wants funnel cake at close, and the cart's fryer throughput is the bottleneck."
+      ],
+      "signatureItems": ["Funnel cake with powdered sugar", "Strawberry topping funnel cake"],
+      "goodFor": ["late-night", "families"],
+      "tips": [
+        "Order before 20:00 or after close-adjacent rush; the fryer line at night is the park's longest snack queue.",
+        "One cake feeds two — the sugar load is a full day's worth."
+      ],
+      "verdict": "It is funnel cake. It costs eleven-plus dollars and it is worth exactly one bite of nostalgia per trip.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

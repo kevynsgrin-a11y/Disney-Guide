@@ -1,0 +1,98 @@
+{
+  "month": 1,
+  "name": "January",
+  "slug": "january",
+  "summary": "The quietest month on this site — school in session everywhere, cold in the north keeping the indoor-averse home, and full ride days at the SoCal and Florida parks for whoever shows up.",
+  "verdict": {
+    "grade": "A-",
+    "short": "January at these parks: one of the year's best windows. The quietest month on this site.",
+    "bestFor": [
+      "SoCal and Florida park days",
+      "Coaster counting without queues"
+    ],
+    "worstFor": [
+      "The Chicago and New Jersey parks",
+      "Anyone expecting daily operation"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "The quietest month on this site — school in session everywhere, cold in the north keeping the indoor-averse home, and full ride days at the SoCal and Florida parks for whoever shows up.",
+    "peakWindows": [
+      "The Martin Luther King weekend"
+    ],
+    "quietWindows": [
+      "Every weekday after the first"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 68,
+      "lowF": 48,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 71,
+      "lowF": 49,
+      "rainDays": 7,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 58,
+      "lowF": 37,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 41,
+      "lowF": 24,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 31,
+      "lowF": 17,
+      "rainDays": 10,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The Six Flags parks in the north run limited or weekend-only calendars this month — verify daily operation before booking anything non-refundable."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "The SoCal parks run their normal year-round calendars; a January weekday at Magic Mountain is among the best ride-per-hour days in the country."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

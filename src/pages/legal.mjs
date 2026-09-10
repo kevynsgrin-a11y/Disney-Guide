@@ -62,7 +62,7 @@ function docPage (data, { url, title, titleTail, h1, description, lede, sections
   }
 }
 
-export function legalPages (data) {
+export function legalPages (data, seasonal = null) {
   const { site } = data
   const pages = []
 
@@ -111,7 +111,11 @@ export function legalPages (data) {
           '**Accessibility and maps** — the provisions each park actually makes, and printable schematic maps that work with no signal.',
           `**[When to go](${urls.whenToGoIndex()})** — all twelve months graded, with crowd shape, cost level, climate normals, and the specific weeks worth targeting or avoiding inside each one.`,
           `**[Events](${urls.eventsIndex()})** — the Halloween and Christmas party nights, the EPCOT and California Adventure festivals, after-hours events, and the seasonal overlays at both resorts. What you get, what you do not, and whether the price holds up.`,
-          `**[What things cost](${urls.pricesIndex()})** — ticket, Lightning Lane, parking, and pass pricing, always as a range and always with the cycle the range describes.`,
+          // An operator with no prices tree yet must not link to one — a 404 on the legal
+          // page is the one broken link a reader would reasonably hold against the site.
+          ...((seasonal && seasonal.prices.length)
+            ? [`**[What things cost](${urls.pricesIndex()})** — ticket, Lightning Lane, parking, and pass pricing, always as a range and always with the cycle the range describes.`]
+            : []),
           `**[Closures](${urls.closuresIndex()})** — what is behind a wall at each resort, and how firm the reopening actually is.`,
           `**Tools** — a [height checker](${urls.heightChecker()}), a [food tracker](${urls.foodTracker()}) that works offline, a [year-at-a-glance calendar](${urls.calendar()}), and a [trip-timing ranker](${urls.tripTiming()}) that reorders the months against what you personally care about.`,
         ],
@@ -370,13 +374,11 @@ export function legalPages (data) {
         heading: 'Who we have relationships with',
         id: 'partners',
         body: [
-          'Three, in total. If that changes, this page changes in the same commit.',
+          `${({ 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five' })[Object.keys(site.affiliates).length] || Object.keys(site.affiliates).length}, in total. If that changes, this page changes in the same commit.`,
         ],
-        list: [
-          `**${site.affiliates.tickets.label}** — an authorized reseller of Walt Disney World and Disneyland Resort tickets. We earn a commission on ticket sales made through our links.`,
-          `**${site.affiliates.packagesDisneyland.label}** — Disneyland Resort tickets and hotel packages. We earn a commission on bookings made through our links.`,
-          `**${site.affiliates.gear.label} Associates** — park gear on the packing recommendations. We earn a small percentage of qualifying purchases.`,
-        ],
+        list: Object.values(site.affiliates).map((a) =>
+          `**${a.label}** — ${a.disclosure}`
+        ),
       },
       {
         heading: 'Most of what we cover cannot be bought through us',

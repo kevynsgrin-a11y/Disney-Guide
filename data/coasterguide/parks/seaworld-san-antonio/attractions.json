@@ -1,0 +1,471 @@
+{
+  "park": "seaworld-san-antonio",
+  "attractions": [
+    {
+      "slug": "iron-rattler",
+      "name": "Iron Rattler",
+      "land": "crackaxle-canyon",
+      "type": "roller-coaster",
+      "opened": 2013,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "The first drop dives off a real quarry wall — 81 degrees, exposed, over limestone. The tunnel at the bottom arrives at full speed. The fear is the drop's exposure; the ride itself is smooth hybrid aggression."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into hybrid trains with lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The quarry hybrid — an 81-degree dive off real limestone walls with an inversion and a tunnel, one of the best coasters in Texas.",
+      "description": [
+        "Iron Rattler is the Rocky Mountain Construction hybrid built onto the bones of the Rattler, the 1992 wooden coaster that rode the park's quarry walls. The 2013 conversion kept the setting — the only coaster in America diving off genuine rock — and replaced everything else: steel track, a steeper drop, an inversion, and the tunnel at the pit's floor.",
+        "It belongs to the first generation of RMC hybrids alongside the New Texas Giant, and the comparison is the natural Texas pilgrimage: the Giant at Arlington, the Rattler at San Antonio, four hours of I-35 apart.",
+        "The setting is the differentiator. Other hybrids ride structures; this one rides geology. The drop off the rim wall, the quarry-scale turns, and the tunnel through the pit add up to the best coaster setting on this site."
+      ],
+      "experience": [
+        "The lift climbs the rim with the pit below. The drop crests at 81 degrees over the limestone wall — a steep, exposed, genuinely scenic plunge that most coasters can only imitate with theming.",
+        "The layout uses the quarry's geometry: high banked turns pressed against the rock walls, an airtime hill on the rim, and the zero-g roll where the track leaves the geology for pure design. The tunnel at the bottom of the pit compresses the roar and releases into the brake run.",
+        "Re-ride the back car for the airtime, then the front for the wall-drop view. Two laps is the honest minimum at a park whose best ride is this good."
+      ],
+      "tips": [
+        "Rope-drop it — the queue is the park's longest and unshaded.",
+        "Back car for airtime, front for the quarry drop; both are mandatory on a full visit.",
+        "Time re-rides against the stadium shows, when the queue dips."
+      ],
+      "bestTime": "Rope drop and show windows.",
+      "typicalWait": "30–60 minutes midday.",
+      "faqs": [
+        {
+          "q": "Iron Rattler or the New Texas Giant?",
+          "a": "The two first-generation RMC hybrids, four hours apart. The Rattler has the quarry setting and the tunnel; the Giant has the steeper drop and more airtime. Enthusiasts ride both; the Rattler's setting usually tips the preference."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "48 inches with lap-bar restraints. The intensity is well above the bar — a first-timer at exactly 48 inches gets a serious ride."
+        },
+        {
+          "q": "Is the quarry real?",
+          "a": "Yes — the park sits beside a former limestone quarry, and Iron Rattler's layout dives off the actual rock walls and tunnels through the pit. It is the only coaster on this site whose signature structure is geology rather than steel or wood."
+        }
+      ],
+      "relatedSlugs": [
+        "the-great-white",
+        "steel-eel"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-great-white",
+      "name": "The Great White",
+      "land": "the-waterfront",
+      "type": "roller-coaster",
+      "opened": 1997,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "A B&M invert in the Batman lineage: five inversions, tight pacing, high forces for its footprint. The standard first-generation invert formula, executed fully."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The B&M invert — five inversions in the Batman-clone lineage, the park's pure looper.",
+      "description": [
+        "The Great White is a B&M inverted coaster of the generation that cloned nationwide: vertical loop, zero-g roll, corkscrews and helixes at relentless pace. It has run since 1997 and remains the park's purest inversion package.",
+        "It slots behind Iron Rattler in the queue but not in force — the invert formula at this scale is still among the most intense ride types per foot. For the 54-inch crowd it is the second must-ride."
+      ],
+      "tips": [
+        "Front row for the flight feel; the invert format rewards the lead car.",
+        "Ride in the first hour with the steel loop.",
+        "The zero-g roll is the smoothest inversion — a good place to test whether inversions are for you."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "15–35 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "iron-rattler",
+        "steel-eel"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "steel-eel",
+      "name": "Steel Eel",
+      "land": "the-waterfront",
+      "type": "roller-coaster",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A hyper-style hill coaster: a big first drop and a series of airtime hills, no inversions. The airtime is the ride — friendly forces, genuine float, the park's most re-rideable steel."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into traditional coaster trains with lap-bar restraints."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The airtime coaster — a 150-foot first drop and a chain of floating hills, the park's most re-rideable steel.",
+      "description": [
+        "Steel Eel is a Morgan hyper-style coaster: one big lift, one big drop, and a course that spends its speed on airtime hills rather than inversions. It is the park's friendly giant — 48-inch bar, lap-bar restraints, and float that families ride five times.",
+        "Among enthusiasts it is the quiet pick: the airtime per queue-minute is the best at the park, and the back car's hills deliver genuine ejector moments on the right cycle."
+      ],
+      "tips": [
+        "Back car for the airtime — the hills amplify rearward.",
+        "The re-ride champion: cycle laps in the morning lull.",
+        "Ride at dusk; the floating hills read best in the golden light."
+      ],
+      "bestTime": "Anytime; the queue stays moderate.",
+      "typicalWait": "10–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "iron-rattler",
+        "the-great-white"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "wave-breaker",
+      "name": "Wave Breaker: The Rescue Coaster",
+      "land": "the-waterfront",
+      "type": "roller-coaster",
+      "opened": 2017,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family-tier minimum — verify the current figure on the park's own attraction page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A straddle-seat launch coaster themed to jet-ski animal rescue — two launches, low-to-the-water speed, no significant drops. The launches thrill smaller riders; the course stays family."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into straddle-style seats."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The jet-ski rescue launch coaster — straddle seats, two launches around the waterfront lagoon, the family graduation ride.",
+      "description": [
+        "Wave Breaker is the park's family launch coaster: riders straddle jet-ski-style seats and launch around the waterfront lagoon on a rescue-themed course. The format gives younger riders the solo-seat feel of a bigger coaster at family forces.",
+        "It is the rung below the big three — the ride that prepares the 48-inch-minus crowd for the Rattler years."
+      ],
+      "tips": [
+        "The second launch is the stronger one — brief the small riders.",
+        "Pairs with the family flats for the pre-48 hour.",
+        "The launch tunnel's sound effect is half the ride — ride with ears open the first time."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "iron-rattler",
+        "rio-loco"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "rio-loco",
+      "name": "Rio Loco",
+      "land": "crackaxle-canyon",
+      "type": "water-ride",
+      "opened": 1996,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A rapids ride — spinning raft, canyon walls, soak cycles. The fear content is the water temperature in March and nothing else."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into circular rafts."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The canyon rapids — a classic soak ride wrapping the quarry edge, the park's non-water-park water fix.",
+      "description": [
+        "Rio Loco is the rapids ride: circular rafts through canyon-channel rapids with the park's most democratic soaking — nobody chooses, everybody rotates into the wave. In Texas heat it is a feature; in March it is a dare.",
+        "It sits near the coaster cluster, making it the natural midday cooldown between Iron Rattler cycles."
+      ],
+      "tips": [
+        "The soak is rotation-based — no safe seat exists.",
+        "Afternoon heat is the correct window; the dry-off is the sun.",
+        "The waterfall near the end is optional in spirit and mandatory in practice — it knows where you sit."
+      ],
+      "bestTime": "Afternoon heat.",
+      "typicalWait": "15–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "iron-rattler",
+        "wave-breaker"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "shamu-express",
+      "name": "Shamu Express",
+      "land": "entrance-plaza",
+      "type": "roller-coaster",
+      "opened": 1988,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Kid-tier minimum — verify on the park's own page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A themed kid coaster — small drops, gentle speed, the first-credit tier."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into kid-coaster trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The kid coaster at the entrance — small, themed, and the first credit for the park's youngest visitors.",
+      "description": [
+        "Shamu Express is the park's kid coaster: a small themed circuit near the entrance plaza that exists to be someone's first roller coaster. It does that job completely.",
+        "For families with a mixed ladder — one kid on Iron Rattler, one not — this plus Wave Breaker is the small-rider half of the day."
+      ],
+      "tips": [
+        "The queue is short and the re-ride requests frequent — budget accordingly.",
+        "The natural pairing with the entrance exhibits in the first hour.",
+        "The parents' seat is the back row — you can see the whole circuit and exit with dignity."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "wave-breaker"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "orca-encounter",
+      "name": "Orca Encounter",
+      "land": "the-waterfront",
+      "type": "animal-experience",
+      "opened": 1988,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "An education-framed orca presentation in the waterfront stadium — amplified sound and marked splash zones. The intensity is entirely the front rows' business."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Stadium seating with accessible areas; assistive listening available."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The park's signature orca presentation — education-framed, splash-zoned, and the schedule anchor of the visit.",
+      "description": [
+        "Orca Encounter is the San Antonio version of the park's signature presentation: orcas in the waterfront stadium with education-centered narration in the post-theatrical-show era. The schedule shapes the day — coaster queues dip during presentations.",
+        "Splash zones are real and marked; the dry seats are mid-stadium and up. As with the sister parks, this site describes the presentation and lets readers make their own call."
+      ],
+      "tips": [
+        "Photograph the schedule at entry and build the ride windows around it.",
+        "Front rows soak; plan the seat to the appetite.",
+        "Arrive early for seat choice."
+      ],
+      "bestTime": "Per the day's schedule.",
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "iron-rattler",
+        "steel-eel"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

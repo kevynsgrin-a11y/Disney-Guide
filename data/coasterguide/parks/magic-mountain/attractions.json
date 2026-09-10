@@ -1,0 +1,680 @@
+{
+  "park": "magic-mountain",
+  "attractions": [
+    {
+      "slug": "x2",
+      "name": "X2",
+      "land": "samurai-summit",
+      "type": "roller-coaster",
+      "opened": 2002,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": "48 inch minimum. The shoulder restraints also carry a maximum-lap-fit consideration larger riders should test at the entrance seat.",
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 5, "darkness": 1, "drops": 5, "speed": 5, "loudness": 5, "startles": 3,
+        "notes": "The seats rotate you forwards off each drop, face-down, with no way to anticipate the next flip. It is the most disorienting ride on the mountain and the one that separates enthusiasts who like intensity from enthusiasts who like comfort. The onboard audio in the front-facing seats adds to the assault."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Full transfer into a rotating gondola seat with a complex restraint. There is a test seat at the entrance; larger riders should use it, as the restraint is among the least forgiving in the park."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 4th-dimension coaster whose seats rotate you independently of the track — face-down off the first drop, on your back into the raven turn, screaming the whole way.",
+      "description": [
+        "X2 opened in 2002 as X and became X2 in a 2007 rebuild, and nothing else at Magic Mountain — or almost anywhere — rides like it. The trains are gondolas on an extra axis: the seats flip forwards and backwards on a schedule set by the track's profile, so you drop the 215-foot first hill face-first whether you want to or not.",
+        "The rebuild added onboard audio and fire effects to the signature raven turn. The result is a coaster that guests either rank first at the park or refuse to re-ride, and both reactions are correct. It is the park's signature thrill and its least forgiving restraint system at the same time.",
+        "X2 holds a 48-inch minimum, but the honest filter is not height — it is tolerance. This is the ride to skip rather than test if anyone in your party has reservations about being rotated face-down at 76 miles per hour."
+      ],
+      "experience": [
+        "The station loads slowly because every seat is a bench-rotate mechanism, so the queue moves in surges. Front-facing or rear-facing matters less than you would think — every seat flips. The lift is a conventional chain climb with a view of the whole valley, which is the calm before everything.",
+        "The first drop rotates you forward and down 215 feet face-first, and the track does not ask permission. The subsequent sequence — a raven turn with the flame effect, a twisting front-flip section, the inline twists — lands in whatever orientation the track decides. The final brake run arrives with the specific silence of a ride that has used up all your adrenaline.",
+        "Ride it once in the middle of the day when its queue dips, form your opinion, and re-ride at close if the opinion is yes. A surprising number of guests who hated it at noon want one more at ten at night."
+      ],
+      "tips": [
+        "Use the test seat before queueing — the restraint is the tightest fit at the park.",
+        "Ride midday: X2's queue peaks at open and close and dips during the lunch hours.",
+        "Empty your pockets completely; the loose-article policy is strictly enforced at this ride and the lockers are at the entrance.",
+        "Sit in the middle rows your first time — the rotation feels slightly more predictable there than in the lead gondola."
+      ],
+      "bestTime": "11:30–14:00 on weekdays, or the last hour before close.",
+      "typicalWait": "45–70 minutes at peak; 15–25 at open, close and lunch hours on weekdays.",
+      "faqs": [
+        { "q": "Is X2 scary?", "a": "Yes, genuinely. The rotation puts you face-down into drops with no anticipation, and it is loud. It is the most intense ride at a park full of intense rides, and guests who handle every other coaster here sometimes tap out on this one." },
+        { "q": "What is the height requirement for X2?", "a": "48 inches. The restraint fit matters as much as the height — use the test seat if the rider is near either end of the size range." },
+        { "q": "Does X2 go upside down?", "a": "Constantly, and in the more disorienting way: the seats rotate you rather than the track holding you inverted. If you blackout-prone or motion-sensitive, this is the one to skip at the park." }
+      ],
+      "relatedSlugs": ["tatsu", "goliath", "full-throttle"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tatsu",
+      "name": "Tatsu",
+      "land": "samurai-summit",
+      "type": "roller-coaster",
+      "opened": 2006,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4, "darkness": 1, "drops": 4, "speed": 4, "loudness": 3, "startles": 2,
+        "notes": "Flying coasters provoke a fear of falling more than a fear of loops: the pretzel loop flips you onto your back and pulls you through the world's largest loop of its type, and the restraint is a full harness you hang in. The fear is front-loaded — the flight sections are calm enough to enjoy the view."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into a prone-position flying seat with overhead harness. Loading takes longer than standard coasters because of the rotation from boarding to flight position."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The flying coaster that launches off the summit of the mountain — you ride face-down over the whole Santa Clarita valley before the pretzel loop folds the sky in half.",
+      "description": [
+        "Tatsu is a B&M flying coaster and the best thing on the mountain by most enthusiasts' reckoning. The station sits at the top of Samurai Summit, and after the lift the trains rotate to prone and the terrain falls away — the layout drops off the hillside, threads under a bridge and around the summit rides, using the mountain's own elevation as part of the ride.",
+        "Its signature is the 124-foot pretzel loop, the largest on a flying coaster when it opened: you crest a rise lying flat, the track folds you over backwards, and you pull through the loop lying on your back looking straight up at what you just fell out of. It is the single most forceful moment at this park.",
+        "Tatsu carries a 54-inch minimum, which makes it the summit's big-kid ride. Its queue is the park's most popular after X2, which is the entire case for rope-dropping it."
+      ],
+      "experience": [
+        "Boarding is standard seats, and then the floor drops and the seats rotate you forward to face the ground before the train even leaves the station. The lift hill gives you the valley in prone position — genuinely beautiful, and the calmest thirty seconds of the ride.",
+        "The drop off the summit is terrain-hugging: the track follows the hillside down, banking around the trees at speed. Then the pretzel loop — the fold-over moment every rider remembers — and a zero-g roll and inline twists on the way back toward the station.",
+        "It ends too fast for a ride this good, which is the strongest argument for re-riding. The second lap is better than the first because you know where to look: the valley on the lift, the ground rush after the loop."
+      ],
+      "tips": [
+        "Rope-drop it — this is the park's best ride and the queue proves it by 10:00.",
+        "Look ahead, not down, through the flight sections; the track-line perspective is the whole point of flying coasters.",
+        "The restraint clamps your calves and shoulders — glasses wearers should use a strap.",
+        "Ride before Ninja if you are doing the summit loop, not after; Tatsu's line only grows while you queue for its neighbor."
+      ],
+      "bestTime": "Rope drop, full stop. Second-best is the last hour of operation.",
+      "typicalWait": "60–90 minutes midday in season; 10–20 at rope drop on weekdays.",
+      "faqs": [
+        { "q": "Is Tatsu better than X2?", "a": "For most riders, yes — Tatsu is intense without being disorienting, and the terrain flight is unique. X2 is the more extreme experience; Tatsu is the better ride. Enthusiasts argue this constantly and both sides are well represented." },
+        { "q": "What is the height requirement for Tatsu?", "a": "54 inches, the standard minimum for the park's biggest B&M coasters. There is no 48-inch tier on this one." },
+        { "q": "Does the pretzel loop make people sick?", "a": "It is the highest-force moment at the park, and motion-sensitive riders do struggle with it. The flight sections before and after are gentle by comparison. If you are prone to motion sickness, ride it before lunch, not after." }
+      ],
+      "relatedSlugs": ["x2", "ninja", "superman-escape-from-krypton"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "twisted-colossus",
+      "name": "Twisted Colossus",
+      "land": "cyclone-bay",
+      "type": "roller-coaster",
+      "opened": 2015,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 4, "speed": 4, "loudness": 2, "startles": 1,
+        "notes": "A wooden coaster in appearance and an aggressive steel hybrid in behaviour. The first drop is steep and the inversions surprise riders expecting a classic woodie. Nothing here is frightening beyond the physical — it is airtime and laterals, not fear."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into standard coaster trains with lap-bar restraints. The lap-bar-only restraint makes this one of the more accommodative big coasters for larger riders."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 1978 racing wooden twins rebuilt in steel — now a single hybrid that races its own second train and high-fives its own track twice.",
+      "description": [
+        "Colossus was Magic Mountain's racing wooden coaster from 1978, famous from film and famous for its white structure. In 2015 Rocky Mountain Construction rebuilt it as Twisted Colossus: the wooden structure remains, the track became the inversions-capable Ibox steel, and the two original tracks became one continuous circuit ridden by two trains that can race.",
+        "The result is the park's most re-ridable big coaster. Two inversions — including the vaunted Top Gun stall where the track banks and hangs — plus airtime hills that modern wood-hybrid riders cross the country for. When both trains dispatch in sequence, they duel side by side up the lift and through the first half, and the race is the show.",
+        "The 48-inch minimum makes it the family threshold ride: the coaster a twelve-year-old graduates onto before they are tall enough for Tatsu. For mixed-height parties it is the park's most valuable coaster."
+      ],
+      "experience": [
+        "The first drop is a double-down rebuilt steeper than wood allowed, and the pace never settles afterward. The sequence runs a zero-g roll, the high-five bank where two trains pass within arm's reach of each other's track, and the long stall where you hang sideways staring at the structure.",
+        "If the race is on — two trains, staggered dispatch — the second lap energy changes completely: riders on both trains scream at each other across the parallel lifts, and the operators lean into it. Ask at the station whether the duel dispatch is running; on light days they will sometimes hold a train to make it happen.",
+        "The back half is a terrain-hugging return through the old Colossus footprint, all laterals and pops of airtime. It is the rare big coaster that gets better the more tired you are, because the restraints are lap bars and your body has nothing to fight."
+      ],
+      "tips": [
+        "Ask the station crew if the racing dispatch is running — the high-five element only happens when both trains duel.",
+        "Ride the back car for airtime, the front for the race view; there is no wrong row on this one.",
+        "The 48-inch minimum plus lap-bar restraints make this the best first big coaster at the park.",
+        "Late afternoon is its quietest window — the back corner empties after the lunch rush."
+      ],
+      "bestTime": "Late afternoon in Cyclone Bay; the crowd drains uphill after lunch.",
+      "typicalWait": "30–60 minutes in season; 10–20 weekday afternoons.",
+      "faqs": [
+        { "q": "Is Twisted Colossus a wooden coaster?", "a": "It is a hybrid: the original 1978 wooden structure supports new steel Ibox track, which is what lets it invert. It looks like a woodie and rides like a modern steel coaster, which is exactly the appeal." },
+        { "q": "What is the height requirement?", "a": "48 inches — the threshold tier at this park, and lower than the 54-inch big B&Ms. It is the natural first big coaster for kids who have just crossed 48." },
+        { "q": "What is the 'high five' element?", "a": "Two points on the dueling tracks bank toward each other so the racing trains pass close enough that riders could theoretically slap hands. It only happens when both trains are dispatched in race sequence." }
+      ],
+      "relatedSlugs": ["west-coast-racers", "goliath", "goldrusher"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "goliath",
+      "name": "Goliath",
+      "land": "cyclone-bay",
+      "type": "roller-coaster",
+      "opened": 2000,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 5, "speed": 5, "loudness": 2, "startles": 1,
+        "notes": "The first drop is 255 feet at 61 degrees and the tunnel underground section runs in darkness at full speed. Goliath's reputation for grey-out moments comes from the helix's sustained positive g — riders who feel lightheaded in sustained turns should note it."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into traditional coaster trains. The final brake run and unload are ground level."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 255-foot Giovanola hypercoaster with a 61-degree first drop, an underground tunnel and the helix that greys out the front row.",
+      "description": [
+        "Goliath opened in 2000 as the park's giant drop machine: 255 feet down at 61 degrees, 85 miles per hour, into a course of hills and one extended helix that has become the ride's signature — a sustained high-g spiral that quietly dims the vision of riders in the front row.",
+        "It carries a 48-inch minimum despite being one of the biggest drops at the park, which is the standing surprise of Magic Mountain's height ladder. The restraint is a lap bar, the seats are roomy, and the ride is speed-and-airtime rather than inversions.",
+        "The mid-course underground tunnel is the moment non-enthusiasts remember: full darkness at full speed, then daylight and the helix. Goliath does not have Tatsu's elegance or X2's chaos — it is simply enormous, and enormously re-ridable."
+      ],
+      "experience": [
+        "The lift gives you the whole back corner of the park, then the drop. Sixty-one degrees from 255 feet is a commitment the stomach registers before the brain does. The first hill's airtime float leads straight into the tunnel — dark, loud, disorienting for exactly the right number of seconds.",
+        "The second half is the helix: a long descending spiral where the g-force builds and holds. Front-row riders describe the grey-out as a gentle fade at the edges; it passes before the brake run and is the ride's badge of honor among enthusiasts.",
+        "Because the restraint is a lap bar and the layout has no inversions, Goliath is the park's most accessible giant. Riders who bail on X2 and Batman frequently discover they are fine here, which makes it the confidence-builder of the mountain."
+      ],
+      "tips": [
+        "Front row for the grey-out helix; back row for the first-drop airtime.",
+        "If tunnels in darkness are a no for a young rider, this is not the intro coaster — the tunnel is fast and total.",
+        "Queue in the late afternoon; the bay-side location keeps its line shorter than the summit rides all day.",
+        "Hydrate before riding if you are sensitive to sustained g — the helix is where low water intake shows up."
+      ],
+      "bestTime": "After 15:00, when the crowds migrate back toward the plaza.",
+      "typicalWait": "30–50 minutes in season; often walk-on weekday mornings.",
+      "faqs": [
+        { "q": "Does Goliath really make people black out?", "a": "The helix pulls sustained positive g-force that causes brief grey-outs for some riders, especially in the front row. It is a known, discussed, and for many riders sought-after feature of the ride. It passes within seconds and is not a medical event for healthy riders, but anyone with cardiovascular concerns should skip it." },
+        { "q": "What is the height requirement?", "a": "48 inches — surprisingly low for a 255-foot drop, and one of the reasons this park is so good for the 48-to-54 crowd." },
+        { "q": "Is Goliath scary for kids at 48 inches?", "a": "The drop is the scariest single moment, and the tunnel darkness surprises first-timers. Kids who handle Twisted Colossus usually handle Goliath; kids who found Colossus at the edge should wait a season." }
+      ],
+      "relatedSlugs": ["twisted-colossus", "superman-escape-from-krypton", "tatsu"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "full-throttle",
+      "name": "Full Throttle",
+      "land": "six-flags-plaza",
+      "type": "roller-coaster",
+      "opened": 2013,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 3, "speed": 4, "loudness": 3, "startles": 2,
+        "notes": "The launch is abrupt and the world-record vertical loop is bigger than it photographs from the freeway. The backwards section out of the loop's base surprises first-timers. Overall it reads as intense-but-friendly: no darkness, no disorientation."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into launch-coaster trains with lap-bar restraints over the shoulder vest system."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The plaza's launch coaster with the world's tallest vertical loop, hanging over the front gate — the ride every arriving guest walks under.",
+      "description": [
+        "Full Throttle is the park's front-door statement: a Premier launched coaster whose 160-foot vertical loop is visible from the freeway and which the entry road literally passes beneath. The launch hits 66 miles per hour into the loop, then a second launch reverses the train through the same loop's base backwards, and a third dribble of speed sends it over the top-hat.",
+        "The triple-launch structure makes it feel like three rides bolted into ninety seconds. It is also the most visible ride in the park, which means its queue collects everyone walking in at ten in the morning — the counter-move is to ride it at open (passing it on the way up the hill is fine; it loads fast) or at close.",
+        "At 54 inches it sits in the big-kid tier. For coaster-counting visitors it is a marquee credit; for families it is the one that sits at the top of the 'maybe next year' list."
+      ],
+      "tips": [
+        "Ride at close, not at open — the evening queue dies while the summit crowd is still upstairs.",
+        "The backwards launch is the surprise; brace your neck against the headrest before the second launch.",
+        "This is the loudest coaster to stand under — the plaza photo spot by the loop gets the full effect."
+      ],
+      "bestTime": "Last hour of operation.",
+      "typicalWait": "20–40 minutes midday; under 15 at close.",
+      "faqs": [],
+      "relatedSlugs": ["x2", "viper"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "superman-escape-from-krypton",
+      "name": "Superman: Escape from Krypton",
+      "land": "samurai-summit",
+      "type": "roller-coaster",
+      "opened": 1997,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 1,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4, "darkness": 1, "drops": 5, "speed": 5, "loudness": 3, "startles": 3,
+        "notes": "Riding backwards up a 415-foot tower at 100 miles per hour is a pure adrenaline exposure with nothing to brace against but the seatback. The forward re-launch after the 2011 rebuild made it backwards-facing, which most riders find more frightening than the height itself suggests."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into shuttle-style cars. The ride cycle is short and the unload is at station level."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 415-foot L-shaped shuttle tower that launches you backwards at 100 mph — the summit's speed record and the tallest structure at the park.",
+      "description": [
+        "Superman opened in 1997 as one of the first linear-motor launch coasters in the world and held a speed record for a decade. The 2011 rebuild flipped the cars to face backwards: you accelerate away from the tower at 100 miles per hour, up the 415-foot spike, and hang weightless at the top with the entire valley behind your head.",
+        "The cycle is ninety seconds including load, which makes it one of the highest-throughput thrills per minute at the park. Weightlessness at the top is the point — the tower section slows to a crawl at the apex and the whole train floats for a beat before the drop back down.",
+        "Its 48-inch minimum is generous for the extremity of the experience, and the summit location makes it a natural pairing with Tatsu and Ninja on the morning loop."
+      ],
+      "tips": [
+        "Do it on the summit pass in the morning — nobody wants to climb back up for it at five.",
+        "The backwards launch disorients; commit to looking at the sky at the top rather than trying to orient.",
+        "Ride after Tatsu, before Ninja: the order minimizes backtracking at the summit."
+      ],
+      "bestTime": "The morning summit window.",
+      "typicalWait": "15–30 minutes; the short cycle keeps it moving.",
+      "faqs": [],
+      "relatedSlugs": ["tatsu", "ninja"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "west-coast-racers",
+      "name": "West Coast Racers",
+      "land": "cyclone-bay",
+      "type": "roller-coaster",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2, "darkness": 1, "drops": 2, "speed": 3, "loudness": 2, "startles": 1,
+        "notes": "Two launches, tight twists, no inversions — this is the modern family-thrill tier. The racing element is excitement rather than fear. Motion-sensitive riders handle it better than the loopers."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into paired seating in low-floor trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "Two side-by-side launched tracks racing four-abreast through the bay — the modern family-thrill coaster and the park's best head-to-head show.",
+      "description": [
+        "West Coast Racers is a Premier racing launch coaster: two separate tracks, four launches between them, and trains that genuinely race through crossings and helixes. It opened in 2019 as the park's first new big coaster in years and immediately became the family favorite of the thrill tier — 48 inches, no inversions, relentless but never brutal.",
+        "The racing format gives it show value that single-track coasters lack: the two tracks cross and parallel each other constantly, and the outcome is different every cycle depending on dispatch timing. The pit-station theming — cars pulling in for tire changes mid-race — is the most complete theming at this park since the 1990s.",
+        "For visitors building a first-timer order, this is the calmest of the bay's three big rides and the best warm-down after Goliath's helix."
+      ],
+      "tips": [
+        "Both tracks ride differently — ask which is the red/blue side and do both if the queue allows.",
+        "The racing outcome depends on dispatch timing; midday dispatches are likelier to be true side-by-side.",
+        "Pairs well with Twisted Colossus for the two-race afternoon in the bay."
+      ],
+      "bestTime": "Weekday afternoons when the bay empties.",
+      "typicalWait": "20–40 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": ["twisted-colossus", "goliath"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "viper",
+      "name": "Viper",
+      "land": "baja-ridge",
+      "type": "roller-coaster",
+      "opened": 1990,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 4, "speed": 4, "loudness": 3, "startles": 1,
+        "notes": "Seven inversions including a batwing and double corkscrew, on 1990 Arrow track — meaning the transitions are abrupt where modern coasters are sculpted. Head-bang risk is real for riders who do not pin their heads back."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into Arrow-style trains with over-the-shoulder restraints."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1990 Arrow multilooper with seven inversions and the interlocking corkscrews every visitor photographs from the parking lot.",
+      "description": [
+        "Viper is the classic that refuses to leave: a 144-foot first drop into a vertical loop, a batwing, and the interlocking corkscrew finale that has been the park's silhouette since 1990. It was among the tallest looping coasters in the world on opening and remains the purest old-school looper at the park.",
+        "Riding Viper is a technique exercise. Arrow transitions snap between elements, and the over-shoulder harness punishes loose heads — keep pinned to the headrest and the ride is a blast; fight it and you will finish with a headache. Enthusiasts who grew up on Arrow track regard Viper as a rite; first-timers should treat it as one too.",
+        "At sunset the ridge location turns the loops into a silhouette against the valley, and the queue is at its shortest. It is the best closing ride at the park after Full Throttle."
+      ],
+      "tips": [
+        "Head back, head back, head back — through every inversion. This is the whole ride.",
+        "Save it for the golden hour; the ridge view plus short queue is the best late-day pairing.",
+        "Skip it if anyone in the party is prone to headaches or neck issues; nothing at the park punishes tension like Viper."
+      ],
+      "bestTime": "The last two hours of the day.",
+      "typicalWait": "15–30 minutes; the triple-train capacity keeps it short.",
+      "faqs": [],
+      "relatedSlugs": ["batman-the-ride", "the-riddlers-revenge"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "batman-the-ride",
+      "name": "Batman: The Ride",
+      "land": "dc-universe",
+      "type": "roller-coaster",
+      "opened": 1994,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 3, "speed": 4, "loudness": 3, "startles": 1,
+        "notes": "Compact invert, relentless pacing, five inversions in a small footprint. The forces are higher than the ride's size suggests — the vertical loop and zero-g roll come fast and the finale helix pulls hard. Riders who find big drops scary handle Batman; riders who hate quick direction changes do not."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains with floor-drop loading."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The West Coast Batman invert — the 1994 B&M suspended coaster that still out-punches rides twice its footprint.",
+      "description": [
+        "Magic Mountain's Batman is the West Coast sibling of the 1992 Great America original, a first-generation B&M invert packing a vertical loop, zero-g roll, corkscrews and tight helixes into one of the smallest big-coaster footprints anywhere. Thirty years on, it remains the pacing benchmark other compact loopers are measured against.",
+        "Because the layout is short and the trains never stop fighting, Batman is the purest forty-five seconds of intensity at the park. The suspended seats swing through the elements; the front row gets the cleanest inversion sensations, the back row gets whipped hardest.",
+        "Its 54-inch minimum is the gate. For riders tall enough, this and Riddler's Revenge make DC Universe the most intense acre at the park per square foot."
+      ],
+      "tips": [
+        "Front row for the flight sensation; back row for force.",
+        "The queue is shaded and themed — one of the few at this park where the wait itself is tolerable at midday.",
+        "Pair with Riddler next door; doing both in one pass through DC Universe beats circling back."
+      ],
+      "bestTime": "The first hour or after 17:00.",
+      "typicalWait": "20–35 minutes midday.",
+      "faqs": [],
+      "relatedSlugs": ["the-riddlers-revenge", "viper"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-riddlers-revenge",
+      "name": "The Riddler's Revenge",
+      "land": "dc-universe",
+      "type": "roller-coaster",
+      "opened": 1998,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3, "darkness": 1, "drops": 3, "speed": 4, "loudness": 2, "startles": 1,
+        "notes": "Standing up through six inversions is a strange, exposed feeling — the restraint is a bicycle-style seat and a harness, and every loop is felt differently than seated. The fear is novelty rather than menace; the forces are B&M-smooth."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into stand-up trains; the boarding cycle includes adjusting the bicycle seat height, which takes longer than standard loading."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The world's tallest and fastest stand-up coaster — six inversions taken standing up, a category of ride that barely still exists.",
+      "description": [
+        "The Riddler's Revenge is a 156-foot B&M stand-up coaster and the last of its size anywhere: stand-up coasters stopped being built, and the survivors are aging monuments. Riding it means standing against a bicycle seat through a vertical loop, two dive loops, an inclined loop and corkscrews — inversions feel categorically different on your feet.",
+        "The technique matters: stand straight with the seat at the right height, and the ride is smooth; slouch or lean, and the restraints correct you at speed. First-timers should watch the load cycle once to see the posture.",
+        "As much artifact as attraction, it pairs with Batman as the DC Universe double — two 1990s B&Ms, one seated-suspended, one standing, showing a decade of ride design in a hundred yards."
+      ],
+      "tips": [
+        "Get the seat height right at boarding — adjusting mid-ride is impossible and the wrong height hurts.",
+        "Stand tall through the loops; leaning into the harness is how riders end up sore.",
+        "It loads slowly (seat adjustment per rider) — budget more queue time than Batman next door."
+      ],
+      "bestTime": "First hour of the day or after 17:00.",
+      "typicalWait": "25–40 minutes midday despite short line lengths — the load cycle is slow.",
+      "faqs": [],
+      "relatedSlugs": ["batman-the-ride", "viper"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ninja",
+      "name": "Ninja",
+      "land": "samurai-summit",
+      "type": "roller-coaster",
+      "opened": 1988,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2, "darkness": 1, "drops": 2, "speed": 2, "loudness": 1, "startles": 1,
+        "notes": "A suspended swinging coaster through real trees — the motion is gliding, not violent. The summit location adds height exposure in a couple of spots. This is the mountain's best coaster for the 42-to-48 crowd and nervous adults building tolerance."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into suspended swing trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1988 suspended coaster that swings through the summit's trees — the mountain's family coaster and its most beautiful ride.",
+      "description": [
+        "Ninja is an Arrow suspended coaster, one of the last running: trains hang from the track and swing outward on every curve, and the layout threads through actual trees on the mountainside below the summit. Opened in 1988, it is the gentlest way to see why this park's terrain matters.",
+        "The swings are the ride — no inversions, no launches, just pendulum turns through pine canopy with the valley appearing between branches. At 42 inches it is the summit's entry coaster and the single best ride at the park for the height bracket between Ninja's minimum and the 48-inch big tier.",
+        "For coaster historians it is a working museum piece; for eight-year-olds it is the best ride on the mountain. Both are correct."
+      ],
+      "tips": [
+        "The queue is one of the shadiest at the park — a good midday escape.",
+        "Ride after Tatsu and Superman on the summit loop; no backtracking.",
+        "Sit mid-train: the swing amplitude is pleasant there and aggressive at the ends."
+      ],
+      "bestTime": "Anytime — the queue rarely exceeds twenty minutes.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": ["tatsu", "goldrusher"],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "goldrusher",
+      "name": "Goldrusher",
+      "land": "six-flags-plaza",
+      "type": "roller-coaster",
+      "opened": 1971,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "The published minimum is low — verify the current figure on the park's own attraction page before promising a short rider.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1, "darkness": 1, "drops": 1, "speed": 1, "loudness": 1, "startles": 1,
+        "notes": "A 1971 mine train: small dips, mild speed, one short tunnel. The first roller coaster for many Southern California children across three generations."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "notes": "Transfer into mine-train style trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 1971 mine train that opened with the park — the mountain's first coaster and still its gentlest.",
+      "description": [
+        "Goldrusher predates everything else at Magic Mountain: it opened with the park on day one in May 1971, and its lift, tunnel and dip course have introduced children to roller coasters for over fifty years. It is small, slow and completely unbothered by any of the records its neighbors chase.",
+        "As a first coaster it is nearly perfect — a real lift hill, a real (small) drop, a dark tunnel and a brake run that arrives before anyone can get scared. Ride it for the history, or ride it with a four-year-old who will remember it forever."
+      ],
+      "tips": [
+        "Zero queue almost always — the perfect confidence-builder between big rides.",
+        "The tunnel mid-course is the 'scary' part for tiny riders; prepare them and they wear it like a badge.",
+        "Ride it early in the day as a warm-up, not as a substitute for the 48-inch tier with a tall-enough kid."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "0–10 minutes.",
+      "faqs": [],
+      "relatedSlugs": ["ninja", "twisted-colossus"],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

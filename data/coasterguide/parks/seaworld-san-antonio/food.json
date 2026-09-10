@@ -1,0 +1,62 @@
+{
+  "park": "seaworld-san-antonio",
+  "items": [
+    {
+      "id": "swsa-brisket-sandwich",
+      "name": "Brisket sandwich",
+      "restaurant": "Waterfront Bar and Grill",
+      "restaurantSlug": "shamu-bar",
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": [],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": false,
+      "portable": false,
+      "seasonal": false,
+      "description": "Sliced-brisket sandwich at the waterfront grill — Texas protein in the park's best-seated building.",
+      "verdict": "The best hot lunch at the park. Eat it indoors at the heat peak and call it strategy.",
+      "image": null
+    },
+    {
+      "id": "swsa-funnel-cake",
+      "name": "Funnel cake",
+      "restaurant": "Canyon Funnel Cake Cart",
+      "restaurantSlug": "canyon-snack-cart",
+      "land": "crackaxle-canyon",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": [],
+      "iconic": true,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Fresh funnel cake from the quarry-rim cart, eaten at the overlook.",
+      "verdict": "The view does half the work and the sugar does the rest. The park's correct dessert.",
+      "image": null
+    },
+    {
+      "id": "swsa-turkey-leg",
+      "name": "Turkey leg",
+      "restaurant": "Savory snack carts",
+      "restaurantSlug": null,
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": true,
+      "seasonal": false,
+      "description": "The smoked turkey leg, walked from cart to coaster queue.",
+      "verdict": "A theme-park rite with real utility: protein, portable, shareable. Split it or commit.",
+      "image": null
+    }
+  ]
+}

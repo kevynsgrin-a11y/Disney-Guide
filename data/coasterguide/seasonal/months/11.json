@@ -1,0 +1,98 @@
+{
+  "month": 11,
+  "name": "November",
+  "slug": "november",
+  "summary": "The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities.",
+  "verdict": {
+    "grade": "B+",
+    "short": "November at these parks: a good window with known trade-offs. The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities..",
+    "bestFor": [
+      "The first three weeks' quiet",
+      "Holiday-event openings"
+    ],
+    "worstFor": [
+      "Thanksgiving week",
+      "Northern parks' wind"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities.",
+    "peakWindows": [
+      "Thanksgiving week"
+    ],
+    "quietWindows": [
+      "The first two full weeks"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 73,
+      "lowF": 52,
+      "rainDays": 3,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 78,
+      "lowF": 56,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 68,
+      "lowF": 45,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 56,
+      "lowF": 37,
+      "rainDays": 8,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 49,
+      "lowF": 34,
+      "rainDays": 10,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The early-November window is a genuine shoulder season at the warm-climate parks — the year's quietest full-operation days outside September."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "Holiday events open across the month at several parks and the Thanksgiving-to-December bridge crowds build steadily toward the holiday peak."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

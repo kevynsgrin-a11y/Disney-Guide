@@ -1,0 +1,558 @@
+{
+  "park": "six-flags-over-texas",
+  "attractions": [
+    {
+      "slug": "new-texas-giant",
+      "name": "The New Texas Giant",
+      "land": "tower-section",
+      "type": "roller-coaster",
+      "opened": 2011,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "The 79-degree first drop is one of the steepest on any wood-structured coaster, and the airtime hills eject rather than float. The fear is physical — steep and fast — not thematic."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into hybrid-coaster trains with lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 2011 wooden-to-steel conversion that started the entire modern hybrid-coaster era — a 79-degree drop on a wooden structure with ejector airtime.",
+      "description": [
+        "The Texas Giant was a 1990 wooden coaster famous for its size. In 2011 Rocky Mountain Construction replaced its track with fabricated steel and rewrote the layout: steeper than wood allows, faster than the original, with airtime hills that throw rather than float. The conversion worked so well it spawned a decade of imitators — Twisted Colossus, Goliath at Great America, Iron Rattler in San Antonio — making this ride arguably the most influential single coaster of the century so far.",
+        "The New Texas Giant runs on the original wooden structure, which gives it the look of a woodie and the behavior of a steel coaster. The signature is the first drop: 79 degrees from 153 feet, taken in a lap-bar-only train.",
+        "For visitors building a Texas coaster trip, this and San Antonio's Iron Rattler are the two hybrid milestones of the same construction company, four hours apart. Riding both is the regional pilgrimage."
+      ],
+      "experience": [
+        "The lift climbs through the original Giant's structure, and the drop at the top is a wall — you steer down it rather than fall. The first airtime hill delivers ejector float that lap-bar-only trains make famous, and the middle section carves the quarry edge in banked turns that wood could never hold.",
+        "The back half is a series of pops and dives that never fully settle, ending in a helix that pulls hard into the brake run. It rides bigger than its statistics — the structure creaks like a woodie while the track performs like steel, and the dissonance is the experience.",
+        "Re-ride the back car. The airtime amplitude at the rear axle is the whole argument for the hybrid era, and this is where it started."
+      ],
+      "tips": [
+        "Back car for the airtime — the ejector hills are the ride's signature and strongest there.",
+        "Ride mid-morning; the queue builds by eleven and holds all afternoon.",
+        "Lap bars only: this is one of the best big coasters for riders who dislike shoulder harnesses."
+      ],
+      "bestTime": "The first two hours after open.",
+      "typicalWait": "30–60 minutes in season; under 20 on spring weekdays.",
+      "faqs": [
+        {
+          "q": "Is the New Texas Giant a wooden coaster?",
+          "a": "It is a hybrid: the original wooden structure carries new steel track. It looks wooden, sounds wooden, and rides like a modern steel coaster — that combination is exactly why its 2011 conversion started a movement."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "48 inches, with lap-bar restraints rather than shoulder harnesses — a good first big coaster for the 48-to-54 bracket."
+        },
+        {
+          "q": "How does it compare to Iron Rattler?",
+          "a": "Iron Rattler in San Antonio is the same construction company's next-generation work and rides the walls of a quarry — more dramatic setting, slightly smoother. The Giant is steeper and more airtime-focused. Enthusiasts ride both and argue politely."
+        }
+      ],
+      "relatedSlugs": [
+        "titan",
+        "mr-freeze-reverse-blast",
+        "shock-wave"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "titan",
+      "name": "Titan",
+      "land": "tower-section",
+      "type": "roller-coaster",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 3.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A 245-foot drop at 85 mph into a helix sequence that greys out the unwary. The combination of extreme speed and sustained positive g makes this one of the most physically demanding coasters at any Six Flags."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into traditional hypercoaster trains."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 245-foot Giovanola hypercoaster with the 120-degree overbanked turn and the spiralling finale that makes strong riders see grey.",
+      "description": [
+        "Titan is the biggest thing between the coasts at this chain: 245 feet tall, 85 miles per hour, and a course that spends its speed through enormous turns rather than hills. It is the sister design of Magic Mountain's Goliath with a Texas-scale layout bolted on.",
+        "The ride's reputation is its finale: a descending spiral sequence where the g-forces build and hold long enough that front-row riders regularly report brief grey-outs. That, plus the drop, makes Titan the most physically intense coaster in the park and one of the most intense anywhere in the chain.",
+        "At 48 inches it shares the family-threshold tier with the Giant despite being dramatically bigger — the height bar and the intensity bar are not the same thing, and parents should know which one their rider clears."
+      ],
+      "experience": [
+        "The lift takes a full minute and shows you Dallas–Fort Worth. The drop is a sustained roar — 245 feet at a steep pitch, no twists, just commitment. The speed carries into the overbanked turn, a near-inversion that leans you sideways over the structure without flipping.",
+        "The middle is speed management: enormous turns taken at full pace, each one banking harder than looks possible. Then the spiral finale — the track descends in tightening circles and the g comes on like a thumb pressing on your chest. It releases at the brake run all at once.",
+        "Hydrate, sit toward the back if you grey out easily (the front pulls hardest), and treat the first ride as reconnaissance. Titan is a coaster you learn."
+      ],
+      "tips": [
+        "Ride after 16:00 — shorter queue, cooler queue, and the g-tolerance is better hydrated.",
+        "Front row is where the grey-out happens; sit mid-train if that is not your idea of fun.",
+        "Do not ride Titan immediately after lunch. The helix finale is unforgiving."
+      ],
+      "bestTime": "First hour or after 16:00.",
+      "typicalWait": "40–70 minutes midday in season — the park's longest queue.",
+      "faqs": [
+        {
+          "q": "Does Titan really cause grey-outs?",
+          "a": "The sustained spiral finale pulls high positive g long enough that some riders — especially in the front row — experience brief peripheral vision loss. It passes in seconds. It is a known feature of the ride, and riders with cardiovascular concerns should skip it."
+        },
+        {
+          "q": "What is the height requirement for Titan?",
+          "a": "48 inches. That is the same bar as the New Texas Giant despite Titan being a much more intense ride — judge your rider on tolerance, not just height."
+        },
+        {
+          "q": "Titan or the New Texas Giant?",
+          "a": "Different jobs. Titan is raw speed and force; the Giant is airtime and craftsmanship. Most riders prefer the Giant overall and respect Titan more. Do both — they are a hundred yards apart."
+        }
+      ],
+      "relatedSlugs": [
+        "new-texas-giant",
+        "mr-freeze-reverse-blast"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "mr-freeze-reverse-blast",
+      "name": "Mr. Freeze: Reverse Blast",
+      "land": "gotham-city",
+      "type": "roller-coaster",
+      "opened": 1998,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 2,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "The launch pins you to the seatback in a way first-timers do not expect, and the vertical spike at the top stalls the train facing the sky. Riding backwards through the top hat is a controlled fall. The indoor queue's theming builds the tension deliberately."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into shuttle-loop trains. The indoor queue is themed and dim — ask ride hosts for the skip-route if needed."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The twin-track launched shuttle that fires you up a 218-foot vertical spike and back through the course backwards — the park's most violent thirty seconds.",
+      "description": [
+        "Mr. Freeze opened in 1998 as the park's flagship launch coaster: linear-motor catapult to 70 miles per hour, up a 218-foot vertical tower where the train balances, then the whole course again in reverse. The 'Reverse Blast' conversion flipped the trains to launch backwards, which is how it runs today.",
+        "The dual stations load two trains alternately, so the queue moves twice as fast as it looks. The theming — an icy industrial vault — is the most complete dark-queue theming at the park.",
+        "At 54 inches it is the park's big-kid launch. For riders who want intensity compressed into ninety seconds, this is the tightest package in Texas."
+      ],
+      "tips": [
+        "Launch happens fast — head back against the rest before the countdown ends.",
+        "The backwards top hat is the moment; eyes open, you will want to have seen it.",
+        "Both sides of the dual station run the same ride; take whichever queue is shorter."
+      ],
+      "bestTime": "Rope drop or late evening.",
+      "typicalWait": "20–40 minutes; dual stations keep it honest.",
+      "faqs": [],
+      "relatedSlugs": [
+        "new-texas-giant",
+        "titan"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "shock-wave",
+      "name": "Shock Wave",
+      "land": "boomtown",
+      "type": "roller-coaster",
+      "opened": 1978,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "Two consecutive vertical loops at 1978 speed — smooth for its era but with old-coaster abruptness. The loops surprise riders who expect a museum piece and get a real thrill ride."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into classic Schwarzkopf trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1978 Schwarzkopf double-loop classic — the first coaster with back-to-back vertical loops, still running them at 42 inches.",
+      "description": [
+        "Shock Wave is the park's resident monument: when it opened in 1978, its two consecutive vertical loops were a world first, and the ride is often credited as the machine that launched the modern coaster wars. Nearly fifty years later, both loops still deliver, and the 42-inch minimum makes it one of the lowest height bars for a genuine multi-looping coaster anywhere.",
+        "The ride is short and quick — drop, loop, loop, done — in classic Schwarzkopf style, meaning the transitions are direct and the g-forces honest. It is a working museum that still functions as a thrill ride, which is the best kind of museum.",
+        "For the 42-to-48 crowd, Shock Wave is the park's best coaster, full stop. For everyone else it is a two-minute history lesson with inversions."
+      ],
+      "tips": [
+        "The morning lull makes multi-rides trivial — loop it while the crowds are at Titan.",
+        "Ride front for the loop visibility; the classic trains have no headrests, so hold your head steady.",
+        "The mid-course block brakes hit hard on older cycles — lean forward slightly through the second loop approach."
+      ],
+      "bestTime": "Mornings and the midday shade hour.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "runaway-mine-train",
+        "judge-roy-scream"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "runaway-mine-train",
+      "name": "Runaway Mine Train",
+      "land": "spain",
+      "type": "roller-coaster",
+      "opened": 1966,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low minimum with adult supervision provisions — verify the current figure on the park's own page before promising a small rider.",
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Gentle dips and one dark tunnel. This is a first-coaster template — the ride countless Texas kids learned on."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into mine-train trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 1966 Arrow mine train — one of the oldest continuously operating roller coasters in America and the park's original family coaster.",
+      "description": [
+        "Runaway Mine Train opened in 1966, making it one of the oldest coasters still running in the United States and the founding example of the mine-train genre that every regional park copied through the seventies. The lift, the dips and the tunnel through the Spain section's Caddo Lake setting are all original character.",
+        "It is small, slow and historically load-bearing. Ride it with kids, or ride it as an enthusiast paying respects — both experiences are correct and neither requires more than a few minutes of queue."
+      ],
+      "tips": [
+        "The tunnel is the thrill for tiny riders — prime them and they exit taller.",
+        "The Spain setting is the park's best scenery; ride for the views as much as the history.",
+        "The queue's shade makes this the classic midday ride — it was literally built for a Texas afternoon."
+      ],
+      "bestTime": "Anytime; the queue rarely builds.",
+      "typicalWait": "0–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "judge-roy-scream",
+        "shock-wave"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "judge-roy-scream",
+      "name": "Judge Roy Scream",
+      "land": "spain",
+      "type": "roller-coaster",
+      "opened": 1980,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low classic-woodie minimum — verify the current figure on the park's own page.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A classic out-and-back wooden coaster: rattly, cheerful, and famous among woodie fans for its lakeside first drop. Nothing here frightens anyone over eight."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into classic wooden-coaster trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 1980 lakeside wooden coaster — a proper out-and-back woodie whose first drop dives along the water and whose rattle is honest.",
+      "description": [
+        "Judge Roy Scream is the park's classic wooden coaster, built in 1980 across the lagoon from the Spain section. It is a traditional out-and-back: lift, drop along the lakefront, airtime hills, turnaround, repeat. The woodie community holds it in genuine affection as a well-kept traditionalist ride.",
+        "In a park full of record-chasers, the Judge is the counter-programming — a ride whose ambition stopped in 1980 and whose charm depends on that. It is also the gentlest true woodie most kids will ever get to call their first."
+      ],
+      "tips": [
+        "Back seat for the airtime hills — classic woodies always perform best there.",
+        "Pair with the mine train for a Spain-section classics hour in the midday shade.",
+        "The lagoon-side drop reads best from the back seat; the front gets the view but the back gets the float."
+      ],
+      "bestTime": "Midday shade hour.",
+      "typicalWait": "5–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "runaway-mine-train",
+        "shock-wave"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "la-vibora",
+      "name": "La Vibora",
+      "land": "spain",
+      "type": "roller-coaster",
+      "opened": 1986,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A bobsled coaster without fixed track — the trains roll freely through the trough, so the forces vary with speed. Unusual rather than scary."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into bobsled-style cars."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The bobsled coaster — free-rolling cars in a smooth trough instead of fixed track, an increasingly rare ride type.",
+      "description": [
+        "La Vibora ('the viper' in Spanish, fitting the Spain section) is an Intamin bobsled coaster: the cars are uncaptured, rolling through a half-pipe trough the way a bobsled runs ice. No two rides are identical because the line the car takes depends on its speed and load.",
+        "Bobsled coasters are a dying type — fewer than a dozen operate worldwide — and this 1986 installation is the park's quiet rarity. It is family-tier intensity with a novelty that enthusiasts cross the park for."
+      ],
+      "tips": [
+        "Single riders get wilder rides — lighter cars swing higher in the trough.",
+        "The uniqueness is the reason; ride it before the genre disappears entirely.",
+        "The final helix is the fastest section — the trough's banking does the steering, so relax and let it."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "runaway-mine-train",
+        "judge-roy-scream"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "texas-skyscreamer",
+      "name": "Texas SkyScreamer",
+      "land": "entrance-plaza",
+      "type": "spinner",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 1,
+        "startles": 2,
+        "notes": "Height is the entire experience: a 400-foot swing with your feet dangling and the ground a very long way down. The fear is acrophobia, pure and specific. Anyone comfortable with heights finds it calm."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into swing seats with over-the-shoulder harnesses."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 400-foot star swing — the tallest ride at the park and the best view of Dallas–Fort Worth available with your feet dangling.",
+      "description": [
+        "Texas SkyScreamer is the chain's giant swing model at the Arlington scale: a 400-foot tower, a carousel of swings, and a top speed that swings riders in a circle the width of a city block. It is one of the tallest swings at any American park.",
+        "The function is dual — thrill ride and observation deck. On clear days the sightline reaches downtown Fort Worth and downtown Dallas simultaneously, which no other ride in the region offers. Coaster enthusiasts treat it as a palate cleanser; height-averse riders treat it as the park's one hard pass."
+      ],
+      "tips": [
+        "Ride at golden hour — the view is the product, and the Texas light delivers.",
+        "The swing amplitude builds gradually; nobody is flung, everyone is lifted.",
+        "Skip on windy days when the cycle runs shortened."
+      ],
+      "bestTime": "Golden hour.",
+      "typicalWait": "15–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "titan",
+        "new-texas-giant"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

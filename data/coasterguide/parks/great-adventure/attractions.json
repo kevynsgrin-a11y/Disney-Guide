@@ -1,0 +1,622 @@
+{
+  "park": "great-adventure",
+  "attractions": [
+    {
+      "slug": "el-toro",
+      "name": "El Toro",
+      "land": "plaza-del-carnaval",
+      "type": "roller-coaster",
+      "opened": 2006,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 2,
+        "notes": "The 76-degree first drop is one of the steepest on any wooden coaster, and the airtime hills eject hard enough that riders rise against the lap bar repeatedly. The ride is short and violent in the specific way woodie enthusiasts mean as a compliment. Anyone expecting a gentle classic woodie should recalibrate before boarding."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into Intamin-style trains with lap-bar restraints. The restraint is a tight lap bar; use the test seat near the entrance if the rider is at either size extreme."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "One of the best wooden coasters on earth — a 76-degree drop and the most violent ejector airtime of any woodie built in this century.",
+      "description": [
+        "El Toro opened in 2006 on the footprint of the park's old Roar woodie and immediately redefined what a wooden coaster could be. Built with Intamin's prefabricated track — engineered beams rather than hand-stacked lumber — it runs glass-smooth where traditional woodies rattle, and its layout spends that smoothness on aggression: a 181-foot, 76-degree first drop and a sequence of hills designed to throw the rider out of the seat.",
+        "For most of the two decades since, El Toro has lived in the world's top ten in the major enthusiast polls, frequently top three. Its reputation among people who count coasters is that of a modern classic — the woodie that behaves like a steel ride and hits harder than either.",
+        "It is the reason to plan a Great Adventure day. Everything else at the park is a supporting act, and the rope-drop math reflects it."
+      ],
+      "experience": [
+        "The lift is fast — Intamin's cable haul, not a chain — so the top arrives before the nerves do. The drop is a wall: 76 degrees means you look at the ground, not the horizon. The train accelerates through the bottom and up into the first airtime hill, and that is where El Toro introduces itself: the lap bar catches you as the seat drops away.",
+        "The middle section is a figure-eight of banked turns at speed, each transition crisp because the prefabricated track allows precision wood cannot. Then the rolling hills — the series of ejector pops that make the ride famous, each one lifting, catching, lifting again.",
+        "The brake run arrives at seventy seconds and every rider has the same look. Re-ride immediately if the queue allows; El Toro is a ride you understand better the second time, and best of all at night."
+      ],
+      "tips": [
+        "Rope-drop it and re-ride before the queue matures — the first hour is the whole day's leverage.",
+        "Back car for maximum ejector; front car for the drop view. Both are correct answers.",
+        "Keep the lap bar where the ride hosts set it — riding it lower does not prevent airtime, it just bruises.",
+        "The final hour of operation is the second golden window; the woodie after dark is the park's best experience."
+      ],
+      "bestTime": "First hour after open, and the last hour before close.",
+      "typicalWait": "45–90 minutes midday in season; 10–20 at rope drop.",
+      "faqs": [
+        {
+          "q": "Is El Toro really one of the best wooden coasters in the world?",
+          "a": "By the enthusiast polls that track such things, yes — it has ranked in the world's top handful for most of the time since 2006. The steeps and the ejector airtime are the case, and the prefabricated track keeps it smooth enough to enjoy them."
+        },
+        {
+          "q": "What is the height requirement for El Toro?",
+          "a": "48 inches, with a lap-bar-only restraint. The intensity is well above what the height bar implies — a first-timer at exactly 48 inches is in for a serious ride."
+        },
+        {
+          "q": "Is El Toro rough?",
+          "a": "No — that is the point of its construction. The prefabricated beams make it the smoothest big woodie most riders have ever been on. It is violent in forces, not in rattles."
+        }
+      ],
+      "relatedSlugs": [
+        "nitro",
+        "batman-the-ride",
+        "jersey-devil-coaster"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "nitro",
+      "name": "Nitro",
+      "land": "lakefront",
+      "type": "roller-coaster",
+      "opened": 2001,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "The 215-foot first drop toward the lake is the scariest single moment at the park, and the airtime hills that follow are the floater type — long and weightless rather than violent. The hamlet-themed helix at the end pulls sustained g. Fear here is the drop; the rest is joy."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": true,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into B&M hypercoaster trains with lap-bar restraints — among the most accommodative big-coaster restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 215-foot B&M hypercoaster along the lakefront — giant floater airtime, a 65-degree drop, and the park's best steel riding.",
+      "description": [
+        "Nitro is Great Adventure's giant: a B&M hypercoaster with a 215-foot lift, a drop toward the lake at speed, and a course of enormous airtime hills and a helix finale through the trees. It is the ride style that made B&M's reputation — huge, smooth, and generous with weightlessness.",
+        "The restraint is a lap bar, the trains are roomy, and the pacing alternates between soaring hills and high-speed turns. Nitro is the coaster at this park most likely to convert a cautious rider: nothing inverts, the forces are comfortable, and the airtime is the friendly floating kind.",
+        "Against El Toro's violence, Nitro is the elegance counterweight — the two together, a hundred yards of walking apart, are among the best one-two punches at any American park."
+      ],
+      "experience": [
+        "The lift climbs over the lakefront with the park behind you. The drop is long and steep with the water in view, and the speed carries into a rising turn that sets up the airtime sequence — hill after hill where the train floats, the restraint doing no work at all.",
+        "The S-curve and the hammerhead turns spend the speed gracefully, and the final helix through the treeline pulls a solid positive-g finish into the brakes. Three minutes of riding, which at this scale is luxurious.",
+        "Front row for the vista drop, back row for the yank over every crest. Nitro rewards both and punishes neither."
+      ],
+      "tips": [
+        "Queue in the morning's second hour — after El Toro, before the midday swell.",
+        "The lap-bar-only restraint makes this the park's best big coaster for larger riders.",
+        "Ride before a meal, not after — the helix finale is the park's longest sustained force."
+      ],
+      "bestTime": "Mid-morning; the queue builds slowly and peaks mid-afternoon.",
+      "typicalWait": "30–60 minutes in season.",
+      "faqs": [
+        {
+          "q": "Is Nitro or El Toro better?",
+          "a": "Different pleasures. El Toro is the enthusiast's pick — violent, precise, famous. Nitro is the broader crowd's favorite — huge and comfortable with friendly airtime. Riding both in one morning is the correct answer."
+        },
+        {
+          "q": "What is the height requirement for Nitro?",
+          "a": "54 inches, the standard minimum for B&M hypers at this chain. The ride itself is intense-but-gentle by looper standards — the bar is policy, not a judgment of the forces."
+        },
+        {
+          "q": "Does Nitro have inversions?",
+          "a": "None — it is a pure out-and-back hyper: drop, airtime hills, banked turns and a helix. That is the format's whole appeal and the reason it converts cautious riders who avoid loopers."
+        }
+      ],
+      "relatedSlugs": [
+        "el-toro",
+        "superman-ultimate-flight",
+        "batman-the-ride"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "kingda-ka",
+      "name": "Kingda Ka",
+      "land": "main-street",
+      "type": "roller-coaster",
+      "opened": 2005,
+      "status": "closed",
+      "closedNote": "Closed permanently after the 2024 season and since removed. Kingda Ka was the tallest roller coaster in the world for its entire operating life — 456 feet, launched to 128 mph — and its retirement, announced with the 2024 season's end, was among the most significant ride closures in the industry's modern history. Listed here as closed rather than deleted because visitors still plan around it; any resource describing it as operating is out of date.",
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 5,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 5,
+        "startles": 3,
+        "notes": "Recorded for reference: the launch to 128 mph in three seconds and the 90-degree spiral climb were among the most extreme forces ever offered to the public."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical record; the ride no longer operates."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "Closed after 2024 — the 456-foot, 128 mph stratacoaster that was the tallest in the world for its entire twenty-year life.",
+      "description": [
+        "Kingda Ka opened in 2005 as the tallest and fastest roller coaster in the world and held the height record for its entire life. The experience was 50 seconds long: a hydraulic launch to 128 miles per hour, a 90-degree climb to 456 feet, a descent spiraling 270 degrees, and brakes.",
+        "It closed permanently with the 2024 season, alongside Zumanjaro: Drop of Doom, the drop ride built on its tower. The closure ended the stratacoaster era in America and remains the reference point for 'even the biggest rides are not permanent.'",
+        "The entry stays on this site because the search demand is real and the misinformation is common: guides and videos still list it as operating. If a 2026 trip plan includes Kingda Ka, the plan is wrong."
+      ],
+      "tips": [
+        "Do not plan around it — the ride is gone and the site is being redeveloped.",
+        "El Toro and Nitro are the park's present; start there.",
+        "The park's newer rides on the redeveloped site are the story now — check the current attraction list for what replaced the stratacoaster era."
+      ],
+      "bestTime": null,
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "el-toro",
+        "nitro"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "zumanjaro-drop-of-doom",
+      "name": "Zumanjaro: Drop of Doom",
+      "land": "main-street",
+      "type": "roller-coaster",
+      "opened": 2014,
+      "status": "closed",
+      "closedNote": "Closed permanently after the 2024 season with Kingda Ka, whose tower it shared. At 415 feet it was among the tallest drop rides in the world. Removed with the tower; any guide listing it as operating is out of date.",
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 5,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 4,
+        "notes": "Historical record: the slow climb to 415 feet with the valley visible, the held pause, and the freefall were pure exposure thrills."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical record; the ride no longer operates."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "Closed after 2024 — the 415-foot drop ride on the Kingda Ka tower, retired alongside it.",
+      "description": [
+        "Zumanjaro climbed the Kingda Ka tower to 415 feet, held riders at the top facing the New Jersey pine barrens, and dropped them in freefall. It shared the stratacoaster's fate: both closed permanently after the 2024 season as the park redeveloped the site.",
+        "The entry persists for the same reason Kingda Ka's does — searches and stale guides still reference it. The park's current drop-tower and thrill lineup lives elsewhere."
+      ],
+      "tips": [
+        "Do not plan around it.",
+        "Check the park's current attraction list for the active drop ride inventory.",
+        "Height-phobic readers take note: this entry exists for accuracy, not temptation — the park's current lineup offers plenty without it."
+      ],
+      "bestTime": null,
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "kingda-ka",
+        "el-toro"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "batman-the-ride",
+      "name": "Batman: The Ride",
+      "land": "lakefront",
+      "type": "roller-coaster",
+      "opened": 1993,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "The first-generation B&M invert formula: five inversions in ninety seconds, tight and forceful. Riders sensitive to quick direction changes find it more disorienting than the big hypers."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The Northeast's Batman invert — the 1993 B&M suspended looper, still one of the most forceful compact coasters anywhere.",
+      "description": [
+        "Great Adventure's Batman opened in 1993, early in the invert era, and it remains the archetype: a vertical loop, a zero-g roll, corkscrews and two tight helixes packed into a compact footprint at relentless pace. Thirty years of bigger coasters have not dulled it.",
+        "It slots between El Toro and Nitro geographically and tonally — the middle movement of the park's big-coaster symphony. At 54 inches it shares the top height tier; the forces are higher than the friendly giants on either side of it."
+      ],
+      "tips": [
+        "Front row for the invert flight feel; back for the whip.",
+        "The themed queue is shaded — a reasonable midday stop when the open queues are punishing.",
+        "The queue's theming commits harder than the ride's footprint suggests — the dark section is short but real."
+      ],
+      "bestTime": "Mid-morning between El Toro and Nitro.",
+      "typicalWait": "20–40 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "nitro",
+        "superman-ultimate-flight"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "superman-ultimate-flight",
+      "name": "Superman: Ultimate Flight",
+      "land": "lakefront",
+      "type": "roller-coaster",
+      "opened": 2003,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "The prone flying position is the fear vector — lying face-down with the ground rushing past. The pretzel loop is the force moment. Riders who dislike prone restraint positions should note the full harness."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into flying-position trains; the load cycle includes the rotation from boarding to prone."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The flying coaster that lays you face-down through a pretzel loop — the park's prone-position thrill between the giants.",
+      "description": [
+        "Superman: Ultimate Flight is a B&M flying coaster: board seated, rotate to lie face-down after the lift, and fly the course a few feet over the track. The signature pretzel loop folds the train through a vertical loop in the flying position — the highest-force moment at the park outside El Toro's airtime.",
+        "The park's version shares its layout lineage with the chain's other Superman flyers. For first-time riders the disorientation is positional rather than violent: everything reads differently face-down, and the second ride is dramatically better than the first."
+      ],
+      "tips": [
+        "Look ahead along the track, not straight down — the perspective is the ride.",
+        "The harness clamps calves and shoulders; glasses need a strap.",
+        "Ride before the midday queue builds; its load cycle is slow."
+      ],
+      "bestTime": "Afternoon lull.",
+      "typicalWait": "25–45 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "batman-the-ride",
+        "nitro"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jersey-devil-coaster",
+      "name": "Jersey Devil Coaster",
+      "land": "plaza-del-carnaval",
+      "type": "roller-coaster",
+      "opened": 2021,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "A single-rail coaster: one rider per car, straddling the rail, with nothing beside or above you. The exposure is the thrill — the layout's inversions and close calls feel unmediated."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into straddle-style single-rider cars."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The single-rail coaster — one rider per car on an I-beam track, solo through inversions with nothing around you.",
+      "description": [
+        "Jersey Devil is a Rocky Mountain Construction single-rail coaster: riders straddle the rail in individual cars, and the layout — a steep drop, inversions, and low-slung swoops — is experienced alone. The 2021 opening made it the park's first new major coaster in years and the region's first of the type.",
+        "The single-rail format is the appeal: no car sides, no companion, no visual anchor except the track ahead. Enthusiasts rank it among the best of the RMC light-tier rides, and the queue is shorter than El Toro's by half on most days."
+      ],
+      "tips": [
+        "Ride early afternoon when El Toro's overflow crowd is elsewhere.",
+        "Solo means solo — brief your teens before they ride alone if that is new for them.",
+        "The stall inversion is the signature; hold the harness loose and enjoy the hang."
+      ],
+      "bestTime": "Early afternoon.",
+      "typicalWait": "25–45 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "el-toro",
+        "nitro"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-dark-knight-coaster",
+      "name": "The Dark Knight Coaster",
+      "land": "movietown",
+      "type": "roller-coaster",
+      "opened": 2008,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 5,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 4,
+        "startles": 4,
+        "notes": "Total darkness, sudden turns, and loud jump-scare effects on a wild-mouse chassis. This is the park's highest startle-density ride — small drops, big surprises. Young riders who handle outdoor coasters can find the dark unpredictability harder."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into wild-mouse style cars; the load area is dim — ask hosts for assistance."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The indoor wild-mouse in the dark — sharp unannounced turns, Gotham theming, and the park's best bad-weather ride.",
+      "description": [
+        "The Dark Knight is an indoor wild-mouse coaster themed to the Batman film of the same name: tight hairpin turns taken in total darkness, with themed effects and sound between the drops. The genre is family-thrill, but the darkness upgrades it — the turns arrive unannounced and the lateral forces are genuine.",
+        "Practically it is the park's heat refuge and rain ride: indoors, air-moving, with a queue that rarely exceeds thirty minutes. On a July afternoon it is the right answer for the whole family at 48 inches and up."
+      ],
+      "tips": [
+        "Ride at the heat peak — it is the park's best midday coaster for weather reasons.",
+        "First-timers: expect turns, not drops. The genre surprise is half the fun.",
+        "Sit center; the mouse cars' rear axle whips hardest."
+      ],
+      "bestTime": "Midday heat or rain.",
+      "typicalWait": "15–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "batman-the-ride",
+        "skull-mountain"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "skull-mountain",
+      "name": "Skull Mountain",
+      "land": "movietown",
+      "type": "roller-coaster",
+      "opened": 1996,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low minimum — verify the current figure on the park's own page before promising a small rider.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 3,
+        "darkness": 5,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A dark indoor coaster with a themed exterior mountain and a genuine surprise drop. The darkness and the enclosed roar make it read scarier than its statistics."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into enclosed-coaster trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The indoor mountain coaster — dark drops and a themed facade hiding a better-than-it-looks family thrill.",
+      "description": [
+        "Skull Mountain is the park's indoor mountain: a themed exterior with a dark coaster inside, built in 1996. The drops are modest and the theming is retro, but the combination of darkness and sound gives it a following among locals as a first big-kid coaster.",
+        "It rides as a warm-up or a weather fallback. Pair it with the Dark Knight across the section for the indoor double on hot or wet days."
+      ],
+      "tips": [
+        "The mid-ride drop is the moment — taller riders should brace.",
+        "Combine with the Dark Knight for the Movietown indoor hour.",
+        "The exterior mountain photo op is genuinely good — the facade hides its age better than most 1990s structures."
+      ],
+      "bestTime": "Anytime; the queue rarely builds.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dark-knight-coaster"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

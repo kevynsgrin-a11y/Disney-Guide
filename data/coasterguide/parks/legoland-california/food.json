@@ -1,0 +1,62 @@
+{
+  "park": "legoland-california",
+  "items": [
+    {
+      "id": "lgca-apple-fries",
+      "name": "Granny's Apple Fries",
+      "restaurant": "Granny's Apple Fries",
+      "restaurantSlug": "grannys-apple-fries",
+      "land": "castle-hill",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["vegetarian"],
+      "iconic": true,
+      "mustTry": 5,
+      "shareable": true,
+      "portable": true,
+      "seasonal": false,
+      "description": "Warm apple pieces in a crispy fried shell, cinnamon sugar, vanilla cream dip — the park's signature snack for two decades.",
+      "verdict": "The single item most worth its queue at Legoland. Order one, split it, understand the ritual.",
+      "image": null
+    },
+    {
+      "id": "lgca-carved-turkey-plate",
+      "name": "Carved turkey plate",
+      "restaurant": "Fun Town Market Fresh",
+      "restaurantSlug": "fun-town-market-fresh",
+      "land": "fun-town",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Carved turkey with sides from the market cafeteria — the real-meal anchor of an in-park lunch.",
+      "verdict": "Honest cafeteria food that beats the pizza line on quality and the burger line on speed. The parents' pick.",
+      "image": null
+    },
+    {
+      "id": "lgca-kids-build-a-meal",
+      "name": "Kids' build-a-meal",
+      "restaurant": "Fun Town Market Fresh",
+      "restaurantSlug": "fun-town-market-fresh",
+      "land": "fun-town",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["allergy-friendly-menu"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": false,
+      "seasonal": false,
+      "description": "The cafeteria's configurable kids' meal — main, sides and a drink chosen by the child, with allergy-safe substitutions.",
+      "verdict": "The picky-eater solution. Letting the six-year-old assemble the plate is half the calories saved.",
+      "image": null
+    }
+  ]
+}

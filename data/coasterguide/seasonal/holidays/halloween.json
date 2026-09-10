@@ -1,0 +1,115 @@
+{
+  "slug": "halloween",
+  "season": "halloween",
+  "title": "Halloween at Ten Coaster Parks: Every Event Compared",
+  "titleTail": ": Haunts, Dates & Prices",
+  "h1": "Halloween at every park on this site: nine events, one honest ranking of what each is for",
+  "description": "Every Halloween event at the ten parks this site covers — Knott's Scary Farm, three Howl-O-Screams, four Fright Fests and Legoland's Brick-or-Treat — compared by intensity, cost and audience.",
+  "summary": "Halloween at these ten parks is nine different products for four different audiences: two hard-ticket haunt tiers, four included overlays, and one deliberate anti-haunt for young families. This is the map.",
+  "typicalWindow": "Mid-September through Halloween night, parks running weekends-first calendars",
+  "sections": [
+    {
+      "heading": "The three tiers of scare",
+      "body": [
+        "The hard-ticket haunts — Knott's Scary Farm and the three Howl-O-Screams — are produced evening events with haunted houses, scare actors and coasters after dark, sold as separate tickets. The included overlays — the four Six Flags Fright Fests — are atmosphere layered on a normal ride day, free with admission. And the deliberate counterweight — Legoland's Brick-or-Treat — is Halloween with the fear removed, for the under-tens.",
+        "Choosing between tiers is choosing the evening's product, not its quality: a haunt fan's best night is a family's worst, and this site ranks them within their purpose rather than across it."
+      ]
+    },
+    {
+      "heading": "The intensity ladder, plainly",
+      "body": [
+        "For scare tolerance, the honest order from most to least intense: Knott's Scary Farm first — the genre's founder and still its benchmark — then the Howl-O-Screams at Orlando, San Antonio and San Diego in a tight band, then the Fright Fests as a clear step down in production and intensity, and Brick-or-Treat last with none at all.",
+        "Age guidance follows the same ladder: the hard-ticket events recommend against young guests in their own materials, Fright Fest evenings are PG-13 with roaming actors, and Brick-or-Treat is built precisely for the kids every other line excludes."
+      ]
+    },
+    {
+      "heading": "The planning calendar",
+      "body": [
+        "Everything opens in the last ten days of September and runs weekends through Halloween. The crowd physics are uniform across all nine: opening-weekend and weeknight dates run calm, the last two Saturdays before Halloween run at the year's peak, and the best dates sell out first at every hard-ticket event.",
+        "Buy haunt tickets early and buy the calm nights; show up to Fright Fests whenever because they are included; and take the young family to Brick-or-Treat on whichever weekend fits, because its crowds are the gentlest of the season."
+      ]
+    }
+  ],
+  "byResort": {
+    "southern-california": {
+      "verdict": "The deepest Halloween region on this site: the flagship haunt, a strong SeaWorld haunt, the biggest Fright Fest and the family event, all within two hours.",
+      "events": [
+        "knotts-scary-farm",
+        "howl-o-scream-san-diego",
+        "fright-fest-magic-mountain",
+        "brick-or-treat-legoland-california"
+      ],
+      "note": "Knott's Scary Farm is the region's — arguably the country's — anchor event; Brick-or-Treat covers the young-family case the same weekends."
+    },
+    "texas": {
+      "verdict": "Two solid options: the Arlington Fright Fest on day admission and San Antonio's Howl-O-Scream as the produced night event.",
+      "events": [
+        "fright-fest-over-texas",
+        "howl-o-scream-san-antonio"
+      ],
+      "note": "The Texas haunts pair naturally with the fall weather window — October is the civilised month to be outdoors in both markets."
+    },
+    "orlando": {
+      "verdict": "Howl-O-Scream is the value play in the Halloween capital — the same produced-haunt ambition as the resort events, usually cheaper, with better coasters running after dark.",
+      "events": [
+        "howl-o-scream-orlando"
+      ],
+      "note": "Orlando's Halloween season is a three-way contest with the Disney and Universal events; the SeaWorld haunt is the coaster fan's pick of the three."
+    },
+    "new-jersey": {
+      "verdict": "One event, and a big one: Great Adventure's Fright Fest Saturdays are the Northeast's biggest fall theme-park nights.",
+      "events": [
+        "fright-fest-great-adventure"
+      ],
+      "note": "The peak Saturdays here are among the year's biggest crowds at any park on this site — the line-skip guide's haunt-season advice applies doubled."
+    },
+    "chicago": {
+      "verdict": "Great America's Fright Fest is the region's default Halloween park night, with the lake wind as its signature special effect.",
+      "events": [
+        "fright-fest-great-america"
+      ],
+      "note": "The October weekends here have the best atmosphere-to-crowd ratio of the four Fright Fests — the park's seasonal calendar is the region's most complete."
+    }
+  },
+  "crossLinks": [
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    },
+    {
+      "label": "Line-skip passes: haunt-season pricing",
+      "href": "/guides/line-skip-passes/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "knotts-scary-farm",
+    "howl-o-scream-orlando"
+  ],
+  "faqs": [
+    {
+      "q": "Which Halloween event is the best on this site?",
+      "a": "Knott's Scary Farm, for haunt fans — it is the oldest big haunt in the country and still the benchmark for maze count and atmosphere. For value, the weeknight Howl-O-Scream tickets usually undercut the resort-park events while keeping the produced-haunt ambition."
+    },
+    {
+      "q": "Which is best for young kids?",
+      "a": "Brick-or-Treat at Legoland California, unconditionally — it is the only event on this site with zero scare content. The Fright Fest daytime hours are the second answer: the overlays do not fully staff until dusk."
+    },
+    {
+      "q": "Are the haunts worth the separate tickets?",
+      "a": "The hard-ticket events deliver a categorically different product from the included overlays — real haunted houses and produced nights against decorated ride days. If scares are the goal, yes; if riding is the goal, a Fright Fest weekend or any weekday serves better."
+    },
+    {
+      "q": "When do the events announce their dates?",
+      "a": "Typically late August into early September, with Knott's usually earliest. This site carries every event as a pattern with a confidence label until the parks publish the current cycle's dates."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Event structure, windows and audience descriptions are multi-year patterns across the nine events; no 2026 dates, lineups or prices have been verified by this site as of 2026-07. Each event's own page carries its specific confidence and source note.",
+    "reviewBy": "2026-11",
+    "cycle": "annual"
+  }
+}

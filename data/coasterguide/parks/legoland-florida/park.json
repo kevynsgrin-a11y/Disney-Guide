@@ -1,0 +1,185 @@
+{
+  "slug": "legoland-florida",
+  "name": "LEGOLAND Florida",
+  "shortName": "Legoland FL",
+  "idPrefix": "lgfl",
+  "resort": "orlando",
+  "resortName": "Orlando",
+  "opened": "2011-10-15",
+  "sizeAcres": 145,
+  "location": "Winter Haven, Florida",
+  "coordinates": { "lat": 27.9885, "lng": -81.6903 },
+  "tagline": "The brick-built park on the old Cypress Gardens — a dragon's castle, historic botanical gardens, and Florida's friendliest height ladder.",
+  "summary": "LEGOLAND Florida in Winter Haven is the larger sister of the California park, built on the historic Cypress Gardens site — the same first-coasters formula with better landscaping and Florida weather.",
+  "intro": [
+    "Legoland Florida opened in 2011 on the site of Cypress Gardens, Florida's oldest theme park, and the bones of the 1936 gardens survive inside it: the historic banyans, the botanical walks, and the water-ski show tradition. It is the largest Legoland park and the target audience is identical to California's — families with children roughly three to ten.",
+    "The ride core mirrors the formula: the Dragon as the castle graduation coaster, Coastersaurus for the family woodie lap, Miniland USA as the craft centerpiece, and the driving schools as the participatory differentiator. Florida's version runs bigger — more land, more water (the attached water park is more substantial here), and the peerless flat-winter weather.",
+    "Logistics are the decision: Winter Haven is 45 minutes to an hour from the Orlando tourist district and closer to Tampa's orbit. The park rewards a dedicated day rather than a Disney-trip afterthought, and the on-site hotels make it a two-day resort experience for the target family."
+  ],
+  "bestFor": ["Families with children 3–10", "First coasters", "Garden-appreciating adults", "Winter visits"],
+  "notIdealFor": ["Thrill-seekers over 12", "Visitors without a car", "Adult groups without kids"],
+  "stats": {
+    "attractionCount": 6,
+    "ridesWithHeightRequirements": 0,
+    "tallestRequirement": null,
+    "typicalFullDayHours": "7–9 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "the-beginning",
+      "name": "The Beginning",
+      "order": 1,
+      "opened": 2011,
+      "summary": "The entrance zone — the giant giraffe, guest services, and the orientation model.",
+      "description": [
+        "The Beginning is the front door: the brick giraffe, the Big Shop, guest services and stroller rental. It is deliberately calm, keeping the energy past the gate.",
+        "The same budgeting conversation applies as at every Legoland — set the souvenir number before entry, because the exit route runs through the shop."
+      ],
+      "vibe": "Calm brick-built welcome; the park at its most photographed.",
+      "anchorAttraction": "the-dragon",
+      "highlights": ["The giant giraffe", "The park orientation model", "Guest services and rentals"],
+      "eatHere": [],
+      "tips": ["Set the souvenir budget here, not at close.", "Grab the show schedule — the ski show and the theater pace the day."]
+    },
+    {
+      "slug": "legoland-city",
+      "name": "LEGO City",
+      "order": 2,
+      "summary": "The working-town section — driving schools, boat school, and the fire academy where kids do the work.",
+      "description": [
+        "LEGO City is the participatory heart: the driving school with its earned license, the boat school, the fire academy. Florida's versions are the biggest of any Legoland, and the section eats afternoons happily.",
+        "The driving school sign-up is the day's first fixed appointment — the bands fill by midday on busy days."
+      ],
+      "vibe": "Kid-run city: small drivers with enormous pride.",
+      "anchorAttraction": "driving-school",
+      "highlights": ["Driving school and the license", "Boating school on the real lake", "Fire academy races"],
+      "eatHere": [],
+      "tips": ["Driving school in the first two hours, non-negotiable.", "The license upcharge is worth it — decide before the counter."]
+    },
+    {
+      "slug": "castle-hill",
+      "name": "Castle Hill",
+      "order": 3,
+      "summary": "The medieval section and the Dragon — the dark-ride-into-coaster signature and the park's longest family queue.",
+      "description": [
+        "Castle Hill holds the castle and the Dragon, Florida's version of the signature graduation ride: dark ride through the castle interior, then the small outdoor coaster around the grounds. Same formula, same rite of passage.",
+        "The section's medieval theming is the park's most enveloping, and the coaster queue is the one that matters at rope drop."
+      ],
+      "vibe": "Kid-scale castle country with a dragon in the basement.",
+      "anchorAttraction": "the-dragon",
+      "highlights": ["The Dragon's dark-ride-to-coaster segue", "The castle exterior", "Medieval playgrounds"],
+      "eatHere": [],
+      "tips": ["The Dragon at open, before the stroller wave arrives.", "Announce the coaster transition to nervous first-timers."]
+    },
+    {
+      "slug": "cypress-gardens",
+      "name": "Cypress Gardens",
+      "order": 4,
+      "summary": "The restored 1936 botanical gardens — the historic soul of the site and the best landscaping at any park on this site.",
+      "description": [
+        "The Cypress Gardens section preserves the original 1936 botanical gardens: the banyan court, the southern belles' garden paths, and the lakefront gazebo that made the site famous as Florida's first theme park. Restored as part of the Legoland build, it is genuinely beautiful and genuinely historic.",
+        "For adults this is the park's justification; for overheated families it is the best shade on the property. The water-ski show on the lake continues the site's 80-year tradition in modern form.",
+        "Walk it slowly. It is the rare theme-park land that predates the theme park by 75 years."
+      ],
+      "vibe": "Old Florida gardens — banyans, azaleas, and lake breeze. The calmest, prettiest land on this site.",
+      "anchorAttraction": "miniland-usa",
+      "highlights": ["The 1936 banyans and botanical walks", "The lakefront ski show tradition", "The best shade in the park"],
+      "eatHere": [],
+      "tips": ["The midday heat hour belongs here — shade, benches, and gardens.", "The ski show times are posted at the lake; plan one viewing."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Legoland Florida is a young-family park with the same rope-drop logic as California: the Dragon first, the driving-school sign-up second, Miniland and the gardens in the heat hours.",
+      "The distance question is the planning core: 45–60 minutes from Orlando's parks means it competes for a day of a Disney trip badly and works as its own dedicated day well."
+    ],
+    "beforeYouGo": [
+      { "title": "It is not in Orlando", "body": "Winter Haven is 45–60 minutes southwest of the tourist district, closer to Tampa. A dedicated day with a car is the honest plan; squeezing it between Magic Kingdom days exhausts everyone." },
+      { "title": "The gardens are the adult product", "body": "The Cypress Gardens section is a restored 1936 botanical landmark. Give it a slow hour even on a ride-focused day — it is the best landscaping at any park on this site." },
+      { "title": "Ages over heights, again", "body": "Restrictions are age-and-supervension based; this site states no Legoland heights on purpose. The park's own ride pages carry the current bands." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "The Dragon in Castle Hill at its shortest." },
+      { "time": "First hour", "body": "Coastersaurus, then the driving-school sign-up." },
+      { "time": "Mid-morning", "body": "Miniland while the ride queues absorb the crowd." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Lunch, then the Cypress Gardens shade hour and the ski show." },
+      { "time": "Early afternoon", "body": "LEGO City's participatory tier — boats, fire academy." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Re-rides as the day-trippers drain; Miniland again." },
+      { "time": "Close", "body": "The gardens in the last light are the goodbye." }
+    ],
+    "rookieMistakes": [
+      "Trying to do Legoland as a half-day add-on to an Orlando trip — the drive eats the half-day.",
+      "Missing the Cypress Gardens section as 'just landscaping.' It is the site's soul.",
+      "Skipping the driving-school sign-up until the bands are full.",
+      "Underestimating Florida afternoon storms in summer — the indoor rides and shows are the 3pm plan."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "The Dragon at rope drop.",
+      "Coastersaurus before its queue builds.",
+      "Driving school in the morning window.",
+      "Miniland for a full hour.",
+      "Cypress Gardens shade hour and the ski show.",
+      "Fire academy and boat school after.",
+      "The Dragon again at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is flat, paved and stroller-scaled, with the gardens' paths fully accessible. Distances are short by regional-park standards.",
+      "Merlin operates a ride-access scheme for guests who cannot queue conventionally; confirm the current registration process on the park's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "The Beginning", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "The Beginning", "priceNote": "Limited quantity", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "The Beginning", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["The Beginning", "Fun Town area"],
+    "quietSpaces": [
+      { "name": "Cypress Gardens benches", "where": "Botanical section", "note": "Historic gardens, mature shade, and the quietest acre at any park on this site." },
+      { "name": "First aid", "where": "The Beginning", "note": "Calm and staffed; sensory-break friendly." }
+    ],
+    "serviceAnimalRelief": ["Designated areas near The Beginning — confirm at guest services"],
+    "sensoryNotes": [
+      "Low-sensory by design — no launch coasters, modest sound levels.",
+      "Summer afternoon thunderstorms bring sudden loud weather; the indoor rides and theater are the retreat.",
+      "The ski show is amplified music and announcements."
+    ],
+    "mobilityNotes": [
+      "Flat and compact; the gardens' paths are paved and bench-lined.",
+      "Most rides require transfer; playgrounds are ground-level inclusive.",
+      "The water park is adjacent with separate admission and its own access provisions."
+    ],
+    "visionHearingNotes": [
+      "Ride spiels are audio with visual backup; model displays reward close vision.",
+      "Assistive resources via guest services, subject to availability."
+    ]
+  },
+  "tips": [
+    { "title": "Winter is the sweet spot", "body": "Florida's November-through-April window turns the park into an all-day pleasure. Summer visits need the storm plan: indoor rides and shows from 3pm." },
+    { "title": "The water park is bigger here", "body": "Florida's attached water park is a genuine half-day with a wave pool and the family slide tower. The combined ticket makes sense for a two-day resort visit, not a one-day dash." },
+    { "title": "The ski show is the site's memory", "body": "Cypress Gardens invented the water-ski show in the 1940s; the modern version on the same lake is the continuation. Watch it once for the history." },
+    { "title": "Stay on site if the trip is Legoland-first", "body": "The Legoland Hotel and the pirate-themed property do the full immersion. For a Legoland-centered trip it converts a park day into the vacation; for an Orlando-centered trip it is out of position." },
+    { "title": "Apple fries exist here too", "body": "The signature snack has a Florida outpost. The ritual transfers intact." }
+  ],
+  "faqs": [
+    { "q": "What ages is Legoland Florida best for?", "a": "Three to ten, sweet spot five to eight, identical to the California park. Florida's version is larger with more water-park substance, but the audience is the same." },
+    { "q": "What are the height requirements at Legoland Florida?", "a": "Low to none, and mostly age-and-supervision based rather than height-stick based. This site states no Legoland height figures on purpose — the park's own ride pages carry the current bands, and third-party numbers go stale." },
+    { "q": "How far is Legoland Florida from Disney World?", "a": "45–60 minutes by car from the Orlando tourist district, depending on which park you start from. It is a dedicated-day trip, not a hop. Tampa is closer at about 40 minutes." },
+    { "q": "Can you do Legoland Florida in one day?", "a": "Yes — the park covers comfortably in a day at family pace. Add the water park and it becomes a day and a half, which is what the resort hotels are for." },
+    { "q": "Does Legoland Florida have a line-skip pass?", "a": "No meaningful equivalent of the big parks' products. The building queues — the Dragon, the driving school — are managed by morning timing. This site's line-skip guide gives the explicit answer." },
+    { "q": "What is Cypress Gardens?", "a": "Florida's first theme park, opened 1936 — botanical gardens and famous water-ski shows. Legoland was built on the site in 2011 and preserves the restored gardens and the ski-show tradition inside the park." }
+  ],
+  "gettingThere": {
+    "parking": "Surface lots at the front of the park; the walk to the gate is under ten minutes.",
+    "transportation": [
+      "By car: Winter Haven, off US-27 or the Polk Parkway. 45–60 minutes from the Orlando district, 40 from Tampa.",
+      "A shuttle from the Orlando area runs on select schedules — verify current operation before relying on it.",
+      "Rideshare works but the return trip from Winter Haven needs patience at close."
+    ],
+    "entranceNote": "Security at The Beginning. The Dragon walk from the gate is short — spend the rope-drop minutes beating its queue, not the walk."
+  },
+  "lastVerified": "2026-07"
+}

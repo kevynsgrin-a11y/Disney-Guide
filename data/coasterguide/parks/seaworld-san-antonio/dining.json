@@ -1,0 +1,71 @@
+{
+  "park": "seaworld-san-antonio",
+  "dining": [
+    {
+      "slug": "shamu-bar",
+      "name": "Waterfront Bar and Grill",
+      "land": "the-waterfront",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The waterfront grill — the park's most substantial lunch with lake-side seating and real air conditioning.",
+      "description": [
+        "The waterfront grill anchors the lake-side food row with the park's most substantial counter menu: grilled plates, sandwiches, and the shaded-and-cooled seating that Texas afternoons make precious.",
+        "The location beside the stadium makes it the natural pre- or post-show stop."
+      ],
+      "signatureItems": ["Grilled chicken plate", "Brisket sandwich", "Burgers"],
+      "goodFor": ["families", "air-conditioned-break", "big-appetites"],
+      "tips": ["Claim the indoor tables at the heat peak.", "Time lunch against the presentation schedule — the pre-show window is calm."],
+      "verdict": "The best lunch at the park in the only building that matters in July. Order the plate, sit inside, rehydrate.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "canyon-snack-cart",
+      "name": "Canyon Funnel Cake Cart",
+      "land": "crackaxle-canyon",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Low-to-mid teens with toppings",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The funnel cake cart at the quarry rim — fried sugar with the park's best view.",
+      "description": [
+        "The canyon cart serves the classic funnel cake a stone's throw from the rim views into the quarry — the only food stop at the park where the seating is a limestone overlook.",
+        "The cart's queue peaks at close, per tradition."
+      ],
+      "signatureItems": ["Funnel cake with strawberries", "Powdered sugar funnel cake"],
+      "goodFor": ["late-night", "families", "view"],
+      "tips": ["Take it to the rim viewpoint — the eat-with-a-view move.", "Beat the close rush by twenty minutes."],
+      "verdict": "Funnel cake plus a quarry view is the correct Texas theme-park dessert configuration.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

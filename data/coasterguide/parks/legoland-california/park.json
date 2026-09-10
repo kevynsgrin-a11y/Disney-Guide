@@ -1,0 +1,185 @@
+{
+  "slug": "legoland-california",
+  "name": "LEGOLAND California",
+  "shortName": "Legoland CA",
+  "idPrefix": "lgca",
+  "resort": "southern-california",
+  "resortName": "Southern California",
+  "opened": "1999-03-20",
+  "sizeAcres": 128,
+  "location": "Carlsbad, California",
+  "coordinates": { "lat": 33.1264, "lng": -117.3113 },
+  "tagline": "The brick-built first-coaster park — Miniland, a dragon's castle, and the friendliest height ladder in Southern California.",
+  "summary": "LEGOLAND California in Carlsbad is a first-coasters park for roughly ages three to ten: gentle themed rides, Miniland's brick cities, and the Dragon, the castle coaster that graduates kids to the bigger parks down the freeway.",
+  "intro": [
+    "Legoland California opened in 1999 as the first Legoland outside Europe and the third anywhere, and it knows exactly who it is for: families with children between about three and ten. The rides are themed to LEGO lines, the landscaping is genuinely good, and the height ladder is the friendliest in the region — most of the park is rideable by a confident four-year-old.",
+    "The two rides that matter beyond the demographic are the Dragon, the castle dark-ride-into-coaster hybrid that is the park's rite of passage, and Coastersaurus, the dinosaur-themed family woodie. Neither will register for an enthusiast, and both are perfect at what they are — the first real coasters a child rides and remembers.",
+    "Miniland USA is the quiet masterpiece: miniature American cities built from millions of bricks, detailed enough to reward an adult hour, with the sort of craft that turns a 'kids park' visit into a genuine morning. The adjacent SEA LIFE aquarium and the seasonal water park are separate admissions, and the resort's hotel — with its in-room treasure hunts — is part of the product for the target family."
+  ],
+  "bestFor": ["Families with children 3–10", "First coasters", "LEGO-obsessed kids", "Grandparent-paced visits"],
+  "notIdealFor": ["Thrill-seekers over 12", "Adult groups without kids", "Anyone expecting regional-park rides"],
+  "stats": {
+    "attractionCount": 7,
+    "ridesWithHeightRequirements": 0,
+    "tallestRequirement": null,
+    "typicalFullDayHours": "7–9 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "the-beginning",
+      "name": "The Beginning",
+      "order": 1,
+      "opened": 1999,
+      "summary": "The entrance zone — the giant giraffe, the first shops, and the park's brick-built welcome.",
+      "description": [
+        "The Beginning is Legoland's front door: the nine-foot brick giraffe, the Big Shop, and the entry plaza where every visit starts with a photo. It is deliberately calm — the park's design philosophy keeps the excitement past the gate.",
+        "Guest services, stroller rental and the model of the park itself live here. It is also the exit through the Big Shop, which is the park's most effective funnel and a budgeting conversation worth having before entry, not after."
+      ],
+      "vibe": "Bright, calm, brick-built welcome — the park at its most photogenic.",
+      "anchorAttraction": "miniland-usa",
+      "highlights": ["The giant brick giraffe", "The entry plaza photo spot", "The Big Shop (budget accordingly)"],
+      "eatHere": [],
+      "tips": ["Set the souvenir budget at The Beginning, not at exit time.", "The park model near guest services is the best orientation tool."]
+    },
+    {
+      "slug": "castle-hill",
+      "name": "Castle Hill",
+      "order": 2,
+      "summary": "The knights-and-castles section, home to the Dragon — the coaster-and-dark-ride hybrid that is the park's signature.",
+      "description": [
+        "Castle Hill is the park's medieval heart, built around the castle that houses the Dragon: a dark ride through the castle's interior that becomes a roller coaster outside it. It is the ride kids remember and the one that graduates them toward bigger parks.",
+        "The section holds the medieval playgrounds and the jousting-themed flats. For the target family it is the park's centerpiece hour; for everyone else it is the one section with a ride that registers."
+      ],
+      "vibe": "Kid-scale medieval castle country with a dragon in the basement.",
+      "anchorAttraction": "the-dragon",
+      "highlights": ["The Dragon's dark-ride-into-coaster sequence", "The castle exterior — the park's best structure", "Medieval playgrounds"],
+      "eatHere": [],
+      "tips": ["The Dragon first at open — it is the park's longest family queue by ten.", "The dark-ride first half is the charm; prepare nervous kids that it becomes a coaster."]
+    },
+    {
+      "slug": "miniland-usa",
+      "name": "Miniland USA",
+      "order": 3,
+      "summary": "The miniature brick cities — millions of pieces, working trains, and the park's actual masterpiece.",
+      "description": [
+        "Miniland is the reason adults enjoy Legoland: miniature recreations of American cities and scenes built from millions of bricks, with working trains, traffic and boats. The detail density rewards slow looking — tiny jokes, micro-scenes, and scale gags that reward the patient.",
+        "It sits at the park's center and doubles as the walking spine between sections. Visit it in the morning light and again at dusk when the cities light up; it is genuinely a two-pass experience."
+      ],
+      "vibe": "A quiet, craft-dense garden of tiny cities — the park's soul and its best hour.",
+      "anchorAttraction": "miniland-usa",
+      "highlights": ["Working miniature trains and traffic", "The city skylines in brick", "Light-up evenings"],
+      "eatHere": [],
+      "tips": ["Give it a full hour, not a walk-through.", "Return after dark — the lit cities are a different exhibit."]
+    },
+    {
+      "slug": "fun-town",
+      "name": "Fun Town",
+      "order": 4,
+      "summary": "The town square section — driving schools, the fire academy, and the rides where kids do the work.",
+      "description": [
+        "Fun Town holds the park's participatory core: the driving school where kids earn their first license, the fire academy's pump-and-race attraction, and the boat school. These are the rides that differentiate a Legoland from a standard family park — the children operate them.",
+      "It is also the food-and-show heart, with the park's main theater and its best quick-service cluster. For the target age it is the section that eats the afternoon.",
+        "The driving school queue is the section's bottleneck; the morning slot is the move, and the license at the end is a souvenir that outlives every brick set."
+      ],
+      "vibe": "Kid-run town: small drivers, small firefighters, enormous pride.",
+      "anchorAttraction": "driving-school",
+      "highlights": ["The driving school and its license", "The fire academy race", "The park's main theater"],
+      "eatHere": ["fun-town-market-fresh"],
+      "tips": ["Driving school in the first two hours — the queue doubles by noon.", "The license costs extra and is worth it; decide before the kid sees the counter."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Legoland is a young-family park with a short rope-drop window: the Dragon, the driving schools and the playgrounds fill first, and the park is small enough that a good morning covers everything once.",
+      "The height ladder barely exists here — most rides accommodate small riders with adults, which is the whole point. The planning question is stamina, not restrictions: naps, shade, and the midday theater show are the real schedule."
+    ],
+    "beforeYouGo": [
+      { "title": "Ages matter more than heights", "body": "Legoland's restrictions are mostly age-and-supervision based rather than height-stick based, and several experiences (the driving school notably) are age-banded. Check the park's own ride pages for the specific bands rather than trusting any third-party summary." },
+      { "title": "The second gate question", "body": "The SEA LIFE aquarium and the water park are separate admissions. The combined ticket is worth it only for a full resort day; the theme park alone fills a family day comfortably." },
+      { "title": "No line-skip worth buying", "body": "The park sells no meaningful skip product, and the queues that build (Dragon, driving school) are manageable with a morning plan. See this site's line-skip guide for the honest nothing-to-buy answer." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "The Dragon in Castle Hill — the park's longest family queue at its shortest." },
+      { "time": "First hour", "body": "Coastersaurus, then the driving school sign-up before the bands fill." },
+      { "time": "Mid-morning", "body": "Miniland while the ride queues absorb the arriving crowd." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Lunch in Fun Town, then the theater show during the heat peak." },
+      { "time": "Early afternoon", "body": "Fire academy, boat school, the participatory tier." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Re-rides and Miniland again as the crowds drain." },
+      { "time": "Close", "body": "The lit Miniland cities are the goodbye." }
+    ],
+    "rookieMistakes": [
+      "Treating it as a thrill park and being disappointed — the target rider is eight.",
+      "Missing Miniland as 'just displays.' It is the park's masterpiece.",
+      "Skipping the driving school sign-up until afternoon, when the bands are full.",
+      "Buying the combined water-park ticket for a day that never reaches the second gate."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "The Dragon at rope drop.",
+      "Coastersaurus before its queue builds.",
+      "Driving school in the morning window.",
+      "Miniland for a full hour.",
+      "Theater show at the heat peak.",
+      "Fire academy and the participatory rides after.",
+      "Miniland lit at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Legoland is compact, flat and stroller-shaped by design — the easiest navigation of any park on this site. The resort's accessibility program covers ride access and the model garden, and the park publishes a dedicated access guide that changes seasonally.",
+      "Merlin operates a ride-access scheme for guests who cannot queue conventionally; confirm the current registration process on the park's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "The Beginning, near guest services", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "The Beginning, near guest services", "priceNote": "Limited quantity", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "The Beginning", "priceNote": "Single and double — and genuinely needed", "lastVerified": "2026-07" },
+    "companionRestrooms": ["The Beginning", "Fun Town"],
+    "quietSpaces": [
+      { "name": "Miniland benches", "where": "Central Miniland", "note": "Quiet, shaded pockets among the miniature cities — the park's calmest seating." },
+      { "name": "First aid", "where": "The Beginning", "note": "Calm and staffed; sensory-break friendly." }
+    ],
+    "serviceAnimalRelief": ["Designated areas near The Beginning — confirm at guest services"],
+    "sensoryNotes": [
+      "The park is genuinely low-sensory by theme-park standards — no launch coasters, minimal loud effects.",
+      "The theater shows run amplified sound; the back rows are the calm zone.",
+      "The Dragon's coaster half is outdoors and brief; the dark-ride half is gentle."
+    ],
+    "mobilityNotes": [
+      "Flat, compact and fully paved — the best wheels terrain on this site.",
+      "Most rides require transfer; several playgrounds are ground-level inclusive.",
+      "The park loop is short; bench density is high."
+    ],
+    "visionHearingNotes": [
+      "Model displays reward close vision; ride spiels are audio with visual backup.",
+      "Assistive resources via guest services, subject to availability."
+    ]
+  },
+  "tips": [
+    { "title": "The age window is real", "body": "Families with a nine or ten-year-old get the full value; families whose oldest is thirteen should expect a short day. The park is honest about who it is for — plan accordingly." },
+    { "title": "The hotel is part of the ride", "body": "The on-site Legoland Hotel does the theme in-room — treasure hunts, brick build stations, themed floors. For a first big trip it converts a park day into a memory, at a price." },
+    { "title": "Carlsbad weather is the park's ally", "body": "The coastal location keeps the park ten degrees cooler than inland SoCal in summer. It is the region's most comfortable hot-day park." },
+    { "title": "Bring the minifigure trade", "body": "Staff and many guests trade minifigures — bring spares from home. It is the park's social currency and kids learn it in minutes." },
+    { "title": "Weekday mornings off-season are empty", "body": "School-year Tuesdays and Wednesdays run near-walk-on across the park. The calendar has frequent midweek closures in the slow season — check before committing." }
+  ],
+  "faqs": [
+    { "q": "What ages is Legoland California best for?", "a": "Roughly three to ten, with the sweet spot around five to eight. The rides, playgrounds and driving schools are scaled to that band. Older kids ride the Dragon and Coastersaurus once and are done; under-threes have a genuine area but the park's value starts at the potty-trained-and-counting stage." },
+    { "q": "What are the height requirements at Legoland?", "a": "Low to none across most of the park, and often supervision-based rather than stick-measured — this site intentionally states no height figures for Legoland parks because the park's own pages carry the age-and-supervision bands, and third-party numbers go stale. Check the park's ride pages directly before your visit." },
+    { "q": "Is Legoland worth it without kids?", "a": "For Miniland, genuinely yes — an hour or two among the miniature cities rewards adult craft-appreciation. As a ride park, no: nothing here targets a thrill-seeker, and the honest visit is a morning with coffee in Miniland." },
+    { "q": "How long do you need at Legoland California?", "a": "One full day covers the theme park at family pace. Add a second day only if combining with the water park and SEA LIFE, or if the hotel stay makes the resort the destination rather than the park." },
+    { "q": "Does Legoland have a line-skip pass?", "a": "No meaningful equivalent of the big parks' products. The queues that build — the Dragon, the driving school — are managed by timing instead. This site's line-skip guide gives Legoland the explicit honest answer." },
+    { "q": "Can you do Legoland and SeaWorld San Diego in one day?", "a": "Ambitious but possible in the car-first direction: Legoland at open for four hours, then 40 minutes down the coast to SeaWorld for the afternoon coasters and shows. With young kids, split it across two days — the one-day version exhausts everyone." }
+  ],
+  "gettingThere": {
+    "parking": "Surface lots off The Crossings Drive; the walk to the gate runs five to ten minutes.",
+    "transportation": [
+      "By car: off the I-5 at Cannon Road in Carlsbad, 35 minutes north of San Diego and 90 from downtown LA without traffic.",
+      "By rail: the Coaster and Amtrak Pacific Surfliner stop at Carlsbad Village, a 10-minute rideshare from the park — the rare transit-adjacent park on this site.",
+      "By rideshare: well-served with a dedicated drop-off."
+    ],
+    "entranceNote": "Security screening sits at The Beginning. The Dragon walk from the gate is under ten minutes — spend the rope-drop minutes getting ahead of its queue."
+  },
+  "lastVerified": "2026-07"
+}

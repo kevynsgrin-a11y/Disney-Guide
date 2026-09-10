@@ -1,0 +1,38 @@
+{
+  "resort": "southern-california",
+  "slug": "southern-california",
+  "title": "Southern California Closures and Construction",
+  "titleTail": ": What We Can Support, 2026-07",
+  "h1": "Southern California closures: what this site can actually support",
+  "description": "The closure tracker for Magic Mountain, Knott's, Legoland California and SeaWorld San Diego — only what we can support, honestly framed.",
+  "intro": [
+    "This tracker lists only closures this site can support with confidence. Where nothing qualifies, it says so and stays empty — an honest empty tracker beats a confidently wrong one, and every park here has a current attraction list on its own site that outranks any third-party summary.",
+    "Items land here when a closure is confirmed and load-bearing for planning; they leave when the ride reopens or is removed. The verification month on each item says when it was last checked."
+  ],
+  "items": [
+    {
+      "name": "Montezooma's Revenge",
+      "parkSlug": "knotts-berry-farm",
+      "attractionSlug": "montezoomas-revenge",
+      "status": "indefinite",
+      "since": "2023-02",
+      "reopening": "as part of the Fiesta Village redevelopment",
+      "reopeningConfidence": "expected",
+      "note": "The 1978 flywheel-loop shuttle closed amid Fiesta Village's reimagining, and its return timeline has extended repeatedly. The park has indicated the ride is expected back; treat that as intention rather than schedule, and check the park's attraction list before promising anyone a ride."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Structure and policy of the tracker; the items carry their own verification months.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

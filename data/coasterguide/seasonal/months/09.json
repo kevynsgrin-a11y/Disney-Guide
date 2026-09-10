@@ -1,0 +1,108 @@
+{
+  "month": 9,
+  "name": "September",
+  "slug": "september",
+  "summary": "The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month.",
+  "verdict": {
+    "grade": "A",
+    "short": "September at these parks: one of the year's best windows. The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month..",
+    "bestFor": [
+      "Weekday ride days at their calmest",
+      "Haunt opening nights"
+    ],
+    "worstFor": [
+      "Weekend crowd levels once haunts start",
+      "Reduced weekday hours at some parks"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month.",
+    "peakWindows": [
+      "The last weekend as the Halloween events open"
+    ],
+    "quietWindows": [
+      "The first three weeks' weekdays — the year's calmest full-operation days"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 84,
+      "lowF": 63,
+      "rainDays": 1,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 90,
+      "lowF": 73,
+      "rainDays": 12,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 90,
+      "lowF": 68,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 78,
+      "lowF": 57,
+      "rainDays": 7,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 76,
+      "lowF": 55,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [
+    "fright-fest-magic-mountain",
+    "fright-fest-over-texas",
+    "fright-fest-great-adventure",
+    "fright-fest-great-america",
+    "knotts-scary-farm",
+    "howl-o-scream-san-diego",
+    "howl-o-scream-san-antonio",
+    "howl-o-scream-orlando",
+    "brick-or-treat-legoland-california"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The September weekday is this site's single best product: summer operation, school-year crowds, and weather that has stopped trying to kill you at the Texas parks."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "The Halloween events open across the last ten days of the month and the weekends transform — the same park is two different products across one September Saturday."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

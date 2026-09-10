@@ -1,0 +1,689 @@
+{
+  "park": "knotts-berry-farm",
+  "attractions": [
+    {
+      "slug": "ghostrider",
+      "name": "GhostRider",
+      "land": "ghost-town",
+      "type": "roller-coaster",
+      "opened": 1998,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 4,
+        "loudness": 4,
+        "startles": 1,
+        "notes": "A 108-foot first drop in total darkness (the drop exits the station-mountain indoors), then a long, roaring wooden course. The ride is physical rather than frightening — airtime and laterals with the structure roaring underneath."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into wooden-coaster trains with individual lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The West's signature wooden coaster — a dark 108-foot first drop out of the Ghost Town mountain into the longest woodie course in California.",
+      "description": [
+        "GhostRider opened in 1998 as the capstone of Ghost Town's revival and ran famously rough for its first eighteen years; the 2016 rebuild by Great Coasters International replaced the track and returned the ride to its intended form. The result is the park's signature and one of the best wooden coasters on the West Coast.",
+        "The opening is the famous part: the lift and first drop happen inside the mine-themed mountain in darkness, and the train erupts into daylight over Ghost Town already at speed. The course that follows is 4,533 feet of hills, laterals and a double-down finale through the structure's lowest reaches.",
+        "It is the ride that defines the park's sound — the roar carries through Ghost Town all day. At night, with the town lit, it is the best single experience in Buena Park."
+      ],
+      "experience": [
+        "The station sits inside the mountain: dark, cool, themed as the mine's boarding house. The lift climbs in darkness and the first drop falls in it — a full profile of airtime and banking experienced blind, daylight arriving as the train crests the second hill over the rooftops.",
+        "The middle course plays the structure: camelback hills with real float, a heavily banked turnaround behind the buildings, and sections where the track passes close enough to the Ghost Town roofs that riders look into the windows at speed.",
+        "The finale is the double-down into the low structures and the brake run. Two minutes and thirty-three seconds, which for a woodie is a marathon. Re-ride at night."
+      ],
+      "tips": [
+        "Rope-drop it; the queue is the park's longest by a wide margin and grows all morning.",
+        "Save the second ride for the last hour — GhostRider after dark is the park's signature moment.",
+        "The 2016 track rides smooth; the structure still roars. Both facts are the appeal."
+      ],
+      "bestTime": "Rope drop, and the final hour.",
+      "typicalWait": "45–90 minutes midday in season; 10–20 at open.",
+      "faqs": [
+        {
+          "q": "Is GhostRider rough?",
+          "a": "Not anymore. The 2016 rebuild replaced the track, and the ride now runs smooth while keeping the wooden-coaster character. Pre-2016 stories of jackhammering are history."
+        },
+        {
+          "q": "What is the height requirement for GhostRider?",
+          "a": "48 inches, with individual lap-bar restraints. It is the big-kid threshold ride at Knott's — the one a freshly-measured 48-incher graduates onto."
+        },
+        {
+          "q": "Why is the first drop dark?",
+          "a": "The station and first drop sit inside the mine-themed mountain at the edge of Ghost Town. The train exits into daylight over the town — one of the best opening sequences on any wooden coaster."
+        }
+      ],
+      "relatedSlugs": [
+        "hangtime",
+        "xcelerator",
+        "calico-mine-ride"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "hangtime",
+      "name": "HangTime",
+      "land": "the-boardwalk",
+      "type": "roller-coaster",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "The 96-degree beyond-vertical first drop holds the train at the crest for a beat before releasing — a genuine freefall feeling. Five inversions follow on a compact layout. The hold at the top is the fear moment."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into infinity-coaster trains with lap-bar and shin restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "California's only infinity coaster — a 96-degree beyond-vertical drop that hangs you over the crest before dropping into five inversions.",
+      "description": [
+        "HangTime is a Gerstlauer infinity coaster, the type known for its beyond-vertical first drops, and its 96-degree opening remains among the steepest in the country. The train crests the lift, tips past vertical, and pauses — a deliberate hold that makes the drop a genuine freefall beat — before releasing into a compact, inversion-heavy layout over the Boardwalk.",
+        "The ride is the park's most modern thrills-per-foot: five inversions including a zero-g stall, all visible from the midway and photogenic in the way the Boardwalk demands.",
+        "It shares the 48-inch tier with GhostRider and Xcelerator, forming a trio that makes Knott's genuinely strong for the 48-to-54 crowd — no ride in the park's headliner tier demands more than 48."
+      ],
+      "experience": [
+        "The lift climbs the Boardwalk's skyline. At the crest the train tips forward past vertical — 96 degrees, past straight-down — and holds. The release is a fall, not a drop, and the layout below spends it immediately on a dive loop.",
+        "The middle runs the inversion sequence: zero-g roll, corkscrews, the stall where the track banks and hangs. The compact footprint means elements arrive without recovery time between them.",
+        "The brake run arrives at ninety-odd seconds. Ride the middle rows first, then the front for the drop's full exposure — the hold at the crest is worth the second lap."
+      ],
+      "tips": [
+        "Front row for the crest hold — the pause before the drop is the signature and reads best from the lead car.",
+        "Ride after Xcelerator in the morning Boardwalk window; their queues grow together.",
+        "The inversion count is high for the ride's length — motion-sensitive riders take note."
+      ],
+      "bestTime": "The morning Boardwalk window.",
+      "typicalWait": "30–60 minutes in season.",
+      "faqs": [
+        {
+          "q": "What does 'beyond vertical' mean?",
+          "a": "The first drop angles at 96 degrees — six degrees past straight-down. The train briefly tips forward past vertical at the crest, which creates the ride's signature held freefall moment before the drop releases."
+        },
+        {
+          "q": "What is the height requirement for HangTime?",
+          "a": "48 inches. Knott's headliner trio (GhostRider, Xcelerator, HangTime) all sit at 48 — unusually generous for rides this intense, and the reason the park works so well for the 48-to-54 bracket."
+        },
+        {
+          "q": "Where does HangTime rank at Knott's?",
+          "a": "Top three with GhostRider and Xcelerator. It is the park's most modern ride and its most photogenic — the beyond-vertical crest is visible from the Boardwalk midway. Riders who rank coasters by intensity put it second behind Xcelerator's launch."
+        }
+      ],
+      "relatedSlugs": [
+        "xcelerator",
+        "ghostrider",
+        "silver-bullet"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "xcelerator",
+      "name": "Xcelerator The Ride",
+      "land": "the-boardwalk",
+      "type": "roller-coaster",
+      "opened": 2002,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 1,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "0 to 82 mph in 2.3 seconds — the launch is the ride and it is ferocious. The 205-foot top hat's ascent and drop follow immediately. Riders who dislike launches should skip; everyone else gets the park's purest adrenaline minute."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into launched trains with lap-bar and shin restraints."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1950s-themed launch coaster — 0 to 82 mph in 2.3 seconds into a 205-foot top hat, the park's fastest minute.",
+      "description": [
+        "Xcelerator is the Boardwalk's hot-rod: an Intamin accelerator coaster themed to 1950s dragsters, launching to 82 miles per hour in 2.3 seconds up a 205-foot twisting top hat and down into two airtime hills. When it opened in 2002 it was among the fastest launches anywhere, and the launch still out-accelerates nearly everything on the West Coast.",
+        "The cycle is a minute and the launch is most of it. The chrome-and-fins station theming commits fully to the bit, and the ride's footprint is small enough that the whole park hears every launch.",
+        "At 48 inches it completes the headliner trio. For launch-coaster fans it is the park's must-ride; for anyone else it is the fastest sixty seconds in Buena Park."
+      ],
+      "tips": [
+        "Ride first in the Boardwalk order — its queue grows fastest of the three.",
+        "Front row for the launch; the acceleration reads best where nothing is ahead of you.",
+        "The over-the-shoulder straps are minimal; glasses wearers need a strap."
+      ],
+      "bestTime": "First thing in the Boardwalk window.",
+      "typicalWait": "25–50 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "hangtime",
+        "ghostrider"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "silver-bullet",
+      "name": "Silver Bullet",
+      "land": "the-boardwalk",
+      "type": "roller-coaster",
+      "opened": 2004,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on Knott's own attraction page before promising a rider.",
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "A full-size B&M invert: vertical loop, zero-g roll, corkscrews and helixes at pace. Suspended seating means feet dangle — exposure without inversions-only intensity. Standard B&M-smooth forces."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The full-size B&M invert looping over the Boardwalk's reflection lake — the park's smoothest thrill ride.",
+      "description": [
+        "Silver Bullet is Knott's B&M inverted coaster, wrapping the Boardwalk's lake in a layout of loop, zero-g roll, corkscrews and helixes. It is the smoothest big ride at the park — B&M's engineering reads as comfort even at full inversion count — and its queue skirts the water for the park's best ride-adjacent views.",
+        "It opened in 2004 and remains the park's most re-ridable thrill: no launch to brace for, no beyond-vertical drop to anticipate, just a well-built looper taken at pace.",
+        "For riders who find HangTime too chaotic and Xcelerator too violent, Silver Bullet is the goldilocks invert — and the queue reflects it on busy afternoons."
+      ],
+      "tips": [
+        "The mid-afternoon slot is right — after the morning Boardwalk rush, before the evening re-rides.",
+        "Front row over the lake at golden hour is the park's best coaster photo op.",
+        "Ride between GhostRider laps: its smoothness resets the spine."
+      ],
+      "bestTime": "Mid-afternoon.",
+      "typicalWait": "25–45 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "hangtime",
+        "xcelerator"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "jaguar",
+      "name": "Jaguar!",
+      "land": "fiesta-village",
+      "type": "roller-coaster",
+      "opened": 1995,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A family-tier steel coaster with one genuine drop and a spiral finale. The ziggurat theming and the view from the top are the charms. Nothing here scares anyone over eight."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family-coaster trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The family coaster spiraling around Fiesta Village's ziggurat — the 42-inch entry to the park's coaster ladder.",
+      "description": [
+        "Jaguar! is Fiesta Village's family coaster, climbing inside and around the section's Mayan-ziggurat centerpiece before dropping into a spiral course around the village. The theming integration — the coaster and the ziggurat are one structure — is the most complete ride-environment blend at the park.",
+        "At 42 inches it is the first rung of Knott's coaster ladder: the ride kids do before the 48-inch trio, with enough speed and one real drop to count as a coaster with a capital C to a seven-year-old.",
+        "The queue is short and the cycle pleasant. For coaster-counting families it is the kid-credit that starts the collection."
+      ],
+      "tips": [
+        "The 42-inch bar makes this the park's best first 'real' coaster.",
+        "The queue moves fast — a reliable stop between the bigger rides with younger kids in tow.",
+        "The spiral finale circles the whole village — wave to the queue on the way down."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "ghostrider",
+        "sierra-sidewinder"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "montezoomas-revenge",
+      "name": "Montezooma's Revenge",
+      "land": "fiesta-village",
+      "type": "roller-coaster",
+      "opened": 1978,
+      "status": "closed",
+      "closedNote": "Closed amid the Fiesta Village redevelopment and not operating as of this site's last check. The 1978 Schwarzkopf flywheel-loop shuttle — one of the last of its kind in the world — is expected to return as part of the reimagined section, but the timeline has extended repeatedly. Verify on Knott's current attraction list before planning around it; this site's closure tracker follows it.",
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "Recorded for reference: the flywheel launch to 55 mph through a single loop, up the spike, and back through the loop backwards was among the most intense 30-second rides ever built."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Historical record; the ride is not operating."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "Closed for the Fiesta Village rework — the 1978 flywheel-loop shuttle, one of the last of its kind anywhere, awaiting its return.",
+      "description": [
+        "Montezooma's Revenge opened in 1978 as one of the first loop coasters in California: a flywheel catapult to 55 miles per hour through a single vertical loop, up a spike, and back through the loop in reverse. Thirty-six seconds, twice through the same loop, a genre of one.",
+        "It has been closed during the Fiesta Village redevelopment, and its return has been expected and delayed across multiple seasons. The ride is a protected piece of coaster history — Schwarzkopf flywheel shuttles have nearly vanished worldwide — which is why the park's plans for it carry weight beyond one park.",
+        "The entry stays on this site, closed, because the search demand is real and the comeback story is genuinely uncertain. Verify before promising anyone a ride."
+      ],
+      "tips": [
+        "Do not plan around it — check the park's current attraction list first.",
+        "If it returns, ride immediately: flywheel launches are a lost art and the queue will be enormous.",
+        "Follow the park's social channels for reopening news — this is the one closure at this park with a genuine comeback storyline."
+      ],
+      "bestTime": null,
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "jaguar",
+        "sol-spin"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "calico-mine-ride",
+      "name": "Calico Mine Ride",
+      "land": "ghost-town",
+      "type": "dark-ride",
+      "opened": 1960,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 5,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Dark, loud in stretches, with animatronic miners and one genuine surprise drop. The darkness and underground setting read scarier to young children than the ride's statistics suggest."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into mine-train vehicles; the load area is dim."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1960 dark ride inside Ghost Town's man-made mountain — ore carts, animatronic miners, and the park's oldest signature experience.",
+      "description": [
+        "The Calico Mine Ride opened in 1960, predating Disneyland's dark-ride golden age, and remains the anchor of Ghost Town's man-made mountain: ore-cart trains through staged mine scenes with animatronic workers, blasting effects, and a cavern finale. It was restored in 2014-15 with new effects and looks better than it has in decades.",
+        "It is a genuine piece of theme park history — the ride that proved a farm-adjacent roadside attraction could do enveloping environments — and it still functions as a family favorite with enough dark-ride teeth to satisfy a coaster crowd between marathons.",
+        "Ride it in the morning when Ghost Town is empty. The mountain exterior is the park's most photographed structure for a reason."
+      ],
+      "tips": [
+        "Do it at open before its family queue builds.",
+        "The final cavern scene is the payoff — sit back and let the kids see it first.",
+        "Ride at open when the mountain's interior is coolest — the midday queue bakes on the switchbacks."
+      ],
+      "bestTime": "The first hour of the day.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "ghostrider",
+        "voyage-to-the-iron-reef"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "voyage-to-the-iron-reef",
+      "name": "Voyage to the Iron Reef",
+      "land": "the-boardwalk",
+      "type": "interactive-game",
+      "opened": 2015,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 2,
+        "darkness": 4,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A dark interactive shooter with sudden effects and one small drop. Gentle overall; the dark and the creatures give it a mild edge for the youngest riders."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into ride vehicles with mounted blasters."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The interactive 3D dark ride under the Boardwalk — laser blasters, steampunk sea creatures, and the family crowd-pleaser.",
+      "description": [
+        "Voyage to the Iron Reef is the Boardwalk's interactive dark ride: riders board vehicles with mounted blasters and shoot at animated sea creatures through a 3D-projection course. It is the park's best bad-weather and heat-refuge ride, and the competitive scoring makes it repeatable in a way flat dark rides are not.",
+        "The whole-family appeal is the point — no height drama, no intensity, and siblings keep score for the rest of the day."
+      ],
+      "tips": [
+        "The midday heat hour is its natural slot — indoors and cool.",
+        "Aim for the gold-highlighted targets; the scoring rewards streaks.",
+        "Compare scores at unload; the leaderboard resets each cycle and the rematch sells itself."
+      ],
+      "bestTime": "Midday heat or rain.",
+      "typicalWait": "10–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "calico-mine-ride",
+        "hangtime"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sol-spin",
+      "name": "Sol Spin",
+      "land": "fiesta-village",
+      "type": "spinner",
+      "opened": 2017,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on Knott's own attraction page.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A tall spinning flat ride whose arms rotate independently — disorientation rather than drops, and genuinely forceful for the family-flat category."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into spinner seats with harnesses."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The tall fiesta spinner — rotating arms at height over the village, the most disorienting family-tier ride at the park.",
+      "description": [
+        "Sol Spin is Fiesta Village's modern flat ride: a tall rotating centerpiece whose arms spin riders at altitude over the reworked village. It belongs to the genre of spinners that look gentle from the queue and are not.",
+        "For families with a thrill rider in the 48-inch-minus crowd, it is the middle rung — more intensity than Jaguar, less than the Boardwalk. Motion-sensitive riders should treat it with coaster respect."
+      ],
+      "tips": [
+        "Do not judge it from the ground — the arm rotation at height is the ride.",
+        "Motion-sensitive riders: this one sneaks up. Skip if HangTime was too much.",
+        "Watch one full cycle from the fence before deciding — the arm speed tells you more than the sign does."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "jaguar",
+        "hangtime"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "sierra-sidewinder",
+      "name": "Sierra Sidewinder",
+      "land": "camp-snoopy",
+      "type": "roller-coaster",
+      "opened": 2007,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low family minimum — verify the current figure on Knott's own page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A spinning family coaster: the cars rotate freely through the banked course, so mild speed becomes moderate dizziness. Cheerful, small, and the perfect kid-coaster template."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into free-spinning family cars."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The Camp Snoopy spinning family coaster — free-rotating cars through a banked mountain course, the kid-favorite.",
+      "description": [
+        "Sierra Sidewinder is Camp Snoopy's coaster: small cars that spin freely as they run a banked figure course, combining mild speed with manageable dizziness. It is the archetypal kid coaster — enough motion to thrill a six-year-old, little enough to bore a twelve-year-old, spinning enough to keep both honest.",
+        "For coaster-counting kids it is the first or second credit. For grandparents it is the ride they can do all afternoon."
+      ],
+      "tips": [
+        "The spin rate depends on load distribution — heavier sides spin more.",
+        "Multiple laps are the norm; the queue rarely argues.",
+        "Riders facing backward at dispatch spin more — load accordingly depending on who wants the show."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "jaguar"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "howl-o-scream-san-antonio",
+  "name": "Howl-O-Scream at SeaWorld San Antonio",
+  "shortName": "Howl-O-Scream",
+  "resort": "texas",
+  "parkSlug": "seaworld-san-antonio",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "Howl-O-Scream is SeaWorld San Antonio's separately-ticketed Halloween night: produced haunted houses, scare zones and coasters running after dark across the marine park. The Texas edition is one of the region's two major haunts and the biggest produced event in the San Antonio market.",
+  "h1": "Howl-O-Scream SeaWorld San Antonio: what it costs and whether it is worth it",
+  "title": "Howl-O-Scream SeaWorld San Antonio",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Howl-O-Scream at SeaWorld San Antonio: Texas-scale haunted houses and coasters after dark, on a separate ticket. The pattern, the costs and the verdict.",
+  "typicalWindow": {
+    "startsAround": "mid-September",
+    "endsAround": "Halloween night",
+    "nightsTypical": 14,
+    "nightsRange": [
+      10,
+      20
+    ],
+    "daysOfWeek": [
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "hours": "Roughly 19:00 to midnight or later"
+  },
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [
+      40,
+      110
+    ],
+    "asOf": "2025 season pattern",
+    "cheapestNights": "Opening weekend and early-season Sunday nights",
+    "priciestNights": "The last two Saturdays before Halloween",
+    "notes": [
+      "Tax additional; parking separate.",
+      "Quick Queue for the haunt is a separate product from the day version and prices by night.",
+      "Frequent-visitor passes carry discounts on select nights most years."
+    ]
+  },
+  "whatYouGet": [
+    "Multiple produced haunted houses at a scale the day park never shows.",
+    "Scare zones through the park's midways, with the marine-park setting doing unusual atmospheric work.",
+    "The coaster lineup running after dark — a genuinely different experience of the big rides.",
+    "Shows and bars programmed for the adult night-out crowd the event targets."
+  ],
+  "whatYouDont": [
+    "The animal exhibits in any meaningful sense — the event is not the park's day identity.",
+    "A family product: Howl-O-Scream is uniformly intense and age-restricted in spirit and often in policy.",
+    "Day admission — the ticket is for the night event, with the day park separate."
+  ],
+  "verdict": {
+    "short": "Worth it as San Antonio's flagship haunt night, and as the coaster-plus-haunt combo only a SeaWorld event offers in Texas.",
+    "worthItIf": [
+      "You want a produced haunt with real coasters running after dark — a combination only the SeaWorld haunts and Universal offer on this site.",
+      "Your night lands early in the season on a weeknight-equivalent date.",
+      "You are pairing it with a day at the park and want the full day-and-night double."
+    ],
+    "skipIf": [
+      "You only want coasters — the day park delivers them without the haunt crowds.",
+      "Peak-Saturday queue math without the haunt line-skip product sounds unpleasant, because it is.",
+      "Anyone in the party is under the event's recommendation — this is an adults-leaning night throughout."
+    ]
+  },
+  "strategy": [
+    {
+      "heading": "Coasters first, houses second",
+      "body": [
+        "The event opens with the coasters near-walk-on while the maze queues build — invert the instinct and ride the big drops in the first hour, then work the houses. The night coaster laps are the event's underrated product: Iron Rattler's quarry dive with the event lighting is the reason coaster fans buy the ticket."
+      ]
+    },
+    {
+      "heading": "The double-day arithmetic",
+      "body": [
+        "Many tickets allow the day-plus-night combo at a discount over separate admission. The combo works only if you accept a mid-day break — the event runs late, and the 3pm-to-1pm version of the double is a stamina trap. Ride the morning, rest the afternoon, haunt the night."
+      ]
+    },
+    {
+      "heading": "Line-skip on peak nights",
+      "body": [
+        "The haunt Quick Queue is priced like the peak nights it serves. The same rule as every product on this site applies: weeknight never, peak Saturday seriously. The maze count at these events is small enough that the skip product converts a three-house night into an everything night."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Howl-O-Scream included with SeaWorld admission?",
+      "a": "No — it is a separately-ticketed night event, and the day park closes early on event nights. Some combo tickets bundle day and night at a discount."
+    },
+    {
+      "q": "How scary is Howl-O-Scream?",
+      "a": "Genuinely intense — produced haunted houses and staffed scare zones aimed at an adult night-out crowd, closer to the Universal haunts' tone than to a decorated ride day. The parks themselves warn against young guests, and this site agrees."
+    },
+    {
+      "q": "When does Howl-O-Scream run?",
+      "a": "Select nights from mid-September through Halloween in the typical pattern. The current cycle's dates live on the park's event page; this site carries the pattern with a confidence label."
+    },
+    {
+      "q": "Do the coasters really run during the event?",
+      "a": "Yes — the big coasters running after dark are half the product and the event's differentiator against standalone haunts. Which specific rides run each night is on the event page."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "SeaWorld San Antonio rides and heights",
+      "href": "/texas/seaworld-san-antonio/rides/",
+      "site": 1
+    },
+    {
+      "label": "Quick Queue and the other line-skip products",
+      "href": "/guides/line-skip-passes/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "knotts-scary-farm"
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The San Antonio event has run select fall nights at multi-house scale in recent seasons; specifics vary by year.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

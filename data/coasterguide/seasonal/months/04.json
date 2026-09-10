@@ -1,0 +1,98 @@
+{
+  "month": 4,
+  "name": "April",
+  "slug": "april",
+  "summary": "The spring shoulder month — break crowds thin, the northern parks open their seasons, and the weather is kind everywhere except the odd late storm.",
+  "verdict": {
+    "grade": "B+",
+    "short": "April at these parks: a good window with known trade-offs. The spring shoulder month.",
+    "bestFor": [
+      "Northern parks' opening weeks",
+      "Balanced weather and crowds"
+    ],
+    "worstFor": [
+      "Easter week at any park",
+      "Guaranteed full daily operation in the north"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "The spring shoulder month — break crowds thin, the northern parks open their seasons, and the weather is kind everywhere except the odd late storm.",
+    "peakWindows": [
+      "The Easter week, wherever it falls"
+    ],
+    "quietWindows": [
+      "Late April, post-break, pre-summer"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 73,
+      "lowF": 53,
+      "rainDays": 2,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 82,
+      "lowF": 60,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 78,
+      "lowF": 55,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 63,
+      "lowF": 41,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 58,
+      "lowF": 38,
+      "rainDays": 11,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The northern Six Flags parks open their seasons across April — check the specific park's calendar, because opening weekends run reduced lineups and hours."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "Late April is one of the calendar's genuine sweet spots: full-ish operation, thin crowds, mild weather."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

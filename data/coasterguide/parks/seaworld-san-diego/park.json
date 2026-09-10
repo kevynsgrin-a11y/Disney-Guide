@@ -1,0 +1,169 @@
+{
+  "slug": "seaworld-san-diego",
+  "name": "SeaWorld San Diego",
+  "shortName": "SeaWorld SD",
+  "idPrefix": "swsd",
+  "resort": "southern-california",
+  "resortName": "Southern California",
+  "opened": "1964-03-21",
+  "sizeAcres": 190,
+  "location": "San Diego, California",
+  "coordinates": { "lat": 32.7648, "lng": -117.2262 },
+  "tagline": "A marine park with a real thrill lineup — Emperor's dive coaster, Electric Eel's spike, and the bay it all sits on.",
+  "summary": "SeaWorld San Diego on Mission Bay combines a marine-animal park with a compact modern coaster lineup led by Emperor, California's only floorless dive coaster, and Electric Eel's launched spikes. One strong half-day or a full day with shows.",
+  "intro": [
+    "SeaWorld San Diego is the original SeaWorld, opened in 1964, and the model for a park type that has no real peer: a marine zoological park that spent the 2010s and 2020s building a genuinely serious coaster lineup. Emperor, a floorless dive coaster with a 90-degree 153-foot drop, arrived in 2022 as the marquee; Electric Eel's triple-launch spike ride and Manta's family launch coaster back it up.",
+    "The park's identity is the split. The animal exhibits — dolphins, sea turtles, sharks in the walk-through tunnel, penguins, and the orca habitat with its education-focused presentation — are half the day, and the coaster cluster is the other half. Unlike every other park on this site, the headline 'shows' here are animal presentations whose schedules shape the day as much as the ride queues.",
+    "Note on zone names: SeaWorld parks don't publish hard land boundaries the way the big theme parks do. The zones used on this site are practical clusters, approximate on purpose, and flagged as such — the rides and their locations are the facts; the zone labels are convenience.",
+    "The park runs a separately-ticketed Halloween haunt on fall nights — one of the three SeaWorld haunts covered on this site."
+  ],
+  "bestFor": ["Mixed thrill-and-animal families", "Coaster enthusiasts collecting the dive", "San Diego visitors without a car", "Show-paced park days"],
+  "notIdealFor": ["Pure-thrill visitors expecting a coaster park", "Readers who want hard land maps", "Guests avoiding marine-animal venues on principle"],
+  "stats": {
+    "attractionCount": 7,
+    "ridesWithHeightRequirements": 2,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "7–9 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "explorers-reef",
+      "name": "Explorer's Reef (entrance cluster)",
+      "order": 1,
+      "opened": 2014,
+      "summary": "The entrance zone — touch pools, guest services, and the park's front-door aquarium.",
+      "description": [
+        "Explorer's Reef is the entrance experience: touch pools with rays and small sharks flanking the entry, and the park's orientation services. It is a deliberate calm opening — the animals are the greeting, and the rides wait past it.",
+        "Zone names in SeaWorld parks are approximate clusters rather than published boundaries; this site labels them as such throughout. The entrance cluster is the one zone whose boundary nobody disputes."
+      ],
+      "vibe": "Tidal-pool calm at the gate: the park says what it is before selling a single thrill.",
+      "anchorAttraction": "manta",
+      "highlights": ["Ray and shark touch pools", "Guest services and lockers"],
+      "eatHere": [],
+      "tips": ["The touch pools are empty at open — the interactive version of a rope-drop ride."]
+    },
+    {
+      "slug": "ocean-explorer",
+      "name": "Ocean Explorer (coaster cluster)",
+      "order": 2,
+      "summary": "The modern ride cluster — Electric Eel, Tidal Twister and the neighboring thrill additions, approximate as a zone.",
+      "description": [
+        "The Ocean Explorer cluster holds the park's modern thrill additions: Electric Eel's triple-launch spike coaster, Tidal Twister's counter-rotating dueling design, and the surrounding family rides. The zone label is a convenience — SeaWorld doesn't publish hard boundaries — but the rides' concentration is real.",
+        "This is where the coaster morning happens. The cluster sits mid-park and collects the day's ride crowd by ten."
+      ],
+      "vibe": "Compact thrill boardwalk between aquarium buildings.",
+      "anchorAttraction": "electric-eel",
+      "highlights": ["Electric Eel's 150-foot spike", "Tidal Twister's dueling rotations", "The family flat cluster"],
+      "eatHere": [],
+      "tips": ["Electric Eel first at open; its queue outgrows Emperor's on many days.", "The cluster's shade is thin — the morning window is the comfortable one."]
+    },
+    {
+      "slug": "the-waterfront",
+      "name": "The Waterfront (bay and dive coaster)",
+      "order": 3,
+      "summary": "The bay-side stretch where Emperor's dive coaster, the orca habitat and the waterfront shows share the best views.",
+      "description": [
+        "The Waterfront is the bay-facing spine: Emperor's lift and drop stand over it, the orca habitat and its presentation stadium sit along it, and the bay views are the park's best scenery. The shows and the marquee ride share a neighborhood, which makes this the pacing heart of a visit.",
+        "Emperor plus the animal presentations plus lunch on the water is the core San Diego SeaWorld day. The zone label is approximate as always here; the geography is not."
+      ],
+      "vibe": "Bay breeze, dive coaster overhead, orca stadium adjacent — the park's signature stretch.",
+      "anchorAttraction": "emperor",
+      "highlights": ["Emperor's 153-foot dive", "The orca habitat and presentations", "Mission Bay views"],
+      "eatHere": ["shipwreck-reef-cafe"],
+      "tips": ["Time Emperor against the orca presentation schedule — the ride's queue dips during shows.", "The waterfront seating at lunch is the park's best hour."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "SeaWorld San Diego is a two-pace park: the coaster cluster and the animal presentations, interleaved. The mistake is doing one and missing the other — the park's value is the combination, and the show schedule is as load-bearing as the ride queue board.",
+      "The park is compact by regional standards and flat throughout. The planning problem is show-times, not walking."
+    ],
+    "beforeYouGo": [
+      { "title": "Grab the show schedule first", "body": "The day's shape comes from the animal presentation times — most visitors anchor on one orca presentation and build around it. Schedules post at the entrance and in the app each morning." },
+      { "title": "Quick Queue is the product here", "body": "SeaWorld's line-skip is Quick Queue, tiered by coverage. At this park the tiers matter less than at Orlando — see this site's line-skip guide for pricing as of July 2026." },
+      { "title": "The haunt is a separate night", "body": "The fall haunt is separately ticketed and intensifies after dark. Family visitors should check whether their date runs the overlay before booking." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "Electric Eel in the Explorer cluster — the launch on an empty queue." },
+      { "time": "First hour", "body": "Manta, then Tidal Twister; the coaster cluster before the show crowd mobilizes." },
+      { "time": "Mid-morning", "body": "Emperor on the waterfront, timed against the first orca presentation." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Waterfront lunch, then the shark tunnel and aquariums in the heat peak." },
+      { "time": "Early afternoon", "body": "The dolphin presentation and the touch exhibits — the animal half of the day." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Emperor re-ride as the queue ebbs; the bay at golden hour." },
+      { "time": "Close", "body": "Electric Eel at dusk — the spike against the sunset is the park's postcard." }
+    ],
+    "rookieMistakes": [
+      "Missing the show schedule and building the day around rides alone.",
+      "Skipping the aquariums as 'filler' — the shark tunnel is a headline.",
+      "Visiting on a haunt night with young kids expecting the family park.",
+      "Driving when the bay's bike path and the transit link make the car optional."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Electric Eel at rope drop.",
+      "Manta and Tidal Twister in the first hour.",
+      "Emperor timed against the orca presentation.",
+      "Shark tunnel at the heat peak.",
+      "Waterfront lunch and the dolphin presentation.",
+      "Emperor and Electric Eel again at dusk."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is flat, compact and bay-fronted — easy terrain throughout, with aquarium interiors that double as quiet, climate-controlled zones. SeaWorld's access program covers ride boarding and the animal exhibits, with a published access guide.",
+      "United Parks & Resorts operates a ride-access system for guests who cannot wait in conventional queues; confirm the current process on the park's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "Near the main entrance", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Near the main entrance", "priceNote": "Limited quantity", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Near the main entrance", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["Near the entrance", "Waterfront area"],
+    "quietSpaces": [
+      { "name": "Aquarium interiors", "where": "Shark and aquarium buildings", "note": "Dim, cool, and calm — the best sensory-reset spaces at any park on this site." },
+      { "name": "First aid", "where": "Entrance area", "note": "Staffed and quiet." }
+    ],
+    "serviceAnimalRelief": ["Designated areas — confirm locations at guest services; animal exhibits have their own service-animal rules"],
+    "sensoryNotes": [
+      "Electric Eel's launch is abrupt and loud; the spike's height exposure is significant.",
+      "The fall haunt overlay adds scare actors and startles park-wide after dark in season.",
+      "The aquariums are low-sensory refuges by design — the quiet rooms are the exhibits."
+    ],
+    "mobilityNotes": [
+      "Flat and compact; the full loop is under a mile and a half.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "Benches cluster along the waterfront — the best rest-per-foot of any park here."
+    ],
+    "visionHearingNotes": [
+      "Show presentations are audio-led; assistive listening subject to availability at guest services.",
+      "Ride hosts repeat boarding instructions on request."
+    ]
+  },
+  "tips": [
+    { "title": "The show schedule is the map", "body": "Orcas, dolphins and sea lions present on staggered schedules that make the day. Photograph the schedule board at entry; build the coaster windows around the shows rather than fighting them." },
+    { "title": "The car-free option is real", "body": "The Old Town trolley and the bay's bike paths reach the park without driving — the rare coaster-park on this site where transit-and-bike beats parking on a summer Saturday." },
+    { "title": "Emperor during shows", "body": "The dive coaster's queue dips sharply during the orca presentations. Time it deliberately; the re-ride math improves enormously." },
+    { "title": "The haunt picks its crowd", "body": "The haunt is intense, separately ticketed, and sold out early in the season. Haunt fans should book specific nights ahead; families should verify their date is a non-haunt evening." },
+    { "title": "Mission Bay is the after-park", "body": "The park sits on the bay with bike rentals and beach an exit away. The golden-hour plan writes itself: coasters at close, bay at sunset." }
+  ],
+  "faqs": [
+    { "q": "What is the best ride at SeaWorld San Diego?", "a": "Emperor. The floorless dive coaster's 153-foot, 90-degree held drop is the park's signature thrill and the only coaster of its type in California. Electric Eel's launch is the more violent minute; Emperor is the better ride." },
+    { "q": "What are the height requirements at SeaWorld San Diego?", "a": "Emperor and Electric Eel at 54 inches — the big tier. The family tier below (Manta, Journey to Atlantis and others) runs lower, and this site only asserts figures it would stake a build on; check the park's own pages for the rest before promising a rider." },
+    { "q": "Can you do SeaWorld San Diego in half a day?", "a": "Yes — a rope-drop-to-early-afternoon visit covers the coaster cluster and one major presentation. A full day is the better version with the aquariums and a second show cycle, but the compact layout makes the half-day honest." },
+    { "q": "Is SeaWorld still worth it for the animals?", "a": "That is a values call this site won't make for you. Factually: the park's presentations are education-framed, the rescue program is real and large-scale, and the orca breeding program ended years ago. Readers can weigh that information themselves." },
+    { "q": "When does the Halloween haunt run in San Diego?", "a": "Select fall nights, late September through Halloween, as a separate ticket. Dates shift annually — this site's Halloween section carries the current expectation with a confidence label, and the park's calendar is the record." },
+    { "q": "How do I get there without a car?", "a": "The Old Town trolley route and MTS connect to the Mission Bay area, and the bay's bike path network reaches the park entrance. It is the rare park on this site with a genuinely pleasant car-free arrival." }
+  ],
+  "gettingThere": {
+    "parking": "Surface lots at the park; the walk runs five to ten minutes. Summer weekends fill the closest lots early.",
+    "transportation": [
+      "By car: Sea World Drive off I-5, ten minutes from Mission Bay hotels and twenty from downtown San Diego.",
+      "By transit: MTS routes and the Old Town trolley connect seasonally; check current schedules.",
+      "By bike: the Mission Bay path network reaches the entrance — the pleasantest arrival the park offers."
+    ],
+    "entranceNote": "Security at the entrance cluster. Electric Eel's walk from the gate is under ten minutes — spend the rope-drop minutes on its queue, not the walk."
+  },
+  "lastVerified": "2026-07"
+}

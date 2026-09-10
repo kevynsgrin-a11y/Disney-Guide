@@ -1,0 +1,77 @@
+{
+  "park": "legoland-california",
+  "dining": [
+    {
+      "slug": "fun-town-market-fresh",
+      "name": "Fun Town Market Fresh",
+      "land": "fun-town",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The park's main indoor cafeteria — real options for picky kids and allergy families, in air conditioning.",
+      "description": [
+        "Fun Town Market Fresh is the park's principal quick-service: a market-format cafeteria with carved meats, pizzas, salads and a genuinely broad kids' range. The allergy handling is the standout — the park's family audience makes it a core competency rather than an afterthought.",
+        "Indoor seating in the Carlsbad marine layer is comfortable year-round. It fills at noon and turns over by one."
+      ],
+      "signatureItems": ["Carved turkey plate", "Margherita pizza", "Kids' build-a-meal"],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break", "toddlers"],
+      "tips": [
+        "Allergy families: ask for the allergen guide at the register — the handling here is the park's strength.",
+        "Eat at 11:30; the noon wave is the park's biggest queue."
+      ],
+      "verdict": "The best in-park family cafeteria standard: broad, honest and allergy-competent. It is a cafeteria and a good one.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "grannys-apple-fries",
+      "name": "Granny's Apple Fries",
+      "land": "castle-hill",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Single digits to low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The park's signature snack — apple chunks in a crispy shell, dusted with cinnamon sugar and dipped in vanilla cream.",
+      "description": [
+        "Granny's Apple Fries are Legoland California's food landmark: warm apple pieces in a fried pastry shell, cinnamon sugar, and a vanilla cream dipping sauce. The queue is perennial and the snack deserves it — it is the one item at the park that families who visit annually reference by name.",
+        "The cart sits in Castle Hill near the fried treat stand's long-standing spot; the smell does the marketing."
+      ],
+      "signatureItems": ["Apple fries with cream dip", "Cinnamon sugar apple fries"],
+      "goodFor": ["quick-bite", "families", "late-night"],
+      "tips": [
+        "One order is a snack for two kids or a dessert for one adult.",
+        "Eat them immediately — the crisp is the whole point and it fades fast."
+      ],
+      "verdict": "The best snack at the park and one of the better ones in the region. An annual-visit ritual for a generation of SoCal families.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

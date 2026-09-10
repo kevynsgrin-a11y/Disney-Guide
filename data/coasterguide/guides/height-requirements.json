@@ -1,0 +1,111 @@
+{
+  "slug": "height-requirements",
+  "title": "Height Requirements at Ten Coaster Parks",
+  "h1": "Height requirements at every park on this site: the complete ladder, 42 to 54 inches",
+  "metaDescription": "Every height requirement this site asserts at ten American coaster parks, with the 48-inch and 54-inch tiers explained, the family rungs named, and where we deliberately say 'not stated'.",
+  "summary": "The height ladder at ten parks in one place: which rides a 42-, 48- and 54-inch rider can board, why the big tier sits at 48 and 54, and why this site sometimes says 'not stated' on purpose rather than guess.",
+  "category": "planning",
+  "readingTimeMinutes": 12,
+  "intro": [
+    "Height requirements are the highest-stakes numbers this site publishes. A wrong height is not an inaccuracy — it is a family driving to a park for a ride their child cannot board, which is why every page here treats the figure with more care than any other fact.",
+    "The ladder at these ten parks clusters into four rungs: 42 inches (the family-coaster tier), 48 inches (the big-coaster threshold — most hybrids, hypers and launch coasters), 54 inches (the top tier — the big B&M inverts, hypers and flying coasters), and everything below 42, which belongs to the family and kiddie tier and varies park by park.",
+    "Two honesty notes before the tables. First, this site asserts only the heights it would stake a build on — every other attraction is listed as 'not stated' and links to the park's own page, because an absent height sends a reader to the operator while a wrong one sends them to the gate. Second, the Six Flags parks have adjusted minimums occasionally, so the park's own attraction page is always the source of record on the day."
+  ],
+  "keyPoints": [
+    "48 inches is the big threshold: most hybrids, hypers and mid-intensity coasters unlock at 48.",
+    "54 inches is the top tier at nearly every park here — the B&M giants, the big inverts, the flyers.",
+    "42 inches covers the family tier: Ninja at Magic Mountain, Shock Wave at Over Texas, Whizzer at Great America, Jaguar at Knott's.",
+    "The Legoland parks carry no meaningful height ladder at all — age and supervision bands are the currency there.",
+    "SeaWorld's split is sharp: 48 for Ice Breaker and Iron Rattler, 54 for the big B&Ms.",
+    "Where this site states no figure, that is deliberate — verify on the park's page rather than trusting a third-party guess."
+  ],
+  "sections": [
+    {
+      "id": "the-ladder",
+      "heading": "The ladder, explained",
+      "body": [
+        "Coaster parks run a taller ladder than the Disney parks, and the difference concentrates at the top: 51, 52 and 54-inch minimums barely exist at Disney properties and are standard equipment here. A family whose tallest child is 47 inches has a genuinely different park day than one with a 49-inch child, and knowing which side of 48 you stand on is the single most useful number in this guide.",
+        "The 54-inch tier is where the biggest forces live: the B&M hypercoasters (Nitro, Raging Bull, Mako), the big inverts (Batman at three parks, Silver Bullet's tier, the Great White), the flying coasters (Tatsu, Manta, Superman) and the most violent launches (Mr. Freeze, Electric Eel). The 48-inch tier holds the hybrids and the hypers built with more forgiving restraint systems (El Toro, Twisted Colossus, Goliath at two parks, the New Texas Giant, Iron Rattler, X2, HangTime, GhostRider, Xcelerator).",
+        "The counterintuitive result worth memorizing: intensity and height minimum are different instruments. Goliath at Magic Mountain drops 255 feet at a 48-inch bar; Batman's compact invert at the same park demands 54. Judge your rider's tolerance separately from the stick."
+      ],
+      "table": {
+        "title": "The tiers at a glance",
+        "columns": ["Rung", "What it unlocks", "Representative rides here"],
+        "rows": [
+          ["42 in", "Family coasters, classic loopers", "Ninja, Shock Wave, Whizzer, Jaguar"],
+          ["48 in", "Hybrids, hypers, most launch coasters", "El Toro, Twisted Colossus, X2, Iron Rattler, HangTime, Ice Breaker"],
+          ["54 in", "B&M giants, inverts, flyers, big launches", "Nitro, Raging Bull, Mako, Tatsu, Batman, Mr. Freeze, Electric Eel"]
+        ]
+      }
+    },
+    {
+      "id": "by-park",
+      "heading": "Every height this site asserts, by park",
+      "body": [
+        "These are the figures this site's reference tables assert — the ones the fact checker holds the dataset to. They are the confident set, not the complete set: each park's page carries the fuller ladder with its not-stated entries, and the park's own site is always the source of record.",
+        "Read the Legoland row as deliberate: no heights are asserted at either Legoland park because their minimums are age-and-supervision based and move — the honest entry is no entry, with the park page linked."
+      ],
+      "table": {
+        "title": "Asserted heights (inches)",
+        "columns": ["Park", "42", "48", "54"],
+        "rows": [
+          ["Magic Mountain", "Ninja", "X2, Goliath, Twisted Colossus, Superman, West Coast Racers", "Tatsu, Full Throttle, Viper, Batman, Riddler's Revenge"],
+          ["Six Flags Over Texas", "Shock Wave", "New Texas Giant, Titan", "Mr. Freeze"],
+          ["Great Adventure", "—", "El Toro, Kingda Ka (closed), Dark Knight, Jersey Devil", "Nitro, Batman, Superman"],
+          ["Great America", "Whizzer", "Goliath, American Eagle", "Raging Bull, Batman, Superman"],
+          ["Knott's Berry Farm", "Jaguar", "GhostRider, Xcelerator, HangTime", "—"],
+          ["Legoland California", "—", "No heights asserted on purpose", "—"],
+          ["Legoland Florida", "—", "No heights asserted on purpose", "—"],
+          ["SeaWorld San Diego", "—", "—", "Emperor, Electric Eel"],
+          ["SeaWorld San Antonio", "—", "Iron Rattler, Steel Eel", "The Great White"],
+          ["SeaWorld Orlando", "—", "Ice Breaker", "Mako, Kraken, Manta, Pipeline"]
+        ]
+      }
+    },
+    {
+      "id": "borderline",
+      "heading": "The borderline rider: what to do at 46–48 inches",
+      "body": [
+        "The 46-to-48-inch rider is the hardest planning case at these parks, because the difference unlocks half the headline list. The practical advice: measure at home with shoes on against a hard wall, accept that park sticks measure similarly but without mercy, and plan the day around the confirmed rung rather than the hoped-for one.",
+        "At 46–47 inches the best parks on this site are Knott's (Jaguar plus the family tier and the dark rides) and Six Flags Over Texas (Shock Wave at 42 plus the mine train tier), with Magic Mountain's Ninja the single best 42-inch coaster in the set. At a confirmed 48 the world changes: El Toro, Twisted Colossus, Goliath, Iron Rattler and HangTime are all real rides, not gateway rides.",
+        "The re-measure tip that matters: measure in the morning. Children's spine compression over a long day can cost a fraction of an inch, and parks measure at dispatch, not at entry — a child who clears the stick at 9am can miss it at 5pm. Front-load the rides that matter."
+      ],
+      "list": {
+        "title": "Best parks by rider height",
+        "items": [
+          "Under 42 inches — Legoland California or Florida; the height ladder barely exists there by design.",
+          "42–47 inches — Knott's Berry Farm or Six Flags Over Texas; the 42-inch tier is genuinely good at both.",
+          "48–53 inches — Magic Mountain or Great Adventure; the 48-inch tier at those parks carries the headliners.",
+          "54 inches and up — everything on this site; the full ladder is open."
+        ]
+      }
+    },
+    {
+      "id": "measurement",
+      "heading": "How the parks measure, and what varies",
+      "body": [
+        "All four companies measure with fixed height sticks at the ride entrance, shoes on. The regional parks — unlike Disney — generally do not issue all-day wristbands for a cleared height, which means a borderline rider can be measured at every ride. Building the morning-heavy plan around that fact is the difference between a good day and a series of gate-side negotiations.",
+        "The companies also adjust minimums occasionally, and the Six Flags parks have historically been the most active at it — a ride's minimum can move with restraint changes or incident reviews. That is why this site stamps each height with its verification month and links the park's page, and why any third-party figure (including ours) deserves a glance at the operator's site on trip week.",
+        "The supervision bands at the Legolands deserve their own note: several rides there distinguish 'may ride alone' from 'may ride with an adult' at the same low minimum, which no height stick captures. The park's ride pages carry the bands; read them as age guidance more than height guidance."
+      ]
+    },
+    {
+      "id": "not-stated",
+      "heading": "Why some rides here say 'not stated'",
+      "body": [
+        "Every park page on this site lists some attractions without a height figure, and the omission is a feature. Where this site's reference tables do not assert a number — because it has moved historically, because the source confidence is low, or because the ride's minimum is supervision-based rather than stick-measured — the page says so and sends the reader to the park's own listing.",
+        "This is the same editorial rule the heights themselves follow, applied to the gaps: a missing number costs a click, a wrong number costs a trip. The 'not stated' entries cluster where you would expect — the family tier at the Six Flags parks, most rides at both Legolands, and the attractions whose minimums have changed in recent years.",
+        "When a 'not stated' figure matters to your trip, the verification path is short: the park's website or app lists every ride's requirement on its attraction page, current to the week. That page outranks every third-party source including this one, and this site is built to say so."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Which park is best for a 48-inch rider?", "a": "Magic Mountain, with Great Adventure close behind. The 48-inch tier at Magic Mountain includes X2, Twisted Colossus, Goliath, Superman and West Coast Racers — five genuine headliners — while Great Adventure offers El Toro and the Dark Knight at the same bar. Great America and Knott's are strong seconds with Goliath and American Eagle, and GhostRider and Xcelerator respectively." },
+    { "q": "Do any rides here have minimums above 54 inches?", "a": "None that this site asserts. 54 is the top of the ladder at every park here — the ceiling belongs to the big B&M coasters and the most forceful launches. Figures this site has seen claimed above 54 at these parks have not been verifiable, and asserting one wrongly is the exact failure this site's height discipline exists to prevent." },
+    { "q": "Why does the same ride name have different minimums at different parks?", "a": "Because they are different installations. Batman inverts at three parks here share a design and a 54-inch bar, but Superman appears as a flying coaster (54) at Great America and Great Adventure, while Superman: Escape from Krypton at Magic Mountain (48) is an entirely different ride type. Same name, different machine, different bar — one reason this site's tables are per-park rather than per-name." },
+    { "q": "Are height requirements the same for adults accompanying a child?", "a": "Accompanying adults ride regardless of the child's height only where the ride's own minimum is met — the adult always meets a 42-inch bar, but on a 48-inch ride a 46-inch child cannot board with a parent's company. Rider-switch programs, where offered, let adults split riding duties instead; see each park's access pages for the current process." },
+    { "q": "How often do these numbers change?", "a": "Rarely but really — the Six Flags parks have adjusted individual minimums with restraint changes and reviews, and new rides arrive with their own bars. This site stamps every asserted height with its verification month and treats the park's own page as the record; check trip week for anything load-bearing." }
+  ],
+  "related": ["line-skip-passes", "first-coaster-trip"],
+  "lastVerified": "2026-07"
+}

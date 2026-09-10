@@ -1,0 +1,187 @@
+{
+  "slug": "knotts-berry-farm",
+  "name": "Knott's Berry Farm",
+  "shortName": "Knott's",
+  "idPrefix": "kbf",
+  "resort": "southern-california",
+  "resortName": "Southern California",
+  "opened": "1920-06-01",
+  "sizeAcres": 57,
+  "location": "Buena Park, California",
+  "coordinates": { "lat": 33.8443, "lng": -117.9986 },
+  "tagline": "America's first theme park — a real ghost town, the boysenberry, and the haunt that started the entire industry.",
+  "summary": "Knott's Berry Farm in Buena Park grew from a fried-chicken restaurant into America's first theme park and now holds Ghost Town's woodies, the Boardwalk's thrill rides, and the oldest big Halloween haunt in the country — the event every other haunt descends from, covered in this site's Halloween section./",
+  "intro": [
+    "Knott's is the oldest park on this site and the odd one out in the best way: it began as a berry farm and fried-chicken dinner house in the 1920s, added a ghost town in the 1940s to entertain the dinner queue, and became the first American theme park by accident. Ghost Town's buildings are real relocated structures, not facades, and the park still feels like a place rather than a parking lot with coasters.",
+    "The ride lineup is deeper than the park's family reputation: GhostRider is one of the West's best wooden coasters, HangTime is a Gerstlauer infinity coaster with a beyond-vertical drop, Silver Bullet is a full-size B&M invert, and Xcelerator's 1950s-themed launch tops out at 82 miles per hour in just over two seconds.",
+    "And then there is October. The park's separately-ticketed Halloween haunt, running since 1973, is the oldest big haunt in the country and the direct ancestor of Halloween Horror Nights and every regional scare event. The farm's identity splits cleanly: family park by day, industry-defining haunt on select fall nights, and knowing which you are buying is the single most important planning decision of a Buena Park visit."
+  ],
+  "bestFor": ["Families with mixed ages", "Coaster enthusiasts", "Halloween devotees", "Southern California locals"],
+  "notIdealFor": ["Visitors expecting a resort campus", "Peak-summer crowd-avoiders", "Guests who dislike commercial surroundings"],
+  "stats": {
+    "attractionCount": 10,
+    "ridesWithHeightRequirements": 4,
+    "tallestRequirement": 48,
+    "typicalFullDayHours": "8–10 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "ghost-town",
+      "name": "Ghost Town",
+      "order": 1,
+      "opened": 1941,
+      "summary": "The original 1880s ghost town — real relocated buildings, working artisans, and GhostRider's wooden structure towering over Main Street.",
+      "description": [
+        "Ghost Town is the heart of the park and the reason Knott's qualifies as the first theme park: the buildings are authentic structures moved to the site in the 1940s, staffed by working artisans, and organized around a genuinely atmospheric 1880s streetscape.",
+        "GhostRider, the park's signature wooden coaster, threads its structure through and around the town — the ride's roar is Ghost Town's ambient sound. The Calico Mine Ride, the 1960 dark ride that predates Disney's dark-ride golden age, still operates inside the man-made mountain at the town's edge.",
+        "For first-timers the advice is simple: give Ghost Town more time than the queue board suggests. The people-watching, the artisans, and the atmosphere are the product, not the preamble."
+      ],
+      "vibe": "Real 1880s buildings under a wooden coaster's roar — theme park history you can walk through.",
+      "anchorAttraction": "ghostrider",
+      "highlights": ["GhostRider's structure over Main Street", "The Calico Mine Ride mountain", "Working artisans and authentic buildings"],
+      "eatHere": [],
+      "tips": ["GhostRider at open, then the Mine Ride before its queue builds.", "The artisan demonstrations peak mid-morning — the town is best experienced, not transited."]
+    },
+    {
+      "slug": "fiesta-village",
+      "name": "Fiesta Village",
+      "order": 2,
+      "summary": "The reimagined Mexican-heritage section, home to classic coasters and the long-running Montezooma's redevelopment.",
+      "description": [
+        "Fiesta Village is Knott's celebration of Southern California's Mexican heritage, reimagined in the 2020s with new theming and investment. It holds several classic rides and the site of Montezooma's Revenge — the 1978 Schwarzkopf flywheel-loop shuttle that defined the park's thrill tier for four decades and has been closed amid the section's redevelopment.",
+        "The reworked village carries the park's most colorful theming and a cluster of family rides. Sol Spin's spinner and the Jaguar! coaster's figure-track give the section its motion.",
+        "Check the current status of Montezooma's return before promising any coaster-history pilgrim a ride — the redevelopment has been multi-year, and this site's closure tracker follows it."
+      ],
+      "vibe": "Bright, reworked village theming wrapped around classic rides and one long-awaited comeback.",
+      "anchorAttraction": "jaguar",
+      "highlights": ["Jaguar's steeplechase-style circuit", "Sol Spin's spinner", "The Montezooma's Revenge site"],
+      "eatHere": [],
+      "tips": ["Jaguar's 42-inch bar makes this the family coaster section.", "The village's rework added genuine shade — a good midday zone."]
+    },
+    {
+      "slug": "the-boardwalk",
+      "name": "The Boardwalk",
+      "order": 3,
+      "summary": "The seaside-pier section where HangTime's beyond-vertical drop and Xcelerator's launch carry the park's modern thrill load.",
+      "description": [
+        "The Boardwalk is Knott's thrill waterfront: HangTime, the Gerstlauer infinity coaster with a 96-degree beyond-vertical first drop, and Xcelerator, the 1950s-themed launch coaster that hits 82 mph in 2.3 seconds. The section's midway games and pier architecture give it the carnival energy the name promises.",
+        "The two headliners here define the modern park: HangTime's inversions with pier theming, Xcelerator's raw acceleration. Both sit within a hundred yards of each other, making the Boardwalk the concentrated-thrills zone.",
+        "The section also holds the swings and family spinner rides. For the 48-inch crowd this is the main event."
+      ],
+      "vibe": "Pier energy: launch roar, midway games, and a beyond-vertical drop over the midway.",
+      "anchorAttraction": "hangtime",
+      "highlights": ["HangTime's 96-degree drop", "Xcelerator's 2.3-second launch", "Classic pier midway"],
+      "eatHere": [],
+      "tips": ["Xcelerator first at open; its queue outgrows HangTime's by mid-morning.", "The games row is the crowd's midday parking lot — the coasters thin at lunch."]
+    },
+    {
+      "slug": "camp-snoopy",
+      "name": "Camp Snoopy",
+      "order": 4,
+      "summary": "The PEANUTS-themed family section — the under-48-inch heart of the park and the reason Knott's works for mixed-age families.",
+      "description": [
+        "Camp Snoopy is the park's PEANUTS-themed family land, holding the kid-coaster tier, the camp-themed flats, and the character experiences. It is deliberately scaled to the under-48 crowd that the big parks' height ladders exclude.",
+        "For families this section is the difference between a good day and a long one: enough real rides to occupy a full morning at kid scale, with shade, benches, and the stage shows between.",
+        "Note on the IP: the PEANUTS characters are licensed property, referenced here factually. The section has been refreshed multiple times over the decades and remains the park's family anchor."
+      ],
+      "vibe": "Kid-scale camp with the whole PEANUTS cast — the calm, shaded family heart.",
+      "anchorAttraction": "sierra-sidewinder",
+      "highlights": ["The kid-coaster tier", "Character meets and the family stage", "Shade and benches at family scale"],
+      "eatHere": [],
+      "tips": ["Split-party strategy: thrill riders to the Boardwalk, families to Camp Snoopy, reunite at Ghost Town lunch.", "The camp's rides cluster — a full morning here is easy and short-walk."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Knott's is a compact park with four distinct sections and no bad geography — the loop is under a mile. The planning problem is not distance but scheduling: the marquee coasters (GhostRider, HangTime, Xcelerator) sit in three different sections, and October nights are a different ticket entirely.",
+      "The park's crowd curve follows SoCal school calendars: summer and holiday weeks are busy, shoulder-season weekdays are genuinely calm, and the haunt nights in October are their own sold-out ecosystem."
+    ],
+    "beforeYouGo": [
+      { "title": "Day park or haunt night — pick deliberately", "body": "In October the park runs family-by-day and haunt-by-night as separate experiences, and the haunt is a separate hard ticket. Arriving at 5pm on a haunt night expecting family rides is the classic Buena Park mistake." },
+      { "title": "Mrs. Knott's is the reason the park exists", "body": "The fried-chicken dinner house outside the gate predates everything. It takes reservations and deserves one — the boysenberry pie closes the argument." },
+      { "title": "Fast Lane is Knott's product", "body": "The park's line-skip is Fast Lane (with a premium tier for the biggest rides). The pricing guide on this site covers the tiers as of July 2026." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "GhostRider in Ghost Town — the park's best ride and its longest queue by ten." },
+      { "time": "First hour", "body": "The Calico Mine Ride while the town is empty, then walk to the Boardwalk." },
+      { "time": "Mid-morning", "body": "Xcelerator, then HangTime — the Boardwalk pair back-to-back." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Lunch — inside the park or at Mrs. Knott's if you planned ahead." },
+      { "time": "Early afternoon", "body": "Camp Snoopy with the family tier, or Silver Bullet and Jaguar in Fiesta Village." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Silver Bullet if it was missed, then re-rides as queues drop." },
+      { "time": "Last hour", "body": "GhostRider at night — the woodie after dark is the park's signature close." }
+    ],
+    "rookieMistakes": [
+      "Buying a day ticket and expecting the haunt, or vice versa — they are separate products.",
+      "Skipping Ghost Town's atmosphere to queue-hop. The town is the park.",
+      "Missing the Calico Mine Ride as 'just a dark ride' — it is 1960 history and still excellent.",
+      "Underestimating October weekdays: the day park is calm but closes early for haunt setup."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "GhostRider at rope drop.",
+      "Calico Mine Ride before its queue builds.",
+      "Xcelerator and HangTime in the morning Boardwalk window.",
+      "Silver Bullet mid-afternoon.",
+      "Jaguar with the family tier.",
+      "GhostRider again after dark."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Knott's is compact and flat, with short section-to-section walks — the most chair- and stroller-friendly park on this site's Southern California list. The Boardwalk's midway can crowd at peak, but distances are never the problem.",
+      "Cedar Fair operates a ride-access program for guests who cannot wait in conventional queues; the process and entry criteria have changed over the years. Confirm the current requirements on Knott's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "Near the main entrance", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Near the main entrance", "priceNote": "Limited quantity on peak days", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Near the main entrance", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["Ghost Town near guest relations", "Boardwalk area"],
+    "quietSpaces": [
+      { "name": "Ghost Town edges", "where": "Side streets off Main Street", "note": "The authentic buildings include quiet pockets away from the midway flow." },
+      { "name": "First aid", "where": "Ghost Town", "note": "Air-conditioned and quiet; sensory-break friendly." }
+    ],
+    "serviceAnimalRelief": ["Designated areas near the entrance — confirm at guest relations"],
+    "sensoryNotes": [
+      "Haunt nights transform the entire park after dark — scare actors, fog, and loud startles everywhere. Not a 'some sections' overlay.",
+      "The Calico Mine Ride is dark with loud effects — moderate sensory density.",
+      "GhostRider's structure carries continuous loud woodie roar through Ghost Town."
+    ],
+    "mobilityNotes": [
+      "All four sections connect at grade with no hills — the flattest big park in the region.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "The Boardwalk midway narrows at peak; the Ghost Town loop is the calmer route."
+    ],
+    "visionHearingNotes": [
+      "Ride spiels are audio-based; ride hosts repeat boarding instructions on request.",
+      "Assistive listening devices subject to availability at guest relations."
+    ]
+  },
+  "tips": [
+    { "title": "October is two parks", "body": "Day-park operations shorten for haunt setup, and the event itself is a separate ticket with its own crowd. Family visitors should target mornings; haunt fans should buy the specific night early — the best dates sell out." },
+    { "title": "Mrs. Knott's Chicken Dinner Restaurant", "body": "The 1920s origin story still serves the fried chicken and boysenberry pie that started everything, just outside the gate. Reservations are real and worth making." },
+    { "title": "GhostRider at night", "body": "The woodie's queue dies at close and the night ride is the park's best single experience. Save it." },
+    { "title": "The season pass math is local math", "body": "For SoCal residents the pass pays off in two or three visits — the park's calendar rewards repeat short visits more than any park on this site." },
+    { "title": "The location is the trade", "body": "Beach Boulevard in Buena Park is commercial sprawl, not a resort campus. Hotels are plentiful and walkable, scenery is not the product — the park inside the gates is." }
+  ],
+  "faqs": [
+    { "q": "What is the best ride at Knott's Berry Farm?", "a": "GhostRider. The 1998 wooden coaster was rebuilt in 2016 to ride like new, and its combination of first drop, airtime and night-ride atmosphere is the park's signature. HangTime and Xcelerator carry the modern thrill load behind it." },
+    { "q": "Is the Halloween haunt included with admission?", "a": "No. The haunt is a separate hard-ticket event on select fall nights, and it transforms the whole park after dark. Day admission and haunt admission are two different products with two different crowds." },
+    { "q": "What are the height requirements at Knott's?", "a": "GhostRider, Xcelerator and HangTime at 48 inches; Jaguar at 42. Camp Snoopy carries the family tier below that. As always on this site, confirm the current figure on Knott's own page before promising a rider." },
+    { "q": "Can you do Knott's in one day?", "a": "Yes, comfortably — the park is compact and the loop is short. A full day covers the coasters with re-rides plus Ghost Town's atmosphere. October days run shorter hours for haunt setup, so check the calendar." },
+    { "q": "Is Montezooma's Revenge open?", "a": "It has been closed amid Fiesta Village's redevelopment — the 1978 flywheel-loop shuttle is one of the last of its kind anywhere and its return has been long-awaited. Check the park's current attraction list and this site's closure tracker before promising anyone a ride." },
+    { "q": "How far is Knott's from Disneyland?", "a": "About twenty minutes by car down Beach Boulevard and the I-5 — the two parks are genuine same-trip neighbors. That proximity is the classic SoCal play: a Disney morning and a Knott's afternoon is a real, if exhausting, day." }
+  ],
+  "gettingThere": {
+    "parking": "Multiple lots around the park's perimeter on Beach Boulevard; most are a five-minute walk to the gate. Independent lots nearby undercut the official pricing on many days.",
+    "transportation": [
+      "By car: Beach Boulevard (CA-39) in Buena Park, off the I-5 or SR-91. Twenty minutes from Disneyland, forty from downtown LA without traffic.",
+      "By rideshare: well-served, with drop-offs at the main entrance on Beach.",
+      "Several hotels within walking distance — the rare walkable park on this site."
+    ],
+    "entranceNote": "The main gate faces Beach Boulevard. Mrs. Knott's Chicken Dinner Restaurant sits just outside the turnstiles — the 1920s original and still the best meal in the zip code."
+  },
+  "lastVerified": "2026-07"
+}

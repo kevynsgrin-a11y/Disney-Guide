@@ -25,39 +25,77 @@ export const HOUSE_FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0
 `
 
 /**
- * Letterform geometry on a 128-unit design grid, shared by the SVG mark and the PNG rasterizer.
- * Segments carry round caps; the R bowl is a half-arc. Stroke width is chosen so the mark still
- * resolves at 16px favicon size.
+ * Letterform geometry, on a shared design grid so any two-letter logoMark composes consistently.
+ * Each glyph is drawn in a 0–44 × 0–56 local box; the mark places glyphs left to right with a
+ * 10-unit gap. Segments carry round caps; bowls are partial arcs. Stroke width is chosen so the
+ * mark still resolves at 16px favicon size. A logoMark using a letter not in the alphabet fails
+ * the build loudly rather than rendering half a mark.
  */
+const GLYPHS = {
+  H: { segments: [[10, 0, 10, 56], [34, 0, 34, 56], [10, 28, 34, 28]] },
+  R: {
+    segments: [[10, 0, 10, 56], [26, 24, 36, 56]],
+    arcs: [{ cx: 19, cy: 13, r: 13, a0: -Math.PI / 2, a1: Math.PI / 2 }],
+  },
+  C: { arcs: [{ cx: 22, cy: 28, r: 17, a0: 0.55, a1: Math.PI * 2 - 0.55 }] },
+  G: {
+    segments: [[26, 28, 39, 28], [39, 28, 39, 40]],
+    arcs: [{ cx: 22, cy: 28, r: 17, a0: -0.35, a1: Math.PI * 2 - 0.55 }],
+  },
+}
+const GLYPH_W = 44
+const GLYPH_GAP = 10
 const MARK = {
   stroke: 11,
-  segments: [
-    // H
-    [22, 36, 22, 92], [50, 36, 50, 92], [22, 64, 50, 64],
-    // R stem; leg starts on the bowl ring (45-degree point) so the join is one clean stroke
-    [84, 36, 84, 92], [94, 60, 106, 92],
-  ],
-  // Bowl: right half-circle, center + radius, from -90deg (top) to +90deg (bottom).
-  bowl: { cx: 84, cy: 50, r: 14, a0: -Math.PI / 2, a1: Math.PI / 2 },
+  /** Compose a logoMark ("HR", "CG") into placed segments and arcs on the 128 grid. */
+  for (logoMark) {
+    const letters = [...(logoMark || '')].filter((ch) => GLYPHS[ch])
+    if (logoMark && letters.length !== logoMark.length) {
+      throw new Error(`logoMark "${logoMark}" uses a letter with no icon glyph — add it to GLYPHS in src/lib/icons.mjs`)
+    }
+    if (!letters.length) throw new Error('logoMark is empty — no icon can be drawn')
+    const total = letters.length * GLYPH_W + (letters.length - 1) * GLYPH_GAP
+    const x0 = (128 - total) / 2
+    const y0 = (128 - 56) / 2
+    const place = (x, y) => [x0 + x, y0 + y]
+    const segments = []
+    const arcs = []
+    letters.forEach((ch, i) => {
+      const ox = i * (GLYPH_W + GLYPH_GAP)
+      const glyph = GLYPHS[ch]
+      for (const [x1, y1, x2, y2] of glyph.segments || []) {
+        segments.push([...place(x1 + ox, y1), ...place(x2 + ox, y2)])
+      }
+      for (const { cx, cy, r, a0, a1 } of glyph.arcs || []) {
+        const [px, py] = place(cx + ox, cy)
+        arcs.push({ cx: px, cy: py, r, a0, a1 })
+      }
+    })
+    return { segments, arcs }
+  },
 }
 
 function strokePath ([x1, y1, x2, y2]) {
   return `M${x1} ${y1}L${x2} ${y2}`
 }
 
-function bowlPath ({ cx, cy, r, a0, a1 }) {
+function arcPath ({ cx, cy, r, a0, a1 }) {
   const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0)
   const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1)
-  return `M${x0.toFixed(1)} ${y0.toFixed(1)}A${r} ${r} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`
+  // large-arc flag: sweep the long way round when the arc exceeds half a circle.
+  const large = a1 - a0 > Math.PI ? 1 : 0
+  return `M${x0.toFixed(1)} ${y0.toFixed(1)}A${r} ${r} 0 ${large} 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`
 }
 
 export function faviconSvg (site) {
   if (!site?.brand?.palette) return HOUSE_FAVICON
-  const { themeColor, palette } = site.brand
-  const paths = MARK.segments.map(strokePath).join('')
+  const { themeColor, palette, logoMark } = site.brand
+  const mark = MARK.for(logoMark)
+  const paths = mark.segments.map(strokePath).join('')
+  const arcs = mark.arcs.map(arcPath).join('')
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <rect width="128" height="128" rx="28" fill="${themeColor}"/>
-  <path d="${paths}${bowlPath(MARK.bowl)}" fill="none" stroke="${palette.accent2}" stroke-width="${MARK.stroke}" stroke-linecap="round"/>
+  <path d="${paths}${arcs}" fill="none" stroke="${palette.accent2}" stroke-width="${MARK.stroke}" stroke-linecap="round"/>
 </svg>
 `
 }
@@ -144,10 +182,11 @@ function distanceToArc (px, py, { cx, cy, r, a0, a1 }) {
  */
 export function iconPngs (site) {
   if (!site?.brand?.palette) return []
-  const { themeColor, palette } = site.brand
+  const { themeColor, palette, logoMark } = site.brand
   const [fr, fg, fb] = hexToRgb(themeColor)
   const [lr, lg, lb] = hexToRgb(palette.accent2)
   const half = MARK.stroke / 2
+  const mark = MARK.for(logoMark)
 
   return [
     { name: 'icon-180.png', size: 180, purpose: 'any' },
@@ -166,8 +205,8 @@ export function iconPngs (site) {
     const radius = purpose === 'maskable' ? 0 : 28 * scale
     const onMark = (x, y) => {
       const gx = (x - ox) / scale, gy = (y - oy) / scale
-      if (MARK.segments.some((s) => distanceToSegment(gx, gy, s) <= half)) return true
-      return distanceToArc(gx, gy, MARK.bowl) <= half
+      if (mark.segments.some((s) => distanceToSegment(gx, gy, s) <= half)) return true
+      return mark.arcs.some((a) => distanceToArc(gx, gy, a) <= half)
     }
     const inField = (x, y) => {
       if (!radius) return true

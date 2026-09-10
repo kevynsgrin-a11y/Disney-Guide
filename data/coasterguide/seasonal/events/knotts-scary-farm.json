@@ -1,0 +1,145 @@
+{
+  "slug": "knotts-scary-farm",
+  "name": "Knott's Scary Farm",
+  "shortName": "Scary Farm",
+  "resort": "southern-california",
+  "parkSlug": "knotts-berry-farm",
+  "category": "hard-ticket",
+  "season": "halloween",
+  "summary": "Knott's Scary Farm is the oldest big haunt in the country — running since 1973 — and still among the best: dozens of mazes, scare zones through the real Ghost Town, and a separately-ticketed night event that transforms the whole park.",
+  "h1": "Knott's Scary Farm: what it is, what it costs, and whether it is worth it",
+  "title": "Knott's Scary Farm",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Knott's Scary Farm, the original big Halloween haunt: mazes, Ghost Town scare zones and shows on a separate ticket. The honest worth-it verdict and the planning playbook.",
+  "typicalWindow": {
+    "startsAround": "mid-September",
+    "endsAround": "Halloween night",
+    "nightsTypical": 28,
+    "nightsRange": [
+      22,
+      36
+    ],
+    "daysOfWeek": [
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "hours": "Roughly 19:00 to 01:00 or 02:00 by night"
+  },
+  "pricing": {
+    "model": "per-night",
+    "rangeUsd": [
+      60,
+      130
+    ],
+    "asOf": "2025 season pattern",
+    "cheapestNights": "Thursday nights early in the season",
+    "priciestNights": "The last two Saturdays before Halloween and Halloween night itself",
+    "notes": [
+      "Tax additional; parking separate.",
+      "Line-skip products for the mazes are sold separately and price up sharply on peak nights.",
+      "Some passholder and early-buy discounts appear at announcement each year."
+    ]
+  },
+  "whatYouGet": [
+    "A dozen or more full walk-through mazes — the count and quality that defined the genre and still leads it.",
+    "Scare zones through the real Ghost Town streets, which no other haunt can match for atmosphere.",
+    "Shows, street performers and the hanging-style spectacles the event is famous for.",
+    "Select rides running through the night, coaster lineup included."
+  ],
+  "whatYouDont": [
+    "The family day park — Scary Farm is a separate night event, and the daytime park closes early on event nights.",
+    "Anything child-friendly after the gates: the event is uniformly intense and recommends against young guests.",
+    "All-you-can-maze access at the base ticket on peak nights — the queue math without a line-skip product on Saturdays is brutal."
+  ],
+  "verdict": {
+    "short": "Worth it, unambiguously, for any haunt fan — Scary Farm is the genre's founding event and still its benchmark. Buy a Thursday in late September and it is also the best-value haunt night in the country.",
+    "worthItIf": [
+      "Halloween is your season and mazes are the product you travel for.",
+      "You can go on a weeknight early in the run — the crowd difference is the difference between ten mazes and five.",
+      "You want the atmosphere only a real ghost town can give a scare event."
+    ],
+    "skipIf": [
+      "You dislike jump scares, fog, darkness or being touched-adjacent in tight spaces — intensity is the product.",
+      "Your only available night is a late-October Saturday and you will not buy the maze line-skip.",
+      "You are bringing anyone under the recommendation age — this is not a light-scare evening."
+    ]
+  },
+  "strategy": [
+    {
+      "heading": "The night you pick is the whole decision",
+      "body": [
+        "A late-September Thursday and the Saturday before Halloween are different events sharing one name. The early weeknight runs calm enough to clear every maze once; the peak Saturday runs queues that make the line-skip product nearly mandatory. If your calendar flexes at all, buy the calmer night and buy it early — the best dates sell out."
+      ]
+    },
+    {
+      "heading": "The maze order",
+      "body": [
+        "The honest playbook: hit the new marquee mazes first — they hold the longest queues all night — then work the Ghost Town streets, then the back-lot mazes in the final hours when their lines thin. The event map publishes the maze list on announcement day; plan three targets before you arrive and treat everything else as the bonus it will feel like."
+      ]
+    },
+    {
+      "heading": "Line-skip arithmetic, honestly",
+      "body": [
+        "The maze line-skip product is expensive and, on peak nights, transforms the event — this is the rare upcharge this site recommends without hedging on those nights. On calm weeknights it is unnecessary; skip it and spend the difference on the photo pass. The decision is the night you chose, made twice."
+      ]
+    }
+  ],
+  "food": {
+    "note": "Scary Farm food is event-branded and better than the day park's — the seasonal food booths concentrate near the Ghost Town edges and the Boardwalk.",
+    "items": [
+      {
+        "name": "Boysenberry items, haunt edition",
+        "where": "Event food booths",
+        "priceUsd": 8,
+        "verdict": "The farm's signature berry in spooky packaging — the reliable snack between mazes."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Is Knott's Scary Farm included with day admission?",
+      "a": "No. It is a separate hard-ticket night event, and the day park closes early on event nights to reset. Day admission and Scary Farm are two different products with two different crowds."
+    },
+    {
+      "q": "How scary is it, really?",
+      "a": "Genuinely intense — maze density, scare actors, fog and darkness at a level the regional Fright Fests do not attempt. The park itself warns against young guests, and this site endorses that warning: this is a produced haunt, not a decorated ride day."
+    },
+    {
+      "q": "When does Scary Farm run?",
+      "a": "Select nights from mid-September through Halloween night in the typical pattern — roughly 22 to 36 nights a season, Thursdays through Sundays. The current cycle's dates are on the park's event page; this site carries the pattern with a confidence label."
+    },
+    {
+      "q": "What does it cost?",
+      "a": "In the recent pattern, per-night tickets have run roughly $60 to $130 depending on the night, with opening-night and early-season discounts below that. Prices move by date; the park's ticketing page is the live number."
+    },
+    {
+      "q": "Is it the best haunt in the country?",
+      "a": "It is the argument's center. Knott's invented the big-park haunt in 1973 and still leads on maze count and Ghost Town atmosphere; the Universal parks' Halloween Horror Nights lead on IP production. Haunt fans ride both and argue forever — this site's verdict is that Scary Farm on a calm night is the best value in the genre."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Knott's Berry Farm rides and heights",
+      "href": "/southern-california/knotts-berry-farm/rides/",
+      "site": 1
+    },
+    {
+      "label": "Mrs. Knott's and the park's food guide",
+      "href": "/southern-california/knotts-berry-farm/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "howl-o-scream-san-diego",
+    "fright-fest-magic-mountain"
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run annually since 1973; nights, maze counts and pricing describe the recent multi-year pattern. 2026 specifics — dates, line-up, prices — are not verified by this site as of 2026-07 and typically announce in late August or early September.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

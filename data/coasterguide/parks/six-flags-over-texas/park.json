@@ -1,0 +1,333 @@
+{
+  "slug": "six-flags-over-texas",
+  "name": "Six Flags Over Texas",
+  "shortName": "Over Texas",
+  "idPrefix": "sfot",
+  "resort": "texas",
+  "resortName": "Texas",
+  "opened": "1961-08-05",
+  "sizeAcres": 212,
+  "location": "Arlington, Texas",
+  "coordinates": {
+    "lat": 32.7552,
+    "lng": -97.0626
+  },
+  "tagline": "The 1961 original that named a whole chain — oil derricks, the Shock Wave loops, and the ride that started the hybrid-coaster era.",
+  "summary": "Six Flags Over Texas in Arlington is the first park of the entire chain, opened in 1961, and it still carries the flagship's history: the tower, the Spain and Old South sections, and the New Texas Giant, the coaster whose 2011 rebirth launched the modern wooden-hybrid movement.",
+  "intro": [
+    "Six Flags Over Texas opened in August 1961 and became the name of the largest regional park company in the world. The park was built around a Texas-history theme — six flags, six nations — and pieces of that original vision survive in the Spain section, the tower, and the oil-derrick skyline that reads as retro now because everyone copied it later.",
+    "The coaster lineup is deeper than the park's regional reputation suggests. The New Texas Giant was the world's first major wooden-to-steel hybrid when it reopened in 2011, and it started the Rocky Mountain Construction era that gave America Twisted Colossus, Goliath at Great America and Iron Rattler down the road in San Antonio. Titan answers with sheer size — a 245-foot drop — and Mr. Freeze's dual shuttle tracks deliver the launch thrills.",
+    "Arlington is Dallas–Fort Worth's entertainment strip, and the park sits between a stadium and a ballpark in the flattest, hottest kind of Texas. Summer days run 95-plus, the coasters close for lightning on distant radar, and the civilized windows are March through May and late September through October — when the fall haunt takes the weekends."
+  ],
+  "bestFor": [
+    "Coaster enthusiasts",
+    "Texas families",
+    "First theme park visits",
+    "Hybrid-coaster pilgrims"
+  ],
+  "notIdealFor": [
+    "Families with children under 42 inches",
+    "Summer heat-avoiders",
+    "Show-driven visitors"
+  ],
+  "stats": {
+    "attractionCount": 8,
+    "ridesWithHeightRequirements": 5,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "8–10 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "entrance-plaza",
+      "name": "Entrance Plaza",
+      "order": 1,
+      "opened": 1961,
+      "summary": "The original front gate, where the park's Texas-history theming is still visible and the tower anchors the skyline.",
+      "description": [
+        "The entrance plaza is the oldest-feeling part of the park: the front gate's porches and the tower beyond them date to the earliest era, and the walk in passes the original theming that the chain's newer parks never had. Guests arriving here are walking through the prototype every other Six Flags was cloned from.",
+        "The plaza also holds guest services, lockers and the park's main meeting spots. The coaster action starts behind it — this is logistics territory, worth one slow look at the 1961 bones on the way through."
+      ],
+      "vibe": "Historic front-porch Texas: flags, fountains, and the tower over everything.",
+      "anchorAttraction": "texas-skyscreamer",
+      "highlights": [
+        "The original 1961 entrance theming",
+        "The tower skyline view from the gate"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Grab the park map here but plan around the back loop — the headliners sit deep in the park, not at the entrance."
+      ]
+    },
+    {
+      "slug": "tower-section",
+      "name": "Tower Section",
+      "order": 2,
+      "summary": "The heart of the park under the tower, where Titan's 245-foot drop and the classic flat rides share the original core.",
+      "description": [
+        "The tower section is the park's geographic center and holds its biggest single thrill: Titan, a Giovanola hypercoaster whose 245-foot drop and helix sequence make it one of the most forceful rides in Texas. The queue's scale matches the ride's — this is where the biggest lines live on summer days.",
+        "Around Titan the section carries classic flat rides and the tower itself. It is the natural midday zone: central, loud, and the place the crowd funnels through between the park's two far corners."
+      ],
+      "vibe": "Big-coaster heartland: a 245-foot first drop visible from three sections away.",
+      "anchorAttraction": "titan",
+      "highlights": [
+        "Titan's drop and helixes",
+        "The tower view over the whole park"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Titan first or last — midday its queue is the park's longest.",
+        "The tower observation deck is the one non-coaster worth the time; it is the best park overview in Texas."
+      ]
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "order": 3,
+      "summary": "The oldest themed section, where the 1961 Spain theming frames the park's two classic coasters.",
+      "description": [
+        "Spain is the survivor: the section retains its original architecture and atmosphere from the park's themed beginnings, and it wraps two generations of coaster history — the Runaway Mine Train, one of the oldest continuously running mine trains anywhere, and the Judge Roy Scream woodie across the water.",
+        "This is the quietest, shadiest corner of the park and the best midday retreat. The mine train's 1966 date makes it older than most of the park's guests' parents."
+      ],
+      "vibe": "Old-theme-park Spain: white plaster, shade trees, and a 1966 mine train rattling past.",
+      "anchorAttraction": "runaway-mine-train",
+      "highlights": [
+        "Runaway Mine Train, the 1966 original",
+        "Judge Roy Scream across the lagoon",
+        "The best shade in the park"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Do Spain at midday — the classics here run short queues while Titan bakes.",
+        "The mine train is the park's best first-coaster for kids; the tunnel is the thrill."
+      ]
+    },
+    {
+      "slug": "gotham-city",
+      "name": "Gotham City",
+      "order": 4,
+      "summary": "The villain-and-hero corner, where Mr. Freeze's twin shuttle spikes and the Joker's freespin run back to back.",
+      "description": [
+        "Gotham City is the park's thrill corner: Mr. Freeze's dual launched shuttle tracks fire riders up twin spikes and back, and the modern 4D-freespin spinners join it. The theming leans into the DC universe harder than anywhere else at the park.",
+        "Mr. Freeze is the section's reason — the launch is one of the most violent accelerations at any Six Flags, and the dual-track layout means the queue moves in double-time when both sides run."
+      ],
+      "vibe": "Dark-palette thrill corner: launch noise, painted concrete, and villains on the signage.",
+      "anchorAttraction": "mr-freeze-reverse-blast",
+      "highlights": [
+        "Mr. Freeze's twin launches",
+        "The freespin spinners",
+        "The most intense acre at the park"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Mr. Freeze early — its queue is short but the launch tolerance is not; do it before the heat.",
+        "Front row on Freeze for the spike view; the backwards return is the whole point."
+      ]
+    },
+    {
+      "slug": "boomtown",
+      "name": "Boomtown",
+      "order": 5,
+      "summary": "The Texas-oil theming section, where the Shock Wave's twin loops have defined the skyline since 1978.",
+      "description": [
+        "Boomtown is where the park's oil-heritage theming plays out in derricks and mining facades, and its landmark is the Shock Wave — the 1978 Schwarzkopf double-loop coaster whose back-to-back loops are visible from the highway and have been the park's postcard for nearly fifty years.",
+        "The section also holds family flat rides and the boardwalk games. Shock Wave at 42 inches is the section's entry point for the coaster-curious — a genuine classic at a genuinely low height bar."
+      ],
+      "vibe": "Oil-boom Texas theming with a 1978 loop coaster holding the skyline.",
+      "anchorAttraction": "shock-wave",
+      "highlights": [
+        "Shock Wave's back-to-back loops",
+        "Oil derrick theming",
+        "The 42-inch classic-coaster entry"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Shock Wave is short and fast — ride it multiple times in the morning lull.",
+        "This section is the best answer for mixed groups: classics for the cautious, loops for the keen."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Over Texas is a loop park around a central tower, and the headliners sit in three different corners of it: Titan at the tower, Mr. Freeze in Gotham, and the New Texas Giant in the back. The plan is a loop, not a shuttle.",
+      "Heat shapes the day more than crowds do in summer. The park's own shade map is Spain and Boomtown; the tower section is exposed, and Titan's queue is the one that punishes a noon arrival."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Check the operating calendar",
+        "body": "This park runs a genuinely seasonal schedule with many weekdays dark outside summer and holiday weeks. Verify your date before booking — the chain's calendars shift year to year."
+      },
+      {
+        "title": "Plan around the heat",
+        "body": "June through August, arrive at open, ride the exposed coasters before noon, and take the shaded classics in the middle of the day. The evening re-ride window after six is the park's best-kept secret."
+      },
+      {
+        "title": "The Flash Pass maths",
+        "body": "Weekends in haunt-season weekends justify the line-skip product; spring weekdays rarely do. The pricing guide on this site has the current tiers."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Go right, not straight: the crowd floods to Titan at the tower. Save it for later."
+      },
+      {
+        "time": "First hour",
+        "body": "Mr. Freeze in Gotham City — the launch on an empty stomach, then the freespin next door."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "The New Texas Giant in the back corner before its queue matures."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "Noon",
+        "body": "Lunch early, then Spain: the mine train, Judge Roy Scream, and shade."
+      },
+      {
+        "time": "Early afternoon",
+        "body": "Shock Wave in Boomtown and the boardwalk flats — the classic-coaster hour."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "Late afternoon",
+        "body": "Titan when the sun drops — its queue thins and the helix is better without heat exhaustion."
+      },
+      {
+        "time": "Last hour",
+        "body": "Re-rides on whatever earned them. The Giant at night is the park's best close."
+      }
+    ],
+    "rookieMistakes": [
+      "Queueing for Titan at noon in July — the line is longest and the queue is the least shaded.",
+      "Skipping Shock Wave because it looks old. The loops are the point.",
+      "Assuming the park is walkable from Arlington hotels. It is not; drive or rideshare.",
+      "Missing the mine train's history — it is one of the oldest running coasters in the country."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Mr. Freeze first at rope drop.",
+      "The New Texas Giant mid-morning.",
+      "Shock Wave and the Boomtown classics after lunch.",
+      "Spain's mine train and Judge Roy Scream in the shade hour.",
+      "Titan after 16:00.",
+      "The Giant again at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is flat by coaster-park standards — the loop has no Magic-Mountain-style grades — which makes chair and ECV navigation straightforward on the main midway. The trade is Texas heat: shade is scarce in the tower section and the coaster queues are mostly outdoors.",
+      "Six Flags' ride-access program requires advance registration through the company's accessibility intake, and the process has changed more than once in recent years. Confirm the current requirements on Six Flags' own accessibility pages before visiting."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Near the front gate",
+      "priceNote": "Confirm current pricing at the park",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Near the front gate",
+      "priceNote": "Limited quantity on peak days",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Front gate area",
+      "priceNote": "Single and double",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Near the front gate guest services",
+      "Spain section"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Spain courtyard",
+        "where": "Spain section",
+        "note": "The shadiest, quietest themed corner; benches under mature trees."
+      },
+      {
+        "name": "First aid",
+        "where": "Near the entrance plaza",
+        "note": "Air-conditioned; staff are accustomed to sensory-break requests."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Designated areas near the front gate — confirm locations at guest services"
+    ],
+    "sensoryNotes": [
+      "Mr. Freeze's launch is abrupt and loud; riders with startle sensitivity should sit mid-train.",
+      "The fall haunt overlay adds scare actors along midways after dark in season.",
+      "The tower section concentrates ride noise from three directions."
+    ],
+    "mobilityNotes": [
+      "The park loop is roughly a mile and a half; the far corners (Gotham, the Giant) are a real walk from the gate.",
+      "All listed coasters require transfer from a chair or ECV to the ride seat.",
+      "Spain and Boomtown have the most bench rest per square foot; the tower section the least."
+    ],
+    "visionHearingNotes": [
+      "Ride spiels are audio-based; hosts repeat boarding instructions on request.",
+      "Assistive listening devices subject to availability at guest services."
+    ]
+  },
+  "tips": [
+    {
+      "title": "The spring and autumn windows are the park's real season",
+      "body": "March through May and late September through October combine full operation with survivable heat. Summer visits work with an open-close-evening rhythm, but the park is a different, better thing in the shoulder months."
+    },
+    {
+      "title": "Titan's queue is a sun trap",
+      "body": "Do it in the first hour or after four. The ride is worth either end of the day and miserable at noon in July."
+    },
+    {
+      "title": "The mine train is a museum ride",
+      "body": "Runaway Mine Train has run since 1966 and is one of the oldest operating coasters in America. Ride it for the history even if the kids' coaster tier is behind you."
+    },
+    {
+      "title": "Haunt-season weekends change the calculus",
+      "body": "The haunt overlay brings the year's biggest crowds. Flash Pass pricing peaks with them — the line-skip guide has the seasonal numbers."
+    },
+    {
+      "title": "Arlington logistics",
+      "body": "The park sits in the entertainment district between the stadiums. Hotels within a short drive are plentiful and mid-priced; walking-distance options are effectively none."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best coaster at Six Flags Over Texas?",
+      "a": "The New Texas Giant. Its 2011 conversion launched the entire modern hybrid-coaster era, and the ride still holds up: steep drops, banked turns and airtime on a wooden structure. Titan is bigger and Mr. Freeze is more violent, but the Giant is the best overall package."
+    },
+    {
+      "q": "Can you do Over Texas in one day?",
+      "a": "Yes, comfortably on a weekday. The park is a loop with a deep-but-not-huge coaster lineup; a rope-drop-to-close day covers everything with re-rides. Summer Saturdays and haunt nights are the exceptions where the line-skip arithmetic starts mattering."
+    },
+    {
+      "q": "What are the height requirements at Over Texas?",
+      "a": "The big tier: New Texas Giant and Titan at 48 inches, Mr. Freeze at 54. Shock Wave at 42 inches is the classic-coaster entry. The mine train and family rides sit lower — check specific attractions before promising a short rider, and treat any third-party figure as unverified until the park's own page confirms it."
+    },
+    {
+      "q": "When does the fall haunt run at Over Texas?",
+      "a": "The fall haunt runs weekends from mid-September through Halloween most years, with scare overlays after dark and upcharged mazes. Dates change annually — the Halloween section of this site carries the current expectation with a confidence label, and the park's own calendar is the source of record."
+    },
+    {
+      "q": "Is the Flash Pass worth it here?",
+      "a": "On spring weekdays, rarely. On summer weekends and haunt nights, the top tier transforms the day and is priced like it. The line-skip guide on this site prices the tiers as of July 2026 and names which rides it helps most."
+    },
+    {
+      "q": "What airport serves the park?",
+      "a": "Dallas–Fort Worth International (DFW) is closest, about twenty minutes north of Arlington. Dallas Love Field (DAL) works too. The park is squarely car country — plan on driving or rideshares."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Large lots off Road to Six Flags; preferred rows near the gate. Trams serve the far rows on peak days.",
+    "transportation": [
+      "By car: between Dallas and Fort Worth on the entertainment strip, off I-30 and TX-360. Thirty minutes from downtown Dallas without traffic.",
+      "By rideshare: well-served, with a designated drop-off at the main gate.",
+      "Public transit is effectively not a real option; this is a drive-in park."
+    ],
+    "entranceNote": "Security screening sits outside the original front gate. The 1961 plaza beyond it is worth the thirty-second look on the way in."
+  },
+  "lastVerified": "2026-07"
+}

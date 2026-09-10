@@ -1,0 +1,97 @@
+{
+  "month": 7,
+  "name": "July",
+  "slug": "july",
+  "summary": "The peak: every park at maximum crowd, maximum price and maximum heat, with July Saturdays the busiest single days most of these parks see all year.",
+  "verdict": {
+    "grade": "C-",
+    "short": "July at these parks: a peak-crowd month that rewards a specific plan. The peak: every park at maximum crowd, maximum price and maximum heat, with July Saturdays the busiest single days most of these parks see all year..",
+    "bestFor": [
+      "Water-park-first days",
+      "Evening-hours strategy"
+    ],
+    "worstFor": [
+      "Everything else"
+    ]
+  },
+  "crowds": {
+    "level": "peak",
+    "shape": "The peak: every park at maximum crowd, maximum price and maximum heat, with July Saturdays the busiest single days most of these parks see all year.",
+    "peakWindows": [
+      "Every Saturday, and the July Fourth week"
+    ],
+    "quietWindows": [
+      "Tuesday and Wednesday mornings"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 84,
+      "lowF": 63,
+      "rainDays": 0,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 92,
+      "lowF": 74,
+      "rainDays": 14,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 96,
+      "lowF": 73,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 87,
+      "lowF": 65,
+      "rainDays": 8,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 84,
+      "lowF": 63,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "peak",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "July Fourth week is the single most crowded week of the year at most parks on this site; any other week is an improvement."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "The evening window — the last two hours — recovers much of the day: the family exodus at dinner is real and the queues follow it."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "park": "six-flags-over-texas",
+  "items": [
+    {
+      "id": "sfot-brisket-plate",
+      "name": "Brisket plate",
+      "restaurant": "JB's Smokehouse",
+      "restaurantSlug": "jbs-smokehouse-sfot",
+      "land": "tower-section",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Sliced brisket with sides at the tower smokehouse — barbecue in Texas, judged accordingly.",
+      "verdict": "Good by theme-park standards, mid by state standards. Eat it for the calories and the AC, not the craft.",
+      "image": null
+    },
+    {
+      "id": "sfot-fried-chicken-basket",
+      "name": "Fried chicken basket",
+      "restaurant": "Old South Fried Chicken",
+      "restaurantSlug": "old-south-fried-chicken",
+      "land": "spain",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": [],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Fried chicken with fries in the Spain section's air conditioning — the family lunch default.",
+      "verdict": "Solid, hot, and served in the right building during the right hours.",
+      "image": null
+    },
+    {
+      "id": "sfot-churro",
+      "name": "Churro",
+      "restaurant": "Spain Churro Cart",
+      "restaurantSlug": "spain-churro-cart",
+      "land": "spain",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["vegetarian"],
+      "iconic": true,
+      "mustTry": 4,
+      "shareable": false,
+      "portable": true,
+      "seasonal": false,
+      "description": "Hot cinnamon-sugar churro from the Spain cart, eaten on a shaded bench between classic coasters.",
+      "verdict": "The park's best walking snack by a mile — location does half the work.",
+      "image": null
+    }
+  ]
+}
