@@ -11,19 +11,29 @@
   "title": "Halloween Horror Nights Hollywood",
   "titleTail": ": Dates, Prices & Verdict",
   "description": "Universal Studios Hollywood's hard-ticket horror event: mazes, the Terror Tram, last cycle's price band, which nights to buy, and who should skip it.",
-
   "typicalWindow": {
     "startsAround": "early September",
     "endsAround": "the first weekend of November",
     "nightsTypical": 30,
-    "nightsRange": [25, 38],
-    "daysOfWeek": ["Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      25,
+      38
+    ],
+    "daysOfWeek": [
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Roughly 19:00 to 01:00 on most nights and later on peak weekend dates, with the park closing to daytime guests in the early evening and reopening as a ticketed event"
   },
-
   "pricing": {
     "model": "per-night",
-    "rangeUsd": [69, 179],
+    "rangeUsd": [
+      69,
+      179
+    ],
     "asOf": "2025 season",
     "cheapestNights": "Weeknights in the first two weeks of the run",
     "priciestNights": "October Fridays and Saturdays, and Halloween night itself",
@@ -35,7 +45,6 @@
       "Annual and Season Pass holders have had discounted dates and earlier purchase windows in past seasons, and those have not extended to the peak October weekends."
     ]
   },
-
   "whatYouGet": [
     "Around eight walk-through mazes, spread across the Upper Lot, the Lower Lot, and the backlot, built and staffed to the same standard as the Orlando event on a smaller footprint.",
     "The Terror Tram, which runs the Studio Tour route on foot rather than by tram for part of its length and puts you out on the working backlot in the dark. Nothing at any other park does this, and it is the single reason to pick Hollywood over Orlando.",
@@ -44,7 +53,6 @@
     "Event-only bars and food stands, and a seasonal retail build-out on the Upper Lot.",
     "A way to stay inside the park through the changeover if you also hold a daytime ticket, rather than leaving and rejoining the event queue outside."
   ],
-
   "whatYouDont": [
     "A family event. Universal's guidance is that this is not recommended for anyone under thirteen. There is no age limit at the gate and no ID check, so the call belongs to the adult buying the ticket, and the content does not soften for a younger guest.",
     "A costume night. Costumes, masks, and face paint are not permitted for guests. Several hundred of the people around you are performers, and the event depends on that being unambiguous.",
@@ -54,7 +62,6 @@
     "A refund or a rain check. The event runs in rain; the indoor mazes hold up and the outdoor scare zones and the Terror Tram are what get thin.",
     "The maze lineup at the point of sale. Universal announces mazes in stages through the summer, so an early ticket is bought on the event's record rather than on its content."
   ],
-
   "verdict": {
     "short": "Go for the Terror Tram, go on an early-run weeknight, and buy Express Pass if the only date you can get is in October. It is a real horror event and it is not for children.",
     "worthItIf": [
@@ -72,7 +79,6 @@
       "Your only date is an October Saturday and Express Pass is out of budget. That combination reliably produces an expensive night with four mazes in it."
     ]
   },
-
   "strategy": [
     {
       "heading": "The Lower Lot first, then everything else",
@@ -111,7 +117,6 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Is Halloween Horror Nights Hollywood suitable for children?",
@@ -146,26 +151,67 @@
       "a": "No. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, maze lineup, or on-sale timing, so none are stated here. The stable shape is select nights at Universal Studios Hollywood from early September to the first weekend of November, on a run in the high twenties to mid thirties of nights, with around eight mazes plus the Terror Tram."
     }
   ],
-
   "crossLinks": [
-    { "label": "Universal Studios Hollywood park guide", "href": "/universal-hollywood/universal-studios-hollywood/", "site": 1 },
-    { "label": "Universal Studios Hollywood ride list", "href": "/universal-hollywood/universal-studios-hollywood/rides/", "site": 1 },
-    { "label": "Lower Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/lower-lot/", "site": 1 },
-    { "label": "Upper Lot", "href": "/universal-hollywood/universal-studios-hollywood/lands/upper-lot/", "site": 1 },
-    { "label": "Universal Studios Hollywood height requirements", "href": "/universal-hollywood/universal-studios-hollywood/height-requirements/", "site": 1 },
-    { "label": "Universal Studios Hollywood park map", "href": "/universal-hollywood/universal-studios-hollywood/map/", "site": 1 }
+    {
+      "label": "Universal Studios Hollywood park guide",
+      "href": "/universal-hollywood/universal-studios-hollywood/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood ride list",
+      "href": "/universal-hollywood/universal-studios-hollywood/rides/",
+      "site": 1
+    },
+    {
+      "label": "Lower Lot",
+      "href": "/universal-hollywood/universal-studios-hollywood/lands/lower-lot/",
+      "site": 1
+    },
+    {
+      "label": "Upper Lot",
+      "href": "/universal-hollywood/universal-studios-hollywood/lands/upper-lot/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood height requirements",
+      "href": "/universal-hollywood/universal-studios-hollywood/height-requirements/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Hollywood park map",
+      "href": "/universal-hollywood/universal-studios-hollywood/map/",
+      "site": 1
+    }
   ],
-
   "related": [
     "halloween-horror-nights-orlando",
     "grinchmas-at-universal-hollywood"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "September 3 – November 1, 2026 (select nights)",
+      "startDate": "2026-09-03",
+      "endDate": "2026-11-01",
+      "changes": [
+        "HHN 2026 Hollywood: 8 haunted houses, 7 scare zones, Terror Tram. Confirmed houses include Sinners (different from Orlando's version), plus IP houses. Select nights September 3 through November 1."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates from Universal's official HHN site and the NBCUniversal complete guide, viewed September 2026. Cross-checked against Orlando Informer, TouringPlans, Undercover Tourist, and Haunted Attraction Network.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
-      "priceRangeUsd": [69, 179],
+      "priceRangeUsd": [
+        69,
+        179
+      ],
       "changes": [
         "The event again ran select nights from early September to the first weekend of November, on a run in the low thirties of nights.",
         "The Terror Tram returned, as it has every season, with a fresh theme rather than a repeat of the previous year's.",
@@ -180,12 +226,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The event has run at Universal Studios Hollywood on select nights from early September to the first weekend of November for more than a decade, with around eight mazes and the Terror Tram every season. That pattern is strong enough to plan around. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, maze lineup, or on-sale timing, so this page states the pattern and the last documented cycle's price band only, and names no mazes.",
-    "reviewBy": "2026-09",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates officially announced. See the 2026 edition below.",
+    "reviewBy": "2026-12",
     "cycle": "annual"
   }
 }

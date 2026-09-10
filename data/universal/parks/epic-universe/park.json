@@ -35,7 +35,7 @@
   ],
   "stats": {
     "attractionCount": 21,
-    "ridesWithHeightRequirements": 7,
+    "ridesWithHeightRequirements": 8,
     "tallestRequirement": 48,
     "typicalFullDayHours": "10–12 hours",
     "minimumDaysRecommended": 1
@@ -76,7 +76,7 @@
     },
     {
       "slug": "ministry-of-magic",
-      "name": "The Wizarding World of Harry Potter – Ministry of Magic",
+      "name": "Ministry of Magic — Epic Universe",
       "order": 2,
       "opened": 2025,
       "summary": "1920s Paris on the surface and the French Ministry of Magic underneath, with the park's most technically ambitious ride and a theater show people do not expect.",
