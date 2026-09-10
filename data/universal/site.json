@@ -82,6 +82,58 @@
         1280
       ],
       "note": "Open Graph / Twitter card, 1.91:1."
+    },
+    "universal-studio-backlot": {
+      "file": "universal-studio-backlot",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (Universal batch, generated externally, IP-checked): alt empty on purpose. A movie studio backlot at dusk: soundstage facades, grip equipment silhouettes, a distant coaster against a deep indigo sky."
+    },
+    "universal-express-lane": {
+      "file": "universal-express-lane",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (Universal batch, generated externally, IP-checked): alt empty on purpose. An empty express lane at a theme park ride with string lights overhead, contrasting with a crowded regular queue in soft-focus."
+    },
+    "universal-food-flatlay": {
+      "file": "universal-food-flatlay",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (Universal batch, generated externally, IP-checked): alt empty on purpose. Overhead flat-lay on dark wood: a frothy beverage in a plain glass tankard, a large pretzel, round candy. All conventional shapes."
+    },
+    "universal-resort-lagoon": {
+      "file": "universal-resort-lagoon",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "focal": "50% 55%",
+      "note": "Decorative (Universal batch, generated externally, IP-checked): alt empty on purpose. A central lagoon at a theme park resort at night, reflecting lights from surrounding attractions, with a distant volcano silhouette."
     }
   },
   "author": {
