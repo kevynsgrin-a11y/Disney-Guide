@@ -220,11 +220,17 @@ var RiderProfiles = (function () {
     if (!table) return
     var riders = store.all()
     if (!riders.length) return
+    var payload = payloadFromDOM()
     var note = document.createElement('p')
     note.className = 'rider-note muted'
     note.textContent = 'Showing status for ' + (riders.length === 1 ? riders[0].name : riders.length + ' saved riders') +
       ' — heights stay on this device. Manage them in My Riders.'
     table.parentNode.insertBefore(note, table)
+    if (payload && riders.length) {
+      var ruler = document.createElement('div')
+      ruler.innerHTML = familyRulerHTML(riders, payload)
+      while (ruler.firstChild) table.parentNode.insertBefore(ruler.firstChild, table)
+    }
     // Decorate with the tallest saved rider by default: one label set per row, least noise.
     var primary = riders.slice().sort(function (a, b) { return b.heightIn - a.heightIn })[0]
     decorateTable(table, primary)
@@ -260,6 +266,101 @@ var RiderProfiles = (function () {
       })
   }
 
+  /**
+   * The ruler: this site's own height ladder (its distinct posted minimums,
+   * ascending) with the rider's marker placed between the rungs they clear
+   * and the rungs they do not. Each rung names what unlocks there and, for
+   * rungs ahead, the projected month range. This is the artifact families
+   * screenshot — so it says the honest thing in the honest shape: a range,
+   * never a date.
+   */
+  function rulerHTML (rider, payload) {
+    var thresholds = []
+    payload.attractions.forEach(function (a) {
+      if (a.h != null && thresholds.indexOf(a.h) === -1) thresholds.push(a.h)
+    })
+    thresholds.sort(function (a, b) { return a - b })
+    if (thresholds.length < 2) return '' // a one-rung ladder is not a ladder
+
+    var band = growthBand(ageAt(rider.birthday))
+    var rows = ''
+    for (var i = thresholds.length - 1; i >= 0; i--) {
+      var t = thresholds[i]
+      var unlocks = payload.attractions.filter(function (a) { return a.h === t }).length
+      var state = rider.heightIn >= t ? 'cleared' : 'ahead'
+      var when = ''
+      if (state === 'ahead') {
+        var p = projectToHeight(t, rider.heightIn, band, rider.measuredOn)
+        if (p.soonest) when = p.soonest === p.latest ? '~' + p.soonest : '~' + p.soonest + ' – ' + p.latest
+        else when = 'years away'
+      }
+      rows += '<li class="ruler__rung ruler__rung--' + state + '">' +
+        '<span class="ruler__tick" aria-hidden="true"></span>' +
+        '<span class="ruler__label"><strong>' + t + ' in</strong> · ' + unlocks + ' ride' + (unlocks === 1 ? '' : 's') + ' unlock' + (unlocks === 1 ? 's' : '') + '</span>' +
+        (state === 'cleared'
+          ? '<span class="ruler__state ruler__state--cleared">Cleared</span>'
+          : '<span class="ruler__state ruler__state--ahead">' + when + '</span>') +
+        '</li>'
+      // The marker sits between the last rung cleared and the first rung ahead:
+      // after rung t in DOM order (which renders top-down) for a height in
+      // [rung below t, t); below the shortest rung for anything under it.
+      var floor = i === 0 ? -Infinity : thresholds[i - 1]
+      if (rider.heightIn < t && rider.heightIn >= floor) {
+        rows += '<li class="ruler__marker" aria-label="' + esc(rider.name) + ' measures ' + rider.heightIn + ' inches">' +
+          '<span class="ruler__marker-line" aria-hidden="true"></span>' +
+          '<span class="ruler__marker-label">' + esc(rider.name) + ' — ' + rider.heightIn + ' in, measured ' + esc(rider.measuredOn) + '</span>' +
+        '</li>'
+      }
+    }
+    return '<div class="rider-ruler" role="img" aria-label="Height ladder for ' + esc(rider.name) + ': ' +
+      thresholds.join(', ') + ' inches. ' + esc(rider.name) + ' measures ' + rider.heightIn + ' inches.">' +
+      '<ol class="ruler__rungs">' + rows + '</ol></div>'
+  }
+
+  /**
+   * The family view for park height pages: one ruler, neutral rungs, a marker
+   * per saved rider placed by height. Two kids, one picture of where the
+   * family stands on this park's ladder.
+   */
+  function familyRulerHTML (riders, payload) {
+    var thresholds = []
+    payload.attractions.forEach(function (a) {
+      if (a.h != null && thresholds.indexOf(a.h) === -1) thresholds.push(a.h)
+    })
+    thresholds.sort(function (a, b) { return a - b })
+    if (thresholds.length < 2) return ''
+
+    function markersBetween (lo, hi) { // riders measuring in [lo, hi)
+      return riders
+        .filter(function (r) { return r.heightIn >= lo && r.heightIn < hi })
+        .sort(function (a, b) { return b.heightIn - a.heightIn })
+    }
+    function markerRow (r) {
+      return '<li class="ruler__marker" aria-label="' + esc(r.name) + ' measures ' + r.heightIn + ' inches">' +
+        '<span class="ruler__marker-line" aria-hidden="true"></span>' +
+        '<span class="ruler__marker-label">' + esc(r.name) + ' — ' + r.heightIn + ' in</span>' +
+      '</li>'
+    }
+
+    // Riders taller than every rung stand above the ladder — their markers
+    // render before the first (tallest) rung, not appended beneath it.
+    var rows = markersBetween(thresholds[thresholds.length - 1], Infinity).map(markerRow).join('')
+    for (var i = thresholds.length - 1; i >= 0; i--) {
+      var t = thresholds[i]
+      var unlocks = payload.attractions.filter(function (a) { return a.h === t }).length
+      var below = i === 0 ? -Infinity : thresholds[i - 1]
+      rows += '<li class="ruler__rung">' +
+        '<span class="ruler__tick" aria-hidden="true"></span>' +
+        '<span class="ruler__label"><strong>' + t + ' in</strong> · ' + unlocks + ' ride' + (unlocks === 1 ? '' : 's') + ' unlock' + (unlocks === 1 ? 's' : '') + '</span>' +
+        '</li>'
+      markersBetween(below, t).forEach(function (r) { rows += markerRow(r) })
+    }
+    var names = riders.map(function (r) { return esc(r.name) + ' at ' + r.heightIn + ' in' }).join(', ')
+    return '<div class="rider-ruler rider-ruler--family" role="img" aria-label="Height ladder: ' +
+      thresholds.join(', ') + ' inches. Riders: ' + names + '.">' +
+      '<ol class="ruler__rungs">' + rows + '</ol></div>'
+  }
+
   function riderCard (rider, payload) {
     var age = ageAt(rider.birthday)
     var parks = parkSummary(rider, payload)
@@ -276,6 +377,7 @@ var RiderProfiles = (function () {
           '<button class="btn btn--ghost" type="button" data-remove-rider="' + esc(rider.id) + '">Remove</button>' +
         '</div>' +
       '</header>' +
+      rulerHTML(rider, payload) +
       '<p class="rider-card__verdict">Clears <strong>' + totalNow + '</strong> posted height requirements across this site' +
         (ladder.length ? '. Next unlocks:' : ' — every posted requirement on this site.') + '</p>' +
       (ladder.length ? '<ol class="rider-ladder">' + ladder.map(function (s) {
@@ -381,7 +483,7 @@ var RiderProfiles = (function () {
     if (hook) attachSaveHook(hook, document.querySelector('[data-height-value]'))
   }
 
-  return { math: math, store: store, renderWatch: renderWatch, _internals: { nearestMiss: nearestMiss, ladderFor: ladderFor, riderCard: riderCard } , init: init }
+  return { math: math, store: store, renderWatch: renderWatch, _internals: { nearestMiss: nearestMiss, ladderFor: ladderFor, riderCard: riderCard, rulerHTML: rulerHTML, familyRulerHTML: familyRulerHTML } , init: init }
 })()
 
 if (typeof document !== 'undefined') {

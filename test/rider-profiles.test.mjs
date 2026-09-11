@@ -151,3 +151,70 @@ test('the engine degrades silently with no riders — the watch stays hidden and
   assert.equal(mount.hidden, true)
   assert.equal(mount.innerHTML, '')
 })
+
+/* ---------- the ruler: the passport's signature visualization ---------- */
+
+const PAYLOAD = {
+  myRidersUrl: '/tools/my-riders/',
+  attractions: [
+    { n: 'Ninja', h: 42, p: 'Magic Mountain', u: '/mm/' },
+    { n: 'Goliath', h: 48, p: 'Magic Mountain', u: '/mm/' },
+    { n: 'X2', h: 48, p: 'Magic Mountain', u: '/mm/' },
+    { n: 'Tatsu', h: 54, p: 'Magic Mountain', u: '/mm/' },
+  ],
+}
+
+test('the card ruler draws every rung, tallest first, with the marker between cleared and ahead', () => {
+  const rider = { id: 'r1', name: 'Maya', birthday: '2019-04-10', heightIn: 46, measuredOn: '2026-09-11' }
+  const html = RiderProfiles._internals.rulerHTML(rider, PAYLOAD)
+  assert.match(html, /class="ruler__rung ruler__rung--cleared"/) // 42 cleared
+  assert.match(html, /42 in<\/strong> · 1 ride unlocks/) // count at the rung
+  assert.match(html, /48 in<\/strong> · 2 rides unlock/)
+  assert.match(html, /ruler__rung--ahead/) // 48 and 54 ahead
+  assert.match(html, /Maya — 46 in, measured 2026-09-11/)
+  // Marker placement: exactly one marker, between the 48 and 42 rungs (not above 48)
+  const markerAt = html.indexOf('ruler__marker"')
+  const rung48 = html.indexOf('48 in<')
+  const rung42 = html.indexOf('42 in<')
+  assert.ok(rung48 > -1 && rung42 > -1 && markerAt > rung48 && markerAt < rung42,
+    'the marker renders between the first ahead rung and the last cleared rung')
+  // Projections on ahead rungs are ranges, and rider names are escaped into labels
+  assert.match(html, /role="img"/)
+})
+
+test('the card ruler clears every rung and says nothing false', () => {
+  const tall = { id: 'r2', name: 'Dad', birthday: null, heightIn: 60, measuredOn: '2026-09-11' }
+  const html = RiderProfiles._internals.rulerHTML(tall, PAYLOAD)
+  assert.ok(!html.includes('ruler__marker'), 'a rider above every rung gets no marker — they stand at the top')
+  assert.ok((html.match(/ruler__rung--cleared/g) || []).length === 3)
+})
+
+test('a one-rung ladder is not a ladder — the ruler declines to render', () => {
+  const single = { myRidersUrl: '/x/', attractions: [{ n: 'Only', h: 48, p: 'P', u: '/p/' }] }
+  assert.equal(RiderProfiles._internals.rulerHTML({ name: 'A', heightIn: 46 }, single), '')
+})
+
+test('the family ruler places every rider marker between the right rungs, tallest first', () => {
+  const riders = [
+    { id: 'a', name: 'Leo', heightIn: 55, measuredOn: '2026-09-11' },
+    { id: 'b', name: 'Maya', heightIn: 46, measuredOn: '2026-09-11' },
+    { id: 'c', name: 'Ivy', heightIn: 41, measuredOn: '2026-09-11' },
+  ]
+  const html = RiderProfiles._internals.familyRulerHTML(riders, PAYLOAD)
+  // Leo (55) stands above the 54 rung — his marker must precede the first rung in the DOM
+  assert.ok(html.indexOf('Leo — 55 in') < html.indexOf('54 in<'), 'Leo renders above the 54 rung')
+  assert.ok(html.indexOf('Maya — 46 in') > html.indexOf('48 in<') && html.indexOf('Maya — 46 in') < html.indexOf('42 in<'))
+  assert.ok(html.indexOf('Ivy — 41 in') > html.indexOf('42 in<'), 'Ivy renders below the shortest rung')
+  // Names are user input and must be escaped everywhere they render
+  const hostile = [{ id: 'x', name: '<script>x</script>', heightIn: 46, measuredOn: '2026-09-11' }]
+  const safe = RiderProfiles._internals.familyRulerHTML(hostile, PAYLOAD)
+  assert.ok(!safe.includes('<script>'), 'rider names are escaped in the ruler')
+})
+
+test('rider cards now carry the ruler between the header and the verdict', () => {
+  store.save({ name: 'Maya', birthday: '2019-04-10', heightIn: 46, measuredOn: '2026-09-11' })
+  const card = RiderProfiles._internals.riderCard(store.all()[0], PAYLOAD)
+  assert.match(card, /rider-ruler/)
+  assert.ok(card.indexOf('rider-ruler') < card.indexOf('rider-card__verdict'))
+  store.remove(store.all()[0].id)
+})

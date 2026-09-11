@@ -882,12 +882,46 @@ main:focus { outline: none; }
 .rider-print-row { margin-top: var(--space-4); }
 .hchecker__save-rider { margin-top: var(--space-2); }
 
+/* The ruler: a literal height ladder, tallest rung first, marker where the
+   rider stands. Ticks encode state by shape as well as color — cleared rungs
+   fill their tick, ahead-of-them rungs hollow it, the marker is a labeled
+   line the whole width of the rail. */
+.rider-ruler { margin-block: var(--space-1) var(--space-3); }
+.ruler__rungs { list-style: none; margin: 0; padding: 0; position: relative; }
+.ruler__rungs::before {
+  content: ''; position: absolute; left: .42rem; top: .35rem; bottom: .35rem;
+  width: 2px; background: var(--line-strong); border-radius: 1px;
+}
+.ruler__rung { display: flex; align-items: center; gap: var(--space-3); padding-block: .32rem; position: relative; }
+.ruler__tick {
+  flex: none; width: .9rem; height: .9rem; border-radius: 50%;
+  border: 2px solid var(--line-strong); background: var(--surface);
+  position: relative; z-index: 1;
+}
+.ruler__rung--cleared .ruler__tick { background: var(--good); border-color: var(--good); }
+.ruler__rung--ahead .ruler__tick { border-color: var(--warn); background: var(--warn-soft); }
+.ruler__label { color: var(--ink-2); font-size: var(--step--1); }
+.ruler__label strong { color: var(--ink); font-variant-numeric: tabular-nums; }
+.ruler__state { margin-left: auto; font-size: .72rem; font-weight: 700; letter-spacing: .03em; padding: .15em .6em; border-radius: 999px; white-space: nowrap; }
+.ruler__state--cleared { color: var(--good); background: var(--good-soft); }
+.ruler__state--ahead { color: var(--warn); background: var(--warn-soft); }
+.ruler__marker { display: flex; align-items: center; gap: var(--space-3); padding-block: .18rem; }
+.ruler__marker-line { flex: none; width: 1.15rem; height: 0; border-top: 3px solid var(--brand-2); position: relative; z-index: 1; }
+.ruler__marker-label { color: var(--ink); font-size: var(--step--1); font-weight: 600; font-variant-numeric: tabular-nums; }
+.rider-ruler--family { margin-block: var(--space-3); }
+@media (max-width: 640px) { .ruler__state { display: none; } }
+
 @media print {
   .rider-form, .rider-card__actions, .rider-print-row, .rider-watch__cta { display: none !important; }
   .rider-card { break-inside: avoid; border: 1px solid #999; }
   .rider-badge--now { color: #000; background: #eee; }
   .rider-badge--near { color: #000; background: #eee; }
   .rider-badge--later { color: #444; background: #fff; border: 1px solid #bbb; }
+  .ruler__rungs::before { background: #666; }
+  .ruler__rung--cleared .ruler__tick { background: #000; border-color: #000; }
+  .ruler__rung--ahead .ruler__tick { border-color: #000; background: #fff; }
+  .ruler__state { display: none; }
+  .ruler__marker-line { border-top-color: #000; }
 }
 
 /* ---------- 18. Height checker ------------------------------------------ */
