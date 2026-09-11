@@ -821,6 +821,75 @@ main:focus { outline: none; }
 .empty-state { text-align: center; padding: var(--space-8) var(--space-4); color: var(--muted); }
 .empty-state h3 { color: var(--ink); margin-bottom: var(--space-2); }
 
+/* ---------- 17b. Rider profiles (the height passport) -------------------- */
+
+/* The watch strip: rendered only when riders exist (progressive enhancement —
+   the empty container is display:none via [hidden], so nothing shifts). */
+.rider-watch {
+  border: 1px solid var(--line-strong); border-radius: var(--radius-lg);
+  background: var(--brand-soft);
+  padding: var(--space-4) var(--space-5);
+  display: grid; gap: var(--space-2); margin-block: var(--space-5);
+}
+.rider-watch--home { max-width: var(--shell); margin-inline: auto; padding-inline: var(--gutter); background: transparent; border: none; border-radius: 0; margin-block: var(--space-6) 0; }
+.rider-watch--home > * { margin-inline: calc(var(--gutter) * -1); }
+.rider-watch__eyebrow { font-size: .72rem; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); font-weight: 700; margin: 0; }
+.rider-watch__item { color: var(--ink-2); line-height: 1.5; }
+.rider-watch__item strong { color: var(--ink); }
+.rider-watch__cta { justify-self: start; margin-top: var(--space-1); }
+
+/* Eligibility badges — color AND shape, like the freshness ribbon:
+   filled dot = rides now, half = near miss, hollow ring = not yet. */
+.rider-badge {
+  display: inline-flex; align-items: center; gap: .35em;
+  font-size: .72rem; font-weight: 700; letter-spacing: .03em;
+  border-radius: 999px; padding: .18em .6em .18em .45em; white-space: nowrap;
+}
+.rider-badge::before { content: ''; width: .55em; height: .55em; border-radius: 50%; flex: none; }
+.rider-badge--now { background: var(--good-soft); color: var(--good); }
+.rider-badge--now::before { background: var(--good); }
+.rider-badge--near { background: var(--warn-soft); color: var(--warn); }
+.rider-badge--near::before { background: linear-gradient(to right, var(--warn) 50%, transparent 50%); border: 1.5px solid var(--warn); width: .45em; height: .45em; }
+.rider-badge--later { background: var(--surface-2); color: var(--muted); }
+.rider-badge--later::before { border: 1.5px solid var(--muted); }
+.rider-note { margin: 0 0 var(--space-3); font-size: var(--step--1); }
+
+/* My Riders page */
+.rider-layout { display: grid; gap: var(--space-6); grid-template-columns: 1fr; }
+@media (min-width: 900px) { .rider-layout { grid-template-columns: minmax(280px, 360px) 1fr; align-items: start; } }
+.rider-form {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: var(--space-5); display: grid; gap: var(--space-4);
+}
+.rider-form__title { font-family: var(--font-display); font-size: var(--step-1); }
+.rider-form .field-note { font-size: var(--step--1); margin: 0; }
+.rider-empty { border: 1px dashed var(--line-strong); border-radius: var(--radius-lg); padding: var(--space-6); color: var(--ink-2); }
+.rider-empty h2 { font-family: var(--font-display); color: var(--ink); margin-bottom: var(--space-2); }
+.rider-list { display: grid; gap: var(--space-4); }
+.rider-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: var(--space-5); display: grid; gap: var(--space-3);
+}
+.rider-card__head { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); align-items: baseline; justify-content: space-between; }
+.rider-card__head h3 { font-family: var(--font-display); font-size: var(--step-2); }
+.rider-card__head p { margin: 0; font-size: var(--step--1); }
+.rider-card__actions { display: flex; gap: var(--space-2); margin-left: auto; }
+.rider-card__verdict { color: var(--ink-2); }
+.rider-ladder { margin: 0; padding-left: 1.2rem; display: grid; gap: .4rem; color: var(--ink-2); }
+.rider-ladder strong { color: var(--ink); }
+.rider-card__parks summary { cursor: pointer; color: var(--brand-2); font-weight: 600; }
+.rider-card__parks ul { margin: var(--space-2) 0 0; padding-left: 1.2rem; display: grid; gap: .35rem; color: var(--ink-2); }
+.rider-print-row { margin-top: var(--space-4); }
+.hchecker__save-rider { margin-top: var(--space-2); }
+
+@media print {
+  .rider-form, .rider-card__actions, .rider-print-row, .rider-watch__cta { display: none !important; }
+  .rider-card { break-inside: avoid; border: 1px solid #999; }
+  .rider-badge--now { color: #000; background: #eee; }
+  .rider-badge--near { color: #000; background: #eee; }
+  .rider-badge--later { color: #444; background: #fff; border: 1px solid #bbb; }
+}
+
 /* ---------- 18. Height checker ------------------------------------------ */
 
 .hchecker { display: grid; gap: var(--space-5); }

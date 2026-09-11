@@ -428,6 +428,10 @@
         "heading": "Tools & about",
         "links": [
           {
+            "label": "My Riders",
+            "href": "/tools/my-riders/"
+          },
+          {
             "label": "Food Tracker",
             "href": "/tools/food-tracker/"
           },

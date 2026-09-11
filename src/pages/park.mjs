@@ -4,6 +4,7 @@ import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { renderParkMap } from '../lib/map.mjs'
+import { riderDataPayload } from './tools.mjs'
 import * as f from '../lib/format.mjs'
 
 const crumbs = (park, ...rest) => [...park.breadcrumbTrail, ...rest]
@@ -520,6 +521,7 @@ export function landPage (land, data) {
 
 export function heightsPage (park, data) {
   const { site } = data
+  const riderPayload = riderDataPayload(data)
   const trail = crumbs(park, { label: 'Height requirements', href: urls.heights(park) })
   const thresholds = [...new Set(park.heightAttractions.map((a) => a.heightIn))].sort((a, b) => a - b)
 
@@ -540,9 +542,11 @@ export function heightsPage (park, data) {
 
     ${C.section({
       children: html`
+        <div class="rider-watch" data-rider-watch hidden></div>
         ${C.dataTable({
           sortable: true,
           className: 'data-table--stack',
+          attrs: { 'data-heights-table': '' },
           caption: `Every ${park.name} attraction with a minimum height, shortest first. Measured with shoes on, hats off, against a fixed stick.`,
           columns: [
             'Attraction',
@@ -626,10 +630,13 @@ export function heightsPage (park, data) {
 
     ${C.relatedLinks([
       { href: urls.heightChecker(), label: 'Interactive height checker', summary: `All ${data.parks.length} parks, one slider` },
+      { href: urls.myRiders(), label: 'My Riders', summary: 'Save your children once; every height table labels itself' },
       { href: data.link.heights, label: 'Every height requirement', summary: 'The master table' },
       { href: data.link.riderSwitch, label: 'Rider switch explained', summary: 'How adults still ride when a child cannot' },
       { href: data.link.isItScary, label: 'Is it scary?', summary: 'Height is not the only limit' },
     ])}
+
+    <script type="application/json" id="rider-data">${raw(JSON.stringify(riderPayload))}</script>
   `
 
   return {
@@ -645,6 +652,7 @@ export function heightsPage (park, data) {
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
       body,
+      scripts: ['/assets/js/rider-profiles.js'],
       schema: [S.itemList(site, { url: urls.heights(park), name: `${park.name} height requirements`, items: park.heightAttractions })],
     }),
   }

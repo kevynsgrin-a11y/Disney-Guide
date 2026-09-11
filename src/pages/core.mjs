@@ -6,6 +6,7 @@ import { urls } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
 import * as SC from '../templates/seasonal-components.mjs'
 import { bandCovers, ganttBands, BUILD_MONTH_NUMBER } from '../seasonal/core.mjs'
+import { riderDataPayload } from './tools.mjs'
 import { BUILD_MONTH as BUILD_MONTH_RAW } from '../lib/staleness.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
@@ -214,6 +215,8 @@ export function homePage (data, seasonal) {
         icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/><path d="m3 3 18 18"/></svg>' },
     ])}
 
+    <div class="rider-watch rider-watch--home" data-rider-watch hidden></div>
+
     ${C.section({
       title: 'Start with your park',
       kicker: `The ${data.parks.length} parks`,
@@ -333,6 +336,8 @@ export function homePage (data, seasonal) {
         </div>
       `,
     })}
+
+    <script type="application/json" id="rider-data">${raw(JSON.stringify(riderDataPayload(data)))}</script>
   `
 
   return {
@@ -347,6 +352,7 @@ export function homePage (data, seasonal) {
         modified: '2026-07-01',
       },
       body,
+      scripts: ['/assets/js/rider-profiles.js'],
       schema: [S.itemList(site, {
         url: '/',
         name: `${site.brand.shortName} theme parks`,

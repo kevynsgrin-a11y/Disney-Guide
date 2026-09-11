@@ -100,6 +100,7 @@ function buildPages (data, seasonal) {
   pages.push(toolPages.toolsIndex(data))
   pages.push(toolPages.foodTrackerPage(data))
   pages.push(toolPages.heightCheckerPage(data))
+  pages.push(toolPages.myRidersPage(data))
   pages.push(seasonalTools.tripTimingPage(seasonal))
 
   if (seasonal.months.length) {
@@ -207,6 +208,7 @@ function buildSearchIndex (data, seasonal) {
   push('Seasonal calendar', urls.calendar(), 'Reference', 'calendar year timeline events months')
   push('Food Tracker', urls.foodTracker(), 'Tool', 'track snacks list checklist offline')
   push('Height Checker', urls.heightChecker(), 'Tool', 'height checker what can my kid ride')
+  push('My Riders', urls.myRiders(), 'Tool', 'height passport saved riders growth projections unlock dates')
   push('About', urls.about(), 'Site', 'about independent unofficial')
   push('Editorial policy', urls.editorial(), 'Site', 'editorial policy ai disclosure')
   push('Privacy policy', urls.privacy(), 'Site', 'privacy cookies ccpa gdpr')
@@ -395,6 +397,7 @@ function buildLlmsTxt (site, data, seasonal) {
   lines.push('')
   lines.push(`- [Height Checker](${abs(urls.heightChecker())}): every height requirement at all six parks, filtered to a given child height. Runs entirely client-side.`)
   lines.push(`- [Food Tracker](${abs(urls.foodTracker())}): ${data.allFood.length} curated food items with checked prices. State is stored in the visitor's browser only.`)
+  lines.push(`- [My Riders](${abs(urls.myRiders())}): the height passport. Save each child's height once (stored in the visitor's browser only) and every height table on this site labels itself for that family, with growth-projected unlock dates for every ride not yet reached.`)
   lines.push(`- [Trip Timing](${abs(urls.tripTiming())}): all twelve months re-ranked against a visitor's own priorities — crowds, cost, weather, or what is running.`)
   lines.push('')
 
@@ -588,6 +591,7 @@ async function buildServiceWorker (dist, data, pages) {
     '/',
     '/offline/',
     urls.foodTracker(),
+    urls.myRiders(),
     urls.heightChecker(),
     urls.tripTiming(),
     urls.parksIndex(),
@@ -600,6 +604,7 @@ async function buildServiceWorker (dist, data, pages) {
     '/assets/js/app.js?v=1',
     '/assets/js/food-tracker.js?v=1',
     '/assets/js/height-checker.js?v=1',
+    '/assets/js/rider-profiles.js?v=1',
     '/assets/js/map.js?v=1',
     '/assets/js/trip-timing.js?v=1',
     '/manifest.webmanifest',
