@@ -5,7 +5,7 @@ import { stat as statUrl } from 'node:fs/promises'
 import { loadData, operators } from '../src/lib/data.mjs'
 import { renderPage } from '../src/templates/layout.mjs'
 import { html } from '../src/lib/html.mjs'
-import { PALETTE_TOKENS, hasPalette, paletteCss, palettePaper } from '../src/lib/palette.mjs'
+import { PALETTE_TOKENS, hasPalette, hasChrome, paletteCss, chromeCss, palettePaper } from '../src/lib/palette.mjs'
 import { faviconSvg, iconPngs, HOUSE_FAVICON } from '../src/lib/icons.mjs'
 
 const allOperators = await operators()
@@ -168,12 +168,57 @@ for (const { slug, site } of paletteOperators) {
 
 function p0 (site) { return site.brand.palette.paper }
 
-test('operators without a palette render the house tokens and the house mark', async () => {
+test('disney ships the house tokens and floats on glass chrome instead', async () => {
   const disney = await loadData('disney')
+  assert.equal(hasPalette(disney.site), false, 'disney defines the house tokens and needs no palette override')
+  assert.equal(hasChrome(disney.site), true, 'disney opts into the float-glass masthead')
   assert.equal(paletteCss(disney.site), null)
-  assert.equal(faviconSvg(disney.site), HOUSE_FAVICON)
+  assert.equal(faviconSvg(disney.site), HOUSE_FAVICON, 'chrome changes the masthead, not the mark')
   assert.deepEqual(iconPngs(disney.site), [])
+
+  const glass = chromeCss(disney.site)
+  assert.ok(glass.includes("site-header[data-chrome='float-glass']"))
+  assert.ok(glass.includes('position: fixed'), 'the static bar leaves the document flow')
+  assert.ok(glass.includes('backdrop-filter'), 'the pill is glass, not paint')
+
   const d = renderPage({ site: disney.site, page: { url: '/', title: 'Test' }, body: html`<p>x</p>` })
-  assert.equal(d.indexOf('/assets/css/operator.css'), -1, 'no override without a palette')
+  const mainAt = d.indexOf('/assets/css/main.css')
+  const operatorAt = d.indexOf('/assets/css/operator.css')
+  const printAt = d.indexOf('/assets/css/print.css')
+  assert.ok(operatorAt > -1, 'chrome-only operators still get the override stylesheet')
+  assert.ok(mainAt > -1 && mainAt < operatorAt && operatorAt < printAt, 'cascade order: main, chrome, print')
+  assert.ok(d.includes('data-chrome="float-glass"'), 'the header carries its chrome for CSS and JS')
+  assert.match(d, /<meta name="theme-color" content="#100f0c">/)
+})
+
+test('the glass chrome guards its motion and pays its layout debt', async () => {
+  const disney = await loadData('disney')
+  const glass = chromeCss(disney.site)
+
+  const noPref = glass.match(/@media \(prefers-reduced-motion: no-preference\)/g) || []
+  assert.ok(noPref.length >= 2, 'both the duck and smooth scrolling sit behind the motion gate')
+  assert.ok(glass.includes('[data-hidden]'), 'scrolling down ducks the pill via data-hidden')
+  assert.ok(glass.includes('scroll-behavior: smooth'))
+  assert.ok(glass.includes('main { padding-top:'), 'pages that are not full-bleed get their space back')
+  assert.ok(glass.includes('main:has(> .hero--photo:first-child)'), 'a photographic hero runs to the top of the screen')
+  assert.ok(glass.includes('pointer-events: none;'), 'the transparent frame never eats a click meant for the page')
+})
+
+test('an unknown chrome value fails the build instead of styling nothing', async () => {
+  const disney = await loadData('disney')
+  const typo = structuredClone(disney.site)
+  typo.brand.chrome = 'frost-glass'
+  assert.throws(() => chromeCss(typo), /Unknown brand\.chrome/)
+})
+
+test('an operator with neither palette nor chrome renders the pure house shell', async () => {
+  const disney = await loadData('disney')
+  const plain = structuredClone(disney.site)
+  delete plain.brand.chrome
+  assert.equal(hasChrome(plain), false)
+  assert.equal(chromeCss(plain), null)
+  const d = renderPage({ site: plain, page: { url: '/', title: 'Test' }, body: html`<p>x</p>` })
+  assert.equal(d.indexOf('/assets/css/operator.css'), -1, 'no override without a palette or a chrome')
+  assert.equal(d.indexOf('data-chrome'), -1)
   assert.match(d, /<meta name="theme-color" content="#100f0c">/)
 })

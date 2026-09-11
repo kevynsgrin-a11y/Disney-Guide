@@ -8,7 +8,8 @@
     "locale": "en-US",
     "themeColor": "#0f3d2e",
     "founded": 2026,
-    "logoMark": "RR"
+    "logoMark": "RR",
+    "chrome": "float-glass"
   },
   "meta": {
     "defaultTitleSuffix": "Ride Ready Guide",
