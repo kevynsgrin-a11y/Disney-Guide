@@ -684,6 +684,134 @@
       ],
       "image": null,
       "lastVerified": "2026-07"
+    },
+    {
+      "slug": "calico-river-rapids",
+      "name": "Calico River Rapids",
+      "land": "ghost-town",
+      "type": "water-ride",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family-tier minimum — verify the current figure on Knott's own attraction page.",
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A rapids ride through the Calico backstory with animatronic wildlife and one honest wave wall. The scare is the soak, and the soak is democratic — every seat takes a turn."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into circular rafts; the load platform moves with the channel."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The Ghost Town rapids — Calico's backstory, animatronic wildlife, and a wave wall that finds every rider equally.",
+      "description": [
+        "Calico River Rapids is the 2019 rebuild of the park's classic rapids ride: a channel through the Calico mining backstory with staged wildlife, geysers, and a wave wall that has ended more dry socks in Buena Park than any ride in California. It anchors the Ghost Town edge that the mine ride and GhostRider define.",
+        "It is the park's default cooldown — the soak is thorough, the capacity is high, and the queue moves in rafts of six. On a hot afternoon it is the correct answer; on a January morning it is a dare."
+      ],
+      "tips": [
+        "Every seat eventually meets the wave — there is no strategy, only acceptance.",
+        "Ride it between GhostRider laps in the afternoon heat; the dry-off window is one coaster cycle.",
+        "Lockers for electronics — the soak does not negotiate."
+      ],
+      "bestTime": "Afternoon heat.",
+      "typicalWait": "10–25 minutes; the raft capacity keeps it honest.",
+      "faqs": [],
+      "relatedSlugs": [
+        "calico-mine-ride",
+        "ghostrider"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pony-express",
+      "name": "Pony Express",
+      "land": "fiesta-village",
+      "type": "roller-coaster",
+      "opened": 2008,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family-tier minimum — verify the current figure on Knott's own attraction page.",
+      "durationMinutes": 1,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A straddle-seat launch coaster themed to the Pony Express — the launch is the thrill, the course is family banking. Nothing here scares anyone over eight."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into straddle-style seats; riders mount as if a horse, which is the theming and the ergonomics at once."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The straddle-seat launch coaster — riders mount like horses, launch like outlaws, and bank through Fiesta Village at family speed.",
+      "description": [
+        "Pony Express is a Zamperla straddle launch coaster: riders sit astride horse-style seats and are launched out of the station around a banked oval course through the reworked Fiesta Village. The launch supplies the thrill; the rest is scenery at pleasant speed.",
+        "It is the natural stepping stone between Jaguar and the 48-inch Boardwalk tier — the solo-seat feel of a big coaster at thoroughly family forces."
+      ],
+      "tips": [
+        "The launch is immediate — lean forward and enjoy it rather than bracing.",
+        "Pairs with Jaguar for the Fiesta Village family hour.",
+        "The straddle seat is less forgiving of very tall riders than it looks."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "5–20 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "jaguar",
+        "sierra-sidewinder"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
     }
   ]
 }

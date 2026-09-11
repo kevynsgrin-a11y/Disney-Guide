@@ -568,7 +568,8 @@ async function builtUrlSet (eventSlugs) {
   const set = new Set([
     urls.home(), urls.calendar(), urls.whenToGoIndex(), urls.eventsIndex(), urls.holidaysIndex(),
     urls.pricesIndex(), urls.closuresIndex(), urls.toolsIndex(), urls.tripTiming(),
-    urls.heightChecker(), urls.foodTracker(), urls.myRiders(),
+    urls.heightChecker(), urls.foodTracker(), urls.myRiders(), urls.dayBlueprint(),
+    urls.roadTrip(), urls.expressRoi(), urls.hauntPlanner(),
     urls.about(), urls.editorial(), urls.affiliate(), urls.privacy(), urls.terms(), urls.contact(),
   ])
   for (const slug of eventSlugs) set.add(urls.event(slug))
