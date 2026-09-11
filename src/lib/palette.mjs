@@ -71,7 +71,70 @@ export function paletteCss (site) {
     throw new Error(`brand.palette is missing token${missing.length === 1 ? '' : 's'}: ${missing.join(', ')}`)
   }
   const lines = Object.entries(PALETTE_TOKENS).map(([key, cssName]) => `  ${cssName}: ${palette[key]};`)
-  return `/* Operator palette — ${site.brand.name}. Generated from data/${site.operator}/site.json at\n` +
+
+  // Per-operator display face: a self-hosted OFL webfont, declared and wired through the
+  // existing --font-display token, so a face swap never touches the shared stylesheet.
+  const font = site.brand.font
+  if (font) {
+    lines.push(`  --font-display: '${font.family}', ${font.fallback};`)
+  }
+
+  let css = `/* Operator palette — ${site.brand.name}. Generated from data/${site.operator}/site.json at\n` +
     `   build time; overrides the house tokens in main.css. Order matters: main.css, this, print.css. */\n` +
+    (font ? `@font-face {\n  font-family: '${font.family}';\n  font-style: normal;\n  font-weight: ${font.weight};\n  font-display: swap;\n  src: url('${font.file}') format('${font.format}');\n}\n\n` : '') +
     `:root {\n${lines.join('\n')}\n}\n`
+
+  // The steel motif: trackline rules, marquee bulbs, spec-plate data styling. Emitted only for
+  // operators that opt in — coaster-park identity without a shared-template branch.
+  if (site.brand.motif === 'trackline') {
+    css += `
+/* Trackline motif — ${site.brand.name}'s visual signature. The rule under every section
+   title is a track: a rail bar, a gap, and a wheel dot. The hero carries a marquee bulb
+   strip that chases only when motion is welcome. Cards read as spec plates. */
+.band__head h2::after, .hero__title::after {
+  content: ''; display: block; width: 4.6rem; height: 3px; margin-top: var(--space-3);
+  background: linear-gradient(90deg,
+    var(--accent) 0 2.2rem,
+    transparent 2.2rem 2.85rem,
+    var(--accent-2) 2.85rem 3rem,
+    transparent 3rem);
+}
+
+.hero:not(.hero--photo)::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 10px; z-index: 2;
+  /* Two spacings layered — ride lighting is irregular, and irregular reads as texture
+     where a uniform strip reads as a pier arcade. */
+  background-image:
+    radial-gradient(circle at 6px 5px, var(--accent) 0 2.2px, transparent 2.9px),
+    radial-gradient(circle at 17px 5px, var(--accent-2) 0 1.8px, transparent 2.5px);
+  background-size: 26px 10px, 19px 10px;
+  opacity: .55;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero:not(.hero--photo)::before { animation: trackline-marquee 2.4s linear infinite; }
+  @keyframes trackline-marquee { to { background-position: 26px 0, 19px 0; } }
+}
+
+/* Single-weight display face: normalize the serif-era weights and spacing.
+   Balance the rag — a stacked poster headline wants composed breaks, not accidents. */
+h1, h2, h3, .hero__title, .brandmark__name, .brandmark__name * { font-weight: 400; letter-spacing: 0; }
+.hero__title { text-transform: uppercase; line-height: .96; letter-spacing: .012em; text-wrap: balance; }
+.band__head h2 { text-transform: uppercase; letter-spacing: .012em; }
+
+/* Signal red is strictly interactive; data reads as deep white, never as an alert.
+   The 800 weights come from multi-weight display faces — under a single-weight face
+   they only trigger synthetic bold. */
+.hero__meta-value { color: var(--ink); }
+.stat-row__value, .food-card__price { color: var(--ink); font-weight: 400; }
+
+/* Spec plates: data reads as engineering. */
+.card { border-top: 3px solid var(--accent); }
+.card__meta { font-family: var(--font-mono); font-size: .66rem; letter-spacing: .05em; text-transform: uppercase; }
+.card__badges { font-family: var(--font-mono); font-size: .68rem; }
+.data-table th { font-family: var(--font-mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; }
+
+::selection { background: var(--accent); color: #241a08; }
+`
+  }
+  return css
 }

@@ -1,5 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { stat as statUrl } from 'node:fs/promises'
 
 import { loadData, operators } from '../src/lib/data.mjs'
 import { renderPage } from '../src/templates/layout.mjs'
@@ -120,6 +121,49 @@ for (const { slug, site } of paletteOperators) {
       assert.ok(size >= 180, `${png.name} IHDR reports ${size}px`)
     }
   })
+
+  // The steel pass: an operator may declare a display face and the trackline motif;
+  // both live in the generated override stylesheet, never the shared one.
+  if (site.brand.font) {
+    test(`${slug}: the declared display face is declared and wired through the font token`, async () => {
+      const css = paletteCss(site)
+      assert.match(css, /@font-face\s*{[^}]*font-family: 'Archivo Black'/)
+      assert.match(css, /--font-display: 'Archivo Black'/)
+      const fontFile = new URL('..' + site.brand.font.file, import.meta.url)
+      const stat = await statUrl(fontFile)
+      assert.ok(stat && stat.size > 10000, 'the webfont file actually exists on disk')
+      // Serif-era weights normalize — a single-weight face must not be faux-bolded.
+      if (site.brand.motif === 'trackline') {
+        assert.match(css, /font-weight: 400; letter-spacing: 0;/)
+      }
+    })
+  }
+  if (site.brand.motif === 'trackline') {
+    test(`${slug}: the trackline motif ships with its motion discipline`, () => {
+      const css = paletteCss(site)
+      assert.match(css, /band__head h2::after, \.hero__title::after/)
+      assert.match(css, /prefers-reduced-motion: no-preference/, 'the marquee chases only when motion is welcome')
+      assert.match(css, /trackline-marquee/)
+      assert.match(css, /::selection/)
+    })
+
+    test(`${slug}: the marquee is texture, not a pier arcade — two spacings, dimmed`, () => {
+      const css = paletteCss(site)
+      assert.match(css, /background-size: 26px 10px, 19px 10px;/,
+        'two bulb spacings layered keep the strip from reading as a uniform arcade row')
+      assert.match(css, /opacity: \.55;/, 'the strip is dimmed to sit under the headline')
+    })
+
+    test(`${slug}: poster headlines get a composed rag and data never reads as an alert`, () => {
+      const css = paletteCss(site)
+      assert.match(css, /\.hero__title \{[^}]*text-wrap: balance;/,
+        'the display headline balances its own line breaks')
+      assert.match(css, /\.hero__meta-value \{ color: var\(--ink\); \}/,
+        'signal red stays interactive; hero data reads as deep white')
+      assert.match(css, /\.stat-row__value, \.food-card__price \{ color: var\(--ink\); font-weight: 400; \}/,
+        'stat numerals and prices are data — deep white, never faux-bolded alert red')
+    })
+  }
 }
 
 function p0 (site) { return site.brand.palette.paper }

@@ -4,7 +4,7 @@ import { urls } from '../lib/data.mjs'
 import { hasPalette, palettePaper } from '../lib/palette.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
-const ASSET_VERSION = '16'
+const ASSET_VERSION = '19'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 const TITLE_MAX = 66
