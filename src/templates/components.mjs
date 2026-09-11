@@ -257,12 +257,13 @@ export function meter (label, value, max = 5, tone = '') {
  * @param columns  array of strings, or {label, align, scope, width, sort}
  * @param rows     array of arrays; cells may be strings or Raw
  */
-export function dataTable ({ caption, columns, rows, id, className = '', sortable = false, dense = false }) {
+export function dataTable ({ caption, columns, rows, id, className = '', sortable = false, dense = false, attrs = {} }) {
   if (!rows || !rows.length) return raw('')
   const cols = columns.map((c) => (typeof c === 'string' ? { label: c } : c))
+  const attrStr = Object.entries(attrs).map(([k, v]) => (v === '' ? ` ${k}` : ` ${k}="${escapeHtml(String(v))}"`)).join('')
   return html`
     <div class="table-wrap"${sortable ? raw(' data-sortable-wrap') : raw('')}>
-      <table class="data-table ${dense ? 'data-table--dense' : ''} ${className}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}${sortable ? raw(' data-sortable') : raw('')}>
+      <table class="data-table ${dense ? 'data-table--dense' : ''} ${className}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}${sortable ? raw(' data-sortable') : raw('')}${attrStr ? raw(attrStr) : raw('')}>
         ${caption ? html`<caption>${inline(caption)}</caption>` : ''}
         <thead>
           <tr>

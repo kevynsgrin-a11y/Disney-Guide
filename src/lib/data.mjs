@@ -70,6 +70,7 @@ export const urls = {
   toolsIndex: () => '/tools/',
   foodTracker: () => '/tools/food-tracker/',
   heightChecker: () => '/tools/height-checker/',
+  myRiders: () => '/tools/my-riders/',
   tripTiming: () => '/tools/trip-timing/',
 
   /*

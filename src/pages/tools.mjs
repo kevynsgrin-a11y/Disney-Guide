@@ -226,6 +226,7 @@ export function heightCheckerPage (data) {
             <div class="hchecker__scale" aria-hidden="true">
               <span>28"</span><span>34"</span><span>40"</span><span>46"</span><span>52"</span><span>56"</span>
             </div>
+            <div class="hchecker__save-rider" data-save-rider-hook></div>
             <div class="hchecker__summary">
               <div class="hchecker__stat"><b data-height-can>—</b><span>rides they can do</span></div>
               <div class="hchecker__stat"><b data-height-cant>—</b><span>still too short</span></div>
@@ -331,12 +332,115 @@ export function heightCheckerPage (data) {
         modified: '2026-07-01',
       },
       body,
-      scripts: ['/assets/js/height-checker.js'],
+      scripts: ['/assets/js/height-checker.js', '/assets/js/rider-profiles.js'],
       schema: [
         S.webApplication(site, {
           url: urls.heightChecker(),
           name: `${site.brand.shortName} height checker`,
           description: `Set one slider to your child's height and see every ride they can and cannot do at all ${data.parks.length} parks.`,
+        }),
+      ],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Rider Profiles — the height passport
+ *
+ * One payload shared by this page and the home page's watch strip: every
+ * posted height requirement across the operator's parks, compact. The
+ * client engine (assets/js/rider-profiles.js) keeps the riders themselves
+ * in localStorage — no account, nothing uploaded, works offline.
+ * ------------------------------------------------------------------ */
+
+export function riderDataPayload (data) {
+  return {
+    myRidersUrl: urls.myRiders(),
+    attractions: data.parks.flatMap((park) =>
+      park.heightAttractions
+        .filter((a) => a.isOpen)
+        .map((a) => ({ n: a.name, h: a.heightIn, p: park.shortLabel || park.name, u: urls.heights(park) }))
+    ),
+  }
+}
+
+export function myRidersPage (data) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'My Riders', href: urls.myRiders() },
+  ]
+  const payload = riderDataPayload(data)
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · the height passport',
+      title: 'My Riders',
+      lede: `Save each child once — name, birthday, height, measured with shoes on. From then on this site knows your family: every height table labels itself for your riders, and growth bands project when each ride unlocks.`,
+      tone: 'compact',
+      meta: [
+        { label: 'Riders', value: 'On this device' },
+        { label: 'Coverage', value: `${payload.attractions.length} posted heights` },
+        { label: 'Account needed', value: 'None' },
+      ],
+      actions: [{ href: urls.heightChecker(), label: 'Open the height checker' }],
+    })}
+
+    ${C.section({
+      children: html`
+        <div class="rider-layout">
+          <form class="rider-form" data-rider-form>
+            <h2 class="rider-form__title">${'Add or update a rider'}</h2>
+            <div class="field-inline">
+              <label for="rider-name">Name</label>
+              <input id="rider-name" name="name" type="text" maxlength="40" autocomplete="off" required placeholder="Maya">
+            </div>
+            <div class="field-inline">
+              <label for="rider-birthday">Birthday <span class="muted">(optional — sharpens the growth estimate)</span></label>
+              <input id="rider-birthday" name="birthday" type="date">
+            </div>
+            <div class="field-inline">
+              <label for="rider-height">Height in inches <span class="muted">(shoes on, measured today)</span></label>
+              <input id="rider-height" name="heightIn" type="number" min="24" max="84" step="0.5" inputmode="decimal" required placeholder="46">
+            </div>
+            <div class="field-inline">
+              <label for="rider-measured">Measured on</label>
+              <input id="rider-measured" name="measuredOn" type="date">
+            </div>
+            <p class="field-note muted" data-form-note></p>
+            <button class="btn btn--primary" type="submit">Save rider</button>
+            <p class="field-note muted">Stays on this device — no account, no sync, no email. Growth projections are banded estimates from typical growth by age, not promises; the height stick at the park always decides.</p>
+          </form>
+          <div class="rider-list" data-my-riders></div>
+        </div>
+        <p class="rider-print-row"><button class="btn btn--ghost" type="button" data-rider-print>Print the passport</button></p>
+      `,
+    })}
+
+    <script type="application/json" id="rider-data">${raw(JSON.stringify(payload))}</script>
+  `
+
+  return {
+    url: urls.myRiders(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.myRiders(),
+        title: 'My Riders',
+        titleTail: ': the height passport',
+        description: `Save your children's heights once and every height requirement across all ${data.parks.length} parks labels itself for your family — with growth projections for every ride they have not yet reached.`,
+        trail,
+        modified: '2026-07-01',
+      },
+      body,
+      scripts: ['/assets/js/rider-profiles.js'],
+      schema: [
+        S.webApplication(site, {
+          url: urls.myRiders(),
+          name: `${site.brand.shortName} My Riders`,
+          description: 'Save each child once; every height table on this site labels itself for your family, with growth-projected unlock dates.',
         }),
       ],
     }),
@@ -362,6 +466,13 @@ export function toolsIndex (data) {
 
     ${C.section({
       children: C.cardGrid([
+        C.card({
+          href: urls.myRiders(),
+          tone: 'feature',
+          eyebrow: 'Saves on this device',
+          title: 'My Riders',
+          summary: `The height passport: save each child once and every height requirement across all ${data.parks.length} parks labels itself for your family — plus growth-projected dates for every ride they have not reached.`,
+        }),
         C.card({
           href: urls.heightChecker(),
           tone: 'feature',
