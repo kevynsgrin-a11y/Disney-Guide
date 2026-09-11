@@ -353,6 +353,291 @@ export function heightCheckerPage (data) {
  * in localStorage — no account, nothing uploaded, works offline.
  * ------------------------------------------------------------------ */
 
+/* ------------------------------------------------------------------ *
+ * Day Blueprint — a generated rope-drop-to-close plan, from the plans
+ * our park pages are authored from, with the reasoning printed.
+ * ------------------------------------------------------------------ */
+
+export function dayBlueprintPage (data) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'Day Blueprint', href: urls.dayBlueprint() },
+  ]
+  const payload = {
+    ridersUrl: urls.myRiders(),
+    parks: data.parks.map((park) => ({
+      name: park.name,
+      url: park.url,
+      plans: park.firstTimer
+        ? {
+            morning: park.firstTimer.morningPlan || [],
+            midday: park.firstTimer.middayPlan || [],
+            evening: park.firstTimer.eveningPlan || [],
+          }
+        : null,
+    })),
+  }
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · free, explainable',
+      title: 'Day Blueprint',
+      lede: `Pick a park and a pace. The plan is generated from the same authored morning-to-evening plans our park pages carry — and every step says why it is where it is, which is the part a generated itinerary usually hides.`,
+      tone: 'compact',
+      meta: [
+        { label: 'Parks', value: `${payload.parks.length} with authored plans` },
+        { label: 'Account', value: 'None' },
+        { label: 'Works', value: 'Offline' },
+      ],
+    })}
+    ${C.section({
+      children: html`
+        <div class="tool-sheet" data-blueprint>
+          <noscript><p>This tool runs in your browser and needs JavaScript. The same plans exist as writing on every park page.</p></noscript>
+        </div>
+        <p class="muted field-note">Generated from our authored plans, not live wait times — verify the park's hours and any early-entry rules on the day. Riders, if saved, are greeted from this device only.</p>
+      `,
+    })}
+    <script type="application/json" id="blueprint-data">${raw(JSON.stringify(payload))}</script>
+  `
+  return {
+    url: urls.dayBlueprint(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.dayBlueprint(),
+        title: 'Day Blueprint',
+        titleTail: ': a generated park plan with its reasoning',
+        description: `Generate a rope-drop-to-close plan for any of ${data.parks.length} parks from authored touring plans — every step explains why it is where it is. Free, offline, no account.`,
+        trail,
+        modified: '2026-07-01',
+      },
+      body,
+      scripts: ['/assets/js/rider-profiles.js', '/assets/js/day-blueprint.js'],
+      schema: [S.webApplication(site, {
+        url: urls.dayBlueprint(),
+        name: `${site.brand.shortName} Day Blueprint`,
+        description: 'A generated park day plan built from authored touring plans, with the reasoning printed.',
+      })],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Road-Trip Combiner — CoasterReady's multi-park itinerary tool.
+ * ------------------------------------------------------------------ */
+
+export function roadTripPage (data) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'Road-Trip Combiner', href: urls.roadTrip() },
+  ]
+  const payload = {
+    note: site.roadTrip.note,
+    clusters: site.roadTrip.clusters.map((c) => ({ slug: c.slug, name: c.name, blurb: c.blurb, schoolBand: c.schoolBand, parks: c.parks })),
+    // Leg keys normalize to sorted pairs at build time so the engine's
+    // legKey() lookup finds them regardless of authored key order.
+    legs: Object.fromEntries(
+      Object.entries({
+        ...Object.assign({}, ...site.roadTrip.clusters.map((c) => c.legs)),
+        ...site.roadTrip.spareLegs,
+      }).map(([k, v]) => [k.split('|').sort().join('|'), v])
+    ),
+    parks: Object.fromEntries(data.parks.map((p) => [p.slug, { name: p.name, url: p.url }])),
+  }
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · ten parks, five regions',
+      title: 'Road-Trip Combiner',
+      lede: 'Pick two to five parks and get the ordered trip: drive legs with typical times, one park per day, and the school-calendar crowd note that decides regional dates. Drive times are honest ranges, not promises.',
+      tone: 'compact',
+      meta: [
+        { label: 'Clusters', value: `${payload.clusters.length} authored` },
+        { label: 'Pairwise drives', value: `${Object.keys(payload.legs).length}` },
+        { label: 'Account', value: 'None' },
+      ],
+    })}
+    ${C.section({
+      children: html`
+        <div class="tool-sheet" data-roadtrip>
+          <noscript><p>This tool runs in your browser and needs JavaScript.</p></noscript>
+        </div>
+        <p class="muted field-note">${payload.note}</p>
+      `,
+    })}
+    <script type="application/json" id="roadtrip-data">${raw(JSON.stringify(payload))}</script>
+  `
+  return {
+    url: urls.roadTrip(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.roadTrip(),
+        title: 'Road-Trip Combiner',
+        titleTail: ': multi-park itineraries with drive times',
+        description: 'Combine two to five regional coaster parks into one ordered trip — drive legs, day assignments, and the school-calendar crowd windows that decide the dates.',
+        trail,
+        modified: '2026-07-01',
+      },
+      body,
+      scripts: ['/assets/js/road-trip.js'],
+      schema: [S.webApplication(site, {
+        url: urls.roadTrip(),
+        name: `${site.brand.shortName} Road-Trip Combiner`,
+        description: 'Multi-park itineraries with typical drive times and school-calendar crowd notes.',
+      })],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Express Pass ROI — Hollywood Ride Guide's queue-maths calculator.
+ * ------------------------------------------------------------------ */
+
+export function expressRoiPage (data) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'Express Pass ROI', href: urls.expressRoi() },
+  ]
+  const payload = {
+    asOf: site.expressRoi.asOf,
+    tiers: site.expressRoi.tiers,
+    parks: site.expressRoi.parks.map((slug) => {
+      const park = data.parks.find((p) => p.slug === slug)
+      return { slug, name: park ? park.name : slug, url: park ? park.url : '/' }
+    }),
+    parkNote: site.expressRoi.parkNote,
+    guideUrl: urls.guide(site.queue.guideSlug),
+  }
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · the arithmetic, printed',
+      title: 'Express Pass ROI',
+      lede: 'Party size, the rides you actually re-ride, and a standby estimate in — cost per hour saved out. The verdict prints its arithmetic and its assumptions, because a queue-maths tool that hides either is marketing.',
+      tone: 'compact',
+      meta: [
+        { label: 'Pricing', value: 'Banded ranges' },
+        { label: 'Framing', value: site.expressRoi.asOf.split('—')[0].trim() },
+        { label: 'Account', value: 'None' },
+      ],
+    })}
+    ${C.section({
+      children: html`
+        <div class="tool-sheet" data-express-roi>
+          <noscript><p>This tool runs in your browser and needs JavaScript.</p></noscript>
+        </div>
+        <p class="muted field-note">${payload.parkNote}</p>
+      `,
+    })}
+    <script type="application/json" id="roi-data">${raw(JSON.stringify(payload))}</script>
+  `
+  return {
+    url: urls.expressRoi(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.expressRoi(),
+        title: 'Express Pass ROI',
+        titleTail: ': is it worth it, in hours',
+        description: 'The Express Pass buy-or-skip arithmetic: party size and re-rides against banded prices, printed with every assumption. Ranges as of July 2026.',
+        trail,
+        modified: '2026-07-01',
+      },
+      body,
+      scripts: ['/assets/js/express-roi.js'],
+      schema: [S.webApplication(site, {
+        url: urls.expressRoi(),
+        name: `${site.brand.shortName} Express Pass ROI`,
+        description: 'The buy-or-skip arithmetic for Express Pass, printed with its assumptions.',
+      })],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Haunt Planner — HHN night routes from the wait-curve pattern.
+ * ------------------------------------------------------------------ */
+
+export function hauntPlannerPage (data, seasonal) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'Haunt Planner', href: urls.hauntPlanner() },
+  ]
+  const bySlug = new Map(seasonal.events.map((e) => [e.slug, e]))
+  const payload = {
+    note: site.hauntPlanner.note,
+    events: site.hauntPlanner.events.flatMap((slug) => {
+      const ev = bySlug.get(slug)
+      if (!ev) return []
+      return [{
+        slug: ev.slug,
+        name: ev.name,
+        url: urls.event(ev.slug),
+        nights: ev.typicalWindow ? (ev.typicalWindow.nightsRange || null) : null,
+        hours: ev.typicalWindow ? ev.typicalWindow.hours : null,
+      }]
+    }),
+  }
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · pattern-based, honestly labelled',
+      title: 'Haunt Planner',
+      lede: 'House routes built from the haunt wait-curve pattern — the marquee mazes hold queues all night, the back half thins after midnight — tuned to your night type and arrival time. House names land on the event pages when the parks announce them; this turns the pattern into a plan you can print.',
+      tone: 'compact',
+      meta: [
+        { label: 'Events', value: `${payload.events.length} covered` },
+        { label: 'Basis', value: 'Multi-year pattern' },
+        { label: 'Account', value: 'None' },
+      ],
+    })}
+    ${C.section({
+      children: html`
+        <div class="tool-sheet" data-haunt-planner>
+          <noscript><p>This tool runs in your browser and needs JavaScript.</p></noscript>
+        </div>
+        <p class="muted field-note">${payload.note}</p>
+      `,
+    })}
+    <script type="application/json" id="haunt-data">${raw(JSON.stringify(payload))}</script>
+  `
+  return {
+    url: urls.hauntPlanner(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.hauntPlanner(),
+        title: 'Haunt Planner',
+        titleTail: ': your Halloween Horror Nights route',
+        description: 'Build an ordered haunted-house route from the wait-curve pattern — marquee mazes first, back half after midnight, line-skip math for peak Saturdays. Pattern-based and labelled as such.',
+        trail,
+        modified: '2026-07-01',
+      },
+      body,
+      scripts: ['/assets/js/haunt-planner.js'],
+      schema: [S.webApplication(site, {
+        url: urls.hauntPlanner(),
+        name: `${site.brand.shortName} Haunt Planner`,
+        description: 'An ordered haunt-night route from the multi-year wait-curve pattern.',
+      })],
+    }),
+  }
+}
+
 export function riderDataPayload (data) {
   return {
     myRidersUrl: urls.myRiders(),

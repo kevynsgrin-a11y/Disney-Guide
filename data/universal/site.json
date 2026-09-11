@@ -364,6 +364,18 @@
           {
             "label": "Contact & corrections",
             "href": "/contact/"
+          },
+          {
+            "label": "Day Blueprint",
+            "href": "/tools/day-blueprint/"
+          },
+          {
+            "label": "Express Pass ROI",
+            "href": "/tools/express-pass-roi/"
+          },
+          {
+            "label": "Haunt Planner",
+            "href": "/tools/haunt-planner/"
           }
         ]
       }
@@ -402,5 +414,41 @@
   "analytics": {
     "enabled": false,
     "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+  },
+  "expressRoi": {
+    "asOf": "as of July 2026 — Express Pass is dynamically priced by date; these bands are shapes, and the park's ticketing page is the live number",
+    "tiers": [
+      {
+        "key": "base",
+        "label": "Express Pass (once per ride)",
+        "rangeUsd": [
+          90,
+          200
+        ],
+        "coverage": "One skip per participating attraction — the honest tier for a single busy day."
+      },
+      {
+        "key": "unlimited",
+        "label": "Express Unlimited",
+        "rangeUsd": [
+          150,
+          350
+        ],
+        "coverage": "Unlimited skips, including re-rides — the re-riding tier, and the one hotel-inclusion arithmetic competes with."
+      }
+    ],
+    "parks": [
+      "universal-studios-florida",
+      "islands-of-adventure",
+      "epic-universe"
+    ],
+    "parkNote": "Prices vary by park and date; Epic Universe dates price at the top of the bands. Premier-hotel stays include Unlimited — compare against the room premium before buying separately."
+  },
+  "hauntPlanner": {
+    "events": [
+      "halloween-horror-nights-orlando",
+      "halloween-horror-nights-hollywood"
+    ],
+    "note": "Pattern-based: house names, counts and this year's dates live on each event page when the park announces them — typically late August. This planner turns the pattern into a route."
   }
 }

@@ -71,6 +71,10 @@ export const urls = {
   foodTracker: () => '/tools/food-tracker/',
   heightChecker: () => '/tools/height-checker/',
   myRiders: () => '/tools/my-riders/',
+  dayBlueprint: () => '/tools/day-blueprint/',
+  roadTrip: () => '/tools/road-trip/',
+  expressRoi: () => '/tools/express-pass-roi/',
+  hauntPlanner: () => '/tools/haunt-planner/',
   tripTiming: () => '/tools/trip-timing/',
 
   /*

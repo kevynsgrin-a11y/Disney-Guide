@@ -911,6 +911,45 @@ main:focus { outline: none; }
 .rider-ruler--family { margin-block: var(--space-3); }
 @media (max-width: 640px) { .ruler__state { display: none; } }
 
+/* ---------- 17c. Shared tool sheets (blueprint, road-trip, ROI, haunt) ---- */
+
+.tool-sheet {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: var(--space-5) var(--space-6); display: grid; gap: var(--space-5);
+}
+.tool-form { display: grid; gap: var(--space-4); }
+.tool-form .field-inline { display: grid; gap: var(--space-1); max-width: 28rem; }
+.tool-form label { font-size: var(--step--1); color: var(--ink-2); }
+.tool-form input, .tool-form select {
+  background: var(--surface-2); color: var(--ink); border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm); padding: .5rem .7rem; font: inherit;
+}
+.tool-form input:focus-visible, .tool-form select:focus-visible { outline: 2px solid var(--focus); }
+.tool-checks { border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-3) var(--space-4); display: grid; gap: .45rem; }
+.tool-checks legend { font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); font-weight: 700; padding-inline: .4rem; }
+.tool-checks label { display: flex; gap: .55rem; align-items: baseline; color: var(--ink-2); font-size: var(--step--1); }
+.tool-checks input { accent-color: var(--brand); width: 1rem; height: 1rem; }
+.tool-output { display: grid; gap: var(--space-3); }
+.tool-output h2 { font-family: var(--font-display); font-size: var(--step-2); margin-block: var(--space-2) 0; }
+.tool-output h3 { font-family: var(--font-display); font-size: var(--step-1); margin-block: var(--space-3) 0 var(--space-1); }
+.plan-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
+.plan-steps li { display: grid; grid-template-columns: 9.5rem 1fr; gap: var(--space-3); padding: var(--space-3); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.plan-steps__time { font-weight: 700; color: var(--brand-2); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .plan-steps li { grid-template-columns: 1fr; gap: .2rem; } }
+.tool-notes summary { cursor: pointer; color: var(--brand-2); font-weight: 600; }
+.tool-notes ul { margin: var(--space-2) 0 0; padding-left: 1.2rem; display: grid; gap: .35rem; color: var(--ink-2); }
+.roadtrip-legs { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; color: var(--ink-2); }
+.roi-lines { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.roi-lines strong { color: var(--ink); }
+
+@media print {
+  .tool-form, .tool-sheet noscript { display: none !important; }
+  .tool-sheet { border: none; background: #fff; padding: 0; }
+  .plan-steps li { border: 1px solid #bbb; background: #fff; break-inside: avoid; }
+  .plan-steps__time { color: #000; }
+  .tool-notes, .tool-notes ul { display: block; color: #000; }
+}
+
 @media print {
   .rider-form, .rider-card__actions, .rider-print-row, .rider-watch__cta { display: none !important; }
   .rider-card { break-inside: avoid; border: 1px solid #999; }

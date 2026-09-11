@@ -443,6 +443,14 @@
           {
             "label": "Contact & corrections",
             "href": "/contact/"
+          },
+          {
+            "label": "Day Blueprint",
+            "href": "/tools/day-blueprint/"
+          },
+          {
+            "label": "Road-Trip Combiner",
+            "href": "/tools/road-trip/"
           }
         ]
       }
@@ -474,5 +482,71 @@
     "affiliateDisclosure": "This section contains affiliate links. If you buy through one, we may earn a commission at no additional cost to you. It never changes what we recommend or the order we rank it in.",
     "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so at the top. This site covers four different park companies, each publishing its own figures; where a number could not be verified it is left unstated on purpose.",
     "copyrightHolder": "CoasterReady"
+  },
+  "roadTrip": {
+    "note": "Drive times are typical, without traffic, door to gate — Southern California absorbs a factor of two on summer Fridays, and I-35 between the Texas parks has moods. School-calendar notes describe multi-year patterns; verify district calendars for your exact year.",
+    "clusters": [
+      {
+        "slug": "socal-week",
+        "name": "The Southern California week",
+        "parks": [
+          "magic-mountain",
+          "knotts-berry-farm",
+          "legoland-california",
+          "seaworld-san-diego"
+        ],
+        "blurb": "Four parks, four companies, one traffic pattern. The classic build is Magic Mountain and Knott's first (the thrill half), then the coastal pair (the calm half) — inland before coast, so the drive gets prettier as the trip gets sleepier.",
+        "schoolBand": "Crowds run lightest on school-year weekdays; summer and holiday weeks add the region's worst queues at Magic Mountain.",
+        "legs": {
+          "magic-mountain|knotts-berry-farm": 55,
+          "knotts-berry-farm|legoland-california": 55,
+          "legoland-california|seaworld-san-diego": 35,
+          "magic-mountain|legoland-california": 95,
+          "magic-mountain|seaworld-san-diego": 105,
+          "knotts-berry-farm|seaworld-san-diego": 75
+        }
+      },
+      {
+        "slug": "texas-double",
+        "name": "The Texas I-35 double",
+        "parks": [
+          "six-flags-over-texas",
+          "seaworld-san-antonio"
+        ],
+        "blurb": "Two parks, four hours apart, one of the country's best hybrid coasters at each end. Do Arlington and San Antonio on separate days with the drive between — the Rattler and the Giant are the same pilgrimage, four hours apart.",
+        "schoolBand": "Texas spring break concentrates in early-to-mid March and fills both parks; October weekdays are the civil window.",
+        "legs": {
+          "six-flags-over-texas|seaworld-san-antonio": 245
+        }
+      }
+    ],
+    "spareLegs": {
+      "great-adventure|seaworld-orlando": 990,
+      "great-america|great-adventure": 780,
+      "great-america|seaworld-orlando": 1080,
+      "great-adventure|great-america": 780,
+      "seaworld-orlando|legoland-florida": 55,
+      "great-adventure|legoland-florida": 1010,
+      "great-america|legoland-florida": 1120,
+      "legoland-california|seaworld-orlando": 2450,
+      "magic-mountain|seaworld-orlando": 2480,
+      "knotts-berry-farm|seaworld-orlando": 2440,
+      "seaworld-san-diego|seaworld-orlando": 2350,
+      "six-flags-over-texas|seaworld-orlando": 1140,
+      "seaworld-san-antonio|seaworld-orlando": 1150,
+      "six-flags-over-texas|great-adventure": 1520,
+      "seaworld-san-antonio|great-adventure": 1760,
+      "six-flags-over-texas|great-america": 975,
+      "seaworld-san-antonio|great-america": 1215,
+      "six-flags-over-texas|magic-mountain": 1375,
+      "six-flags-over-texas|knotts-berry-farm": 1360,
+      "six-flags-over-texas|legoland-california": 1330,
+      "seaworld-san-diego|six-flags-over-texas": 1320,
+      "seaworld-san-antonio|magic-mountain": 1370,
+      "seaworld-san-antonio|knotts-berry-farm": 1350,
+      "seaworld-san-antonio|legoland-california": 1325,
+      "seaworld-san-diego|seaworld-san-antonio": 1310,
+      "legoland-florida|seaworld-san-diego": 2380
+    }
   }
 }
