@@ -1,6 +1,7 @@
 import { html, raw, escapeHtml, truncate, plain } from '../lib/html.mjs'
 import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
+import { hasPalette, palettePaper } from '../lib/palette.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 
 const ASSET_VERSION = '16'
@@ -195,10 +196,11 @@ export function renderPage ({ site, page, body, schema = [], scripts = [] }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#100f0c">
+<meta name="theme-color" content="${palettePaper(site) || '#100f0c'}">
 <meta name="color-scheme" content="dark">
 ${metaTags(site, page)}
 <link rel="stylesheet" href="${v('/assets/css/main.css')}">
+${hasPalette(site) ? html`<link rel="stylesheet" href="${v('/assets/css/operator.css')}">` : ''}
 <link rel="stylesheet" href="${v('/assets/css/print.css')}" media="print">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">

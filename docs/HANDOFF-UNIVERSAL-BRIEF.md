@@ -134,17 +134,18 @@ duplicating rules.
 
 **Important brand-specific note:** `--brand` (`#0f3d2e`, forest green) and `--accent` (`#a9660f`,
 amber) were chosen for the Disney operator specifically, with a code comment reading *"deliberately
-not Disney-adjacent."* Universal's `site.json` declares `themeColor: "#1b3a5c"` (a navy blue), and
-that value **is already wired into two narrow, browser-level surfaces** — `<meta name="theme-color">`
-in `src/templates/layout.mjs` (the mobile browser address-bar tint) and `theme_color` in the
-generated `manifest.webmanifest` (`src/build.mjs`). **It is not wired into the actual CSS design
-tokens** (`--brand`, `--accent`, etc.) — every visible UI element (buttons, links, the freshness
-ribbon, hero gradients) still renders in Disney's forest-green palette regardless of operator. This
-is the known gap. If your task includes brand differentiation for Universal, the correct fix is to
-make the token block per-operator (e.g. emit an operator-scoped CSS custom property override at
-build time, or a small `data-operator` attribute selector block), **not** to fork the stylesheet, and
-not to just change the two places `themeColor` already reaches. Flag this explicitly in your output
-if you touch it, since it affects Disney's live site too.
+not Disney-adjacent."* Universal's `site.json` declares `themeColor: "#1b3a5c"` (a navy blue).
+**This gap is now closed:** an operator that declares a `brand.palette` in its `site.json` gets a
+generated token-override stylesheet, `dist/<operator>/assets/css/operator.css`, re-declaring the
+color custom properties on `:root` at build time (see `src/lib/palette.mjs`). The layout links it
+after `main.css` and before `print.css`, and the favicon/touch icons are regenerated from the
+palette (`src/lib/icons.mjs`) so no operator ships another brand's mark. Universal ships the
+"backlot at night" palette — deep navy ground, cool film-stock inks, studio-blue interactive hues,
+gold/bronze accents — with every text pairing held to WCAG AA in
+`test/operator-palette.test.mjs`. A palette must keep the house register's luminance
+relationships: `--brand` is the *interactive mid-bright* hue (buttons, bands, links), not the deep
+declared brand color — the deep navy lives in `themeColor`, the favicon field, and `--brand-soft`
+surfaces. The shared stylesheet itself is still one file; do not fork it.
 
 ### Component inventory (`src/templates/components.mjs`, ~700 lines)
 
@@ -321,8 +322,8 @@ anywhere, it must go through this resolution, never a literal string.
 - No PNG map plates rendered for any of the 4 Universal parks (Playwright rendering step hasn't run)
 - No `podcast` block configured in `data/universal/site.json` yet (Disney's podcast plumbing exists
   in code but Universal hasn't been wired to it)
-- The brand accent color (`themeColor: "#1b3a5c"`) declared in `site.json` isn't yet reflected in the
-  shared stylesheet's token system (see §3 note) — worth flagging even if out of scope to fix
+- ~~The brand accent color isn't reflected in the shared stylesheet's token system~~ — closed:
+  Universal now declares `brand.palette` and the build emits `operator.css` (see §3 note)
 
 ---
 

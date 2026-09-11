@@ -20,6 +20,8 @@ import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
 
 import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
+import { paletteCss } from './lib/palette.mjs'
+import { faviconSvg, iconPngs } from './lib/icons.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
@@ -564,18 +566,20 @@ function buildVercelConfig () {
  * Assets
  * ------------------------------------------------------------------ */
 
-const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0f3d2e"/>
-  <path d="M18 44V20h9.4c5.9 0 9.6 3 9.6 8 0 3.6-2 6.2-5.4 7.3L38 44h-6.3l-5.6-8h-2.3v8H18Zm5.8-12.6h3.2c2.6 0 4.1-1.2 4.1-3.4s-1.5-3.4-4.1-3.4h-3.2v6.8Z" fill="#e9b264"/>
-  <path d="M41 44V20h5.8v19h9.2v5H41Z" fill="#faf8f4" opacity=".9"/>
-</svg>
-`
-
-async function copyAssets (dist) {
+async function copyAssets (dist, site) {
   await cp(ASSETS_DIR, join(dist, 'assets'), { recursive: true })
   // sw.js is templated below, so it must not also ship as a raw asset.
   await rm(join(dist, 'assets', 'sw.js'), { force: true })
-  await writeFile(join(dist, 'assets', 'img', 'favicon.svg'), FAVICON, 'utf8')
+  // The favicon and touch icons are per-operator brand marks, so they are generated rather than
+  // copied: assets/img carries the house (Disney) icons, and a palette operator overwrites every
+  // one of them with its own colors before the dist ships to its domain.
+  await writeFile(join(dist, 'assets', 'img', 'favicon.svg'), faviconSvg(site), 'utf8')
+  for (const icon of iconPngs(site)) {
+    await writeFile(join(dist, 'assets', 'img', icon.name), icon.buffer)
+  }
+  // An operator with its own palette gets a token-override stylesheet; the layout links it.
+  const operatorCss = paletteCss(site)
+  if (operatorCss) await writeFile(join(dist, 'assets', 'css', 'operator.css'), operatorCss, 'utf8')
 }
 
 async function buildServiceWorker (dist, data, pages) {
@@ -672,7 +676,7 @@ async function buildOperator (operator) {
     await writeOut(dist, page.url, page.html)
   }
 
-  await copyAssets(dist)
+  await copyAssets(dist, data.site)
 
   // The slug manifest the report endpoint validates against: same build, same truth — the
   // API cannot accept a ride slug the pages do not know about, because both read this file.

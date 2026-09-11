@@ -9,7 +9,32 @@
     "locale": "en-US",
     "themeColor": "#1b3a5c",
     "founded": 2026,
-    "logoMark": "HR"
+    "logoMark": "HR",
+    "palette": {
+      "paper": "#07111D",
+      "surface": "#0C1A2A",
+      "surface2": "#10243A",
+      "surface3": "#16304C",
+      "ink": "#F4F7FB",
+      "ink2": "#CCD8E6",
+      "muted": "#A8B7C9",
+      "line": "#29445E",
+      "lineStrong": "#456786",
+      "brand": "#3B82C4",
+      "brand2": "#4A90CC",
+      "brand3": "#7DB3E0",
+      "brandSoft": "#0F2136",
+      "accent": "#C69A50",
+      "accent2": "#E0B86F",
+      "accentSoft": "#35270F",
+      "danger": "#F07178",
+      "dangerSoft": "#2A1418",
+      "warn": "#E0AE54",
+      "warnSoft": "#33250F",
+      "good": "#70BF9B",
+      "goodSoft": "#122B20",
+      "focus": "#E0B86F"
+    }
   },
   "meta": {
     "defaultTitleSuffix": "Hollywood Ride Guide",
