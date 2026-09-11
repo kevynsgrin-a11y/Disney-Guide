@@ -43,6 +43,7 @@ body {
 .hero__actions,
 .toc,
 .offline-note,
+.photo-band,
 .inline-attraction__tips summary,
 [data-print-hide] {
   display: none !important;

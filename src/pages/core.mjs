@@ -11,9 +11,10 @@ import { BUILD_MONTH as BUILD_MONTH_RAW } from '../lib/staleness.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
 
-function parkCard (park) {
+function parkCard (park, image) {
   return C.card({
     href: park.url,
+    image,
     eyebrow: park.resortInfo ? park.resortInfo.shortName : '',
     title: park.name,
     summary: park.tagline || park.summary,
@@ -221,7 +222,7 @@ export function homePage (data, seasonal) {
       title: 'Start with your park',
       kicker: `The ${data.parks.length} parks`,
       intro: 'Each park hub links to its full ride list, height chart, dining, printable map, accessibility notes, and a first-timer plan you can actually follow.',
-      children: C.cardGrid(parks.map(parkCard), { columns: 3 }),
+      children: C.cardGrid(parks.map((park) => parkCard(park, data.photo[park.heroImage])), { columns: 3 }),
     })}
 
     ${seasonSpotlight(site, runningNow)}
@@ -255,6 +256,15 @@ export function homePage (data, seasonal) {
           }),
         ], { columns: 3 })}
       `,
+    })}
+
+    ${C.photoBand({
+      image: data.photo.hero,
+      kicker: 'The day you will still be talking about',
+      title: 'The fireworks at the end of a very long, very good day.',
+      lede: 'You will forget the queue times by next week. You will still be describing this part in ten years. That is the trip this site exists to help you plan — not the most attractions, the best day.',
+      href: urls.tripTiming(),
+      label: 'Start with when to go',
     })}
 
     ${runningNow.length ? C.section({
@@ -404,7 +414,7 @@ export function parksIndexPage (data) {
       kicker: resort.location,
       intro: resort.tagline,
       children: html`
-        ${C.cardGrid(resort.parkList.map(parkCard), { columns: resort.parkList.length >= 3 ? 3 : 2 })}
+        ${C.cardGrid(resort.parkList.map((park) => parkCard(park, data.photo[park.heroImage])), { columns: resort.parkList.length >= 3 ? 3 : 2 })}
         <p class="mt-5"><a class="btn btn--ghost" href="${urls.resort(resort.slug)}">${resort.name} planning overview</a></p>
       `,
     }))}

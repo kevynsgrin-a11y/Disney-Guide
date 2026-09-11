@@ -353,6 +353,23 @@ main:focus { outline: none; }
 .hero--photo .btn--ghost { border-color: rgba(255, 255, 255, .55); color: #fff; background: rgba(255, 255, 255, .06); }
 .hero--photo .btn--ghost:hover { background: rgba(255, 255, 255, .14); border-color: #fff; color: #fff; }
 
+/* The photographic interlude between bands. Same scrim discipline as the hero — the linear
+   layer carries the text, the radial layer holds the corners — at a shorter stage height. */
+.photo-band { position: relative; isolation: isolate; overflow: hidden; background: var(--ink); }
+.photo-band__media { position: absolute; inset: 0; z-index: 0; }
+.photo-band__media .photo, .photo-band__media .photo img { width: 100%; height: 100%; aspect-ratio: auto; }
+.photo-band__scrim {
+  position: absolute; inset: 0; z-index: 2;
+  background:
+    linear-gradient(90deg, rgba(6, 10, 9, .80) 0%, rgba(6, 10, 9, .52) 48%, rgba(6, 10, 9, .22) 100%),
+    radial-gradient(120% 90% at 45% 40%, transparent 35%, rgba(6, 10, 9, .42) 100%);
+}
+.photo-band__inner { position: relative; z-index: 2; padding-block: clamp(4.5rem, 9vw, 7rem); }
+.photo-band__kicker { color: var(--accent-2); font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.photo-band__title { color: #fff; font-family: var(--font-display); font-size: var(--step-3); line-height: 1.1; max-width: 22ch; margin-top: var(--space-2); }
+.photo-band__lede { color: rgba(255, 255, 255, .88); max-width: 52ch; margin-top: var(--space-3); line-height: 1.5; }
+.photo-band__actions { margin-top: var(--space-5); }
+
 /* A slow drift. Long enough that it reads as depth rather than as movement. */
 @media (prefers-reduced-motion: no-preference) {
   .hero--photo .hero__photo img { animation: photo-in .5s ease both, hero-drift 24s ease-in-out infinite alternate; }

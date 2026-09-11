@@ -3,6 +3,8 @@ import assert from 'node:assert/strict'
 import { stat as statUrl } from 'node:fs/promises'
 
 import { loadData, operators } from '../src/lib/data.mjs'
+import { loadSeasonal } from '../src/lib/seasonal-data.mjs'
+import { homePage } from '../src/pages/core.mjs'
 import { renderPage } from '../src/templates/layout.mjs'
 import { html } from '../src/lib/html.mjs'
 import { PALETTE_TOKENS, hasPalette, hasChrome, paletteCss, chromeCss, palettePaper } from '../src/lib/palette.mjs'
@@ -15,10 +17,10 @@ for (const o of allOperators) {
   if (hasPalette(data.site)) paletteOperators.push({ slug: o.slug, site: data.site })
 }
 
-test('at least one operator declares a palette and disney ships the house tokens', async () => {
+test('at least one operator declares a palette and disney declares the celebration palette', async () => {
   assert.ok(paletteOperators.length >= 1, 'expected at least one operator with a brand palette')
   const disney = await loadData('disney')
-  assert.equal(hasPalette(disney.site), false, 'disney defines the house tokens and needs no override')
+  assert.equal(hasPalette(disney.site), true, 'disney declares the Midnight Celebration palette over the house tokens')
 })
 
 /* WCAG relative luminance and contrast ratio, 2.4-gamma, as in the spec. */
@@ -168,13 +170,13 @@ for (const { slug, site } of paletteOperators) {
 
 function p0 (site) { return site.brand.palette.paper }
 
-test('disney ships the house tokens and floats on glass chrome instead', async () => {
+test('disney floats on glass chrome over the celebration palette', async () => {
   const disney = await loadData('disney')
-  assert.equal(hasPalette(disney.site), false, 'disney defines the house tokens and needs no palette override')
+  assert.equal(hasPalette(disney.site), true)
   assert.equal(hasChrome(disney.site), true, 'disney opts into the float-glass masthead')
-  assert.equal(paletteCss(disney.site), null)
-  assert.equal(faviconSvg(disney.site), HOUSE_FAVICON, 'chrome changes the masthead, not the mark')
-  assert.deepEqual(iconPngs(disney.site), [])
+  assert.notEqual(paletteCss(disney.site), null, 'disney emits a token override alongside its chrome')
+  assert.notEqual(faviconSvg(disney.site), HOUSE_FAVICON, 'a palette operator generates its own letterform mark')
+  assert.ok(iconPngs(disney.site).length > 0)
 
   const glass = chromeCss(disney.site)
   assert.ok(glass.includes("site-header[data-chrome='float-glass']"))
@@ -188,7 +190,7 @@ test('disney ships the house tokens and floats on glass chrome instead', async (
   assert.ok(operatorAt > -1, 'chrome-only operators still get the override stylesheet')
   assert.ok(mainAt > -1 && mainAt < operatorAt && operatorAt < printAt, 'cascade order: main, chrome, print')
   assert.ok(d.includes('data-chrome="float-glass"'), 'the header carries its chrome for CSS and JS')
-  assert.match(d, /<meta name="theme-color" content="#100f0c">/)
+  assert.match(d, new RegExp(`<meta name="theme-color" content="${disney.site.brand.palette.paper}">`))
 })
 
 test('the glass chrome guards its motion and pays its layout debt', async () => {
@@ -215,10 +217,28 @@ test('an operator with neither palette nor chrome renders the pure house shell',
   const disney = await loadData('disney')
   const plain = structuredClone(disney.site)
   delete plain.brand.chrome
+  delete plain.brand.palette
   assert.equal(hasChrome(plain), false)
   assert.equal(chromeCss(plain), null)
   const d = renderPage({ site: plain, page: { url: '/', title: 'Test' }, body: html`<p>x</p>` })
   assert.equal(d.indexOf('/assets/css/operator.css'), -1, 'no override without a palette or a chrome')
   assert.equal(d.indexOf('data-chrome'), -1)
   assert.match(d, /<meta name="theme-color" content="#100f0c">/)
+})
+
+test('disney parks carry congruent scene photography, and the home page plays the photo-band beat', async () => {
+  const disney = await loadData('disney')
+  const seen = new Set(disney.parks.map((p) => p.heroImage))
+  assert.equal(seen.has(undefined), false, 'every park declares a heroImage scene')
+  for (const key of seen) {
+    assert.ok(disney.photo[key], `park heroImage "${key}" resolves to a photo on disk`)
+  }
+
+  const seasonal = await loadSeasonal('disney', disney)
+  const home = homePage(disney, seasonal).html
+  const mediaCount = (home.match(/card__media/g) || []).length
+  assert.ok(mediaCount >= 6, `park cards carry photography (found ${mediaCount})`)
+  assert.match(home, /photo-band__title/, 'the photographic interlude renders on the landing page')
+  assert.match(home, /photo-band__scrim/, 'the interlude never ships without its scrim')
+  assert.doesNotMatch(home, /photo-band__media">\s*<\/div>/, 'the interlude is only rendered when a photo resolves')
 })

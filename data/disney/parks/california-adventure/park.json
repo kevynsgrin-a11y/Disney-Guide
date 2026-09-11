@@ -631,5 +631,6 @@
     "entranceNote": "Disney California Adventure's gate faces Disneyland Park's across a shared esplanade, so security screening happens once for both. The Grand Californian Hotel has its own entrance directly into the park, which is the fastest way in for guests staying there. Bag check queues on the Harbor Boulevard side move faster than those on the parking-structure side on most mornings, so if you are walking in from a hotel, aim for the eastern screening lanes."
   },
   "lastVerified": "2026-07",
-  "idPrefix": "dca"
+  "idPrefix": "dca",
+  "heroImage": "day-end"
 }

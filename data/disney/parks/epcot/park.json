@@ -498,5 +498,6 @@
     "entranceNote": "EPCOT has two entrances. The main gate sits under Spaceship Earth at the north end; International Gateway sits between the United Kingdom and France pavilions at the back of World Showcase and has its own security screening, Guest Relations window and wheelchair and stroller rentals. If your day starts or ends in World Showcase, International Gateway saves close to a mile of walking and clears far faster after the nighttime show."
   },
   "lastVerified": "2026-07",
-  "idPrefix": "ep"
+  "idPrefix": "ep",
+  "heroImage": "scene-drop"
 }
