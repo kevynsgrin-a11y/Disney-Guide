@@ -1,4 +1,4 @@
-# Launching the Coaster Guide operator
+# Launching the CoasterReady operator (coasterready.com)
 
 `data/operators.json` marks `coasterguide` as `status: "draft"`. This document is what has to be
 true before that word changes, and why each item is on the list. It follows the structure of
@@ -12,7 +12,7 @@ the thing being checked is whether the dataset agrees with reality.
 ## Why this document exists
 
 The Universal launch doc explains the honesty problem in full; this one inherits it and multiplies
-it. Coaster Guide's reference tables and its dataset were both produced from the same model's
+it. CoasterReady's reference tables and its dataset were both produced from the same model's
 knowledge, so agreement between them is evidence of **consistency**, not of **correctness**. A
 green `npm run check` on coasterguide means the data is well-formed, internally consistent, free
 of seasonal leakage, and does not contradict what the model believed when it wrote the tables —
@@ -161,7 +161,7 @@ land in late August and September.
 The same constraints as the sister sites, against **four** rights holders, and one structural
 note:
 
-- [ ] The brand ("Coaster Guide", logo mark "CG", the violet/cyan identity) carries no operator
+- [ ] The brand ("CoasterReady", logo mark "CR", the violet/cyan identity) carries no operator
       trademark. The disclaimer in `site.json` names all four companies. Confirm it renders on
       every page as the Disney one does.
 - [ ] No character art, no official maps, photography only with provenance. The operator's
@@ -177,7 +177,7 @@ note:
 
 The affiliate-disclosure page now renders its partner list **from `site.json` data** (a
 generalisation fixed while building this operator — `src/pages/legal.mjs` no longer hardcodes
-the Disney affiliate set). Coaster Guide declares two relationships (tickets reseller, gear).
+the Disney affiliate set). CoasterReady declares two relationships (tickets reseller, gear).
 
 - [ ] Confirm the disclosure renders above the first affiliate link on every page carrying one,
       as on the sister sites.
@@ -186,12 +186,17 @@ the Disney affiliate set). Coaster Guide declares two relationships (tickets res
 
 ### 7. Operational
 
-- [ ] **No domain has been purchased.** `brand.origin` is `https://coasterguide.example` — an
-      RFC 2606 placeholder. Every canonical URL, sitemap entry and Open Graph URL is built from
-      it, so **buying the domain and updating `brand.origin` (and `brand.domain`, which the
-      corrections address derives from) is the one-file launch switch** — same discipline as the
-      Universal rename. Do not deploy anywhere with the placeholder origin.
-- [ ] Corrections and contact addresses must be provisioned on the real domain before launch.
+- [x] **Domain purchased: `coasterready.com`** (2026-09-11, via Cloudflare). The brand renamed to
+      **CoasterReady** in `data/coasterguide/site.json` — `brand.origin` is
+      `https://coasterready.com`, and every canonical URL, sitemap entry, Open Graph URL and the
+      corrections address derive from it, per the one-file rename discipline. The operator slug
+      stays `coasterguide`; it is the build target and dist directory, not the brand.
+- [ ] **Provision the mailboxes on the domain before launch** — Cloudflare Email Routing for
+      `corrections@coasterready.com` and the contact address the footer prints. A corrections
+      address that bounces is worse than none (see LAUNCH-UNIVERSAL.md for the reasoning).
+- [ ] Deploy is one Cloudflare Pages project (build `npm run build`, output `dist/coasterguide`,
+      Node 20+) when the content gates clear. Draft status does not block creating the project,
+      but nothing should be publicly announced while the placeholder-hardened gates above remain.
 - [ ] Analytics stays `enabled: false` until a consent mechanism exists and the privacy policy
       describes what is collected.
 - [ ] The seasonal `prices/` tree does not exist yet (this is the honest gap — the about page
@@ -205,10 +210,12 @@ the Disney affiliate set). Coaster Guide declares two relationships (tickets res
 
 ## The domain
 
-**No domain yet.** "Coaster Guide" is the working brand; `coasterguide.example` is a reserved
-placeholder that cannot collide with a real domain and reads as intentionally-not-final. When a
-domain is purchased: update `brand.domain` and `brand.origin` in `data/coasterguide/site.json`
-(see the LAUNCH-UNIVERSAL.md table for every derived surface), and provision the mailboxes.
+**coasterready.com** — purchased 2026-09-11 via Cloudflare. The working brand "Coaster Guide"
+was renamed to **CoasterReady** in the same move: the family reads RideReadyGuide → Hollywood Ride
+Guide → CoasterReady, and the app-style name suits the tools-forward identity in
+`docs/PRODUCT-AND-DESIGN-COASTERREADY.md`. If stricter family parallelism is ever wanted
+("Coaster Ready Guide"), it is the same one-file rename — no content file references the brand.
+The operator slug stays `coasterguide` (build target and dist directory, not the brand).
 
 The name itself was chosen trademark-clean (no operator mark in the brand), per the same
 reasoning as Hollywood Ride Guide.

@@ -1,15 +1,15 @@
 {
   "operator": "coasterguide",
   "brand": {
-    "name": "Coaster Guide",
-    "shortName": "Coaster Guide",
+    "name": "CoasterReady",
+    "shortName": "CoasterReady",
     "tagline": "Independent, unofficial planning for ten American coaster parks across four park companies.",
-    "domain": "coasterguide.example",
-    "origin": "https://coasterguide.example",
+    "domain": "coasterready.com",
+    "origin": "https://coasterready.com",
     "locale": "en-US",
     "themeColor": "#241E44",
     "founded": 2026,
-    "logoMark": "CG",
+    "logoMark": "CR",
     "palette": {
       "paper": "#0F0D17",
       "surface": "#16142A",
@@ -37,10 +37,10 @@
     }
   },
   "meta": {
-    "defaultTitleSuffix": "Coaster Guide",
+    "defaultTitleSuffix": "CoasterReady",
     "defaultDescription": "Height requirements, coaster-by-coaster honesty, line-skip pass maths, and haunt-season timing for ten American coaster parks. Independent and unofficial.",
     "twitterSite": "",
-    "publisherName": "Coaster Guide"
+    "publisherName": "CoasterReady"
   },
   "queue": {
     "name": "line-skip passes",
@@ -85,7 +85,7 @@
   },
   "photos": {},
   "author": {
-    "name": "The Coaster Guide editorial team",
+    "name": "The CoasterReady editorial team",
     "shortBio": "Independent writers who count inversions, measure height sticks and price funnel cake their way through America's coaster parks so you do not have to guess.",
     "url": "/about/"
   },
@@ -465,10 +465,10 @@
     "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
   },
   "legal": {
-    "disclaimer": "Coaster Guide is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to Six Flags Entertainment Corporation, Cedar Fair, L.P. or Knott's Berry Farm, Merlin Entertainments Group Limited or LEGOLAND, United Parks & Resorts Inc. or SeaWorld, or any of their subsidiaries or affiliates. Park, attraction, restaurant, and event names are used for identification and editorial commentary only. All trademarks are the property of their respective owners.",
+    "disclaimer": "CoasterReady is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to Six Flags Entertainment Corporation, Cedar Fair, L.P. or Knott's Berry Farm, Merlin Entertainments Group Limited or LEGOLAND, United Parks & Resorts Inc. or SeaWorld, or any of their subsidiaries or affiliates. Park, attraction, restaurant, and event names are used for identification and editorial commentary only. All trademarks are the property of their respective owners.",
     "shortDisclaimer": "Independent and unofficial. Not affiliated with Six Flags, Knott's Berry Farm, LEGOLAND, or SeaWorld.",
     "affiliateDisclosure": "This section contains affiliate links. If you buy through one, we may earn a commission at no additional cost to you. It never changes what we recommend or the order we rank it in.",
     "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so at the top. This site covers four different park companies, each publishing its own figures; where a number could not be verified it is left unstated on purpose.",
-    "copyrightHolder": "Coaster Guide"
+    "copyrightHolder": "CoasterReady"
   }
 }
