@@ -82,6 +82,30 @@ export function hero ({ eyebrow, title, lede, meta, actions, tone = 'default', a
   `
 }
 
+/**
+ * A full-bleed photographic interlude between content bands — the emotional beat of the page.
+ * Renders nothing without a resolved photo, so a pulled image degrades to the page it replaced,
+ * never to an empty stage. The scrim follows the hero's two-layer discipline: linear where the
+ * text sits, radial so the corners hold.
+ */
+export function photoBand ({ image, kicker, title, lede, href, label }) {
+  if (!image) return raw('')
+  return html`
+    <section class="photo-band">
+      <div class="photo-band__media" aria-hidden="${image.alt ? 'false' : 'true'}">
+        ${photo(image, { className: 'photo-band__photo', sizes: '100vw' })}
+        <div class="photo-band__scrim"></div>
+      </div>
+      <div class="shell photo-band__inner">
+        ${kicker ? html`<p class="photo-band__kicker">${kicker}</p>` : ''}
+        <h2 class="photo-band__title">${title}</h2>
+        ${lede ? html`<p class="photo-band__lede">${inline(lede)}</p>` : ''}
+        ${href && label ? html`<p class="photo-band__actions"><a class="btn btn--primary" href="${href}">${label}</a></p>` : ''}
+      </div>
+    </section>
+  `
+}
+
 export function section ({ id, title, kicker, intro, children, tone = '', wide = false, hide }) {
   return html`
     <section class="band ${tone ? `band--${tone}` : ''}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}${hide === 'checklist' ? raw(' data-checklist-hide') : raw('')}>

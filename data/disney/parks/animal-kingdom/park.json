@@ -554,5 +554,6 @@
     "entranceNote": "Security screening sits before the turnstiles and moves faster here than at Magic Kingdom. Once inside, the Oasis splits into two parallel paths to Discovery Island; both take about the same time and pass different animal habitats. Rainforest Cafe has doors both inside and outside the turnstiles, which makes it the only park restaurant usable without a ticket."
   },
   "lastVerified": "2026-07",
-  "idPrefix": "ak"
+  "idPrefix": "ak",
+  "heroImage": "scene-splash"
 }
