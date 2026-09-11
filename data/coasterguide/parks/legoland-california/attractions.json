@@ -1,0 +1,471 @@
+{
+  "park": "legoland-california",
+  "attractions": [
+    {
+      "slug": "the-dragon",
+      "name": "The Dragon",
+      "land": "castle-hill",
+      "type": "roller-coaster",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low minimum with supervision provisions — verify the current figure on the park's own attraction page. This site states no Legoland heights on purpose: the bands are age-and-supervension based and third-party numbers go stale.",
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 4,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "The first half is a gentle dark ride through the castle with cartoon dragons; the second half is a small outdoor coaster with one modest drop. The darkness surprises some four-year-olds; the coaster half is deliberately tame."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family coaster trains; the dark-ride segment is gentle and slow."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The castle's dark ride that becomes a coaster — the park's signature ride and the first roller coaster a child rides and remembers.",
+      "description": [
+        "The Dragon is the park's signature and its cleverest design: a family dark ride through the castle's interior — animated LEGO scenes, a snoring giant, cartoon dragon humor — that transitions seamlessly into a small outdoor roller coaster around the castle grounds. The trick is the segue: children absorbed in the dark ride barely notice they have become coaster riders.",
+        "It is the archetypal graduation ride. Thousands of Southern California kids ride the Dragon at five, Xcelerator at nine, and Goliath at twelve — this is the first rung of that ladder, and it treats its job with real care.",
+        "The queue is the park's longest family line by a distance. Rope-drop it, and re-ride in the last hour when the day-trippers leave."
+      ],
+      "experience": [
+        "Board in the castle's dungeon-level station. The first half is dark ride: slow vehicles past brick-built scenes, building the dragon story with humor rather than menace.",
+        "A door, daylight, and the coaster half begins — a lift, one genuinely fun drop, and a swooping circuit around the castle's turrets at family speed. The drop is the moment; it is engineered to be a child's first real one.",
+        "The brake run returns through the castle. Most kids immediately request the queue again, which is the review that matters."
+      ],
+      "tips": [
+        "Rope-drop it — the queue is the park's longest and grows all morning.",
+        "Prepare nervous kids: 'the dark part becomes a little roller coaster outside' — the transition lands better announced.",
+        "Re-ride at close; the queue dies in the final hour."
+      ],
+      "bestTime": "Rope drop and the final hour.",
+      "typicalWait": "20–45 minutes midday; under 10 at open.",
+      "faqs": [
+        {
+          "q": "Is the Dragon scary for a four-year-old?",
+          "a": "The dark-ride half is gentle and funny rather than menacing, and the coaster half is deliberately small — one modest drop at family speed. Sensitive four-year-olds may grip a parent in the dark sections; most ride it twice."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "Low, with supervision provisions — this site deliberately states no Legoland height figures because the bands are age-and-supervision based and change. Check the park's own attraction page before your visit."
+        },
+        {
+          "q": "How long is the Dragon's ride?",
+          "a": "About three minutes including the dark-ride half — long for a family coaster, which is part of why the queue moves slowly. Budget the full wait; the ride inside it is the point."
+        }
+      ],
+      "relatedSlugs": [
+        "coastersaurus",
+        "driving-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "coastersaurus",
+      "name": "Coastersaurus",
+      "land": "the-beginning",
+      "type": "roller-coaster",
+      "opened": 2004,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Low family minimum — verify the current figure on the park's own attraction page.",
+      "durationMinutes": 2,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A family wooden coaster with animated dinosaurs along the course — small drops, mild speed, and roars. The genre's friendliest tier."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family wooden-coaster trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The dinosaur wooden family coaster — small drops through a prehistoric forest of animated brick dinosaurs.",
+      "description": [
+        "Coastersaurus is the park's family woodie, threading a landscaped 'prehistoric' forest with animated LEGO dinosaurs alongside the track. The drops are small and the speed modest, but it rides like a real wooden coaster scaled down — the rattle, the structure, the feel — which is exactly the point for its audience.",
+        "It is the natural second ride after the Dragon for a kid building coaster courage. The dinosaurs give the nervous ones something to look at between drops."
+      ],
+      "tips": [
+        "Ride after the Dragon in the rope-drop window.",
+        "Back row is noticeably more coaster-y; front row is the dinosaur-view seat.",
+        "The queue passes build tables — pick up a brick project for the wait, drop it at unload."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "driving-school",
+      "name": "Driving School",
+      "land": "fun-town",
+      "type": "interactive-game",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Age-banded rather than height-based — check the park's own page for the current bands.",
+      "durationMinutes": 8,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "Not a ride — a real (small) driving experience on a signaled course. The intensity is entirely automotive pride."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into electric cars; pedal-and-steer operation required."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The real driving school — electric cars on a signaled street course, ending with the child's first license.",
+      "description": [
+        "Driving School is Legoland's differentiator: children drive actual electric cars around a small street network with signals, intersections and signage, untethered and unguided. It is the ride-that-is-not-a-ride that families remember, and the license at the end (a small upcharge) is a souvenir that outlives everything in the gift shop.",
+        "The experience is age-banded, and the bands matter — the course assumes its drivers can reach the pedals and process the rules. Check the current bands on the park's page before promising a four-year-old.",
+        "The queue is the section's bottleneck and the sign-up fills by midday. The morning window is not advice; it is the plan."
+      ],
+      "tips": [
+        "Sign up in the first two hours — the slots fill by noon on busy days.",
+        "Budget for the license before the child sees the counter.",
+        "Prepare them for the rules briefing — the cars stop for real at the signals."
+      ],
+      "bestTime": "The first two hours after open.",
+      "typicalWait": "The queue plus the drive runs 30–60 minutes at peak.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "fun-town-fire-academy"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "fun-town-fire-academy",
+      "name": "Fun Town Fire Academy",
+      "land": "fun-town",
+      "type": "interactive-game",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family participation — verify current requirements on the park's page.",
+      "durationMinutes": 5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A participatory race: families pump levers to drive a fire truck and shoot water at targets. Physically tiring in the fun way."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into fire-truck vehicles; pumping action is required to move."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The family fire-truck race — pump to drive, spray to win, and the park's best parent-participation workout.",
+      "description": [
+        "The Fire Academy is a competitive family attraction: crews pump levers to power their fire truck down a track, then aim water cannons at a burning-building target. First crew to douse wins, and the competition is real in the way that makes siblings allies and then rivals again.",
+        "It belongs to the participatory core that separates Legoland from standard family parks — the children (and their parents) are the ride system."
+      ],
+      "tips": [
+        "Assign the pumping to the adults and the aiming to the kids — division of labor wins races.",
+        "You will get misted. On a Carlsbad afternoon that is a feature.",
+        "The losing truck's crew gets sprayed too — there are no spectators in this attraction."
+      ],
+      "bestTime": "Anytime; the queue moves in heats.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "driving-school"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "miniland-usa",
+      "name": "Miniland USA",
+      "land": "miniland-usa",
+      "type": "walkthrough",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 60,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A walking exhibit, not a ride. The only danger is losing an hour happily."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": true,
+        "notes": "Fully paved walking exhibit — the most accessible experience at any park on this site."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The miniature brick cities — millions of pieces, working trains and traffic, and the park's actual masterpiece.",
+      "description": [
+        "Miniland is the craft core of the park: American cities and scenes rendered in miniature from millions of bricks, with working trains, moving traffic, and day-for-night lighting cycles. Southern California, San Francisco, Las Vegas, New York and Washington DC are the anchors, each dense with micro-scenes and jokes that reward slow looking.",
+        "For adults it is the park's justification — a model garden at exhibition grade. For kids it is the world made small and operable. Both audiences get an hour, and the evening lighting makes it two.",
+        "It is listed here as an attraction because it functions as one: the thing you visit the park for, alongside the rides."
+      ],
+      "tips": [
+        "Budget a full hour and a slow pace — the density is the point.",
+        "Return after dark for the lit cities; it is a different exhibit.",
+        "Play the detail game with kids: find the tiny jokes the model builders hid."
+      ],
+      "bestTime": "Morning light, then again at dusk.",
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "coastersaurus"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "deep-sea-adventure",
+      "name": "Deep Sea Adventure",
+      "land": "miniland-usa",
+      "type": "boat-ride",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 7,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 2,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A gentle submarine-style boat ride with viewports to (real or themed) underwater scenes. Calm throughout."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into submarine-style seating."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The submarine voyage — a gentle boat ride with underwater viewports and brick-built sea life.",
+      "description": [
+        "Deep Sea Adventure is the park's submarine ride: guests board through a hatch into a lower viewing level with portholes onto underwater scenes mixing real fish and brick-built creatures. It is slow, cool, and reliably popular with the under-eight set.",
+        "It pairs naturally with the adjacent SEA LIFE aquarium for the ocean-morning version of the park, though the ride itself is included with theme-park admission."
+      ],
+      "tips": [
+        "Claim a porthole seat quickly at boarding.",
+        "The cooler interior makes this a good midday stop.",
+        "Ask the ride hosts which portholes face the sunken ship scene; they know and they will tell you."
+      ],
+      "bestTime": "Midday.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "miniland-usa"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ninjago-the-ride",
+      "name": "NINJAGO The Ride",
+      "land": "the-beginning",
+      "type": "interactive-game",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 4,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 3,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "A dark interactive shooter with gesture-based controls — hand movements, no physical blasters. Loud in stretches, gentle in motion."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "indoor",
+      "airConditioned": true,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into ride vehicles; gesture controls require arm movement."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The gesture-controlled dark ride — throw virtual fire at screen villains without touching anything.",
+      "description": [
+        "NINJAGO The Ride is a dark interactive ride whose controls are gesture-based: riders wave their hands at screens to launch attacks, tracked by sensors rather than physical blasters. The technology still feels novel, and the scoring competition gives it repeat-ride life.",
+        "It is the park's most modern ride system and a reliable midday indoor stop. The theming leans on the LEGO Ninjago line, which the target audience knows in detail."
+      ],
+      "tips": [
+        "Big gestures score better — commit to the ninja performance.",
+        "Indoor and cool: the heat-peak slot.",
+        "Ride the left side of the vehicle — the sensor tracking reads big gestures marginally better there."
+      ],
+      "bestTime": "Midday heat.",
+      "typicalWait": "10–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "the-dragon",
+        "deep-sea-adventure"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "park": "six-flags-over-texas",
+  "dining": [
+    {
+      "slug": "jbs-smokehouse-sfot",
+      "name": "JB's Smokehouse",
+      "land": "tower-section",
+      "service": "quick-service",
+      "cuisine": "Barbecue",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The chain smokehouse at the park's center — brisket plates in the middle of a Texas barbecue state, held to a fair standard.",
+      "description": [
+        "JB's sits in the tower section and serves the chain's smokehouse menu: sliced brisket, pulled pork, sides. In a state that judges barbecue for a living, expectations should be calibrated to 'good theme-park barbecue' rather than 'Texas barbecue' — and at that calibration it clears.",
+        "The indoor seating is a genuine midday asset; the tower section has the park's worst shade, and the smokehouse's air conditioning is the local recovery room."
+      ],
+      "signatureItems": ["Brisket plate", "Pulled pork sandwich", "Cobbler"],
+      "goodFor": ["big-appetites", "air-conditioned-break", "groups"],
+      "tips": [
+        "Claim indoor seating before ordering in July.",
+        "App ordering skips the register queue on weekends."
+      ],
+      "verdict": "Fair portions at fair park prices, and the only hot meal at the park worth planning a stop for.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "old-south-fried-chicken",
+      "name": "Old South Fried Chicken",
+      "land": "spain",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Basket meals in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": [],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Fried chicken baskets in the shadiest section of the park — the family consensus stop with real seating.",
+      "description": [
+        "The Old South location serves chicken baskets and sides with indoor seating in the Spain section — the coolest, quietest part of the park at midday. It is the default family lunch: safe food, real tables, shade outside the door.",
+        "Portions run theme-park standard; the location is the actual product."
+      ],
+      "signatureItems": ["Fried chicken basket", "Chicken tenders", "Fries"],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break"],
+      "tips": [
+        "The midday shade hour belongs to Spain — lunch here is the plan that rides the heat.",
+        "Comb baskets split well for kids."
+      ],
+      "verdict": "Unremarkable food in the right place at the right time — which at a Texas park in summer is the whole game.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "spain-churro-cart",
+      "name": "Spain Churro Cart",
+      "land": "spain",
+      "service": "snack-cart",
+      "cuisine": "Snacks",
+      "priceTier": "$",
+      "priceNote": "Single digits to low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "Cinnamon churros in the park's most pleasant section — the classic walking snack done right.",
+      "description": [
+        "The churro cart in Spain is the park's best snack stop by location: hot churros, cinnamon sugar, and a bench under the section's mature trees a few steps away.",
+        "The cart's pace is steady all day; the only queue that builds is the pre-close dessert rush."
+      ],
+      "signatureItems": ["Cinnamon sugar churro", "Churro with dipping sauce"],
+      "goodFor": ["quick-bite", "families", "late-night"],
+      "tips": [
+        "Buy two — a single churro is a tease.",
+        "The shaded benches nearby are the park's best snack seating."
+      ],
+      "verdict": "A theme-park churro in the right setting, which makes it better than the same churro by the front gate.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

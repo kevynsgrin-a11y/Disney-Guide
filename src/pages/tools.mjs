@@ -299,7 +299,9 @@ export function heightCheckerPage (data) {
             ${C.callout({
               type: 'note',
               title: 'Height is not the only limit',
-              body: 'A child tall enough for a ride is not automatically ready for it. Our [is it scary guide](/guides/is-it-scary/) covers darkness, drops, and sudden noise, which stop more small children than the measuring stick does.',
+              body: data.link.isItScary
+                ? `A child tall enough for a ride is not automatically ready for it. Our [is it scary guide](${data.link.isItScary}) covers darkness, drops, and sudden noise, which stop more small children than the measuring stick does.`
+                : 'A child tall enough for a ride is not automatically ready for it. Darkness, drops, and sudden noise stop more small children than the measuring stick does — each ride page on this site carries a scare assessment covering exactly those.',
             })}
           </div>
         </div>
@@ -309,7 +311,7 @@ export function heightCheckerPage (data) {
     ${C.relatedLinks([
       { href: urls.guide('height-requirements'), label: 'The full height guide', summary: 'Bands, edge cases, and per-park breakdowns' },
       { href: data.link.riderSwitch, label: 'Rider switch', summary: 'How adults ride when a child cannot' },
-      { href: urls.guide('is-it-scary'), label: 'Is it scary?', summary: 'The other limit that matters' },
+      { href: data.link.isItScary, label: 'Is it scary?', summary: 'The other limit that matters' },
       { href: data.link.bestForYoungChildren, label: 'Best park for young children', summary: 'Where short riders get the most' },
     ])}
 

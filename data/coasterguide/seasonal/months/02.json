@@ -1,0 +1,98 @@
+{
+  "month": 2,
+  "name": "February",
+  "slug": "february",
+  "summary": "The other quiet winter month: cold parks run their minimum calendars, the warm-climate parks run walk-on weekdays, and the only crowd bumps are the Presidents' Week window.",
+  "verdict": {
+    "grade": "B+",
+    "short": "February at these parks: a good window with known trade-offs. The other quiet winter month: cold parks run their minimum calendars, the warm-climate parks run walk-on weekdays, and the only crowd bumps are the Presidents' Week window..",
+    "bestFor": [
+      "Warm-climate weekday visits",
+      "Presidents' Week avoidance planning"
+    ],
+    "worstFor": [
+      "Chicago in the wind",
+      "Weekend-only northern operation"
+    ]
+  },
+  "crowds": {
+    "level": "low",
+    "shape": "The other quiet winter month: cold parks run their minimum calendars, the warm-climate parks run walk-on weekdays, and the only crowd bumps are the Presidents' Week window.",
+    "peakWindows": [
+      "Presidents' Week at the Florida parks"
+    ],
+    "quietWindows": [
+      "The first three weeks' weekdays"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 69,
+      "lowF": 49,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 74,
+      "lowF": 51,
+      "rainDays": 7,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 63,
+      "lowF": 41,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 44,
+      "lowF": 26,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 35,
+      "lowF": 20,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "low",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "Presidents' Week at the Orlando and SoCal parks is the month's one real crowd event — the rides-shorter lines of January return the week after."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "Great America and Great Adventure run weekend-only or closed this month; their seasons start later."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

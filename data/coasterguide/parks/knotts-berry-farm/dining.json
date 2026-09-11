@@ -1,0 +1,118 @@
+{
+  "park": "knotts-berry-farm",
+  "dining": [
+    {
+      "slug": "mrs-knotts-chicken-dinner-restaurant",
+      "name": "Mrs. Knott's Chicken Dinner Restaurant",
+      "land": "ghost-town",
+      "service": "table-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Chicken dinners in the high teens to twenties",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "recommended",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": true,
+      "summary": "The 1927 original — fried chicken, boysenberry pie, and the restaurant whose dinner queue invented this entire park.",
+      "description": [
+        "Mrs. Knott's is the source code: Cordelia Knott started serving fried chicken here in 1927, the queues grew so long that Walter Knott built a ghost town to entertain them, and the first American theme park grew from that. The restaurant still serves the chicken dinner that started it, just outside the main gate in the California Marketplace.",
+        "The menu is the classic: fried chicken, mashed potatoes and gravy, biscuits, and the boysenberry pie that carries the farm's whole botanical legacy. It takes reservations, fills on peak days, and is the single best meal associated with any park on this site.",
+        "Plan a dinner here on a park day. The history is the seasoning, but the chicken genuinely earns the queue it invented."
+      ],
+      "signatureItems": ["Fried chicken dinner", "Boysenberry pie", "Biscuits and gravy"],
+      "goodFor": ["families", "special-occasion", "big-appetites", "groups"],
+      "tips": [
+        "Reserve ahead — walk-ins wait an hour on weekends and October evenings.",
+        "Save room for the boysenberry pie; ordering it first is a legitimate strategy.",
+        "It is outside the gate — plan it as the pre-entry dinner or the post-close finale."
+      ],
+      "verdict": "The best meal at any park on this site and it is not close. The chicken dinner is a genuine institution, the pie is the farm's whole story on one plate, and the queue that built a theme park still makes sense.",
+      "faqs": [
+        { "q": "Do you need park admission to eat at Mrs. Knott's?", "a": "No. The restaurant sits in the California Marketplace just outside the main gate — you can eat there without a ticket, which makes it the ideal bookend to a park day." },
+        { "q": "What is a boysenberry?", "a": "A hybrid of blackberry, raspberry and loganberry, developed in the 1920s and named for Rudolph Boysen. Walter Knott popularized it, and the farm's whole food identity — pie, punch, preserves, and a spring festival — descends from that berry." }
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ghost-town-grill",
+      "name": "Ghost Town Grill",
+      "land": "ghost-town",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates and baskets in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The in-park anchor inside Ghost Town's hotel building — the best indoor lunch seat inside the gates.",
+      "description": [
+        "Ghost Town Grill serves the park's most reliable in-park hot meal from the historic hotel building on the edge of Ghost Town, with indoor seating and air conditioning that most of the park lacks.",
+        "The menu is American grill standards. The location and the climate control are the product — the best midday stop inside the gates, and the default answer on hot days."
+      ],
+      "signatureItems": ["Chicken sandwich", "Burgers", "Boysenberry punch"],
+      "goodFor": ["families", "air-conditioned-break", "quick-bite"],
+      "tips": [
+        "Claim indoor seating before ordering on hot days.",
+        "The boysenberry punch is the drinkable version of the farm's whole identity."
+      ],
+      "verdict": "Dependable park food in the right historic building. Eat here at noon; save dinner for Mrs. Knott's outside the gate.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "boysenberry-bakery-cart",
+      "name": "Boysenberry Bakery Cart",
+      "land": "ghost-town",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Single digits to low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The boysenberry baked goods cart — pies, tarts and punches made from the berry that named the farm.",
+      "description": [
+        "The bakery cart in Ghost Town sells the farm's signature in portable form: boysenberry pies, hand pies, tarts and the punch. It is the in-park expression of the farm's whole agricultural identity, and the queue proves it works.",
+        "The hand pies are the move — warm, single-serving, walkable, and the honest edible souvenir of Buena Park."
+      ],
+      "signatureItems": ["Boysenberry hand pie", "Boysenberry punch", "Boysenberry tart"],
+      "goodFor": ["quick-bite", "families", "late-night"],
+      "tips": [
+        "The hand pie beats the slice for portability and shareability.",
+        "Punch plus hand pie is the farm's founding flavor pairing, to go."
+      ],
+      "verdict": "The most on-brand snack at any park on this site. Two hand pies, one punch, one bench in Ghost Town — that is a complete Knott's afternoon.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

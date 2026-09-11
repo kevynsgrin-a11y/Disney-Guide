@@ -1,0 +1,48 @@
+{
+  "resort": "new-jersey",
+  "slug": "new-jersey",
+  "title": "Six Flags Great Adventure Closures and Construction",
+  "titleTail": ": What We Can Support, 2026-07",
+  "h1": "Great Adventure closures: what this site can actually support",
+  "description": "The closure tracker for Six Flags Great Adventure — the Kingda Ka retirement and what else this site can support.",
+  "intro": [
+    "This tracker lists only closures this site can support with confidence. Where nothing qualifies, it says so and stays empty — an honest empty tracker beats a confidently wrong one, and every park here has a current attraction list on its own site that outranks any third-party summary.",
+    "Items land here when a closure is confirmed and load-bearing for planning; they leave when the ride reopens or is removed. The verification month on each item says when it was last checked."
+  ],
+  "items": [
+    {
+      "name": "Kingda Ka",
+      "parkSlug": "great-adventure",
+      "attractionSlug": "kingda-ka",
+      "status": "permanently-closed",
+      "since": "2024-11",
+      "reopening": null,
+      "reopeningConfidence": "confirmed",
+      "note": "The tallest roller coaster in the world for its entire operating life closed permanently after the 2024 season and has since been removed. The announcement was among the biggest ride stories of the decade; the site's redeveloped attraction list is the current reality."
+    },
+    {
+      "name": "Zumanjaro: Drop of Doom",
+      "parkSlug": "great-adventure",
+      "attractionSlug": "zumanjaro-drop-of-doom",
+      "status": "permanently-closed",
+      "since": "2024-11",
+      "reopening": null,
+      "reopeningConfidence": "confirmed",
+      "note": "The 415-foot drop ride on the Kingda Ka tower closed with the stratacoaster and was removed with it."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Structure and policy of the tracker; the items carry their own verification months.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

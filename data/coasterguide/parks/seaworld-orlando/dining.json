@@ -1,0 +1,71 @@
+{
+  "park": "seaworld-orlando",
+  "dining": [
+    {
+      "slug": "mango-joes",
+      "name": "Mango Joe's",
+      "land": "the-waterfront",
+      "service": "quick-service",
+      "cuisine": "Caribbean-American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The waterfront's island grill — the park's best counter food with lagoon-side seating.",
+      "description": [
+        "Mango Joe's anchors the waterfront food row with Caribbean-leaning grill food: chicken, island-rice plates and the tropical drinks the theming promises. The patio faces the water; the indoor seating is the storm-hour refuge.",
+        "It is the park's default lunch — the location, the menu breadth and the climate control all point the same way."
+      ],
+      "signatureItems": ["Island chicken plate", "Chicken tenders", "Tropical freeze drinks"],
+      "goodFor": ["families", "air-conditioned-break", "quick-bite"],
+      "tips": ["Claim the patio before the noon wave.", "The freeze drinks are the queue-friendly dessert-and-hydration combo."],
+      "verdict": "The best counter meal at the park in the best lunch location. The island chicken plate is the order.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "shipwreck-reef-cafe-orl",
+      "name": "Waterfront Cookhouse",
+      "land": "the-lagoon-edge",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The lagoon-edge cookhouse — hearty plates with splash-zone patio seating beside the flume.",
+      "description": [
+        "The cookhouse on the lagoon edge serves the hearty tier — plates, sandwiches and the shaded patio that doubles as Journey to Atlantis splash viewing. The accidental dinner theater is a park tradition.",
+        "The menu overlaps Mango Joe's; the seating is the differentiator — flume-front tables for the soak show."
+      ],
+      "signatureItems": ["Smoked chicken plate", "Pulled pork sandwich", "Cobbler"],
+      "goodFor": ["families", "view", "big-appetites"],
+      "tips": ["The splash-view tables are the play at lunch.", "App ordering beats the register queue at the noon peak."],
+      "verdict": "Good plates with a free show. Split your lunches between the waterfront and here; both earn it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

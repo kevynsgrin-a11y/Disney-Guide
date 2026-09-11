@@ -1,0 +1,27 @@
+{
+  "resort": "orlando",
+  "slug": "orlando",
+  "title": "Orlando Closures and Construction",
+  "titleTail": ": What We Can Support, 2026-07",
+  "h1": "Orlando closures: what this site can actually support",
+  "description": "The closure tracker for SeaWorld Orlando and Legoland Florida — only what we can support, honestly framed.",
+  "intro": [
+    "This tracker lists only closures this site can support with confidence. Where nothing qualifies, it says so and stays empty — an honest empty tracker beats a confidently wrong one, and every park here has a current attraction list on its own site that outranks any third-party summary.",
+    "Items land here when a closure is confirmed and load-bearing for planning; they leave when the ride reopens or is removed. The verification month on each item says when it was last checked."
+  ],
+  "items": [],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Structure and policy of the tracker; the items carry their own verification months.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

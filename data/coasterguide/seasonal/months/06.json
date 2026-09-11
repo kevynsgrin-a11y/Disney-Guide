@@ -1,0 +1,98 @@
+{
+  "month": 6,
+  "name": "June",
+  "slug": "june",
+  "summary": "Summer begins — daily operation everywhere, full water parks, and the first sustained crowds, with the northern parks hit hardest as their school years end.",
+  "verdict": {
+    "grade": "B-",
+    "short": "June at these parks: a good window with known trade-offs. Summer begins.",
+    "bestFor": [
+      "Daily operation at the northern parks",
+      "Water-park doubles"
+    ],
+    "worstFor": [
+      "Queue-averse riders",
+      "Texas and Florida afternoons"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "Summer begins — daily operation everywhere, full water parks, and the first sustained crowds, with the northern parks hit hardest as their school years end.",
+    "peakWindows": [
+      "The last two weeks as every district is out"
+    ],
+    "quietWindows": [
+      "The first week, while some schools remain in session"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 79,
+      "lowF": 59,
+      "rainDays": 0,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 91,
+      "lowF": 72,
+      "rainDays": 14,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 92,
+      "lowF": 69,
+      "rainDays": 6,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 82,
+      "lowF": 60,
+      "rainDays": 8,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 80,
+      "lowF": 58,
+      "rainDays": 10,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The June crowd curve is a staircase — each week another district empties in. The first week is a secret shoulder season; the last is full summer."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "Texas and Florida afternoons begin the storm pattern; the morning-first plan stops being advice and becomes the plan."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

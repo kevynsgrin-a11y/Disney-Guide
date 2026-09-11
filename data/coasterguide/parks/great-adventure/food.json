@@ -1,0 +1,62 @@
+{
+  "park": "great-adventure",
+  "items": [
+    {
+      "id": "sfgadv-brisket-plate",
+      "name": "Brisket plate",
+      "restaurant": "JB's Smokehouse",
+      "restaurantSlug": "jbs-smokehouse-sfgadv",
+      "land": "lakefront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Sliced brisket with sides on the lakefront patio — the park's one planned-stop meal.",
+      "verdict": "The best lunch at Great Adventure by a comfortable margin. Get the plate, sit on the patio, watch Nitro run.",
+      "image": null
+    },
+    {
+      "id": "sfgadv-funnel-cake",
+      "name": "Funnel cake",
+      "restaurant": "Boardwalk Funnel Cart",
+      "restaurantSlug": "boardwalk-funnel-cart",
+      "land": "lakefront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": [],
+      "iconic": true,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Fresh-fried funnel cake with powdered sugar or strawberries, eaten at the lake railing.",
+      "verdict": "Theme-park tradition priced like a theme park. Share one at close and call it the day's dessert.",
+      "image": null
+    },
+    {
+      "id": "sfgadv-churro",
+      "name": "Churro",
+      "restaurant": "Roaming churro carts",
+      "restaurantSlug": null,
+      "land": "main-street",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "snack",
+      "dietaryTags": ["vegetarian"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": true,
+      "seasonal": false,
+      "description": "Cinnamon-sugar churro from the midway carts — the walk-to-El-Toro snack.",
+      "verdict": "Portable, cheap-ish, and eaten in motion. The correct fuel for the rope-drop walk.",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "park": "seaworld-san-diego",
+  "attractions": [
+    {
+      "slug": "emperor",
+      "name": "Emperor",
+      "land": "the-waterfront",
+      "type": "roller-coaster",
+      "opened": 2022,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "The dive-coaster format: the train crests, tilts forward to face straight down, holds at the edge, then releases into a 153-foot 90-degree drop. The held anticipation is the fear mechanism — a genuine exposure experience at the crest."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into floorless dive-coaster trains with over-shoulder restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "California's only floorless dive coaster — a held 90-degree moment staring at the ground from 153 feet, then release.",
+      "description": [
+        "Emperor is a B&M dive coaster, the format famous for its held vertical drops, and it is the only one in California. Named for the emperor penguin, it sits on the waterfront side of the park: a 153-foot climb, the trademark edge-hold where the train rotates to face the ground and pauses, then a 90-degree release into a loop and a high-speed course over the bay side.",
+        "The dive format's psychology is the product — the anticipation at the crest is engineered dread, and the release is engineered relief. Riders who know drops still flinch at the hold.",
+        "Since opening in 2022 it has been the park's marquee and the reason coaster travelers add San Diego to a Southern California trip that already includes Magic Mountain and Knott's."
+      ],
+      "experience": [
+        "The lift is slow and high with the bay behind you. At the crest the train edges over, tilts forward, and stops — facing straight down, held, for a beat that lasts exactly as long as it needs to. The floor is gone; there is nothing between your feet and the ground 153 feet below.",
+        "The release is a true freefall into the vertical drop, the speed converting into a loop, an immelmann and high-speed turns. The restraints hold without pressure; the format's whole design is the absence of anything to push against during the drop.",
+        "Front row for the full face-down exposure, back row for the whip. Both are complete rides; the front is the one people describe afterward."
+      ],
+      "tips": [
+        "Time it against the orca presentations — the queue dips sharply during show times.",
+        "Front row is worth one extra cycle of queue for the held-drop view.",
+        "Ride before the marine layer burns off for the best drop visibility, or at dusk for the sunset version."
+      ],
+      "bestTime": "During show windows, or the last hour.",
+      "typicalWait": "30–60 minutes midday; 15–25 during presentations.",
+      "faqs": [
+        {
+          "q": "Does Emperor really hold you facing straight down?",
+          "a": "Yes — the train crests, rotates forward to vertical, and pauses at the edge before releasing into the 153-foot drop. The hold is the ride's signature and its entire psychological mechanism."
+        },
+        {
+          "q": "What is the height requirement for Emperor?",
+          "a": "54 inches, the top tier. The restraint is an over-shoulder harness on floorless trains; riders at the size extremes should check the test seat at the entrance."
+        },
+        {
+          "q": "Where does Emperor rank among Southern California coasters?",
+          "a": "Top tier for the region. Enthusiasts generally slot it behind Magic Mountain's best (Tatsu, Twisted Colossus) and alongside or ahead of Knott's headliners. The held vertical drop is unique in California and worth a dedicated visit."
+        }
+      ],
+      "relatedSlugs": [
+        "electric-eel",
+        "manta"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "electric-eel",
+      "name": "Electric Eel",
+      "land": "ocean-explorer",
+      "type": "roller-coaster",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 4,
+        "startles": 3,
+        "notes": "A triple-launch shuttle: forward launch, reverse launch, then a full-speed launch up a 150-foot twisted spike with a beyond-vertical top. The launches are violent and the spike's apex stalls you at the sky. Intensity concentrated into ninety seconds."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into launch-coaster trains with horse-collar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The triple-launch spike coaster — 60 mph up a 150-foot twisted spike, backwards and forwards, the park's most intense minute.",
+      "description": [
+        "Electric Eel is a Premier triple-launch shuttle coaster and the park's intensity peak: a forward launch into a reverse launch into a full-power launch that climbs a 150-foot twisted spike, crests weightless, and returns through the whole sequence in reverse. It is the ride at SeaWorld San Diego that coaster enthusiasts cite first.",
+        "The format's appeal is compression — three launches, a vertical-ish spike, and inversions of direction packed into ninety seconds. Riders who love launches rank it with the region's best; riders who don't should treat the 54-inch bar as a mercy.",
+        "It anchors the Ocean Explorer cluster and sets the tone for the modern SeaWorld thrill build-out that Emperor completed."
+      ],
+      "experience": [
+        "The first launch rolls forward and stops. The second launches backwards — the disorientation is deliberate, a reset of your expectations about which way is forward. The third is the real one: full voltage, straight up the twisted spike, the train slowing to a crawl at 150 feet with the whole park below your feet.",
+        "The return runs the sequence in reverse — down the spike, back through the station, up the rear spike, and brakes. The whole cycle is shorter than most coasters' lift hills, which is the point.",
+        "Ride it first thing: the tolerance for triple launches is a morning resource, and the queue is shortest when the park opens."
+      ],
+      "tips": [
+        "Rope-drop it — the queue is the cluster's longest by ten.",
+        "Do not ride it after lunch. The reverse launch is unforgiving on a full stomach.",
+        "The spike's apex is the moment — eyes open, the park is beneath you."
+      ],
+      "bestTime": "Rope drop.",
+      "typicalWait": "25–50 minutes midday.",
+      "faqs": [
+        {
+          "q": "Is Electric Eel scary?",
+          "a": "It is the most intense ride at the park — violent launches, a backwards section, and a 150-foot near-vertical spike. It is shorter than it feels and most riders exit buzzed rather than shaken, but motion-sensitive riders should respect it."
+        },
+        {
+          "q": "What is the height requirement?",
+          "a": "54 inches. The horse-collar restraint and launch forces make the bar genuinely appropriate here rather than merely policy."
+        },
+        {
+          "q": "Does Electric Eel go upside down?",
+          "a": "The twisted spike inverts the train at its crest — briefly, at the top of the 150-foot climb, rather than in grounded loops. It is over before it registers as a loop, which is either the appeal or the problem depending on the rider."
+        }
+      ],
+      "relatedSlugs": [
+        "emperor",
+        "tidal-twister"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "manta",
+      "name": "Manta",
+      "land": "explorers-reef",
+      "type": "roller-coaster",
+      "opened": 2012,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family-tier minimum — verify the current figure on the park's own attraction page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 2,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A family launch coaster with a stomach-dip launch, a modest drop and a ray-themed swing section. The launch surprises smaller riders; the rest is friendly. The queue's ray-touch aquarium is part of the attraction."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into family launch-coaster trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The ray-themed family launch coaster with a touch aquarium in the queue — the park's graduation ride between the family tier and the 54-inch giants.",
+      "description": [
+        "Manta is San Diego's family launch coaster, themed to the manta ray with a wing-shaped train and a queue that passes through a ray touch pool — the ride and the animal exhibit are deliberately one experience. The launch provides the thrill beat; the layout stays in family territory.",
+        "It is the park's middle rung: the coaster a 48-inch-ish rider does while Emperor and Electric Eel wait a few growth spurts. The ray pool in the queue is the best queue-at-aquarium integration anywhere.",
+        "This site states no height figure for Manta on purpose — family-tier minimums at this park have moved, and the park's own page is the source of record."
+      ],
+      "tips": [
+        "The queue's ray pool is worth the ride alone — build in ten minutes to touch.",
+        "The launch is the surprise for small riders; front-load the warning.",
+        "Ride in the first-hour window with the rest of the cluster."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "15–35 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "electric-eel",
+        "journey-to-atlantis"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "journey-to-atlantis",
+      "name": "Journey to Atlantis",
+      "land": "the-waterfront",
+      "type": "water-ride",
+      "opened": 2004,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 3,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "A dark-ride/flume hybrid with two drops — the larger one from inside the tower, with a genuine soak. The dark sections and the drop build are the tension; the splash is the payoff."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into boat vehicles."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The dark-ride flume hybrid — Atlantis theming, two drops, and the park's most reliable soaking.",
+      "description": [
+        "Journey to Atlantis combines a themed dark-ride section with a flume's drops, ending in the splash the whole park can see. It is the park's soak ride and its family-thrill anchor on the waterfront side.",
+        "The first drop exits the tower interior; the second is the outer flume drop. Both are modest; the soak is not. On a San Diego afternoon the queue fills for exactly that reason."
+      ],
+      "tips": [
+        "Ride in the afternoon heat — the soak is the feature, and the dry-off window is the sun.",
+        "Front seats take the wave; back seats take the wall. Choose your soaking.",
+        "Lockers for anything electronic; the splash is not negotiable."
+      ],
+      "bestTime": "Afternoon heat.",
+      "typicalWait": "20–40 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "manta",
+        "emperor"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "tidal-twister",
+      "name": "Tidal Twister",
+      "land": "ocean-explorer",
+      "type": "spinner",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A dueling counter-rotating ride — two arms spinning opposite directions with near-miss moments. Disorienting rather than forceful; the near-misses read more intense from the ground than they feel."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into spinner gondolas."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The dueling counter-spinner — two arms rotating opposite each other in a figure-eight chase, the cluster's disorienting middle ride.",
+      "description": [
+        "Tidal Twister is a Sky Warp-style ride: two trains of seats rotate in opposite directions around a figure-eight track, passing each other in choreographed near-misses. The format is rare, the sensation is unique, and the queue moves fast.",
+        "It sits between Manta and Electric Eel in the cluster's intensity ladder — more than a flat ride, less than a coaster. Motion-sensitive riders should note: counter-rotation is a specific kind of challenging."
+      ],
+      "tips": [
+        "Ride before Electric Eel, not after — the counter-rotation compounds.",
+        "The near-miss moments are timed; mid-cycle is the peak.",
+        "Sit on the outside seats for the wider arc — the rotation amplitude is meaningfully bigger at the edges."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "electric-eel",
+        "manta"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "arctic-rescue",
+      "name": "Arctic Rescue",
+      "land": "the-waterfront",
+      "type": "roller-coaster",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Family-tier minimum — verify the current figure on the park's own page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A family launch coaster themed to arctic rescue snowmobiles — multiple launches, low-to-the-ground speed, no drops of consequence. The launches thrill smaller riders; everyone else gets a pleasant wind ride."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into snowmobile-style rider positions."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The arctic-rescue family launch coaster — straddle-seat snowmobiles with multiple launches through the waterfront edge.",
+      "description": [
+        "Arctic Rescue is the park's 2023 family launch coaster: individual straddle seats themed to rescue snowmobiles, multiple low launches, and a winding course at the waterfront's edge. It extended the park's family launch tier alongside Manta.",
+        "The straddle position gives younger riders the solo-rider feel of a bigger coaster at thoroughly family forces — the confidence-building format done well."
+      ],
+      "tips": [
+        "Pairs with Manta as the family-thrill hour.",
+        "The middle launches are stronger than the first — prepare the small riders.",
+        "Ride in the late morning when the marine layer clears — the waterfront view from the lift is the ride's bonus."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "manta",
+        "electric-eel"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "orca-presentation",
+      "name": "Orca Encounter",
+      "land": "the-waterfront",
+      "type": "animal-experience",
+      "opened": 1964,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "An education-framed presentation in the waterfront stadium — amplified sound, splash zones, and animal behavior showcased rather than performed. The 'intensity' is entirely the splash-zone question."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Stadium seating with accessible areas; assistive listening available."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The park's signature orca presentation — education-framed, splash-zoned, and the experience that defines a SeaWorld visit.",
+      "description": [
+        "Orca Encounter is the park's defining presentation: orcas in the waterfront stadium with a narration centered on natural behaviors and conservation, in the post-'show' era of the park's orca program. The choreographed theatrical shows ended years ago; what runs now is behavior-focused and education-framed.",
+        "It is listed as an attraction because it functions as one — the schedule anchor of most visits and the queue-dip trigger for Emperor next door. Splash zones are real and marked.",
+        "Reader note: SeaWorld's orca program is the subject of genuine public debate, and this site's job is to describe what the presentation is and let readers decide whether it is for them."
+      ],
+      "tips": [
+        "Time the coaster windows against the presentation schedule — Emperor's queue dips during shows.",
+        "The first rows are the splash zone; the dry seats are mid-stadium and up.",
+        "Arrive fifteen minutes early for a seat choice."
+      ],
+      "bestTime": "Check the day's schedule at entry.",
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "emperor",
+        "journey-to-atlantis"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

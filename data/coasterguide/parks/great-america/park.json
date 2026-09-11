@@ -1,0 +1,183 @@
+{
+  "slug": "great-america",
+  "name": "Six Flags Great America",
+  "shortName": "Great America",
+  "idPrefix": "sfgam",
+  "resort": "chicago",
+  "resortName": "Chicago",
+  "opened": "1976-05-29",
+  "sizeAcres": 304,
+  "location": "Gurnee, Illinois",
+  "coordinates": { "lat": 42.3703, "lng": -87.9415 },
+  "tagline": "Raging Bull, Goliath, the original Batman invert and a pair of racing woodies from 1981 — Chicago's coaster park.",
+  "summary": "Six Flags Great America in Gurnee, 45 minutes north of Chicago, pairs one of the region's best steel lineups with two pieces of coaster history: the 1992 original Batman invert and American Eagle's racing wooden tracks.",
+  "intro": [
+    "Great America is the Midwest's flagship on this site's list, and its depth is the surprise: Raging Bull's 200-foot hyper drops, Goliath's 2014 hybrid inversions, Maxx Force's record-setting launch, and the original Batman: The Ride — the 1992 invert that cloned a generation of coasters nationwide — all in one park an hour from downtown Chicago.",
+    "The park also keeps its history running. Whizzer, the 1976 suspended family coaster that survived every planning era since, and American Eagle, the 1981 racing wooden coaster whose twin tracks still dispatch side by side, give the back corners a texture newer parks lack.",
+    "The season runs May through December — one of the few parks on this site where a December visit during the winter holiday event is real — and the crowd curve is classic regional: school-season weekdays are calm, summer Saturdays are enormous, and haunt-season weekends in October are the year's peak."
+  ],
+  "bestFor": ["Coaster enthusiasts", "Chicago families", "First big-coaster trips", "Woodie and hybrid fans"],
+  "notIdealFor": ["Families with children under 42 inches", "Winter-averse December visitors", "Midweek shoulder-season visitors expecting full operation"],
+  "stats": {
+    "attractionCount": 8,
+    "ridesWithHeightRequirements": 6,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "9–11 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "county-fair",
+      "name": "County Fair",
+      "order": 1,
+      "opened": 1976,
+      "summary": "The entrance section, where the giant wheel and the fairground theming set the park's original 1976 character.",
+      "description": [
+        "County Fair is the park's front door and its most historically intact section — the 1976 Marriott-era theming survives in the fairground architecture and the giant wheel. It reads as the Midwest's original vision of a theme park, because it is.",
+        "Practically it is logistics territory: guest services, lockers, and the walk toward the coaster loop. The marquee rides sit deeper — the plan starts here but does not stay."
+      ],
+      "vibe": "1976 Americana: a fairground entrance that has watched four decades of coasters rise behind it.",
+      "anchorAttraction": "whizzer",
+      "highlights": ["The original 1976 entrance theming", "The giant wheel", "Whizzer, the park's oldest survivor"],
+      "eatHere": [],
+      "tips": ["Pass through at open — Whizzer near here is the warm-up, not the destination."]
+    },
+    {
+      "slug": "southwest-territory",
+      "name": "Southwest Territory",
+      "order": 2,
+      "summary": "The canyon-themed back corner where Raging Bull's drop and Viper's loops anchor the park's biggest thrills.",
+      "description": [
+        "Southwest Territory is the park's best-themed section and its thrill core: Raging Bull dives through the canyon setting, and the section's rockwork and western facades are the most complete environment Great America has built.",
+        "Raging Bull's queue is the park's longest at peak. The counter-move is the early-afternoon window — the southwest corner heats up late and the crowds come with it."
+      ],
+      "vibe": "Canyon rockwork and coaster steel — the park's most scenic big-thrill corner.",
+      "anchorAttraction": "raging-bull",
+      "highlights": ["Raging Bull's 200-foot drop through the canyon", "The park's most complete theming"],
+      "eatHere": [],
+      "tips": ["Raging Bull first hour or after five; the midday queue is the park's longest.", "The section's shade improves late afternoon — plan it as the evening zone."]
+    },
+    {
+      "slug": "yankee-harbor",
+      "name": "Yankee Harbor",
+      "order": 3,
+      "summary": "The New England harbor section holding Batman, the original invert, and the park's classic midways.",
+      "description": [
+        "Yankee Harbor carries the lighthouse-and-harbor theming from the park's original layout and holds its most historically significant ride: Batman: The Ride, the 1992 B&M invert built here first, before the model spread to every major Six Flags park.",
+        "The section's midways connect the entrance loop to the back corners, making it the natural crossroads — and Batman's compact queue a repeatable stop between longer waits."
+      ],
+      "vibe": "Harbor village midways with an industry-changing invert at the center.",
+      "anchorAttraction": "batman-the-ride",
+      "highlights": ["The original 1992 Batman invert", "Classic harbor theming", "The park's crossroads location"],
+      "eatHere": [],
+      "tips": ["Batman's short cycle makes it the perfect between-waits ride — do it multiple times.", "The harbor setting is the park's best morning light for photos."]
+    },
+    {
+      "slug": "yukon-territory",
+      "name": "Yukon Territory",
+      "order": 4,
+      "summary": "The northwest back section where Goliath's hybrid inversions and American Eagle's racing woodies share the woods.",
+      "description": [
+        "Yukon Territory is the enthusiast's corner: Goliath, the 2014 Rocky Mountain hybrid that inverts a wooden coaster twice, and American Eagle, the 1981 racing woodie whose twin 100-plus-foot drops still dispatch side by side on good days.",
+        "The section is wooded, quieter, and holds the park's best back-corner energy. When the front fills, Yukon stays rideable — its queues age better than most."
+      ],
+      "vibe": "Pine woods and racing woodies — the park's deep-cut corner.",
+      "anchorAttraction": "goliath",
+      "highlights": ["Goliath's double-inverting hybrid layout", "American Eagle's racing dispatch", "Wooded, quieter midways"],
+      "eatHere": [],
+      "tips": ["Ask at American Eagle's station whether racing dispatches are running — the duel is the ride.", "Goliath's queue is shaded; a rare hot-day comfort in the big-thrill tier."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Great America is a big loop around a central lagoon, with the headliners in three corners: Raging Bull southwest, Goliath and American Eagle northwest, Batman and the front lineup east. The plan is the loop, walked once, clockwise.",
+      "The park's operating calendar is the first thing to check — the May-through-December season comes with real weekday gaps in the shoulder months, and the December operation is weekend-heavy."
+    ],
+    "beforeYouGo": [
+      { "title": "Check the calendar hard", "body": "This park's schedule varies more than most: daily in summer, weekends-plus in spring and fall, weekend-only by December. Verify your exact date before booking anything." },
+      { "title": "The Batman lineage", "body": "Great America's Batman is the original — the first B&M invert anywhere, built in 1992. Ride it as a coaster and as a piece of history; every Batman clone in the country descends from this one." },
+      { "title": "the fall haunt and the winter holiday event", "body": "October weekends and December evenings are this park's specialty seasons — the best vibes of the year and the biggest crowds. The line-skip guide prices the peak." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "Go left, up the east side. The crowd's instinct is Raging Bull; let it race ahead of you." },
+      { "time": "First hour", "body": "Batman and the harbor-section lineup while the front of the park is empty." },
+      { "time": "Mid-morning", "body": "Northwest to Yukon: Goliath, then American Eagle while the racing dispatches still run." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Lunch early, then Whizzer as the calm family hour." },
+      { "time": "Early afternoon", "body": "Southwest Territory as its queue peaks — this is the Flash Pass hour if you bought one." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Raging Bull as the queue ebbs; the canyon at golden hour is the park's best look." },
+      { "time": "Last hour", "body": "Re-rides in Yukon. Goliath after dark is the park's best close." }
+    ],
+    "rookieMistakes": [
+      "Racing to Raging Bull at open with everyone else — the queue only falls all day.",
+      "Missing American Eagle because it looks old. The racing dispatch is a genre.",
+      "Assuming December visits run the full lineup — holiday operation is a reduced, decorated version of the park.",
+      "Skipping Whizzer as 'just a family ride' — it is a 1976 survivor with the park's best flow."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Batman at rope drop.",
+      "Goliath mid-morning in Yukon.",
+      "American Eagle while racing dispatches run.",
+      "Whizzer over lunch.",
+      "Raging Bull after 16:00.",
+      "Goliath again at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is flat and lagoon-ringed, with a paved loop that makes chair and ECV navigation straightforward. Distances are real — the full loop is well over a mile — but there are no Magic-Mountain grades.",
+      "Six Flags' ride-access program requires advance registration through the company's accessibility intake, and the criteria have changed more than once. Confirm the current process on Six Flags' own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "Front gate area", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Front gate area", "priceNote": "Limited quantity on peak days", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Front gate area", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["County Fair guest services", "Southwest Territory"],
+    "quietSpaces": [
+      { "name": "Yukon woods", "where": "Northwest back section", "note": "Treeline midways, quieter queues, and the park's calmest coaster corner." },
+      { "name": "First aid", "where": "County Fair", "note": "Air-conditioned; sensory-break friendly." }
+    ],
+    "serviceAnimalRelief": ["Designated areas near the front gate — confirm at guest services"],
+    "sensoryNotes": [
+      "the fall haunt adds scare actors and loud startles after dark; the family sections post signage at entry points.",
+      "Maxx Force's launch is the park's loudest single moment.",
+      "The winter holiday event adds evening light shows with music on the lagoon."
+    ],
+    "mobilityNotes": [
+      "The loop around the lagoon exceeds a mile; interior shortcuts exist through the midways.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "Southwest Territory's grade changes are gentle but present near the canyon."
+    ],
+    "visionHearingNotes": [
+      "Ride spiels are audio-based; hosts repeat boarding instructions on request.",
+      "Assistive listening devices subject to availability at guest services."
+    ]
+  },
+  "tips": [
+    { "title": "The seasonal rhythm is everything", "body": "Late-May and early-June weekdays before summer camps, September weekdays during haunt setup, and October weekdays are the sweet spots. Each has full operation and half the crowds." },
+    { "title": "American Eagle's race is conditional", "body": "The twin tracks only duel when both dispatch — usually early or late in the day. Ask at the station; enthusiasts plan re-rides around the answer." },
+    { "title": "Goliath's queue is the park's most comfortable", "body": "Shaded and fast-moving. On a hot day it is the big coaster to queue, not the one to skip." },
+    { "title": "December is a different park", "body": "The winter holiday event is genuinely pretty and genuinely reduced — check which coasters run in winter configuration before promising anyone a full day." },
+    { "title": "The Metra option", "body": "The train from Chicago to Waukegan or Grayslake plus a short rideshare beats Friday expressway traffic in the summer. It is the region's most underrated park logistics move." }
+  ],
+  "faqs": [
+    { "q": "What is the best coaster at Great America?", "a": "Raging Bull for the general crowd — a 200-foot hyper with the floating airtime B&M built its name on. Goliath for the enthusiast — the 2014 hybrid that inverts a woodie twice and pulls real force. Batman for the history. A complete day rides all three." },
+    { "q": "Can you do Great America in one day?", "a": "Yes on any weekday in season: the loop covers the park with re-rides. Summer Saturdays and haunt-season weekends are the exceptions where the line-skip product changes the day's math." },
+    { "q": "What are the height requirements at Great America?", "a": "The headliner tier: Goliath and American Eagle at 48 inches; Raging Bull, Batman, Superman and Maxx Force at 54. Whizzer at 42 inches is the family entry — a 1976 suspended coaster at a genuinely low bar." },
+    { "q": "Is Great America open in winter?", "a": "Partially. The winter holiday event runs select dates into December with a decorated, reduced-lineup park. It is a real visit but not a full one — check which coasters operate in the winter configuration." },
+    { "q": "How do I get there from Chicago without a car?", "a": "Metra's Union Pacific North line to Waukegan, or the Milwaukee District line to Grayslake, plus a 15-minute rideshare. It is the rare big regional park with a workable transit path." },
+    { "q": "When does the fall haunt run?", "a": "Weekends from mid-September through Halloween most years. Dates shift annually — this site's Halloween section carries the current expectation with a confidence label, and the park's calendar is the record." }
+  ],
+  "gettingThere": {
+    "parking": "Large lots off Washington Street and the I-94 frontage; preferred rows near the gate. Trams serve the far rows seasonally.",
+    "transportation": [
+      "By car: on I-94 at the Gurnee exit, roughly 45 minutes north of downtown Chicago and 30 from O'Hare, traffic permitting.",
+      "By train: Metra to Waukegan or Grayslake plus a short rideshare — the summer-Friday move.",
+      "By rideshare: well-served with a dedicated drop-off loop."
+    ],
+    "entranceNote": "Security screening sits outside County Fair. The Batman walk from the turnstiles is under ten minutes at open — spend it getting ahead of the Raging Bull crowd."
+  },
+  "lastVerified": "2026-07"
+}

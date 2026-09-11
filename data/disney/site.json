@@ -471,19 +471,22 @@
       "label": "Undercover Tourist",
       "note": "Authorized Disney ticket reseller. Discounted multi-day tickets for both resorts.",
       "href": "https://www.undercovertourist.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "an authorized reseller of Walt Disney World and Disneyland Resort tickets. We earn a commission on ticket sales made through our links."
     },
     "packagesDisneyland": {
       "label": "Get Away Today",
       "note": "Disneyland-focused ticket and hotel packages with layaway.",
       "href": "https://www.getawaytoday.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "Disneyland Resort tickets and hotel packages. We earn a commission on bookings made through our links."
     },
     "gear": {
       "label": "Amazon",
       "note": "Park bag gear.",
       "href": "https://www.amazon.com/",
-      "rel": "sponsored nofollow noopener"
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "Associates — park gear on the packing recommendations. We earn a small percentage of qualifying purchases."
     }
   },
   "analytics": {

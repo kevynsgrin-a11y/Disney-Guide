@@ -1,0 +1,384 @@
+{
+  "slug": "magic-mountain",
+  "name": "Six Flags Magic Mountain",
+  "shortName": "Magic Mountain",
+  "idPrefix": "sfmm",
+  "resort": "southern-california",
+  "resortName": "Southern California",
+  "opened": "1971-05-29",
+  "sizeAcres": 262,
+  "location": "Valencia, California",
+  "coordinates": {
+    "lat": 34.4254,
+    "lng": -118.5957
+  },
+  "tagline": "The self-declared coaster capital of the world, and for once the marketing is close to true.",
+  "summary": "Six Flags Magic Mountain in Valencia holds more roller coasters than any other park on this site, stacked on a hillside an hour north of Los Angeles. It is a coaster park first and a theme park second, and the crowds are Disneyland-sized on summer Saturdays.",
+  "intro": [
+    "Magic Mountain opened in 1971 as a family park and spent the next five decades collecting roller coasters the way other parks collect carousel horses. The count now sits around twenty depending on what is running, which is more than any other park this site covers, and the lineup runs from a 1971 mine train to a 4th-dimension coaster that rotates you independently of the track. Nobody leaves having ridden everything in one day for the first time.",
+    "The park is built on a real hill. The summit section — Samurai Summit, at the top of a long incline from the entrance — holds Tatsu, Ninja and the Superman tower, and the climb is a genuine fifteen-minute walk. Plan the geography before you plan the rides: the mistake everyone makes is racing up the hill at eleven, coming down at two, and going back up at four. Do the summit once, early, and work down through the day.",
+    "Magic Mountain is a Six Flags park, which means three practical things. The crowd floor is higher than the regional average in summer, the Flash Pass — Six Flags' line-skip product — is priced like the park knows it, and weekday operations in spring and autumn can be genuinely empty: the same coasters that run ninety-minute waits on a July Saturday are walk-ons on a September Wednesday. The single best decision available at this park is which kind of day to buy."
+  ],
+  "bestFor": [
+    "Coaster enthusiasts",
+    "Thrill-seekers",
+    "Teenagers and young adults",
+    "First-time-in-LA park days"
+  ],
+  "notIdealFor": [
+    "Families with children under 42 inches",
+    "Anyone avoiding hills and heat",
+    "Dark-ride and show people"
+  ],
+  "stats": {
+    "attractionCount": 12,
+    "ridesWithHeightRequirements": 11,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "10–12 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "six-flags-plaza",
+      "name": "Six Flags Plaza",
+      "order": 1,
+      "opened": 1971,
+      "summary": "The entrance plaza, where Full Throttle's giant loop hangs over the front of the park like a gate.",
+      "description": [
+        "The plaza is the park's front door and its most photographed corner, because Full Throttle's 160-foot top hat and vertical loop lean directly over the entry road. You pass under the ride on the way in, which is either a welcome or a warning depending on your party.",
+        "Beyond Full Throttle the plaza holds the park's main guest services, lockers and the tram drop from the parking lot. Goldrusher, the 1971 mine train that started all of this, still runs from the base of the hill here — it is the park's oldest coaster and worth one lap for the history even though it is the smallest thing on the mountain."
+      ],
+      "vibe": "Entry plaza energy: loud, vertical, and dominated by a coaster loop you walk under.",
+      "anchorAttraction": "full-throttle",
+      "highlights": [
+        "Full Throttle's loop over the entry road",
+        "Goldrusher, the 1971 original",
+        "Locker and guest services cluster"
+      ],
+      "eatHere": [
+        "jbs-smokehouse"
+      ],
+      "tips": [
+        "Ride Full Thrust loops — Full Throttle — at rope drop from the plaza before the crowd migrates up the hill, then leave this area until evening.",
+        "Buy lockers here, not at individual rides: several coasters require loose articles in a paid locker and the plaza lockers are the cheapest per-hour."
+      ]
+    },
+    {
+      "slug": "dc-universe",
+      "name": "DC Universe",
+      "order": 2,
+      "summary": "The superhero strip, where Batman and The Riddler's Revenge run adjacent inverter-and-standup formation.",
+      "description": [
+        "DC Universe is the park's most compact coaster corner: Batman's suspended queue and Riddler's stand-up track pack two intense rides within a hundred yards of each other. Both are B&M coasters from the 1990s golden era of that manufacturer, and both still out-perform rides half their age.",
+        "The theming is comic-book storefront level, which is to say minimal, but nobody comes here for set dressing. Come early or come late: the strip is close to the entrance and collects the first mid-morning crowd wave of the day."
+      ],
+      "vibe": "Concrete and capes: high-intensity coasters with comic paint jobs and no shade to speak of.",
+      "anchorAttraction": "batman-the-ride",
+      "highlights": [
+        "Batman: The Ride, the West Coast invert",
+        "The Riddler's Revenge, one of the last big stand-up coasters",
+        "Two intense coasters within a short walk of each other"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Do this strip in the first hour or after 5pm; between noon and 4pm both queues bake.",
+        "Riddler's stand-up restraints punish wrong posture — stand straight, not leaning, or the bicycle seat finds you."
+      ]
+    },
+    {
+      "slug": "samurai-summit",
+      "name": "Samurai Summit",
+      "order": 3,
+      "summary": "The top of the mountain: Tatsu, Ninja, Superman's tower and the best view of the whole park.",
+      "description": [
+        "The summit is why Magic Mountain is called a mountain and not a hill. The walk up from the plaza is long, switchbacked and, in July, cruel — but it holds Tatsu, a flying coaster that glides off the summit with the whole Santa Clarita valley underneath you, plus Ninja's suspended swings through the trees and the Superman escape tower.",
+        "This is the one part of the park where ride order really matters. Tatsu's queue is the most popular on the mountain and builds by ten. Everyone's first morning instinct should be the climb straight to the summit, Tatsu first, then work the summit rides, then descend and never come back up."
+      ],
+      "vibe": "Pine trees, altitude and flying coasters: the quietest corner of the park between the loudest rides.",
+      "anchorAttraction": "tatsu",
+      "highlights": [
+        "Tatsu's pretzel loop off the summit edge",
+        "Ninja through the trees",
+        "Superman: Escape from Krypton's 415-foot spike",
+        "The valley view from the top"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Climb once, ride everything up here, and descend for good — the return trip up in the afternoon is the day-killer.",
+        "Ninja is the summit's 42-inch ride and the one younger-sibling ride worth the climb."
+      ]
+    },
+    {
+      "slug": "cyclone-bay",
+      "name": "Cyclone Bay",
+      "order": 4,
+      "summary": "The back corner where the wooden Colossus twins became Twisted Colossus and the racing continues.",
+      "description": [
+        "Cyclone Bay holds the park's wooden-coaster heart. Colossus raced white wooden trains for four decades; after the 2015 Rocky Mountain conversion it races itself as Twisted Colossus, a steel-tracked hybrid that duels its own second train around the old footprint and includes a section where the track literally high-fives itself.",
+        "West Coast Racers, the launched racing coaster built with the park's partnership branding, sits alongside. This back corner is hot, loud and — on weekdays — the emptiest big-coaster real estate in the park."
+      ],
+      "vibe": "Back-lot coaster yard: wood structure, steel track, racing trains and not much shade.",
+      "anchorAttraction": "twisted-colossus",
+      "highlights": [
+        "Twisted Colossus racing itself",
+        "West Coast Racers' side-by-side launches",
+        "Goliath at the bay's edge"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Twisted Colossus is at its best when both trains dispatch — if the queue is short, ask the ride hosts which dispatch pattern gets the duel.",
+        "This corner is the park's best afternoon zone: the crowds thin and the rides here keep capacity all day."
+      ]
+    },
+    {
+      "slug": "baja-ridge",
+      "name": "Baja Ridge",
+      "order": 5,
+      "summary": "The eastern ridge line, home to Viper's three loops and the park's steepest drop on Goliath's far side approach.",
+      "description": [
+        "Baja Ridge is the stretch of park between the plaza loop and the back bay, and its landmark is Viper's interlocking corkscrews, visible from the parking lot and responsible for a meaningful share of the park's souvenir neck pillows. It is a 1990 Arrow multilooper in full voice.",
+        "The ridge also catches the afternoon sun later than the summit does, which makes it a decent late-day zone. Viper at sunset, with the valley going orange behind the loops, is one of the park's signature moments."
+      ],
+      "vibe": "Sun-baked ridge with classic loop-pile silhouettes and the smell of funnel cake drifting up from the plaza.",
+      "anchorAttraction": "viper",
+      "highlights": [
+        "Viper's triple-loop silhouette",
+        "Late-day sun and valley views"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Viper's shoulder harnesses are famously unforgiving on wide shoulders — keep your head back against the headrest through the loops.",
+        "Save this strip for late afternoon when the summit crowd drains downhill."
+      ]
+    },
+    {
+      "slug": "rapids-camp-crossing",
+      "name": "Rapids Camp Crossing",
+      "order": 6,
+      "summary": "The family and water-ride lowlands, where the height requirements drop and the spray zones open.",
+      "description": [
+        "The crossing is where Magic Mountain remembers it was built as a family park in 1971. The rapids ride anchors it, the family coasters cluster around it, and the shade is better here than anywhere above it. On a hot day this is also the park's cooling strategy.",
+        "This is the zone for parties splitting up: the under-48-inch contingent can spend a genuine half-day here while the thrill riders work the summit and the bay, and Jet Stream-style soak rides give everyone a reason to reunite."
+      ],
+      "vibe": "Trees, water noise and strollers: the low-key corner where the park breathes.",
+      "anchorAttraction": null,
+      "highlights": [
+        "The water rides' soak cycle",
+        "Family coaster tier in one cluster",
+        "The best shade on the mountain"
+      ],
+      "eatHere": [
+        "primos-pizzeria"
+      ],
+      "tips": [
+        "Do the water rides after two o'clock — you will dry out before the evening and the mid-afternoon line for the rapids moves fast.",
+        "This is the meet-up zone for split parties: central, shaded, and visible."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Magic Mountain rewards a plan more than any other park in Southern California, because the hill punishes improvisation. The park's shape is a loop around a mountain with the marquee coasters at the far ends of it, and the mistake every first-timer makes is ping-ponging.",
+      "The one-sentence plan: up the hill at open, Tatsu first, work the summit, descend through DC Universe, hit the bay's big wood-and-steel in the afternoon, and finish on the plaza after the crowd thins."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Buy the weekday, not the line-skip",
+        "body": "A September Wednesday at Magic Mountain is a walk-on park for the price of regular admission. A July Saturday plus a top-tier Flash Pass costs more and buys you less riding. Check the operating calendar first — the park runs weekday operations only in parts of the year."
+      },
+      {
+        "title": "Measure everyone before you leave",
+        "body": "This park's height floor is higher than any Disney property: the headliners sit at 48 and 54 inches. A 46-inch child can ride Twisted Colossus but not Batman, and knowing the number before arrival prevents the gate-side negotiation."
+      },
+      {
+        "title": "Lockers are per-ride here",
+        "body": "Several coasters require loose articles in lockers at the ride entrance. Bring minimal pockets, and expect the plaza lockers to be the best per-hour deal if you must carry things."
+      },
+      {
+        "title": "Check the calendar for daily operation",
+        "body": "Magic Mountain runs reduced schedules much of the year, with some weekdays dark entirely outside summer and holidays. Verify your exact date before booking anything non-refundable."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Before open",
+        "body": "Be at the gate twenty minutes early. The security line, not the turnstiles, is the bottleneck."
+      },
+      {
+        "time": "Rope drop",
+        "body": "Go directly up the hill to Tatsu. Yes, the walk is long. It is shorter than its queue at noon."
+      },
+      {
+        "time": "First hour",
+        "body": "Tatsu, then Ninja while you are up top, then Superman if the tower is running — the summit clears in a lap."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "Descend and do DC Universe: Batman and Riddler's Revenge back-to-back before the strip bakes."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "Noon",
+        "body": "Lunch early — the restaurants empty by 11:30 and refill by 12:15. Eat at 11:30, ride at noon."
+      },
+      {
+        "time": "Early afternoon",
+        "body": "Work Cyclone Bay: Twisted Colossus and West Coast Racers hold capacity all day and this corner stays calm."
+      },
+      {
+        "time": "Mid-afternoon",
+        "body": "Water rides at the crossing while the heat peaks, then Viper on the ridge as the sun drops."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "Late afternoon",
+        "body": "Re-ride whatever you loved — queues drop after the day-trippers with small children leave."
+      },
+      {
+        "time": "Last hour",
+        "body": "Full Throttle off the plaza. Its queue dies at close and the loop at night is the park's best postcard."
+      }
+    ],
+    "rookieMistakes": [
+      "Going up the mountain twice. Once is enough; twice is a wasted hour of walking.",
+      "Buying a top-tier Flash Pass for a weekday that doesn't need it — check the crowd calendar first.",
+      "Riding X2 on a full stomach as your first ride of the day. The rotations are not gentle.",
+      "Assuming the park closes at six. Check the hours; summer and fall haunt dates run later.",
+      "Skipping Goldrusher because it looks small — it's the 1971 original and the queue is never long."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Rope-drop the hill and ride Tatsu first.",
+      "Ninja and Superman while up top.",
+      "Batman and Riddler's Revenge on the way down.",
+      "X2 early-afternoon when its queue dips at lunch.",
+      "Twisted Colossus and West Coast Racers in the bay.",
+      "Goliath late-afternoon as the sun drops.",
+      "Viper at sunset, Full Throttle at close."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Magic Mountain is built on a hillside, which shapes every accessibility answer at this park. The summit is reachable by a sustained incline that most wheelchair users will want to avoid; the park runs a mobility assist route, and the load areas at the top are reachable without the climb — ask at guest services for the current procedure.",
+      "Six Flags operates a company-wide ride access program for guests who cannot wait in conventional queues. It has required advance registration through the park's accessibility intake in recent years, and the entry requirements have changed more than once — confirm the current process on Six Flags' own accessibility pages before your visit rather than relying on any third-party summary, including this one."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Inside the main gate, near guest services",
+      "priceNote": "Standard manual chairs; confirm current pricing at the park",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Inside the main gate, near guest services",
+      "priceNote": "Limited quantity; arrive early on peak days",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Near the main entrance",
+      "priceNote": "Single and double options",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Near guest services at the front plaza",
+      "Rapids Camp Crossing"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Rapids Camp Crossing shade",
+        "where": "Lowlands near the rapids ride",
+        "note": "Trees, water noise and benches; the calmest corner of the park."
+      },
+      {
+        "name": "First aid",
+        "where": "Near the front plaza",
+        "note": "Air-conditioned and quiet; the staff are used to sensory-break requests."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Designated relief areas near the main entrance — confirm current locations at guest services"
+    ],
+    "sensoryNotes": [
+      "X2 and Full Throttle are the two loudest ride experiences on the mountain; both have onboard audio in the restrained seats.",
+      "The summit is high and exposed — guests with height anxiety should note Tatsu's station overlooks the drop.",
+      "The fall haunt overlay adds sudden scares along the midways after dark in season."
+    ],
+    "mobilityNotes": [
+      "The climb to Samurai Summit is a sustained grade; the park's internal transport options change seasonally — confirm at guest services.",
+      "Every coaster on this list requires a transfer from a wheelchair or ECV to the ride seat.",
+      "Distances between the summit and the bay approach a half-mile each way with grade changes."
+    ],
+    "visionHearingNotes": [
+      "Queue signage and safety spiels are audio-and-poster based; ride hosts can repeat boarding instructions on request.",
+      "Assistive listening devices are available from guest services subject to availability."
+    ]
+  },
+  "tips": [
+    {
+      "title": "The weekday discount is the real Flash Pass",
+      "body": "Spring and autumn Wednesdays run the same coasters as July Saturdays at a fraction of the crowd. If your dates flex, buy the quiet day instead of the skip-the-line product."
+    },
+    {
+      "title": "Two cars on the mountain beat one",
+      "body": "For parties with mixed thrill tolerance, split at the summit base: thrill riders up top, everyone else to the crossing. The reunite point is obvious and shaded."
+    },
+    {
+      "title": "Ride X2 in the middle of the day",
+      "body": "Its queue peaks at open and close; the lunch hours are its quietest window on most days."
+    },
+    {
+      "title": "The refill bottle math",
+      "body": "If you will ride the hill twice in one visit — you shouldn't, but if you will — the souvenir drink bottle pays for itself on a hot day. On a single loop it usually doesn't."
+    },
+    {
+      "title": "Parking-lot tram or walk?",
+      "body": "The main lot's walk is under ten minutes to the plaza; the tram saves less time than its queue costs except from the far rows."
+    },
+    {
+      "title": "the fall haunt changes the park",
+      "body": "After dark on haunt nights, several midways become scare zones and some family areas close. If you are visiting in late September or October with young kids, check which nights run the overlay."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many roller coasters does Magic Mountain have?",
+      "a": "Around twenty depending on the season and what is running, which is the most of any park on this site and among the most of any park in the world. The exact count moves with retirements and new openings, so treat the current number as a range rather than a fixed figure."
+    },
+    {
+      "q": "Can you do Magic Mountain in one day?",
+      "a": "Yes, with a plan and a weekday. The hill makes naive touring expensive — go up once at open, work the summit, descend and never climb again. On a summer Saturday, one day covers the headliners only, and a second day or a line-skip product is the honest answer."
+    },
+    {
+      "q": "What is the height requirement situation at Magic Mountain?",
+      "a": "The headliner tier sits at 48 and 54 inches: X2, Twisted Colossus, Goliath and West Coast Racers at 48; Tatsu, Full Throttle, Viper, Batman and Riddler's Revenge at 54. Ninja at 42 inches is the summit's family entry. A child between 42 and 48 inches has a real but much smaller park here."
+    },
+    {
+      "q": "Is the Flash Pass worth it at Magic Mountain?",
+      "a": "On weekdays in spring and autumn, usually not — the park runs near walk-on for its headline coasters. On summer and haunt-season weekends, it is the difference between ten and twenty-five rides and is priced accordingly. The line-skip guide on this site has the current pricing tiers."
+    },
+    {
+      "q": "How do I get to Magic Mountain without a car?",
+      "a": "It is possible and annoying. The Metrolink Santa Clarita line from downtown Los Angeles stops in Valencia with a short rideshare connection to the park. Most visitors drive; the park sits where the I-5 and SR-126 meet, about an hour north of downtown LA without traffic."
+    },
+    {
+      "q": "What should I ride first at rope drop?",
+      "a": "Tatsu. Its queue is the most popular on the mountain and the walk up the hill is the price of arriving before it builds. Everyone else heads for X2 or Full Throttle near the entrance — let them."
+    },
+    {
+      "q": "Does Magic Mountain have good food?",
+      "a": "It has adequate food at theme-park prices. The smokehouse locations and the plaza eateries are the reliable tier; the snack carts (funnel cake, churros) are the consistent win. Nobody visits this park for the dining, and the plan should treat eating as logistics, not an event."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Large main lot off Magic Mountain Parkway, with preferred rows near the gate. The walk from standard rows runs five to ten minutes; trams serve the far rows seasonally.",
+    "transportation": [
+      "By car: roughly 35 miles north of downtown Los Angeles via I-5, exit Magic Mountain Parkway. Without traffic it is 35–40 minutes; with Friday traffic it is two hours.",
+      "By train: Metrolink's Santa Clarita line from LA Union Station, then a short rideshare from the Valencia station.",
+      "By rideshare: well-served, with a designated drop-off lane at the main gate."
+    ],
+    "entranceNote": "Security screening is outside the plaza; the metal-detector line, not the turnstiles, is the morning bottleneck. Arrive twenty minutes before posted opening."
+  },
+  "lastVerified": "2026-07"
+}

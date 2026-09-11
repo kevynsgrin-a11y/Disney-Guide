@@ -1,0 +1,98 @@
+{
+  "month": 5,
+  "name": "May",
+  "slug": "may",
+  "summary": "The best overall month on this site: every park in full operation, summer crowds still weeks away, and the weather warm without the Texas and Florida extremes.",
+  "verdict": {
+    "grade": "A-",
+    "short": "May at these parks: one of the year's best windows. The best overall month on this site: every park in full operation, summer crowds still weeks away, and the weather warm without the Texas and Florida extremes..",
+    "bestFor": [
+      "Every park on this site",
+      "Full lineups at calm weekday levels"
+    ],
+    "worstFor": [
+      "Memorial Day weekend",
+      "Nothing, honestly"
+    ]
+  },
+  "crowds": {
+    "level": "moderate",
+    "shape": "The best overall month on this site: every park in full operation, summer crowds still weeks away, and the weather warm without the Texas and Florida extremes.",
+    "peakWindows": [
+      "Memorial Day weekend"
+    ],
+    "quietWindows": [
+      "Every weekday before the last"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 74,
+      "lowF": 56,
+      "rainDays": 1,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 88,
+      "lowF": 66,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 85,
+      "lowF": 62,
+      "rainDays": 7,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 73,
+      "lowF": 51,
+      "rainDays": 9,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 70,
+      "lowF": 48,
+      "rainDays": 11,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "moderate",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The pre-Memorial-Day weekdays are the year's best conditions at the northern parks — full lineups, school in session, weather that finally cooperates."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "Memorial Day Saturday is the summer season's opening gun and prices and crowds behave accordingly."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

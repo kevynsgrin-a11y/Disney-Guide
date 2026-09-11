@@ -1,0 +1,170 @@
+{
+  "slug": "seaworld-orlando",
+  "name": "SeaWorld Orlando",
+  "shortName": "SeaWorld",
+  "idPrefix": "swor",
+  "resort": "orlando",
+  "resortName": "Orlando",
+  "opened": "1973-12-15",
+  "sizeAcres": 200,
+  "location": "Orlando, Florida",
+  "coordinates": { "lat": 28.4114, "lng": -81.4632 },
+  "tagline": "Three B&M coasters and a marine park — Mako's airtime, Kraken's loops, Manta's flight, on the water.",
+  "summary": "SeaWorld Orlando holds the most coaster-dense lineup of the three SeaWorld parks — Mako, Kraken and Manta are three B&M coasters that would headline most regional parks — alongside the marine exhibits and presentations that define the brand.",
+  "intro": [
+    "SeaWorld Orlando is the thrill flagship of the SeaWorld parks: Mako, a 200-foot B&M hypercoaster with real airtime; Kraken, a floorless looper with seven inversions; Manta, a flying coaster whose queue passes a real ray aquarium; plus the newer Ice Breaker launch and Pipeline's standing surf format. Five coasters of that quality in one marine park is a genuine Orlando anomaly.",
+    "The park's rhythm is the show schedule layered under the ride lineup — the orca presentation, the dolphin theater and the sea lion show pace the day exactly as the rides do, and the queues for both rise and fall together. The interleave is the skill: Mako during the dolphin show, the aquariums during the heat, the coasters again at dusk.",
+    "Zone names are approximate clusters as at every SeaWorld — the parks don't publish hard land boundaries. What is not approximate is the park's position on the Sea-to-Sky corridor: twenty minutes from the Disney property, ten from Universal, and a genuinely different park from either.",
+    "The park's separately-ticketed fall haunt runs select nights in late September through October and is one of Orlando's three major Halloween events alongside the Disney and Universal parties — this site covers all three parks' haunts."
+  ],
+  "bestFor": ["Coaster enthusiasts in Orlando", "Mixed thrill-and-animal families", "Show-paced park days", "Non-Disney Orlando days"],
+  "notIdealFor": ["Readers wanting hard land maps", "Guests avoiding marine-animal venues on principle", "Pure-thrill summer afternoons (storm closures)"],
+  "stats": {
+    "attractionCount": 8,
+    "ridesWithHeightRequirements": 5,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "8–10 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "the-waterfront",
+      "name": "The Waterfront",
+      "order": 1,
+      "opened": 1973,
+      "summary": "The central waterfront — the orca stadium, the bay-side exhibits, and the park's pacing heart.",
+      "description": [
+        "The Waterfront is the park's center of gravity: the orca habitat and stadium, the dolphin exhibits, and the lakeside midways that connect everything. Every path in the park crosses it, and the show schedule here writes the day's shape.",
+        "The Bayside Stadium and the surrounding exhibits reward the middle hours — the aquariums are Orlando's best midday cool-downs, and the seating is the park's best."
+      ],
+      "vibe": "Bay-front show district — the calm center the coasters orbit.",
+      "anchorAttraction": "orca-encounter",
+      "highlights": ["The orca habitat and presentations", "Bayside Stadium", "The aquarium cool-downs"],
+      "eatHere": ["mango-joes"],
+      "tips": ["Photograph the schedule at entry; the day is built from it.", "The waterfront shade at lunch is the best hour at the park."]
+    },
+    {
+      "slug": "the-coaster-corner",
+      "name": "The Coaster Corner (Mako and neighbors)",
+      "order": 2,
+      "summary": "The thrill cluster — Mako's 200-foot lift, Kraken's looper, Ice Breaker and Pipeline concentrated in one back corner.",
+      "description": [
+        "The coaster corner holds the park's thrill core: Mako's hyper layout around its lagoon, Kraken's floorless inversions, Ice Breaker's quad-launch spikes and Pipeline's surf coaster, all within a few hundred yards. The zone label is a convenience — the concentration is the fact.",
+        "This is the rope-drop destination. The corner's queues all build by ten and the morning hour is the park's most valuable."
+      ],
+      "vibe": "Steel canyon: five coasters' noise and structure in one walkable corner.",
+      "anchorAttraction": "mako",
+      "highlights": ["Mako's 200-foot hyper layout", "Kraken's seven inversions", "Pipeline's surf format", "Ice Breaker's launch spikes"],
+      "eatHere": [],
+      "tips": ["Mako at rope drop, then Kraken — the corner's two biggest queues in their shortest window.", "The corner is exposed — the morning window is also the comfort window."]
+    },
+    {
+      "slug": "the-lagoon-edge",
+      "name": "The Lagoon Edge (Manta and aquariums)",
+      "order": 3,
+      "summary": "The lagoon-side stretch — Manta's flying coaster over the ray aquarium, Infinity Falls' rapids, and the quieter exhibits.",
+      "description": [
+        "The lagoon edge holds Manta — whose queue passes through a genuine ray-touch aquarium — plus Infinity Falls' rapids ride and the quieter animal exhibits. It is the park's blend zone, where ride and exhibit are deliberately one experience.",
+        "Manta's integration is the model: the flying coaster and the ray habitat are a single attraction, and the queue is half the point."
+      ],
+      "vibe": "Water, rays and flying track — the park's most complete ride-and-exhibit blend.",
+      "anchorAttraction": "manta",
+      "highlights": ["Manta's ray-aquarium queue", "Infinity Falls' soak", "The quieter exhibit stretch"],
+      "eatHere": ["shipwreck-reef-cafe-orl"],
+      "tips": ["Budget queue time for the ray aquarium at Manta — it is the attraction's other half.", "Infinity Falls in the afternoon heat; the soak is the plan."]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "SeaWorld Orlando is a five-coaster park hiding inside a marine park, and the planning is the interleave: coasters at rope drop and dusk, shows and aquariums in the middle. The visitors who struggle are the ones who treat it as one thing or the other.",
+      "The park is compact and flat, ten minutes from Universal and twenty from Disney — the easy third pole of an Orlando trip."
+    ],
+    "beforeYouGo": [
+      { "title": "Quick Queue is a real product here", "body": "SeaWorld's line-skip covers the coaster lineup in tiers, and at this park — five headliners — the top tier genuinely transforms a busy day. This site's line-skip guide prices the tiers as of July 2026." },
+      { "title": "Storm math", "body": "Florida summer afternoons close coasters on distant lightning alone. The morning-first plan is not preference here; it is weather strategy." },
+      { "title": "The haunt is a separate night", "body": "The fall haunt is separately ticketed and intense — families should verify their date; haunt fans should book the best nights early." }
+    ],
+    "morningPlan": [
+      { "time": "Rope drop", "body": "Mako — the park's best ride and its biggest queue, at its shortest." },
+      { "time": "First hour", "body": "Kraken, then Pipeline; the coaster corner's core in sequence." },
+      { "time": "Mid-morning", "body": "Ice Breaker, then Manta with its ray-queue on the lagoon edge." }
+    ],
+    "middayPlan": [
+      { "time": "Noon", "body": "Waterfront lunch, then the orca presentation from the schedule." },
+      { "time": "Early afternoon", "body": "Aquariums and the dolphin theater in the heat/storm window; Infinity Falls if the sun holds." }
+    ],
+    "eveningPlan": [
+      { "time": "Late afternoon", "body": "Mako re-rides as the queue eases; the hyper at dusk is the park's best lap." },
+      { "time": "Close", "body": "Whatever earned the re-ride. The corner at close is calm and golden." }
+    ],
+    "rookieMistakes": [
+      "Sleeping in — the storm-and-crowd math makes the first hour worth double here.",
+      "Skipping Manta's queue aquarium on the way to the ride; it is half the attraction.",
+      "Treating the shows as optional filler — the park is built around them.",
+      "Assuming the Disney/Universal line-skip logic transfers; Quick Queue is its own product with its own tiers."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "Mako at rope drop.",
+      "Kraken and Pipeline in the first hour.",
+      "Ice Breaker mid-morning.",
+      "Manta with the ray queue before lunch.",
+      "Orca presentation from the schedule.",
+      "Aquariums in the storm window.",
+      "Mako again at dusk."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "The park is flat, compact and lagoon-ringed, with aquarium interiors doubling as cool, quiet zones. Distances are short by Orlando standards.",
+      "United Parks & Resorts operates a ride-access system for guests who cannot queue conventionally; confirm the current process on the park's own accessibility pages before visiting."
+    ],
+    "wheelchairRental": { "available": true, "location": "Near the main entrance", "priceNote": "Confirm current pricing at the park", "lastVerified": "2026-07" },
+    "ecvRental": { "available": true, "location": "Near the main entrance", "priceNote": "Limited quantity", "lastVerified": "2026-07" },
+    "strollerRental": { "available": true, "location": "Near the main entrance", "priceNote": "Single and double", "lastVerified": "2026-07" },
+    "companionRestrooms": ["Entrance area", "The Waterfront"],
+    "quietSpaces": [
+      { "name": "Aquarium interiors", "where": "Exhibit buildings", "note": "Dim, cool and quiet — the best sensory resets at any Orlando park." },
+      { "name": "First aid", "where": "Entrance area", "note": "Staffed and calm." }
+    ],
+    "serviceAnimalRelief": ["Designated areas — confirm at guest services; animal exhibits have their own rules"],
+    "sensoryNotes": [
+      "Manta's prone position and restraint are the park's most confining; preview the load cycle if prone positioning is an issue.",
+      "The fall haunt adds scare actors and startles park-wide after dark in season.",
+      "The stadiums are amplified; back rows are the calmer seats."
+    ],
+    "mobilityNotes": [
+      "Flat and compact; the full loop is about a mile and a half.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "The waterfront's bench density makes pacing easy."
+    ],
+    "visionHearingNotes": [
+      "Presentations are audio-led; assistive listening available at guest services.",
+      "Ride hosts repeat boarding instructions on request."
+    ]
+  },
+  "tips": [
+    { "title": "The morning is worth double", "body": "Between the queues and the Florida storm pattern, the first two hours carry the day. Rope-drop Mako and the corner; let the afternoon be shows and aquariums by design rather than default." },
+    { "title": "Mako during shows", "body": "The hyper's queue dips during the stadium presentations like everything here. One schedule photograph, one saved hour." },
+    { "title": "The third-pole play", "body": "Ten minutes from Universal and twenty from Disney, SeaWorld is the Orlando day-trip that isn't a Disney day. Pair it with a water-park morning or an evening at CityWalk for the full non-Disney day." },
+    { "title": "Quick Queue arithmetic", "body": "Weekdays rarely need it; summer weekends and haunt-season Saturdays transform with it. The tiers are priced accordingly — the line-skip guide has the math." },
+    { "title": "Annual-pass crossover", "body": "United Parks' pass products often bundle Busch Gardens Tampa, ninety minutes away — the coaster-heavy sister park. A Tampa-plus-Orlando coaster trip is one of Florida's best-kept enthusiast plays." }
+  ],
+  "faqs": [
+    { "q": "What is the best ride at SeaWorld Orlando?", "a": "Mako. The 200-foot B&M hyper delivers the biggest airtime in the SeaWorld chain and one of the best coaster laps in Orlando, full stop. Kraken's seven inversions and Manta's flight are the supporting marquee." },
+    { "q": "What are the height requirements at SeaWorld Orlando?", "a": "Mako, Kraken, Manta and Pipeline at 54 inches; Ice Breaker at 48. This site asserts only the figures it would stake a build on — check the park's own pages for the family tier before promising a rider." },
+    { "q": "How does SeaWorld compare to Disney and Universal?", "a": "Fewer rides, different rhythm. The coaster core is genuinely competitive — Mako would be the best coaster at either neighbor — but the park's other half is animal exhibits and presentations, not dark rides. It rewards the interleave and punishes a rides-only checklist." },
+    { "q": "Can you do SeaWorld Orlando in one day?", "a": "Yes, comfortably: five coasters, the headline shows and the aquariums fit a full day at a relaxed pace. A half-day covers the coasters at rope drop plus one show." },
+    { "q": "When does the Halloween haunt run in Orlando?", "a": "Select fall nights, late September through Halloween, as a separate ticket. It is one of Orlando's three major Halloween events alongside the Disney and Universal parties. Dates shift annually — this site's Halloween section carries the current expectation with a confidence label." },
+    { "q": "Is Quick Queue worth it?", "a": "On weekdays, rarely. On summer weekends and haunt-season Saturdays, the upper tier is the difference between a full credit day and half of one. The line-skip guide prices the tiers as of July 2026." }
+  ],
+  "gettingThere": {
+    "parking": "Large lots at the park; trams serve the far rows on peak days.",
+    "transportation": [
+      "By car: Sea World Drive off the Central Florida Parkway, ten minutes from Universal and twenty from Disney property.",
+      "By rideshare: well-served with a dedicated drop-off — the standard Orlando logistics.",
+      "Hotel shuttles from the tourist corridor serve the park on many routes."
+    ],
+    "entranceNote": "Security at the entrance. Mako's walk from the gate is about ten minutes — the rope-drop minutes are for its queue."
+  },
+  "lastVerified": "2026-07"
+}

@@ -1,0 +1,71 @@
+{
+  "park": "great-america",
+  "dining": [
+    {
+      "slug": "jbs-smokehouse-sfgam",
+      "name": "JB's Smokehouse",
+      "land": "southwest-territory",
+      "service": "quick-service",
+      "cuisine": "Barbecue",
+      "priceTier": "$$",
+      "priceNote": "Plates in the mid-teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The canyon-side smokehouse — brisket plates with Southwest Territory's scenery and shade.",
+      "description": [
+        "JB's serves the chain smokehouse menu in the park's best-themed section, with a covered patio facing the canyon rockwork. It is the park's one planned-stop lunch.",
+        "The patio is the asset: shaded, scenic, and close enough to Raging Bull to watch the hyper run while eating."
+      ],
+      "signatureItems": ["Brisket plate", "Pulled pork sandwich", "Mac and cheese"],
+      "goodFor": ["big-appetites", "groups", "quick-bite"],
+      "tips": ["Claim patio shade before ordering on hot days.", "App ordering skips the register queue on weekends."],
+      "verdict": "The best hot meal at the park in the best section to eat it. The barbecue is theme-park-grade but honest about it.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "county-fair-ice-cream-parlor",
+      "name": "County Fair Ice Cream Parlor",
+      "land": "county-fair",
+      "service": "bakery",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Sundaes and cones in the single-to-low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The old-fashioned parlor in the 1976 entrance section — sundaes, cones, and the park's best air conditioning.",
+      "description": [
+        "The ice cream parlor in County Fair is the park's most charming food stop: a sit-down dessert counter in the historic entrance section, serving sundaes and cones with real tables and real climate control.",
+        "It doubles as the heat-recovery room. In July this is where families regenerate between the big coasters."
+      ],
+      "signatureItems": ["Hot fudge sundae", "Waffle cone", "Banana split"],
+      "goodFor": ["families", "air-conditioned-break", "late-night"],
+      "tips": ["The sundae is a two-person dessert; plan accordingly.", "Mid-afternoon is the cool-off slot — the parlor empties after the lunch wave."],
+      "verdict": "A genuine parlor rather than a freezer case with a window. The sundae is the park's best dessert by a mile.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "month": 10,
+  "name": "October",
+  "slug": "october",
+  "summary": "Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays.",
+  "verdict": {
+    "grade": "B",
+    "short": "October at these parks: a good window with known trade-offs. Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays..",
+    "bestFor": [
+      "Haunt nights — the season's best product",
+      "Calm weekday ride days"
+    ],
+    "worstFor": [
+      "The last two Saturdays at the big parks",
+      "Family evenings on haunt nights"
+    ]
+  },
+  "crowds": {
+    "level": "high",
+    "shape": "Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays.",
+    "peakWindows": [
+      "The last two Saturdays before Halloween"
+    ],
+    "quietWindows": [
+      "Every weekday, all month"
+    ]
+  },
+  "weather": {
+    "southern-california": {
+      "highF": 79,
+      "lowF": 58,
+      "rainDays": 2,
+      "note": "Climate normals, not a forecast."
+    },
+    "orlando": {
+      "highF": 84,
+      "lowF": 65,
+      "rainDays": 8,
+      "note": "Climate normals, not a forecast."
+    },
+    "texas": {
+      "highF": 80,
+      "lowF": 56,
+      "rainDays": 5,
+      "note": "Climate normals, not a forecast."
+    },
+    "new-jersey": {
+      "highF": 67,
+      "lowF": 45,
+      "rainDays": 7,
+      "note": "Climate normals, not a forecast."
+    },
+    "chicago": {
+      "highF": 63,
+      "lowF": 44,
+      "rainDays": 10,
+      "note": "Climate normals, not a forecast."
+    }
+  },
+  "cost": {
+    "level": "high",
+    "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
+  },
+  "whatsOn": [
+    "fright-fest-magic-mountain",
+    "fright-fest-over-texas",
+    "fright-fest-great-adventure",
+    "fright-fest-great-america",
+    "knotts-scary-farm",
+    "howl-o-scream-san-diego",
+    "howl-o-scream-san-antonio",
+    "howl-o-scream-orlando",
+    "brick-or-treat-legoland-california"
+  ],
+  "planningNotes": [
+    {
+      "heading": "The month in one decision",
+      "body": [
+        "The October split is extreme: weekday day-park visits run near-walk-on while haunt Saturdays are the year's biggest crowds. Knowing which you are buying is the month's whole plan."
+      ]
+    },
+    {
+      "heading": "The detail that matters",
+      "body": [
+        "The northern parks add holiday-season hours late in the month; Great America's October weekends are among the best atmosphere days on this site."
+      ]
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "All parks on this site",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "First coaster trip planning",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    }
+  ],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
+    "reviewBy": "2027-07",
+    "cycle": "rolling"
+  }
+}

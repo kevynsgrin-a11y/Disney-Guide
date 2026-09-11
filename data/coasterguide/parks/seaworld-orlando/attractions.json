@@ -1,0 +1,577 @@
+{
+  "park": "seaworld-orlando",
+  "attractions": [
+    {
+      "slug": "mako",
+      "name": "Mako",
+      "land": "the-coaster-corner",
+      "type": "roller-coaster",
+      "opened": 2016,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A 200-foot first drop at 73 mph into a course of sustained airtime hills. The fear is the drop's scale and the exposed crests; the ride itself is the friendly-giant formula — no inversions, lap-bar restraints, enormous grace."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into B&M hyper trains with lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "Orlando's tallest, fastest coaster — a 200-foot hyper with sustained airtime and the best lap in the SeaWorld chain.",
+      "description": [
+        "Mako is a B&M hypercoaster named for the speed shark, and it is the biggest thing between the big resort parks: 200 feet tall, 73 miles per hour, with a course designed around airtime — the hills are long, the float is sustained, and the restraint is a lap bar that lets every ounce of it register.",
+        "It is routinely ranked among the best coasters in Florida, and the argument for the park as a thrill destination starts here. Named-for-theming is light (the shark motif is decor, not story), which is honest: this is a pure machine, built for the sensation.",
+        "The rope-drop logic is absolute. Mako's queue is the park's longest, and the first hour is the difference between three laps and one."
+      ],
+      "experience": [
+        "The lift climbs with the park's skyline in view. The drop is 200 feet at a steep pitch — long enough to be a considered experience rather than a moment — and the speed carries directly into the first airtime hill, where the train floats for a full beat.",
+        "The middle alternates enormous banked turns and the signature hills: crest, float, fall, crest again. There is nothing to brace against and nothing that needs bracing — the design philosophy is pure negative-g generosity.",
+        "The final brake run arrives at ninety seconds with the specific disappointment of a great ride ending. The fix is the re-ride, and the queue's evening collapse makes it easy."
+      ],
+      "tips": [
+        "Rope-drop it, then re-ride at dusk — the two golden windows.",
+        "Back car for maximum airtime; the hills amplify rearward.",
+        "Lap-bar-only restraints make this the best big coaster in Orlando for larger riders."
+      ],
+      "bestTime": "Rope drop and the last hour.",
+      "typicalWait": "40–80 minutes midday in season; 10–20 at open.",
+      "faqs": [
+        {
+          "q": "Is Mako the best coaster in Orlando?",
+          "a": "It is the best pure coaster — tallest, fastest, most airtime — in a metro whose marquee rides are mostly dark-ride hybrids. Enthusiasts overwhelmingly rank it first; families splitting hairs with Hagrid's and VelociCoaster at Universal are comparing different sports."
+        },
+        {
+          "q": "What is the height requirement for Mako?",
+          "a": "54 inches, the B&M-hyper standard. The ride is intense-but-friendly: no inversions, no launches, just scale and airtime."
+        },
+        {
+          "q": "How does Mako compare to the other SeaWorld coasters?",
+          "a": "It is the best of the chain's lineup — bigger and more airtime-heavy than San Antonio's Steel Eel, faster than anything at San Diego. Within Orlando, it is the purest coaster experience: no screens, no story, just speed and float."
+        }
+      ],
+      "relatedSlugs": [
+        "kraken",
+        "manta",
+        "ice-breaker"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "kraken",
+      "name": "Kraken",
+      "land": "the-coaster-corner",
+      "type": "roller-coaster",
+      "opened": 2000,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 2,
+        "drops": 4,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "Seven inversions on a floorless train — the loops and dive loops are long and exposed, with nothing beneath the feet. The floorless format plus the count makes this the park's most inversion-intensive ride and a genuine challenge for looper-averse riders."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into floorless looper trains."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The floorless looper with seven inversions — Orlando's longest coaster and its most complete inversion package.",
+      "description": [
+        "Kraken is a B&M floorless coaster named for the sea monster, opened in 2000 as the park's first true thriller. Seven inversions — including a dive loop, a zero-g roll, a cobra roll and two corkscrews — on trains with no floor, which makes every element an exposure experience for the feet.",
+        "It was Orlando's longest coaster when it opened and remains among its most inversion-dense. The theming is light monster decor; the ride is the product.",
+        "Against Mako's airtime, Kraken is the complement: the park's intensity pick for riders who measure a coaster by its loops. Riding both back-to-back is the park's signature forty-five minutes."
+      ],
+      "experience": [
+        "The lift crests over the park's edge, and the first drop dives into the loop with the floor nowhere in sight. The floorless format reads most strongly in the dive loop and cobra roll — feet over open air, track visible but distant beneath.",
+        "The middle sequence chains the inversions with short recoveries: zero-g roll, cobra roll, the interlocking corkscrews. The pace is relentless by design; the second half's helixes give the stomach one breather before the brakes.",
+        "Front row for the floorless exposure, back row for the forces. Motion-sensitive riders should treat Kraken with respect — seven is seven."
+      ],
+      "tips": [
+        "Second in the rope-drop sequence after Mako; their queues build together.",
+        "Front row is the floorless ride; the format is the point.",
+        "Do it before lunch — the inversion chain is unforgiving on a full stomach."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "30–60 minutes midday in season.",
+      "faqs": [
+        {
+          "q": "How many inversions does Kraken have?",
+          "a": "Seven — a vertical loop, dive loop, zero-g roll, cobra roll and two corkscrews among them, on floorless trains. It is the most inversion-dense coaster in Orlando."
+        },
+        {
+          "q": "What is the height requirement for Kraken?",
+          "a": "54 inches, the park's top tier. The floorless format and inversion count make the bar fully earned here."
+        },
+        {
+          "q": "Is Kraken rough?",
+          "a": "No — it is a B&M floorless from the manufacturer's classic era, which means smooth inversions and comfortable restraints. The floorless format exposes the feet but does not shake them. The intensity is in the count and the pace, not the ride quality."
+        }
+      ],
+      "relatedSlugs": [
+        "mako",
+        "manta"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "manta",
+      "name": "Manta",
+      "land": "the-lagoon-edge",
+      "type": "roller-coaster",
+      "opened": 2009,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 4,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "A flying coaster: riders rotate to prone and fly face-down, with a pretzel loop that is among the highest-force elements in Florida. The prone restraint and the loop are the twin challenges; the queue's ray aquarium is the calm before."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into flying-position trains; the load cycle includes the rotation to prone. The queue passes through the ray aquarium with accessible viewing."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The flying coaster over the ray aquarium — face-down flight, a forceful pretzel loop, and the park's best ride-and-exhibit integration.",
+      "description": [
+        "Manta is SeaWorld Orlando's flying coaster and its best-themed thrill: the queue walks through a genuine ray aquarium — touch pools and viewing windows with hundreds of rays — and the ride's manta-shaped trains fly the layout in the prone position, skimming a waterfall and a lagoon on the course.",
+        "The pretzel loop is the signature: the fold-over inversion in the flying position is among the most forceful single elements in Florida, and it is the moment flying-coaster reputations are built on.",
+        "The integration is the model for what a marine park's thrill ride can be: the animal exhibit is not theming, it is the queue. Budget time for both halves."
+      ],
+      "experience": [
+        "The queue's aquarium section is deliberately paced — rays gliding past viewing walls, the music low. The station flips the mood: seats rotate to prone after boarding, and the lift delivers the park's best view in the flying position.",
+        "The first drop dives toward the lagoon face-first, skims the waterfall, and pulls into the pretzel loop — the fold where the sky and ground trade places at high g. The close-to-the-ground flying sections after it are the quiet thrill: grass, water and track a few feet below your face.",
+        "Re-ride front row if the queue allows; the flight sections reward the unobstructed view."
+      ],
+      "tips": [
+        "Budget ten extra minutes for the ray aquarium in the queue — it is half the attraction.",
+        "The pretzel loop is the force moment; motion-sensitive riders ride before lunch.",
+        "Glasses need a strap; the prone harness clamps everything else."
+      ],
+      "bestTime": "Mid-morning, after the corner's first hour.",
+      "typicalWait": "35–65 minutes in season; the slow load cycle stretches short lines.",
+      "faqs": [
+        {
+          "q": "Is Manta scary?",
+          "a": "The flying position is confining and the pretzel loop is genuinely forceful — it is the park's most challenging ride for riders who dislike restraints or high-g moments. The flight sections between the elements are calm enough to enjoy the sensation. Test the load posture at the entrance model if prone positioning is a concern."
+        },
+        {
+          "q": "What is the height requirement for Manta?",
+          "a": "54 inches. The restraint and forces make the bar fully appropriate."
+        },
+        {
+          "q": "How does Orlando's Manta differ from San Diego's?",
+          "a": "Completely different rides sharing a name. Orlando's is a full-size flying coaster with the high-force pretzel loop; San Diego's is a family launch coaster with a ray-themed queue. Height requirements, intensity and audience are all different — do not carry expectations between them."
+        }
+      ],
+      "relatedSlugs": [
+        "kraken",
+        "mako",
+        "pipeline-the-surf-coaster"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "ice-breaker",
+      "name": "Ice Breaker",
+      "land": "the-coaster-corner",
+      "type": "roller-coaster",
+      "opened": 2022,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 3,
+        "notes": "Four launches in three directions — forward, backward, backward faster, forward fastest — up a 100-degree beyond-vertical spike. The launches and the backwards spike are the thrill; the course after is family-thrill banking and turns."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into launch trains with lap-bar restraints."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The quadruple-launch spike coaster — four launches in three directions up a 100-degree top, the Arctic-themed family-thrill entry.",
+      "description": [
+        "Ice Breaker is a Premier multi-launch coaster themed to the Arctic: four launches alternating directions, a 100-degree beyond-vertical spike at the crest of the sequence, and a low banking course after. It opened in 2022 as the park's family-thrill launch, one notch below the big three in intensity.",
+        "The 48-inch bar makes it the transition ride — the coaster a freshly-measured kid does before the 54-inch trio. The launches give it real credibility with the big-kid crowd too.",
+        "Its Arctic theming sits beside the wild-animal exhibits of the same theme, continuing the park's habit of pairing ride and exhibit."
+      ],
+      "tips": [
+        "Third in the morning sequence after Mako and Kraken.",
+        "The backwards launches disorient — head back, commit.",
+        "The best 48-inch-bar coaster at the park for graduating riders."
+      ],
+      "bestTime": "The first three hours.",
+      "typicalWait": "20–45 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "mako",
+        "pipeline-the-surf-coaster"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "pipeline-the-surf-coaster",
+      "name": "Pipeline: The Surf Coaster",
+      "land": "the-coaster-corner",
+      "type": "roller-coaster",
+      "opened": 2023,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A standing-format coaster — riders stand on the board in a surf stance, secured at the waist. The novel position is the experience: wave-style banking and airtime in a posture nothing else uses. Intimidating to look at, more approachable to ride."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into standing-position trains; the load cycle adjusts the board height per rider."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The standing surf coaster — riders stand on boards through wave-banked inversions, the first new standing format in decades.",
+      "description": [
+        "Pipeline opened in 2023 as the first significant standing-format coaster built in decades: riders stand in a surf stance on individual boards, secured at the waist and legs, and the layout banks and inverts like a wave — a barrel-roll element included.",
+        "The format is the whole story. Standing changes every force: the airtime reads as lift, the inversions as tumble, and the banking as the carve the theming promises. Riders who grew up on the old stand-up coasters will recognize the lineage and appreciate the comfort of the modern restraint.",
+        "It completes a five-coaster lineup that justifies the park as a pure thrill destination on its own merits."
+      ],
+      "tips": [
+        "Let the load crew set the board height properly — the position is everything.",
+        "The barrel roll is the signature; stay loose through it.",
+        "Ride in the corner sequence after Kraken."
+      ],
+      "bestTime": "The first two hours.",
+      "typicalWait": "25–50 minutes in season; the per-rider board adjustment slows loads.",
+      "faqs": [],
+      "relatedSlugs": [
+        "kraken",
+        "ice-breaker"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "journey-to-atlantis",
+      "name": "Journey to Atlantis",
+      "land": "the-lagoon-edge",
+      "type": "water-ride",
+      "opened": 1998,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 6,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 3,
+        "drops": 3,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 2,
+        "notes": "A dark-ride/flume hybrid with two drops — the dark interior build and the outer splash. The dark sections and the surprise of the first drop are the tension; the soak is the point."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "mixed",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into boat vehicles."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The dark-ride flume — Atlantis theming, a dark interior drop, and the park's signature splash.",
+      "description": [
+        "Journey to Atlantis is the Orlando Atlantis: a themed dark-ride section building to a flume drop, with the tower's exterior plunge soaking the front rows and the bridge spectators alike. It has run since 1998 and remains the family-thrill soak anchor on the lagoon edge.",
+        "The first drop from inside the dark tower is the surprise the ride is built around; the second, outer drop is the one the crowd watches from the bridge."
+      ],
+      "tips": [
+        "Afternoon heat is the window; the soak is the plan.",
+        "The bridge over the splash is the park's best free show — and gets wet too.",
+        "Lockers for electronics; the splash is comprehensive."
+      ],
+      "bestTime": "Afternoon heat.",
+      "typicalWait": "20–40 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "manta",
+        "infinity-falls"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "infinity-falls",
+      "name": "Infinity Falls",
+      "land": "the-lagoon-edge",
+      "type": "water-ride",
+      "opened": 2018,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 7,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 2,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A rapids ride with a vertical-ish lift and a 40-foot drop — the largest drop of its type when it opened. The lift's rotation and the drop are the thrills; the soak is total."
+      },
+      "motionSickness": "low",
+      "getsWet": "soaked",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into circular rafts."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The rapids with the elevator lift — a rotating vertical ascent and a 40-foot drop into the soak, Florida's most complete drenching.",
+      "description": [
+        "Infinity Falls is the park's rapids ride, distinguished by its vertical lift — the raft rises while slowly rotating — and a 40-foot drop that was the tallest in the genre on opening. The soak is comprehensive and the queue knows it.",
+        "In the Florida afternoon it is the park's most rational queue. The ride pairs with Journey to Atlantis for a full-soak hour."
+      ],
+      "tips": [
+        "The rotating lift is the surprise — enjoy the view on the way up.",
+        "Pair both water rides back-to-back and dry off in the aquariums after.",
+        "No dry seat exists; plan the shoes accordingly."
+      ],
+      "bestTime": "Afternoon heat.",
+      "typicalWait": "20–40 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "journey-to-atlantis"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "orca-encounter",
+      "name": "Orca Encounter",
+      "land": "the-waterfront",
+      "type": "animal-experience",
+      "opened": 1973,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": null,
+      "durationMinutes": 25,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 1,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "The education-framed orca presentation in the waterfront stadium — amplified sound, marked splash zones, natural-behavior focus."
+      },
+      "motionSickness": "none",
+      "getsWet": "light",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "wheelchair-accessible",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": true,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Stadium seating with accessible areas; assistive listening available."
+      },
+      "tier": "headliner",
+      "standalonePage": false,
+      "summary": "The signature orca presentation — education-framed, splash-zoned, and the schedule anchor that every queue in the park moves around.",
+      "description": [
+        "Orca Encounter is the park's defining presentation: orcas in the waterfront stadium with narration centered on natural behaviors and welfare education, in the format that replaced the theatrical era of orca shows. It is also the park's scheduling anchor — Mako's and Kraken's queues visibly dip during presentations, which is the single most exploitable crowd fact on the property.",
+        "Splash zones are real and marked. As with every SeaWorld page on this site, the job here is to describe what the presentation is; the decision about attending it belongs to the reader."
+      ],
+      "tips": [
+        "Photograph the schedule at entry — the ride windows hang off it.",
+        "Front rows soak; mid-stadium stays dry.",
+        "Arrive early for the seat you want."
+      ],
+      "bestTime": "Per the day's schedule.",
+      "typicalWait": null,
+      "faqs": [],
+      "relatedSlugs": [
+        "mako",
+        "manta"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

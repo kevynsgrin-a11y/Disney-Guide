@@ -1,0 +1,559 @@
+{
+  "park": "great-america",
+  "attractions": [
+    {
+      "slug": "raging-bull",
+      "name": "Raging Bull",
+      "land": "southwest-territory",
+      "type": "roller-coaster",
+      "opened": 1999,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 5,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A 208-foot drop at 65 degrees in a twisted-first-drop format — the car slides sideways off the lift into the drop. The rest is enormous and friendly: no inversions, lap-bar restraints, long airtime hills."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into B&M hyper trains with lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 208-foot hyper through the canyon — a twisted first drop, sixty seconds of floating airtime, and the park's best steel ride.",
+      "description": [
+        "Raging Bull is a B&M hypercoaster themed into the Southwest Territory canyon and has been the park's flagship since 1999. The signature is the first drop's shape: rather than a straight plunge, the train slides off the crest into a banked, twisting descent that mixes falling and turning into one sustained moment.",
+        "What follows is the B&M hyper formula at its most crowd-pleasing — enormous speed carried into a series of hills where the train floats, high banked turns, and a hammerhead finale. No inversions, lap-bar restraints, and a capacity that keeps the queue honest.",
+        "It is the park's best answer for a cautious rider who wants to feel what the big coasters offer without loops or launches. For enthusiasts it is the comfortable giant that anchors every visit."
+      ],
+      "experience": [
+        "The lift crests and the drop begins sideways — the twisted opening is unlike most hypers and catches first-timers mid-preparation. The bottom of the drop converts to pure speed, and the first airtime hill arrives before the nerves settle.",
+        "The middle sequence alternates float and carve: hills that hold weightlessness for a full second, turns banked so steeply the horizon rotates. The finale tunnels through the canyon structure and brakes into the station.",
+        "Back row for the strongest airtime pull over every crest. The ride is smooth enough that row choice is preference, not pain management."
+      ],
+      "tips": [
+        "Queue after 16:00 — the midday line is the park's longest and the evening window is its shortest.",
+        "Lap-bar-only restraint makes this the best big coaster at the park for larger riders.",
+        "Ride in daylight — the canyon setting reads best before any evening overlay dims it."
+      ],
+      "bestTime": "After 16:00, or the first hour at open if the crowd surges elsewhere.",
+      "typicalWait": "40–80 minutes midday in season; under 25 in the evening window.",
+      "faqs": [
+        {
+          "q": "What is the height requirement for Raging Bull?",
+          "a": "54 inches — the top tier at this park. The ride itself is intense-but-friendly by looper standards; the bar is policy, not a judgment of the forces."
+        },
+        {
+          "q": "Is Raging Bull scary?",
+          "a": "The first drop is the scary part — 208 feet, twisted, sustained. Everything after is airtime and banked turns with no inversions. Riders who handle the drop love the rest."
+        },
+        {
+          "q": "How does Raging Bull compare to other hypers?",
+          "a": "It holds its own in the B&M hyper family — the twisted first drop is the differentiator in a format that otherwise shares DNA with Nitro at Great Adventure and Goliath at Magic Mountain. Midwest enthusiasts rank it at or near the top of the region."
+        }
+      ],
+      "relatedSlugs": [
+        "goliath",
+        "batman-the-ride",
+        "superman-ultimate-flight"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "goliath",
+      "name": "Goliath",
+      "land": "yukon-territory",
+      "type": "roller-coaster",
+      "opened": 2014,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 5,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 2,
+        "notes": "A wooden-structure coaster that inverts twice, dives 180 feet at 85 degrees, and holds the stall-hang feeling twice. It behaves nothing like a traditional woodie, which is the trap for riders who queued expecting one."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into hybrid trains with lap-bar restraints."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The 2014 Rocky Mountain hybrid — a wooden coaster that inverts twice, drops 85 degrees, and out-forces most steel loopers.",
+      "description": [
+        "Great America's Goliath is a Rocky Mountain Construction hybrid on a wooden structure, and when it opened in 2014 it set records for the type: the steepest drop on a wooden-structure coaster at 85 degrees, plus two inversions — a zero-g stall and a barrel roll — that wood was never supposed to carry.",
+        "The ride is short and ferocious. The drop is a wall; the stall inversion hangs the train sideways over the structure; the finale dives through a tunnel and rolls. It is the most forceful coaster at the park and the one enthusiasts travel for.",
+        "At 48 inches it shares the family-threshold tier with American Eagle despite being dramatically more intense — the height bar and the intensity bar are different instruments, and this ride is the proof at this park."
+      ],
+      "experience": [
+        "The lift is quiet and the crest arrives fast. The drop is 85 degrees — looking at the ground, not the horizon — and the speed at the bottom feeds straight into the stall: the track banks until the train hangs sideways, holds, and releases.",
+        "The middle alternates airtime pops and laterals through the wooden structure, then the barrel roll flips the horizon without warning. The tunnel finale compresses the roar and brakes arrive at just past a minute.",
+        "Re-ride capability is high because the cycle is short and the shaded queue moves. Two laps, back-to-back, is how most enthusiasts do it."
+      ],
+      "tips": [
+        "Ride early afternoon when the Raging Bull crowd is elsewhere — this queue ages better through the day.",
+        "Back row amplifies everything; ride mid-train first.",
+        "If anyone in the party expects a gentle classic woodie, recalibrate them in the queue — this is not that."
+      ],
+      "bestTime": "Early afternoon; the shaded queue makes it the hot-day big coaster.",
+      "typicalWait": "25–50 minutes in season.",
+      "faqs": [
+        {
+          "q": "Does Goliath go upside down?",
+          "a": "Twice — a zero-g stall and a barrel roll. It looks like a wooden coaster and rides like a steel looper, which is exactly the hybrid pitch."
+        },
+        {
+          "q": "What is the height requirement for Goliath?",
+          "a": "48 inches. The intensity is well above that bar — judge your rider on tolerance, not just height."
+        },
+        {
+          "q": "Goliath or Raging Bull?",
+          "a": "Goliath for force and intensity, Raging Bull for scale and comfort. The honest day does both, Goliath first while the tolerance is fresh."
+        }
+      ],
+      "relatedSlugs": [
+        "raging-bull",
+        "american-eagle",
+        "whizzer"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "batman-the-ride",
+      "name": "Batman: The Ride",
+      "land": "yankee-harbor",
+      "type": "roller-coaster",
+      "opened": 1992,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 4,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "Five inversions in a compact footprint at relentless pace. The forces are high for the ride's size — the vertical loop and finale helix pull hard."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The original — the 1992 B&M invert built here first, ancestor of every Batman clone in the country.",
+      "description": [
+        "This is the one that started it: the first B&M inverted coaster anywhere, opened at Great America in 1992, and cloned across the Six Flags chain and beyond. Every suspended-looping Batman in America descends from this ride, which makes a lap here a pilgrimage as much as a thrill.",
+        "Thirty-plus years on, the formula still works: a vertical loop, zero-g roll, corkscrews and helixes at a pace that never breathes. The compact layout keeps the forces coming and the cycle short — the best repeat-ride value at the park.",
+        "The 54-inch minimum is the gate. For riders tall enough, Batman is the between-waits default: short queue, short cycle, complete intensity."
+      ],
+      "tips": [
+        "Ride it three times: once for each row band. Front for flight, middle for balance, back for whip.",
+        "The queue is themed and shaded — a reasonable midday stop.",
+        "Coaster historians: the plaque-worthy fact is 1992, first of the type, this park."
+      ],
+      "bestTime": "Anytime — the short cycle keeps queues moderate.",
+      "typicalWait": "15–35 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "raging-bull",
+        "superman-ultimate-flight"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "superman-ultimate-flight",
+      "name": "Superman: Ultimate Flight",
+      "land": "yankee-harbor",
+      "type": "roller-coaster",
+      "opened": 2003,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 54,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 3,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "The prone flying position is the novelty and the fear vector; the pretzel loop is the force moment. Riders who dislike being clamped face-down should note the full harness."
+      },
+      "motionSickness": "moderate",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into flying-position trains with a rotation load cycle."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The flying coaster — board seated, fly face-down through a pretzel loop and a course a few feet off the ground.",
+      "description": [
+        "Great America's Superman is the chain-standard B&M flying coaster: the seats rotate to prone after the lift, and the course runs a couple of feet above the midways through a loop and near-miss turns. The pretzel loop — folding through a vertical loop while lying down — is the highest-force moment.",
+        "The load cycle is slow (per-rider rotation), so the queue outlasts the ride by a wide margin. Worth one lap for the sensation and the loop; regulars treat it as a once-per-visit ride."
+      ],
+      "tips": [
+        "Look along the track ahead, not straight down.",
+        "Ride at the afternoon lull; the slow load makes peak queues worse than the cycle justifies.",
+        "Glasses need a strap; the harness clamps everything else."
+      ],
+      "bestTime": "Afternoon lull.",
+      "typicalWait": "25–45 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "batman-the-ride",
+        "raging-bull"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "american-eagle",
+      "name": "American Eagle",
+      "land": "yukon-territory",
+      "type": "roller-coaster",
+      "opened": 1981,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 48,
+      "heightNote": null,
+      "durationMinutes": 2.5,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 3,
+      "scary": {
+        "score": 2,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 1,
+        "notes": "A 1981 racing woodie with a genuine 133-foot first drop. Rattly by modern standards — that is the genre — and loud in the structure. The racing duel, when it happens, is excitement rather than fear."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into classic wooden-coaster trains."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 1981 racing wooden coaster — twin red and blue tracks, a 133-foot shared first drop, and a duel when both trains dispatch.",
+      "description": [
+        "American Eagle is a piece of working 1981 Americana: two full wooden coasters, mirror-imaged, built side by side for racing. The shared lift and first drop remain among the tallest wooden-coaster moments of its era, and when both trains dispatch together the park gets its best free show.",
+        "The ride is classic woodie — loud structure, real airtime in the back car, a helix finale through the woods. It is not smooth and does not apologize. For visitors who started riding in the eighties and nineties, it is the memory itself.",
+        "At 48 inches it is the threshold big coaster with history attached: the ride a freshly-measured kid does while Goliath waits a few years."
+      ],
+      "tips": [
+        "Ask at the station if racing dispatches are running — the duel is the whole point when it happens.",
+        "Back car for the airtime; the 1981 drops still deliver.",
+        "Ride early or late; midday the single-track operation can kill the race."
+      ],
+      "bestTime": "Early or late in the day for the racing dispatch.",
+      "typicalWait": "10–25 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "goliath",
+        "whizzer"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "whizzer",
+      "name": "Whizzer",
+      "land": "county-fair",
+      "type": "roller-coaster",
+      "opened": 1976,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": null,
+      "durationMinutes": 3,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 1,
+        "startles": 1,
+        "notes": "A gentle 1976 suspended coaster with a lift that threads the trees. The fear content is zero; the charm content is maximum."
+      },
+      "motionSickness": "none",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into suspended two-bench trains."
+      },
+      "tier": "minor",
+      "standalonePage": false,
+      "summary": "The 1976 suspended family coaster — a speed-driven glide through the trees and the park's oldest operating coaster.",
+      "description": [
+        "Whizzer opened with the park in 1976 and has survived every redevelopment wave since — a suspended, lift-driven family coaster whose trains swing gently through a wooded course. It is the rare survivor of its type and the park's best first coaster by a distance.",
+        "For adults it is a three-minute glide with actual breeze; for kids it is the gateway drug. Its 42-inch bar is the lowest coaster minimum at the park, and its queue is never the problem."
+      ],
+      "tips": [
+        "The perfect midday cooldown ride — trees, breeze, no queue.",
+        "First-timers: this is the confidence-builder before American Eagle.",
+        "The lift's speed means the ride starts almost immediately — no long climb, all course."
+      ],
+      "bestTime": "Anytime.",
+      "typicalWait": "0–15 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "american-eagle",
+        "goliath"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "maxx-force",
+      "name": "Maxx Force",
+      "land": "county-fair",
+      "type": "roller-coaster",
+      "opened": 2019,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "High-tier minimum — verify the current figure on the park's own page before promising a rider.",
+      "durationMinutes": 1,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 5,
+        "loudness": 5,
+        "startles": 3,
+        "notes": "One of the fastest launches in the country — zero to nearly 80 mph in under two seconds — into a gigantic inversion. The launch is the entire experience and it is violent by design."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into launch trains with horse-collar restraints."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The record launch coaster — zero to nearly 80 mph in under two seconds into the fastest inverted loop anywhere.",
+      "description": [
+        "Maxx Force is a Premier launched coaster built around one statistic: acceleration. The launch is among the fastest in American parks, and it feeds straight into a huge corkscrew-style inversion that was record-setting for its speed through a loop.",
+        "The ride is a minute long and the launch is most of it. Riders who love launches rank it at the top of the park; riders who do not rank it first to skip. Either way it is the park's most concentrated thrill."
+      ],
+      "tips": [
+        "Head back, brace, commit — the launch gives no countdown worth trusting.",
+        "Ride early; the launch tolerance fades with the day's fatigue.",
+        "The front row gets the full force view; the back gets the full force."
+      ],
+      "bestTime": "First two hours of the day.",
+      "typicalWait": "20–40 minutes in season.",
+      "faqs": [],
+      "relatedSlugs": [
+        "raging-bull",
+        "goliath"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "the-joker",
+      "name": "The Joker",
+      "land": "yukon-territory",
+      "type": "roller-coaster",
+      "opened": 2015,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": null,
+      "heightNote": "Verify the current minimum on the park's own page.",
+      "durationMinutes": 1.5,
+      "lightningLane": "multi-pass",
+      "singleRider": false,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 4,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 3,
+        "speed": 3,
+        "loudness": 3,
+        "startles": 4,
+        "notes": "A 4D freespin: the cars flip freely and unpredictably on a vertical axis, so no two rides match and the inversions cannot be anticipated. The lack of control is the thrill and the fear."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": true,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into free-spinning cars."
+      },
+      "tier": "major",
+      "standalonePage": false,
+      "summary": "The 4D freespin — cars that flip uncontrollably on a vertical axis, different every single ride.",
+      "description": [
+        "The Joker is a S&S 4D freespin coaster: beyond the track's twists, the cars themselves rotate freely, flipping riders head-over-heels at moments physics chooses rather than a designer. Two rides are never the same, which is the entire pitch.",
+        "It sits at the park's intensity top tier for unpredictability rather than speed. Riders who need to anticipate a ride's motions should approach carefully; riders who want chaos on rails have found it."
+      ],
+      "tips": [
+        "Weight distribution changes the spin — heavier loads flip differently. Re-riding is the point.",
+        "Ride after the big three, not before; it scrambles the inner ear for whatever follows.",
+        "Ride twice minimum: the free-spin pattern genuinely differs, and the second ride is the informed one."
+      ],
+      "bestTime": "Anytime; the capacity keeps queues moderate.",
+      "typicalWait": "15–30 minutes.",
+      "faqs": [],
+      "relatedSlugs": [
+        "goliath",
+        "maxx-force"
+      ],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

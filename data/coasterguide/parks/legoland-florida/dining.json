@@ -1,0 +1,72 @@
+{
+  "park": "legoland-florida",
+  "dining": [
+    {
+      "slug": "fun-town-market",
+      "name": "Fun Town Market",
+      "land": "legoland-city",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "vegan", "gluten-free", "allergy-friendly-menu"],
+      "alcohol": true,
+      "airConditioned": true,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The main market cafeteria — broad family options and the allergy handling that defines the Legoland standard.",
+      "description": [
+        "Fun Town Market is the principal cafeteria: carved meats, pizzas, salads and a deep kids' range with real allergy competence. The indoor seating is the midday storm refuge as much as the heat one.",
+        "The noon wave peaks at 12:15 and turns over by one — the standard timing applies."
+      ],
+      "signatureItems": ["Carved meat plate", "Pizza", "Kids' build-a-meal"],
+      "goodFor": ["families", "picky-eaters", "air-conditioned-break"],
+      "tips": ["Eat at 11:30 to beat the wave.", "Allergy families: the counter's allergen guidance is the park's strength — use it."],
+      "verdict": "The reliable family cafeteria done at the chain's standard. Boring in the good way.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "grannys-apple-fries-fl",
+      "name": "Granny's Apple Fries",
+      "land": "castle-hill",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Single digits to low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["vegetarian"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The signature snack's Florida outpost — crispy apple bites, cinnamon sugar, vanilla cream dip.",
+      "description": [
+        "The apple fries cart carries the flagship snack to Florida: warm apple pieces in a crisp shell with cinnamon sugar and cream dip. The queue is shorter than California's and the product is identical.",
+        "It is the one food item at the park worth planning around, and the natural Dragon-queue reward."
+      ],
+      "signatureItems": ["Apple fries with cream dip"],
+      "goodFor": ["quick-bite", "families", "late-night"],
+      "tips": ["Eat them hot — the crisp fades in minutes.", "One order, two kids, one negotiation. Or two orders."]
+      ,
+      "verdict": "The park's best snack and a cross-country ritual. Worth the queue, worth the sticky fingers.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

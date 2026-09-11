@@ -1,0 +1,120 @@
+{
+  "slug": "brick-or-treat-legoland-california",
+  "name": "Brick-or-Treat at LEGOLAND California",
+  "shortName": "Brick-or-Treat",
+  "resort": "southern-california",
+  "parkSlug": "legoland-california",
+  "category": "overlay",
+  "season": "halloween",
+  "summary": "Brick-or-Treat is Legoland California's family Halloween: costume days, brick-built decor, treat stations and party nights — the light-scare counterweight to every intense haunt on this site.",
+  "h1": "Brick-or-Treat at LEGOLAND California: the family Halloween, priced and judged",
+  "title": "Brick-or-Treat LEGOLAND California",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Brick-or-Treat at Legoland California: the under-ten Halloween event — costumes, treat trails and party nights. What is included, what costs extra, and the verdict.",
+  "typicalWindow": {
+    "startsAround": "late September",
+    "endsAround": "Halloween night",
+    "daysOfWeek": [
+      "Sat",
+      "Sun"
+    ],
+    "hours": "Day event with separate evening party nights"
+  },
+  "pricing": {
+    "model": "add-on",
+    "rangeUsd": [
+      20,
+      60
+    ],
+    "asOf": "2025 season pattern",
+    "cheapestNights": "Early-season dates",
+    "priciestNights": "The last weekend before Halloween",
+    "notes": [
+      "Daytime activities are included with regular admission in the typical format.",
+      "The evening party nights are separately ticketed, and the range describes that add-on.",
+      "Treat-station candy is included in the party admission in recent formats."
+    ]
+  },
+  "whatYouGet": [
+    "Costume-friendly days where dressing up is the norm, not the exception — the point for the target age.",
+    "Brick-built Halloween decor and characters at the scale only Legoland builds.",
+    "Treat stations and trails sized to grade-school legs and attention spans.",
+    "Party-night entertainment — dance parties and shows aimed at the under-ten crowd."
+  ],
+  "whatYouDont": [
+    "Scares, in any form — this is the deliberate anti-haunt, and that is its entire value.",
+    "Full-park evening operation on party nights; check what stays open with the ticket.",
+    "A night out for adults — the event ends early and is built for the bedtime crowd."
+  ],
+  "verdict": {
+    "short": "Worth it for families with kids between roughly three and ten who want Halloween without fear — the only event on this site with zero scare content, by design.",
+    "worthItIf": [
+      "Your kids want to wear costumes at a theme park and collect treats at kid scale.",
+      "You want the Halloween season without the scare-actor exposure of every other event here.",
+      "The party-night hours fit your family's evening — earlier and shorter than the big haunts."
+    ],
+    "skipIf": [
+      "Anyone in the party wants scares — the event has none, and that is a feature.",
+      "You would pay the party-night add-on for rides alone; the day park delivers the same rides.",
+      "Your kids are over about ten — the target bracket is young and the event scales to it."
+    ]
+  },
+  "strategy": [
+    {
+      "heading": "Day or party night",
+      "body": [
+        "The daytime version is included with admission and delivers the costumes, decor and character atmosphere. The separately-ticketed party night adds the treat trails and evening shows. Families on a budget get a genuine Halloween day from the day version alone; the party night is for the full trick-or-treat experience."
+      ]
+    },
+    {
+      "heading": "The costume rules",
+      "body": [
+        "Costumes are welcomed here unlike at most big parks — check the park's event page for the current guidelines on masks and accessories, which are real rules enforced gently. The character photo ops are the event's best souvenir and they are better in costume."
+      ]
+    },
+    {
+      "heading": "Timing with the age bracket",
+      "body": [
+        "The event is built around early evenings and short legs. Arrive at open, do the rides in the calm morning, let the afternoon be the Halloween programming, and leave before the overtired hour. The party-night version of that plan is the same shape, two hours later."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Brick-or-Treat scary?",
+      "a": "No — that is the product. Zero scare actors, zero haunted anything; Halloween as decoration and candy for the young-kid bracket. It is the deliberate counterweight to every other event on this site."
+    },
+    {
+      "q": "Is Brick-or-Treat included with admission?",
+      "a": "The daytime activities are included with regular admission in the typical format; the evening party nights are separately ticketed. The current season's structure is on the park's event page."
+    },
+    {
+      "q": "When does Brick-or-Treat run?",
+      "a": "Weekends from late September through Halloween in the typical pattern, with party nights on select dates. The park's event calendar is the source of record for the current cycle."
+    },
+    {
+      "q": "What ages is it best for?",
+      "a": "Roughly three to ten, matching the park itself. Costumed kids at the younger end get the most from it; kids over ten are past the treat-trail demographic."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "LEGOLAND California rides and first-coaster guide",
+      "href": "/southern-california/legoland-california/rides/",
+      "site": 1
+    },
+    {
+      "label": "The Legolands and line-skip passes: the honest answer",
+      "href": "/guides/line-skip-passes/",
+      "site": 1
+    }
+  ],
+  "related": [],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The event has run fall weekends in recent seasons with included daytime programming and separately-ticketed party nights; 2026 specifics are not verified by this site as of 2026-07.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

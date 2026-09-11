@@ -1,0 +1,62 @@
+{
+  "park": "legoland-florida",
+  "items": [
+    {
+      "id": "lgfl-apple-fries",
+      "name": "Granny's Apple Fries",
+      "restaurant": "Granny's Apple Fries",
+      "restaurantSlug": "grannys-apple-fries-fl",
+      "land": "castle-hill",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["vegetarian"],
+      "iconic": true,
+      "mustTry": 5,
+      "shareable": true,
+      "portable": true,
+      "seasonal": false,
+      "description": "Warm crispy apple bites with cinnamon sugar and vanilla cream dip — the chain's signature snack.",
+      "verdict": "The one food item at the park worth planning around. Hot, shareable, and gone in ninety seconds.",
+      "image": null
+    },
+    {
+      "id": "lgfl-carved-meat-plate",
+      "name": "Carved meat plate",
+      "restaurant": "Fun Town Market",
+      "restaurantSlug": "fun-town-market",
+      "land": "legoland-city",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Carved meats with sides from the market cafeteria — the parents' real-meal anchor.",
+      "verdict": "Honest cafeteria food that beats the alternatives. Eat at 11:30 and ride through the noon wave.",
+      "image": null
+    },
+    {
+      "id": "lgfl-kids-build-a-meal",
+      "name": "Kids' build-a-meal",
+      "restaurant": "Fun Town Market",
+      "restaurantSlug": "fun-town-market",
+      "land": "legoland-city",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["allergy-friendly-menu"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": false,
+      "seasonal": false,
+      "description": "The configurable kids' meal with allergy-safe substitutions — main, sides and drink chosen by the child.",
+      "verdict": "The picky-eater solution, with the allergy handling that justifies Legoland's food reputation.",
+      "image": null
+    }
+  ]
+}

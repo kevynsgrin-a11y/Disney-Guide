@@ -1,0 +1,122 @@
+{
+  "slug": "fright-fest-great-america",
+  "name": "Fright Fest at Six Flags Great America",
+  "shortName": "Fright Fest",
+  "resort": "chicago",
+  "parkSlug": "great-america",
+  "category": "overlay",
+  "season": "halloween",
+  "summary": "Fright Fest is Six Flags Great America's included-with-admission Halloween overlay: scare zones and decorated midways by day, haunts after dark, with some upcharged attractions. The Chicago park's version is the region's default Halloween theme park night and the best-attended of its seasonal overlays.",
+  "h1": "Fright Fest at Six Flags Great America: what it is and whether it is worth it",
+  "title": "Fright Fest Six Flags Great America",
+  "titleTail": ": Dates, Prices & Verdict",
+  "description": "Fright Fest at Six Flags Great America: Chicago's included Halloween overlay with scare zones after dark. The pattern, the upcharges and the verdict.",
+  "typicalWindow": {
+    "startsAround": "mid-September",
+    "endsAround": "Halloween night",
+    "daysOfWeek": [
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "hours": "Day park hours, with haunt overlay from roughly dusk"
+  },
+  "pricing": {
+    "model": "included",
+    "rangeUsd": [
+      0,
+      40
+    ],
+    "asOf": "2025 season pattern",
+    "cheapestNights": "Any weekday — the overlay typically runs weekends",
+    "priciestNights": "The last two Saturdays before Halloween",
+    "notes": [
+      "Included with regular admission: the scare zones, decor and most after-dark entertainment cost nothing beyond the ticket.",
+      "The range describes in-park spend — upcharged haunted attractions and maze passes, where offered, sit inside it.",
+      "Parking and any line-skip product are separate and priced by date as always."
+    ]
+  },
+  "whatYouGet": [
+    "Scare zones along the major midways after dark, with roaming actors and themed staging.",
+    "Park-wide Halloween decor and atmosphere layered over the normal ride day.",
+    "A full ride day underneath it — the coasters run through the overlay, weather permitting.",
+    "Seasonal shows and photo setups built around the event theme."
+  ],
+  "whatYouDont": [
+    "A full hard-ticket haunt in the Knott's or Howl-O-Scream sense — the day park remains the product.",
+    "Every haunted attraction included: some mazes have historically carried separate upcharges at Six Flags parks.",
+    "Guaranteed haunt operation on weekdays — the overlay concentrates on weekend nights.",
+    "A toddler-friendly evening: the scare zones are genuinely staffed and the tone is PG-13 after dark."
+  ],
+  "verdict": {
+    "short": "Worth it if you were going to Six Flags Great America in October anyway — the overlay is free atmosphere on a ride day, not a destination of its own.",
+    "worthItIf": [
+      "You want a normal coaster day with Halloween atmosphere on top of it.",
+      "Your group is teen-and-up and enjoys walk-through scares without booking a separate event.",
+      "You are already visiting on a fall weekend and the overlay is simply what the park is that day."
+    ],
+    "skipIf": [
+      "You are planning a dedicated haunt trip — the hard-ticket events on this site deliver far more per scare dollar.",
+      "Your party includes young children who would be frightened by roaming actors after dark.",
+      "You only have a weekday visit — the overlay's intensity is weekend-shaped."
+    ]
+  },
+  "strategy": [
+    {
+      "heading": "Ride first, haunt second",
+      "body": [
+        "The overlay does not start until dusk, which makes the day a normal fall ride day until then. Front-load the coasters — fall weekdays at Six Flags parks are among the year's calmest ride days — and let the haunt atmosphere be the evening's bonus rather than the plan."
+      ]
+    },
+    {
+      "heading": "The upcharge decision at the gate",
+      "body": [
+        "Some Fright Fest haunted attractions carry separate charges, and the value depends entirely on your scare appetite. The honest bar: if you would pay $15 for a ten-minute walk-through maze, buy; if not, the free scare zones carry the evening fine. Check the park's event page for which attractions are upcharged this cycle, because the list changes."
+      ]
+    },
+    {
+      "heading": "Family strategy",
+      "body": [
+        "Families with mixed ages should invert the schedule: arrive at open, ride hard through the afternoon, and exit before the scare zones fully staff at dusk. Several parks also run daytime non-scary programming — check the park's event listing for the kid-facing hours if the party is young."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Fright Fest included with admission?",
+      "a": "The core overlay — scare zones, decor and most after-dark entertainment — is included with regular admission. Some haunted attractions have historically carried separate upcharges at Six Flags parks. Treat the event page's current list as the source of record."
+    },
+    {
+      "q": "When does Fright Fest run?",
+      "a": "Weekends from mid-September through Halloween night in the typical pattern, with the haunt elements active from roughly dusk. Exact dates vary by park and by year — the calendar on this site's Halloween section carries the current expectation with a confidence label."
+    },
+    {
+      "q": "Is Fright Fest too scary for kids?",
+      "a": "The after-dark tone is PG-13 with roaming actors, and it is more intense than the Disney parks' daytime Halloween overlays. Young kids can absolutely enjoy the daytime ride day; plan to exit before full dark if scare actors are a problem."
+    },
+    {
+      "q": "How does Fright Fest compare to the hard-ticket haunts?",
+      "a": "It is thinner by design — included atmosphere rather than a produced event. Knott's Scary Farm and the Howl-O-Scream nights are dedicated, separately-ticketed products with far more mazes and production; Fright Fest is what a ride day wears in October."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Six Flags Great America ride list and heights",
+      "href": "/chicago/great-america/rides/",
+      "site": 1
+    },
+    {
+      "label": "Line-skip passes: what they cost and when",
+      "href": "/guides/line-skip-passes/",
+      "site": 1
+    }
+  ],
+  "related": [],
+  "freshness": {
+    "verified": "2026-07",
+    "confidence": "expected",
+    "sourceNote": "The Gurnee overlay has run weekend nights in the fall window in recent seasons alongside the park's extended October calendar. 2026 dates and attractions are not verified by this site as of 2026-07; the window, pricing model and structure describe the multi-year pattern.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  }
+}

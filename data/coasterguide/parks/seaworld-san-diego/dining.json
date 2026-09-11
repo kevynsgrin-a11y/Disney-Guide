@@ -1,0 +1,74 @@
+{
+  "park": "seaworld-san-diego",
+  "dining": [
+    {
+      "slug": "shipwreck-reef-cafe",
+      "name": "Shipwreck Reef Café",
+      "land": "the-waterfront",
+      "service": "quick-service",
+      "cuisine": "American",
+      "priceTier": "$$",
+      "priceNote": "Plates in the low-to-mid teens",
+      "priceVerified": null,
+      "mealPeriods": ["lunch", "dinner"],
+      "reservations": "not-accepted",
+      "mobileOrder": true,
+      "diningPlan": false,
+      "dietary": ["vegetarian", "gluten-free"],
+      "alcohol": true,
+      "airConditioned": false,
+      "indoorSeating": true,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The waterfront café beside the flume — themed dining with outdoor seating facing the splash zone.",
+      "description": [
+        "Shipwreck Reef Café anchors the waterfront's food row with hearty plates and a patio that doubles as Journey to Atlantis splash seating — an accidental entertainment the park has wisely never discouraged.",
+        "The menu runs burritos, plates and grilled items — the most substantial counter food at the park. The patio's flume-front tables are the best lunch seats in the park by any measure."
+      ],
+      "signatureItems": ["Burrito plates", "Grilled chicken plate", "Churros"],
+      "goodFor": ["families", "big-appetites", "view"],
+      "tips": [
+        "Claim a flume-front table at lunch — the soak show comes free with the meal.",
+        "App ordering skips the register queue at peak."
+      ],
+      "verdict": "The best counter food at the park with the best patio. The splash-zone table is a theme-park dining highlight.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    },
+    {
+      "slug": "moray-morsels-cart",
+      "name": "Dole-Whip-style Soft Serve Cart",
+      "land": "ocean-explorer",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "priceTier": "$",
+      "priceNote": "Single digits to low teens",
+      "priceVerified": null,
+      "mealPeriods": ["snacks"],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "diningPlan": false,
+      "dietary": ["gluten-free"],
+      "alcohol": false,
+      "airConditioned": false,
+      "indoorSeating": false,
+      "outdoorSeating": false,
+      "characterDining": false,
+      "standalonePage": false,
+      "summary": "The soft-serve cart in the ride cluster — the between-coasters cooldown in a cup.",
+      "description": [
+        "The soft-serve cart in the Ocean Explorer cluster serves the standard swirls and floats — the palette cleanser between Electric Eel cycles on a hot afternoon.",
+        "Nothing signature, everything correct: cold, fast, and two minutes from the next launch."
+      ],
+      "signatureItems": ["Soft serve swirl", "Float"],
+      "goodFor": ["quick-bite", "families", "late-night"],
+      "tips": ["The float beats the cup for queue-adjacent sipping.", "Eat it before Electric Eel, not after — trust the physics."],
+      "verdict": "A competent soft-serve cart in the right place. The regional marine-layer afternoon makes it a ritual.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-07"
+    }
+  ]
+}

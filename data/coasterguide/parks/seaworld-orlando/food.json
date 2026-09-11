@@ -1,0 +1,62 @@
+{
+  "park": "seaworld-orlando",
+  "items": [
+    {
+      "id": "swor-island-chicken-plate",
+      "name": "Island chicken plate",
+      "restaurant": "Mango Joe's",
+      "restaurantSlug": "mango-joes",
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": [],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Caribbean-leaning chicken plate with rice and sides on the waterfront patio.",
+      "verdict": "The best counter lunch at the park. Eat it on the patio between the morning coasters and the afternoon shows.",
+      "image": null
+    },
+    {
+      "id": "swor-tropical-freeze",
+      "name": "Tropical freeze drink",
+      "restaurant": "Mango Joe's",
+      "restaurantSlug": "mango-joes",
+      "land": "the-waterfront",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "drink",
+      "dietaryTags": ["vegan"],
+      "iconic": true,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": true,
+      "seasonal": false,
+      "description": "Frozen tropical slush from the waterfront grill — hydration and dessert in one queue-portable cup.",
+      "verdict": "The correct Florida coaster-park drink: cold, shareable, and carried one-handed through the Mako queue.",
+      "image": null
+    },
+    {
+      "id": "swor-cobbler",
+      "name": "Cobbler",
+      "restaurant": "Waterfront Cookhouse",
+      "restaurantSlug": "shipwreck-reef-cafe-orl",
+      "land": "the-lagoon-edge",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["vegetarian"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Warm fruit cobbler from the lagoon-edge cookhouse, eaten at the splash-view tables.",
+      "verdict": "A genuine dessert rather than a freezer case. Order it, take the splash-view table, let the flume do the dinner theater.",
+      "image": null
+    }
+  ]
+}

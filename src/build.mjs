@@ -135,7 +135,7 @@ function buildPages (data, seasonal) {
   pages.push(statusPages.statusIndex(data))
   for (const park of data.parks) pages.push(statusPages.statusParkPage(park, data, seasonal))
 
-  pages.push(...legalPages(data))
+  pages.push(...legalPages(data, seasonal))
 
   return pages
 }

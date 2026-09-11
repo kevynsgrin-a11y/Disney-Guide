@@ -1,0 +1,312 @@
+{
+  "slug": "great-adventure",
+  "name": "Six Flags Great Adventure",
+  "shortName": "Great Adventure",
+  "idPrefix": "sfgadv",
+  "resort": "new-jersey",
+  "resortName": "New Jersey",
+  "opened": "1974-07-01",
+  "sizeAcres": 510,
+  "location": "Jackson, New Jersey",
+  "coordinates": {
+    "lat": 40.1387,
+    "lng": -74.4402
+  },
+  "tagline": "El Toro, Nitro and the empty sky where Kingda Ka stood — the Northeast's biggest coaster park, an hour from Manhattan.",
+  "summary": "Six Flags Great Adventure in Jackson, New Jersey holds one of the world's best wooden coasters in El Toro, a giant B&M hyper in Nitro, and the memory of Kingda Ka, the tallest coaster ever built, retired after the 2024 season.",
+  "intro": [
+    "Great Adventure is the Northeast's major coaster park, and its modern reputation rests on El Toro — the 2006 Intamin wooden coaster whose abrupt, violent airtime has ranked it among the best in the world for two decades. Nitro, the lakefront B&M hyper, gives the park a second marquee, and the supporting lineup of Batman, Superman and the Dark Knight is deeper than any park within a hundred miles of New York.",
+    "The park's most famous ride is gone. Kingda Ka, the 456-foot stratacoaster that was the tallest in the world for its entire twenty-year life, closed permanently at the end of the 2024 season along with Zumanjaro, the drop ride on its tower. The announcement was one of the biggest stories in the industry's modern history. Visitors still arrive asking for it, so this site lists it as closed rather than deleting it — the empty space by the front of the park is now part of the park's story.",
+    "Great Adventure is big, flat and spread out — over five hundred acres including the safari — and the walks between coaster corners are long. Summer Saturdays draw the region's biggest single-park crowds; September and October weekdays, with the fall haunt on weekends, are the connoisseur's window."
+  ],
+  "bestFor": [
+    "Coaster enthusiasts",
+    "Teenagers",
+    "NYC and Philadelphia day trips",
+    "Woodie pilgrims"
+  ],
+  "notIdealFor": [
+    "Families with children under 48 inches",
+    "Crowd-averse summer visitors",
+    "Anyone expecting Kingda Ka"
+  ],
+  "stats": {
+    "attractionCount": 9,
+    "ridesWithHeightRequirements": 8,
+    "tallestRequirement": 54,
+    "typicalFullDayHours": "9–11 hours",
+    "minimumDaysRecommended": 1
+  },
+  "lands": [
+    {
+      "slug": "main-street",
+      "name": "Main Street",
+      "order": 1,
+      "opened": 1974,
+      "summary": "The front gate and promenade, facing the open ground where the Kingda Ka tower stood until 2025.",
+      "description": [
+        "Main Street is the park's formal entrance promenade, and since the 2024 season it also faces the park's most conspicuous absence: the Kingda Ka tower is gone, and the skyline that generations of visitors navigated by has changed shape. The park has been forthright that the space is its next chapter.",
+        "Practically, Main Street holds guest services, lockers and the photo pickup. The coaster plan starts behind it — and the honest first move is straight to El Toro, which sits deep in the park's back sections."
+      ],
+      "vibe": "A promewith an altered skyline: the park's front door now frames what isn't there.",
+      "anchorAttraction": "the-dark-knight-coaster",
+      "highlights": [
+        "The reworked front-gate skyline",
+        "Guest services and lockers"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Pass through quickly — every minute on Main Street at open is a minute of El Toro queue."
+      ]
+    },
+    {
+      "slug": "lakefront",
+      "name": "Lakefront",
+      "order": 2,
+      "summary": "The big-coaster section along the lake, where Nitro's 215-foot drop anchors the park's steel lineup.",
+      "description": [
+        "The lakefront section holds Nitro and the park's biggest steel rides. Nitro's first drop dives toward the water, and the section's sightlines across the lake are the park's best scenery.",
+        "This is the second-morning stop after El Toro: Batman sits between the two, making the back-and-lake loop the natural big-coaster circuit."
+      ],
+      "vibe": "Open, breezy big-coaster territory with water views between the drops.",
+      "anchorAttraction": "nitro",
+      "highlights": [
+        "Nitro's 215-foot drop toward the lake",
+        "The park's best scenery between rides"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Nitro's queue builds slowest of the headliners — third stop is the right slot.",
+        "The lake breeze makes this the pleasantest coaster corner on hot days."
+      ]
+    },
+    {
+      "slug": "plaza-del-carnaval",
+      "name": "Plaza del Carnaval",
+      "order": 3,
+      "summary": "The Spanish-carnival section that holds El Toro — the reason coaster travelers fly into Newark.",
+      "description": [
+        "Plaza del Carnaval wraps the park's crown jewel. El Toro's wooden structure rises out of the section's carnival theming, and its queue is the pilgrimage route: enthusiasts from three continents plan trips around this ride.",
+        "The section also holds the classic family flats. The contrast is the charm — a world-class woodie looming over a midway of teacups.",
+        "This is where the rope-drop race ends. Everything else at the park can wait."
+      ],
+      "vibe": "Carnival colors under a wooden giant — the park's soul.",
+      "anchorAttraction": "el-toro",
+      "highlights": [
+        "El Toro, a perennial world-top-ten woodie",
+        "The steep first drop visible from the whole section",
+        "Classic midway flats alongside"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Rope-drop here, full stop. El Toro's queue at open is the park's most valuable fifteen minutes.",
+        "Re-ride in the last hour — the woodie after dark is a different ride."
+      ]
+    },
+    {
+      "slug": "movietown",
+      "name": "Movietown",
+      "order": 4,
+      "summary": "The film-themed strip with the Dark Knight's indoor coaster and the section's show buildings.",
+      "description": [
+        "Movietown carries the park's film theming and its indoor coaster, the Dark Knight — a Wild Mouse-style ride in a dark show building themed to the Batman film. It is the park's best bad-weather coaster and the family threshold ride at 48 inches.",
+        "The section's theater buildings host the seasonal shows, and the fall haunt's maze infrastructure lives here in autumn — Movietown after dark in October is the haunt heart of the park."
+      ],
+      "vibe": "Backlot facades that turn fully haunted every October.",
+      "anchorAttraction": "the-dark-knight-coaster",
+      "highlights": [
+        "The Dark Knight indoor coaster",
+        "Show theaters",
+        "Haunt maze central in autumn"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Save the Dark Knight for the midday heat — it is indoors and air-moving.",
+        "On fall haunt nights this section after dark is the intense part; families with young kids should exit before the overlay begins."
+      ]
+    }
+  ],
+  "firstTimer": {
+    "intro": [
+      "Great Adventure is spread flat across half a square mile, and its three anchors — El Toro, Nitro and the Movietown cluster — sit in three different corners. The plan is a triangle, walked once.",
+      "The park's crowd curve is the region's steepest: summer Saturdays are enormous, September weekdays are calm. There is no version of a good July-Saturday plan that does not either start at open or buy the line-skip product."
+    ],
+    "beforeYouGo": [
+      {
+        "title": "Adjust for Kingda Ka",
+        "body": "The tallest coaster in the world closed permanently after the 2024 season, and Zumanjaro with it. Any guide, video or forum thread that still lists them is out of date — plan around El Toro, Nitro and the supporting lineup."
+      },
+      {
+        "title": "Rope-drop El Toro",
+        "body": "El Toro's queue is the park's longest and its ride is the park's best. The first thirty minutes after open are worth more than any other thirty at Great Adventure."
+      },
+      {
+        "title": "The safari is separate",
+        "body": "The drive-through safari next door is its own ticket and its own half-day. It pairs well with a short park day but not with a full coaster mission — pick one per day."
+      }
+    ],
+    "morningPlan": [
+      {
+        "time": "Rope drop",
+        "body": "Walk fast to Plaza del Carnaval. The crowd splits three ways and El Toro still wins the race."
+      },
+      {
+        "time": "First hour",
+        "body": "El Toro twice — once for survival, once for comprehension."
+      },
+      {
+        "time": "Mid-morning",
+        "body": "Batman and the boardwalk coasters on the way toward the lakefront."
+      }
+    ],
+    "middayPlan": [
+      {
+        "time": "Noon",
+        "body": "Lunch early, then the Dark Knight indoors during the heat peak."
+      },
+      {
+        "time": "Early afternoon",
+        "body": "Nitro and the lakefront steel as the crowds cycle."
+      }
+    ],
+    "eveningPlan": [
+      {
+        "time": "Late afternoon",
+        "body": "Superman and the remaining credits as the queue pressure eases."
+      },
+      {
+        "time": "Last hour",
+        "body": "El Toro again, in the dark, at speed. This is the reason for the whole day."
+      }
+    ],
+    "rookieMistakes": [
+      "Queueing for Kingda Ka's memory instead of riding El Toro early.",
+      "Underestimating the walks — the triangle is over a mile and a half total.",
+      "Visiting on a July Saturday without the line-skip product and expecting to ride everything.",
+      "Skipping the Dark Knight because it looks like a family ride; in the dark it is genuinely fun."
+    ],
+    "ifYouOnlyHaveOneDay": [
+      "El Toro at rope drop, twice.",
+      "Batman on the walk to the lake.",
+      "Nitro before lunch.",
+      "Dark Knight indoors at the heat peak.",
+      "Superman and the Joker in the afternoon lull.",
+      "El Toro at close, in the dark."
+    ]
+  },
+  "accessibility": {
+    "intro": [
+      "Great Adventure is flat and enormous — great for wheels, hard on stamina. The internal loop runs well over a mile, and the park rents chairs and ECVs at the front gate.",
+      "Six Flags' ride-access program requires advance registration through the company's accessibility intake, and the entry criteria have changed more than once. Confirm the current process on Six Flags' own accessibility pages before visiting; third-party summaries go stale fast."
+    ],
+    "wheelchairRental": {
+      "available": true,
+      "location": "Front gate, inside Main Street",
+      "priceNote": "Confirm current pricing at the park",
+      "lastVerified": "2026-07"
+    },
+    "ecvRental": {
+      "available": true,
+      "location": "Front gate, inside Main Street",
+      "priceNote": "Limited quantity on peak days",
+      "lastVerified": "2026-07"
+    },
+    "strollerRental": {
+      "available": true,
+      "location": "Front gate area",
+      "priceNote": "Single and double",
+      "lastVerified": "2026-07"
+    },
+    "companionRestrooms": [
+      "Main Street guest services",
+      "Near the lakefront"
+    ],
+    "quietSpaces": [
+      {
+        "name": "Lakefront edge",
+        "where": "Along the water by Nitro",
+        "note": "Breezy, quieter midweek, and shaded in patches."
+      },
+      {
+        "name": "First aid",
+        "where": "Main Street",
+        "note": "Air-conditioned and quiet; sensory-break friendly."
+      }
+    ],
+    "serviceAnimalRelief": [
+      "Designated areas near the front gate — confirm at guest services"
+    ],
+    "sensoryNotes": [
+      "The Dark Knight is fully dark with sudden drops and sound effects — the park's highest sensory-density ride.",
+      "The fall haunt overlay adds scare actors and loud startles after dark in season.",
+      "El Toro's roar is real: the woodie structure is loud enough to feel from the queue."
+    ],
+    "mobilityNotes": [
+      "The park is flat but long — over 1.5 miles of internal loop between the far sections.",
+      "All listed coasters require transfer from a chair or ECV.",
+      "Benches cluster near the lakefront; the plaza sections have fewer rest points."
+    ],
+    "visionHearingNotes": [
+      "Ride spiels are audio-based; ride hosts repeat boarding instructions on request.",
+      "Assistive listening devices subject to availability at guest services."
+    ]
+  },
+  "tips": [
+    {
+      "title": "The El Toro windows",
+      "body": "Its queue peaks at open (because everyone races there), dips at lunch, and dies at close. Ride first thing, skip noon, finish in the dark."
+    },
+    {
+      "title": "September weekdays are the park's secret",
+      "body": "Full operation, thin crowds, the haunt decor going up. The best conditions of the Great Adventure year are the weeks nobody photographs."
+    },
+    {
+      "title": "The safari pairs with a half-day, not a full one",
+      "body": "Drive-through in the morning, coasters after noon is the classic combo. Doing both fully in one day is a marathon."
+    },
+    {
+      "title": "Flash Pass on fall weekends",
+      "body": "haunt-season Saturdays are the year's peak crowds and the product's peak prices. The line-skip guide has the tiers and the math."
+    },
+    {
+      "title": "Exit-driving logic",
+      "body": "The park sits at the I-195/NJ Turnpike corner — Manhattan is an hour-plus without shore traffic, Philadelphia similar. A July Friday return drive can double that."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Kingda Ka still at Great Adventure?",
+      "a": "No. Kingda Ka closed permanently at the end of the 2024 season, along with Zumanjaro: Drop of Doom on the same tower. The coaster was the tallest in the world for its entire operating life. The park has redeveloped the site, and any planning resource still listing it is out of date."
+    },
+    {
+      "q": "What is the best ride at Great Adventure?",
+      "a": "El Toro, and it is not close. The 2006 Intamin woodie has ranked among the world's best since it opened — steep, abrupt, airtime-violent. Nitro is the steel complement, and the two together are a full day's worth of marquee riding."
+    },
+    {
+      "q": "Can you do Great Adventure in one day?",
+      "a": "On a weekday, yes with a plan: El Toro at open, the lakefront steel midday, re-rides at close. On summer Saturdays the crowd makes a full-credit day impossible without the line-skip product."
+    },
+    {
+      "q": "What are the height requirements at Great Adventure?",
+      "a": "The headliner tier: El Toro, the Dark Knight and Jersey Devil at 48 inches; Nitro, Batman, and Superman at 54. As everywhere on this site, confirm the current figure on the park's own page before promising a rider — Six Flags adjusts minimums occasionally."
+    },
+    {
+      "q": "When does the fall haunt run at Great Adventure?",
+      "a": "Weekends from mid-September through Halloween most years, with haunts after dark and the maze infrastructure concentrated in Movietown. Dates shift annually; this site's Halloween section carries the current expectation with a confidence label."
+    },
+    {
+      "q": "How far is Great Adventure from New York City?",
+      "a": "About 65 miles — an hour and change by car without traffic, longer on summer Fridays. There is no practical transit option; the park is a driving destination served by I-195 and the New Jersey Turnpike."
+    }
+  ],
+  "gettingThere": {
+    "parking": "Vast lots off Route 537; preferred rows near the gate. Trams serve the outer rows seasonally.",
+    "transportation": [
+      "By car: Exit 16 off the NJ Turnpike or I-195 exit 16, in Jackson. Manhattan is 65 miles northeast; Philadelphia 60 miles southwest.",
+      "By rideshare: well-served, with a dedicated drop-off loop.",
+      "There is no rail link; buses from the cities exist but are slower than driving."
+    ],
+    "entranceNote": "Security screening sits at the lot-side gate. At open, the El Toro walk is 12–15 minutes from the turnstiles — build it into the rope-drop plan."
+  },
+  "lastVerified": "2026-07"
+}

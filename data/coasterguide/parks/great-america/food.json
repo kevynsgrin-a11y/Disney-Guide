@@ -1,0 +1,62 @@
+{
+  "park": "great-america",
+  "items": [
+    {
+      "id": "sfgam-brisket-plate",
+      "name": "Brisket plate",
+      "restaurant": "JB's Smokehouse",
+      "restaurantSlug": "jbs-smokehouse-sfgam",
+      "land": "southwest-territory",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "savory",
+      "dietaryTags": ["gluten-free"],
+      "iconic": false,
+      "mustTry": 4,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "Sliced brisket with sides on the canyon patio — the park's planned-stop meal.",
+      "verdict": "Solid portions at park prices, in the best lunch location Great America has. Order the plate.",
+      "image": null
+    },
+    {
+      "id": "sfgam-hot-fudge-sundae",
+      "name": "Hot fudge sundae",
+      "restaurant": "County Fair Ice Cream Parlor",
+      "restaurantSlug": "county-fair-ice-cream-parlor",
+      "land": "county-fair",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "sweet",
+      "dietaryTags": ["vegetarian"],
+      "iconic": true,
+      "mustTry": 5,
+      "shareable": true,
+      "portable": false,
+      "seasonal": false,
+      "description": "A proper parlor sundae — hot fudge, whipped cream, a cherry — served at a table in the air conditioning.",
+      "verdict": "The single best dessert at the park and the best heat-recovery move. Split one; do not fight over the last bite alone.",
+      "image": null
+    },
+    {
+      "id": "sfgam-churro",
+      "name": "Churro",
+      "restaurant": "Midway churro carts",
+      "restaurantSlug": null,
+      "land": "yankee-harbor",
+      "price": null,
+      "priceVerified": "2026-07",
+      "category": "snack",
+      "dietaryTags": ["vegetarian"],
+      "iconic": false,
+      "mustTry": 3,
+      "shareable": false,
+      "portable": true,
+      "seasonal": false,
+      "description": "Cinnamon-sugar churro from the harbor midway carts.",
+      "verdict": "The reliable walking snack. Buy two; the first one vanishes.",
+      "image": null
+    }
+  ]
+}

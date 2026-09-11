@@ -1,0 +1,474 @@
+{
+  "operator": "coasterguide",
+  "brand": {
+    "name": "CoasterReady",
+    "shortName": "CoasterReady",
+    "tagline": "Independent, unofficial planning for ten American coaster parks across four park companies.",
+    "domain": "coasterready.com",
+    "origin": "https://coasterready.com",
+    "locale": "en-US",
+    "themeColor": "#241E44",
+    "founded": 2026,
+    "logoMark": "CR",
+    "palette": {
+      "paper": "#0F0D17",
+      "surface": "#16142A",
+      "surface2": "#1D1A36",
+      "surface3": "#252143",
+      "ink": "#F4F3FA",
+      "ink2": "#D2D0E4",
+      "muted": "#A3A0BE",
+      "line": "#332E55",
+      "lineStrong": "#4B4577",
+      "brand": "#8471D6",
+      "brand2": "#8D7BDC",
+      "brand3": "#B7A8F0",
+      "brandSoft": "#1B1836",
+      "accent": "#4FC5CF",
+      "accent2": "#7EDCE4",
+      "accentSoft": "#0F3038",
+      "danger": "#EF7A82",
+      "dangerSoft": "#331821",
+      "warn": "#E2B04E",
+      "warnSoft": "#332810",
+      "good": "#6FCB9B",
+      "goodSoft": "#12301F",
+      "focus": "#7EDCE4"
+    }
+  },
+  "meta": {
+    "defaultTitleSuffix": "CoasterReady",
+    "defaultDescription": "Height requirements, coaster-by-coaster honesty, line-skip pass maths, and haunt-season timing for ten American coaster parks. Independent and unofficial.",
+    "twitterSite": "",
+    "publisherName": "CoasterReady"
+  },
+  "queue": {
+    "name": "line-skip passes",
+    "guideSlug": "line-skip-passes",
+    "labels": {
+      "multi-pass": "Covered by a line-skip pass",
+      "single-pass": "Pay-per-ride skip",
+      "none": "Standby only"
+    },
+    "short": {
+      "multi-pass": "Line-skip",
+      "single-pass": "Per-ride",
+      "none": "Standby"
+    }
+  },
+  "crossLinks": {
+    "note": "Semantic cross-link roles. Templates ask for a role; this maps it to THIS operator's slug. A role with no equivalent here is null and the link is dropped rather than rendered as a 404.",
+    "guides": {
+      "riderSwitch": null,
+      "firstTrip": "first-coaster-trip",
+      "ropeDrop": null,
+      "whatToPack": null,
+      "accessibility": null,
+      "dining": null,
+      "heights": "height-requirements",
+      "isItScary": null,
+      "motionSickness": null
+    },
+    "compare": {
+      "parkRankings": "coaster-park-rankings",
+      "bestForFood": null,
+      "bestForYoungChildren": null,
+      "whichPark": null,
+      "resortVsResort": null
+    }
+  },
+  "notes": {
+    "accessibility": {
+      "title": "Rider access policies differ by park company — check the current one before you travel",
+      "body": "This site covers four different park companies, and each runs its own ride-access or attraction-assistance programme with its own registration process, eligibility rules and names for the thing. Six Flags, Cedar Fair (Knott's), Merlin (Legoland) and United Parks & Resorts (SeaWorld) have all changed their programmes more than once in recent years. Treat anything you read about access — here or anywhere else — as a starting point and confirm the current process on the specific park's own accessibility page before your trip."
+    }
+  },
+  "photos": {},
+  "author": {
+    "name": "The CoasterReady editorial team",
+    "shortBio": "Independent writers who count inversions, measure height sticks and price funnel cake their way through America's coaster parks so you do not have to guess.",
+    "url": "/about/"
+  },
+  "resorts": [
+    {
+      "slug": "southern-california",
+      "name": "Southern California",
+      "shortName": "SoCal",
+      "location": "Los Angeles, Buena Park, Carlsbad and San Diego, California",
+      "coordinates": {
+        "lat": 33.9533,
+        "lng": -118.0386
+      },
+      "tagline": "Four parks, four companies, one traffic pattern: Magic Mountain's coaster count, Knott's haunt pedigree, Legoland's first coasters, and SeaWorld's dive machine.",
+      "summary": "Southern California holds four of the ten parks on this site and they could not be more different: a coaster capital, a haunted ghost town, a brick-built family park and a marine park with a floorless dive coaster. No single ticket links any of them.",
+      "intro": [
+        "Four of the ten parks this site covers sit within about a hundred miles of Los Angeles, and they are operated by four different companies. Six Flags Magic Mountain in Valencia is the region's coaster capital and the reason most enthusiasts fly in. Knott's Berry Farm in Buena Park is the oldest of the four and the home of America's original big haunt. Legoland California in Carlsbad is a first-coasters park for under-tens. SeaWorld San Diego rounds it out with a small, modern thrill lineup built around a waterfront.",
+        "The practical thing to understand is that nothing is shared. No multi-park ticket covers two of these parks, no line-skip product works across companies, and the pass ecosystems are separate. A Southern California coaster trip is two to four separate transactions, and the order you visit in should follow crowd logic — Magic Mountain on a weekday, Knott's on a weekday unless it is Scary Farm season, Legoland any morning, SeaWorld whenever the marine schedule suits you.",
+        "Traffic is the fourth park. Valencia, Buena Park, Carlsbad and Mission Bay are one to two hours apart on the freeways depending on when you drive, and the difference between a 7am start and a 9am start is often a full hour of I-5 or I-405. Plan the drives, not just the parks."
+      ],
+      "parks": [
+        "magic-mountain",
+        "knotts-berry-farm",
+        "legoland-california",
+        "seaworld-san-diego"
+      ],
+      "lightningLaneNote": "Each park sells its own product, and none of them work at the others: THE FLASH Pass at Magic Mountain, Fast Lane at Knott's, Quick Queue at SeaWorld, and no equivalent at Legoland. The line-skip guide prices all of them as of July 2026.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Fly into Burbank for Magic Mountain, LAX or Long Beach for Knott's, and San Diego for Carlsbad and Mission Bay. Most SoCal coaster trips are car trips; only Knott's is genuinely walkable from nearby hotels."
+        },
+        {
+          "title": "Getting around",
+          "body": "A rental car is close to mandatory. Magic Mountain to Knott's is about an hour without traffic and two with it; Carlsbad to San Diego is 35 to 50 minutes. The coastal rail line connects Los Angeles, Burbank, Solana Beach and San Diego if you would rather not drive."
+        },
+        {
+          "title": "How many days",
+          "body": "One day per park is the honest baseline, two for Magic Mountain if you want every coaster without racing. Four parks in four days is a real trip and a good one."
+        },
+        {
+          "title": "When to go",
+          "body": "Weekdays outside summer. Magic Mountain in particular runs weekday operations where the coasters are genuinely walk-on in the morning; that is the single best crowd play in the region."
+        }
+      ],
+      "ticketAffiliate": "tickets",
+      "weatherLabel": "Southern California (LA basin to San Diego)"
+    },
+    {
+      "slug": "orlando",
+      "name": "Orlando",
+      "shortName": "Orlando",
+      "location": "Orlando and Winter Haven, Florida",
+      "coordinates": {
+        "lat": 28.4169,
+        "lng": -81.5407
+      },
+      "tagline": "The marine-park side of the theme park capital: Mako, Kraken and Manta on the waterfront, plus Florida's brick-built park an hour south.",
+      "summary": "SeaWorld Orlando holds three of the best B&M coasters in Florida on one waterfront. Legoland Florida, an hour southwest in Winter Haven, is the under-twelve counterweight. Together they are the non-Disney, non-Universal half of an Orlando trip.",
+      "intro": [
+        "SeaWorld Orlando is the most coaster-dense of the three SeaWorld parks and one of the best single-morning thrill lineups in Florida: Mako is a hypercoaster with real airtime, Kraken is a floorless loop machine, Manta is a flying coaster that pretends to be gentle for its first thirty seconds, and the newer Ice Breaker and Pipeline fill out a lineup that would headline most regional parks.",
+        "Legoland Florida in Winter Haven is a separate decision, not a second half-day. It is built on the old Cypress Gardens site — the historic botanical gardens survive inside it, which is the best landscaping at any park on this site — and it is aimed squarely at families with children between about four and ten. Nobody over twelve should choose it for coasters; The Dragon and Coastersaurus are warm-up rides, not destinations.",
+        "The two parks share nothing but a state. SeaWorld sells Quick Queue; Legoland sells no line-skip product worth the name. SeaWorld rewards a rope-drop-and-run morning; Legoland rewards a slow afternoon. Doing both well in one day is possible — SeaWorld opens first, Legoland stays open later — but two half-days is calmer."
+      ],
+      "parks": [
+        "seaworld-orlando",
+        "legoland-florida"
+      ],
+      "lightningLaneNote": "SeaWorld Orlando sells Quick Queue in tiered flavors that cover its coaster lineup. Legoland Florida sells no comparable product. Neither has anything to do with the Disney or Universal systems down the road — see the line-skip guide for prices as of July 2026.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Orlando International (MCO) serves both parks. SeaWorld is 20 minutes southwest of the airport; Legoland Florida is a further 50 minutes southwest in Winter Haven, closer to Tampa's orbit than Orlando's."
+        },
+        {
+          "title": "Getting around",
+          "body": "A car, unless you are only doing SeaWorld, which has hotel shuttles from the tourist strip. Legoland Florida without a car means a specific shuttle or a long rideshare each way."
+        },
+        {
+          "title": "How many days",
+          "body": "SeaWorld Orlando is a full day at a relaxed pace or a strong half day at rope drop. Legoland Florida is a full day with young kids. One day each, and do not pretend otherwise."
+        },
+        {
+          "title": "When to go",
+          "body": "October through April for the weather. Summer afternoons are thunderstorm o'clock at both parks, and Florida rain closes coasters on wind alone, so mornings matter in June through September."
+        }
+      ],
+      "ticketAffiliate": "tickets",
+      "weatherLabel": "Orlando (and Winter Haven)"
+    },
+    {
+      "slug": "texas",
+      "name": "Texas",
+      "shortName": "Texas",
+      "location": "Arlington and San Antonio, Texas",
+      "coordinates": {
+        "lat": 31.3113,
+        "lng": -98.0244
+      },
+      "tagline": "The original Six Flags in Arlington, the hybrid Iron Rattler in San Antonio, and three hundred miles of highway between them.",
+      "summary": "Texas holds two parks from this site's list: Six Flags Over Texas, the 1961 original, and SeaWorld San Antonio, home of the Iron Rattler. They are four hours apart by road and share nothing but the heat.",
+      "intro": [
+        "Six Flags Over Texas in Arlington is the park the whole chain is named after, opened in 1961, and it still feels like the company's flagship: the tower, the oil derricks, and a coaster lineup headlined by the New Texas Giant — the ride that started the modern era of wooden-steel hybrids when it reopened in 2011. Mr. Freeze's twin shuttle tracks and Titan's 245-foot drop carry the thrill load behind it.",
+        "SeaWorld San Antonio is four hours south and the least traditional park on this site: part marine park, part water park, part coaster park. The Iron Rattler, which rides the walls of a former quarry, is one of the best hybrid coasters in the country and the reason to make the drive.",
+        "Texans plan around heat the way the California parks plan around traffic: summer days at both parks are 95-plus, coasters close in the afternoons for lightning on the radar even when the sky above is blue, and the water park half of SeaWorld San Antonio is not a supplement in July — it is the main event. Spring and late October are the civilised windows."
+      ],
+      "parks": [
+        "six-flags-over-texas",
+        "seaworld-san-antonio"
+      ],
+      "lightningLaneNote": "THE FLASH Pass at Six Flags Over Texas and Quick Queue at SeaWorld San Antonio are separate products at separate prices — see the line-skip guide for both, as of July 2026.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Dallas–Fort Worth (DFW) for Arlington; San Antonio (SAT) or Austin (AUS) for SeaWorld San Antonio. The drive between the parks is about four hours on I-35, a road with a personality you will remember."
+        },
+        {
+          "title": "Getting around",
+          "body": "A car, without question. Both parks are suburban, sprawled and effectively unreachable by transit."
+        },
+        {
+          "title": "How many days",
+          "body": "One day each. Over Texas rewards an early start on weekends in season; SeaWorld San Antonio is big enough on paper but a focused coaster morning plus the afternoon shows is the shape of a good day."
+        },
+        {
+          "title": "When to go",
+          "body": "March through May and late September through early November. Summer is survivable with water-park time and evening hours; winter weekdays run reduced schedules — check operating calendars before committing."
+        }
+      ],
+      "ticketAffiliate": "tickets",
+      "weatherLabel": "Texas (DFW and San Antonio)"
+    },
+    {
+      "slug": "new-jersey",
+      "name": "New Jersey",
+      "shortName": "New Jersey",
+      "location": "Jackson, New Jersey",
+      "coordinates": {
+        "lat": 40.1387,
+        "lng": -74.4402
+      },
+      "tagline": "El Toro, Nitro and the ghost of Kingda Ka — the Northeast's biggest coaster park, an hour from Manhattan.",
+      "summary": "Six Flags Great Adventure in Jackson is the Northeast's major coaster park: El Toro is one of the best wooden coasters on earth, Nitro is a giant B&M hyper, and the park retired Kingda Ka, the tallest coaster in the world, after the 2024 season.",
+      "intro": [
+        "Six Flags Great Adventure is the park people mean when they say the New York area has real coasters. El Toro, opened 2006, is routinely ranked among the best wooden coasters in the world — it is fast, abrupt and airtime-heavy in a way wooden coasters are not supposed to be. Nitro is the B&M hypercoaster that anchors the lakefront, and Superman and Batman fill out a genuinely deep lineup.",
+        "The park's most famous ride is no longer there. Kingda Ka, the 456-foot accelerator that was the tallest roller coaster in the world for its entire life, closed with the 2024 season along with Zumanjaro, the drop ride sharing its tower. The announcement was one of the biggest park stories of the decade, and the space is the park's next-chapter question. Visitors still arrive asking for it, which is why this site lists it as closed rather than pretending it never existed.",
+        "Great Adventure is a big, flat, spread-out park that eats crowds in summer and turns pleasant in September and October, when Fright Fest takes over the weekends. It is roughly an hour from Manhattan by car, longer on a summer Friday, and the safari drive-through next door is a separate ticket that pairs well with a short park day."
+      ],
+      "parks": [
+        "great-adventure"
+      ],
+      "lightningLaneNote": "THE FLASH Pass covers the coaster lineup here at tiered prices — see the line-skip guide for what it costs as of July 2026 and which rides it skips best.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Newark (EWR) is the sensible airport; the park is in Jackson, about an hour south of Manhattan and 75 minutes from Philadelphia depending on shore traffic. A car is close to mandatory."
+        },
+        {
+          "title": "Getting around",
+          "body": "One park, one enormous parking lot. The internal flats between the front gate and the lakefront are a real walk; the skyline is deceptive and the park is bigger than it photographs."
+        },
+        {
+          "title": "How many days",
+          "body": "One full day covers the coasters with re-rides on a weekday. Summer Saturdays with Fright Fest season overlapping can justify a second day plus the safari."
+        },
+        {
+          "title": "When to go",
+          "body": "September and early October weekdays are the sweet spot: full operation, thin crowds, Fright Fest on weekends. July and August Saturdays are the region's busiest single-park days."
+        }
+      ],
+      "ticketAffiliate": "tickets",
+      "weatherLabel": "New Jersey (Jackson)"
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "shortName": "Chicago",
+      "location": "Gurnee, Illinois",
+      "coordinates": {
+        "lat": 42.3703,
+        "lng": -87.9415
+      },
+      "tagline": "Raging Bull, Goliath and Whizzer at Great America — Chicago's coaster park, with an American classic wooden racing coaster in the back corner.",
+      "summary": "Six Flags Great America in Gurnee, 45 minutes north of Chicago, is the Midwest's flagship on this site's list: Raging Bull's hyper drops, Goliath's hybrid inversions, the original Batman invert, and American Eagle's racing woodies.",
+      "intro": [
+        "Six Flags Great America is the Chicago area's answer to the big regional parks, and its coaster lineup is deeper than its reputation. Raging Bull is a 200-foot B&M hyper with a 65-degree first drop and the floating airtime that company's coasters are famous for. Goliath, the 2014 Rocky Mountain hybrid, inverts a wooden coaster twice and holds its own against anything in the region. Whizzer, a 1976 suspended family coaster, is the beloved anachronism worth riding between the giants.",
+        "Batman: The Ride here is the original — the 1992 invert that cloned a generation of coasters nationwide — and American Eagle's racing wooden tracks are a piece of 1981 Americana that still runs when parks twice as rich would have bulldozed them. The Mardi Gras section added in the 2020s gives the middle of the park a party-district feel with a first-rate freespin in The Joker.",
+        "The park's season runs May through December with a big Fright Fest overlay in fall and Holiday in the Park to close the year — one of the few parks on this site where a December visit is a real option, if you pack for Lake Michigan wind off the flats."
+      ],
+      "parks": [
+        "great-america"
+      ],
+      "lightningLaneNote": "THE FLASH Pass covers the headliners here — see the line-skip guide for pricing as of July 2026 and where it actually saves time.",
+      "practical": [
+        {
+          "title": "Getting there",
+          "body": "Chicago O'Hare (ORD) is 35 to 50 minutes south of the park in Gurnee. A Metra train to Waukegan or Grayslake plus a short rideshare is the car-free route; most visitors drive."
+        },
+        {
+          "title": "Getting around",
+          "body": "One park, ring-shaped, with the County Fair entrance section at the south and Southwest Territory's coaster corner at the far west. The full loop is over a mile; do it clockwise and hit Raging Bull before the crowds round the bend."
+        },
+        {
+          "title": "How many days",
+          "body": "One weekday day covers everything with re-rides. Summer Saturdays and Fright Fest nights justify the line-skip arithmetic in the guide."
+        },
+        {
+          "title": "When to go",
+          "body": "Late May and early June weekdays before summer camps mobilise, or September weekdays during Fright Fest season with mild weather. October weekends are busy but the best vibe the park has."
+        }
+      ],
+      "ticketAffiliate": "tickets",
+      "weatherLabel": "Chicago (Gurnee)"
+    }
+  ],
+  "nav": {
+    "primary": [
+      {
+        "label": "Parks",
+        "href": "/parks/"
+      },
+      {
+        "label": "Heights",
+        "href": "/guides/height-requirements/"
+      },
+      {
+        "label": "Line-skip passes",
+        "href": "/guides/line-skip-passes/"
+      },
+      {
+        "label": "Guides",
+        "href": "/guides/"
+      },
+      {
+        "label": "Compare",
+        "href": "/compare/"
+      },
+      {
+        "label": "Tools",
+        "href": "/tools/"
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Southern California",
+        "links": [
+          {
+            "label": "Magic Mountain",
+            "href": "/southern-california/magic-mountain/"
+          },
+          {
+            "label": "Knott's Berry Farm",
+            "href": "/southern-california/knotts-berry-farm/"
+          },
+          {
+            "label": "Legoland California",
+            "href": "/southern-california/legoland-california/"
+          },
+          {
+            "label": "SeaWorld San Diego",
+            "href": "/southern-california/seaworld-san-diego/"
+          }
+        ]
+      },
+      {
+        "heading": "Orlando · Texas",
+        "links": [
+          {
+            "label": "SeaWorld Orlando",
+            "href": "/orlando/seaworld-orlando/"
+          },
+          {
+            "label": "Legoland Florida",
+            "href": "/orlando/legoland-florida/"
+          },
+          {
+            "label": "Six Flags Over Texas",
+            "href": "/texas/six-flags-over-texas/"
+          },
+          {
+            "label": "SeaWorld San Antonio",
+            "href": "/texas/seaworld-san-antonio/"
+          }
+        ]
+      },
+      {
+        "heading": "Northeast · Midwest",
+        "links": [
+          {
+            "label": "Six Flags Great Adventure",
+            "href": "/new-jersey/great-adventure/"
+          },
+          {
+            "label": "Six Flags Great America",
+            "href": "/chicago/great-america/"
+          }
+        ]
+      },
+      {
+        "heading": "Plan your visit",
+        "links": [
+          {
+            "label": "All parks",
+            "href": "/parks/"
+          },
+          {
+            "label": "All guides",
+            "href": "/guides/"
+          },
+          {
+            "label": "Comparisons",
+            "href": "/compare/"
+          },
+          {
+            "label": "Halloween events",
+            "href": "/holidays/halloween/"
+          }
+        ]
+      },
+      {
+        "heading": "Tools & about",
+        "links": [
+          {
+            "label": "Height Checker",
+            "href": "/tools/height-checker/"
+          },
+          {
+            "label": "Food Tracker",
+            "href": "/tools/food-tracker/"
+          },
+          {
+            "label": "When to go",
+            "href": "/when-to-go/"
+          },
+          {
+            "label": "Closure tracker",
+            "href": "/closures/"
+          },
+          {
+            "label": "About",
+            "href": "/about/"
+          },
+          {
+            "label": "Editorial policy",
+            "href": "/editorial-policy/"
+          },
+          {
+            "label": "Privacy",
+            "href": "/privacy/"
+          },
+          {
+            "label": "Contact & corrections",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  "affiliates": {
+    "tickets": {
+      "label": "Undercover Tourist",
+      "note": "Authorized reseller. Discounted single-day and season tickets for several parks on this site.",
+      "href": "https://www.undercovertourist.com/",
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "an authorized reseller of tickets for several parks on this site. We earn a commission on ticket sales made through our links."
+    },
+    "gear": {
+      "label": "Amazon",
+      "note": "Park bag gear.",
+      "href": "https://www.amazon.com/",
+      "rel": "sponsored nofollow noopener",
+      "disclosure": "Associates — park gear on the packing recommendations. We earn a small percentage of qualifying purchases."
+    }
+  },
+  "analytics": {
+    "enabled": false,
+    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+  },
+  "legal": {
+    "disclaimer": "CoasterReady is an independent publication. It is not affiliated with, endorsed by, sponsored by, or in any way officially connected to Six Flags Entertainment Corporation, Cedar Fair, L.P. or Knott's Berry Farm, Merlin Entertainments Group Limited or LEGOLAND, United Parks & Resorts Inc. or SeaWorld, or any of their subsidiaries or affiliates. Park, attraction, restaurant, and event names are used for identification and editorial commentary only. All trademarks are the property of their respective owners.",
+    "shortDisclaimer": "Independent and unofficial. Not affiliated with Six Flags, Knott's Berry Farm, LEGOLAND, or SeaWorld.",
+    "affiliateDisclosure": "This section contains affiliate links. If you buy through one, we may earn a commission at no additional cost to you. It never changes what we recommend or the order we rank it in.",
+    "accuracyNote": "Every page carries the month its facts were checked. Anything that moves with the season also states how confident we are — confirmed, expected, or last confirmed cycle — and pages past their review date say so at the top. This site covers four different park companies, each publishing its own figures; where a number could not be verified it is left unstated on purpose.",
+    "copyrightHolder": "CoasterReady"
+  }
+}
