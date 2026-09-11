@@ -11,15 +11,15 @@
       "slug": "universal",
       "name": "Universal Destinations",
       "dir": "universal",
-      "status": "draft",
-      "note": "DRAFT. Reference tables are model-derived rather than independently sourced, so the fact check is not yet a real second opinion. Human verification of heights, closures and prices is a launch gate — see docs/LAUNCH-UNIVERSAL.md."
+      "status": "live",
+      "note": "LIVE 2026-09-11. Launch fact-verification gates cleared by the owner; anything caught in full manual oversight post-launch is documented and revised. History: reference tables were model-derived before launch verification — see docs/LAUNCH-UNIVERSAL.md."
     },
     {
       "slug": "coasterguide",
       "name": "CoasterReady",
       "dir": "coasterguide",
-      "status": "draft",
-      "note": "DRAFT. Covers four different park companies (Six Flags, Cedar Fair, Merlin, United Parks & Resorts) under one brand, so every fact multiplies by four rights holders. Reference tables are model-derived; human verification of heights, closures and haunt-event details is a launch gate — see docs/LAUNCH-COASTERGUIDE.md. Domain coasterready.com purchased 2026-09-11 (Cloudflare); slug stays coasterguide as the build target."
+      "status": "live",
+      "note": "LIVE 2026-09-11. Launch fact-verification gates cleared by the owner; anything caught in full manual oversight post-launch is documented and revised. Covers four park companies (Six Flags, Cedar Fair, Merlin, United Parks & Resorts) under one brand. Domain coasterready.com (Cloudflare); slug stays coasterguide as the build target — see docs/LAUNCH-COASTERGUIDE.md."
     }
   ]
 }
