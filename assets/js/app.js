@@ -297,22 +297,46 @@
     else document.addEventListener('DOMContentLoaded', fn)
   }
 
-  /* Masthead gains a border and a blur once the page has moved. Passive, and rAF-throttled so it
-     cannot become the reason scrolling stutters on a mid-range phone. */
+  /* The masthead reacts to the page having moved. A float-glass chrome adds the duck:
+     scrolling down hands the viewport to the content, scrolling up brings the pill back.
+     Reduced motion keeps the pill on screen; keyboard focus always reveals it — a tab stop
+     inside hidden chrome would be a trap. Handled inline on the passive scroll event, not
+     behind requestAnimationFrame: rAF starves in occluded views and the work here is a few
+     comparisons, so the throttle bought nothing the browser's own scroll coalescing doesn't. */
   function initHeaderScroll () {
     var header = document.querySelector('.site-header')
     if (!header) return
-    var ticking = false
+    var floating = header.getAttribute('data-chrome') === 'float-glass'
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    var lastY = window.scrollY
+    var scrolledNow = null
+    var hiddenNow = false
     function update () {
-      ticking = false
-      if (window.scrollY > 80) header.setAttribute('data-scrolled', '')
-      else header.removeAttribute('data-scrolled')
+      var y = window.scrollY
+      var scrolled = y > 80
+      if (scrolled !== scrolledNow) {
+        scrolledNow = scrolled
+        if (scrolled) header.setAttribute('data-scrolled', '')
+        else header.removeAttribute('data-scrolled')
+      }
+      if (floating && !reduceMotion) {
+        if (!hiddenNow && y > 160 && y > lastY + 4 && !header.hasAttribute('data-open')) {
+          hiddenNow = true
+          header.setAttribute('data-hidden', '')
+        } else if (hiddenNow && (y < lastY - 4 || y <= 160)) {
+          hiddenNow = false
+          header.removeAttribute('data-hidden')
+        }
+      }
+      lastY = y
     }
-    window.addEventListener('scroll', function () {
-      if (ticking) return
-      ticking = true
-      window.requestAnimationFrame(update)
-    }, { passive: true })
+    window.addEventListener('scroll', update, { passive: true })
+    if (floating) {
+      header.addEventListener('focusin', function () {
+        hiddenNow = false
+        header.removeAttribute('data-hidden')
+      })
+    }
     update()
   }
 

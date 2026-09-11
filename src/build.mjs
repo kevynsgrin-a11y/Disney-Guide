@@ -20,7 +20,7 @@ import { performance } from 'node:perf_hooks'
 import { pathToFileURL } from 'node:url'
 
 import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
-import { paletteCss } from './lib/palette.mjs'
+import { paletteCss, chromeCss } from './lib/palette.mjs'
 import { faviconSvg, iconPngs } from './lib/icons.mjs'
 import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
@@ -584,8 +584,8 @@ async function copyAssets (dist, site) {
   for (const icon of iconPngs(site)) {
     await writeFile(join(dist, 'assets', 'img', icon.name), icon.buffer)
   }
-  // An operator with its own palette gets a token-override stylesheet; the layout links it.
-  const operatorCss = paletteCss(site)
+  // An operator with its own palette and/or chrome gets an override stylesheet; the layout links it.
+  const operatorCss = [paletteCss(site), chromeCss(site)].filter(Boolean).join('\n')
   if (operatorCss) await writeFile(join(dist, 'assets', 'css', 'operator.css'), operatorCss, 'utf8')
 }
 

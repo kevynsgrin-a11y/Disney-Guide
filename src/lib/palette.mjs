@@ -48,6 +48,94 @@ export function hasPalette (site) {
 }
 
 /**
+ * Chrome: the masthead treatment an operator opts into. Where a palette recolors the shared
+ * components, a chrome restyles their arrangement — same header markup, different physics. Today
+ * one value exists: 'float-glass' (no static bar; a floating glass pill that ducks out of the way
+ * while you scroll). Unknown values throw at build time — a typo'd chrome must fail the build,
+ * not silently style nothing.
+ */
+export function hasChrome (site) {
+  return Boolean(site?.brand?.chrome)
+}
+
+export function chromeCss (site) {
+  const chrome = site?.brand?.chrome
+  if (!chrome) return null
+  if (chrome !== 'float-glass') {
+    throw new Error(`Unknown brand.chrome "${chrome}" — expected "float-glass"`)
+  }
+  return `
+/* Float-glass chrome — ${site.brand.name}'s masthead treatment. No static bar: the header
+   becomes a fixed, pointer-transparent frame carrying one floating glass pill (logo, nav,
+   search). The pill reads as mirror glass — backdrop blur plus a specular top edge — and
+   ducks out of view while you scroll down, returning the moment you scroll up, so long
+   pages scroll clean. Pages that open on a photographic hero run edge-to-edge underneath
+   it (the fireworks reach the very top of the screen); every other page pays the pill
+   back with top padding so nothing hides under glass. */
+
+.site-header[data-chrome='float-glass'] {
+  position: fixed; inset: 0 0 auto; z-index: 100;
+  background: transparent; border-bottom: 0; backdrop-filter: none;
+  pointer-events: none;
+  transition: transform .5s cubic-bezier(.22, .9, .3, 1), opacity .35s ease;
+}
+.site-header[data-chrome='float-glass'] .site-header__inner {
+  pointer-events: auto;
+  margin-top: .8rem; padding-inline: 1rem;
+  min-height: 3.9rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 46%, transparent);
+  -webkit-backdrop-filter: blur(16px) saturate(1.7);
+  backdrop-filter: blur(16px) saturate(1.7);
+  border: 1px solid color-mix(in srgb, var(--ink) 14%, transparent);
+  box-shadow:
+    0 12px 34px rgba(0, 0, 0, .30),
+    inset 0 1px 0 color-mix(in srgb, var(--ink) 24%, transparent);
+}
+/* Once the page has moved the pill thickens — enough glass to keep nav legible over
+   running content, still lighter than the bar it replaced. */
+.site-header[data-chrome='float-glass'][data-scrolled] .site-header__inner {
+  background: color-mix(in srgb, var(--paper) 74%, transparent);
+}
+/* The duck: scrolling down hands the viewport to the content. Motion-gated — under
+   prefers-reduced-motion the pill simply stays put. */
+@media (prefers-reduced-motion: no-preference) {
+  .site-header[data-chrome='float-glass'][data-hidden] {
+    transform: translateY(-130%); opacity: 0;
+  }
+}
+
+/* The pill is out of the flow, so pages owe themselves the space back — except the ones
+   that open on a full-bleed photographic hero (the landing page's fireworks), which run
+   to the top of the screen on purpose. The bats marker is home-only; the hero--photo
+   case covers any other page whose body genuinely starts with the scene. */
+main { padding-top: 5.4rem; }
+main:has(> .hero--photo:first-child),
+main:has(> .landing-bats:first-child) { padding-top: 0; }
+
+/* Easy scroll: anchors glide instead of jumping, unless the visitor asked stillness. */
+@media (prefers-reduced-motion: no-preference) {
+  :root { scroll-behavior: smooth; }
+}
+
+/* Mobile: the nav sheet drops from the pill as the same glass, not the old opaque slab.
+   The pill insets a touch so it still reads as floating, not as a rounded bar. */
+@media (max-width: 860px) {
+  .site-header[data-chrome='float-glass'] .site-header__inner { margin-inline: .55rem; }
+  .site-header[data-chrome='float-glass'] .primary-nav {
+    background: color-mix(in srgb, var(--paper) 84%, transparent);
+    -webkit-backdrop-filter: blur(18px) saturate(1.6);
+    backdrop-filter: blur(18px) saturate(1.6);
+    border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    border-radius: 20px;
+    margin: .55rem .55rem 0;
+    box-shadow: 0 18px 44px rgba(0, 0, 0, .34);
+  }
+}
+`
+}
+
+/**
  * The operator's ground color, for <meta name="theme-color">. Falls back to the house paper the
  * header previously hardcoded, so operators without a palette keep today's address-bar tint.
  */
