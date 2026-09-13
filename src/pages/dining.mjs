@@ -221,7 +221,7 @@ export function restaurantPage (restaurant, data) {
       page: {
         url: restaurant.url,
         title: `${restaurant.name} (${park.shortLabel})`,
-        titleTail: ': is it worth it?',
+        titleTail: restaurant.metaTitleTail ?? ': is it worth it?',
         description: C.truncate(`${restaurant.summary} ${restaurant.verdict || ''}`, 155),
         trail,
         modified: `${restaurant.lastVerified || '2026-07'}-01`,
