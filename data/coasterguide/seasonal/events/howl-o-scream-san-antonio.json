@@ -119,10 +119,30 @@
     "knotts-scary-farm"
   ],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The San Antonio event has run select fall nights at multi-house scale in recent seasons; specifics vary by year.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from SeaWorld San Antonio's official Howl-O-Scream page (viewed September 2026): select nights September 11 – November 1.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 11 – November 1, 2026",
+      "startDate": "2026-09-11",
+      "endDate": "2026-11-01",
+      "changes": [
+        "The only SeaWorld haunt of the three that extends into November",
+        "A new haunted house themed to I Know What You Did Last Summer opens with the season"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from SeaWorld San Antonio's official Howl-O-Scream page (viewed September 2026): select nights September 11 – November 1.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

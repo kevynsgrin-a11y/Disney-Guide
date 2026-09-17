@@ -119,10 +119,31 @@
     "knotts-scary-farm"
   ],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The San Diego event has run select fall nights with multiple haunted houses in recent seasons; house counts and nights vary by year.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from SeaWorld San Diego's official Howl-O-Scream page (viewed September 2026): select nights September 11 – October 31.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 11 – October 31, 2026",
+      "startDate": "2026-09-11",
+      "endDate": "2026-10-31",
+      "changes": [
+        "Six haunted houses and eight scare zones",
+        "A new haunted house themed to I Know What You Did Last Summer opens with the season",
+        "Event nights start at 7 p.m."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from SeaWorld San Diego's official Howl-O-Scream page (viewed September 2026): select nights September 11 – October 31; house and scare-zone counts per the same page.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }
