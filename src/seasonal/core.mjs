@@ -14,6 +14,7 @@ import * as S from '../lib/schema.mjs'
 import * as SS from '../lib/seasonal-schema.mjs'
 import { urls, MONTHS } from '../lib/seasonal-data.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
+import { scopeOf } from '../lib/data.mjs'
 
 export const BUILD_MONTH_NUMBER = Number(BUILD_MONTH.slice(5, 7))
 
@@ -41,13 +42,13 @@ export function calendarPage (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'The Disney parks year, at a glance',
-      lede: 'Every seasonal event at both US resorts on one timeline, with the confidence level shown in the colour. Nothing here asserts a date nobody has announced.',
+      title: `The ${scopeOf(site).parksLabel} year, at a glance`,
+      lede: `Every seasonal event ${scopeOf(site).venuePhrase} on one timeline, with the confidence level shown in the colour. Nothing here asserts a date nobody has announced.`,
     })}
 
     ${C.section({
       wide: true,
-      children: SC.calendarGantt(ganttBands(data), { title: 'Both resorts, twelve months' }),
+      children: SC.calendarGantt(ganttBands(data), { title: 'Twelve months, every event' }),
     })}
 
     ${C.section({
@@ -73,9 +74,9 @@ export function calendarPage (data) {
       site,
       page: {
         url,
-        title: 'Disney parks seasonal calendar',
+        title: `${scopeOf(site).parksLabel.charAt(0).toUpperCase() + scopeOf(site).parksLabel.slice(1)} seasonal calendar`,
         titleTail: ': The Whole Year',
-        description: 'Every seasonal event at Walt Disney World and the Disneyland Resort on one twelve-month timeline, with confidence levels shown.',
+        description: `Every seasonal event ${scopeOf(site).venuePhrase} on one twelve-month timeline, with confidence levels shown.`,
         trail,
       },
       body,

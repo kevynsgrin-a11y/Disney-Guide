@@ -13,6 +13,7 @@
  * is gone deliberately, not by oversight.
  */
 
+import { scopeOf } from '../lib/data.mjs'
 import { html, paragraphs } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
@@ -64,6 +65,7 @@ function docPage (data, { url, title, titleTail, h1, description, lede, sections
 
 export function legalPages (data, seasonal = null) {
   const { site } = data
+  const scope = scopeOf(site)
   const pages = []
 
   // Both mailboxes have to be live before launch. A site whose entire editorial claim is that it
@@ -94,7 +96,7 @@ export function legalPages (data, seasonal = null) {
         id: 'two-kinds',
         body: [
           'Roughly half of what is here is permanent and roughly half of it expires, and the two are handled differently.',
-          'Permanent facts are the ones that will still be true in 2031: height requirements, ride systems and what riding them is actually like, accessibility provisions, year-round restaurants, and the park maps. Dated facts have a shelf life measured in months: party nights and hard-ticket events, festivals and seasonal overlays, ticket and Lightning Lane pricing, what is behind a construction wall, and which month to go at all.',
+          `Permanent facts are the ones that will still be true in 2031: height requirements, ride systems and what riding them is actually like, accessibility provisions, year-round restaurants, and the park maps. Dated facts have a shelf life measured in months: party nights and hard-ticket events, festivals and seasonal overlays, ticket and ${site.queue.name} pricing, what is behind a construction wall, and which month to go at all.`,
           'Every page of both kinds carries the month a person last checked it. Dated claims carry two things more — a confidence level saying what has actually been announced rather than how sure we feel, and a month by which the claim has to be rechecked. Once that month passes the page says so on its own, without waiting for anyone here to remember.',
           `What each confidence level permits us to state, and why the banner cannot be switched off, is on the [editorial policy](${urls.editorial()}).`,
         ],
@@ -103,18 +105,18 @@ export function legalPages (data, seasonal = null) {
         heading: 'What we cover',
         id: 'scope',
         body: [
-          'Coverage starts with the six US Disney parks and is expanding to other operators as pages meet the same standard. Within that:',
+          scope.coverageSentence,
         ],
         list: [
           '**Every attraction** — height requirements, ride systems, scare and motion assessments, queue and single-rider detail, and a verdict on whether the wait is worth the payoff.',
           '**Dining and snacks** — restaurants with a standing character rather than a menu transcription, and curated snack lists with dated prices.',
           '**Accessibility and maps** — the provisions each park actually makes, and printable schematic maps that work with no signal.',
           `**[When to go](${urls.whenToGoIndex()})** — all twelve months graded, with crowd shape, cost level, climate normals, and the specific weeks worth targeting or avoiding inside each one.`,
-          `**[Events](${urls.eventsIndex()})** — the Halloween and Christmas party nights, the EPCOT and California Adventure festivals, after-hours events, and the seasonal overlays at both resorts. What you get, what you do not, and whether the price holds up.`,
+          `**[Events](${urls.eventsIndex()})** — ${scope.eventsExamples}. What you get, what you do not, and whether the price holds up.`,
           // An operator with no prices tree yet must not link to one — a 404 on the legal
           // page is the one broken link a reader would reasonably hold against the site.
           ...((seasonal && seasonal.prices.length)
-            ? [`**[What things cost](${urls.pricesIndex()})** — ticket, Lightning Lane, parking, and pass pricing, always as a range and always with the cycle the range describes.`]
+            ? [`**[What things cost](${urls.pricesIndex()})** — ticket, ${site.queue.name}, parking, and pass pricing, always as a range and always with the cycle the range describes.`]
             : []),
           `**[Closures](${urls.closuresIndex()})** — what is behind a wall at each resort, and how firm the reopening actually is.`,
           `**Tools** — a [height checker](${urls.heightChecker()}), a [food tracker](${urls.foodTracker()}) that works offline, a [year-at-a-glance calendar](${urls.calendar()}), and a [trip-timing ranker](${urls.tripTiming()}) that reorders the months against what you personally care about.`,
@@ -188,7 +190,7 @@ export function legalPages (data, seasonal = null) {
         heading: 'The problem this site is built around',
         id: 'problem',
         body: [
-          'Search for the dates of any Disney hard-ticket party in February, months before anybody has announced anything, and the first page of results will state them anyway. Some of those pages are last year\'s dates with the year edited. Some are last year\'s dates with nothing edited. Some are a genuine extrapolation from the pattern, written by somebody who knows the event well, which is closer to honest and is still presented to the reader as fact.',
+          'Search for the dates of any park\'s hard-ticket party in February, months before anybody has announced anything, and the first page of results will state them anyway. Some of those pages are last year\'s dates with the year edited. Some are last year\'s dates with nothing edited. Some are a genuine extrapolation from the pattern, written by somebody who knows the event well, which is closer to honest and is still presented to the reader as fact.',
           'None of them mark which. The omission is the part worth being uncomfortable about, because the omission is what makes it work: a page that said "these are last year\'s dates and this year is unannounced" would lose the click to the page that simply stated them, so nobody says it. The incentive runs one way and the whole category has followed it.',
           'We mark it. Every dated claim here says which of three things it is, and the labeling is not a footnote — it renders next to the claim, in color, on the page.',
         ],
@@ -197,7 +199,7 @@ export function legalPages (data, seasonal = null) {
         heading: 'Two kinds of page, one set of rules',
         id: 'two-kinds',
         body: [
-          'Half of this site is built to be true for years and half of it expires. A height requirement, a ride system, an accessibility provision, and the shape of a park do not move much between one visit and the next. A party-night price, a festival window, a Lightning Lane figure, and a construction wall move every few months.',
+          `Half of this site is built to be true for years and half of it expires. A height requirement, a ride system, an accessibility provision, and the shape of a park do not move much between one visit and the next. A party-night price, a festival window, a ${site.queue.name} figure, and a construction wall move every few months.`,
           'The two halves get different treatment and one shared stamp. Every page carries the month a person last checked what is on it, permanent or not, because a height nobody has rechecked since 2024 is a claim about 2024. Dated claims carry two things more: a confidence level, and a month by which they have to be rechecked.',
           'A permanent page is not exempt from being wrong. It is exempt from expiring on a schedule. That is the whole difference, and it is why the freshness contract below governs the dated sections of the site while the verified stamp governs all of it.',
         ],
@@ -298,7 +300,7 @@ export function legalPages (data, seasonal = null) {
         id: 'verdicts',
         body: [
           'A guide that likes everything is useless, so every page that could hedge is required not to.',
-          'Every month page carries a letter grade, and the grades are spread across the range because a guide that awards all twelve months a B is not a guide. September at Walt Disney World and the week after Christmas are not the same trip and should not receive the same letter. Where the answer depends on who you are — and it usually does, because a retired couple and a family tied to a school calendar are looking at different years — the page names the cases and answers each one, and the trip-timing tool re-ranks all twelve months against whichever of them applies to you.',
+          `Every month page carries a letter grade, and the grades are spread across the range because a guide that awards all twelve months a B is not a guide. ${scope.spreadExample} are not the same trip and should not receive the same letter. Where the answer depends on who you are — and it usually does, because a retired couple and a family tied to a school calendar are looking at different years — the page names the cases and answers each one, and the trip-timing tool re-ranks all twelve months against whichever of them applies to you.`,
           'Every ranked page commits to a verdict. Our best-of pages put things in an order and defend the order rather than listing ten things in no particular sequence. They name the overrated — the headliner whose queue is not worth its payoff, the snack that sells on its photograph, the restaurant charging table-service prices for counter-service food. They also name the underrated, which is the harder and more useful half: the ride nobody queues for that deserves better, the quiet month, the counter-service window with the best food in the park.',
           'This applies to things we would earn money from. Where a ticket product is bad value for a particular trip shape, that is on the page carrying the link to it.',
         ],
@@ -334,7 +336,7 @@ export function legalPages (data, seasonal = null) {
         id: 'ai',
         body: [
           'AI tooling is used in producing this site, in the way most publishers now use it: drafting, structuring, and checking a large dataset for consistency faster than a person can read it. It does not set a grade, a verdict, or a confidence level, and it is never the source of a fact.',
-          'That last restriction is the one that matters most here, and it is not a general principle about machines. A model trained on the open web has read tens of thousands of pages confidently asserting unannounced Disney dates, and it will reproduce them fluently and without hesitation. On the single question this site exists to answer correctly, it is the worst available source.',
+          'That last restriction is the one that matters most here, and it is not a general principle about machines. A model trained on the open web has read tens of thousands of pages confidently asserting unannounced dates, and it will reproduce them fluently and without hesitation. On the single question this site exists to answer correctly, it is the worst available source.',
           'So every height, price, closure, mechanic, and dated claim is checked by a person against a primary source before it publishes, and the verified month records when that person did it. We say all this because the alternative is pretending otherwise, and the pretense collapses the first time anyone looks closely. The standard we are asking to be judged on is whether the page is accurate, original, and useful.',
         ],
       },
@@ -384,7 +386,7 @@ export function legalPages (data, seasonal = null) {
         heading: 'Most of what we cover cannot be bought through us',
         id: 'limits',
         body: [
-          'Hard-ticket event nights are sold by the operator and effectively nowhere else. The Halloween and Christmas parties, the after-hours events, the separately ticketed evenings at both resorts — none of them can be bought through a link on this site.',
+          `Hard-ticket event nights are sold by the operator and effectively nowhere else. The Halloween and Christmas parties, the after-hours events, the separately ticketed evenings ${scope.venuePhrase} — none of them can be bought through a link on this site.`,
           'A month page earns nothing. A festival page earns nothing. A closure tracker earns nothing. A height chart earns nothing, and carries no affiliate link at all, because somebody reading it wants a fact rather than a product. The pricing pages earn nothing on the figures themselves.',
           'That is worth knowing when you read our answer to whether a party night is worth its price, because on that specific question there is no version of the answer that pays us better than another.',
         ],

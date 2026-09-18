@@ -6,6 +6,7 @@
  * Lane *costs* and links to the evergreen guide for how it *works*.
  */
 
+import { scopeOf } from '../lib/data.mjs'
 import { html, raw, inline } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
@@ -15,6 +16,7 @@ import * as SS from '../lib/seasonal-schema.mjs'
 import { urls } from '../lib/seasonal-data.mjs'
 import * as f from '../lib/format.mjs'
 
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1)
 const RESORT_LABEL = { 'walt-disney-world': 'Walt Disney World', disneyland: 'Disneyland Resort', both: 'Both resorts' }
 
 const links = (entity) => (entity.crossLinks || []).filter((l) => l.resolved !== false)
@@ -99,8 +101,8 @@ export function holidaysIndex (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'Doing the Disney parks at a holiday',
-      lede: 'One page per holiday, covering both resorts: what actually runs, what it costs, and whether the crowds are worth it.',
+      title: `Doing the ${scopeOf(site).parksLabel} at a holiday`,
+      lede: `One page per holiday, ${scopeOf(site).coveringPhrase}: what actually runs, what it costs, and whether the crowds are worth it.`,
     })}
     ${C.section({
       children: C.cardGrid(holidays.map((h) => C.card({
@@ -118,13 +120,13 @@ export function holidaysIndex (data) {
       site,
       page: {
         url,
-        title: 'Disney parks at the holidays',
-        titleTail: ': Every Option, Both Resorts',
-        description: 'Halloween, Christmas, New Year, spring break and summer at Walt Disney World and Disneyland — what runs, what it costs, and whether it is worth the crowds.',
+        title: `${cap(scopeOf(site).parksLabel)} at the holidays`,
+        titleTail: ': Every Option, Every Park',
+        description: `Halloween, Christmas, New Year, spring break and summer at ${scopeOf(site).resortNames} — what runs, what it costs, and whether it is worth the crowds.`,
         trail,
       },
       body,
-      schema: [S.itemList(site, { url, name: 'Holidays at the Disney parks', items: holidays.map((h) => ({ name: h.title, url: h.url })) })].filter(Boolean),
+      schema: [S.itemList(site, { url, name: `Holidays at the ${scopeOf(site).parksLabel}`, items: holidays.map((h) => ({ name: h.title, url: h.url })) })].filter(Boolean),
     }),
   }
 }
@@ -153,7 +155,7 @@ export function pricePage (price, data) {
         ${C.callout({
           type: 'money',
           title: 'Every figure here is a range',
-          body: 'Prices vary by date, park, and demand at both resorts, so a single number would be wrong for almost everyone reading it. Each row carries the cycle it was checked against.',
+          body: `Prices vary by date, park, and demand ${scopeOf(site).venuePhrase}, so a single number would be wrong for almost everyone reading it. Each row carries the cycle it was checked against.`,
         })}
       `,
     })}
@@ -216,8 +218,8 @@ export function pricesIndex (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'What a Disney parks trip costs right now',
-      lede: 'Tickets, Lightning Lane, parking, dining plans and annual passes at both resorts. Every figure is a range with the cycle it was checked against, because a single number is wrong for almost everyone.',
+      title: `What a ${scopeOf(site).parksLabel} trip costs right now`,
+      lede: `Tickets, ${site.queue.name}, parking, dining plans and annual passes ${scopeOf(site).venuePhrase}. Every figure is a range with the cycle it was checked against, because a single number is wrong for almost everyone.`,
     })}
 
     ${C.section({
@@ -255,13 +257,13 @@ export function pricesIndex (data) {
       site,
       page: {
         url,
-        title: 'Disney parks prices',
-        titleTail: ': Tickets, Lightning Lane, Parking',
-        description: 'Current price ranges for tickets, Lightning Lane, parking, dining plans and annual passes at Walt Disney World and Disneyland, each dated.',
+        title: `${cap(scopeOf(site).parksLabel)} prices`,
+        titleTail: `: Tickets, ${site.queue.name}, Parking`,
+        description: `Current price ranges for tickets, ${site.queue.name}, parking, dining plans and annual passes at ${scopeOf(site).resortNames}, each dated.`,
         trail,
       },
       body,
-      schema: [S.itemList(site, { url, name: 'Disney parks price guides', items: prices.map((p) => ({ name: p.title, url: p.url })) })].filter(Boolean),
+      schema: [S.itemList(site, { url, name: `${cap(scopeOf(site).parksLabel)} price guides`, items: prices.map((p) => ({ name: p.title, url: p.url })) })].filter(Boolean),
     }),
   }
 }
@@ -346,8 +348,8 @@ export function closuresIndex (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'What is closed at the Disney parks',
-      lede: 'Refurbishment and closure trackers for both resorts. We only list what we can support with a source, so an empty tracker means nothing verified rather than nothing closed.',
+      title: `What is closed at the ${scopeOf(site).parksLabel}`,
+      lede: 'Refurbishment and closure trackers for every park on this site. We only list what we can support with a source, so an empty tracker means nothing verified rather than nothing closed.',
       meta: [{ label: 'Tracked', value: String(total) }, { label: 'Resorts', value: String(closures.length) }],
     })}
     ${closures.map((tracker) => C.section({
@@ -366,9 +368,9 @@ export function closuresIndex (data) {
       site,
       page: {
         url,
-        title: 'Disney parks closures and refurbishments',
+        title: `${cap(scopeOf(site).parksLabel)} closures and refurbishments`,
         titleTail: '',
-        description: 'Current refurbishment and closure trackers for Walt Disney World and the Disneyland Resort, with reopening dates only where they have been announced.',
+        description: `Current refurbishment and closure trackers for ${scopeOf(site).resortNames}, with reopening dates only where they have been announced.`,
         trail,
       },
       body,

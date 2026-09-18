@@ -136,10 +136,32 @@
     "fright-fest-magic-mountain"
   ],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The event has run annually since 1973; nights, maze counts and pricing describe the recent multi-year pattern. 2026 specifics — dates, line-up, prices — are not verified by this site as of 2026-07 and typically announce in late August or early September.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from Knott's official Scary Farm event page (viewed September 2026): select nights September 17 – October 31, 26 nights. Maze lineup and ticket tiers per the same page.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 17 – October 31, 2026",
+      "startDate": "2026-09-17",
+      "endDate": "2026-10-31",
+      "nights": 26,
+      "changes": [
+        "26 select nights, Thursdays through Sundays plus added nights near Halloween",
+        "Two new mazes — Inked and Unearthed — join a ten-maze lineup",
+        "The all-ages Spooky Farm daytime event runs alongside on select days"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from Knott's official Scary Farm event page (viewed September 2026): select nights September 17 – October 31, 26 nights; new mazes Inked and Unearthed announced with the lineup.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

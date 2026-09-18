@@ -10,6 +10,7 @@
  * tool carried its own hand-maintained numbers.
  */
 
+import { scopeOf } from '../lib/data.mjs'
 import { html, raw } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
@@ -38,6 +39,8 @@ export function weatherScore ({ highF, rainDays }) {
 function payload (data) {
   const months = MONTHS.map((m) => data.monthByNumber.get(m.month)).filter(Boolean)
   return {
+    resortNames: Object.fromEntries(data.site.resorts.map((r) => [r.slug, r.name])),
+    resortDefault: data.site.resorts[0] ? data.site.resorts[0].slug : 'walt-disney-world',
     months: months.map((m) => ({
       n: m.month,
       name: m.name,
@@ -88,14 +91,12 @@ export function tripTimingPage (data) {
           <fieldset>
             <legend class="facts__title">Which resort?</legend>
             <div class="timing-priorities">
-              <label class="timing-priority">
-                <input type="radio" name="timing-resort" value="walt-disney-world" checked>
-                <span>Walt Disney World</span>
-              </label>
-              <label class="timing-priority">
-                <input type="radio" name="timing-resort" value="disneyland">
-                <span>Disneyland Resort</span>
-              </label>
+              ${site.resorts.map((r, i) => html`
+                <label class="timing-priority">
+                  <input type="radio" name="timing-resort" value="${r.slug}" ${i === 0 ? 'checked' : ''}>
+                  <span>${r.name}</span>
+                </label>
+              `)}
             </div>
           </fieldset>
 
@@ -134,7 +135,7 @@ export function tripTimingPage (data) {
       children: html`
         <div class="shell--narrow prose">
           <p>It will not predict a specific week. Crowd levels within a month swing far more than between months — the first week of December and the last week of December are not the same trip, and no monthly grade can capture that. The month pages call out the specific windows worth targeting and avoiding.</p>
-          <p>It also will not price your trip. Ticket and hotel pricing varies by date within every month at both resorts; the cost score reflects the month's general level, not a quote.</p>
+          <p>It also will not price your trip. Ticket and hotel pricing varies by date within every month ${scopeOf(site).venuePhrase}; the cost score reflects the month's general level, not a quote.</p>
         </div>
       `,
     })}

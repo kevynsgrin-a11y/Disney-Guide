@@ -113,10 +113,30 @@
   ],
   "related": [],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The Gurnee overlay has run weekend nights in the fall window in recent seasons alongside the park's extended October calendar. 2026 dates and attractions are not verified by this site as of 2026-07; the window, pricing model and structure describe the multi-year pattern.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from Six Flags Great America's official Fright Fest page (viewed September 2026): select nights September 19 – November 1.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 19 – November 1, 2026",
+      "startDate": "2026-09-19",
+      "endDate": "2026-11-01",
+      "changes": [
+        "Opens a weekend later than the chain's warm-weather parks, as usual for Gurnee",
+        "Mature-audience haunt content after dark, with the kids' daytime counterpart running separately"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from Six Flags Great America's official Fright Fest page (viewed September 2026): select nights September 19 – November 1.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

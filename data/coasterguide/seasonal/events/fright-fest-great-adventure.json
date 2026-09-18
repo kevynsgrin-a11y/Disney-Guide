@@ -113,10 +113,31 @@
   ],
   "related": [],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The Jackson overlay has run weekend nights through the fall window, with the year's peak crowds on late-October Saturdays. 2026 dates and attractions are not verified by this site as of 2026-07; the window, pricing model and structure describe the multi-year pattern.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from Six Flags Great Adventure's official Fright Fest page (viewed September 2026): select nights September 18 – November 1.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 18 – November 1, 2026",
+      "startDate": "2026-09-18",
+      "endDate": "2026-11-01",
+      "changes": [
+        "The 34th Fright Fest at Great Adventure",
+        "Dead Man's Party, the fan-favorite stage show, returns",
+        "Oktoberfest runs on select days alongside, September 12 – November 1"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from Six Flags Great Adventure's official Fright Fest page (viewed September 2026): select nights September 18 – November 1; Dead Man's Party return and Oktoberfest dates per the same page.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

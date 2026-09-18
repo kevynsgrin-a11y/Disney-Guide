@@ -111,10 +111,31 @@
   ],
   "related": [],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The event has run fall weekends in recent seasons with included daytime programming and separately-ticketed party nights; 2026 specifics are not verified by this site as of 2026-07.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from LEGOLAND California's official Brick or Treat page (viewed September 2026): select dates September 19 – November 1.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select dates, September 19 – November 1, 2026",
+      "startDate": "2026-09-19",
+      "endDate": "2026-11-01",
+      "changes": [
+        "New Brick or Treat Street, with six life-size LEGO monster characters",
+        "Included with regular admission — no separate ticket and no reservation",
+        "Mostly Saturday–Sunday dates plus Halloween night and November 1"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from LEGOLAND California's official Brick or Treat page (viewed September 2026): select dates September 19 – November 1, weekend pattern; the new Brick or Treat Street announced for 2026.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

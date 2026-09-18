@@ -13,7 +13,10 @@ import * as SC from '../templates/seasonal-components.mjs'
 import * as S from '../lib/schema.mjs'
 import * as SS from '../lib/seasonal-schema.mjs'
 import { urls, MONTHS } from '../lib/seasonal-data.mjs'
+import { scopeOf } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
+
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1)
 
 const LEVEL_NOUN = { low: 'Low', moderate: 'Moderate', high: 'High', peak: 'Peak' }
 
@@ -32,7 +35,7 @@ export function monthPage (month, data) {
     ${C.breadcrumbs(month.breadcrumbTrail)}
     ${C.hero({
       eyebrow: 'When to go',
-      title: `${month.name} at the Disney parks`,
+      title: `${month.name} at the ${scopeOf(site).parksLabel}`,
       lede: month.summary,
       meta: [
         { label: 'Crowds', value: LEVEL_NOUN[month.crowds.level] || month.crowds.level },
@@ -138,9 +141,9 @@ export function monthPage (month, data) {
       site,
       page: {
         url,
-        title: `Disney parks in ${month.name}`,
+        title: `${cap(scopeOf(site).parksLabel)} in ${month.name}`,
         titleTail: ': Crowds, Weather, Cost',
-        description: `Is ${month.name} a good time to visit Walt Disney World or Disneyland? Crowd levels, climate normals, cost, what is running, and a graded verdict.`,
+        description: `Is ${month.name} a good time to visit ${scopeOf(site).resortNames}? Crowd levels, climate normals, cost, what is running, and a graded verdict.`,
         trail: month.breadcrumbTrail,
         modified: `${month.freshness.verified}-01`,
         ogType: 'article',
@@ -149,7 +152,7 @@ export function monthPage (month, data) {
       schema: [
         SS.seasonalArticle(site, {
           url,
-          title: `Disney parks in ${month.name}`,
+          title: `${cap(scopeOf(site).parksLabel)} in ${month.name}`,
           description: month.summary,
           modified: `${month.freshness.verified}-01`,
           section: 'When to go',
@@ -179,7 +182,7 @@ export function whenToGoIndex (data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: site.brand.name,
-      title: 'The best and worst months to visit the Disney parks',
+      title: `The best and worst months to visit the ${scopeOf(site).parksLabel}`,
       lede: 'Every month graded on crowds, cost, weather and what is actually running. We commit to a letter grade for each one — including the months we think you should avoid.',
       actions: [{ href: urls.tripTiming(), label: 'Rank months by what you care about', primary: true }],
       image: data.photo['day-end'],
@@ -225,14 +228,14 @@ export function whenToGoIndex (data) {
         url,
         title: `Best time to visit the ${site.brand.shortName} parks`,
         titleTail: ': Every Month Graded',
-        description: `All twelve months graded on crowds, cost, weather and events across ${resorts.map((r) => r.shortName || r.name).join(' and ')} — with the months worth avoiding named outright.`,
+        description: `All twelve months graded on crowds, cost, weather and events across ${resorts.length > 2 ? 'every region' : resorts.map((r) => r.shortName || r.name).join(' and ')} — with the months worth avoiding named outright.`,
         trail,
       },
       body,
       schema: [
         S.itemList(site, {
           url,
-          name: 'Months ranked for a Disney parks visit',
+          name: `Months ranked for a ${scopeOf(site).parksLabel} visit`,
           items: ranked.map((m) => ({ name: `${m.name} — ${m.verdict.grade}`, url: m.url })),
         }),
       ].filter(Boolean),

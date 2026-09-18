@@ -45,6 +45,16 @@
     },
     "motif": "trackline"
   },
+  "scope": {
+    "note": "Operator-scoped phrases consumed by the shared seasonal and legal templates, so no template asserts a park universe its operator does not cover.",
+    "parksLabel": "coaster parks",
+    "resortNames": "the ten regional coaster parks",
+    "venuePhrase": "across all five regions",
+    "coverageSentence": "Coverage is the ten parks on this site — four park companies across five regions — held to the same standard on every page. Within that:",
+    "eventsExamples": "nine Halloween haunts across the four park companies and the holiday overlays that close the year",
+    "spreadExample": "A Fright Fest Saturday at Magic Mountain and a February weekday in Gurnee",
+    "coveringPhrase": "covering all five regions"
+  },
   "meta": {
     "defaultTitleSuffix": "CoasterReady",
     "defaultDescription": "Height requirements, coaster-by-coaster honesty, line-skip pass maths, and haunt-season timing for ten American coaster parks. Independent and unofficial.",
@@ -460,6 +470,10 @@
           {
             "label": "Road-Trip Combiner",
             "href": "/tools/road-trip/"
+          },
+          {
+            "label": "Career Ladder",
+            "href": "/tools/career-ladder/"
           }
         ]
       }
@@ -557,5 +571,9 @@
       "seaworld-san-diego|seaworld-san-antonio": 1310,
       "legoland-florida|seaworld-san-diego": 2380
     }
+  },
+  "careerLadder": {
+    "note": "The ladder shows only heights this site has verified and published — 43 of the 63 documented coasters carry an asserted minimum; the rest stay off the rungs rather than guessed. Credits are your own riding history, kept on this device, and a permanently closed coaster can still be ticked for the record.",
+    "intro": "Regional parks are where families ladder up over years: the first coaster at 42 inches, the giants at 48, the extremes at 54. Pick a rider — the same saved riders as the height passport — and the ladder shows what is unlocked now, what unlocks at every rung across all ten parks, and, with a birthday saved, the projected months each rung arrives. Tick off coasters as you ride them; the credit count and the printable career card are yours alone."
   }
 }

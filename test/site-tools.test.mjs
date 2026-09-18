@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises'
 import { loadData } from '../src/lib/data.mjs'
 import { loadSeasonal } from '../src/lib/seasonal-data.mjs'
 import {
-  dayBlueprintPage, roadTripPage, expressRoiPage, hauntPlannerPage,
+  dayBlueprintPage, roadTripPage, expressRoiPage, hauntPlannerPage, careerLadderPage,
 } from '../src/pages/tools.mjs'
 
 const root = new URL('..', import.meta.url)
@@ -21,6 +21,7 @@ async function loadEngine (file, varName) {
 
 const DayBlueprint = await loadEngine('day-blueprint', 'DayBlueprint')
 const RoadTrip = await loadEngine('road-trip', 'RoadTrip')
+const CareerLadder = await loadEngine('career-ladder', 'CareerLadder')
 const ExpressROI = await loadEngine('express-roi', 'ExpressROI')
 const HauntPlanner = await loadEngine('haunt-planner', 'HauntPlanner')
 
@@ -186,4 +187,43 @@ test('knotts deepening: rapids and pony express landed with the height disciplin
     assert.equal(a.heightIn, null, 'unverified heights stay unasserted and point at the park')
     assert.match(a.heightNote, /verify/i)
   }
+})
+
+
+/* ---------- Career Ladder ---------- */
+
+test('career ladder: rungs ascend from asserted minimums and never invent one', () => {
+  const { rungsFor } = CareerLadder._internals
+  const coasters = [
+    { id: 'a/x', n: 'A', h: 48 }, { id: 'a/y', n: 'B', h: 42 }, { id: 'a/z', n: 'C', h: 42 },
+    { id: 'a/w', n: 'D', h: null }, { id: 'a/v', n: 'E', h: 54 },
+  ]
+  const { rungs, unverified } = rungsFor(coasters)
+  assert.deepEqual(rungs.map((r) => r.h), [42, 48, 54])
+  assert.equal(rungs[0].items.length, 2)
+  assert.equal(unverified.length, 1, 'a coaster with no asserted minimum is counted, never runged')
+})
+
+test('career ladder: summary counts the near-miss band this site is built on', () => {
+  const { summaryFor } = CareerLadder._internals
+  const coasters = [
+    { id: 'a', h: 42 }, { id: 'b', h: 44 }, { id: 'c', h: 48 }, { id: 'd', h: null },
+  ]
+  const s = summaryFor(43, coasters)
+  assert.equal(s.now, 1)
+  assert.equal(s.near, 1, '44in from a 43in rider is the two-inch near-miss band')
+  assert.equal(s.later, 1)
+  assert.equal(s.unverified, 1)
+  assert.equal(s.total, 4)
+})
+
+test('career ladder builds only where the data lives (CoasterReady) and the payload round-trips', () => {
+  const page = careerLadderPage(coasterguide)
+  assert.equal(page.url, '/tools/career-ladder/')
+  const payload = JSON.parse(page.html.match(/<script type="application\/json" id="career-data">([\s\S]*?)<\/script>/)[1])
+  assert.ok(payload.coasters.length >= 60, 'every documented coaster is creditable')
+  assert.ok(payload.coasters.some((c) => c.h == null), 'unasserted minimums travel as null, not as guesses')
+  assert.ok(payload.coasters.some((c) => c.s !== 'open'), 'retired coasters stay on the roll for history')
+  assert.match(page.html, /career-ladder\.js/)
+  assert.match(page.html, /rider-profiles\.js/, 'shares the rider store with the passport')
 })

@@ -36,6 +36,16 @@
       "focus": "#FFDA7A"
     }
   },
+  "scope": {
+    "note": "Operator-scoped phrases consumed by the shared seasonal and legal templates, so no template asserts a park universe its operator does not cover.",
+    "parksLabel": "Disney parks",
+    "resortNames": "Walt Disney World or the Disneyland Resort",
+    "venuePhrase": "at both US resorts",
+    "coverageSentence": "Coverage starts with the six US Disney parks and is expanding to other operators as pages meet the same standard. Within that:",
+    "eventsExamples": "the Halloween and Christmas party nights, the EPCOT and California Adventure festivals, after-hours events, and the seasonal overlays at both resorts",
+    "spreadExample": "September at Walt Disney World and the week after Christmas",
+    "coveringPhrase": "covering both US resorts"
+  },
   "meta": {
     "defaultTitleSuffix": "Ride Ready Guide",
     "defaultDescription": "Height requirements, ride-by-ride honesty, dining worth the money, printable park maps, and month-by-month timing for the US theme parks. Independent and unofficial.",

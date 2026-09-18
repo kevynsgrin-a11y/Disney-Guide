@@ -36,6 +36,34 @@ function spotlightVenue (event, site) {
   return resort ? (resort.shortName || resort.name) : 'Seasonal event'
 }
 
+/**
+ * The haunt countdown band. Renders while any Halloween edition is announced and not yet over,
+ * measured against BUILD_MONTH so the band retires itself in November with no authored flag. The
+ * events it claims are removed from the plain "on right now" grid below — one event, one card.
+ */
+function hauntBand (runningNow) {
+  const current = runningNow.filter((e) => {
+    if (e.season !== 'halloween') return false
+    const ed = (e.editions || []).find((x) => x.status === 'announced' && x.startDate && x.endDate)
+    return ed && ed.endDate >= `${BUILD_MONTH}-01`
+  })
+  if (current.length < 2) return { band: raw(''), claimed: [] }
+  const year = (current[0].editions || []).find((x) => x.status === 'announced').year
+  const band = C.section({
+    kicker: `Halloween ${year}`,
+    title: 'The haunt countdown',
+    intro: 'Every date here is the park\u2019s own announcement, stamped with the month we checked it. The state line updates in your browser — running events say so, and the ones counting down say by how much.',
+    children: html`
+      ${SC.hauntCountdown(current)}
+      <p class="mt-5">
+        <a class="btn btn--primary" href="${urls.holidaysIndex()}">The Halloween guide</a>
+        <a class="btn btn--ghost" href="${urls.calendar()}">Every event, the whole year</a>
+      </p>
+    `,
+  })
+  return { band, claimed: current }
+}
+
 /** The dedicated card stays compact so the season reads as an editorial plate, not a product grid. */
 function spotlightEventCard (event, site) {
   const status = event.staleness && event.staleness.confidence === 'confirmed'
@@ -175,6 +203,8 @@ export function homePage (data, seasonal) {
   // has to remember to take Halloween down in November.
   const bands = ganttBands(seasonal)
   const runningNow = bands.filter((b) => bandCovers(b, BUILD_MONTH_NUMBER)).map((b) => b.event)
+  const haunt = hauntBand(runningNow)
+  const otherRunning = runningNow.filter((e) => !haunt.claimed.includes(e))
   const thisMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER)
   const nextMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER === 12 ? 1 : BUILD_MONTH_NUMBER + 1)
 
@@ -227,6 +257,8 @@ export function homePage (data, seasonal) {
 
     ${seasonSpotlight(site, runningNow)}
 
+    ${haunt.band}
+
     ${C.section({
       tone: 'tint',
       title: 'Three things we do that a search result cannot',
@@ -267,11 +299,11 @@ export function homePage (data, seasonal) {
       label: 'Start with when to go',
     })}
 
-    ${runningNow.length ? C.section({
+    ${otherRunning.length ? C.section({
       title: `On right now, in ${MONTHS[BUILD_MONTH_NUMBER - 1].name}`,
       kicker: 'What is running',
       intro: 'Each of these states whether this year is confirmed or still only expected. Most sites will not tell you which.',
-      children: C.cardGrid(runningNow.slice(0, 6).map((e) => SC.eventCard(e, e.staleness)), { columns: 3 }),
+      children: C.cardGrid(otherRunning.slice(0, 6).map((e) => SC.eventCard(e, e.staleness)), { columns: 3 }),
     }) : ''}
 
     ${thisMonth || nextMonth ? C.section({

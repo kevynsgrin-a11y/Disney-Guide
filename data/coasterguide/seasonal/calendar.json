@@ -5,63 +5,63 @@
       "startMonth": 9,
       "endMonth": 10,
       "resort": "southern-california",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-over-texas",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "texas",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-great-adventure",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "new-jersey",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-great-america",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "chicago",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "knotts-scary-farm",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "southern-california",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "howl-o-scream-san-diego",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "southern-california",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "howl-o-scream-san-antonio",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "texas",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "howl-o-scream-orlando",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "orlando",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "brick-or-treat-legoland-california",
       "startMonth": 9,
       "endMonth": 10,
       "resort": "southern-california",
-      "confidence": "expected"
+      "confidence": "confirmed"
     }
   ]
 }

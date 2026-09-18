@@ -380,6 +380,48 @@
 
   /* A decorative landing moment only: no keyboard focus, no pointer capture, and no retained DOM
      after the three-second flight. Hidden tabs skip it so nothing launches when a reader returns. */
+  /* ---------- Haunt countdown (view-time state, no intervals) ---------------- */
+
+  /*
+   * The build stamps each haunt card with confirmed ISO dates and a true static line. This upgrade
+   * replaces that line with live state computed from the visitor's clock — day-level only, computed
+   * once, no ticking, so there is nothing for prefers-reduced-motion to object to and nothing that
+   * can contradict the confirmed window above it.
+   */
+  function initHauntCountdown () {
+    var cards = document.querySelectorAll('[data-countdown]')
+    if (!cards.length) return
+    var now = new Date()
+    var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    function day (iso) {
+      var d = new Date(iso + 'T00:00:00')
+      return isNaN(d) ? null : d
+    }
+    function shortDate (d) { return MONTHS[d.getMonth()] + ' ' + d.getDate() }
+    Array.prototype.forEach.call(cards, function (el) {
+      var start = day(el.getAttribute('data-start'))
+      var end = day(el.getAttribute('data-end'))
+      var state = el.querySelector('[data-countdown-state]')
+      if (!start || !end || !state) return
+      var endNext = new Date(end.getTime() + 86400000)
+      var label, tone
+      if (now < start) {
+        var days = Math.ceil((start - now) / 86400000)
+        label = days > 1 ? 'Opens in ' + days + ' days' : 'Opens tomorrow'
+        tone = days <= 14 ? 'soon' : 'ahead'
+      } else if (now < endNext) {
+        var left = Math.ceil((end - now) / 86400000)
+        label = left >= 2 ? 'Running now · ends ' + shortDate(end) : (left >= 1 ? 'Final nights · ends ' + shortDate(end) : 'Final night')
+        tone = 'live'
+      } else {
+        label = 'Ended for the season'
+        tone = 'past'
+      }
+      state.textContent = label
+      el.setAttribute('data-countdown-tone', tone)
+    })
+  }
+
   function initLandingBats () {
     var stage = document.querySelector('[data-landing-bats]')
     if (!stage) return
@@ -396,6 +438,7 @@
     initWelcomeBack()
     initDataSaver()
     initLandingBats()
+    initHauntCountdown()
     initReveal()
     initServiceWorker()
   })

@@ -113,10 +113,29 @@
   ],
   "related": [],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The Arlington overlay has run select weekend nights in the fall window with after-dark scares in recent seasons. 2026 dates and attractions are not verified by this site as of 2026-07; the window, pricing model and structure describe the multi-year pattern.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates from Six Flags Over Texas' official events calendar (viewed September 2026): select nights September 11 – November 1.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
-  }
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select nights, September 11 – November 1, 2026",
+      "startDate": "2026-09-11",
+      "endDate": "2026-11-01",
+      "changes": [
+        "Runs during the park's 65th-anniversary season, with Fright Fest-exclusive offerings promised for the year"
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026 dates from Six Flags Over Texas' official events calendar (viewed September 2026): select nights September 11 – November 1.",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    }
+  ]
 }

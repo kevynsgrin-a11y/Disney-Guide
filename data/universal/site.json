@@ -36,6 +36,16 @@
       "focus": "#E0B86F"
     }
   },
+  "scope": {
+    "note": "Operator-scoped phrases consumed by the shared seasonal and legal templates, so no template asserts a park universe its operator does not cover.",
+    "parksLabel": "Universal parks",
+    "resortNames": "Universal Orlando or Universal Studios Hollywood",
+    "venuePhrase": "at both US resorts",
+    "coverageSentence": "Coverage is Universal's two US resorts — Universal Orlando and Universal Studios Hollywood — held to the same standard on every page. Within that:",
+    "eventsExamples": "Halloween Horror Nights on both coasts, the holiday overlays, and the seasonal events at both resorts",
+    "spreadExample": "A Halloween Horror Nights Saturday and a late-January weekday",
+    "coveringPhrase": "covering both US resorts"
+  },
   "meta": {
     "defaultTitleSuffix": "Hollywood Ride Guide",
     "defaultDescription": "Height requirements, ride-by-ride honesty, Express Pass maths, and month-by-month timing for the four US Universal parks. Independent and unofficial.",

@@ -137,6 +137,33 @@ const CATEGORY_LABEL = {
 export function categoryLabel (value) { return CATEGORY_LABEL[value] || f.unslug(value || '') }
 
 /**
+ * The haunt countdown card. The build renders the confirmed window statically — never a countdown
+ * number, because a number stamped at build time goes stale the moment the deploy is cached. A tiny
+ * progressive script (app.js) turns the ISO dates into a view-time state line: "Opens in 3 days",
+ * "Running now · ends Oct 31". Without JavaScript the card still says something true.
+ */
+export function hauntCard (event) {
+  const edition = (event.editions || []).find((e) => e.status === 'announced' && e.startDate && e.endDate)
+  if (!edition) return null
+  const state = event.staleness
+  return html`
+    <article class="card haunt-card" data-countdown data-start="${edition.startDate}" data-end="${edition.endDate}">
+      <p class="card__eyebrow">${categoryLabel(event.category)}${event.parkName ? ` · ${event.parkName}` : event.resortName ? ` · ${event.resortName}` : ''}</p>
+      <h3 class="card__title"><a href="${event.url}">${event.name}</a></h3>
+      <p class="haunt-card__window">${edition.dates}${edition.nights ? ` · ${edition.nights} nights` : ''}</p>
+      <p class="haunt-card__state" data-countdown-state>${state && state.confidenceLabel ? state.confidenceLabel : 'Confirmed dates'}</p>
+    </article>
+  `
+}
+
+/** The homepage haunt band: every announced Halloween edition on one board, live-dated in the browser. */
+export function hauntCountdown (events) {
+  const cards = events.map((e) => hauntCard(e)).filter(Boolean)
+  if (!cards.length) return raw('')
+  return html`<div class="card-grid card-grid--3 haunt-grid">${cards}</div>`
+}
+
+/**
  * The window strip. What survives when this year's dates do not.
  *
  * Authored as prose ("mid-August") rather than dates on purpose — see §7.4 of the data contract.

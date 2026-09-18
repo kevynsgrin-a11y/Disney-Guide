@@ -241,7 +241,7 @@ export function guidesIndex (data) {
     ${C.hero({
       eyebrow: `${guides.length} evergreen guides`,
       title: 'Guides that stay true',
-      lede: 'The mechanics that do not change week to week: how Lightning Lane works, how heights are measured, what actually frightens a four-year-old, and what belongs in the bag.',
+      lede: `The mechanics that do not change week to week: how ${site.queue.name} work, how heights are measured, what actually frightens a four-year-old, and what belongs in the bag.`,
       tone: 'compact',
       image: data.photo['scene-castle'],
     })}
