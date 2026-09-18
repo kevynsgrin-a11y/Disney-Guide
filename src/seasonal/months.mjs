@@ -228,7 +228,7 @@ export function whenToGoIndex (data) {
         url,
         title: `Best time to visit the ${site.brand.shortName} parks`,
         titleTail: ': Every Month Graded',
-        description: `All twelve months graded on crowds, cost, weather and events across ${resorts.map((r) => r.shortName || r.name).join(' and ')} — with the months worth avoiding named outright.`,
+        description: `All twelve months graded on crowds, cost, weather and events across ${resorts.length > 2 ? 'every region' : resorts.map((r) => r.shortName || r.name).join(' and ')} — with the months worth avoiding named outright.`,
         trail,
       },
       body,

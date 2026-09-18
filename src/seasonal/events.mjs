@@ -251,7 +251,10 @@ export function editionPage (event, edition, data) {
       site,
       page: {
         url,
-        title: `${event.shortName || event.name} ${edition.year}`,
+        // Park-scoped on purpose: several parks on one operator share a shortName (four Fright
+        // Fests, three Howl-O-Screams), and "Fright Fest 2026" x4 is four pages splitting one
+        // search result. event.title carries the venue; the hero below stays short and human.
+        title: `${event.title || event.name} ${edition.year}`,
         titleTail: edition.status === 'announced' ? ': Dates & Prices' : ': What We Know',
         description: `${edition.status === 'announced' ? 'Confirmed' : 'Expected'} detail for ${event.name} ${edition.year} — dates, nights, and pricing, with the confidence level stated on the page.`,
         trail: edition.breadcrumbTrail,

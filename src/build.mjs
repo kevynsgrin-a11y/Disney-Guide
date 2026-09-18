@@ -103,6 +103,7 @@ function buildPages (data, seasonal) {
   pages.push(toolPages.myRidersPage(data))
   pages.push(toolPages.dayBlueprintPage(data))
   if (data.site.roadTrip) pages.push(toolPages.roadTripPage(data))
+  if (data.site.careerLadder) pages.push(toolPages.careerLadderPage(data))
   if (data.site.expressRoi) pages.push(toolPages.expressRoiPage(data))
   if (data.site.hauntPlanner) pages.push(toolPages.hauntPlannerPage(data, seasonal))
   pages.push(seasonalTools.tripTimingPage(seasonal))

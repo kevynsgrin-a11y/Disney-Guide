@@ -498,6 +498,85 @@ export function roadTripPage (data) {
 }
 
 /* ------------------------------------------------------------------ *
+ * Career Ladder — CoasterReady's height career with a credit counter.
+ * The rungs are derived from the dataset's own asserted minimums at
+ * build time; the riding history is the reader's, on their device.
+ * ------------------------------------------------------------------ */
+
+export function careerLadderPage (data) {
+  const { site } = data
+  const trail = [
+    { label: 'Home', href: '/' },
+    { label: 'Tools', href: urls.toolsIndex() },
+    { label: 'Career Ladder', href: urls.careerLadder() },
+  ]
+
+  const coasters = data.parks.flatMap((park) => park.attractions
+    .filter((a) => a.type === 'roller-coaster')
+    .map((a) => ({
+      id: `${park.slug}/${a.slug}`,
+      n: a.name,
+      p: park.name,
+      u: park.url,
+      h: a.heightIn ?? null,
+      s: a.status,
+    })))
+  const payload = {
+    coasters,
+    intro: site.careerLadder.intro,
+    note: site.careerLadder.note,
+    myRidersUrl: urls.myRiders(),
+    heightCheckerUrl: urls.heightChecker(),
+  }
+
+  const body = html`
+    ${C.breadcrumbs(trail)}
+    ${C.hero({
+      eyebrow: 'Tool · ten parks, one career',
+      title: 'Coaster Career Ladder',
+      lede: site.careerLadder.intro,
+      tone: 'compact',
+      meta: [
+        { label: 'Coasters documented', value: `${coasters.length}` },
+        { label: 'Asserted minimums', value: `${coasters.filter((c) => c.h != null).length}` },
+        { label: 'Account', value: 'None' },
+      ],
+    })}
+    ${C.section({
+      children: html`
+        <div class="tool-sheet" data-career-ladder>
+          <noscript><p>This tool runs in your browser and needs JavaScript. The height tables on each park page carry the same facts without it.</p></noscript>
+        </div>
+        <p class="muted field-note">${payload.note}</p>
+      `,
+    })}
+    <script type="application/json" id="career-data">${raw(JSON.stringify(payload))}</script>
+  `
+
+  return {
+    url: urls.careerLadder(),
+    html: renderPage({
+      site,
+      page: {
+        url: urls.careerLadder(),
+        title: 'Coaster Career Ladder',
+        titleTail: ': what unlocks at every height',
+        description: 'The height career across all ten coaster parks — what a rider clears now, what unlocks at 42, 48 and 54 inches, growth-projected rungs, and a credit counter for every coaster ridden.',
+        trail,
+        modified: '2026-09-01',
+      },
+      body,
+      scripts: ['/assets/js/rider-profiles.js', '/assets/js/career-ladder.js'],
+      schema: [S.webApplication(site, {
+        url: urls.careerLadder(),
+        name: `${site.brand.shortName} Career Ladder`,
+        description: 'What unlocks at every height across ten coaster parks, with a personal credit counter kept on the device.',
+      })],
+    }),
+  }
+}
+
+/* ------------------------------------------------------------------ *
  * Express Pass ROI — Hollywood Ride Guide's queue-maths calculator.
  * ------------------------------------------------------------------ */
 
@@ -758,6 +837,13 @@ export function toolsIndex (data) {
           title: 'My Riders',
           summary: `The height passport: save each child once and every height requirement across all ${data.parks.length} parks labels itself for your family — plus growth-projected dates for every ride they have not reached.`,
         }),
+        ...(site.careerLadder ? [C.card({
+          href: urls.careerLadder(),
+          tone: 'feature',
+          eyebrow: 'Saves on this device',
+          title: 'Career Ladder',
+          summary: `The height career across all ${data.parks.length} parks: what a rider clears now, what unlocks at every rung, growth-projected dates, and a credit counter for every coaster ridden. Prints as a career card.`,
+        })] : []),
         C.card({
           href: urls.heightChecker(),
           tone: 'feature',
