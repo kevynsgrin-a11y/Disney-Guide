@@ -19,6 +19,28 @@ export const DIST_DIR = join(ROOT, 'dist')
 export const ASSETS_DIR = join(ROOT, 'assets')
 
 /**
+ * Operator-scoped phrases for the shared templates, from `site.scope`.
+ *
+ * The seasonal and legal templates are shared verbatim across operators, so any sentence
+ * that names a park universe ("the Disney parks year") must come from the operator's own
+ * data or it will assert a coverage that operator does not have. The defaults below are
+ * deliberately neutral, not Disney's wording — an operator missing a phrase should read
+ * generic, never wrong.
+ */
+export function scopeOf (site) {
+  const s = site.scope || {}
+  return {
+    parksLabel: s.parksLabel || 'parks',
+    resortNames: s.resortNames || 'the parks on this site',
+    venuePhrase: s.venuePhrase || 'on this site',
+    coveringPhrase: s.coveringPhrase || 'across this site',
+    coverageSentence: s.coverageSentence || 'Coverage is the parks listed on this site, held to the same standard on every page. Within that:',
+    eventsExamples: s.eventsExamples || 'the hard-ticket events, festivals and seasonal overlays',
+    spreadExample: s.spreadExample || 'A peak-season Saturday and an off-season weekday',
+  }
+}
+
+/**
  * Park order is derived from each site's `resorts[].parks`, never declared twice.
  *
  * It used to be a hardcoded list of six Disney park slugs here. That list and the one in site.json

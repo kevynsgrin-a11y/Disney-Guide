@@ -42,7 +42,7 @@
     var summary = panel.querySelector('[data-timing-summary]')
 
     function state () {
-      var resort = 'walt-disney-world'
+      var resort = data.resortDefault || 'walt-disney-world'
       for (var i = 0; i < resortInputs.length; i++) {
         if (resortInputs[i].checked) resort = resortInputs[i].value
       }
@@ -149,7 +149,7 @@
         var labels = st.priorities.map(function (p) {
           return p === 'crowds' ? 'thin crowds' : p === 'cost' ? 'low cost' : p === 'weather' ? 'good weather' : 'plenty on'
         })
-        var resortName = st.resort === 'disneyland' ? 'the Disneyland Resort' : 'Walt Disney World'
+        var resortName = (data.resortNames && data.resortNames[st.resort]) || 'the resort you picked'
         summary.textContent = 'For ' + resortName + ', weighing ' + listify(labels) + ': ' +
           listify(top) + ' come out on top.'
       }

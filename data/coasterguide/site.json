@@ -45,6 +45,16 @@
     },
     "motif": "trackline"
   },
+  "scope": {
+    "note": "Operator-scoped phrases consumed by the shared seasonal and legal templates, so no template asserts a park universe its operator does not cover.",
+    "parksLabel": "coaster parks",
+    "resortNames": "the ten regional coaster parks",
+    "venuePhrase": "across all five regions",
+    "coverageSentence": "Coverage is the ten parks on this site — four park companies across five regions — held to the same standard on every page. Within that:",
+    "eventsExamples": "nine Halloween haunts across the four park companies and the holiday overlays that close the year",
+    "spreadExample": "A Fright Fest Saturday at Magic Mountain and a February weekday in Gurnee",
+    "coveringPhrase": "covering all five regions"
+  },
   "meta": {
     "defaultTitleSuffix": "CoasterReady",
     "defaultDescription": "Height requirements, coaster-by-coaster honesty, line-skip pass maths, and haunt-season timing for ten American coaster parks. Independent and unofficial.",

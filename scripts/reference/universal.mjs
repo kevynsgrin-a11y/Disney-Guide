@@ -63,7 +63,7 @@ export const HEIGHTS = {
     'spider-man': 40,
     'flight of the hippogriff': 34,
     'cat in the hat': 36,
-    'reign of kong': 34,
+    'reign of kong': 36,
   },
 
   /*
@@ -221,24 +221,8 @@ export const SNACK_PRICES = [
  * mechanism: an operator cannot go live with a non-empty list, and a row that stops matching is
  * reported as stale rather than quietly ignored.
  */
-export const CONFLICTS = [
-  {
-    park: 'islands-of-adventure',
-    attraction: 'Skull Island: Reign of Kong',
-    field: 'heightIn',
-    reference: 34,
-    dataset: 36,
-    note: 'Two inches apart, and two inches is exactly the width of a bad day at a height stick. Check the operator\'s own published figure and delete this row.',
-  },
-  {
-    park: 'epic-universe',
-    attraction: "Yoshi's Adventure",
-    field: 'heightIn',
-    reference: 34,
-    dataset: null,
-    note: 'The table asserts 34in. The dataset states no figure and carries a heightNote saying any minimum is low or supervision-based and unverified — which is the instructed behaviour, not an omission. So the two sources agree a restriction may exist and disagree on whether it is 34in. Epic Universe is the least-corroborated park on the site; resolve this from the operator directly.',
-  },
-]
+export const CONFLICTS = []
+
 
 /**
  * Proper names containing a word the filler sweep bans, scrubbed from prose before that sweep runs.

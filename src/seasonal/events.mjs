@@ -7,6 +7,7 @@
  * built around the pattern accrues links, and the dated block is a component inside it.
  */
 
+import { scopeOf } from '../lib/data.mjs'
 import { html, raw, inline, paragraphs } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
@@ -330,14 +331,14 @@ export function eventsIndex (data) {
       site,
       page: {
         url,
-        title: 'Seasonal events at the US Disney parks',
+        title: `Seasonal events at the ${scopeOf(site).parksLabel}`,
         titleTail: ': Dates, Prices, Verdicts',
-        description: 'Every party night, festival, and after-hours event at Walt Disney World and the Disneyland Resort — what each costs and whether it is worth it.',
+        description: `Every party night, festival, and after-hours event ${scopeOf(site).venuePhrase} — what each costs and whether it is worth it.`,
         trail,
       },
       body,
       schema: [
-        S.itemList(site, { url, name: 'Seasonal events at the US Disney parks', items: events }),
+        S.itemList(site, { url, name: `Seasonal events at the ${scopeOf(site).parksLabel}`, items: events }),
       ].filter(Boolean),
     }),
   }
