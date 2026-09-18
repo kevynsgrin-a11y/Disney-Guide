@@ -10,14 +10,14 @@
   "h1": "Halloween Horror Nights Hollywood: the mazes, the Terror Tram, and which nights are worth buying",
   "title": "Halloween Horror Nights Hollywood",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "Universal Studios Hollywood's hard-ticket horror event: mazes, the Terror Tram, last cycle's price band, which nights to buy, and who should skip it.",
+  "description": "Universal Studios Hollywood's hard-ticket horror event: the full 2026 house lineup, the Terror Tram, ticket ladder, which nights to buy, and who should skip it.",
   "typicalWindow": {
     "startsAround": "early September",
     "endsAround": "the first weekend of November",
-    "nightsTypical": 30,
+    "nightsTypical": 34,
     "nightsRange": [
-      25,
-      38
+      24,
+      42
     ],
     "daysOfWeek": [
       "Wed",
@@ -26,41 +26,43 @@
       "Sat",
       "Sun"
     ],
-    "hours": "Roughly 19:00 to 01:00 on most nights and later on peak weekend dates, with the park closing to daytime guests in the early evening and reopening as a ticketed event"
+    "hours": "Event admission from 19:00, closing as late as 02:00 on peak nights; early-access ticket holders get select houses from around 17:00, and the park closes to daytime guests in the early evening and reopens as a ticketed event"
   },
   "pricing": {
     "model": "per-night",
     "rangeUsd": [
-      69,
-      179
+      74,
+      107
     ],
-    "asOf": "2025 season",
+    "asOf": "2026 season, by night",
     "cheapestNights": "Weeknights in the first two weeks of the run",
     "priciestNights": "October Fridays and Saturdays, and Halloween night itself",
     "notes": [
-      "Tax is additional, and every night is priced separately. The spread across one season has been wider than the cheapest ticket costs.",
-      "Multi-night passes covering blocks of dates have been sold each season, and two visits on one of those has generally cost less than two single-night tickets.",
-      "Event Express Pass is a separate product from the daytime one, priced by date, and it is the difference between four mazes and eight on an October weekend.",
+      "Tax is additional, and every night is priced separately. The 2026 band runs roughly $74–$107 for General Admission before tax, with up to $40 of that as online savings versus the front gate on select nights.",
+      "The After 2 P.M. Day/Night ticket — daytime admission from 14:00 plus the event, with early access included — has started this season in the $115–$135 range by date.",
+      "The Early Event Access add-on (select houses from around 17:00) has run in the $20–$30 range on top of any event admission, with limited availability.",
+      "Universal Express and Universal Express Unlimited are priced by date and are the difference between four houses and eight on an October weekend; premium all-in products have started from the $220s. The R.I.P. Tour sits above those.",
+      "Multi-night passes — Frequent Fear (up to 35 select nights) and Ultimate Fear (every event night) — have cost less than the equivalent single nights for anyone attending three or more times.",
       "There is no hotel here that includes Express Pass the way three of the Orlando hotels do, so the Express decision is a straight cash decision.",
-      "Annual and Season Pass holders have had discounted dates and earlier purchase windows in past seasons, and those have not extended to the peak October weekends."
+      "Annual and Season Pass members get discounted dates and earlier purchase windows (non-Platinum pricing has run about $10 under the standard online price), and Platinum Annual Pass members get one complimentary General Admission ticket on select event nights with an advance online reservation."
     ]
   },
   "whatYouGet": [
-    "Around eight walk-through mazes, spread across the Upper Lot, the Lower Lot, and the backlot, built and staffed to the same standard as the Orlando event on a smaller footprint.",
-    "The Terror Tram, which runs the Studio Tour route on foot rather than by tram for part of its length and puts you out on the working backlot in the dark. Nothing at any other park does this, and it is the single reason to pick Hollywood over Orlando.",
-    "Outdoor scare zones on the walkways and in the plazas between mazes, which you pass through whether or not you queue for anything.",
-    "A short list of the park's regular rides operating during event hours, weighted toward the coasters and the big simulators.",
-    "Event-only bars and food stands, and a seasonal retail build-out on the Upper Lot.",
-    "A way to stay inside the park through the changeover if you also hold a daytime ticket, rather than leaving and rejoining the event queue outside."
+    "Eight haunted houses in 2026 — Stranger Things 5, Sinners, Hellraiser, Ozzy Osbourne: Prince of Darkness, Evil Dead Burn, Killer Klowns from Outer Space, Killceañera: Music by Slash, and Dead, Deader, Deadest — split across the Upper Lot, the Lower Lot, and built to the same standard as the Orlando event on a smaller footprint.",
+    "The Terror Tram starring Art the Clown, which runs the Studio Tour route after dark and puts you out on the working backlot. Nothing at any other park does this, and it is the single reason to pick Hollywood over Orlando.",
+    "Four named outdoor scare zones — Fortnitemares, El Circo De La Muerte, Hackerz, and Blood Bog — plus roaming street experiences (Art the Clown, Shriek of the Banshee, Murder of Crowz, Nikki from Obsession, the Death Eaters by the Three Broomsticks) and a Hami-Kuma meet-and-greet, so you pass through scares whether or not you queue for anything.",
+    "The Purge: Dangerous Waters, a live stunt show in the WaterWorld theater that replaces the daytime show on event nights.",
+    "A short list of the park's regular rides operating during event hours — The Simpsons Ride, Revenge of the Mummy, Harry Potter and the Forbidden Journey (to 23:15), Flight of the Hippogriff, Mario Kart: Bowser's Challenge (to 22:00), and Transformers: The Ride-3D — with SUPER NINTENDO WORLD open to all event guests from 19:00 to 22:00.",
+    "Event-only bars and food stands with themed menus, and a seasonal retail build-out on the Upper Lot that sells during the day and the night — with whatever survives the season discounted heavily in November."
   ],
   "whatYouDont": [
-    "A family event. Universal's guidance is that this is not recommended for anyone under thirteen. There is no age limit at the gate and no ID check, so the call belongs to the adult buying the ticket, and the content does not soften for a younger guest.",
-    "A costume night. Costumes, masks, and face paint are not permitted for guests. Several hundred of the people around you are performers, and the event depends on that being unambiguous.",
+    "A family event. Universal's guidance is that this is recommended for mature audiences and not for anyone under thirteen. There is no age limit at the gate and no ID check, so the call belongs to the adult buying the ticket, and the content does not soften for a younger guest.",
+    "A no-costume rule. Universal's 2026 costume policy permits costumes on event dates with real limits: no costume masks or anything that obscures the face, face paint on no more than half the face, nothing that reads as a weapon or as Universal or emergency staff, nothing over 25 inches wide by 80 inches high, and everything subject to the metal detectors and secondary x-ray. Costumed guests can also be barred from individual rides.",
     "Short queues on a weekend. Los Angeles alone fills this park on an October Friday, and the marquee mazes and the Terror Tram have all run past an hour on those dates.",
-    "An easy walk. The park is built on a hillside and the mazes are split across both levels, so a night here means several trips on the Starway escalators between them. That is a real cost in time and in legs, and it is the thing visitors from Orlando are least prepared for.",
-    "The full park. Most of the gentler attractions are closed during event hours, and the operating list is published close to the date.",
-    "A refund or a rain check. The event runs in rain; the indoor mazes hold up and the outdoor scare zones and the Terror Tram are what get thin.",
-    "The maze lineup at the point of sale. Universal announces mazes in stages through the summer, so an early ticket is bought on the event's record rather than on its content."
+    "An easy walk. The park is built on a hillside and the houses are split across both levels, so a night here means several trips on the Starway escalators between them. That is a real cost in time and in legs, and it is the thing visitors from Orlando are least prepared for.",
+    "The full park. Most of the gentler attractions are closed during event hours, Forbidden Journey closes at 23:15 and Mario Kart when SUPER NINTENDO WORLD closes at 22:00, and the operating list is published close to the date.",
+    "Fast & Furious: Hollywood Drift. It is excluded from General Admission, every Express product, and the multi-night passes during the event; the R.I.P. Tour is the way onto it at night, and guests who bought certain early ticket types that included it are still being honored — check your confirmation email.",
+    "A refund or a rain check. The event runs in rain; the indoor mazes hold up and the outdoor scare zones and the Terror Tram are what get thin."
   ],
   "verdict": {
     "short": "Go for the Terror Tram, go on an early-run weeknight, and buy Express Pass if the only date you can get is in October. It is a real horror event and it is not for children.",
@@ -76,16 +78,37 @@
       "Anyone in your group is pregnant, has a heart condition, or reacts badly to strobe lighting. Mazes run sustained strobes, heavy fog, and loud sudden noise, and there is no toned-down route through them.",
       "Stairs and long escalator rides are a problem for anyone with you. The split between the Upper and Lower Lots is unavoidable at this event, and the crowd on the Starway at ten in the evening is dense.",
       "You want ride count. The operating list during event hours is short and the queues are long, and a regular day ticket delivers several times more riding for less money.",
-      "Your only date is an October Saturday and Express Pass is out of budget. That combination reliably produces an expensive night with four mazes in it."
+      "Your only date is an October Saturday and Express Pass is out of budget. That combination reliably produces an expensive night with four houses in it."
     ]
   },
   "strategy": [
     {
+      "heading": "The 2026 lineup, and where it sits",
+      "body": [
+        "The Lower Lot carries three houses plus two of the bigger rides: Stranger Things 5 sits left of Transformers, Killer Klowns right of it, and Dead, Deader, Deadest down by Jurassic World — with Ozzy Osbourne: Prince of Darkness over by the Raptor Encounter. That concentration is why the Lower Lot is worth clearing as a block rather than piecemeal.",
+        "The Upper Lot carries the rest: Sinners between the Starbucks and Secret Life of Pets, Hellraiser and Evil Dead Burn both near the Hippogriff exit, Killceañera between Palace Deli and Mel's, and the Terror Tram boarding at the Studio Tour entrance — where the Blood Bog scare zone waits at the queue's mouth.",
+        "The scare zones are all Upper Lot in 2026: Fortnitemares by the Power-Up Cafe, El Circo De La Muerte on French Street, and Hackerz by the Starbucks. If you are route-planning, that means the walkways around Springfield and the Wizarding World are where the street scares concentrate, and the roaming acts — Art the Clown, Shriek of the Banshee by the DreamWorks churro stand, Murder of Crowz by the Universal Studio Store, the Death Eaters outside the Three Broomsticks — move through them.",
+        "The Purge: Dangerous Waters plays in the WaterWorld theater and replaces the daytime show. It is the one sit-down of the night and the one thing with fixed show times, so check the app for times when you arrive and plan one viewing around your Terror Tram slot rather than walking to the theater twice.",
+        "The house names are the announcement names; queue entrances can shift by a few metres year to year, and the event map in Universal's app is the authority on the night."
+      ]
+    },
+    {
+      "heading": "The ticket ladder, and what each rung buys",
+      "body": [
+        "General Admission gets you the event and nothing else: no early access, no Express, and no Fast & Furious: Hollywood Drift. It is the right buy on an early-run weeknight and the wrong economy on an October Saturday.",
+        "The After 2 P.M. Day/Night ticket is the best structural value for a first visit: daytime admission from 14:00, the event that night, and early access to select houses from around 17:00 included. The Early Event Access add-on exists for event-only tickets and buys the same 17:00 window for roughly $20–$30 more, subject to availability.",
+        "Universal Express (one express entry per house and ride) and Express Unlimited are the October-weekend answers, priced by date. A General Admission ticket can be upgraded to either on the day at the ticket booths or the in-park Box Office, subject to availability — worth knowing when a forecast turns a weeknight into a mob.",
+        "The multi-night passes decide themselves: Frequent Fear covers up to 35 select nights and Ultimate Fear every event night, and anyone attending three or more nights comes out ahead of single tickets. Both are event-only — no daytime admission, no early access.",
+        "The R.I.P. Tour is the guided premium product — houses with a guide, a gourmet dinner, and, notably, the only standard night ticket that includes Fast & Furious: Hollywood Drift, entered by showing your R.I.P. credential at the ride. A private R.I.P. version is bookable by phone.",
+        "Pass members should check the pass-member purchase page before buying anything: non-Platinum discounts have run about $10 under the online price on GA, Express, and Day/Night tickets, and Platinum members get one comped GA ticket on select nights with an advance reservation."
+      ]
+    },
+    {
       "heading": "The Lower Lot first, then everything else",
       "body": [
-        "Go down the Starway in the first twenty minutes and clear the Lower Lot mazes before the escalator queue builds. The crowd entering the event starts on the Upper Lot because that is where the gates put it, and the descent is the one bottleneck that gets worse rather than better as the night goes on.",
-        "Coming back up is slower than going down, so treat the Lower Lot as one trip rather than two. Do every maze down there, ride anything you want on that level while you are there, and then commit to the top of the park for the rest of the night.",
-        "The last hour reverses this. The Lower Lot empties earliest because people drift up toward the exit, so if there is one maze down there you missed, that is when to go back for it rather than at nine in the evening.",
+        "Go down the Starway in the first twenty minutes and clear the Lower Lot houses before the escalator queue builds. The crowd entering the event starts on the Upper Lot because that is where the gates put it, and the descent is the one bottleneck that gets worse rather than better as the night goes on.",
+        "Coming back up is slower than going down, so treat the Lower Lot as one trip rather than two. Do every house down there, ride anything you want on that level while you are there, and then commit to the top of the park for the rest of the night.",
+        "The last hour reverses this. The Lower Lot empties earliest because people drift up toward the exit, so if there is one house down there you missed, that is when to go back for it rather than at nine in the evening.",
         "Budget several minutes each way for the Starway itself. On an event night it is not a shortcut and it is not scenic, and people who plan a night here as though the park were flat lose about an hour to it."
       ]
     },
@@ -95,7 +118,7 @@
         "Do the Terror Tram early or do it last, and do not do it at nine in the evening. It boards from the Upper Lot and its queue behaves like an attraction rather than like a maze, which means it builds steadily through the middle of the night and drains sharply at both ends.",
         "It is the longest single item at the event by some distance once you count the tram ride out and the walk back. Plan it as roughly a third of your evening rather than as one more maze.",
         "It is also the item most affected by weather. The walking section is outdoors on the backlot, and heavy rain thins what is out there rather than closing the event.",
-        "If you only get one thing done on a busy Saturday, make it this rather than a maze. The mazes have Orlando equivalents and better versions of themselves elsewhere in the season; the backlot after dark does not exist anywhere else."
+        "If you only get one thing done on a busy Saturday, make it this rather than a maze. The houses have Orlando equivalents and better versions of themselves elsewhere in the season; the backlot after dark does not exist anywhere else."
       ]
     },
     {
@@ -104,39 +127,71 @@
         "Take the earliest weeknight you can get. The park is small, the local population is enormous, and the difference between an early-run Wednesday and an October Saturday is the difference between doing the whole event and doing half of it.",
         "October Fridays and Saturdays are the peak in both directions: the top of the price band and the longest queues of the season. If those are your only dates, buy Express Pass in the same transaction rather than deciding later.",
         "Halloween night prices at the ceiling and contains nothing that a September Wednesday does not. It is the worst-value date on the calendar here for the same reason it is in Orlando.",
-        "The calendar starts thin. Early-run dates are the scarcest thing about this event, not the most expensive, so they need booking earlier than the peak dates people worry about."
+        "The 2026 pattern runs Thursday–Sundays in September, adds Wednesdays from late September, and goes near-nightly through the last week of October — so the cheap, quiet dates are concentrated in the first fortnight and need booking earlier than the peak dates people worry about."
       ]
     },
     {
       "heading": "Who should not be there, and why we say it plainly",
       "body": [
-        "Universal advises against attendance for children under thirteen and does not enforce an age limit. Both parts of that are true at once: the advice is meant seriously, and nothing at the turnstile acts on it.",
-        "The content is continuous rather than occasional. Each maze is several minutes of low light, dense fog, sustained strobe lighting, loud sudden noise, and performers who move toward you and follow you out, and the scare zones do the same thing outdoors where there is no queue to leave.",
-        "There is no gentle version of a maze, no marked quiet path, and no way to cross the park at this event without passing through a scare zone. The only accommodation is not attending.",
+        "Universal advises the event is for mature audiences and against attendance for children under thirteen, and does not enforce an age limit. Both parts of that are true at once: the advice is meant seriously, and nothing at the turnstile acts on it.",
+        "The content is continuous rather than occasional. Each house is several minutes of low light, dense fog, sustained strobe lighting, loud sudden noise, and performers who move toward you and follow you out, and the scare zones do the same thing outdoors where there is no queue to leave.",
+        "There is no gentle version of a house, no marked quiet path, and no way to cross the park at this event without passing through a scare zone. The only accommodation is not attending.",
         "If you are in Los Angeles with young children and want a Halloween day at this park, plan it around the regular season instead. This event replaces the park rather than adding to it, and it does not soften in its first hour."
       ]
     }
   ],
   "faqs": [
     {
+      "q": "What are the 2026 dates and hours?",
+      "a": "Select nights from September 3 through November 1, 2026 — Thursday through Sunday in September, adding Wednesdays from late September and running near-nightly through the last week of October, 42 event nights in total. Event admission starts at 19:00 and closing times vary by night but do not run past 02:00. Early-access ticket holders get select houses from around 17:00 (Universal's pages say 17:00 subject to change; recent nights have started letting the window build toward 17:30), so treat 17:00–17:30 as the range and check the app on the day."
+    },
+    {
       "q": "Is Halloween Horror Nights Hollywood suitable for children?",
-      "a": "No. Universal's published guidance is that the event is not recommended for anyone under thirteen, and it does not enforce an age limit, so the decision rests with the adult buying the ticket. The mazes run sustained strobes, heavy fog, gore, and performers who follow guests, and the outdoor scare zones mean there is no route across the park that avoids the content."
+      "a": "No. Universal's published guidance is that the event is recommended for mature audiences and not for anyone under thirteen, and it does not enforce an age limit, so the decision rests with the adult buying the ticket. The houses run sustained strobes, heavy fog, gore, and performers who follow guests, and the outdoor scare zones mean there is no route across the park that avoids the content."
     },
     {
       "q": "What is the Terror Tram, and is it worth it?",
-      "a": "It is the Studio Tour route after dark, part ridden and part walked, with the backlot dressed and staffed for the event. It is the one thing at this event with no equivalent at any other theme park, including the Orlando version, and it is the strongest argument for picking Hollywood. Allow roughly a third of your evening for it once you count the queue, the ride out, and the walk."
+      "a": "It is the Studio Tour route after dark — in 2026 themed to Art the Clown doing a bloody Christmas — part ridden and part walked, with the backlot dressed and staffed for the event. It is the one thing at this event with no equivalent at any other theme park, including the Orlando version, and it is the strongest argument for picking Hollywood. Allow roughly a third of your evening for it once you count the queue, the ride out, and the walk."
     },
     {
       "q": "Do I need a separate ticket?",
-      "a": "Yes, in both directions. The park closes to daytime guests in the early evening and reopens as a ticketed event, so a day ticket does not admit you to the event and an event ticket does not admit you during the day. If you want both you are buying both, which makes for a long day on a hillside park that ends after midnight."
+      "a": "Yes, in both directions. The park closes to daytime guests in the early evening and reopens as a ticketed event, so a day ticket does not admit you to the event and an event ticket does not admit you during the day. Day/Night tickets cover both on one date; otherwise you are buying both, which makes for a long day on a hillside park that ends after midnight."
     },
     {
-      "q": "How many mazes can I do in one night?",
-      "a": "All of them plus the Terror Tram on a quiet early-run weeknight if you start on the Lower Lot. Four or five on an October Saturday without Express Pass. That gap is the whole case for choosing your date carefully, and it is wider here than in Orlando because the park is smaller and the local crowd is larger."
+      "q": "I have daytime admission and an event ticket. Where do I convert?",
+      "a": "Stay in the park through the changeover rather than exiting and rejoining the event queue outside. HHN wristbands are picked up in the Upper Lot either at the mobile podiums near the box office across from Starbucks or at the podiums by the fountain next to guest services, which have been opening around 15:00 on event days. You may be asked for photo ID with the wristband."
+    },
+    {
+      "q": "Can I leave and come back during the event?",
+      "a": "Yes — get a hand stamp on the way out the exit gate for same-night reentry. That is the mechanism, so do not lose the stamp."
+    },
+    {
+      "q": "How many houses can I do in one night?",
+      "a": "All eight plus the Terror Tram on a quiet early-run weeknight if you start on the Lower Lot. Four or five on an October Saturday without Express Pass. That gap is the whole case for choosing your date carefully, and it is wider here than in Orlando because the park is smaller and the local crowd is larger."
+    },
+    {
+      "q": "Which rides are open during the event, and when do they close?",
+      "a": "The 2026 operating list: The Simpsons Ride, Revenge of the Mummy, Transformers: The Ride-3D, Flight of the Hippogriff, Harry Potter and the Forbidden Journey (closes 23:15), and Mario Kart: Bowser's Challenge (closes 22:00). SUPER NINTENDO WORLD is open to every event guest from 19:00 to 22:00 regardless of ticket type. The list moves with park operations, so treat the app as the authority on the night."
+    },
+    {
+      "q": "Which tickets include Express access?",
+      "a": "Universal Express and Express Unlimited cover every haunted house and participating attraction — in 2026 that is all eight houses, the Terror Tram, The Purge: Dangerous Waters, and the open rides. Express is one express entry per house per night; Unlimited is what it says. Day-of upgrades from General Admission are possible at the ticket booths or the in-park Box Office, subject to availability."
+    },
+    {
+      "q": "Can I ride Fast & Furious: Hollywood Drift at HHN?",
+      "a": "Only with an R.I.P. Tour credential, shown to the team member at the ride entrance — it is excluded from General Admission, every Express product, and the multi-night passes during the event. Guests who bought certain early ticket types that included Drift access are still being honored; check your confirmation email before assuming either way."
     },
     {
       "q": "Can I wear a costume?",
-      "a": "No. Costumes, masks, and face paint are not permitted for guests at this event. The reason is operational rather than decorative: a large share of the people moving around you are performers, and the event only works if guests can identify them without hesitating."
+      "a": "Yes, within Universal's published 2026 costume guidelines — this is a real change from the old blanket ban. The limits that matter: no costume masks or anything that obscures your face, face paint on no more than half the face, nothing that resembles a weapon or reads as Universal or emergency personnel, no veils, trains, or stilts, costumes no larger than 25 inches wide by 80 inches high, everything subject to metal detection and secondary x-ray, and costumed guests can be refused on individual rides. Universal can ask you to modify or remove anything at the gate."
+    },
+    {
+      "q": "Can I bring food or drinks in?",
+      "a": "No outside food, beverages, or alcohol once the event is running, and nothing to eat or drink inside the houses. If you are coming from a daytime visit, bring anything you want to consume into the park before 17:00 to be safe. Event food runs at many of the restaurants and stands with themed menus, and a Dining Pass add-on (two entrées and four sides, snacks, desserts, or drinks) exists if you want the arithmetic decided in advance."
+    },
+    {
+      "q": "Do pass members get anything?",
+      "a": "Yes. Non-Platinum pass members get discounted advance pricing on General Admission, Express, and Day/Night tickets — about $10 under the standard online price this season — through the pass member purchase page. Platinum Annual Pass members get one complimentary General Admission ticket on select event nights, redeemable with an advance online reservation."
     },
     {
       "q": "Is Express Pass worth buying here?",
@@ -147,8 +202,8 @@
       "a": "Orlando has more houses, a longer run, and more room to absorb a crowd. Hollywood has the Terror Tram and a park you can cross in ten minutes, and it is the easier of the two to fit into a trip that is not about theme parks. If you want the maximum number of houses, go to Orlando. If you want the backlot at night, only one of them has it."
     },
     {
-      "q": "Are this season's dates confirmed?",
-      "a": "No. As of July 2026 we have not verified an announcement of this cycle's dates, nightly prices, maze lineup, or on-sale timing, so none are stated here. The stable shape is select nights at Universal Studios Hollywood from early September to the first weekend of November, on a run in the high twenties to mid thirties of nights, with around eight mazes plus the Terror Tram."
+      "q": "What about event merchandise?",
+      "a": "Sold during the day and during the event, with some of the 2026 line already on sale before the season — Universal's event store is the source. Nobody commits to how long any item lasts, and the reliable pattern is that whatever is left after November 1 gets discounted hard within weeks, so buy what you actually want during your night rather than betting on the clearance rack."
     }
   ],
   "crossLinks": [
@@ -194,13 +249,18 @@
       "dates": "September 3 – November 1, 2026 (select nights)",
       "startDate": "2026-09-03",
       "endDate": "2026-11-01",
+      "nights": 42,
       "changes": [
-        "HHN 2026 Hollywood: 8 haunted houses, 7 scare zones, Terror Tram. Confirmed houses include Sinners (different from Orlando's version), plus IP houses. Select nights September 3 through November 1."
+        "Eight haunted houses plus the Terror Tram: Stranger Things 5, Sinners, Hellraiser, Ozzy Osbourne: Prince of Darkness, Evil Dead Burn, Killer Klowns from Outer Space, Killceañera: Music by Slash, and Dead, Deader, Deadest, with the Terror Tram starring Art the Clown",
+        "Four named scare zones — Fortnitemares, El Circo De La Muerte, Hackerz, Blood Bog — plus roaming street experiences and The Purge: Dangerous Waters stunt show in the WaterWorld theater",
+        "42 event nights: Thursday–Sundays in September, adding Wednesdays from late September and running near-nightly through the last week of October",
+        "Costumes are permitted for the first time in years, under published size, mask, and face-paint limits",
+        "Fast & Furious: Hollywood Drift is excluded from every standard event ticket except the R.I.P. Tour"
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from Universal's official HHN site and the NBCUniversal complete guide, viewed September 2026. Cross-checked against Orlando Informer, TouringPlans, Undercover Tourist, and Haunted Attraction Network.",
+        "sourceNote": "Dates, hours, age guidance, ticket ladder, house lineup, and the Hollywood Drift and SUPER NINTENDO WORLD rules from Universal's own HHN pages — event home, haunted houses, tickets, and the Know Before You Go FAQ — plus the published costume policy, all viewed September 2026. Operational details still settling (early-access ride list, wristband podium times, per-night closing hours) are stated as the current pattern rather than as promises.",
         "reviewBy": "2026-11",
         "cycle": "annual"
       }
@@ -229,7 +289,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates officially announced. See the 2026 edition below.",
+    "sourceNote": "2026 dates, lineup, hours, ticket ladder, and costume rules verified against Universal's own HHN pages (event home, haunted houses, tickets, Know Before You Go, costume policy), viewed September 2026 during the event's run. See the 2026 edition for the night-by-night pattern and the source detail.",
     "reviewBy": "2026-12",
     "cycle": "annual"
   }
