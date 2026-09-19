@@ -57,6 +57,7 @@
   },
   "meta": {
     "defaultTitleSuffix": "CoasterReady",
+    "homeTitle": "Honest guides to ten American coaster parks",
     "defaultDescription": "Height requirements, coaster-by-coaster honesty, line-skip pass maths, and haunt-season timing for ten American coaster parks. Independent and unofficial.",
     "twitterSite": "",
     "publisherName": "CoasterReady"
@@ -102,7 +103,19 @@
       "body": "This site covers four different park companies, and each runs its own ride-access or attraction-assistance programme with its own registration process, eligibility rules and names for the thing. Six Flags, Cedar Fair (Knott's), Merlin (Legoland) and United Parks & Resorts (SeaWorld) have all changed their programmes more than once in recent years. Treat anything you read about access — here or anywhere else — as a starting point and confirm the current process on the specific park's own accessibility page before your trip."
     }
   },
-  "photos": {},
+  "photos": {
+    "social": {
+      "file": "social-card-coasterready",
+      "alt": "",
+      "width": 1280,
+      "height": 672,
+      "widths": [
+        1280
+      ],
+      "ext": "png",
+      "note": "Open Graph / Twitter card, 1.91:1. Steel-and-signal brand card — without this entry the whole operator shipped with no og:image and text-only link previews."
+    }
+  },
   "author": {
     "name": "The CoasterReady editorial team",
     "shortBio": "Independent writers who count inversions, measure height sticks and price funnel cake their way through America's coaster parks so you do not have to guess.",
