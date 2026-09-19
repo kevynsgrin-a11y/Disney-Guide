@@ -388,7 +388,7 @@ export function homePage (data, seasonal) {
       site,
       page: {
         url: '/',
-        title: `Honest guides to the ${site.brand.shortName} parks`,
+        title: site.meta.homeTitle || `Honest guides to the ${site.brand.shortName} parks`,
         titleTail: '',
         description: site.meta.defaultDescription,
         modified: '2026-07-01',

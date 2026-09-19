@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: 'Archivo Black'; src: url('../../assets/fonts/archivo-black.ttf') format('truetype'); }
+* { margin: 0; box-sizing: border-box; }
+body { width: 1280px; height: 672px; overflow: hidden; }
+.card { position: relative; width: 1280px; height: 672px; padding: 84px 88px 64px 100px;
+  background: linear-gradient(126deg, #0C0F16 0%, #131826 52%, #1A2234 100%);
+  display: flex; flex-direction: column; color: #FBFCFF; font-family: ui-sans-serif, system-ui, 'Segoe UI', Arial, sans-serif; }
+.card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 14px; background: #DE4F44; }
+.card::after { content: ''; position: absolute; left: 14px; top: 0; bottom: 0; width: 3px; background: #F7BC2F; }
+.plate { position: absolute; inset: 0; opacity: .5; pointer-events: none;
+  background: repeating-linear-gradient(90deg, transparent 0 159px, rgba(68,84,126,.35) 159px 160px); }
+.name { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif; font-size: 108px; letter-spacing: -.01em; line-height: .98; margin-top: 64px; }
+.name em { font-style: normal; color: #DE4F44; }
+.tagline { margin-top: 30px; font-size: 31px; line-height: 1.45; color: #D9DFEE; max-width: 21ch; font-weight: 600; }
+.foot { margin-top: auto; display: flex; align-items: center; gap: 16px; }
+.foot .rule { flex: none; width: 54px; height: 4px; background: #DE4F44; }
+.foot .domain { font-size: 24px; letter-spacing: .22em; color: #FFD970; text-transform: uppercase; font-weight: 700; }
+.foot .indep { font-size: 20px; letter-spacing: .14em; color: #9AA5BE; text-transform: uppercase; }
+</style></head><body>
+<div class="card">
+  <div class="plate"></div>
+  <div class="name">Coaster<em>Ready</em></div>
+  <div class="tagline">Independent, unofficial planning for ten American coaster parks across four park companies.</div>
+  <div class="foot"><span class="rule"></span><span class="domain">coasterready.com</span><span class="indep">independent &amp; unofficial</span></div>
+</div>
+</body></html>

@@ -48,6 +48,7 @@
   },
   "meta": {
     "defaultTitleSuffix": "Hollywood Ride Guide",
+    "homeTitle": "Honest guides to the Universal parks",
     "defaultDescription": "Height requirements, ride-by-ride honesty, Express Pass maths, and month-by-month timing for the four US Universal parks. Independent and unofficial.",
     "twitterSite": "",
     "publisherName": "Hollywood Ride Guide"
@@ -108,15 +109,15 @@
       "note": "Decorative: alt is empty on purpose. Atmospheric night coaster silhouette — no licensed property, no characters, no identifiable faces."
     },
     "social": {
-      "file": "social-card",
+      "file": "social-card-hollywood",
       "alt": "",
       "width": 1280,
       "height": 672,
       "widths": [
-        640,
         1280
       ],
-      "note": "Open Graph / Twitter card, 1.91:1."
+      "ext": "png",
+      "note": "Open Graph / Twitter card, 1.91:1. Brand card in the house navy/gold — the shared social-card.jpg says Ride Ready Guide and must not ship on this domain."
     },
     "universal-studio-backlot": {
       "file": "universal-studio-backlot",

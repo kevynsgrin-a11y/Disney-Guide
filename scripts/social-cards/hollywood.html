@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: 'Fraunces'; src: url('../../assets/fonts/fraunces-variable.woff2') format('woff2'); font-weight: 300 900; }
+* { margin: 0; box-sizing: border-box; }
+body { width: 1280px; height: 672px; overflow: hidden; font-family: 'Fraunces', Georgia, serif; }
+.card { position: relative; width: 1280px; height: 672px; padding: 84px 88px 64px;
+  background: linear-gradient(128deg, #07111D 0%, #0C1A2A 46%, #10243A 100%);
+  display: flex; flex-direction: column; color: #F4F7FB; }
+.beam { position: absolute; bottom: -200px; width: 420px; height: 1100px;
+  background: linear-gradient(to top, rgba(74,144,204,.16), rgba(74,144,204,0) 72%);
+  transform-origin: bottom center; pointer-events: none; }
+.beam--l { left: 40px; transform: rotate(24deg); }
+.beam--r { right: 60px; transform: rotate(-20deg); }
+.stars i { position: absolute; border-radius: 50%; background: #CCD8E6; }
+.brandrow { display: flex; align-items: center; gap: 22px; margin-top: 6px; }
+.badge { width: 64px; height: 64px; border: 3px solid #E0B86F; border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 30px; letter-spacing: .04em; color: #E0B86F; }
+.name { font-size: 96px; font-weight: 640; letter-spacing: -.015em; line-height: 1.02; }
+.tagline { margin-top: 26px; font-size: 31px; line-height: 1.45; color: #CCD8E6; max-width: 20.5ch; font-weight: 400; }
+.foot { margin-top: auto; display: flex; align-items: center; gap: 16px;
+  font-family: ui-sans-serif, system-ui, 'Segoe UI', Arial, sans-serif; }
+.foot .rule { flex: none; width: 54px; height: 2px; background: #C69A50; }
+.foot .domain { font-size: 24px; letter-spacing: .22em; color: #E0B86F; text-transform: uppercase; font-weight: 600; }
+.foot .indep { font-size: 20px; letter-spacing: .14em; color: #A8B7C9; text-transform: uppercase; }
+</style></head><body>
+<div class="card">
+  <div class="beam beam--l"></div><div class="beam beam--r"></div>
+  <div class="stars">
+    <i style="left:920px;top:96px;width:3px;height:3px;opacity:.7"></i><i style="left:1120px;top:180px;width:2px;height:2px;opacity:.5"></i>
+    <i style="left:1010px;top:300px;width:2px;height:2px;opacity:.6"></i><i style="left:1190px;top:420px;width:3px;height:3px;opacity:.4"></i>
+    <i style="left:870px;top:420px;width:2px;height:2px;opacity:.5"></i><i style="left:960px;top:560px;width:2px;height:2px;opacity:.45"></i>
+    <i style="left:1180px;top:70px;width:2px;height:2px;opacity:.55"></i><i style="left:780px;top:150px;width:2px;height:2px;opacity:.4"></i>
+  </div>
+  <div class="brandrow"><div class="badge">HR</div></div>
+  <div class="name" style="margin-top:34px">Hollywood<br>Ride Guide</div>
+  <div class="tagline">Independent, unofficial planning for the four US Universal theme parks.</div>
+  <div class="foot"><span class="rule"></span><span class="domain">hollywoodrideguide.com</span><span class="indep">independent &amp; unofficial</span></div>
+</div>
+</body></html>

@@ -402,9 +402,8 @@ function index (data) {
     Object.entries((site.photos || {})).map(([key, meta]) => {
       if (!meta || !meta.file) return [key, null]
       const widest = Math.max(...(meta.widths || [1920]))
-      const exists = existsSync(join(photoDir, `${meta.file}-${widest}.avif`)) ||
-        existsSync(join(photoDir, `${meta.file}-${widest}.webp`)) ||
-        existsSync(join(photoDir, `${meta.file}-${widest}.jpg`))
+      const exists = ['avif', 'webp', 'jpg', 'png']
+        .some((ext) => existsSync(join(photoDir, `${meta.file}-${widest}.${ext}`)))
       return [key, exists ? { ...meta, widths: meta.widths || [640, 1280, 1920] } : null]
     })
   )
@@ -416,7 +415,9 @@ function index (data) {
    * rather than threaded through every page module.
    */
   const social = data.photo.social
-  site.socialImage = social ? `${site.brand.origin}/assets/img/photos/${social.file}-1280.jpg` : null
+  site.socialImage = social
+    ? `${site.brand.origin}/assets/img/photos/${social.file}-1280.${social.ext || 'jpg'}`
+    : null
 
   return data
 }
