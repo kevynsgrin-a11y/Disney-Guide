@@ -246,7 +246,14 @@ function priorityFor (url, staleUrls, resortSlugs) {
 
 const NOINDEX = /<meta\s+name="robots"\s+content="[^"]*noindex/i
 
-function buildSitemap (site, pages, staleUrls) {
+// lastmod is only emitted where the data model actually knows a verification
+// month (seasonal entities' freshness.verified). A constant invented date on
+// every URL — the old `2026-07-01` stamp — teaches crawlers the field is noise,
+// which is exactly the signal a freshness-recovery site cannot afford to burn.
+// Absent lastmod is honest; Google falls back to its own crawl history.
+const MONTH_RE = /^\d{4}-(0[1-9]|1[0-2])$/
+
+export function buildSitemap (site, pages, staleUrls, lastmodByUrl = new Map()) {
   const resortSlugs = (site.resorts || []).map((r) => r.slug)
   const entries = pages
     // A noindex page in the sitemap is the site contradicting itself: the file asks a crawler to
@@ -258,12 +265,14 @@ function buildSitemap (site, pages, staleUrls) {
     // which is how these thirteen got listed in the first place. The markup cannot drift from
     // itself.
     .filter((p) => !p.url.endsWith('.html') && p.url !== '/offline/' && !NOINDEX.test(p.html))
-    .map((p) => `  <url>
-    <loc>${site.brand.origin}${p.url}</loc>
-    <lastmod>2026-07-01</lastmod>
+    .map((p) => {
+      const lastmod = lastmodByUrl.get(p.url)
+      return `  <url>
+    <loc>${site.brand.origin}${p.url}</loc>${lastmod && MONTH_RE.test(lastmod) ? `\n    <lastmod>${lastmod}</lastmod>` : ''}
     <changefreq>${p.url === '/' ? 'weekly' : 'monthly'}</changefreq>
     <priority>${priorityFor(p.url, staleUrls, resortSlugs)}</priority>
-  </url>`)
+  </url>`
+    })
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${entries.join('\n')}
@@ -675,8 +684,11 @@ async function buildOperator (operator) {
   const pages = buildPages(data, seasonal)
 
   const staleUrls = new Set()
+  const lastmodByUrl = new Map()
   for (const entity of [...seasonal.events, ...seasonal.months, ...seasonal.holidays, ...seasonal.prices, ...seasonal.closures]) {
     if (entity.staleness.state === 'stale') staleUrls.add(entity.url)
+    const verified = entity.freshness && entity.freshness.verified
+    if (verified && MONTH_RE.test(verified)) lastmodByUrl.set(entity.url, verified)
   }
 
   const seen = new Set()
@@ -697,7 +709,7 @@ async function buildOperator (operator) {
   await mkdir(join(dist, 'data'), { recursive: true })
   await writeFile(join(dist, 'data', 'status-manifest.json'), JSON.stringify(statusManifest), 'utf8')
 
-  await writeFile(join(dist, 'sitemap.xml'), buildSitemap(data.site, pages, staleUrls), 'utf8')
+  await writeFile(join(dist, 'sitemap.xml'), buildSitemap(data.site, pages, staleUrls, lastmodByUrl), 'utf8')
   await writeFile(join(dist, 'robots.txt'), buildRobots(data.site), 'utf8')
   await writeFile(join(dist, 'llms.txt'), buildLlmsTxt(data.site, data, seasonal), 'utf8')
 
