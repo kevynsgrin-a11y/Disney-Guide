@@ -1,0 +1,127 @@
+{
+  "slug": "park-tickets",
+  "title": "Ticket Prices",
+  "titleTail": ": All Ten Parks, September 2026",
+  "h1": "What a one-day ticket costs at every park on this site",
+  "description": "One-day admission bands for all ten parks across four companies, online versus the gate, as of September 2026 — and why the online price moves by date almost everywhere.",
+  "summary": "Every company here sells one-day admission cheaper online than at the gate, and most price by date on top of that. These are the online-to-gate bands for all ten parks as of September 2026, with the company-by-company patterns that decide which parks to bundle into one trip.",
+  "ownership": "This page is the price list. What is in each park, how many days it deserves, and when to go are owned by the park guides and the when-to-go pages on the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Six Flags Magic Mountain, one day, online by date (gate around $110)",
+      "resort": "southern-california",
+      "rangeUsd": [35, 110],
+      "asOf": "September 2026",
+      "note": "The widest spread on this site: promotional any-day online pricing ran as low as the mid-$30s in September 2026 against a $110 gate figure, with regular dated online pricing between. The floor is real but it is a sale price, not a list price."
+    },
+    {
+      "label": "Knott's Berry Farm, one day, online by date (gate $110)",
+      "resort": "southern-california",
+      "rangeUsd": [65, 110],
+      "asOf": "September 2026",
+      "note": "Knott's own daily-tickets page carried from $65 online against the $110 gate in September 2026. Weekday dates sit near the floor; Scary Farm evenings are a separate hard ticket priced on the event page, not here."
+    },
+    {
+      "label": "LEGOLAND California, one day, online by date (gate $129–$139)",
+      "resort": "southern-california",
+      "rangeUsd": [69, 139],
+      "asOf": "September 2026",
+      "note": "Online dated tickets from $79 with frequent kids' pricing down to $69 and below on sale, against a $129–$139 gate. Includes same-day SEA LIFE entry — the effective per-attraction price is lower than the sticker suggests."
+    },
+    {
+      "label": "SeaWorld San Diego, one day, online by date (gate near $100)",
+      "resort": "southern-california",
+      "rangeUsd": [54, 100],
+      "asOf": "September 2026",
+      "note": "SeaWorld's own pricing guide opened at $53.99 online against a $102.99 gate for the cheapest dates. Bundles that wrap dining or Quick Queue routinely beat the standalone ticket at the top of the band."
+    },
+    {
+      "label": "LEGOLAND Florida, one day, online by date (gate $139–$154)",
+      "resort": "orlando",
+      "rangeUsd": [69, 154],
+      "asOf": "September 2026",
+      "note": "Online advance from $69 per person against a $139–$154 front-gate figure, with kids' online pricing from around $29–$39 on sale. The gate price here is the highest on this site, which makes the online purchase the single biggest save."
+    },
+    {
+      "label": "SeaWorld Orlando, one day, online by date (gate near $103)",
+      "resort": "orlando",
+      "rangeUsd": [54, 103],
+      "asOf": "September 2026",
+      "note": "Dated online pricing from the mid-$50s against a $102.99 gate. This is the cheapest full-day park in Orlando's tourist corridor and it prices like it — the value play on an Orlando trip that already has the big gates covered."
+    },
+    {
+      "label": "Six Flags Over Texas, one day, online by date",
+      "resort": "texas",
+      "rangeUsd": [35, 100],
+      "asOf": "September 2026",
+      "note": "The same promotional-to-gate structure as the other legacy Six Flags parks: sale any-day pricing near the floor, dated online pricing through the middle, gate near $100."
+    },
+    {
+      "label": "SeaWorld San Antonio, one day, online (gate near $111)",
+      "resort": "texas",
+      "rangeUsd": [70, 111],
+      "asOf": "September 2026",
+      "note": "Online any-day around $71 including tax against a $111.49 gate. The official '$33 per day' promotions are multi-day, multi-park constructions — real, but not a one-day price."
+    },
+    {
+      "label": "Six Flags Great Adventure (NJ), one day, online by date",
+      "resort": "new-jersey",
+      "rangeUsd": [35, 105],
+      "asOf": "September 2026",
+      "note": "Same structure as the other Six Flags parks. Haunt-season Saturdays carry the top of the band; the September-through-October weekend pattern is the pricing reason to move a first visit to a weekday."
+    },
+    {
+      "label": "Six Flags Great America (IL), one day, online by date",
+      "resort": "chicago",
+      "rangeUsd": [35, 100],
+      "asOf": "September 2026",
+      "note": "Same structure again. Great America's Fright Fest is the region's biggest haunt draw and its Saturdays price accordingly — the weekday-vs-weekend spread is the whole story on this row."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Four companies, four pricing habits",
+      "body": [
+        "The Six Flags parks (and Knott's, same company since the merger) run the sharpest online-versus-gate spreads on this site — promotional any-day pricing can land 60% under the gate — but the floor is a moving sale, not a list price. If you see the mid-$30s at a Six Flags gate park, that is a limited window, not the normal state.",
+        "LEGOLAND prices high at the gate and discounts hard online, with kids' pricing doing most of the work: a family of four's effective per-person cost lands well under the adult sticker once the children's sale pricing applies. Both Legolands bundle SEA LIFE entry into the base ticket.",
+        "The SeaWorlds open online pricing lower than anyone ($53.99 floors) and push bundles — dining, Quick Queue, multi-park — as the value path. The single-day ticket is almost never what you should end up buying at full online price without checking the bundle page first."
+      ]
+    },
+    {
+      "heading": "The season-pass arithmetic, briefly",
+      "body": [
+        "At every company on this site, the entry season pass costs between one and two one-day tickets at the online floor. Six Flags passes from roughly $79, Knott's tiers from $115 on sale, SeaWorld's ladder from the $120s — against one-day online prices in the $35–$75 range at the same parks.",
+        "That ratio — pass ≈ 1.5–2 single days — is why our default advice for anyone considering a second visit is to price the pass before the second ticket. The full pass ladders with their perks sit on the annual-passes page; this page owns only the one-day bands."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Buy online, always, at every company here. The gate premium runs $30–$75 per ticket across this site, and no park on it sells online pricing at the window.",
+    "Move one day off the peak. Because four of the five companies price by date, the difference between a Saturday and the Tuesday beside it is often larger than any reseller discount.",
+    "Check the company's own bundle before a reseller. SeaWorld's dining-and-queue bundles and LEGOLAND's second-day-free constructions frequently beat third-party ticket-only pricing.",
+    "If a second visit is plausible at all, price the season pass against two one-day tickets before buying the second ticket — the arithmetic favors the pass at every company on this site.",
+    "Treat deep-sale Six Flags pricing as a window, not a baseline: buy when the sale is live rather than planning around the floor being there later."
+  ],
+  "crossLinks": [
+    { "label": "All ten parks", "href": "/parks/", "site": 1 },
+    { "label": "Annual pass prices at every company", "href": "/guides/first-coaster-trip/", "site": 1 },
+    { "label": "When to go, all twelve months graded", "href": "/guides/height-requirements/", "site": 1 }
+  ],
+  "faqs": [
+    {
+      "q": "Which park on this site is cheapest for a full day?",
+      "a": "On online floor pricing, the SeaWorlds: Orlando and San Diego both open dated online pricing in the mid-$50s, and San Antonio's any-day online ticket sits near $71 against a $111 gate. On sale pricing, the Six Flags parks dip lower still, but those are promotional windows rather than standing prices."
+    },
+    {
+      "q": "Do any of these ten parks share a ticket?",
+      "a": "Only inside a company: a Six Flags season pass covers the Six Flags parks (with tier-dependent regional access), and SeaWorld's upper passes cover all three SeaWorlds. No ticket or pass on this site crosses companies, so a two-company road trip is always two transactions."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "expected",
+    "sourceNote": "Bands observed September 2026 against the operators' own ticketing pages — sixflags.com daily-ticket pages for Knott's (from $65 online / $110 gate) and the Magic Mountain offers page, legoland.com's California and Florida deals pages ($69 online floors, $129–$154 gates), and seaworld.com pricing for all three marine parks ($53.99–$71 online floors, $100–$111 gates). Every product here is dynamically priced by date; the page publishes online-to-gate ranges only and names the gate explicitly in each row label.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

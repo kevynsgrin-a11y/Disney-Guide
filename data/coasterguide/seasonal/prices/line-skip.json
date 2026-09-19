@@ -1,0 +1,154 @@
+{
+  "slug": "line-skip",
+  "title": "Line-Skip Pass Prices",
+  "titleTail": ": Fast Lane and Quick Queue, September 2026",
+  "h1": "What a line-skip pass costs at every park on this site",
+  "description": "Fast Lane at the Six Flags and Knott's parks and Quick Queue at the SeaWorlds, priced as of September 2026 — and the honest nothing-to-buy answer for the Legolands.",
+  "summary": "Every park company here sells its own line-skip product and none of them work at the others: Fast Lane at the five Six Flags and Knott's parks since the merger retired THE FLASH Pass, Quick Queue at the three SeaWorlds, and nothing to buy at either Legoland. These are the bands, as of September 2026.",
+  "ownership": "This page is the price list. What each product does, how the reservation mechanics differ, and which tier to buy at which park are owned by the line-skip guide on the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Fast Lane at Magic Mountain, per person per day",
+      "resort": "southern-california",
+      "rangeUsd": [
+        45,
+        170
+      ],
+      "asOf": "September 2026",
+      "note": "The merged company prices Fast Lane by date at every legacy Six Flags park. Published 2026 calendars at Over Texas ran roughly $30–$170 across the season, and Magic Mountain's peaks sit at or above the top of that band on summer and haunt Saturdays."
+    },
+    {
+      "label": "Fast Lane at Six Flags Over Texas, per person per day",
+      "resort": "texas",
+      "rangeUsd": [
+        30,
+        170
+      ],
+      "asOf": "September 2026",
+      "note": "The one Six Flags park whose full 2026 date calendar was observable in September; it is the sample the other parks' bands are modeled on. Weekday floors sit near the bottom, Fright Fest Saturdays near the top."
+    },
+    {
+      "label": "Fast Lane at Great Adventure (NJ) or Great America (IL), per person per day",
+      "resort": "new-jersey",
+      "rangeUsd": [
+        40,
+        170
+      ],
+      "asOf": "September 2026",
+      "note": "Both run the same dated Fast Lane model under the same parent. Great Adventure's haunt-season Saturdays are the strongest demand of the four Six Flags parks on this site; Great America's band behaves the same at slightly softer peaks."
+    },
+    {
+      "label": "Fast Lane at Knott's Berry Farm, per person per day",
+      "resort": "southern-california",
+      "rangeUsd": [
+        75,
+        130
+      ],
+      "asOf": "September 2026",
+      "note": "One wristband, unlimited use on the covered ride list for the day. Knott's own Fast Lane page listed from $75 in September 2026 with observed March Saturdays around $129; Scary Farm nights price separately above this band."
+    },
+    {
+      "label": "All Season Fast Lane add-on, Knott's or the Six Flags parks",
+      "resort": "southern-california",
+      "rangeUsd": [
+        625,
+        999
+      ],
+      "asOf": "September 2026",
+      "note": "A season-long add-on to a season pass. Listed at $999 at Knott's in September 2026 with promotional pricing observed down to the mid-$600s; it only pays against roughly six or more peak-day single purchases."
+    },
+    {
+      "label": "Quick Queue Unlimited at SeaWorld Orlando, per person per day",
+      "resort": "orlando",
+      "rangeUsd": [
+        144,
+        178
+      ],
+      "asOf": "September 2026",
+      "note": "SeaWorld's own pricing guide listed Quick Queue Unlimited from $143.99 online against a $177.97 gate figure. A year-round Quick Queue product sat at $199 for pass-holders, which is the multi-visit version of the same arithmetic."
+    },
+    {
+      "label": "Quick Queue at SeaWorld San Antonio, per person per day",
+      "resort": "texas",
+      "rangeUsd": [
+        60,
+        150
+      ],
+      "asOf": "September 2026",
+      "note": "Priced by date through the purchase flow rather than published as a calendar, so this band is inferred from the Orlando and San Diego products rather than read off a page. Treat it as planning shape and check the date."
+    },
+    {
+      "label": "Quick Queue Unlimited at SeaWorld San Diego, per person per day",
+      "resort": "southern-california",
+      "rangeUsd": [
+        80,
+        140
+      ],
+      "asOf": "September 2026",
+      "note": "Sold standalone by date and inside the $139.99 Ultimate Bundle that also includes admission and the All-Day Dining Deal — the bundle is usually the better buy if you were taking both anyway."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The merger renamed the Six Flags product, and old advice is stale",
+      "body": [
+        "The Cedar Fair–Six Flags merger consolidated the line-skip products entering 2026: the legacy Six Flags parks stopped selling THE FLASH Pass and now sell Fast Lane — the brand Knott's has used for years — under one company-wide system bought online, in the app, or at in-park service centers. Pre-merger All Park Flash products were honored through January 2026 and then converted.",
+        "What that means for price research is that anything published before 2026 about FLASH Pass tiers is describing a product that no longer exists at these parks. The reservation mechanics survive — the app schedules rides with discounted return windows — but the tier names, the season add-on pricing, and the park-by-park availability all changed with the rename, and the 2026 season pricing drew exactly the fan complaints you would expect after a re-pricing.",
+        "The tier advice in our line-skip guide still holds: on a weekday at any of these parks, buy nothing; on a regular summer weekend, the middle of the band; on a peak haunt-season Saturday, only the top of the band meaningfully changes the day."
+      ]
+    },
+    {
+      "heading": "The Legolands: the honest nothing-to-buy answer",
+      "body": [
+        "Neither US Legoland sells a comparable line-skip product. There is no Fast Lane, no FLASH successor, no Quick Queue equivalent at Carlsbad or Winter Haven — the answer to 'what does line-skip cost at Legoland' is that there is nothing to buy.",
+        "This is not an oversight to work around but a fact to plan around: the Legoland ride roster is built for the under-tens and their adults, queue throughput is gentler than at the coaster parks, and the money that would have gone to line-skip goes further on the second-day ticket that Legoland's own pricing practically gives away."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Price the weekday before buying any pass. At the bottom of these bands — a $30–$45 Fast Lane weekday — the queues it skips are often short enough that the pass is solving a problem the calendar already solved for free.",
+    "Buy online rather than at the park for every product on this page. The gate-versus-online spread runs 20–35% on Quick Queue at the SeaWorlds and the dated Fast Lane products behave the same way.",
+    "Check the bundle before the standalone product at SeaWorld. San Diego's Ultimate Bundle wrapped admission, All-Day Dining, and Quick Queue Unlimited into $139.99 in September 2026 — less than the Orlando standalone top of band alone.",
+    "Run the season arithmetic before the All Season add-on: at $625–$999 it only beats single days past roughly six peak visits, which is a enthusiast's calendar, not a family trip's.",
+    "Buy line-skip on the morning of the visit, not weeks ahead, where the product allows it — these are dynamically priced by expected demand, and a forecast change reprices the day."
+  ],
+  "crossLinks": [
+    {
+      "label": "The line-skip guide: which tier to buy at which park",
+      "href": "/guides/line-skip-passes/",
+      "site": 1
+    },
+    {
+      "label": "All ten parks",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "Knott's Berry Farm park guide",
+      "href": "/southern-california/knotts-berry-farm/",
+      "site": 1
+    },
+    {
+      "label": "Six Flags Magic Mountain park guide",
+      "href": "/southern-california/magic-mountain/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can one line-skip pass cover two different companies' parks?",
+      "a": "No. Fast Lane works at the Six Flags and Knott's parks (one company), Quick Queue at the SeaWorlds (another), and the Legolands sell nothing comparable. A multi-park road trip means a separate line-skip decision per company, which is why our road-trip tool treats them as separate line items."
+    },
+    {
+      "q": "Is THE FLASH Pass still a thing?",
+      "a": "Not as a product you can buy in 2026. The merger moved the legacy Six Flags parks onto Fast Lane, Knott's long-standing brand, entering this season; anything that still tells you to price FLASH Pass tiers at Magic Mountain is a year stale."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "expected",
+    "sourceNote": "Bands observed September 2026 against the operators' own pages — sixflags.com Fast Lane pages for Knott's (from $75) and Great America, the Six Flags season-pass add-on pages carrying All Season Fast Lane at $999 with mid-$600 promotional pricing, seaworld.com's pricing guide for Orlando Quick Queue Unlimited ($143.99 online / $177.97 gate) and the $139.99 San Diego Ultimate Bundle — plus published 2026 Fast Lane date calendars at Over Texas (~$30–$170). The San Antonio Quick Queue band is inferred from sister-park products and is labelled as such in its row. Every figure is dynamic by date; nothing here is an operator announcement, so the page publishes ranges only.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

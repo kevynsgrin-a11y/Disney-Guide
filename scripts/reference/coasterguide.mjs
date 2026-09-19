@@ -125,11 +125,12 @@ export const DUAL_HEIGHTS = {}
  * Queue-tier assignments that are specifically easy to get wrong.
  *
  * Empty on purpose, and that is a stronger statement than it looks: this operator covers four
- * park companies, each with its own line-skip product (THE FLASH Pass at Six Flags, Fast Lane at
- * Knott's, Quick Queue at SeaWorld, and no established equivalent at the US Legolands), and I
- * would not stake a build on which specific attractions each of those covers in 2026. The dataset
- * carries authoring judgement, flagged as such in the launch doc; per-attraction coverage is a
- * human verification gate, not a settled fact.
+ * park companies, each with its own line-skip product (Fast Lane at the Six Flags parks and
+ * Knott's — one product family since the merger retired THE FLASH Pass entering 2026 — Quick
+ * Queue at SeaWorld, and no established equivalent at the US Legolands), and I would not stake a
+ * build on which specific attractions each of those covers in 2026. The dataset carries authoring
+ * judgement, flagged as such in the launch doc; per-attraction coverage is a human verification
+ * gate, not a settled fact.
  */
 export const QUEUE_ASSIGNMENT = {}
 
@@ -147,20 +148,25 @@ export const VIRTUAL_QUEUE_ALLOWED = []
  * roof, the easy wrong move is letting one company's product name bleed onto another's parks.
  * The guide must name each real product, must frame prices as of a date, and must never speak a
  * competitor's vocabulary.
+ *
+ * Updated September 2026: the merger moved the legacy Six Flags parks onto Fast Lane, so the
+ * current-product name is Fast Lane at both the Six Flags parks and Knott's. THE FLASH Pass is
+ * still a required mention — as the renamed product, exactly once, in historical framing —
+ * because a reader who researched last year will arrive calling it that.
  */
 export const QUEUE_CLAIMS = {
   require: [
     {
-      re: /as of (july )?2026|july 2026/,
-      message: 'no "as of July 2026" framing — line-skip products are dynamically priced by date and must never read as fixed numbers',
+      re: /as of (september )?2026|september 2026/,
+      message: 'no "as of September 2026" framing — line-skip products are dynamically priced by date and must never read as fixed numbers',
     },
     {
-      re: /flash pass/i,
-      message: 'never names THE FLASH Pass, the Six Flags product — the guide covers four companies and must say who sells what',
+      re: /renamed FLASH Pass|retired THE FLASH Pass/i,
+      message: 'does not explain that Fast Lane replaced the retired FLASH Pass at the Six Flags parks entering 2026 — the rename is the fact every stale guide gets wrong',
     },
     {
       re: /fast lane/i,
-      message: 'never names Fast Lane, the Knott\'s product',
+      message: 'never names Fast Lane, the line-skip product at the Six Flags and Knott\'s parks',
     },
     {
       re: /quick queue/i,
