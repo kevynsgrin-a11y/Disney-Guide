@@ -1,0 +1,129 @@
+{
+  "slug": "dining-plans",
+  "title": "Dining Plan Prices",
+  "titleTail": ": What the Meal Deals Cost, September 2026",
+  "h1": "What a dining plan costs, and when it beats paying per meal",
+  "description": "All-season dining at the Six Flags parks, all-day dining at the SeaWorlds, and Knott's meal deals — priced as of September 2026, with the break-even arithmetic.",
+  "summary": "Two companies here sell real dining plans and one sells pay-as-you-go with periodic bundles. The plans only pay on the eating patterns their fine print assumes — one meal every two hours at Six Flags, one every ninety minutes at SeaWorld — so the arithmetic, not the sticker, decides.",
+  "ownership": "This page is the price list. Where to eat at each park and what the signature items cost are owned by the dining and snack pages on the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Six Flags all-season dining, 20-meal plan",
+      "resort": "southern-california",
+      "rangeUsd": [
+        99,
+        129
+      ],
+      "asOf": "September 2026",
+      "note": "Listed from $99 against a struck-through $129 in September 2026. Twenty meals across the season at the four Six Flags parks on this site, meals spaced one every two to four hours depending on plan."
+    },
+    {
+      "label": "Six Flags all-season dining, larger plan",
+      "resort": "southern-california",
+      "rangeUsd": [
+        139,
+        180
+      ],
+      "asOf": "September 2026",
+      "note": "Up to 30 meals at the home park, one meal every two hours, no daily cap — $139 against a struck-through $180. Pass and membership tiers above the entry level stack food discounts on top."
+    },
+    {
+      "label": "SeaWorld All-Day Dining Deal, adult",
+      "resort": "orlando",
+      "rangeUsd": [
+        50,
+        60
+      ],
+      "asOf": "September 2026",
+      "note": "$59.99 at San Antonio and Orlando in September 2026: an entrée, a side or dessert, and a fountain drink every 90 minutes. Against in-park entrées in the mid-teens to low-$20s, the second meal is the break-even and the third is the profit."
+    },
+    {
+      "label": "SeaWorld All-Day Dining Deal, child (3–9)",
+      "resort": "orlando",
+      "rangeUsd": [
+        25,
+        30
+      ],
+      "asOf": "September 2026",
+      "note": "$29.99 at the same parks. The child plan prices at half the adult product, which makes a family's all-day dining decision closer to a per-adult decision than it first looks."
+    },
+    {
+      "label": "Knott's all-day dining package",
+      "resort": "southern-california",
+      "rangeUsd": [
+        100,
+        150
+      ],
+      "asOf": "September 2026",
+      "note": "Knott's meal-package constructions have run near the mid-$100s (a 2025 package around $145 for two meals a day across 16 participating restaurants), and 2026 dining sells under the merged company's plan umbrella. Verify the current construction on Knott's dining page before relying on the shape."
+    },
+    {
+      "label": "In-park entrée, any park on this site (no plan)",
+      "resort": "southern-california",
+      "rangeUsd": [
+        14,
+        24
+      ],
+      "asOf": "September 2026",
+      "note": "The no-plan baseline this page's arithmetic runs against: a main course at a counter-service location, before the drink. The top of the band is the SeaWorld and Knott's signature-tier items."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The break-even arithmetic, per company",
+      "body": [
+        "SeaWorld's All-Day Dining is the cleanest product on this site to evaluate: $59.99 against entrées that run the mid-teens to low-$20s means the second meal roughly breaks even and everything after the 90-minute timer clears is profit. For a family planning a full open-to-close day, it is close to a default buy; for a four-hour haunt-evening visit it never gets going.",
+        "The Six Flags season dining plans are a different animal: $99 for 20 meals is under $5 a meal, which is absurd value per meal and completely irrelevant if you visit twice. The product assumes the pass-holder's calendar — the same person for whom the season parking arithmetic already worked. Buy it in the same breath as the pass, or not at all.",
+        "At the Legolands there is no dining plan to price: both parks sell food a la carte with pass-level discounts, and the money goes further on the second-day ticket than on any meal construction."
+      ]
+    },
+    {
+      "heading": "What the plans actually dispense",
+      "body": [
+        "The fine print that matters is the timer. Six Flags plans dispense a meal every two hours (the larger plan) or two-to-four hours (the basic construction); SeaWorld's clock runs 90 minutes. A plan's real capacity on a ten-hour day is three to five meals, not unlimited eating.",
+        "The second fine print is the menu: plans dispense from designated counter-service lists, not the signature or seasonal locations. If the reason you are at Knott's in October is the scare-zone food booths, no plan covers that — those are event upcharges by design."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Run the timer math before buying: at 90-minute (SeaWorld) or two-hour (Six Flags) spacing, a plan covers three to five meals on a full day — the sticker divided by that count is the real per-meal price.",
+    "Buy season dining with the season pass, never standalone mid-season — the Six Flags construction prices as a pass add-on and the arithmetic collapses on a short remaining calendar.",
+    "Check the bundle first at SeaWorld: the San Diego Ultimate Bundle carried All-Day Dining alongside Quick Queue and admission for $139.99 in September 2026, which beats assembling the pieces.",
+    "Feed the car, not the plan, on short visits: under about six hours in a park, the no-plan baseline of $14–$24 an entrée loses to nothing.",
+    "Ask for the pass-holder discount even without a plan — upper-tier passes at both big companies here carry 15–30% food discounts that stack on nothing else."
+  ],
+  "crossLinks": [
+    {
+      "label": "Annual pass prices at every company",
+      "href": "/guides/first-coaster-trip/",
+      "site": 1
+    },
+    {
+      "label": "All ten parks",
+      "href": "/parks/",
+      "site": 1
+    },
+    {
+      "label": "Ticket prices at every park",
+      "href": "/southern-california/knotts-berry-farm/",
+      "site": 1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does anywhere here sell alcohol on the dining plans?",
+      "a": "Not on the standard products priced on this page — the plans dispense food and non-alcoholic fountain drinks. Drink-add-on products at the Six Flags parks cover soft drinks; alcohol is a separate purchase everywhere on this site."
+    },
+    {
+      "q": "Can one dining plan feed a family?",
+      "a": "No — every product here is per-person and checks ID or scans per holder at redemption. The family decision is how many members eat like plan-holders (full day, timer-friendly) versus paying the $14–$24 entrée baseline."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "expected",
+    "sourceNote": "Observed September 2026 against the operators' own dining pages — sixflags.com's all-season dining listing ($99 basic / $139 larger, struck through from $129 / $180), seaworld.com San Antonio's dining page ($59.99 all-day structure) and the Orlando equivalent, with Knott's package shape carried from its most recent published construction (~$145, 2025) pending the merged company's 2026 page. The in-park entrée band is the cross-park observation this site's food data already carries.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

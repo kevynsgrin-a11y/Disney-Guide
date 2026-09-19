@@ -1,0 +1,86 @@
+{
+  "slug": "parking-and-transportation",
+  "title": "Parking and Getting There",
+  "titleTail": ": What It Costs, September 2026",
+  "h1": "What parking costs at every park on this site",
+  "description": "Daily parking bands, season parking arithmetic, and the parks where the car is genuinely optional — all ten parks, priced as of September 2026.",
+  "summary": "Parking is the line item every park buries below the fold, and it behaves differently by company: the Six Flags and Knott's parks charge the most per day, the Legolands charge the most at the gate, and the SeaWorlds are the cheapest of the three. These are the bands as of September 2026.",
+  "ownership": "This page is the price list. How to get to each park, airport choices, and how many days each deserves are owned by the resort-region guides on the evergreen side of this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Daily general parking, the Six Flags and Knott's parks",
+      "resort": "southern-california",
+      "rangeUsd": [30, 40],
+      "asOf": "September 2026",
+      "note": "Knott's listed daily general parking from $40 in September 2026, with some Six Flags parks opening slightly lower. Preferred and closer-in lots run above this band at every park in the family."
+    },
+    {
+      "label": "All Season Parking add-on, the Six Flags and Knott's parks",
+      "resort": "southern-california",
+      "rangeUsd": [85, 100],
+      "asOf": "September 2026",
+      "note": "Listed at $90 for 2026. Three general-parking days at $40 already clear it, so this is one of the few add-ons with a clean break-even rather than a fuzzy one."
+    },
+    {
+      "label": "Daily parking, LEGOLAND California",
+      "resort": "southern-california",
+      "rangeUsd": [40, 45],
+      "asOf": "September 2026",
+      "note": "$40 for cars and motorcycles, from $45 for campers and RVs, with preferred parking above that. Regular parking is included with the Premium and Preferred annual passes — check the pass page before buying parking standalone."
+    },
+    {
+      "label": "Daily parking, the SeaWorld parks",
+      "resort": "orlando",
+      "rangeUsd": [20, 35],
+      "asOf": "September 2026",
+      "note": "San Diego's general lot ran about $20, with up-close from $25 and VIP from $35; the Orlando and San Antonio parks sit in the same structure. The cheapest parking on this site, consistently."
+    },
+    {
+      "label": "Daily parking, LEGOLAND Florida",
+      "resort": "orlando",
+      "rangeUsd": [25, 35],
+      "asOf": "September 2026",
+      "note": "Priced below the California sibling and bundled into some hotel-and-ticket constructions. As at Carlsbad, the upper annual passes include parking — run that check before paying at the lot."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "When the season parking pass pays for itself",
+      "body": [
+        "The Six Flags and Knott's all-season parking product listed at $90 for 2026 against $40 daily general parking. Three visits breaks even exactly; four turns a profit. Anyone holding a season pass at these parks and planning even a third visit should treat the parking add-on as nearly automatic.",
+        "At the Legolands the mechanism is different: rather than a standalone parking season product, the upper annual-pass tiers simply include parking. The right comparison is not daily-versus-pass but which pass tier — the parking-inclusive tier's premium over the standard tier is effectively a prepaid parking plan."
+      ]
+    },
+    {
+      "heading": "The parks where you can genuinely arrive without a car",
+      "body": [
+        "Two of the ten parks reward a car-free plan: Knott's, which is walkable from a band of hotels across Beach Boulevard, and SeaWorld San Antonio, whose resort-area shuttles and rideshare distances make the rental optional for a single-park trip.",
+        "The rest are car parks. Magic Mountain in Valencia, both Legolands, and the Chicago and New Jersey Six Flags parks all sit where transit thins out, and the regional-drive trips this site's road-trip tool builds are car trips by design. Budget the parking row above into every one of those itineraries — it is the most commonly forgotten line item in a ten-park plan."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Buy the season parking add-on at the third planned visit — at $90 against $40 a day, the break-even is unusually exact for an add-on.",
+    "Check whether your pass tier already includes parking before paying at the lot: LEGOLAND's upper tiers and several Six Flags pass levels bundle it.",
+    "Prefer general over preferred lots unless mobility says otherwise — the walk difference at most of these parks is minutes, and the price difference is per visit.",
+    "At the SeaWorlds, book parking online with the ticket rather than at the gate; the up-sell gap is smaller than elsewhere but it compounds on a multi-park trip."
+  ],
+  "crossLinks": [
+    { "label": "All ten parks", "href": "/parks/", "site": 1 },
+    { "label": "Annual pass prices at every company", "href": "/southern-california/", "site": 1 },
+    { "label": "Plan a multi-park drive with the Road-Trip Combiner", "href": "/guides/first-coaster-trip/", "site": 1 }
+  ],
+  "faqs": [
+    {
+      "q": "Is parking ever included with a ticket?",
+      "a": "Not with single-day tickets at any of the ten parks. It comes included — or effectively prepaid — only through pass tiers: LEGOLAND's Preferred and Premium annual passes include regular parking, and several Six Flags pass levels carry the parking benefit."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "expected",
+    "sourceNote": "Observed September 2026 against the operators' own parking and pass pages — Knott's daily general parking from $40 and All Season Parking at $90, LEGOLAND California's parking page ($40 cars, $45+ RVs, pass inclusions), and SeaWorld San Diego's published structure ($20 general / $25 up-close / $35 VIP). LEGOLAND Florida's band is placed below the California sibling per its own parking page structure.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "annual-passes",
+  "title": "Annual and Season Pass Prices",
+  "titleTail": ": Four Companies, September 2026",
+  "h1": "What a season pass costs at every company on this site",
+  "description": "The pass ladders at Six Flags, Knott's, LEGOLAND and SeaWorld as of September 2026 — entry tiers, the mid-tiers worth buying, and what the top tiers actually add.",
+  "summary": "Every company here sells a pass that costs between one and two one-day tickets at the online floor, and every ladder hides its real value one or two tiers up: regional access at Six Flags Gold, parking at LEGOLAND's upper tiers, Quick Queue discounts at SeaWorld Platinum. These are the ladders as of September 2026.",
+  "ownership": "This page is the price list. What each park holds, line-skip mechanics, and dining arithmetic are owned by their own pages on this site and are not restated here.",
+  "rows": [
+    {
+      "label": "Six Flags entry season pass or membership, per person",
+      "resort": "southern-california",
+      "rangeUsd": [79, 150],
+      "asOf": "September 2026",
+      "note": "Entry passes opened around $79 at several parks, with the monthly membership construction ($10 a month after a $30 initiation fee) landing in the same territory over a year. One-park, blockout-dated access — the floor of the ladder, not the value point."
+    },
+    {
+      "label": "Six Flags Gold and above, Magic Mountain, per person",
+      "resort": "southern-california",
+      "rangeUsd": [340, 400],
+      "asOf": "September 2026",
+      "note": "Magic Mountain's upper ladder carried $399 tiers at $349 promotional pricing with renewals at $339 in September 2026. New for 2026, Gold grants regional access to nearby Six Flags parks — the tier that turns the pass from a home-park product into a trip product."
+    },
+    {
+      "label": "Six Flags Gold and above, the other Six Flags parks, per person",
+      "resort": "texas",
+      "rangeUsd": [100, 250],
+      "asOf": "September 2026",
+      "note": "Over Texas, Great Adventure and Great America price their Gold-equivalent tiers below Magic Mountain's coaster-capital pricing, with the same 2026 regional-access structure. The band is wide because the three parks do not move together."
+    },
+    {
+      "label": "Knott's season pass, all tiers, per person",
+      "resort": "southern-california",
+      "rangeUsd": [115, 215],
+      "asOf": "September 2026",
+      "note": "Knott's ladder ran $115 (sale, from a $215 list) for the practical tier up through the Prestige territory in September 2026, with a bring-a-friend perk on the 2026 passes. The tier with parking is the one the parking page's arithmetic points at."
+    },
+    {
+      "label": "LEGOLAND California annual pass, per person",
+      "resort": "southern-california",
+      "rangeUsd": [189, 310],
+      "asOf": "September 2026",
+      "note": "Standard from about $189 up to the Elite tier near $308, with the parking-inclusive Preferred and Premium tiers between. LEGOLAND's own guidance — a pass pays past two visits — is honest, and the parking inclusion is what moves the value."
+    },
+    {
+      "label": "LEGOLAND Florida annual pass, per person",
+      "resort": "orlando",
+      "rangeUsd": [160, 280],
+      "asOf": "September 2026",
+      "note": "The Florida ladder prices below California's across equivalent tiers and occasionally carries the second-year-free constructions the resort uses in slow windows. Band placed from the resort's own pass page structure in September 2026."
+    },
+    {
+      "label": "SeaWorld annual pass, all tiers, all three parks, per person",
+      "resort": "orlando",
+      "rangeUsd": [120, 200],
+      "asOf": "September 2026",
+      "note": "San Antonio's ladder ran $154.99–$179.99; the Platinum tier at $189 carries Quick Queue discounts and all-park SeaWorld access. 2026 pass-holders at San Antonio hold free unlimited admission through the year — the Fun Card mechanics, folded in."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Which tier is actually worth buying, by company",
+      "body": [
+        "At Six Flags the answer is Gold, and the 2026 season made it clearer: Gold's regional access — free entry at nearby Six Flags parks — is the difference between a pass for one park and a pass for a road trip. Below Gold the pass is a home-park product priced against single days; above it you are buying prestige perks the queue does not feel.",
+        "At Knott's the tier with parking is the value point for anyone driving (which is everyone — see the parking page), and the 2026 bring-a-friend perk effectively rebates a chunk of the ladder in one use. At LEGOLAND the Preferred tier's parking inclusion does the same work.",
+        "At SeaWorld the tier that matters is Platinum: Quick Queue discounts at every visit plus all three SeaWorlds. For a family that visits twice in a year, the discount alone can carry the tier premium; for a single trip, the entry tier against the online ticket price is the honest comparison."
+      ]
+    },
+    {
+      "heading": "The cross-company wall",
+      "body": [
+        "No pass on this site crosses companies — a Six Flags Gold pass does nothing at SeaWorld or either LEGOLAND, a LEGOLAND pass does nothing at the marine parks next door to it, and nothing at any park it does not name. The ten parks on this site are four separate pass ecosystems, and a multi-company trip prices as two to four pass decisions.",
+        "That wall is why our road-trip tool treats passes as per-company line items rather than a single coverage question, and why the honest maximum for one trip is usually two passes: the Six Flags family covering its five parks (one ladder), plus whichever of the other three companies earns a second visit."
+      ]
+    }
+  ],
+  "howToSave": [
+    "Price Gold, not the entry tier, at Six Flags — regional access converts the pass from a home-park repeat product into the multi-park one a road trip actually wants.",
+    "Buy passes in the renewal window where one exists: Six Flags renewal pricing ran $30–$60 under new-pass pricing across the 2026 ladder.",
+    "Let the parking inclusion pick the tier at Knott's and LEGOLAND — the preferred-with-parking tier beats standard-plus-daily-parking inside three visits.",
+    "Watch for the bring-a-friend constructions: Knott's 2026 passes carried one, and a single use rebates a meaningful share of the ladder.",
+    "Match the pass to the calendar, not the ambition — blockout dates on lower tiers are the fine print that turns a 'bad buy' into a scheduling problem."
+  ],
+  "crossLinks": [
+    { "label": "Ticket prices at every park", "href": "/guides/first-coaster-trip/", "site": 1 },
+    { "label": "Parking prices and the season parking arithmetic", "href": "/southern-california/", "site": 1 },
+    { "label": "All ten parks", "href": "/parks/", "site": 1 }
+  ],
+  "faqs": [
+    {
+      "q": "Does any pass on this site cover parks at other companies?",
+      "a": "No. The widest nets are internal: Six Flags upper tiers cover the other Six Flags parks (with 2026's regional-access structure at Gold), and SeaWorld Platinum covers all three SeaWorlds. Every crossing of companies is a new transaction."
+    },
+    {
+      "q": "When does a pass beat single days?",
+      "a": "At the online floor, roughly on the second visit at every company here — the entry ladders sit between one and two one-day tickets. The better question is which tier, and each company's answer is in the sections above."
+    }
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "expected",
+    "sourceNote": "Observed September 2026 against the operators' own pass pages — sixflags.com's Magic Mountain season-pass ladder ($399 / $349 / $339 renewal; entry tiers from ~$79; $10-a-month membership construction), Knott's pass pages ($115 sale / $215 list tiers), LEGOLAND California's pass structure (~$189 Standard, ~$308 Elite, parking-inclusive tiers between) with Florida placed below it, and SeaWorld's ladders (San Antonio $154.99–$179.99, Platinum $189). Promotional pricing moves these constantly; the page publishes ladder ranges only.",
+    "reviewBy": "2026-12",
+    "cycle": "rolling"
+  }
+}
