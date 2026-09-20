@@ -1,0 +1,154 @@
+{
+ "park": "magic-mountain",
+ "criteria": "Ranked on what each ride delivers once you are locked in: distinctiveness of the ride system, how well it uses this park's terrain, re-ride value, and honesty about who each one is actually for. Queue length and line-skip tier were deliberately excluded — those change by the hour; the rides do not.",
+ "intro": [
+  "Magic Mountain markets itself on coaster count, and count is the wrong lens — a big number means nothing if you rope-drop the wrong five and burn your morning in the wrong queues. This ranking covers the twelve coasters this guide tracks and defends each placement on the same terms: what the ride itself gives you that nothing else on the mountain does.",
+  "The mountain is the organizing fact. Four of the twelve sit on Samurai Summit — Tatsu, X2, Superman and Ninja — and the summit rides build the day's worst queues by late morning, which is why every competent plan starts at the top and descends. Cyclone Bay holds the modern heavyweights (Twisted Colossus, Goliath, West Coast Racers), DC Universe holds the two 1990s B&Ms, the plaza holds the front-door loop and the day-one mine train, and Baja Ridge holds Viper. Geography beats wishlists: rank the rides, then walk the geography.",
+  "The height ladder matters as much as the ranking. Ninja is the only 42-inch coaster of the twelve; the 48-inch tier (X2, Twisted Colossus, Goliath, Superman, West Coast Racers) is where most families live; Tatsu, Full Throttle, Viper, Batman and Riddler's Revenge demand 54. And the honest filter at this park is tolerance, not height — X2 takes riders who clear its height check and rotates them face-down at 76 miles per hour, which is a different question than how tall they are."
+ ],
+ "ranking": [
+  {
+   "rank": 1,
+   "slug": "tatsu",
+   "headline": "The consensus best ride on the mountain, and the pretzel loop alone is worth the trip up the summit.",
+   "why": [
+    "B&M flying coasters rotate you to prone, and Tatsu uses the terrain better than anything else here: the layout drops off the hillside, threads under a bridge and around the summit rides, spending the mountain's own elevation as ride. It is the park's identity concentrated into one attraction.",
+    "The 124-foot pretzel loop — crest a rise lying flat, fold over backwards, pull through on your back looking at what you just fell out of — is the single most forceful moment at this park, and the reason Tatsu's queue is the longest after X2's."
+   ]
+  },
+  {
+   "rank": 2,
+   "slug": "x2",
+   "headline": "Nothing else at the park — or almost anywhere — rides like it, which is exactly why it ranks this high and no higher.",
+   "why": [
+    "The rotating-gondola trains drop the 215-foot first hill face-first, flip you through a raven turn with fire effects and onboard audio, and never let you anticipate the next rotation. As a signature experience it has no peer on this mountain.",
+    "It is also the least forgiving ride here: the honest filter is tolerance, not the 48-inch minimum. Guests either rank it first at the park or refuse to re-ride it, and both reactions are correct — which is why it sits second."
+   ]
+  },
+  {
+   "rank": 3,
+   "slug": "twisted-colossus",
+   "headline": "The most re-ridable big coaster at the park, and the most valuable one for mixed-height families.",
+   "why": [
+    "The 2015 Ibox rebuild kept the 1978 racing woodie's white structure and replaced the ride with an inversions-capable hybrid: the Top Gun stall banks and hangs the train, and the airtime hills are what modern wood-hybrid riders cross the country for.",
+    "When both trains dispatch in sequence they duel side by side up the lift and through the first half — the race is the show, and it is different every cycle. At 48 inches it is the threshold ride a twelve-year-old graduates onto before they are tall enough for Tatsu."
+   ]
+  },
+  {
+   "rank": 4,
+   "slug": "goliath",
+   "headline": "Simply enormous: 255 feet at 61 degrees, a lap bar instead of a harness, and endlessly re-ridable.",
+   "why": [
+    "The drop runs into an underground tunnel at full speed and out into the signature helix — a sustained high-g spiral that quietly dims the vision of front-row riders. It is speed and airtime rather than inversions, with roomy seats and a lap bar.",
+    "The 48-inch minimum despite one of the biggest drops at the park is the standing surprise of the height ladder: riders too short for Tatsu or Full Throttle can ride this, which makes it the big-thrills answer for the middle bracket."
+   ]
+  },
+  {
+   "rank": 5,
+   "slug": "full-throttle",
+   "headline": "Three launches, one 160-foot world-record loop, ninety seconds — the park's front-door statement.",
+   "why": [
+    "The first launch hits 66 miles per hour straight into the loop, the second reverses the train through the same loop's base backwards, and a third dribble of speed sends it over the top-hat. It feels like three rides bolted into ninety seconds.",
+    "The plaza location is its one defect: the queue collects everyone walking in at ten in the morning. Ride it at open or at close and the fast load cycle means the line barely registers."
+   ]
+  },
+  {
+   "rank": 6,
+   "slug": "the-riddlers-revenge",
+   "headline": "The last big stand-up coaster anywhere — as much working artifact as ride, and a good ride anyway.",
+   "why": [
+    "Standing through a vertical loop, two dive loops, an inclined loop and corkscrews is a categorically different sensation: the forces arrive through your legs and spine rather than your shoulders. Stand-ups stopped being built, and this is the largest survivor.",
+    "Technique carries it. Stand straight with the seat at the right height and it is B&M-smooth; slouch and the restraints correct you at speed — which is where its unfair reputation for punishment comes from."
+   ]
+  },
+  {
+   "rank": 7,
+   "slug": "superman-escape-from-krypton",
+   "headline": "100 miles per hour backwards up a 415-foot spike, then weightlessness with the valley behind your head.",
+   "why": [
+    "The 2011 rebuild flipped the cars to face backwards, which was the correct call: there is nothing to brace against and no anticipation cue — the launch is pure exposure, and the float at the apex is the payoff.",
+    "The whole cycle is about ninety seconds including load, the best thrill-per-minute trade on the mountain, and the 48-inch minimum is generous for how extreme it feels."
+   ]
+  },
+  {
+   "rank": 8,
+   "slug": "batman-the-ride",
+   "headline": "The purest forty-five seconds of intensity at the park, in the smallest big-coaster footprint anywhere.",
+   "why": [
+    "A first-generation B&M invert packing a vertical loop, zero-g roll, corkscrews and hard helixes with no filler between elements — the layout is too short for any. Thirty years on it remains the pacing benchmark compact loopers are measured against.",
+    "Front row for the cleanest inversion sensations, back row to be whipped hardest. The 54-inch gate is the only filter, and it stands a hundred yards from Riddler's Revenge — together the most intense acre per square foot at the park."
+   ]
+  },
+  {
+   "rank": 9,
+   "slug": "west-coast-racers",
+   "headline": "A genuine race, four launches, no inversions — the family-thrill tier done properly.",
+   "why": [
+    "Two separate tracks cross and parallel each other constantly, the four launches between them mean the lead swaps, and the outcome differs every cycle depending on dispatch timing. The pit-station theming is the most complete at this park since the 1990s.",
+    "No inversions and laterals rather than gut-churn make it the loopers' alternative for motion-sensitive riders, and the best warm-down in the bay after Goliath's helix."
+   ]
+  },
+  {
+   "rank": 10,
+   "slug": "viper",
+   "headline": "The 1990 silhouette — seven inversions on Arrow track, and a technique exercise that repays it.",
+   "why": [
+    "A 144-foot first drop into a vertical loop, a batwing, and the interlocking corkscrew finale that has been the park's silhouette since it opened. It was among the tallest looping coasters in the world at the time, and still the purest old-school looper here.",
+    "Pin your head to the headrest and it is a blast; let it float and the harness punishes you. At sunset the ridge turns the loops into a cutout against the valley with the day's shortest queue."
+   ]
+  },
+  {
+   "rank": 11,
+   "slug": "ninja",
+   "headline": "The mountain's best-kept secret for the 42-to-48 crowd — gliding swings through real trees.",
+   "why": [
+    "One of the last Arrow suspended coasters still running: trains hang from the rail and swing outward on every curve, the layout threads actual pines below the summit, and the valley appears between branches on the outer swings.",
+    "No inversions, no launches — pendulum motion and terrain, the gentlest demonstration of why this park's mountain matters, and the correct starting point for nervous adults building tolerance."
+   ]
+  },
+  {
+   "rank": 12,
+   "slug": "goldrusher",
+   "headline": "Day-one heritage: the 1971 mine train that has introduced three generations to coasters.",
+   "why": [
+    "A real lift hill, a small drop and one short tunnel — a nearly perfect first coaster, with a brake run that arrives before anyone can get scared.",
+    "It predates every record its neighbors chase and is completely unbothered by them. Ride it with a four-year-old who will remember it forever, or for the history; there is no third reason, and neither of those needs one."
+   ]
+  }
+ ],
+ "overrated": [
+  {
+   "slug": "x2",
+   "why": "Ranked second here and still the park's most overrated attraction, which is a deliberate contradiction. The ride itself is world-unique and worth every minute of it — but the station loads slowly because every seat is a rotating bench mechanism, so the queue moves in surges and buys fewer ride-minutes per hour than anything else on the mountain. Great ride, worst queue economics at the park, and the two judgements are separate."
+  },
+  {
+   "slug": "batman-the-ride",
+   "why": "The benchmark, and also the most duplicated invert design in the chain — this is the West Coast sibling of the 1992 Great America original, and the same layout exists at other Six Flags parks. If you have ridden Batman anywhere else you have already ridden this one; treat it as a priority only if it is your first."
+  }
+ ],
+ "underrated": [
+  {
+   "slug": "ninja",
+   "why": "Planners skip it because it sits between three bigger neighbors on the summit and appears in nobody's headliner list, so the queue stays short all day. Meanwhile it is the best ride at the park for the entire 42-to-48-inch bracket and the gentlest showcase of the terrain that makes this park different — a working museum piece that families can actually ride between the headliners."
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the single best ride at Six Flags Magic Mountain?",
+   "a": "Tatsu. The flying position, the terrain-hugging layout off Samurai Summit and the 124-foot pretzel loop add up to the strongest overall experience on the mountain. If you only ride one thing here, make it that — ideally in the first hour, before its queue builds."
+  },
+  {
+   "q": "Which rides should we do first at Magic Mountain?",
+   "a": "Rope-drop the summit: Tatsu and X2 build the park's two longest queues by late morning. Ride those two, then Superman and Ninja while you are up there, then descend to Cyclone Bay for Twisted Colossus, Goliath and West Coast Racers. Full Throttle is shortest at open and close; Viper is best at sunset."
+  },
+  {
+   "q": "What is the best coaster at Magic Mountain for kids under 48 inches?",
+   "a": "Ninja, at a 42-inch minimum. It is a suspended swinging coaster through real trees with no inversions — gentle enough for nervous riders and interesting enough that adults do not feel cheated. Goldrusher, the day-one mine train, is the first-coaster step below it; Twisted Colossus is the graduation ride the day they clear 48 inches."
+  },
+  {
+   "q": "Is X2 worth the wait?",
+   "a": "Depends on the wait. The ride is genuinely world-unique — rotating seats, the face-first 215-foot drop, the raven turn with fire effects — but it loads slowly, so a long queue buys fewer ride-minutes than anywhere else here. Under 30 minutes, ride it without thinking. Over an hour, save it for last, and skip it entirely if anyone in your party is tolerance-limited rather than height-limited."
+  }
+ ],
+ "lastVerified": "2026-07"
+}
