@@ -127,11 +127,16 @@
         "notes": "Transfer into family wooden-coaster trains."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The dinosaur wooden family coaster — small drops through a prehistoric forest of animated brick dinosaurs.",
       "description": [
         "Coastersaurus is the park's family woodie, threading a landscaped 'prehistoric' forest with animated LEGO dinosaurs alongside the track. The drops are small and the speed modest, but it rides like a real wooden coaster scaled down — the rattle, the structure, the feel — which is exactly the point for its audience.",
         "It is the natural second ride after the Dragon for a kid building coaster courage. The dinosaurs give the nervous ones something to look at between drops."
+      ],
+      "experience": [
+        "The lift is a real chain and the structure rattles the way wooden coasters do — scaled down, not faked. The circuit threads the prehistoric garden quickly: a couple of small drops, banked turns around the dinosaurs, and a brake run that arrives while the riders are still pointing at the next animatronic.",
+        "Row choice is a real decision here, same as on the big woodies. The front row is the dinosaur-view seat — the animated faces and roars time best from there — while the back row carries the (mild) coaster feel, the little pop of speed off each drop amplified by the delay.",
+        "Ride it in the rope-drop window right after the Dragon, before the family audience thickens. As a first-or-second woodie for a kid it is close to perfect: enough rattle and roar to feel real, nowhere near enough to scare."
       ],
       "tips": [
         "Ride after the Dragon in the rope-drop window.",
@@ -141,9 +146,24 @@
       "bestTime": "The first two hours.",
       "typicalWait": "10–25 minutes.",
       "faqs": [],
-      "relatedSlugs": [
-        "the-dragon"
+"faqs": [
+        {
+          "q": "Is Coastersaurus scary?",
+          "a": "No — this is the friendliest tier of wooden coaster. The drops are small, the speed is modest, and the animated dinosaurs give nervous riders something to look at between them. The roars are loud in a fun way, not a startling one."
+        },
+        {
+          "q": "Is Coastersaurus a real roller coaster?",
+          "a": "Yes, genuinely: real wooden structure, real chain lift, real drops and laterals — the genre’s feel at kid scale. Coaster-counting children earn a legitimate credit here, and many ride their first woodie on it."
+        },
+        {
+          "q": "Which row is best on Coastersaurus?",
+          "a": "Front row for the dinosaurs — the faces and roars land best from there — and back row for the coaster feel, where each small drop reads a beat later and a touch faster. Both are right; the ride is short enough to try each."
+        }
       ],
+            "relatedSlugs": [
+          "the-dragon",
+          "ninjago-the-ride"
+        ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -190,12 +210,17 @@
         "notes": "Transfer into electric cars; pedal-and-steer operation required."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The real driving school — electric cars on a signaled street course, ending with the child's first license.",
       "description": [
         "Driving School is Legoland's differentiator: children drive actual electric cars around a small street network with signals, intersections and signage, untethered and unguided. It is the ride-that-is-not-a-ride that families remember, and the license at the end (a small upcharge) is a souvenir that outlives everything in the gift shop.",
         "The experience is age-banded, and the bands matter — the course assumes its drivers can reach the pedals and process the rules. Check the current bands on the park's page before promising a four-year-old.",
         "The queue is the section's bottleneck and the sign-up fills by midday. The morning window is not advice; it is the plan."
+      ],
+      "experience": [
+        "The cycle starts with a rules briefing — the signals are real rules and the cars stop for real at them — and then the children drive off into the street network on their own, untethered and unguided. Parents watch from the rails, which is the design: the whole point is what happens without a parent’s hand.",
+        "The drive itself is a few minutes of pure concentration. Intersections, signals, signage, the occasional stall and the attendant wave-through; the intensity is entirely automotive pride. Small drivers take it completely seriously, and the concentration is the memory they keep.",
+        "The loop ends at the license counter, where the souvenir license (a small upcharge) turns the drive into an artifact. Decide the budget before the child sees the counter — after is a harder negotiation."
       ],
       "tips": [
         "Sign up in the first two hours — the slots fill by noon on busy days.",
@@ -205,7 +230,21 @@
       "bestTime": "The first two hours after open.",
       "typicalWait": "The queue plus the drive runs 30–60 minutes at peak.",
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "What ages is Driving School for?",
+          "a": "The experience is age-banded and the bands matter — the course assumes drivers who can reach the pedals and process the rules. Check the current bands on the park’s page before promising a four-year-old; the bands are adjusted seasonally."
+        },
+        {
+          "q": "How do we get a Driving School slot?",
+          "a": "Sign up in the first two hours after the park opens — the day’s slots fill by midday on busy days, and the queue is the section’s bottleneck. It is the one fixed appointment of the day besides rope-dropping the Dragon."
+        },
+        {
+          "q": "Does the Driving School license cost extra?",
+          "a": "The drive itself is included with admission. The souvenir driver’s license at the end is a small upcharge — worth it as the artifact that outlives everything in the gift shop, but decide before the counter, not during."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "fun-town-fire-academy"
       ],
@@ -255,11 +294,16 @@
         "notes": "Transfer into fire-truck vehicles; pumping action is required to move."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The family fire-truck race — pump to drive, spray to win, and the park's best parent-participation workout.",
       "description": [
         "The Fire Academy is a competitive family attraction: crews pump levers to power their fire truck down a track, then aim water cannons at a burning-building target. First crew to douse wins, and the competition is real in the way that makes siblings allies and then rivals again.",
         "It belongs to the participatory core that separates Legoland from standard family parks — the children (and their parents) are the ride system."
+      ],
+      "experience": [
+        "Crews of four to six board a fire truck that only moves if someone pumps. The lever-pumping phase is a genuine workout — the truck crawls down the track at exactly the rate the crew produces — and then the race proper starts against the neighboring truck.",
+        "At the target end the aiming begins: water cannons at a burning-building facade, first crew to douse the flames wins. The division of labor decides it. Adults pumping, kids aiming wins races; everyone pumping and nobody aiming loses them.",
+        "Everyone gets wet. The mist is constant at the cannons and the losing crew gets sprayed too — there are no spectators in this attraction, only participants of varying accuracy. On a Carlsbad afternoon that is a feature, not a bug."
       ],
       "tips": [
         "Assign the pumping to the adults and the aiming to the kids — division of labor wins races.",
@@ -269,9 +313,24 @@
       "bestTime": "Anytime; the queue moves in heats.",
       "typicalWait": "10–25 minutes.",
       "faqs": [],
-      "relatedSlugs": [
-        "driving-school"
+"faqs": [
+        {
+          "q": "Do you get wet on Fun Town Fire Academy?",
+          "a": "Yes — reliably misted at the water cannons, and the losing truck’s crew takes a spray as well. It is a participatory water-target race, not a ride you watch. On a hot afternoon this is half the reason to do it."
+        },
+        {
+          "q": "How does the Fire Academy competition work?",
+          "a": "Two crews race fire trucks down parallel tracks — powered only by teammates pumping levers — then aim water cannons at a burning-building target. The first crew to douse the fire wins. Assign adults to the pumps and kids to the cannons; division of labor wins races."
+        },
+        {
+          "q": "Is Fire Academy a ride or a game?",
+          "a": "A competitive family attraction that is genuinely both: your crew’s effort is the ride system — the truck moves only as fast as it is pumped. It is the participatory core that separates Legoland from standard family parks."
+        }
       ],
+            "relatedSlugs": [
+          "driving-school",
+          "coastersaurus"
+        ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -318,12 +377,17 @@
         "notes": "Fully paved walking exhibit — the most accessible experience at any park on this site."
       },
       "tier": "headliner",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The miniature brick cities — millions of pieces, working trains and traffic, and the park's actual masterpiece.",
       "description": [
         "Miniland is the craft core of the park: American cities and scenes rendered in miniature from millions of bricks, with working trains, moving traffic, and day-for-night lighting cycles. Southern California, San Francisco, Las Vegas, New York and Washington DC are the anchors, each dense with micro-scenes and jokes that reward slow looking.",
         "For adults it is the park's justification — a model garden at exhibition grade. For kids it is the world made small and operable. Both audiences get an hour, and the evening lighting makes it two.",
         "It is listed here as an attraction because it functions as one: the thing you visit the park for, alongside the rides."
+      ],
+      "experience": [
+        "Miniland is a walking exhibit that behaves like a ride: you move through it slowly, on a route you choose, past scenes that move on their own. Working trains thread the miniature rail networks, traffic runs on the city blocks, and the lighting cycles from day to night on a schedule.",
+        "The density is the point. Southern California, San Francisco, Las Vegas, New York and Washington DC are the anchors, and every block hides micro-scenes and builder’s jokes that only reward a slow pace. Play the detail game with kids — find the tiny gags the model builders hid — and an hour disappears.",
+        "Come back after dark. The lit cities are effectively a different exhibit, and the evening version costs nothing but the walk."
       ],
       "tips": [
         "Budget a full hour and a slow pace — the density is the point.",
@@ -333,7 +397,21 @@
       "bestTime": "Morning light, then again at dusk.",
       "typicalWait": null,
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "How long should we spend at Miniland USA?",
+          "a": "Budget a full hour at a slow pace — the density is the attraction, and rushing it misses the jokes hidden in every scene. Families doing the detail-finding game comfortably use more; a walk-through alone uses less but wastes the exhibit."
+        },
+        {
+          "q": "Is Miniland just for kids?",
+          "a": "No — it is an exhibition-grade model garden, and for many adults it is the park’s justification. Kids get a world made small and operable; adults get miniature craft at competition standard. Both audiences get their hour."
+        },
+        {
+          "q": "When is the best time to see Miniland?",
+          "a": "Late afternoon for the shaded, unhurried pass, then again after dark — the day-for-night lighting cycles and the lit cities make the evening version a different exhibit. The second pass costs only the walk."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "coastersaurus"
       ],
@@ -383,11 +461,16 @@
         "notes": "Transfer into submarine-style seating."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The submarine voyage — a gentle boat ride with underwater viewports and brick-built sea life.",
       "description": [
         "Deep Sea Adventure is the park's submarine ride: guests board through a hatch into a lower viewing level with portholes onto underwater scenes mixing real fish and brick-built creatures. It is slow, cool, and reliably popular with the under-eight set.",
         "It pairs naturally with the adjacent SEA LIFE aquarium for the ocean-morning version of the park, though the ride itself is included with theme-park admission."
+      ],
+      "experience": [
+        "Boarding is through a hatch and down into a lower viewing level — the submarine conceit is committed to, and the portholes are at kid height on purpose. Claim a porthole seat quickly at boarding; the view is the whole ride.",
+        "The loop is slow and cool: real fish drift past the viewports alongside brick-built creatures, and the sunken-ship scene is the set piece. The ride hosts know which portholes face it and will tell you if asked.",
+        "Because the interior is cooler and the motion calm, it works as the midday stop — the under-eight set is reliably content in it, and the adjacent SEA LIFE aquarium extends the same ocean hour if the family wants more."
       ],
       "tips": [
         "Claim a porthole seat quickly at boarding.",
@@ -397,9 +480,24 @@
       "bestTime": "Midday.",
       "typicalWait": "10–25 minutes.",
       "faqs": [],
-      "relatedSlugs": [
-        "miniland-usa"
+"faqs": [
+        {
+          "q": "Is Deep Sea Adventure good for young kids?",
+          "a": "Yes — it is the park’s most reliable under-eight attraction: slow, cool, enclosed, with porthole viewing at child height. Nothing startles, nothing splashes, and the real fish plus brick-built creatures hold attention through the full loop."
+        },
+        {
+          "q": "Do you get wet on Deep Sea Adventure?",
+          "a": "No. Despite the submarine framing it is an enclosed boat ride with viewports onto underwater scenes — calm throughout, no splashing. The coolest interior makes it a good midday stop on hot days."
+        },
+        {
+          "q": "Which seats are best on Deep Sea Adventure?",
+          "a": "Porthole seats, claimed quickly at boarding. Ask the ride hosts which portholes face the sunken-ship scene — they know, and they will tell you. Interior seats away from a viewport miss most of the ride."
+        }
       ],
+            "relatedSlugs": [
+          "miniland-usa",
+          "ninjago-the-ride"
+        ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -446,11 +544,16 @@
         "notes": "Transfer into ride vehicles; gesture controls require arm movement."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The gesture-controlled dark ride — throw virtual fire at screen villains without touching anything.",
       "description": [
         "NINJAGO The Ride is a dark interactive ride whose controls are gesture-based: riders wave their hands at screens to launch attacks, tracked by sensors rather than physical blasters. The technology still feels novel, and the scoring competition gives it repeat-ride life.",
         "It is the park's most modern ride system and a reliable midday indoor stop. The theming leans on the LEGO Ninjago line, which the target audience knows in detail."
+      ],
+      "experience": [
+        "The vehicles move through a dark ride course past screens, and the controls are your hands: gestures tracked by sensors launch the attacks, no blasters to hold. The learning curve is about two scenes — after that, riders are competing on score.",
+        "Commit to the ninja performance. Big, full-arm gestures score meaningfully better than polite wrist flicks, and the sensor tracking reads marginally better from the left side of the vehicle. The scoring leaderboard gives the ride its repeat life — same course, better score.",
+        "It is indoor, dark and cool with loud stretches — the heat-peak slot in the day plan, and the park’s most modern ride system. The Ninjago theming lands in proportion to how well the kids know the line, which at the target age is: completely."
       ],
       "tips": [
         "Big gestures score better — commit to the ninja performance.",
@@ -460,7 +563,21 @@
       "bestTime": "Midday heat.",
       "typicalWait": "10–30 minutes.",
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "How do you ‘shoot’ on NINJAGO The Ride?",
+          "a": "With hand gestures — the sensors track your movements and translate big swipes into attacks on the screens. There are no physical blasters. Commit to full-arm ninja gestures: big movements score noticeably better than small ones."
+        },
+        {
+          "q": "Is NINJAGO The Ride scary?",
+          "a": "Mildly intense at most: dark, loud in stretches, gentle in motion. There are no drops and no inversions — the drama is on the screens. Kids who know the Ninjago line find it familiar rather than frightening."
+        },
+        {
+          "q": "Is there a strategy for scoring high on NINJAGO?",
+          "a": "Yes: big committed gestures rather than flicks, and the left side of the vehicle — the sensor tracking reads large gestures marginally better there. The per-rider scoring makes it re-ridable: same course, better score."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "deep-sea-adventure"
       ],
