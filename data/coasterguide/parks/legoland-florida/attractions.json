@@ -127,11 +127,16 @@
         "notes": "Transfer into family wooden-coaster trains."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The dinosaur family woodie — small drops through brick-built prehistory, the natural second coaster after the Dragon.",
       "description": [
         "Coastersaurus is Florida's family wooden coaster, wrapping a landscaped prehistoric garden of animated brick dinosaurs. The wooden-coaster feel scaled to kid size is the design: real structure, real (small) drops, real charm.",
         "It is the confidence-builder between the Dragon and bigger parks. The dinosaurs give nervous riders a focus that isn't the drop."
+      ],
+      "experience": [
+        "The lift, the rattle and the structure are real wooden-coaster business at kid scale, wrapped through a landscaped prehistoric garden of animated brick dinosaurs. A couple of small drops, turns around the greenery, and a brake run that arrives before anyone’s courage is spent.",
+        "The front row is the dinosaur-view seat — the animated faces and the roar timing land best from there — and the back row is the coaster-feeling seat, the mild airtime off each small drop reading a beat later and a touch stronger.",
+        "Ride it in the rope-drop window right after the Dragon, when the course is quiet. It is the confidence-builder on the ladder between the Dragon and bigger parks elsewhere: enough real coaster to count, nothing that undoes the confidence it builds."
       ],
       "tips": [
         "Ride in the rope-drop window right after the Dragon.",
@@ -141,7 +146,21 @@
       "bestTime": "The first two hours.",
       "typicalWait": "10–25 minutes.",
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "Is Coastersaurus scary?",
+          "a": "No — the friendliest tier of wooden coaster. Small drops, modest speed, animated roars in a fun register, and dinosaurs that give nervous riders a focus that isn’t the drop itself."
+        },
+        {
+          "q": "Which row is best on Coastersaurus?",
+          "a": "Front row for the dinosaurs and the roar timing; back row for the mild airtime and the coaster feel. The circuit is short enough that ambitious families do both in one visit."
+        },
+        {
+          "q": "Is Coastersaurus worth it for adults?",
+          "a": "As a charm ride, yes: it is a real wooden coaster — structure, chain lift, laterals — at kid scale, which is a genre adults rarely get to ride with a kid who loves it. Coaster counters also earn a legitimate credit."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "flying-school"
       ],
@@ -191,11 +210,16 @@
         "notes": "Transfer into suspended family-coaster trains."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The suspended family coaster — hanging trains that swing through the course, Florida's kid version of the big invert style.",
       "description": [
         "Flying School is a suspended family coaster: trains hang beneath the track and swing outward through the banked turns, giving kids the dangling-feet thrill of the big inverted coasters at thoroughly family forces.",
         "It is the park's third coaster credit and the one that feels the most 'grown-up' per unit of actual intensity — the format does the work."
+      ],
+      "experience": [
+        "The trains hang beneath the track with feet dangling, and the format does the work: every banked turn swings the car outward, so the ride feels a size bigger than its forces actually are. The dangling feet are the thrill; the physics stays thoroughly family.",
+        "The swing amplitude builds through the second half — early turns sway, late turns dance. Hold the harness lightly and let the car move; riders who brace against the swing fight the one sensation the ride exists to deliver.",
+        "It slots third on the park’s coaster ladder — Dragon, Coastersaurus, then this — and pairs naturally with Coastersaurus in the morning loop. For a kid building toward inverted coasters at bigger parks, this is the honest preview."
       ],
       "tips": [
         "The swing is the point; let the car do the moving.",
@@ -205,7 +229,21 @@
       "bestTime": "Anytime.",
       "typicalWait": "10–20 minutes.",
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "Is Flying School scary?",
+          "a": "Mildly thrilling, not scary: trains hang below the track and swing gently through the turns with feet dangling. The forces are gentle — the dangling-feet format supplies all of the thrill."
+        },
+        {
+          "q": "Does Flying School go upside down?",
+          "a": "No. It is a suspended family coaster — the cars swing outward on banked turns but never invert. Riders get the dangling-feet feeling of the big inverted coasters at family forces."
+        },
+        {
+          "q": "What order should a kid ride the coasters at Legoland Florida?",
+          "a": "The ladder: the Dragon first at rope drop, Coastersaurus second for the woodie credit, Flying School third for the dangling-feet format. Each step adds a sensation without adding real intensity, which is the point of the ladder."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "coastersaurus"
       ],
@@ -255,11 +293,16 @@
         "notes": "Transfer into electric cars; pedal-and-steer operation required."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The real driving school — electric cars on a signaled course, ending with the child's first license.",
       "description": [
         "Driving School is the participatory signature: children drive real electric cars around a signaled street network, untethered, after a rules briefing. The license at the end (small upcharge) is the souvenir that outlives every brick set in the shop.",
         "The sign-up fills by midday. It is the day's one fixed appointment besides the Dragon's rope drop."
+      ],
+      "experience": [
+        "The rules briefing comes first and the children take it seriously because the rules are real — the cars stop at real signals on a signaled street network. Then they drive off, untethered, in actual electric cars, and the parents watch from the rails.",
+        "A few minutes of intersections, signage and the occasional stall, with the attendant’s wave-through. The concentration on the small drivers’ faces is the product; the intensity is entirely automotive pride.",
+        "The license counter closes the loop — a souvenir driver’s license for a small upcharge, the artifact that outlives every brick set in the shop. Decide the budget before the child sees the counter, and sign up early: slots fill by midday."
       ],
       "tips": [
         "Sign up in the first two hours.",
@@ -269,7 +312,21 @@
       "bestTime": "The first two hours after open.",
       "typicalWait": "30–60 minutes at peak including the drive.",
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "What ages is Driving School for?",
+          "a": "The course is age-banded because it assumes drivers who can reach the pedals and process the rules — check the current bands before promising the youngest ones. The experience rewards exactly the ages it fits: genuine independence, at child scale."
+        },
+        {
+          "q": "How do we get a Driving School slot?",
+          "a": "Sign up in the first two hours after opening — the day’s slots are usually gone by midday, which makes this and the Dragon’s rope drop the day’s two fixed appointments."
+        },
+        {
+          "q": "Does the Driving School license cost extra?",
+          "a": "The drive is included with admission; the souvenir license at the end is a small upcharge. Worth it as a keepsake — decide before the counter rather than during the negotiation."
+        }
+      ],
+            "relatedSlugs": [
         "boating-school",
         "the-dragon"
       ],
@@ -319,11 +376,16 @@
         "notes": "Transfer into self-drive boats."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The self-driven boat course — kids captain their own vessel around the city harbor with a working horn.",
       "description": [
         "Boating School lets children drive their own battery boats around a guided channel through the LEGO City harbor. The steering is real within the guide, the horn is functional, and the captain's face at the wheel is the product.",
         "It is the calmest of the participatory trio and the one with the most re-ride requests per capita."
+      ],
+      "experience": [
+        "Each child captains their own battery boat around a guided channel through the LEGO City harbor — real steering inside the guide, a working horn, and the captain’s face at the wheel as the product. Parents ride along or watch from the dockside.",
+        "The channel is forgiving until the final turn, which is the tightest arc on the course. Young captains should slow before it, not during it — the one piece of genuine boat-handling the ride teaches.",
+        "It is the calmest of the participatory trio and the re-ride champion: the horn alone buys repeat requests. Pairs naturally with the Fire Academy for a participatory afternoon."
       ],
       "tips": [
         "The horn is the joy — let the small captain use it generously.",
@@ -333,9 +395,24 @@
       "bestTime": "Anytime.",
       "typicalWait": "10–25 minutes.",
       "faqs": [],
-      "relatedSlugs": [
-        "driving-school"
+"faqs": [
+        {
+          "q": "Do kids really drive the boats at Boating School?",
+          "a": "Yes — each child pilots their own battery boat on a guided channel, with real steering inside the guide rails and a functional horn. The guidance keeps the course safe; the steering, and the pride, are genuinely the child’s."
+        },
+        {
+          "q": "Do you get wet on Boating School?",
+          "a": "No — the boats are calm, splash-free and gentle on the guide channel. It is the calmest of the park’s participatory attractions, pure steering-and-horn joy."
+        },
+        {
+          "q": "What age is Boating School best for?",
+          "a": "The youngest end of the participatory attractions: captains who can reach and work a simple wheel. The final turn is the course’s one challenge — tell young captains to slow before it, not during."
+        }
       ],
+            "relatedSlugs": [
+          "driving-school",
+          "the-dragon"
+        ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -382,7 +459,7 @@
         "notes": "Fully paved walking exhibit."
       },
       "tier": "headliner",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The miniature brick cities — Florida's Miniland adds Daytona, Kennedy Space Center and Miami to the craft centerpiece.",
       "description": [
         "Florida's Miniland is the park's craft core: miniature cities and landmarks built from millions of bricks, with Floridian anchors — Daytona's speedway, the space center, Miami's waterfront — alongside the national set. Working trains, moving traffic and day-for-night lighting carry the same craft standard.",
@@ -393,10 +470,29 @@
         "The lit evening version rewards a second pass at close.",
         "The Florida sections hide tiny gators in the waterways — a find-them game that buys twenty quiet minutes."
       ],
+      "experience": [
+        "Florida’s Miniland runs the national set — working trains, moving traffic, day-for-night lighting — anchored by the Floridian scenes: Daytona’s speedway, the space center, Miami’s waterfront. Near the historic gardens, it doubles as the park’s shaded spine.",
+        "The slow hour here is the adult reward of a family day: exhibition-grade miniature craft that rewards looking closely, with micro-scenes and builder’s jokes in every block. With kids, the detail game becomes a hunt — the Florida waterways hide tiny gators, and finding them buys twenty quiet minutes.",
+        "The lit evening version rewards a second pass at close. Cities built from millions of bricks, after dark, are close to the park’s best free show."
+      ],
       "bestTime": "Morning light and dusk.",
       "typicalWait": null,
       "faqs": [],
-      "relatedSlugs": [
+"faqs": [
+        {
+          "q": "How long should we spend at Miniland USA?",
+          "a": "A full hour at a slow pace — the density is the attraction. The find-the-gators game in the Florida waterways alone buys twenty quiet minutes with kids, and the detail hunting scales up from there."
+        },
+        {
+          "q": "What is different about Florida’s Miniland?",
+          "a": "The Floridian anchors: Daytona’s speedway, the space center and Miami’s waterfront alongside the national city set. It also sits near the historic gardens and works as the park’s shaded spine — the cool-hour walk between rides."
+        },
+        {
+          "q": "Is Miniland worth visiting twice in one day?",
+          "a": "Yes — once in daylight for the detail, once after dark for the lit cities. The evening version reads as a different exhibit, and it sits conveniently on the way out at close."
+        }
+      ],
+            "relatedSlugs": [
         "the-dragon",
         "driving-school"
       ],
