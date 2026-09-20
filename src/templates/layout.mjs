@@ -61,6 +61,7 @@ function metaTags (site, page) {
     <title>${title}</title>
     <meta name="description" content="${description}">
     <link rel="canonical" href="${canonical}">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <meta property="og:type" content="${page.ogType || 'website'}">
     <meta property="og:title" content="${page.title || site.brand.name}">
     <meta property="og:description" content="${description}">
