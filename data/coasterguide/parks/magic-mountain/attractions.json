@@ -287,12 +287,17 @@
         "notes": "Transfer into launch-coaster trains with lap-bar restraints over the shoulder vest system."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The plaza's launch coaster with the world's tallest vertical loop, hanging over the front gate — the ride every arriving guest walks under.",
       "description": [
         "Full Throttle is the park's front-door statement: a Premier launched coaster whose 160-foot vertical loop is visible from the freeway and which the entry road literally passes beneath. The launch hits 66 miles per hour into the loop, then a second launch reverses the train through the same loop's base backwards, and a third dribble of speed sends it over the top-hat.",
         "The triple-launch structure makes it feel like three rides bolted into ninety seconds. It is also the most visible ride in the park, which means its queue collects everyone walking in at ten in the morning — the counter-move is to ride it at open (passing it on the way up the hill is fine; it loads fast) or at close.",
         "At 54 inches it sits in the big-kid tier. For coaster-counting visitors it is a marquee credit; for families it is the one that sits at the top of the 'maybe next year' list."
+      ],
+      "experience": [
+        "The first launch is the whole ride in one move: 66 miles per hour off the station floor straight into the 160-foot loop, which is over before you finish registering the speed. The entry road passes beneath this thing, and from inside the train you understand why — the world goes vertical and the sky becomes the track.",
+        "The second launch is the surprise. The train slows, then reverses through the base of the same loop backwards, which rearranges your stomach in a way the forward pass did not. A third dribble of speed sends it over the top-hat, and then it is done — three rides bolted into ninety seconds.",
+        "Ride it at open or at close. The plaza location means its queue collects everyone walking in at ten in the morning, and the fast load cycle at the edges of the day means the line barely registers."
       ],
       "tips": [
         "Ride at close, not at open — the evening queue dies while the summit crowd is still upstairs.",
@@ -302,7 +307,21 @@
       "bestTime": "Last hour of operation.",
       "typicalWait": "20–40 minutes midday; under 15 at close.",
       "faqs": [],
-      "relatedSlugs": ["x2", "viper"],
+"faqs": [
+        {
+          "q": "Is Full Throttle scary?",
+          "a": "Less than it looks from the freeway. The launch is abrupt and the 160-foot loop is bigger than it photographs, but the ride reads as intense-but-friendly: no darkness and no disorientation. The backwards pass through the loop’s base is the one moment that surprises first-timers."
+        },
+        {
+          "q": "What is the height requirement for Full Throttle?",
+          "a": "54 inches. It sits in the park’s big-kid tier with Tatsu, Viper, Batman and Riddler’s Revenge — riders who clear 48 inches but not 54 have Goliath, Twisted Colossus, Superman and West Coast Racers instead."
+        },
+        {
+          "q": "Does Full Throttle go backwards?",
+          "a": "Yes — the second of its three launches reverses the train through the base of the vertical loop, which is the ride’s signature surprise. The rest of the circuit runs forwards."
+        }
+      ],
+            "relatedSlugs": ["x2", "viper"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -340,12 +359,17 @@
         "notes": "Transfer into shuttle-style cars. The ride cycle is short and the unload is at station level."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The 415-foot L-shaped shuttle tower that launches you backwards at 100 mph — the summit's speed record and the tallest structure at the park.",
       "description": [
         "Superman opened in 1997 as one of the first linear-motor launch coasters in the world and held a speed record for a decade. The 2011 rebuild flipped the cars to face backwards: you accelerate away from the tower at 100 miles per hour, up the 415-foot spike, and hang weightless at the top with the entire valley behind your head.",
         "The cycle is ninety seconds including load, which makes it one of the highest-throughput thrills per minute at the park. Weightlessness at the top is the point — the tower section slows to a crawl at the apex and the whole train floats for a beat before the drop back down.",
         "Its 48-inch minimum is generous for the extremity of the experience, and the summit location makes it a natural pairing with Tatsu and Ninja on the morning loop."
+      ],
+      "experience": [
+        "You board facing away from the tower, and that is the design. The launch takes you to 100 miles per hour with nothing visible ahead but the station behind you — nothing to brace against except the seatback, and no anticipation cue before the spike arrives.",
+        "The top is the point. The train slows to a crawl at 415 feet and hangs there, weightless, with the entire valley behind your head. For one held beat nobody in the train talks; then gravity takes it back down the length of the tower.",
+        "The whole cycle is about ninety seconds including load, the best thrill-per-minute trade on the mountain. Pair it with Tatsu and Ninja in one summit loop and the morning is spent well."
       ],
       "tips": [
         "Do it on the summit pass in the morning — nobody wants to climb back up for it at five.",
@@ -355,7 +379,21 @@
       "bestTime": "The morning summit window.",
       "typicalWait": "15–30 minutes; the short cycle keeps it moving.",
       "faqs": [],
-      "relatedSlugs": ["tatsu", "ninja"],
+"faqs": [
+        {
+          "q": "Is Superman: Escape from Krypton scary?",
+          "a": "Yes, in a pure-exposure way: you accelerate to 100 miles per hour facing backwards, with nothing visible ahead and nothing to brace against but the seatback. There are no inversions — the fear is speed and height, not disorientation."
+        },
+        {
+          "q": "What is the height requirement for Superman: Escape from Krypton?",
+          "a": "48 inches, which is generous for how extreme the ride feels. The short cycle and the summit location make it a natural pairing with Tatsu and Ninja on a morning loop."
+        },
+        {
+          "q": "Does Superman: Escape from Krypton go upside down?",
+          "a": "No. The track is a 415-foot vertical spike: launch up, hang weightless at the top, drop back down. The cars face backwards after the 2011 rebuild, which is a different kind of disorienting than inversions."
+        }
+      ],
+            "relatedSlugs": ["tatsu", "ninja"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -393,12 +431,17 @@
         "notes": "Transfer into paired seating in low-floor trains."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "Two side-by-side launched tracks racing four-abreast through the bay — the modern family-thrill coaster and the park's best head-to-head show.",
       "description": [
         "West Coast Racers is a Premier racing launch coaster: two separate tracks, four launches between them, and trains that genuinely race through crossings and helixes. It opened in 2019 as the park's first new big coaster in years and immediately became the family favorite of the thrill tier — 48 inches, no inversions, relentless but never brutal.",
         "The racing format gives it show value that single-track coasters lack: the two tracks cross and parallel each other constantly, and the outcome is different every cycle depending on dispatch timing. The pit-station theming — cars pulling in for tire changes mid-race — is the most complete theming at this park since the 1990s.",
         "For visitors building a first-timer order, this is the calmest of the bay's three big rides and the best warm-down after Goliath's helix."
+      ],
+      "experience": [
+        "Two tracks, two trains, and a race that is genuinely undecided every cycle. The four launches between the sides mean the lead swaps, and the crossings come close enough that the other train fills your peripheral vision mid-twist.",
+        "No inversions, and the layout is better for it: the interest is speed and near-misses rather than flipping. Motion-sensitive riders who cannot touch the park’s loopers handle this one, which is exactly why the family-thrill tier lives here.",
+        "The pit-station theming — cars pulling in mid-race for tire changes — is the most complete theming at this park since the 1990s and worth watching while you wait. It is also the best warm-down in the bay after Goliath’s helix."
       ],
       "tips": [
         "Both tracks ride differently — ask which is the red/blue side and do both if the queue allows.",
@@ -408,7 +451,21 @@
       "bestTime": "Weekday afternoons when the bay empties.",
       "typicalWait": "20–40 minutes in season.",
       "faqs": [],
-      "relatedSlugs": ["twisted-colossus", "goliath"],
+"faqs": [
+        {
+          "q": "Is West Coast Racers scary?",
+          "a": "No — this is the modern family-thrill tier. Two launches and tight twists, but no inversions and nothing designed to frighten. Motion-sensitive riders who cannot handle the park’s loopers generally do fine here."
+        },
+        {
+          "q": "What is the height requirement for West Coast Racers?",
+          "a": "48 inches. It is the calmest of Cyclone Bay’s three big rides, which makes it the right graduation step between Ninja at 42 inches and the inversion coasters at 54."
+        },
+        {
+          "q": "Do the two West Coast Racers tracks really race?",
+          "a": "Yes, when dispatch timing cooperates. The two trains genuinely race through crossings and helixes and the outcome differs every cycle — that is the show. Pick the side dispatching second if you want to chase rather than be chased."
+        }
+      ],
+            "relatedSlugs": ["twisted-colossus", "goliath"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -446,12 +503,17 @@
         "notes": "Transfer into Arrow-style trains with over-the-shoulder restraints."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The 1990 Arrow multilooper with seven inversions and the interlocking corkscrews every visitor photographs from the parking lot.",
       "description": [
         "Viper is the classic that refuses to leave: a 144-foot first drop into a vertical loop, a batwing, and the interlocking corkscrew finale that has been the park's silhouette since 1990. It was among the tallest looping coasters in the world on opening and remains the purest old-school looper at the park.",
         "Riding Viper is a technique exercise. Arrow transitions snap between elements, and the over-shoulder harness punishes loose heads — keep pinned to the headrest and the ride is a blast; fight it and you will finish with a headache. Enthusiasts who grew up on Arrow track regard Viper as a rite; first-timers should treat it as one too.",
         "At sunset the ridge location turns the loops into a silhouette against the valley, and the queue is at its shortest. It is the best closing ride at the park after Full Throttle."
+      ],
+      "experience": [
+        "Technique decides this ride. Pin your head to the headrest before the first drop and keep it there — Arrow transitions snap between elements, and the over-shoulder harness punishes any head that floats. Do that and Viper is a blast; fight it and you finish with a headache you will blame on the ride.",
+        "The sequence is the 1990s in order: a 144-foot drop into a vertical loop, a batwing that folds the train through itself, and the interlocking corkscrew finale that has been the park’s silhouette since 1990. It was among the tallest looping coasters in the world when it opened, and the scale still reads from the queue.",
+        "Ride it at sunset. The Baja Ridge location turns the loops into a cutout against the valley, the queue is at its day’s shortest, and it closes a day better than anything except a night lap on Full Throttle."
       ],
       "tips": [
         "Head back, head back, head back — through every inversion. This is the whole ride.",
@@ -461,7 +523,21 @@
       "bestTime": "The last two hours of the day.",
       "typicalWait": "15–30 minutes; the triple-train capacity keeps it short.",
       "faqs": [],
-      "relatedSlugs": ["batman-the-ride", "the-riddlers-revenge"],
+"faqs": [
+        {
+          "q": "Is Viper rough?",
+          "a": "It can be, and technique decides. Arrow transitions are abrupt where modern coasters are sculpted, and the over-the-shoulder harness punishes loose heads — pin your head to the headrest and keep it there, and the ride is a blast. Fight it and you will finish with a headache."
+        },
+        {
+          "q": "What is the height requirement for Viper?",
+          "a": "54 inches. It shares the big-kid tier with Tatsu, Full Throttle, Batman and Riddler’s Revenge."
+        },
+        {
+          "q": "How many inversions does Viper have?",
+          "a": "Seven: the vertical loop after the 144-foot first drop, a batwing, and the interlocking double corkscrew finale that has been the park’s silhouette since 1990."
+        }
+      ],
+            "relatedSlugs": ["batman-the-ride", "the-riddlers-revenge"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -499,12 +575,17 @@
         "notes": "Transfer into suspended invert trains with floor-drop loading."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The West Coast Batman invert — the 1994 B&M suspended coaster that still out-punches rides twice its footprint.",
       "description": [
         "Magic Mountain's Batman is the West Coast sibling of the 1992 Great America original, a first-generation B&M invert packing a vertical loop, zero-g roll, corkscrews and tight helixes into one of the smallest big-coaster footprints anywhere. Thirty years on, it remains the pacing benchmark other compact loopers are measured against.",
         "Because the layout is short and the trains never stop fighting, Batman is the purest forty-five seconds of intensity at the park. The suspended seats swing through the elements; the front row gets the cleanest inversion sensations, the back row gets whipped hardest.",
         "Its 54-inch minimum is the gate. For riders tall enough, this and Riddler's Revenge make DC Universe the most intense acre at the park per square foot."
+      ],
+      "experience": [
+        "Your feet hang and the train never stops fighting. A vertical loop, a zero-g roll, corkscrews and hard helixes arrive with no filler between them — the layout is too short for any — which makes this the purest sustained forty-five seconds of intensity at the park.",
+        "Row choice is a real decision. The front row gets the cleanest inversion sensations and the view of the track snapping away underneath you; the back row gets whipped hardest through the same elements. The ride is short enough to do both when the queue allows.",
+        "Thirty years on, it remains the pacing benchmark that other compact loopers are measured against. It shares DC Universe with The Riddler’s Revenge — one suspended in the air, one standing on its feet — and together they are the most intense acre per square foot at the park."
       ],
       "tips": [
         "Front row for the flight sensation; back row for force.",
@@ -514,7 +595,21 @@
       "bestTime": "The first hour or after 17:00.",
       "typicalWait": "20–35 minutes midday.",
       "faqs": [],
-      "relatedSlugs": ["the-riddlers-revenge", "viper"],
+"faqs": [
+        {
+          "q": "Is Batman: The Ride scary?",
+          "a": "The forces are higher than the ride’s size suggests — the vertical loop and zero-g roll come fast and the finale helix pulls hard. Riders who find big drops scary handle Batman fine; riders who hate quick direction changes do not."
+        },
+        {
+          "q": "What is the height requirement for Batman: The Ride?",
+          "a": "54 inches. With Riddler’s Revenge a hundred yards away at the same minimum, DC Universe is the most intense acre per square foot at the park for riders tall enough for both."
+        },
+        {
+          "q": "Which row is best on Batman: The Ride?",
+          "a": "The front for the cleanest inversion sensations and the view of the track snapping away underneath you; the back to be whipped hardest through the same elements. The layout is short enough that both are worth a lap when the queue allows."
+        }
+      ],
+            "relatedSlugs": ["the-riddlers-revenge", "viper"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -552,12 +647,17 @@
         "notes": "Transfer into stand-up trains; the boarding cycle includes adjusting the bicycle seat height, which takes longer than standard loading."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The world's tallest and fastest stand-up coaster — six inversions taken standing up, a category of ride that barely still exists.",
       "description": [
         "The Riddler's Revenge is a 156-foot B&M stand-up coaster and the last of its size anywhere: stand-up coasters stopped being built, and the survivors are aging monuments. Riding it means standing against a bicycle seat through a vertical loop, two dive loops, an inclined loop and corkscrews — inversions feel categorically different on your feet.",
         "The technique matters: stand straight with the seat at the right height, and the ride is smooth; slouch or lean, and the restraints correct you at speed. First-timers should watch the load cycle once to see the posture.",
         "As much artifact as attraction, it pairs with Batman as the DC Universe double — two 1990s B&Ms, one seated-suspended, one standing, showing a decade of ride design in a hundred yards."
+      ],
+      "experience": [
+        "You stand the whole ride: a bicycle-style seat takes your weight, a harness clamps your torso, and the train leaves with you vertical. The first inversion is the adjustment lap — standing through a loop is a categorically different sensation, felt through your legs and spine instead of your shoulders.",
+        "Posture carries everything. Stand straight with the seat set so your legs are not quite locked and the ride is B&M-smooth; slouch or lean and the restraints correct you at speed, which is where its reputation for punishment comes from. Watch one load cycle before riding and copy the riders who look bored — that is the correct stance.",
+        "This is the last stand-up coaster of its size anywhere. Stand-ups stopped being built, and the survivors are working artifacts — as much museum as ride. Ride it for what it is, because nothing new will ever be it."
       ],
       "tips": [
         "Get the seat height right at boarding — adjusting mid-ride is impossible and the wrong height hurts.",
@@ -567,7 +667,21 @@
       "bestTime": "First hour of the day or after 17:00.",
       "typicalWait": "25–40 minutes midday despite short line lengths — the load cycle is slow.",
       "faqs": [],
-      "relatedSlugs": ["batman-the-ride", "viper"],
+"faqs": [
+        {
+          "q": "Is The Riddler’s Revenge painful?",
+          "a": "Not if you stand correctly. Stand straight with the bicycle seat set so your legs are not quite locked and the ride is B&M-smooth; slouch or lean and the restraints correct you at speed, which is where its reputation comes from. Watch a load cycle first and copy the posture."
+        },
+        {
+          "q": "What is the height requirement for The Riddler’s Revenge?",
+          "a": "54 inches. The restraint is a bicycle-style seat and a harness rather than a lap bar, so fit matters — attendants set the seat height per rider, and you want your legs slightly bent, not locked straight."
+        },
+        {
+          "q": "Do you really stand up the whole ride?",
+          "a": "Yes — that is the entire concept. The train leaves with you vertical, and all six inversions are felt through your legs and spine instead of your shoulders. It is the last stand-up coaster of its size anywhere, which makes it a working artifact as much as a ride."
+        }
+      ],
+            "relatedSlugs": ["batman-the-ride", "viper"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -605,12 +719,17 @@
         "notes": "Transfer into suspended swing trains."
       },
       "tier": "major",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The 1988 suspended coaster that swings through the summit's trees — the mountain's family coaster and its most beautiful ride.",
       "description": [
         "Ninja is an Arrow suspended coaster, one of the last running: trains hang from the track and swing outward on every curve, and the layout threads through actual trees on the mountainside below the summit. Opened in 1988, it is the gentlest way to see why this park's terrain matters.",
         "The swings are the ride — no inversions, no launches, just pendulum turns through pine canopy with the valley appearing between branches. At 42 inches it is the summit's entry coaster and the single best ride at the park for the height bracket between Ninja's minimum and the 48-inch big tier.",
         "For coaster historians it is a working museum piece; for eight-year-olds it is the best ride on the mountain. Both are correct."
+      ],
+      "experience": [
+        "The trains hang from the rail and swing outward on every curve, so the whole ride is a pendulum conversation between the track and gravity. No inversions, no launches — the lift takes you up through the trees and the layout spends that elevation gliding.",
+        "It threads actual pines on the mountainside below the summit, and the valley appears between branches on the outer swings. Of everything at this park, Ninja is the gentlest demonstration of why a mountain is better than flatland to build on.",
+        "One of the last Arrow suspended coasters still running, which makes it a working museum piece for historians — and, for an eight-year-old just over 42 inches, the best ride on the mountain. Both audiences are correct, and the queue moves quickly for both."
       ],
       "tips": [
         "The queue is one of the shadiest at the park — a good midday escape.",
@@ -620,7 +739,21 @@
       "bestTime": "Anytime — the queue rarely exceeds twenty minutes.",
       "typicalWait": "5–20 minutes.",
       "faqs": [],
-      "relatedSlugs": ["tatsu", "goldrusher"],
+"faqs": [
+        {
+          "q": "Is Ninja scary?",
+          "a": "No. The motion is gliding, not violent — trains hang from the track and swing outward on every curve through real trees. A couple of spots add height exposure from the summit location, but this is the mountain’s best coaster for nervous riders building tolerance."
+        },
+        {
+          "q": "What is the height requirement for Ninja?",
+          "a": "42 inches — the lowest coaster minimum of the twelve this guide tracks, and the only one below 48. Below that bracket, Goldrusher is the first-coaster step."
+        },
+        {
+          "q": "Does Ninja go upside down?",
+          "a": "No inversions and no launches. The suspended trains swing outward on the curves, which delivers the sensation without flipping anyone — the interest is motion and terrain, not elements."
+        }
+      ],
+            "relatedSlugs": ["tatsu", "goldrusher"],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -658,11 +791,16 @@
         "notes": "Transfer into mine-train style trains."
       },
       "tier": "minor",
-      "standalonePage": false,
+      "standalonePage": true,
       "summary": "The 1971 mine train that opened with the park — the mountain's first coaster and still its gentlest.",
       "description": [
         "Goldrusher predates everything else at Magic Mountain: it opened with the park on day one in May 1971, and its lift, tunnel and dip course have introduced children to roller coasters for over fifty years. It is small, slow and completely unbothered by any of the records its neighbors chase.",
         "As a first coaster it is nearly perfect — a real lift hill, a real (small) drop, a dark tunnel and a brake run that arrives before anyone can get scared. Ride it for the history, or ride it with a four-year-old who will remember it forever."
+      ],
+      "experience": [
+        "A real chain lift, a small first drop, one short tunnel, and a brake run that arrives before anyone can get scared. About two minutes end to end, and somewhere in the train a four-year-old has just ridden their first roller coaster.",
+        "It opened with the park on day one in May 1971, which makes it the oldest ride on the mountain and the only one that predates every record its neighbors chase. The dips are mild, the speed is polite, and it is completely unbothered by all of it.",
+        "Ride it for one of two reasons: you have a first-timer with you, or you care that this is the mine train that introduced three generations of Southern California children to coasters. There is no third reason, and neither of those needs one."
       ],
       "tips": [
         "Zero queue almost always — the perfect confidence-builder between big rides.",
@@ -672,7 +810,21 @@
       "bestTime": "Anytime.",
       "typicalWait": "0–10 minutes.",
       "faqs": [],
-      "relatedSlugs": ["ninja", "twisted-colossus"],
+"faqs": [
+        {
+          "q": "Is Goldrusher scary?",
+          "a": "No. Small dips, mild speed and one short tunnel — the brake run arrives before anyone can get scared. It has been the first roller coaster for three generations of Southern California children, which is the design brief working as intended."
+        },
+        {
+          "q": "What ages is Goldrusher for?",
+          "a": "It is a genuine first coaster: a real lift hill, a small drop and a short tunnel, over in about two minutes. For a four-year-old that is exactly enough, and there is a reason it has been introducing children to coasters since 1971."
+        },
+        {
+          "q": "Why is Goldrusher worth riding?",
+          "a": "History, mostly. It opened with the park on day one in May 1971 and predates every record its neighbors chase. Ride it with a first-timer, or ride it because it is the oldest thing on the mountain — there is no third reason."
+        }
+      ],
+            "relatedSlugs": ["ninja", "twisted-colossus"],
       "image": null,
       "lastVerified": "2026-07"
     }
