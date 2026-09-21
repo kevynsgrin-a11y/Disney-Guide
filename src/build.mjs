@@ -585,6 +585,14 @@ function buildVercelConfig () {
 
 async function copyAssets (dist, site) {
   await cp(ASSETS_DIR, join(dist, 'assets'), { recursive: true })
+  // IndexNow key file: indexnow.txt at the repo root holds the fleet key
+  // (vaulted as INDEXNOW_KEY); the spec requires it served at /<key>.txt.
+  try {
+    const indexNowKey = (await readFile(join(ROOT, 'indexnow.txt'), 'utf8')).trim()
+    if (/^[0-9a-f]{8,64}$/.test(indexNowKey)) {
+      await writeFile(join(dist, `${indexNowKey}.txt`), indexNowKey, 'utf8')
+    }
+  } catch { /* indexnow.txt absent — skip silently */ }
   // sw.js is templated below, so it must not also ship as a raw asset.
   await rm(join(dist, 'assets', 'sw.js'), { force: true })
   // The favicon and touch icons are per-operator brand marks, so they are generated rather than
