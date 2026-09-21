@@ -469,6 +469,142 @@ export function parksIndexPage (data) {
   }
 }
 
+
+/*
+ * Company hubs cut across the regional layout. The query they answer ("six flags") is bigger
+ * than any one park or region, and the regional sections bury the brand's parks in four
+ * different places. Same shape as a resort page — hero, park cards, cross-park height table —
+ * plus the chain-wide seasonal anchor (Fright Fest) resolved from the seasonal dataset.
+ */
+export function companyPages (data, seasonal) {
+  const { site } = data
+  return (site.companies || []).map((company) => {
+    const parkList = company.parkList
+    if (!parkList.length) return null
+
+    const trail = [{ label: 'Home', href: '/' }, { label: company.shortName, href: urls.company(company.slug) }]
+    const allHeights = parkList.flatMap((p) => p.heightAttractions)
+    const coasters = parkList.flatMap((p) => p.attractions.filter((a) => a.isOpen && a.type === 'roller-coaster'))
+    const frightEvents = (company.events || [])
+      .map((slug) => seasonal && seasonal.eventBySlug ? seasonal.eventBySlug.get(slug) : null)
+      .filter(Boolean)
+
+    const body = html`
+      ${C.breadcrumbs(trail)}
+      ${C.hero({
+        eyebrow: company.location,
+        title: `${company.name} parks`,
+        lede: company.tagline,
+        meta: [
+          { label: 'Parks', value: String(parkList.length) },
+          { label: 'Roller coasters', value: String(coasters.length) },
+          { label: 'Height minimums', value: String(allHeights.length) },
+          { label: 'Fright Fest', value: frightEvents.length ? `${frightEvents.length} parks` : '—' },
+        ],
+        actions: [
+          { href: parkList[0].url, label: `Start with ${parkList[0].name}`, primary: true },
+          data.link.parkRankings ? { href: data.link.parkRankings, label: 'All ten parks, ranked' } : null,
+        ],
+      })}
+
+      ${C.section({
+        children: html`
+          <div class="split">
+            <div class="prose prose--lede">${paragraphs(company.intro)}</div>
+            <div>
+              ${C.factPanel(company.practical.map((p) => ({ label: p.title, value: p.body })), { title: 'The short version', columns: 1 })}
+            </div>
+          </div>
+        `,
+      })}
+
+      ${C.section({
+        tone: 'tint',
+        title: `The ${parkList.length} ${company.name} parks`,
+        children: C.cardGrid(parkList.map(parkCard), { columns: 2 }),
+      })}
+
+      ${C.section({
+        title: `Height requirements across ${company.shortName}`,
+        kicker: 'The question everyone asks first',
+        intro: `Every roller coaster at the ${company.shortName} parks with a minimum height, shortest first. Sort any column.`,
+        children: html`
+          ${C.dataTable({
+            sortable: true,
+            className: 'data-table--stack',
+            columns: [
+              'Attraction', 'Park', { label: 'Height', align: 'num', sort: 'number' }, 'Type',
+            ],
+            rows: allHeights
+              .slice()
+              .sort((a, b) => a.heightIn - b.heightIn || a.name.localeCompare(b.name))
+              .map((a) => [
+                a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
+                html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
+                html`<span data-value="${a.heightIn}">${a.heightIn}" · ${Math.round(a.heightIn * 2.54)}cm</span>`,
+                f.attractionType(a.type),
+              ]),
+          })}
+          <p><a class="btn btn--ghost" href="${urls.heightChecker()}">Try the interactive height checker</a></p>
+        `,
+      })}
+
+      ${frightEvents.length ? C.section({
+        tone: 'tint',
+        title: 'Fright Fest at every park',
+        kicker: 'Halloween, included with admission',
+        intro: `Each ${company.shortName} park runs its own Fright Fest — decorated midways and scare zones by day, haunts after dark, on top of the regular ride lineup. It is the busiest these parks get all year.`,
+        children: C.cardGrid(frightEvents.map((event) => {
+          const park = data.parkBySlug.get(event.parkSlug)
+          return C.card({
+            href: urls.event(event.slug),
+            eyebrow: 'Halloween',
+            title: `${company.shortName} ${park ? park.shortLabel : ''}`.trim(),
+            summary: event.summary,
+          })
+        }), { columns: 2 }),
+      }) : ''}
+
+      ${C.section({
+        title: `${data.queue.name} at ${company.shortName}`,
+        children: html`
+          ${C.callout({
+            type: 'money',
+            title: 'Prices move constantly — we publish ranges, not today’s number',
+            body: `Line-skip products are dynamically priced by date and park, and a ${company.shortName} pass bought for one park is worthless at another. Our [full ${data.queue.name} guide](${urls.guide(data.queue.guideSlug)}) explains the mechanics, the booking windows, and when it is genuinely worth buying.`,
+          })}
+        `,
+      })}
+
+      ${C.relatedLinks([
+        { href: data.link.parkRankings, label: 'All ten parks, ranked', summary: 'Where the four Six Flags parks land against Knott’s, SeaWorld and Legoland' },
+        data.link.firstTrip ? { href: data.link.firstTrip, label: 'Your first coaster trip', summary: 'The decisions that matter most, in order' } : null,
+        data.link.heights ? { href: data.link.heights, label: 'Every height requirement', summary: `All ${data.parks.length} parks in one table` } : null,
+        { href: urls.eventsIndex(), label: 'Halloween events everywhere', summary: 'Fright Fest and every other haunt we cover' },
+      ])}
+    `
+
+    return {
+      url: urls.company(company.slug),
+      html: renderPage({
+        site,
+        page: {
+          url: urls.company(company.slug),
+          title: `${company.name} parks, honestly compared`,
+          titleTail: ': honest and unofficial',
+          description: C.truncate(company.tagline, 155),
+          trail,
+          modified: '2026-09-21',
+        },
+        body,
+        schema: [
+          S.itemList(site, { url: urls.company(company.slug), name: `${company.name} theme parks`, items: parkList.map((p) => ({ name: p.name, url: p.url })) }),
+        ],
+      }),
+    }
+  }).filter(Boolean)
+}
+
 export function resortPages (data) {
   const { site } = data
   return site.resorts.map((resort) => {

@@ -340,6 +340,10 @@
         "href": "/parks/"
       },
       {
+        "label": "Six Flags",
+        "href": "/six-flags/"
+      },
+      {
         "label": "Heights",
         "href": "/guides/height-requirements/"
       },
@@ -489,6 +493,15 @@
             "href": "/tools/career-ladder/"
           }
         ]
+      },
+      {
+        "heading": "By company",
+        "links": [
+          {
+            "label": "Six Flags",
+            "href": "/six-flags/"
+          }
+        ]
       }
     ]
   },
@@ -588,5 +601,51 @@
   "careerLadder": {
     "note": "The ladder shows only heights this site has verified and published — 43 of the 63 documented coasters carry an asserted minimum; the rest stay off the rungs rather than guessed. Credits are your own riding history, kept on this device, and a permanently closed coaster can still be ticked for the record.",
     "intro": "Regional parks are where families ladder up over years: the first coaster at 42 inches, the giants at 48, the extremes at 54. Pick a rider — the same saved riders as the height passport — and the ladder shows what is unlocked now, what unlocks at every rung across all ten parks, and, with a birthday saved, the projected months each rung arrives. Tick off coasters as you ride them; the credit count and the printable career card are yours alone."
-  }
+  },
+  "companies": [
+    {
+      "slug": "six-flags",
+      "name": "Six Flags",
+      "shortName": "Six Flags",
+      "tagline": "Four Six Flags-branded parks, four metros, thirty-four roller coasters — the chain that built its name on coaster count.",
+      "location": "Valencia CA, Gurnee IL, Arlington TX, Jackson NJ",
+      "parks": [
+        "magic-mountain",
+        "great-america",
+        "six-flags-over-texas",
+        "great-adventure"
+      ],
+      "events": [
+        "fright-fest-magic-mountain",
+        "fright-fest-great-america",
+        "fright-fest-over-texas",
+        "fright-fest-great-adventure"
+      ],
+      "intro": [
+        "Six Flags is the brand most Americans picture when they picture a regional theme park, and this site covers its four flagship-branded parks: Six Flags Magic Mountain outside Los Angeles, Six Flags Great America outside Chicago, Six Flags Over Texas in Arlington, and Six Flags Great Adventure between New York and Philadelphia. They are the four biggest coaster lineups we track — thirty-four roller coasters between them, more than half of the sixty on this site.",
+        "What the four parks share is the formula: coaster-heavy lineups priced per park, a Halloween Fright Fest overlay included with admission, and a per-ride or per-day line-skip product on top of the ticket. What they do not share is a gate. These are four independent parks in four metro areas, each ticketed separately — there is no single Six Flags ticket that covers two of them, and nobody should plan a trip as if there were.",
+        "One corporate note, because search results blur it: since the July 2024 merger of Six Flags and Cedar Fair, the combined Six Flags Entertainment Corporation also operates parks that do not carry the Six Flags brand — including Knott's Berry Farm, which this site covers separately. This page is about the four parks that actually fly the Six Flags flag. Within those four, the differences are bigger than the similarities: Magic Mountain is the coaster capital by volume, Over Texas is the 1961 original the chain is named for, Great Adventure is the Northeast's biggest lineup, and Great America is the Chicago answer to all of the above.",
+        "Pick by geography first — the closest of the four is almost always the right one for a first visit — and by coaster ambition second: nobody flies across the country for Great America who would not rather be at Magic Mountain, and nobody in Arlington regrets skipping a flight."
+      ],
+      "practical": [
+        {
+          "title": "Four metros, four gates",
+          "body": "Valencia (Los Angeles), Gurnee (Chicago), Arlington (Dallas–Fort Worth) and Jackson (New York/Philadelphia corridor). Each park sells its own tickets and passes; nothing crosses over."
+        },
+        {
+          "title": "The original",
+          "body": "Six Flags Over Texas opened in 1961 in Arlington — the name refers to the six nations whose flags have flown over Texas, and the park is the template every later Six Flags was cloned from."
+        },
+        {
+          "title": "The coaster capital",
+          "body": "Magic Mountain in Valencia runs twelve roller coasters — the most at any park this site covers, and four more than any other Six Flags listed here."
+        },
+        {
+          "title": "Fright Fest is included",
+          "body": "All four parks run Fright Fest as an included-with-admission Halloween overlay: decorated midways and scare zones by day, haunts after dark. It is the busiest these parks get all year."
+        }
+      ],
+      "note": "Company hub pages cut across the regional sections; this one exists because the brand query ('six flags') is bigger than any single park's, and the answer spans four regions."
+    }
+  ]
 }

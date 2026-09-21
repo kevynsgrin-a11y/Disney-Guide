@@ -71,6 +71,7 @@ function buildPages (data, seasonal) {
   pages.push(core.homePage(data, seasonal))
   pages.push(core.parksIndexPage(data))
   pages.push(...core.resortPages(data))
+  pages.push(...core.companyPages(data, seasonal))
 
   for (const park of data.parks) {
     pages.push(parkPages.parkHub(park, data))
@@ -225,7 +226,7 @@ function buildSearchIndex (data, seasonal) {
  * Sitemap / robots / manifest
  * ------------------------------------------------------------------ */
 
-function priorityFor (url, staleUrls, resortSlugs) {
+function priorityFor (url, staleUrls, resortSlugs, companySlugs = []) {
   // A page past its own review date keeps its place in the index but loses its claim on crawl
   // priority. Telling a crawler to prioritise a page that carries a "needs rechecking" banner would
   // be talking out of both sides.
@@ -234,6 +235,8 @@ function priorityFor (url, staleUrls, resortSlugs) {
   // Park pages are the site's highest-value URLs. The resort slugs come from the operator rather
   // than a literal, or a second operator's park pages quietly drop to the 0.6 catch-all.
   if (resortSlugs.some((r) => new RegExp(`^/${r}/[^/]+/$`).test(url))) return '0.9'
+  // Company hubs (e.g. /six-flags/) answer brand-scale queries that outrank any single park.
+  if (companySlugs.some((c) => url === `/${c}/`)) return '0.8'
   if (url.includes('/height-requirements/') || url.startsWith('/tools/')) return '0.9'
   if (url.startsWith('/when-to-go/') || url.startsWith('/prices/')) return '0.9'
   if (url.startsWith('/events/') && url.split('/').length === 4) return '0.8'
@@ -255,6 +258,7 @@ const MONTH_RE = /^\d{4}-(0[1-9]|1[0-2])$/
 
 export function buildSitemap (site, pages, staleUrls, lastmodByUrl = new Map()) {
   const resortSlugs = (site.resorts || []).map((r) => r.slug)
+  const companySlugs = (site.companies || []).map((c) => c.slug)
   const entries = pages
     // A noindex page in the sitemap is the site contradicting itself: the file asks a crawler to
     // consider a URL the page then tells it not to index. The dated event editions are the case —
@@ -270,7 +274,7 @@ export function buildSitemap (site, pages, staleUrls, lastmodByUrl = new Map()) 
       return `  <url>
     <loc>${site.brand.origin}${p.url}</loc>${lastmod && MONTH_RE.test(lastmod) ? `\n    <lastmod>${lastmod}</lastmod>` : ''}
     <changefreq>${p.url === '/' ? 'weekly' : 'monthly'}</changefreq>
-    <priority>${priorityFor(p.url, staleUrls, resortSlugs)}</priority>
+    <priority>${priorityFor(p.url, staleUrls, resortSlugs, companySlugs)}</priority>
   </url>`
     })
   return `<?xml version="1.0" encoding="UTF-8"?>

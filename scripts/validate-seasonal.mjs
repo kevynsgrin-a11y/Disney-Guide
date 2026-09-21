@@ -573,6 +573,11 @@ async function builtUrlSet (eventSlugs) {
     urls.about(), urls.editorial(), urls.affiliate(), urls.privacy(), urls.terms(), urls.contact(),
   ])
   for (const slug of eventSlugs) set.add(urls.event(slug))
+  // Company hubs are declared in site.json like resorts, so the nav can point at them.
+  const siteForCompanies = await readJson(join(OPERATOR_DIR, 'site.json'), 'site.json')
+  for (const company of (siteForCompanies && siteForCompanies.companies) || []) {
+    if (company && company.slug) set.add(urls.company(company.slug))
+  }
   for (const file of await listJson(join(DATA, 'months'))) {
     const month = await readJson(join(DATA, 'months', file), `months/${file}`)
     if (month && month.slug) set.add(urls.month(month.slug))

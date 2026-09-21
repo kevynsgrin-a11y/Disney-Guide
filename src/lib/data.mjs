@@ -73,6 +73,7 @@ export const urls = {
   home: () => '/',
   parksIndex: () => '/parks/',
   resort: (resortSlug) => `/${resortSlug}/`,
+  company: (companySlug) => `/${companySlug}/`,
   park: (park) => `/${park.resort}/${park.slug}/`,
   rides: (park) => `/${park.resort}/${park.slug}/rides/`,
   bestRides: (park) => `/${park.resort}/${park.slug}/best-rides/`,
@@ -262,6 +263,15 @@ function index (data) {
   // Attach the parks list to each resort, in canonical order.
   for (const resort of site.resorts) {
     resort.parkList = (resort.parks || [])
+      .map((slug) => data.parkBySlug.get(slug))
+      .filter(Boolean)
+  }
+
+  // Company hubs (e.g. Six Flags) cut across resorts, so they resolve their park list the
+  // same way — from slugs declared in site.json, against parks that actually loaded.
+  data.companyBySlug = new Map((site.companies || []).map((c) => [c.slug, c]))
+  for (const company of site.companies || []) {
+    company.parkList = (company.parks || [])
       .map((slug) => data.parkBySlug.get(slug))
       .filter(Boolean)
   }
