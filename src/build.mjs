@@ -499,6 +499,11 @@ function redirectTables (site, urlSet) {
 
   const queueSlug = (site.queue && site.queue.guideSlug) || 'lightning-lane'
   const exact = [
+    // Nitro is a Great Adventure ride that ranked at a mispathed Great
+    // America URL (34 impressions at ~#12 in the 2026-09-22 GSC window)
+    // before the URL died; the urlSet filter keeps this rule coasterguide-
+    // only since only that operator builds the destination.
+    ['/chicago/great-america/rides/nitro/', '/new-jersey/great-adventure/rides/nitro/'],
     ['/food-tracker/', '/tools/food-tracker/'],
     ['/height-checker/', '/tools/height-checker/'],
     ['/heights/', '/guides/height-requirements/'],

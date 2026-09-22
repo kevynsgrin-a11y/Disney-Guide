@@ -590,8 +590,12 @@ export function companyPages (data, seasonal) {
         site,
         page: {
           url: urls.company(company.slug),
-          title: `${company.name} parks, honestly compared`,
-          titleTail: ': honest and unofficial',
+          // "honestly compared: honest and unofficial" was a wording bug that
+          // read as a broken repeat; the tail names the hub's three sections
+          // (park cards, cross-park height table, company events) and assumes
+          // the events section exists — true for every company in site.json.
+          title: `${company.name} parks compared`,
+          titleTail: ': rides, heights & Fright Fest',
           description: C.truncate(company.tagline, 155),
           trail,
           modified: '2026-09-21',
