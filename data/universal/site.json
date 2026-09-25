@@ -424,7 +424,8 @@
   },
   "analytics": {
     "enabled": false,
-    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy."
+    "gtagId": "G-XN1QCDSSGL",
+    "note": "Privacy-first analytics go here at launch. Nothing is loaded until this is enabled and disclosed in the privacy policy. gtagId is the per-site GA4 measurement ID emitted in the head by src/templates/layout.mjs; matches brand.domain's roll-up stream. A second GA4 property (G-FGJR4ZZBG2) is delivered via Cloudflare Zaraz at the edge — intentionally not added in-page here, to avoid double-counting per the ground truth."
   },
   "expressRoi": {
     "asOf": "as of July 2026 — Express Pass is dynamically priced by date; these bands are shapes, and the park's ticketing page is the live number",
