@@ -208,7 +208,7 @@ ${(hasPalette(site) || hasChrome(site)) ? html`<link rel="stylesheet" href="${v(
 <link rel="apple-touch-icon" href="/assets/img/icon-180.png">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">${raw(jsonLd)}</script>
-<!-- ga4:start --><script async src="https://www.googletagmanager.com/gtag/js?id=G-7J3HL1X7EX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7J3HL1X7EX');</script><!-- ga4:end -->
+<!-- ga4:start --><script async src="https://www.googletagmanager.com/gtag/js?id=${site.analytics && site.analytics.gtagId ? site.analytics.gtagId : 'G-7J3HL1X7EX'}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.analytics && site.analytics.gtagId ? site.analytics.gtagId : 'G-7J3HL1X7EX'}');</script><!-- ga4:end -->
 </head>
 <body class="${page.bodyClass || ''}">
 <a class="skip-link" href="#main">Skip to content</a>
