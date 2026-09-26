@@ -3,6 +3,7 @@ import * as S from '../lib/schema.mjs'
 import { urls } from '../lib/data.mjs'
 import { hasPalette, hasChrome, palettePaper } from '../lib/palette.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
+import { ga4LoaderId } from '../lib/ga4.mjs'
 
 const ASSET_VERSION = '24'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
@@ -208,7 +209,7 @@ ${(hasPalette(site) || hasChrome(site)) ? html`<link rel="stylesheet" href="${v(
 <link rel="apple-touch-icon" href="/assets/img/icon-180.png">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <script type="application/ld+json">${raw(jsonLd)}</script>
-<!-- ga4:start --><script async src="https://www.googletagmanager.com/gtag/js?id=${site.analytics && site.analytics.gtagId ? site.analytics.gtagId : 'G-7J3HL1X7EX'}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.analytics && site.analytics.gtagId ? site.analytics.gtagId : 'G-7J3HL1X7EX'}');</script><!-- ga4:end -->
+${ga4LoaderId(site) ? html`<!-- ga4:start --><script async src="${v('/ga4.js')}"></script><script async src="https://www.googletagmanager.com/gtag/js?id=${ga4LoaderId(site)}"></script><!-- ga4:end -->` : ''}
 </head>
 <body class="${page.bodyClass || ''}">
 <a class="skip-link" href="#main">Skip to content</a>
