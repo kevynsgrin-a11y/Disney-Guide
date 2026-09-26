@@ -1490,8 +1490,8 @@
       "opened": 2010,
       "status": "open",
       "closedNote": null,
-      "heightIn": 34,
-      "heightNote": null,
+      "heightIn": 36,
+      "heightNote": "Universal lists a 36-inch (92 cm) minimum. Children 36–48 inches require a supervising companion. Source: https://www.universalorlando.com/webdata/k2/en/us/files/Documents/universal-orlando-riders-guide.pdf (height requirements, verified September 26, 2026).",
       "durationMinutes": 1,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -1570,7 +1570,7 @@
         "high-in-the-sky-seuss-trolley-train-ride"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "hogwarts-express-hogsmeade-station",
@@ -2177,8 +2177,8 @@
       "opened": 2006,
       "status": "open",
       "closedNote": null,
-      "heightIn": 34,
-      "heightNote": null,
+      "heightIn": 36,
+      "heightNote": "Universal lists a 36-inch (92 cm) minimum. Children 36–48 inches require a supervising companion. Source: https://www.universalorlando.com/webdata/k2/en/us/files/Documents/universal-orlando-riders-guide.pdf (height requirements, verified September 26, 2026).",
       "durationMinutes": 3,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -2213,9 +2213,9 @@
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "An elevated trolley that circles Seuss Landing at rooftop height with a 34-inch minimum - the lowest height requirement in the park.",
+      "summary": "An elevated trolley that circles Seuss Landing at rooftop height with a 36-inch minimum.",
       "description": [
-        "The High in the Sky Seuss Trolley Train Ride! opened in 2006 and runs small trolley cars on an elevated track that loops around and through the buildings of Seuss Landing at rooftop level, at roughly walking speed, for about three minutes. Its 34-inch requirement is the lowest at Islands of Adventure, which makes it the first ride a lot of children here can do.",
+        "The High in the Sky Seuss Trolley Train Ride! opened in 2006 and runs small trolley cars on an elevated track that loops around and through the buildings of Seuss Landing at rooftop level, at roughly walking speed, for about three minutes. Universal lists a 36-inch minimum and a supervising companion for children 36–48 inches tall.",
         "There are two separate tracks with different routes and different narration, and most guests never notice - they board whichever car is next and ride whichever loop they get. Riding both is the closest thing Seuss Landing has to a hidden feature.",
         "The pleasure of it is the vantage point. Seuss Landing is designed to be seen from ground level, and getting above it shows you how carefully the roofs, the color transitions and the sightlines were laid out. It is also the only elevated view of the lagoon from this end of the park."
       ],
@@ -2225,7 +2225,7 @@
         "The best moment is on the outer stretch where the track runs closest to the lagoon and gives a clear view across the water to Hogsmeade and the Jurassic Park side. It is the only place in Seuss Landing where you can see the scale of the park you are in."
       ],
       "tips": [
-        "This is the lowest height requirement in the park at 34 inches. For a family with a very small child, it is the first ride to head for.",
+        "The 36-inch minimum makes this a useful Seuss Landing option for small children who clear the entrance measurement; children 36–48 inches need a supervising companion.",
         "There are two tracks with different routes. Look at which side the queue is feeding and ride both if the wait is short.",
         "The cars are cramped for adults. If two adults and two children are riding together, split as one adult per car rather than squeezing four in.",
         "Ride in the late afternoon for the light. The view across the lagoon from the outer loop is the best thing about it and it is best an hour before sunset.",
@@ -2236,7 +2236,7 @@
       "faqs": [
         {
           "q": "How tall do you have to be for the Trolley Train?",
-          "a": "34 inches, which is the lowest height requirement at Islands of Adventure. Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish in the same island have no minimum at all."
+          "a": "36 inches. Children 36–48 inches need a supervising companion. Caro-Seuss-el and One Fish, Two Fish, Red Fish, Blue Fish in the same island have no numerical minimum, though children under 48 inches need a supervising companion."
         },
         {
           "q": "Is the Trolley Train scary?",
@@ -2248,7 +2248,7 @@
         },
         {
           "q": "Is it worth the wait?",
-          "a": "For families with small children, yes - it is the lowest requirement in the park and the view is genuinely the best thing in Seuss Landing. For adults alone, a twenty-five minute wait for a three-minute stroll at roof height is a hard sell."
+          "a": "For families with children who clear 36 inches, yes - the view is genuinely the best thing in Seuss Landing. For adults alone, a twenty-five minute wait for a three-minute stroll at roof height is a hard sell."
         }
       ],
       "relatedSlugs": [
@@ -2257,7 +2257,7 @@
         "pteranodon-flyers"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "caro-seuss-el",

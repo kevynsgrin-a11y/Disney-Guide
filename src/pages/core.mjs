@@ -10,6 +10,7 @@ import { riderDataPayload } from './tools.mjs'
 import { BUILD_MONTH as BUILD_MONTH_RAW } from '../lib/staleness.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
+import { latestParkTimeZone } from '../lib/park-time-zone.mjs'
 
 function parkCard (park, image) {
   return C.card({
@@ -34,6 +35,15 @@ function spotlightVenue (event, site) {
   if (event.parkInfo) return event.parkInfo.name
   const resort = (site.resorts || []).find((item) => item.slug === event.resort)
   return resort ? (resort.shortName || resort.name) : 'Seasonal event'
+}
+
+/** Date and park zone for the last ending event in a mixed-resort homepage band. */
+function latestSeasonEnd (events) {
+  const endings = events.flatMap((event) => (event.editions || [])
+    .filter((edition) => edition.status === 'announced' && edition.endDate)
+    .map((edition) => ({ date: edition.endDate, event })))
+  const date = endings.map((item) => item.date).sort().at(-1)
+  return { date, timeZone: latestParkTimeZone(endings.filter((item) => item.date === date).map((item) => item.event)) }
 }
 
 /**
@@ -61,8 +71,8 @@ function hauntBand (runningNow) {
       </p>
     `,
   })
-  const ends = current.map((e) => e.editions.find((x) => x.status === 'announced').endDate)
-  return { band: html`<div data-season-until="${ends.sort().at(-1)}">${band}</div>`, claimed: current }
+  const expiry = latestSeasonEnd(current)
+  return { band: html`<div data-season-until="${expiry.date}" data-season-time-zone="${expiry.timeZone}">${band}</div>`, claimed: current }
 }
 
 /** The dedicated card stays compact so the season reads as an editorial plate, not a product grid. */
@@ -115,7 +125,7 @@ function seasonSpotlight (site, running) {
   ).join('')
 
   return html`
-    <section class="band spotlight spotlight--${spot.season}" data-season-until="${spot.until}" aria-labelledby="season-spotlight-title">
+    <section class="band spotlight spotlight--${spot.season}" data-season-until="${spot.until}" data-season-time-zone="${latestParkTimeZone(events)}" aria-labelledby="season-spotlight-title">
       <div class="spotlight__scene" aria-hidden="true">
         <svg viewBox="0 0 1920 500" preserveAspectRatio="xMidYMax slice">
           <defs>
@@ -151,11 +161,11 @@ function seasonSpotlight (site, running) {
 }
 
 /** A brief, decor-only welcome moment; it never captures input and removes itself after playing. */
-function landingBats (until) {
+function landingBats (until, timeZone) {
   if (!until || BUILD_MONTH_RAW > until.slice(0, 7)) return raw('')
   const bat = (name) => html`<svg class="landing-bats__bat landing-bats__bat--${name}" viewBox="0 0 80 28" aria-hidden="true"><path d="M0 12c9-10 19-10 29 0 4-9 9-12 11-12s7 3 11 12c10-10 20-10 29 0-9 1-15 5-19 12-5-2-10-5-21-5s-16 3-21 5C15 17 9 13 0 12Z" fill="currentColor" stroke="none"/></svg>`
   return html`
-    <div class="landing-bats" data-landing-bats data-season-until="${until}" aria-hidden="true">
+    <div class="landing-bats" data-landing-bats data-season-until="${until}" aria-hidden="true" data-season-time-zone="${timeZone}">
       ${bat('one')}${bat('two')}${bat('three')}${bat('four')}${bat('five')}
       <svg class="landing-bats__bolt" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M100 0 480 315 366 396 765 900"/><path d="M1440 80 1012 388 1136 468 748 900"/></svg>
       <span class="landing-bats__flash"></span>
@@ -206,16 +216,14 @@ export function homePage (data, seasonal) {
   const bands = ganttBands(seasonal)
   const runningNow = bands.filter((b) => bandCovers(b, BUILD_MONTH_NUMBER)).map((b) => b.event)
   const haunt = hauntBand(runningNow)
-  const halloweenEnd = runningNow.filter((e) => e.season === 'halloween')
-    .flatMap((e) => (e.editions || []).filter((ed) => ed.status === 'announced').map((ed) => ed.endDate))
-    .filter(Boolean).sort().at(-1)
+  const halloweenEnd = latestSeasonEnd(runningNow.filter((e) => e.season === 'halloween'))
   const otherRunning = runningNow.filter((e) => !haunt.claimed.includes(e))
   const thisMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER)
   const nextMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER === 12 ? 1 : BUILD_MONTH_NUMBER + 1)
   const buildMonthEnd = `${BUILD_MONTH}-${String(new Date(Number(BUILD_MONTH.slice(0, 4)), Number(BUILD_MONTH.slice(5, 7)), 0).getDate()).padStart(2, '0')}`
 
   const body = html`
-    ${landingBats(halloweenEnd)}
+    ${landingBats(halloweenEnd.date, halloweenEnd.timeZone)}
     ${C.hero({
       eyebrow: `${data.parks.length} US parks · independent & unofficial`,
       title: 'Know exactly what your family can ride, eat, and skip.',
@@ -305,7 +313,7 @@ export function homePage (data, seasonal) {
       label: 'Start with when to go',
     })}
 
-    ${otherRunning.length ? html`<div data-season-until="${buildMonthEnd}">${C.section({
+    ${otherRunning.length ? html`<div data-season-until="${buildMonthEnd}" data-season-time-zone="${latestParkTimeZone(otherRunning.slice(0, 6))}">${C.section({
       title: `Seasonal guide for ${MONTHS[BUILD_MONTH_NUMBER - 1].name}`,
       kicker: 'What may be running',
       intro: 'These event windows overlap this month. Each card states whether this year is confirmed, expected, or drawn from the last confirmed cycle.',

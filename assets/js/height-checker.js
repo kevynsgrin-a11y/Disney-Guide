@@ -26,7 +26,7 @@
     var cmEl = document.querySelector('[data-height-cm]')
     var canEl = document.querySelector('[data-height-can]')
     var cantEl = document.querySelector('[data-height-cant]')
-    var pctEl = document.querySelector('[data-height-pct]')
+    var unknownEl = document.querySelector('[data-height-unknown]')
     var results = document.querySelector('[data-height-results]')
     var announce = document.querySelector('[data-height-announce]')
     var unitToggle = document.querySelector('[data-height-unit]')
@@ -80,24 +80,31 @@
       if (cmEl) cmEl.textContent = useMetric ? inches + ' inches' : cm + ' cm'
 
       var totalCan = 0
-      var totalAll = 0
+      var totalCant = 0
+      var totalUnknown = 0
       var unlocked = null
 
       var html = parks.map(function (park) {
         var can = []
         var cant = []
+        var unknown = []
         park.rides.forEach(function (ride) {
-          totalAll++
-          if (ride.h == null || ride.h <= inches) {
+          if (ride.h == null) {
+            unknown.push(ride)
+            totalUnknown++
+          } else if (ride.h <= inches) {
             can.push(ride)
             totalCan++
             /* Crossing a threshold on this movement is the unlock moment; the tallest such
                ride is the one worth naming. */
-            if (prevInches != null && ride.h != null && ride.h > prevInches && ride.h <= inches) {
+            if (prevInches != null && ride.h > prevInches && ride.h <= inches) {
               if (!unlocked || ride.h > unlocked.h) unlocked = ride
             }
           }
-          else cant.push(ride)
+          else {
+            cant.push(ride)
+            totalCant++
+          }
         })
         /* Sorted by how close they are, so the nearest miss reads first — that is the one that
            decides whether a family waits a season or books now. */
@@ -105,7 +112,8 @@
           .sort(function (a, b) { return a.h - b.h })
         return '<section class="hchecker__park">' +
           '<h3><a href="' + esc(park.url) + '">' + esc(park.name) + '</a> ' +
-          '<small>' + can.length + ' of ' + park.rides.length + ' rideable</small></h3>' +
+          '<small>' + can.length + ' verified rideable' +
+          (unknown.length ? ' · ' + unknown.length + ' height unverified' : '') + '</small></h3>' +
           (nearMiss.length
             ? '<div class="nearmiss"><p class="nearmiss__title">' +
               (nearMiss.length === 1 ? 'One ride is just out of reach' : nearMiss.length + ' rides are just out of reach') +
@@ -126,28 +134,31 @@
             cant.map(function (r) {
               return '<li data-blocked data-need="' + r.h + '">' + esc(r.n) + '</li>'
             }).join('') +
+            unknown.map(function (r) {
+              return '<li data-unverified>' + esc(r.n) + ' · height unverified</li>'
+            }).join('') +
           '</ul></section>'
       }).join('')
 
       if (results) results.innerHTML = html
       if (canEl) canEl.textContent = String(totalCan)
-      if (cantEl) cantEl.textContent = String(totalAll - totalCan)
-      if (pctEl) pctEl.textContent = totalAll ? Math.round((totalCan / totalAll) * 100) + '%' : '—'
+      if (cantEl) cantEl.textContent = String(totalCant)
+      if (unknownEl) unknownEl.textContent = String(totalUnknown)
 
       announceResult(
         (useMetric ? cm + ' centimetres' : inches + ' inches') + ': ' +
-        totalCan + ' of ' + totalAll + ' rides they can do, ' +
-        (totalAll - totalCan) + ' still too short.'
+        totalCan + ' verified rideable, ' + totalCant + ' still too short, ' +
+        totalUnknown + ' with height unverified.'
       )
 
       if (unlocked) announceUnlock(unlocked)
       /* C5: the one moment of earned warmth */
-      if (totalAll > 0 && totalCan === totalAll && !window.__rrkAllClear) {
+      if (totalCan > 0 && totalCant === 0 && totalUnknown === 0 && !window.__rrkAllClear) {
         window.__rrkAllClear = true
         var allClear = document.createElement('p')
         allClear.className = 'hchecker__toast'
         allClear.setAttribute('role', 'status')
-        allClear.textContent = 'They’re ready for it all.'
+        allClear.textContent = 'They clear every verified height here.'
         document.querySelector('.hchecker') && document.querySelector('.hchecker').appendChild(allClear)
         setTimeout(function () { allClear.removeAttribute('data-open') }, 3000)
         setTimeout(function () { allClear.setAttribute('data-open', '') }, 50)
@@ -163,7 +174,8 @@
 
     slider.addEventListener('input', function () {
       var inches = Number(slider.value)
-      var prev = Number(slider.getAttribute('data-prev'))
+      var prevValue = slider.getAttribute('data-prev')
+      var prev = prevValue == null ? null : Number(prevValue)
       persist(inches)
       render(inches, isNaN(prev) ? null : prev)
       slider.setAttribute('data-prev', String(inches))
@@ -182,6 +194,7 @@
 
     var initial = restore()
     slider.value = String(initial)
+    slider.setAttribute('data-prev', String(initial))
     render(initial)
   })
 })()

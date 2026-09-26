@@ -186,7 +186,7 @@ export function ridesPage (park, data) {
     a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : html`<a href="#${a.slug}">${a.name}</a>`,
     a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
     f.attractionType(a.type),
-    html`<span data-value="${a.heightIn || 0}">${a.heightIn ? `${a.heightIn}"` : 'Any'}</span>`,
+    html`<span data-value="${a.heightIn ?? -1}">${a.heightIn != null ? `${a.heightIn}"` : 'Unverified'}</span>`,
     html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
     html`<span data-value="${a.scary && a.scary.score ? a.scary.score : 0}">${a.scary && a.scary.score ? `${a.scary.score}/5` : '—'}</span>`,
     a.queueLabelShort,
@@ -201,8 +201,8 @@ export function ridesPage (park, data) {
       tone: 'compact',
       meta: [
         { label: 'Attractions', value: String(open.length) },
-        { label: 'No height limit', value: String(park.noHeightAttractions.length) },
-        { label: 'Height limits', value: String(park.heightAttractions.length) },
+        { label: 'Height unverified', value: String(park.noHeightAttractions.length) },
+        { label: 'Verified minimums', value: String(park.heightAttractions.length) },
         { label: 'Lands', value: String(park.lands.length) },
       ],
     })}
@@ -311,7 +311,7 @@ export function attractionPage (attraction, data) {
       title: attraction.name,
       lede: attraction.summary,
       meta: [
-        { label: 'Minimum height', value: attraction.heightIn ? f.height(attraction.heightIn) : 'None' },
+        { label: 'Minimum height', value: f.height(attraction.heightIn) },
         attraction.durationMinutes != null ? { label: 'Ride length', value: f.duration(attraction.durationMinutes) } : null,
         { label: data.queue.name, value: attraction.queueLabelShort },
         attraction.opened ? { label: 'Opened', value: String(attraction.opened) } : null,
@@ -319,7 +319,7 @@ export function attractionPage (attraction, data) {
       aside: html`
         ${C.factPanel([
           { label: 'Type', value: f.attractionType(attraction.type) },
-          { label: 'Height', value: attraction.heightIn ? f.height(attraction.heightIn) : 'Any height', hint: attraction.heightNote },
+          { label: 'Height', value: f.height(attraction.heightIn), hint: attraction.heightNote },
           { label: 'Intensity', value: f.intensityLabel(attraction.intensity) },
           { label: 'Motion sickness', value: f.motion(attraction.motionSickness) },
           { label: 'Getting wet', value: f.getsWet(attraction.getsWet) },
@@ -420,7 +420,7 @@ export function attractionPage (attraction, data) {
         // others exist at both resorts, and undifferentiated titles cannibalise each other.
         title: `${attraction.name} (${park.shortLabel})`,
         titleTail: attraction.heightIn ? ': height & scares' : ': is it scary?',
-        description: C.truncate(`${attraction.summary} ${attraction.heightIn ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `No height requirement at ${park.name}.`}`, 155),
+        description: C.truncate(`${attraction.summary} ${attraction.heightIn != null ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `Height requirement unverified at ${park.name}.`}`, 155),
         trail,
         modified: `${attraction.lastVerified || '2026-07'}-01`,
         ogType: 'article',
@@ -530,12 +530,12 @@ export function heightsPage (park, data) {
     ${C.hero({
       eyebrow: park.name,
       title: `${park.name} height requirements`,
-      lede: `${park.heightAttractions.length} attractions have a minimum height. ${park.noHeightAttractions.length} do not. Here is exactly where your child stands.`,
+      lede: `${park.heightAttractions.length} attractions have a verified numerical minimum here. ${park.noHeightAttractions.length} have no verified figure recorded; check those with the park before promising a rider.`,
       tone: 'compact',
       meta: [
         { label: 'Shortest requirement', value: thresholds.length ? f.height(thresholds[0]) : '—' },
         { label: 'Tallest requirement', value: thresholds.length ? f.height(thresholds[thresholds.length - 1]) : '—' },
-        { label: 'No requirement', value: `${park.noHeightAttractions.length} attractions` },
+        { label: 'Height unverified', value: `${park.noHeightAttractions.length} attractions` },
       ],
       actions: [{ href: urls.heightChecker(), label: 'Open the height checker', primary: true }],
     })}
@@ -581,11 +581,11 @@ export function heightsPage (park, data) {
           return html`
             <div class="doc-section" id="height-${threshold}">
               <h2>At ${threshold} inches (${Math.round(threshold * 2.54)}cm)</h2>
-              <p>A child who measures ${threshold} inches can ride <strong>${unlocked.length + park.noHeightAttractions.length}</strong> of the ${park.attractions.filter((a) => a.isOpen).length} attractions at ${park.name} — every one of the ${park.noHeightAttractions.length} with no requirement, plus ${unlocked.length} that do have one.</p>
+              <p>A child who measures ${threshold} inches clears <strong>${unlocked.length}</strong> of the ${park.heightAttractions.length} verified numerical minimums at ${park.name}. Another ${park.noHeightAttractions.length} attractions have no verified height figure here; check them with the park.</p>
               <p><strong>Newly unlocked at this height:</strong> ${f.list(justUnlocked.map((a) => a.name))}.</p>
               ${blocked.length
                 ? html`<p><strong>Still too short for:</strong> ${f.list(blocked.map((a) => `${a.name} (${a.heightIn}")`))}.</p>`
-                : html`<p><strong>Nothing is off limits.</strong> At ${threshold} inches your child clears every height requirement in the park.</p>`}
+                : html`<p>At ${threshold} inches your child clears every <strong>verified numerical minimum</strong> listed here. Check any unverified restrictions and other rider rules with the park.</p>`}
             </div>
           `
         })}
@@ -593,9 +593,9 @@ export function heightsPage (park, data) {
     })}
 
     ${C.section({
-      title: `Attractions with no height requirement`,
+      title: `Attractions with no verified height figure`,
       kicker: `${park.noHeightAttractions.length} of them`,
-      intro: 'Anyone can ride these, at any height — though some still frighten small children. Scare factors are noted where they matter.',
+      intro: 'These attractions have no numerical minimum verified in this guide. Some may have no height rule, while others have an unverified restriction. Check the park’s current rules before planning a ride.',
       children: html`
         ${C.dataTable({
           sortable: true,
@@ -647,7 +647,7 @@ export function heightsPage (park, data) {
         url: urls.heights(park),
         title: `${park.shortLabel} height requirements`,
         titleTail: ' (2026)',
-        description: `All ${park.heightAttractions.length} ${park.name} rides with a minimum height, plus exactly what a child can ride at each height band. Verified July 2026.`,
+        description: `${park.heightAttractions.length} verified numerical height minimums at ${park.name}, with rider-height bands and unverified attractions clearly separated. Check current rules with the park.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },

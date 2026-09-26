@@ -135,7 +135,7 @@ export function pill (label, tone = '') {
 }
 
 export function heightBadge (inches) {
-  if (inches == null) return html`<span class="hbadge hbadge--any">Any height</span>`
+  if (inches == null) return html`<span class="hbadge hbadge--unverified">Height unverified</span>`
   const tone = inches >= 44 ? 'tall' : inches >= 40 ? 'mid' : 'short'
   return html`<span class="hbadge hbadge--${tone}"><strong>${inches}"</strong><span>${Math.round(inches * 2.54)}cm</span></span>`
 }
@@ -415,7 +415,7 @@ export function linkGrid (links, { columns = 3 } = {}) {
 
 export function attractionCard (attraction) {
   const badges = [
-    attraction.heightIn != null ? { label: `${attraction.heightIn}" min`, tone: 'height' } : { label: 'Any height', tone: 'good' },
+    attraction.heightIn != null ? { label: `${attraction.heightIn}" min`, tone: 'height' } : { label: 'Height unverified', tone: '' },
     attraction.lightningLane !== 'none' ? { label: attraction.queueLabelShort, tone: 'll' } : null,
     !attraction.isOpen ? { label: 'Closed', tone: 'closed' } : null,
     attraction.singleRider ? { label: 'Single rider', tone: '' } : null,
