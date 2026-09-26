@@ -7,26 +7,26 @@
   "category": "families",
   "readingTimeMinutes": 11,
   "intro": [
-    "There are 41 height-restricted attractions across the four US Universal parks. That number is the single most useful thing to know before you book, because Universal's rides skew harder and taller than the ones down the road, and a child who has a full day at Magic Kingdom can run out of things to ride here by lunchtime.",
-    "The range runs from 34 inches to 54 inches. The crowding is at 40: 11 attractions sit at exactly that stick, more than at any other number, and clearing it takes a child from 9 rides to 20. If you are travelling with someone close to 40 inches, that inch is worth more than any other planning decision you will make.",
+    "There are 42 operating attractions with published numerical height minimums across the four US Universal parks in this guide. That number is the single most useful thing to know before you book, because Universal's rides skew harder and taller than the ones down the road, and a child who has a full day at Magic Kingdom can run out of things to ride here by lunchtime.",
+    "The range runs from 34 inches to 54 inches. The crowding is at 40: 14 attractions sit at exactly that stick, more than at any other number, and clearing it takes a child from 10 numerically height-cleared rides to 24. Other rider rules still apply, including supervising-companion requirements. If you are travelling with someone close to 40 inches, that inch is worth more than any other planning decision you will make.",
     "Measure at home before you go, in the shoes your child will actually wear, and measure honestly. Universal measures at the entrance to each attraction and will re-measure at the load platform if a team member is unsure. Being turned away at the front of a 70-minute queue is a bad afternoon, and it is entirely avoidable.",
-    "One thing worth stating plainly: this page will not tell you a height we could not confirm. Where an attraction has no number below, it is because we could not verify one, not because it has no requirement. Check it with Universal before you rely on it."
+    "This chart contains attractions with a verified numerical minimum. An attraction missing from it may have no numerical minimum, an unverified rule, or another type of rider restriction. Check Universal's current attraction rules before making a boarding promise."
   ],
   "keyPoints": [
-    "40 inches is the decisive threshold: 12 attractions sit at exactly that height, and clearing it unlocks 12 attractions in one step.",
-    "Under 40 inches, 10 of the 41 height-restricted attractions are available across all four parks combined.",
+    "40 inches is the decisive threshold: 14 attractions sit at exactly that height, and clearing it unlocks 14 numerical minimums in one step.",
+    "Under 40 inches, 10 of the 42 attractions with published numerical minimums are height-cleared across all four parks combined; other rider rules still apply.",
     "Islands of Adventure has the tallest sticks anywhere at Universal, topping out at 54 inches.",
     "Flight of the Hippogriff has a different requirement in Orlando than in Hollywood. Two parks, one ride name, two numbers.",
     "Universal measures at each attraction entrance, and will re-measure at the platform. Measure at home first, in shoes.",
     "Child Swap exists at every attraction with a height requirement, so one adult never has to sit out the whole day.",
-    "A missing number on this page means unverified, not unrestricted."
+    "An attraction missing from the numerical-minimum chart is not automatically unrestricted; check its current rider rules."
   ],
   "sections": [
     {
       "id": "orlando-table",
       "heading": "Every height requirement at Universal Orlando",
       "body": [
-        "29 operating attractions across the three Orlando parks carry a height requirement after Rip Ride Rockit closed in August 2025. Epic Universe figures and day-to-day restrictions should still be checked against Universal's app.",
+        "32 operating attractions across the three Orlando parks carry a published numerical minimum after Rip Ride Rockit closed in August 2025. Epic Universe figures and day-to-day restrictions should still be checked against Universal's app.",
         "Sorted by park, then by height, lowest first."
       ],
       "table": {
@@ -64,6 +64,11 @@
           ],
           [
             "Universal Studios Florida",
+            "Fast & Furious – Supercharged",
+            "40 in"
+          ],
+          [
+            "Universal Studios Florida",
             "Harry Potter and the Escape from Gringotts",
             "42 in"
           ],
@@ -80,7 +85,7 @@
           [
             "Islands of Adventure",
             "The High in the Sky Seuss Trolley Train Ride!",
-            "34 in"
+            "36 in"
           ],
           [
             "Islands of Adventure",
@@ -149,6 +154,11 @@
           ],
           [
             "Epic Universe",
+            "Yoshi's Adventure",
+            "34 in"
+          ],
+          [
+            "Epic Universe",
             "Curse of the Werewolf",
             "40 in"
           ],
@@ -165,12 +175,17 @@
           [
             "Epic Universe",
             "Harry Potter and the Battle at the Ministry",
-            "42 in"
+            "40 in"
           ],
           [
             "Epic Universe",
             "Mine-Cart Madness",
-            "42 in"
+            "40 in"
+          ],
+          [
+            "Epic Universe",
+            "Dragon Racer's Rally",
+            "48 in"
           ],
           [
             "Epic Universe",
@@ -258,14 +273,14 @@
       "heading": "What each threshold actually unlocks",
       "body": [
         "Height charts usually stop at listing the numbers. The useful question is what changes when a child crosses each one, because that is what decides whether a trip is worth taking this year or next.",
-        "The jump at 40 inches is the one that matters. Below it a child can ride 9 of the 39 restricted attractions. At 40 they can ride 20. Nothing else on the chart moves the number that far in one step."
+        "The jump at 40 inches is the one that matters. Below it a child clears 10 of the 42 published numerical minimums. At 40 they clear 24; supervising-companion and other rider rules still apply. Nothing else on the chart moves the number that far in one step."
       ],
       "table": {
         "caption": "Cumulative attractions available at each height, all four parks",
         "columns": [
           "Height",
           "Attractions at this stick",
-          "Total unlocked at or above"
+          "Numerical minimums cleared at this height"
         ],
         "rows": [
           [
@@ -275,48 +290,48 @@
           ],
           [
             "36 in",
-            "5",
-            "8"
+            "6",
+            "9"
           ],
           [
             "39 in",
             "1",
-            "9"
+            "10"
           ],
           [
             "40 in",
-            "11",
-            "20"
+            "14",
+            "24"
           ],
           [
             "42 in",
-            "7",
-            "27"
+            "5",
+            "29"
           ],
           [
             "44 in",
             "1",
-            "28"
+            "30"
           ],
           [
             "48 in",
-            "7",
-            "35"
+            "8",
+            "38"
           ],
           [
             "51 in",
             "2",
-            "37"
+            "40"
           ],
           [
             "52 in",
             "1",
-            "38"
+            "41"
           ],
           [
             "54 in",
             "1",
-            "39"
+            "42"
           ]
         ]
       },

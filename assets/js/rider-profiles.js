@@ -81,7 +81,7 @@ var RiderProfiles = (function () {
   }
 
   function statusFor (heightIn, requirementIn) {
-    if (requirementIn == null) return 'any' // no requirement posted
+    if (requirementIn == null) return 'unknown' // absence of a figure is not evidence of no minimum
     if (heightIn >= requirementIn) return 'now'
     return requirementIn - heightIn <= 2 ? 'near' : 'later'
   }
@@ -166,7 +166,7 @@ var RiderProfiles = (function () {
     var html = riders.slice(0, 4).map(function (r) {
       var miss = nearestMiss(r, attractions)
       if (!miss) {
-        return '<div class="rider-watch__item"><strong>' + esc(r.name) + '</strong> clears every posted height on this site. Ride everything.</div>'
+        return '<div class="rider-watch__item"><strong>' + esc(r.name) + '</strong> clears every verified numerical minimum here. Check unverified restrictions with the park.</div>'
       }
       var band = growthBand(ageAt(r.birthday))
       var proj = projectToHeight(miss.ride.h, r.heightIn, band, r.measuredOn)
@@ -190,7 +190,7 @@ var RiderProfiles = (function () {
     now: { cls: 'rider-badge--now', text: 'Rides now' },
     near: { cls: 'rider-badge--near', text: 'Near miss' },
     later: { cls: 'rider-badge--later', text: 'Not yet' },
-    any: { cls: 'rider-badge--now', text: 'Any height' },
+    unknown: { cls: 'rider-badge--unknown', text: 'Height unverified' },
   }
 
   function decorateTable (table, rider) {
@@ -208,7 +208,7 @@ var RiderProfiles = (function () {
         if (p.soonest) proj = ' · ~' + (p.soonest === p.latest ? p.soonest : p.soonest + '–' + p.latest)
       }
       var b = BADGES[status]
-      rows[i].classList.remove('rider-row--now', 'rider-row--near', 'rider-row--later')
+      rows[i].classList.remove('rider-row--now', 'rider-row--near', 'rider-row--later', 'rider-row--unknown')
       rows[i].classList.add('rider-row--' + status)
       cell.insertAdjacentHTML('beforeend',
         ' <span class="rider-badge ' + b.cls + '">' + esc(rider.name) + ': ' + b.text + proj + '</span>')

@@ -175,8 +175,8 @@
       "opened": 2012,
       "status": "open",
       "closedNote": null,
-      "heightIn": null,
-      "heightNote": "Family-tier minimum — verify the current figure on the park's own attraction page.",
+      "heightIn": 48,
+      "heightNote": "SeaWorld San Diego lists a 48-inch minimum; verify current restrictions at the ride entrance.",
       "durationMinutes": 1.5,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -214,8 +214,8 @@
       "summary": "The ray-themed family launch coaster with a touch aquarium in the queue — the park's graduation ride between the family tier and the 54-inch giants.",
       "description": [
         "Manta is San Diego's family launch coaster, themed to the manta ray with a wing-shaped train and a queue that passes through a ray touch pool — the ride and the animal exhibit are deliberately one experience. The launch provides the thrill beat; the layout stays in family territory.",
-        "It is the park's middle rung: the coaster a 48-inch-ish rider does while Emperor and Electric Eel wait a few growth spurts. The ray pool in the queue is the best queue-at-aquarium integration anywhere.",
-        "This site states no height figure for Manta on purpose — family-tier minimums at this park have moved, and the park's own page is the source of record."
+        "It is the park's middle rung: the coaster a 48-inch rider does while Emperor and Electric Eel wait a few growth spurts. The ray pool in the queue is the best queue-at-aquarium integration anywhere.",
+        "SeaWorld San Diego currently lists a 48-inch minimum for Manta. Check the entrance sign before joining the queue."
       ],
       "tips": [
         "The queue's ray pool is worth the ride alone — build in ten minutes to touch.",
@@ -230,7 +230,7 @@
         "journey-to-atlantis"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "journey-to-atlantis",
@@ -240,8 +240,8 @@
       "opened": 2004,
       "status": "open",
       "closedNote": null,
-      "heightIn": null,
-      "heightNote": "Verify the current minimum on the park's own page.",
+      "heightIn": 42,
+      "heightNote": "SeaWorld San Diego lists a 42-inch minimum; guests 42–47 inches need a supervising companion. Verify at the ride entrance.",
       "durationMinutes": 6,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -294,7 +294,7 @@
         "emperor"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "tidal-twister",
@@ -368,8 +368,8 @@
       "opened": 2023,
       "status": "open",
       "closedNote": null,
-      "heightIn": null,
-      "heightNote": "Family-tier minimum — verify the current figure on the park's own page.",
+      "heightIn": 48,
+      "heightNote": "SeaWorld San Diego lists a 48-inch minimum; verify current restrictions at the ride entrance.",
       "durationMinutes": 1.5,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -422,7 +422,7 @@
         "electric-eel"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "orca-presentation",

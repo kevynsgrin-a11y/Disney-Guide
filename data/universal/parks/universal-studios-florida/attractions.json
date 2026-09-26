@@ -715,8 +715,8 @@
       "opened": 2018,
       "status": "open",
       "closedNote": null,
-      "heightIn": null,
-      "heightNote": null,
+      "heightIn": 40,
+      "heightNote": "Universal lists a 40-inch (102 cm) minimum. Children 40–48 inches require a supervising companion. Source: https://www.universalorlando.com/webdata/k2/en/us/files/Documents/universal-orlando-riders-guide.pdf (height requirements, verified September 26, 2026).",
       "durationMinutes": 5,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -751,11 +751,11 @@
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "A party bus driven past wraparound screens for five minutes, with no height requirement and the weakest payoff at Universal Orlando.",
+      "summary": "A party bus driven past wraparound screens for five minutes, with a 40-inch minimum and the weakest payoff at Universal Orlando.",
       "description": [
         "Fast & Furious – Supercharged opened in 2018 in the San Francisco waterfront buildings and is, by broad consensus, the weakest attraction at Universal Orlando. It puts you on a large party-bus vehicle which drives slowly into a tunnel of wraparound projection screens, and the screens do the work while the bus does very little.",
         "The queue is a long walk through a garage and a family gathering, with pre-show video sequences that take a considerable amount of time to set up a plot nobody needs. The ride itself runs about five minutes and consists mainly of watching a car chase happen to other people.",
-        "There is one genuine merit and it is worth stating without sarcasm: it has no height requirement, no transfer requirement and no real motion, it is fully air conditioned, and it seats a lot of people. On a hot afternoon with a mixed-ability group, that combination has real value even when the attraction does not."
+        "There is one genuine merit and it is worth stating without sarcasm: it has level boarding and no real motion, is fully air conditioned, and seats a lot of people. Riders must be at least 40 inches tall, with a supervising companion required through 48 inches. On a hot afternoon with a mixed-ability group that clears the height rule, it still has value."
       ],
       "experience": [
         "The queue is long and heavily themed as a garage and a warehouse, with two pre-shows that between them add a good ten minutes before you reach the vehicle. On a quiet day this is more time than the ride deserves; on a busy one it is where the wait actually happens.",
@@ -766,7 +766,7 @@
         "Ride it when the board says fifteen minutes or fewer, and walk past otherwise. There is no version of this attraction that justifies an hour.",
         "It is a good use of an Express Pass only if you already hold one and have run out of better options; do not buy Express with this in the calculation.",
         "The air conditioning and the level boarding make it a genuine rest for a group with mixed mobility, which is the honest case for riding it at all.",
-        "It has no height requirement, which puts it on a very short list of things a preschooler can do here, though the noise level is high.",
+        "It requires 40 inches, and children through 48 inches need a supervising companion. The noise level is high even for children who clear the height rule.",
         "Skip the front of the vehicle. The side positions have a better angle on the wraparound screens than the ends do."
       ],
       "bestTime": "Any time the posted wait is under 15 minutes, most often first thing or in the last hour.",
@@ -774,7 +774,7 @@
       "faqs": [
         {
           "q": "Is there a height requirement for Fast & Furious – Supercharged?",
-          "a": "No. There is no height stick, no individual restraint and no real motion, which makes it one of a small number of attractions at this park a preschooler can do. It is loud, though, and the noise is what upsets small children rather than anything visual."
+          "a": "Yes. Universal lists a 40-inch minimum; children from 40 to 48 inches need a supervising companion. The attraction is loud, and clearing the height rule does not guarantee a child will enjoy it."
         },
         {
           "q": "Is Fast & Furious – Supercharged worth doing?",
@@ -795,7 +795,7 @@
         "revenge-of-the-mummy"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "harry-potter-and-the-escape-from-gringotts",

@@ -526,7 +526,7 @@ main:focus { outline: none; }
   background: var(--surface-2); border: 1px solid var(--line); color: var(--muted);
 }
 .hbadge strong { font-size: .95rem; font-family: var(--font-display); color: var(--ink); }
-.hbadge--any { background: var(--good-soft); border-color: transparent; color: var(--good); font-weight: 650; padding: .45rem .7rem; }
+.hbadge--unverified { background: var(--surface-2); border-color: var(--line); color: var(--muted); font-weight: 650; padding: .45rem .7rem; }
 .hbadge--short { background: var(--good-soft); border-color: transparent; }
 .hbadge--short strong { color: var(--good); }
 .hbadge--mid { background: var(--warn-soft); border-color: transparent; }
@@ -911,6 +911,8 @@ main:focus { outline: none; }
 .rider-badge--near::before { background: linear-gradient(to right, var(--warn) 50%, transparent 50%); border: 1.5px solid var(--warn); width: .45em; height: .45em; }
 .rider-badge--later { background: var(--surface-2); color: var(--muted); }
 .rider-badge--later::before { border: 1.5px solid var(--muted); }
+.rider-badge--unknown { background: var(--surface-2); color: var(--muted); }
+.rider-badge--unknown::before { border: 1.5px dashed var(--muted); }
 .rider-note { margin: 0 0 var(--space-3); font-size: var(--step--1); }
 
 /* My Riders page */
@@ -1021,6 +1023,7 @@ main:focus { outline: none; }
   .rider-badge--now { color: #000; background: #eee; }
   .rider-badge--near { color: #000; background: #eee; }
   .rider-badge--later { color: #444; background: #fff; border: 1px solid #bbb; }
+  .rider-badge--unknown { color: #444; background: #fff; border: 1px solid #bbb; }
   .ruler__rungs::before { background: #666; }
   .ruler__rung--cleared .ruler__tick { background: #000; border-color: #000; }
   .ruler__rung--ahead .ruler__tick { border-color: #000; background: #fff; }
@@ -1093,6 +1096,7 @@ main:focus { outline: none; }
 }
 .ride-chiplist li[data-blocked] { background: var(--danger-soft); color: var(--danger); }
 .ride-chiplist li[data-blocked]::after { content: " · " attr(data-need) "\""; opacity: .8; font-weight: 500; }
+.ride-chiplist li[data-unverified] { background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
 
 /* ---------- 19. Maps ----------------------------------------------------- */
 

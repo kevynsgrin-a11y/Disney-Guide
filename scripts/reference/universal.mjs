@@ -42,6 +42,8 @@ export const HEIGHTS = {
     // meet-and-greet, which has no height stick and should not have one asserted against it.
     'transformers: the ride': 40,
     'the simpsons ride': 40,
+    // Checked against Universal's rider guide on September 26, 2026.
+    'fast & furious': 40,
     // Written blind as "woody woodpecker", which the dataset did not have: the coaster was rethemed
     // with DreamWorks Land. Both sources independently put it at 36, so the number is corroborated
     // and only the name moved.
@@ -60,7 +62,8 @@ export const HEIGHTS = {
     'bilge-rat barges': 42,
     'jurassic park river adventure': 42,
     'spider-man': 40,
-    'flight of the hippogriff': 34,
+    'flight of the hippogriff': 36,
+    'high in the sky seuss trolley train ride': 36,
     'cat in the hat': 36,
     'reign of kong': 36,
   },
@@ -74,6 +77,7 @@ export const HEIGHTS = {
     'stardust racers': 48,
     'mario kart': 40,
     'mine-cart madness': 40,
+    'battle at the ministry': 40,
     yoshi: 34,
     'dragon-racers-rally': 48,
 },

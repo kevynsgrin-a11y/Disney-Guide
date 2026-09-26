@@ -61,7 +61,7 @@ function heightAppendix (data) {
       <h3 class="mt-6">What unlocks at each height</h3>
       ${C.dataTable({
         className: 'data-table--stack',
-        caption: 'Counting only rides that have a requirement — every attraction with no requirement is rideable at any height.',
+        caption: 'Counting only verified numerical minimums; rides without a verified figure are not assumed rideable.',
         columns: [{ label: 'Height', align: 'num', sort: 'number' }, { label: 'Rides now open to them', align: 'num', sort: 'number' }, 'Newly unlocked at this height'],
         rows: bands,
       })}
@@ -82,7 +82,7 @@ function scaryAppendix (data) {
       html`<span data-value="${a.scary.drops || 0}">${a.scary.drops ?? '—'}</span>`,
       html`<span data-value="${a.scary.loudness || 0}">${a.scary.loudness ?? '—'}</span>`,
       html`<span data-value="${a.scary.startles || 0}">${a.scary.startles ?? '—'}</span>`,
-      a.heightIn ? `${a.heightIn}"` : 'Any',
+      a.heightIn != null ? `${a.heightIn}"` : 'Unverified',
     ])
   if (!rows.length) return raw('')
 
