@@ -57,7 +57,8 @@
     "epcot-flower-and-garden-festival",
     "disney-california-adventure-food-and-wine-festival",
     "disney-after-hours",
-    "disneyland-after-dark"
+    "disneyland-after-dark",
+    "epcot-festival-of-the-arts"
   ],
   "planningNotes": [
     {
@@ -79,7 +80,7 @@
     {
       "heading": "Flower and Garden is at its best, and its mornings are the only walkable ones",
       "body": [
-        "The Flower and Garden Festival opens at the end of February or start of March and reaches full strength this month — the topiaries are installed, the gardens are planted, and the Outdoor Kitchens are all open. It is the reason to take EPCOT seriously in March even though the park is busy.",
+        "EPCOT Festival of the Arts ends March 1, 2027, and Flower & Garden begins March 10. The latter continues through May 31; March 2–9 falls between the two confirmed festival windows.",
         "The scheduling detail that matters: the topiaries and gardens are photographable from the moment the park opens, but the food booths typically do not open until later in the morning. That gives you a clean first hour to walk World Showcase before anyone is queuing for anything, which is the only time in March when that promenade is comfortable.",
         "The Garden Rocks concert series draws a dinner-package crowd to the America Gardens Theatre in the evenings. Dining packages are the reliable way to get a seat at the later shows; standby seating for a popular act on a Saturday means arriving well over an hour early."
       ]
@@ -126,7 +127,7 @@
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Easter's position moves between March and April and is deliberately described as a moving window rather than a date.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Easter's position moves between March and April and is deliberately described as a moving window rather than a date. 2027 EPCOT festival boundaries: https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-flower-and-garden-festival/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

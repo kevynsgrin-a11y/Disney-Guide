@@ -9,20 +9,20 @@
     {
       "eventSlug": "epcot-festival-of-the-arts",
       "startMonth": 1,
-      "endMonth": 2,
+      "endMonth": 3,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "epcot-flower-and-garden-festival",
-      "startMonth": 2,
-      "endMonth": 7,
+      "startMonth": 3,
+      "endMonth": 5,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "epcot-food-and-wine-festival",
-      "startMonth": 7,
+      "startMonth": 8,
       "endMonth": 11,
       "resort": "walt-disney-world",
       "confidence": "confirmed"
@@ -37,7 +37,7 @@
     {
       "eventSlug": "mickeys-not-so-scary-halloween-party",
       "startMonth": 8,
-      "endMonth": 11,
+      "endMonth": 10,
       "resort": "walt-disney-world",
       "confidence": "confirmed"
     },
@@ -51,16 +51,16 @@
     {
       "eventSlug": "disney-jollywood-nights",
       "startMonth": 11,
-      "endMonth": 12,
+      "endMonth": 1,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "disney-after-hours",
       "startMonth": 1,
       "endMonth": 8,
       "resort": "walt-disney-world",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "lunar-new-year-at-disney-california-adventure",
@@ -106,10 +106,10 @@
     }
   ],
   "notes": [
-    "Bands are windows, not schedules. Each one describes the span an event has occupied across the 2023, 2024 and 2025 cycles, rounded to whole months. An event whose band covers a month may run for only part of it.",
-    "One band wraps the year. Holidays at the Disneyland Resort starts in November and ends in January, which is encoded here as month 11 to month 1 rather than clamped to December, because clamping it would hide the reason the first ten days of January are the best-value week of the Anaheim year.",
-    "Two bands are wider than a single run. Disney After Hours and Disneyland After Dark are series of individual hard-ticket evenings at varying parks rather than continuous seasons, so their bands describe the months in which nights have been sold rather than a run you can turn up for.",
-    "Every band is labelled expected rather than confirmed. Each event has held its window for at least three consecutive cycles, which is strong enough to plan around, and none of them has 2026 or 2027 dates that we have verified against an operator calendar as of July 2026."
+    "Bands show whole-month spans, not exact schedules. EPCOT Arts and Flower & Garden and Walt Disney World After Hours use Disney’s published 2027 dates; autumn and winter event bands use their published 2026–27 dates. Open each event page for exact days and parks.",
+    "The Disneyland Resort holiday band wraps from November into January. For the 2026–27 season, Disney confirms a mid-November start and an early-January finish; the event page has the exact dates.",
+    "Confidence is shown per band. Confirmed 2026 events have published operator dates; expected bands are planning windows awaiting current-cycle confirmation. A month-wide band may represent only part of that month.",
+    "Confidence is shown per band. Confirmed 2026 events have published operator dates; expected bands are planning windows awaiting current-cycle confirmation. A month-wide band may represent only part of that month."
   ],
   "crossLinks": [
     {
@@ -134,9 +134,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "Each band describes the window an event has occupied across the 2023, 2024 and 2025 cycles at its resort, rounded to whole months, and matches the typical windows in the site's reference table. No 2026 or 2027 dates have been verified by us against either operator's published calendar as of July 2026, which is why every band on the timeline carries the expected label rather than confirmed. Bands are rechecked as each season's dates are announced rather than once a year.",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "Disneyland Halloween/Bash/holidays and Disney World 2026–27 windows checked September 26 against official event pages: https://disneyworld.disney.go.com/en_CA/events-tours/mickeys-not-so-scary-halloween-party/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-food-and-wine-festival/ https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/ https://disneyworld.disney.go.com/en_CA/events-tours/hollywood-studios/jollywood-nights/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/holiday-festival/ https://disneyworld.disney.go.com/en_CA/events-tours/holidays/ Timeline bands round spans to whole months. Disneyland source pages: https://disneyland.disney.go.com/events-tours/halloween-time-at-the-disneyland-resort/ https://disneyland.disney.go.com/events-tours/disney-california-adventure/oogie-boogie-bash-halloween-party/ https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/ 2027 EPCOT Arts, Flower & Garden and Disney After Hours windows checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-flower-and-garden-festival/ https://disneyworld.disney.go.com/en_CA/events-tours/after-hours/",
     "reviewBy": "2026-11",
     "cycle": "rolling"
   }

@@ -114,22 +114,16 @@ test('express ROI: verdict bands and input clamps hold at the edges', () => {
 
 /* ---------- Haunt Planner ---------- */
 
-test('haunt planner: the route follows the wait-curve logic', () => {
-  const r = HauntPlanner.buildRoute({ houseCount: 10, nightType: 'weeknight', arrive: 'open' })
-  assert.ok(r.steps.length >= 4)
-  const first = r.steps[0]
-  assert.ok(/marquee/i.test(first.body), 'the first hour goes to the marquees')
-  assert.ok(r.steps.some((s) => /final two hours/i.test(s.window)), 'the collapse hour is scheduled')
-  assert.ok(!r.steps.some((s) => /line-skip product/i.test(s.body)), 'weeknights do not push the upcharge')
-})
-
-test('haunt planner: late arrival inverts the route; peak nights print the queue math', () => {
-  const late = HauntPlanner.buildRoute({ houseCount: 10, nightType: 'weeknight', arrive: 'late' })
-  assert.ok(/back half first/i.test(late.steps[0].body))
-  const peak = HauntPlanner.buildRoute({ houseCount: 10, nightType: 'peak', arrive: 'open' })
-  const peakNote = peak.steps.find((s) => /hours of queueing/i.test(s.body))
-  assert.ok(peakNote, 'peak nights state the queueing total')
-  assert.ok(peakNote.body.includes('11 hours'), '10 houses × (50+13) min = 10.5 h → rounds to ~11 h, printed honestly')
+test('haunt planner: official roster shortlist and user quotes stay separate', () => {
+  const event = { houseLineup: ['A', 'B', 'C', 'D'], startDate: '2026-09-03', endDate: '2026-11-01' }
+  const plan = HauntPlanner.buildChecklist(event, { priorities: [2, 0], party: 4, basePrice: '90', alternativePrice: '135', night: '2026-10-01' })
+  assert.deepEqual(plan.order, [2, 0, 1, 3])
+  assert.equal(plan.baseTotal, 360)
+  assert.equal(plan.alternativeTotal, 540)
+  assert.equal(plan.difference, 180)
+  assert.match(plan.dateStatus, /confirm it is an event night/i)
+  assert.equal(HauntPlanner.buildChecklist(event, { priorities: [0, 1, 2, 3] }), null)
+  assert.match(HauntPlanner.buildChecklist(event, { priorities: [], night: '2026-12-01' }).dateStatus, /outside/i)
 })
 
 /* ---------- build-side: pages exist where their data does, and only there ---------- */
@@ -175,6 +169,8 @@ test('express ROI and haunt planner build on the Universal site with their paylo
   const hauntPayload = JSON.parse(haunt.html.match(/<script type="application\/json" id="haunt-data">([\s\S]*?)<\/script>/)[1])
   assert.equal(hauntPayload.events.length, 2)
   assert.ok(hauntPayload.events.every((e) => e.url.includes('/events/')))
+  assert.deepEqual(hauntPayload.events.map((e) => e.houseLineup.length), [10, 8])
+  assert.ok(hauntPayload.events.every((e) => e.sourceUrl.startsWith('https://') && e.verified === '2026-09-26'))
 })
 
 test('knotts deepening: rapids and pony express landed with the height discipline intact', async () => {

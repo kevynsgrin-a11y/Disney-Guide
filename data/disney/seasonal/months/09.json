@@ -26,7 +26,7 @@
     "shape": "Every driver of Walt Disney World attendance switches off at once in September and nothing replaces them. US districts are back in session nationwide, the Florida drive-in market has exhausted its summer budget, the international summer season has ended, and hurricane risk deters everybody who is not on a Disney-specific mission. Weekday waits in the first three weeks are the lowest of any month, including January's, and unlike January the ride roster is closer to complete and the weather does not cancel water parks. The curve lifts slightly around Labor Day at the front and again at the very end as the earliest fall-break districts appear, but the middle three weeks genuinely have no crowd driver. Disneyland runs a different pattern for a specific reason: Halloween Time is installed across both parks and Oogie Boogie Bash nights are selling out, so while California weekdays are quiet, Anaheim weekends hold high attendance for the entire month. The single biggest weekday-to-weekend gap at Walt Disney World this month is at EPCOT, where the Food and Wine Festival pulls a large Florida-resident crowd onto Friday and Saturday nights and leaves Tuesdays close to empty.",
     "peakWindows": [
       "Labor Day weekend at both resorts",
-      "Every weekend at Disneyland, driven by Halloween Time and party nights",
+      "Disneyland Halloween Time weekends; DCA Bash occurs on select Sundays, Tuesdays and Thursdays",
       "Friday and Saturday evenings at EPCOT, where the Food and Wine crowd is entirely local"
     ],
     "quietWindows": [
@@ -71,7 +71,7 @@
     {
       "heading": "The party ticket can be better value than a regular ticket day",
       "body": [
-        "On a September Not-So-Scary night, Magic Kingdom admission for party guests typically opens several hours before the party itself starts. Because the daytime crowd in September is already thin, that turns a party ticket into a long evening in a park that is quiet before the event and capped during it.",
+        "On a September Not-So-Scary night, a valid party ticket admits guests to Magic Kingdom from 4 p.m. before the 7 p.m. event start. All 2026 dates are sold out on Disney’s official page as of September 26, so this advice is relevant to guests who already hold tickets or to a future season.",
         "Run the comparison rather than assuming. A date-based single-day ticket in September is at its cheapest and a party ticket is also at the low end of its seasonal band, and depending on the night the party can deliver more usable hours per dollar than a standard day at the same park.",
         "The reason this stops working in October is not the crowd but the price — party nights step up through the season, and the late-October nights are the most expensive of the run."
       ]
@@ -95,9 +95,9 @@
     {
       "heading": "Disneyland is not on the same calendar this month",
       "body": [
-        "The advice that September is quiet is a Walt Disney World statement, and applying it to Anaheim will produce a bad trip. Halloween Time is installed across both parks, the seasonal ride overlays are running, and Oogie Boogie Bash nights are sold out, all of which keeps Disneyland's weekends at full fall attendance.",
+        "Halloween Time is in season across both Disneyland Resort parks in September. Oogie Boogie Bash runs on select dates at DCA, with 2026 general admission sold out as of late September; check each day’s hours before choosing a park.",
         "The version that does work is a midweek Disneyland trip. Tuesday through Thursday in September is soft at both parks, and it is the last easy stretch before the resort's Halloween and holiday seasons run continuously into January.",
-        "If the party matters and it has sold out, remember that the Halloween Time overlays are day-guest content requiring nothing beyond park admission. The party buys you trick-or-treating, character content, and a capped crowd, not access to the seasonal attractions themselves."
+        "Even without a Bash ticket, Disneyland and DCA guests can see the regular Halloween Time overlays with valid admission and a same-day reservation. The party adds treat trails, Villains Grove and Madame Leota’s street party."
       ]
     }
   ],
@@ -124,9 +124,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy and the water park refurbishment rotation are long-running operator practices rather than confirmed current terms — verify both at the point of booking.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy and the water park refurbishment rotation are long-running operator practices rather than confirmed current terms — verify both at the point of booking. Disneyland Halloween Time and 2026 Bash ticket status checked against https://disneyland.disney.go.com/events-tours/halloween-time-at-the-disneyland-resort/ and https://disneyland.disney.go.com/events-tours/disney-california-adventure/oogie-boogie-bash-halloween-party/ on September 26, 2026. Walt Disney World 2026 Not-So-Scary sold-out status and Food & Wine dates checked against https://disneyworld.disney.go.com/en_CA/events-tours/mickeys-not-so-scary-halloween-party/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-food-and-wine-festival/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

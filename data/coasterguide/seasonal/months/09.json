@@ -2,10 +2,10 @@
   "month": 9,
   "name": "September",
   "slug": "september",
-  "summary": "The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month.",
+  "summary": "September brings quieter school-year weekdays at some parks and Halloween events opening from September 11 onward. Check each park's operating calendar before choosing a visit date.",
   "verdict": {
     "grade": "A",
-    "short": "September at these parks: one of the year's best windows. The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month..",
+    "short": "September can offer quieter ride days, while Halloween events start on different dates and often bring larger evening crowds.",
     "bestFor": [
       "Weekday ride days at their calmest",
       "Haunt opening nights"
@@ -17,9 +17,9 @@
   },
   "crowds": {
     "level": "moderate",
-    "shape": "The connoisseur month: school back everywhere, every park still running its summer-lite calendar, and the entire Halloween season opening at the end of the month.",
+    "shape": "School-year weekdays can be calmer, while Halloween programs open from September 11 onward and lift selected evenings and weekends.",
     "peakWindows": [
-      "The last weekend as the Halloween events open"
+      "Select Halloween opening nights and weekends"
     ],
     "quietWindows": [
       "The first three weeks' weekdays — the year's calmest full-operation days"
@@ -70,7 +70,11 @@
     "howl-o-scream-san-diego",
     "howl-o-scream-san-antonio",
     "howl-o-scream-orlando",
-    "brick-or-treat-legoland-california"
+    "brick-or-treat-legoland-california",
+    "tricks-and-treats-magic-mountain",
+    "tricks-and-treats-over-texas",
+    "kids-boo-fest-great-adventure",
+    "kids-boo-fest-great-america"
   ],
   "planningNotes": [
     {
@@ -82,7 +86,7 @@
     {
       "heading": "The detail that matters",
       "body": [
-        "The Halloween events open across the last ten days of the month and the weekends transform — the same park is two different products across one September Saturday."
+        "Halloween events begin on different dates from September 11 onward. A daytime family program and a nighttime haunt can have different admission and activity rules on the same park date."
       ]
     }
   ],

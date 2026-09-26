@@ -3,28 +3,28 @@
     {
       "eventSlug": "fright-fest-magic-mountain",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "southern-california",
       "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-over-texas",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "texas",
       "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-great-adventure",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "new-jersey",
       "confidence": "confirmed"
     },
     {
       "eventSlug": "fright-fest-great-america",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "chicago",
       "confidence": "confirmed"
     },
@@ -45,7 +45,7 @@
     {
       "eventSlug": "howl-o-scream-san-antonio",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "texas",
       "confidence": "confirmed"
     },
@@ -59,8 +59,36 @@
     {
       "eventSlug": "brick-or-treat-legoland-california",
       "startMonth": 9,
-      "endMonth": 10,
+      "endMonth": 11,
       "resort": "southern-california",
+      "confidence": "confirmed"
+    },
+    {
+      "eventSlug": "tricks-and-treats-magic-mountain",
+      "startMonth": 9,
+      "endMonth": 11,
+      "resort": "southern-california",
+      "confidence": "confirmed"
+    },
+    {
+      "eventSlug": "tricks-and-treats-over-texas",
+      "startMonth": 9,
+      "endMonth": 11,
+      "resort": "texas",
+      "confidence": "confirmed"
+    },
+    {
+      "eventSlug": "kids-boo-fest-great-adventure",
+      "startMonth": 9,
+      "endMonth": 11,
+      "resort": "new-jersey",
+      "confidence": "confirmed"
+    },
+    {
+      "eventSlug": "kids-boo-fest-great-america",
+      "startMonth": 9,
+      "endMonth": 11,
+      "resort": "chicago",
       "confidence": "confirmed"
     }
   ]

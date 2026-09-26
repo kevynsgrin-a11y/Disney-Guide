@@ -7,11 +7,11 @@
   "parkSlug": null,
   "category": "overlay",
   "season": "halloween",
-  "summary": "Included with any regular ticket, which is the whole argument for it, and the two attractions it repaints are better than the versions they replace. What you give up is those versions: Haunted Mansion Holiday is what you get instead of the Haunted Mansion, not in addition to it, and it holds the longest wait in its park all season.",
+  "summary": "Halloween Time runs August 21–October 31, 2026, across both Disneyland Resort parks with regular admission and a same-day park reservation. Disney California Adventure décor and Monsters After Dark began August 18; Plaza de la Familia continues through November 2.",
   "h1": "Halloween Time at the Disneyland Resort: what changes, what it costs you, and when to go",
   "title": "Halloween Time at the Disneyland Resort",
   "titleTail": ": What Changes & When To Go",
-  "description": "The Disneyland Resort's fall overlay across both parks — the two ride takeovers worth timing a trip for, what they cost you in access, and the weeks to book.",
+  "description": "Disneyland Halloween Time 2026: confirmed dates, ride overlays, Oogie Boogie Bash closures and what regular admission includes.",
   "typicalWindow": {
     "startsAround": "late August",
     "endsAround": "31 October",
@@ -29,7 +29,7 @@
       "Sat",
       "Sun"
     ],
-    "hours": "Every operating day in the window during regular park hours. The Guardians of the Galaxy evening variant runs only after dark, and the seasonal fireworks appear on select nights rather than nightly."
+    "hours": "Seasonal décor is available during regular park hours. Guardians of the Galaxy – Monsters After Dark begins in the late afternoon; Halloween Screams is scheduled on select nights, with fireworks on select performances."
   },
   "pricing": {
     "model": "included",
@@ -43,25 +43,26 @@
     "notes": [
       "The overlay itself is included with any regular admission. There is no Halloween Time ticket and no upcharge for either ride takeover.",
       "The range above is not an admission price. It is what the seasonal food items cost, which is the only spend Halloween Time genuinely adds to a normal park day.",
-      "Oogie Boogie Bash is a separate hard ticket at Disney California Adventure and none of its content - villains, treat trails, parade - is part of this.",
+      "Oogie Boogie Bash is a separate ticketed party at Disney California Adventure; treat trails, Villains Grove and Madame Leota’s street party are party offerings.",
       "Ticket prices are date-based, so the same overlay costs more to see on an October Saturday than on a September Tuesday. That difference is the closest thing to a price for Halloween Time.",
       "What else costs extra: Lightning Lane Multi Pass ran $30 to $45 per person per day at Disneyland Resort as of July 2026, and standard parking ran $35 to $40."
     ]
   },
   "whatYouGet": [
     "Haunted Mansion Holiday at Disneyland Park - the Nightmare Before Christmas takeover, installed for the season after a multi-week closure and left up through the December holidays.",
-    "Guardians of the Galaxy - Monsters After Dark at Disney California Adventure, an evening-only variant of Mission: BREAKOUT! with a different story and soundtrack.",
+    "Guardians of the Galaxy – Monsters After Dark at Disney California Adventure, August 18–October 31, beginning in the late afternoon rather than after full darkness.",
     "Haul-O-Ween in Cars Land, which is the strongest single piece of seasonal decoration at either resort, with holiday variants of Mater's and Luigi's attractions and a full repaint of the land.",
-    "Plaza de la Familia in Paradise Gardens Park at Disney California Adventure, a Dia de los Muertos celebration with live music, a Coco-themed stage show, and a memory wall.",
-    "Halloween Screams, the seasonal fireworks show at Disneyland Park, on select nights rather than every night.",
+    "Plaza de la Familia in Paradise Gardens Park at Disney California Adventure, August 21–November 2, with Coco-inspired performances, mariachi music and a memory wall.",
+    "Halloween Screams at Disneyland Park on select nights; fireworks accompany select performances, so check the entertainment calendar.",
     "Seasonal decoration across both parks, including the Main Street pumpkin display and the Mickey jack-o-lantern at the Disneyland Park entrance.",
-    "Halloween-specific food across both parks and a large seasonal merchandise line."
+    "Halloween-specific food across both parks and a large seasonal merchandise line.",
+    "Mickey’s Trick and Treat at the Disney Theater in Hollywood Land, which Disney says began August 18."
   ],
   "whatYouDont": [
     "The regular Haunted Mansion. The overlay is installed for roughly four months, from around September through the first week or two of January, so a fall or December trip means the standard version is simply unavailable. If that ride is a reason you are going to Disneyland Park, go in another season.",
     "Short waits on the two attractions you came for. Haunted Mansion Holiday routinely posts the longest standby wait in Disneyland Park during the season, comfortably above what the standard version draws in June, and the evening Guardians variant spikes the moment it switches over.",
     "A reliable Space Mountain overlay. The Halloween version of that ride has appeared in some seasons and been absent in others. Do not plan a trip around it and do not assume it from an old blog post.",
-    "Any of the Oogie Boogie Bash content. The villains, the treat trails, and the Frightfully Fun Parade sit behind a separate ticket that sells out months ahead.",
+    "Oogie Boogie Bash offerings such as themed treat trails, Villains Grove and Madame Leota’s 2026 street party. These require a separate event ticket.",
     "Extra capacity. The resort does not add attractions for the season; it repaints two, decorates the rest, and then hosts a substantially larger crowd in the same footprint.",
     "A full evening at Disney California Adventure on party nights. That park closes early to regular guests on Oogie Boogie Bash dates, which pushes everyone else into Disneyland Park and makes its evening noticeably busier."
   ],
@@ -77,7 +78,7 @@
     "skipIf": [
       "The standard Haunted Mansion is on your must-ride list. It is out of service in its normal form for about a third of the year and this is that third.",
       "Your dates are in the last two weeks of the run and crowds genuinely bother you. The final October weekends at Disneyland Park are among the busiest days of the year outside the December holidays.",
-      "You are expecting villains, treat trails, or a parade. Those are Oogie Boogie Bash, they are ticketed separately, and they are usually sold out.",
+      "You are expecting the Bash treat trails, villains or Madame Leota’s street party with regular admission. Those require a separate party ticket, and 2026 general admission is sold out.",
       "Your trip is short and driven by ride count. The overlays add two attractions to your queue list, not two attractions to the park.",
       "You are traveling with someone who finds the Haunted Mansion difficult. The seasonal version is louder and busier than the standard one, and the queue is longer."
     ]
@@ -93,12 +94,12 @@
       ]
     },
     {
-      "heading": "Monsters After Dark only exists after dark",
+      "heading": "Plan for Monsters After Dark in late afternoon or evening",
       "body": [
-        "The Disney California Adventure half of the season is an evening-only variant, which means a daytime-only plan for that park misses it entirely. This catches out more people than any other Halloween Time detail, because the ride runs all day in its normal form and the switch is not obvious from the outside.",
-        "If you are park hopping, hop into Disney California Adventure at night rather than out of it. That is the opposite of the advice for most of the year, when Disneyland Park's evening is the stronger one, and it is specific to this season.",
-        "Do not go at the changeover. The wait spikes immediately when the evening version starts, because everyone who has been waiting for it queues at once. Give it an hour and the line halves.",
-        "Whether the evening variant runs every operating night or only on some has varied between seasons. Check the day's schedule in the app when you arrive rather than assuming, and do not build a single-day Disney California Adventure plan that depends on it."
+        "Guardians of the Galaxy – Monsters After Dark runs August 18 through October 31, 2026. Disney says the alternate mission begins in the late afternoon each day; do not describe it as an after-dark-only ride.",
+        "Check that day’s Disneyland app listing for the exact switchover time and current wait. The regular Mission: BREAKOUT! ride operates before the seasonal mission begins.",
+        "On an Oogie Boogie Bash date, regular DCA guests leave at 6:00 p.m. The event continues until 11:00 p.m. for guests with a Bash ticket.",
+        "If the seasonal mission is a priority, plan a DCA visit with enough late-afternoon time rather than assuming a morning visit will include it."
       ]
     },
     {
@@ -116,7 +117,7 @@
         "Cars Land after dark is the best thing Halloween Time does that does not involve a queue. The whole land is repainted for the season, the two smaller attractions get their own overlays, and it reads far better under the neon at night than it does at two in the afternoon.",
         "Plaza de la Familia, in Paradise Gardens Park, is the quietest good thing in either park during the season. It runs live music and a short stage show on a loop through the day, it has seating, and almost nobody plans for it - which is exactly why it is a reliable place to sit down at four in the afternoon when the rest of the park is full.",
         "At Disneyland Park, the entrance and Main Street displays are the photograph everyone wants and are best done in the first 20 minutes after opening or in the last hour. The line for the Mickey pumpkin photograph in the middle of an October afternoon is longer than several rides.",
-        "The one genuinely non-obvious piece of timing: the two parks decorate on slightly different schedules, and Disney California Adventure's Halloween decoration typically goes up before Disneyland Park's. A late-August trip may find one park fully dressed and the other still installing."
+        "In 2026, Disney California Adventure Halloween décor was ready August 18, while Disneyland Park, Downtown Disney and resort hotels were fully decorated August 21. The resort-wide Halloween Time season is August 21–October 31."
       ]
     }
   ],
@@ -131,7 +132,7 @@
     },
     {
       "q": "What is the difference between Halloween Time and Oogie Boogie Bash?",
-      "a": "Halloween Time is a daytime overlay across both parks included with any ticket; Oogie Boogie Bash is a separately ticketed party on select nights at Disney California Adventure only. The villains, treat trails, and Frightfully Fun Parade belong exclusively to the party. The ride overlays and decoration belong to the season and are free."
+      "a": "Halloween Time is the August 21–October 31 seasonal program across the resort, available with regular park admission and a same-day reservation. Oogie Boogie Bash is a separate ticketed DCA party on 33 select nights, featuring treat trails, Villains Grove and Madame Leota’s street party."
     },
     {
       "q": "When is the least crowded time to see Halloween Time?",
@@ -147,7 +148,7 @@
     },
     {
       "q": "Are this season's Halloween Time dates confirmed?",
-      "a": "Not on this page. As of July 2026 we have not verified an announcement of the coming season's start date, so nothing here states one. The window itself has been stable for years: the overlay goes up in late August and comes down after Halloween, with the Haunted Mansion installation staying in place well past that."
+      "a": "Yes. Disney confirms Halloween Time from August 21 through October 31, 2026. DCA Halloween décor and Guardians of the Galaxy – Monsters After Dark began August 18; Plaza de la Familia runs August 21–November 2. Check the daily calendar for entertainment times and party-day park hours."
     }
   ],
   "crossLinks": [
@@ -194,16 +195,16 @@
       "startDate": "2026-08-21",
       "endDate": "2026-10-31",
       "changes": [
-        "Runs 21 August through 31 October 2026 across both parks, the resort hotels, and Downtown Disney, included with regular admission.",
-        "Plaza de la Familia and A Musical Celebration of Coco return as part of the season.",
-        "Haunted Mansion closes August 8–20 for its holiday overlay install and reopens August 21 as Haunted Mansion Holiday, on the season’s first day.",
-        "Space Mountain runs its Hyperspace Mountain overlay through the Halloween season; the Ghost Galaxy Halloween overlay, last run in 2018, is not returning in 2026.",
-        "Plaza de la Familia at Disney California Adventure runs August 21 through November 2, extending past Halloween to cover Día de los Muertos."
+        "Halloween Time runs August 21–October 31, 2026; regular park admission and a same-day park reservation are required inside the parks.",
+        "DCA Halloween décor and Guardians of the Galaxy – Monsters After Dark began August 18; Disneyland Park, Downtown Disney and resort hotel décor were fully in place August 21.",
+        "Haunted Mansion Holiday returned August 21; Halloween Screams has fireworks only on select performances.",
+        "Plaza de la Familia runs August 21–November 2, extending beyond Halloween.",
+        "On Oogie Boogie Bash dates Disney California Adventure closes to regular guests at 6:00 p.m."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Overlay install and reopen dates, Space Mountain overlay status, and Plaza de la Familia window from Disney’s official Halloween Time and Plaza de la Familia pages (viewed September 2026); overlay reporting cross-checked against the OC Register and Mousedining.",
+        "sourceNote": "Official 2026 season and décor dates: https://disneyland.disney.go.com/events-tours/halloween-time-at-the-disneyland-resort/; Plaza de la Familia: https://disneyland.disney.go.com/events-tours/disney-california-adventure/coco-plaza-familia/; Monsters After Dark: https://disneyland.disney.go.com/attractions/disney-california-adventure/guardians-galaxy-mission-breakout-after-dark/ (checked September 26, 2026).",
         "reviewBy": "2026-11",
         "cycle": "annual"
       }
@@ -228,7 +229,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates officially announced on Disney’s Halloween Time page, viewed September 2026.",
+    "sourceNote": "Official Disney 2026 dates and offerings checked September 26, 2026: https://disneyland.disney.go.com/events-tours/halloween-time-at-the-disneyland-resort/. Check the daily entertainment calendar for showtimes and fireworks.",
     "reviewBy": "2026-11",
     "cycle": "annual"
   }

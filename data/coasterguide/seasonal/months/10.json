@@ -2,10 +2,10 @@
   "month": 10,
   "name": "October",
   "slug": "october",
-  "summary": "Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays.",
+  "summary": "October brings daytime family Halloween events and nighttime haunts on park-specific dates. Weekend demand is often high; some haunts also run on weekdays.",
   "verdict": {
     "grade": "B",
-    "short": "October at these parks: a good window with known trade-offs. Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays..",
+    "short": "October offers the widest Halloween selection, with family events by day and haunts on selected nights. Check the date and ticket rules.",
     "bestFor": [
       "Haunt nights — the season's best product",
       "Calm weekday ride days"
@@ -17,12 +17,12 @@
   },
   "crowds": {
     "level": "high",
-    "shape": "Halloween month: the haunts run every weekend, the day parks decorate, and the crowd calendar splits between calm haunt-free weekdays and the year's peak Saturdays.",
+    "shape": "Haunt nights and family days follow different schedules. Selected weekday events also draw crowds, while many weekend dates are busy.",
     "peakWindows": [
       "The last two Saturdays before Halloween"
     ],
     "quietWindows": [
-      "Every weekday, all month"
+      "Some non-event weekdays, where the park is open"
     ]
   },
   "weather": {
@@ -70,7 +70,11 @@
     "howl-o-scream-san-diego",
     "howl-o-scream-san-antonio",
     "howl-o-scream-orlando",
-    "brick-or-treat-legoland-california"
+    "brick-or-treat-legoland-california",
+    "tricks-and-treats-magic-mountain",
+    "tricks-and-treats-over-texas",
+    "kids-boo-fest-great-adventure",
+    "kids-boo-fest-great-america"
   ],
   "planningNotes": [
     {

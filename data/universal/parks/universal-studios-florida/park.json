@@ -12,17 +12,17 @@
     "lng": -81.4686
   },
   "tagline": "The screen-heavy studio park. Diagon Alley is the reason to come; 40 inches is the gate.",
-  "summary": "A backlot-street park built around Diagon Alley and a ride list that leans harder on screens than any other major park in the United States. Nine attractions carry a height stick, the tallest at 51 inches, and the motion sickness risk here is real rather than theoretical.",
+  "summary": "A backlot-street park built around Diagon Alley and a screen-heavy ride list. Eight operating attractions have height requirements, topping out at 48 inches for Revenge of the Mummy; Hollywood Rip Ride Rockit closed permanently in August 2025.",
   "intro": [
     "Universal Studios Florida opened on June 7, 1990 as a working production facility that guests could tour. Almost none of that survives. What stands now is a park laid out as a series of movie-backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions dropped into the buildings behind them. The studio framing is architecture, not a working business.",
     "The single most consequential thing about this park is The Wizarding World of Harry Potter – Diagon Alley, which opened in July 2014 and is the best-built environment Universal has produced in Florida outside Epic Universe. It is also the reason the ticket question matters. The Hogwarts Express runs only between this park and Islands of Adventure, and boarding it in either direction requires a park-to-park ticket. On a one-park ticket you can still walk into Diagon Alley, ride Escape from Gringotts, drink the Butterbeer and eat at the Leaky Cauldron. What you cannot do is ride the train, which is a real attraction with two different shows depending on which way you are travelling, and you cannot do the Hogsmeade half of the story at all. If Harry Potter is the reason you booked Universal, buy park-to-park and do not think about it again.",
     "The second thing to understand is what this park's rides actually are. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all screens in front of a motion base or a moving vehicle, and Escape from Gringotts and Men in Black are heavily screen-assisted too. Most guides describe this as a strength and move on. It is worth saying plainly instead: if anyone in your group gets sick on simulators, this is the hardest park in Orlando for them, harder than Hollywood Studios and much harder than Magic Kingdom. Three of the four screen rides in a single morning will do it to people who thought they were fine.",
-    "Heights are the third constraint. Nine attractions have a requirement and it runs from 34 inches at E.T. Adventure to 51 inches at Hollywood Rip Ride Rockit, which is the tallest stick at any Orlando theme park other than the biggest coasters at Islands of Adventure. A child at 36 inches can ride two things here. At 40 they can ride six. At 51 they can ride everything. That number decides whether this park is worth a full day for your family, and no amount of shows and character meets changes the arithmetic.",
-    "Used well it is a one-day park with a hard front load: be at the gates before opening, take Diagon Alley or Rip Ride Rockit in the first hour, and use the single rider lines, which are more numerous and more useful here than at any Disney park. Universal Express Pass is sold on the day and included for every guest staying in a room at the three top-tier hotels, and on a busy day that inclusion is worth more than the room upgrade costs."
+    "Heights are a key constraint. Eight operating attractions require a minimum, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit, formerly the park's 51-inch coaster, permanently closed August 18, 2025. Check the current ride list before making a family height plan.",
+    "For a one-day visit, arrive before opening, start with Diagon Alley or the active rides that matter most to your group, and use the five operating Single Rider lines where they save time. Universal Express Pass is sold separately and included for guests at the three Premier hotels; check its current attraction coverage when booking."
   ],
   "bestFor": [
     "Harry Potter readers doing both Wizarding Worlds",
-    "Teenagers and adults who clear 51 inches",
+    "Teenagers and adults who want Diagon Alley, Mummy and the park shows",
     "Thrill riders who want coasters that run in the dark",
     "Adults on a short Orlando trip",
     "Solo riders and pairs who will actually use single rider lines"
@@ -36,8 +36,8 @@
   ],
   "stats": {
     "attractionCount": 31,
-    "ridesWithHeightRequirements": 9,
-    "tallestRequirement": 51,
+    "ridesWithHeightRequirements": 8,
+    "tallestRequirement": 48,
     "typicalFullDayHours": "8-10 hours",
     "minimumDaysRecommended": 1
   },
@@ -47,19 +47,18 @@
       "name": "Production Central",
       "order": 1,
       "opened": 1990,
-      "summary": "The entrance area and soundstage district, holding the park's only outdoor coaster and its loudest screen ride.",
+      "summary": "The entrance soundstage district, with Transformers and the former Rip Ride Rockit site.",
       "description": [
         "Production Central is what you walk into: a plaza of white soundstage exteriors, a music stage, and the two biggest buildings in the front half of the park. It was designed to read as the working end of a studio lot, and it is the least themed part of the park by some distance. Nobody lingers here for atmosphere.",
-        "The two attractions carry it. Hollywood Rip Ride Rockit is the tall X-Car coaster whose first element is a vertical lift you can see from the parking garages, and it carries the highest height requirement in the park at 51 inches. Transformers: The Ride-3D sits in the building beside it and is the park's most aggressive screen ride, a motion-base vehicle thrown through a 3D fight sequence for about four and a half minutes.",
-        "Both have single rider lines and both are Universal Express eligible, which makes this a good place to bank rides late in the day when the rest of the park is congested. Rip Ride Rockit in particular runs a single rider queue that is frequently a quarter of the standby time, because the ride loads two per row and singles fill gaps constantly.",
+        "Transformers: The Ride-3D remains the major ride in this entrance district, with a motion-base vehicle moving through a 3D combat sequence. Hollywood Rip Ride Rockit, the former outdoor coaster beside it, permanently closed August 18, 2025.",
+        "Transformers has Single Rider and Universal Express access. Use its live wait rather than an old touring plan that still sends you to Rip Ride Rockit.",
         "Practically, this is also the corridor everyone walks four or five times. TODAY Cafe near the front is the only serious coffee in the park and the fastest breakfast if you mobile order it before you tap in."
       ],
-      "vibe": "A working studio backlot with a coaster lift hill sticking out over the top of it and a lot of people walking fast.",
-      "anchorAttraction": "hollywood-rip-ride-rockit",
+      "vibe": "A working-studio backlot facade and the Transformers show building near the front of the park.",
+      "anchorAttraction": "transformers-the-ride-3d",
       "highlights": [
-        "Hollywood Rip Ride Rockit, 51 inches, with a vertical lift and a song you choose yourself",
+        "Transformers: The Ride-3D, the district's active headliner",
         "Transformers: The Ride-3D, the most intense screen ride in the park",
-        "Two of the park's best single rider lines, both frequently under a third of standby",
         "TODAY Cafe, the only real espresso inside the gates",
         "Optimus Prime and Bumblebee character meets outside the Transformers building"
       ],
@@ -67,8 +66,7 @@
         "today-cafe"
       ],
       "tips": [
-        "Do not rope drop this land. Both rides hold their capacity all day and both have single rider lines; Diagon Alley does not open a second entrance when it gets busy.",
-        "Rip Ride Rockit's song selection is made on the restraint keypad after you are locked in, and there is a hidden menu of unlisted tracks reached by holding the logo button. Cast members will not stop you looking for it.",
+        "Hollywood Rip Ride Rockit closed permanently in August 2025. Do not follow older rope-drop plans that recommend it.",
         "Transformers loads riders three across in each row and the outer seats get thrown noticeably harder than the middle. Ask for the middle if you are on the fence about the motion.",
         "Mobile order breakfast at TODAY Cafe before you go through the turnstiles. The morning line there is one of the worst in the park and the app does not care where you are standing."
       ]
@@ -340,7 +338,7 @@
   "firstTimer": {
     "intro": [
       "Universal Studios Florida rewards two decisions made before you arrive and punishes both of them if you get them wrong. The first is the ticket: park-to-park or one-park. The second is the height number for the smallest person in your group. Everything else about the day is recoverable.",
-      "Beyond that, this is a park where the crowd-management tools genuinely work. Universal Express Pass is a real product sold on the day and included free with a stay at three of the resort hotels. Single rider lines exist at six attractions and regularly run at a third of standby. Early Park Admission opens Diagon Alley an hour early for on-site guests. A first-timer who uses two of those three will have a substantially better day than one who arrives at ten and queues."
+      "Beyond that, this is a park where the crowd-management tools genuinely work. Universal Express Pass is a real product sold on the day and included free with a stay at three of the resort hotels. Single Rider lines exist at five operating attractions and regularly run at a third of standby. Early Park Admission opens Diagon Alley an hour early for on-site guests. A first-timer who uses two of those three will have a substantially better day than one who arrives at ten and queues."
     ],
     "beforeYouGo": [
       {
@@ -349,7 +347,7 @@
       },
       {
         "title": "Measure your children with their shoes on",
-        "body": "Nine attractions here carry a height requirement, from 34 inches at E.T. Adventure to 51 inches at Hollywood Rip Ride Rockit. Universal measures at the ride entrance and gives borderline guests a wristband so they are not re-measured. Knowing the real number at home tells you whether this park is worth a full day for your family."
+        "body": "Eight operating attractions here carry a height requirement, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit closed in August 2025. Universal measures at the ride entrance and gives borderline guests a wristband so they are not re-measured. Knowing the real number at home tells you whether this park is worth a full day for your family."
       },
       {
         "title": "Do the Express Pass arithmetic before you book a hotel",
@@ -361,7 +359,7 @@
       },
       {
         "title": "Plan to use single rider lines",
-        "body": "Six attractions here run a single rider queue: Rip Ride Rockit, Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem. They routinely run at a third of standby or less. A party of two or three that is willing to be split across rows will do a full park in an afternoon."
+        "body": "Five operating attractions here run Single Rider: Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem. They routinely run at a third of standby or less. A party of two or three that is willing to be split across rows will do a full park in an afternoon."
       },
       {
         "title": "Sort out accessibility registration in advance",
@@ -383,7 +381,7 @@
       },
       {
         "time": "Rope drop, off-site guests",
-        "body": "Go to Diagon Alley first regardless. It is the land that fills earliest, it caps entry when it is full, and Escape from Gringotts posts its lowest wait of the day in the first forty minutes. Rip Ride Rockit and Transformers hold capacity all day and both have single rider lines."
+        "body": "Go to Diagon Alley first regardless. It is the land that fills earliest, it caps entry when it is full, and Escape from Gringotts posts its lowest wait of the day in the first forty minutes. Transformers has a Single Rider line; Rip Ride Rockit permanently closed in August 2025."
       },
       {
         "time": "Mid-morning",
@@ -417,7 +415,7 @@
       },
       {
         "time": "4pm to 5pm",
-        "body": "Ride the screen attractions you have left using single rider lines, which are at their most useful in the late afternoon: Transformers, Rip Ride Rockit and Revenge of the Mummy in that order if you are heading back toward the front of the park."
+        "body": "Ride the screen attractions you have left using single rider lines, which are at their most useful in the late afternoon: Transformers and Revenge of the Mummy in that order if you are heading back toward the front of the park."
       }
     ],
     "eveningPlan": [
@@ -427,7 +425,7 @@
       },
       {
         "time": "6:30pm to 8pm",
-        "body": "This is the best riding window of the day at this park. Waits at Revenge of the Mummy, Transformers and Rip Ride Rockit fall sharply once the families with small children have left, and the single rider lines empty out completely."
+        "body": "This is the best riding window of the day at this park. Waits at Revenge of the Mummy and Transformers fall sharply once the families with small children have left, and the single rider lines empty out completely."
       },
       {
         "time": "Before the lagoon show",
@@ -445,8 +443,8 @@
     "rookieMistakes": [
       "Buying a one-park ticket and then discovering the Hogwarts Express needs park-to-park. This is the single most common and most expensive mistake made at this resort.",
       "Riding three simulators before lunch. Transformers, Minion Mayhem and The Simpsons Ride in one morning will make a surprising number of adults ill, and there is no recovering the afternoon.",
-      "Ignoring the single rider lines. Six attractions here have one, they are unusually well run, and a party of two willing to sit apart can do the whole park in an afternoon.",
-      "Assuming a 40-inch child can ride most things. At 40 inches they still cannot ride Escape from Gringotts, Men in Black, Revenge of the Mummy or Rip Ride Rockit, which is most of the ride list worth queueing for.",
+      "Ignoring the single rider lines. Five operating attractions here have one, they are unusually well run, and a party of two willing to sit apart can do the whole park in an afternoon.",
+      "Assuming a 40-inch child can ride most things. At 40 inches they still cannot ride Escape from Gringotts, Men in Black or Revenge of the Mummy, which is most of the ride list worth queueing for.",
       "Arriving at Diagon Alley at midday. It is small, enclosed and reached through one main entrance, and Universal caps entry when it fills. Go first thing or go after seven.",
       "Skipping the Escape from Gringotts standby queue because you have Express. The bank lobby with its animatronic goblins is the best room in the park and Express routes you past most of it.",
       "Treating the Horror Make-Up Show as filler. It is twenty-five minutes, it never fills, it is air conditioned and it is better than four of the rides.",
@@ -461,14 +459,14 @@
       "Spend the worst hour of the afternoon in the Horror Make-Up Show in Hollywood.",
       "Come back to Diagon Alley for the unqueued half: Ollivanders, Knockturn Alley, the money exchange goblin and the Carkitt Market shows.",
       "Ride Revenge of the Mummy and Transformers using the single rider lines in the late afternoon.",
-      "Do Hollywood Rip Ride Rockit after dark if you clear 51 inches, when the queue collapses and the lift hill view is worth having.",
+      "Check the live app for an evening Mummy re-ride; Rip Ride Rockit closed permanently in August 2025.",
       "Finish with the lagoon show from the San Francisco railing, or skip it and ride while everybody else is watching."
     ]
   },
   "accessibility": {
     "intro": [
       "Universal Studios Florida is flat, fully paved and compact, which makes the walking side of it straightforward. The problems here are transfers and screens, and both are worse than at any Disney park in Orlando.",
-      "Of the nine attractions with a height requirement, most also require a full transfer from a wheelchair or ECV into a ride seat, and the two coasters have restraint systems that are unforgiving of body shape as well as mobility. Universal is direct about this in a way that is genuinely useful: test seats sit outside the entrances at Hollywood Rip Ride Rockit and Revenge of the Mummy, and using one before you queue is normal rather than embarrassing.",
+      "Of the eight operating attractions with a height requirement, most require a transfer from a wheelchair or ECV into a ride seat. Revenge of the Mummy is the active full-thrill coaster; check its current test-seat and transfer guidance at the entrance. Rip Ride Rockit closed in August 2025.",
       "The screen density is an accessibility issue that rarely gets listed as one. Six attractions put a large 3D or wraparound screen in front of a moving seat. For guests with vestibular conditions, migraine triggers or visual processing differences, that is most of the ride list, and the honest answer is that this park will be harder work than Magic Kingdom or Animal Kingdom.",
       "Queue accommodation runs through Universal's Attraction Assistance Pass, arranged at Guest Services immediately inside the main entrance. Universal routes eligibility for this through an advance registration process with a third-party accessibility organisation, so starting it several days before your visit rather than on the morning is the difference between a five-minute stop and a long wait at the window."
     ],
@@ -533,15 +531,15 @@
     ],
     "sensoryNotes": [
       "Revenge of the Mummy runs almost entirely in darkness with sudden fire effects overhead, a backwards launch and a deliberate false ending; it is the most startling attraction in the park and the one most likely to frighten a child who cleared the 48-inch stick.",
-      "Hollywood Rip Ride Rockit pipes a track of your choosing directly into the seat at high volume and cannot be turned down, which makes it a poor fit for anyone sensitive to sound pressure.",
+      "The now-closed Rip Ride Rockit had loud seat audio; it is not part of a current sensory plan. Check current show and ride sound levels on your visit.",
       "The Simpsons Ride uses a domed screen that fills your entire peripheral vision, and it is the single most reliable motion-sickness trigger in the park by a wide margin.",
       "Transformers: The Ride-3D combines a hard-throwing motion base with a full-field 3D screen and loud percussive audio for four and a half minutes with no let-up.",
       "The Horror Make-Up Show is scripted to startle at two specific moments and is comedic for the rest of its twenty-five minutes; the theatre lights stay up enough to leave easily, and staff will not make an issue of it.",
       "Illumination's Villain-Con Minion Blast has no motion base and no drops, but it is very loud and very bright throughout and runs on a continuously moving walkway with no obvious exit point."
     ],
     "mobilityNotes": [
-      "Most height-restricted attractions here require a full transfer from a wheelchair or ECV into a ride seat, including both coasters, the two simulators, Escape from Gringotts and Men in Black.",
-      "Test seats sit outside the entrances to Hollywood Rip Ride Rockit and Revenge of the Mummy. Use them before joining the queue if the restraint may be a problem; the Rip Ride Rockit harness is the least forgiving in the park for larger riders.",
+      "Most height-restricted attractions here require a full transfer from a wheelchair or ECV into a ride seat, including Revenge of the Mummy, the two simulators, Escape from Gringotts and Men in Black.",
+      "Use the current test seat at Revenge of the Mummy if the restraint fit may be a problem. Rip Ride Rockit closed permanently in August 2025.",
       "Illumination's Villain-Con Minion Blast is the most accessible substantial attraction in the park: no transfer, no motion base, and a moving walkway that can be boarded from a wheelchair.",
       "Hogwarts Express boards from a level platform and takes wheelchairs directly into a designated compartment, with no transfer required in either direction.",
       "The park is flat and fully paved, but Diagon Alley uses uneven cobbled-effect paving that is noticeably rougher to push a manual chair across than anywhere else in the park.",
@@ -562,7 +560,7 @@
     },
     {
       "title": "The single rider lines are the best-kept advantage in Orlando",
-      "body": "Rip Ride Rockit, Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem all run one. They are consistently at a third of standby or better, they are properly staffed, and Universal actively pushes guests into them. A pair willing to sit in different rows can clear this park in an afternoon."
+      "body": "Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black and Despicable Me Minion Mayhem are the five operating Single Rider choices. They are consistently at a third of standby or better, they are properly staffed, and Universal actively pushes guests into them. A pair willing to sit in different rows can clear this park in an afternoon."
     },
     {
       "title": "Do Diagon Alley first or last, never in the middle",
@@ -585,8 +583,8 @@
       "body": "Twenty-five minutes, air conditioned, a published schedule, a theatre that almost never fills, and a two-hander about practical effects that is funnier than it has any need to be. It has run since 1990 and most first-time guests walk straight past the door."
     },
     {
-      "title": "Lockers at the two coasters are mandatory and slower than the ride",
-      "body": "Revenge of the Mummy and Hollywood Rip Ride Rockit both require you to store loose articles in a locker bank before boarding. The bank backs up worse than the ride does. Travel light or leave the bag with somebody outside; that alone can save twenty minutes across a day."
+      "title": "Check current locker rules before the active coaster",
+      "body": "Revenge of the Mummy requires loose articles to go in lockers before boarding. Rip Ride Rockit closed in August 2025. The bank backs up worse than the ride does. Travel light or leave the bag with somebody outside; that alone can save twenty minutes across a day."
     },
     {
       "title": "Early Park Admission is worth more here than anywhere else at the resort",
@@ -604,7 +602,7 @@
     },
     {
       "q": "What is the tallest height requirement at Universal Studios Florida?",
-      "a": "51 inches, for Hollywood Rip Ride Rockit, which also has a 79-inch maximum. Below that, Revenge of the Mummy is 48 inches, Escape from Gringotts and Men in Black Alien Attack are 42, Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36 and E.T. Adventure is 34."
+      "a": "48 inches, for Revenge of the Mummy. Hollywood Rip Ride Rockit, formerly 51 inches, closed permanently in August 2025. Escape from Gringotts and Men in Black Alien Attack are 42 inches; Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36, and E.T. Adventure is 34."
     },
     {
       "q": "Is Universal Studios Florida good for toddlers?",
@@ -616,7 +614,7 @@
     },
     {
       "q": "Which attractions have single rider lines?",
-      "a": "Hollywood Rip Ride Rockit, Revenge of the Mummy, Transformers: The Ride-3D, Harry Potter and the Escape from Gringotts, Men in Black Alien Attack and Despicable Me Minion Mayhem. They routinely run at a third of the standby time or better and are far more useful here than the equivalent lines at Walt Disney World."
+      "a": "Revenge of the Mummy, Transformers: The Ride-3D, Harry Potter and the Escape from Gringotts, Men in Black Alien Attack and Despicable Me Minion Mayhem. They routinely run at a third of the standby time or better and are far more useful here than the equivalent lines at Walt Disney World."
     },
     {
       "q": "Is Universal Express Pass worth it at this park?",

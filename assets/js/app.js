@@ -407,11 +407,11 @@
       var label, tone
       if (now < start) {
         var days = Math.ceil((start - now) / 86400000)
-        label = days > 1 ? 'Opens in ' + days + ' days' : 'Opens tomorrow'
+        label = days > 1 ? 'Season begins in ' + days + ' days' : 'Season begins tomorrow'
         tone = days <= 14 ? 'soon' : 'ahead'
       } else if (now < endNext) {
         var left = Math.ceil((end - now) / 86400000)
-        label = left >= 2 ? 'Running now · ends ' + shortDate(end) : (left >= 1 ? 'Final nights · ends ' + shortDate(end) : 'Final night')
+        label = left >= 2 ? 'Season underway · check event dates' : 'Season ends ' + shortDate(end) + ' · check dates'
         tone = 'live'
       } else {
         label = 'Ended for the season'
@@ -419,6 +419,16 @@
       }
       state.textContent = label
       el.setAttribute('data-countdown-tone', tone)
+    })
+  }
+
+  /* Static pages may be cached past Halloween. Retire seasonal home sections by the visitor's
+     local date even before the next build, while the build-month gate covers no-JS visitors. */
+  function initSeasonExpiry () {
+    var now = new Date()
+    var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0')
+    Array.prototype.forEach.call(document.querySelectorAll('[data-season-until]'), function (el) {
+      if (today > el.getAttribute('data-season-until')) el.remove()
     })
   }
 
@@ -437,6 +447,7 @@
     initConnectivity()
     initWelcomeBack()
     initDataSaver()
+    initSeasonExpiry()
     initLandingBats()
     initHauntCountdown()
     initReveal()

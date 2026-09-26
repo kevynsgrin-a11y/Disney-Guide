@@ -6,10 +6,26 @@
   "summary": "Islands of Adventure gives the fullest single day at Universal — the most rides, the lowest friction, and six single rider lines that make a tired afternoon productive. If it is your first Universal visit, take Epic Universe instead and accept the shuttle.",
   "readingTimeMinutes": 11,
   "contenders": [
-    { "key": "islands-of-adventure", "name": "Islands of Adventure", "subtitle": "Universal Orlando" },
-    { "key": "epic-universe", "name": "Universal Epic Universe", "subtitle": "Universal Orlando" },
-    { "key": "universal-studios-hollywood", "name": "Universal Studios Hollywood", "subtitle": "Universal City, California" },
-    { "key": "universal-studios-florida", "name": "Universal Studios Florida", "subtitle": "Universal Orlando" }
+    {
+      "key": "islands-of-adventure",
+      "name": "Islands of Adventure",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "epic-universe",
+      "name": "Universal Epic Universe",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "universal-studios-hollywood",
+      "name": "Universal Studios Hollywood",
+      "subtitle": "Universal City, California"
+    },
+    {
+      "key": "universal-studios-florida",
+      "name": "Universal Studios Florida",
+      "subtitle": "Universal Orlando"
+    }
   ],
   "verdict": {
     "short": "Islands of Adventure gives the fullest day: the most rides, the least friction, and six single rider lines. Universal Studios Hollywood is the only one you genuinely finish. If this is your first Universal visit, take Epic Universe and accept the transfer.",
@@ -44,8 +60,8 @@
       "cells": {
         "islands-of-adventure": "The most of the four. About 30 attractions and six single rider lines, and two adults riding apart will often clear six headliners in the time standby takes for two.",
         "epic-universe": "The fewest. Around ten rides plus shows and interactive layers, and the individual queues are long because there is nowhere else for demand to go.",
-        "universal-studios-hollywood": "About 25 attractions and five single rider lines. Genuinely all of them, if you go down the hill first.",
-        "universal-studios-florida": "About 31 attractions and six single rider lines, which run at a third of standby or better. High throughput, with a lot of it being screens."
+        "universal-studios-hollywood": "About 26 catalogued attractions, including three closed attractions, and six single rider lines. Check Hollywood Drift and Mario Kart waits before choosing an opening route.",
+        "universal-studios-florida": "About 31 catalogued attractions and five operating Single Rider lines, which run at a third of standby or better. High throughput, with a lot of it being screens."
       },
       "note": "Single rider lines are the single biggest lever a one-day visitor has at Universal, and no Disney park in Orlando offers anything of that scale."
     },
@@ -88,8 +104,8 @@
       "cells": {
         "islands-of-adventure": "Moderate. Six single rider lines cover most of the standby pain, and the headliner Express cannot help with — Hagrid's — is also the one with the longest queue.",
         "epic-universe": "The most. There are no single rider lines here at all, so Express is the only lever, and on a busy day it is the difference between five headliners and two.",
-        "universal-studios-hollywood": "The least. On a quiet weekday in the off season you will not need it, and five single rider lines cover most of what it buys for two adults riding apart.",
-        "universal-studios-florida": "Moderate. Six single rider lines and the shortest headliner queues of the Orlando parks, with Revenge of the Mummy nearly always the quickest of the big ones."
+        "universal-studios-hollywood": "The least. On a quiet weekday in the off season you will not need it, and six single rider lines cover much of what it buys, but daytime Express currently excludes Hollywood Drift for two adults riding apart.",
+        "universal-studios-florida": "Moderate. Five operating Single Rider lines and relatively short headliner queues of the Orlando parks, with Revenge of the Mummy nearly always the quickest of the big ones."
       },
       "note": "As of July 2026 Express Pass is priced dynamically by date at both resorts. Price your specific date rather than any averaged figure."
     },
@@ -149,20 +165,20 @@
       "headline": "The only one of the four you actually finish, and the smallest finished day.",
       "body": [
         "Universal Studios Hollywood is the park that was designed, by accident of its site, to be a one-day visit. With an early arrival you can ride everything, see both shows worth seeing, take the Studio Tour, and still eat properly. Nothing else on this list can say that.",
-        "The plan is simple and almost nobody follows it. At opening, the arriving crowd turns toward Super Nintendo World and the Wizarding World and stays on the Upper Lot. Take the Starway straight down instead. Jurassic World — The Ride, Revenge of the Mummy and Transformers can all be done in the first hour with short waits, and the same three rides cost you two hours in the afternoon. Come up once, and spend the rest of the day up top.",
-        "The Studio Tour is the headliner and should be treated as one. About an hour including the queue, no height requirement, and a real working backlot with standing sets, active production, King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale on the route. It is the only attraction here a first-time visitor would regret missing.",
+        "The plan is simple and almost nobody follows it. At opening, compare Hollywood Drift on the Upper Lot with Mario Kart on the Lower Lot in the live app. Super Nintendo World is on the Lower Lot, so cover it together with Jurassic World, Revenge of the Mummy and Transformers in one descent. Opening queues for the new coaster may change the best order.",
+        "The Studio Tour is the headliner and should be treated as one. About an hour including the queue, no height requirement, and a real working backlot with standing sets, active production, King Kong 360 3-D, the earthquake subway sequence on the route; the former Fast & Furious finale closed in March 2025. It is the only attraction here a first-time visitor would regret missing.",
         "Two structural costs to budget for. Forty-five minutes from your car to the turnstiles, which is more than anyone expects and is the whole quiet first hour if you get it wrong. And the Starway, four long outdoor escalators between the levels, which is why the go-down-once rule matters.",
-        "**The counterargument:** second place on a page about the best single day, for a park with about 25 attractions and one roller coaster, is generous. It is here because finishing is genuinely weighted and this park finishes. If you are in Orlando, it is not an option, and if you are choosing between coasts for one day of theme park, the Orlando parks give you more of a day even though you will not finish them."
+        "**The counterargument:** second place on a page about the best single day, for a park with 23 operating attractions, is generous. Hollywood Drift opened in September 2026 and can add a major queue to a one-day plan. This ranking weights finishing the park; if your date is crowded, check live waits before assuming you can ride everything."
       ],
       "pros": [
         "The only one of the four you can genuinely complete in a day.",
         "The Studio Tour is an hour on a real working lot and has no height requirement.",
-        "Five single rider lines, which cover most of what Express Pass buys.",
+        "Six single rider lines, including Hollywood Drift; daytime Express currently excludes that coaster.",
         "Mild weather, so almost no time lost to storms.",
         "Free same-day re-entry to CityWalk, which solves the food problem."
       ],
       "cons": [
-        "The smallest day of the four, with about 25 attractions and one coaster.",
+        "The smallest day of the four, though Hollywood Drift adds a second major coaster.",
         "Forty-five minutes from car to turnstiles, which catches everyone out.",
         "Four long outdoor escalators between the two levels.",
         "No table-service restaurant inside the gate.",
@@ -201,22 +217,22 @@
       "headline": "Finishable, comfortable, and the park most improved by the one next door.",
       "body": [
         "Universal Studios Florida is fourth on this page despite being one of the easiest parks here to complete, which needs explaining rather than asserting.",
-        "It does the mechanical parts of a one-day visit well. The gate is close to the parking hubs, the first attractions are immediately inside, and Universal frequently opens the turnstiles ahead of the posted hour and holds guests in Production Central. Six single rider lines run at a third of standby or better. The walking load is the lightest of the four. Almost all of its ride list is indoors, which makes it the most storm-proof park in Orlando and a genuinely sensible pick for a single day in July.",
+        "It does the mechanical parts of a one-day visit well. The gate is close to the parking hubs, the first attractions are immediately inside, and Universal frequently opens the turnstiles ahead of the posted hour and holds guests in Production Central. Five operating Single Rider lines can save time. The walking load is the lightest of the four. Almost all of its ride list is indoors, which makes it the most storm-proof park in Orlando and a genuinely sensible pick for a single day in July.",
         "Where it falls down is what the day consists of. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all screens in front of a motion base, and Escape from Gringotts and Men in Black lean on screens too. Doing several in one day is how people who never get travel sick end up on a bench at noon, and even for those unaffected it makes for a repetitive day.",
         "The other problem is Diagon Alley, which is both the reason to come and a bottleneck. The land is small, enclosed and reached through one main entrance, and Universal caps entry when it fills — so between roughly eleven and six there is frequently a queue to get into the land before you have queued for anything inside it. On a one-day visit that forces Diagon Alley to the very start or the very end.",
-        "**The counterargument:** if your single day is in high summer, if anyone in your group is over 51 inches but wants indoor attractions, or if Diagon Alley is specifically the thing you came to Florida for, this park is the right answer and the ranking above it is irrelevant to you. It is also the most comfortable of the four to spend ten hours in."
+        "**The counterargument:** if your single day is in high summer, if your group wants indoor attractions, or if Diagon Alley is specifically the thing you came to Florida for, this park is the right answer and the ranking above it is irrelevant to you. It is also the most comfortable of the four to spend ten hours in."
       ],
       "pros": [
         "The lowest arrival and exit friction of the four.",
         "The lightest walking load, with the most connections between districts.",
         "The most storm-proof ride list in Orlando.",
-        "Six single rider lines running at a third of standby or better.",
+        "Five operating Single Rider lines.",
         "Diagon Alley at nine in the morning or nine at night is the best hour at the resort."
       ],
       "cons": [
         "The highest concentration of screen rides of any major US park, which makes for a repetitive day.",
         "Diagon Alley caps entry through the middle of the day.",
-        "Only two genuine coasters.",
+        "Only one active full-thrill coaster after Rip Ride Rockit closed.",
         "The weakest of the three Orlando parks for a child under 40 inches.",
         "The park most obviously improved by having a second day at the one next door."
       ]
@@ -231,7 +247,7 @@
         "**Front-loading is everything.** Every park on this list has one attraction that decides whether the morning worked. At Islands of Adventure it is Hagrid's, which accepts no Express Pass and has no single rider line. At Universal Studios Florida it is Diagon Alley, before the land's entry cap comes on. At Epic Universe it is SUPER NINTENDO WORLD, whose access system you cannot fix later. At Universal Studios Hollywood it is the Lower Lot, which empties out for the first hour because the crowd goes up instead.",
         "**Friction is worth more than ride count.** A park with 30 attractions and a ten-minute arrival beats a park with 21 attractions and a shuttle bus at each end, on this criterion, even if the second park is better. Roughly a fifth of an Epic Universe day goes on getting to and from it, and that is time that never appears on anybody's itinerary.",
         "**Ride late.** Neither Orlando park runs a nightly show, so nothing pins the crowd in place at the end of the evening and posted waits fall sharply in the final hour rather than staying flat the way they do at Magic Kingdom. Most one-day visitors leave at eight and miss the cheapest hour of the day.",
-        "**Two adults should ride apart.** Six single rider lines at Islands of Adventure, six at Universal Studios Florida, five at Universal Studios Hollywood. For a pair willing to sit in different rows, that is most of what an Express Pass buys, for nothing. It does nothing for a family that wants to sit together, which is why Express Pass is a family purchase rather than a couple's one."
+        "**Two adults should ride apart.** Six single rider lines at Islands of Adventure, five at Universal Studios Florida, six at Universal Studios Hollywood. For a pair willing to sit in different rows, that is most of what an Express Pass buys, for nothing. It does nothing for a family that wants to sit together, which is why Express Pass is a family purchase rather than a couple's one."
       ],
       "callout": {
         "type": "tip",
@@ -246,7 +262,7 @@
         "**Islands of Adventure.** Gate 45 minutes early. Walk to Hogsmeade — it is a genuine ten minutes — and ride Hagrid's first, standby, because nothing else will get you on it. Jurassic World VelociCoaster next while the queue is short. Then work the ring: Jurassic Park, Skull Island, Toon Lagoon. Lunch at Thunder Falls Terrace behind the River Adventure exit. Toon Lagoon's water rides after lunch, in clothes you can be soaked in, phone in a locker. Marvel Super Hero Island on single rider through the late afternoon. Back to the outdoor coasters in the last ninety minutes when the waits collapse.",
         "**Universal Studios Hollywood.** Budget 45 minutes from the car to the turnstiles. Go straight down the Starway to the Lower Lot and do Jurassic World, Revenge of the Mummy and Transformers in the first hour. Come up once. Studio Tour late morning. Walk out to CityWalk for lunch and come back in on the same ticket. Wizarding World and Super Nintendo World in the afternoon, shows in the gaps, and the Lower Lot again at the end if the queues have gone.",
         "**Epic Universe.** Check the app for SUPER NINTENDO WORLD before you plan the morning. If it is open, go there first. If it is gated to a later slot, take Stardust Racers instead — it sits fifty yards inside the entrance and the morning crowd runs straight past it. Then plan the day as spokes rather than a loop: one focused visit per world, hub crossings in between. Early dinner in Celestial Park around five. Back out into an emptying park at seven for Stardust Racers after dark. Leave fifteen minutes behind the wave, not with it.",
-        "**Universal Studios Florida.** Gate 30 to 45 minutes early. Diagon Alley in the first hour, before the entry cap comes on, and ride Escape from Gringotts standby once for the bank lobby. Then Revenge of the Mummy and Hollywood Rip Ride Rockit. Space the screen rides out with the Horror Make-Up Show and a meal between them. Eat at 11:30 or 2:15, never in between. Come back to Diagon Alley after dark — it is a different place at nine at night."
+        "**Universal Studios Florida.** Gate 30 to 45 minutes early. Diagon Alley in the first hour, before the entry cap comes on, and ride Escape from Gringotts standby once for the bank lobby. Then Revenge of the Mummy and the operating rides you prioritised. Rip Ride Rockit closed in August 2025. Space the screen rides out with the Horror Make-Up Show and a meal between them. Eat at 11:30 or 2:15, never in between. Come back to Diagon Alley after dark — it is a different place at nine at night."
       ],
       "list": {
         "style": "bullet",
@@ -254,7 +270,7 @@
           "Islands of Adventure: Hagrid's first, then VelociCoaster, then work the ring in one direction.",
           "Universal Studios Hollywood: down the Starway before anything else, up once, out for lunch.",
           "Epic Universe: check the app, plan as spokes, eat early, stay for dark.",
-          "Universal Studios Florida: Diagon Alley first, then the two coasters, then space the screens out.",
+          "Universal Studios Florida: Diagon Alley first, then Mummy and Gringotts, then space the screens out.",
           "All four: stay for the last hour. The waits collapse and most people have already gone."
         ]
       }
@@ -281,7 +297,7 @@
         "One day means cutting things, and most people cut the wrong ones. These are the honest calls.",
         "**Skip the shops until the last hour.** Hogsmeade and Diagon Alley shopping is genuinely part of the experience and it is also the single largest time sink at either park. Do it at the end, when the ride queues are the thing you would otherwise be standing in.",
         "**Skip the Hogwarts Express if you only have one park.** It requires a park-to-park ticket and no upgrade is sold at the station. On a one-park day, the money is better spent elsewhere.",
-        "**Do not skip the shows at Universal Studios Hollywood.** Animal Actors, WaterWorld and the DreamWorks Theatre are a meaningful share of a park with 25 attractions, and cutting them to ride the coasters twice makes the day smaller rather than bigger.",
+        "**Do not skip the shows at Universal Studios Hollywood.** WaterWorld and the DreamWorks Theatre are a meaningful share of this compact park, and cutting them to ride the coasters twice makes the day smaller rather than bigger.",
         "**Do not skip the Studio Tour, ever.** It is the only attraction at Universal Studios Hollywood a first-time visitor would regret missing, and people skip it because an hour feels expensive at eleven in the morning. It is not.",
         "**Do not skip Celestial Park at Epic Universe.** It looks like a thoroughfare and it holds the best coaster in the park, the strangest ride in it, and every restaurant and bar worth using. Visitors cross it four times without stopping and then wonder what everyone was talking about.",
         "**Skip a second lap of anything before you have done everything once**, with one exception: Stardust Racers after dark at Epic Universe genuinely reads as a different ride, and that repeat is worth more than a first ride on something minor."
@@ -333,7 +349,7 @@
     },
     {
       "q": "Do I need Express Pass for a one-day visit?",
-      "a": "It depends on the park and the date. At Epic Universe on a busy day it is the difference between five headliners and two. At Universal Studios Hollywood on a quiet off-season weekday you will not need it. At the two original parks, six single rider lines each cover most of what it buys for two adults riding apart. As of July 2026 it is priced dynamically by date, so price your own."
+      "a": "It depends on the park and the date. At Epic Universe on a busy day it is the difference between five headliners and two. At Universal Studios Hollywood on a quiet off-season weekday you will not need it. At the original parks, six Single Rider lines at Islands of Adventure and five at Universal Studios Florida cover most of what it buys for two adults riding apart. As of July 2026 it is priced dynamically by date, so price your own."
     },
     {
       "q": "What time should I arrive?",

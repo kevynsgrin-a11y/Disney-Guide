@@ -29,7 +29,7 @@ test('the home page renders the configured confirmed Halloween spotlight and non
   const running = ganttBands(seasonal).filter((band) => bandCovers(band, BUILD_MONTH_NUMBER)).map((band) => band.event)
   const page = homePage(data, seasonal).html
 
-  assert.match(page, /data-landing-bats aria-hidden="true"/)
+  assert.match(page, /data-landing-bats data-season-until="2026-10-31" aria-hidden="true"/)
   assert.match(page, /Halloween is already here at both resorts/)
   assert.equal((page.match(/spotlight__status--confirmed/g) || []).length, 3)
 

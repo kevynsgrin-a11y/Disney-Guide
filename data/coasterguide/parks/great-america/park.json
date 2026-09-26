@@ -14,10 +14,10 @@
   "intro": [
     "Great America is the Midwest's flagship on this site's list, and its depth is the surprise: Raging Bull's 200-foot hyper drops, Goliath's 2014 hybrid inversions, Maxx Force's record-setting launch, and the original Batman: The Ride — the 1992 invert that cloned a generation of coasters nationwide — all in one park an hour from downtown Chicago.",
     "The park also keeps its history running. Whizzer, the 1976 suspended family coaster that survived every planning era since, and American Eagle, the 1981 racing wooden coaster whose twin tracks still dispatch side by side, give the back corners a texture newer parks lack.",
-    "The season runs May through December — one of the few parks on this site where a December visit during the winter holiday event is real — and the crowd curve is classic regional: school-season weekdays are calm, summer Saturdays are enormous, and haunt-season weekends in October are the year's peak."
+    "Operating dates vary by season, and winter operation must be verified on the park's current calendar before you plan a trip. The crowd curve is classic regional: school-season weekdays are calmer when the park is open, summer Saturdays are busy, and autumn weekends are a peak."
   ],
   "bestFor": ["Coaster enthusiasts", "Chicago families", "First big-coaster trips", "Woodie and hybrid fans"],
-  "notIdealFor": ["Families with children under 42 inches", "Winter-averse December visitors", "Midweek shoulder-season visitors expecting full operation"],
+  "notIdealFor": ["Families with children under 42 inches", "Visitors planning an unconfirmed winter date", "Midweek shoulder-season visitors expecting full operation"],
   "stats": {
     "attractionCount": 8,
     "ridesWithHeightRequirements": 6,
@@ -91,12 +91,12 @@
   "firstTimer": {
     "intro": [
       "Great America is a big loop around a central lagoon, with the headliners in three corners: Raging Bull southwest, Goliath and American Eagle northwest, Batman and the front lineup east. The plan is the loop, walked once, clockwise.",
-      "The park's operating calendar is the first thing to check — the May-through-December season comes with real weekday gaps in the shoulder months, and the December operation is weekend-heavy."
+      "The park's operating calendar is the first thing to check. Weekday gaps grow outside summer, and winter dates must be confirmed before planning a trip."
     ],
     "beforeYouGo": [
-      { "title": "Check the calendar hard", "body": "This park's schedule varies more than most: daily in summer, weekends-plus in spring and fall, weekend-only by December. Verify your exact date before booking anything." },
+      { "title": "Check the calendar hard", "body": "This park's schedule varies more than most: daily in summer and selective weekday openings in spring and fall. Verify your exact date before booking anything; do not assume December operation." },
       { "title": "The Batman lineage", "body": "Great America's Batman is the original — the first B&M invert anywhere, built in 1992. Ride it as a coaster and as a piece of history; every Batman clone in the country descends from this one." },
-      { "title": "the fall haunt and the winter holiday event", "body": "October weekends and December evenings are this park's specialty seasons — the best vibes of the year and the biggest crowds. The line-skip guide prices the peak." }
+      { "title": "the autumn crowd shift", "body": "October weekends are a specialty season here; check the exact event and attraction admission rules before buying. The line-skip guide prices the peak." }
     ],
     "morningPlan": [
       { "time": "Rope drop", "body": "Go left, up the east side. The crowd's instinct is Raging Bull; let it race ahead of you." },
@@ -114,7 +114,7 @@
     "rookieMistakes": [
       "Racing to Raging Bull at open with everyone else — the queue only falls all day.",
       "Missing American Eagle because it looks old. The racing dispatch is a genre.",
-      "Assuming December visits run the full lineup — holiday operation is a reduced, decorated version of the park.",
+      "Assuming a winter visit is possible before the park publishes operating dates.",
       "Skipping Whizzer as 'just a family ride' — it is a 1976 survivor with the park's best flow."
     ],
     "ifYouOnlyHaveOneDay": [
@@ -143,7 +143,7 @@
     "sensoryNotes": [
       "the fall haunt adds scare actors and loud startles after dark; the family sections post signage at entry points.",
       "Maxx Force's launch is the park's loudest single moment.",
-      "The winter holiday event adds evening light shows with music on the lagoon."
+      "Check the published event calendar for any later seasonal program before planning around a show."
     ],
     "mobilityNotes": [
       "The loop around the lagoon exceeds a mile; interior shortcuts exist through the midways.",
@@ -159,14 +159,14 @@
     { "title": "The seasonal rhythm is everything", "body": "Late-May and early-June weekdays before summer camps, September weekdays during haunt setup, and October weekdays are the sweet spots. Each has full operation and half the crowds." },
     { "title": "American Eagle's race is conditional", "body": "The twin tracks only duel when both dispatch — usually early or late in the day. Ask at the station; enthusiasts plan re-rides around the answer." },
     { "title": "Goliath's queue is the park's most comfortable", "body": "Shaded and fast-moving. On a hot day it is the big coaster to queue, not the one to skip." },
-    { "title": "December is a different park", "body": "The winter holiday event is genuinely pretty and genuinely reduced — check which coasters run in winter configuration before promising anyone a full day." },
+    { "title": "Winter needs a confirmed date", "body": "Check Great America's current operating calendar before planning a winter visit or promising any coaster lineup." },
     { "title": "The Metra option", "body": "The train from Chicago to Waukegan or Grayslake plus a short rideshare beats Friday expressway traffic in the summer. It is the region's most underrated park logistics move." }
   ],
   "faqs": [
     { "q": "What is the best coaster at Great America?", "a": "Raging Bull for the general crowd — a 200-foot hyper with the floating airtime B&M built its name on. Goliath for the enthusiast — the 2014 hybrid that inverts a woodie twice and pulls real force. Batman for the history. A complete day rides all three." },
     { "q": "Can you do Great America in one day?", "a": "Yes on any weekday in season: the loop covers the park with re-rides. Summer Saturdays and haunt-season weekends are the exceptions where the line-skip product changes the day's math." },
     { "q": "What are the height requirements at Great America?", "a": "The headliner tier: Goliath and American Eagle at 48 inches; Raging Bull, Batman, Superman and Maxx Force at 54. Whizzer at 42 inches is the family entry — a 1976 suspended coaster at a genuinely low bar." },
-    { "q": "Is Great America open in winter?", "a": "Partially. The winter holiday event runs select dates into December with a decorated, reduced-lineup park. It is a real visit but not a full one — check which coasters operate in the winter configuration." },
+    { "q": "Is Great America open in winter?", "a": "Winter operation varies by year. Check Great America's official operating calendar before planning a winter visit; do not assume December dates are available." },
     { "q": "How do I get there from Chicago without a car?", "a": "Metra's Union Pacific North line to Waukegan, or the Milwaukee District line to Grayslake, plus a 15-minute rideshare. It is the rare big regional park with a workable transit path." },
     { "q": "When does the fall haunt run?", "a": "Weekends from mid-September through Halloween most years. Dates shift annually — this site's Halloween section carries the current expectation with a confidence label, and the park's calendar is the record." }
   ],

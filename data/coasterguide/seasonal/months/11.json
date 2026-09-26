@@ -2,10 +2,10 @@
   "month": 11,
   "name": "November",
   "slug": "november",
-  "summary": "The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities.",
+  "summary": "Several Halloween events finish on November 1, then holiday programming begins at some parks. Operating days and Thanksgiving crowds differ sharply by park.",
   "verdict": {
     "grade": "B+",
-    "short": "November at these parks: a good window with known trade-offs. The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities..",
+    "short": "Several Halloween events finish November 1; later in the month, some parks begin holiday programming and Thanksgiving brings heavier crowds.",
     "bestFor": [
       "The first three weeks' quiet",
       "Holiday-event openings"
@@ -17,7 +17,7 @@
   },
   "crowds": {
     "level": "moderate",
-    "shape": "The post-Halloween exhale: haunts close, holiday programming begins at some parks, and the weeks around Thanksgiving carry the month's two very different crowd realities.",
+    "shape": "Halloween events finish November 1 at several parks; operating calendars thin out at some northern parks, while Thanksgiving raises demand where parks remain open.",
     "peakWindows": [
       "Thanksgiving week"
     ],
@@ -61,7 +61,18 @@
     "level": "moderate",
     "note": "Ticket prices move by date at every park on this site; the level describes the month's overall shape rather than any single day."
   },
-  "whatsOn": [],
+  "whatsOn": [
+    "fright-fest-magic-mountain",
+    "fright-fest-over-texas",
+    "fright-fest-great-adventure",
+    "fright-fest-great-america",
+    "howl-o-scream-san-antonio",
+    "brick-or-treat-legoland-california",
+    "tricks-and-treats-magic-mountain",
+    "tricks-and-treats-over-texas",
+    "kids-boo-fest-great-adventure",
+    "kids-boo-fest-great-america"
+  ],
   "planningNotes": [
     {
       "heading": "The month in one decision",

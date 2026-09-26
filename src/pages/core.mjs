@@ -37,8 +37,8 @@ function spotlightVenue (event, site) {
 }
 
 /**
- * The haunt countdown band. Renders while any Halloween edition is announced and not yet over,
- * measured against BUILD_MONTH so the band retires itself in November with no authored flag. The
+ * The Halloween event band. Renders while any Halloween edition is announced and not yet over,
+ * measured against BUILD_MONTH so a November rebuild retires it. Runtime expiry covers cached pages. The
  * events it claims are removed from the plain "on right now" grid below — one event, one card.
  */
 function hauntBand (runningNow) {
@@ -51,8 +51,8 @@ function hauntBand (runningNow) {
   const year = (current[0].editions || []).find((x) => x.status === 'announced').year
   const band = C.section({
     kicker: `Halloween ${year}`,
-    title: 'The haunt countdown',
-    intro: 'Every date here is the park\u2019s own announcement, stamped with the month we checked it. The state line updates in your browser — running events say so, and the ones counting down say by how much.',
+    title: `Halloween ${year}: events and family days`,
+    intro: 'Some programs run only on select dates. Open each event page for its schedule, ticket rules and age guidance. The state line updates in your browser as the season progresses.',
     children: html`
       ${SC.hauntCountdown(current)}
       <p class="mt-5">
@@ -61,7 +61,8 @@ function hauntBand (runningNow) {
       </p>
     `,
   })
-  return { band, claimed: current }
+  const ends = current.map((e) => e.editions.find((x) => x.status === 'announced').endDate)
+  return { band: html`<div data-season-until="${ends.sort().at(-1)}">${band}</div>`, claimed: current }
 }
 
 /** The dedicated card stays compact so the season reads as an editorial plate, not a product grid. */
@@ -80,7 +81,7 @@ function spotlightEventCard (event, site) {
 }
 
 /**
- * The season spotlight is a themed, self-retiring homepage plate. Its copy, dates, CTA links,
+ * The season spotlight is a themed homepage plate. Its copy, dates, CTA links,
  * and prioritized cards are authored in site.json; this renderer only supplies the shared scene.
  */
 function seasonSpotlight (site, running) {
@@ -114,7 +115,7 @@ function seasonSpotlight (site, running) {
   ).join('')
 
   return html`
-    <section class="band spotlight spotlight--${spot.season}" aria-labelledby="season-spotlight-title">
+    <section class="band spotlight spotlight--${spot.season}" data-season-until="${spot.until}" aria-labelledby="season-spotlight-title">
       <div class="spotlight__scene" aria-hidden="true">
         <svg viewBox="0 0 1920 500" preserveAspectRatio="xMidYMax slice">
           <defs>
@@ -150,10 +151,11 @@ function seasonSpotlight (site, running) {
 }
 
 /** A brief, decor-only welcome moment; it never captures input and removes itself after playing. */
-function landingBats () {
+function landingBats (until) {
+  if (!until || BUILD_MONTH_RAW > until.slice(0, 7)) return raw('')
   const bat = (name) => html`<svg class="landing-bats__bat landing-bats__bat--${name}" viewBox="0 0 80 28" aria-hidden="true"><path d="M0 12c9-10 19-10 29 0 4-9 9-12 11-12s7 3 11 12c10-10 20-10 29 0-9 1-15 5-19 12-5-2-10-5-21-5s-16 3-21 5C15 17 9 13 0 12Z" fill="currentColor" stroke="none"/></svg>`
   return html`
-    <div class="landing-bats" data-landing-bats aria-hidden="true">
+    <div class="landing-bats" data-landing-bats data-season-until="${until}" aria-hidden="true">
       ${bat('one')}${bat('two')}${bat('three')}${bat('four')}${bat('five')}
       <svg class="landing-bats__bolt" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M100 0 480 315 366 396 765 900"/><path d="M1440 80 1012 388 1136 468 748 900"/></svg>
       <span class="landing-bats__flash"></span>
@@ -199,17 +201,21 @@ export function homePage (data, seasonal) {
     ['resortVsResort', 'bestForYoungChildren', 'parkRankings', 'whichPark'],
     data.roleSlug, data.compareBySlug, 4)
 
-  // Derived from the build month rather than authored, so the home page rotates itself and nobody
-  // has to remember to take Halloween down in November.
+  // A monthly rebuild rotates the featured content. Runtime expiry removes the Halloween plate
+  // from cached pages after the final published date.
   const bands = ganttBands(seasonal)
   const runningNow = bands.filter((b) => bandCovers(b, BUILD_MONTH_NUMBER)).map((b) => b.event)
   const haunt = hauntBand(runningNow)
+  const halloweenEnd = runningNow.filter((e) => e.season === 'halloween')
+    .flatMap((e) => (e.editions || []).filter((ed) => ed.status === 'announced').map((ed) => ed.endDate))
+    .filter(Boolean).sort().at(-1)
   const otherRunning = runningNow.filter((e) => !haunt.claimed.includes(e))
   const thisMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER)
   const nextMonth = seasonal.monthByNumber.get(BUILD_MONTH_NUMBER === 12 ? 1 : BUILD_MONTH_NUMBER + 1)
+  const buildMonthEnd = `${BUILD_MONTH}-${String(new Date(Number(BUILD_MONTH.slice(0, 4)), Number(BUILD_MONTH.slice(5, 7)), 0).getDate()).padStart(2, '0')}`
 
   const body = html`
-    ${landingBats()}
+    ${landingBats(halloweenEnd)}
     ${C.hero({
       eyebrow: `${data.parks.length} US parks · independent & unofficial`,
       title: 'Know exactly what your family can ride, eat, and skip.',
@@ -225,7 +231,7 @@ export function homePage (data, seasonal) {
           { value: totalFood, label: 'Snacks with real prices' },
           { value: totalDining, label: 'Places to eat' },
         ])}
-        ${C.lastVerified(BUILD_MONTH, 'Everything on this site verified')}
+        ${C.lastVerified(BUILD_MONTH, 'Seasonal information reviewed')}
       `,
       image: data.photo.hero,
       video: site.heroVideo,
@@ -299,12 +305,12 @@ export function homePage (data, seasonal) {
       label: 'Start with when to go',
     })}
 
-    ${otherRunning.length ? C.section({
-      title: `On right now, in ${MONTHS[BUILD_MONTH_NUMBER - 1].name}`,
-      kicker: 'What is running',
-      intro: 'Each of these states whether this year is confirmed or still only expected. Most sites will not tell you which.',
+    ${otherRunning.length ? html`<div data-season-until="${buildMonthEnd}">${C.section({
+      title: `Seasonal guide for ${MONTHS[BUILD_MONTH_NUMBER - 1].name}`,
+      kicker: 'What may be running',
+      intro: 'These event windows overlap this month. Each card states whether this year is confirmed, expected, or drawn from the last confirmed cycle.',
       children: C.cardGrid(otherRunning.slice(0, 6).map((e) => SC.eventCard(e, e.staleness)), { columns: 3 }),
-    }) : ''}
+    })}</div>` : ''}
 
     ${thisMonth || nextMonth ? C.section({
       tone: 'tint',
@@ -332,7 +338,7 @@ export function homePage (data, seasonal) {
     ${bands.length ? C.section({
       title: 'The whole year on one page',
       kicker: 'Seasonal calendar',
-      intro: 'Every party night, festival, and overlay. Colour shows how much has actually been confirmed.',
+      intro: 'Season ranges for parties, festivals and overlays. Colour shows how much has been confirmed; check each event page for its exact dates.',
       wide: true,
       children: html`
         ${SC.calendarGantt(bands)}

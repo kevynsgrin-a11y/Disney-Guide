@@ -10,13 +10,13 @@
   "h1": "EPCOT International Food & Wine Festival: what it is and whether it's worth it",
   "title": "EPCOT International Food & Wine Festival",
   "titleTail": ": Dates, Booths & Verdict",
-  "description": "What the EPCOT food festival costs in practice, which perennial booth items are worth the money, and the days to avoid. Prose windows, no invented dates.",
+  "description": "Confirmed 2026 EPCOT Food & Wine Festival dates: August 27–November 21. Included with valid EPCOT admission; food and drink cost extra.",
   "typicalWindow": {
-    "startsAround": "late July/August",
-    "endsAround": "mid-November",
-    "nightsTypical": 100,
+    "startsAround": "late August",
+    "endsAround": "late November",
+    "nightsTypical": 87,
     "nightsRange": [
-      100,
+      85,
       125
     ],
     "daysOfWeek": [
@@ -36,18 +36,18 @@
       5,
       13
     ],
-    "asOf": "July 2026",
+    "asOf": "historical planning estimate; verify 2026 menu prices",
     "cheapestNights": "Weekday visits in the opening weeks, when the full booth lineup is running and the fall crowd has not arrived",
     "priciestNights": "Saturdays from late September onward, and any evening with a headline act in the concert series",
     "notes": [
       "The festival itself is included with park admission. There is no festival ticket, and any page that quotes you one is describing a paid seminar or a dining event, not entry.",
-      "The band above is the per-item price range at the marketplace booths as of July 2026. Individual booth prices move upward most years and Disney republishes the full menu shortly before each festival opens.",
+      "The $5–$13 food range is a historical planning estimate, not a verified 2026 menu price range. Disney has published its 2026 Foodie Guide; check individual prices in the park or app.",
       "Alcohol is the variable that wrecks budgets. A wine or beer pour sits at or above the top of the food band at most booths, so a couple drinking at every stop can double the day's spend.",
       "Culinary demonstrations, beverage seminars, signature dining events and the festival scavenger hunt are all separate purchases on top of park admission."
     ]
   },
   "whatYouGet": [
-    "Around thirty temporary marketplace booths ringing the World Showcase promenade and extending into the front of the park, each with a short menu of small plates and pours built around one country or one theme.",
+    "The confirmed 2026 festival runs 87 calendar days, August 27–November 21, covering late summer, Halloween and most of November.",
     "The Eat to the Beat concert series at the America Gardens Theatre, included with park admission, running several sets a night through the festival.",
     "A festival passport and a set of paid add-ons: culinary demonstrations, beverage seminars, and signature dining events booked in advance.",
     "A scavenger hunt around World Showcase sold as a separate map-and-prize purchase, which is a genuinely effective way to keep a child moving through a festival built for adults.",
@@ -66,7 +66,7 @@
   "verdict": {
     "short": "Go, and go on a weekday. The food is genuinely good, the booth lines on a Saturday are not worth anybody's evening, and the festival is included with admission you were buying anyway.",
     "worthItIf": [
-      "Eating and drinking your way around a lake is a version of a theme park day you actively want, rather than a thing you tolerate between rides.",
+      "You are visiting EPCOT anyway between August 27 and November 21, 2026, in which case the festival is included with park admission.",
       "You are visiting EPCOT anyway between late summer and mid-November, in which case the festival is free content on a ticket you already bought.",
       "You can go midweek. The gap between a Tuesday and a Saturday at this festival is larger than the gap between any two days at any other Disney event.",
       "You are traveling as adults, or with children old enough to be bought off with the scavenger hunt.",
@@ -124,12 +124,12 @@
         "The opening weeks in late summer are the best value window of the festival: the full booth lineup is running from day one, the crowd is at its thinnest, and the price band is the same as it will be in October. The cost is the weather, which in August means high 80s and an afternoon storm.",
         "Early November is the other sweet spot and the better one if you can choose. The lineup is intact, the weather has turned, and the pre-Thanksgiving crowd has not arrived.",
         "The week to avoid is any Saturday from late September onward, and the specific hours to avoid are 17:00 to 21:00 on those days. That window is the festival at its worst, and it is the window most visitors choose.",
-        "The overlooked opportunity is the changeover. Food & Wine runs to mid-November and EPCOT's Festival of the Holidays starts in mid-November, and the two windows have historically abutted closely enough that a visit in the final days of one can catch the first days of the other. Check the current year's published dates before planning around it, because the size of that overlap has varied."
+        "For 2026, Food & Wine ends November 21 and EPCOT Festival of the Holidays begins November 27. November 22–26 has neither festival; there is no overlap this year. A split visit could catch both only by spanning at least six days."
       ]
     }
   ],
   "food": {
-    "note": "Booth lineups are rebuilt every year and the full menu is published shortly before the festival opens. The items below are the perennials — dishes that have returned across multiple consecutive festivals and are the closest thing this event has to a fixed menu. Prices are stated at the July 2026 band and move upward most years. Treat this as the shape of the menu rather than as the current year's menu.",
+    "note": "Disney published the 2026 Food & Wine Foodie Guide in August. The dishes below illustrate recurring menu types and are not a verified 2026 shopping list; use Disney’s current guide for exact booths, items and prices: https://disneyparksblog.com/wdw/disney-eats-epcot-international-food-and-wine-festival-foodie-guide/",
     "items": [
       {
         "name": "Canadian Cheddar Cheese Soup with a pretzel roll",
@@ -215,8 +215,8 @@
       "a": "Gift cards work at every marketplace and are the practical way to cap a group's spend — load one, hand it round, and stop when it is empty. Dining plan eligibility at festival booths has changed more than once, so confirm it at a booth on your first order rather than assuming."
     },
     {
-      "q": "When do the next festival's dates come out?",
-      "a": "Disney has historically announced the festival's dates a few months ahead of the late-summer start and published the full booth menu shortly before opening. We have not verified a 2026 announcement as of July 2026, so this page carries the typical window and the perennial menu rather than dates and a current lineup."
+      "q": "What are the 2026 festival dates?",
+      "a": "Disney confirms August 27 through November 21, 2026. The festival is included with valid EPCOT admission; a park reservation may be required depending on ticket type. The 2026 Foodie Guide is published, but individual offerings and prices can change."
     },
     {
       "q": "Is it worth going with young children?",
@@ -224,7 +224,7 @@
     },
     {
       "q": "Which EPCOT festival is the best one?",
-      "a": "This one, on food, and the Festival of the Arts on everything else. Food & Wine has the widest booth lineup, the strongest savory menu and the longest run. The Arts festival has better weather, far smaller crowds and a more interesting non-food program, and Flower & Garden sits between them with the best value per plate."
+      "a": "Food & Wine offers a large global marketplace lineup; Festival of the Arts offers more non-food programming, and Flower & Garden has a different spring menu. Compare the published dates and menus for your trip rather than assuming the autumn festival is longest every year."
     }
   ],
   "crossLinks": [
@@ -279,12 +279,13 @@
       "endDate": "2026-11-21",
       "changes": [
         "Runs 27 August through 21 November 2026, included with valid EPCOT admission — no separate ticket.",
-        "The Eat to the Beat concert series returns alongside the Global Marketplaces."
+        "The Eat to the Beat concert series returns alongside the Global Marketplaces.",
+        "Food & Wine ends November 21; EPCOT Festival of the Holidays starts November 27, leaving November 22–26 without either festival."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from Disney’s official EPCOT International Food & Wine Festival page and the Disney Parks Blog announcement, viewed September 2026.",
+        "sourceNote": "Dates and admission checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-food-and-wine-festival/ Current 2026 menu reference: https://disneyparksblog.com/wdw/disney-eats-epcot-international-food-and-wine-festival-foodie-guide/",
         "reviewBy": "2026-12",
         "cycle": "annual"
       }
@@ -293,7 +294,7 @@
       "year": 2025,
       "status": "past",
       "changes": [
-        "Ran the full late-summer to mid-November window, keeping the festival's position as the longest Disney operates at any park.",
+        "The 2025 cycle is historical; its exact dates and booth lineup should not be used to plan the confirmed 2026 run.",
         "Per-item pricing continued its upward drift, with the practical effect that the cheapest plates on the promenade moved further away from the $5 floor."
       ],
       "freshness": {
@@ -307,8 +308,8 @@
   ],
   "freshness": {
     "verified": "2026-09",
-    "confidence": "expected",
-    "sourceNote": "2026 dates are officially announced; see the 2026 edition below. Pattern re-checked against those announcements in September 2026.",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates and inclusion with EPCOT admission checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-food-and-wine-festival/ Menu details: https://disneyparksblog.com/wdw/disney-eats-epcot-international-food-and-wine-festival-foodie-guide/",
     "reviewBy": "2026-12",
     "cycle": "annual"
   }

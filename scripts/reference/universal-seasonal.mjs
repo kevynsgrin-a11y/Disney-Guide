@@ -69,4 +69,5 @@ export const FOOD_BANDS = { 'universal-orlando': [5, 18], 'universal-hollywood':
  */
 export const NAME_EXCLAMATIONS = [
   'Animal Actors on Location!',
+  'H.R. Bloodengutz Presents: A Halloween Fright-Tacular!',
 ]

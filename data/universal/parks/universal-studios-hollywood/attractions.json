@@ -55,7 +55,7 @@
       "experience": [
         "You board a long articulated tram from a covered platform near the entrance, sitting on bench rows facing forward with screens overhead. The guide sets the tone in the first two minutes, and a good one makes the whole hour. The tram noses out of the visitor area and onto the lot proper, past soundstages with call sheets taped to the doors.",
         "The middle third is the backlot itself, and this is the part people remember. Street sets that look like Manhattan from one angle and plywood from the other. A European village with the same facades used in twenty films you have seen. The flash flood, which fills a street with several thousand gallons of water and drains it in under a minute, close enough that you feel the air move.",
-        "The set pieces punctuate it. The subway station goes dark, a train derails, the ceiling opens and a tanker truck comes through it. King Kong 360 3-D puts the tram inside a tunnel between two enormous screens with the vehicle rocking, and it is genuinely disorienting. The Fast & Furious finale closes the tour with a projected chase along both walls.",
+        "The set pieces punctuate it. The subway station goes dark, a train derails, the ceiling opens and a tanker truck comes through it. King Kong 360 3-D puts the tram inside a tunnel between two enormous screens with the vehicle rocking, and it is genuinely disorienting. The former Fast & Furious projected finale closed in March 2025, so current trams no longer visit it.",
         "Sit on the left-hand side of the tram if you can choose. It gets the better angle on the street sets and the Bates Motel. The front cars have the guide's live commentary at its clearest; the rear cars sway more on the turns."
       ],
       "tips": [
@@ -96,11 +96,10 @@
       "relatedSlugs": [
         "king-kong-360-3d",
         "earthquake-the-big-one",
-        "fast-and-furious-supercharged",
         "waterworld"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "king-kong-360-3d",
@@ -185,8 +184,7 @@
       ],
       "relatedSlugs": [
         "studio-tour",
-        "earthquake-the-big-one",
-        "fast-and-furious-supercharged"
+        "earthquake-the-big-one"
       ],
       "image": null,
       "lastVerified": "2026-07"
@@ -263,8 +261,8 @@
       "land": "upper-lot",
       "type": "film",
       "opened": 2015,
-      "status": "open",
-      "closedNote": null,
+      "status": "closed",
+      "closedNote": "Closed March 10, 2025, as Universal prepared for Fast & Furious: Hollywood Drift. This was a Studio Tour segment; the tour itself remains open.",
       "heightIn": null,
       "heightNote": null,
       "durationMinutes": 5,
@@ -301,27 +299,118 @@
       },
       "tier": "minor",
       "standalonePage": false,
-      "summary": "The Studio Tour's closing set piece: a projected 200 mph chase along both walls of a tunnel, added in 2015.",
+      "summary": "Former Studio Tour projected chase segment, permanently closed March 10, 2025.",
       "description": [
-        "Fast & Furious – Supercharged was added to the Studio Tour in 2015 as its finale, in a purpose-built tunnel near the end of the route. Cast members from the films appear on screens, a chase breaks out, and the tram is nominally caught in the middle of it.",
-        "The technology is the same idea as King Kong 360 3-D but scaled up and stretched longer: projection across enormous screens on both sides of the tram, synchronized to the vehicle's own movement and to wind, sound and haze effects. It is the newest thing on the tour and the least interesting, which is a fair summary of the difference between a real backlot and a screen.",
-        "It works best if you treat it as a demonstration of what the studio can do with projection rather than as a ride. The chase is coherent, the scale is genuine, and it is over quickly."
+        "Fast & Furious – Supercharged operated as a projected Studio Tour finale from 2015 until March 10, 2025. Universal closed the segment while preparing its separate outdoor coaster, Fast & Furious: Hollywood Drift, which opened September 16, 2026. The Orlando Supercharged ride is a different attraction.",
+        "Universal closure announcement: https://media.universalparksusa.com/press-releases/the-fast-furious-supercharged-attraction-on-the-universal-studios-hollywood-world-famous-studio-tour-prepares-for-its-last-ride-on-march-10-as-the-theme-park-readies-f/"
       ],
       "tips": [
-        "This is the tour's finale, so if you are watching the clock you are nearly back at the platform when it starts.",
-        "The projection reads best from the middle cars of the tram. Front and back sit off the sweet spot and the perspective skews.",
-        "If 3D and wraparound projection make you queasy, this is the second of two such segments on the tour. Look down rather than at the walls.",
-        "It is considerably less frightening than King Kong earlier on the same route, so a child who coped with that will cope with this."
+        "This Hollywood Studio Tour segment is closed. The new Hollywood Drift coaster is a separate Upper Lot attraction.",
+        "The Studio Tour itself remains open and continues to include other backlot and effects sequences.",
+        "The Orlando Fast & Furious – Supercharged attraction is separate; this closure applies to Hollywood."
       ],
-      "bestTime": "Whenever you ride the Studio Tour — there is no independent access.",
-      "typicalWait": "No separate wait; it is a segment of the Studio Tour.",
+      "bestTime": "Closed March 10, 2025.",
+      "typicalWait": "Closed.",
       "faqs": [],
       "relatedSlugs": [
         "studio-tour",
         "king-kong-360-3d"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
+    },
+    {
+      "slug": "fast-and-furious-hollywood-drift",
+      "name": "Fast & Furious: Hollywood Drift",
+      "land": "upper-lot",
+      "type": "roller-coaster",
+      "opened": 2026,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 51,
+      "heightNote": "Minimum 51 inches (129.5 cm); a test seat is available.",
+      "durationMinutes": null,
+      "lightningLane": "none",
+      "singleRider": true,
+      "riderSwitch": true,
+      "virtualQueue": false,
+      "intensity": 5,
+      "scary": {
+        "score": 4,
+        "darkness": 1,
+        "drops": 4,
+        "speed": 5,
+        "loudness": 5,
+        "startles": 3,
+        "notes": "An outdoor coaster with four launches, three inversions, rotating cars, speeds up to 72 mph and forces up to 3.6 g. The 51-inch minimum is the highest at this park. These are published ride specifications, not an on-ride review."
+      },
+      "motionSickness": "high",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": true,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "The ride uses lap-bar restraints. Universal provides a test seat. Ask a team member about transfer and accessibility details for your needs. All belongings go in complimentary in-queue lockers, followed by metal detection before boarding."
+      },
+      "tier": "headliner",
+      "standalonePage": true,
+      "summary": "The Upper Lot outdoor coaster opened September 16, 2026: four launches, three inversions, rotating cars and a 51-inch minimum.",
+      "description": [
+        "Fast & Furious: Hollywood Drift opened on September 16, 2026, on the Upper Lot. It is Universal Studios Hollywood's first high-speed outdoor roller coaster. Its 4,100-foot track runs over and under the Starway hillside at speeds up to 72 mph. Universal lists four launches, three inversions and forces up to 3.6 g.",
+        "Individual vehicles rotate through 360 degrees as the train travels. Universal has four vehicle designs modeled after cars from the films: Dodge Charger, Mazda RX-7, Nissan Skyline GT-R and Toyota Supra. Universal says the independently programmed vehicles can deliver different rides depending on which car you board.",
+        "The minimum height is 51 inches (129.5 cm), with a test seat available. Single Rider and Child Swap are listed on Universal's ride page. Universal's current daytime Express and Express Unlimited ticket descriptions exclude Hollywood Drift; check your exact ticket if that benefit matters."
+      ],
+      "experience": [
+        "The queue enters an Upper Lot garage-like building and displays props from the Fast & Furious films. A transparent section exposes part of the track from inside the queue.",
+        "The published ride layout includes four launches, an inverted dive loop, a twisted pretzel loop and an inverted stall. The rotating vehicles add movement beyond the track layout.",
+        "Universal requires every rider to place all belongings, including phones, in complimentary lockers in the queue and pass through metal detection before boarding."
+      ],
+      "tips": [
+        "Measure riders against the 51-inch minimum before committing to the queue; use the available test seat if fit is uncertain.",
+        "Use the complimentary in-queue lockers for every loose item, including your phone, before the metal detector.",
+        "Single Rider and Child Swap are available according to Universal's ride page; the Single Rider line does not guarantee a shorter wait on every visit.",
+        "Current daytime Universal Express and Express Unlimited ticket descriptions exclude this coaster. Check the ticket terms before paying for Express specifically for Hollywood Drift."
+      ],
+      "bestTime": "Check the live Universal app on your visit date; the new coaster may draw changing queue patterns.",
+      "typicalWait": "New in September 2026; check the live Universal app rather than relying on a historical average.",
+      "faqs": [
+        {
+          "q": "Is Fast & Furious: Hollywood Drift open?",
+          "a": "Yes. Universal announced that it opened September 16, 2026, on the Upper Lot."
+        },
+        {
+          "q": "How tall do you have to be?",
+          "a": "At least 51 inches (129.5 cm). Universal lists a test seat at the attraction."
+        },
+        {
+          "q": "Does it go upside down?",
+          "a": "Yes. Universal lists three inversions and four launches, with speeds up to 72 mph."
+        },
+        {
+          "q": "Can I use Single Rider or Child Swap?",
+          "a": "Yes. Universal lists both on the official ride page."
+        },
+        {
+          "q": "Is it included with Universal Express?",
+          "a": "Universal's current daytime Express and Express Unlimited ticket descriptions exclude Hollywood Drift. Check the terms of your exact ticket and visit date."
+        }
+      ],
+      "relatedSlugs": [
+        "revenge-of-the-mummy",
+        "flight-of-the-hippogriff",
+        "studio-tour"
+      ],
+      "image": null,
+      "lastVerified": "2026-09"
     },
     {
       "slug": "despicable-me-minion-mayhem",
@@ -650,7 +739,6 @@
       ],
       "relatedSlugs": [
         "waterworld",
-        "animal-actors",
         "despicable-me-minion-mayhem"
       ],
       "image": null,
@@ -745,7 +833,6 @@
       ],
       "relatedSlugs": [
         "studio-tour",
-        "animal-actors",
         "dreamworks-theatre"
       ],
       "image": null,
@@ -756,8 +843,8 @@
       "name": "Animal Actors",
       "land": "upper-lot",
       "type": "show",
-      "status": "open",
-      "closedNote": null,
+      "status": "closed",
+      "closedNote": "Closed January 8, 2023; the former show site was cleared for Fast & Furious: Hollywood Drift.",
       "heightIn": null,
       "heightNote": null,
       "durationMinutes": 20,
@@ -794,27 +881,25 @@
       },
       "tier": "minor",
       "standalonePage": false,
-      "summary": "A covered-stadium show of trained dogs, birds and other animals doing film and television work, and a genuinely restful twenty minutes.",
+      "summary": "Former Upper Lot animal training show, closed January 2023.",
       "description": [
-        "Animal Actors is a live show in a covered outdoor stadium on the Upper Lot, built around animals trained for film and television work. Dogs, birds and a rotating cast of others run through routines with their handlers, framed around how animal performances are actually achieved on set.",
-        "It is unfashionable and it is not going to be the highlight of anyone's day, which is precisely why it is useful. The stadium is covered, the seats are plentiful, the noise level is low, and it runs on a schedule with no meaningful queue. For a family with a tired toddler, or anyone who needs to sit down without buying anything, it is the softest landing in the park.",
-        "The training-focused framing also makes it a better fit with this park than it would be anywhere else. It is a working-studio show at a working studio, and the handlers are open about how the behaviors are built."
+        "Animal Actors was a live show featuring trained animals and their handlers in a covered Upper Lot stadium. Its final performance was January 8, 2023, and the former show area was redeveloped for Fast & Furious: Hollywood Drift.",
+        "The show is retained in this catalog as historical context. It is unavailable to visitors planning a current day."
       ],
       "tips": [
-        "Use this as a rest stop as much as a show. Covered seating, low volume, no queue, and twenty minutes off your feet.",
-        "Check the times board when you enter the park. This show runs fewer performances than WaterWorld and the last one is often early in the afternoon.",
-        "Sit near the front if you have small children. The animals work close to the first rows and are more likely to come along them.",
-        "Service animals are not permitted here because of the working animals on stage. Plan around that rather than discovering it at the entrance."
+        "This show is closed. Check the current entertainment schedule for operating shows.",
+        "WaterWorld and the DreamWorks Theatre are current seated alternatives on the Upper Lot.",
+        "The former show site is associated with the new Hollywood Drift coaster; check that ride's 51-inch height requirement."
       ],
-      "bestTime": "Early afternoon, as a shaded break between the Studio Tour and the rest of the Upper Lot.",
-      "typicalWait": "No queue in the usual sense — arrive 10 minutes before a posted showtime.",
+      "bestTime": "Closed January 8, 2023.",
+      "typicalWait": "Closed.",
       "faqs": [],
       "relatedSlugs": [
         "waterworld",
         "dreamworks-theatre"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "the-walking-dead-attraction",
@@ -1708,9 +1793,9 @@
       },
       "tier": "headliner",
       "standalonePage": true,
-      "summary": "An indoor launched coaster in total darkness with fire, a reverse section and a false ending — the park's only real roller coaster.",
+      "summary": "An indoor launched coaster in total darkness with fire, a reverse section and a false ending.",
       "description": [
-        "Revenge of the Mummy opened on the Lower Lot in 2004 and is the only genuine roller coaster at Universal Studios Hollywood. It is an indoor, fully enclosed, electromagnetically launched coaster with a themed first act: you move slowly through Egyptian tomb sets, an animatronic Imhotep threatens the car, and then the launch takes the whole thing from a walking pace to full speed in about two seconds.",
+        "Revenge of the Mummy opened on the Lower Lot in 2004 and is an indoor coaster at Universal Studios Hollywood, alongside the outdoor Hollywood Drift thrill coaster and the junior Flight of the Hippogriff. It is an indoor, fully enclosed, electromagnetically launched coaster with a themed first act: you move slowly through Egyptian tomb sets, an animatronic Imhotep threatens the car, and then the launch takes the whole thing from a walking pace to full speed in about two seconds.",
         "The Hollywood version is the shorter of the two Revenge of the Mummy coasters. Orlando's is longer, with more show scenes between the coaster sections. What Hollywood keeps is the essential structure: a slow scare-setup, a hard launch, a run through total darkness with a reverse segment and a fire effect, and a false ending that is one of the best-executed gags in any theme park.",
         "The darkness is what makes it work. There is no reference point, no advance warning of a turn, and no lighting except the deliberate effects. Riders who are comfortable with much bigger outdoor coasters find this one genuinely disorienting, and that is the intended effect rather than a flaw."
       ],
@@ -1732,7 +1817,7 @@
       "faqs": [
         {
           "q": "What is the height requirement for Revenge of the Mummy?",
-          "a": "48 inches, the tallest at Universal Studios Hollywood alongside Harry Potter and the Forbidden Journey. It is also the most intense ride here, and clearing the height says very little about whether a child will enjoy it."
+          "a": "48 inches. Fast & Furious: Hollywood Drift has the park's highest minimum at 51 inches. It is also the most intense ride here, and clearing the height says very little about whether a child will enjoy it."
         },
         {
           "q": "Is Revenge of the Mummy scary?",
@@ -1757,7 +1842,7 @@
         "harry-potter-and-the-forbidden-journey"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "transformers-the-ride-3d",

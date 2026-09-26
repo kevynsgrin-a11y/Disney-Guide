@@ -4,7 +4,7 @@
   "titleTail": ": Every Seasonal Event at Both Resorts, Year at a Glance",
   "h1": "The Universal event calendar: every seasonal event at both resorts, month by month",
   "description": "A year-at-a-glance timeline of every recurring seasonal event at Universal Orlando and Universal Studios Hollywood, with each band labelled by confidence.",
-  "summary": "Five recurring seasonal events run across the two US Universal resorts, and they leave a genuine hole in the middle of the year — from late spring to the middle of summer there is nothing seasonal on at either resort, which is a planning fact rather than an oversight.",
+  "summary": "The five detailed event guides on this calendar include confirmed 2026 Halloween Horror Nights dates on both coasts and confirmed Orlando holiday dates. Other event windows remain estimates until their own 2026 schedules are announced.",
   "bands": [
     {
       "eventSlug": "universal-orlando-mardi-gras",
@@ -18,21 +18,21 @@
       "startMonth": 8,
       "endMonth": 11,
       "resort": "universal-orlando",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "halloween-horror-nights-hollywood",
       "startMonth": 9,
       "endMonth": 11,
       "resort": "universal-hollywood",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "holidays-at-universal-orlando",
       "startMonth": 11,
       "endMonth": 1,
       "resort": "universal-orlando",
-      "confidence": "expected"
+      "confidence": "confirmed"
     },
     {
       "eventSlug": "grinchmas-at-universal-hollywood",
@@ -43,11 +43,11 @@
     }
   ],
   "notes": [
-    "Bands are windows, not schedules. Each one describes the span an event has occupied across recent cycles, rounded to whole months. An event whose band covers a month may run on only a handful of nights within it, which is true of both Halloween Horror Nights bands for most of their run.",
+    "Bands show whole months for orientation, not individual event nights. The 2026 Halloween Horror Nights ranges are confirmed, but each runs on select nights only; use the official event calendars to choose a date.",
     "Two bands wrap the year. The holiday overlays at both resorts start in November and finish in the first days of January, encoded here as month 11 to month 1 rather than clamped to December, because clamping them would hide the reason the first days of January are worth knowing about.",
-    "The gap is the useful part. Nothing seasonal runs at either resort from the end of Mardi Gras until Halloween Horror Nights opens, which is roughly a third of the year. A trip in May, June or July is buying the parks and nothing else, and that is worth knowing before you pick dates for atmosphere.",
-    "Universal's calendar is unusually paid. Three of the five bands here are hard-ticket or evening events with a separate charge, against two overlays included with admission. That is close to the inverse of what visitors coming from the other Orlando resort expect, and it changes how a seasonal trip should be budgeted.",
-    "Every band is labelled expected rather than confirmed. Each event has held its window across recent cycles, which is strong enough to plan around, and none has dates we have verified against an operator calendar as of July 2026."
+    "This calendar details five recurring guides, not every limited-time event. Universal also publishes shorter seasonal programs; check each resort’s official events page for the current full lineup.",
+    "The two Halloween Horror Nights bands require separate event admission. Mardi Gras and the holiday park overlays are included with regular park admission; optional holiday tours or other add-ons may cost extra.",
+    "Confirmed 2026 bands: Halloween Horror Nights Orlando (August 28–November 1), Halloween Horror Nights Hollywood (September 3–November 1), and Orlando Holidays (November 14–January 3, 2027). The Hollywood holiday window remains unconfirmed."
   ],
   "crossLinks": [
     {
@@ -77,9 +77,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Each band describes the window an event has occupied across recent cycles at its resort, rounded to whole months, and matches the typical windows in this site's reference table. No current or future dates have been verified by us against either resort's published calendar as of July 2026, which is why every band carries the expected label rather than confirmed. Bands are rechecked as each season's dates are announced rather than once a year.",
+    "sourceNote": "Mixed calendar: 2026 Orlando and Hollywood HHN ranges are confirmed by https://media.universalparksusa.com/press-releases/universal-orlando-resort-opens-the-gates-to-halloween-horror-nights-2026-082826/ and https://media.universalparksusa.com/press-releases/halloween-horror-nights-opens-at-universal-studios-hollywood-kicking-off-southern-californias-most-extreme-halloween-event-over-42-terrifying-nights-from-thursday-september-3-to-sunday-nov/; Orlando Holidays are confirmed by https://media.universalparksusa.com/press-releases/universal-orlando-resort-holidays-2026-080626/. Remaining bands are planning windows, so the calendar-level confidence stays expected.",
     "reviewBy": "2026-11",
     "cycle": "rolling"
   }

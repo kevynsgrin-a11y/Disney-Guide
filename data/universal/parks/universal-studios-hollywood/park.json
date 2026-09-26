@@ -15,7 +15,7 @@
   "summary": "Universal Studios Hollywood is a single park on a real working film lot above the San Fernando Valley, split across two levels joined by a long chain of escalators. The Studio Tour is the reason to come, and one day covers the whole park.",
   "intro": [
     "Universal Studios Hollywood is the oldest continuously operating attraction in this industry, and it is still built around the thing it started as. The tram tour opened in the summer of 1964 to sell tickets to a working film studio, and sixty years later that tour remains the single best reason to buy one. The coasters, the Wizarding World and Super Nintendo World were all added later, around the edges of a backlot that was never laid out to be a theme park.",
-    "The park sits on a hillside and is cut into two levels. The **Upper Lot** holds the entrance, the Studio Tour boarding area, all of the shows, The Wizarding World of Harry Potter and Super Nintendo World. The **Lower Lot** holds three of the park's biggest rides and very little else. The two are joined by the Starway, a chain of four long outdoor escalators. Going down takes four or five minutes when they are all running. Coming back up takes longer and feels longer still. The single most useful planning decision you will make here is to go down once and come up once, rather than criss-crossing all day.",
+    "The park sits on a hillside and is cut into two levels. The **Upper Lot** holds the entrance, Studio Tour boarding, WaterWorld, the Wizarding World and the new Fast & Furious: Hollywood Drift coaster. The **Lower Lot** holds Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers. The two are joined by the Starway, a chain of four long outdoor escalators. Going down takes four or five minutes when they are all running. Coming back up takes longer and feels longer still. The single most useful planning decision you will make here is to go down once and come up once, rather than criss-crossing all day.",
     "One day is enough, and that is a compliment rather than a complaint. You can finish this park — every ride, both shows worth seeing, the tour — inside a normal operating day with time to sit down. That makes it a genuinely different proposition from Universal Orlando, where three days is the honest minimum. It works as the anchor of a Los Angeles trip rather than as a trip in itself, and it is the one US Universal park you can reasonably do without booking a hotel.",
     "Several attractions here are shorter or smaller versions of Orlando counterparts, and you should know which before you decide the coasts are interchangeable. Revenge of the Mummy is a compact version of the Orlando coaster. Harry Potter and the Forbidden Journey is the same ride, but Hollywood's Wizarding World is one village rather than two connected lands with a train between them. Super Nintendo World here has one ride where Epic Universe has more. What Hollywood has that Orlando does not is the backlot, and no amount of construction in Florida is going to replicate a real one.",
     "The weak spot is food. There is no table-service restaurant inside the gate, the quick-service prices run above what the same food costs at Disneyland forty minutes down the freeway, and the best eating on the property is at CityWalk, outside the turnstiles. Same-day re-entry is allowed, which turns that from a complaint into a plan."
@@ -34,9 +34,9 @@
     "Anyone looking for a multi-day resort holiday"
   ],
   "stats": {
-    "attractionCount": 25,
-    "ridesWithHeightRequirements": 9,
-    "tallestRequirement": 48,
+    "attractionCount": 26,
+    "ridesWithHeightRequirements": 10,
+    "tallestRequirement": 51,
     "typicalFullDayHours": "7–9 hours",
     "minimumDaysRecommended": 1
   },
@@ -48,9 +48,9 @@
       "opened": 1964,
       "summary": "The park's original level: the entrance, the Studio Tour boarding area, every show, and most of the walking.",
       "description": [
-        "The Upper Lot is the park as it existed before there were rides. You enter here, and the first thing on your right is the entrance to the Studio Tour, which is the correct order of priorities. Around it sit the theaters, the Illumination and DreamWorks attractions, and the two newest lands, with the whole thing wrapped around a central plaza.",
+        "The Upper Lot is the park as it existed before there were rides. You enter here, and the first thing on your right is the entrance to the Studio Tour, which is the correct order of priorities. Around it sit the theaters, the Illumination and DreamWorks attractions, and Fast & Furious: Hollywood Drift, with the whole thing wrapped around a central plaza.",
         "It is the flatter of the two levels, but flat is relative on a hillside. The walking is longer than the park map suggests because the paths curve around show buildings and the backlot boundary, and there is very little straight-line routing between two points that look adjacent.",
-        "Almost everything with seating is up here. WaterWorld, Animal Actors and the DreamWorks Theatre are the three places you can sit in shade for twenty minutes without buying anything, and on a hot Valley afternoon that matters more than the show quality does.",
+        "Almost everything with seating is up here. WaterWorld and the DreamWorks Theatre provide seated breaks without buying anything, and on a hot Valley afternoon that matters more than the show quality does.",
         "The Upper Lot is also where the queue psychology of this park plays out. Guests arrive, walk fifty yards, and stop at the first thing they see. If you keep walking for another six minutes you will find shorter lines at nearly everything."
       ],
       "vibe": "A studio front lot with a theme park bolted on — soundstage walls on one side, a plaza and a tram queue on the other.",
@@ -182,16 +182,16 @@
       "order": 5,
       "summary": "The bottom of the hill: three of the park's biggest rides, reached by four long escalators and very little else down there.",
       "description": [
-        "The Lower Lot is where Universal Studios Hollywood put the things that needed room. Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D all sit down here, along with a handful of food windows, a bar and the shops attached to each ride. It is a narrow strip of the hillside rather than a land in the theming sense, and there is no attempt at a unifying story.",
+        "The Lower Lot holds Super Nintendo World alongside Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D, along with a handful of food windows, a bar and the shops attached to each ride. Outside the separately themed Nintendo courtyard, the neighboring rides occupy a narrow strip of hillside without a unifying story.",
         "Getting here is the whole planning problem with this park. The Starway is four long outdoor escalators in sequence, and the trip takes four to five minutes when everything is running and considerably longer when a section is down or the queue at the top backs up. Coming back up is the same journey against gravity, at the end of a long day, usually in the dark. There is an accessible route between the levels that does not use the escalators, and it is worth asking a team member about at the top rather than discovering the escalators are the only obvious option.",
-        "Because the trip is a commitment, the Lower Lot behaves differently from the rest of the park. It is frequently quiet in the first hour while everyone stays up top at the Wizarding World and Super Nintendo World, and it empties again in the last hour as people head back up to leave. Both windows are the best value on the property.",
+        "Because the trip is a commitment, the Lower Lot behaves differently from the rest of the park. Its ride queues change quickly in the first hour as guests descend for Super Nintendo World and the three neighboring rides, and it empties again in the last hour as people head back up to leave. Both windows are the best value on the property.",
         "Plan the day so you come down once. Do all three rides, eat if you need to, then take the escalators up and stay up. People who bounce between levels lose an hour of walking they never account for."
       ],
       "vibe": "A concrete canyon at the bottom of a hill with a T. rex on one side and a mummy's tomb on the other.",
       "anchorAttraction": "jurassic-world-the-ride",
       "highlights": [
         "Jurassic World — The Ride and its 84-foot drop",
-        "Revenge of the Mummy, the park's only real roller coaster",
+        "Revenge of the Mummy, the park's indoor launch coaster",
         "Transformers: The Ride-3D",
         "The Raptor Encounter, which is better than any character meet up top",
         "The first hour of the day, when almost nobody is down here"
@@ -225,11 +225,11 @@
       },
       {
         "title": "Understand the two levels before you arrive",
-        "body": "The park is on a hillside and split into an Upper Lot and a Lower Lot connected by four long escalators. The Lower Lot holds three major rides and nothing else you need. Plan one trip down and one trip up, not four. This single fact will save you more time than any other piece of planning."
+        "body": "The park is on a hillside and split into an Upper Lot and a Lower Lot connected by four long escalators. The Lower Lot holds Super Nintendo World and three other major rides. Plan one trip down and one trip up, not four. This single fact will save you more time than any other piece of planning."
       },
       {
         "title": "Measure a borderline child before you buy the ticket",
-        "body": "Forty inches is the gate that matters here. Below it, a child cannot ride Transformers, The Simpsons Ride, Minion Mayhem or Mario Kart, and Jurassic World is 42 inches on top of that. A family whose youngest is 38 inches will find this a much thinner park than the marketing suggests."
+        "body": "Forty inches opens several rides, while Hollywood Drift requires 51 inches. Below it, a child cannot ride Transformers, The Simpsons Ride, Minion Mayhem or Mario Kart, and Jurassic World is 42 inches on top of that. A family whose youngest is 38 inches will find this a much thinner park than the marketing suggests."
       },
       {
         "title": "Plan to eat outside the gate at least once",
@@ -247,11 +247,11 @@
     "morningPlan": [
       {
         "time": "Rope drop",
-        "body": "Take the Starway straight down to the Lower Lot and ride Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D back to back. Almost the entire arriving crowd turns toward Super Nintendo World and Harry Potter instead, and the Lower Lot stays quiet for the first hour. This is the highest-value hour of the day."
+        "body": "Check live waits for Hollywood Drift on the Upper Lot and Mario Kart on the Lower Lot at opening. Choose the shorter queue first; then group Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers into one Lower Lot visit. The new coaster and Nintendo can both draw opening crowds, so a fixed rope-drop order is unreliable."
       },
       {
         "time": "About 10:15am",
-        "body": "Come back up the Starway and go straight to Super Nintendo World. Check the app on the way in case a timed entry is running. Ride Mario Kart: Bowser's Challenge once and start the Key Challenges if you have bought Power-Up Bands."
+        "body": "While you are on the Lower Lot, visit Super Nintendo World. Check the app for any timed entry before descending. Ride Mario Kart once and start the Key Challenges if you bought Power-Up Bands."
       },
       {
         "time": "About 11:15am",
@@ -307,7 +307,7 @@
       }
     ],
     "rookieMistakes": [
-      "Going to Super Nintendo World at rope drop with everybody else, instead of taking the Starway down to a nearly empty Lower Lot.",
+      "Following a fixed opening route without checking Hollywood Drift, Mario Kart and Lower Lot wait times in the Universal app.",
       "Crossing between the Upper and Lower Lot three or four times. Each round trip on the Starway costs close to fifteen minutes, and nobody budgets for it.",
       "Leaving the Studio Tour until late in the day and finding a 60-minute queue for a 60-minute attraction with two hours of park left.",
       "Assuming this is a two-day park because Universal Orlando is a three-day resort. It is not, and buying a second day is the most common money wasted here.",
@@ -318,8 +318,8 @@
     ],
     "ifYouOnlyHaveOneDay": [
       "Be at the turnstiles 30 minutes before the posted opening, having already parked and walked up through CityWalk.",
-      "Take the Starway straight down and ride Jurassic World — The Ride, Revenge of the Mummy and Transformers: The Ride-3D in one pass.",
-      "Come back up and do Super Nintendo World and Mario Kart: Bowser's Challenge before 11am.",
+      "Check Hollywood Drift and Mario Kart wait times on arrival, then cover Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers in one Lower Lot block.",
+      "On the Upper Lot, ride Fast & Furious: Hollywood Drift if your group meets its 51-inch minimum; Universal currently excludes it from daytime Express.",
       "Ride Harry Potter and the Forbidden Journey, then Flight of the Hippogriff only if it is under 30 minutes.",
       "Eat at Toadstool Cafe, or walk out to CityWalk for a real lunch and come back in.",
       "Ride the Studio Tour in the early afternoon and sit on the left-hand side of the tram.",
@@ -402,7 +402,7 @@
     ],
     "mobilityNotes": [
       "The Starway escalators are the park's central mobility issue. There is an accessible route between the Upper and Lower Lot, but it is not well signposted — ask at Guest Relations on your way in and confirm at the top of the Starway.",
-      "The park is on a hillside throughout, and even the Upper Lot has sustained gentle grades between the entrance, the Wizarding World and Super Nintendo World. Distances are short but they are rarely flat.",
+      "The park is on a hillside throughout, and even the Upper Lot has sustained gentle grades between the entrance, the Wizarding World and Hollywood Drift. Distances are short but they are rarely flat.",
       "Revenge of the Mummy, Transformers: The Ride-3D, Jurassic World — The Ride, Harry Potter and the Forbidden Journey, Mario Kart: Bowser's Challenge and The Simpsons Ride all require a full transfer out of a wheelchair or ECV.",
       "The Studio Tour trams have designated wheelchair-accessible cars that load from a separate position. Ask at the boarding area rather than joining the main queue, and expect to wait for the right tram rather than the next one.",
       "Jurassic World — The Ride requires stepping down into a boat from a moving platform, with a raised sill, and you will get wet, which matters more for some conditions than the transfer does.",
@@ -420,7 +420,7 @@
   "tips": [
     {
       "title": "Go down before you go anywhere else",
-      "body": "At opening, the arriving crowd turns toward Super Nintendo World and the Wizarding World and stays on the Upper Lot. Take the Starway straight down instead. Jurassic World, Revenge of the Mummy and Transformers can all be done in the first hour with waits under 15 minutes, and the same three rides cost you two hours in the afternoon."
+      "body": "At opening, check the Universal app: Hollywood Drift draws guests on the Upper Lot, while Super Nintendo World draws them to the Lower Lot. Cover the Lower Lot rides and Nintendo together, and avoid extra Starway round trips. Live waits should decide whether you start with Drift or descend first."
     },
     {
       "title": "The Starway is a tax, so pay it twice and no more",
@@ -466,11 +466,11 @@
     },
     {
       "q": "What is the best attraction at Universal Studios Hollywood?",
-      "a": "The Studio Tour, and it is not close. It runs about an hour, crosses a genuinely working backlot, and includes King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale along the way. No other theme park anywhere can offer a real film lot, and most guides bury it under the coasters."
+      "a": "The Studio Tour runs about an hour through a working film backlot and includes King Kong 360 3-D and the earthquake subway sequence. The former Fast & Furious finale closed in March 2025, while the tour itself remains open."
     },
     {
       "q": "How does the Upper Lot and Lower Lot split work?",
-      "a": "The park is built on a hillside in two levels. The Upper Lot has the entrance, the Studio Tour, both shows, the Wizarding World and Super Nintendo World. The Lower Lot has Jurassic World — The Ride, Revenge of the Mummy and Transformers. They connect via the Starway, four long outdoor escalators that take four to five minutes each way. Plan to make the trip once in each direction."
+      "a": "The park is built on a hillside in two levels. The Upper Lot has the entrance, the Studio Tour, WaterWorld, the Wizarding World and Hollywood Drift. The Lower Lot has Super Nintendo World, Jurassic World — The Ride, Revenge of the Mummy and Transformers. They connect via the Starway, four long outdoor escalators that take four to five minutes each way. Plan to make the trip once in each direction."
     },
     {
       "q": "Is Universal Express Pass worth it at Universal Studios Hollywood?",
@@ -478,11 +478,11 @@
     },
     {
       "q": "What are the height requirements at Universal Studios Hollywood?",
-      "a": "Harry Potter and the Forbidden Journey and Revenge of the Mummy are 48 inches. Jurassic World — The Ride is 42. Transformers: The Ride-3D, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge are 40. Flight of the Hippogriff is 39 and The Secret Life of Pets: Off the Leash is 34. The Studio Tour and both shows have no requirement at all."
+      "a": "Fast & Furious: Hollywood Drift is 51 inches, the highest minimum in the park. Harry Potter and the Forbidden Journey and Revenge of the Mummy are 48 inches. Jurassic World — The Ride is 42. Transformers: The Ride-3D, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge are 40. Flight of the Hippogriff is 39 and The Secret Life of Pets: Off the Leash is 34. The Studio Tour and both shows have no requirement at all."
     },
     {
       "q": "Is this park good for young children?",
-      "a": "Only partly. Below 40 inches the list is short: the Studio Tour, WaterWorld, Animal Actors, the DreamWorks Theatre, Super Silly Fun Land, the Wizarding World village and The Secret Life of Pets: Off the Leash at 34 inches. That is a solid half day rather than a full one. Above 40 inches the park opens up sharply."
+      "a": "Only partly. Below 40 inches the list is short: the Studio Tour, WaterWorld, the DreamWorks Theatre, Super Silly Fun Land, the Wizarding World village and The Secret Life of Pets: Off the Leash at 34 inches. That is a solid half day rather than a full one. Above 40 inches the park opens up sharply."
     },
     {
       "q": "How does it compare to Universal Orlando?",

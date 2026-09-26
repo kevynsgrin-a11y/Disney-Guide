@@ -51,7 +51,7 @@
     "resortNames": "the ten regional coaster parks",
     "venuePhrase": "across all five regions",
     "coverageSentence": "Coverage is the ten parks on this site — four park companies across five regions — held to the same standard on every page. Within that:",
-    "eventsExamples": "nine Halloween haunts across the four park companies and the holiday overlays that close the year",
+    "eventsExamples": "Halloween haunts and family events across four park companies, plus the holiday programs that close the year",
     "spreadExample": "A Fright Fest Saturday at Magic Mountain and a February weekday in Gurnee",
     "coveringPhrase": "covering all five regions"
   },
@@ -305,7 +305,7 @@
       "intro": [
         "Six Flags Great America is the Chicago area's answer to the big regional parks, and its coaster lineup is deeper than its reputation. Raging Bull is a 200-foot B&M hyper with a 65-degree first drop and the floating airtime that company's coasters are famous for. Goliath, the 2014 Rocky Mountain hybrid, inverts a wooden coaster twice and holds its own against anything in the region. Whizzer, a 1976 suspended family coaster, is the beloved anachronism worth riding between the giants.",
         "Batman: The Ride here is the original — the 1992 invert that cloned a generation of coasters nationwide — and American Eagle's racing wooden tracks are a piece of 1981 Americana that still runs when parks twice as rich would have bulldozed them. The Mardi Gras section added in the 2020s gives the middle of the park a party-district feel with a first-rate freespin in The Joker.",
-        "The park's season runs May through December with a big Fright Fest overlay in fall and Holiday in the Park to close the year — one of the few parks on this site where a December visit is a real option, if you pack for Lake Michigan wind off the flats."
+        "Great America's operating calendar varies by season. Check its official schedule for your exact date, especially before planning a winter visit; do not assume a December event is available."
       ],
       "parks": [
         "great-america"
@@ -624,7 +624,7 @@
       ],
       "intro": [
         "Six Flags is the brand most Americans picture when they picture a regional theme park, and this site covers its four flagship-branded parks: Six Flags Magic Mountain outside Los Angeles, Six Flags Great America outside Chicago, Six Flags Over Texas in Arlington, and Six Flags Great Adventure between New York and Philadelphia. They are the four biggest coaster lineups we track — thirty-four roller coasters between them, more than half of the sixty on this site.",
-        "What the four parks share is the formula: coaster-heavy lineups priced per park, a Halloween Fright Fest overlay included with admission, and a per-ride or per-day line-skip product on top of the ticket. What they do not share is a gate. These are four independent parks in four metro areas, each ticketed separately — there is no single Six Flags ticket that covers two of them, and nobody should plan a trip as if there were.",
+        "What the four parks share is the formula: coaster-heavy lineups priced per park, a Halloween Fright Fest overlay on scheduled nights, and optional line-skip products. The current seasonal guide explains each park's admission and haunted-maze rules. What they do not share is a gate. These are four independent parks in four metro areas, each ticketed separately — there is no single Six Flags ticket that covers two of them, and nobody should plan a trip as if there were.",
         "One corporate note, because search results blur it: since the July 2024 merger of Six Flags and Cedar Fair, the combined Six Flags Entertainment Corporation also operates parks that do not carry the Six Flags brand — including Knott's Berry Farm, which this site covers separately. This page is about the four parks that actually fly the Six Flags flag. Within those four, the differences are bigger than the similarities: Magic Mountain is the coaster capital by volume, Over Texas is the 1961 original the chain is named for, Great Adventure is the Northeast's biggest lineup, and Great America is the Chicago answer to all of the above.",
         "Pick by geography first — the closest of the four is almost always the right one for a first visit — and by coaster ambition second: nobody flies across the country for Great America who would not rather be at Magic Mountain, and nobody in Arlington regrets skipping a flight."
       ],
@@ -642,8 +642,8 @@
           "body": "Magic Mountain in Valencia runs twelve roller coasters — the most at any park this site covers, and four more than any other Six Flags listed here."
         },
         {
-          "title": "Fright Fest is included",
-          "body": "All four parks run Fright Fest as an included-with-admission Halloween overlay: decorated midways and scare zones by day, haunts after dark. It is the busiest these parks get all year."
+          "title": "Fright Fest admission and maze passes",
+          "body": "Check the current seasonal event guide for each park's scare-zone, haunted-maze and daytime family-program admission rules before buying a ticket."
         }
       ],
       "note": "Company hub pages cut across the regional sections; this one exists because the brand query ('six flags') is bigger than any single park's, and the answer spans four regions."

@@ -3,7 +3,8 @@
   "criteria": "Ranked on what the attraction does to you between the load and the unload, how much of it is physically built rather than projected onto a screen, and whether it survives a second and fifth go. Posted waits, Express Pass eligibility and single rider availability were kept out of the ordering entirely; where they matter they are argued in the text instead.",
   "intro": [
     "Universal Studios Florida has nine substantial rides and a great many of them are screens. Any ranking of this park that pretends otherwise is not being straight with you, so the shows, the walkthroughs and the wand medallions are ranked against the rides on identical terms: what is built, what happens to you, and whether you would go back. A make-up demonstration that has run since 1990 gets judged the same way a launch coaster does, and it finishes higher than most of the coasters.",
-    "The other thing shaping this list is screen fatigue, which is a real planning constraint at this park rather than a preference. Transformers, Minion Mayhem, The Simpsons Ride and Fast & Furious are all a moving seat in front of a projection, and doing several in a row degrades every one of them — the third simulator of the morning is worse than the first even when it is the better attraction. That is why the two best things in this park are a coaster in the dark and a stage show, and why several unqueued, unheralded corners of Diagon Alley outrank rides with hour-long boards."
+    "The other thing shaping this list is screen fatigue, which is a real planning constraint at this park rather than a preference. Transformers, Minion Mayhem, The Simpsons Ride and Fast & Furious are all a moving seat in front of a projection, and doing several in a row degrades every one of them — the third simulator of the morning is worse than the first even when it is the better attraction. That is why the two best things in this park are a coaster in the dark and a stage show, and why several unqueued, unheralded corners of Diagon Alley outrank rides with hour-long boards.",
+    "Hollywood Rip Ride Rockit closed permanently in August 2025 and is excluded from the current ranking."
   ],
   "ranking": [
     {
@@ -68,16 +69,6 @@
     },
     {
       "rank": 7,
-      "slug": "hollywood-rip-ride-rockit",
-      "headline": "A vertical lift, a past-vertical first drop, and a soundtrack you pick from a keypad in the restraint.",
-      "why": [
-        "The lift is the product. Instead of a chain hill you are pulled up a 90-degree wall on your back at a slow, deliberate pace with nothing to look at but sky, and the crest tips you into a 167-foot drop angled beyond vertical and straight into a non-inverting loop. Nothing else in Orlando does that opening, and the seat-mounted music system — a keypad menu plus a hidden library of unlisted tracks — is a genuinely good idea nobody else has copied properly.",
-        "It ranks seventh because the layout after the first thirty seconds does not sustain it. The second half rattles, the transitions are abrupt, and the whole thing is over in about two minutes. It also carries the tallest height requirement in the park at 51 inches with a 79-inch maximum, which splits more families than anything else here, and the over-the-shoulder harness is the least forgiving in the park for larger riders. Use the test seat. Ride it after dark, when the queue collapses and the lift-hill view is worth having."
-      ],
-      "skipIf": "Skip it if heights frighten you; the slow vertical lift on your back is the part people regret, not the drop."
-    },
-    {
-      "rank": 8,
       "slug": "the-bourne-stuntacular",
       "headline": "Live stunt performers handing off to a moving LED wall mid-motion, with no visible seam.",
       "why": [
@@ -87,7 +78,7 @@
       "skipIf": "Skip it if you cannot get a seat in the middle third; from the sides it is a different and much worse show."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "slug": "knockturn-alley",
       "headline": "A covered, unlit side street with the best window displays in the park and nobody in it.",
       "why": [
@@ -97,7 +88,7 @@
       "skipIf": null
     },
     {
-      "rank": 10,
+      "rank": 9,
       "slug": "the-simpsons-ride",
       "headline": "The best-written attraction in the park and the most reliable way to end your day early.",
       "why": [
@@ -107,17 +98,17 @@
       "skipIf": "Skip it if you have already ridden Transformers or Minion Mayhem today; the third simulator is the one that gets you."
     },
     {
-      "rank": 11,
+      "rank": 10,
       "slug": "illuminations-villain-con-minion-blast",
       "headline": "A moving-walkway shooting gallery with no height stick, no motion base and a score saved to your ticket.",
       "why": [
         "Structurally it is unlike anything else at this resort. There is no vehicle: you stand on a slow belt with a handheld blaster and work through six rooms of targets while a running score builds. It is not difficult and it is not trying to be, and the queue through the villain convention floor is the best-written part of the attraction.",
-        "It ranks this high because of who it lets in. In a park where nine attractions have a height requirement and six put you in front of a moving screen, this is the one substantial thing an entire family can do together — no height stick, no transfer, no restraint, and a wheelchair boards the belt directly. Scores accumulate across runs on the same park ticket, which gives it genuine repeat value. The posted wait overstates it badly because the belt never stops, so judge it by how far the physical queue extends rather than by the number on the board."
+        "It ranks this high because of who it lets in. In a park where eight operating attractions have a height requirement and several put you in front of a moving screen, this is one substantial thing an entire family can do together — no height stick, no transfer, no restraint, and a wheelchair boards the belt directly. Scores accumulate across runs on the same park ticket, which gives it genuine repeat value. Judge the wait by how far the physical queue extends as well as the posted number."
       ],
       "skipIf": "Skip it if noise and constant bright light are a problem; there is no quiet stretch and no obvious place to step off."
     },
     {
-      "rank": 12,
+      "rank": 11,
       "slug": "e-t-adventure",
       "headline": "The last opening-day ride still running, with a 34-inch stick and not a single screen in it.",
       "why": [
@@ -127,7 +118,7 @@
       "skipIf": "Skip it if you cannot manage stepping up and swinging a leg over the seat; the boarding is harder than the ride."
     },
     {
-      "rank": 13,
+      "rank": 12,
       "slug": "ollivanders-wand-shop",
       "headline": "Six minutes, free, running all day, and one child per group gets chosen.",
       "why": [
@@ -137,7 +128,7 @@
       "skipIf": "Skip it if you only want to buy a wand; the shop is open to walk into without doing the ceremony."
     },
     {
-      "rank": 14,
+      "rank": 13,
       "slug": "interactive-wand-experiences",
       "headline": "The only thing you can buy here that still works on your next trip.",
       "why": [
@@ -147,7 +138,7 @@
       "skipIf": "Skip it if you are not buying an interactive wand; the standard wands do nothing at all at the medallions."
     },
     {
-      "rank": 15,
+      "rank": 14,
       "slug": "despicable-me-minion-mayhem",
       "headline": "A straightforward 3D simulator, and the only ride here with a real no-motion option.",
       "why": [
@@ -157,7 +148,7 @@
       "skipIf": "Skip the moving seats and ask for stationary seating if you are at all unsure; the film is exactly the same."
     },
     {
-      "rank": 16,
+      "rank": 15,
       "slug": "celestina-warbeck-and-the-banshees",
       "headline": "A wizarding torch singer and three backing vocalists, and the best free thing most guests walk past.",
       "why": [
@@ -167,7 +158,7 @@
       "skipIf": "Skip it in the middle of the afternoon; the square is unshaded and fifteen minutes standing in it costs more than the show gives."
     },
     {
-      "rank": 17,
+      "rank": 16,
       "slug": "cinesational-a-symphonic-spectacular",
       "headline": "Fountains, fire and projection across the lagoon, priced at roughly an hour of your evening.",
       "why": [
@@ -177,7 +168,7 @@
       "skipIf": "Skip it if you have seen it before; the riding window it creates across the rest of the park is worth more than a second viewing."
     },
     {
-      "rank": 18,
+      "rank": 17,
       "slug": "trolls-trollercoaster",
       "headline": "Sixty seconds, 36 inches, and the first roller coaster a great many children will ever ride.",
       "why": [
@@ -187,7 +178,7 @@
       "skipIf": "Skip it if nobody in your group is under about ten; there is nothing here for an adult riding alone."
     },
     {
-      "rank": 19,
+      "rank": 18,
       "slug": "fast-and-furious-supercharged",
       "headline": "A party bus driven past screens for five minutes, and the weakest attraction at Universal Orlando.",
       "why": [
@@ -201,10 +192,6 @@
     {
       "slug": "harry-potter-and-the-escape-from-gringotts",
       "why": "Ranked second above and listed here deliberately. The banking hall is the best room in the park and the ride behind it is a mild coaster that spends much of its running time rotating you to face another screen. People describe the land and the queue when they think they are describing the ride, and Express Pass sells you a shortcut past the best part of it."
-    },
-    {
-      "slug": "hollywood-rip-ride-rockit",
-      "why": "The vertical lift and the first drop are genuinely distinctive and the other ninety seconds are a rattly, abrupt layout that nobody describes at dinner. It also carries the park's tallest height requirement at 51 inches and the least forgiving restraint, so a great many families give up the most divisive ride here for the least rewarding second half."
     },
     {
       "slug": "despicable-me-minion-mayhem",
@@ -244,7 +231,7 @@
     },
     {
       "q": "Which rides at Universal Studios Florida are worth using single rider for?",
-      "a": "Revenge of the Mummy and Hollywood Rip Ride Rockit first, both of which routinely run at a fifth to a quarter of standby. Transformers is close behind because the vehicles hold twelve and gaps open constantly. Escape from Gringotts and Men in Black are worth it for repeat rides but not for a first ride, since single rider skips the queues that are half the point of both."
+      "a": "Revenge of the Mummy is the most useful operating Single Rider line. Transformers is also valuable because gaps open in its twelve-seat vehicles. Escape from Gringotts and Men in Black are better for repeat rides because Single Rider skips substantial queue scenes. Rip Ride Rockit closed permanently in August 2025."
     },
     {
       "q": "What can a child under 40 inches ride here?",
@@ -252,7 +239,7 @@
     },
     {
       "q": "How many rides at Universal Studios Florida are screen-based?",
-      "a": "Six of the nine substantial rides use screens as a primary element: Transformers, Despicable Me Minion Mayhem, The Simpsons Ride, Fast & Furious, and to a lesser degree Escape from Gringotts and Men in Black. Only Revenge of the Mummy, Hollywood Rip Ride Rockit, E.T. Adventure and Trolls Trollercoaster have no screen at their centre. Space the screen rides out across the day rather than doing three in a morning."
+      "a": "The active ride list is screen-heavy. Revenge of the Mummy, E.T. Adventure and Trolls Trollercoaster are the main operating rides without a screen at their centre. Rip Ride Rockit closed in August 2025; space simulators out across the day."
     },
     {
       "q": "Is one day enough for Universal Studios Florida?",

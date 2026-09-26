@@ -1,10 +1,10 @@
 {
   "park": "universal-studios-hollywood",
-  "criteria": "Ranked on the experience itself — what it is like to be on the thing — across everything the park operates, not only what runs on a track. Queue length, Universal Express eligibility and single rider availability moved nothing up or down. Segments of the Studio Tour are not ranked separately, because you cannot choose to do them.",
+  "criteria": "Ranked on the experience itself — what it is like to be on the thing — across everything the park operates, not only what runs on a track. Queue length, Universal Express eligibility and single rider availability moved nothing up or down. Segments of the Studio Tour are not ranked separately, because you cannot choose to do them. Fast & Furious: Hollywood Drift opened September 16, 2026. It is listed as a new, unranked addition pending an editorial ride, rather than assigned an invented first-hand ranking.",
   "intro": [
     "Universal Studios Hollywood has one attraction that nothing else in the world can copy, and about fifteen that range from very good to entirely skippable. That imbalance is the whole shape of this list. The Studio Tour is first by a distance that is not close enough to argue about, and everything below it is competing for second.",
-    "The other thing worth stating up front: the two best things here after the tour are a boat ride from 1996 and a stunt show from 1995. The newest land in the park contains the ride we rank eighth. That is not nostalgia. It is what happens when a park's older attractions were built around practical effects and its newer ones were built around screens.",
-    "One day covers all of this comfortably. Nothing on this list requires a second visit, and the correct order is roughly: the three Lower Lot rides at rope drop, Super Nintendo World and Harry Potter before noon, the Studio Tour in the early afternoon, WaterWorld after that, and Springfield in the evening."
+    "The ranked rides below reflect attractions we can assess directly. Fast & Furious: Hollywood Drift opened September 16, 2026, adding a 72-mph outdoor coaster with four launches and three inversions; it needs an editorial ride before a defensible rank. Its 51-inch minimum and current daytime Express exclusion matter immediately to a visit.",
+    "Group Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers in one Lower Lot visit. Hollywood Drift is on the Upper Lot. Check live waits for the new coaster and Mario Kart before choosing which to do first; the Studio Tour needs a separate hour."
   ],
   "ranking": [
     {
@@ -53,7 +53,7 @@
     {
       "rank": 5,
       "slug": "revenge-of-the-mummy",
-      "headline": "The park's only real roller coaster: launched, fully dark, with fire overhead and the best false ending anywhere.",
+      "headline": "The park's indoor launch coaster: fully dark, with fire overhead and a strong false ending.",
       "why": [
         "Two minutes, entirely enclosed, entirely dark. A slow themed setup with an Imhotep animatronic, then an abrupt launch into unlit banked turns, a reverse section, and a ceiling of fire that produces real heat.",
         "The darkness is the design. With no reference points, riders who are comfortable on much bigger outdoor coasters find this genuinely disorienting, and the false ending catches almost everybody the first time.",
@@ -170,17 +170,6 @@
         "In a park short of shade and short of seating, twenty minutes here in the middle of the afternoon is worth more than another ride."
       ],
       "skipIf": "It is your last hour in the park and you have not done the Studio Tour."
-    },
-    {
-      "rank": 16,
-      "slug": "animal-actors",
-      "headline": "Trained animals doing film work in a covered stadium, and the softest landing in the park.",
-      "why": [
-        "Unfashionable, low-key and genuinely restful. Dogs, birds and a rotating cast work with handlers who explain how the behaviors are actually built for camera, which fits this park better than it would fit any other.",
-        "The practical value is the covered stadium, the plentiful seating and the low volume, with no queue to speak of. For anyone traveling with a tired toddler it is the best twenty minutes available.",
-        "It is last on this list and it is not filler. Everything below it is either a walkthrough, a photo stop, or the escalators."
-      ],
-      "skipIf": "You are short on time and have not yet done the Studio Tour or WaterWorld."
     }
   ],
   "overrated": [
@@ -209,10 +198,6 @@
     {
       "slug": "raptor-encounter",
       "why": "Written off as a photo stop and actually the second-best live performance in the park. The raptor puppet tracks movement, reacts to noise and lunges at guests without ever breaking, and the handlers work it as though the animal were dangerous. It is on the Lower Lot, which is the only reason more people do not see it."
-    },
-    {
-      "slug": "animal-actors",
-      "why": "Nobody plans for it and it is the most restful twenty minutes at Universal Studios Hollywood: covered stadium, plentiful seating, low volume, no queue. The training-focused framing also sits better at a working studio than it would anywhere else. For anyone with a tired child, it is worth more than another ride."
     }
   ],
   "faqs": [
@@ -222,7 +207,7 @@
     },
     {
       "q": "What order should I do the rides in?",
-      "a": "Take the Starway down at rope drop and do Jurassic World, Revenge of the Mummy and Transformers in one pass while the Lower Lot is empty. Come back up for Super Nintendo World and Harry Potter before noon. Studio Tour in the early afternoon, WaterWorld after it, Springfield in the evening."
+      "a": "Check live waits for Hollywood Drift on the Upper Lot and Mario Kart on the Lower Lot at opening. Cover Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers in a single Lower Lot visit, then use a separate hour for the Studio Tour. Hollywood Drift is currently excluded from daytime Express."
     },
     {
       "q": "Is Mario Kart worth the wait?",
@@ -234,7 +219,7 @@
     },
     {
       "q": "How many of these can I do in one day?",
-      "a": "All of them, with an early arrival and one trip down to the Lower Lot rather than four. This is a one-day park and the ranked list above is a realistic single-day plan rather than an aspirational one."
+      "a": "Most operating attractions fit in a full day with an early arrival and one Lower Lot visit, but Hollywood Drift opened in September 2026 and its queue can change that calculation. Check live waits and park hours for your date."
     },
     {
       "q": "Which rides are worth using Universal Express on?",

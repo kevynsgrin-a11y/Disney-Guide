@@ -6,15 +6,23 @@
   "summary": "Islands of Adventure is the better park and the better one-day ticket for most groups — it has the stronger ride slate and the best coaster in Florida. Universal Studios Florida wins if Diagon Alley is the reason you came, if anyone gets motion sick, or if your youngest is under 40 inches.",
   "readingTimeMinutes": 12,
   "contenders": [
-    { "key": "usf", "name": "Universal Studios Florida", "subtitle": "Opened 1990, about 108 acres" },
-    { "key": "ioa", "name": "Islands of Adventure", "subtitle": "Opened 1999, about 101 acres" }
+    {
+      "key": "usf",
+      "name": "Universal Studios Florida",
+      "subtitle": "Opened 1990, about 108 acres"
+    },
+    {
+      "key": "ioa",
+      "name": "Islands of Adventure",
+      "subtitle": "Opened 1999, about 101 acres"
+    }
   ],
   "verdict": {
     "short": "Islands of Adventure on a one-day ticket, for most groups. Universal Studios Florida if Diagon Alley is the point, if anyone in the party gets motion sick, or if your youngest child is under 40 inches.",
     "body": [
       "These two parks face each other across a ten-minute walk and they are built on opposite principles. Islands of Adventure is a ride park: The Incredible Hulk Coaster at 54 inches, Doctor Doom's Fearfall at 52, Jurassic World VelociCoaster at 51, Hagrid's Magical Creatures Motorbike Adventure and Harry Potter and the Forbidden Journey at 48. Fourteen of its attractions measure you at the entrance. Universal Studios Florida is a screen park: Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all screens in front of a motion base, and Harry Potter and the Escape from Gringotts and Men in Black Alien Attack lean on screens too.",
       "For a group that clears 51 inches and likes going fast, Islands of Adventure is the strongest single park day in Orlando and the choice is not close. Jurassic World VelociCoaster is the best roller coaster in Florida — two launches, a 155-foot top hat, four inversions, and a run of track that skims the lagoon at speed. Hagrid's is the more inventive ride and the one people queue longest for. Add Hulk, Spider-Man and Forbidden Journey and the top five here beats the top five across the walkway comfortably.",
-      "Universal Studios Florida's case rests on three specific things. Diagon Alley is the best-built environment Universal has produced in Florida outside Epic Universe — enclosed, with a proper reveal, two live shows and a wand ceremony inside it. The park has more indoor, air-conditioned attractions, which is not a small consideration in an Orlando August. And its height ceiling is lower: nine attractions carry a stick against fourteen next door, and the tallest is 51 inches rather than 54.",
+      "Universal Studios Florida's case rests on three specific things. Diagon Alley is the best-built environment Universal has produced in Florida outside Epic Universe — enclosed, with a proper reveal, two live shows and a wand ceremony inside it. The park has more indoor, air-conditioned attractions, which is not a small consideration in an Orlando August. And its height ceiling is lower: eight operating attractions carry a stick against fourteen next door, and the tallest is 48 inches rather than 54 after Rip Ride Rockit closed.",
       "The third argument is the one that decides more trips than either park's ride list: motion sickness. Universal Studios Florida has a higher concentration of screen-based rides than any other major park in the United States. Three of them in one morning will do it to people who thought they were fine. If anyone in your group is susceptible, that is a park to space out rather than to spend a full day in."
     ]
   },
@@ -28,7 +36,7 @@
       "name": "Ride roster and depth",
       "winner": "ioa",
       "cells": {
-        "usf": "About 31 attractions, weighted toward screens, shows and walkthroughs. Two genuine coasters — Hollywood Rip Ride Rockit outdoors at 51 inches and Revenge of the Mummy indoors at 48 — plus Escape from Gringotts, which is part coaster and part screen.",
+        "usf": "About 31 attractions, weighted toward screens, shows and walkthroughs. Revenge of the Mummy is the active full-thrill coaster at 48 inches, while Gringotts mixes a coaster section with screens. Rip Ride Rockit closed in August 2025.",
         "ioa": "About 30 attractions, weighted hard toward rides. Five headliners at 48 inches or above, three water rides, a drop tower, and the best coaster in Florida. Most people who visit both prefer this one, and the ride slate is why."
       },
       "note": "The counts are almost identical. What differs is what the attractions are, which is the whole comparison."
@@ -55,7 +63,7 @@
       "name": "Height requirements",
       "winner": "usf",
       "cells": {
-        "usf": "Nine attractions carry one. Hollywood Rip Ride Rockit is 51 inches with a 79-inch maximum, Revenge of the Mummy is 48, Escape from Gringotts and Men in Black Alien Attack are 42, Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36, and E.T. Adventure is 34.",
+        "usf": "Eight operating attractions carry one. Revenge of the Mummy is 48, Escape from Gringotts and Men in Black Alien Attack are 42, Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36, and E.T. Adventure is 34.",
         "ioa": "Fourteen attractions carry one, and the top of the list is the strictest in Orlando. The Incredible Hulk Coaster is 54 inches, Doctor Doom's Fearfall is 52, Jurassic World VelociCoaster is 51, and both Hagrid's and Forbidden Journey are 48. Dudley Do-Right's Ripsaw Falls is 44, the Bilge-Rat Barges and Jurassic Park River Adventure are 42, and Spider-Man is 40."
       },
       "note": "A child of eight who has not reached 48 inches is shut out of all five Islands of Adventure headliners. Measure at home before you buy a ticket to either park."
@@ -82,7 +90,7 @@
       "name": "Single rider lines",
       "winner": "tie",
       "cells": {
-        "usf": "Six: Hollywood Rip Ride Rockit, Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black Alien Attack and Despicable Me Minion Mayhem. They run at a third of standby or better and Universal actively pushes guests into them.",
+        "usf": "Five: Revenge of the Mummy, Transformers, Escape from Gringotts, Men in Black Alien Attack and Despicable Me Minion Mayhem. They run at a third of standby or better and Universal actively pushes guests into them.",
         "ioa": "Six: The Incredible Hulk Coaster, The Amazing Adventures of Spider-Man, Doctor Doom's Fearfall, Skull Island: Reign of Kong, Jurassic World VelociCoaster and Harry Potter and the Forbidden Journey. Hagrid's does not have one, which is the single most consequential omission at the resort."
       },
       "note": "Two adults using single rider lines separately will often clear six rides in the time standby takes for two. Ride standby once for the queue, then single rider every time after."
@@ -143,16 +151,52 @@
         "Everything below assumes a single park ticket. If you hold park-to-park, none of it applies and you should be riding the Hogwarts Express."
       ],
       "table": {
-        "columns": ["Your group", "Pick", "Why"],
+        "columns": [
+          "Your group",
+          "Pick",
+          "Why"
+        ],
         "rows": [
-          ["Adults and teenagers, everyone over 51 inches", "Islands of Adventure", "VelociCoaster, Hulk, Hagrid's, Doctor Doom's and Forbidden Journey in one loop"],
-          ["Harry Potter is the whole reason for the trip", "Neither on one park — buy park-to-park", "Half the design is in each park and the train between them is an attraction"],
-          ["Somebody gets motion sick on simulators", "Islands of Adventure", "Its thrills are physical; the other park's are visual and there are more of them"],
-          ["Youngest child is under 40 inches", "Islands of Adventure", "Seuss Landing is a purpose-built children's island; the alternative is a half-day"],
-          ["Youngest child is 40 to 47 inches", "Universal Studios Florida", "Six rides open at 40 to 42 inches here against a wall of 48s and above next door"],
-          ["Visiting in July or August with no Express Pass", "Universal Studios Florida", "More indoor attractions, more shade, and less of the ride list lost to a lightning hold"],
-          ["You have been to both and want the better park", "Islands of Adventure", "It is the better park, and it is not particularly close"],
-          ["You want the best single environment at the resort", "Universal Studios Florida", "Diagon Alley, and it is worth the ticket on its own"]
+          [
+            "Adults and teenagers, everyone over 51 inches",
+            "Islands of Adventure",
+            "VelociCoaster, Hulk, Hagrid's, Doctor Doom's and Forbidden Journey in one loop"
+          ],
+          [
+            "Harry Potter is the whole reason for the trip",
+            "Neither on one park — buy park-to-park",
+            "Half the design is in each park and the train between them is an attraction"
+          ],
+          [
+            "Somebody gets motion sick on simulators",
+            "Islands of Adventure",
+            "Its thrills are physical; the other park's are visual and there are more of them"
+          ],
+          [
+            "Youngest child is under 40 inches",
+            "Islands of Adventure",
+            "Seuss Landing is a purpose-built children's island; the alternative is a half-day"
+          ],
+          [
+            "Youngest child is 40 to 47 inches",
+            "Universal Studios Florida",
+            "Six rides open at 40 to 42 inches here against a wall of 48s and above next door"
+          ],
+          [
+            "Visiting in July or August with no Express Pass",
+            "Universal Studios Florida",
+            "More indoor attractions, more shade, and less of the ride list lost to a lightning hold"
+          ],
+          [
+            "You have been to both and want the better park",
+            "Islands of Adventure",
+            "It is the better park, and it is not particularly close"
+          ],
+          [
+            "You want the best single environment at the resort",
+            "Universal Studios Florida",
+            "Diagon Alley, and it is worth the ticket on its own"
+          ]
         ]
       }
     },
@@ -164,21 +208,57 @@
         "Note what is absent from each column as much as what is in it. Universal Studios Florida has no water ride and no drop tower. Islands of Adventure has no interactive shooter and, since 2018, no theatre show."
       ],
       "table": {
-        "columns": ["Ride system", "Universal Studios Florida", "Islands of Adventure"],
+        "columns": [
+          "Ride system",
+          "Universal Studios Florida",
+          "Islands of Adventure"
+        ],
         "rows": [
-          ["Outdoor roller coasters", "Hollywood Rip Ride Rockit (51in, 79in maximum)", "The Incredible Hulk Coaster (54in), Jurassic World VelociCoaster (51in), Hagrid's Magical Creatures Motorbike Adventure (48in), Flight of the Hippogriff (36in)"],
-          ["Enclosed coasters", "Revenge of the Mummy (48in), Harry Potter and the Escape from Gringotts (42in)", "None"],
-          ["Screen-and-motion-base rides", "Transformers (40in), Despicable Me Minion Mayhem (40in), The Simpsons Ride (40in), Fast & Furious – Supercharged (no height requirement)", "Harry Potter and the Forbidden Journey (48in), The Amazing Adventures of Spider-Man (40in), Skull Island: Reign of Kong"],
-          ["Water rides that soak you", "None", "Dudley Do-Right's Ripsaw Falls (44in), Popeye & Bluto's Bilge-Rat Barges (42in), Jurassic Park River Adventure (42in)"],
-          ["Drop towers", "None", "Doctor Doom's Fearfall (52in)"],
-          ["Interactive shooters", "Men in Black Alien Attack (42in), Villain-Con Minion Blast", "None"],
-          ["Classic dark rides", "E.T. Adventure (34in)", "The Cat in the Hat (36in)"],
-          ["Theatre shows", "Universal Orlando's Horror Make-Up Show, running since 1990, plus The Bourne Stuntacular and Animal Actors on Location", "No theatre show since The Lost Continent's closed in 2018 — Ollivanders and the Hogsmeade street performers are all that is staged"]
+          [
+            "Outdoor roller coasters",
+            "None operating; Hollywood Rip Ride Rockit closed in August 2025",
+            "The Incredible Hulk Coaster (54in), Jurassic World VelociCoaster (51in), Hagrid's Magical Creatures Motorbike Adventure (48in), Flight of the Hippogriff (36in)"
+          ],
+          [
+            "Enclosed coasters",
+            "Revenge of the Mummy (48in), Harry Potter and the Escape from Gringotts (42in)",
+            "None"
+          ],
+          [
+            "Screen-and-motion-base rides",
+            "Transformers (40in), Despicable Me Minion Mayhem (40in), The Simpsons Ride (40in), Fast & Furious – Supercharged (no height requirement)",
+            "Harry Potter and the Forbidden Journey (48in), The Amazing Adventures of Spider-Man (40in), Skull Island: Reign of Kong"
+          ],
+          [
+            "Water rides that soak you",
+            "None",
+            "Dudley Do-Right's Ripsaw Falls (44in), Popeye & Bluto's Bilge-Rat Barges (42in), Jurassic Park River Adventure (42in)"
+          ],
+          [
+            "Drop towers",
+            "None",
+            "Doctor Doom's Fearfall (52in)"
+          ],
+          [
+            "Interactive shooters",
+            "Men in Black Alien Attack (42in), Villain-Con Minion Blast",
+            "None"
+          ],
+          [
+            "Classic dark rides",
+            "E.T. Adventure (34in)",
+            "The Cat in the Hat (36in)"
+          ],
+          [
+            "Theatre shows",
+            "Universal Orlando's Horror Make-Up Show, running since 1990, plus The Bourne Stuntacular and Animal Actors on Location",
+            "No theatre show since The Lost Continent's closed in 2018 — Ollivanders and the Hogsmeade street performers are all that is staged"
+          ]
         ]
       },
       "callout": {
         "type": "warning",
-        "body": "Both Revenge of the Mummy and Hollywood Rip Ride Rockit require loose articles to go into a locker bank before boarding, and the locker bank backs up worse than the ride does. Travel light or leave the bag with somebody outside. That alone saves twenty minutes across a day."
+        "body": "Revenge of the Mummy requires loose articles to go into a locker before boarding. Travel light and check current locker rules before joining the queue. Hollywood Rip Ride Rockit closed permanently in August 2025."
       }
     },
     {
@@ -267,7 +347,7 @@
     },
     {
       "q": "Which park has better height requirements for kids?",
-      "a": "Universal Studios Florida has the lower ceiling — nine attractions with a requirement, topping out at 51 inches for Hollywood Rip Ride Rockit. Islands of Adventure has fourteen, topping out at 54 inches for The Incredible Hulk Coaster, and all five of its headliners need 48 inches or more. Below 40 inches, though, Islands of Adventure is the better park because Seuss Landing exists."
+      "a": "Universal Studios Florida has the lower ceiling — eight operating attractions with a requirement, topping out at 48 inches for Revenge of the Mummy. Rip Ride Rockit closed in 2025. Islands of Adventure has fourteen, topping out at 54 inches for The Incredible Hulk Coaster, and all five of its headliners need 48 inches or more. Below 40 inches, though, Islands of Adventure is the better park because Seuss Landing exists."
     },
     {
       "q": "Does Express Pass cover Hagrid's?",

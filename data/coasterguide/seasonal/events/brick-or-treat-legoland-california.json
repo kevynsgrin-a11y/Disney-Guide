@@ -6,64 +6,58 @@
   "parkSlug": "legoland-california",
   "category": "overlay",
   "season": "halloween",
-  "summary": "Brick-or-Treat is Legoland California's family Halloween: costume days, brick-built decor, treat stations and party nights — the light-scare counterweight to every intense haunt on this site.",
+  "summary": "Brick-or-Treat is LEGOLAND California's daytime, family-focused Halloween event on 12 select dates in 2026, with costumes, LEGO monsters, treat activities and shows. It is included with a dated park ticket; some annual-pass tiers need a paid event ticket.",
   "h1": "Brick-or-Treat at LEGOLAND California: the family Halloween, priced and judged",
   "title": "Brick-or-Treat LEGOLAND California",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "Brick-or-Treat at Legoland California: the under-ten Halloween event — costumes, treat trails and party nights. What is included, what costs extra, and the verdict.",
+  "description": "Brick-or-Treat at LEGOLAND California: confirmed 2026 dates, family activities and which park tickets or annual passes include the event.",
   "typicalWindow": {
     "startsAround": "late September",
-    "endsAround": "Halloween night",
+    "endsAround": "early November",
     "daysOfWeek": [
       "Sat",
       "Sun"
     ],
-    "hours": "Day event with separate evening party nights"
+    "hours": "During park hours on selected event dates; check the park calendar"
   },
   "pricing": {
-    "model": "add-on",
-    "rangeUsd": [
-      20,
-      60
-    ],
-    "asOf": "2025 season pattern",
-    "cheapestNights": "Early-season dates",
-    "priciestNights": "The last weekend before Halloween",
+    "model": "included",
+    "asOf": "September 2026",
     "notes": [
-      "Daytime activities are included with regular admission in the typical format.",
-      "The evening party nights are separately ticketed, and the range describes that add-on.",
-      "Treat-station candy is included in the party admission in recent formats."
+      "Brick-or-Treat is included with a regular date-specific theme park ticket on an event date.",
+      "Premium and Elite annual passes include the event; holders of some other annual-pass tiers need to buy a dated Brick-or-Treat ticket.",
+      "Check the official ticket page for current pass eligibility and checkout prices."
     ]
   },
   "whatYouGet": [
     "Costume-friendly days where dressing up is the norm, not the exception — the point for the target age.",
     "Brick-built Halloween decor and characters at the scale only Legoland builds.",
     "Treat stations and trails sized to grade-school legs and attention spans.",
-    "Party-night entertainment — dance parties and shows aimed at the under-ten crowd."
+    "Family entertainment and the new Brick or Treat Street on scheduled event dates."
   ],
   "whatYouDont": [
     "Scares, in any form — this is the deliberate anti-haunt, and that is its entire value.",
-    "Full-park evening operation on party nights; check what stays open with the ticket.",
-    "A night out for adults — the event ends early and is built for the bedtime crowd."
+    "A separate nighttime party ticket with regular admission; the published 2026 event is part of selected park days.",
+    "A late-night adult haunt; the published program is built for families."
   ],
   "verdict": {
-    "short": "Worth it for families with kids between roughly three and ten who want Halloween without fear — the only event on this site with zero scare content, by design.",
+    "short": "Worth considering for families who want a playful Halloween park day with costumes and treats; first check that your selected date and ticket cover the event.",
     "worthItIf": [
       "Your kids want to wear costumes at a theme park and collect treats at kid scale.",
       "You want the Halloween season without the scare-actor exposure of every other event here.",
-      "The party-night hours fit your family's evening — earlier and shorter than the big haunts."
+      "A scheduled event day fits your trip and you already want to visit LEGOLAND."
     ],
     "skipIf": [
       "Anyone in the party wants scares — the event has none, and that is a feature.",
-      "You would pay the party-night add-on for rides alone; the day park delivers the same rides.",
+      "Your annual pass tier needs a separate event ticket and the extra cost does not suit your plans.",
       "Your kids are over about ten — the target bracket is young and the event scales to it."
     ]
   },
   "strategy": [
     {
-      "heading": "Day or party night",
+      "heading": "Match the date to your ticket",
       "body": [
-        "The daytime version is included with admission and delivers the costumes, decor and character atmosphere. The separately-ticketed party night adds the treat trails and evening shows. Families on a budget get a genuine Halloween day from the day version alone; the party night is for the full trick-or-treat experience."
+        "In 2026, Brick-or-Treat runs September 19 and 26; October 3–4, 10–11, 17–18, 24–25 and 31; and November 1. A regular ticket for an event date includes the celebration. Premium and Elite passholders also have access, while several other pass tiers require a separate dated event ticket."
       ]
     },
     {
@@ -75,7 +69,7 @@
     {
       "heading": "Timing with the age bracket",
       "body": [
-        "The event is built around early evenings and short legs. Arrive at open, do the rides in the calm morning, let the afternoon be the Halloween programming, and leave before the overtired hour. The party-night version of that plan is the same shape, two hours later."
+        "The event is built around young families and short legs. Check that the park is open on your chosen event date, do favorite rides earlier in the day, and use the park's event guide for treat trails, shows and character times."
       ]
     }
   ],
@@ -86,11 +80,11 @@
     },
     {
       "q": "Is Brick-or-Treat included with admission?",
-      "a": "The daytime activities are included with regular admission in the typical format; the evening party nights are separately ticketed. The current season's structure is on the park's event page."
+      "a": "A regular date-specific LEGOLAND California ticket includes Brick-or-Treat on a scheduled 2026 event date. Premium and Elite annual passes include it; several other pass tiers require an additional dated event ticket. Check your pass terms before visiting."
     },
     {
       "q": "When does Brick-or-Treat run?",
-      "a": "Weekends from late September through Halloween in the typical pattern, with party nights on select dates. The park's event calendar is the source of record for the current cycle."
+      "a": "The 2026 event dates are September 19 and 26; October 3–4, 10–11, 17–18, 24–25 and 31; and November 1. These are selected days, not every day in the date range."
     },
     {
       "q": "What ages is it best for?",
@@ -113,7 +107,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates from LEGOLAND California's official Brick or Treat page (viewed September 2026): select dates September 19 – November 1.",
+    "sourceNote": "Checked September 26, 2026 against https://www.legoland.com/california/things-to-do/seasonal-events/brick-or-treat/: 12 event dates September 19–November 1, included with dated park tickets and Premium/Elite passes; other listed pass tiers require a paid event ticket.",
     "reviewBy": "2026-11",
     "cycle": "annual"
   },
@@ -126,13 +120,13 @@
       "endDate": "2026-11-01",
       "changes": [
         "New Brick or Treat Street, with six life-size LEGO monster characters",
-        "Included with regular admission — no separate ticket and no reservation",
-        "Mostly Saturday–Sunday dates plus Halloween night and November 1"
+        "Included with a dated park ticket and Premium/Elite passes; several other pass tiers require an additional ticket",
+        "Twelve select dates: September 19 and 26; October 3–4, 10–11, 17–18, 24–25 and 31; November 1"
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "2026 dates from LEGOLAND California's official Brick or Treat page (viewed September 2026): select dates September 19 – November 1, weekend pattern; the new Brick or Treat Street announced for 2026.",
+        "sourceNote": "Checked September 26, 2026 against https://www.legoland.com/california/things-to-do/seasonal-events/brick-or-treat/: 12 selected dates, Brick or Treat Street, ticket inclusion and annual-pass tier terms.",
         "reviewBy": "2026-11",
         "cycle": "annual"
       }

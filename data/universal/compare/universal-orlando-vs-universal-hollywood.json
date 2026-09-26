@@ -6,8 +6,16 @@
   "summary": "Universal Orlando is three parks and a three-to-four-day trip. Universal Studios Hollywood is one park you can finish in a day. If you are flying anywhere specifically for Universal, fly to Orlando. If you are already in Los Angeles, Hollywood is a genuinely good day rather than a consolation prize.",
   "readingTimeMinutes": 12,
   "contenders": [
-    { "key": "orlando", "name": "Universal Orlando Resort", "subtitle": "Three parks, Orlando, Florida" },
-    { "key": "hollywood", "name": "Universal Studios Hollywood", "subtitle": "One park, Universal City, California" }
+    {
+      "key": "orlando",
+      "name": "Universal Orlando Resort",
+      "subtitle": "Three parks, Orlando, Florida"
+    },
+    {
+      "key": "hollywood",
+      "name": "Universal Studios Hollywood",
+      "subtitle": "One park, Universal City, California"
+    }
   ],
   "verdict": {
     "short": "Flying somewhere specifically for Universal: Orlando, and give it three days. Already in Los Angeles, or you have one day and one park in you: Hollywood, and one day is genuinely enough.",
@@ -47,7 +55,7 @@
       "winner": "hollywood",
       "cells": {
         "orlando": "Does not exist. The backlot streets at Universal Studios Florida are architecture — a New York block, a San Francisco waterfront — with attractions in the buildings behind them. Nothing is filmed there.",
-        "hollywood": "About an hour, no height requirement, and a real working lot. King Kong 360 3-D, the earthquake subway sequence, and the Fast and Furious finale are built into the route. It is the single best reason to buy a ticket here and most guides bury it under the coasters."
+        "hollywood": "About an hour, no height requirement, and a real working lot. King Kong 360 3-D, the earthquake subway sequence, and the Studio Tour set pieces are built into the route; its former Fast & Furious finale closed in March 2025. It is the single best reason to buy a ticket here and most guides bury it under the coasters."
       },
       "note": "The only category on this page where Hollywood wins outright and Orlando has no answer at all."
     },
@@ -55,8 +63,8 @@
       "name": "Roller coasters",
       "winner": "orlando",
       "cells": {
-        "orlando": "The strongest coaster slate in the country outside a dedicated amusement park. Jurassic World VelociCoaster and The Incredible Hulk Coaster at Islands of Adventure, Hagrid's Magical Creatures Motorbike Adventure, Hollywood Rip Ride Rockit and Revenge of the Mummy at Universal Studios Florida, and Stardust Racers at Epic Universe.",
-        "hollywood": "One indoor launch coaster in Revenge of the Mummy, in its compact version. There is no large outdoor coaster on the property and the hillside site makes one difficult to add."
+        "orlando": "The deeper coaster slate: Jurassic World VelociCoaster, The Incredible Hulk Coaster and Hagrid's at Islands of Adventure, Revenge of the Mummy at Universal Studios Florida, and Stardust Racers at Epic Universe. Hollywood Rip Ride Rockit closed in August 2025.",
+        "hollywood": "Two major coasters: the indoor Revenge of the Mummy and Fast & Furious: Hollywood Drift, an outdoor Upper Lot launch coaster opened September 2026. The junior Flight of the Hippogriff is also here."
       },
       "note": "If anyone in the group came for coasters, this row ends the discussion."
     },
@@ -83,7 +91,7 @@
       "winner": "orlando",
       "cells": {
         "orlando": "Universal Express Unlimited is included with every room at the three Premier hotels, for every guest, for the whole stay, covering Universal Studios Florida and Islands of Adventure. Coverage at Epic Universe has moved since that park opened, so confirm it at booking. On a busy day for a family of four, the nightly premium on those rooms is often less than a single day of Express bought separately.",
-        "hollywood": "Sold per day, priced sharply by date, and there is no hotel tier that includes it. The free substitute is the single rider lines at Jurassic World — The Ride, Revenge of the Mummy, Transformers, Forbidden Journey and Mario Kart, which cover most of the same ground for two adults willing to ride apart."
+        "hollywood": "Sold per day, priced sharply by date, and there is no hotel tier that includes it. The free substitute is the single rider lines at Hollywood Drift, Jurassic World, Revenge of the Mummy, Transformers, Forbidden Journey and Mario Kart, which cover most of the same ground for two adults willing to ride apart."
       },
       "note": "As of July 2026, Express Pass at both resorts is dynamically priced by date. Check your specific date rather than an averaged figure from anywhere, including here."
     },
@@ -110,7 +118,7 @@
       "winner": "orlando",
       "cells": {
         "orlando": "Harsher at the top and deeper at the bottom. The Incredible Hulk Coaster is 54 inches and Doctor Doom's Fearfall is 52, but Seuss Landing at Islands of Adventure, Isle of Berk at Epic Universe and DreamWorks Land at Universal Studios Florida are three purpose-built children's areas across three parks.",
-        "hollywood": "Gentler ceiling, thinner floor. The tallest requirement is 48 inches, and the Studio Tour — the best thing in the park — has none at all. Below 40 inches the rest of the list is short: the shows, Super Silly Fun Land, the Wizarding World village, and The Secret Life of Pets: Off the Leash at 34 inches."
+        "hollywood": "Gentler ceiling, thinner floor. The tallest requirement is now 51 inches for Hollywood Drift, and the Studio Tour — the best thing in the park — has none at all. Below 40 inches the rest of the list is short: the shows, Super Silly Fun Land, the Wizarding World village, and The Secret Life of Pets: Off the Leash at 34 inches."
       },
       "note": "Neither resort is a strong choice for a child under 40 inches. Hollywood's saving grace is that its headline attraction admits everyone."
     },
@@ -157,16 +165,43 @@
         "The list below is the honest version of what only exists on one coast. It is shorter on the Hollywood side and the one item at the top of it is the reason anybody argues about this at all."
       ],
       "table": {
-        "columns": ["Only at Universal Orlando", "Only at Universal Studios Hollywood"],
+        "columns": [
+          "Only at Universal Orlando",
+          "Only at Universal Studios Hollywood"
+        ],
         "rows": [
-          ["Jurassic World VelociCoaster (51in)", "The Studio Tour — a real working backlot, no height requirement"],
-          ["The Incredible Hulk Coaster (54in)", "WaterWorld, a live stunt show with real pyrotechnics and stunt performers"],
-          ["Hagrid's Magical Creatures Motorbike Adventure (48in)", "The Upper Lot and Lower Lot split, for better and worse"],
-          ["Diagon Alley and the Hogwarts Express, with a park-to-park ticket", "A park you can finish in one day"],
-          ["Epic Universe: Stardust Racers, Dark Universe, Isle of Berk, the Ministry of Magic", "Metro rail access without a car"],
-          ["Doctor Doom's Fearfall (52in) and The Amazing Adventures of Spider-Man (40in)", "Free same-day re-entry to a CityWalk with better food than the park"],
-          ["Toon Lagoon's two genuinely soaking water rides", "Mild weather and no afternoon thunderstorm season"],
-          ["Seuss Landing, the only purpose-built small-child island at either resort", "A ticket you can buy the night before and still use well"]
+          [
+            "Jurassic World VelociCoaster (51in)",
+            "The Studio Tour — a real working backlot, no height requirement"
+          ],
+          [
+            "The Incredible Hulk Coaster (54in)",
+            "WaterWorld, a live stunt show with real pyrotechnics and stunt performers"
+          ],
+          [
+            "Hagrid's Magical Creatures Motorbike Adventure (48in)",
+            "The Upper Lot and Lower Lot split, for better and worse"
+          ],
+          [
+            "Diagon Alley and the Hogwarts Express, with a park-to-park ticket",
+            "A park you can finish in one day"
+          ],
+          [
+            "Epic Universe: Stardust Racers, Dark Universe, Isle of Berk, the Ministry of Magic",
+            "Metro rail access without a car"
+          ],
+          [
+            "Doctor Doom's Fearfall (52in) and The Amazing Adventures of Spider-Man (40in)",
+            "Free same-day re-entry to a CityWalk with better food than the park"
+          ],
+          [
+            "Toon Lagoon's two genuinely soaking water rides",
+            "Mild weather and no afternoon thunderstorm season"
+          ],
+          [
+            "Seuss Landing, the only purpose-built small-child island at either resort",
+            "A ticket you can buy the night before and still use well"
+          ]
         ]
       }
     },
@@ -195,8 +230,8 @@
       "heading": "What a good day at Universal Studios Hollywood actually looks like",
       "body": [
         "The California park has one structural trap and one structural gift, and a good day is mostly a matter of respecting both.",
-        "The trap is the hill. The park sits on a hillside cut into two levels. The Upper Lot holds the entrance, the Studio Tour boarding area, both shows, the Wizarding World and Super Nintendo World. The Lower Lot holds Jurassic World — The Ride, Revenge of the Mummy and Transformers, and very little else. They are joined by the Starway, a chain of four long outdoor escalators that takes four to five minutes each way when everything is running and considerably longer when a section is down. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
-        "The gift is that the arriving crowd turns toward the Wizarding World and Super Nintendo World and stays up top. Go down first instead. Jurassic World, Revenge of the Mummy and Transformers can all be done in the first hour with short waits, and those same three rides cost you two hours in the afternoon. Come back up once, and spend the rest of the day on the Upper Lot.",
+        "The trap is the hill. The park sits on a hillside cut into two levels. The Upper Lot holds the entrance, Studio Tour boarding, WaterWorld, the Wizarding World and Hollywood Drift. The Lower Lot holds Super Nintendo World, Jurassic World — The Ride, Revenge of the Mummy and Transformers. They are joined by the Starway, a chain of four long outdoor escalators that takes four to five minutes each way when everything is running and considerably longer when a section is down. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
+        "The planning advantage is grouping Super Nintendo World, Jurassic World, Revenge of the Mummy and Transformers on one Lower Lot trip. Hollywood Drift is on the Upper Lot. Check live waits for Drift and Mario Kart at opening; the new coaster makes a fixed rope-drop route unreliable.",
         "Budget 45 minutes from your car to the turnstiles. Parking, the walk down through the structure, the escalators up through CityWalk, and security screening add up to considerably more than people expect, and arriving at the posted opening time means walking through the gate closer to 45 minutes later — which is the entire quiet hour gone.",
         "Then walk out for lunch. There is no table-service restaurant inside this park, CityWalk is thirty seconds outside the turnstiles, and same-day re-entry is free."
       ],
@@ -213,8 +248,8 @@
         "**You are already in Los Angeles.** A day at Universal Studios Hollywood costs you a day and a ticket. The Orlando equivalent costs flights, three or four hotel nights, and a week of planning. For a visitor with a spare day in Southern California, this is not a close call.",
         "**You care how films get made.** The Studio Tour is a working backlot with standing sets and active production, and there is nothing else like it in the industry. Orlando's studio framing is set dressing on buildings that hold rides. If the appeal of a Universal park is the studio rather than the coasters, the California park is the only one delivering it.",
         "**You have one day and no appetite for logistics.** Hollywood is reachable by rail, finishable in a day, and forgiving of a visitor who did no planning. Orlando punishes improvisation across three parks, two campuses, a shuttle bus, and a park-to-park ticket decision.",
-        "**Everyone in your group is between 40 and 48 inches.** Orlando's headliners cluster at 48, 51, 52 and 54 inches. Hollywood's tallest requirement is 48, four of its rides sit at 40, and its best attraction has no requirement at all. A child in that band gets proportionally more of the California park than of the Florida ones.",
-        "What Hollywood does not justify is a cross-country flight for the theme park alone. The shared attractions are the shorter versions, the coaster bench is one ride deep, and the thing it has that Orlando lacks — the backlot — is an hour of a day rather than a day in itself."
+        "**Everyone in your group is between 40 and 48 inches.** Orlando's headliners cluster at 48, 51, 52 and 54 inches. Hollywood Drift requires 51 inches, although most other Hollywood headliners top out at 48, four of its rides sit at 40, and its best attraction has no requirement at all. A child in that band gets proportionally more of the California park than of the Florida ones.",
+        "What Hollywood does not justify is a cross-country flight for the theme park alone. The shared attractions are the shorter versions, the coaster bench now includes Hollywood Drift and the indoor Mummy, plus the junior Hippogriff, and the thing it has that Orlando lacks — the backlot — is an hour of a day rather than a day in itself."
       ]
     }
   ],
@@ -249,7 +284,7 @@
     },
     {
       "q": "Is the Studio Tour worth it?",
-      "a": "Yes, and it is the reason to buy a Hollywood ticket rather than a curiosity attached to one. It runs about an hour including the queue, has no height requirement, and crosses a genuinely working backlot with King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale built into the route. It is the only attraction at the park a first-time visitor would regret missing."
+      "a": "Yes, and it is the reason to buy a Hollywood ticket rather than a curiosity attached to one. It runs about an hour including the queue, has no height requirement, and crosses a genuinely working backlot with King Kong 360 3-D, the earthquake subway sequence built into the route; the former Fast & Furious finale closed in March 2025. It is the only attraction at the park a first-time visitor would regret missing."
     },
     {
       "q": "Does Express Pass work the same way at both resorts?",

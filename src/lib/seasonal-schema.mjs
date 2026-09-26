@@ -4,13 +4,14 @@
  * ./schema.mjs explains the 2026 rich-result landscape; this module only covers what dated content
  * adds. One choice dominates it:
  *
- *   **We emit an `Event` node only when we hold confirmed dates.**
+ *   **We emit an `Event` node only for confirmed continuous runs.**
  *
  * Google's Event rich result requires `startDate`, and an `Event` without one is either ignored or,
  * worse, filled in with a guess. Every competing seasonal page solves this by asserting dates it
  * does not have. We will not, so a pattern page whose confidence is `expected` or `historical`
  * publishes as an `Article` about a recurring event rather than as the event itself, and only a
- * confirmed edition gets the full node.
+ * confirmed continuous edition gets the full node. A range spanning select party nights cannot
+ * be represented as one Event: that would claim the party takes place on every intervening date.
  *
  * That costs us rich results on roughly half the event pages for part of each year. It is the right
  * trade: the alternative is structured data that says something we cannot stand behind, and a
@@ -46,6 +47,9 @@ const TYPE_BY_CATEGORY = {
 export function event (site, ev, edition, { stale = false } = {}) {
   if (!edition || edition.status !== 'announced') return null
   if (!edition.startDate || !edition.endDate) return null
+  const days = ev.typicalWindow?.daysOfWeek || []
+  const daily = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].every((day) => days.includes(day))
+  if (edition.startDate !== edition.endDate && (!daily || /select|weekend|saturdays|sundays/i.test(edition.dates || ''))) return null
 
   const location = ev.parkName
     ? {
@@ -71,7 +75,8 @@ export function event (site, ev, edition, { stale = false } = {}) {
     eventStatus: STATUS[edition.status] || STATUS.announced,
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     location,
-    isAccessibleForFree: ev.pricing && ev.pricing.model === 'included',
+    // "Included" means included with a paid park ticket, not free public access.
+    isAccessibleForFree: false,
     organizer: undefined, // Deliberately absent: we are not the organiser and will not imply it.
     // Prices decay fastest and are the most likely thing to be quoted back at a reader, so a page
     // past its review date publishes no offer at all.

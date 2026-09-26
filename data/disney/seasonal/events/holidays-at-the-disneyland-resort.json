@@ -6,15 +6,15 @@
   "parkSlug": null,
   "category": "overlay",
   "season": "holidays",
-  "summary": "The strongest value proposition of any seasonal offering at either Disney resort, because it is the only one on this scale that costs nothing beyond a regular ticket: five ride overlays, a parade, two nighttime shows, and a full food festival, all included. The price is paid in crowds, and in the last two weeks of December you pay a great deal of them.",
+  "summary": "Disney confirms Holidays at the Disneyland Resort for November 13, 2026–January 6, 2027. Both parks offer included seasonal entertainment and ride overlays; the festival food and optional extras cost more.",
   "h1": "Holidays at the Disneyland Resort: what is included, and the two weeks to book instead of Christmas",
   "title": "Holidays at the Disneyland Resort",
   "titleTail": ": What's Included & When To Go",
-  "description": "Disneyland Resort's holiday season is included with admission — five ride overlays, a parade, two shows, a food festival. Here is what it costs you in crowds.",
+  "description": "Confirmed Disneyland holiday dates for 2026–27, including Festival of Holidays, four ride overlays, parade, fireworks and World of Color.",
   "typicalWindow": {
-    "startsAround": "mid-November",
-    "endsAround": "early to mid-January",
-    "nightsTypical": 57,
+    "startsAround": "mid-November (November 13 in 2026)",
+    "endsAround": "early January (January 6 in 2027)",
+    "nightsTypical": 55,
     "nightsRange": [
       52,
       62
@@ -28,7 +28,7 @@
       "Sat",
       "Sun"
     ],
-    "hours": "Every operating day in the window during regular park hours. The parade runs twice most days, the castle lighting and the Main Street snowfall are evening-only, and the food festival marketplaces close before the park does."
+    "hours": "Every operating day from November 13, 2026 through January 6, 2027; showtimes, ride availability and food marketplace hours vary by date. Check Disney’s daily calendar."
   },
   "pricing": {
     "model": "included",
@@ -36,11 +36,11 @@
       6,
       15
     ],
-    "asOf": "July 2026",
+    "asOf": "prior holiday cycle; 2026–27 menu not announced as of September 26, 2026",
     "cheapestNights": "The ten days before Thanksgiving, and the first full week of January once the New Year crowd has gone home",
     "priciestNights": "The stretch from the week before Christmas through New Year's Day, which is the most expensive and most crowded period of the Disneyland Resort year",
     "notes": [
-      "Every overlay, the parade, both nighttime shows, and entry to the Festival of Holidays marketplaces are included with any regular admission. There is no holiday ticket at this resort.",
+      "The 2026–27 holiday program is included with regular admission and a same-day park reservation. Marketplace food, merchandise and optional extras cost more.",
       "The range above is not an admission price. It is what a Festival of Holidays marketplace item costs, which along with merchandise is the only spend the season genuinely adds.",
       "Disneyland Resort has not run a hard-ticket holiday party in recent seasons, so there is no paid route into a quieter version of this.",
       "Ticket prices are date-based and the late-December dates sit in the highest tier, which is the closest thing the season has to a price.",
@@ -48,36 +48,35 @@
     ]
   },
   "whatYouGet": [
-    "\"it's a small world\" Holiday at Disneyland Park, which changes the ride's score and turns the facade into an evening light sequence that you can watch without queueing.",
-    "Haunted Mansion Holiday, carried straight over from the Halloween season and left in place until the first week or two of January.",
-    "Jingle Cruise, the Jungle Cruise's seasonal script and prop change, which is funnier than the standard version and is otherwise the same ride.",
-    "Luigi's Joy to the Whirl and Mater's Jingle Jamboree, the two Cars Land overlays, inside a fully redecorated land billed as Season of the Light.",
-    "A Christmas Fantasy Parade at Disneyland Park, running twice on most days, plus the seasonal fireworks and the snowfall on Main Street afterwards.",
-    "World of Color - Season of Light at Disney California Adventure, the holiday version of the Paradise Bay show.",
-    "Festival of Holidays at Disney California Adventure: marketplaces serving holiday dishes from a rotating set of culinary traditions, plus the Viva Navidad street party in Paradise Gardens Park.",
-    "Sleeping Beauty's Winter Castle, lit each evening, and the Main Street tree at Disneyland Park."
+    "“it’s a small world” Holiday and its evening façade projections at Disneyland Park.",
+    "Haunted Mansion Holiday, carried from the Halloween season into the holiday program.",
+    "Luigi’s Joy to the Whirl and Mater’s Jingle Jamboree in Cars Land.",
+    "A Christmas Fantasy Parade and “Believe…In Holiday Magic” Fireworks at Disneyland Park, subject to the daily entertainment calendar.",
+    "World of Color – Season of Light at Disney California Adventure.",
+    "Disney Festival of Holidays and Disney ¡Viva Navidad! at Disney California Adventure, November 13–January 6; marketplace food is an extra purchase.",
+    "Wintertime Enchantment at Sleeping Beauty’s Winter Castle and festive décor throughout the resort."
   ],
   "whatYouDont": [
     "Any relief from the crowds. The week between Christmas and New Year is the busiest of the Disneyland Resort year, and in most recent seasons the resort has reached capacity and stopped admitting guests on at least one of those days. A valid ticket does not guarantee entry once that happens.",
-    "The standard versions of \"it's a small world\", the Haunted Mansion, or the Jungle Cruise. All three are overlaid for the whole window, and the small world overlay in particular covers the entire season with no gaps.",
+    "The standard versions of “it’s a small world” or Haunted Mansion while their holiday overlays operate; check each attraction’s daily schedule.",
     "A hard-ticket alternative. There is no Disneyland equivalent of Mickey's Very Merry Christmas Party, which means there is no way to buy your way into a less crowded evening the way you can in Florida.",
     "Guaranteed fireworks, parade, or snowfall. All three are weather-dependent, and winter wind cancels the Disneyland Park fireworks noticeably more often than summer weather does.",
-    "Shorter queues on the overlaid rides. Jingle Cruise roughly doubles the Jungle Cruise's normal standby wait, and \"it's a small world\" Holiday runs waits it never sees in October.",
+    "Short queues guaranteed on the holiday ride overlays. Waits vary by date and should be checked in the Disneyland app.",
     "A cheap trip. The tickets cost the same as any other peak date, but late-December lodging, parking, and flights into Southern California all price at their annual highs at once."
   ],
   "verdict": {
     "short": "The best value of any seasonal offering at either resort, because all of it is included with a normal ticket. Go before Thanksgiving or in early January; the last two weeks of December are brutal.",
     "worthItIf": [
       "You want the most heavily decorated version of an American Disney park without paying for an event ticket on top of admission.",
-      "You can travel in the second half of November or the first ten days of January, which is where almost all of the value sits.",
+      "You can travel after the November 13 opening and before Thanksgiving, or during the first days of January through January 6.",
       "Your group cares more about parades, decoration, shows, and food than about ride count.",
       "You have visited Disneyland Resort in another season and want a genuinely different park rather than the same one with a tree in it.",
       "You are eating your way through the trip. Festival of Holidays is the largest food event Disney California Adventure runs all year and it is free to walk into."
     ],
     "skipIf": [
       "Your only available dates are the last two weeks of December and crowds bother anyone in your group. That period is the hardest stretch of the year to enjoy at this resort, and no amount of planning fixes it.",
-      "You want the standard versions of \"it's a small world\", the Haunted Mansion, or the Jungle Cruise.",
-      "You are optimizing for rides per day. Three popular attractions get longer queues, and the parade closes walkways across Disneyland Park twice a day.",
+      "You specifically want the standard versions of “it’s a small world” or Haunted Mansion during their holiday overlay period.",
+      "You are optimizing only for rides per day. Holiday entertainment, overlays and crowds can change wait and walkway patterns.",
       "You are price-sensitive on lodging. This is the one season where the Anaheim hotel advantage over Orlando largely disappears.",
       "You need reliable weather for an outdoor-heavy plan. December and January are Southern California's wettest months and a rained-out day takes the parade and fireworks with it."
     ]
@@ -86,9 +85,9 @@
     {
       "heading": "The two windows that make this work",
       "body": [
-        "The value of this season collapses or holds entirely on the calendar, and the two good windows are narrower than most people assume: the ten days or so before Thanksgiving, and the first full week of January.",
-        "The non-obvious part is that both windows give you the identical product. Disney does not phase the holiday installation in - the overlays, the decoration, the parade, and the shows are all running from the first day of the window. A mid-November Tuesday sees exactly what a late-December Saturday sees, at roughly a third of the crowd and a lower ticket price.",
-        "The January end is even better and almost nobody plans for it. The decorations stay up into the first week or two of January, well past the point most visitors assume they come down, while the crowd has already collapsed back to its normal off-peak level. That first full January week is the single best combination of low crowds and full decoration available all year at this resort.",
+        "The confirmed 2026–27 program runs November 13 through January 6. For quieter dates, compare weekdays before Thanksgiving and the first days of January, then check Disney’s daily calendar.",
+        "Disney confirms the 2026–27 holiday program from November 13 through January 6. The daily calendar, rather than the season span alone, is the source for individual shows and attractions on a particular date.",
+        "The confirmed season runs through January 6, 2027, so early January remains an option for holiday offerings. Verify individual showtimes and attraction status before treating every day as identical.",
         "The one caveat on January: it is the start of refurbishment season. Disney does its heaviest maintenance work in the first quarter, so a January visit that gets you an empty park often gets you two or three headliners behind walls. Check the closure list before you commit."
       ]
     },
@@ -107,17 +106,16 @@
         "Disney California Adventure's Festival of Holidays is included with admission; the food is not, and marketplace items ran $6 to $15 each as of July 2026. Two adults sharing five plates make a full lunch out of it for the price of a mediocre quick-service meal.",
         "The non-obvious timing: the marketplaces are at their quietest between roughly eleven in the morning and one in the afternoon, because at that hour everyone else is in Cars Land or on Pixar Pier. They jam from about half past one onwards, which is precisely when the ride waits dip. Running the opposite pattern to the crowd gets you both.",
         "A coupon booklet covering a fixed number of items is sold each season. It only pays for itself if you commit to the full count, and two adults sharing plates almost never get there. Buy per item unless you have counted.",
-        "Viva Navidad, in Paradise Gardens Park, is the best live entertainment at either park in December and the piece most visitors miss entirely. It runs a street party several times a day with a band, stilt walkers, and the Three Caballeros, and it is the one holiday item at this resort with reliably no queue."
+        "Disney ¡Viva Navidad! runs November 13–January 6. Its street party is advertised for Saturdays and Sundays; check the entertainment calendar for exact performance times."
       ]
     },
     {
-      "heading": "The overlays worth queueing for, and the one that is not",
+      "heading": "Choose the confirmed holiday ride overlays",
       "body": [
-        "\"it's a small world\" Holiday is worth a wait; Jingle Cruise is not. That is the whole ranking, and it saves you about an hour.",
-        "The small world overlay changes the ride's music and adds a large amount of physical decoration, and the exterior light sequence in the evening is a separate experience you can watch from the walkway without joining the queue at all. Do the ride in the first hour of the day and watch the facade after dark.",
-        "Jingle Cruise is a script change and a prop change on a ride whose standby wait roughly doubles for the season. It is genuinely funnier than the standard version, and it is not 50 minutes funnier. Ride it in the first hour or skip it and come back in February.",
-        "Haunted Mansion Holiday is the same installation you would have seen in October. If you are doing both a fall and a December trip in the same year, ride it once and use the time on something the December season adds.",
-        "The Cars Land overlays are the sleeper. Both attractions get seasonal music and decoration, the whole land is lit for the season, and the queues there stay reasonable because the crowd concentrates on the two big Disneyland Park overlays."
+        "Disney’s 2026 holiday page lists “it’s a small world” Holiday, Haunted Mansion Holiday, Luigi’s Joy to the Whirl and Mater’s Jingle Jamboree. It does not list a Jingle Cruise overlay.",
+        "The “it’s a small world” façade projections are a separate outdoor experience that you can enjoy without joining the ride queue.",
+        "Check the Disneyland app for each ride’s daily operating hours and any refurbishment. The holiday program dates do not guarantee every attraction every day.",
+        "Cars Land adds two seasonal ride versions at DCA, useful if your group wants holiday rides in both parks."
       ]
     },
     {
@@ -131,12 +129,12 @@
     }
   ],
   "food": {
-    "note": "Festival of Holidays runs marketplaces around Disney California Adventure with a menu that rotates every season and is published a few weeks before the festival opens. The items below come from the most recently documented cycle and are here to show the format and the price band rather than as a menu to plan around. Items ran $6 to $15 each as of July 2026.",
+    "note": "Festival of Holidays returns November 13, 2026–January 6, 2027, but Disney labels its 2026–27 Foodie Guide coming soon as of September 26. The items below are examples from a prior holiday cycle and must not be treated as the current menu or current prices.",
     "items": [
       {
         "name": "Holiday Slider with Braised Beef",
         "where": "Winter Sliderland",
-        "priceUsd": 11.0,
+        "priceUsd": 11,
         "verdict": "The most filling thing in the festival for the money and the easiest sell to anyone who is not enthusiastic about small plates."
       },
       {
@@ -154,7 +152,7 @@
       {
         "name": "Seasonal Dessert Flight",
         "where": "Holiday Duets",
-        "priceUsd": 12.0,
+        "priceUsd": 12,
         "verdict": "Three small sweets for the price of one dessert elsewhere in the park, and the item most worth splitting between four people."
       },
       {
@@ -172,7 +170,7 @@
     },
     {
       "q": "When do the holiday decorations go up and come down at Disneyland?",
-      "a": "They go up in mid-November and come down in the first or second week of January. The installation is complete from the first day of the window rather than being phased in, which is why a mid-November visit sees exactly the same season as a late-December one. As of July 2026 we have not verified the coming season's exact start, so no date is stated here."
+      "a": "Disney confirms Holidays at the Disneyland Resort from November 13, 2026 through January 6, 2027. Check the daily calendar for individual decorations, entertainment and attraction operations; the season dates do not guarantee every offering each day."
     },
     {
       "q": "Is there a Christmas party ticket at Disneyland like Mickey's Very Merry?",
@@ -180,7 +178,7 @@
     },
     {
       "q": "When is the least crowded time to see the holidays at Disneyland?",
-      "a": "The ten days before Thanksgiving, and the first full week of January. Both windows have the complete holiday installation running at roughly a third of peak crowd levels and at lower date-based ticket prices. January carries one trade-off: it is the start of refurbishment season, so check what is closed before you book."
+      "a": "Consider weekdays from the November 13 opening until Thanksgiving, or the first days of January through January 6, 2027. These are planning windows rather than crowd guarantees; check park reservations, hours and refurbishments for your dates."
     },
     {
       "q": "Does Disneyland close its gates at Christmas?",
@@ -192,7 +190,7 @@
     },
     {
       "q": "Can I ride the normal \"it's a small world\" during the holidays?",
-      "a": "No. The holiday overlay is installed for the whole window with no gaps, and the same is true of the Haunted Mansion. The Jungle Cruise keeps its normal layout but runs a seasonal script. If you want the standard versions of all three, visit between February and August."
+      "a": "During the holiday overlay, the attraction operates as “it’s a small world” Holiday rather than its regular version. Disney lists it in the November 13–January 6 holiday program; check the daily calendar for operating hours."
     }
   ],
   "crossLinks": [
@@ -239,12 +237,15 @@
       "startDate": "2026-11-13",
       "endDate": "2027-01-06",
       "changes": [
-        "The season starts November 13 — moved earlier than the originally published mid-November date, with the holiday changeover install running November 3–12."
+        "Disney moved the 2026 holiday opening from the originally published November 18 to November 13; the confirmed run ends January 6, 2027.",
+        "Disney Festival of Holidays and Disney ¡Viva Navidad! share the November 13–January 6 window at Disney California Adventure.",
+        "The official 2026 holiday page lists “it’s a small world” Holiday, Haunted Mansion Holiday, Luigi’s Joy to the Whirl and Mater’s Jingle Jamboree, plus the parade, fireworks and World of Color – Season of Light.",
+        "Disney ¡Viva Navidad! street party performances are advertised on Saturdays and Sundays."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from Disney’s official Holidays page and the Disney Parks Blog 2026 calendar announcement of July 24, 2026 (viewed September 2026); the earlier start confirmed by Theme Park IQ.",
+        "sourceNote": "Official current 2026–27 holiday page: https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/; Disney’s July 24 correction from November 18 to November 13: https://disneyparksblog.com/dlr/disneyland-resort-2026-calendar-events-and-offers/ (checked September 26, 2026).",
         "reviewBy": "2026-12",
         "cycle": "annual"
       }
@@ -253,7 +254,7 @@
       "year": 2025,
       "status": "past",
       "changes": [
-        "The 2025 into 2026 season ran the established roster: the small world, Haunted Mansion, Jungle Cruise, and two Cars Land overlays, with the parade, the seasonal fireworks, and the holiday Paradise Bay show.",
+        "The 2025–26 program included “it’s a small world” Holiday, Haunted Mansion Holiday and the two Cars Land holiday ride overlays, alongside the holiday parade, fireworks and World of Color – Season of Light.",
         "Festival of Holidays ran again at Disney California Adventure alongside Viva Navidad in Paradise Gardens Park.",
         "The holiday installation remained in place into January 2026, as it has in every recent season."
       ],
@@ -269,7 +270,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates officially announced (Nov 13 – Jan 6); see the 2026 edition below.",
+    "sourceNote": "Confirmed 2026–27 dates and advertised offerings: https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/ (checked September 26, 2026).",
     "reviewBy": "2026-12",
     "cycle": "annual"
   }

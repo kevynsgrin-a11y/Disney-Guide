@@ -19,6 +19,14 @@ const event = {
   parkUrl: '/walt-disney-world/magic-kingdom/',
   locality: 'Bay Lake, Florida',
   pricing: { model: 'per-night' },
+  typicalWindow: { daysOfWeek: ['Sun', 'Tue', 'Thu', 'Fri'] },
+}
+
+const continuousEvent = {
+  ...event,
+  name: 'EPCOT International Food & Wine Festival',
+  category: 'festival',
+  typicalWindow: { daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'] },
 }
 
 const confirmed = {
@@ -27,12 +35,13 @@ const confirmed = {
   startDate: '2026-08-14',
   endDate: '2026-10-31',
   priceRangeUsd: [129, 229],
+  dates: 'August 14 – October 31, 2026',
 }
 
-test('a confirmed edition produces a full Event node', () => {
-  const node = SS.event(site, event, confirmed, { stale: false })
+test('a confirmed continuous edition produces a full Event node', () => {
+  const node = SS.event(site, continuousEvent, confirmed, { stale: false })
   assert.ok(node)
-  assert.deepEqual(node['@type'], ['Event', 'SocialEvent'])
+  assert.deepEqual(node['@type'], ['Event', 'Festival'])
   assert.equal(node.startDate, '2026-08-14')
   assert.equal(node.endDate, '2026-10-31')
   assert.equal(node.eventStatus, 'https://schema.org/EventScheduled')
@@ -54,7 +63,7 @@ test('an unannounced edition produces no Event node at all', () => {
 })
 
 test('a stale page publishes no price, even when the edition is confirmed', () => {
-  const node = SS.event(site, event, confirmed, { stale: true })
+  const node = SS.event(site, continuousEvent, confirmed, { stale: true })
   assert.ok(node)
   assert.equal(node.startDate, '2026-08-14')
   // A price is the fastest-decaying fact here and the one most likely to be quoted back.
@@ -69,21 +78,27 @@ test('a cancelled edition says so rather than disappearing', () => {
 })
 
 test('the category drives the schema type', () => {
-  const festival = SS.event(site, { ...event, category: 'festival' }, confirmed)
+  const festival = SS.event(site, continuousEvent, confirmed)
   assert.deepEqual(festival['@type'], ['Event', 'Festival'])
-  const overlay = SS.event(site, { ...event, category: 'overlay' }, confirmed)
+  const overlay = SS.event(site, { ...continuousEvent, category: 'overlay' }, confirmed)
   assert.deepEqual(overlay['@type'], ['Event'])
 })
 
-test('an included-admission event is marked free to attend', () => {
-  const node = SS.event(site, { ...event, pricing: { model: 'included' } }, confirmed)
-  assert.equal(node.isAccessibleForFree, true)
-  assert.equal(SS.event(site, event, confirmed).isAccessibleForFree, false)
+test('an event included with paid park admission is not marked free', () => {
+  const node = SS.event(site, { ...continuousEvent, pricing: { model: 'included' } }, confirmed)
+  assert.equal(node.isAccessibleForFree, false)
+  assert.equal(SS.event(site, continuousEvent, confirmed).isAccessibleForFree, false)
 })
 
 test('we never imply we organise anything', () => {
-  const node = SS.event(site, event, confirmed)
+  const node = SS.event(site, continuousEvent, confirmed)
   assert.equal(node.organizer, undefined)
+})
+
+test('select-night parties and weekend overlays fall back to Article markup', () => {
+  assert.equal(SS.event(site, event, { ...confirmed, dates: 'Select nights August 14 – October 31, 2026' }), null)
+  assert.equal(SS.event(site, { ...continuousEvent, typicalWindow: { daysOfWeek: ['Sat', 'Sun'] } }, confirmed), null)
+  assert.equal(SS.event(site, continuousEvent, { ...confirmed, dates: 'Select nights August 14 – October 31, 2026' }), null)
 })
 
 test('price lists are ranges, and a stale page publishes none', () => {

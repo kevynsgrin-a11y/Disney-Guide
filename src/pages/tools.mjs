@@ -645,7 +645,7 @@ export function expressRoiPage (data) {
 }
 
 /* ------------------------------------------------------------------ *
- * Haunt Planner — HHN night routes from the wait-curve pattern.
+ * Haunt Planner — sourced house rosters and visitor-entered ticket comparison.
  * ------------------------------------------------------------------ */
 
 export function hauntPlannerPage (data, seasonal) {
@@ -661,12 +661,25 @@ export function hauntPlannerPage (data, seasonal) {
     events: site.hauntPlanner.events.flatMap((slug) => {
       const ev = bySlug.get(slug)
       if (!ev) return []
+      const edition = ev.editions?.find((entry) => entry.year === 2026 && entry.status === 'announced')
+      if (!edition || !ev.planner || ev.planner.year !== 2026) return []
       return [{
         slug: ev.slug,
         name: ev.name,
         url: urls.event(ev.slug),
-        nights: ev.typicalWindow ? (ev.typicalWindow.nightsRange || null) : null,
-        hours: ev.typicalWindow ? ev.typicalWindow.hours : null,
+        year: 2026,
+        dateLabel: edition.dates,
+        startDate: edition.startDate,
+        endDate: edition.endDate,
+        houseLineup: ev.planner.houseLineup,
+        sourceUrl: ev.planner.sourceUrl,
+        verified: ev.planner.verified,
+        ticketUrl: ev.resort === 'universal-orlando'
+          ? 'https://www.universalorlando.com/hhn/en/us'
+          : 'https://res.vacations.universalstudioshollywood.com/FeatureInformation/FeatureInformation.aspx?RemoteSrc=UniMPCHollywood&Uniquer=HAODHTDUPRV1NONE0B01_0&Vendor=UNH',
+        options: ev.resort === 'universal-orlando'
+          ? ['Event admission plus Scream Early', 'Event admission plus event Express', 'R.I.P. Tour']
+          : ['Event admission plus Early Event Access', 'Event admission plus event Express', 'After 2 P.M. Day/Night ticket', 'R.I.P. Tour'],
       }]
     }),
   }
@@ -674,13 +687,13 @@ export function hauntPlannerPage (data, seasonal) {
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
-      eyebrow: 'Tool · pattern-based, honestly labelled',
+      eyebrow: 'Tool · official 2026 house lineups',
       title: 'Haunt Planner',
-      lede: 'House routes built from the haunt wait-curve pattern — the marquee mazes hold queues all night, the back half thins after midnight — tuned to your night type and arrival time. House names land on the event pages when the parks announce them; this turns the pattern into a plan you can print.',
+      lede: 'Choose three must-do houses from the confirmed 2026 lineups, compare your own date-specific ticket quotes, and save or print a checklist. The plan does not predict queues or assume every date in the season is an event night.',
       tone: 'compact',
       meta: [
         { label: 'Events', value: `${payload.events.length} covered` },
-        { label: 'Basis', value: 'Multi-year pattern' },
+        { label: 'Roster', value: 'Official 2026' },
         { label: 'Account', value: 'None' },
       ],
     })}
@@ -701,17 +714,17 @@ export function hauntPlannerPage (data, seasonal) {
       page: {
         url: urls.hauntPlanner(),
         title: 'Haunt Planner',
-        titleTail: ': your Halloween Horror Nights route',
-        description: 'Build an ordered haunted-house route from the wait-curve pattern — marquee mazes first, back half after midnight, line-skip math for peak Saturdays. Pattern-based and labelled as such.',
+        titleTail: ': 2026 house shortlist and ticket comparison',
+        description: 'Choose must-do houses from the official 2026 lineups, compare your own ticket quotes, and save or print a checklist for Halloween Horror Nights.',
         trail,
-        modified: '2026-07-01',
+        modified: '2026-09-26',
       },
       body,
       scripts: ['/assets/js/haunt-planner.js'],
       schema: [S.webApplication(site, {
         url: urls.hauntPlanner(),
         name: `${site.brand.shortName} Haunt Planner`,
-        description: 'An ordered haunt-night route from the multi-year wait-curve pattern.',
+        description: 'A sourced 2026 Halloween Horror Nights house shortlist and visitor-entered ticket comparison.',
       })],
     }),
   }

@@ -54,8 +54,6 @@
     "note": "July carries Walt Disney World's top date-based ticket tiers alongside Christmas and Easter, and it is the only peak period that lasts four weeks rather than one — which removes the usual escape of shifting a few days. Resort hotels run summer season across the entire month, and promotional offers, when they exist, exclude the Independence Day period entirely. Airfare is the most punishing line item: fares into both Orlando and the Southern California airports reach their annual high because family leisure demand peaks with no offsetting off-season anywhere in the domestic network, and unlike hotel rates they do not respond to booking early beyond a point. The one cost that moves in your favor is that summer operating hours are the longest of the year, so the per-hour value of a ticket is better than in any winter month."
   },
   "whatsOn": [
-    "epcot-flower-and-garden-festival",
-    "epcot-food-and-wine-festival",
     "disney-after-hours"
   ],
   "planningNotes": [
@@ -94,9 +92,9 @@
     {
       "heading": "Two festival notes, one of which nobody plans for",
       "body": [
-        "The Flower and Garden Festival runs into early July, so a trip at the front of the month usually still catches it, and its final days are the least crowded of the entire festival because the summer visitor is not there for topiaries.",
-        "The Food and Wine Festival's start is the least predictable of EPCOT's four festivals. It has opened as early as the back end of July in some years and not until late August in others. Do not build a July trip around catching it; treat it as a bonus if the dates work out and check the announcement before assuming either way.",
-        "Both festivals share the same operational fact worth knowing: the marketplace booths open later in the morning than the park does. In July that is a feature, because the first hour belongs to the rides regardless."
+        "Disney’s confirmed 2027 Flower & Garden Festival ends May 31, so July is outside that event. The 2027 Food & Wine dates have not been published on the cited 2027 spring pages; do not book July assuming either festival.",
+        "Disney After Hours has published July 2027 dates at Magic Kingdom (15, 19), Hollywood Studios (5, 12, 26) and EPCOT (8, 22, 29). Compare the park-specific hours and prices before buying.",
+        "If a future EPCOT festival is announced for a July date, check the current operating and marketplace hours directly with Disney. The 2027 Flower & Garden schedule does not extend into July."
       ]
     },
     {
@@ -133,7 +131,7 @@
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The EPCOT Food and Wine Festival opening has moved between late July and late August across recent cycles and is deliberately described as unpredictable rather than dated.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The EPCOT Food and Wine Festival opening has moved between late July and late August across recent cycles and is deliberately described as unpredictable rather than dated. 2027 Flower & Garden close and After Hours July dates: https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-flower-and-garden-festival/ https://disneyworld.disney.go.com/en_CA/events-tours/after-hours/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

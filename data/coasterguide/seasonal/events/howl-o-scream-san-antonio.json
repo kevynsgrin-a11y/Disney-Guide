@@ -4,41 +4,30 @@
   "shortName": "Howl-O-Scream",
   "resort": "texas",
   "parkSlug": "seaworld-san-antonio",
-  "category": "hard-ticket",
+  "category": "overlay",
   "season": "halloween",
-  "summary": "Howl-O-Scream is SeaWorld San Antonio's separately-ticketed Halloween night: produced haunted houses, scare zones and coasters running after dark across the marine park. The Texas edition is one of the region's two major haunts and the biggest produced event in the San Antonio market.",
+  "summary": "Howl-O-Scream is SeaWorld San Antonio's Halloween night, included with park admission on select dates: haunted houses, scare zones, shows and rides after dark. It begins at 7 p.m. and is intended for mature audiences.",
   "h1": "Howl-O-Scream SeaWorld San Antonio: what it costs and whether it is worth it",
   "title": "Howl-O-Scream SeaWorld San Antonio",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "Howl-O-Scream at SeaWorld San Antonio: Texas-scale haunted houses and coasters after dark, on a separate ticket. The pattern, the costs and the verdict.",
+  "description": "Howl-O-Scream at SeaWorld San Antonio: 2026 select dates, park-admission inclusion, haunted houses and coasters after dark.",
   "typicalWindow": {
     "startsAround": "mid-September",
-    "endsAround": "Halloween night",
-    "nightsTypical": 14,
-    "nightsRange": [
-      10,
-      20
-    ],
+    "endsAround": "early November",
     "daysOfWeek": [
       "Fri",
       "Sat",
       "Sun"
     ],
-    "hours": "Roughly 19:00 to midnight or later"
+    "hours": "19:00 to park close on select dates; check the park schedule"
   },
   "pricing": {
-    "model": "per-night",
-    "rangeUsd": [
-      40,
-      110
-    ],
-    "asOf": "2025 season pattern",
-    "cheapestNights": "Opening weekend and early-season Sunday nights",
-    "priciestNights": "The last two Saturdays before Halloween",
+    "model": "included",
+    "asOf": "September 2026",
     "notes": [
-      "Tax additional; parking separate.",
-      "Quick Queue for the haunt is a separate product from the day version and prices by night.",
-      "Frequent-visitor passes carry discounts on select nights most years."
+      "Howl-O-Scream is included with SeaWorld San Antonio park admission, single-day tickets and eligible annual passes on scheduled dates.",
+      "Priority access to rides and haunts and other upgrades are sold separately; check the park's current terms.",
+      "Park admission and parking prices vary; compare the official checkout total for your visit date."
     ]
   },
   "whatYouGet": [
@@ -50,18 +39,18 @@
   "whatYouDont": [
     "The animal exhibits in any meaningful sense — the event is not the park's day identity.",
     "A family product: Howl-O-Scream is uniformly intense and age-restricted in spirit and often in policy.",
-    "Day admission — the ticket is for the night event, with the day park separate."
+    "A separate admission ticket for the haunt; the 2026 event is included with regular park admission on scheduled dates."
   ],
   "verdict": {
     "short": "Worth it as San Antonio's flagship haunt night, and as the coaster-plus-haunt combo only a SeaWorld event offers in Texas.",
     "worthItIf": [
       "You want a produced haunt with real coasters running after dark — a combination only the SeaWorld haunts offer on this site.",
-      "Your night lands early in the season on a weeknight-equivalent date.",
-      "You are pairing it with a day at the park and want the full day-and-night double."
+      "You have valid admission for a scheduled event day and want to stay for the evening.",
+      "You want a daytime park visit and a mature-audience Halloween night on one ticket."
     ],
     "skipIf": [
       "You only want coasters — the day park delivers them without the haunt crowds.",
-      "Peak-Saturday queue math without the haunt line-skip product sounds unpleasant, because it is.",
+      "Peak-Saturday queues without a priority-access upgrade sound unpleasant.",
       "Anyone in the party is under the event's recommendation — this is an adults-leaning night throughout."
     ]
   },
@@ -69,26 +58,26 @@
     {
       "heading": "Coasters first, houses second",
       "body": [
-        "The event opens with the coasters near-walk-on while the maze queues build — invert the instinct and ride the big drops in the first hour, then work the houses. The night coaster laps are the event's underrated product: Iron Rattler's quarry dive with the event lighting is the reason coaster fans buy the ticket."
+        "Check the app for which coasters are operating on your date and compare their queues with the five announced haunted houses. Ride availability and wait times can change during the evening."
       ]
     },
     {
       "heading": "The double-day arithmetic",
       "body": [
-        "Many tickets allow the day-plus-night combo at a discount over separate admission. The combo works only if you accept a mid-day break — the event runs late, and the 3pm-to-1pm version of the double is a stamina trap. Ride the morning, rest the afternoon, haunt the night."
+        "A valid day ticket also covers Howl-O-Scream on a scheduled date. Check the official park calendar before choosing a date, then pace the daytime visit so your group has energy after the 7 p.m. haunt start."
       ]
     },
     {
       "heading": "Line-skip on peak nights",
       "body": [
-        "The haunt Quick Queue is priced like the peak nights it serves. The same rule as every product on this site applies: weeknight never, peak Saturday seriously. The maze count at these events is small enough that the skip product converts a three-house night into an everything night."
+        "SeaWorld sells optional priority access for participating rides and haunts. Compare its current price against your group's must-do list and the time you have after the 7 p.m. start; availability and operating hours can change."
       ]
     }
   ],
   "faqs": [
     {
       "q": "Is Howl-O-Scream included with SeaWorld admission?",
-      "a": "No — it is a separately-ticketed night event, and the day park closes early on event nights. Some combo tickets bundle day and night at a discount."
+      "a": "Yes. SeaWorld San Antonio says the 2026 event is included with park admission, single-day tickets and annual passes on scheduled dates. Optional priority access costs extra."
     },
     {
       "q": "How scary is Howl-O-Scream?",
@@ -96,7 +85,7 @@
     },
     {
       "q": "When does Howl-O-Scream run?",
-      "a": "Select nights from mid-September through Halloween in the typical pattern. The current cycle's dates live on the park's event page; this site carries the pattern with a confidence label."
+      "a": "Select Friday–Sunday dates from September 11 through November 1, 2026, beginning at 7 p.m. Check SeaWorld San Antonio's park schedule for your exact visit date."
     },
     {
       "q": "Do the coasters really run during the event?",
@@ -121,7 +110,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates from SeaWorld San Antonio's official Howl-O-Scream page (viewed September 2026): select nights September 11 – November 1.",
+    "sourceNote": "Checked September 26, 2026 against https://seaworld.com/san-antonio/events/howl-o-scream/: select dates September 11–November 1, 7 p.m. start, included with regular park admission and annual passes, optional paid upgrades.",
     "reviewBy": "2026-11",
     "cycle": "annual"
   },
@@ -134,12 +123,13 @@
       "endDate": "2026-11-01",
       "changes": [
         "The only SeaWorld haunt of the three that extends into November",
-        "A new haunted house themed to I Know What You Did Last Summer opens with the season"
+        "Included with regular park admission on scheduled dates; optional priority upgrades are extra",
+        "The park lists five haunted houses, eight scare zones and three shows"
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "2026 dates from SeaWorld San Antonio's official Howl-O-Scream page (viewed September 2026): select nights September 11 – November 1.",
+        "sourceNote": "Checked September 26, 2026 against https://seaworld.com/san-antonio/events/howl-o-scream/: select dates September 11–November 1, 7 p.m. start, included with regular park admission and annual passes, optional paid upgrades.",
         "reviewBy": "2026-11",
         "cycle": "annual"
       }
