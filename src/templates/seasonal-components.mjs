@@ -129,7 +129,7 @@ export function priceTable (rows, { caption, resorts = [] } = {}) {
 const CATEGORY_LABEL = {
   'hard-ticket': 'Separate ticket',
   festival: 'Festival',
-  overlay: 'Included overlay',
+  overlay: 'Seasonal overlay',
   'after-hours': 'After hours',
   run: 'Race weekend',
 }
@@ -198,7 +198,7 @@ export function windowStrip (win) {
  */
 export function pricingMeta (pricing) {
   if (!pricing) return null
-  if (pricing.model === 'included') return { label: 'Ticket', value: 'Included with admission' }
+  if (pricing.model === 'included') return { label: 'Event', value: 'With park admission; extras may cost more' }
   if (!Array.isArray(pricing.rangeUsd)) return null
   const per = pricing.model === 'per-night' ? ' / night' : pricing.model === 'per-day' ? ' / day' : ''
   return { label: 'Typical price', value: `${f.price(pricing.rangeUsd[0])}–${f.price(pricing.rangeUsd[1])}${per}` }

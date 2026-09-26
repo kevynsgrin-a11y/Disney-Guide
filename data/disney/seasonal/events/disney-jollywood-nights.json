@@ -10,69 +10,76 @@
   "h1": "Disney Jollywood Nights: what it is and whether it's worth it",
   "title": "Disney Jollywood Nights",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "The adults-leaning holiday party at Disney's Hollywood Studios, not EPCOT. What it costs, what it does not include, and who should actually buy it.",
-
+  "description": "2026–27 Disney Jollywood Nights at Hollywood Studios: 15 select nights November 7–January 5, 7:30 p.m.–12:30 a.m., tickets $169–$199 plus tax.",
   "typicalWindow": {
-    "startsAround": "mid-November",
-    "endsAround": "late December",
-    "nightsTypical": 10,
-    "nightsRange": [8, 14],
-    "daysOfWeek": ["Thu", "Fri", "Sat", "Sun"],
-    "hours": "A late-evening event. Historically around 20:00 to 01:00, with park entry permitted some hours before the stated start."
+    "startsAround": "early November",
+    "endsAround": "early January",
+    "nightsTypical": 15,
+    "nightsRange": [
+      8,
+      16
+    ],
+    "daysOfWeek": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Sat"
+    ],
+    "hours": "19:30–00:30, with party-ticket entry from 17:30 in the 2026–27 season"
   },
-
   "pricing": {
     "model": "per-night",
-    "rangeUsd": [159, 209],
-    "asOf": "2025 season",
-    "cheapestNights": "The opening nights in mid-November",
-    "priciestNights": "The December weekend nights closest to Christmas",
+    "rangeUsd": [
+      169,
+      199
+    ],
+    "asOf": "2026–27 season",
+    "cheapestNights": "Check Disney’s date-specific 2026–27 price calendar; prices vary by date.",
+    "priciestNights": "Check Disney’s date-specific 2026–27 price calendar; prices vary by date.",
     "notes": [
       "Tax is additional.",
-      "The band is narrow because the calendar is short. With eight to fourteen nights on sale, Disney has little reason to discount.",
+      "The 2026–27 schedule has 15 nights from November through January, priced $169–$199 plus tax.",
       "Food and drink at the event have historically been sold separately rather than included, which changes the real cost of the evening considerably.",
-      "Children are admitted at a reduced rate, but the event's tone is aimed at adults and the ticket is not priced as a family purchase."
+      "Children ages 3–9 save $10 per ticket. Eligible Annual Passholders and Disney Vacation Club members can also save $10 on event nights."
     ]
   },
-
   "whatYouGet": [
     "A capped-attendance evening at Disney's Hollywood Studios, the park with the worst ratio of capacity to demand at Walt Disney World, which is why the ride case here is stronger than at either Magic Kingdom party.",
-    "Park entry ahead of the stated start time on the party ticket, which delivers a stretch of ordinary park operation before any event content begins.",
-    "Live entertainment staged across several venues rather than one parade route: bands, dance sets and holiday-themed stage material in the Echo Lake and Sunset Boulevard areas.",
+    "Admission from 5:30 p.m. on the party ticket, before the 7:30 p.m. event start, without an additional day ticket or park reservation.",
+    "2026–27 entertainment includes Disney Holidays in Hollywood, the Nightmare Before Christmas Sing-Along, themed dance and lounge sets, and the party-exclusive Jingle Bell, Jingle BAM! nighttime spectacular; individual offerings may change.",
     "Character meets in holiday formalwear that do not appear on ordinary days, which is the single most distinctive thing the event has.",
     "A specialty food and drink menu built for the event, with a cocktail program well beyond what Magic Kingdom's parties offer.",
-    "Short waits on the headliner tier. Rise of the Resistance, Slinky Dog Dash, The Twilight Zone Tower of Terror and Rock 'n' Roller Coaster all run during the party, and the attendance cap does what a Lightning Lane purchase would otherwise have to."
+    "Short waits on the headliner tier. Rise of the Resistance, Slinky Dog Dash, The Twilight Zone Tower of Terror and Rock 'n' Roller Coaster all run during the party, and the attendance cap does what a Lightning Lane purchase would otherwise have to.",
+    "Digital downloads of event Disney PhotoPass photos and videos are included with the 2026–27 ticket."
   ],
-
   "whatYouDont": [
-    "Food and drink are not included. The Magic Kingdom parties hand you unlimited cookies and hot chocolate; this one hands you a menu and a card reader. A couple who eat and drink at the event can add $80 to a $360 evening without trying.",
+    "Specialty food and drinks cost extra. Budget those purchases in addition to the 2026–27 ticket price.",
     "You are not paying for the projections. The holiday projection sequence on The Twilight Zone Tower of Terror and the park's holiday dressing run on ordinary nights across the whole season, on an ordinary ticket.",
-    "There is no parade and no dedicated parade route, because Hollywood Studios does not have one. The entertainment is stationary, which means the crowd stands in two or three places and the walkways between them stay congested.",
-    "The format has changed materially in every cycle the event has run. A friend's account of what the party was like two years ago is not a reliable plan, and neither is a competitor's page that has not been rewritten since.",
+    "There is no traditional parade. Disney instead lists staged shows, themed venues and the party-exclusive Jingle Bell, Jingle BAM! nighttime spectacular.",
+    "Entertainment and characters can change during the 2026–27 run; check the official date-specific event details shortly before attending.",
     "It is sold to adults and admitted by families, which produces an awkward crowd. The cocktail bars and the late finish suit one audience and the child pricing attracts another, and the event has not resolved the tension.",
-    "Eight to fourteen nights is a very short calendar. It sells out, it sells out early, and there is no cheap night to fall back on.",
-    "A 01:00 finish is a real cost. If you are at another park at opening the next morning, you are not — the day after a Jollywood night is a write-off, and that is a second park day you effectively paid for."
+    "The 2026–27 calendar has 15 dates, including January 3 and 5. Availability is date-specific; check Disney before planning around a night.",
+    "The party ends at 12:30 a.m. A next-morning park opening may be tiring; plan your following day accordingly."
   ],
-
   "verdict": {
     "short": "Buy it as an after-hours ride ticket that happens to have a band. It is the only Disney World holiday party where the rides, not the shows, justify the price.",
     "worthItIf": [
-      "Rise of the Resistance, Slinky Dog Dash and Tower of Terror in one evening with short waits is worth $159 to you, which for two adults on a short trip it often is.",
+      "A lower-wait Hollywood Studios night with event entertainment and characters is worth the published $169–$199 ticket price to your group.",
       "You are traveling as adults and want a Disney holiday event that is not built around a parade and a costumed Santa.",
-      "You are staying at a Skyliner or Hollywood Studios-area hotel, so a 01:00 finish means a fifteen-minute walk rather than a bus queue.",
+      "You are staying near Hollywood Studios, which makes the 12:30 a.m. finish easier to manage.",
       "You would otherwise have bought Lightning Lane Multi Pass plus a Single Pass at this park on a busy December day, in which case the party is competitive on price and better on experience.",
       "You want Oga's Cantina at night with a manageable wait, which is a genuinely different room after 22:00."
     ],
     "skipIf": [
       "You have young children. The event's tone, its late hours and its à la carte food model are all wrong for a family, and Mickey's Very Merry Christmas Party at Magic Kingdom does the family version properly even though it costs more per head.",
-      "You have a park reservation the next morning. Hollywood Studios rewards rope drop more than any other Walt Disney World park, and trading a rope drop for a 01:00 finish is a bad trade you will make once.",
+      "You need an early Hollywood Studios morning the next day and a 12:30 a.m. finish would make that difficult.",
       "You are buying it for the decorations or the Tower of Terror projections. Both run every night of the holiday season without a party ticket, and you can stand in the same spot on Sunset Boulevard for free in early December.",
-      "You want a show to sit down and watch. There is no parade, no headline nighttime spectacular built for the event, and the entertainment is short sets in crowded outdoor spaces.",
+      "You want an all-inclusive meal evening. Disney lists specialty food and beverages for purchase in addition to the event ticket.",
       "Your dates are in the last two weeks before Christmas. Those nights price at the top of a narrow band, sell out fastest, and put you into the park on the busiest evenings of the year.",
       "You will not drink. A meaningful share of what the ticket buys is a bar program, and a teetotal party of four is paying full price for the half of the event they will not use."
     ]
   },
-
   "strategy": [
     {
       "heading": "Treat it as an after-hours ticket and plan the ride order first",
@@ -96,7 +103,7 @@
       "heading": "Solve dinner before you arrive, because the party will not",
       "body": [
         "Food at this event is a menu, not an inclusion, and that catches out anyone who has done the Magic Kingdom parties. Assume you are paying for everything you eat and drink on top of the ticket, and budget the evening accordingly.",
-        "The move is a real dinner before the party rather than grazing during it. A table-service booking around 18:00 at the park puts you inside on your party ticket, fed, before the event content starts and before the specialty stands build lines.",
+        "Eat before the 7:30 p.m. party start if a full dinner matters. Your valid event ticket admits you to Hollywood Studios from 5:30 p.m., and specialty food and drinks during the event cost extra.",
         "If you are eating during the party, use mobile ordering rather than the specialty stands for anything that is not event-exclusive. The event stands run the longest lines of anything at the party after about 21:30, and a quick-service order placed from a queue is ready when you finish riding.",
         "Oga's Cantina is the one bar worth planning around, and it is the one that needs a reservation rather than a walk-up. It is a different and better room late at night than it is at 14:00."
       ]
@@ -104,7 +111,7 @@
     {
       "heading": "Which night, on a calendar this short",
       "body": [
-        "Buy the earliest nights. On a calendar of eight to fourteen dates there is no genuinely cheap ticket, so the variable that matters is the crowd, and the mid-November nights carry the smallest one by a wide margin.",
+        "The confirmed 2026–27 schedule has 15 nights: six in November, seven in December and two in January. Compare the date-specific prices and your next-day schedule before selecting one.",
         "The park is already fully dressed for the holidays by the first party night, and the projection sequence on Tower of Terror is running, so an opening-week ticket gets identical scenery to a December one with a fraction of the attendance.",
         "Avoid the December weekend nights closest to Christmas. Hollywood Studios is at its yearly worst in that stretch even before the party starts, your pre-party entry window is spent in a full park, and the ticket costs the top of the band.",
         "Buy as soon as you have decided. The short calendar means this event sells out earlier relative to its dates than either Magic Kingdom party, and there is no second chance later in the season."
@@ -114,13 +121,12 @@
       "heading": "Do not plan from last year's account",
       "body": [
         "This event has changed shape in every cycle it has run since its 2023 debut. Venues have moved, the entertainment lineup has been rebuilt, the hours have shifted, and the balance between free content and paid content has been adjusted more than once.",
-        "That is why this page carries a grey freshness ribbon rather than an amber one. Three cycles is enough to establish that the event returns; it is not enough to establish what it will contain.",
+        "Disney has now published the 2026–27 dates, hours, prices, characters and entertainment. Check its official page for updates closer to your night because offerings can change.",
         "Practically: check the official event page for the current year's entertainment lineup and hours before you build a plan, and treat any blog or forum post older than one season as background rather than instruction.",
         "The two things that have held across every cycle are the park and the ride case. Hollywood Studios has not changed, and a capped-attendance night at the park with Walt Disney World's tightest capacity is worth buying regardless of what the entertainment lineup turns out to be."
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Which park is Disney Jollywood Nights at?",
@@ -143,8 +149,8 @@
       "a": "No. The holiday projection sequence on Sunset Boulevard runs across the full holiday season on ordinary park nights, as does the rest of the park's holiday dressing. If seeing that is your goal, an ordinary evening ticket in early December achieves it for a fraction of the money."
     },
     {
-      "q": "When are the next season's dates announced?",
-      "a": "Disney has historically announced Jollywood Nights in late summer or early autumn, closer to the event than it announces the Magic Kingdom parties. We have not verified a 2026 announcement as of July 2026, and because the event's format has changed in each of its three cycles, this page carries a last-confirmed-cycle ribbon rather than an expected one."
+      "q": "What are the confirmed 2026–27 dates and hours?",
+      "a": "Disney confirms November 7, 14, 16, 21, 23, 28; December 5, 7, 12, 14, 19, 21, 23; and January 3 and 5. The party runs 7:30 p.m.–12:30 a.m.; ticket holders may enter from 5:30 p.m. The ticket costs $169–$199 plus tax, depending on date."
     },
     {
       "q": "Can I use Lightning Lane during the party?",
@@ -155,28 +161,76 @@
       "a": "No. The entertainment repeats identically and the ride list is finite; two nights at a park this size is a repeat purchase. If you want a second capped-crowd evening in the same trip, buy it at a different park rather than a second date at this one."
     }
   ],
-
   "crossLinks": [
-    { "label": "Star Wars: Rise of the Resistance at Hollywood Studios", "href": "/walt-disney-world/hollywood-studios/rides/star-wars-rise-of-the-resistance/", "site": 1 },
-    { "label": "Slinky Dog Dash at Hollywood Studios", "href": "/walt-disney-world/hollywood-studios/rides/slinky-dog-dash/", "site": 1 },
-    { "label": "The Twilight Zone Tower of Terror", "href": "/walt-disney-world/hollywood-studios/rides/the-twilight-zone-tower-of-terror/", "site": 1 },
-    { "label": "Oga's Cantina", "href": "/walt-disney-world/hollywood-studios/dining/ogas-cantina/", "site": 1 },
-    { "label": "Sunset Boulevard at Hollywood Studios", "href": "/walt-disney-world/hollywood-studios/lands/sunset-boulevard/", "site": 1 },
-    { "label": "Lightning Lane explained", "href": "/guides/lightning-lane/", "site": 1 }
+    {
+      "label": "Star Wars: Rise of the Resistance at Hollywood Studios",
+      "href": "/walt-disney-world/hollywood-studios/rides/star-wars-rise-of-the-resistance/",
+      "site": 1
+    },
+    {
+      "label": "Slinky Dog Dash at Hollywood Studios",
+      "href": "/walt-disney-world/hollywood-studios/rides/slinky-dog-dash/",
+      "site": 1
+    },
+    {
+      "label": "The Twilight Zone Tower of Terror",
+      "href": "/walt-disney-world/hollywood-studios/rides/the-twilight-zone-tower-of-terror/",
+      "site": 1
+    },
+    {
+      "label": "Oga's Cantina",
+      "href": "/walt-disney-world/hollywood-studios/dining/ogas-cantina/",
+      "site": 1
+    },
+    {
+      "label": "Sunset Boulevard at Hollywood Studios",
+      "href": "/walt-disney-world/hollywood-studios/lands/sunset-boulevard/",
+      "site": 1
+    },
+    {
+      "label": "Lightning Lane explained",
+      "href": "/guides/lightning-lane/",
+      "site": 1
+    }
   ],
-
   "related": [
     "mickeys-very-merry-christmas-party",
     "epcot-festival-of-the-holidays",
     "disney-after-hours",
     "mickeys-not-so-scary-halloween-party"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "November 7, 2026 – January 5, 2027 (select nights)",
+      "startDate": "2026-11-07",
+      "endDate": "2027-01-05",
+      "nights": 15,
+      "priceRangeUsd": [
+        169,
+        199
+      ],
+      "changes": [
+        "15 nights: November 7, 14, 16, 21, 23, 28; December 5, 7, 12, 14, 19, 21, 23; January 3 and 5.",
+        "7:30 p.m.–12:30 a.m. party hours; ticket holders may enter Hollywood Studios from 5:30 p.m. without an additional day ticket or park reservation.",
+        "Tickets are $169–$199 plus tax; event PhotoPass downloads are included, while specialty food and drink cost extra."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "2026–27 dates, complete 15-night list, prices, hours, early entry and ticket inclusions checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/hollywood-studios/jollywood-nights/",
+        "reviewBy": "2026-11",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
-      "priceRangeUsd": [159, 209],
+      "priceRangeUsd": [
+        159,
+        209
+      ],
       "changes": [
         "The third consecutive cycle since the event's 2023 debut, and the third with a materially different entertainment lineup from the one before it.",
         "The calendar stayed short, in the range the event has held since it launched, and the per-night band stayed narrow at roughly $50 from cheapest to dearest."
@@ -190,12 +244,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "historical",
-    "sourceNote": "The event debuted in 2023 and has returned in each holiday season since, always at Disney's Hollywood Studios in a mid-November to late-December window. Three cycles is enough to say it comes back; it is not enough to say what it contains, because the entertainment lineup, hours and venues have changed in every cycle. The 2026 dates, prices and program are not confirmed to us as of July 2026, so this page states the pattern and the last confirmed cycle's price band and nothing more precise.",
-    "reviewBy": "2026-10",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026–27 dates, prices, hours, 15-night list and inclusions checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/hollywood-studios/jollywood-nights/",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }

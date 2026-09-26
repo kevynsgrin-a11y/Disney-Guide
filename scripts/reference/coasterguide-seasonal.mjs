@@ -23,9 +23,13 @@ export const EVENTS = {
   'fright-fest-over-texas': { resort: 'texas', park: 'six-flags-over-texas', category: 'overlay' },
   'fright-fest-great-adventure': { resort: 'new-jersey', park: 'great-adventure', category: 'overlay' },
   'fright-fest-great-america': { resort: 'chicago', park: 'great-america', category: 'overlay' },
+  'tricks-and-treats-magic-mountain': { resort: 'southern-california', park: 'magic-mountain', category: 'overlay' },
+  'tricks-and-treats-over-texas': { resort: 'texas', park: 'six-flags-over-texas', category: 'overlay' },
+  'kids-boo-fest-great-adventure': { resort: 'new-jersey', park: 'great-adventure', category: 'overlay' },
+  'kids-boo-fest-great-america': { resort: 'chicago', park: 'great-america', category: 'overlay' },
   'knotts-scary-farm': { resort: 'southern-california', park: 'knotts-berry-farm', category: 'hard-ticket' },
   'howl-o-scream-san-diego': { resort: 'southern-california', park: 'seaworld-san-diego', category: 'hard-ticket' },
-  'howl-o-scream-san-antonio': { resort: 'texas', park: 'seaworld-san-antonio', category: 'hard-ticket' },
+  'howl-o-scream-san-antonio': { resort: 'texas', park: 'seaworld-san-antonio', category: 'overlay' },
   'howl-o-scream-orlando': { resort: 'orlando', park: 'seaworld-orlando', category: 'hard-ticket' },
   'brick-or-treat-legoland-california': { resort: 'southern-california', park: 'legoland-california', category: 'overlay' },
 }
@@ -40,6 +44,10 @@ export const WINDOWS = {
   'fright-fest-over-texas': { starts: ['september'], ends: ['november', 'halloween'] },
   'fright-fest-great-adventure': { starts: ['september'], ends: ['november', 'halloween'] },
   'fright-fest-great-america': { starts: ['september'], ends: ['november', 'halloween'] },
+  'tricks-and-treats-magic-mountain': { starts: ['september'], ends: ['november', 'halloween'] },
+  'tricks-and-treats-over-texas': { starts: ['september'], ends: ['november', 'halloween'] },
+  'kids-boo-fest-great-adventure': { starts: ['september'], ends: ['november', 'halloween'] },
+  'kids-boo-fest-great-america': { starts: ['september'], ends: ['november', 'halloween'] },
   'knotts-scary-farm': { starts: ['september'], ends: ['november', 'halloween'], nights: [20, 40] },
   'howl-o-scream-san-diego': { starts: ['september'], ends: ['november', 'halloween'], nights: [8, 25] },
   'howl-o-scream-san-antonio': { starts: ['september'], ends: ['november', 'halloween'], nights: [8, 25] },
@@ -56,7 +64,6 @@ export const WINDOWS = {
 export const PRICE_BANDS = {
   'knotts-scary-farm': [40, 140],
   'howl-o-scream-san-diego': [35, 130],
-  'howl-o-scream-san-antonio': [30, 120],
   'howl-o-scream-orlando': [35, 140],
 }
 

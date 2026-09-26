@@ -26,6 +26,7 @@ import { loadSeasonal, assertIntegrity, MONTHS } from './lib/seasonal-data.mjs'
 import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import { renderParkMap } from './lib/map.mjs'
+import { ASSET_VERSION } from './templates/layout.mjs'
 import { buildPodcastFeed, resolveEpisodes } from './lib/podcast.mjs'
 import { ga4Bootstrap } from './lib/ga4.mjs'
 import * as core from './pages/core.mjs'
@@ -635,19 +636,19 @@ async function buildServiceWorker (dist, data, pages) {
     urls.calendar(),
     ...data.parks.map((p) => urls.map(p)),
     ...data.parks.map((p) => urls.snacks(p)),
-    '/assets/css/main.css?v=1',
-    '/assets/css/print.css?v=1',
-    '/assets/js/app.js?v=1',
-    '/assets/js/food-tracker.js?v=1',
-    '/assets/js/height-checker.js?v=1',
-    '/assets/js/rider-profiles.js?v=1',
-    '/assets/js/map.js?v=1',
-    '/assets/js/trip-timing.js?v=1',
+    `/assets/css/main.css?v=${ASSET_VERSION}`,
+    `/assets/css/print.css?v=${ASSET_VERSION}`,
+    `/assets/js/app.js?v=${ASSET_VERSION}`,
+    `/assets/js/food-tracker.js?v=${ASSET_VERSION}`,
+    `/assets/js/height-checker.js?v=${ASSET_VERSION}`,
+    `/assets/js/rider-profiles.js?v=${ASSET_VERSION}`,
+    `/assets/js/map.js?v=${ASSET_VERSION}`,
+    `/assets/js/trip-timing.js?v=${ASSET_VERSION}`,
     '/manifest.webmanifest',
   ].filter((url) => url === '/offline/' || url.startsWith('/assets') || url === '/manifest.webmanifest' ||
     pages.some((p) => p.url === url) || url === '/')
 
-  const version = `2026.07.01-${pages.length}`
+  const version = `${BUILD_MONTH}-${ASSET_VERSION}-${pages.length}`
   const output = template
     .replace('__VERSION__', version)
     .replace('__PRECACHE__', JSON.stringify([...new Set(precache)]))

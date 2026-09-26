@@ -54,7 +54,6 @@
     "note": "Walt Disney World's date-based ticket tiers step up as districts release and then hold, and resort hotels move into their summer rate season for the full month. The lever that matters here is promotional timing rather than the list price: the room-only and dining offers Disney publishes for summer have historically been weighted toward late July and August, when the resort needs to fill the post-Southern-schools trough, which leaves June paying near-peak rates with the least promotional relief of the three summer months. Airfare into Orlando switches from business-demand pricing to family-leisure pricing in June and does not switch back until September. Anaheim's rates rise less, because its hotel market is not as seasonal, which widens the value gap between the coasts further."
   },
   "whatsOn": [
-    "epcot-flower-and-garden-festival",
     "disney-after-hours",
     "disneyland-after-dark"
   ],
@@ -96,7 +95,8 @@
       "body": [
         "Disney After Hours at Walt Disney World and the Disneyland After Dark series both do the same structural thing: they cap attendance and run for a few hours after the regular park closes. In June that also means they run in the only genuinely pleasant temperature band of the day in Orlando, which doubles their value relative to a winter night.",
         "The per-night price does not vary with how busy the park was that afternoon, so the value per dollar rises as the month gets busier. June and July are when the math is strongest.",
-        "Plan a shorter day around the event rather than stacking a full day on top of it. Twelve hours in a Florida June followed by a three-hour night event is how people get heat exhaustion."
+        "Plan a shorter day around the event rather than stacking a full day on top of it. Twelve hours in a Florida June followed by a three-hour night event is how people get heat exhaustion.",
+        "Disney’s 2027 After Hours calendar includes June dates at Magic Kingdom, Hollywood Studios and EPCOT. Flower & Garden ended May 31, so do not expect its kitchens or topiaries as an operating festival in June."
       ]
     }
   ],
@@ -125,7 +125,7 @@
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy described is a long-running operator practice, not a confirmed current term — verify it at the point of booking.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The hurricane policy described is a long-running operator practice, not a confirmed current term — verify it at the point of booking. 2027 After Hours and Flower & Garden boundaries: https://disneyworld.disney.go.com/en_CA/events-tours/after-hours/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-flower-and-garden-festival/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

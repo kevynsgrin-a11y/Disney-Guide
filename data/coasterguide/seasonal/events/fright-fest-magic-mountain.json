@@ -6,97 +6,92 @@
   "parkSlug": "magic-mountain",
   "category": "overlay",
   "season": "halloween",
-  "summary": "Fright Fest is Six Flags Magic Mountain's included-with-admission Halloween overlay: scare zones and decorated midways by day, haunts after dark, with some upcharged attractions. Magic Mountain's version leans on the hillside park's scale — the midways between the summit and the plaza carry the atmosphere.",
+  "summary": "Six Flags Magic Mountain runs Fright Fest on select nights through November 1, 2026. Park admission covers the nighttime scare zones and shows; haunted mazes require a separate Haunted Attractions Pass. The park also offers Tricks and Treats for families during the day.",
   "h1": "Fright Fest at Six Flags Magic Mountain: what it is and whether it is worth it",
   "title": "Fright Fest Six Flags Magic Mountain",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "Fright Fest at Magic Mountain: scare zones up the mountain, included with admission, with the coaster lineup running underneath. What is free, what is upcharged, and the verdict.",
+  "description": "Six Flags Magic Mountain Fright Fest 2026 dates, admission and maze-pass costs, adult scares and daytime family options.",
   "typicalWindow": {
     "startsAround": "mid-September",
-    "endsAround": "Halloween night",
+    "endsAround": "early November",
     "daysOfWeek": [
+      "Thu",
       "Fri",
       "Sat",
       "Sun"
     ],
-    "hours": "Day park hours, with haunt overlay from roughly dusk"
+    "hours": "6:30 p.m. to park closing on 2026 event nights"
   },
   "pricing": {
     "model": "included",
-    "rangeUsd": [
-      0,
-      40
-    ],
-    "asOf": "2025 season pattern",
-    "cheapestNights": "Any weekday — the overlay typically runs weekends",
-    "priciestNights": "The last two Saturdays before Halloween",
+    "asOf": "September 2026",
     "notes": [
-      "Included with regular admission: the scare zones, decor and most after-dark entertainment cost nothing beyond the ticket.",
-      "The range describes in-park spend — upcharged haunted attractions and maze passes, where offered, sit inside it.",
-      "Parking and any line-skip product are separate and priced by date as always."
+      "Regular park admission or a valid pass covers Fright Fest scare zones and shows on scheduled nights, but not haunted mazes.",
+      "A 2026 single-night Haunted Attractions Pass starts at $25 and does not include park admission.",
+      "The park lists a combined admission-and-maze bundle from $74; prices vary by date and taxes or processing fees can apply.",
+      "Fright Fest starts at 6:30 p.m. on listed nights. Re-entry is not permitted after 9 p.m."
     ]
   },
   "whatYouGet": [
-    "Scare zones along the major midways after dark, with roaming actors and themed staging.",
-    "Park-wide Halloween decor and atmosphere layered over the normal ride day.",
-    "A full ride day underneath it — the coasters run through the overlay, weather permitting.",
-    "Seasonal shows and photo setups built around the event theme."
+    "Scare zones and roaming actors after dark on scheduled Fright Fest nights.",
+    "Seasonal entertainment and Halloween atmosphere included with park admission.",
+    "Access to operating rides under ordinary park admission, subject to closures and hours.",
+    "A separate daytime family event, Tricks and Treats, on its own published schedule."
   ],
   "whatYouDont": [
-    "A full hard-ticket haunt in the Knott's or Howl-O-Scream sense — the day park remains the product.",
-    "Every haunted attraction included: some mazes have historically carried separate upcharges at Six Flags parks.",
-    "Guaranteed haunt operation on weekdays — the overlay concentrates on weekend nights.",
-    "A toddler-friendly evening: the scare zones are genuinely staffed and the tone is PG-13 after dark."
+    "Haunted maze entry with a regular ticket or pass; the 2026 Haunted Attractions Pass is extra.",
+    "A promise that every ride operates during Fright Fest; check current ride closures and park hours.",
+    "A scare-free evening for young children; Six Flags does not recommend Fright Fest for guests under 13."
   ],
   "verdict": {
-    "short": "Worth it if you were going to Six Flags Magic Mountain in October anyway — the overlay is free atmosphere on a ride day, not a destination of its own.",
+    "short": "Worth considering for a coaster day that continues into nighttime scare zones. Budget for a separate maze pass if haunted houses are the point of your visit.",
     "worthItIf": [
-      "You want a normal coaster day with Halloween atmosphere on top of it.",
-      "Your group is teen-and-up and enjoys walk-through scares without booking a separate event.",
-      "You are already visiting on a fall weekend and the overlay is simply what the park is that day."
+      "You want coasters and included scare zones on the same park visit.",
+      "Your group enjoys the after-dark atmosphere recommended for ages 13 and up.",
+      "You are willing to buy the maze add-on if haunted houses matter."
     ],
     "skipIf": [
-      "You are planning a dedicated haunt trip — the hard-ticket events on this site deliver far more per scare dollar.",
-      "Your party includes young children who would be frightened by roaming actors after dark.",
-      "You only have a weekday visit — the overlay's intensity is weekend-shaped."
+      "You expect haunted mazes to come with standard admission.",
+      "Your group needs a scare-free evening; choose Tricks and Treats during the day.",
+      "The park calendar does not list Fright Fest on your available date."
     ]
   },
   "strategy": [
     {
-      "heading": "Ride first, haunt second",
+      "heading": "Choose the exact night",
       "body": [
-        "The overlay does not start until dusk, which makes the day a normal fall ride day until then. Front-load the coasters — fall weekdays at Six Flags parks are among the year's calmest ride days — and let the haunt atmosphere be the evening's bonus rather than the plan."
+        "The published range is not a nightly calendar. Check the park’s date-specific operating calendar before buying travel or tickets."
       ]
     },
     {
-      "heading": "The upcharge decision at the gate",
+      "heading": "Price the mazes before you go",
       "body": [
-        "Some Fright Fest haunted attractions carry separate charges, and the value depends entirely on your scare appetite. The honest bar: if you would pay $15 for a ten-minute walk-through maze, buy; if not, the free scare zones carry the evening fine. Check the park's event page for which attractions are upcharged this cycle, because the list changes."
+        "If you want haunted mazes, compare a Haunted Attractions Pass plus admission with the admission-and-maze bundle. Starting prices vary by date and may exclude fees."
       ]
     },
     {
-      "heading": "Family strategy",
+      "heading": "Use the daytime family event",
       "body": [
-        "Families with mixed ages should invert the schedule: arrive at open, ride hard through the afternoon, and exit before the scare zones fully staff at dusk. Several parks also run daytime non-scary programming — check the park's event listing for the kid-facing hours if the party is young."
+        "Tricks and Treats offers less frightening Halloween activities before Fright Fest. Plan family activities first and leave before the night scares if younger guests are uncomfortable."
       ]
     }
   ],
   "faqs": [
     {
       "q": "Is Fright Fest included with admission?",
-      "a": "The core overlay — scare zones, decor and most after-dark entertainment — is included with regular admission. Some haunted attractions have historically carried separate upcharges at Six Flags parks. Treat the event page's current list as the source of record."
+      "a": "The scare zones and shows are available with park admission on scheduled Fright Fest nights. Haunted mazes in 2026 require a separate Haunted Attractions Pass. Check the park’s current ticket terms for your selected date."
     },
     {
-      "q": "When does Fright Fest run?",
-      "a": "Weekends from mid-September through Halloween night in the typical pattern, with the haunt elements active from roughly dusk. Exact dates vary by park and by year — the calendar on this site's Halloween section carries the current expectation with a confidence label."
+      "q": "When does Fright Fest run in 2026?",
+      "a": "The park has announced select nights from September 18 through November 1, 2026. The range does not mean nightly operation; check the official park calendar for the exact date and hours of your visit."
     },
     {
-      "q": "Is Fright Fest too scary for kids?",
-      "a": "The after-dark tone is PG-13 with roaming actors, and it is more intense than the Disney parks' daytime Halloween overlays. Young kids can absolutely enjoy the daytime ride day; plan to exit before full dark if scare actors are a problem."
+      "q": "Is Fright Fest suitable for young children?",
+      "a": "Six Flags does not recommend the after-dark event for children under 13. The park also runs Tricks and Treats as a daytime, family-focused option on separately published dates."
     },
     {
-      "q": "How does Fright Fest compare to the hard-ticket haunts?",
-      "a": "It is thinner by design — included atmosphere rather than a produced event. Knott's Scary Farm and the Howl-O-Scream nights are dedicated, separately-ticketed products with far more mazes and production; Fright Fest is what a ride day wears in October."
+      "q": "Do I need a maze pass?",
+      "a": "Yes, if you want to enter the 2026 haunted mazes. A normal park ticket or pass covers the general Fright Fest atmosphere but not maze admission. Check the park’s ticket page for current pass prices and fees."
     }
   ],
   "crossLinks": [
@@ -111,30 +106,32 @@
       "site": 1
     }
   ],
-  "related": [],
+  "related": [
+    "tricks-and-treats-magic-mountain"
+  ],
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates from Six Flags Magic Mountain's official Fright Fest page (viewed September 2026): select nights September 18 – November 1.",
-    "reviewBy": "2026-11",
+    "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest). The official page confirms select nights September 18–November 1, 2026, admission and maze-pass terms, and the 2026 lineup.",
+    "reviewBy": "2026-10",
     "cycle": "annual"
   },
   "editions": [
     {
       "year": 2026,
       "status": "announced",
-      "dates": "Select nights, September 18 – November 1, 2026",
+      "dates": "Select nights, September 18–November 1, 2026",
       "startDate": "2026-09-18",
       "endDate": "2026-11-01",
       "changes": [
-        "The 33rd Fright Fest at Magic Mountain",
-        "Seven haunted mazes, revealed at Midsummer Scream"
+        "Fright Fest runs 6:30 p.m. to close on September 18–20 and 25–27; October 2–4, 8–11, 15–18, 22–25 and 29–31; and November 1.",
+        "New 2026 mazes include Final Destination: Death’s Playground and Wolves’ Blood."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "2026 dates from Six Flags Magic Mountain's official Fright Fest page (viewed September 2026): select nights September 18 – November 1.",
-        "reviewBy": "2026-11",
+        "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest). The official page confirms select nights September 18–November 1, 2026, admission and maze-pass terms, and the 2026 lineup.",
+        "reviewBy": "2026-10",
         "cycle": "annual"
       }
     }

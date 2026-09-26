@@ -2,13 +2,13 @@
   "month": 12,
   "name": "December",
   "slug": "december",
-  "summary": "Holiday weeks carry the month: the warm parks run their busiest stretch of the winter while the northern parks run their rare, decorated weekend calendars — with real cold as the price.",
+  "summary": "Holiday weeks carry the month at the warm parks. Great Adventure has announced a 2026 holiday event, but its exact dates remain pending; Great America has no announced December 2026 dates as of September 26.",
   "verdict": {
     "grade": "B-",
-    "short": "December at these parks: a good window with known trade-offs. Holiday weeks carry the month: the warm parks run their busiest stretch of the winter while the northern parks run their rare, decorated weekend calendars.",
+    "short": "December at these parks: holiday weeks are busiest at the warm parks. Check each northern park's published calendar before treating December as an operating month.",
     "bestFor": [
       "SoCal and Florida holiday weeks",
-      "Great America's December weekends"
+      "Announced warm-park holiday programs"
     ],
     "worstFor": [
       "Northern weekday chasers",
@@ -17,7 +17,7 @@
   },
   "crowds": {
     "level": "high",
-    "shape": "Holiday weeks carry the month: the warm parks run their busiest stretch of the winter while the northern parks run their rare, decorated weekend calendars — with real cold as the price.",
+    "shape": "Holiday weeks carry the month at the warm parks. Great Adventure has announced a holiday program with exact 2026 dates pending; Great America has no announced December 2026 dates as of September 26.",
     "peakWindows": [
       "The Christmas-to-New Year week"
     ],
@@ -66,13 +66,13 @@
     {
       "heading": "The month in one decision",
       "body": [
-        "The Christmas-to-New Year week is the winter's peak everywhere on this site — the same crowd math as July Fourth with colder weather at the northern parks."
+        "Christmas-to-New-Year week is often a peak at parks that are open, especially in warm regions. Check each park's December calendar before treating a holiday week as an operating week."
       ]
     },
     {
       "heading": "The detail that matters",
       "body": [
-        "The first two December weeks are a quiet, decorated secret at the warm parks: full holiday programming at shoulder crowds."
+        "The first two December weeks can be calmer than Christmas week at warm parks. Verify that the park and its holiday program are operating on your exact date."
       ]
     }
   ],
@@ -89,10 +89,10 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes describe multi-year patterns across the ten parks rather than a forecast for any single year. Weather figures are climate normals for each region and do not decay; the Texas figures blend the DFW and San Antonio areas, and the Southern California figures blend the coastal and inland valleys.",
-    "reviewBy": "2027-07",
+    "sourceNote": "Six Flags' 2026 holiday announcement names Great Adventure and Over Georgia, not Great America: https://www.sixflags.com/blog/holiday-in-the-park-returns. Great America's published events calendar ended with November 1 Fright Fest as of September 26: https://www.sixflags.com/greatamerica/events. Crowd and cost shapes are multi-year patterns, not a single-year forecast. Weather figures are regional climate normals.",
+    "reviewBy": "2026-11",
     "cycle": "rolling"
   }
 }

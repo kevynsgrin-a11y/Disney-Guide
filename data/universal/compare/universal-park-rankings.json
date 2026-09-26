@@ -6,17 +6,33 @@
   "summary": "Islands of Adventure is the best Universal park in the United States. Epic Universe is the best-built one and finishes second. Both of those are arguable, and the argument against each placement is printed with it.",
   "readingTimeMinutes": 13,
   "contenders": [
-    { "key": "islands-of-adventure", "name": "Islands of Adventure", "subtitle": "Universal Orlando, opened 1999" },
-    { "key": "epic-universe", "name": "Universal Epic Universe", "subtitle": "Universal Orlando, opened 2025" },
-    { "key": "universal-studios-florida", "name": "Universal Studios Florida", "subtitle": "Universal Orlando, opened 1990" },
-    { "key": "universal-studios-hollywood", "name": "Universal Studios Hollywood", "subtitle": "Universal City, opened 1964" }
+    {
+      "key": "islands-of-adventure",
+      "name": "Islands of Adventure",
+      "subtitle": "Universal Orlando, opened 1999"
+    },
+    {
+      "key": "epic-universe",
+      "name": "Universal Epic Universe",
+      "subtitle": "Universal Orlando, opened 2025"
+    },
+    {
+      "key": "universal-studios-florida",
+      "name": "Universal Studios Florida",
+      "subtitle": "Universal Orlando, opened 1990"
+    },
+    {
+      "key": "universal-studios-hollywood",
+      "name": "Universal Studios Hollywood",
+      "subtitle": "Universal City, opened 1964"
+    }
   ],
   "verdict": {
     "short": "1. Islands of Adventure. 2. Universal Epic Universe. 3. Universal Studios Florida. 4. Universal Studios Hollywood. No ties, no hedging.",
     "body": [
       "Islands of Adventure is first on roster depth, which is the criterion this list weights most heavily. About 30 attractions across seven islands, four roller coasters, three water rides that genuinely soak you, a drop tower, the best coaster in Florida in Jurassic World VelociCoaster, half of the Wizarding World, and a purpose-built children's island at the far end of the loop. No other Universal park in the country puts that many usable things in front of you in one day.",
       "Epic Universe is second, and it wins more individual criteria than the park above it. It is better built, better fed, better lit after dark, and more coherent as a piece of design than anything else Universal operates in the United States. It loses on two structural facts: about 21 attractions to Islands of Adventure's 30, and a separate campus that costs a shuttle or a drive at each end of the day. Rank on quality per attraction instead of on roster and this park is first, comfortably.",
-      "Universal Studios Florida is third because one land carries it. Diagon Alley is the best-built environment Universal has produced in Florida outside Epic Universe and is worth a ticket on its own. Around it sits a park of backlot streets with the highest concentration of screen-based rides of any major park in the United States, two genuine coasters, and the thinnest under-40-inch list at Universal Orlando.",
+      "Universal Studios Florida is third because one land carries it. Diagon Alley is the best-built environment Universal has produced in Florida outside Epic Universe and is worth a ticket on its own. Around it sits a park of backlot streets with the highest concentration of screen-based rides of any major park in the United States, one active full-thrill coaster after Rip Ride Rockit closed in 2025, and the thinnest under-40-inch list at Universal Orlando.",
       "Universal Studios Hollywood is fourth on roster and first on the one thing nothing else in the industry has. The Studio Tour crosses a real working film lot, runs about an hour, carries no height requirement, and is the reason to buy a ticket rather than a curiosity attached to one. It finishes last because about 25 attractions on a hillside, several of them the shorter versions of Orlando rides, is a smaller park — not because it is a worse day than its placement implies."
     ]
   },
@@ -33,8 +49,8 @@
       "cells": {
         "islands-of-adventure": "About 30 attractions on 101 acres, weighted hard toward rides — four coasters, three water rides, a drop tower, four small-child rides and a walkthrough discovery centre.",
         "epic-universe": "About 21 attractions on 110 acres, of which roughly ten are rides. Fewer ride vehicles than any other Orlando park, and each one longer and more elaborate than the count suggests.",
-        "universal-studios-florida": "About 31 attractions on 108 acres, but weighted toward screens, shows and walkthroughs. Two genuine coasters and a great deal of projection.",
-        "universal-studios-hollywood": "About 25 attractions on a hillside site, several of which are the shorter versions of Orlando rides. One coaster."
+        "universal-studios-florida": "About 31 attractions on 108 acres, but weighted toward screens, shows and walkthroughs. One active full-thrill coaster, a coaster hybrid and a great deal of projection. Rip Ride Rockit closed in 2025.",
+        "universal-studios-hollywood": "About 26 catalogued attractions on a hillside site, 23 open. Hollywood Drift opened in September 2026 alongside the indoor Mummy coaster and junior Hippogriff."
       },
       "note": "This is the most heavily weighted criterion on the page and it does most of the work separating first from second."
     },
@@ -166,19 +182,19 @@
         "Universal Studios Florida opened in June 1990 as a working production facility guests could tour, and almost none of that survives. What stands now is a set of backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions dropped into the buildings behind them. The studio framing is architecture, not a working business.",
         "The Wizarding World of Harry Potter — Diagon Alley, opened July 2014, is the reason this park is not fourth. It is enclosed rather than open, reached through a brick wall on a London waterfront with a proper reveal, and it holds more detail per square foot than anything else Universal built in Florida before 2025. Harry Potter and the Escape from Gringotts has the best-built room in the park in its bank lobby, with animatronic goblins looking up from their ledgers as the vehicle passes.",
         "The ride list around it is the park's problem. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all projection in front of a motion base, and Gringotts and Men in Black lean on screens too. That is the highest concentration of screen-based attractions of any major park in the United States, and it is worth saying plainly rather than describing as a strength: three of them in one morning will put someone on a bench at noon who has never been travel sick in their life.",
-        "Two genuine coasters carry the physical end. Revenge of the Mummy at 48 inches is an indoor launch coaster with a very good second half, it is nearly always the shortest queue among the headliners, and it has the best single rider line in the park. Hollywood Rip Ride Rockit at 51 inches is the outdoor one, with a 79-inch maximum as well as a minimum. Beyond them, the physical roster is thin.",
+        "Revenge of the Mummy at 48 inches is the active full-thrill coaster, and it has a useful Single Rider line. Gringotts has coaster elements mixed with screens, while Trolls Trollercoaster is a junior ride. Hollywood Rip Ride Rockit closed permanently in August 2025.",
         "**The counterargument:** on any measure that weights a single environment rather than a whole roster, Diagon Alley is the best land at Universal Orlando outside Epic Universe, and someone who ranks parks by the best hour they contain would put this one second. It also has the most indoor, air-conditioned attractions of the three Orlando parks, which is a serious argument in a Florida July, and the best live show bench at the resort in a theatre that almost never fills."
       ],
       "pros": [
         "Diagon Alley, which is worth a ticket on its own.",
         "The most indoor, air-conditioned attractions of the three Orlando parks.",
         "Revenge of the Mummy is the most underrated headliner at Universal Orlando.",
-        "Six single rider lines running at a third of standby or better.",
+        "Five operating Single Rider lines.",
         "The best snack and themed-food bench at the resort."
       ],
       "cons": [
         "The highest concentration of screen-based rides of any major US park.",
-        "Only two genuine coasters, and one of them is indoors.",
+        "Only one active full-thrill coaster, and it is indoors.",
         "The weakest of the three Orlando parks for a child under 40 inches.",
         "Diagon Alley caps entry between roughly eleven and six, so the land queues before you do.",
         "Very little for a repeat visitor who has already done it."
@@ -189,22 +205,22 @@
       "key": "universal-studios-hollywood",
       "headline": "The oldest of the four, the smallest of the four, and the only one with a real backlot.",
       "body": [
-        "Placing Universal Studios Hollywood fourth is a statement about size rather than about quality, and it deserves saying without softening. This park operates about 25 attractions to Islands of Adventure's 30 and Universal Studios Florida's 31, several of them are the shorter versions of Orlando rides, and it has one roller coaster.",
-        "It also does something none of the other three attempts. The Studio Tour opened in the summer of 1964 to sell tickets to a working film studio, and sixty years later it remains the single best reason to buy one. It runs about an hour, crosses a genuinely working backlot with standing sets and active production, has no height requirement at all, and folds King Kong 360 3-D, the earthquake subway sequence and the Fast and Furious finale into the route. Orlando has no answer and could not construct one, because the asset is the studio rather than the ride.",
-        "The park is cut into two levels on a hillside. The Upper Lot holds the entrance, the Studio Tour, both shows, The Wizarding World of Harry Potter and Super Nintendo World. The Lower Lot holds Jurassic World — The Ride, Revenge of the Mummy and Transformers and very little else. They are joined by the Starway, four long outdoor escalators that take four to five minutes each way when everything is running. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
-        "One day is genuinely enough here, which is a compliment rather than a complaint. You can finish this park — every ride, both shows worth seeing, the tour — inside a normal operating day with time to sit down, and it is the one US Universal park a visitor can reasonably do without booking a hotel. It also has the lowest height ceiling of the four at 48 inches, and its Wizarding World is better realised at ground level than the Orlando original.",
+        "Placing Universal Studios Hollywood fourth is a statement about size rather than about quality. Its catalog has 26 attractions, 23 operating, versus about 30 at Islands of Adventure and 31 catalogued at Universal Studios Florida. Hollywood Drift opened in September 2026 alongside Mummy and the junior Hippogriff.",
+        "It also does something none of the other three attempts. The Studio Tour opened in the summer of 1964 to sell tickets to a working film studio, and sixty years later it remains the single best reason to buy one. It runs about an hour, crosses a genuinely working backlot with standing sets and active production, has no height requirement at all, and folds King Kong 360 3-D, the earthquake subway sequence into the route; the former Fast & Furious finale closed in March 2025. Orlando has no answer and could not construct one, because the asset is the studio rather than the ride.",
+        "The park is cut into two levels on a hillside. The Upper Lot holds the entrance, the Studio Tour, WaterWorld, the Wizarding World and Fast & Furious: Hollywood Drift. The Lower Lot holds Super Nintendo World, Jurassic World — The Ride, Revenge of the Mummy and Transformers. They are joined by the Starway, four long outdoor escalators that take four to five minutes each way when everything is running. Bouncing between levels costs the better part of an hour without anyone noticing where it went.",
+        "One day is genuinely enough here, which is a compliment rather than a complaint. You can finish this park — every ride, both shows worth seeing, the tour — inside a normal operating day with time to sit down, and it is the one US Universal park a visitor can reasonably do without booking a hotel. It also has a highest minimum of 51 inches at Hollywood Drift, and its Wizarding World is better realised at ground level than the Orlando original.",
         "**The counterargument:** for a reader on the west coast, this park is not fourth — it is first, and the other three are a flight and three hotel nights away. It also wins the criterion that a ranking obsessed with attraction counts undervalues: it has the one thing in this entire industry that cannot be replicated, and an hour on a working lot is more interesting to a lot of adults than a fourth coaster would be. If you rank on distinctiveness rather than on scale, this park is second."
       ],
       "pros": [
         "The Studio Tour, which no other theme park anywhere can offer.",
         "The only one of the four you can genuinely finish in a day.",
-        "The lowest height ceiling of the four, topping out at 48 inches.",
+        "Hollywood Drift adds a 51-inch minimum and a second major coaster.",
         "Reachable by rail with a free shuttle, which is unusual for Los Angeles.",
         "Free same-day re-entry to a CityWalk with better food than the park."
       ],
       "cons": [
-        "About 25 attractions, several of them the shorter versions of Orlando rides.",
-        "One roller coaster, and it is the compact version of the Orlando one.",
+        "About 26 catalogued attractions, 23 currently open, with several shorter versions of Orlando rides.",
+        "Hollywood Drift is new enough that its place in this editorial ranking needs an on-ride review.",
         "A hillside site with four long escalators between the two levels.",
         "No table-service restaurant inside the gate, at prices above Disneyland's.",
         "No hotel tier that includes Express Pass, unlike Orlando."
@@ -287,7 +303,7 @@
     ],
     "universal-studios-hollywood": [
       "You are on the west coast, where this park is first rather than fourth.",
-      "How films actually get made interests you more than another coaster would.",
+      "You want both a working backlot and the newly opened Hollywood Drift coaster.",
       "You want to finish a park in one day rather than sample one.",
       "Your group sits between 40 and 48 inches, where Orlando's headliners lock them out."
     ]
@@ -303,7 +319,7 @@
     },
     {
       "q": "Why is Universal Studios Hollywood ranked last?",
-      "a": "Because this ranking weights roster depth most heavily and Universal Studios Hollywood has about 25 attractions, one roller coaster, and several rides that are the shorter versions of Orlando ones. On distinctiveness it wins outright — the Studio Tour crosses a real working backlot and nothing else in the industry has one. For a visitor on the west coast it is first, not fourth."
+      "a": "Because this ranking weights roster depth most heavily and Universal Studios Hollywood has about 26 catalogued attractions including three closed attractions, and several rides that are shorter versions of Orlando ones. Hollywood Drift opened in September 2026 and its ranking needs a fresh editorial ride. On distinctiveness it wins outright — the Studio Tour crosses a real working backlot and nothing else in the industry has one. For a visitor on the west coast it is first, not fourth."
     },
     {
       "q": "Which Universal park has the best rides?",

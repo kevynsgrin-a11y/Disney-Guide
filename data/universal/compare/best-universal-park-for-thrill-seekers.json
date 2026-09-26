@@ -3,16 +3,32 @@
   "title": "Best Universal Park for Thrill Seekers: All Four Ranked",
   "h1": "The Best Universal Park for Thrill Seekers",
   "metaDescription": "All four US Universal parks ranked on one criterion: what they actually put your body through. Coasters, drops, water, restraints and the heights that decide who gets on.",
-  "summary": "Islands of Adventure wins, and it is not close — four coasters, a drop tower, three soaking water rides and the strictest height requirements in Orlando. Epic Universe is second on newer hardware and a shallower bench. Universal Studios Hollywood has one coaster.",
+  "summary": "Islands of Adventure has the deepest thrill roster. Epic Universe follows. Hollywood Drift opened at Universal Studios Hollywood in September 2026, while Orlando's Rip Ride Rockit closed in 2025; Hollywood now has the stronger active coaster pair and takes a provisional third place.",
   "readingTimeMinutes": 11,
   "contenders": [
-    { "key": "islands-of-adventure", "name": "Islands of Adventure", "subtitle": "Universal Orlando" },
-    { "key": "epic-universe", "name": "Universal Epic Universe", "subtitle": "Universal Orlando" },
-    { "key": "universal-studios-florida", "name": "Universal Studios Florida", "subtitle": "Universal Orlando" },
-    { "key": "universal-studios-hollywood", "name": "Universal Studios Hollywood", "subtitle": "Universal City, California" }
+    {
+      "key": "islands-of-adventure",
+      "name": "Islands of Adventure",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "epic-universe",
+      "name": "Universal Epic Universe",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "universal-studios-florida",
+      "name": "Universal Studios Florida",
+      "subtitle": "Universal Orlando"
+    },
+    {
+      "key": "universal-studios-hollywood",
+      "name": "Universal Studios Hollywood",
+      "subtitle": "Universal City, California"
+    }
   ],
   "verdict": {
-    "short": "Islands of Adventure, by a distance. Four coasters, a launch drop tower, three water rides that soak you, and the only 51-, 52- and 54-inch sticks in Orlando. Epic Universe second, Universal Studios Florida third, Universal Studios Hollywood fourth with one coaster.",
+    "short": "Islands of Adventure leads on active coaster depth and major water rides. Epic Universe is second. Hollywood moves to a provisional third after Hollywood Drift opened; Universal Studios Florida is fourth after Rip Ride Rockit closed.",
     "body": [
       "This page uses one criterion: what the park does to your body. Theming, story, ride quality and how good the queue looks score nothing here. A gorgeous dark ride moving at eight miles an hour is worth zero on this page regardless of how good it is elsewhere on this site.",
       "On that criterion Islands of Adventure wins outright. Jurassic World VelociCoaster is the best roller coaster in Florida — two launches, a 155-foot top hat, four inversions, and a run of track that skims the lagoon at speed. The Incredible Hulk Coaster launches out of a tube at 54 inches, the tallest requirement at any Orlando theme park. Hagrid's Magical Creatures Motorbike Adventure is a story coaster with launches, backward track and a drop section. Doctor Doom's Fearfall throws you up rather than dropping you at 52 inches. Then three water rides that empty water onto you rather than misting you for effect.",
@@ -32,8 +48,8 @@
       "cells": {
         "islands-of-adventure": "Fourteen, topping out at 54 inches for The Incredible Hulk Coaster. Doctor Doom's Fearfall at 52, Jurassic World VelociCoaster at 51, Hagrid's and Forbidden Journey at 48.",
         "epic-universe": "Seven, topping out at 48 inches for Stardust Racers and Monsters Unchained. Mine-Cart Madness and Harry Potter and the Battle at the Ministry at 42.",
-        "universal-studios-florida": "Nine, topping out at 51 inches for Hollywood Rip Ride Rockit, which also carries a 79-inch maximum. Revenge of the Mummy at 48.",
-        "universal-studios-hollywood": "Nine, topping out at 48 inches for Revenge of the Mummy and Harry Potter and the Forbidden Journey. Jurassic World — The Ride at 42."
+        "universal-studios-florida": "Eight operating attractions carry a height requirement, topping out at 48 inches for Revenge of the Mummy. Rip Ride Rockit closed in August 2025.",
+        "universal-studios-hollywood": "Ten catalogued attractions carry a height requirement, topping out at 51 inches for Fast & Furious: Hollywood Drift, followed by Mummy and Forbidden Journey at 48."
       },
       "note": "For this page a higher ceiling is a virtue rather than a problem. It is the reverse of every other ranking on this site."
     },
@@ -43,8 +59,8 @@
       "cells": {
         "islands-of-adventure": "Jurassic World VelociCoaster, opened 2021. Two launches, a 155-foot top hat, four inversions, and a stretch of track that skims the lagoon. The best coaster in Florida and nothing at the other three parks displaces it.",
         "epic-universe": "Stardust Racers, a dueling coaster running over open, lit ground in the hub. Best ridden after dark, when there are no tunnels or buildings to hide the layout and the night lap reads as a different ride.",
-        "universal-studios-florida": "Revenge of the Mummy, an indoor launch coaster with a very good second half. It is nearly always the shortest queue among the headliners and it has the best single rider line in the park.",
-        "universal-studios-hollywood": "Revenge of the Mummy again, in its compact version. Shorter than the Orlando ride and still the most physical thing at the park."
+        "universal-studios-florida": "Revenge of the Mummy is the active full-thrill coaster, an indoor launch ride at 48 inches.",
+        "universal-studios-hollywood": "Fast & Furious: Hollywood Drift opened September 2026 with four launches, three inversions and speeds up to 72 mph. A first-hand editorial comparison with Mummy is still pending."
       },
       "note": "Two of the four parks name Revenge of the Mummy as their best coaster, which is the clearest possible summary of how the thrill bench is distributed."
     },
@@ -54,8 +70,8 @@
       "cells": {
         "islands-of-adventure": "Four coasters, one launch drop tower and three water rides. VelociCoaster, Hulk, Hagrid's and Flight of the Hippogriff, plus Doctor Doom's Fearfall.",
         "epic-universe": "Two coasters, Stardust Racers and Mine-Cart Madness, plus Hiccup's Wing Gliders at 40 inches. No drop ride and no soaking water ride of the same order.",
-        "universal-studios-florida": "Two coasters — Hollywood Rip Ride Rockit outdoors and Revenge of the Mummy indoors — plus Escape from Gringotts, which is part coaster. No drop ride, no water ride.",
-        "universal-studios-hollywood": "One coaster. Jurassic World — The Ride has an 84-foot drop at the end and is the only other thing here with real forces."
+        "universal-studios-florida": "Revenge of the Mummy is the active full-thrill coaster. Escape from Gringotts is a coaster and screen hybrid; Trolls Trollercoaster is a junior ride. Rip Ride Rockit closed in 2025.",
+        "universal-studios-hollywood": "Two major coasters, Hollywood Drift outdoors and Revenge of the Mummy indoors, plus the junior Flight of the Hippogriff. Jurassic World — The Ride adds an 84-foot water drop."
       },
       "note": "Depth is what determines whether a thrill group has a full day or finishes the list by eleven and starts repeating."
     },
@@ -65,8 +81,8 @@
       "cells": {
         "islands-of-adventure": "VelociCoaster is 2021 and Hagrid's is 2019, both current-generation. The Incredible Hulk Coaster and Doctor Doom's Fearfall both date from the park's 1999 opening, and Hulk has since had its track rebuilt.",
         "epic-universe": "Everything is 2025. The most advanced ride systems Universal operates anywhere, and Mine-Cart Madness does something with its track that nothing else at the resort attempts.",
-        "universal-studios-florida": "Both coasters are from the 2000s. They hold up, and neither is modern hardware in the sense Epic Universe's is.",
-        "universal-studios-hollywood": "The Lower Lot rides are the oldest hardware on this list and the compact Mummy is the shortest version of it."
+        "universal-studios-florida": "The remaining Mummy coaster dates to the 2000s; Rip Ride Rockit closed in 2025.",
+        "universal-studios-hollywood": "Hollywood Drift opened in September 2026, with rotating cars, four launches and three inversions. The Lower Lot Mummy is an older, shorter indoor coaster."
       },
       "note": "New does not automatically mean more intense. Epic Universe's newest hardware is aimed at longer and more elaborate rather than harder."
     },
@@ -109,8 +125,8 @@
       "cells": {
         "islands-of-adventure": "The only one of the four that genuinely fills a day for this group. Nine or ten attractions with real forces, plus six single rider lines that make repeat riding cheap in time.",
         "epic-universe": "Half a day of forces and half a day of everything else. Worth the full day for other reasons; not worth it if forces are the only criterion.",
-        "universal-studios-florida": "A morning. Rip Ride Rockit and Mummy, then a long list of screens.",
-        "universal-studios-hollywood": "Two hours in the Lower Lot, then the Studio Tour and the shows — which are good, and are not what this page is measuring."
+        "universal-studios-florida": "Mummy and the Gringotts coaster hybrid, then screens and shows; Rip Ride Rockit no longer operates.",
+        "universal-studios-hollywood": "Hollywood Drift, Mummy and Jurassic World make a stronger physical morning than this park had before September 2026. Repeat riding depends on live queues and the new coaster's operation."
       },
       "note": "Islands of Adventure is the only Universal park a thrill group should give a full day to without a second reason for being there."
     },
@@ -120,8 +136,8 @@
       "cells": {
         "islands-of-adventure": "Six single rider lines — Hulk, Spider-Man, Doctor Doom's, Skull Island: Reign of Kong, VelociCoaster and Forbidden Journey. Hagrid's has none and accepts no Express Pass, which is the resort's biggest single friction point.",
         "epic-universe": "No single rider lines at all as of July 2026, so repeat riding here means Express Pass or a short queue. The Express attraction list has moved since the park opened, so confirm it at the point of purchase.",
-        "universal-studios-florida": "Six single rider lines, including Rip Ride Rockit and Revenge of the Mummy, and they run at a third of standby or better.",
-        "universal-studios-hollywood": "Five single rider lines including Jurassic World, Revenge of the Mummy and Transformers, which is most of what Express buys, for nothing."
+        "universal-studios-florida": "Five operating single rider lines after Rip Ride Rockit closed, including Revenge of the Mummy, Transformers and Gringotts.",
+        "universal-studios-hollywood": "Six single rider lines now include Hollywood Drift. The new coaster is excluded from current daytime Express and Express Unlimited ticket descriptions."
       },
       "note": "Two adults riding apart on single rider lines will often clear six attractions in the time standby takes for two. This is the best free tool Universal gives you and it is why repeat riding here is more of the point than at Disney."
     }
@@ -180,53 +196,50 @@
     },
     {
       "rank": 3,
-      "key": "universal-studios-florida",
-      "headline": "Two very good coasters and then a long list of screens.",
+      "key": "universal-studios-hollywood",
+      "headline": "A new 72-mph outdoor coaster, an indoor launch coaster and a major water drop.",
       "body": [
-        "Universal Studios Florida is third because it has two genuine coasters and nothing else that qualifies. Both are worth riding and one of them is badly underrated.",
-        "Revenge of the Mummy at 48 inches is an indoor launch coaster with a genuinely good second half, and it is the best thing in this park by most measures. It is nearly always the shortest queue among the headliners, its single rider line is the best in the park, and it does more with a dark building than most outdoor coasters do with a hundred feet of steel.",
-        "Hollywood Rip Ride Rockit at 51 inches is the outdoor one, with a vertical lift and the resort's only ride that carries a maximum height as well as a minimum, at 79 inches. It is a rougher ride than Universal's newer hardware and it is the most physically demanding thing in the park.",
-        "Harry Potter and the Escape from Gringotts at 42 inches is part coaster and part screen, and it is the closest this park comes to a third thrill ride. Everything else with a height requirement is a screen in front of a motion base.",
-        "**The counterargument:** for a rider who counts intensity rather than coasters, this park has more of it than the placement suggests. Rip Ride Rockit is harsher than anything at Epic Universe, Mummy's launch is genuinely quick, and Men in Black spins hard enough in its closing sequence to bother people. It is also the only Orlando park with meaningful indoor capacity when a storm shuts the outdoor coasters down across the walkway."
+        "Fast & Furious: Hollywood Drift opened on the Upper Lot September 16, 2026. Universal publishes four launches, three inversions, speeds up to 72 mph and a 51-inch minimum. Those specifications materially change this park's physical thrill roster, though an on-ride editorial comparison is still pending.",
+        "Revenge of the Mummy remains an indoor launch coaster at 48 inches. Jurassic World — The Ride ends with an 84-foot water drop, while Flight of the Hippogriff is a junior coaster. Hollywood now offers two major coasters plus that family ride.",
+        "Six single rider lines include Hollywood Drift, but Universal's current daytime Express and Express Unlimited ticket descriptions exclude the new coaster. Price Express for the other rides only; check the live app before choosing between Drift and the Lower Lot.",
+        "This third-place position is provisional while Hollywood Drift is new. Islands of Adventure still has the deeper active coaster slate; Epic Universe still has more variety. Hollywood now has a stronger active physical roster than Universal Studios Florida after Rip Ride Rockit's closure."
       ],
       "pros": [
-        "Revenge of the Mummy is the most underrated headliner at Universal Orlando.",
-        "Hollywood Rip Ride Rockit is the most physically demanding ride at the park.",
-        "Six single rider lines, including both coasters.",
-        "Almost all of its intensity is indoors and storm-proof.",
-        "Escape from Gringotts is a coaster hybrid that most people do not count."
+        "Hollywood Drift has four launches, three inversions and a 51-inch minimum.",
+        "Mummy is an indoor launch coaster and Jurassic World ends with an 84-foot water drop.",
+        "Six single rider lines include Hollywood Drift.",
+        "The Studio Tour adds a unique working backlot experience.",
+        "A compact park makes repeat rides feasible when live queues allow."
       ],
       "cons": [
-        "Two coasters is the entire physical roster.",
-        "No drop ride and no water ride of any kind.",
-        "The highest concentration of screen-based rides of any major US park.",
-        "Rip Ride Rockit's roughness puts some riders off after one lap.",
-        "Nothing here that a thrill group will still be riding at 4 PM."
+        "New coaster operations and waits are still settling; check the Universal app.",
+        "Daytime Express and Express Unlimited currently exclude Hollywood Drift.",
+        "No dedicated drop tower.",
+        "The Starway adds travel time between the Upper Lot coaster and the Lower Lot rides.",
+        "No hotel tier includes Express Pass, unlike Orlando."
       ]
     },
     {
       "rank": 4,
-      "key": "universal-studios-hollywood",
-      "headline": "One coaster, one big drop, and a park that is excellent for other reasons entirely.",
+      "key": "universal-studios-florida",
+      "headline": "One active full-thrill coaster, a coaster hybrid and a screen-heavy roster.",
       "body": [
-        "On this criterion and this criterion alone, Universal Studios Hollywood finishes last. It has one roller coaster — the compact version of Revenge of the Mummy — and the hillside site makes adding a large outdoor one difficult.",
-        "Jurassic World — The Ride is the other physical attraction, and it is a real one: an 84-foot drop at the end that is genuinely wet at the front and manageable at the back. Beyond those two, the height requirements are attached to screen rides. Transformers, The Simpsons Ride, Despicable Me Minion Mayhem and Mario Kart: Bowser's Challenge are all 40 inches and all projection.",
-        "The five single rider lines are the best free tool here and they cover Jurassic World, Revenge of the Mummy, Transformers, Forbidden Journey and Mario Kart. On a busy day they routinely cut a posted wait by more than half, which for two adults is most of what an Express Pass buys.",
-        "**The counterargument:** this park is not trying to be a thrill park and ranking it last on forces says almost nothing about whether you should go. The Studio Tour crosses a real working backlot, has no height requirement, and is the best attraction here by a wide margin. If you are in Los Angeles and want a good day out, none of this ranking should stop you. If you are a coaster rider deciding where to fly, it should."
+        "Hollywood Rip Ride Rockit permanently closed August 18, 2025. Revenge of the Mummy is now the park's active full-thrill coaster, at a 48-inch minimum. Gringotts has coaster elements mixed with screens, and Trolls Trollercoaster is a junior ride.",
+        "Mummy remains a strong indoor launch coaster, with a well-staged dark ride first act and a fast second half. It is the best physical headliner here.",
+        "Gringotts adds an initial coaster drop but spends much of its ride time facing screens. Transformers, The Simpsons Ride, Minion Mayhem and Fast & Furious – Supercharged add motion and spectacle without replacing the outdoor coaster slot.",
+        "The park still offers a worthwhile day for the Wizarding World, practical shows and indoor capacity, but a thrill-only group has a shorter active list after the 2025 closure."
       ],
       "pros": [
-        "Jurassic World — The Ride ends with an 84-foot drop and is genuinely wet at the front.",
-        "Five single rider lines, which cover most of what Express Pass buys.",
-        "The most compact park of the four, so repeat riding costs little walking.",
-        "Mild weather means almost no lost time to lightning holds.",
-        "Lower Lot at opening is the emptiest headliner window at any Universal park."
+        "Revenge of the Mummy is a strong indoor launch coaster.",
+        "Five operating single rider lines make repeat rides easier.",
+        "Most attractions are indoors and less vulnerable to storms.",
+        "Escape from Gringotts mixes a short coaster section with large-scale sets."
       ],
       "cons": [
-        "One roller coaster, and it is the compact version of the Orlando ride.",
-        "No drop tower and no flume.",
-        "Four of the nine height-restricted attractions are screen rides.",
-        "The Starway escalators eat time between the entrance and the coasters.",
-        "No hotel tier that includes Express Pass, unlike Orlando."
+        "Rip Ride Rockit closed permanently in August 2025.",
+        "Only one active full-thrill coaster; Gringotts is a hybrid and Trolls is a junior ride.",
+        "No drop tower or major water ride.",
+        "A high concentration of screen attractions can feel repetitive."
       ]
     }
   ],
@@ -253,26 +266,96 @@
         "Sorted by park, with the height requirement, because that is the number that decides who in your group is riding."
       ],
       "table": {
-        "columns": ["Park", "Attraction", "Height", "What it does"],
+        "columns": [
+          "Park",
+          "Attraction",
+          "Height",
+          "What it does"
+        ],
         "rows": [
-          ["Islands of Adventure", "The Incredible Hulk Coaster", "54in", "Launch out of an enclosed tube straight into an inversion"],
-          ["Islands of Adventure", "Doctor Doom's Fearfall", "52in", "Launches you upward, then drops you"],
-          ["Islands of Adventure", "Jurassic World VelociCoaster", "51in", "Two launches, a 155-foot top hat, four inversions"],
-          ["Islands of Adventure", "Hagrid's Magical Creatures Motorbike Adventure", "48in", "Multiple launches, a backward section and a drop"],
-          ["Islands of Adventure", "Dudley Do-Right's Ripsaw Falls", "44in", "A flume drop that puts a wall of water over the front"],
-          ["Islands of Adventure", "Jurassic Park River Adventure", "42in", "An 85-foot drop that drenches the front rows"],
-          ["Islands of Adventure", "Popeye & Bluto's Bilge-Rat Barges", "42in", "Rapids that soak you through rather than misting you"],
-          ["Epic Universe", "Stardust Racers", "48in", "A dueling coaster over open ground, best after dark"],
-          ["Epic Universe", "Mine-Cart Madness", "42in", "A family coaster with the cleverest track trick at the resort"],
-          ["Universal Studios Florida", "Hollywood Rip Ride Rockit", "51in", "Vertical lift, outdoor layout, and a 79-inch maximum as well"],
-          ["Universal Studios Florida", "Revenge of the Mummy", "48in", "Indoor launch coaster with a very good second half"],
-          ["Universal Studios Hollywood", "Revenge of the Mummy", "48in", "The compact version of the Orlando ride"],
-          ["Universal Studios Hollywood", "Jurassic World — The Ride", "42in", "An 84-foot drop at the end, wet at the front"]
+          [
+            "Islands of Adventure",
+            "The Incredible Hulk Coaster",
+            "54in",
+            "Launch out of an enclosed tube straight into an inversion"
+          ],
+          [
+            "Islands of Adventure",
+            "Doctor Doom's Fearfall",
+            "52in",
+            "Launches you upward, then drops you"
+          ],
+          [
+            "Islands of Adventure",
+            "Jurassic World VelociCoaster",
+            "51in",
+            "Two launches, a 155-foot top hat, four inversions"
+          ],
+          [
+            "Islands of Adventure",
+            "Hagrid's Magical Creatures Motorbike Adventure",
+            "48in",
+            "Multiple launches, a backward section and a drop"
+          ],
+          [
+            "Islands of Adventure",
+            "Dudley Do-Right's Ripsaw Falls",
+            "44in",
+            "A flume drop that puts a wall of water over the front"
+          ],
+          [
+            "Islands of Adventure",
+            "Jurassic Park River Adventure",
+            "42in",
+            "An 85-foot drop that drenches the front rows"
+          ],
+          [
+            "Islands of Adventure",
+            "Popeye & Bluto's Bilge-Rat Barges",
+            "42in",
+            "Rapids that soak you through rather than misting you"
+          ],
+          [
+            "Epic Universe",
+            "Stardust Racers",
+            "48in",
+            "A dueling coaster over open ground, best after dark"
+          ],
+          [
+            "Epic Universe",
+            "Mine-Cart Madness",
+            "42in",
+            "A family coaster with the cleverest track trick at the resort"
+          ],
+          [
+            "Universal Studios Florida",
+            "Revenge of the Mummy",
+            "48in",
+            "Indoor launch coaster with a very good second half"
+          ],
+          [
+            "Universal Studios Hollywood",
+            "Fast & Furious: Hollywood Drift",
+            "51in",
+            "Four launches, three inversions and rotating cars; opened September 2026"
+          ],
+          [
+            "Universal Studios Hollywood",
+            "Revenge of the Mummy",
+            "48in",
+            "The compact version of the Orlando ride"
+          ],
+          [
+            "Universal Studios Hollywood",
+            "Jurassic World — The Ride",
+            "42in",
+            "An 84-foot drop at the end, wet at the front"
+          ]
         ]
       },
       "callout": {
         "type": "warning",
-        "body": "Revenge of the Mummy and Hollywood Rip Ride Rockit both require loose articles to go into a locker bank before boarding, and the locker bank backs up worse than the ride does. Travel light or leave the bag with somebody outside."
+        "body": "Revenge of the Mummy uses lockers for loose articles. Hollywood Drift in California also requires complimentary in-queue lockers and metal detection; current daytime Express excludes it. Rip Ride Rockit in Orlando closed in 2025."
       }
     },
     {
@@ -282,7 +365,6 @@
         "Height is not the only thing that turns riders away at a Universal loading platform, and the other thing is discussed far less because it is awkward.",
         "Harry Potter and the Forbidden Journey at Islands of Adventure has a fixed chest clearance and benches unforgiving of broader builds. Guests are turned away at the loading platform there every single day, after the full queue through Hogwarts Castle. There is a test seat outside the entrance with identical hardware and it takes thirty seconds to check.",
         "Jurassic World VelociCoaster, The Incredible Hulk Coaster and Hagrid's Magical Creatures Motorbike Adventure all have test seats too, and all three are worth using once at the start of the day rather than discovering the answer at the front of a ninety-minute queue. A test seat outside a ride is not a warning about you; it is the park admitting its restraint hardware is not universal.",
-        "The other restraint fact worth knowing: Hollywood Rip Ride Rockit carries a 79-inch maximum height as well as a 51-inch minimum, which is unusual and catches taller riders out. It is the only attraction at Universal Orlando with a ceiling as well as a floor.",
         "None of this is a reason not to go. It is a reason to spend five minutes at the start of the day establishing what each person in your group can actually board, so that nobody spends ninety minutes queuing for an answer they could have had at the entrance."
       ]
     },
@@ -323,22 +405,20 @@
       "You would rather have two excellent coasters than four good ones."
     ],
     "universal-studios-florida": [
-      "You want an indoor launch coaster and Revenge of the Mummy is undersold everywhere.",
-      "It is storm season and you want your intensity under a roof.",
-      "You clear 51 inches but not 79, for Hollywood Rip Ride Rockit.",
-      "You will use six single rider lines hard for one morning."
+      "You want the indoor Revenge of the Mummy coaster.",
+      "Storm resilience and shows matter alongside thrills.",
+      "You will use the five operating single rider lines."
     ],
     "universal-studios-hollywood": [
-      "You are on the west coast and this is the Universal park you can reach.",
-      "An 84-foot drop on Jurassic World — The Ride is enough thrill for your day.",
-      "You are two adults who will use the five single rider lines rather than buy Express.",
-      "You want a park where the coasters are a bonus rather than the reason."
+      "You want to ride the newly opened Hollywood Drift coaster.",
+      "You want both Mummy and Jurassic World in the same compact park.",
+      "You can use Hollywood's six single rider lines and check live waits."
     ]
   },
   "faqs": [
     {
       "q": "Which Universal park has the best roller coasters?",
-      "a": "Islands of Adventure, and it is not close. Jurassic World VelociCoaster is the best coaster in Florida — two launches, a 155-foot top hat and four inversions — and The Incredible Hulk Coaster, Hagrid's Magical Creatures Motorbike Adventure and Flight of the Hippogriff sit behind it. No other Universal park in the country has more than two coasters."
+      "a": "Islands of Adventure has the deepest active coaster lineup: Jurassic World VelociCoaster, The Incredible Hulk Coaster, Hagrid's Magical Creatures Motorbike Adventure and the junior Flight of the Hippogriff. Hollywood Drift opened in California in 2026, so this comparison deserves a fresh on-ride review."
     },
     {
       "q": "Is Universal more intense than Disney?",
@@ -350,7 +430,7 @@
     },
     {
       "q": "What is the tallest height requirement at Universal?",
-      "a": "54 inches, for The Incredible Hulk Coaster at Islands of Adventure. Doctor Doom's Fearfall is 52, Jurassic World VelociCoaster is 51, and Hollywood Rip Ride Rockit at Universal Studios Florida is 51 with a 79-inch maximum as well. Epic Universe and Universal Studios Hollywood both top out at 48 inches."
+      "a": "The Incredible Hulk Coaster at Islands of Adventure requires 54 inches. Doctor Doom's Fearfall requires 52, Jurassic World VelociCoaster and Hollywood Drift require 51, and the latter is the highest minimum at Universal Studios Hollywood. Rip Ride Rockit closed in 2025."
     },
     {
       "q": "Which Universal ride has the biggest drop?",

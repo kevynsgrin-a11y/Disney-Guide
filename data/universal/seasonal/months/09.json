@@ -119,9 +119,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes describe multi-year patterns at both resorts rather than a forecast for any single September. Weather figures are climate normals for Orlando and for the San Fernando Valley and do not decay. Halloween Horror Nights runs on select nights whose schedule is published for each cycle; this page describes the pattern of which nights are cheapest rather than naming any dates, and event operating practice including the daytime changeover is described from prior cycles.",
+    "sourceNote": "Crowd, weather and cost statements remain planning patterns, not day-level forecasts. Universal confirms Orlando Halloween Horror Nights August 28–November 1, Hollywood September 3–November 1, and Orlando Holidays November 14–January 3, 2027. Sources: https://media.universalparksusa.com/press-releases/universal-orlando-resort-opens-the-gates-to-halloween-horror-nights-2026-082826/ ; https://media.universalparksusa.com/press-releases/halloween-horror-nights-opens-at-universal-studios-hollywood-kicking-off-southern-californias-most-extreme-halloween-event-over-42-terrifying-nights-from-thursday-september-3-to-sunday-nov/ ; https://media.universalparksusa.com/press-releases/universal-orlando-resort-holidays-2026-080626/. Hollywood holiday dates remain unconfirmed.",
     "reviewBy": "2027-05",
     "cycle": "rolling"
   }

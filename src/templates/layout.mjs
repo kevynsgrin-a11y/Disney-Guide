@@ -5,7 +5,7 @@ import { hasPalette, hasChrome, palettePaper } from '../lib/palette.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { ga4LoaderId } from '../lib/ga4.mjs'
 
-const ASSET_VERSION = '24'
+export const ASSET_VERSION = '25'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 const TITLE_MAX = 66

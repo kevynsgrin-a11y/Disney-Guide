@@ -6,15 +6,15 @@
   "parkSlug": "magic-kingdom",
   "category": "hard-ticket",
   "season": "holidays",
-  "summary": "The weakest value of the three Walt Disney World hard-ticket parties, because almost everything people buy it for — the decorations, the castle lighting, the holiday ride overlays — is already included with an ordinary November park ticket.",
+  "summary": "A costly party whose value depends on what you want: seasonal decorations and Jingle Cruise are available with regular park admission, while the party adds its own parade, fireworks, character meets and advertised ride overlays.",
   "h1": "Mickey's Very Merry Christmas Party: what it is and whether it's worth it",
   "title": "Mickey's Very Merry Christmas Party",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "What the Magic Kingdom Christmas party costs, what it adds over a free holiday-season park day, and the nights that are worth the money.",
+  "description": "2026 Magic Kingdom Christmas party: 25 select nights November 8–December 22, 7 p.m.–midnight, with entry from 4 p.m. Tickets cost $189–$229 plus tax.",
   "typicalWindow": {
     "startsAround": "early November",
     "endsAround": "shortly before Christmas",
-    "nightsTypical": 24,
+    "nightsTypical": 25,
     "nightsRange": [
       20,
       26
@@ -32,17 +32,17 @@
   "pricing": {
     "model": "per-night",
     "rangeUsd": [
-      169,
-      219
+      189,
+      229
     ],
-    "asOf": "2025 season",
+    "asOf": "2026 season",
     "cheapestNights": "The opening week in early November, and Sunday and Monday nights through the first half of the run",
     "priciestNights": "The Friday and weekend nights in the final two weeks before Christmas",
     "notes": [
       "Tax is additional.",
-      "The price floor is the story here. A $50 spread from cheapest to dearest is half the spread of the Halloween party, so there is no genuinely inexpensive night.",
-      "Children aged 3 to 9 pay a reduced rate; under 3 enter free.",
-      "Passholder and DVC discounts have historically been thin on this event and limited to the earliest nights."
+      "The 2026 published price band is $189–$229 plus tax; prices vary by event night.",
+      "Disney lists a $10 discount per ticket for children ages 3–9; guests under 3 do not need a ticket.",
+      "Eligible Annual Passholders and DVC members can save $10 on select 2026 nights November 8–20 and November 29–December 3."
     ]
   },
   "whatYouGet": [
@@ -52,11 +52,12 @@
     "Unlimited complimentary hot chocolate, cookies and seasonal snacks at stations around the park, running until the party ends. Allergy-friendly options are handled at the same stations rather than a separate line.",
     "Character meets that only exist on party nights, headed by Santa Claus and a holiday-costumed Mickey and Minnie, plus the Seven Dwarfs and a rotating supporting lineup.",
     "A castle stage show built around the holiday characters, run several times a night, which is the easiest thing at the party to see without queuing.",
+    "Party-advertised ride versions include Space Mountain with holiday music and interior lights and Tomorrowland Speedway: Race Through the Holidays. Confirm each attraction's operating schedule for your night.",
     "Complimentary digital downloads of PhotoPass photos taken during the party."
   ],
   "whatYouDont": [
-    "You are not buying the decorations. Magic Kingdom is fully dressed for the holidays from early November through the first days of January, and every garland, the Main Street tree, and the castle's nightly lighting sequence are included with any ordinary day ticket. People pay $200 for scenery they could have photographed for free that afternoon.",
-    "You are not buying the ride overlays either. Jungle Cruise runs its holiday version across the whole season, not just on party nights, and the same is true of the seasonal soundtrack changes elsewhere in the park.",
+    "You are not buying the general holiday decorations. The Main Street tree and seasonal décor can be seen with ordinary Magic Kingdom admission during the holiday season; check the entertainment schedule before assuming a particular lighting show runs on a non-party night.",
+    "Jingle Cruise can also run during ordinary park hours. Do not extend that rule to the other ride versions Disney advertises for the party, including Space Mountain's holiday music and Tomorrowland Speedway: Race Through the Holidays.",
     "There is no cheap night. The floor sits $50 above the Halloween party's floor on a season half as long, which means the worst night of Very Merry costs more than the median night of Not-So-Scary.",
     "The hot chocolate stations on Main Street run 10-to-15 minute lines for most of the evening. The complimentary snacks are commercially produced and portioned small; treat them as a warm drink rather than as dinner you have prepaid for.",
     "A second party night in the same trip buys you nothing. The parade, the fireworks and the stage show are identical every night, and once you have done the character lines there is no further content.",
@@ -64,7 +65,7 @@
     "The nights people want — the two weeks before Christmas — sell out first and are also the nights when Magic Kingdom is at its most crowded before the party even starts, so your 16:00 head start is worth much less."
   ],
   "verdict": {
-    "short": "Skip it unless the party itself is the point of the trip. The decorations, castle lighting and holiday overlays are free with any November ticket, and this event's price floor is unforgiving.",
+    "short": "Buy it if the parade, fireworks, characters or party ride versions are the point of the trip. Seasonal décor and Jingle Cruise alone do not require the party ticket; the event's price floor is high.",
     "worthItIf": [
       "You want Santa and the holiday-costumed characters specifically, and you understand that this is the only reliable way to get them at Magic Kingdom.",
       "You are traveling in early November and want the holiday park at the bottom of the price band, before the pre-Christmas crowd arrives.",
@@ -73,7 +74,7 @@
       "Christmas is the family's occasion and the cost of the ticket is not the deciding factor in the trip budget."
     ],
     "skipIf": [
-      "You are visiting anyway in November or December. The park is decorated, the castle lights every night, and the holiday ride overlays run on ordinary tickets. Buying the party to see holiday Magic Kingdom is buying something you already have.",
+      "You mainly want the park's general holiday decorations or Jingle Cruise. Those can be enjoyed on an ordinary admission day; check Disney's entertainment calendar for any specific show you want to see.",
       "Your only date option is a Friday in the last two weeks before Christmas. You will pay the top of the band on the most crowded nights of the run, and the parade route fills more than an hour ahead.",
       "You have already booked Not-So-Scary earlier in the same trip, or in the same year. The two parties share a structure, a footprint and most of a ride list, and the second one is a repeat purchase.",
       "Anyone in your party is going to be cold. Central Florida in December drops into the 50s after dark, the party runs to midnight, and the two hours between the parade and closing are spent outdoors and standing.",
@@ -85,8 +86,8 @@
     {
       "heading": "Decide whether you need a ticket at all",
       "body": [
-        "Before you compare nights, compare the party against a free holiday evening at the same park, because for most visitors that comparison ends the discussion. Magic Kingdom's holiday layer goes up in the first days of November and stays through the new year: the Main Street tree, the garlands, the full castle lighting sequence run several times a night, and the holiday ride overlays.",
-        "What the ticket adds, and the only thing it adds, is a parade, a fireworks show, a stage show, unlimited cookies, and access to characters who do not appear on ordinary days. If none of those five items is the reason you are traveling, buy an ordinary ticket for a November evening and spend the difference on a table-service dinner.",
+        "Before you compare party nights, compare the event against an ordinary park-admission evening. General decorations and Jingle Cruise are available outside the party, but specific entertainment and attraction versions differ by date; check Disney's calendar rather than assuming every holiday feature is available by day.",
+        "The ticket adds a parade, fireworks, a stage show, snacks, exclusive character meets and advertised ride versions such as holiday Space Mountain and Tomorrowland Speedway. If those offerings are not priorities for your group, consider a regular admission day instead.",
         "The test that settles it: name the one thing at the party you would be disappointed to miss. If the answer is Santa, or the parade in the snow, buy the ticket. If the answer is the atmosphere, you already have it.",
         "One genuine cost nobody accounts for: on party nights the park closes to day guests at 18:00, so if Magic Kingdom is on your itinerary that day without a party ticket, you lose the evening entirely. Check the party calendar before you assign parks to days, not after."
       ]
@@ -131,11 +132,11 @@
   "faqs": [
     {
       "q": "Is the party the only way to see Magic Kingdom decorated for the holidays?",
-      "a": "No, and this is the most important thing on the page. The full holiday layer — the Main Street tree, the garlands, the castle lighting sequence, the holiday ride overlays — is up from early November to early January and included with any ordinary park ticket. The party adds a parade, a fireworks show, a stage show, free snacks, and character meets. Nothing else."
+      "a": "No. General holiday decorations and Jingle Cruise are available during ordinary park hours with regular admission. The party adds its own parade, fireworks, stage show, snacks, character meets and advertised ride versions, including holiday Space Mountain and Tomorrowland Speedway. Check the current entertainment schedule for other offerings."
     },
     {
       "q": "What does the ticket actually include that a day ticket does not?",
-      "a": "Five things: Mickey's Once Upon a Christmastime Parade, a party-exclusive fireworks and projection show, a castle stage show, unlimited complimentary hot chocolate and cookies, and character meets that do not run on ordinary days, Santa included. Digital PhotoPass downloads from the party are also included. Price the ticket against those five items rather than against the season."
+      "a": "The ticket includes Mickey's Once Upon a Christmastime Parade, party fireworks and projections, a castle stage show, complimentary snacks, party character meets and advertised holiday ride versions such as Space Mountain and Tomorrowland Speedway. Digital PhotoPass downloads from the party are also included. Jingle Cruise and general decorations can be enjoyed during ordinary park hours."
     },
     {
       "q": "Can I get into the park before 16:00 with a party ticket?",
@@ -150,8 +151,8 @@
       "a": "The party runs and the ticket is non-refundable. A December cold front can cancel both the parade and the fireworks for wind while the event itself continues, which is the specific risk of buying this party rather than the August one. Central Florida evenings in December sit in the 50s often enough that layers are not optional."
     },
     {
-      "q": "When do the next season's dates come out?",
-      "a": "Disney has historically published the Very Merry calendar in the summer, several months ahead of the November start, with sales opening in stages. We have not verified a 2026 announcement as of July 2026, so this page shows the typical window and the last confirmed cycle's prices rather than dates. Pages showing you exact 2026 nights should be able to tell you where those nights came from."
+      "q": "What are the confirmed 2026 party dates?",
+      "a": "Disney lists 25 select nights from November 8 through December 22, 2026: November 8, 9, 12, 13, 15, 17, 19, 20, 24, 25, 27, 29 and December 1, 3, 4, 6, 8, 10, 11, 13, 15, 17, 18, 20, 22. Party hours are 7 p.m.–midnight; a valid party ticket admits you from 4 p.m. without a separate day ticket or park reservation."
     },
     {
       "q": "Which is better, this or Mickey's Not-So-Scary Halloween Party?",
@@ -210,10 +211,20 @@
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates from Disney’s official event page and the June 2026 announcement reported by WDWMagic (viewed September 2026); per-night prices are published and vary by date. The night-by-night count is not yet restated here until the full list is re-verified in one pass.",
+        "sourceNote": "2026 dates, complete 25-night list, prices, hours, early entry and attractions checked September 26, 2026 against https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/",
         "reviewBy": "2026-11",
         "cycle": "annual"
-      }
+      },
+      "nights": 25,
+      "priceRangeUsd": [
+        189,
+        229
+      ],
+      "changes": [
+        "25 select nights November 8–December 22, 2026; 7 p.m.–midnight with ticket entry from 4 p.m.",
+        "Tickets are $189–$229 plus tax; children ages 3–9 save $10 per ticket.",
+        "Disney confirms Jingle Cruise at Magic Kingdom during the party and ordinary park hours, alongside other party-specific holiday ride versions."
+      ]
     },
     {
       "year": 2025,
@@ -238,7 +249,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates officially announced (Nov 8 – Dec 22); see the 2026 edition below.",
+    "sourceNote": "2026 dates, ticket prices, hours and 25-night list checked September 26, 2026 against https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/",
     "reviewBy": "2026-11",
     "cycle": "annual"
   }

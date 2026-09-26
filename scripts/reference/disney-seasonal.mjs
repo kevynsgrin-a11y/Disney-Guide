@@ -31,12 +31,12 @@ export const EVENTS = {
  * before Christmas", which is better copy than "late December" and describes the same fortnight.
  */
 export const WINDOWS = {
-  'mickeys-not-so-scary-halloween-party': { starts: ['august'], ends: ['november', 'halloween'], nights: [30, 40] },
+  'mickeys-not-so-scary-halloween-party': { starts: ['august'], ends: ['october', 'halloween'], nights: [30, 40] },
   'mickeys-very-merry-christmas-party': { starts: ['november'], ends: ['december', 'christmas'], nights: [20, 26] },
-  'disney-jollywood-nights': { starts: ['november'], ends: ['december'], nights: [8, 14] },
+  'disney-jollywood-nights': { starts: ['november'], ends: ['january'], nights: [8, 16] },
   'epcot-food-and-wine-festival': { starts: ['ugust', 'july'], ends: ['november'] },
-  'epcot-festival-of-the-arts': { starts: ['january'], ends: ['february'] },
-  'epcot-flower-and-garden-festival': { starts: ['arch', 'ebruary'], ends: ['july'] },
+  'epcot-festival-of-the-arts': { starts: ['january'], ends: ['march'] },
+  'epcot-flower-and-garden-festival': { starts: ['march'], ends: ['may'] },
   'epcot-festival-of-the-holidays': { starts: ['november'], ends: ['december'] },
   'oogie-boogie-bash': { starts: ['august'], ends: ['october', 'halloween'], nights: [25, 30] },
   'halloween-time-at-the-disneyland-resort': { starts: ['august'], ends: ['october', 'halloween'] },
@@ -49,10 +49,10 @@ export const WINDOWS = {
 export const PRICE_BANDS = {
   // Widened to the verified 2026 cycle (Sep 2026): MNSSHP peaks at $229, Oogie opens at $139.
   'mickeys-not-so-scary-halloween-party': [119, 229],
-  'mickeys-very-merry-christmas-party': [169, 219],
-  'disney-jollywood-nights': [159, 209],
+  'mickeys-very-merry-christmas-party': [189, 229],
+  'disney-jollywood-nights': [169, 199],
   'oogie-boogie-bash': [139, 224],
-  'disney-after-hours': [139, 209],
+  'disney-after-hours': [159, 209],
 }
 
 /** Per-item festival food prices, by resort. */
@@ -73,5 +73,7 @@ export const NAME_EXCLAMATIONS = [
   'Fantasmic!',
   'Turtle Talk!',
   'Wonderful World of Animation!',
+  'Jingle Bell, Jingle BAM!',
+  'Disney ¡Viva Navidad!',
   'The Bar at Pop Eats!',
 ]

@@ -2,7 +2,7 @@
   "slug": "height-requirements",
   "title": "Universal Height Requirements: All Four US Parks",
   "h1": "Universal Height Requirements at All Four US Parks",
-  "metaDescription": "Every height requirement at Universal Orlando and Universal Studios Hollywood, with what each inch actually unlocks. Verified July 2026.",
+  "metaDescription": "Every current height requirement at Universal Orlando and Universal Studios Hollywood, including the 51-inch Hollywood Drift coaster. Verified September 2026.",
   "summary": "The complete height chart for Universal Studios Florida, Islands of Adventure, Epic Universe and Universal Studios Hollywood, plus what each threshold actually buys you.",
   "category": "families",
   "readingTimeMinutes": 11,
@@ -26,11 +26,11 @@
       "id": "orlando-table",
       "heading": "Every height requirement at Universal Orlando",
       "body": [
-        "30 attractions across the three Orlando parks carry a height requirement. Epic Universe is the newest of them and the one where published figures are thinnest, so treat anything you read about it — here or anywhere — as worth a second check against Universal's own app.",
+        "29 operating attractions across the three Orlando parks carry a height requirement after Rip Ride Rockit closed in August 2025. Epic Universe figures and day-to-day restrictions should still be checked against Universal's app.",
         "Sorted by park, then by height, lowest first."
       ],
       "table": {
-        "caption": "Universal Orlando height requirements, verified July 2026",
+        "caption": "Universal Orlando height requirements, verified September 2026",
         "columns": [
           "Park",
           "Attraction",
@@ -76,11 +76,6 @@
             "Universal Studios Florida",
             "Revenge of the Mummy",
             "48 in"
-          ],
-          [
-            "Universal Studios Florida",
-            "Hollywood Rip Ride Rockit",
-            "51 in"
           ],
           [
             "Islands of Adventure",
@@ -194,11 +189,11 @@
       "id": "hollywood-table",
       "heading": "Every height requirement at Universal Studios Hollywood",
       "body": [
-        "9 attractions at the California park carry a height requirement. The park is smaller, so a child who misses a threshold here misses a larger share of the day than they would in Orlando — there is less to fall back on.",
+        "10 operating attractions at the California park carry a height requirement, including Hollywood Drift at 51 inches. The park is smaller, so a child who misses a threshold here misses a larger share of the day than they would in Orlando.",
         "The Studio Tour, which is the reason most people come, has no height requirement at all. That is the single most important line on this page for a family with a small child."
       ],
       "table": {
-        "caption": "Universal Studios Hollywood height requirements, verified July 2026",
+        "caption": "Universal Studios Hollywood height requirements, verified September 2026",
         "columns": [
           "Park",
           "Attraction",
@@ -249,6 +244,11 @@
             "Universal Studios Hollywood",
             "Revenge of the Mummy",
             "48 in"
+          ],
+          [
+            "Universal Studios Hollywood",
+            "Fast & Furious: Hollywood Drift",
+            "51 in"
           ]
         ]
       }
@@ -387,5 +387,5 @@
     "first-universal-trip",
     "motion-sickness"
   ],
-  "lastVerified": "2026-07"
+  "lastVerified": "2026-09"
 }

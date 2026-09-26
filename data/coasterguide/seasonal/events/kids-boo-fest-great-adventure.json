@@ -1,0 +1,129 @@
+{
+  "slug": "kids-boo-fest-great-adventure",
+  "name": "Kids Boo Fest at Six Flags Great Adventure",
+  "shortName": "Kids Boo Fest",
+  "resort": "new-jersey",
+  "parkSlug": "great-adventure",
+  "category": "overlay",
+  "season": "halloween",
+  "summary": "Kids Boo Fest at Six Flags Great Adventure is the park’s daytime, family-focused Halloween event in 2026. It offers costumes, treats and shows before the more intense Fright Fest program after dark. Check the park calendar because the announced range includes only scheduled event days.",
+  "h1": "Kids Boo Fest at Six Flags Great Adventure: 2026 dates and family plan",
+  "title": "Kids Boo Fest at Six Flags Great Adventure",
+  "titleTail": ": Dates & Family Guide",
+  "description": "Kids Boo Fest at Six Flags Great Adventure in 2026: confirmed dates, daytime activities, age guidance and how to leave before Fright Fest scares begin.",
+  "typicalWindow": {
+    "startsAround": "mid-September",
+    "endsAround": "early November",
+    "hours": "Daytime on select event days"
+  },
+  "pricing": {
+    "model": "included",
+    "asOf": "September 2026",
+    "notes": [
+      "The daytime Halloween program runs with ordinary park admission or an eligible pass on scheduled dates.",
+      "Food, merchandise, parking and separately priced activities cost extra; check the official park page before visiting.",
+      "The later Fright Fest haunted mazes require a separate Haunted Attractions Pass."
+    ]
+  },
+  "whatYouGet": [
+    "Trick or Treatin’ with Boo for children 12 and under.",
+    "Beatrix n Treats.",
+    "Boo’s Bash.",
+    "Witch’s Brew."
+  ],
+  "whatYouDont": [
+    "A promise that the event runs every day within the published range; confirm the selected day on the park calendar.",
+    "The after-dark Fright Fest haunted mazes with ordinary daytime admission; that program has a separate maze pass.",
+    "A scare-free park after the nighttime Fright Fest program begins."
+  ],
+  "verdict": {
+    "short": "The family choice at Six Flags Great Adventure if you want Halloween activities without evening scare zones.",
+    "worthItIf": [
+      "Your children want treats, costumes and daytime entertainment.",
+      "Your group wants ordinary rides alongside the Halloween activities.",
+      "You can arrive while the daytime activities are operating."
+    ],
+    "skipIf": [
+      "You are visiting on a day outside the official event schedule.",
+      "You want a haunted maze or scare-zone night rather than family activities.",
+      "You cannot arrive until daytime programming has ended."
+    ]
+  },
+  "strategy": [
+    {
+      "heading": "Check the exact date",
+      "body": [
+        "The official announcement gives a seasonal range but activity dates and park hours vary. Confirm the day and entertainment times on the park calendar before leaving home."
+      ]
+    },
+    {
+      "heading": "Do the child activities first",
+      "body": [
+        "Visit the treat trail, costume activity and family shows before moving to rides. Named activities can finish before the park closes."
+      ]
+    },
+    {
+      "heading": "Plan the handoff to night",
+      "body": [
+        "Fright Fest is a more intense after-dark program that Six Flags does not recommend for children under 13. Leave before the scare zones become active if your family wants only the daytime event."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Kids Boo Fest scary?",
+      "a": "The park describes this as a family-friendly daytime Halloween program. The more intense Fright Fest scare zones begin later, so check the day’s transition time and leave beforehand if needed."
+    },
+    {
+      "q": "Does the daytime event require a separate ticket?",
+      "a": "The park markets the event with ordinary park admission on scheduled event days. Check your selected ticket or pass terms and any activity-specific charges before purchasing."
+    },
+    {
+      "q": "When does it run in 2026?",
+      "a": "Select days September 12–November 1, 2026. Check the date-specific calendar before travel; the event does not run on every date in the published range."
+    },
+    {
+      "q": "Can we stay for Fright Fest afterward?",
+      "a": "A standard ticket may cover the general evening scare zones on a scheduled Fright Fest night, but haunted mazes require a separate Haunted Attractions Pass. Six Flags does not recommend the evening event for children under 13."
+    }
+  ],
+  "crossLinks": [
+    {
+      "label": "Six Flags Great Adventure ride list and heights",
+      "href": "/new-jersey/great-adventure/rides/",
+      "site": 1
+    }
+  ],
+  "related": [
+    "fright-fest-great-adventure"
+  ],
+  "freshness": {
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/greatadventure/events/kids-boo-fest). The official page lists Select days September 12–November 1, 2026 and its current family activities.",
+    "reviewBy": "2026-10",
+    "cycle": "annual"
+  },
+  "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "Select days September 12–November 1, 2026",
+      "startDate": "2026-09-12",
+      "endDate": "2026-11-01",
+      "changes": [
+        "Trick or Treatin’ with Boo for children 12 and under is listed for 2026.",
+        "Beatrix n Treats is listed for 2026.",
+        "Boo’s Bash is listed for 2026.",
+        "Witch’s Brew is listed for 2026."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/greatadventure/events/kids-boo-fest). The official page lists Select days September 12–November 1, 2026 and its current family activities.",
+        "reviewBy": "2026-10",
+        "cycle": "annual"
+      }
+    }
+  ]
+}

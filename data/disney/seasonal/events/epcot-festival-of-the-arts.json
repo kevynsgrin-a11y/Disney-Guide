@@ -10,31 +10,42 @@
   "h1": "EPCOT International Festival of the Arts: what it is and whether it's worth it",
   "title": "EPCOT International Festival of the Arts",
   "titleTail": ": Dates, Studios & Verdict",
-  "description": "EPCOT's January and February arts festival: the concert series, the food studios worth ordering from, and why the crowd calendar matters more than the menu.",
-
+  "description": "Disney confirms EPCOT International Festival of the Arts January 15–March 1, 2027, included with valid admission; 2027 artist, studio and concert details are pending.",
   "typicalWindow": {
     "startsAround": "mid-January",
-    "endsAround": "late February",
-    "nightsTypical": 45,
-    "nightsRange": [40, 50],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "endsAround": "early March",
+    "nightsTypical": 46,
+    "nightsRange": [
+      40,
+      50
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Daily with park admission. Food studios typically open late morning; the concert series runs several sets each evening."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [5, 13],
-    "asOf": "July 2026",
+    "rangeUsd": [
+      5,
+      13
+    ],
+    "asOf": "historical food-budget estimate; 2027 menus pending",
     "cheapestNights": "Weekdays in the opening fortnight, after the January race crowds have left and before the Presidents' Day weekend spike",
     "priciestNights": "Presidents' Day weekend and any Saturday in February",
     "notes": [
       "The festival is included with EPCOT park admission. There is no festival ticket.",
-      "The band above is the per-item food studio price range as of July 2026. This festival runs fewer studios than Food & Wine and its menu skews toward plated presentation rather than volume.",
+      "The $5–$13 food range is historical planning guidance, not a verified 2027 Food Studios price list. Disney has confirmed festival dates while labeling many displayed offerings as 2026 examples.",
       "Workshops, seminars, the Disney on Broadway dining packages and the festival scavenger hunt are separate purchases.",
       "Original artwork in the galleries is priced as artwork rather than as merchandise. Some pieces run into four figures and none of it is included in anything."
     ]
   },
-
   "whatYouGet": [
     "A visual arts program with working artists installed around World Showcase and the front of the park, most of whom will talk to you, many of whom will personalize a purchase, and all of whom are there without an upcharge.",
     "The Disney on Broadway Concert Series at the America Gardens Theatre, included with park admission and performed by cast members from the actual Broadway productions. It is the strongest free entertainment at any EPCOT festival.",
@@ -44,7 +55,6 @@
     "Paid workshops and seminars in drawing, photography and culinary technique, booked ahead and small enough to be worth the money if you get one.",
     "The lowest-crowd weeks of the Walt Disney World year outside of early September. This festival occupies the quietest stretch of the calendar, and that is a larger part of its value than the food is."
   ],
-
   "whatYouDont": [
     "You do not get Food & Wine's menu. This festival runs roughly a third as many food outlets, the portions are smaller because the plating is the point, and the savory selection is thin enough that a group of four will exhaust the interesting options in one lap.",
     "The gallery is not a gift shop. Original pieces are priced as original pieces, the limited-edition prints sell out in the opening weekend, and the sticker shock at the first frame you look at is a common and entirely reasonable reaction.",
@@ -54,7 +64,6 @@
     "Presidents' Day weekend removes the festival's single biggest advantage. On that weekend EPCOT is as busy as it is in October, and the calm January park you came for is gone.",
     "The concert series has a fixed capacity and no standby overflow area worth using. If you turn up at the theatre five minutes before a set you will not get in, and there is nowhere to watch it from outside."
   ],
-
   "verdict": {
     "short": "The best of the four EPCOT festivals if you want a good park day, and the worst of them if you want a good meal. Go for the concerts, the artists and the January crowd levels.",
     "worthItIf": [
@@ -73,7 +82,6 @@
       "You expect the chalk art and the artist installations to be there on your date. They rotate, and a page promising you a specific mural on a specific day is guessing."
     ]
   },
-
   "strategy": [
     {
       "heading": "Plan around the concert series, not around the food",
@@ -106,8 +114,8 @@
       "heading": "Pick your date against the January and February crowd calendar",
       "body": [
         "This festival occupies the quietest stretch of the Walt Disney World year, and the whole strategic case for preferring it is that fact. Protecting it means avoiding the three spikes that sit inside the window.",
-        "The spikes are the January race weekend at the start of the window, the Martin Luther King Jr. weekend, and Presidents' Day weekend in February. Each turns EPCOT into an October park for three to four days and each is entirely avoidable if you look at the calendar before booking.",
-        "The best week most years is the one immediately after the January race crowds leave and before the Martin Luther King Jr. weekend arrives. The full festival is running, the park is at its emptiest, and the weather is the best it gets in Central Florida.",
+        "The confirmed 2027 festival opens January 15, after Disney’s January 6–10 Marathon Weekend. Its first weekend overlaps the Martin Luther King Jr. holiday period, and Presidents’ Day weekend also falls inside the run.",
+        "For 2027, consider weekdays after the opening holiday weekend and before the Presidents’ Day spike. The festival runs through March 1, so check your exact dates rather than assuming a February close.",
         "Because the crowd is low, this is the one EPCOT festival where you can run a real ride plan on the same day. Test Track, Guardians of the Galaxy: Cosmic Rewind and Remy's Ratatouille Adventure are all more achievable in late January than at any other point in the festival calendar."
       ]
     },
@@ -121,9 +129,8 @@
       ]
     }
   ],
-
   "food": {
-    "note": "This festival runs roughly a dozen food studios, against Food & Wine's thirty-plus, and rotates them harder from year to year. The items below are the ones that have recurred across multiple cycles and are the closest thing the event has to a fixed menu; prices are at the July 2026 band. We have deliberately kept this list short rather than padding it with dishes we could not confirm have returned. Check the current year's published menu before planning a meal around any single item.",
+    "note": "Disney confirms 2027 dates but labels current examples as 2026 offerings. The dishes below are historical examples rather than a verified 2027 studio menu; check the official event page at https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ before planning a meal around them.",
     "items": [
       {
         "name": "Beef Wellington with parsnip puree and mushroom-truffle sauce",
@@ -157,7 +164,6 @@
       }
     ]
   },
-
   "faqs": [
     {
       "q": "Do I need a separate ticket for the festival?",
@@ -173,7 +179,7 @@
     },
     {
       "q": "When is the best time within the festival to go?",
-      "a": "The week after the January race weekend crowds leave and before the Martin Luther King Jr. holiday weekend. The full festival is running by then, the park is at its emptiest point of the year, and the weather is as good as Central Florida gets. Avoid Presidents' Day weekend entirely, which is the busiest date inside the window by a wide margin."
+      "a": "The 2027 festival runs January 15–March 1. For a lower-crowd attempt, consider a late-January weekday after the opening holiday weekend; check Disney’s current show and artist schedule for the date you choose."
     },
     {
       "q": "Can I still ride everything on a festival day?",
@@ -184,32 +190,71 @@
       "a": "Anywhere from the price of a print to the price of a piece of furniture. The galleries sell original works, limited-edition prints and open editions side by side, and the price range is wide enough that the first frame you look at may be four figures. Limited editions sell out in the opening weekend and are not restocked."
     },
     {
-      "q": "When are the next festival's dates announced?",
-      "a": "Disney has historically confirmed this festival's dates in the autumn, a few months ahead of the mid-January start, with the studio lineup and concert schedule published closer to opening. We have not verified a 2027 announcement as of July 2026, so this page carries the typical window rather than dates."
+      "q": "Are the 2027 festival dates confirmed?",
+      "a": "Yes. Disney confirms January 15 through March 1, 2027, included with valid EPCOT admission. A park reservation may be required depending on admission type. Artist, Food Studio and concert details shown as 2026 highlights may change for 2027."
     },
     {
       "q": "Is it worth going with young children?",
       "a": "More than Food & Wine is, mostly because of the scavenger hunt and the chalk art. The Figment hunt gives a child a reason to walk the promenade, the pavement artists hold attention in a way that a food booth does not, and the low crowds make a stroller manageable. The concert series is a harder sell under about eight."
     }
   ],
-
   "crossLinks": [
-    { "label": "The American Adventure at EPCOT", "href": "/walt-disney-world/epcot/rides/the-american-adventure/", "site": 1 },
-    { "label": "Journey Into Imagination With Figment", "href": "/walt-disney-world/epcot/rides/journey-into-imagination-with-figment/", "site": 1 },
-    { "label": "World Showcase at EPCOT", "href": "/walt-disney-world/epcot/lands/world-showcase/", "site": 1 },
-    { "label": "Test Track at EPCOT", "href": "/walt-disney-world/epcot/rides/test-track/", "site": 1 },
-    { "label": "EPCOT dining", "href": "/walt-disney-world/epcot/dining/", "site": 1 },
-    { "label": "Best snacks at EPCOT", "href": "/walt-disney-world/epcot/best-snacks/", "site": 1 }
+    {
+      "label": "The American Adventure at EPCOT",
+      "href": "/walt-disney-world/epcot/rides/the-american-adventure/",
+      "site": 1
+    },
+    {
+      "label": "Journey Into Imagination With Figment",
+      "href": "/walt-disney-world/epcot/rides/journey-into-imagination-with-figment/",
+      "site": 1
+    },
+    {
+      "label": "World Showcase at EPCOT",
+      "href": "/walt-disney-world/epcot/lands/world-showcase/",
+      "site": 1
+    },
+    {
+      "label": "Test Track at EPCOT",
+      "href": "/walt-disney-world/epcot/rides/test-track/",
+      "site": 1
+    },
+    {
+      "label": "EPCOT dining",
+      "href": "/walt-disney-world/epcot/dining/",
+      "site": 1
+    },
+    {
+      "label": "Best snacks at EPCOT",
+      "href": "/walt-disney-world/epcot/best-snacks/",
+      "site": 1
+    }
   ],
-
   "related": [
     "epcot-flower-and-garden-festival",
     "epcot-food-and-wine-festival",
     "epcot-festival-of-the-holidays",
     "disney-after-hours"
   ],
-
   "editions": [
+    {
+      "year": 2027,
+      "status": "announced",
+      "dates": "January 15 – March 1, 2027",
+      "startDate": "2027-01-15",
+      "endDate": "2027-03-01",
+      "changes": [
+        "46 calendar days, January 15–March 1, 2027, included with valid EPCOT admission.",
+        "Disney lists many current artist, Food Studio and concert descriptions as 2026 examples; confirm 2027 offerings when published."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Dates and admission checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ and https://disneyworld.disney.go.com/en_CA/events-tours/spring/; current example offerings remain subject to change.",
+        "reviewBy": "2027-01",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2026,
       "status": "past",
@@ -226,12 +271,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "The festival has run every year since 2017 in the same mid-January to late-February window, included with park admission, at roughly 45 days. That pattern is strong enough to plan around. The next cycle's dates, studio lineup and concert schedule are not confirmed to us as of July 2026, so this page states the window and the July 2026 price band and no specific date.",
-    "reviewBy": "2026-12",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2027 published dates checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ Disney’s spring overview independently repeats these dates: https://disneyworld.disney.go.com/en_CA/events-tours/spring/ 2027 offerings remain subject to change.",
+    "reviewBy": "2027-01",
     "cycle": "annual"
   }
 }

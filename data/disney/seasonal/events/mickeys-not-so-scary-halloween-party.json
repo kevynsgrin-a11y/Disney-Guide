@@ -11,10 +11,10 @@
   "h1": "Mickey's Not-So-Scary Halloween Party: what it is and whether it's worth it",
   "title": "Mickey's Not-So-Scary Halloween Party",
   "titleTail": ": Dates, Prices & Verdict",
-  "description": "What the Magic Kingdom Halloween party costs, which nights are worth buying, and the specific reasons to skip it entirely. No dates we cannot source.",
+  "description": "2026 Magic Kingdom Halloween party: August 7–October 31 on 38 select nights, 7 p.m.–midnight. All 2026 dates are sold out as of September 26.",
   "typicalWindow": {
-    "startsAround": "mid-August",
-    "endsAround": "1 November",
+    "startsAround": "early August",
+    "endsAround": "Halloween",
     "nightsTypical": 38,
     "nightsRange": [
       30,
@@ -25,7 +25,8 @@
       "Tue",
       "Wed",
       "Thu",
-      "Fri"
+      "Fri",
+      "Sat"
     ],
     "hours": "19:00 – 00:00, with park entry from 16:00"
   },
@@ -40,7 +41,7 @@
     "priciestNights": "The last three Fridays before Halloween",
     "notes": [
       "Tax is additional and is not shown until the payment screen.",
-      "Annual Passholder and DVC discounts have historically appeared on select early-season nights, not across the whole calendar.",
+      "Annual Passholder and eligible DVC members were offered $10 off select 2026 event nights from August 7 through October 2; every 2026 event date is now sold out.",
       "Children aged 3 to 9 pay a lower rate; under 3 enter free, which is the only genuine family discount in the product.",
       "The band is wide because Disney prices each night individually. Two nights in the same week can differ by $60."
     ]
@@ -115,7 +116,7 @@
         "Price and crowd move together here, which means the cheapest nights are also the best ones. The bottom of the band sits in late August and the first half of September, and those nights draw the smallest crowds of the season by a clear margin.",
         "Tuesday outperforms its price. Sunday nights price cheaply and then fill with Florida annual passholders who are not working the next morning; Tuesday is the genuinely quiet weeknight and it usually costs the same.",
         "Halloween night itself is the worst-value ticket of the season. It sits at the top of the band, sells out earliest, and delivers no content that a random Tuesday does not. You are paying a premium for the date on the wristband.",
-        "If your dates are locked to the last three Fridays of October, buy early or buy a different event. Those nights sell out, and a sold-out party is a party operating at its attendance ceiling, which is the opposite of what the ticket is for."
+        "All 2026 event dates were sold out on Disney’s ticket page as of September 26. If you do not already hold a valid party ticket, do not build a 2026 itinerary around attendance; check Disney for any ticket-status change."
       ]
     },
     {
@@ -158,8 +159,8 @@
       "a": "No. Lightning Lane Multi Pass is not sold for party hours, and there is no paid line-skipping product for the event. Any Multi Pass return windows you hold from a day ticket need to be used before the party begins. Plan the paid line-skipping around your other park days rather than this one."
     },
     {
-      "q": "When are the next season's dates announced?",
-      "a": "Disney has historically announced the Halloween party calendar in the spring and opened sales several weeks later, with Annual Passholder and DVC presales running ahead of general sale. We have not verified a 2026 announcement, which is why this page carries an expected ribbon and a typical window rather than dates. If a competitor's page is showing you specific 2026 nights, check where they say those came from."
+      "q": "Are 2026 party dates and tickets confirmed?",
+      "a": "Yes. Disney lists 38 select nights from August 7 through October 31, 2026, with party hours 7 p.m.–midnight and ticket entry from 4 p.m. Disney’s page says every 2026 date is sold out as of September 26. Recheck Disney directly if your plans depend on a ticket-status change."
     },
     {
       "q": "Is it worth it with a toddler?",
@@ -216,17 +217,17 @@
       "startDate": "2026-08-07",
       "endDate": "2026-10-31",
       "changes": [
-        "The 2026 season opens on 7 August — earlier than any previous year — and runs select nights through 31 October, with event hours 7pm to midnight.",
-        "Tickets are on sale through Disney’s special-event ticketing, and coverage of on-sale day reported several dates selling out.",
-        "Thirty-eight nights, August 7 through October 31 — the earliest season start the party has held, with roughly nine August, thirteen September, and sixteen October dates.",
+        "Disney lists 38 select nights August 7–October 31, 2026, with event hours 7 p.m.–midnight and entry from 4 p.m. on a valid party ticket.",
+        "All 2026 event dates are sold out on Disney’s official ticket page as of September 26, 2026.",
+        "2026 dates: August 7, 11, 14, 18, 21, 23, 25, 28, 30; September 1, 4, 8, 11, 13, 15, 18, 20, 22, 24, 25, 27, 29; October 1, 2, 4, 6, 8, 9, 13, 15, 16, 18, 22, 23, 25, 27, 29, 31.",
         "Per-night tickets run $119 to $229 plus tax: the cheapest August weeknights sit at $119 and peak October and Halloween nights reach $229.",
-        "Halloween night sold out on the first day of general sale (May 12), and by late July at least sixteen of the thirty-eight nights were gone.",
+        "New in 2026: A Masquerade with Stitch, Lilo and Angel in Tomorrowland. Disney also confirms Boo-to-You Parade, Not-So-Spooky Spectacular fireworks and the Hocus Pocus Villain Spelltacular.",
         "Magic Kingdom’s fall decorations were installed the first week of August and were in place by August 5, two days before the season’s first party night."
       ],
       "freshness": {
         "verified": "2026-09",
         "confidence": "confirmed",
-        "sourceNote": "Dates, per-night prices, and sold-out status from Disney’s official event page and the Disney Parks Blog announcement (viewed September 2026); sold-out tracking cross-checked against Disney Tourist Blog’s 2026 guide and WDW Prep School.",
+        "sourceNote": "2026 dates, 38-night list, hours, entry and sold-out status checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/mickeys-not-so-scary-halloween-party/",
         "reviewBy": "2026-11",
         "cycle": "annual"
       },
@@ -252,7 +253,7 @@
       "freshness": {
         "verified": "2026-07",
         "confidence": "historical",
-        "sourceNote": "2025 season figures, stated as 2025 figures. Prices are the published pre-tax per-night band for that cycle; we have not re-verified them against a 2026 calendar because no 2026 calendar has been confirmed to us.",
+        "sourceNote": "2025 season figures are historical, separate from the confirmed 2026 schedule.",
         "reviewBy": "2026-10",
         "cycle": "annual"
       }
@@ -261,7 +262,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "2026 dates officially announced (event page and Disney Parks Blog, viewed September 2026); tickets on sale; party-day crowd pattern cross-checked against Disney Tourist Blog’s day-of-week rankings and MouseQueue’s 2026 party wait tracking (viewed September 2026).",
+    "sourceNote": "2026 dates and all-dates-sold-out status checked September 26, 2026 against https://disneyworld.disney.go.com/en_CA/events-tours/mickeys-not-so-scary-halloween-party/ Crowd-pattern statements are editorial assessments and not Disney guarantees.",
     "reviewBy": "2026-11",
     "cycle": "annual"
   }

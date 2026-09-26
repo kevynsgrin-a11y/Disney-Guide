@@ -336,7 +336,7 @@ export function eventsIndex (data) {
         url,
         title: `Seasonal events at the ${scopeOf(site).parksLabel}`,
         titleTail: ': Dates, Prices, Verdicts',
-        description: `Every party night, festival, and after-hours event ${scopeOf(site).venuePhrase} — what each costs and whether it is worth it.`,
+        description: `Seasonal parties, festivals and after-hours events ${scopeOf(site).venuePhrase} — confirmed date ranges, admission rules and honest verdicts.`,
         trail,
       },
       body,

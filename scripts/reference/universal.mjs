@@ -34,7 +34,6 @@
 export const HEIGHTS = {
   /* Reasonable confidence — a long-stable line-up. */
   'universal-studios-florida': {
-    'hollywood rip ride rockit': 51,
     'revenge of the mummy': 48,
     'men in black': 42,
     'escape from gringotts': 42,
@@ -85,6 +84,7 @@ export const HEIGHTS = {
    * of fact a shared table would flatten, and exactly the kind that strands a family at a gate.
    */
   'universal-studios-hollywood': {
+    'fast & furious: hollywood drift': 51,
     'revenge of the mummy': 48,
     'forbidden journey': 48,
     'jurassic world': 42,
@@ -177,14 +177,17 @@ export const QUEUE_CLAIMS = {
  * guessed closure is worse than no closure check: it fails the build for a ride that is running,
  * which trains everyone to ignore the checker. Filling this in is a launch-gate item.
  */
-export const MUST_BE_CLOSED = {}
+export const MUST_BE_CLOSED = {
+  'universal-studios-florida': ['hollywood rip ride rockit'],
+  'universal-studios-hollywood': ['fast & furious – supercharged', 'animal actors'],
+}
 
 /** Attractions that must be present AND operating. Headliners only — omission is the failure mode. */
 export const MUST_BE_OPEN = {
-  'universal-studios-florida': ['escape from gringotts', 'revenge of the mummy', 'hollywood rip ride rockit', 'transformers: the ride'],
+  'universal-studios-florida': ['escape from gringotts', 'revenge of the mummy', 'transformers: the ride'],
   'islands-of-adventure': ['incredible hulk', 'velocicoaster', 'hagrid', 'forbidden journey'],
   'epic-universe': ['stardust racers', 'mario kart'],
-  'universal-studios-hollywood': ['studio tour', 'revenge of the mummy', 'forbidden journey'],
+  'universal-studios-hollywood': ['studio tour', 'fast & furious: hollywood drift', 'revenge of the mummy', 'forbidden journey'],
 }
 
 /**

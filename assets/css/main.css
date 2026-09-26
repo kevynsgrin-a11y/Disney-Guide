@@ -997,6 +997,11 @@ main:focus { outline: none; }
 @media (max-width: 640px) { .plan-steps li { grid-template-columns: 1fr; gap: .2rem; } }
 .tool-notes summary { cursor: pointer; color: var(--brand-2); font-weight: 600; }
 .tool-notes ul { margin: var(--space-2) 0 0; padding-left: 1.2rem; display: grid; gap: .35rem; color: var(--ink-2); }
+.haunt-choice { display: flex !important; align-items: start !important; gap: .6rem; padding: .35rem 0; }
+.haunt-checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.haunt-checklist li { padding: .6rem .8rem; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm); break-inside: avoid; }
+.haunt-checklist label { display: flex; gap: .65rem; align-items: baseline; }
+.haunt-checklist input { accent-color: var(--brand); width: 1rem; height: 1rem; flex: none; }
 .roadtrip-legs { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; color: var(--ink-2); }
 .roi-lines { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .roi-lines strong { color: var(--ink); }
@@ -1007,6 +1012,7 @@ main:focus { outline: none; }
   .plan-steps li { border: 1px solid #bbb; background: #fff; break-inside: avoid; }
   .plan-steps__time { color: #000; }
   .tool-notes, .tool-notes ul { display: block; color: #000; }
+  .haunt-checklist li { border-color: #bbb; background: #fff; }
 }
 
 @media print {

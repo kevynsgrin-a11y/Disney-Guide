@@ -6,24 +6,36 @@
   "parkSlug": null,
   "category": "overlay",
   "season": "holidays",
-  "summary": "Everything Universal Orlando does at Christmas is included with regular admission, which makes it the best-value season on the resort's calendar and the only one with no ticket to buy. It is also split across separate parks, so the ticket type you choose decides how much of it you actually see.",
+  "summary": "Universal Orlando’s 2026 holiday season runs November 14 through January 3, 2027. Park entertainment is included with regular admission across the resort; the optional Universal Holiday Tour costs extra.",
   "h1": "Holidays at Universal Orlando: what is included, which park has what, and the fortnight to avoid",
   "title": "Holidays at Universal Orlando",
   "titleTail": ": What's Included & When To Go",
   "description": "Universal Orlando's holiday season across three parks, included with admission: the parade, Grinchmas, the Wizarding World, and the fortnight worth avoiding.",
-
   "typicalWindow": {
     "startsAround": "mid-November",
     "endsAround": "the first days of January",
     "nightsTypical": 50,
-    "nightsRange": [45, 58],
-    "daysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "nightsRange": [
+      45,
+      58
+    ],
+    "daysOfWeek": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
     "hours": "Every operating day in the window, during regular park hours. The parade and the castle projection show are the two items with fixed times; the rest of the season is decoration, food, and shows that sit on the daily entertainment schedule."
   },
-
   "pricing": {
     "model": "included",
-    "rangeUsd": [7, 17],
+    "rangeUsd": [
+      7,
+      17
+    ],
     "asOf": "2025 holiday season",
     "cheapestNights": "The week before Thanksgiving, and the first full week of January once the New Year crowd has left",
     "priciestNights": "The stretch from the week before Christmas through New Year, which is the most crowded and most expensive period of Universal Orlando's year",
@@ -35,27 +47,24 @@
       "Orlando hotel rates in the last two weeks of December run at their annual high, and Universal's own hotels price with them."
     ]
   },
-
   "whatYouGet": [
     "Universal's Holiday Parade featuring Macy's at Universal Studios Florida, which runs balloons and floats built with the team behind the New York Thanksgiving parade, on most days of the window.",
     "The Magic of Christmas at Hogwarts Castle, a projection show on the castle at Islands of Adventure, running several times each evening once it is dark.",
     "Grinchmas at Islands of Adventure: a redressed Seuss Landing, a live stage show, and a Grinch performance that is the best character work at either original park.",
-    "Christmas decoration across all three parks and CityWalk, with Hogsmeade and Diagon Alley the most thoroughly dressed areas on the property.",
+    "2026 holiday décor at all three parks, including new décor at SUPER NINTENDO WORLD and How to Train Your Dragon – Isle of Berk in Epic Universe, and a returning winter presentation in Celestial Park.",
     "A holiday concert series at Universal Studios Florida on select nights, included with admission rather than ticketed separately.",
     "Seasonal food and drink at both original parks, and a holiday build-out of the Tribute Store in the New York area at Universal Studios Florida.",
-    "All of it on a regular ticket. Universal Orlando runs no hard-ticket holiday party, so there is no second purchase and no quieter paid version of any of this."
+    "The core park entertainment is included with regular admission to the relevant park. The optional Universal Holiday Tour is a separate paid product."
   ],
-
   "whatYouDont": [
     "A quiet park. The last two weeks of December are the busiest and most expensive of the Universal Orlando year, and the resort now carries three parks' worth of demand with Epic Universe absorbing a disproportionate share of it.",
     "A hard-ticket alternative. There is no Christmas party here, which means there is no way to buy an evening with fewer people in it, however much you are willing to spend.",
     "Guaranteed shows. The parade, the castle projection, and the outdoor concerts are weather-dependent and get cancelled rather than moved indoors.",
-    "A settled Epic Universe offering. That park ran its first holiday season in 2025 and its seasonal programming is the least established thing on this page. We do not state what returns there because we have not verified it.",
+    "An identical holiday program at all three parks. Universal has announced 2026 Epic Universe décor in SUPER NINTENDO WORLD and Isle of Berk plus a returning Celestial Park winter presentation; the parade and Grinchmas are in the original parks.",
     "Any change to the rides. Universal does not overlay its attractions for the season the way the California Disney parks do; the whole of this season is decoration, entertainment, and food, and the ride lineup runs its ordinary versions throughout.",
     "The full season on one park ticket. The parade is at one park and Grinchmas and the castle show are at another, so a single-park ticket in December buys you roughly half the thing you came for.",
     "A cheap trip. Late-December hotel rates, top-tier date-based ticket pricing, and peak flights into Orlando all land in the same fortnight."
   ],
-
   "verdict": {
     "short": "Go the week before Thanksgiving or the first week of January and you get the whole season at a third of the crowd. Go between Christmas and New Year and you get it plus the worst week of the year.",
     "worthItIf": [
@@ -73,7 +82,6 @@
       "You are counting on Epic Universe having a comparable holiday offering to the two original parks. It may, and we cannot tell you that it does."
     ]
   },
-
   "strategy": [
     {
       "heading": "The two windows that make this work",
@@ -121,15 +129,14 @@
       ]
     }
   ],
-
   "faqs": [
     {
       "q": "Is there a Christmas party ticket at Universal Orlando?",
-      "a": "No. Universal Orlando runs no hard-ticket holiday event, so everything in the season is included with regular park admission and there is no paid route into a quieter evening. That is a genuine advantage on price and a genuine disadvantage on crowds, and it is the main structural difference between this resort and the Disney parks down the road in December."
+      "a": "There is no separate hard-ticket Christmas party. Core holiday entertainment is included with admission to the park where it takes place. Universal also offers a separately priced Holiday Tour on select dates, so budget that only if you want its guided access and reserved experiences."
     },
     {
       "q": "When do the decorations go up and come down?",
-      "a": "They go up in mid-November and stay up into the first days of January. The installation is complete from the first days of the window rather than being phased in, which is why a mid-November visit sees the same season as a late-December one. As of July 2026 we have not verified this cycle's start, so no date is stated on this page."
+      "a": "Universal has confirmed Holidays at Universal Orlando for November 14, 2026 through January 3, 2027. Individual entertainment and park hours can vary by day, so check the official calendar for your visit."
     },
     {
       "q": "Is Grinchmas included with a regular ticket?",
@@ -137,7 +144,7 @@
     },
     {
       "q": "What happens at Epic Universe for the holidays?",
-      "a": "We do not know, and we are not going to guess. Epic Universe ran its first holiday season in 2025 and one cycle is not a pattern, so we have no basis for telling you what returns or in what form. Check Universal's own park page before you build a December day around it, and treat the two original parks as the reliable part of this season."
+      "a": "For 2026, Universal announced new holiday décor in SUPER NINTENDO WORLD and How to Train Your Dragon – Isle of Berk, and a returning winter presentation at the Cosmos Fountain in Celestial Park. Grinchmas remains at Islands of Adventure and the Macy’s parade remains at Universal Studios Florida."
     },
     {
       "q": "Do I need a park-to-park ticket in December?",
@@ -152,24 +159,68 @@
       "a": "No. Universal does not re-theme its attractions for the season, so every ride runs its ordinary version throughout. The whole season is decoration, entertainment, food, and merchandise. That is worth knowing if you are comparing this resort with the California Disney parks, where the ride overlays are the main event."
     }
   ],
-
   "crossLinks": [
-    { "label": "Universal Orlando Resort overview", "href": "/universal-orlando/", "site": 1 },
-    { "label": "Universal Studios Florida park guide", "href": "/universal-orlando/universal-studios-florida/", "site": 1 },
-    { "label": "Islands of Adventure park guide", "href": "/universal-orlando/islands-of-adventure/", "site": 1 },
-    { "label": "Epic Universe park guide", "href": "/universal-orlando/epic-universe/", "site": 1 },
-    { "label": "Hogsmeade at Islands of Adventure", "href": "/universal-orlando/islands-of-adventure/lands/hogsmeade/", "site": 1 },
-    { "label": "Seuss Landing at Islands of Adventure", "href": "/universal-orlando/islands-of-adventure/lands/seuss-landing/", "site": 1 },
-    { "label": "Diagon Alley at Universal Studios Florida", "href": "/universal-orlando/universal-studios-florida/lands/diagon-alley/", "site": 1 }
+    {
+      "label": "Universal Orlando Resort overview",
+      "href": "/universal-orlando/",
+      "site": 1
+    },
+    {
+      "label": "Universal Studios Florida park guide",
+      "href": "/universal-orlando/universal-studios-florida/",
+      "site": 1
+    },
+    {
+      "label": "Islands of Adventure park guide",
+      "href": "/universal-orlando/islands-of-adventure/",
+      "site": 1
+    },
+    {
+      "label": "Epic Universe park guide",
+      "href": "/universal-orlando/epic-universe/",
+      "site": 1
+    },
+    {
+      "label": "Hogsmeade at Islands of Adventure",
+      "href": "/universal-orlando/islands-of-adventure/lands/hogsmeade/",
+      "site": 1
+    },
+    {
+      "label": "Seuss Landing at Islands of Adventure",
+      "href": "/universal-orlando/islands-of-adventure/lands/seuss-landing/",
+      "site": 1
+    },
+    {
+      "label": "Diagon Alley at Universal Studios Florida",
+      "href": "/universal-orlando/universal-studios-florida/lands/diagon-alley/",
+      "site": 1
+    }
   ],
-
   "related": [
     "grinchmas-at-universal-hollywood",
     "universal-orlando-mardi-gras",
     "halloween-horror-nights-orlando"
   ],
-
   "editions": [
+    {
+      "year": 2026,
+      "status": "announced",
+      "dates": "November 14, 2026 – January 3, 2027",
+      "startDate": "2026-11-14",
+      "endDate": "2027-01-03",
+      "changes": [
+        "Holiday entertainment across all three Universal Orlando parks is included with admission to the relevant park.",
+        "New Epic Universe holiday décor at SUPER NINTENDO WORLD and Isle of Berk; the Celestial Park winter presentation returns.",
+        "The optional Universal Holiday Tour runs select dates November 14–January 2 and starts at $69.99 plus tax."
+      ],
+      "freshness": {
+        "verified": "2026-09",
+        "confidence": "confirmed",
+        "sourceNote": "Universal Orlando announcement dated August 6, 2026: https://media.universalparksusa.com/press-releases/universal-orlando-resort-holidays-2026-080626/",
+        "reviewBy": "2027-01",
+        "cycle": "annual"
+      }
+    },
     {
       "year": 2025,
       "status": "past",
@@ -187,12 +238,11 @@
       }
     }
   ],
-
   "freshness": {
-    "verified": "2026-07",
-    "confidence": "expected",
-    "sourceNote": "Universal Orlando has run its holiday season from mid-November into the first days of January for well over a decade, with the Macy's holiday parade at Universal Studios Florida, the Hogwarts castle projection show and Grinchmas at Islands of Adventure, and no hard-ticket component anywhere in it. That pattern is strong enough to plan around at the level of a fortnight. As of July 2026 we have not verified an announcement of this cycle's start, its entertainment schedule, or what Epic Universe will run, so none of those are stated here.",
-    "reviewBy": "2026-11",
+    "verified": "2026-09",
+    "confidence": "confirmed",
+    "sourceNote": "2026 dates, included park entertainment, Epic Universe additions and optional paid Holiday Tour verified against Universal's August 6 announcement: https://media.universalparksusa.com/press-releases/universal-orlando-resort-holidays-2026-080626/",
+    "reviewBy": "2027-01",
     "cycle": "annual"
   }
 }

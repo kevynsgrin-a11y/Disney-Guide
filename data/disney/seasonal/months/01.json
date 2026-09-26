@@ -23,7 +23,7 @@
   },
   "crowds": {
     "level": "low",
-    "shape": "Attendance does not taper after New Year's — it falls off a shelf. Once the holiday return-travel wave clears in the first several days, every driver of theme park demand switches off simultaneously: no US school district is on break, the Florida drive-in market has spent its money, and international leisure travel is at its annual trough. Nothing replaces them until Presidents' week in February, which leaves roughly three consecutive weeks with no crowd driver at all. Walt Disney World's one January event, marathon weekend, is a hotel-and-roads phenomenon rather than a park one: it fills resort rooms and reroutes buses, but runners are on course at 5 AM and asleep by the evening, so standby waits barely register it. Disneyland behaves differently because its attendance is local. Southern California passholders are back at work and school, so weekdays run genuinely empty, while Saturdays still fill because a resident with a pass does not need a season to justify a visit. The weekday-to-weekend gap at Disneyland is wider in January than in any other month.",
+    "shape": "Attendance does not taper after New Year's — it falls off a shelf. Once the holiday return-travel wave clears in the first several days, every driver of theme park demand switches off simultaneously: no US school district is on break, the Florida drive-in market has spent its money, and international leisure travel is at its annual trough. Nothing replaces them until Presidents' week in February, which leaves roughly three consecutive weeks with no crowd driver at all. After the resort holiday program ends January 6, Walt Disney World's marathon weekend, is a hotel-and-roads phenomenon rather than a park one: it fills resort rooms and reroutes buses, but runners are on course at 5 AM and asleep by the evening, so standby waits barely register it. Disneyland behaves differently because its attendance is local. Southern California passholders are back at work and school, so weekdays run genuinely empty, while Saturdays still fill because a resident with a pass does not need a season to justify a visit. The weekday-to-weekend gap at Disneyland is wider in January than in any other month.",
     "peakWindows": [
       "The first several days, until holiday return travel finishes unwinding",
       "Marathon weekend at Walt Disney World, for hotel rooms and road closures rather than for ride waits",
@@ -57,7 +57,9 @@
   "whatsOn": [
     "epcot-festival-of-the-arts",
     "lunar-new-year-at-disney-california-adventure",
-    "holidays-at-the-disneyland-resort"
+    "holidays-at-the-disneyland-resort",
+    "disney-after-hours",
+    "disney-jollywood-nights"
   ],
   "planningNotes": [
     {
@@ -65,7 +67,8 @@
       "body": [
         "The trap in January is treating a low crowd level as a long day. Operating hours are cut back sharply once the holiday period ends, and a Magic Kingdom that closed at midnight in late December may close at 8 PM three weeks later, with EPCOT and Animal Kingdom closing earlier still. A quiet park you are ejected from at dusk delivers fewer rides than a moderate park open until 10 PM.",
         "The actionable version: pull the operating calendar for your exact dates before you decide how many park days to buy. In a short-hours January week, four park days over five nights often beats five park days over five nights, because the marginal day adds fewer operating hours than a rested morning adds throughput.",
-        "Early entry for on-property guests matters more in January than in any other month for the same reason. When the park is only open eleven hours, the extra half hour is a larger share of the day."
+        "Early entry for on-property guests matters more in January than in any other month for the same reason. When the park is only open eleven hours, the extra half hour is a larger share of the day.",
+        "For 2027, Walt Disney World’s advertised holiday program continues through January 6, with Jollywood Nights on January 3 and 5. Check hours and party dates before treating those first days as part of the quieter mid-month pattern."
       ]
     },
     {
@@ -87,16 +90,17 @@
     {
       "heading": "Festival of the Arts is the strongest of EPCOT's four festivals",
       "body": [
-        "The Festival of the Arts opens mid-January and runs into late February, and it is the one EPCOT festival where the non-food content is worth planning around rather than walking past. The gallery spaces, the working artists, and the Disney on Broadway concert series are the substance; the food studios are good but are not the reason to prioritize it.",
+        "Disney confirms EPCOT Festival of the Arts January 15–March 1, 2027. The galleries, artists and Disney on Broadway program are reasons to visit; check the current 2027 details because many examples on Disney’s page still describe the 2026 event.",
         "The bookable elements — seminars, workshops, and the paint-and-sip style sessions — release well ahead and fill quickly, and they are the part of the festival that sells out. The food studios and the gallery never need a reservation and never have a meaningful line in January.",
-        "One scheduling detail worth knowing: the Broadway concert series runs on a limited set of days each week rather than daily. If a specific pairing of performers is the draw, that constrains which nights your EPCOT day can be, which is the opposite of how most people plan the park."
+        "One scheduling detail worth knowing: the Broadway concert series runs on a limited set of days each week rather than daily. If a specific pairing of performers is the draw, that constrains which nights your EPCOT day can be, which is the opposite of how most people plan the park.",
+        "Disney After Hours has 2027 January dates at Magic Kingdom (11, 18), Hollywood Studios (16, 27) and EPCOT (21). Hours and ticket prices differ by park."
       ]
     },
     {
       "heading": "Disneyland is still wearing its holiday decorations",
       "body": [
-        "Holidays at the Disneyland Resort runs past New Year's and into the first part of January, which means the early weeks of the month hand you the December product at January prices and January crowd levels. The seasonal ride overlays, the castle lighting, and the holiday parade are all still installed. This is the best trade available anywhere on the seasonal calendar and almost nobody takes it.",
-        "The Lunar New Year celebration at Disney California Adventure then picks up from mid-January, so a well-placed trip can catch the tail of one seasonal layout and the opening of the next in the same visit.",
+        "Disney confirms Holidays at the Disneyland Resort through the first week of January 2027. During that limited window, the seasonal program continues, but individual rides and entertainment should be checked in the daily calendar. Do not plan for the holiday overlay later in January.",
+        "Later January has a different event mix. Check Disney’s current Lunar New Year announcement before assuming the holidays and Lunar New Year overlap on a particular trip.",
         "Book weekdays. The gap between a Wednesday and a Saturday at Disneyland in January is larger than the gap between a January Wednesday and a July Wednesday, which is a genuinely counterintuitive way to think about the resort's calendar."
       ]
     }
@@ -124,9 +128,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Event references follow typical windows, not announced dates.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Some event dates are confirmed for 2026–27; other references describe typical windows. Disneyland’s 2026–27 holiday end in early January is confirmed at https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/; exact daily offerings remain subject to the park calendar. Walt Disney World 2026–27 holiday end and January Jollywood dates checked against https://disneyworld.disney.go.com/en_CA/events-tours/holidays/ https://disneyworld.disney.go.com/en_CA/events-tours/hollywood-studios/jollywood-nights/ 2027 Arts and After Hours dates: https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ https://disneyworld.disney.go.com/en_CA/events-tours/after-hours/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

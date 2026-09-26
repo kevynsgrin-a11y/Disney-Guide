@@ -23,7 +23,7 @@
   },
   "crowds": {
     "level": "peak",
-    "shape": "Through roughly the first two weeks, Walt Disney World runs at moderate levels with the entire holiday product already installed — the decorations, the castle lighting, the Festival of the Holidays, the party nights, the seasonal overlays. Then, over about a week, the curve goes vertical. Attendance climbs through the third week as school terms end at staggered times, and from a few days before Christmas until after New Year's Day both resorts operate at the highest levels they ever reach, with Magic Kingdom and Disneyland Park both regularly hitting phased-closure capacity limits that stop admitting guests who hold valid tickets. There is no gradual descent on the far side either: the crowd holds until the first weekend of January and then falls away within days, which is why January is the month it is. The two coasts differ in one important respect. Disneyland's holiday peak is shorter and more weekend-weighted because its base is local and locals do not book hotel weeks, so Anaheim's midweek days inside the holiday period, while still very busy, are meaningfully better than Orlando's equivalents.",
+    "shape": "Through roughly the first two weeks, Walt Disney World runs at moderate levels with the holiday decorations, the Festival of the Holidays and select party nights underway. Party-specific entertainment and ride versions require the matching ticket. Then, over about a week, attendance climbs through the third week as school terms end at staggered times; Christmas-to-New-Year is generally a peak at both resorts. Disneyland's holiday peak is more weekend-weighted because of its larger local audience, so Anaheim midweek dates can be better than weekends.",
     "peakWindows": [
       "Christmas Eve through New Year's Day at both resorts, the worst stretch of the year without exception",
       "The weekend before Christmas, when the ramp is already steep",
@@ -63,7 +63,7 @@
     {
       "heading": "If you have any choice at all, take the first two weeks",
       "body": [
-        "Everything that makes a December trip worth taking — the decorations, the castle lighting, the seasonal parades and shows, the Festival of the Holidays, the party nights, the overlays at both resorts — is fully installed and running by the start of the month. None of it improves in the final two weeks. The only thing that changes is the crowd and the price.",
+        "Disney's published holiday programs at both resorts are underway by December 1, including EPCOT's Festival of the Holidays and select party nights. Check the exact entertainment calendar and ticket rules: some ride versions and shows are party-specific, and late-month dates can cost more and draw larger crowds.",
         "That makes early December the clearest value decision on the seasonal calendar, and it is available to anyone whose school constraints are soft or absent. Moving a trip from the week after Christmas to the first week of December typically halves the room rate, drops the ticket tier, and removes the phased-closure risk entirely.",
         "The second week is nearly as good and is often better for weather, since the coldest fronts tend to arrive later. Both are far better than anything after the third weekend."
       ]
@@ -95,9 +95,9 @@
     {
       "heading": "The decorations come down later than you think, and January is the cheat code",
       "body": [
-        "Holidays at the Disneyland Resort runs past New Year's and into the first part of January, which means a January trip still gets the seasonal ride overlays, the castle lighting, and the holiday decor at January prices and January crowd levels. Almost nobody takes this trade and it is the strongest one on the whole calendar.",
-        "Walt Disney World keeps a good deal of its holiday decoration up into the first week or so of January too, though the party season and several seasonal shows have ended by then. The decorations survive; the ticketed content does not.",
-        "If the reason you want a December trip is that you want to see the parks decorated, and not that you want to be there for the holiday itself, book January and save the difference. It is the same photograph and a completely different trip."
+        "Holidays at the Disneyland Resort continue through the first week of January 2027. That gives a short post-New-Year window for the seasonal program; check daily showtimes and ride status before booking.",
+        "Walt Disney World’s advertised holiday program runs through January 6, 2027, and Jollywood Nights has January 3 and 5 party dates. Very Merry ends December 22 and EPCOT Festival of the Holidays ends December 30.",
+        "If decorations rather than the holiday itself drive your trip, consider the first week of January while Disney’s confirmed program is still running. Do not assume the same offerings continue later in the month."
       ]
     }
   ],
@@ -124,9 +124,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-09",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The extra New Year's fireworks night and the end of the holiday party season are recurring operator practices rather than confirmed dates for any given cycle.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. The extra New Year's fireworks night is a recurring operator practice; the 2026–27 party end dates are confirmed on Disney’s event pages. Disneyland’s 2026–27 holiday end checked against https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/ on September 26, 2026. Walt Disney World holiday window and January Jollywood dates checked against https://disneyworld.disney.go.com/en_CA/events-tours/holidays/ https://disneyworld.disney.go.com/en_CA/events-tours/hollywood-studios/jollywood-nights/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }

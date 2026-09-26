@@ -56,7 +56,6 @@
   "whatsOn": [
     "epcot-festival-of-the-arts",
     "lunar-new-year-at-disney-california-adventure",
-    "epcot-flower-and-garden-festival",
     "disney-california-adventure-food-and-wine-festival",
     "disney-after-hours",
     "disneyland-after-dark"
@@ -73,7 +72,7 @@
     {
       "heading": "Four festivals, and a changeover worth targeting",
       "body": [
-        "February is the only month that can put two EPCOT festivals in a single trip. The Festival of the Arts runs into late February and the Flower and Garden Festival opens at the end of February or the start of March, and in some years the two overlap by a handful of days. Treat that overlap as a bonus if it happens rather than as something to book around, because the changeover dates are not published far enough ahead to plan against.",
+        "For 2027, EPCOT Festival of the Arts continues through March 1 while Flower & Garden begins March 10. Flower & Garden does not operate in February, and the two festivals do not overlap; March 2–9 is the published changeover gap.",
         "The Disney California Adventure Food and Wine Festival also opens in the back half of the month, which means the last week of February can hand you festival marketplaces at both resorts. Nothing else on the calendar does that.",
         "The practical note on all festival marketplaces: the booths open with the park or shortly after, and they are close to empty for the first two hours. Anybody who eats their way around World Showcase before 1 PM has a completely different experience from somebody who starts at 5 PM."
       ]
@@ -128,7 +127,7 @@
   "freshness": {
     "verified": "2026-07",
     "confidence": "expected",
-    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Festival openings follow typical windows; the Arts-to-Flower-and-Garden changeover in particular is never confirmed far ahead.",
+    "sourceNote": "Crowd and cost shapes are multi-year patterns we plan against, not a forecast for any single year. Weather figures are 1991–2020 climate normals for Orlando and for inland Orange County and do not decay. Festival openings follow typical windows; the Arts-to-Flower-and-Garden changeover in particular is never confirmed far ahead. 2027 EPCOT festival dates: https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-festival-of-the-arts/ https://disneyworld.disney.go.com/en_CA/events-tours/epcot/epcot-international-flower-and-garden-festival/",
     "reviewBy": "2027-12",
     "cycle": "rolling"
   }
