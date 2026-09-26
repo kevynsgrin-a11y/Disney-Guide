@@ -27,6 +27,7 @@ import { BUILD_MONTH } from './lib/staleness.mjs'
 import { plain, truncate } from './lib/html.mjs'
 import { renderParkMap } from './lib/map.mjs'
 import { buildPodcastFeed, resolveEpisodes } from './lib/podcast.mjs'
+import { ga4Bootstrap } from './lib/ga4.mjs'
 import * as core from './pages/core.mjs'
 import * as parkPages from './pages/park.mjs'
 import * as diningPages from './pages/dining.mjs'
@@ -448,7 +449,8 @@ const CACHE_RULES = [
  * `style-src` still carries 'unsafe-inline' because the templates set `style="…"` attributes for
  * per-item values a stylesheet cannot know — chart bar widths, map focal points. Hashes do not
  * cover attributes, so closing this means moving those to custom properties first. Everything
- * else is as tight as the site actually needs: no third-party origin appears in any built page.
+ * else is as tight as the site actually needs: the only third-party origins are GA4 (below) and
+ * the two Cloudflare services.
  */
 const CSP = [
   "default-src 'self'",
@@ -456,12 +458,15 @@ const CSP = [
   // static.cloudflareinsights.com is the aggregate, cookieless Web Analytics beacon. It appears
   // here so the policy does not need a rebuild the day analytics is switched on; the real gate is
   // the consent bar in assets/js/analytics.js, which never injects the script before "granted".
-  "script-src 'self' https://static.cloudflareinsights.com https://challenges.cloudflare.com",
+  // www.googletagmanager.com serves the gtag.js loader; the GA4 config itself is the same-origin
+  // /ga4.js (src/lib/ga4.mjs), so no inline script allowance is needed for it.
+  "script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com https://challenges.cloudflare.com",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self'",
+  // GA4 falls back to image pixels when sendBeacon/fetch are unavailable.
+  "img-src 'self' https://*.google-analytics.com https://*.googletagmanager.com",
   "media-src 'self'",
   "font-src 'self'",
-  "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://cloudflareinsights.com https://challenges.cloudflare.com",
   "manifest-src 'self'",
   "worker-src 'self'",
   "object-src 'none'",
@@ -740,6 +745,9 @@ async function buildOperator (operator) {
    */
   if (podcast) await writeFile(join(dist, 'podcast.xml'), podcast, 'utf8')
   await writeFile(join(dist, 'manifest.webmanifest'), buildManifest(data.site), 'utf8')
+  // The GA4 config the layout references, generated per site because each site has its own IDs.
+  const ga4 = ga4Bootstrap(data.site)
+  if (ga4) await writeFile(join(dist, 'ga4.js'), ga4, 'utf8')
   await writeFile(join(dist, '_headers'), buildHeaders(), 'utf8')
   await writeFile(join(dist, '_redirects'), buildRedirects(data.site, new Set(pages.map((p) => p.url))), 'utf8')
 

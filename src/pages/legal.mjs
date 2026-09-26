@@ -18,6 +18,7 @@ import { html, paragraphs } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
 import { urls } from '../lib/data.mjs'
+import { ga4Ids } from '../lib/ga4.mjs'
 
 /**
  * Hard-coded rather than derived from the build month.
@@ -412,11 +413,17 @@ export function legalPages (data, seasonal = null) {
   }))
 
   /* ---------------- Privacy ---------------- */
+  // GA4 is disclosed whenever the layout loads it (src/lib/ga4.mjs), so the copy cannot drift
+  // from the tag.
+  const usesGa4 = ga4Ids(site).length > 0
   pages.push(docPage(data, {
     url: urls.privacy(),
     title: 'Privacy policy',
     h1: 'Privacy policy',
-    description: 'What Ride Ready Guide stores, which four values stay in your browser, what our host necessarily sees, and what happens before any analytics or advertising is added.',
+    updated: usesGa4 ? '2026-09-26' : UPDATED,
+    description: usesGa4
+      ? `What ${site.brand.name} stores, which four values stay in your browser, what Google Analytics measures, and what our host necessarily sees.`
+      : 'What Ride Ready Guide stores, which four values stay in your browser, what our host necessarily sees, and what happens before any analytics or advertising is added.',
     lede: 'No accounts, no sign-in, no forms, and nothing about you on anything we run. Here is the specific version.',
     sections: [
       {
@@ -463,7 +470,9 @@ export function legalPages (data, seasonal = null) {
         heading: 'Cookies',
         id: 'cookies',
         body: [
-          'We set none. Not for preferences, not for measurement, not for advertising. The four values above use localStorage precisely because it is not sent with every request the way a cookie is.',
+          usesGa4
+            ? 'We set none of our own, not for preferences and not for advertising. Google Analytics, described below, sets its own measurement cookies on this domain (`_ga` and `_ga_*`). The four values above use localStorage precisely because it is not sent with every request the way a cookie is.'
+            : 'We set none. Not for preferences, not for measurement, not for advertising. The four values above use localStorage precisely because it is not sent with every request the way a cookie is.',
           'A seller you reach through an affiliate link may set its own cookie on its own domain, so that it can attribute a purchase. That cookie is theirs, it is governed by their privacy policy, and it carries no personal information from us because we hold none to pass on.',
         ],
       },
@@ -477,11 +486,18 @@ export function legalPages (data, seasonal = null) {
       {
         heading: 'Analytics',
         id: 'analytics',
-        body: [
-          site.analytics.enabled
-            ? 'Privacy-focused analytics run here, reporting in aggregate only: how many people opened a page and roughly where they arrived from. No tracking cookie is set, no profile is assembled across sites, and no individual visitor is identified. The script loads only after you say yes to the consent bar — declining is stored in your browser and honoured on every later visit, and clearing this site’s data revokes either answer.'
-            : 'No analytics are loaded on this site. Not a self-hosted script, not a privacy-focused one, not a tag firing quietly on page load. If that changes, this section is updated before the script ships rather than after.',
-        ],
+        body: usesGa4
+          ? [
+              'This site uses Google Analytics 4 to measure traffic in aggregate: which pages are viewed, approximate location, and the kind of device and browser. It loads on every page, and Google sets the `_ga` and `_ga_*` cookies to do it. Google handles that data under its own [privacy policy](https://policies.google.com/privacy), and Google\'s [opt-out browser add-on](https://tools.google.com/dlpage/gaoptout) stops it on every site.',
+              ...(site.analytics.enabled
+                ? ['Cloudflare Web Analytics also runs here, cookieless and in aggregate only: how many people opened a page and roughly where they arrived from. It loads only after you say yes to the consent bar — declining is stored in your browser and honoured on every later visit, and clearing this site’s data revokes either answer.']
+                : []),
+            ]
+          : [
+              site.analytics.enabled
+                ? 'Privacy-focused analytics run here, reporting in aggregate only: how many people opened a page and roughly where they arrived from. No tracking cookie is set, no profile is assembled across sites, and no individual visitor is identified. The script loads only after you say yes to the consent bar — declining is stored in your browser and honoured on every later visit, and clearing this site’s data revokes either answer.'
+                : 'No analytics are loaded on this site. Not a self-hosted script, not a privacy-focused one, not a tag firing quietly on page load. If that changes, this section is updated before the script ships rather than after.',
+            ],
       },
       {
         heading: 'Ride reports',
@@ -512,7 +528,7 @@ export function legalPages (data, seasonal = null) {
         id: 'rights',
         body: [
           'The California Consumer Privacy Act as amended by the CPRA, the GDPR in the European Union, the UK GDPR, and a growing number of other US state statutes give readers rights to know what personal information is held about them, to have it corrected, to have it deleted, to port it, and to object to particular uses of it, including the sale or sharing of it for personalized advertising. Those rights are real and they matter.',
-          'The honest position for this site is that there is almost nothing here for them to reach. We hold no account, no email address, no profile, and no record of your visit beyond the delivery logs described above, which our host keeps and we do not query for anything else. A request today to produce or erase what we hold about you would be answered by saying that we hold nothing about you.',
+          `The honest position for this site is that there is almost nothing here for them to reach. We hold no account, no email address, no profile, and no record of your visit beyond the delivery logs described above, which our host keeps and we do not query for anything else${usesGa4 ? ', and the Google Analytics measurement described above, which Google holds and we read only as aggregate reports' : ''}. A request today to produce or erase what we hold about you would be answered by saying that we hold nothing about you.`,
           'Two things follow. The data described further up this page is entirely within your control and is removed by clearing your browser\'s site data for this domain. And if analytics or advertising is ever added here, the corresponding controls — including a "Do Not Sell or Share My Personal Information" control wherever personalized advertising makes one necessary — appear alongside them, and this page is updated before they load.',
           `Questions about any of this go through the [contact page](${urls.contact()}).`,
         ],

@@ -538,8 +538,9 @@
     "provider": "cloudflare-web-analytics",
     "token": "",
     "enabled": false,
-    "gtagId": "G-7J3HL1X7EX",
-    "note": "Aggregate, cookieless Cloudflare Web Analytics behind the first-party consent gate in assets/js/analytics.js. Paste the site token from the Web Analytics dashboard and set enabled=true; the privacy page copy flips with it. gtagId is the per-site GA4 measurement ID emitted in the head by src/templates/layout.mjs; matches brand.domain's roll-up stream."
+    "gtagId": "G-R1M0P37E6X",
+    "gtagRollupIds": ["G-7J3HL1X7EX"],
+    "note": "Aggregate, cookieless Cloudflare Web Analytics behind the first-party consent gate in assets/js/analytics.js. Paste the site token from the Web Analytics dashboard and set enabled=true; the privacy page copy flips with it. gtagId is the site's own GA4 property and gtagRollupIds the cross-site roll-up stream(s); src/lib/ga4.mjs turns them into one gtag.js loader plus the same-origin /ga4.js config that the CSP allows."
   },
   "operator": "disney",
   "podcast": {
