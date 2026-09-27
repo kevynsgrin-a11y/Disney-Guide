@@ -13,6 +13,7 @@
 import { html, raw, each, inline, paragraphs, escapeHtml } from '../lib/html.mjs'
 import { pill, callout, dataTable, card, bulletList } from './components.mjs'
 import * as f from '../lib/format.mjs'
+import { parkTimeZone } from '../lib/park-time-zone.mjs'
 
 /* ------------------------------------------------------------------ *
  * Freshness — the flagship
@@ -139,15 +140,16 @@ export function categoryLabel (value) { return CATEGORY_LABEL[value] || f.unslug
 /**
  * The haunt countdown card. The build renders the confirmed window statically — never a countdown
  * number, because a number stamped at build time goes stale the moment the deploy is cached. A tiny
- * progressive script (app.js) turns the ISO dates into a view-time state line: "Opens in 3 days",
- * "Running now · ends Oct 31". Without JavaScript the card still says something true.
+ * progressive script (app.js) computes the date in the park's time zone and updates the state
+ * line. Without JavaScript, or without a known park zone, the card still says something true.
  */
 export function hauntCard (event) {
   const edition = (event.editions || []).find((e) => e.status === 'announced' && e.startDate && e.endDate)
   if (!edition) return null
   const state = event.staleness
+  const timeZone = parkTimeZone(event.resort)
   return html`
-    <article class="card haunt-card" data-countdown data-start="${edition.startDate}" data-end="${edition.endDate}">
+    <article class="card haunt-card" data-countdown data-start="${edition.startDate}" data-end="${edition.endDate}" data-countdown-time-zone="${timeZone}">
       <p class="card__eyebrow">${categoryLabel(event.category)}${event.parkName ? ` · ${event.parkName}` : event.resortName ? ` · ${event.resortName}` : ''}</p>
       <h3 class="card__title"><a href="${event.url}">${event.name}</a></h3>
       <p class="haunt-card__window">${edition.dates}${edition.nights ? ` · ${edition.nights} nights` : ''}</p>
@@ -212,7 +214,7 @@ export function eventCard (event, state) {
     summary: event.summary,
     badges: [
       state && state.confidence ? { label: state.confidenceLabel, tone: `conf-${state.confidence}` } : null,
-      event.pricing && event.pricing.model === 'included' ? { label: 'No extra ticket', tone: 'good' } : null,
+      event.pricing && event.pricing.model === 'included' ? { label: 'With eligible admission', tone: 'good' } : null,
     ].filter(Boolean),
     meta: [
       event.typicalWindow && event.typicalWindow.startsAround
@@ -277,7 +279,7 @@ export function editionList (editions, { eventUrl } = {}) {
             <h3>${e.year}</h3>
             ${pill(f.titleize(e.status || 'expected'), EDITION_TONE[e.status] || '')}
           </div>
-          ${e.dates ? html`<p class="editions__dates">${e.dates}</p>` : html`<p class="editions__dates editions__dates--none">Dates not announced.</p>`}
+          ${e.dates ? html`<p class="editions__dates">${e.dates}</p>` : html`<p class="editions__dates editions__dates--none">${e.status === 'past' ? 'Exact dates not recorded here.' : 'Dates not announced.'}</p>`}
           <ul class="editions__meta">
             ${e.nights ? html`<li><span>Nights</span><strong>${e.nights}</strong></li>` : ''}
             ${Array.isArray(e.priceRangeUsd) ? html`<li><span>Price</span><strong>${f.price(e.priceRangeUsd[0])}–${f.price(e.priceRangeUsd[1])}</strong></li>` : ''}

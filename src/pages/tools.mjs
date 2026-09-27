@@ -208,7 +208,7 @@ export function heightCheckerPage (data) {
     ${C.hero({
       eyebrow: `Tool · all ${data.parks.length} parks`,
       title: 'What can my child ride?',
-      lede: 'Set one slider to your child’s height and see, park by park, exactly what they clear, what they miss, and what they miss by less than two inches. Measure with shoes on — that is how the parks do it.',
+      lede: 'Set one slider to your child’s height and see verified ride minimums, near misses, and rides whose height rules still need checking with the park. Measure with shoes on — that is how the parks do it.',
       tone: 'compact',
     })}
 
@@ -228,9 +228,9 @@ export function heightCheckerPage (data) {
             </div>
             <div class="hchecker__save-rider" data-save-rider-hook></div>
             <div class="hchecker__summary">
-              <div class="hchecker__stat"><b data-height-can>—</b><span>rides they can do</span></div>
+              <div class="hchecker__stat"><b data-height-can>—</b><span>verified rideable</span></div>
               <div class="hchecker__stat"><b data-height-cant>—</b><span>still too short</span></div>
-              <div class="hchecker__stat"><b data-height-pct>—</b><span>of all rides</span></div>
+              <div class="hchecker__stat"><b data-height-unknown>—</b><span>height unverified</span></div>
             </div>
             <p class="center mt-4" data-print-hide>
               <button class="chip" type="button" data-height-unit aria-pressed="false">Show centimetres</button>
@@ -254,8 +254,8 @@ export function heightCheckerPage (data) {
 
     ${C.section({
       tone: 'tint',
-      title: `Every height requirement at all ${data.parks.length} parks`,
-      intro: 'The complete reference table. Sort by height to see what unlocks next, or by park to plan a single day.',
+      title: `Verified height requirements at all ${data.parks.length} parks`,
+      intro: 'These are the numerical minimums verified in this guide. Rides without a verified figure are not treated as rideable by the checker. Confirm current restrictions with the park.',
       children: html`
         ${C.dataTable({
           sortable: true,
@@ -327,9 +327,9 @@ export function heightCheckerPage (data) {
         url: urls.heightChecker(),
         title: `${site.brand.shortName} height checker`,
         titleTail: ': what can my kid ride?',
-        description: `Set one slider to your child’s height and see every ride they can and cannot do at all ${data.parks.length} parks — including the ones they miss by an inch.`,
+        description: `Set one slider to your child’s height and see verified ride minimums, near misses, and rides with unverified rules across all ${data.parks.length} parks.`,
         trail,
-        modified: '2026-07-01',
+        modified: '2026-09-26',
       },
       body,
       scripts: ['/assets/js/height-checker.js', '/assets/js/rider-profiles.js'],

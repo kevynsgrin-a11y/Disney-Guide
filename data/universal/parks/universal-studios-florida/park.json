@@ -12,12 +12,12 @@
     "lng": -81.4686
   },
   "tagline": "The screen-heavy studio park. Diagon Alley is the reason to come; 40 inches is the gate.",
-  "summary": "A backlot-street park built around Diagon Alley and a screen-heavy ride list. Eight operating attractions have height requirements, topping out at 48 inches for Revenge of the Mummy; Hollywood Rip Ride Rockit closed permanently in August 2025.",
+  "summary": "A backlot-street park built around Diagon Alley and a screen-heavy ride list. Nine operating attractions have height requirements, topping out at 48 inches for Revenge of the Mummy; Hollywood Rip Ride Rockit closed permanently in August 2025.",
   "intro": [
     "Universal Studios Florida opened on June 7, 1990 as a working production facility that guests could tour. Almost none of that survives. What stands now is a park laid out as a series of movie-backlot streets — a New York block, a San Francisco waterfront, a Hollywood boulevard — with attractions dropped into the buildings behind them. The studio framing is architecture, not a working business.",
     "The single most consequential thing about this park is The Wizarding World of Harry Potter – Diagon Alley, which opened in July 2014 and is the best-built environment Universal has produced in Florida outside Epic Universe. It is also the reason the ticket question matters. The Hogwarts Express runs only between this park and Islands of Adventure, and boarding it in either direction requires a park-to-park ticket. On a one-park ticket you can still walk into Diagon Alley, ride Escape from Gringotts, drink the Butterbeer and eat at the Leaky Cauldron. What you cannot do is ride the train, which is a real attraction with two different shows depending on which way you are travelling, and you cannot do the Hogsmeade half of the story at all. If Harry Potter is the reason you booked Universal, buy park-to-park and do not think about it again.",
     "The second thing to understand is what this park's rides actually are. Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are all screens in front of a motion base or a moving vehicle, and Escape from Gringotts and Men in Black are heavily screen-assisted too. Most guides describe this as a strength and move on. It is worth saying plainly instead: if anyone in your group gets sick on simulators, this is the hardest park in Orlando for them, harder than Hollywood Studios and much harder than Magic Kingdom. Three of the four screen rides in a single morning will do it to people who thought they were fine.",
-    "Heights are a key constraint. Eight operating attractions require a minimum, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit, formerly the park's 51-inch coaster, permanently closed August 18, 2025. Check the current ride list before making a family height plan.",
+    "Heights are a key constraint. Nine operating attractions require a minimum, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit, formerly the park's 51-inch coaster, permanently closed August 18, 2025. Check the current ride list before making a family height plan.",
     "For a one-day visit, arrive before opening, start with Diagon Alley or the active rides that matter most to your group, and use the five operating Single Rider lines where they save time. Universal Express Pass is sold separately and included for guests at the three Premier hotels; check its current attraction coverage when booking."
   ],
   "bestFor": [
@@ -36,7 +36,7 @@
   ],
   "stats": {
     "attractionCount": 31,
-    "ridesWithHeightRequirements": 8,
+    "ridesWithHeightRequirements": 9,
     "tallestRequirement": 48,
     "typicalFullDayHours": "8-10 hours",
     "minimumDaysRecommended": 1
@@ -144,7 +144,7 @@
       "summary": "A thin waterfront district that functions mostly as the walk from New York to Diagon Alley, with one screen ride and the best lagoon-side bar.",
       "description": [
         "San Francisco is a wharf set — pier pilings, a Fisherman's Wharf frontage, a Ghirardelli-style corner — wrapped around the back of the lagoon. It has always been the thinnest land in the park and it has got thinner. Its whole ride offering is Fast & Furious – Supercharged, which loads guests onto a party bus and drives them past screens for a few minutes.",
-        "Being honest about that ride is the useful thing a guide can do here: it is widely considered the weakest attraction at Universal Orlando, the queue is longer than the payoff, and its main virtue is that it is air conditioned and has no height requirement. Ride it if the wait is under twenty minutes or you have Express. Otherwise it is the easiest thing in the park to skip without regret.",
+        "Being honest about that ride is the useful thing a guide can do here: it is widely considered the weakest attraction at Universal Orlando, the queue is longer than the payoff, and its main virtue is that it is air conditioned with level boarding. It requires riders to be at least 40 inches tall. Ride it if the wait is under twenty minutes or you have Express. Otherwise it is the easiest thing in the park to skip without regret.",
         "What San Francisco genuinely has is food and shade. Lombard's Seafood Grille is a proper sit-down room with a lagoon view and same-day availability when nothing else has it. Chez Alcatraz is a small covered bar on the water that is the best place in this park to lose thirty minutes, and Richter's Burger Co. is a large air-conditioned room that is usually half empty at lunch while Springfield is heaving.",
         "It is also the natural viewing side for the nighttime lagoon show, which matters more than the ride does."
       ],
@@ -155,7 +155,7 @@
         "Lombard's Seafood Grille, the easiest table-service booking here",
         "Richter's Burger Co., a big cool room that is empty while Springfield queues",
         "Lagoon-side viewing for the nighttime show",
-        "Fast & Furious – Supercharged, with no height requirement and the weakest payoff at the resort"
+        "Fast & Furious – Supercharged, with a 40-inch minimum and the weakest payoff at the resort"
       ],
       "eatHere": [
         "lombards-seafood-grille",
@@ -347,7 +347,7 @@
       },
       {
         "title": "Measure your children with their shoes on",
-        "body": "Eight operating attractions here carry a height requirement, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit closed in August 2025. Universal measures at the ride entrance and gives borderline guests a wristband so they are not re-measured. Knowing the real number at home tells you whether this park is worth a full day for your family."
+        "body": "Nine operating attractions here carry a height requirement, from 34 inches at E.T. Adventure to 48 inches at Revenge of the Mummy. Rip Ride Rockit closed in August 2025. Universal measures at the ride entrance and may measure again before boarding. Knowing the real number at home tells you whether this park is worth a full day for your family."
       },
       {
         "title": "Do the Express Pass arithmetic before you book a hotel",
@@ -466,7 +466,7 @@
   "accessibility": {
     "intro": [
       "Universal Studios Florida is flat, fully paved and compact, which makes the walking side of it straightforward. The problems here are transfers and screens, and both are worse than at any Disney park in Orlando.",
-      "Of the eight operating attractions with a height requirement, most require a transfer from a wheelchair or ECV into a ride seat. Revenge of the Mummy is the active full-thrill coaster; check its current test-seat and transfer guidance at the entrance. Rip Ride Rockit closed in August 2025.",
+      "Of the nine operating attractions with a height requirement, most require a transfer from a wheelchair or ECV into a ride seat. Revenge of the Mummy is the active full-thrill coaster; check its current test-seat and transfer guidance at the entrance. Rip Ride Rockit closed in August 2025.",
       "The screen density is an accessibility issue that rarely gets listed as one. Six attractions put a large 3D or wraparound screen in front of a moving seat. For guests with vestibular conditions, migraine triggers or visual processing differences, that is most of the ride list, and the honest answer is that this park will be harder work than Magic Kingdom or Animal Kingdom.",
       "Queue accommodation runs through Universal's Attraction Assistance Pass, arranged at Guest Services immediately inside the main entrance. Universal routes eligibility for this through an advance registration process with a third-party accessibility organisation, so starting it several days before your visit rather than on the morning is the difference between a five-minute stop and a long wait at the window."
     ],
@@ -602,7 +602,7 @@
     },
     {
       "q": "What is the tallest height requirement at Universal Studios Florida?",
-      "a": "48 inches, for Revenge of the Mummy. Hollywood Rip Ride Rockit, formerly 51 inches, closed permanently in August 2025. Escape from Gringotts and Men in Black Alien Attack are 42 inches; Transformers, Despicable Me Minion Mayhem and The Simpsons Ride are 40, Trolls Trollercoaster is 36, and E.T. Adventure is 34."
+      "a": "48 inches, for Revenge of the Mummy. Hollywood Rip Ride Rockit, formerly 51 inches, closed permanently in August 2025. Escape from Gringotts and Men in Black Alien Attack are 42 inches; Transformers, Despicable Me Minion Mayhem, The Simpsons Ride and Fast & Furious – Supercharged are 40, Trolls Trollercoaster is 36, and E.T. Adventure is 34."
     },
     {
       "q": "Is Universal Studios Florida good for toddlers?",

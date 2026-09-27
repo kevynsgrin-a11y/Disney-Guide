@@ -245,8 +245,8 @@
       "opened": 2025,
       "status": "open",
       "closedNote": null,
-      "heightIn": 42,
-      "heightNote": null,
+      "heightIn": 40,
+      "heightNote": "Universal lists a 40-inch (102 cm) minimum. Children 40–48 inches require a supervising companion. Source: https://www.universalorlando.com/web/en/us/plan-your-visit/hours-information/ride-height-requirements (verified September 26, 2026).",
       "lightningLane": "multi-pass",
       "singleRider": false,
       "riderSwitch": true,
@@ -303,7 +303,7 @@
       "faqs": [
         {
           "q": "What is the height requirement for Harry Potter and the Battle at the Ministry?",
-          "a": "42 inches. That puts it within reach of most children over about five, though the height stick is not the right test here — the ride is dark, long and loud, and content is a bigger barrier than inches for younger riders."
+          "a": "40 inches. Children 40–48 inches require a supervising companion. The ride is dark, long and loud, so clearing the height rule does not guarantee a younger rider will enjoy it."
         },
         {
           "q": "Is Battle at the Ministry scary for children?",
@@ -324,7 +324,7 @@
         "monsters-unchained-the-frankenstein-experiment"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "le-cirque-arcanus",
@@ -1061,7 +1061,7 @@
       "status": "open",
       "closedNote": null,
       "heightIn": null,
-      "heightNote": "A minimum height applies. We have not verified the exact figure for this edition and do not publish numbers we cannot stand behind — check the sign at the entrance.",
+      "heightNote": "Universal lists no numerical minimum. Children under 48 inches require a supervising companion, and hand-held infants are not permitted. Source: https://www.universalorlando.com/web/en/us/plan-your-visit/hours-information/ride-height-requirements (verified September 26, 2026).",
       "lightningLane": "multi-pass",
       "singleRider": false,
       "riderSwitch": true,
@@ -1121,7 +1121,7 @@
         },
         {
           "q": "Is there a height requirement for Fyre Drill?",
-          "a": "There is one, and we do not publish height figures we have not verified against the park's own sign. Check the board at the entrance. It is low enough that most children who can sit up unaided in a boat will clear it, but confirm rather than assume."
+          "a": "Universal lists no numerical minimum. Children under 48 inches need a supervising companion, and hand-held infants are not permitted. Check the entrance sign for current rules before queueing."
         },
         {
           "q": "Can you watch Fyre Drill without riding?",
@@ -1134,7 +1134,7 @@
         "viking-training-camp"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-09"
     },
     {
       "slug": "the-untrainable-dragon",

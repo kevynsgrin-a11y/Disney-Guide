@@ -139,7 +139,7 @@ export function eventPage (event, data) {
 
     ${event.editions.length ? C.section({
       title: 'Year by year',
-      intro: 'We publish a year only once it is announced. An empty year here means nobody has announced it yet — not that we forgot.',
+      intro: 'Past editions may lack an exact date list in our archive. For upcoming editions, check the operator calendar when dates are not yet recorded here.',
       children: SC.editionList(event.editions.map((e) => ({ ...e, url: urls.edition(event.slug, e.year) })), { eventUrl: url }),
     }) : ''}
 

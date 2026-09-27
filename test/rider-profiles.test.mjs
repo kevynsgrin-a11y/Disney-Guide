@@ -57,7 +57,7 @@ test('statusFor draws the near-miss line at two inches', () => {
   assert.equal(math.statusFor(46, 49), 'later')
   assert.equal(math.statusFor(48, 48), 'now')
   assert.equal(math.statusFor(50, 48), 'now')
-  assert.equal(math.statusFor(30, null), 'any')
+  assert.equal(math.statusFor(30, null), 'unknown')
 })
 
 test('projections are month ranges anchored to the measurement date', () => {

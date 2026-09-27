@@ -5,13 +5,13 @@ const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
 
 /** 44 -> "44in (112cm)" */
 export function height (inches) {
-  if (inches == null) return 'Any height'
+  if (inches == null) return 'Height unverified'
   return `${inches}in (${Math.round(inches * 2.54)}cm)`
 }
 
 /** 44 -> "44 inches" — for prose and alt text. */
 export function heightWords (inches) {
-  if (inches == null) return 'no height requirement'
+  if (inches == null) return 'height unverified'
   return `${inches} inches`
 }
 

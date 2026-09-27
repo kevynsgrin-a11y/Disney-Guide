@@ -177,7 +177,7 @@ function buildSearchIndex (data, seasonal) {
     for (const attraction of park.attractions) {
       push(attraction.name, attraction.url,
         `${attraction.landInfo ? attraction.landInfo.name + ' · ' : ''}${park.shortName || park.name}`,
-        `${attraction.type} ${attraction.heightIn ? attraction.heightIn + ' inch height' : 'no height requirement'} ${plain(attraction.summary)}`)
+        `${attraction.type} ${attraction.heightIn != null ? attraction.heightIn + ' inch height' : 'height unverified'} ${plain(attraction.summary)}`)
     }
     for (const restaurant of park.dining) {
       push(restaurant.name, restaurant.url, `${restaurant.cuisine} · ${park.shortName || park.name}`,

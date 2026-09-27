@@ -54,7 +54,7 @@
       "name": "Roller coasters",
       "winner": "ioa",
       "cells": {
-        "epic": "Stardust Racers at 48 inches is a dueling coaster and the best ride in the park, and Mine-Cart Madness at 42 inches is a family coaster with a genuinely clever track trick. That is the bench.",
+        "epic": "Stardust Racers at 48 inches is a dueling coaster and the best ride in the park, and Mine-Cart Madness at 40 inches is a family coaster with a genuinely clever track trick. That is the bench.",
         "ioa": "Jurassic World VelociCoaster at 51 inches — two launches, a 155-foot top hat, four inversions and a run of track that skims the lagoon. The Incredible Hulk Coaster at 54, Hagrid's at 48, Flight of the Hippogriff at 36. Four coasters, three of them serious."
       },
       "note": "Ride Stardust Racers after dark. It runs over open, lit ground with no tunnels and no building to hide behind, and the night lap genuinely reads as a different ride."
@@ -72,7 +72,7 @@
       "name": "Height requirements",
       "winner": "epic",
       "cells": {
-        "epic": "Seven attractions carry one and the tallest is 48 inches, for Stardust Racers and Monsters Unchained. Harry Potter and the Battle at the Ministry and Mine-Cart Madness are 42, and Mario Kart: Bowser's Challenge, Hiccup's Wing Gliders and Curse of the Werewolf are 40.",
+        "epic": "Nine attractions carry one and the tallest is 48 inches, for Stardust Racers, Monsters Unchained and Dragon Racer's Rally. Yoshi's Adventure starts at 34 inches; Harry Potter and the Battle at the Ministry, Mine-Cart Madness, Mario Kart: Bowser's Challenge, Hiccup's Wing Gliders and Curse of the Werewolf are 40.",
         "ioa": "Fourteen attractions carry one and the tallest is 54 inches. The Incredible Hulk Coaster at 54, Doctor Doom's Fearfall at 52, Jurassic World VelociCoaster at 51, Hagrid's and Forbidden Journey at 48. All five headliners are locked behind 48 inches."
       },
       "note": "Epic Universe's 40-to-48-inch band is the widest useful one at Universal Orlando. A 42-inch child gets five attractions there and very little at Islands of Adventure."
@@ -170,7 +170,7 @@
           ],
           [
             "Family coasters",
-            "Mine-Cart Madness (42in)",
+            "Mine-Cart Madness (40in)",
             "Flight of the Hippogriff (36in)"
           ],
           [
@@ -280,7 +280,7 @@
     },
     {
       "q": "Which has better height requirements for children?",
-      "a": "Epic Universe, clearly. Seven attractions carry a requirement and the tallest is 48 inches. At Islands of Adventure fourteen do, the tallest is 54 inches, and all five headliners need 48 inches or more. The 40-to-48-inch band is where the difference bites hardest — Epic Universe has five attractions in it and Islands of Adventure has very few."
+      "a": "Epic Universe, clearly. Nine attractions carry a requirement and the tallest is 48 inches. At Islands of Adventure fourteen do, the tallest is 54 inches, and all five headliners need 48 inches or more. Epic Universe has five attractions with a 40-inch minimum; Islands of Adventure has far fewer in that band."
     },
     {
       "q": "Does Epic Universe have better rides?",

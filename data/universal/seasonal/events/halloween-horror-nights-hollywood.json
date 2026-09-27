@@ -143,7 +143,7 @@
       "body": [
         "Universal advises the event is for mature audiences and against attendance for children under thirteen, and does not enforce an age limit. Both parts of that are true at once: the advice is meant seriously, and nothing at the turnstile acts on it.",
         "The content is continuous rather than occasional. Each house is several minutes of low light, dense fog, sustained strobe lighting, loud sudden noise, and performers who move toward you and follow you out, and the scare zones do the same thing outdoors where there is no queue to leave.",
-        "There is no gentle version of a house, no marked quiet path, and no way to cross the park at this event without passing through a scare zone. The only accommodation is not attending.",
+        "There is no advertised gentle version of a house or guaranteed scare-free route across the event. Guests who need mobility or queue accommodations should review Universal Studios Hollywood's official accessibility guidance and speak with park staff about their individual needs before attending. Do not assume those accommodations change the sensory intensity inside a house.",
         "If you are in Los Angeles with young children and want a Halloween day at this park, plan it around the regular season instead. This event replaces the park rather than adding to it, and it does not soften in its first hour."
       ]
     }
@@ -155,7 +155,7 @@
     },
     {
       "q": "Is Halloween Horror Nights Hollywood suitable for children?",
-      "a": "No. Universal's published guidance is that the event is recommended for mature audiences and not for anyone under thirteen, and it does not enforce an age limit, so the decision rests with the adult buying the ticket. The houses run sustained strobes, heavy fog, gore, and performers who follow guests, and the outdoor scare zones mean there is no route across the park that avoids the content."
+      "a": "No. Universal's published guidance is that the event is recommended for mature audiences and not for anyone under thirteen, and it does not enforce an age limit, so the decision rests with the adult buying the ticket. The houses use strobes, fog and sudden scares, and outdoor scare zones can be encountered while moving around the park. Check the event map and Universal's accessibility guidance when planning for a guest who needs accommodations."
     },
     {
       "q": "What is the Terror Tram, and is it worth it?",
@@ -312,7 +312,7 @@
   "freshness": {
     "verified": "2026-09",
     "confidence": "confirmed",
-    "sourceNote": "Verified September 26, 2026. Dates, eight houses, six scare zones, show and Terror Tram checked against Universal's 2026 opening announcement and Discover Universal lineup. Ticket access checked against Universal's General Admission, Early Access, Express and R.I.P. product terms; announcement and Express terms conflict on Hollywood Drift, while Early Access start times differ. Dining Pass eligibility is from Universal's August 24 food announcement. The displayed $77–$109 General Admission band is an independent ticket-tracker snapshot, not a guaranteed checkout price. Check the 2026 edition source notes and selected ticket terms before purchase.",
+    "sourceNote": "Verified September 26, 2026. Dates, eight houses, six scare zones, show and Terror Tram checked against Universal's 2026 opening announcement and Discover Universal lineup. Ticket access checked against Universal's General Admission, Early Access, Express and R.I.P. product terms; announcement and Express terms conflict on Hollywood Drift, while Early Access start times differ. Dining Pass eligibility is from Universal's August 24 food announcement. Universal's accessibility guidance: https://www.universalstudioshollywood.com/contentdata/ush/en/us/files/documents/universal_riders_guide.pdf . Do not infer that quiet rooms or queue accommodations are available on a particular HHN night without checking. The displayed $77–$109 General Admission band is an independent ticket-tracker snapshot, not a guaranteed checkout price. Check the 2026 edition source notes and selected ticket terms before purchase.",
     "reviewBy": "2026-12",
     "cycle": "annual"
   }

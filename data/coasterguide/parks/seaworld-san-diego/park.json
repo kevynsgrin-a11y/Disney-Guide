@@ -21,7 +21,7 @@
   "notIdealFor": ["Pure-thrill visitors expecting a coaster park", "Readers who want hard land maps", "Guests avoiding marine-animal venues on principle"],
   "stats": {
     "attractionCount": 7,
-    "ridesWithHeightRequirements": 2,
+    "ridesWithHeightRequirements": 5,
     "tallestRequirement": 54,
     "typicalFullDayHours": "7–9 hours",
     "minimumDaysRecommended": 1

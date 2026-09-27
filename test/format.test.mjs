@@ -3,13 +3,13 @@ import assert from 'node:assert/strict'
 
 import * as f from '../src/lib/format.mjs'
 
-test('height renders both units and handles no requirement', () => {
+test('height renders both units and leaves absent figures unverified', () => {
   assert.equal(f.height(44), '44in (112cm)')
   assert.equal(f.height(32), '32in (81cm)')
   assert.equal(f.height(48), '48in (122cm)')
-  assert.equal(f.height(null), 'Any height')
+  assert.equal(f.height(null), 'Height unverified')
   assert.equal(f.heightWords(40), '40 inches')
-  assert.equal(f.heightWords(null), 'no height requirement')
+  assert.equal(f.heightWords(null), 'height unverified')
 })
 
 test('price drops trailing zeros on whole dollars', () => {

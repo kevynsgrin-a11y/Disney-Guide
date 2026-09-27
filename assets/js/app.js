@@ -382,36 +382,53 @@
      after the three-second flight. Hidden tabs skip it so nothing launches when a reader returns. */
   /* ---------- Haunt countdown (view-time state, no intervals) ---------------- */
 
-  /*
-   * The build stamps each haunt card with confirmed ISO dates and a true static line. This upgrade
-   * replaces that line with live state computed from the visitor's clock — day-level only, computed
-   * once, no ticking, so there is nothing for prefers-reduced-motion to object to and nothing that
-   * can contradict the confirmed window above it.
-   */
+  /* Calendar-day arithmetic uses UTC only as a serial day number. The visitor's current instant
+     is first converted to the park's IANA zone, so DST and a distant viewer cannot shift a label. */
+  function dayNumber (iso) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || '')) return null
+    var ms = Date.parse(iso + 'T00:00:00Z')
+    if (isNaN(ms) || new Date(ms).toISOString().slice(0, 10) !== iso) return null
+    return ms / 86400000
+  }
+
+  function parkToday (now, timeZone) {
+    if (!timeZone || typeof Intl === 'undefined' || !Intl.DateTimeFormat) return null
+    try {
+      var parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: timeZone, year: 'numeric', month: '2-digit', day: '2-digit'
+      }).formatToParts(now)
+      var values = {}
+      parts.forEach(function (part) { values[part.type] = part.value })
+      var iso = values.year + '-' + values.month + '-' + values.day
+      var number = dayNumber(iso)
+      return number == null ? null : { iso: iso, number: number }
+    } catch (e) { return null } // Unknown zone or unavailable Intl: retain the true static label.
+  }
+
+  /* The build stamps confirmed ISO dates and a true static state line. This replaces it once at
+     view time; an unknown park zone leaves the static line untouched. */
   function initHauntCountdown () {
     var cards = document.querySelectorAll('[data-countdown]')
     if (!cards.length) return
     var now = new Date()
     var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    function day (iso) {
-      var d = new Date(iso + 'T00:00:00')
-      return isNaN(d) ? null : d
-    }
-    function shortDate (d) { return MONTHS[d.getMonth()] + ' ' + d.getDate() }
+    function shortDate (iso) { return MONTHS[Number(iso.slice(5, 7)) - 1] + ' ' + Number(iso.slice(8, 10)) }
     Array.prototype.forEach.call(cards, function (el) {
-      var start = day(el.getAttribute('data-start'))
-      var end = day(el.getAttribute('data-end'))
+      var startDate = el.getAttribute('data-start')
+      var endDate = el.getAttribute('data-end')
+      var start = dayNumber(startDate)
+      var end = dayNumber(endDate)
+      var today = parkToday(now, el.getAttribute('data-countdown-time-zone'))
       var state = el.querySelector('[data-countdown-state]')
-      if (!start || !end || !state) return
-      var endNext = new Date(end.getTime() + 86400000)
+      if (start == null || end == null || end < start || !today || !state) return
       var label, tone
-      if (now < start) {
-        var days = Math.ceil((start - now) / 86400000)
+      if (today.number < start) {
+        var days = start - today.number
         label = days > 1 ? 'Season begins in ' + days + ' days' : 'Season begins tomorrow'
         tone = days <= 14 ? 'soon' : 'ahead'
-      } else if (now < endNext) {
-        var left = Math.ceil((end - now) / 86400000)
-        label = left >= 2 ? 'Season underway · check event dates' : 'Season ends ' + shortDate(end) + ' · check dates'
+      } else if (today.number <= end) {
+        var left = end - today.number
+        label = left >= 2 ? 'Season underway · check event dates' : 'Season ends ' + shortDate(endDate) + ' · check dates'
         tone = 'live'
       } else {
         label = 'Ended for the season'
@@ -422,13 +439,14 @@
     })
   }
 
-  /* Static pages may be cached past Halloween. Retire seasonal home sections by the visitor's
-     local date even before the next build, while the build-month gate covers no-JS visitors. */
+  /* Cached homepages retire a seasonal section after the last represented park's local date.
+     Missing or invalid zones retain the static section until the next build. */
   function initSeasonExpiry () {
     var now = new Date()
-    var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0')
     Array.prototype.forEach.call(document.querySelectorAll('[data-season-until]'), function (el) {
-      if (today > el.getAttribute('data-season-until')) el.remove()
+      var until = el.getAttribute('data-season-until')
+      var today = parkToday(now, el.getAttribute('data-season-time-zone'))
+      if (today && dayNumber(until) != null && today.iso > until) el.remove()
     })
   }
 
