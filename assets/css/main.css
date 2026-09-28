@@ -1847,3 +1847,34 @@ h1, h2, h3, .hero__title, .spotlight__title, .timing-result__rank {
     100% { box-shadow: 0 0 0 0 rgba(232,161,60,0), 8px -8px 0 -6px rgba(246,233,201,0), -9px 5px 0 -6px rgba(232,161,60,0), 5px 9px 0 -6px rgba(246,233,201,0); }
   }
 }
+
+/* ---------- Mobile hardening: no horizontal document scroll ----------------
+ * Internal scroll surfaces (gantt-wrap, tables, chip rails) already scroll
+ * on their own; nothing legitimate needs document-level horizontal panning.
+ * `clip` (not `hidden`) so position: sticky keeps working and no scroll
+ * container is created. Kills the phantom ~194px rightward drift measured
+ * by the FOUNDRY viewport audit at 390px and 320px.
+ */
+html, body { overflow-x: clip; }
+
+/* ---------- Tap comfort at thumb widths --------------------------------------
+ * FOUNDRY counted 61 sub-44px targets on the home page at 390px: footer
+ * column links, card titles, gantt row labels, and the 38px header buttons.
+ * Boxes grow to 44px minimum; negative margins keep list rhythm unchanged.
+ */
+@media (max-width: 720px) {
+  .site-footer__col a,
+  .site-footer__legal a,
+  .card__title a,
+  .gantt__label a {
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+  }
+  .gantt__label a { display: inline-flex; }
+  .nav-toggle,
+  .icon-button {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
