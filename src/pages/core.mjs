@@ -604,15 +604,17 @@ export function companyPages (data, seasonal) {
         site,
         page: {
           url: urls.company(company.slug),
-          // "honestly compared: honest and unofficial" was a wording bug that
-          // read as a broken repeat; the tail names the hub's three sections
-          // (park cards, cross-park height table, company events) and assumes
-          // the events section exists — true for every company in site.json.
+          // The tail leads with the coaster count — numbers lift CTR on
+          // "six flags parks" queries — and names the live Fright Fest year.
+          // Both assume the events section exists, true for every company
+          // in site.json today.
           title: `${company.name} parks compared`,
-          titleTail: ': rides, heights & Fright Fest',
-          description: C.truncate(company.tagline, 155),
+          titleTail: `: ${coasters.length} coasters & Fright Fest 2026`,
+          description: frightEvents.length
+            ? `All ${parkList.length} ${company.name} parks compared — ${coasters.length} roller coasters, every height requirement, and Fright Fest 2026 dates and maze-pass costs at each park.`
+            : C.truncate(company.tagline, 155),
           trail,
-          modified: '2026-09-21',
+          modified: '2026-09-30',
         },
         body,
         schema: [
