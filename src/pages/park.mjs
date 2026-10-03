@@ -410,6 +410,17 @@ export function attractionPage (attraction, data) {
     })), { title: `More in ${park.name}` }) : ''}
   `
 
+  // Question-intent queries ("does X go upside down", "how long is X") land on
+  // attraction pages at positions 6-15 without clicking: the summary prose
+  // buries the two facts searchers ask about. Front-load the structured
+  // answers, and let an optional per-attraction titleTail override carry the
+  // answer into the title (same pattern as seasonal event titles).
+  const answers = []
+  if (attraction.goesUpsideDown === true) answers.push('goes upside down')
+  else if (attraction.goesUpsideDown === false) answers.push('never goes upside down')
+  if (attraction.durationMinutes != null) answers.push(`runs about ${attraction.durationMinutes} minutes`)
+  const answerLead = answers.length ? `${attraction.name} ${answers.join(', ')}. ` : ''
+
   return {
     url: attraction.url,
     html: renderPage({
@@ -419,8 +430,8 @@ export function attractionPage (attraction, data) {
         // The park must appear in the title: Space Mountain, Haunted Mansion, Pirates and a dozen
         // others exist at both resorts, and undifferentiated titles cannibalise each other.
         title: `${attraction.name} (${park.shortLabel})`,
-        titleTail: attraction.heightIn ? ': height & scares' : ': is it scary?',
-        description: C.truncate(`${attraction.summary} ${attraction.heightIn != null ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `Height requirement unverified at ${park.name}.`}`, 155),
+        titleTail: attraction.titleTail ?? (attraction.heightIn ? ': height & scares' : ': is it scary?'),
+        description: C.truncate(`${answerLead}${attraction.summary} ${attraction.heightIn != null ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `Height requirement unverified at ${park.name}.`}`, 155),
         trail,
         modified: `${attraction.lastVerified || '2026-07'}-01`,
         ogType: 'article',

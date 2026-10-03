@@ -1055,7 +1055,8 @@
         "harry-potter-and-the-forbidden-journey"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "titleTail": ": ride length"
     },
     {
       "slug": "harry-potter-and-the-forbidden-journey",
@@ -1842,7 +1843,8 @@
         "harry-potter-and-the-forbidden-journey"
       ],
       "image": null,
-      "lastVerified": "2026-09"
+      "lastVerified": "2026-09",
+      "titleTail": ": no inversions"
     },
     {
       "slug": "transformers-the-ride-3d",
@@ -1937,7 +1939,8 @@
         "the-simpsons-ride"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "titleTail": ": ride length"
     },
     {
       "slug": "raptor-encounter",
