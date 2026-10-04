@@ -65,6 +65,10 @@
       "typicalWait": "45–90 minutes midday in season; 10–20 at open.",
       "faqs": [
         {
+          "q": "How big is the drop on GhostRider?",
+          "a": "108 feet, taken in the dark out of the Ghost Town mountain and into the longest wooden-coaster course in California. Minimum height 48 inches."
+        },
+        {
           "q": "Is GhostRider rough?",
           "a": "Not anymore. The 2016 rebuild replaced the track, and the ride now runs smooth while keeping the wooden-coaster character. Pre-2016 stories of jackhammering are history."
         },
@@ -83,7 +87,8 @@
         "calico-mine-ride"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "titleTail": ": the wooden coaster (48in)"
     },
     {
       "slug": "hangtime",

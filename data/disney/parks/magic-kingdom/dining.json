@@ -1238,6 +1238,10 @@
       "verdict": "You are buying a room, and it is a spectacular room. The food is fine and the price is not — go for lunch if you want the castle without the dinner bill.",
       "faqs": [
         {
+          "q": "What are the three dining rooms at Be Our Guest Restaurant?",
+          "a": "The grand ballroom — painted sky ceiling with falling snow outside the windows — is the headliner; the west wing is darker, with a portrait that changes and a thunderstorm effect; and the rose gallery is the smaller, quieter third room. All three cost the same, and you can request a room when you check in: the ballroom is the one people book this restaurant for, while the west wing is atmospheric but dark and hard to photograph."
+        },
+        {
           "q": "How much does Be Our Guest cost?",
           "a": "Dinner is a prix fixe running roughly $62 to $72 per adult as of July 2026, before drinks and tax, with lower pricing for children. Lunch follows a similar format at a lower price."
         },
