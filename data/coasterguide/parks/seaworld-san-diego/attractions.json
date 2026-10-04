@@ -82,7 +82,8 @@
         "manta"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "titleTail": ": the 153-ft dive coaster"
     },
     {
       "slug": "electric-eel",
@@ -148,6 +149,10 @@
       "typicalWait": "25–50 minutes midday.",
       "faqs": [
         {
+          "q": "How fast is Electric Eel at SeaWorld San Diego?",
+          "a": "60 mph, reached on a triple launch that fires the train up a 150-foot twisted spike — you ride it backwards and forwards through the cycle, about 90 seconds in all and the park's most intense minute. Minimum height 54 inches."
+        },
+        {
           "q": "Is Electric Eel scary?",
           "a": "It is the most intense ride at the park — violent launches, a backwards section, and a 150-foot near-vertical spike. It is shorter than it feels and most riders exit buzzed rather than shaken, but motion-sensitive riders should respect it."
         },
@@ -165,7 +170,8 @@
         "tidal-twister"
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "titleTail": ": 150-ft spike, 60 mph"
     },
     {
       "slug": "manta",

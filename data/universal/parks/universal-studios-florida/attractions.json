@@ -773,6 +773,10 @@
       "typicalWait": "Usually 15 to 35 minutes, the lowest of any major attraction here, which tells you what guests think of it.",
       "faqs": [
         {
+          "q": "How long is Fast & Furious – Supercharged?",
+          "a": "About five minutes from load to unload. It is a party-bus dark ride: the vehicle never leaves the building, it drives past wraparound screens with the 3D action projected around you, so the runtime is spent entirely in set pieces rather than moving between them."
+        },
+        {
           "q": "Is there a height requirement for Fast & Furious – Supercharged?",
           "a": "Yes. Universal lists a 40-inch minimum; children from 40 to 48 inches need a supervising companion. The attraction is loud, and clearing the height rule does not guarantee a child will enjoy it."
         },
@@ -795,7 +799,8 @@
         "revenge-of-the-mummy"
       ],
       "image": null,
-      "lastVerified": "2026-09"
+      "lastVerified": "2026-09",
+      "titleTail": ": 5 minutes"
     },
     {
       "slug": "harry-potter-and-the-escape-from-gringotts",
