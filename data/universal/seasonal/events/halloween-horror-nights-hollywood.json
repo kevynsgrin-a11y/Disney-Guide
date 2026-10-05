@@ -290,6 +290,68 @@
         "sourceNote": "Verified September 26, 2026. Universal's September 4 opening announcement confirms 42 nights, eight houses, event entertainment and its stated Hollywood Drift product list: https://media.universalparksusa.com/press-releases/halloween-horror-nights-opens-at-universal-studios-hollywood-kicking-off-southern-californias-most-extreme-halloween-event-over-42-terrifying-nights-from-thursday-september-3-to-sunday-nov/ . Universal's 2026 lineup lists six scare zones: https://blog.discoveruniversal.com/events/halloween-horror-nights-2026-universal-studios-hollywood-lineup/ . Current General Admission terms https://res.vacations.universalstudioshollywood.com/FeatureInformation/FeatureInformation.aspx?RemoteSrc=UniMPCHollywood&Uniquer=HAODHTDUPRV1NONE0B01_0&Vendor=UNH and Express terms https://res.vacations.universalstudioshollywood.com/FeatureInformation/FeatureInformation.aspx?Dest=UV2&RemoteSrc=UniMPCHollywood&Uniquer=HAUEHTEUPRV1NONE0B01_0&Vendor=UNH include exclusions that conflict with parts of the announcement. Check the selected date and ticket confirmation.",
         "reviewBy": "2026-11",
         "cycle": "annual"
+      },
+      "titleTail": ": All 8 Houses & Dates",
+      "description": "All eight HHN Hollywood 2026 houses — Stranger Things 5, Sinners, Hellraiser, Ozzy, Evil Dead Burn, Killer Klowns, Killceañera, Dead Deader Deadest — plus dates.",
+      "lineup": {
+        "heading": "The eight houses, and where each one sits",
+        "intro": [
+          "Every 2026 house with the lot it sits on. The four Lower Lot houses group into one Starway trip; confirm each queue entrance in Universal's app when you arrive."
+        ],
+        "table": {
+          "caption": "HHN Hollywood 2026 houses, verified September 2026",
+          "columns": [
+            "House",
+            "Basis",
+            "Where"
+          ],
+          "rows": [
+            [
+              "Stranger Things 5",
+              "Netflix's Stranger Things, fifth season",
+              "Lower Lot"
+            ],
+            [
+              "Killer Klowns from Outer Space",
+              "The Killer Klowns film",
+              "Lower Lot"
+            ],
+            [
+              "Dead, Deader, Deadest",
+              "Original lineup entry",
+              "Lower Lot"
+            ],
+            [
+              "Ozzy Osbourne: Prince of Darkness",
+              "Ozzy Osbourne",
+              "Lower Lot"
+            ],
+            [
+              "Sinners",
+              "The film Sinners",
+              "Outside the Lower Lot cluster"
+            ],
+            [
+              "Hellraiser",
+              "The Hellraiser film franchise",
+              "Outside the Lower Lot cluster"
+            ],
+            [
+              "Evil Dead Burn",
+              "The Evil Dead franchise",
+              "Outside the Lower Lot cluster"
+            ],
+            [
+              "Killceañera: Music by Slash",
+              "Music by Slash",
+              "Outside the Lower Lot cluster"
+            ]
+          ]
+        },
+        "after": [
+          "Six scare zones — Fortnitemares, El Circo de la Muerte, Hackerz, Blood Bog, Shriek of the Banshee and Murder of Crowz — run across the event, plus roaming encounters and The Purge: Dangerous Waters stunt show in the WaterWorld theater.",
+          "The Terror Tram boards from the Upper Lot and stars Art the Clown. It is the event's signature and the one thing Orlando cannot copy."
+        ]
       }
     },
     {

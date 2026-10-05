@@ -145,8 +145,7 @@
       ],
       "bestTime": "The first two hours.",
       "typicalWait": "10–25 minutes.",
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "Is Coastersaurus scary?",
           "a": "No — this is the friendliest tier of wooden coaster. The drops are small, the speed is modest, and the animated dinosaurs give nervous riders something to look at between them. The roars are loud in a fun way, not a startling one."
@@ -160,10 +159,10 @@
           "a": "Front row for the dinosaurs — the faces and roars land best from there — and back row for the coaster feel, where each small drop reads a beat later and a touch faster. Both are right; the ride is short enough to try each."
         }
       ],
-            "relatedSlugs": [
-          "the-dragon",
-          "ninjago-the-ride"
-        ],
+      "relatedSlugs": [
+        "the-dragon",
+        "ninjago-the-ride"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -229,8 +228,7 @@
       ],
       "bestTime": "The first two hours after open.",
       "typicalWait": "The queue plus the drive runs 30–60 minutes at peak.",
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "What ages is Driving School for?",
           "a": "The experience is age-banded and the bands matter — the course assumes drivers who can reach the pedals and process the rules. Check the current bands on the park’s page before promising a four-year-old; the bands are adjusted seasonally."
@@ -244,7 +242,7 @@
           "a": "The drive itself is included with admission. The souvenir driver’s license at the end is a small upcharge — worth it as the artifact that outlives everything in the gift shop, but decide before the counter, not during."
         }
       ],
-            "relatedSlugs": [
+      "relatedSlugs": [
         "the-dragon",
         "fun-town-fire-academy"
       ],
@@ -312,8 +310,7 @@
       ],
       "bestTime": "Anytime; the queue moves in heats.",
       "typicalWait": "10–25 minutes.",
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "Do you get wet on Fun Town Fire Academy?",
           "a": "Yes — reliably misted at the water cannons, and the losing truck’s crew takes a spray as well. It is a participatory water-target race, not a ride you watch. On a hot afternoon this is half the reason to do it."
@@ -327,10 +324,10 @@
           "a": "A competitive family attraction that is genuinely both: your crew’s effort is the ride system — the truck moves only as fast as it is pumped. It is the participatory core that separates Legoland from standard family parks."
         }
       ],
-            "relatedSlugs": [
-          "driving-school",
-          "coastersaurus"
-        ],
+      "relatedSlugs": [
+        "driving-school",
+        "coastersaurus"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -396,8 +393,7 @@
       ],
       "bestTime": "Morning light, then again at dusk.",
       "typicalWait": null,
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "How long should we spend at Miniland USA?",
           "a": "Budget a full hour at a slow pace — the density is the attraction, and rushing it misses the jokes hidden in every scene. Families doing the detail-finding game comfortably use more; a walk-through alone uses less but wastes the exhibit."
@@ -411,7 +407,7 @@
           "a": "Late afternoon for the shaded, unhurried pass, then again after dark — the day-for-night lighting cycles and the lit cities make the evening version a different exhibit. The second pass costs only the walk."
         }
       ],
-            "relatedSlugs": [
+      "relatedSlugs": [
         "the-dragon",
         "coastersaurus"
       ],
@@ -479,8 +475,7 @@
       ],
       "bestTime": "Midday.",
       "typicalWait": "10–25 minutes.",
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "Is Deep Sea Adventure good for young kids?",
           "a": "Yes — it is the park’s most reliable under-eight attraction: slow, cool, enclosed, with porthole viewing at child height. Nothing startles, nothing splashes, and the real fish plus brick-built creatures hold attention through the full loop."
@@ -494,10 +489,10 @@
           "a": "Porthole seats, claimed quickly at boarding. Ask the ride hosts which portholes face the sunken-ship scene — they know, and they will tell you. Interior seats away from a viewport miss most of the ride."
         }
       ],
-            "relatedSlugs": [
-          "miniland-usa",
-          "ninjago-the-ride"
-        ],
+      "relatedSlugs": [
+        "miniland-usa",
+        "ninjago-the-ride"
+      ],
       "image": null,
       "lastVerified": "2026-07"
     },
@@ -562,8 +557,7 @@
       ],
       "bestTime": "Midday heat.",
       "typicalWait": "10–30 minutes.",
-      "faqs": [],
-"faqs": [
+      "faqs": [
         {
           "q": "How do you ‘shoot’ on NINJAGO The Ride?",
           "a": "With hand gestures — the sensors track your movements and translate big swipes into attacks on the screens. There are no physical blasters. Commit to full-arm ninja gestures: big movements score noticeably better than small ones."
@@ -577,12 +571,95 @@
           "a": "Yes: big committed gestures rather than flicks, and the left side of the vehicle — the sensor tracking reads large gestures marginally better there. The per-rider scoring makes it re-ridable: same course, better score."
         }
       ],
-            "relatedSlugs": [
+      "relatedSlugs": [
         "the-dragon",
         "deep-sea-adventure"
       ],
       "image": null,
       "lastVerified": "2026-07"
+    },
+    {
+      "slug": "captain-crankys-challenge",
+      "name": "Captain Cranky's Challenge",
+      "land": "pirate-shores",
+      "type": "boat-ride",
+      "opened": 2007,
+      "status": "open",
+      "closedNote": null,
+      "heightIn": 42,
+      "heightNote": "34 inches with a supervising companion; 42 inches to ride alone (LEGOLAND access guide).",
+      "durationMinutes": null,
+      "lightningLane": "none",
+      "singleRider": false,
+      "riderSwitch": false,
+      "virtualQueue": false,
+      "intensity": 1,
+      "scary": {
+        "score": 1,
+        "darkness": 1,
+        "drops": 1,
+        "speed": 2,
+        "loudness": 2,
+        "startles": 1,
+        "notes": "A Rockin'Tug-style pirate boat that rocks on a U-shaped track and spins gently as it goes. The thrill is the tilt, not the pace — the boat never inverts and never leaves the half-pipe."
+      },
+      "motionSickness": "low",
+      "getsWet": "none",
+      "indoorOutdoor": "outdoor",
+      "airConditioned": false,
+      "goesUpsideDown": false,
+      "goesBackwards": false,
+      "hasSeasonalOverlay": false,
+      "photoPass": false,
+      "accessibility": {
+        "transfer": "must-transfer",
+        "audioDescription": false,
+        "handheldCaptioning": false,
+        "assistiveListening": false,
+        "signLanguage": false,
+        "serviceAnimals": false,
+        "notes": "Transfer into the boat bench; continuous rocking motion throughout the cycle."
+      },
+      "tier": "minor",
+      "standalonePage": true,
+      "summary": "Pirate Shores' dry ride — a Rockin'Tug boat that rocks a U-track and spins, the 42-inch-and-up pirate badge for young riders.",
+      "description": [
+        "Captain Cranky's Challenge is the one dry ride in Pirate Shores: a tug-styled pirate boat that rocks back and forth along a short U-shaped half-pipe, adding a gentle spin as it swings. It opened with Pirate Shores in 2007 and has been the area's non-soaking option ever since — the ride you put the youngest pirates on while the rest of the party queues for Splash Battle.",
+        "The minimum is 34 inches riding with a supervising companion, or 42 inches to ride alone. The motion is mild — the boat tilts and rotates but never inverts and never builds real speed — which makes it the classic first 'big-kid ride' at Legoland: dramatic enough to feel earned, gentle enough that the height chart is the only real gate."
+      ],
+      "faqs": [
+        {
+          "q": "What is Captain Cranky's Challenge?",
+          "a": "A pirate-boat rocking ride in Legoland California's Pirate Shores — a Rockin'Tug-style attraction that swings along a U-shaped half-pipe and spins gently as it rocks. It's the dry option in an otherwise water-heavy area, opened with Pirate Shores in 2007."
+        },
+        {
+          "q": "What is the height requirement for Captain Cranky's Challenge?",
+          "a": "34 inches to ride with a supervising companion, 42 inches to ride alone, per Legoland's access guide. It's one of the friendlier minimums in the park and among the few rides that works for a just-turned-three pirate."
+        },
+        {
+          "q": "Do you get wet on Captain Cranky's Challenge?",
+          "a": "No — it's the dry ride of Pirate Shores. The soaking lives next door at Splash Battle and the Soak-N-Sail play structure; Cranky's is where the towels and the phone stay safe."
+        },
+        {
+          "q": "Is Captain Cranky's Challenge scary for little kids?",
+          "a": "Rarely. The boat rocks and tilts, which reads as adventure to almost every rider in its height band, and it never inverts or drops. Kids who object usually object to the spinning, which is gentle and short."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-10",
+      "experience": [
+        "The queue docks under Pirate Shores' mast rigging and loads a bench-style boat — parties sit together, smallest riders in the middle. The cycle is short: the tug rocks higher along the half-pipe with each pass, adding a slow rotation, so the horizon swings once per swing.",
+        "Peak tilt is the moment riders remember — the boat hangs at the top of the U for a beat before running back. It never inverts, never drops, and the spinning is slow enough that even motion-sensitive riders usually handle it. Two or three cycles of the half-pipe and it's back to the dock, conveniently close to the towel bag."
+      ],
+      "relatedSlugs": [
+        "the-dragon",
+        "driving-school"
+      ],
+      "tips": [
+        "Ride it before Splash Battle, not after — it is the only dry bench in Pirate Shores and the one place a phone is safe.",
+        "Under 42 inches means a supervising companion rides too; the bench seats a family of four without splitting.",
+        "Pair it with the Dragon in the first hour: Pirate Shores soaks build the afternoon queue, and Cranky stays walk-on longest before noon."
+      ]
     }
   ]
 }

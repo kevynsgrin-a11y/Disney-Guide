@@ -10,11 +10,17 @@
       "priceTier": "$$",
       "priceNote": "Burgers around $17 to $19, shakes around $9, a full meal about $28 per adult as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": false,
       "airConditioned": true,
       "indoorSeating": true,
@@ -34,7 +40,12 @@
         "Chili cheese fries",
         "Veggie burger"
       ],
-      "goodFor": ["families", "picky-eaters", "air-conditioned-break", "quick-bite"],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "air-conditioned-break",
+        "quick-bite"
+      ],
       "tips": [
         "Use mobile order through the app. The counter line at Mel's is one of the longest in the park at noon and the pickup window is not.",
         "Eat here at 11:15am or after 2pm. Between those hours it is the busiest quick-service location on the Upper Lot because of where it sits.",
@@ -54,6 +65,10 @@
         {
           "q": "Is Mel's Diner air conditioned?",
           "a": "Yes, with indoor booths and counter seating plus tables outside. It is one of the better indoor seating options near the park entrance, which makes it useful in the middle of a hot afternoon regardless of where you bought your food."
+        },
+        {
+          "q": "How much does a meal at Mel's Diner cost?",
+          "a": "Burgers run about $17 to $19, shakes about $9, and a full meal about $28 per adult, as of July 2026. It is quick-service pricing at the upper end of the park's range."
         }
       ],
       "image": null,
@@ -68,11 +83,18 @@
       "priceTier": "$$",
       "priceNote": "Mains around $18 to $22, a full meal about $30 per adult as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
       "alcohol": false,
       "airConditioned": true,
       "indoorSeating": true,
@@ -92,7 +114,13 @@
         "Chicken and waffle sliders",
         "Garden salad bowl"
       ],
-      "goodFor": ["families", "toddlers", "picky-eaters", "air-conditioned-break", "big-appetites"],
+      "goodFor": [
+        "families",
+        "toddlers",
+        "picky-eaters",
+        "air-conditioned-break",
+        "big-appetites"
+      ],
       "tips": [
         "Mobile order and skip the counter. This is one of the highest-traffic ordering areas in the park between noon and 2pm.",
         "The dining rooms extend further back than the entrance suggests. If the front looks full, walk through — there is usually seating at the rear.",
@@ -112,6 +140,10 @@
         {
           "q": "Are there gluten-free options?",
           "a": "Yes, there are gluten-free items on the menu and staff will talk through allergen information at the counter. Ask before ordering rather than after, since preparation varies by item."
+        },
+        {
+          "q": "How much is a meal at the Minion Cafe?",
+          "a": "Mains run about $18 to $22 and a full meal about $30 per adult, as of July 2026. It is priced with the park's other quick-service spots, with far more seating."
         }
       ],
       "image": null,
@@ -126,11 +158,19 @@
       "priceTier": "$",
       "priceNote": "Standard Starbucks menu pricing, broadly in line with locations outside the park as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "mealPeriods": [
+        "breakfast",
+        "snacks",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
       "alcohol": false,
       "airConditioned": true,
       "indoorSeating": false,
@@ -148,7 +188,12 @@
         "Breakfast sandwiches",
         "Refreshers"
       ],
-      "goodFor": ["quick-bite", "budget", "solo", "vegetarian"],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "vegetarian"
+      ],
       "tips": [
         "This is the cheapest drink in the park by a wide margin. If you need caffeine or cold liquid and not a souvenir, come here.",
         "Queue before 9:30am or after 3pm. The morning rush here is genuine and the line spills into the walkway.",
@@ -169,11 +214,15 @@
       "priceTier": "$",
       "priceNote": "Around $8 for a churro as of July 2026, noticeably above the Disneyland price for the same item",
       "priceVerified": "2026-07",
-      "mealPeriods": ["snacks"],
+      "mealPeriods": [
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": false,
       "airConditioned": false,
       "indoorSeating": false,
@@ -188,7 +237,11 @@
       "signatureItems": [
         "Cinnamon sugar churro"
       ],
-      "goodFor": ["quick-bite", "families", "vegetarian"],
+      "goodFor": [
+        "quick-bite",
+        "families",
+        "vegetarian"
+      ],
       "tips": [
         "Buy from a cart that is actively frying rather than one holding stock. The difference between a fresh churro and a warm one is the entire product.",
         "Carts near the entrance charge the same as carts deep in the park, but the ones near the entrance are always busier.",
@@ -209,11 +262,16 @@
       "priceTier": "$$",
       "priceNote": "Around $17 as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["snacks", "lunch"],
+      "mealPeriods": [
+        "snacks",
+        "lunch"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["gluten-free"],
+      "dietary": [
+        "gluten-free"
+      ],
       "alcohol": false,
       "airConditioned": false,
       "indoorSeating": false,
@@ -228,7 +286,11 @@
       "signatureItems": [
         "Smoked turkey leg"
       ],
-      "goodFor": ["big-appetites", "groups", "quick-bite"],
+      "goodFor": [
+        "big-appetites",
+        "groups",
+        "quick-bite"
+      ],
       "tips": [
         "Share it. One leg genuinely feeds two adults and nobody finishes one alone without regretting it.",
         "It tastes like ham, not turkey, because of the curing process. That is normal and not a fault with the one you bought.",
@@ -249,11 +311,17 @@
       "priceTier": "$$",
       "priceNote": "Burgers around $16 to $20; the Clogger with fries and a drink lands around $30 per adult as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": true,
       "airConditioned": true,
       "indoorSeating": true,
@@ -273,7 +341,13 @@
         "Curly fries",
         "Duff Beer"
       ],
-      "goodFor": ["families", "picky-eaters", "big-appetites", "air-conditioned-break", "groups"],
+      "goodFor": [
+        "families",
+        "picky-eaters",
+        "big-appetites",
+        "air-conditioned-break",
+        "groups"
+      ],
       "tips": [
         "Mobile order it. The counter queue in Springfield backs up badly at lunch and the pickup line moves far faster.",
         "The Clogger is a joke you eat rather than a burger you enjoy. Order it if that is the point of your visit and a standard burger if it is not.",
@@ -307,7 +381,11 @@
       "priceTier": "$$",
       "priceNote": "Chicken plates and sandwiches around $17 to $21 as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
@@ -330,7 +408,12 @@
         "Chicken tenders",
         "Waffle fries"
       ],
-      "goodFor": ["big-appetites", "families", "quick-bite", "groups"],
+      "goodFor": [
+        "big-appetites",
+        "families",
+        "quick-bite",
+        "groups"
+      ],
       "tips": [
         "Order the chicken and waffle. It is the best savory item in Springfield and most people walk past it to queue at Krusty Burger.",
         "The chicken is fried to order, so the wait at the window is longer than the queue length suggests. That is a good sign, not a bad one.",
@@ -364,11 +447,17 @@
       "priceTier": "$",
       "priceNote": "The Big Pink Donut around $13 as of July 2026; standard donuts considerably less",
       "priceVerified": "2026-07",
-      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "mealPeriods": [
+        "breakfast",
+        "snacks",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": false,
       "airConditioned": false,
       "indoorSeating": false,
@@ -386,7 +475,12 @@
         "Standard glazed donuts",
         "Iced coffee"
       ],
-      "goodFor": ["groups", "families", "quick-bite", "vegetarian"],
+      "goodFor": [
+        "groups",
+        "families",
+        "quick-bite",
+        "vegetarian"
+      ],
       "tips": [
         "Buy one for the group, not one each. It feeds three or four people comfortably and nobody finishes one alone.",
         "Photograph it under the statue. That is what you are buying, and everyone knows it.",
@@ -420,11 +514,16 @@
       "priceTier": "$$",
       "priceNote": "Flaming Moe around $16 with the souvenir glass, Duff Beer around $13 as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["all-day", "snacks"],
+      "mealPeriods": [
+        "all-day",
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": true,
       "airConditioned": true,
       "indoorSeating": true,
@@ -443,7 +542,13 @@
         "Duff Lite",
         "Bar snacks"
       ],
-      "goodFor": ["date-night", "groups", "air-conditioned-break", "solo", "late-night"],
+      "goodFor": [
+        "date-night",
+        "groups",
+        "air-conditioned-break",
+        "solo",
+        "late-night"
+      ],
       "tips": [
         "Order the Flaming Moe once. It is more effect than drink, and the souvenir glass is the actual product.",
         "Ask for it non-alcoholic if you want a child to have one. The dry-ice effect is identical and it is the most entertaining thing they will be handed all day.",
@@ -477,7 +582,10 @@
       "priceTier": "$$",
       "priceNote": "Duff Beer around $13, souvenir steins considerably more, as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["all-day", "snacks"],
+      "mealPeriods": [
+        "all-day",
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
@@ -499,7 +607,11 @@
         "Frozen cocktails",
         "Souvenir stein"
       ],
-      "goodFor": ["groups", "quick-bite", "solo"],
+      "goodFor": [
+        "groups",
+        "quick-bite",
+        "solo"
+      ],
       "tips": [
         "Come here when Moe's is full, not instead of it. The beer is the same and the room is the whole difference.",
         "The Seven Duffs statues are the photograph. They are easy to miss because everyone is looking at the bar.",
@@ -520,11 +632,18 @@
       "priceTier": "$",
       "priceNote": "Around $12 for a taco order as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "snacks"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
       "alcohol": false,
       "airConditioned": false,
       "indoorSeating": false,
@@ -541,7 +660,12 @@
         "Chicken tacos",
         "Vegetarian tacos"
       ],
-      "goodFor": ["quick-bite", "budget", "vegetarian", "solo"],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "vegetarian",
+        "solo"
+      ],
       "tips": [
         "This is the lightest thing to eat in Springfield by a wide margin. Use it if you have already eaten heavily once that day.",
         "The queue is almost always shorter than Krusty Burger's for a meal that arrives faster.",
@@ -562,11 +686,18 @@
       "priceTier": "$$",
       "priceNote": "Mains around $18 to $22; the shared Great Feast platter is considerably more, as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
       "alcohol": true,
       "airConditioned": true,
       "indoorSeating": true,
@@ -586,7 +717,13 @@
         "The Great Feast",
         "Butterbeer"
       ],
-      "goodFor": ["families", "groups", "air-conditioned-break", "big-appetites", "vegetarian"],
+      "goodFor": [
+        "families",
+        "groups",
+        "air-conditioned-break",
+        "big-appetites",
+        "vegetarian"
+      ],
       "tips": [
         "Mobile order and walk in. The counter queue at Three Broomsticks is one of the longest in the park at lunch, and the pickup window is far shorter.",
         "Eat here at 11:15am or after 2:15pm. Between those hours the Wizarding World is the most congested ground in the park and this room is the reason.",
@@ -625,11 +762,16 @@
       "priceTier": "$$",
       "priceNote": "Beers around $12 to $14, Butterbeer around $9, as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["all-day", "snacks"],
+      "mealPeriods": [
+        "all-day",
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": true,
       "airConditioned": true,
       "indoorSeating": true,
@@ -648,7 +790,13 @@
         "Frozen Butterbeer",
         "Cider"
       ],
-      "goodFor": ["date-night", "solo", "air-conditioned-break", "groups", "late-night"],
+      "goodFor": [
+        "date-night",
+        "solo",
+        "air-conditioned-break",
+        "groups",
+        "late-night"
+      ],
       "tips": [
         "Watch the hog's head above the bar. It moves when a specific tap is pulled, and most guests never notice it.",
         "This is the shortest Butterbeer queue in the Wizarding World for most of the day, because everyone else is at the outdoor cart.",
@@ -668,6 +816,10 @@
         {
           "q": "Are there beers you cannot get elsewhere?",
           "a": "Yes, there are Wizarding World exclusive drafts brewed for Universal alongside standard beers and ciders. It is the only bar inside this park with a list worth reading rather than a single tap."
+        },
+        {
+          "q": "How much are drinks at the Hog's Head?",
+          "a": "Beers run about $12 to $14 and Butterbeer about $9, as of July 2026. The shortest Butterbeer queue in Hogsmeade is usually here rather than the Three Broomsticks."
         }
       ],
       "image": null,
@@ -682,11 +834,16 @@
       "priceTier": "$",
       "priceNote": "Around $9 for cold or frozen Butterbeer, around $18 to $20 in a souvenir mug, as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["snacks", "all-day"],
+      "mealPeriods": [
+        "snacks",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian"],
+      "dietary": [
+        "vegetarian"
+      ],
       "alcohol": false,
       "airConditioned": false,
       "indoorSeating": false,
@@ -705,7 +862,12 @@
         "Hot Butterbeer",
         "Souvenir Butterbeer mug"
       ],
-      "goodFor": ["families", "quick-bite", "vegetarian", "groups"],
+      "goodFor": [
+        "families",
+        "quick-bite",
+        "vegetarian",
+        "groups"
+      ],
       "tips": [
         "Buy it at the Hog's Head instead. Same drink, air conditioning, and a queue that is usually a fraction of the length.",
         "Order the frozen version. The cold one is fine and the frozen one is the version that works in Los Angeles heat.",
@@ -726,11 +888,18 @@
       "priceTier": "$$",
       "priceNote": "Mains around $19 to $23, desserts around $12, a full meal about $35 per adult as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "recommended",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
       "alcohol": true,
       "airConditioned": true,
       "indoorSeating": true,
@@ -750,7 +919,13 @@
         "Piranha Plant caprese",
         "Question block tiramisu"
       ],
-      "goodFor": ["families", "special-occasion", "air-conditioned-break", "picky-eaters", "splurge"],
+      "goodFor": [
+        "families",
+        "special-occasion",
+        "air-conditioned-break",
+        "picky-eaters",
+        "splurge"
+      ],
       "tips": [
         "Sort this out early in the day. It runs on a queue or booking system through the app at busy times and it fills by lunchtime.",
         "The question block dessert is the item to order. It is the best-looking plate in the park and it tastes better than it needs to.",
@@ -789,11 +964,18 @@
       "priceTier": "$$",
       "priceNote": "Plates around $19 to $24 as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["lunch", "dinner", "all-day"],
+      "mealPeriods": [
+        "lunch",
+        "dinner",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": true,
       "diningPlan": false,
-      "dietary": ["vegetarian", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ],
       "alcohol": true,
       "airConditioned": false,
       "indoorSeating": false,
@@ -812,7 +994,12 @@
         "Cheeseburger",
         "Mac and cheese"
       ],
-      "goodFor": ["families", "big-appetites", "quick-bite", "groups"],
+      "goodFor": [
+        "families",
+        "big-appetites",
+        "quick-bite",
+        "groups"
+      ],
       "tips": [
         "Eat here rather than going back up the Starway for lunch. Four escalators each way costs you more than the meal quality difference is worth.",
         "Mobile order through the app. The counter here backs up around 12:30pm because it is the only real option on this level.",
@@ -846,7 +1033,10 @@
       "priceTier": "$$",
       "priceNote": "Cocktails around $17 to $19, beer around $13, as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["all-day", "snacks"],
+      "mealPeriods": [
+        "all-day",
+        "snacks"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
@@ -867,7 +1057,12 @@
         "Draft beer",
         "Specialty rum drinks"
       ],
-      "goodFor": ["groups", "date-night", "solo", "quick-bite"],
+      "goodFor": [
+        "groups",
+        "date-night",
+        "solo",
+        "quick-bite"
+      ],
       "tips": [
         "Do Jurassic World first, then come here. Wet clothes and a shaded seat with a cold drink is the correct order of operations.",
         "It is one of very few places to sit on the Lower Lot. Use it as a rest stop even if you only want a soft drink.",
@@ -888,11 +1083,19 @@
       "priceTier": "$",
       "priceNote": "Standard Starbucks menu pricing, broadly in line with locations outside the park as of July 2026",
       "priceVerified": "2026-07",
-      "mealPeriods": ["breakfast", "snacks", "all-day"],
+      "mealPeriods": [
+        "breakfast",
+        "snacks",
+        "all-day"
+      ],
       "reservations": "not-accepted",
       "mobileOrder": false,
       "diningPlan": false,
-      "dietary": ["vegetarian", "vegan", "gluten-free"],
+      "dietary": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
       "alcohol": false,
       "airConditioned": true,
       "indoorSeating": false,
@@ -910,7 +1113,12 @@
         "Refreshers",
         "Pastries"
       ],
-      "goodFor": ["quick-bite", "budget", "solo", "vegetarian"],
+      "goodFor": [
+        "quick-bite",
+        "budget",
+        "solo",
+        "vegetarian"
+      ],
       "tips": [
         "This is why you do not need to go back up for a drink. Plan a full Lower Lot morning knowing coffee and food are both available down here.",
         "Standard chain prices, unlike everything else at this park. It is the cheapest cold drink on the property.",

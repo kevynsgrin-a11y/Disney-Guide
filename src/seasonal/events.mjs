@@ -230,6 +230,15 @@ export function editionPage (event, edition, data) {
       `,
     })}
 
+    ${edition.lineup ? C.section({
+      title: edition.lineup.heading,
+      children: html`
+        ${(edition.lineup.intro || []).map((p) => html`<p>${inline(p)}</p>`)}
+        ${C.dataTable({ caption: edition.lineup.table.caption, columns: edition.lineup.table.columns, rows: edition.lineup.table.rows })}
+        ${(edition.lineup.after || []).map((p) => html`<p>${inline(p)}</p>`)}
+      `,
+    }) : ''}
+
     ${C.section({
       title: 'How the event works',
       intro: 'This part does not change year to year, so it is kept in one place.',
@@ -255,8 +264,8 @@ export function editionPage (event, edition, data) {
         // Fests, three Howl-O-Screams), and "Fright Fest 2026" x4 is four pages splitting one
         // search result. event.title carries the venue; the hero below stays short and human.
         title: `${event.title || event.name} ${edition.year}`,
-        titleTail: edition.status === 'announced' ? ': Dates & Prices' : ': What We Know',
-        description: `${edition.status === 'announced' ? 'Confirmed' : 'Expected'} detail for ${event.name} ${edition.year} — dates, nights, and pricing, with the confidence level stated on the page.`,
+        titleTail: edition.titleTail ?? (edition.status === 'announced' ? ': Dates & Prices' : ': What We Know'),
+        description: edition.description ?? `${edition.status === 'announced' ? 'Confirmed' : 'Expected'} detail for ${event.name} ${edition.year} — dates, nights, and pricing, with the confidence level stated on the page.`,
         trail: edition.breadcrumbTrail,
         modified: `${edition.freshness.verified}-01`,
         ogType: 'article',
