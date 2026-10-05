@@ -182,7 +182,7 @@ export const QUEUE_CLAIMS = {
  * which trains everyone to ignore the checker. Filling this in is a launch-gate item.
  */
 export const MUST_BE_CLOSED = {
-  'universal-studios-florida': ['hollywood rip ride rockit'],
+  'universal-studios-florida': ['hollywood rip ride rockit', 'fast & furious – supercharged'],
   'universal-studios-hollywood': ['fast & furious – supercharged', 'animal actors'],
 }
 

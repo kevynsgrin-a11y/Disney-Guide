@@ -713,11 +713,11 @@
       "land": "san-francisco",
       "type": "simulator",
       "opened": 2018,
-      "status": "open",
-      "closedNote": null,
+      "status": "closed",
+      "closedNote": "Closed permanently after August 16, 2026 — Universal moved the final day forward from its originally announced date in a July 15, 2026 announcement. The page stays up because it still answers what the ride was and what replaced the spot; anything describing it as operating is out of date.",
       "heightIn": 40,
       "heightNote": "Universal lists a 40-inch (102 cm) minimum. Children 40–48 inches require a supervising companion. Source: https://www.universalorlando.com/webdata/k2/en/us/files/Documents/universal-orlando-riders-guide.pdf (height requirements, verified September 26, 2026).",
-      "durationMinutes": 5,
+      "durationMinutes": null,
       "lightningLane": "multi-pass",
       "singleRider": false,
       "riderSwitch": false,
@@ -751,7 +751,7 @@
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "A party bus driven past wraparound screens for five minutes, with a 40-inch minimum and the weakest payoff at Universal Orlando.",
+      "summary": "Was a party-bus dark ride past wraparound screens — closed permanently on August 16, 2026.",
       "description": [
         "Fast & Furious – Supercharged opened in 2018 in the San Francisco waterfront buildings and is, by broad consensus, the weakest attraction at Universal Orlando. It puts you on a large party-bus vehicle which drives slowly into a tunnel of wraparound projection screens, and the screens do the work while the bus does very little.",
         "The queue is a long walk through a garage and a family gathering, with pre-show video sequences that take a considerable amount of time to set up a plot nobody needs. The ride itself runs about five minutes and consists mainly of watching a car chase happen to other people.",
@@ -773,28 +773,20 @@
       "typicalWait": "Usually 15 to 35 minutes, the lowest of any major attraction here, which tells you what guests think of it.",
       "faqs": [
         {
-          "q": "How long is Fast & Furious – Supercharged?",
-          "a": "About five minutes from load to unload. It is a party-bus dark ride: the vehicle never leaves the building, it drives past wraparound screens with the 3D action projected around you, so the runtime is spent entirely in set pieces rather than moving between them."
+          "q": "Is Fast & Furious – Supercharged still open at Universal Studios Florida?",
+          "a": "No. It closed permanently after August 16, 2026; Universal had announced the July-before date change on July 15, 2026. If a day's plan still lists it, the plan predates the closure."
+        },
+        {
+          "q": "How long was Fast & Furious – Supercharged?",
+          "a": "About five minutes from load to unload. It was a party-bus dark ride: the vehicle never left the building, driving past wraparound screens with the 3D action projected around you."
         },
         {
           "q": "Is there a height requirement for Fast & Furious – Supercharged?",
-          "a": "Yes. Universal lists a 40-inch minimum; children from 40 to 48 inches need a supervising companion. The attraction is loud, and clearing the height rule does not guarantee a child will enjoy it."
+          "a": "It had a 40-inch minimum while operating. With the ride closed the requirement is moot, but the figure stays documented for anyone comparing old trip reports."
         },
         {
-          "q": "Is Fast & Furious – Supercharged worth doing?",
-          "a": "Only when the wait is short. It is widely regarded as the weakest attraction at Universal Orlando, and the queue and pre-shows take longer than the ride. Its real value is as an air-conditioned sit-down for a mixed-ability group in the middle of a hot afternoon."
-        },
-        {
-          "q": "Can you stay in a wheelchair on Fast & Furious?",
-          "a": "Yes. The vehicle boards from a level platform and has designated wheelchair positions, so no transfer is required. Combined with the absence of restraints, it is one of the more straightforward attractions here for guests with limited mobility."
-        },
-        {
-          "q": "Will Fast & Furious make me motion sick?",
-          "a": "Less than the park's other screen rides, because the vehicle barely moves. Some guests still find the wraparound projection unsettling, particularly if they have already done Transformers or The Simpsons Ride, but this is the mildest of the screen attractions here."
-        },
-        {
-          "q": "Is there a Fast & Furious: Supercharged at Universal Studios Hollywood?",
-          "a": "No. The Hollywood version — the projected finale of the Studio Tour — closed permanently on March 10, 2025. Universal Studios Hollywood replaced it with Fast & Furious: Hollywood Drift, a standalone outdoor coaster that opened September 16, 2026 with four launches, three inversions, rotating cars and a 51-inch minimum. This page covers the Orlando ride, which remains open."
+          "q": "Will Fast & Furious – Supercharged come back?",
+          "a": "Universal has not announced a return; the closure was permanent. The Hollywood version of the same ride closed in March 2025 for Fast & Furious: Hollywood Drift — watch Universal's own announcements for what Orlando builds on the spot."
         }
       ],
       "relatedSlugs": [

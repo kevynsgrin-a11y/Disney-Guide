@@ -9,63 +9,90 @@
     {
       "label": "Theme park self-parking, per day",
       "resort": "walt-disney-world",
-      "rangeUsd": [30, 50],
+      "rangeUsd": [
+        30,
+        50
+      ],
       "asOf": "July 2026",
       "note": "Standard self-parking sits flat at the bottom of this band at all four theme parks and does not move with the date; preferred parking, closer to the entrance, is what creates the spread. Charged once per calendar day and valid at every theme park lot that day, so driving between parks costs nothing extra."
     },
     {
       "label": "Valet parking at a Disney-owned hotel, per night",
       "resort": "walt-disney-world",
-      "rangeUsd": [35, 45],
+      "rangeUsd": [
+        35,
+        45
+      ],
       "asOf": "July 2026",
       "note": "Available at the deluxe hotels only. Standard overnight self-parking at Disney-owned hotels carries no charge as of July 2026, so valet buys you a shorter walk and nothing else."
     },
     {
       "label": "Airport shared shuttle, round trip per adult",
       "resort": "walt-disney-world",
-      "rangeUsd": [32, 60],
+      "rangeUsd": [
+        32,
+        60
+      ],
       "asOf": "July 2026",
       "note": "Mears Connect is the successor to Disney's own airport coach, which ended in 2022. The bottom of the band is standard service with one or two stops; the top is the express upgrade, which runs direct. Children price below adults on both tiers."
     },
     {
       "label": "Rideshare between a Disney hotel and a theme park, one way",
       "resort": "walt-disney-world",
-      "rangeUsd": [12, 35],
+      "rangeUsd": [
+        12,
+        35
+      ],
       "asOf": "July 2026",
       "note": "Surge pricing in the 45 minutes after park close routinely pushes above the top of this band, and that is exactly when a family wants it. Budget the surge rather than the base fare if rideshare is your fallback plan."
     },
     {
       "label": "Rental car, per day, Orlando",
       "resort": "walt-disney-world",
-      "rangeUsd": [40, 90],
+      "rangeUsd": [
+        40,
+        90
+      ],
       "asOf": "July 2026",
       "note": "Before fuel and before the parking band above. A rental at the top of this band plus theme park parking costs a family more per day than Disney's own transport network, which is free and reaches every park from every Disney-owned hotel."
     },
     {
       "label": "Theme park self-parking, per day",
       "resort": "disneyland",
-      "rangeUsd": [35, 40],
+      "rangeUsd": [
+        35,
+        40
+      ],
       "asOf": "July 2026",
       "note": "Covers the Mickey and Friends structure, the Pixar Pals structure and the Toy Story lot, with the tram or shuttle included in the price. Preferred parking is sold in limited numbers above this band; we have not verified its current rate and are not going to print one."
     },
     {
       "label": "Self-parking at a Disneyland Resort hotel, per night",
       "resort": "disneyland",
-      "rangeUsd": [35, 70],
+      "rangeUsd": [
+        35,
+        70
+      ],
       "asOf": "July 2026",
       "note": "The three Disneyland Resort hotels charge for overnight parking separately from the room, which Walt Disney World does not, and valet sits at the top of this band. This is a real cost difference between the resorts that hotel comparisons routinely omit."
     },
     {
       "label": "Anaheim Resort Transportation pass, per person",
       "resort": "disneyland",
-      "rangeUsd": [6, 30],
+      "rangeUsd": [
+        6,
+        30
+      ],
       "asOf": "July 2026",
       "note": "Priced by pass length from one day to five days, with children and seniors below the adult rate. Most Good Neighbor hotels sit on a route. For a party of four staying a mile out, compare the multi-day pass total against the parking band above before deciding to drive."
     },
     {
       "label": "Rideshare between an Anaheim hotel and the resort drop-off, one way",
       "resort": "disneyland",
-      "rangeUsd": [10, 25],
+      "rangeUsd": [
+        10,
+        25
+      ],
       "asOf": "July 2026",
       "note": "Short journeys, so the base fare dominates and surge matters less than it does in Orlando. Two rideshare trips a day for four people still costs less than a day of parking plus the tram queue."
     }
@@ -144,6 +171,14 @@
     }
   ],
   "faqs": [
+    {
+      "q": "How much does it cost to park at Magic Kingdom?",
+      "a": "Standard self-parking at all four Walt Disney World theme parks — Magic Kingdom included — sits flat at the bottom of a $30–$50 per-day band and does not move with the date; preferred parking, closer to the entrance, is what creates the spread. The charge is once per calendar day and covers all four parks."
+    },
+    {
+      "q": "How much does it cost to park at a Disney hotel?",
+      "a": "Depends on the coast. At Walt Disney World, standard overnight self-parking at Disney-owned hotels carries no charge as of July 2026 — valet ($35–$45 a night at the deluxe hotels) buys a shorter walk and nothing else. At the Disneyland Resort the three hotels charge for overnight parking separately from the room, $35–$70 per night with valet at the top of that band."
+    },
     {
       "q": "Is parking free for Disney hotel guests?",
       "a": "At Walt Disney World, yes on both counts as of July 2026: standard overnight self-parking at Disney-owned hotels carries no charge, and theme park parking is included for registered guests. At the Disneyland Resort, no — the three Disneyland Resort hotels charge for overnight parking separately from the room, at $35 to $70 a night including valet, and theme park parking is charged as normal."
