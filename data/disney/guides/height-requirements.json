@@ -7,7 +7,7 @@
   "category": "families",
   "readingTimeMinutes": 12,
   "intro": [
-    "There are 45 height-restricted attractions across the six US Disney parks, and the difference between a good family trip and a miserable one often comes down to knowing which side of a threshold your child sits on before you book flights. Every requirement at both resorts is listed below, taken from the current posted signage as of July 2026.",
+    "There are 44 height-restricted ride entries across the six US Disney parks (45 published minimums — two rides post split requirements by side), and the difference between a good family trip and a miserable one often comes down to knowing which side of a threshold your child sits on before you book flights. Every requirement at both resorts is listed below, taken from the current posted signage as of July 2026.",
     "Two numbers matter more than the rest. Forty inches is the biggest single jump in the chart — clearing it unlocks 19 attractions in one step, more than any other threshold, and it is the line between riding family attractions and riding headliners. Thirty-eight inches is the second, because it opens Seven Dwarfs Mine Train, Slinky Dog Dash, and, since May 2026, Big Thunder Mountain Railroad at Magic Kingdom.",
     "Two things to know before you read the tables. Both resorts measure with shoes on and hats off, against a fixed stick, at the attraction entrance — so a chunky sole is legitimate and a spiky hairstyle is not. And a child measured at 8 AM is measurably taller than the same child at 8 PM, because spines compress over a long day on your feet. If your kid is within a quarter inch of a threshold, ride that attraction in the morning.",
     "Requirements do change. Big Thunder Mountain Railroad at Magic Kingdom dropped from 40 inches to 38 inches when it reopened on 3 May 2026, which is a rare and welcome direction of travel. Anything you read that predates that is wrong about the most family-relevant coaster in Florida."
@@ -290,7 +290,7 @@
       "id": "milestones",
       "heading": "What a child can ride at each height",
       "body": [
-        "This is the table most parents actually want. Each row shows what newly opens up at that height, and the running total counts every height-restricted attraction across all six parks that a child of that height can board. The two split-requirement attractions — Mission: SPACE and Silly Symphony Swings — appear at both of their thresholds, which is why the final total is 42 rather than 40.",
+        "This is the table most parents actually want. Each row shows what newly opens up at that height, and the running total counts every height-restricted attraction across all six parks that a child of that height can board. Totals count each park's version once at its lowest requirement — the taller sides of the two split-requirement attractions add options, not new rides, so the final total is 44 park-attraction pairs from 45 published minimums.",
         "Keep the denominator in mind. Even a child too short for every one of these can ride the great majority of attractions at both resorts: every dark ride at Fantasyland, every boat, every train, every show, Pirates, Haunted Mansion, Jungle Cruise, the carousels, the spinners, the safari, and the entire World Showcase. The height chart describes the exceptions, not the parks."
       ],
       "list": null,
@@ -305,47 +305,47 @@
           [
             "Under 32in",
             "Nothing on the height chart — but well over a hundred unrestricted attractions across the six parks",
-            "0 of 42"
+            "0 of 44"
           ],
           [
             "32in",
-            "Tomorrowland Speedway (MK), Alien Swirling Saucers (DHS), Autopia (DL)",
-            "3 of 42"
+            "Tomorrowland Speedway (MK), Alien Swirling Saucers (DHS), Autopia (DL), Mater's Junkyard Jamboree (DCA), Luigi's Rollickin' Roadsters (DCA)",
+            "5 of 44"
           ],
           [
             "35in",
             "The Barnstormer (MK), Gadget's Go Coaster (DL)",
-            "5 of 42"
+            "7 of 44"
           ],
           [
             "38in",
             "Seven Dwarfs Mine Train (MK), Big Thunder Mountain Railroad (MK), Slinky Dog Dash (DHS), Millennium Falcon: Smugglers Run (DHS), Kali River Rapids (DAK)",
-            "10 of 42"
+            "12 of 44"
           ],
           [
             "40in",
             "Tiana's Bayou Adventure (MK and DL), Soarin' Around the World, Test Track, Mission: SPACE Green (EPCOT), Star Tours, Rise of the Resistance (DHS and DL), Tower of Terror (DHS), Big Thunder Mountain Railroad (DL), Space Mountain (DL), Millennium Falcon: Smugglers Run (DL), Jumpin' Jellyfish, Silly Symphony Swings, Inside Out Emotional Whirlwind, Mission: BREAKOUT!, Radiator Springs Racers (DCA)",
-            "27 of 42"
+            "31 of 44"
           ],
           [
             "42in",
             "Guardians of the Galaxy: Cosmic Rewind (EPCOT), Matterhorn Bobsleds (DL), Goofy's Sky School, Grizzly River Run, Golden Zephyr, Redwood Creek zip line (DCA)",
-            "33 of 42"
+            "37 of 44"
           ],
           [
             "44in",
             "Space Mountain (MK), Mission: SPACE Orange (EPCOT), Avatar Flight of Passage, Expedition Everest (DAK)",
-            "37 of 42"
+            "40 of 44"
           ],
           [
             "46in",
             "Indiana Jones Adventure (DL)",
-            "38 of 42"
+            "41 of 44"
           ],
           [
             "48in",
             "TRON Lightcycle / Run (MK), Rock 'n' Roller Coaster Starring The Muppets (DHS), Incredicoaster (DCA), the solo and tandem variation of Silly Symphony Swings (DCA)",
-            "42 of 42"
+            "44 of 44"
           ]
         ]
       },
