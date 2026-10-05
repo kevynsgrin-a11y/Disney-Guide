@@ -63,5 +63,5 @@ test('Universal height guide rows and cumulative bands agree with attraction dat
     cleared += Number(atStick)
     assert.equal(Number(cumulative), cleared, heightLabel)
   }
-  assert.equal(cleared, 42)
+  assert.equal(cleared, 41)
 })

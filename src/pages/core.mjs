@@ -473,7 +473,7 @@ export function parksIndexPage (data) {
       page: {
         url: urls.parksIndex(),
         title: `All ${data.parks.length} parks compared`,
-        description: `Attraction counts, height requirements, and how long each of the ${data.parks.length} parks actually takes — with a link to the full guide for every one.`,
+        description: `Every park\u0027s sections and lands compared: attraction counts, height requirements, and how long each of the ${data.parks.length} parks actually takes — with the full guide for every one.`,
         trail,
         modified: '2026-07-01',
       },
