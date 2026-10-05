@@ -32,29 +32,117 @@
       "list": null,
       "table": {
         "caption": "Walt Disney World height requirements, verified July 2026",
-        "columns": ["Park", "Attraction", "Height"],
+        "columns": [
+          "Park",
+          "Attraction",
+          "Height"
+        ],
         "rows": [
-          ["Magic Kingdom", "Tomorrowland Speedway", "32in (54in to drive alone)"],
-          ["Magic Kingdom", "The Barnstormer", "35in"],
-          ["Magic Kingdom", "Seven Dwarfs Mine Train", "38in"],
-          ["Magic Kingdom", "Big Thunder Mountain Railroad", "38in (reduced from 40in on 3 May 2026)"],
-          ["Magic Kingdom", "Tiana's Bayou Adventure", "40in"],
-          ["Magic Kingdom", "Space Mountain", "44in"],
-          ["Magic Kingdom", "TRON Lightcycle / Run", "48in"],
-          ["EPCOT", "Soarin' Around the World", "40in"],
-          ["EPCOT", "Test Track", "40in"],
-          ["EPCOT", "Mission: SPACE", "40in (Green) / 44in (Orange)"],
-          ["EPCOT", "Guardians of the Galaxy: Cosmic Rewind", "42in"],
-          ["Hollywood Studios", "Alien Swirling Saucers", "32in"],
-          ["Hollywood Studios", "Slinky Dog Dash", "38in"],
-          ["Hollywood Studios", "Millennium Falcon: Smugglers Run", "38in"],
-          ["Hollywood Studios", "Star Tours", "40in"],
-          ["Hollywood Studios", "Star Wars: Rise of the Resistance", "40in"],
-          ["Hollywood Studios", "The Twilight Zone Tower of Terror", "40in"],
-          ["Hollywood Studios", "Rock 'n' Roller Coaster Starring The Muppets", "48in"],
-          ["Animal Kingdom", "Kali River Rapids", "38in"],
-          ["Animal Kingdom", "Avatar Flight of Passage", "44in"],
-          ["Animal Kingdom", "Expedition Everest", "44in"]
+          [
+            "Magic Kingdom",
+            "Tomorrowland Speedway",
+            "32in (54in to drive alone)"
+          ],
+          [
+            "Magic Kingdom",
+            "The Barnstormer",
+            "35in"
+          ],
+          [
+            "Magic Kingdom",
+            "Seven Dwarfs Mine Train",
+            "38in"
+          ],
+          [
+            "Magic Kingdom",
+            "Big Thunder Mountain Railroad",
+            "38in (reduced from 40in on 3 May 2026)"
+          ],
+          [
+            "Magic Kingdom",
+            "Tiana's Bayou Adventure",
+            "40in"
+          ],
+          [
+            "Magic Kingdom",
+            "Space Mountain",
+            "44in"
+          ],
+          [
+            "Magic Kingdom",
+            "TRON Lightcycle / Run",
+            "48in"
+          ],
+          [
+            "EPCOT",
+            "Soarin' Around the World",
+            "40in"
+          ],
+          [
+            "EPCOT",
+            "Test Track",
+            "40in"
+          ],
+          [
+            "EPCOT",
+            "Mission: SPACE",
+            "40in (Green) / 44in (Orange)"
+          ],
+          [
+            "EPCOT",
+            "Guardians of the Galaxy: Cosmic Rewind",
+            "42in"
+          ],
+          [
+            "Hollywood Studios",
+            "Alien Swirling Saucers",
+            "32in"
+          ],
+          [
+            "Hollywood Studios",
+            "Slinky Dog Dash",
+            "38in"
+          ],
+          [
+            "Hollywood Studios",
+            "Millennium Falcon: Smugglers Run",
+            "38in"
+          ],
+          [
+            "Hollywood Studios",
+            "Star Tours",
+            "40in"
+          ],
+          [
+            "Hollywood Studios",
+            "Star Wars: Rise of the Resistance",
+            "40in"
+          ],
+          [
+            "Hollywood Studios",
+            "The Twilight Zone Tower of Terror",
+            "40in"
+          ],
+          [
+            "Hollywood Studios",
+            "Rock 'n' Roller Coaster Starring The Muppets",
+            "48in"
+          ],
+          [
+            "Animal Kingdom",
+            "Kali River Rapids",
+            "38in"
+          ],
+          [
+            "Animal Kingdom",
+            "Avatar Flight of Passage",
+            "44in"
+          ],
+          [
+            "Animal Kingdom",
+            "Expedition Everest",
+            "44in"
+          ]
         ]
       },
       "callout": null
@@ -69,27 +157,127 @@
       "list": null,
       "table": {
         "caption": "Disneyland Resort height requirements, verified July 2026",
-        "columns": ["Park", "Attraction", "Height"],
+        "columns": [
+          "Park",
+          "Attraction",
+          "Height"
+        ],
         "rows": [
-          ["Disneyland Park", "Autopia", "32in (54in to drive alone)"],
-          ["Disneyland Park", "Gadget's Go Coaster", "35in"],
-          ["Disneyland Park", "Big Thunder Mountain Railroad", "40in"],
-          ["Disneyland Park", "Space Mountain", "40in"],
-          ["Disneyland Park", "Tiana's Bayou Adventure", "40in"],
-          ["Disneyland Park", "Star Wars: Rise of the Resistance", "40in"],
-          ["Disneyland Park", "Millennium Falcon: Smugglers Run", "40in"],
-          ["Disneyland Park", "Matterhorn Bobsleds", "42in"],
-          ["Disneyland Park", "Indiana Jones Adventure", "46in"],
-          ["California Adventure", "Jumpin' Jellyfish", "40in"],
-          ["California Adventure", "Silly Symphony Swings", "40in (48in for the solo and tandem variation)"],
-          ["California Adventure", "Inside Out Emotional Whirlwind", "40in"],
-          ["California Adventure", "Guardians of the Galaxy - Mission: BREAKOUT!", "40in"],
-          ["California Adventure", "Radiator Springs Racers", "40in"],
-          ["California Adventure", "Goofy's Sky School", "42in"],
-          ["California Adventure", "Grizzly River Run", "42in"],
-          ["California Adventure", "Golden Zephyr", "42in"],
-          ["California Adventure", "Redwood Creek Challenge Trail (zip line)", "42-63in, and under 13 years old"],
-          ["California Adventure", "Incredicoaster", "48in"]
+          [
+            "Disneyland Park",
+            "Autopia",
+            "32in (54in to drive alone)"
+          ],
+          [
+            "Disneyland Park",
+            "Gadget's Go Coaster",
+            "35in"
+          ],
+          [
+            "Disneyland Park",
+            "Big Thunder Mountain Railroad",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Space Mountain",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Tiana's Bayou Adventure",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Star Wars: Rise of the Resistance",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Millennium Falcon: Smugglers Run",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Star Tours: The Adventures Continue",
+            "40in"
+          ],
+          [
+            "Disneyland Park",
+            "Matterhorn Bobsleds",
+            "42in"
+          ],
+          [
+            "Disneyland Park",
+            "Indiana Jones Adventure",
+            "46in"
+          ],
+          [
+            "California Adventure",
+            "Mater's Junkyard Jamboree",
+            "32in"
+          ],
+          [
+            "California Adventure",
+            "Luigi's Rollickin' Roadsters",
+            "32in"
+          ],
+          [
+            "California Adventure",
+            "Jumpin' Jellyfish",
+            "40in"
+          ],
+          [
+            "California Adventure",
+            "Silly Symphony Swings",
+            "40in (48in for the solo and tandem variation)"
+          ],
+          [
+            "California Adventure",
+            "Inside Out Emotional Whirlwind",
+            "40in"
+          ],
+          [
+            "California Adventure",
+            "Soarin' Around the World",
+            "40in"
+          ],
+          [
+            "California Adventure",
+            "Guardians of the Galaxy - Mission: BREAKOUT!",
+            "40in"
+          ],
+          [
+            "California Adventure",
+            "Radiator Springs Racers",
+            "40in"
+          ],
+          [
+            "California Adventure",
+            "Goofy's Sky School",
+            "42in"
+          ],
+          [
+            "California Adventure",
+            "Grizzly River Run",
+            "42in"
+          ],
+          [
+            "California Adventure",
+            "Golden Zephyr",
+            "42in"
+          ],
+          [
+            "California Adventure",
+            "Redwood Creek Challenge Trail (zip line)",
+            "42-63in, and under 13 years old"
+          ],
+          [
+            "California Adventure",
+            "Incredicoaster",
+            "48in"
+          ]
         ]
       },
       "callout": {
@@ -108,17 +296,57 @@
       "list": null,
       "table": {
         "caption": "Height milestones and what each one unlocks",
-        "columns": ["Height", "Newly unlocked", "Running total"],
+        "columns": [
+          "Height",
+          "Newly unlocked",
+          "Running total"
+        ],
         "rows": [
-          ["Under 32in", "Nothing on the height chart — but well over a hundred unrestricted attractions across the six parks", "0 of 42"],
-          ["32in", "Tomorrowland Speedway (MK), Alien Swirling Saucers (DHS), Autopia (DL)", "3 of 42"],
-          ["35in", "The Barnstormer (MK), Gadget's Go Coaster (DL)", "5 of 42"],
-          ["38in", "Seven Dwarfs Mine Train (MK), Big Thunder Mountain Railroad (MK), Slinky Dog Dash (DHS), Millennium Falcon: Smugglers Run (DHS), Kali River Rapids (DAK)", "10 of 42"],
-          ["40in", "Tiana's Bayou Adventure (MK and DL), Soarin' Around the World, Test Track, Mission: SPACE Green (EPCOT), Star Tours, Rise of the Resistance (DHS and DL), Tower of Terror (DHS), Big Thunder Mountain Railroad (DL), Space Mountain (DL), Millennium Falcon: Smugglers Run (DL), Jumpin' Jellyfish, Silly Symphony Swings, Inside Out Emotional Whirlwind, Mission: BREAKOUT!, Radiator Springs Racers (DCA)", "27 of 42"],
-          ["42in", "Guardians of the Galaxy: Cosmic Rewind (EPCOT), Matterhorn Bobsleds (DL), Goofy's Sky School, Grizzly River Run, Golden Zephyr, Redwood Creek zip line (DCA)", "33 of 42"],
-          ["44in", "Space Mountain (MK), Mission: SPACE Orange (EPCOT), Avatar Flight of Passage, Expedition Everest (DAK)", "37 of 42"],
-          ["46in", "Indiana Jones Adventure (DL)", "38 of 42"],
-          ["48in", "TRON Lightcycle / Run (MK), Rock 'n' Roller Coaster Starring The Muppets (DHS), Incredicoaster (DCA), the solo and tandem variation of Silly Symphony Swings (DCA)", "42 of 42"]
+          [
+            "Under 32in",
+            "Nothing on the height chart — but well over a hundred unrestricted attractions across the six parks",
+            "0 of 42"
+          ],
+          [
+            "32in",
+            "Tomorrowland Speedway (MK), Alien Swirling Saucers (DHS), Autopia (DL)",
+            "3 of 42"
+          ],
+          [
+            "35in",
+            "The Barnstormer (MK), Gadget's Go Coaster (DL)",
+            "5 of 42"
+          ],
+          [
+            "38in",
+            "Seven Dwarfs Mine Train (MK), Big Thunder Mountain Railroad (MK), Slinky Dog Dash (DHS), Millennium Falcon: Smugglers Run (DHS), Kali River Rapids (DAK)",
+            "10 of 42"
+          ],
+          [
+            "40in",
+            "Tiana's Bayou Adventure (MK and DL), Soarin' Around the World, Test Track, Mission: SPACE Green (EPCOT), Star Tours, Rise of the Resistance (DHS and DL), Tower of Terror (DHS), Big Thunder Mountain Railroad (DL), Space Mountain (DL), Millennium Falcon: Smugglers Run (DL), Jumpin' Jellyfish, Silly Symphony Swings, Inside Out Emotional Whirlwind, Mission: BREAKOUT!, Radiator Springs Racers (DCA)",
+            "27 of 42"
+          ],
+          [
+            "42in",
+            "Guardians of the Galaxy: Cosmic Rewind (EPCOT), Matterhorn Bobsleds (DL), Goofy's Sky School, Grizzly River Run, Golden Zephyr, Redwood Creek zip line (DCA)",
+            "33 of 42"
+          ],
+          [
+            "44in",
+            "Space Mountain (MK), Mission: SPACE Orange (EPCOT), Avatar Flight of Passage, Expedition Everest (DAK)",
+            "37 of 42"
+          ],
+          [
+            "46in",
+            "Indiana Jones Adventure (DL)",
+            "38 of 42"
+          ],
+          [
+            "48in",
+            "TRON Lightcycle / Run (MK), Rock 'n' Roller Coaster Starring The Muppets (DHS), Incredicoaster (DCA), the solo and tandem variation of Silly Symphony Swings (DCA)",
+            "42 of 42"
+          ]
         ]
       },
       "callout": {
@@ -198,14 +426,42 @@
       "list": null,
       "table": {
         "caption": "Attractions with more than one height rule",
-        "columns": ["Attraction", "Park", "The rule"],
+        "columns": [
+          "Attraction",
+          "Park",
+          "The rule"
+        ],
         "rows": [
-          ["Tomorrowland Speedway", "Magic Kingdom", "32in to ride as a passenger, 54in to drive alone"],
-          ["Autopia", "Disneyland Park", "32in to ride as a passenger, 54in to drive alone"],
-          ["Mission: SPACE", "EPCOT", "40in for the Green version, 44in for the Orange version"],
-          ["Silly Symphony Swings", "California Adventure", "40in standard, 48in for the solo and tandem variation"],
-          ["Redwood Creek Challenge Trail zip line", "California Adventure", "42-63in and under 13 years old — the only maximum height at either resort"],
-          ["Big Thunder Mountain Railroad", "Magic Kingdom vs Disneyland Park", "38in in Florida, 40in in California, for what is nominally the same ride"]
+          [
+            "Tomorrowland Speedway",
+            "Magic Kingdom",
+            "32in to ride as a passenger, 54in to drive alone"
+          ],
+          [
+            "Autopia",
+            "Disneyland Park",
+            "32in to ride as a passenger, 54in to drive alone"
+          ],
+          [
+            "Mission: SPACE",
+            "EPCOT",
+            "40in for the Green version, 44in for the Orange version"
+          ],
+          [
+            "Silly Symphony Swings",
+            "California Adventure",
+            "40in standard, 48in for the solo and tandem variation"
+          ],
+          [
+            "Redwood Creek Challenge Trail zip line",
+            "California Adventure",
+            "42-63in and under 13 years old — the only maximum height at either resort"
+          ],
+          [
+            "Big Thunder Mountain Railroad",
+            "Magic Kingdom vs Disneyland Park",
+            "38in in Florida, 40in in California, for what is nominally the same ride"
+          ]
         ]
       },
       "callout": null
@@ -272,6 +528,11 @@
       "a": "Height is a restraint-fit measurement, not a readiness assessment, and the two are unrelated. A just-tall-enough child can legally board Tower of Terror or Expedition Everest and have a genuinely bad time. Read our guide to what frightens young children and use that to decide, then use Rider Switch so nobody in the party misses out either way."
     }
   ],
-  "related": ["rider-switch", "is-it-scary", "motion-sickness", "first-disney-trip"],
+  "related": [
+    "rider-switch",
+    "is-it-scary",
+    "motion-sickness",
+    "first-disney-trip"
+  ],
   "lastVerified": "2026-07"
 }
