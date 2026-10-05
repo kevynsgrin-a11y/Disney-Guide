@@ -373,6 +373,31 @@ async function validateEvents (s1Urls, s1Data) {
       }
       if (ed.priceRangeUsd != null) checkRange(ed.priceRangeUsd, scope, 'priceRangeUsd')
       if (edFr) checkNoExactDates(ed, scope, edFr.confidence)
+      // Optional per-edition SERP overrides: a lineup year can front its list intent in the
+      // title tail and description instead of the generic "Dates & Prices" shape.
+      if (ed.titleTail != null && (typeof ed.titleTail !== 'string' || ed.titleTail.length > 24)) {
+        err(scope, `"titleTail" must be a string of at most 24 chars (got ${JSON.stringify(ed.titleTail)})`)
+      }
+      if (ed.description != null && (typeof ed.description !== 'string' || ed.description.length < 80 || ed.description.length > 175)) {
+        err(scope, `"description" override must be a string of 80–175 chars`)
+      }
+      if (ed.lineup != null) {
+        const L = ed.lineup
+        if (!L.heading || typeof L.heading !== 'string') err(scope, 'lineup needs a string "heading"')
+        if (L.intro != null && (!Array.isArray(L.intro) || !L.intro.length || L.intro.some((p) => typeof p !== 'string'))) {
+          err(scope, 'lineup "intro" must be a non-empty array of strings when present')
+        }
+        if (L.after != null && (!Array.isArray(L.after) || !L.after.length || L.after.some((p) => typeof p !== 'string'))) {
+          err(scope, 'lineup "after" must be a non-empty array of strings when present')
+        }
+        if (!L.table || !Array.isArray(L.table.columns) || !L.table.columns.length || !Array.isArray(L.table.rows) || !L.table.rows.length) {
+          err(scope, 'lineup needs a "table" with non-empty "columns" and "rows"')
+        } else if (typeof L.table.caption !== 'string' || !L.table.caption) {
+          err(scope, 'lineup "table" needs a "caption"')
+        } else if (L.table.rows.some((r) => !Array.isArray(r) || r.length !== L.table.columns.length)) {
+          err(scope, 'every lineup table row must match the columns length')
+        }
+      }
     }
   }
   return slugs

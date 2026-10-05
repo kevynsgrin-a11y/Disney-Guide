@@ -501,6 +501,19 @@
             "href": "/tools/day-blueprint/"
           }
         ]
+      },
+      {
+        "heading": "Our park-guide network",
+        "links": [
+          {
+            "label": "Hollywood Ride Guide (Universal parks)",
+            "href": "https://hollywoodrideguide.com/"
+          },
+          {
+            "label": "CoasterReady (coaster parks)",
+            "href": "https://coasterready.com/"
+          }
+        ]
       }
     ]
   },
@@ -539,7 +552,9 @@
     "token": "",
     "enabled": false,
     "gtagId": "G-R1M0P37E6X",
-    "gtagRollupIds": ["G-7J3HL1X7EX"],
+    "gtagRollupIds": [
+      "G-7J3HL1X7EX"
+    ],
     "note": "Aggregate, cookieless Cloudflare Web Analytics behind the first-party consent gate in assets/js/analytics.js. Paste the site token from the Web Analytics dashboard and set enabled=true; the privacy page copy flips with it. gtagId is the site's own GA4 property and gtagRollupIds the cross-site roll-up stream(s); src/lib/ga4.mjs turns them into one gtag.js loader plus the same-origin /ga4.js config that the CSP allows."
   },
   "operator": "disney",
