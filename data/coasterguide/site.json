@@ -510,6 +510,19 @@
             "href": "/six-flags/"
           }
         ]
+      },
+      {
+        "heading": "Our park-guide network",
+        "links": [
+          {
+            "label": "Hollywood Ride Guide (Universal parks)",
+            "href": "https://hollywoodrideguide.com/"
+          },
+          {
+            "label": "Ride Ready Guide (Disney parks)",
+            "href": "https://ridereadyguide.com/"
+          }
+        ]
       }
     ]
   },
@@ -531,7 +544,9 @@
   },
   "analytics": {
     "enabled": false,
-    "gtagRollupIds": ["G-C1F9EFBL3R"],
+    "gtagRollupIds": [
+      "G-C1F9EFBL3R"
+    ],
     "note": "enabled/token gate the cookieless Cloudflare Web Analytics beacon only (assets/js/analytics.js). gtagId is the site's own GA4 property and gtagRollupIds the cross-site roll-up stream(s); src/lib/ga4.mjs turns them into one gtag.js loader plus the same-origin /ga4.js config that the CSP allows. This site has no per-site GA4 property, so gtagId is absent and the roll-up alone is loaded."
   },
   "legal": {
