@@ -56,6 +56,9 @@ export function parkHub (park, data) {
             ${C.lastVerified(park.lastVerified)}
           </div>
           <div class="split__aside">
+            <div data-live-wait="${park.slug}" data-live-weather="${park.slug}" aria-live="polite">
+              <p class="live-wait-placeholder">Loading current wait times…</p>
+            </div>
             ${C.factPanel([
               { label: 'Best for', value: (park.bestFor || []).join(' · ') },
               { label: 'Less ideal for', value: (park.notIdealFor || []).join(' · ') },
@@ -169,6 +172,7 @@ export function parkHub (park, data) {
         S.itemList(site, { url: park.url, name: `${park.name} headliner attractions`, items: park.headliners }),
         S.faqPage(site, { url: park.url, faqs: park.faqs }),
       ],
+      scripts: ['/assets/js/live-park-data.js'],
     }),
   }
 }

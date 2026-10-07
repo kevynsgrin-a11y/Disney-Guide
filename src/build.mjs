@@ -467,7 +467,7 @@ const CSP = [
   "img-src 'self' https://*.google-analytics.com https://*.googletagmanager.com",
   "media-src 'self'",
   "font-src 'self'",
-  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://cloudflareinsights.com https://challenges.cloudflare.com",
+  "connect-src 'self' https://ingest.oakandmain.dev https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://cloudflareinsights.com https://challenges.cloudflare.com",
   "manifest-src 'self'",
   "worker-src 'self'",
   "object-src 'none'",
