@@ -58,14 +58,14 @@
     }
   ],
   "verdict": {
-    "short": "1. Magic Mountain. 2. Great Adventure. 3. Knott's. 4. SeaWorld Orlando. 5. Great America. 6. Over Texas. 7. SeaWorld San Diego. 8. SeaWorld San Antonio. 9. Legoland California. 10. Legoland Florida. Ranked for coaster trips; the Legolands are ranked for what they are, not asked to be what they are not.",
+    "short": "1. Magic Mountain. 2. Great Adventure. 3. Knott's. 4. SeaWorld Orlando. 5. Great America. 6. Over Texas. 7. SeaWorld San Diego. 8. SeaWorld San Antonio. 9. Legoland California. 10. Legoland Florida. Ranked for coaster trips; the Legolands are ranked for what they are, not asked to be what they are not. SeaWorld San Antonio’s eighth-place position is provisional after removal of an incorrectly assigned Fiesta Texas ride; its rationale needs reassessment.",
     "body": [
       "The criterion is coaster-trip value: how much world-class riding a park delivers per day of visiting, weighted for depth, quality and the day-experience around it. A park with one brilliant ride and a thin day ranks below a park with six very good ones and a complete day, and a park that is hard to visit well — weather, geography, pacing — pays for that honestly.",
       "The two Legolands anchor the bottom of this list without it being a criticism: they are not coaster parks and are not trying to be, and ranking them mid-list on family-trip value would be a different list with a different criterion. What the ranking does say is true and useful: nobody should choose them for coasters, and everyone should choose them for the age bracket they serve."
     ]
   },
   "intro": [
-    "Ten parks, four companies, five regions, one ranking. The criterion is the coaster trip — the depth and quality of the riding, and the quality of the day wrapped around it. Everything below each placement is the reasoning; where a placement is genuinely arguable, the counterargument is printed with it.",
+    "Ten parks, five regions, one ranking. The criterion is the coaster trip — the depth and quality of the riding, and the quality of the day wrapped around it. Everything below each placement is the reasoning; where a placement is genuinely arguable, the counterargument is printed with it. Six Flags Entertainment Corporation is the combined current parent of the covered Six Flags parks and Knott’s Berry Farm after the July 1, 2024 merger; park brands and queue terms remain distinct.",
     "A note on what this list is not: it is not a family-trip ranking (the Legolands would rise to the top of that one), and it is not a haunt ranking (Knott's would win that in a walk). It is the ranking for a reader planning a trip around riding, which is the site's center of gravity and this list's honest bias."
   ],
   "dimensions": [
@@ -80,7 +80,7 @@
         "great-america": "A dozen coasters across every era from 1976 to the hybrid age, with Raging Bull and Goliath carrying the top.",
         "six-flags-over-texas": "A dozen-plus with the New Texas Giant as the flag bearer and a strong classic layer beneath.",
         "seaworld-san-diego": "A short list with Emperor and Electric Eel punching above the count.",
-        "seaworld-san-antonio": "Three headliners with Iron Rattler among the best rides in Texas.",
+        "seaworld-san-antonio": "Selected coverage includes The Great White, Steel Eel and Wave Breaker. Iron Rattler was incorrectly included and belongs to Six Flags Fiesta Texas; this catalog is not a complete operating count.",
         "legoland-california": "Family coasters only, by design — the Dragon and Coastersaurus are excellent at their scale.",
         "legoland-florida": "Same family tier as California with a slightly longer coaster count."
       },
@@ -97,7 +97,7 @@
         "great-america": "Goliath — the inverting hybrid that out-forces most steel loopers.",
         "six-flags-over-texas": "The New Texas Giant — the conversion that launched the entire hybrid era.",
         "seaworld-san-diego": "Emperor — California's only dive coaster, with the held 90-degree crest.",
-        "seaworld-san-antonio": "Iron Rattler — the quarry-wall hybrid with the best setting on this site.",
+        "seaworld-san-antonio": "Best-ride judgment pending reassessment after the incorrect Iron Rattler assignment was removed.",
         "legoland-california": "The Dragon — the dark-ride-to-coaster graduation ceremony, perfect at its job.",
         "legoland-florida": "The Dragon — Florida's version of the same formula."
       },
@@ -114,7 +114,7 @@
         "great-america": "Classic sections with real character and the best seasonal calendar on this site.",
         "six-flags-over-texas": "The 1961 original theming and the tower — history as atmosphere.",
         "seaworld-san-diego": "The bay setting and the animal layer, with the best climate on this site.",
-        "seaworld-san-antonio": "The quarry and the water-park half; the Texas heat taxes the day.",
+        "seaworld-san-antonio": "Animal presentations and exhibits around the ride day; check separate water-park ticket terms.",
         "legoland-california": "Miniland and the coastal weather — a genuinely lovely day that is not about coasters.",
         "legoland-florida": "The Cypress Gardens restoration, the best landscaping on this site."
       }
@@ -187,10 +187,10 @@
     {
       "rank": 8,
       "key": "seaworld-san-antonio",
-      "headline": "Iron Rattler alone justifies the ranking; the water-park half defines the summer version.",
+      "headline": "Placement provisional: the earlier rationale included a ride at a different park.",
       "body": [
-        "San Antonio's eighth place rests on one of the best coasters on this site — the quarry hybrid is a top-ten ride here with the best setting — plus a solid invert and a genuinely good airtime hill coaster behind it. The shows-and-quarry day around it is real.",
-        "The counterargument: three headliners is the thinnest top tier on this list, the Texas heat is the harshest here, and the park's identity splits with the water park in a way the ride-focused ranking can't credit. The Rattler argues up every list until the thermometer weighs in."
+        "The earlier eighth-place rationale incorrectly assigned Iron Rattler and its quarry setting to SeaWorld San Antonio. [Its official attraction page](https://www.sixflags.com/fiestatexas/attractions/iron-rattler) places it at Six Flags Fiesta Texas. Those claims and recommendations have been withdrawn; the placement remains provisional until the actual SeaWorld lineup is reassessed.",
+        "The existing covered rides include The Great White, Steel Eel and Wave Breaker, with family and animal experiences around them. These selected records do not establish the park’s complete current operating count or justify the earlier best-ride claim."
       ]
     },
     {
@@ -265,11 +265,11 @@
     ],
     "great-america": [
       "You are Chicago-based or visiting.",
-      "You want a December coaster day — the rarest thing on this site.",
+      "Your travel date is listed on the park’s current operating calendar.",
       "Racing woodies are a bucket-list item."
     ],
     "six-flags-over-texas": [
-      "You are doing the Texas hybrid double with San Antonio.",
+      "The New Texas Giant and the original Six Flags park are your Texas priorities.",
       "Coaster history is part of the appeal.",
       "Spring is your travel window."
     ],
@@ -279,7 +279,7 @@
       "You would rather not drive."
     ],
     "seaworld-san-antonio": [
-      "Iron Rattler is the mission.",
+      "SeaWorld’s actual rides and animal presentations fit your party’s priorities.",
       "A water-park-and-coasters hybrid day sounds right.",
       "You are pairing it with the River Walk."
     ],
@@ -305,7 +305,7 @@
     },
     {
       "q": "Which SeaWorld park is best for coasters?",
-      "a": "Orlando, clearly: five good coasters including three B&Ms versus two headliners at San Diego and three at San Antonio. San Diego has the better setting; Orlando has the better riding."
+      "a": "This ranking favors Orlando’s covered lineup, including Mako, Kraken and Manta. The San Diego and San Antonio records are selected coverage, not complete current park counts. San Antonio’s placement needs reassessment because Iron Rattler belongs to Fiesta Texas and has been removed from its rationale."
     },
     {
       "q": "Are the Legoland rankings fair?",

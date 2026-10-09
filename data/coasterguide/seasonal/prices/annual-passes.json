@@ -1,7 +1,7 @@
 {
   "slug": "annual-passes",
   "title": "Annual and Season Pass Prices",
-  "titleTail": ": Four Companies, September 2026",
+  "titleTail": ": Park-Specific Products, September 2026",
   "h1": "What a season pass costs at every company on this site",
   "description": "The pass ladders at Six Flags, Knott's, LEGOLAND and SeaWorld as of September 2026 — entry tiers, the mid-tiers worth buying, and what the top tiers actually add.",
   "summary": "Every company here sells a pass that costs between one and two one-day tickets at the online floor, and every ladder hides its real value one or two tiers up: regional access at Six Flags Gold, parking at LEGOLAND's upper tiers, Quick Queue discounts at SeaWorld Platinum. These are the ladders as of September 2026.",
@@ -67,10 +67,10 @@
       ]
     },
     {
-      "heading": "The cross-company wall",
+      "heading": "Participating parks and current parent companies",
       "body": [
-        "No pass on this site crosses companies — a Six Flags Gold pass does nothing at SeaWorld or either LEGOLAND, a LEGOLAND pass does nothing at the marine parks next door to it, and nothing at any park it does not name. The ten parks on this site are four separate pass ecosystems, and a multi-company trip prices as two to four pass decisions.",
-        "That wall is why our road-trip tool treats passes as per-company line items rather than a single coverage question, and why the honest maximum for one trip is usually two passes: the Six Flags family covering its five parks (one ladder), plus whichever of the other three companies earns a second visit."
+        "Single-day tickets and pass benefits are different products. Six Flags Entertainment includes the covered Six Flags-branded parks and Knott’s after the July 1, 2024 merger; some associated passes and add-ons have participating-park benefits. Check the exact pass, admission entitlement, exclusions and redemption rules rather than assuming every park has a separate corporate parent or every benefit crosses parks.",
+        "Budget the exact admission passes and associated add-ons your itinerary needs. Shared ownership does not establish a single ladder, all-park coverage or a universal number of purchases; participating parks and redemption rules depend on the product."
       ]
     }
   ],

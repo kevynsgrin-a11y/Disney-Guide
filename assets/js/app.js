@@ -226,7 +226,7 @@
     if (!('serviceWorker' in navigator)) return
     if (location.protocol !== 'https:' && location.hostname !== 'localhost') return
     addEventListener('load', function () {
-      navigator.serviceWorker.register('/sw.js').catch(function () { /* offline support is optional */ })
+      navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).catch(function () { /* offline support is optional */ })
     })
   }
 

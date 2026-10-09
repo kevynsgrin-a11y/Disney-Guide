@@ -26,9 +26,11 @@ export function foodTrackerPage (data) {
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
-      eyebrow: 'Tool · saves on your device · works offline',
+      eyebrow: 'Tool · saves on this device when browser storage is available',
       title: `${site.brand.shortName} Food Tracker`,
-      lede: `Every snack worth knowing about across all ${data.parks.length} parks — ${total} of them, with checked prices and honest verdicts. Mark what you want, tick off what you have tried, share the list, print it, take it into the park with no signal.`,
+      lede: site.operator === 'coasterguide'
+        ? `${total} listed food items across ${data.parks.length} parks, with dated prices where checked and unverified prices clearly marked. Source-based descriptions do not imply firsthand tasting. Mark, share or print your list. Load the page online first and confirm it opens offline on this device before relying on it in the park.`
+        : `Every snack worth knowing about across all ${data.parks.length} parks — ${total} of them, with checked prices and honest verdicts. Mark what you want, tick off what you have tried, share the list, print it, take it into the park with no signal.`,
       tone: 'compact',
     })}
 
@@ -116,10 +118,10 @@ export function foodTrackerPage (data) {
         <div class="split split--even">
           <div class="prose">
             ${paragraphs([
-              'Your list is stored in your browser, on your device, using localStorage. There is no account, no sign-up, and no server copy. We cannot see what you marked, because it never leaves your phone.',
+              'Your list is saved on this device when browser storage is available. If storage is blocked or full, changes last only for the current page. There is no account or server copy.',
               'The **Copy share link** button packs your whole list into the URL itself — two bits per item, base64-encoded — so a link is self-contained and still costs nothing to host. Send it to whoever you are travelling with and they get your exact list.',
               '**Print checklist** produces a clean, grouped, tickable sheet with no navigation, no ads, and no colour. Skipped items drop off it entirely.',
-              'Once you have opened this page on a decent connection, it is cached on your device. It keeps working in the park when the WiFi does not, which is most of the time.',
+              'Offline access requires this page and its scripts to finish caching while online. Open it online, then test it offline on your device before relying on it. Private browsing, storage limits or clearing site data may remove the cache and saved list.',
             ])}
           </div>
           <div>
@@ -154,8 +156,8 @@ export function foodTrackerPage (data) {
       page: {
         url: urls.foodTracker(),
         title: `${site.brand.shortName} Food Tracker`,
-        titleTail: ' — all six US parks',
-        description: `Track ${total} theme park snacks across all ${data.parks.length} parks. Saves to your device, shares as a link, prints as a checklist, and works offline in the park.`,
+        titleTail: ` — ${data.parks.length} parks covered`,
+        description: `Track ${total} listed theme park food items across ${data.parks.length} parks. Save when browser storage is available, share a link, or print a checklist. Load online and test offline access on your device first.`,
         trail,
         modified: '2026-07-01',
         bodyClass: 'page-tracker',
@@ -166,7 +168,7 @@ export function foodTrackerPage (data) {
         S.webApplication(site, {
           url: urls.foodTracker(),
           name: `${site.brand.shortName} Food Tracker`,
-          description: `Track ${total} theme park snacks across all ${data.parks.length} parks. Saves to your device, shares as a link, prints as a checklist, works offline.`,
+          description: `Track ${total} listed theme park food items across ${data.parks.length} parks. Browser storage, share links and printable checklists; offline access requires a previously cached page.`,
         }),
         S.itemList(site, {
         url: urls.foodTracker(),
@@ -223,7 +225,7 @@ export function heightCheckerPage (data) {
               <span class="hchecker__cm" data-height-cm>102 cm</span>
             </div>
             <label class="visually-hidden" for="height-slider">Child height in inches</label>
-            <input id="height-slider" type="range" min="28" max="56" step="1" value="40" data-height-slider>
+            <input id="height-slider" type="range" min="28" max="56" step="any" value="40" data-height-slider>
             <div class="hchecker__scale" aria-hidden="true">
               <span>28"</span><span>34"</span><span>40"</span><span>46"</span><span>52"</span><span>56"</span>
             </div>
@@ -391,7 +393,7 @@ export function dayBlueprintPage (data) {
       meta: [
         { label: 'Parks', value: `${payload.parks.length} with authored plans` },
         { label: 'Account', value: 'None' },
-        { label: 'Works', value: 'Offline' },
+        { label: 'Offline access', value: 'Load and test on your device first' },
       ],
     })}
     ${C.section({
@@ -399,7 +401,7 @@ export function dayBlueprintPage (data) {
         <div class="tool-sheet" data-blueprint>
           <noscript><p>This tool runs in your browser and needs JavaScript. The same plans exist as writing on every park page.</p></noscript>
         </div>
-        <p class="muted field-note">Generated from our authored plans, not live wait times — verify the park's hours and any early-entry rules on the day. Riders, if saved, are greeted from this device only.</p>
+        <p class="muted field-note">Generated from our authored plans, not live wait times — verify the park's hours and any early-entry rules on the day. Riders are saved on this device only when browser storage is available. Load online and test offline access on your device before relying on it.</p>
       `,
     })}
     <script type="application/json" id="blueprint-data">${raw(JSON.stringify(payload))}</script>
@@ -412,7 +414,7 @@ export function dayBlueprintPage (data) {
         url: urls.dayBlueprint(),
         title: 'Day Blueprint',
         titleTail: ': a generated park plan with its reasoning',
-        description: `Generate a rope-drop-to-close plan for any of ${data.parks.length} parks from authored touring plans — every step explains why it is where it is. Free, offline, no account.`,
+        description: `Generate a park plan for ${data.parks.length} covered parks from authored touring plans. Free, no account; offline access requires a previously cached page.`,
         trail,
         modified: '2026-07-01',
       },
@@ -527,6 +529,12 @@ export function careerLadderPage (data) {
     note: site.careerLadder.note,
     myRidersUrl: urls.myRiders(),
     heightCheckerUrl: urls.heightChecker(),
+    creditCorrections: site.operator === 'coasterguide' ? [{
+      id: 'seaworld-san-antonio/iron-rattler',
+      name: 'Iron Rattler',
+      note: 'Earlier versions assigned this credit to SeaWorld San Antonio. The ride belongs to Six Flags Fiesta Texas. A saved credit is retained separately and excluded from this guide’s current catalog and counts.',
+      sourceUrl: 'https://www.sixflags.com/fiestatexas/attractions/iron-rattler',
+    }] : [],
   }
 
   const body = html`
@@ -780,7 +788,7 @@ export function myRidersPage (data) {
             </div>
             <div class="field-inline">
               <label for="rider-height">Height in inches <span class="muted">(shoes on, measured today)</span></label>
-              <input id="rider-height" name="heightIn" type="number" min="24" max="84" step="0.5" inputmode="decimal" required placeholder="46">
+              <input id="rider-height" name="heightIn" type="number" min="24" max="84" step="any" inputmode="decimal" required placeholder="46">
             </div>
             <div class="field-inline">
               <label for="rider-measured">Measured on</label>
@@ -788,7 +796,7 @@ export function myRidersPage (data) {
             </div>
             <p class="field-note muted" data-form-note></p>
             <button class="btn btn--primary" type="submit">Save rider</button>
-            <p class="field-note muted">Stays on this device — no account, no sync, no email. Growth projections are banded estimates from typical growth by age, not promises. Maximum height, accompanied-rider and other restrictions apply separately; attraction staff make the final eligibility determination. Ask Guest Relations about current measurement and wristband procedures.</p>
+            <p class="field-note muted">Saved on this device when browser storage is available — no account or sync. Confirm older saved measurements through Edit and Save before screening; their original precision cannot be recovered. Enter measured inches without rounding upward. Rounded centimetre labels never establish eligibility. Growth projections are estimates. Maximum height, accompaniment and other restrictions apply separately; attraction staff make the final eligibility determination. Ask Guest Relations about measurement and wristband procedures.</p>
           </form>
           <div class="rider-list" data-my-riders></div>
         </div>
@@ -835,9 +843,9 @@ export function toolsIndex (data) {
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
-      eyebrow: 'Free, no account, works offline',
+      eyebrow: 'Free, no account',
       title: 'Tools',
-      lede: 'The things a search result cannot do for you. Everything here runs entirely in your browser — nothing is uploaded, nothing needs an account, and all of it keeps working when the park WiFi gives up.',
+      lede: 'These tools run in your browser without an account. Saved lists and riders require available browser storage. Load the tools online and test offline access on your device before relying on them in the park.',
       tone: 'compact',
     })}
 
@@ -869,7 +877,9 @@ export function toolsIndex (data) {
           tone: 'feature',
           eyebrow: 'Saves & shares',
           title: 'Food Tracker',
-          summary: `${data.allFood.length} snacks with checked prices. Mark want, tried, or skip; share the list as a link; print it as a checklist; use it offline.`,
+          summary: site.operator === 'coasterguide'
+            ? `${data.allFood.length} listed food items, with checked prices dated and unknown prices marked unverified. Mark want, tried, or skip; share or print. Load online and test offline access first.`
+            : `${data.allFood.length} snacks with checked prices. Mark want, tried, or skip; share the list as a link; print it as a checklist; use it offline.`,
         }),
         C.card({
           href: urls.tripTiming(),
@@ -913,7 +923,7 @@ export function toolsIndex (data) {
       page: {
         url: urls.toolsIndex(),
         title: `Free ${site.brand.shortName} planning tools`,
-        description: `A height checker, an offline food tracker, a trip-timing ranker, and printable maps for all ${data.parks.length} parks. No account, no upload, no cost.`,
+        description: `A height checker, food tracker, trip-timing ranker and printable coverage maps for ${data.parks.length} parks. No account; saving and offline access depend on your browser.`,
         trail,
         modified: '2026-07-01',
       },

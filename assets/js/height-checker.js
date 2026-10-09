@@ -18,8 +18,13 @@
     if (knownHeight(ride.max) && inches > ride.max) return 'over'
     if (inches < ride.h) return ride.h - inches <= 2 ? 'near' : 'later'
     if (knownHeight(ride.accompaniedBelow) && inches < ride.accompaniedBelow) return 'companion'
-    if (ride.restrictions && ride.restrictions.length) return 'review'
+    if (ride.restrictionsKnown === false || !Array.isArray(ride.restrictions) || ride.restrictions.some(function (rule) { return typeof rule !== 'string' || !rule.trim() }) || ride.restrictions.length) return 'review'
     return 'now'
+  }
+
+  function gapLabel (gap) {
+    // Round only the display, and keep every positive shortfall visibly nonzero.
+    return gap > 0 && gap < 0.01 ? '<0.01 in' : '+' + Number(gap.toFixed(2)) + ' in'
   }
 
   function ready (fn) {
@@ -138,7 +143,7 @@
                 var gap = r.h - inches
                 /* How close the child already is — the bar is the encouragement. */
                 var pct = Math.max(4, Math.min(96, Math.round((inches / r.h) * 100)))
-                return '<li class="nearmiss__item"><span class="nearmiss__gap">+' + gap + '"</span> ' + esc(r.n) +
+                return '<li class="nearmiss__item"><span class="nearmiss__gap">' + esc(gapLabel(gap)) + '</span> ' + esc(r.n) +
                   '<span class="nearmiss__bar" aria-hidden="true"><span class="nearmiss__fill" style="width:' + pct + '%"></span></span>' +
                   '<span class="nearmiss__pct">' + pct + '% of the way there</span></li>'
               }).join('') + '</ul></div>'
@@ -155,7 +160,7 @@
             unknown.map(function (r) {
               var reason = r._heightStatus === 'companion'
                 ? 'supervising companion required below ' + r.accompaniedBelow + ' in'
-                : r._heightStatus === 'review' ? 'check rider restrictions: ' + r.restrictions.join('; ') : 'height unverified'
+                : r._heightStatus === 'review' ? 'check rider restrictions: ' + (Array.isArray(r.restrictions) && r.restrictions.length ? r.restrictions.filter(function (rule) { return typeof rule === 'string' && rule.trim() }).join('; ') : 'current rider restrictions need verification') : 'height unverified'
               return '<li data-unverified>' + esc(r.n) + ' · ' + esc(reason) + '</li>'
             }).join('') +
           '</ul></section>'

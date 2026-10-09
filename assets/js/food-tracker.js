@@ -110,14 +110,22 @@
   /* ---------- Progress ---------------------------------------------------- */
 
   function counts () {
-    var total = order.length || cards.length
+    // The append-only share order retains removed IDs so old links keep their
+    // positions. Progress counts only active cards, once per food ID; saved
+    // tombstones remain in storage and in the share encoding.
+    var active = Object.create(null)
+    cards.forEach(function (card) {
+      var id = card.getAttribute('data-food-id')
+      if (id) active[id] = true
+    })
+    var ids = Object.keys(active)
     var tried = 0; var want = 0; var skip = 0
-    for (var id in state) {
+    ids.forEach(function (id) {
       if (state[id] === 'tried') tried++
       else if (state[id] === 'want') want++
       else if (state[id] === 'skip') skip++
-    }
-    return { total: total, tried: tried, want: want, skip: skip }
+    })
+    return { total: ids.length, tried: tried, want: want, skip: skip }
   }
 
   function updateProgress () {

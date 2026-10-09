@@ -1,10 +1,10 @@
 {
   "slug": "line-skip",
   "title": "Line-Skip Pass Prices",
-  "titleTail": ": Magic Mountain update and dated park prices",
+  "titleTail": ": park-specific Fast Lane, Quick Queue and Fastrack",
   "h1": "What a line-skip pass costs at every park on this site",
-  "description": "Magic Mountain’s current Fast Lane Reserve/Ultimate terms and advertised starting price, plus other parks’ dated Fast Lane and Quick Queue examples.",
-  "summary": "Magic Mountain’s October 9, 2026 update distinguishes Fast Lane Reserve and Fast Lane Ultimate from older price models. Other parks’ existing September 2026 price examples retain their stated dates and source limits. Check the live product for your actual visit.",
+  "description": "Dated Fast Lane and Quick Queue examples, Magic Mountain’s starting quote, and separate LEGOLAND California/Florida Fastrack evidence and price limits.",
+  "summary": "Magic Mountain’s current Fast Lane pair and each LEGOLAND park’s Fastrack are distinct products. California’s advertised starting prices are recorded separately from Florida’s unquoted date-specific prices; other parks’ existing September examples retain their source dates.",
   "ownership": "This page records dated price evidence. Reservation mechanics, participating rides, admission and event exclusions, and buying considerations are explained in the line-skip guide.",
   "rows": [
     {
@@ -58,16 +58,6 @@
       "note": "SeaWorld's own pricing guide listed Quick Queue Unlimited from $143.99 online against a $177.97 gate figure. A year-round Quick Queue product sat at $199 for pass-holders, which is the multi-visit version of the same arithmetic."
     },
     {
-      "label": "Quick Queue at SeaWorld San Antonio, per person per day",
-      "resort": "texas",
-      "rangeUsd": [
-        60,
-        150
-      ],
-      "asOf": "September 2026",
-      "note": "Priced by date through the purchase flow rather than published as a calendar, so this band is inferred from the Orlando and San Diego products rather than read off a page. Treat it as planning shape and check the date."
-    },
-    {
       "label": "Quick Queue Unlimited at SeaWorld San Diego, per person per day",
       "resort": "southern-california",
       "rangeUsd": [
@@ -89,10 +79,12 @@
       ]
     },
     {
-      "heading": "The Legolands: the honest nothing-to-buy answer",
+      "heading": "LEGOLAND Fastrack: separate California and Florida price evidence",
       "body": [
-        "Neither US Legoland sells a comparable line-skip product. There is no Fast Lane, no FLASH successor, no Quick Queue equivalent at Carlsbad or Winter Haven — the answer to 'what does line-skip cost at Legoland' is that there is nothing to buy.",
-        "This is not an oversight to work around but a fact to plan around: the Legoland ride roster is built for the under-tens and their adults, queue throughput is gentler than at the coaster parks, and the money that would have gone to line-skip goes further on the second-day ticket that Legoland's own pricing practically gives away."
+        "Both LEGOLAND California and LEGOLAND Florida sell Fastrack. The previous claim that there was nothing to buy at either park was incorrect.",
+        "As of October 9, 2026, California’s official product page displayed per-person starting prices of $20 for Bronze, $38 for Silver, $89 for Gold and $119 for Platinum. These are advertised starting quotes, not visit-date price ranges or Florida prices. Bronze offers 3 uses; Silver 6; Gold unlimited eligible rides; Platinum adds LEGO Galaxy one-shots.",
+        "Florida’s official support article independently confirms Bronze, Silver, Gold and Platinum packages, with Gold excluding Galacticoaster and Platinum including unlimited Galacticoaster access. It states prices may vary by date and does not publish numerical prices. No Florida price is inferred here from California.",
+        "Confirm admission, participating rides, selected date and operational limits separately. Sources checked October 9, 2026: [California Fastrack product page](https://www.legoland.com/california/tickets-passes/extras-experiences/fastrack/) and [Florida Fastrack support article](https://florida-support.legoland.com/hc/en-us/articles/25142420661661-What-is-Fastrack-at-LEGOLAND-Florida-Resort)."
       ]
     }
   ],
@@ -101,7 +93,8 @@
     "Compare the final checkout price, fees and terms for the product you want. No universal online-versus-gate discount is verified for Magic Mountain’s current Reserve and Ultimate products.",
     "Check the bundle before the standalone product at SeaWorld. San Diego's Ultimate Bundle wrapped admission, All-Day Dining, and Quick Queue Unlimited into $139.99 in September 2026 — less than the Orlando standalone top of band alone.",
     "For a season add-on, compare its current quoted price with your own expected visits and check the associated admission pass and participating-park terms; there is no universal six-visit break-even point.",
-    "Check live sale availability before deciding when to purchase. Magic Mountain limits daily sales; neither availability at the gate nor a cheaper morning-of-visit price is guaranteed."
+    "Check live sale availability before deciding when to purchase. Magic Mountain limits daily sales; neither availability at the gate nor a cheaper morning-of-visit price is guaranteed.",
+    "Check LEGOLAND Fastrack separately for California and Florida. Similar package names do not establish identical prices or attraction coverage; use the chosen park’s current quote and restrictions."
   ],
   "crossLinks": [
     {
@@ -133,18 +126,22 @@
     {
       "q": "Is THE FLASH Pass still a thing?",
       "a": "Older THE FLASH Pass advice is historical at Magic Mountain. Its current official page names Fast Lane Reserve and Fast Lane Ultimate, and the Six Flags program update explains their reservation platform. Check the current park product rather than mapping old tiers onto it."
+    },
+    {
+      "q": "What does Fastrack cost at the LEGOLAND parks?",
+      "a": "California displayed starting prices from $20/$38/$89/$119 for Bronze/Silver/Gold/Platinum as of October 9, 2026. Florida’s separate support article confirms its own packages but supplies no numerical price. Check each park’s live offer; do not copy California figures or coverage to Florida."
     }
   ],
   "freshness": {
     "verified": "2026-10",
     "confidence": "expected",
-    "sourceNote": "Magic Mountain product terms and Daily Fast Lane starting from $49 were retrieved from https://www.sixflags.com/magicmountain/fast-lane and corroborated for program mechanics by https://www.sixflags.com/blog/fast-lane-updates on October 9, 2026. This starting price is not a visit-date/tier quote or a price range; the previous modeled Magic Mountain row is removed. Other rows retain September 2026 observations and stated source limits: Knott’s from $75, Orlando Quick Queue Unlimited $143.99 online/$177.97 gate, San Diego $139.99 Ultimate Bundle, and Over Texas published calendar examples. Great Adventure/Great America and San Antonio rows remain planning estimates as their row notes explain; they are not new October verification.",
+    "sourceNote": "Magic Mountain product terms and Daily Fast Lane starting from $49 were retrieved from https://www.sixflags.com/magicmountain/fast-lane and corroborated for program mechanics by https://www.sixflags.com/blog/fast-lane-updates on October 9, 2026. This starting price is not a visit-date/tier quote or a price range; the previous modeled Magic Mountain row is removed. Other rows retain September 2026 observations and stated source limits: Knott’s from $75, Orlando Quick Queue Unlimited $143.99 online/$177.97 gate, San Diego $139.99 Ultimate Bundle, and Over Texas published calendar examples. Great Adventure/Great America rows retain their previous planning estimates as their row notes explain; they are not new October verification. The modeled SeaWorld San Antonio range was withdrawn with its incorrect ride rationale; no new numerical quote is claimed. LEGOLAND California’s Fastrack page separately displayed Bronze/Silver/Gold/Platinum starting from $20/$38/$89/$119 on October 9, 2026. Florida’s independent support article verifies Fastrack and its package distinctions but supplies no numerical price. California figures and terms are not applied to Florida.",
     "reviewBy": "2026-12",
     "cycle": "rolling"
   },
   "priceNote": {
-    "title": "Dated ranges and a starting-price quote",
-    "body": "The table retains other parks’ dated price ranges and source limits. Magic Mountain’s official starting-price quote is explained separately below; it is not a range or a quote for October 15. Check the live checkout price, fees and terms for your visit."
+    "title": "Dated ranges and park-specific starting quotes",
+    "body": "The table retains parks’ dated price ranges and source limits. Magic Mountain and LEGOLAND California starting quotes are explained separately below; they are not visit-date ranges. The supplied LEGOLAND Florida article quotes no price. Check the chosen park’s live checkout price and terms."
   },
-  "tableCaption": "Each row keeps its stated observation date and source limits. Magic Mountain’s current starting-price quote appears below, rather than as an inferred range."
+  "tableCaption": "Each row keeps its stated observation date and source limits. Magic Mountain and LEGOLAND California starting quotes, and Florida’s unquoted Fastrack offer, are explained below rather than inferred into ranges."
 }

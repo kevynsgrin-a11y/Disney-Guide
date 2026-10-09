@@ -79,3 +79,41 @@ test('height checker never treats an unverified minimum as rider eligibility', a
   assert.doesNotMatch(html, /data-blocked[^>]*>(?:Manta|Arctic Rescue)/)
   assert.match(html, /data-unverified>Tidal Twister · height unverified/)
 })
+
+test('near-miss labels remove float noise while every positive shortfall remains blocked', async () => {
+  const page = heightCheckerPage(await loadData('coasterguide')).html
+  const payload = JSON.parse(page.match(/<script type="application\/json" id="height-data">([\s\S]*?)<\/script>/)[1])
+  const magicMountain = payload.parks.find((park) => park.name === 'Six Flags Magic Mountain')
+  const west = magicMountain.rides.find((ride) => ride.n === 'West Coast Racers')
+  const listeners = {}
+  const slider = {
+    value: '53.9', min: '28', max: '84',
+    addEventListener (name, handler) { listeners[name] = handler },
+    getAttribute () { return null }, setAttribute () {},
+  }
+  const result = { innerHTML: '' }
+  const cleared = { textContent: '' }
+  const elements = { '[data-height-slider]': slider, '[data-height-results]': result, '[data-height-can]': cleared }
+  const document = {
+    readyState: 'complete',
+    getElementById () { return { textContent: JSON.stringify({ parks: [{ ...magicMountain, rides: [west] }] }) } },
+    querySelector (selector) { return elements[selector] ?? null },
+  }
+  let storedHeight
+  const source = await readFile(new URL('./assets/js/height-checker.js', root), 'utf8')
+  new Function('window', 'document', 'localStorage', source)(
+    { matchMedia: () => ({ matches: true }) }, document,
+    { getItem () { return null }, setItem (_, value) { storedHeight = value } },
+  )
+  assert.match(result.innerHTML, /nearmiss__gap">\+0\.1 in<\/span>/)
+  assert.doesNotMatch(result.innerHTML, /0\.100000000000/)
+  for (const inches of [53.999, 53.99999999999]) {
+    slider.value = String(inches)
+    listeners.input()
+    assert.match(result.innerHTML, /nearmiss__gap">&lt;0\.01 in<\/span>/)
+    assert.match(result.innerHTML, /data-blocked data-need="54">West Coast Racers/)
+    assert.doesNotMatch(result.innerHTML, /nearmiss__gap">\+0(?: in)?<\/span>/)
+    assert.equal(cleared.textContent, '0')
+    assert.equal(Number(storedHeight), inches, 'formatting never changes the saved canonical inches')
+  }
+})

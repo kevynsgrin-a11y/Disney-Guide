@@ -866,6 +866,12 @@ main:focus { outline: none; }
 .career-unverified summary { cursor: pointer; color: var(--muted); }
 .career-unverified ul { list-style: none; padding: .5rem 0 0; }
 .career-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-5); }
+@media (max-width: 640px) {
+  [data-career-ladder] > * { min-width: 0; }
+  .career-control { display: grid; width: 100%; }
+  .career-control select, .career-control input { min-width: 0; width: 100%; }
+  .career-credit { overflow-wrap: anywhere; }
+}
 
 /* Haunt countdown cards: the confirmed window is build-time truth; the state line is
    upgraded in the browser. Tones stay off --brand on purpose — the accent carries signal,
@@ -951,7 +957,7 @@ main:focus { outline: none; }
 .ruler__rungs { list-style: none; margin: 0; padding: 0; position: relative; }
 .ruler__rungs::before {
   content: ''; position: absolute; left: .42rem; top: .35rem; bottom: .35rem;
-  width: 2px; background: var(--line-strong); border-radius: 1px;
+  width: 2px; background: var(--line-strong); border-radius: 1px; pointer-events: none;
 }
 .ruler__rung { display: flex; align-items: center; gap: var(--space-3); padding-block: .32rem; position: relative; }
 .ruler__tick {
@@ -1097,6 +1103,10 @@ main:focus { outline: none; }
 .ride-chiplist li[data-blocked] { background: var(--danger-soft); color: var(--danger); }
 .ride-chiplist li[data-blocked]::after { content: " · " attr(data-need) "\""; opacity: .8; font-weight: 500; }
 .ride-chiplist li[data-unverified] { background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
+@media (max-width: 640px) {
+  .hchecker > * { min-width: 0; }
+  .ride-chiplist li { overflow-wrap: anywhere; }
+}
 
 /* ---------- 19. Maps ----------------------------------------------------- */
 
@@ -1235,6 +1245,10 @@ main:focus { outline: none; }
 @media (min-width: 900px) { .split { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; } }
 @media (min-width: 900px) { .split--even { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .split__aside { position: sticky; top: 6rem; display: grid; gap: var(--space-4); }
+@media (max-width: 640px) {
+  .hero__inner > *, .split > *, .callout__body, .facts dd { min-width: 0; }
+  .tips li { min-width: 0; grid-template-columns: 1.1rem minmax(0, 1fr); }
+}
 
 .timeline { display: grid; gap: var(--space-4); position: relative; padding-left: var(--space-6); }
 .timeline::before { content: ""; position: absolute; left: .55rem; top: .5rem; bottom: .5rem; width: 2px; background: var(--line); }

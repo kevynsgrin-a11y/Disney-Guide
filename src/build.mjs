@@ -17,6 +17,7 @@ import { mkdir, writeFile, readFile, readdir, rm, cp, stat } from 'node:fs/promi
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { performance } from 'node:perf_hooks'
+import { createHash } from 'node:crypto'
 import { pathToFileURL } from 'node:url'
 
 import { loadData, resolveTargets, operatorDir, urls, foodTrackerOrder, ROOT, DIST_DIR, ASSETS_DIR } from './lib/data.mjs'
@@ -624,6 +625,24 @@ async function copyAssets (dist, site) {
   if (operatorCss) await writeFile(join(dist, 'assets', 'css', 'operator.css'), operatorCss, 'utf8')
 }
 
+/** Same-month, same-size corrections must also replace obsolete offline copies. */
+export async function serviceWorkerVersion (data, pages, dist, template) {
+  const hash = createHash('sha256').update(template)
+  for (const page of [...pages].sort((a, b) => a.url.localeCompare(b.url))) {
+    hash.update(page.url).update('\0').update(page.html).update('\0')
+  }
+  async function addResources (directory) {
+    if (!existsSync(directory)) return
+    for (const entry of (await readdir(directory, { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
+      const path = join(directory, entry.name)
+      if (entry.isDirectory()) await addResources(path)
+      else if (/\.(?:js|css|json|svg)$/.test(entry.name)) hash.update(path.slice(dist.length)).update('\0').update(await readFile(path)).update('\0')
+    }
+  }
+  await addResources(dist)
+  return `${data.operator}-${BUILD_MONTH}-${ASSET_VERSION}-${hash.digest('hex').slice(0, 20)}`
+}
+
 async function buildServiceWorker (dist, data, pages) {
   const template = await readFile(join(ASSETS_DIR, 'sw.js'), 'utf8')
   const precache = [
@@ -632,6 +651,8 @@ async function buildServiceWorker (dist, data, pages) {
     urls.foodTracker(),
     urls.myRiders(),
     urls.heightChecker(),
+    urls.careerLadder(),
+    urls.dayBlueprint(),
     urls.tripTiming(),
     urls.parksIndex(),
     urls.whenToGoIndex(),
@@ -646,11 +667,17 @@ async function buildServiceWorker (dist, data, pages) {
     `/assets/js/rider-profiles.js?v=${ASSET_VERSION}`,
     `/assets/js/map.js?v=${ASSET_VERSION}`,
     `/assets/js/trip-timing.js?v=${ASSET_VERSION}`,
+    `/assets/js/career-ladder.js?v=${ASSET_VERSION}`,
+    `/assets/js/day-blueprint.js?v=${ASSET_VERSION}`,
     '/manifest.webmanifest',
   ].filter((url) => url === '/offline/' || url.startsWith('/assets') || url === '/manifest.webmanifest' ||
     pages.some((p) => p.url === url) || url === '/')
 
-  const version = `${BUILD_MONTH}-${ASSET_VERSION}-${pages.length}`
+  if (existsSync(join(dist, 'assets', 'css', 'operator.css'))) precache.push(`/assets/css/operator.css?v=${ASSET_VERSION}`)
+  for (const park of data.parks) {
+    if (existsSync(join(dist, 'maps', `${park.slug}-map.svg`))) precache.push(`/maps/${park.slug}-map.svg`)
+  }
+  const version = await serviceWorkerVersion(data, pages, dist, template)
   const output = template
     .replace('__VERSION__', version)
     .replace('__PRECACHE__', JSON.stringify([...new Set(precache)]))

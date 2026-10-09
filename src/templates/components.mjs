@@ -157,6 +157,7 @@ export function heightRequirementCell (attraction, { centimetres = false } = {})
     'data-status': rules.s,
     'data-height-max': rules.max,
     'data-accompanied-below': rules.accompaniedBelow,
+    'data-restrictions-known': String(rules.restrictionsKnown),
     'data-rider-restrictions': rules.restrictions.length ? JSON.stringify(rules.restrictions) : null,
   })}>${label}${details.length ? html`<span class="small muted"> · ${details.join('; ')}</span>` : ''}</span>`
 }
@@ -307,7 +308,7 @@ export function dataTable ({ caption, columns, rows, id, className = '', sortabl
   const cols = columns.map((c) => (typeof c === 'string' ? { label: c } : c))
   const attrStr = Object.entries(attrs).map(([k, v]) => (v === '' ? ` ${k}` : ` ${k}="${escapeHtml(String(v))}"`)).join('')
   return html`
-    <div class="table-wrap"${sortable ? raw(' data-sortable-wrap') : raw('')}>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="${caption || 'Data table'}"${sortable ? raw(' data-sortable-wrap') : raw('')}>
       <table class="data-table ${dense ? 'data-table--dense' : ''} ${className}"${id ? raw(` id="${escapeHtml(id)}"`) : raw('')}${sortable ? raw(' data-sortable') : raw('')}${attrStr ? raw(attrStr) : raw('')}>
         ${caption ? html`<caption>${inline(caption)}</caption>` : ''}
         <thead>
@@ -462,7 +463,7 @@ export function diningCard (restaurant) {
     title: restaurant.name,
     summary: restaurant.summary,
     badges: [
-      { label: restaurant.priceTier, tone: 'price' },
+      { label: restaurant.priceTierUnverified ? 'Price unverified' : restaurant.priceTier, tone: 'price' },
       restaurant.mobileOrder ? { label: 'Mobile order', tone: 'good' } : null,
       restaurant.characterDining ? { label: 'Character dining', tone: '' } : null,
       restaurant.reservations === 'essential' ? { label: 'Book ahead', tone: 'warn' } : null,
@@ -489,10 +490,11 @@ export function foodCard (item, { tracker = false, showPark = false } = {}) {
             ${item.restaurantInfo && item.restaurantInfo.hasPage
               ? html`<a href="${item.restaurantInfo.url}">${item.restaurant}</a>`
               : item.restaurant}
+            ${item.availabilityStatus === 'unverified' ? html`<span class="food-card__park">Legacy item; current availability unverified</span>` : ''}
             ${showPark && item.parkName ? html`<span class="food-card__park">${item.parkName}</span>` : ''}
           </p>
         </div>
-        <span class="food-card__price">${f.price(item.price)}</span>
+        <span class="food-card__price">${item.price == null ? 'Price unverified' : f.price(item.price)}</span>
       </div>
       <p class="food-card__desc">${inline(item.description)}</p>
       ${item.verdict ? html`<p class="food-card__verdict"><strong>Our take:</strong> ${inline(item.verdict)}</p>` : ''}

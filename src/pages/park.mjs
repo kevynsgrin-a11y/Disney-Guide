@@ -37,9 +37,9 @@ export function parkHub (park, data) {
     { href: urls.rides(park), label: directoryLink(park, data), summary: coverageMode(data) ? 'The attractions covered by this guide, sortable and filterable' : 'The complete list, sortable and filterable' },
     park.bestRides ? { href: urls.bestRides(park), label: 'Best rides, ranked', summary: 'An actual ranking, defended one by one' } : null,
     { href: urls.heights(park), label: 'Height requirements', summary: `${park.heightAttractions.length} rides with a minimum height` },
-    { href: urls.dining(park), label: 'Where to eat', summary: `${park.dining.length} restaurants, carts, and lounges` },
-    { href: urls.snacks(park), label: 'Best snacks', summary: `${park.food.length} tracked items with prices` },
-    { href: urls.map(park), label: coverageMode(data) && !park.map ? 'Guide coverage diagram' : 'Park map', summary: 'Printable, works offline' },
+    { href: urls.dining(park), label: 'Where to eat', summary: `${park.dining.length} ${coverageMode(data) ? 'dining records covered' : 'restaurants, carts, and lounges'}` },
+    { href: urls.snacks(park), label: 'Best snacks', summary: `${park.food.length} tracked items${park.food.every((item) => item.price != null) ? ' with prices' : '; unknown prices marked unverified'}` },
+    { href: urls.map(park), label: coverageMode(data) && !park.map ? 'Guide coverage diagram' : 'Park map', summary: coverageMode(data) ? 'Printable; load and test offline access first' : 'Printable, works offline' },
     { href: urls.accessibility(park), label: 'Accessibility', summary: 'Transfers, rentals, quiet spaces' },
     { href: urls.firstTimer(park), label: 'First-timer guide', summary: 'A plan you can actually follow' },
   ].filter(Boolean)
@@ -119,21 +119,21 @@ export function parkHub (park, data) {
         summary: land.summary,
         badges: [
           { label: `${land.attractions.filter(isCurrentAttraction).length} ${coverageMode(data) ? 'attractions covered' : 'attractions'}` },
-          land.dining.length ? { label: `${land.dining.length} places to eat`, tone: 'good' } : null,
+          land.dining.length ? { label: `${land.dining.length} ${coverageMode(data) ? 'dining records covered' : 'places to eat'}`, tone: coverageMode(data) ? '' : 'good' } : null,
         ].filter(Boolean),
         meta: land.anchorInfo ? [{ label: 'Headliner', value: land.anchorInfo.name }] : [],
       })), { columns: 3 }),
     }) : ''}
 
     ${park.topFood.length ? C.section({
-      title: 'What to eat here',
+      title: coverageMode(data) && park.slug === 'magic-mountain' ? 'Food records covered here' : 'What to eat here',
       kicker: 'Food',
-      intro: `Our highest-priority items in ${park.name}. Mark them on the tracker and they save to your device.`,
+      intro: coverageMode(data) && park.slug === 'magic-mountain' ? 'Source-listed items and a clearly marked unverified legacy record. Current prices and firsthand taste reviews are unverified. Mark items on the tracker and they save to your device.' : `Our highest-priority items in ${park.name}. Mark them on the tracker and they save to your device.`,
       children: html`
         <div class="food-grid">${park.topFood.slice(0, 6).map((item) => C.foodCard(item, { tracker: true }))}</div>
         <p class="mt-5">
           <a class="btn btn--primary" href="${urls.snacks(park)}">All ${park.food.length} tracked snacks</a>
-          <a class="btn btn--ghost" href="${urls.dining(park)}">Full dining guide</a>
+          <a class="btn btn--ghost" href="${urls.dining(park)}">${coverageMode(data) ? 'Dining coverage guide' : 'Full dining guide'}</a>
         </p>
       `,
     }) : ''}
@@ -206,7 +206,7 @@ export function ridesPage (park, data) {
 
   const rows = open.map((a) => [
     a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : html`<a href="#${a.slug}">${a.name}</a>`,
-    a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
+    a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : 'Location unverified',
     f.attractionType(a.type),
     C.heightRequirementCell(a),
     html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
@@ -419,10 +419,10 @@ export function attractionPage (attraction, data) {
               <h2>Accessibility</h2>
               ${C.factPanel([
                 { label: 'Wheelchair', value: f.transfer(acc.transfer) },
-                { label: 'Audio description', value: acc.audioDescription ? 'Available' : 'Not offered' },
-                { label: 'Handheld captioning', value: acc.handheldCaptioning ? 'Available' : 'Not offered' },
-                { label: 'Assistive listening', value: acc.assistiveListening ? 'Available' : 'Not offered' },
-                { label: 'Sign language', value: acc.signLanguage ? 'At scheduled performances' : 'Not offered' },
+                { label: 'Audio description', value: acc.audioDescription == null ? 'Check with Guest Relations' : acc.audioDescription ? 'Available' : 'Not offered' },
+                { label: 'Handheld captioning', value: acc.handheldCaptioning == null ? 'Check with Guest Relations' : acc.handheldCaptioning ? 'Available' : 'Not offered' },
+                { label: 'Assistive listening', value: acc.assistiveListening == null ? 'Check with Guest Relations' : acc.assistiveListening ? 'Available' : 'Not offered' },
+                { label: 'Sign language', value: acc.signLanguage == null ? 'Check with Guest Relations' : acc.signLanguage ? 'At scheduled performances' : 'Not offered' },
                 { label: 'Service animals', value: acc.serviceAnimals ? 'Permitted on board' : 'Must use a kennel or wait with a companion' },
               ], { columns: 1 })}
               ${acc.notes ? html`<p class="mt-4">${inline(acc.notes)}</p>` : ''}
@@ -511,7 +511,7 @@ export function landPage (land, data) {
       meta: [
         land.opened ? { label: 'Opened', value: String(land.opened) } : null,
         { label: attractionCountLabel(data), value: String(open.length) },
-        { label: 'Places to eat', value: String(land.dining.length) },
+        { label: coverageMode(data) ? 'Dining records covered' : 'Places to eat', value: String(land.dining.length) },
         land.anchorInfo ? { label: 'Headliner', value: land.anchorInfo.name } : null,
       ].filter(Boolean),
     })}
@@ -540,13 +540,14 @@ export function landPage (land, data) {
     }) : ''}
 
     ${land.dining.length ? C.section({
-      title: `Eating in ${land.name}`,
+      title: `${coverageMode(data) ? 'Dining records covered in' : 'Eating in'} ${land.name}`,
+      intro: coverageMode(data) ? 'These are catalog records, including any clearly marked unverified legacy venues. This is not a complete dining inventory or confirmation of current operation.' : '',
       children: C.cardGrid(land.dining.map(C.diningCard), { columns: 3 }),
     }) : ''}
 
     ${land.food.length ? C.section({
       tone: 'tint',
-      title: `Snacks worth stopping for`,
+      title: coverageMode(data) && park.slug === 'magic-mountain' ? 'Snack and meal records covered' : 'Snacks worth stopping for',
       children: html`<div class="food-grid">${land.food.slice(0, 6).map((item) => C.foodCard(item, { tracker: true }))}</div>`,
     }) : ''}
 
@@ -564,7 +565,7 @@ export function landPage (land, data) {
       page: {
         url: land.url,
         title: `${land.name} at ${park.shortLabel}`,
-        description: C.truncate(`${land.summary} ${open.length} attractions${coverageMode(data) ? ' covered by this guide' : ''} and ${land.dining.length} places to eat.`, 155),
+        description: C.truncate(`${land.summary} ${open.length} attractions${coverageMode(data) ? ' covered by this guide' : ''} and ${land.dining.length} ${coverageMode(data) ? 'dining records covered' : 'places to eat'}.`, 155),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -1013,8 +1014,8 @@ export function mapPage (park, data) {
             <p class="map-attribution">
               ${coverageDiagram
                 ? html`Original illustrative diagram by ${site.brand.name}, arranged from this guide’s area records rather than surveyed geographic positions.`
-                : html`Original artwork by ${site.brand.name}, drawn from open geographic data including data © OpenStreetMap contributors, available under the Open Database Licence.`} The vintage
-              styling uses generic cartographic devices — compass rose, ribbon title, ruled frame —
+                : html`Original artwork by ${site.brand.name}, drawn from open geographic data including data © OpenStreetMap contributors, available under the Open Database Licence.`}
+              The styling uses generic cartographic devices${coverageDiagram ? ' — ribbon title and ruled frame —' : ' — compass rose, ribbon title and ruled frame —'}
               and is not traced from, measured against, or styled after any official park map.
               Positions are schematic and not to scale. This is not an official park map.
               ${site.legal.shortDisclaimer}
@@ -1034,7 +1035,9 @@ export function mapPage (park, data) {
             ${C.callout({
               type: 'tip',
               title: 'Save it before you go',
-              body: 'Open this page once on the hotel WiFi and it stays available on your phone with no signal at all — as does your saved [food list](/tools/food-tracker/).',
+              body: coverageMode(data)
+                ? 'Open this page online and let caching finish, then test the diagram and your [food list](/tools/food-tracker/) offline on your device. Browser storage limits, private browsing or clearing site data can remove saved copies. Download the SVG or print a copy as another option.'
+                : 'Open this page once on the hotel WiFi and it stays available on your phone with no signal at all — as does your saved [food list](/tools/food-tracker/).',
             })}
           </div>
         </div>
@@ -1056,7 +1059,7 @@ export function mapPage (park, data) {
       page: {
         url: urls.map(park),
         title: coverageDiagram ? `${park.shortLabel} guide coverage diagram` : `${park.shortLabel} map`,
-        titleTail: ' (printable & offline)',
+        titleTail: coverageMode(data) ? ' (printable; cache for offline access)' : ' (printable & offline)',
         description: coverageMode(data)
           ? `A printable diagram of areas covered by this ${park.name} guide. Consult the official park map for actual layout and navigation.`
           : `A clean, printable schematic map of ${park.name} showing every land and its headliner attractions. Works offline once you have opened it.`,

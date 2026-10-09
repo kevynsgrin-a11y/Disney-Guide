@@ -84,7 +84,7 @@ test('addMonthsISO clamps to month ends like a calendar', () => {
 test('the store saves, validates, and removes riders on this device only', () => {
   const r = store.save({ name: '  Maya ', birthday: '2019-04-10', heightIn: '46.3', measuredOn: '2026-09-11' })
   assert.equal(r.name, 'Maya')
-  assert.equal(r.heightIn, 46.5, 'heights round to the half inch')
+  assert.equal(r.heightIn, 46.3, 'canonical inches are preserved without rounding across a threshold')
   assert.equal(store.all().length, 1)
   const again = store.save({ id: r.id, name: 'Maya', heightIn: 47 })
   assert.equal(store.all().length, 1, 'same id updates rather than duplicates')
@@ -179,7 +179,7 @@ test('the card ruler draws every rung, tallest first, with the marker between cl
   assert.ok(rung48 > -1 && rung42 > -1 && markerAt > rung48 && markerAt < rung42,
     'the marker renders between the first ahead rung and the last cleared rung')
   // Projections on ahead rungs are ranges, and rider names are escaped into labels
-  assert.match(html, /role="img"/)
+  assert.match(html, /role="group"/)
 })
 
 test('the card ruler clears every rung and says nothing false', () => {

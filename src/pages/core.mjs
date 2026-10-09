@@ -296,9 +296,11 @@ export function homePage (data, seasonal) {
           C.card({
             href: urls.foodTracker(),
             tone: 'feature',
-            eyebrow: 'Saves offline',
+            eyebrow: site.operator === 'coasterguide' ? 'Save, share or print' : 'Saves offline',
             title: 'Food Tracker',
-            summary: `Mark ${totalFood} snacks as want, tried, or skip. It saves on your device, shares as a link, prints as a checklist, and keeps working when the park WiFi does not.`,
+            summary: site.operator === 'coasterguide'
+              ? `Mark ${totalFood} listed food items as want, tried or skip. Save when browser storage is available, share or print. Load online and test offline access on your device first.`
+              : `Mark ${totalFood} snacks as want, tried, or skip. It saves on your device, shares as a link, prints as a checklist, and keeps working when the park WiFi does not.`,
           }),
           C.card({
             href: urls.parksIndex(),

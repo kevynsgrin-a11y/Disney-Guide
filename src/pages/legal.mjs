@@ -66,6 +66,7 @@ function docPage (data, { url, title, titleTail, h1, description, lede, sections
 
 export function legalPages (data, seasonal = null) {
   const { site } = data
+  const isCoaster = site.operator === 'coasterguide'
   const scope = scopeOf(site)
   const pages = []
 
@@ -83,9 +84,19 @@ export function legalPages (data, seasonal = null) {
     // "About Ride Ready Guide | Ride Ready Guide" in a result page.
     title: 'About this site',
     h1: 'About this site',
-    description: 'What Ride Ready Guide covers, how permanent facts and dated facts are handled differently, and why every page carries the month a person last checked it.',
+    updated: isCoaster ? '2026-10-09' : UPDATED,
+    description: `What ${site.brand.name} covers, how source checks differ from firsthand visits, and how corrections are handled.`,
     lede: 'One guide to the US theme parks: the facts that stay true for years, and the ones that expire — each labeled for which it is.',
     sections: [
+      ...(isCoaster ? [{
+        heading: 'Independent and unofficial',
+        id: 'independent-unofficial',
+        body: [
+          'CoasterReady is an independent, unofficial guide. It is not affiliated with or endorsed by any park operator. Park assistance can clarify facts; it cannot buy favorable coverage, editorial control or advance approval of a review.',
+          'The planned October 15, 2026 Magic Mountain and Fright Fest visit has no expectation of complimentary admission, compensation, promotion or reciprocal coverage. Pre-visit source checks are separate from firsthand observations. A scheduled visit is not a completed visit or tasting.',
+          'Decorative images and video on this site are illustrative, including generated assets; they are not documentary photographs of the named park, ride or meal. Park imagery requires appropriate usage rights.',
+        ],
+      }] : []),
       {
         body: [
           `${site.brand.name} exists because theme-park planning content has a quality problem. Most of it is either an official page that will never tell you something is disappointing, or a listicle assembled by somebody who has not been in years and cannot tell you which side of the boat to sit on.`,
@@ -97,8 +108,12 @@ export function legalPages (data, seasonal = null) {
         id: 'two-kinds',
         body: [
           'Roughly half of what is here is permanent and roughly half of it expires, and the two are handled differently.',
-          `Permanent facts are the ones that will still be true in 2031: height requirements, ride systems and what riding them is actually like, accessibility provisions, year-round restaurants, and the park maps. Dated facts have a shelf life measured in months: party nights and hard-ticket events, festivals and seasonal overlays, ticket and ${site.queue.name} pricing, what is behind a construction wall, and which month to go at all.`,
-          'Every page of both kinds carries the month a person last checked it. Dated claims carry two things more — a confidence level saying what has actually been announced rather than how sure we feel, and a month by which the claim has to be rechecked. Once that month passes the page says so on its own, without waiting for anyone here to remember.',
+          isCoaster
+            ? `Ride systems can remain stable for years, but height requirements, accessibility procedures, dining, maps and operating status can change. Source-check dates record the claims actually checked; firsthand-visit dates are recorded separately. Events, hours, tickets and ${site.queue.name} terms need date-specific confirmation.`
+            : `Permanent facts are the ones that will still be true in 2031: height requirements, ride systems and what riding them is actually like, accessibility provisions, year-round restaurants, and the park maps. Dated facts have a shelf life measured in months: party nights and hard-ticket events, festivals and seasonal overlays, ticket and ${site.queue.name} pricing, what is behind a construction wall, and which month to go at all.`,
+          isCoaster
+            ? 'Dated claims carry a confidence level and a review date. A source-check date applies to the claims identified as checked; it does not verify every record, current availability or a firsthand visit. Unknown prices, restrictions and locations stay visibly unverified.'
+            : 'Every page of both kinds carries the month a person last checked it. Dated claims carry two things more — a confidence level saying what has actually been announced rather than how sure we feel, and a month by which the claim has to be rechecked. Once that month passes the page says so on its own, without waiting for anyone here to remember.',
           `What each confidence level permits us to state, and why the banner cannot be switched off, is on the [editorial policy](${urls.editorial()}).`,
         ],
       },
@@ -113,7 +128,9 @@ export function legalPages (data, seasonal = null) {
             ? '**Attractions covered by this guide** — recorded height requirements, ride systems, scare and motion assessments, and queue information. Current catalog records are separate from closed or historical pages. This is guide coverage, not a complete official inventory or a report of what is open today.'
             : '**Every attraction** — height requirements, ride systems, scare and motion assessments, queue and single-rider detail, and a verdict on whether the wait is worth the payoff.',
           '**Dining and snacks** — restaurants with a standing character rather than a menu transcription, and curated snack lists with dated prices.',
-          '**Accessibility and maps** — the provisions each park actually makes, and printable schematic maps that work with no signal.',
+          isCoaster
+            ? '**Accessibility and maps** — sourced guidance with outstanding location checks identified, plus printable coverage diagrams. A diagram is not the official geographic park map. Offline access requires prior caching and a device check.'
+            : '**Accessibility and maps** — the provisions each park actually makes, and printable schematic maps that work with no signal.',
           `**[When to go](${urls.whenToGoIndex()})** — all twelve months graded, with crowd shape, cost level, climate normals, and the specific weeks worth targeting or avoiding inside each one.`,
           `**[Events](${urls.eventsIndex()})** — ${scope.eventsExamples}. What you get, what you do not, and whether the price holds up.`,
           // An operator with no prices tree yet must not link to one — a 404 on the legal
@@ -122,7 +139,7 @@ export function legalPages (data, seasonal = null) {
             ? [`**[What things cost](${urls.pricesIndex()})** — ticket, ${site.queue.name}, parking, and pass pricing, always as a range and always with the cycle the range describes.`]
             : []),
           `**[Closures](${urls.closuresIndex()})** — what is behind a wall at each resort, and how firm the reopening actually is.`,
-          `**Tools** — a [height checker](${urls.heightChecker()}), a [food tracker](${urls.foodTracker()}) that works offline, a [year-at-a-glance calendar](${urls.calendar()}), and a [trip-timing ranker](${urls.tripTiming()}) that reorders the months against what you personally care about.`,
+          `**Tools** — a [height checker](${urls.heightChecker()}), a [food tracker](${urls.foodTracker()})${isCoaster ? ' with conditional device storage and offline access after caching' : ' that works offline'}, a [year-at-a-glance calendar](${urls.calendar()}), and a [trip-timing ranker](${urls.tripTiming()}) that reorders the months against what you personally care about.`,
         ],
       },
       {
@@ -167,7 +184,9 @@ export function legalPages (data, seasonal = null) {
         id: 'independence',
         body: [
           site.legal.disclaimer,
-          'We hold no press access, receive no complimentary tickets, and submit nothing here for anybody\'s approval. We pay for our own admission, our own party tickets, and our own festival food, which is the only arrangement under which the price question can be answered honestly.',
+          isCoaster
+            ? 'Our editorial conclusions are not submitted for park approval. Written media authorization is a separate requirement for commercial capture and publication. The planned October 15 visit has no expectation of complimentary admission or compensation; no future visit is presented as completed coverage.'
+            : 'We hold no press access, receive no complimentary tickets, and submit nothing here for anybody\'s approval. We pay for our own admission, our own party tickets, and our own festival food, which is the only arrangement under which the price question can be answered honestly.',
         ],
       },
     ],
@@ -176,6 +195,7 @@ export function legalPages (data, seasonal = null) {
   /* ---------------- Editorial policy ---------------- */
   pages.push(docPage(data, {
     url: urls.editorial(),
+    updated: isCoaster ? '2026-10-09' : UPDATED,
     title: 'Editorial policy',
     titleTail: ': Confidence Levels & Corrections',
     h1: 'Editorial policy',
@@ -261,7 +281,9 @@ export function legalPages (data, seasonal = null) {
         heading: 'Every page carries the month it was checked',
         id: 'verified',
         body: [
-          'The verified month is on every data page on this site, permanent and dated alike, and it is not decoration. It is the honest statement of when a person last put eyes on what is written there.',
+          isCoaster
+            ? 'Source-check dates identify when the specified claims were checked against the linked evidence. They do not certify every field on a page. Firsthand-visit dates are recorded separately, and unknown or unresolved fields remain labeled.'
+            : 'The verified month is on every data page on this site, permanent and dated alike, and it is not decoration. It is the honest statement of when a person last put eyes on what is written there.',
           'Heights, ride systems, operating status, and accessibility provisions are checked against the operator\'s own published information. Prices are checked against published pricing and cross-checked against the independent trackers that do this full time; where two sources disagree, the most recently verifiable figure wins and it is dated. Where a figure was checked in person, the entry says so. Where it was not, it does not.',
           'A correction changes the underlying data rather than the page, so every page that used the figure picks up the fix on the next build, and the verified month moves with it. A fix that left the old date in place would have the page claiming a diligence nobody performed.',
         ],
@@ -312,7 +334,9 @@ export function legalPages (data, seasonal = null) {
         heading: 'Sourcing, and what we do not claim',
         id: 'sourcing',
         body: [
-          'The operator\'s own published information is the primary source for heights, ride systems, dates, prices, hours, and closures. Where an independent tracker and the operator disagree, the operator wins and the disagreement gets a note. Where we are reasoning from a pattern rather than reading a source, the confidence level says so, which is the entire reason for having one.',
+          isCoaster
+            ? 'Current official information is the primary source for requirements, hours, products and status. A newer explicit retirement announcement takes precedence over a surviving legacy attraction page. Reporting that quotes a park confirmation is attributed as reported park confirmation, rather than presented as an announcement on an official attraction page. Conflicts and unresolved checks are disclosed.'
+            : 'The operator\'s own published information is the primary source for heights, ride systems, dates, prices, hours, and closures. Where an independent tracker and the operator disagree, the operator wins and the disagreement gets a note. Where we are reasoning from a pattern rather than reading a source, the confidence level says so, which is the entire reason for having one.',
           'We do not claim attendance we did not have. You will not find "when we visited last October" on a page where nobody visited last October. Writing from documented fact and stated reasoning is a weaker rhetorical position than a first-person anecdote and it has the advantage of being checkable.',
           'We do not republish another site\'s text, photographs, tables, or datasets. Where we rely on somebody else\'s open data — as with the geographic data underlying our maps — it is credited on the page that uses it.',
         ],
@@ -321,11 +345,21 @@ export function legalPages (data, seasonal = null) {
         heading: 'Money cannot move a verdict, a grade, or a confidence level',
         id: 'money',
         body: [
+          ...(isCoaster ? ['CoasterReady is independent and unofficial. Assistance with factual questions or media permissions does not grant favorable coverage or editorial control. The planned October 15, 2026 visit has no expectation of complimentary admission, compensation, promotion or reciprocal coverage.'] : []),
           'This site carries a small number of affiliate links, and display advertising if and when it ships. No seller, operator, hotel, restaurant, or brand can buy a place on a list, a better month grade, a softer verdict, or inclusion of any kind. We decline sponsored posts, paid reviews, and paid link insertions, and those requests are declined without a reply.',
           'The confidence level deserves its own sentence, because it is the one a payment would be most valuable to move. Confidence is a factual claim about whether an announcement exists. It is not an opinion, it is not for sale, and there is no mechanism through which a commercial relationship could reach it — the level is set against a source note in a data file that a fact checker reads on every build.',
           `Where we earn a commission, it is disclosed immediately above the link rather than only in the footer, and affiliate links stay on pages where a purchase is genuinely the next step. There are none on the height charts, where somebody is looking for a fact rather than a product. The commercial arrangements themselves are listed in full on the [affiliate disclosure](${urls.affiliate()}).`,
         ],
       },
+      ...(isCoaster ? [{
+        heading: 'Magic Mountain camera and media permissions',
+        id: 'media-permissions',
+        body: [
+          'Under the current [Magic Mountain Code of Conduct](https://www.sixflags.com/magicmountain/code-of-conduct), commercial photography requires written consent, and commercial broadcast, advertising, marketing or publication of park photos or video requires written permission from an authorized Six Flags representative. A request or scheduled email is not permission.',
+          'Cameras of any kind are prohibited on rides at all times, with no exceptions; this includes secured or unsecured phones, camera glasses and body cameras. Filming, video and flash photography are prohibited inside haunted mazes. Camera, video, livestreaming and audio-recording functions on smart glasses must be off. Check the current park policy and staff directions before recording.',
+          'Any future park imagery must have appropriate rights and permissions. A walk-through or visual impression does not certify accessibility; visit observations will be dated and described within what was actually checked.',
+        ],
+      }] : []),
       {
         heading: 'Corrections',
         id: 'corrections',
@@ -340,7 +374,9 @@ export function legalPages (data, seasonal = null) {
         body: [
           'AI tooling is used in producing this site, in the way most publishers now use it: drafting, structuring, and checking a large dataset for consistency faster than a person can read it. It does not set a grade, a verdict, or a confidence level, and it is never the source of a fact.',
           'That last restriction is the one that matters most here, and it is not a general principle about machines. A model trained on the open web has read tens of thousands of pages confidently asserting unannounced dates, and it will reproduce them fluently and without hesitation. On the single question this site exists to answer correctly, it is the worst available source.',
-          'So every height, price, closure, mechanic, and dated claim is checked by a person against a primary source before it publishes, and the verified month records when that person did it. We say all this because the alternative is pretending otherwise, and the pretense collapses the first time anyone looks closely. The standard we are asking to be judged on is whether the page is accurate, original, and useful.',
+          isCoaster
+            ? 'Published evidence, not model output, supports source-checked facts. Unchecked prices, service locations and rider restrictions are marked unverified instead of being filled by inference. The source-check date records the check actually performed and is separate from firsthand attendance or tasting.'
+            : 'So every height, price, closure, mechanic, and dated claim is checked by a person against a primary source before it publishes, and the verified month records when that person did it. We say all this because the alternative is pretending otherwise, and the pretense collapses the first time anyone looks closely. The standard we are asking to be judged on is whether the page is accurate, original, and useful.',
         ],
       },
       {
@@ -422,7 +458,7 @@ export function legalPages (data, seasonal = null) {
     url: urls.privacy(),
     title: 'Privacy policy',
     h1: 'Privacy policy',
-    updated: usesGa4 ? '2026-09-26' : UPDATED,
+    updated: isCoaster ? '2026-10-09' : (usesGa4 ? '2026-09-26' : UPDATED),
     description: usesGa4
       ? `What ${site.brand.name} stores, which four values stay in your browser, what Google Analytics measures, and what our host necessarily sees.`
       : 'What Ride Ready Guide stores, which four values stay in your browser, what our host necessarily sees, and what happens before any analytics or advertising is added.',
@@ -453,12 +489,19 @@ export function legalPages (data, seasonal = null) {
         heading: 'What is stored on your device',
         id: 'local',
         body: [
-          'Three features save data in your browser\'s localStorage. All three stay on the device, none is transmitted anywhere, and we have no means of reading any of them.',
+          isCoaster
+            ? 'The following tools save data on this device when browser storage is available. Blocked or full storage may limit changes to the current page. No account or server copy is created; food share links deliberately include the selected list.'
+            : 'Three features save data in your browser\'s localStorage. All three stay on the device, none is transmitted anywhere, and we have no means of reading any of them.',
         ],
         list: [
           '**Food Tracker** (`rrg-food`) — the want, tried, or skip status you set against each item, plus a schema version number.',
           '**Height Checker** (`rrg-height`) — the last height you set on the slider.',
           '**Trip timing** (`psg-timing`) — the resort you selected and which of the priority checkboxes you left ticked. The tool works without it.',
+          ...(isCoaster ? [
+            '**My Riders** (`rider-profiles`) — names, birthdays, measured heights and measurement-confirmation metadata, used by the height tools and Day Blueprint.',
+            '**Career Ladder** (`career-credits`) — ride IDs you mark as ridden, including preserved historical or corrected credits.',
+            'A welcome hint uses sessionStorage (`rrg-welcomed`) for the current tab. If optional analytics are enabled, their consent preference is stored separately as described below.',
+          ] : []),
         ],
       },
       {
@@ -482,7 +525,9 @@ export function legalPages (data, seasonal = null) {
         heading: 'Offline storage',
         id: 'offline',
         body: [
-          'This site registers a service worker, which stores copies of pages and assets in your browser\'s cache so the site keeps working on a weak connection or none at all. That cache contains only the public content of this site, it lives on your device, and clearing your browser\'s site data removes it, along with everything else described above.',
+          isCoaster
+            ? 'This site uses a service worker to cache public pages and scripts on your device. Offline access requires caching to finish online and can be lost through browser storage limits, private browsing or clearing site data. Test the pages you need offline on your own device first. Accuracy updates replace this site’s older caches; clearing site data also removes saved riders and food lists.'
+            : 'This site registers a service worker, which stores copies of pages and assets in your browser\'s cache so the site keeps working on a weak connection or none at all. That cache contains only the public content of this site, it lives on your device, and clearing your browser\'s site data removes it, along with everything else described above.',
         ],
       },
       {
@@ -694,6 +739,28 @@ export function legalPages (data, seasonal = null) {
       },
     ],
   }))
+
+  /* ---------------- Offline fallback ---------------- */
+  if (isCoaster) {
+    const park = data.parkBySlug.get('seaworld-san-antonio')
+    for (const [url, title, explanation] of [
+      ['/texas/seaworld-san-antonio/rides/iron-rattler/', 'Iron Rattler: park assignment corrected', 'Iron Rattler belongs to Six Flags Fiesta Texas. Earlier CoasterReady versions incorrectly included it in the SeaWorld San Antonio catalog and recommendations. This correction preserves that URL; it does not describe a SeaWorld attraction that closed or moved.'],
+      ['/texas/seaworld-san-antonio/lands/crackaxle-canyon/', 'SeaWorld San Antonio land correction', 'Earlier CoasterReady versions incorrectly assigned Crackaxle Canyon and quarry ride advice to SeaWorld San Antonio. Those records and recommendations have been removed. This is a correction to this guide, not a park closure announcement.'],
+    ]) {
+      pages.push(docPage(data, {
+        url, title, h1: title, updated: '2026-10-09',
+        description: explanation, lede: explanation,
+        sections: [{
+          heading: 'Corrected reference', id: 'correction',
+          body: [
+            'Official source: [Iron Rattler at Six Flags Fiesta Texas](https://www.sixflags.com/fiestatexas/attractions/iron-rattler).',
+            `Return to [SeaWorld San Antonio attractions currently covered by CoasterReady](${park.url}rides/).`,
+            'Existing saved Iron Rattler credits are retained as a separate correction note in Career Ladder and do not count toward this guide’s current SeaWorld catalog.',
+          ],
+        }],
+      }))
+    }
+  }
 
   /* ---------------- Offline fallback ---------------- */
   {

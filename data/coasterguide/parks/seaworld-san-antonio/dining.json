@@ -33,39 +33,6 @@
       "faqs": [],
       "image": null,
       "lastVerified": "2026-07"
-    },
-    {
-      "slug": "canyon-snack-cart",
-      "name": "Canyon Funnel Cake Cart",
-      "land": "crackaxle-canyon",
-      "service": "snack-cart",
-      "cuisine": "Desserts",
-      "priceTier": "$",
-      "priceNote": "Low-to-mid teens with toppings",
-      "priceVerified": null,
-      "mealPeriods": ["snacks"],
-      "reservations": "not-accepted",
-      "mobileOrder": false,
-      "diningPlan": false,
-      "dietary": [],
-      "alcohol": false,
-      "airConditioned": false,
-      "indoorSeating": false,
-      "outdoorSeating": false,
-      "characterDining": false,
-      "standalonePage": false,
-      "summary": "The funnel cake cart at the quarry rim — fried sugar with the park's best view.",
-      "description": [
-        "The canyon cart serves the classic funnel cake a stone's throw from the rim views into the quarry — the only food stop at the park where the seating is a limestone overlook.",
-        "The cart's queue peaks at close, per tradition."
-      ],
-      "signatureItems": ["Funnel cake with strawberries", "Powdered sugar funnel cake"],
-      "goodFor": ["late-night", "families", "view"],
-      "tips": ["Take it to the rim viewpoint — the eat-with-a-view move.", "Beat the close rush by twenty minutes."],
-      "verdict": "Funnel cake plus a quarry view is the correct Texas theme-park dessert configuration.",
-      "faqs": [],
-      "image": null,
-      "lastVerified": "2026-07"
     }
   ]
 }

@@ -56,7 +56,7 @@
         "Locker and guest services cluster"
       ],
       "eatHere": [
-        "jbs-smokehouse"
+        "funnel-cake-factory"
       ],
       "tips": [
         "Check Full Throttle’s current queue when passing through Six Flags Plaza; its minimum is 54 inches and other restrictions still apply.",
@@ -80,7 +80,7 @@
       ],
       "eatHere": [],
       "tips": [
-        "Do this strip in the first hour or after 5pm; between noon and 4pm both queues bake.",
+        "Choose a DC UNIVERSE stop using the day’s current queue and conditions; no particular hour guarantees a short line.",
         "Check Batman’s restrictions and restraint fit with attraction staff before boarding."
       ]
     },
@@ -107,23 +107,23 @@
     },
     {
       "slug": "cyclone-bay",
-      "name": "Cyclone Bay",
+      "name": "Cyclone Bay (legacy guide label)",
       "order": 4,
-      "summary": "A legacy area label retained for older food records in this guide.",
+      "summary": "A previous guide label retained as a historical reference, not a current ride or dining assignment.",
       "description": [
-        "This guide’s older food data still uses the Cyclone Bay label. It is retained for those records, not as the current official land assignment for a coaster.",
+        "Earlier versions of this guide assigned rides and food to Cyclone Bay. Those records now use separately verified current locations; this page retains the old guide URL as a historical reference.",
         "Use current official labels for ride planning: Twisted Colossus is in Screampunk District, Goliath is in Goliath Plaza and West Coast Racers is in The Underground."
       ],
-      "vibe": "Legacy guide label; verify current names and locations.",
+      "vibe": "Historical guide label; use verified current attraction locations.",
       "anchorAttraction": null,
       "highlights": [
-        "Legacy food-record label",
-        "Use the official map for current land names"
+        "Preserved older guide URL",
+        "Use the current official map and verified land labels"
       ],
       "eatHere": [],
       "tips": [
         "Check the current official map before using an older area name for navigation.",
-        "No current coaster in this guide is assigned to Cyclone Bay."
+        "No current ride or food record in this guide is assigned to Cyclone Bay."
       ]
     },
     {
@@ -141,7 +141,7 @@
         "Viper's triple-loop silhouette",
         "Late-day sun and valley views"
       ],
-      "eatHere": [],
+      "eatHere": ["primos-pizzeria"],
       "tips": [
         "Viper's shoulder harnesses are famously unforgiving on wide shoulders — keep your head back against the headrest through the loops.",
         "Save this strip for late afternoon when the summit crowd drains downhill."
@@ -154,7 +154,7 @@
       "summary": "Tatsu’s official land, combining a major flying coaster with the guide’s existing water-area coverage.",
       "description": [
         "Six Flags places Tatsu in Rapids Camp Crossing. Its flying ride position and pretzel loop make this a major thrill stop; the listed minimum is 54 inches.",
-        "This guide also keeps its existing water-area and dining coverage here. Check attraction-specific restrictions rather than treating the whole area as a lower-height family tier."
+        "This guide also records Katy’s Kettle in Rapids Camp Crossing. Check the current dining directory and attraction-specific restrictions rather than treating the whole area as a lower-height family tier."
       ],
       "vibe": "Trees, water noise and strollers: the low-key corner where the park breathes.",
       "anchorAttraction": "tatsu",
@@ -164,10 +164,10 @@
         "Tatsu’s 54-inch minimum"
       ],
       "eatHere": [
-        "primos-pizzeria"
+        "katys-kettle"
       ],
       "tips": [
-        "Do the water rides after two o'clock — you will dry out before the evening and the mid-afternoon line for the rapids moves fast.",
+        "Check the water rides’ current operation, queue and weather before planning a cooling break; drying time depends on conditions.",
         "This is the meet-up zone for split parties: central, shaded, and visible."
       ]
     },
@@ -206,7 +206,7 @@
         "West Coast Racers’ four inversions and racing launches",
         "West Coast Racers’ 54-inch minimum"
       ],
-      "eatHere": [],
+      "eatHere": ["snack-trax"],
       "tips": [
         "West Coast Racers is not an inversion-free beginner or motion-sensitive alternative."
       ]
@@ -278,7 +278,7 @@
     "morningPlan": [
       {
         "time": "Before open",
-        "body": "Be at the gate twenty minutes early. The security line, not the turnstiles, is the bottleneck."
+        "body": "Aim to arrive before the posted opening with time for parking, security and entry. The time needed varies by date and arrival conditions."
       },
       {
         "time": "Rope drop",
@@ -296,7 +296,7 @@
     "middayPlan": [
       {
         "time": "Noon",
-        "body": "Lunch early — the restaurants empty by 11:30 and refill by 12:15. Eat at 11:30, ride at noon."
+        "body": "Plan a meal break around the party’s needs and the current food-service queues. An early or later meal can be an option, but no restaurant-emptying time is guaranteed."
       },
       {
         "time": "Early afternoon",
@@ -310,15 +310,15 @@
     "eveningPlan": [
       {
         "time": "Late afternoon",
-        "body": "Re-ride whatever you loved — queues drop after the day-trippers with small children leave."
+        "body": "Consider a repeat ride if it is operating and the current queue fits the remaining time; late-day waits can change."
       },
       {
         "time": "Last hour",
-        "body": "Full Throttle off the plaza. Its queue dies at close and the loop at night is the park's best postcard."
+        "body": "Consider Full Throttle in Six Flags Plaza if it is operating and its queue fits the remaining time. Check the actual closing time and your last transportation connection."
       }
     ],
     "rookieMistakes": [
-      "Going up the mountain twice. Once is enough; twice is a wasted hour of walking.",
+      "Repeatedly crossing the hill without a route plan. Use the current official map to reduce backtracking; the time saved varies by route and party.",
       "Buying Fast Lane without checking the selected date, participating ride list, availability and current product terms.",
       "Planning a current ride on X2 or Superman: Escape from Krypton. Both are permanently closed; their preserved pages are historical.",
       "Assuming the park closes at six. Check the hours; summer and fall haunt dates run later.",
@@ -336,59 +336,55 @@
   },
   "accessibility": {
     "intro": [
-      "Magic Mountain is built on a hillside, which shapes every accessibility answer at this park. The summit is reachable by a sustained incline that most wheelchair users will want to avoid; the park runs a mobility assist route, and the load areas at the top are reachable without the climb — ask at guest services for the current procedure.",
-      "Six Flags operates a company-wide ride access program for guests who cannot wait in conventional queues. It has required advance registration through the park's accessibility intake in recent years, and the entry requirements have changed more than once — confirm the current process on Six Flags' own accessibility pages before your visit rather than relying on any third-party summary, including this one."
+      "The official accessibility page encourages guests seeking reasonable accommodations to obtain the IBCCES Accessibility Card (IAC); it does not establish mandatory advance registration. Only IBCCES issues that card. Guests present it at the Ride Information Center on arrival, discuss their accommodation needs and the applicable physical criteria, and receive program details from staff. The program does not provide immediate boarding.",
+      "Ride access and physical eligibility are separate questions. Current posted rules and attraction staff’s determination still apply; a card, height match or an observer’s impression does not certify permission to ride. See the [official accessibility page](https://www.sixflags.com/magicmountain/accessibility) and its [linked Guest Accessibility Guide](https://media.qrtiger.com/files/2025/07/gag_sfmm-hhla.pdf), version 25-1.0.0. Confirm current arrangements with Guest Relations or the Ride Information Center.",
+      "The linked guide describes Magic Mover as a hillside rail cable car with ramp access for mobility devices. Check its current operation and access points with staff rather than assuming a special summit route or access to every ride loading area."
     ],
     "wheelchairRental": {
       "available": true,
-      "location": "Inside the main gate, near guest services",
-      "priceNote": "Standard manual chairs; confirm current pricing at the park",
-      "lastVerified": "2026-07"
+      "location": "Six Flags Plaza, behind Guest Relations (official FAQ)",
+      "priceNote": "Official FAQ lists first-come, first-served rentals; confirm current stock, options, deposit and pricing. Source: https://www.sixflags.com/magicmountain/frequently-asked-questions",
+      "lastVerified": "2026-10"
     },
     "ecvRental": {
       "available": true,
-      "location": "Inside the main gate, near guest services",
-      "priceNote": "Limited quantity; arrive early on peak days",
-      "lastVerified": "2026-07"
+      "location": "Six Flags Plaza, behind Guest Relations (official FAQ)",
+      "priceNote": "Official FAQ lists first-come, first-served rentals; confirm current stock, options, deposit and pricing. Source: https://www.sixflags.com/magicmountain/frequently-asked-questions",
+      "lastVerified": "2026-10"
     },
     "strollerRental": {
       "available": true,
-      "location": "Near the main entrance",
-      "priceNote": "Single and double options",
-      "lastVerified": "2026-07"
+      "location": "Six Flags Plaza, behind Guest Relations (official FAQ)",
+      "priceNote": "Official FAQ lists first-come, first-served rentals; confirm current stock, options, deposit and pricing. Source: https://www.sixflags.com/magicmountain/frequently-asked-questions",
+      "lastVerified": "2026-10"
     },
     "companionRestrooms": [
-      "Near guest services at the front plaza",
-      "Rapids Camp Crossing"
+      "The linked guide directs guests to the park map, Team Members or Guest Relations for companion-restroom locations. Confirm the location and access needed during your visit."
     ],
     "quietSpaces": [
       {
-        "name": "Rapids Camp Crossing shade",
-        "where": "Lowlands near the rapids ride",
-        "note": "Trees, water noise and benches; the calmest corner of the park."
-      },
-      {
-        "name": "First aid",
-        "where": "Near the front plaza",
-        "note": "Air-conditioned and quiet; the staff are used to sensory-break requests."
+        "name": "Sensory-break location check",
+        "where": "Ask Guest Relations or the Ride Information Center",
+        "note": "Specific quiet-room locations and access arrangements were not established by this review. Ask staff for a suitable break location and current conditions; do not assume an outdoor shaded area or First Aid is a designated sensory space."
       }
     ],
     "serviceAnimalRelief": [
-      "Designated relief areas near the main entrance — confirm current locations at guest services"
+      "The current official accessibility page identifies an inside relief area near the entrance to Samurai Summit, between Gold Rusher and Jet Stream, and an outside area at Guest Drop-Off. Confirm the current locations with staff."
     ],
     "sensoryNotes": [
-      "Full Throttle combines launch noise and audio. West Coast Racers includes four inversions; its racing format does not make it a motion-sensitive alternative.",
+      "The linked guide describes Full Throttle’s audio, fog, lighting and strobe effects, and West Coast Racers’ audio and lighting. West Coast Racers also has four inversions. Check those elements against the rider’s needs.",
       "Tatsu’s flying position and hillside layout can create height exposure; its official land is Rapids Camp Crossing.",
       "The fall haunt overlay adds sudden scares along the midways after dark in season."
     ],
     "mobilityNotes": [
-      "The climb to Samurai Summit is a sustained grade; the park's internal transport options change seasonally — confirm at guest services.",
-      "Every coaster on this list requires a transfer from a wheelchair or ECV to the ride seat.",
-      "Distances between the summit and the bay approach a half-mile each way with grade changes."
+      "Use the current official park map and staff advice to choose an accessible walking route and check any hillside transport operation; no fixed route duration or special summit service is promised here.",
+      "Check the separate transfer and boarding requirements for each current attraction. Staff are not trained to lift or carry guests onto rides; the linked guide says transfers must be accomplished independently or with help from the guest’s party.",
+      "The guide describes wheelchair/ECV battery recharging at the Ride Information Center; ask staff about current access and arrangements."
     ],
     "visionHearingNotes": [
-      "Queue signage and safety spiels are audio-and-poster based; ride hosts can repeat boarding instructions on request.",
-      "Assistive listening devices are available from guest services subject to availability."
+      "The official accessibility page lists limited Braille and large-print Guest Accessibility Guides at Guest Services, first come, first served.",
+      "The linked 2025 Guest Accessibility Guide says assisted listening devices are available upon request and directs guests to Guest Relations. It does not establish availability at a specific attraction; confirm the device and intended use with staff.",
+      "The current official accessibility page says ASL interpretation for live shows can be requested at least one week in advance through its request form. Check the current procedure and show choices with Guest Services: https://www.sixflags.com/magicmountain/accessibility"
     ]
   },
   "tips": [
@@ -405,12 +401,12 @@
       "body": "X2 is permanently retired and Superman: Escape from Krypton is permanently closed. The preserved attraction pages are historical and do not establish current ride availability."
     },
     {
-      "title": "The refill bottle math",
-      "body": "If you will ride the hill twice in one visit — you shouldn't, but if you will — the souvenir drink bottle pays for itself on a hot day. On a single loop it usually doesn't."
+      "title": "Check the current drink offer",
+      "body": "Compare the current drink-product price, refill rules, included beverages and your party’s expected use before buying. Heat or a second walking loop alone does not establish savings."
     },
     {
-      "title": "Parking-lot tram or walk?",
-      "body": "The main lot's walk is under ten minutes to the plaza; the tram saves less time than its queue costs except from the far rows."
+      "title": "Check the parking route on arrival",
+      "body": "Walking distance depends on the assigned parking area, party and conditions. Ask staff about the current pedestrian route, accessible drop-off and any operating parking transport rather than assuming a fixed walk or tram-time saving."
     },
     {
       "title": "the fall haunt changes the park",
@@ -444,7 +440,7 @@
     },
     {
       "q": "Does Magic Mountain have good food?",
-      "a": "It has adequate food at theme-park prices. The smokehouse locations and the plaza eateries are the reliable tier; the snack carts (funnel cake, churros) are the consistent win. Nobody visits this park for the dining, and the plan should treat eating as logistics, not an event."
+      "a": "This guide records limited dining coverage rather than a complete park-wide tasting assessment. Check the current official dining directory, menu, price, opening status and dietary information before choosing a meal."
     },
     {
       "q": "Does a height wristband guarantee admission at later rides?",
@@ -456,15 +452,15 @@
     }
   ],
   "gettingThere": {
-    "parking": "Large main lot off Magic Mountain Parkway, with preferred rows near the gate. The walk from standard rows runs five to ten minutes; trams serve the far rows seasonally.",
+    "parking": "Follow staff directions for the assigned parking area, pedestrian route and accessible drop-off. Walking time and any parking-transport operation vary; no fixed walk or tram saving is established by this guide.",
     "transportation": [
-      "By car: roughly 35 miles north of downtown Los Angeles via I-5, exit Magic Mountain Parkway. Without traffic it is 35–40 minutes; with Friday traffic it is two hours.",
+      "By car: use current navigation and traffic conditions for the route to Magic Mountain Parkway. Driving time from Los Angeles varies by starting point, traffic and road conditions.",
       "By transit from Los Angeles Union Station: Metrolink Antelope Valley Line to Newhall, then Santa Clarita Transit to McBean Regional Transit Center (MRTC), then route 3 or 7 to Six Flags. The city’s official guide lists routes 5/6, 4/14 or 12 for the Newhall–MRTC connection; use current schedules to choose the departure.",
       "By rideshare: well-served, with a designated drop-off lane at the main gate.",
       "Before a [Fright Fest](/events/fright-fest-magic-mountain/) visit, check the final return departure on each leg, including the last train from Newhall. A complete transit trip after an 11 p.m. park exit is not guaranteed; arrange an earlier exit or alternative transportation when needed.",
       "Current [Santa Clarita Transit bus timetables](https://santaclaritatransit.com/routes-schedules/) and [Metrolink train timetables](https://metrolinktrains.com/schedules/). Official route references: [Santa Clarita Transit](https://santaclaritatransit.com/services/getting-to-six-flags-magic-mountain/) and [Metrolink](https://metrolinktrains.com/explore/los-angeles-county/six-flags-magic-mountain/)."
     ],
-    "entranceNote": "Security screening is outside the plaza; the metal-detector line, not the turnstiles, is the morning bottleneck. Arrive twenty minutes before posted opening."
+    "entranceNote": "Allow time for parking, security and park entry before the posted opening; check current arrival instructions rather than relying on a fixed processing time."
   },
   "lastVerified": "2026-10",
   "officialMapUrl": "https://www.sixflags.com/magicmountain/directions"

@@ -9,8 +9,9 @@
 }
 
 :root {
-  --paper: #fff; --surface: #fff; --surface-2: #fff; --surface-3: #fff;
-  --ink: #000; --ink-2: #1a1a1a; --muted: #444;
+  color-scheme: light !important;
+  --paper: #fff !important; --surface: #fff !important; --surface-2: #fff !important; --surface-3: #fff !important;
+  --ink: #000 !important; --ink-2: #1a1a1a !important; --muted: #444 !important;
   --line: #bbb; --line-strong: #888;
   --brand: #000; --brand-2: #000; --brand-3: #000; --brand-soft: #fff;
   --accent: #000; --accent-2: #000; --accent-soft: #fff;
@@ -22,6 +23,7 @@
 * { background: transparent !important; box-shadow: none !important; }
 
 body {
+  background: #fff !important;
   color: #000;
   font-size: 10.5pt;
   line-height: 1.45;

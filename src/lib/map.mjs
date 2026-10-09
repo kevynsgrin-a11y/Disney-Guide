@@ -230,7 +230,7 @@ export function renderParkMap (park, { standalone = false } = {}) {
       ${raw(V.paperBase(id, canvas[0], canvas[1], canvas[2], canvas[3]))}
       ${raw(V.frame(canvas[0], canvas[1], canvas[2], canvas[3]))}
       ${raw(V.titleRibbon(escapeHtml(park.name), cx, vy - padTop + 30, Math.min(vw * 0.62, 460)))}
-      ${raw(V.compassRose(vx + 62, vy - 4, 22))}
+      ${coverageDiagram ? '' : raw(V.compassRose(vx + 62, vy - 4, 22))}
       ${raw(V.scaleNote(coverageDiagram ? 'Coverage diagram' : 'Not to scale', vx + vw - 132, vy + vh + 14, 132))}
 
       ${(() => {

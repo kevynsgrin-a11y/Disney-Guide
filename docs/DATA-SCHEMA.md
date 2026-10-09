@@ -174,7 +174,9 @@ exception is an explicit comparison page where the contrast between the two prod
     {
       "slug": "space-mountain",
       "name": "Space Mountain",
-      "land": "tomorrowland",                 // must match park.json; non-current records may use null for an unverified historical location
+      "land": "tomorrowland",                 // must match park.json; null means location unverified (current records require landNote)
+      "landNote": null,                      // explain an unverified current location; never assign a land by inference
+      "queueParticipation": "unverified",   // optional override: unknown paid-queue participation must not imply standby-only
       "type": "roller-coaster",               // see enum below
       "opened": 1975,
       "status": "open",                       // open | closed | under-construction | seasonal
