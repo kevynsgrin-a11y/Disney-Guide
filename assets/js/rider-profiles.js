@@ -88,7 +88,8 @@ var RiderProfiles = (function () {
   }
 
   function statusFor (heightIn, rule, confirmations) {
-    var ride = rule !== null && typeof rule === 'object' ? rule : { h: rule }
+    var structured = rule !== null && typeof rule === 'object'
+    var ride = structured ? rule : { h: rule }
     var requirementIn = ride.h
     confirmations = confirmations || {}
     if (!currentRide(ride)) return 'closed'
@@ -96,6 +97,7 @@ var RiderProfiles = (function () {
     if (knownHeight(ride.max) && heightIn > ride.max) return 'over'
     if (heightIn < requirementIn) return requirementIn - heightIn <= 2 ? 'near' : 'later'
     if (knownHeight(ride.accompaniedBelow) && heightIn < ride.accompaniedBelow && !confirmations.accompanied) return 'companion'
+    if (structured && (ride.restrictionsKnown === false || !Array.isArray(ride.restrictions) || ride.restrictions.some(function (restriction) { return typeof restriction !== 'string' || !restriction.trim() }))) return 'review'
     if (ride.restrictions && ride.restrictions.length && !confirmations.restrictionsConfirmed) return 'review'
     if (heightIn >= requirementIn) return 'now'
   }
@@ -114,26 +116,42 @@ var RiderProfiles = (function () {
   /* ---------- store (localStorage, this device only) ---------- */
 
   var KEY = 'rider-profiles'
+  var memoryDoc = { riders: [] }
+  var sessionOnly = false
   function read () {
+    if (sessionOnly) return memoryDoc
     try {
       var raw = localStorage.getItem(KEY)
       var doc = raw ? JSON.parse(raw) : null
-      return doc && Array.isArray(doc.riders) ? doc : { riders: [] }
-    } catch (e) { return { riders: [] } }
+      if (doc && Array.isArray(doc.riders)) memoryDoc = doc
+      return memoryDoc
+    } catch (e) { sessionOnly = true; return memoryDoc }
   }
   function write (doc) {
-    try { localStorage.setItem(KEY, JSON.stringify(doc)) } catch (e) { /* private mode: profiles live for this page view only */ }
+    memoryDoc = doc
+    if (sessionOnly) return
+    try { localStorage.setItem(KEY, JSON.stringify(doc)) } catch (e) { sessionOnly = true }
   }
   var store = {
-    all: function () { return read().riders },
+    all: function () {
+      return read().riders.map(function (rider) {
+        return Object.assign({}, rider, {
+          measurementNeedsConfirmation: rider.measurementVersion !== 1 || !knownHeight(rider.heightIn) || rider.heightIn < 24 || rider.heightIn > 84,
+        })
+      })
+    },
     save: function (rider) {
       if (!rider || !rider.name || !rider.name.trim()) return null
+      var measuredHeight = Number(rider.heightIn)
+      if (!Number.isFinite(measuredHeight) || measuredHeight < 24 || measuredHeight > 84) return null
       var doc = read()
       var clean = {
         id: rider.id || ('r' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6)),
         name: rider.name.trim().slice(0, 40),
         birthday: /^\d{4}-\d{2}-\d{2}$/.test(rider.birthday || '') ? rider.birthday : null,
-        heightIn: Math.max(24, Math.min(84, Math.round((Number(rider.heightIn) || 0) * 2) / 2)),
+        // Preserve the supplied inches: rounding up can wrongly cross a ride minimum.
+        heightIn: measuredHeight,
+        measurementVersion: 1,
         measuredOn: /^\d{4}-\d{2}-\d{2}$/.test(rider.measuredOn || '') ? rider.measuredOn : new Date().toISOString().slice(0, 10),
       }
       var at = doc.riders.findIndex(function (r) { return r.id === clean.id })
@@ -162,6 +180,7 @@ var RiderProfiles = (function () {
   /* ---------- the watch strip (home + park height pages) ---------- */
 
   function nearestMiss (rider, attractions) {
+    if (rider.measurementNeedsConfirmation) return null
     var best = null
     for (var i = 0; i < attractions.length; i++) {
       var a = attractions[i]
@@ -178,6 +197,7 @@ var RiderProfiles = (function () {
     if (!riders.length || !payload) { mount.hidden = true; return }
     var attractions = payload.attractions
     var html = riders.slice(0, 4).map(function (r) {
+      if (r.measurementNeedsConfirmation) return '<div class="rider-watch__item"><strong>' + esc(r.name) + '</strong>: confirm a current measurement in My Riders before height screening.</div>'
       var miss = nearestMiss(r, attractions)
       if (!miss) {
         return '<div class="rider-watch__item"><strong>' + esc(r.name) + '</strong> has no higher verified minimum listed here. Check maximums, companion requirements and other restrictions; attraction staff make the final decision.</div>'
@@ -209,6 +229,7 @@ var RiderProfiles = (function () {
     over: { cls: 'rider-badge--unknown', text: 'Exceeds maximum height' },
     companion: { cls: 'rider-badge--unknown', text: 'Supervising companion required' },
     review: { cls: 'rider-badge--unknown', text: 'Check rider restrictions' },
+    measurement: { cls: 'rider-badge--unknown', text: 'Measurement needs confirmation' },
   }
 
   function decorateTable (table, rider) {
@@ -219,8 +240,8 @@ var RiderProfiles = (function () {
       if (!cell) continue
       var rawRequirement = cell.getAttribute('data-value')
       var req = rawRequirement == null || !rawRequirement.trim() ? null : Number(rawRequirement)
-      var restrictions = []
-      try { restrictions = JSON.parse(cell.getAttribute('data-rider-restrictions') || '[]') } catch (e) { restrictions = ['Check current rider restrictions with staff'] }
+      var restrictions = null
+      try { restrictions = JSON.parse(cell.getAttribute('data-rider-restrictions') || 'null') } catch (e) { restrictions = null }
       var rawMax = cell.getAttribute('data-height-max')
       var rawAccompanied = cell.getAttribute('data-accompanied-below')
       var status = statusFor(rider.heightIn, {
@@ -228,8 +249,10 @@ var RiderProfiles = (function () {
         s: cell.getAttribute('data-status') || 'open',
         max: rawMax == null || !rawMax.trim() ? null : Number(rawMax),
         accompaniedBelow: rawAccompanied == null || !rawAccompanied.trim() ? null : Number(rawAccompanied),
-        restrictions: Array.isArray(restrictions) ? restrictions : ['Check current rider restrictions with staff'],
+        restrictionsKnown: cell.getAttribute('data-restrictions-known') === 'true',
+        restrictions: restrictions,
       })
+      if (rider.measurementNeedsConfirmation) status = 'measurement'
       var proj = ''
       if (status === 'later') {
         var band = growthBand(ageAt(rider.birthday))
@@ -237,7 +260,7 @@ var RiderProfiles = (function () {
         if (p.soonest) proj = ' · ~' + (p.soonest === p.latest ? p.soonest : p.soonest + '–' + p.latest)
       }
       var b = BADGES[status]
-      rows[i].classList.remove('rider-row--now', 'rider-row--near', 'rider-row--later', 'rider-row--unknown', 'rider-row--closed', 'rider-row--over', 'rider-row--companion', 'rider-row--review')
+      rows[i].classList.remove('rider-row--now', 'rider-row--near', 'rider-row--later', 'rider-row--unknown', 'rider-row--closed', 'rider-row--over', 'rider-row--companion', 'rider-row--review', 'rider-row--measurement')
       rows[i].classList.add('rider-row--' + status)
       cell.insertAdjacentHTML('beforeend',
         ' <span class="rider-badge ' + b.cls + '">' + esc(rider.name) + ': ' + b.text + proj + '</span>')
@@ -257,11 +280,11 @@ var RiderProfiles = (function () {
     table.parentNode.insertBefore(note, table)
     if (payload && riders.length) {
       var ruler = document.createElement('div')
-      ruler.innerHTML = familyRulerHTML(riders, payload)
+      ruler.innerHTML = familyRulerHTML(riders.filter(function (r) { return !r.measurementNeedsConfirmation }), payload)
       while (ruler.firstChild) table.parentNode.insertBefore(ruler.firstChild, table)
     }
     // Decorate with the tallest saved rider by default: one label set per row, least noise.
-    var primary = riders.slice().sort(function (a, b) { return b.heightIn - a.heightIn })[0]
+    var primary = riders.slice().sort(function (a, b) { return Number(a.measurementNeedsConfirmation) - Number(b.measurementNeedsConfirmation) || b.heightIn - a.heightIn })[0]
     decorateTable(table, primary)
   }
 
@@ -271,7 +294,7 @@ var RiderProfiles = (function () {
     var byPark = {}
     payload.attractions.forEach(function (a) {
       if (!currentRide(a)) return
-      var s = statusFor(rider.heightIn, a)
+      var s = rider.measurementNeedsConfirmation ? 'unknown' : statusFor(rider.heightIn, a)
       byPark[a.p] = byPark[a.p] || { p: a.p, u: a.u, now: 0, near: 0, later: 0, unknown: 0, over: 0, companion: 0, review: 0, misses: [] }
       byPark[a.p][s]++
       if (s === 'near') byPark[a.p].misses.push(a)
@@ -280,6 +303,7 @@ var RiderProfiles = (function () {
   }
 
   function ladderFor (rider, payload, limit) {
+    if (rider.measurementNeedsConfirmation) return []
     return payload.attractions
       .filter(function (a) { return currentRide(a) && knownHeight(a.h) && a.h > rider.heightIn })
       .sort(function (x, y) { return x.h - y.h })
@@ -304,6 +328,7 @@ var RiderProfiles = (function () {
    * never a date.
    */
   function rulerHTML (rider, payload) {
+    if (rider.measurementNeedsConfirmation) return ''
     var thresholds = []
     payload.attractions.forEach(function (a) {
       if (currentRide(a) && knownHeight(a.h) && thresholds.indexOf(a.h) === -1) thresholds.push(a.h)
@@ -341,7 +366,7 @@ var RiderProfiles = (function () {
         '</li>'
       }
     }
-    return '<div class="rider-ruler" role="img" aria-label="Height ladder for ' + esc(rider.name) + ': ' +
+    return '<div class="rider-ruler" role="group" aria-label="Height ladder for ' + esc(rider.name) + ': ' +
       thresholds.join(', ') + ' inches. ' + esc(rider.name) + ' measures ' + rider.heightIn + ' inches.">' +
       '<ol class="ruler__rungs">' + rows + '</ol></div>'
   }
@@ -352,6 +377,8 @@ var RiderProfiles = (function () {
    * family stands on this park's ladder.
    */
   function familyRulerHTML (riders, payload) {
+    riders = riders.filter(function (rider) { return !rider.measurementNeedsConfirmation })
+    if (!riders.length) return ''
     var thresholds = []
     payload.attractions.forEach(function (a) {
       if (currentRide(a) && knownHeight(a.h) && thresholds.indexOf(a.h) === -1) thresholds.push(a.h)
@@ -385,7 +412,7 @@ var RiderProfiles = (function () {
       markersBetween(below, t).forEach(function (r) { rows += markerRow(r) })
     }
     var names = riders.map(function (r) { return esc(r.name) + ' at ' + r.heightIn + ' in' }).join(', ')
-    return '<div class="rider-ruler rider-ruler--family" role="img" aria-label="Height ladder: ' +
+    return '<div class="rider-ruler rider-ruler--family" role="group" aria-label="Height ladder: ' +
       thresholds.join(', ') + ' inches. Riders: ' + names + '.">' +
       '<ol class="ruler__rungs">' + rows + '</ol></div>'
   }
@@ -396,16 +423,19 @@ var RiderProfiles = (function () {
     var totalNow = parks.reduce(function (n, p) { return n + p.now }, 0)
     var ladder = ladderFor(rider, payload, 5)
     var band = growthBand(age)
-    return '<article class="rider-card" data-rider-id="' + esc(rider.id) + '">' +
+    var header = '<article class="rider-card" data-rider-id="' + esc(rider.id) + '">' +
       '<header class="rider-card__head">' +
         '<h3>' + esc(rider.name) + '</h3>' +
-        '<p class="muted">' + (age != null ? 'age ' + age + ' · ' : '') + rider.heightIn + ' in, measured ' + esc(rider.measuredOn) +
+        '<p class="muted">' + (age != null ? 'age ' + age + ' · ' : '') + esc(rider.heightIn) + ' in, measured ' + esc(rider.measuredOn) +
         ' · ' + band.label + ' (' + band.low + '–' + band.high + ' in/yr)</p>' +
         '<div class="rider-card__actions">' +
           '<button class="btn btn--ghost" type="button" data-edit-rider="' + esc(rider.id) + '">Edit</button>' +
           '<button class="btn btn--ghost" type="button" data-remove-rider="' + esc(rider.id) + '">Remove</button>' +
         '</div>' +
-      '</header>' +
+      '</header>'
+    if (rider.measurementNeedsConfirmation) return header +
+      '<p class="rider-note">Confirm a current measurement before height screening. Older saved heights may have been rounded or saved in the wrong units. Use Edit, check the measurement in inches, then Save. Your rider details remain on this device.</p></article>'
+    return header +
       rulerHTML(rider, payload) +
       '<p class="rider-card__verdict">Meets <strong>' + totalNow + '</strong> verified height conditions across this site. Attraction staff make the final eligibility determination.' +
         (ladder.length ? ' Next minimums:' : '') + '</p>' +
@@ -486,7 +516,8 @@ var RiderProfiles = (function () {
       var name = window.prompt("Rider's name (stays on this device):")
       if (!name || !name.trim()) return
       // The readout can show centimetres; the slider always stores canonical inches.
-      store.save({ name: name, heightIn: Number(heightSlider.value) })
+      var saved = store.save({ name: name, heightIn: Number(heightSlider.value) })
+      if (!saved) return
       btn.textContent = 'Saved — view in My Riders'
       btn.disabled = true
     })

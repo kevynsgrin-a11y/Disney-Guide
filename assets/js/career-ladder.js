@@ -40,7 +40,8 @@ var CareerLadder = (function () {
   }
 
   function statusFor (heightIn, rule, confirmations) {
-    var ride = rule !== null && typeof rule === 'object' ? rule : { h: rule }
+    var structured = rule !== null && typeof rule === 'object'
+    var ride = structured ? rule : { h: rule }
     var reqIn = ride.h
     confirmations = confirmations || {}
     if (!currentRide(ride)) return 'closed'
@@ -48,6 +49,7 @@ var CareerLadder = (function () {
     if (knownHeight(ride.max) && heightIn > ride.max) return 'over'
     if (heightIn < reqIn) return reqIn - heightIn <= 2 ? 'near' : 'later'
     if (knownHeight(ride.accompaniedBelow) && heightIn < ride.accompaniedBelow && !confirmations.accompanied) return 'companion'
+    if (structured && (ride.restrictionsKnown === false || !Array.isArray(ride.restrictions) || ride.restrictions.some(function (restriction) { return typeof restriction !== 'string' || !restriction.trim() }))) return 'review'
     if (ride.restrictions && ride.restrictions.length && !confirmations.restrictionsConfirmed) return 'review'
     if (heightIn >= reqIn) return 'now'
   }
@@ -79,14 +81,20 @@ var CareerLadder = (function () {
   /* ---------- credits (localStorage, this device only) ---------- */
 
   var KEY = 'career-credits'
+  var memoryCredits = { ids: [] }
+  var sessionOnly = false
   function readCredits () {
+    if (sessionOnly) return memoryCredits
     try {
       var doc = JSON.parse(localStorage.getItem(KEY))
-      return doc && Array.isArray(doc.ids) ? doc : { ids: [] }
-    } catch (e) { return { ids: [] } }
+      if (doc && Array.isArray(doc.ids)) memoryCredits = doc
+      return memoryCredits
+    } catch (e) { sessionOnly = true; return memoryCredits }
   }
   function writeCredits (doc) {
-    try { localStorage.setItem(KEY, JSON.stringify(doc)) } catch (e) { /* private mode: history lives for this page view */ }
+    memoryCredits = doc
+    if (sessionOnly) return
+    try { localStorage.setItem(KEY, JSON.stringify(doc)) } catch (e) { sessionOnly = true }
   }
   var credits = {
     has: function (id) { return readCredits().ids.indexOf(id) >= 0 },
@@ -122,7 +130,31 @@ var CareerLadder = (function () {
     return riders.slice().sort(function (a, b) { return b.heightIn - a.heightIn })
   }
 
+  function creditCorrectionsHTML (payload) {
+    var corrections = Array.isArray(payload.creditCorrections) ? payload.creditCorrections : []
+    var saved = corrections.filter(function (correction) { return credits.has(correction.id) })
+    if (!saved.length) return ''
+    return '<details class="career-unverified"><summary>Saved credits with corrected attribution</summary><ul>' +
+      saved.map(function (correction) {
+        var source = typeof correction.sourceUrl === 'string' && /^https:\/\//.test(correction.sourceUrl)
+          ? ' <a href="' + esc(correction.sourceUrl) + '" target="_blank" rel="noopener">Official ride source</a>.' : ''
+        return '<li><strong>' + esc(correction.name) + '</strong> — ' + esc(correction.note) + source + '</li>'
+      }).join('') + '</ul></details>'
+  }
+
+  function storageNoteHTML () {
+    return sessionOnly ? '<p class="rider-note">Browser storage is unavailable. Credit changes last for this page session and may be lost on reload or when opening another page.</p>' : ''
+  }
+
   function renderLadder (mount, payload, chosen) {
+    if (chosen.measurementNeedsConfirmation || !knownHeight(chosen.heightIn) || chosen.heightIn < 24 || chosen.heightIn > 84) {
+      mount.innerHTML = '<div class="career-summary"><p>' + esc(chosen.name || 'This rider') +
+        ': confirm a current measurement in inches before height screening. Saved credits are preserved.</p>' +
+        '<a class="btn btn--ghost" href="' + esc(payload.myRidersUrl) + '">Confirm measurement in My Riders</a></div>' +
+        '<ul>' + payload.coasters.map(function (coaster) { return '<li>' + creditRow(coaster) + '</li>' }).join('') + '</ul>' +
+        creditCorrectionsHTML(payload) + storageNoteHTML()
+      return
+    }
     var heightIn = chosen.heightIn
     var ladder = rungsFor(payload.coasters)
     var summary = summaryFor(heightIn, payload.coasters)
@@ -138,8 +170,9 @@ var CareerLadder = (function () {
     if (summary.over) out += '; ' + summary.over + ' exceed a maximum height'
     out += '. Attraction staff make the final eligibility determination. Credits: <strong>' + ridden + '</strong> of ' + summary.total + ' documented coasters ridden, including historical rides.</p>'
     out += '</div>'
+    out += storageNoteHTML()
 
-    out += '<div class="rider-ruler career-ruler" role="img" aria-label="Height ladder from ' +
+    out += '<div class="rider-ruler career-ruler" role="group" aria-label="Height ladder from ' +
       ladder.rungs.map(function (r) { return r.h + ' inches' }).join(', ') + '.">'
     out += '<ol class="ruler__rungs">'
 
@@ -174,7 +207,7 @@ var CareerLadder = (function () {
         var state = statusFor(heightIn, c)
         var note = state === 'over' ? ' · exceeds ' + c.max + ' in maximum'
           : state === 'companion' ? ' · supervising companion required below ' + c.accompaniedBelow + ' in'
-            : state === 'review' ? ' · check rider restrictions: ' + c.restrictions.join('; ') : ''
+            : state === 'review' ? ' · check rider restrictions: ' + (Array.isArray(c.restrictions) && c.restrictions.length ? c.restrictions.filter(function (rule) { return typeof rule === 'string' && rule.trim() }).join('; ') : 'current rider restrictions need verification') : ''
         return creditRow(c, note)
       }).join('')
       out += '</li>'
@@ -197,6 +230,8 @@ var CareerLadder = (function () {
       out += '<details class="career-unverified"><summary>Historical credits — ' + ladder.historical.length + ' retired or non-operating documented coasters, excluded from current height results</summary>'
       out += '<ul>' + ladder.historical.map(function (c) { return '<li>' + creditRow(c) + '</li>' }).join('') + '</ul></details>'
     }
+
+    out += creditCorrectionsHTML(payload)
 
     out += '<div class="career-actions">'
     out += '<button class="btn btn--ghost" type="button" data-career-print>Print the career card</button>'
@@ -226,9 +261,9 @@ var CareerLadder = (function () {
     if (select && select.value && select.value !== '__manual' && riders.length) {
       chosen = riders.find(function (r) { return r.id === select.value })
     }
-    if (chosen) return { name: chosen.name, heightIn: chosen.heightIn, birthday: chosen.birthday, measuredOn: chosen.measuredOn }
-    var h = Number(manual && manual.value) || 48
-    return { name: '', heightIn: Math.max(24, Math.min(84, h)), birthday: null, measuredOn: null }
+    if (chosen) return { name: chosen.name, heightIn: chosen.heightIn, birthday: chosen.birthday, measuredOn: chosen.measuredOn, measurementNeedsConfirmation: chosen.measurementNeedsConfirmation }
+    var h = manual && manual.value.trim() ? Number(manual.value) : null
+    return { name: '', heightIn: h, birthday: null, measuredOn: null }
   }
 
   function controlsHTML (riders) {
@@ -237,12 +272,12 @@ var CareerLadder = (function () {
     out += '<select data-career-rider>'
     var ordered = riderOptions(riders)
     for (var i = 0; i < ordered.length; i++) {
-      out += '<option value="' + esc(ordered[i].id) + '"' + (i === 0 ? ' selected' : '') + '>' + esc(ordered[i].name) + ' — ' + ordered[i].heightIn + ' in</option>'
+      out += '<option value="' + esc(ordered[i].id) + '"' + (i === 0 ? ' selected' : '') + '>' + esc(ordered[i].name) + ' — ' + esc(ordered[i].heightIn) + ' in' + (ordered[i].measurementNeedsConfirmation ? ' · confirm measurement' : '') + '</option>'
     }
     out += '<option value="__manual"' + (ordered.length ? '' : ' selected') + '>Just a height</option>'
     out += '</select></label>'
     out += '<label class="career-control">Height (inches) '
-    out += '<input type="number" inputmode="numeric" min="24" max="84" step="0.5" value="48" data-career-height>'
+    out += '<input type="number" inputmode="decimal" min="24" max="84" step="any" value="48" data-career-height>'
     out += '</label>'
     out += '</div>'
     return out
@@ -284,7 +319,7 @@ var CareerLadder = (function () {
   }
 
   return {
-    _internals: { rungsFor: rungsFor, statusFor: statusFor, summaryFor: summaryFor, renderLadder: renderLadder },
+    _internals: { rungsFor: rungsFor, statusFor: statusFor, summaryFor: summaryFor, renderLadder: renderLadder, creditCorrectionsHTML: creditCorrectionsHTML },
     credits: credits,
     boot: boot,
   }

@@ -31,7 +31,7 @@
       "photoPass": true,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Historical ride configuration: transfer into rotating seats with restraints. X2 is permanently retired; these details are not current access instructions."
       },
       "tier": "headliner",
@@ -92,8 +92,8 @@
       "photoPass": true,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into a prone-position flying seat with overhead harness. Loading takes longer than standard coasters because of the rotation from boarding to flight position."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into a prone-position flying seat with overhead harness. Loading takes longer than standard coasters because of the rotation from boarding to flight position. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "headliner",
       "standalonePage": true,
@@ -109,13 +109,13 @@
         "It ends too fast for a ride this good, which is the strongest argument for re-riding. The second lap is better than the first because you know where to look: the valley on the lift, the ground rush after the loop."
       ],
       "tips": [
-        "Rope-drop it — this is the park's best ride and the queue proves it by 10:00.",
+        "Consider Tatsu early if it is a party priority and operating; check the current queue before committing to the route.",
         "Look ahead, not down, through the flight sections; the track-line perspective is the whole point of flying coasters.",
         "The restraint clamps your calves and shoulders — glasses wearers should use a strap.",
         "Use the official park map to plan the separate Tatsu stop in Rapids Camp Crossing and Ninja stop in Samurai Summit."
       ],
-      "bestTime": "Rope drop, full stop. Second-best is the last hour of operation.",
-      "typicalWait": "60–90 minutes midday in season; 10–20 at rope drop on weekdays.",
+      "bestTime": "An early stop can fit a priority plan; current queues and operations decide the timing.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [
         { "q": "Can I compare Tatsu and X2 on a current visit?", "a": "Tatsu remains a current riding option, subject to daily operations and restrictions. X2 is permanently retired; its preserved page is historical, so it cannot be part of a current ride comparison itinerary." },
         { "q": "What is the height requirement for Tatsu?", "a": "54 inches, the standard minimum for the park's biggest B&M coasters. There is no 48-inch tier on this one." },
@@ -123,7 +123,8 @@
       ],
       "relatedSlugs": ["ninja", "full-throttle"],
       "image": null,
-      "lastVerified": "2026-10"
+      "lastVerified": "2026-10",
+      "riderRestrictions": ["The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "twisted-colossus",
@@ -155,8 +156,8 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into standard coaster trains with lap-bar restraints. The lap-bar-only restraint makes this one of the more accommodative big coasters for larger riders."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into standard coaster trains with lap-bar restraints. The lap-bar-only restraint makes this one of the more accommodative big coasters for larger riders. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "headliner",
       "standalonePage": true,
@@ -175,10 +176,10 @@
         "Ask the station crew if the racing dispatch is running — the high-five element only happens when both trains duel.",
         "Ride the back car for airtime, the front for the race view; there is no wrong row on this one.",
         "The 48-inch minimum plus lap-bar restraints make this the best first big coaster at the park.",
-        "Late afternoon is its quietest window — the back corner empties after the lunch rush."
+        "Consider an afternoon stop if its current queue and operation fit the plan; it is not a guaranteed quiet window."
       ],
       "bestTime": "Check the current queue in Screampunk District; afternoon waits vary by day.",
-      "typicalWait": "30–60 minutes in season; 10–20 weekday afternoons.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [
         { "q": "Is Twisted Colossus a wooden coaster?", "a": "It is a hybrid: the original 1978 wooden structure supports new steel Ibox track, which is what lets it invert. It looks like a woodie and rides like a modern steel coaster, which is exactly the appeal." },
         { "q": "What is the height requirement?", "a": "48 inches — the threshold tier at this park, and lower than the 54-inch big B&Ms. It is the natural first big coaster for kids who have just crossed 48." },
@@ -186,7 +187,8 @@
       ],
       "relatedSlugs": ["west-coast-racers", "goliath", "goldrusher"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "riderRestrictions": ["The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "goliath",
@@ -206,7 +208,7 @@
       "intensity": 4,
       "scary": {
         "score": 3, "darkness": 1, "drops": 5, "speed": 5, "loudness": 2, "startles": 1,
-        "notes": "The first drop is 255 feet at 61 degrees and the tunnel underground section runs in darkness at full speed. Goliath's reputation for grey-out moments comes from the helix's sustained positive g — riders who feel lightheaded in sustained turns should note it."
+        "notes": "The large drop, tunnel and sustained helix create speed, darkness and force sensations. These are separate from the 48-inch minimum; check the physical restrictions and your own tolerance."
       },
       "motionSickness": "moderate",
       "getsWet": "none",
@@ -218,30 +220,30 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into traditional coaster trains. The final brake run and unload are ground level."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into traditional coaster trains. The final brake run and unload are ground level. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "headliner",
       "standalonePage": true,
-      "summary": "The 255-foot Giovanola hypercoaster with a 61-degree first drop, an underground tunnel and the helix that greys out the front row.",
+      "summary": "The Giovanola hypercoaster with a major first drop, an underground tunnel and a sustained helix.",
       "description": [
-        "Goliath opened in 2000 as the park's giant drop machine: 255 feet down at 61 degrees, 85 miles per hour, into a course of hills and one extended helix that has become the ride's signature — a sustained high-g spiral that quietly dims the vision of riders in the front row.",
+        "Goliath opened in 2000 and combines a large drop, high speed, a tunnel and an extended helix. The helix’s sustained forces are part of the experience; this guide does not predict a rider’s medical response.",
         "It carries a 48-inch minimum despite being one of the biggest drops at the park, which is the standing surprise of Magic Mountain's height ladder. The restraint is a lap bar, the seats are roomy, and the ride is speed-and-airtime rather than inversions.",
         "The mid-course underground tunnel is the moment non-enthusiasts remember: full darkness at full speed, then daylight and the helix. Goliath does not have Tatsu's flying position — it is simply enormous, and enormously re-ridable."
       ],
       "experience": [
         "The lift gives you the whole back corner of the park, then the drop. Sixty-one degrees from 255 feet is a commitment the stomach registers before the brain does. The first hill's airtime float leads straight into the tunnel — dark, loud, disorienting for exactly the right number of seconds.",
-        "The second half is the helix: a long descending spiral where the g-force builds and holds. Front-row riders describe the grey-out as a gentle fade at the edges; it passes before the brake run and is the ride's badge of honor among enthusiasts.",
+        "The second half includes a sustained helix. Assess that element with the ride’s posted health and physical restrictions rather than relying on a promise about how it will feel.",
         "The layout has no inversions, so it may appeal to riders avoiding loops. Its large drop, speed and sustained helix remain significant demands; a height minimum does not measure intensity tolerance."
       ],
       "tips": [
-        "Front row for the grey-out helix; back row for the first-drop airtime.",
+        "Choose a row for the view and ride experience without assuming a predictable physical or medical response.",
         "If tunnels in darkness are a no for a young rider, this is not the intro coaster — the tunnel is fast and total.",
         "Check the current queue when you reach Goliath Plaza; do not assume an afternoon wait.",
-        "Hydrate before riding if you are sensitive to sustained g — the helix is where low water intake shows up."
+        "Follow the ride’s posted health restrictions and attraction staff’s directions; hydration does not establish fitness to ride."
       ],
-      "bestTime": "After 15:00, when the crowds migrate back toward the plaza.",
-      "typicalWait": "30–50 minutes in season; often walk-on weekday mornings.",
+      "bestTime": "Use the current Goliath Plaza queue and party priorities; no particular hour is guaranteed.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [
         { "q": "Does Goliath really make people black out?", "a": "The helix pulls sustained positive g-force that causes brief grey-outs for some riders, especially in the front row. It is a known, discussed, and for many riders sought-after feature of the ride. It passes within seconds and is not a medical event for healthy riders, but anyone with cardiovascular concerns should skip it." },
         { "q": "What is the height requirement?", "a": "48 inches — surprisingly low for a 255-foot drop, and one of the reasons this park is so good for the 48-to-54 crowd." },
@@ -249,7 +251,8 @@
       ],
       "relatedSlugs": ["twisted-colossus", "goldrusher", "tatsu"],
       "image": null,
-      "lastVerified": "2026-10"
+      "lastVerified": "2026-10",
+      "riderRestrictions": ["The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "full-throttle",
@@ -281,7 +284,7 @@
       "photoPass": true,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Transfer into launch-coaster trains with lap-bar restraints over the shoulder vest system."
       },
       "tier": "major",
@@ -298,12 +301,12 @@
         "Consider Full Throttle when passing through Six Flags Plaza, subject to current operations and queues. An opening-time or late-day stop does not guarantee a short wait."
       ],
       "tips": [
-        "Ride at close, not at open — the evening queue dies while the summit crowd is still upstairs.",
+        "Check the current queue and closing time before choosing a late-day Full Throttle stop.",
         "The backwards launch is the surprise; brace your neck against the headrest before the second launch.",
         "Use designated spectator areas in Six Flags Plaza and follow posted boundaries."
       ],
-      "bestTime": "Last hour of operation.",
-      "typicalWait": "20–40 minutes midday; under 15 at close.",
+      "bestTime": "Use current queues and operating hours when passing through Six Flags Plaza.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
   {
@@ -326,7 +329,7 @@
             "relatedSlugs": ["west-coast-racers", "viper"],
       "image": null,
       "lastVerified": "2026-10",
-      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding."]
+      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding.", "The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "superman-escape-from-krypton",
@@ -358,7 +361,7 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Historical ride configuration: transfer into shuttle cars. The attraction is permanently closed; this is not current access guidance."
       },
       "tier": "major",
@@ -429,7 +432,7 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Transfer into paired seating in low-floor trains."
       },
       "tier": "major",
@@ -451,7 +454,7 @@
         "Plan a separate stop in The Underground; West Coast Racers is not in Cyclone Bay."
       ],
       "bestTime": "Check the current queue when you reach The Underground.",
-      "typicalWait": "20–40 minutes in season.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {
@@ -470,7 +473,7 @@
             "relatedSlugs": ["twisted-colossus", "goliath"],
       "image": null,
       "lastVerified": "2026-10",
-      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding."]
+      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding.", "The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "viper",
@@ -502,8 +505,8 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into Arrow-style trains with over-the-shoulder restraints."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into Arrow-style trains with over-the-shoulder restraints. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "major",
       "standalonePage": true,
@@ -511,25 +514,25 @@
       "description": [
         "Viper is the classic that refuses to leave: a 144-foot first drop into a vertical loop, a batwing, and the interlocking corkscrew finale that has been the park's silhouette since 1990. It was among the tallest looping coasters in the world on opening and remains the purest old-school looper at the park.",
         "Riding Viper is a technique exercise. Arrow transitions snap between elements, and the over-shoulder harness punishes loose heads — keep pinned to the headrest and the ride is a blast; fight it and you will finish with a headache. Enthusiasts who grew up on Arrow track regard Viper as a rite; first-timers should treat it as one too.",
-        "At sunset the ridge location turns the loops into a silhouette against the valley, and the queue is at its shortest. It is the best closing ride at the park after Full Throttle."
+        "The ridge setting can make Viper an appealing late-day stop if it is operating and suitable for your party. That is a planning suggestion, not a prediction of the shortest queue."
       ],
       "experience": [
-        "Technique decides this ride. Pin your head to the headrest before the first drop and keep it there — Arrow transitions snap between elements, and the over-shoulder harness punishes any head that floats. Do that and Viper is a blast; fight it and you finish with a headache you will blame on the ride.",
+        "Follow attraction staff’s instructions for the restraint, head position and riding posture. The older track’s transitions may feel abrupt; no posture technique guarantees comfort or avoids a headache.",
         "The sequence is the 1990s in order: a 144-foot drop into a vertical loop, a batwing that folds the train through itself, and the interlocking corkscrew finale that has been the park’s silhouette since 1990. It was among the tallest looping coasters in the world when it opened, and the scale still reads from the queue.",
-        "Ride it at sunset. The Baja Ridge location turns the loops into a cutout against the valley, the queue is at its day’s shortest, and it closes a day better than anything except a night lap on Full Throttle."
+        "Consider a late-day Viper stop if the operating hours, current queue and your return plan fit. A sunset visit does not guarantee a shorter wait."
       ],
       "tips": [
-        "Head back, head back, head back — through every inversion. This is the whole ride.",
+        "Use the current queue and operating hours to decide whether a late-day stop fits.",
         "Save it for the golden hour; the ridge view plus short queue is the best late-day pairing.",
         "Skip it if anyone in the party is prone to headaches or neck issues; nothing at the park punishes tension like Viper."
       ],
-      "bestTime": "The last two hours of the day.",
-      "typicalWait": "15–30 minutes; the triple-train capacity keeps it short.",
+      "bestTime": "A late-day stop is an option; check current operations and queues.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {
           "q": "Is Viper rough?",
-          "a": "It can be, and technique decides. Arrow transitions are abrupt where modern coasters are sculpted, and the over-the-shoulder harness punishes loose heads — pin your head to the headrest and keep it there, and the ride is a blast. Fight it and you will finish with a headache."
+          "a": "The older track’s transitions may feel abrupt. Follow the attraction staff’s restraint and posture instructions; comfort varies by rider and no technique guarantees a comfortable ride."
         },
         {
           "q": "What is the height requirement for Viper?",
@@ -574,8 +577,8 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into suspended invert trains with floor-drop loading."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into suspended invert trains with floor-drop loading. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "major",
       "standalonePage": true,
@@ -595,8 +598,8 @@
         "The queue is shaded and themed — one of the few at this park where the wait itself is tolerable at midday.",
         "Plan Batman in DC UNIVERSE and Riddler’s Revenge in METROPOLIS as separate land stops."
       ],
-      "bestTime": "The first hour or after 17:00.",
-      "typicalWait": "20–35 minutes midday.",
+      "bestTime": "Choose the stop using the current DC UNIVERSE queue and operations.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {
@@ -614,7 +617,8 @@
       ],
             "relatedSlugs": ["the-riddlers-revenge", "viper"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "riderRestrictions": ["The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "the-riddlers-revenge",
@@ -646,8 +650,8 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into stand-up trains; the boarding cycle includes adjusting the bicycle seat height, which takes longer than standard loading."
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
+        "notes": "Transfer into stand-up trains; the boarding cycle includes adjusting the bicycle seat height, which takes longer than standard loading. Review the official accessibility page and linked guide for current physical, transfer and restraint criteria; staff determine eligibility."
       },
       "tier": "major",
       "standalonePage": true,
@@ -659,21 +663,21 @@
       ],
       "experience": [
         "You stand the whole ride: a bicycle-style seat takes your weight, a harness clamps your torso, and the train leaves with you vertical. The first inversion is the adjustment lap — standing through a loop is a categorically different sensation, felt through your legs and spine instead of your shoulders.",
-        "Posture carries everything. Stand straight with the seat set so your legs are not quite locked and the ride is B&M-smooth; slouch or lean and the restraints correct you at speed, which is where its reputation for punishment comes from. Watch one load cycle before riding and copy the riders who look bored — that is the correct stance.",
+        "Have attraction staff explain the stand-up restraint setting and correct riding posture. Copying another rider’s appearance is not an eligibility or safety assessment, and posture does not guarantee comfort.",
         "This is the last stand-up coaster of its size anywhere. Stand-ups stopped being built, and the survivors are working artifacts — as much museum as ride. Ride it for what it is, because nothing new will ever be it."
       ],
       "tips": [
         "Get the seat height right at boarding — adjusting mid-ride is impossible and the wrong height hurts.",
         "Stand tall through the loops; leaning into the harness is how riders end up sore.",
-        "It loads slowly (seat adjustment per rider) — budget more queue time than Batman next door."
+        "Check the current Riddler’s Revenge queue in METROPOLIS rather than assuming a longer wait than Batman in DC UNIVERSE."
       ],
-      "bestTime": "First hour of the day or after 17:00.",
-      "typicalWait": "25–40 minutes midday despite short line lengths — the load cycle is slow.",
+      "bestTime": "Choose the stop using current queues and operations.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {
           "q": "Is The Riddler’s Revenge painful?",
-          "a": "Not if you stand correctly. Stand straight with the bicycle seat set so your legs are not quite locked and the ride is B&M-smooth; slouch or lean and the restraints correct you at speed, which is where its reputation comes from. Watch a load cycle first and copy the posture."
+          "a": "Comfort varies in the stand-up restraint. Follow staff’s fitting and posture instructions and the posted physical requirements rather than assuming a particular posture prevents pain."
         },
         {
           "q": "What is the height requirement for The Riddler’s Revenge?",
@@ -686,7 +690,8 @@
       ],
             "relatedSlugs": ["batman-the-ride", "viper"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "riderRestrictions": ["The official accessibility page says guests with any prostheses are not permitted on this attraction. Its separate supplemental-harness criteria address certain amputations; consult the Ride Information Center and attraction staff about the applicable criteria. Source: https://www.sixflags.com/magicmountain/accessibility"]
     },
     {
       "slug": "ninja",
@@ -718,7 +723,7 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Transfer into suspended swing trains."
       },
       "tier": "major",
@@ -732,15 +737,15 @@
       "experience": [
         "The trains hang from the rail and swing outward on every curve, so the whole ride is a pendulum conversation between the track and gravity. No inversions, no launches — the lift takes you up through the trees and the layout spends that elevation gliding.",
         "It threads actual pines on the mountainside below the summit, and the valley appears between branches on the outer swings. Of everything at this park, Ninja is the gentlest demonstration of why a mountain is better than flatland to build on.",
-        "One of the last Arrow suspended coasters still running, which makes it a working museum piece for historians — and, for an eight-year-old just over 42 inches, the best ride on the mountain. Both audiences are correct, and the queue moves quickly for both."
+        "Ninja is a surviving Arrow suspended coaster with a 42-inch minimum and separate physical requirements. Its historical interest and gentler profile do not predict a short queue or permission to ride."
       ],
       "tips": [
         "The queue is one of the shadiest at the park — a good midday escape.",
         "Plan Ninja in Samurai Summit and Tatsu in Rapids Camp Crossing using the current park map.",
         "Sit mid-train: the swing amplitude is pleasant there and aggressive at the ends."
       ],
-      "bestTime": "Anytime — the queue rarely exceeds twenty minutes.",
-      "typicalWait": "5–20 minutes.",
+      "bestTime": "Choose the stop using the current Samurai Summit queue and operations.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {
@@ -791,7 +796,7 @@
       "photoPass": false,
       "accessibility": {
         "transfer": "must-transfer",
-        "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
+        "audioDescription": null, "handheldCaptioning": null, "assistiveListening": null, "signLanguage": null, "serviceAnimals": false,
         "notes": "Transfer into mine-train style trains."
       },
       "tier": "minor",
@@ -807,12 +812,12 @@
         "Ride it for one of two reasons: you have a first-timer with you, or you care that this is the mine train that introduced three generations of Southern California children to coasters. There is no third reason, and neither of those needs one."
       ],
       "tips": [
-        "Zero queue almost always — the perfect confidence-builder between big rides.",
+        "Gold Rusher can be a gentler warm-up for suitable riders; check its current queue rather than assuming a walk-on.",
         "The tunnel adds a brief dark section; prepare first-time riders who are uneasy in darkness.",
         "Use it as a gentler warm-up for eligible riders at 48 inches or taller; it is not an under-48-inch option."
       ],
-      "bestTime": "Anytime.",
-      "typicalWait": "0–10 minutes.",
+      "bestTime": "Choose the stop using the current METROPOLIS queue and operations.",
+      "typicalWait": "No current numerical wait forecast verified. Check the official app and attraction queue on your visit date.",
       "faqs": [],
 "faqs": [
         {

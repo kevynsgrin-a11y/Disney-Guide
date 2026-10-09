@@ -14,9 +14,10 @@
  *      edited away on either side.
  *   2. It is deliberately thin. Only heights I would stake a build on are listed; everything else
  *      is an honest omission, which costs coverage while a wrong entry costs a family a trip.
- *      This operator spans four different park companies (Six Flags, Cedar Fair, Merlin, United
- *      Parks & Resorts), each publishing its own figures in its own app, so the verification lift
- *      is four times what it was for either sister site. See docs/LAUNCH-COASTERGUIDE.md.
+ *      This operator spans different park brands and park-specific products. Six Flags and Cedar
+ *      Fair completed their merger July 1, 2024; Six Flags Entertainment Corporation is the combined
+ *      current parent, including Knott's. Merlin and United Parks & Resorts remain distinct.
+ *      Source: https://investors.sixflags.com/investor-resources/pre-merger-archive/cedar-fair-lp/default.aspx
  */
 
 /**
@@ -100,7 +101,6 @@ export const HEIGHTS = {
 
   /* San Antonio, Texas. */
   'seaworld-san-antonio': {
-    'iron rattler': 48,
     'great white': 54,
     'steel eel': 48,
   },
@@ -127,10 +127,9 @@ export const DUAL_HEIGHTS = {}
 /**
  * Queue-tier assignments that are specifically easy to get wrong.
  *
- * Empty on purpose, and that is a stronger statement than it looks: this operator covers four
- * park companies, each with its own line-skip product (Fast Lane at the Six Flags parks and
+ * Empty on purpose: covered parks publish park-specific line-skip products (Fast Lane at Six Flags parks and
  * Knott's — with park-specific product formats and participating rides — Quick
- * Queue at SeaWorld, and no established equivalent at the US Legolands), and I would not stake a
+ * Queue at SeaWorld, and Fastrack at both US LEGOLAND parks), and I would not stake a
  * build on which specific attractions each of those covers in 2026. The dataset carries authoring
  * judgement, flagged as such in the launch doc; per-attraction coverage is a human verification
  * gate, not a settled fact.
@@ -147,8 +146,8 @@ export const VIRTUAL_QUEUE_ALLOWED = []
 /**
  * Claims the line-skip guide must, should, and must not make.
  *
- * This operator's trap is the opposite of Universal's: with four different products under one
- * roof, the easy wrong move is letting one company's product name bleed onto another's parks.
+ * With several park-specific products covered here, an easy wrong move is letting one park's
+ * product name, packages or participation terms bleed onto another park.
  * The guide must name each real product, must frame prices as of a date, and must never speak a
  * competitor's vocabulary.
  *
@@ -187,8 +186,8 @@ export const QUEUE_CLAIMS = {
   ],
   expect: [
     {
-      re: /legoland/i,
-      message: 'does not address the Legoland parks, which sell no comparable product — a reader deserves the explicit "nothing to buy there" answer',
+      re: /Fastrack/i,
+      message: 'does not name the verified Fastrack product at both US LEGOLAND parks, whose packages and coverage must be checked separately',
     },
   ],
   forbid: [
@@ -231,7 +230,9 @@ export const MUST_BE_OPEN = {
   'legoland-california': ['coastersaurus'],
   'legoland-florida': ['the dragon'],
   'seaworld-san-diego': ['emperor', 'electric eel'],
-  'seaworld-san-antonio': ['iron rattler', 'great white'],
+  // Iron Rattler is at Six Flags Fiesta Texas, not a SeaWorld San Antonio inventory requirement.
+  // Source: https://www.sixflags.com/fiestatexas/attractions/iron-rattler
+  'seaworld-san-antonio': ['great white', 'steel eel'],
   'seaworld-orlando': ['mako', 'kraken', 'manta'],
 }
 

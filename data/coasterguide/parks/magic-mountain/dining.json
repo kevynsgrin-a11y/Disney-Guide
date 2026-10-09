@@ -8,72 +8,95 @@
       "service": "quick-service",
       "cuisine": "Barbecue",
       "priceTier": "$$",
-      "priceNote": "Plates in the mid-teens; pricing shifts by season",
+      "priceNote": "Price unverified; no current menu price was checked.",
       "priceVerified": null,
-      "mealPeriods": ["lunch", "dinner"],
+      "mealPeriods": [],
       "reservations": "not-accepted",
-      "mobileOrder": true,
-      "diningPlan": false,
-      "dietary": ["gluten-free"],
-      "alcohol": true,
-      "airConditioned": false,
-      "indoorSeating": false,
-      "outdoorSeating": true,
+      "mobileOrder": null,
+      "diningPlan": null,
+      "dietary": [],
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": null,
       "characterDining": false,
       "standalonePage": true,
-      "summary": "The reliable hot-meal stop at the front of the park — brisket and pulled pork plates when the coaster queue has earned it.",
+      "summary": "Legacy dining record retained for reference; its current name, menu and availability were not verified in the official listings.",
       "description": [
-        "JB's is the Six Flags chain's smokehouse concept and the closest thing Magic Mountain has to a signature restaurant: meat plates, sides, and a shaded patio near the plaza. It is the answer to the midday question that is not a burger or a pretzel.",
-        "It fills by noon on weekends and thins by two. The mobile-order route through the park app is the move on crowded days — the pickup window bypasses the register queue entirely."
+        "This guide previously listed JB's Smokehouse here. The October 9, 2026 official directory check did not verify that name as a current Magic Mountain venue.",
+        "The record remains for older links. Do not use its former menu, price, dietary or seating claims to plan a current meal. Check the official dining directory and park app for an operating location.",
+        "This record is not a firsthand restaurant review. CoasterReady's October 15, 2026 visit had not occurred when this correction was prepared."
       ],
-      "signatureItems": ["Brisket plate", "Pulled pork sandwich", "Mac and cheese"],
-      "goodFor": ["big-appetites", "quick-bite", "groups"],
+      "signatureItems": [],
+      "goodFor": [],
       "tips": [
-        "Order through the app at 11:15 and pickup lands right at the crowd lull.",
-        "The shaded patio is a legitimate 20-minute recovery spot on hot days."
+        "Choose a currently listed venue in the official directory or park app before making this a meal stop.",
+        "For food allergies, ask the venue staff about ingredients and cross-contact before ordering."
       ],
-      "verdict": "The best hot lunch at the park, which is modest praise at a Six Flags — but the brisket is genuinely decent and the portions are fair for the price.",
+      "verdict": "No current dining recommendation: the venue identity and menu need verification before a visit.",
       "faqs": [
-        { "q": "Do I need the app to order?", "a": "No, the registers work fine, but app ordering skips the register queue on weekends and is worth the two minutes of setup." }
+        {
+          "q": "Is this a verified current dining option?",
+          "a": "No. This is a legacy catalog record. The October 9, 2026 source check did not establish a current venue under this name or verify its prices, menu, ordering features or dietary suitability."
+        }
       ],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-07",
+      "listingStatus": "unverified",
+      "sourceChecked": "2026-10-09",
+      "sourceNote": "Official Magic Mountain dining directory checked October 9, 2026. This legacy name was not found in its Magic Mountain restaurant records; absence does not establish permanent closure or an identity with a differently named venue.",
+      "metaTitleTail": ": legacy venue record",
+      "priceTierUnverified": true
     },
     {
       "slug": "primos-pizzeria",
       "name": "Primo's Pizzeria",
-      "land": "rapids-camp-crossing",
+      "land": "baja-ridge",
       "service": "quick-service",
       "cuisine": "Pizza",
       "priceTier": "$$",
-      "priceNote": "By the slice or whole pie",
+      "priceNote": "Price unverified; no current menu price was checked.",
       "priceVerified": null,
-      "mealPeriods": ["lunch", "dinner"],
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
       "reservations": "not-accepted",
-      "mobileOrder": true,
-      "diningPlan": false,
-      "dietary": ["vegetarian"],
-      "alcohol": false,
-      "airConditioned": true,
-      "indoorSeating": true,
-      "outdoorSeating": false,
+      "mobileOrder": false,
+      "diningPlan": true,
+      "dietary": [
+        "vegetarian"
+      ],
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": true,
       "characterDining": false,
       "standalonePage": false,
-      "summary": "Slices and whole pies in the air-conditioned lowlands — the family consensus meal and the best AC seating at the park.",
+      "summary": "An officially listed pizza stop in Baja Ridge, with outdoor seating. Current prices and allergy suitability need checking before ordering.",
       "description": [
-        "Primo's is the pizza workhorse in the Rapids Camp Crossing area, and its superpower is not the food — it is the air conditioning and the indoor tables. On a July afternoon this is where families regenerate.",
-        "Cheese and pepperoni by the slice, whole pies for groups, and enough shaded seating to make it the default reunion point for split parties."
+        "The official Magic Mountain directory lists Primo's Pizzeria in Baja Ridge, serving cheese or pepperoni pizza, garlic knots and soft drinks. It lists outdoor seating, dining-plan acceptance and a vegetarian option label.",
+        "The directory did not establish air conditioning or indoor seating, and its mobile-order field is false. Check the park app and venue staff for current hours, plan eligibility, ingredients and ordering procedures; a vegetarian label does not establish allergy safety."
       ],
-      "signatureItems": ["Pepperoni slice", "Cheese slice", "Whole pies"],
-      "goodFor": ["families", "picky-eaters", "air-conditioned-break"],
+      "signatureItems": [
+        "Cheese or pepperoni pizza",
+        "Garlic knots"
+      ],
+      "goodFor": [
+        "pizza"
+      ],
       "tips": [
-        "The indoor tables are the prize at peak heat — claim before ordering.",
-        "Whole pie for five beats five slices on price by a wide margin."
+        "Check current prices and the specific dining-plan inclusions before ordering.",
+        "For food allergies, ask venue staff about ingredients, preparation and cross-contact."
       ],
-      "verdict": "Theme-park pizza that does its job: hot, fast, consensus-safe, and served in the only AC at the park worth planning around.",
+      "verdict": "A source-listed pizza option to consider; taste, portion value and current menu prices have not been reviewed firsthand.",
       "faqs": [],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "listingStatus": "listed",
+      "sourceChecked": "2026-10-09",
+      "sourceNote": "Official Magic Mountain dining directory and its public restaurant listing checked October 9, 2026. the official Halloween event also lists Primo’s among the locations for seasonal pizza. This is a source-based pre-visit description, not a tasting review.",
+      "priceTierUnverified": true
     },
     {
       "slug": "sweet-tooth-cart",
@@ -82,34 +105,181 @@
       "service": "snack-cart",
       "cuisine": "Desserts",
       "priceTier": "$",
-      "priceNote": "Funnel cake in the low-to-mid teens with toppings",
+      "priceNote": "Price unverified; no current menu price was checked.",
       "priceVerified": null,
-      "mealPeriods": ["snacks"],
+      "mealPeriods": [],
       "reservations": "not-accepted",
-      "mobileOrder": false,
-      "diningPlan": false,
+      "mobileOrder": null,
+      "diningPlan": null,
       "dietary": [],
-      "alcohol": false,
-      "airConditioned": false,
-      "indoorSeating": false,
-      "outdoorSeating": false,
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": null,
       "characterDining": false,
       "standalonePage": false,
-      "summary": "The plaza funnel cake cart — powdered sugar, strawberries, and the smell that defines every American park midway.",
+      "summary": "Legacy dining record retained for reference; its current name, menu and availability were not verified in the official listings.",
       "description": [
-        "The funnel cake cart at the plaza is the classic version of the classic: fresh-fried cake, powdered sugar, fruit toppings, eaten standing while the coaster noise rolls down the hill.",
-        "The queue peaks at night. Everyone wants funnel cake at close, and the cart's fryer throughput is the bottleneck."
+        "This guide previously listed Sweet Tooth Funnel Cake Cart here. The October 9, 2026 official directory check did not verify that name as a current Magic Mountain venue.",
+        "The record remains for older links. Do not use its former menu, price, dietary or seating claims to plan a current meal. Check the official dining directory and park app for an operating location.",
+        "The official directory lists Funnel Cake Factory, and the [Fright Fest](/events/fright-fest-magic-mountain/) page lists World Famous Funnel Cake Factory. Neither source establishes that Sweet Tooth Funnel Cake Cart is the same venue; it is not being renamed by inference."
       ],
-      "signatureItems": ["Funnel cake with powdered sugar", "Strawberry topping funnel cake"],
-      "goodFor": ["late-night", "families"],
+      "signatureItems": [],
+      "goodFor": [],
       "tips": [
-        "Order before 20:00 or after close-adjacent rush; the fryer line at night is the park's longest snack queue.",
-        "One cake feeds two — the sugar load is a full day's worth."
+        "Choose a currently listed venue in the official directory or park app before making this a meal stop.",
+        "For food allergies, ask the venue staff about ingredients and cross-contact before ordering."
       ],
-      "verdict": "It is funnel cake. It costs eleven-plus dollars and it is worth exactly one bite of nostalgia per trip.",
+      "verdict": "No current dining recommendation: the venue identity and menu need verification before a visit.",
+      "faqs": [
+        {
+          "q": "Is this a verified current dining option?",
+          "a": "No. This is a legacy catalog record. The October 9, 2026 source check did not establish a current venue under this name or verify its prices, menu, ordering features or dietary suitability."
+        }
+      ],
+      "image": null,
+      "lastVerified": "2026-07",
+      "listingStatus": "unverified",
+      "sourceChecked": "2026-10-09",
+      "sourceNote": "Official Magic Mountain dining directory checked October 9, 2026. This legacy name was not found in its Magic Mountain restaurant records; absence does not establish permanent closure or an identity with a differently named venue.",
+      "priceTierUnverified": true
+    },
+    {
+      "slug": "funnel-cake-factory",
+      "name": "Funnel Cake Factory",
+      "land": "six-flags-plaza",
+      "service": "snack-cart",
+      "cuisine": "Desserts",
+      "description": [
+        "The official directory lists Funnel Cake Factory in Six Flags Plaza. The October 15 park calendar uses the same restaurant ID for World Famous Funnel Cake Factory, and the [Fright Fest](/events/fright-fest-magic-mountain/) page names that location for Worms in Dirt Funnel Cake.",
+        "This is a separate, source-confirmed listing. There is no evidence equating it with this guide's older Sweet Tooth Funnel Cake Cart record. Check the current menu, opening hours, prices and ingredients at the venue."
+      ],
+      "summary": "An officially listed Six Flags Plaza dessert stop; the official Halloween event names World Famous Funnel Cake Factory for its seasonal funnel cake.",
+      "signatureItems": [
+        "Funnel cake (check the current menu)"
+      ],
+      "dietary": [],
+      "diningPlan": false,
+      "sourceNote": "Official Magic Mountain dining directory and the official Halloween event page checked October 9, 2026; the official October 15 calendar connects Funnel Cake Factory and World Famous Funnel Cake Factory through restaurant ID RESTAURANT-906-00338.",
+      "priceTier": "$$",
+      "priceNote": "Price unverified; no current menu price was checked.",
+      "priceVerified": null,
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "goodFor": [],
+      "tips": [
+        "Check the official park app and venue for current menu, hours and prices."
+      ],
+      "verdict": "A source-listed option for planning; taste and value have not been reviewed firsthand.",
       "faqs": [],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "sourceChecked": "2026-10-09",
+      "listingStatus": "listed",
+      "priceTierUnverified": true
+    },
+    {
+      "slug": "snack-trax",
+      "name": "Snack Trax",
+      "land": "the-underground",
+      "service": "snack-cart",
+      "cuisine": "Snacks",
+      "description": [
+        "The official Magic Mountain directory lists Snack Trax in The Underground, with pretzels, popcorn, churros, soft serve, ICEE and soft drinks. It lists outdoor seating and dining-plan acceptance.",
+        "The directory labels vegetarian and vegan options at the venue level. That does not identify the ingredients of every item or establish allergen safety; ask staff about the item and cross-contact before ordering."
+      ],
+      "summary": "An officially listed snack stop in The Underground, including churros and pretzels. Check item prices and current dining-plan inclusions.",
+      "signatureItems": [
+        "Churros",
+        "Pretzels",
+        "Popcorn"
+      ],
+      "dietary": [
+        "vegetarian",
+        "vegan"
+      ],
+      "diningPlan": true,
+      "sourceNote": "Official Magic Mountain dining directory restaurant record checked October 9, 2026. Venue-level vegetarian and vegan labels do not verify every menu item.",
+      "priceTier": "$$",
+      "priceNote": "Price unverified; no current menu price was checked.",
+      "priceVerified": null,
+      "mealPeriods": [
+        "snacks"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "goodFor": [],
+      "tips": [
+        "Check the official park app and venue for current menu, hours and prices."
+      ],
+      "verdict": "A source-listed option for planning; taste and value have not been reviewed firsthand.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-10",
+      "sourceChecked": "2026-10-09",
+      "listingStatus": "listed",
+      "priceTierUnverified": true
+    },
+    {
+      "slug": "katys-kettle",
+      "name": "Katy’s Kettle",
+      "land": "rapids-camp-crossing",
+      "service": "quick-service",
+      "cuisine": "Burgers and snacks",
+      "description": [
+        "The official Magic Mountain directory lists Katy’s Kettle in Rapids Camp Crossing, with burgers, turkey legs, chicken sandwiches, salads, kids meals and drinks. It lists outdoor seating and dining-plan acceptance.",
+        "Menu availability, prices and specific plan inclusions still need checking for the selected visit. The directory does not supply an item-level allergen assurance; ask venue staff about ingredients and cross-contact."
+      ],
+      "summary": "An officially listed Rapids Camp Crossing meal stop, including turkey legs. Current prices, menu availability and allergens need checking.",
+      "signatureItems": [
+        "Turkey legs",
+        "Burgers",
+        "Chicken sandwiches"
+      ],
+      "dietary": [],
+      "diningPlan": true,
+      "sourceNote": "Official Magic Mountain dining directory restaurant record checked October 9, 2026. No item price or gluten-free turkey-leg claim was verified.",
+      "priceTier": "$$",
+      "priceNote": "Price unverified; no current menu price was checked.",
+      "priceVerified": null,
+      "mealPeriods": [
+        "lunch",
+        "dinner"
+      ],
+      "reservations": "not-accepted",
+      "mobileOrder": false,
+      "alcohol": null,
+      "airConditioned": null,
+      "indoorSeating": null,
+      "outdoorSeating": true,
+      "characterDining": false,
+      "standalonePage": false,
+      "goodFor": [],
+      "tips": [
+        "Check the official park app and venue for current menu, hours and prices."
+      ],
+      "verdict": "A source-listed option for planning; taste and value have not been reviewed firsthand.",
+      "faqs": [],
+      "image": null,
+      "lastVerified": "2026-10",
+      "sourceChecked": "2026-10-09",
+      "listingStatus": "listed",
+      "priceTierUnverified": true
     }
   ]
 }

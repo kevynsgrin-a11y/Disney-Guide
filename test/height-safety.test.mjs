@@ -6,14 +6,116 @@ import { height, heightWords } from '../src/lib/format.mjs'
 import { isKnownHeight, heightStatus, eligibilityPayload } from '../src/lib/eligibility.mjs'
 import { heightCheckerPage, riderDataPayload, careerLadderPage, dayBlueprintPage } from '../src/pages/tools.mjs'
 
-async function engine (file, name) {
+async function engine (file, name, suppliedStorage = null) {
   const source = await readFile(new URL(`../assets/js/${file}.js`, import.meta.url), 'utf8')
-  const storage = { getItem () { return null }, setItem () {} }
+  const storage = suppliedStorage || { getItem () { return null }, setItem () {} }
   return new Function('window', 'localStorage', source.replace(/if \(typeof document[\s\S]*$/, `return ${name}`))({}, storage)
 }
 
 const riders = await engine('rider-profiles', 'RiderProfiles')
 const career = await engine('career-ladder', 'CareerLadder')
+
+test('exact saved inches never round up across Gold Rusher or West Coast Racers minima', async () => {
+  const passport = await engine('rider-profiles', 'RiderProfiles')
+  const data = await loadData('coasterguide')
+  const park = data.parkBySlug.get('magic-mountain')
+  for (const [slug, inches, roundedCm] of [['goldrusher', 47.9, 122], ['west-coast-racers', 53.9, 137]]) {
+    const ride = eligibilityPayload(park.attractionBySlug.get(slug))
+    const saved = passport.store.save({ name: slug, heightIn: inches })
+    assert.equal(saved.heightIn, inches)
+    assert.equal(Math.round(inches * 2.54), roundedCm, 'display centimetres may round to the posted metric figure')
+    assert.equal(heightStatus(saved.heightIn, ride), 'near', 'screening still uses exact canonical inches')
+    assert.equal(passport.math.statusFor(saved.heightIn, ride), 'near')
+    assert.equal(career._internals.statusFor(saved.heightIn, ride), 'near')
+  }
+  for (const invalid of ['', null, undefined, 'garbage', Infinity, 23.9, 84.1]) {
+    assert.equal(passport.store.save({ name: 'Invalid', heightIn: invalid }), null, 'invalid input cannot become a fabricated or clamped measurement')
+  }
+})
+
+test('legacy saved riders preserve details and credits while requiring confirmation before screening', async () => {
+  const legacy = { id: 'old', name: 'Maya', birthday: '2019-04-10', heightIn: 48, measuredOn: '2026-10-01' }
+  const saved = new Map([
+    ['rider-profiles', JSON.stringify({ riders: [legacy] })],
+    ['career-credits', JSON.stringify({ ids: ['mm/old-credit'] })],
+  ])
+  const storage = { getItem (key) { return saved.get(key) ?? null }, setItem (key, content) { saved.set(key, content) } }
+  const passport = await engine('rider-profiles', 'RiderProfiles', storage)
+  const old = passport.store.all()[0]
+  assert.equal(old.name, legacy.name)
+  assert.equal(old.birthday, legacy.birthday)
+  assert.equal(old.heightIn, legacy.heightIn, 'the original value is retained, not guessed or erased')
+  assert.equal(old.measurementNeedsConfirmation, true)
+  const payload = { myRidersUrl: '/tools/my-riders/', attractions: [{ n: 'Gold Rusher', h: 48, p: 'Park', u: '/park/' }] }
+  const card = passport._internals.riderCard(old, payload)
+  assert.match(card, /Confirm a current measurement before height screening/)
+  assert.doesNotMatch(card, /Meets <strong>|Minimum met|estimated minimum reached/)
+  assert.equal(passport._internals.parkSummary(old, payload)[0].now, 0)
+  const board = { innerHTML: '' }
+  const ladder = await engine('career-ladder', 'CareerLadder', storage)
+  ladder._internals.renderLadder(board, { coasters: [{ id: 'mm/old-credit', n: 'Historical', h: 48, s: 'closed' }], myRidersUrl: '/tools/my-riders/' }, old)
+  assert.match(board.innerHTML, /confirm a current measurement in inches/)
+  assert.match(board.innerHTML, /data-credit="mm\/old-credit" checked/)
+  passport.store.save({ ...legacy, heightIn: 47.9 })
+  const confirmed = passport.store.all()[0]
+  assert.equal(confirmed.measurementNeedsConfirmation, false)
+  assert.equal(confirmed.heightIn, 47.9)
+  assert.equal(passport._internals.parkSummary(confirmed, payload)[0].now, 0)
+  assert.equal(passport._internals.parkSummary(confirmed, payload)[0].near, 1)
+  assert.deepEqual(JSON.parse(saved.get('career-credits')).ids, ['mm/old-credit'])
+  const reloaded = await engine('rider-profiles', 'RiderProfiles', storage)
+  assert.equal(reloaded.store.all()[0].heightIn, 47.9)
+  assert.equal(reloaded.store.all()[0].measurementNeedsConfirmation, false)
+})
+
+test('blocked browser storage keeps rider edits in this page session without claiming persistence', async () => {
+  const storage = { getItem () { throw new Error('Storage blocked') }, setItem () { throw new Error('Storage blocked') } }
+  const passport = await engine('rider-profiles', 'RiderProfiles', storage)
+  passport.store.save({ name: 'Maya', heightIn: 47.9 })
+  assert.equal(passport.store.all()[0].heightIn, 47.9)
+  assert.equal(passport.store.all()[0].measurementNeedsConfirmation, false)
+  const freshPage = await engine('rider-profiles', 'RiderProfiles', storage)
+  assert.deepEqual(freshPage.store.all(), [], 'page-memory fallback is not falsely presented as durable storage')
+})
+
+test('saved credits with corrected park attribution are preserved but excluded from current catalog counts', async () => {
+  const oldId = 'seaworld-san-antonio/iron-rattler'
+  const currentId = 'magic-mountain/tatsu'
+  const saved = new Map([['career-credits', JSON.stringify({ ids: [oldId, currentId] })]])
+  const storage = { getItem (key) { return saved.get(key) ?? null }, setItem (key, content) { saved.set(key, content) } }
+  const ladder = await engine('career-ladder', 'CareerLadder', storage)
+  const doc = payload(careerLadderPage(await loadData('coasterguide')), 'career-data')
+  assert.equal(doc.coasters.some((coaster) => coaster.id === oldId), false)
+  assert.equal(doc.coasters.some((coaster) => coaster.p === 'Six Flags Fiesta Texas'), false, 'the correction does not invent a Fiesta Texas catalog')
+  assert.equal(ladder.credits.count(doc.coasters), 1)
+  const board = { innerHTML: '' }
+  for (const chosen of [{ name: 'Maya', heightIn: 48 }, { name: 'Maya', heightIn: 48, measurementNeedsConfirmation: true }]) {
+    ladder._internals.renderLadder(board, doc, chosen)
+    assert.match(board.innerHTML, /Saved credits with corrected attribution/)
+    assert.match(board.innerHTML, /Iron Rattler/i)
+    assert.match(board.innerHTML, /Six Flags Fiesta Texas/)
+    assert.match(board.innerHTML, /Official ride source/)
+    assert.match(board.innerHTML, /https:\/\/www\.sixflags\.com\/fiestatexas\/attractions\/iron-rattler/)
+    assert.doesNotMatch(board.innerHTML, /data-credit="seaworld-san-antonio\/iron-rattler"/)
+  }
+  assert.deepEqual(JSON.parse(saved.get('career-credits')).ids, [oldId, currentId], 'rendering neither erases nor remaps saved history')
+  ladder.credits.toggle(oldId, false)
+  assert.equal(ladder._internals.creditCorrectionsHTML(doc), '', 'unsaved corrected credit does not introduce an unrelated ride into the guide')
+})
+
+test('blocked credit storage retains page-session edits and explains their limited persistence', async () => {
+  const storage = { getItem () { throw new Error('Storage blocked') }, setItem () { throw new Error('Storage blocked') } }
+  const ladder = await engine('career-ladder', 'CareerLadder', storage)
+  const coaster = { id: 'park/current', n: 'Current coaster', p: 'Park', h: 48, restrictions: [] }
+  ladder.credits.toggle(coaster.id, true)
+  assert.equal(ladder.credits.has(coaster.id), true)
+  assert.equal(ladder.credits.count([coaster]), 1)
+  const board = { innerHTML: '' }
+  ladder._internals.renderLadder(board, { coasters: [coaster], myRidersUrl: '/tools/my-riders/' }, { name: 'Maya', heightIn: 48 })
+  assert.match(board.innerHTML, /Credit changes last for this page session/)
+  const freshPage = await engine('career-ladder', 'CareerLadder', storage)
+  assert.equal(freshPage.credits.has(coaster.id), false)
+})
 
 test('unknown minima stay unknown; only a verified numerical zero has no minimum', () => {
   for (const minimum of [null, undefined, NaN, Infinity, -1, '', '48']) {
@@ -32,6 +134,26 @@ test('unknown minima stay unknown; only a verified numerical zero has no minimum
   assert.equal(riders.math.projectToHeight(null, 48, { low: 2, high: 3 }).now, false)
 })
 
+test('missing, null or malformed rider restrictions never become verified empty rules', () => {
+  for (const rules of [undefined, null, 'none', [null], ['']]) {
+    const canonical = { heightIn: 48, heightNote: null, riderRestrictions: rules }
+    const compact = eligibilityPayload(canonical)
+    assert.equal(compact.restrictionsKnown, false)
+    assert.equal(heightStatus(54, canonical), 'review')
+    assert.equal(heightStatus(54, compact), 'review')
+    assert.equal(riders.math.statusFor(54, compact), 'review')
+    assert.equal(career._internals.statusFor(54, compact), 'review')
+    assert.equal(heightStatus(54, compact, { restrictionsConfirmed: true }), 'review', 'unknown rules cannot be confirmed away')
+  }
+  const knownEmpty = eligibilityPayload({ heightIn: 48, riderRestrictions: [] })
+  assert.equal(knownEmpty.restrictionsKnown, true)
+  assert.equal(heightStatus(48, knownEmpty), 'now')
+  const legacy = { h: 48 }
+  assert.equal(heightStatus(48, legacy), 'review')
+  assert.equal(riders.math.statusFor(48, legacy), 'review')
+  assert.equal(career._internals.statusFor(48, legacy), 'review')
+})
+
 test('verified maxima, companion requirements, and other rider conditions are independent of the minimum', () => {
   const cases = [
     [{ h: 42, max: 76 }, 76, {}, 'now'],
@@ -45,9 +167,10 @@ test('verified maxima, companion requirements, and other rider conditions are in
     [{ h: 42, s: 'closed' }, 54, { accompanied: true, restrictionsConfirmed: true }, 'closed'],
   ]
   for (const [ride, inches, confirmations, expected] of cases) {
-    assert.equal(heightStatus(inches, ride, confirmations), expected)
-    assert.equal(riders.math.statusFor(inches, ride, confirmations), expected)
-    assert.equal(career._internals.statusFor(inches, ride, confirmations), expected)
+    const verified = { restrictions: [], ...ride }
+    assert.equal(heightStatus(inches, verified, confirmations), expected)
+    assert.equal(riders.math.statusFor(inches, verified, confirmations), expected)
+    assert.equal(career._internals.statusFor(inches, verified, confirmations), expected)
   }
   const legacy = { heightIn: 42, heightNote: 'Under 48 inches requires a supervising companion.' }
   assert.equal(heightStatus(54, legacy), 'review', 'legacy prose is reviewed without inferring a numerical rule')
@@ -57,7 +180,7 @@ test('verified maxima, companion requirements, and other rider conditions are in
 
 test('retired credits remain historical while current summaries and ladders exclude them', () => {
   const coasters = [
-    { n: 'Current', h: 48, p: 'Park', u: '/park/', s: 'open' },
+    { n: 'Current', h: 48, p: 'Park', u: '/park/', s: 'open', restrictions: [] },
     { n: 'Unknown', h: null, p: 'Park', u: '/park/' },
     { n: 'Companion', h: 42, accompaniedBelow: 54, p: 'Park', u: '/park/' },
     { n: 'Too tall', h: 42, max: 47, p: 'Park', u: '/park/' },
@@ -96,7 +219,7 @@ test('saved-rider badges read all independent height conditions and preserve mis
   }
   const rows = [
     row({ 'data-value': '' }),
-    row({ 'data-value': '0' }),
+    row({ 'data-value': '0', 'data-rider-restrictions': '[]', 'data-restrictions-known': 'true' }),
     row({ 'data-value': '42', 'data-height-max': '47' }),
     row({ 'data-value': '42', 'data-accompanied-below': '54' }),
     row({ 'data-value': '42', 'data-rider-restrictions': '["Restraint must close correctly"]' }),
@@ -161,11 +284,11 @@ test('corrected Magic Mountain minima and retired exclusions reach every current
 
 test('Height Checker excludes retirement, respects maximum boundaries and never clears unresolved conditions', async () => {
   const rides = [
-    { n: 'Unrestricted verified', h: 0 },
+    { n: 'Unrestricted verified', h: 0, restrictions: [] },
     { n: 'Unknown', h: null },
     { n: 'Invalid', h: '0' },
     { n: 'Finite check', h: Infinity },
-    { n: 'Maximum', h: 42, max: 48 },
+    { n: 'Maximum', h: 42, max: 48, restrictions: [] },
     { n: 'Companion', h: 42, accompaniedBelow: 54 },
     { n: 'Restraint', h: 42, restrictions: ['Restraint must close correctly'] },
     { n: 'Retired', h: 0, s: 'closed' },

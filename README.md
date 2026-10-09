@@ -12,7 +12,7 @@ the tools, and all four gates — and nothing else. Adding one is a content exer
 |---|---|---|---|
 | `disney` | Six US Disney parks | `data/disney/` | `dist/disney/` |
 | `universal` | Four US Universal parks | `data/universal/` | `dist/universal/` |
-| `coasterguide` | Ten US regional parks across four companies (Six Flags, Knott's, LEGOLAND, SeaWorld) | `data/coasterguide/` | `dist/coasterguide/` |
+| `coasterguide` | Ten covered US regional parks in the Six Flags, Knott’s, LEGOLAND and SeaWorld brand families | `data/coasterguide/` | `dist/coasterguide/` |
 
 Within any one operator the site carries two kinds of content, and the difference is structural:
 

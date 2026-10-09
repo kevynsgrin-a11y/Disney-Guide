@@ -162,8 +162,8 @@
         "body": "The SEA LIFE aquarium and the water park are separate admissions. The combined ticket is worth it only for a full resort day; the theme park alone fills a family day comfortably."
       },
       {
-        "title": "No line-skip worth buying",
-        "body": "The park sells no meaningful skip product, and the queues that build (Dragon, driving school) are manageable with a morning plan. See this site's line-skip guide for the honest nothing-to-buy answer."
+        "title": "Check California’s Fastrack options",
+        "body": "LEGOLAND California sells Fastrack Bronze, Silver, Gold and Platinum. Bronze allows three uses and Silver six. Gold gives unlimited use on its participating ride list; Platinum adds one-time access to the LEGO Galaxy attractions, rather than unlimited Galaxy access. Check the selected date, ride list and current offer before buying. Admission is separate, sales are limited and a short wait can remain after entering the dedicated queue. California’s official terms: https://www.legoland.com/california/tickets-passes/extras-experiences/fastrack/."
       }
     ],
     "morningPlan": [
@@ -225,19 +225,22 @@
       "available": true,
       "location": "The Beginning, near guest services",
       "priceNote": "Confirm current pricing at the park",
-      "lastVerified": "2026-07"
+      "queueParticipation": "unverified",
+  "lastVerified": "2026-07"
     },
     "ecvRental": {
       "available": true,
       "location": "The Beginning, near guest services",
       "priceNote": "Limited quantity",
-      "lastVerified": "2026-07"
+      "queueParticipation": "unverified",
+  "lastVerified": "2026-07"
     },
     "strollerRental": {
       "available": true,
       "location": "The Beginning",
       "priceNote": "Single and double — and genuinely needed",
-      "lastVerified": "2026-07"
+      "queueParticipation": "unverified",
+  "lastVerified": "2026-07"
     },
     "companionRestrooms": [
       "The Beginning",
@@ -314,7 +317,7 @@
     },
     {
       "q": "Does Legoland have a line-skip pass?",
-      "a": "No meaningful equivalent of the big parks' products. The queues that build — the Dragon, the driving school — are managed by timing instead. This site's line-skip guide gives Legoland the explicit honest answer."
+      "a": "Yes. LEGOLAND California sells Fastrack Bronze for three uses and Silver for six. Gold offers unlimited use on its participating ride list; Platinum adds one-time access to the LEGO Galaxy attractions. The barcode grants access to a dedicated queue, not immediate boarding. Check the selected-date product and ride list; park admission is separate. California’s prices and terms do not establish Florida’s offer. Official source, checked October 9, 2026: https://www.legoland.com/california/tickets-passes/extras-experiences/fastrack/."
     },
     {
       "q": "Can you do Legoland and SeaWorld San Diego in one day?",
@@ -330,5 +333,6 @@
     ],
     "entranceNote": "Security screening sits at The Beginning. The Dragon walk from the gate is under ten minutes — spend the rope-drop minutes getting ahead of its queue."
   },
+  "queueParticipation": "unverified",
   "lastVerified": "2026-07"
 }

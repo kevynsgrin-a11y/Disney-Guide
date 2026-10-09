@@ -169,7 +169,7 @@
     { "q": "What are the height requirements at Legoland Florida?", "a": "Low to none, and mostly age-and-supervision based rather than height-stick based. This site states no Legoland height figures on purpose — the park's own ride pages carry the current bands, and third-party numbers go stale." },
     { "q": "How far is Legoland Florida from Disney World?", "a": "45–60 minutes by car from the Orlando tourist district, depending on which park you start from. It is a dedicated-day trip, not a hop. Tampa is closer at about 40 minutes." },
     { "q": "Can you do Legoland Florida in one day?", "a": "Yes — the park covers comfortably in a day at family pace. Add the water park and it becomes a day and a half, which is what the resort hotels are for." },
-    { "q": "Does Legoland Florida have a line-skip pass?", "a": "No meaningful equivalent of the big parks' products. The building queues — the Dragon, the driving school — are managed by morning timing. This site's line-skip guide gives the explicit answer." },
+    { "q": "Does Legoland Florida have a line-skip pass?", "a": "Yes. LEGOLAND Florida sells Fastrack Bronze for three uses, Silver for six, Gold for unlimited uses on its participating list excluding Galacticoaster, and Platinum for unlimited uses on its participating list including Galacticoaster. Fastrack uses dedicated queues without booked time slots; a short wait or operational limits can still apply. Park admission is separate, availability is limited and the purchase is date-specific and nontransferable. It does not cover the Water Park or Peppa Pig Theme Park. Check Florida’s current prices and terms rather than applying California’s offer. Official source, checked October 9, 2026: https://florida-support.legoland.com/hc/en-us/articles/25142420661661-What-is-Fastrack-at-LEGOLAND-Florida-Resort." },
     { "q": "What is Cypress Gardens?", "a": "Florida's first theme park, opened 1936 — botanical gardens and famous water-ski shows. Legoland was built on the site in 2011 and preserves the restored gardens and the ski-show tradition inside the park." }
   ],
   "gettingThere": {
@@ -181,5 +181,6 @@
     ],
     "entranceNote": "Security at The Beginning. The Dragon walk from the gate is short — spend the rope-drop minutes beating its queue, not the walk."
   },
+  "queueParticipation": "unverified",
   "lastVerified": "2026-07"
 }

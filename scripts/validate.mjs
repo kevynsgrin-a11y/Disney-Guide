@@ -208,6 +208,7 @@ async function validatePark (meta) {
   requireString(park, 'name', P)
   requireString(park, 'summary', P, { min: 40 })
   requireString(park, 'tagline', P, { max: 110 })
+  requireEnum(park, 'queueParticipation', new Set(['unverified']), P, { optional: true })
   requireArray(park, 'intro', P, { min: 3 })
   requireArray(park, 'bestFor', P, { min: 2 })
   requireArray(park, 'lands', P, { min: 1, of: 'object' })
@@ -250,6 +251,8 @@ async function validatePark (meta) {
     requireEnum(a, 'type', ATTRACTION_TYPES, at)
     requireEnum(a, 'tier', TIERS, at)
     requireEnum(a, 'lightningLane', LL, at)
+    requireEnum(a, 'queueParticipation', new Set(['unverified', 'listed']), at, { optional: true })
+    if (a.queueParticipation === 'listed') requireString(a, 'queueParticipationNote', at)
     requireEnum(a, 'status', STATUSES, at, { optional: true })
     requireEnum(a, 'motionSickness', MOTION, at, { optional: true })
     requireEnum(a, 'getsWet', WET, at, { optional: true })
@@ -257,8 +260,8 @@ async function validatePark (meta) {
     checkVerified(a, 'lastVerified', at)
     checkProse(a.summary, at, 'summary')
 
-    if (!landSlugs.has(a.land) && !(a.land == null && !isCurrentAttraction(a))) {
-      err(at, `land "${a.land}" is not declared in park.json (only non-current records may have an unverified null land)`)
+    if (!landSlugs.has(a.land) && !(a.land == null && (!isCurrentAttraction(a) || (typeof a.landNote === 'string' && a.landNote.trim())))) {
+      err(at, `land "${a.land}" is not declared in park.json (a current record with null land must explain the unverified location in landNote)`)
     }
 
     if (a.heightIn != null && (!Number.isInteger(a.heightIn) || (a.heightIn !== 0 && (a.heightIn < 24 || a.heightIn > 60)))) {

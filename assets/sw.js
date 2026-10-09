@@ -1,11 +1,4 @@
-/* =========================================================================
-   Service worker.
-   Scope is deliberately narrow. We precache exactly the two things a guest
-   actually needs when the park WiFi gives up: their saved food list (the tool
-   page itself — the data already lives in localStorage) and the park maps.
-   Everything else is served stale-while-revalidate, with an offline fallback.
-   ========================================================================= */
-
+/* Offline copies belong to one content revision. Never use obsolete app caches as a fallback. */
 var VERSION = '__VERSION__'
 var PRECACHE = 'rrg-precache-' + VERSION
 var RUNTIME = 'rrg-runtime-' + VERSION
@@ -13,75 +6,76 @@ var PRECACHE_URLS = __PRECACHE__
 var OFFLINE_URL = '/offline/'
 
 self.addEventListener('install', function (event) {
-  event.waitUntil(
-    caches.open(PRECACHE)
-      .then(function (cache) {
-        // addAll is atomic — one 404 would abandon the whole install, so each
-        // request is added independently and failures are tolerated.
-        return Promise.all(PRECACHE_URLS.map(function (url) {
-          return cache.add(new Request(url, { cache: 'reload' })).catch(function () {})
-        }))
-      })
-      .then(function () { return self.skipWaiting() })
-  )
+  event.waitUntil(caches.open(PRECACHE).then(function (cache) {
+    return Promise.all(PRECACHE_URLS.map(function (url) {
+      return cache.add(new Request(url, { cache: 'reload' })).catch(function () {})
+    }))
+  }).then(function () { return self.skipWaiting() }))
 })
 
 self.addEventListener('activate', function (event) {
-  event.waitUntil(
-    caches.keys()
-      .then(function (keys) {
-        return Promise.all(keys.map(function (key) {
-          if (key !== PRECACHE && key !== RUNTIME) return caches.delete(key)
-        }))
+  var upgraded = false
+  event.waitUntil(caches.keys().then(function (keys) {
+    return Promise.all(keys.map(function (key) {
+      if (/^rrg-(precache|runtime)-/.test(key) && key !== PRECACHE && key !== RUNTIME) {
+        upgraded = true
+        return caches.delete(key)
+      }
+    }))
+  }).then(function () { return self.clients.claim() }).then(function () {
+    // Existing tabs can contain obsolete inline data. Reload on upgrade; localStorage survives.
+    if (!upgraded) return
+    return self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function (clients) {
+      clients.forEach(function (client) {
+        // Navigation can wait for activation. Awaiting it here would deadlock this upgrade.
+        if (client.url.startsWith(self.registration.scope)) client.navigate(client.url).catch(function () {})
       })
-      .then(function () { return self.clients.claim() })
-  )
+    })
+  }))
 })
 
+function currentMatch (request) {
+  return caches.open(RUNTIME).then(function (cache) { return cache.match(request) })
+    .then(function (cached) {
+      return cached || caches.open(PRECACHE).then(function (cache) { return cache.match(request) })
+    })
+}
+
 function isHtml (request) {
-  return request.mode === 'navigate' ||
-    (request.headers.get('accept') || '').indexOf('text/html') > -1
+  return request.mode === 'navigate' || (request.headers.get('accept') || '').indexOf('text/html') > -1
 }
 
 self.addEventListener('fetch', function (event) {
   var request = event.request
-  if (request.method !== 'GET') return
-
-  var url = new URL(request.url)
-  if (url.origin !== self.location.origin) return
-
-  // Navigations: network first so content stays fresh, cache as the safety net.
+  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return
   if (isHtml(request)) {
-    event.respondWith(
-      fetch(request)
-        .then(function (response) {
-          var copy = response.clone()
-          caches.open(RUNTIME).then(function (cache) { cache.put(request, copy) })
-          return response
+    event.respondWith(fetch(request, { cache: 'no-store' }).then(function (response) {
+      if (response.status === 200) {
+        var copy = response.clone()
+        event.waitUntil(caches.open(RUNTIME).then(function (cache) { return cache.put(request, copy) }))
+      }
+      return response
+    }).catch(function () {
+      return currentMatch(request).then(function (cached) { return cached || currentMatch(OFFLINE_URL) })
+        .then(function (cached) {
+          return cached || new Response('This page has not been saved for the current site revision. Reconnect to load it.', {
+            status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+          })
         })
-        .catch(function () {
-          return caches.match(request)
-            .then(function (cached) { return cached || caches.match(OFFLINE_URL) })
-        })
-    )
+    }))
     return
   }
-
-  // Static assets: cache first, refresh in the background.
-  event.respondWith(
-    caches.match(request).then(function (cached) {
-      /* `cache: 'reload'` because /assets/* ships `immutable` with a one-year max-age: a plain
-         fetch here is answered by the HTTP cache, so the background refresh refreshes nothing. */
-      var network = fetch(request, { cache: 'reload' }).then(function (response) {
-        if (response && response.status === 200) {
-          var copy = response.clone()
-          caches.open(RUNTIME).then(function (cache) { cache.put(request, copy) })
-        }
-        return response
-      }).catch(function () { return cached })
-      return cached || network
-    })
-  )
+  event.respondWith(currentMatch(request).then(function (cached) {
+    var network = fetch(request, { cache: 'reload' }).then(function (response) {
+      if (response.status === 200) {
+        var copy = response.clone()
+        event.waitUntil(caches.open(RUNTIME).then(function (cache) { return cache.put(request, copy) }))
+      }
+      return response
+    }).catch(function () { return cached || Response.error() })
+    event.waitUntil(network.then(function () {}))
+    return cached || network
+  }))
 })
 
 self.addEventListener('message', function (event) {

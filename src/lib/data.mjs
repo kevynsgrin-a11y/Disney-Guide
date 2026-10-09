@@ -313,8 +313,17 @@ function index (data) {
         : `${urls.rides(park)}#${attraction.slug}`
       attraction.hasPage = Boolean(attraction.standalonePage)
       attraction.isOpen = isCurrentAttraction(attraction)
-      attraction.queueLabel = queueLabels[attraction.lightningLane] || 'Standby only'
-      attraction.queueLabelShort = queueShort[attraction.lightningLane] || 'Standby'
+      const participation = attraction.queueParticipation ?? park.queueParticipation
+      attraction.queueLabel = participation === 'unverified'
+        ? 'Paid-queue participation unverified; check the current park product'
+        : participation === 'listed'
+          ? attraction.queueParticipationNote || 'Listed for paid-queue access; check current package and availability'
+        : queueLabels[attraction.lightningLane] || 'Standby only'
+      attraction.queueLabelShort = participation === 'unverified'
+        ? 'Check participation'
+        : participation === 'listed'
+          ? 'Fastrack listed'
+        : queueShort[attraction.lightningLane] || 'Standby'
     }
     for (const restaurant of park.dining) {
       restaurant.park = park

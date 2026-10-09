@@ -43,6 +43,10 @@ test('day blueprint: options adjust the plan and every adjustment is noted', () 
   assert.ok(full.steps[0].time === 'Before open')
   assert.ok(full.steps.some((s) => s.time === 'Midday' && /break/i.test(s.body)))
   assert.equal(full.notes.length, 3, 'every generated step explains itself in the notes')
+  const adjustments = [...full.steps.filter((step) => !Object.values(PLANS).flat().some((authored) => authored.body === step.body)), ...full.notes.map((body) => ({ body }))]
+  assert.doesNotMatch(JSON.stringify(adjustments), /twenty minutes|two hours|sixty minutes|shortest waits|crowds peaked|worst queue|buys more riding|family exodus/i)
+  assert.match(full.steps[0].body, /schedules.*buffer/i, 'arrival time follows current schedules with a flexible buffer')
+  assert.match(full.steps.at(-1).body, /queue entry cutoff.*staff instructions/i, 'optional re-rides depend on current staff procedures')
   assert.equal(DayBlueprint.buildPlan(null, {}), null)
 })
 
@@ -203,7 +207,7 @@ test('career ladder: rungs ascend from asserted minimums and never invent one', 
 test('career ladder: summary counts the near-miss band this site is built on', () => {
   const { summaryFor } = CareerLadder._internals
   const coasters = [
-    { id: 'a', h: 42 }, { id: 'b', h: 44 }, { id: 'c', h: 48 }, { id: 'd', h: null },
+    { id: 'a', h: 42, restrictions: [] }, { id: 'b', h: 44, restrictions: [] }, { id: 'c', h: 48, restrictions: [] }, { id: 'd', h: null },
   ]
   const s = summaryFor(43, coasters)
   assert.equal(s.now, 1)

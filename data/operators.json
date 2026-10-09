@@ -19,7 +19,7 @@
       "name": "CoasterReady",
       "dir": "coasterguide",
       "status": "live",
-      "note": "LIVE 2026-09-11. Launch fact-verification gates cleared by the owner; anything caught in full manual oversight post-launch is documented and revised. Covers four park companies (Six Flags, Cedar Fair, Merlin, United Parks & Resorts) under one brand. Domain coasterready.com (Cloudflare); slug stays coasterguide as the build target — see docs/LAUNCH-COASTERGUIDE.md."
+      "note": "LIVE 2026-09-11. Launch fact-verification gates cleared by the owner; anything caught in full manual oversight post-launch is documented and revised. Covers ten US regional parks in the Six Flags, Knott’s, LEGOLAND and SeaWorld brand families. Domain coasterready.com (Cloudflare); slug stays coasterguide as the build target — see docs/LAUNCH-COASTERGUIDE.md."
     }
   ]
 }

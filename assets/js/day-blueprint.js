@@ -26,19 +26,19 @@ var DayBlueprint = (function () {
     var steps = []
     var notes = []
     if (opts.earlyStart) {
-      steps.push({ time: 'Before open', body: 'Be at the gate twenty minutes early, through security before it. The security line, not the turnstiles, is the bottleneck.' })
-      notes.push('Early start prepended: the first hour buys more riding than any other.')
+      steps.push({ time: 'Before open', body: 'Check today’s park and attraction schedules. Allow a buffer for parking, security and entry, and follow posted arrival instructions before starting the morning plan.' })
+      notes.push('Early start adds time for arrival and entry. Security queues and attraction opening times vary.')
     }
     ;(plans.morning || []).forEach(function (s) { steps.push({ time: s.time, body: s.body }) })
     if (opts.middayBreak) {
-      steps.push({ time: 'Midday', body: 'Hotel or shaded break — two hours off your feet, phones charging, crowds peaked. The evening window pays for it.' })
-      notes.push('Midday break inserted: the plan trades the worst queue hours for stamina.')
+      steps.push({ time: 'Midday', body: 'Take a shaded or indoor break for rest, food and charging. Choose its length around your family’s needs and the remaining park hours. Check return travel and re-entry rules if leaving the park.' })
+      notes.push('Midday break adds room for rest. Adjust its timing to your family and the conditions you observe.')
     }
     ;(plans.midday || []).forEach(function (s) { steps.push({ time: s.time, body: s.body }) })
     ;(plans.evening || []).forEach(function (s) { steps.push({ time: s.time, body: s.body }) })
     if (opts.reRides) {
-      steps.push({ time: 'Last hour', body: 'Re-ride whatever earned it — the family exodus at dinner empties the marquee queues, and the best ride of the day is often the third lap on the one you loved.' })
-      notes.push('Re-ride hour appended: the final sixty minutes routinely run the day\'s shortest waits.')
+      steps.push({ time: 'Near closing', body: 'Consider another ride if availability and remaining time allow. Check the attraction’s queue entry cutoff and follow staff instructions; queues may stop admitting guests before park closing.' })
+      notes.push('Optional re-rides depend on current availability, observed waits and staff directions for the end of the day.')
     }
     return { steps: steps, notes: notes }
   }
@@ -49,7 +49,7 @@ var DayBlueprint = (function () {
       var riders = RiderProfiles.store.all()
       if (!riders.length) return ''
       return 'Saved riders on this device: ' + riders.map(function (r) {
-        return r.name + ' (' + r.heightIn + ' in)'
+        return r.name + ' (' + r.heightIn + ' in' + (r.measurementNeedsConfirmation ? ', measurement needs confirmation' : '') + ')'
       }).join(', ') + '. Check current ride status, minimum and maximum heights, companion requirements and other restrictions before committing the plan. Attraction staff make the final eligibility determination.';
     } catch (e) { return '' }
   }
@@ -65,7 +65,7 @@ var DayBlueprint = (function () {
         '<fieldset class="tool-checks"><legend>Pace</legend>' +
           '<label><input type="checkbox" name="earlyStart" checked> Early start (gate before open)</label>' +
           '<label><input type="checkbox" name="middayBreak"> Midday break</label>' +
-          '<label><input type="checkbox" name="reRides" checked> Re-ride hour at close</label>' +
+          '<label><input type="checkbox" name="reRides" checked> Optional re-rides if hours allow</label>' +
         '</fieldset>' +
         '<button class="btn btn--primary" type="submit">Build the plan</button>' +
       '</form>' +

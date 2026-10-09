@@ -21,25 +21,6 @@
       "image": null
     },
     {
-      "id": "swsa-funnel-cake",
-      "name": "Funnel cake",
-      "restaurant": "Canyon Funnel Cake Cart",
-      "restaurantSlug": "canyon-snack-cart",
-      "land": "crackaxle-canyon",
-      "price": null,
-      "priceVerified": "2026-07",
-      "category": "sweet",
-      "dietaryTags": [],
-      "iconic": true,
-      "mustTry": 3,
-      "shareable": true,
-      "portable": false,
-      "seasonal": false,
-      "description": "Fresh funnel cake from the quarry-rim cart, eaten at the overlook.",
-      "verdict": "The view does half the work and the sugar does the rest. The park's correct dessert.",
-      "image": null
-    },
-    {
       "id": "swsa-turkey-leg",
       "name": "Turkey leg",
       "restaurant": "Savory snack carts",
@@ -48,7 +29,9 @@
       "price": null,
       "priceVerified": "2026-07",
       "category": "savory",
-      "dietaryTags": ["gluten-free"],
+      "dietaryTags": [
+        "gluten-free"
+      ],
       "iconic": false,
       "mustTry": 3,
       "shareable": true,

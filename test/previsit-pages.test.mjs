@@ -1,9 +1,10 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 
-import { loadData } from '../src/lib/data.mjs'
+import { loadData, foodTrackerOrder } from '../src/lib/data.mjs'
 import { loadSeasonal } from '../src/lib/seasonal-data.mjs'
-import { guidePage } from '../src/pages/docs.mjs'
+import { guidePage, comparePage } from '../src/pages/docs.mjs'
+import { companyPages, resortPages } from '../src/pages/core.mjs'
 import { pricePage } from '../src/seasonal/reference.mjs'
 import { attractionPage, heightsPage, ridesPage, bestRidesPage, firstTimerPage } from '../src/pages/park.mjs'
 import { heightCheckerPage, riderDataPayload, careerLadderPage, myRidersPage, dayBlueprintPage } from '../src/pages/tools.mjs'
@@ -174,4 +175,100 @@ test('Magic Mountain paid-queue pages preserve current product distinctions and 
   const knott = price.rows.find((row) => /Knott.*per person/i.test(row.label))
   assert.deepEqual(knott.rangeUsd, [75, 130])
   assert.equal(knott.asOf, 'September 2026')
+})
+
+test('Fastrack pages distinguish separately verified California and Florida products and prices', async () => {
+  const data = await loadData('coasterguide')
+  const seasonal = await loadSeasonal('coasterguide', data)
+  const guide = guidePage(data.guideBySlug.get('line-skip-passes'), data).html
+  const price = seasonal.priceBySlug.get('line-skip')
+  const prices = pricePage(price, seasonal).html
+  for (const page of [guide, prices]) {
+    assert.match(page, /LEGOLAND California/)
+    assert.match(page, /LEGOLAND Florida/)
+    assert.match(page, /Fastrack/)
+    assert.match(page, /Galaxy (?:one-shots|One Shots)/)
+    assert.match(page, /Gold excluding Galacticoaster|Gold excludes Galacticoaster/)
+    assert.match(page, /Platinum including unlimited Galacticoaster|Platinum includes unlimited.*Galacticoaster/)
+    assert.match(page, /https:\/\/www\.legoland\.com\/california\/tickets-passes\/extras-experiences\/fastrack\//)
+    assert.match(page, /https:\/\/florida-support\.legoland\.com\/hc\/en-us\/articles\/25142420661661/)
+    assert.doesNotMatch(page, /neither.*Legoland.*line-skip|Legoland.*sell no comparable product/i)
+  }
+  assert.match(prices, /\$20.*\$38.*\$89.*\$119/)
+  assert.match(prices, /No Florida price is inferred here from California/)
+  assert.ok(!price.rows.some((row) => /LEGOLAND/i.test(row.label)), 'starting quotes and an unquoted product must not become modeled ranges')
+  for (const slug of ['legoland-california', 'legoland-florida']) {
+    const park = data.parkBySlug.get(slug)
+    const directory = ridesPage(park, data).html
+    assert.doesNotMatch(directory, /Standby only/)
+    assert.match(directory, /Check participation/)
+  }
+  const california = data.parkBySlug.get('legoland-california')
+  const coaster = california.attractionBySlug.get('coastersaurus')
+  assert.match(attractionPage(coaster, data).html, /Coastersaurus is excluded from Bronze/)
+  assert.match(attractionPage(california.attractionBySlug.get('the-dragon'), data).html, /Bronze, Silver, Gold and Platinum/)
+  const florida = data.parkBySlug.get('legoland-florida')
+  assert.match(attractionPage(florida.attractionBySlug.get('the-dragon'), data).html, /participation unverified/)
+})
+
+test('current ownership explains the July 2024 combined parent without replacing distinct park products', async () => {
+  const data = await loadData('coasterguide')
+  const seasonal = await loadSeasonal('coasterguide', data)
+  const pages = [
+    guidePage(data.guideBySlug.get('line-skip-passes'), data),
+    comparePage(data.compareBySlug.get('coaster-park-rankings'), data),
+    ...companyPages(data, seasonal), ...resortPages(data),
+    ...['annual-passes', 'park-tickets'].map((slug) => pricePage(seasonal.priceBySlug.get(slug), seasonal)),
+  ]
+  for (const page of pages) {
+    assert.match(page.html, /Six Flags Entertainment Corporation/)
+    assert.match(page.html, /July 1, 2024/)
+    assert.doesNotMatch(page.html, /four (?:different )?(?:park )?companies|four of the five companies|other three companies/i)
+  }
+  const sixFlags = companyPages(data, seasonal).find((page) => page.url === '/six-flags/')
+  assert.match(sixFlags.html, /Knott[’']s Berry Farm belongs to that combined parent/)
+  assert.match(sixFlags.html, /pre-merger-archive\/cedar-fair-lp/)
+  assert.match(data.site.legal.disclaimer, /historical corporate or trademark name/)
+})
+
+test('the misplaced Fiesta Texas ride and quarry grouping cannot enter SeaWorld tools or inventory', async () => {
+  const data = await loadData('coasterguide')
+  const park = data.parkBySlug.get('seaworld-san-antonio')
+  assert.ok(!park.attractionBySlug.has('iron-rattler'))
+  assert.ok(!park.landBySlug.has('crackaxle-canyon'))
+  assert.ok(!park.diningBySlug.has('canyon-snack-cart'))
+  assert.ok(!park.foodById.has('swsa-funnel-cake'))
+  assert.ok(foodTrackerOrder(data).ids.includes('swsa-funnel-cake'), 'saved-state bit position survives as a tombstone')
+  const rio = park.attractionBySlug.get('rio-loco')
+  assert.equal(rio.landInfo, null)
+  assert.match(rio.landNote, /has not been verified/)
+  const directory = ridesPage(park, data).html
+  assert.match(directory, /Location unverified/)
+  assert.doesNotMatch(directory, />Iron Rattler<|crackaxle-canyon/)
+  assert.doesNotMatch(heightsPage(park, data).html, />Iron Rattler</)
+  const checker = payload(heightCheckerPage(data), 'height-data').parks.find((item) => item.name === park.name)
+  assert.ok(checker.rides.every((ride) => ride.n !== 'Iron Rattler'))
+  assert.ok(riderDataPayload(data).attractions.every((ride) => ride.n !== 'Iron Rattler'))
+  assert.ok(payload(careerLadderPage(data), 'career-data').coasters.every((ride) => ride.n !== 'Iron Rattler'))
+  const plans = payload(dayBlueprintPage(data), 'blueprint-data').parks.find((item) => item.name === park.name).plans
+  assert.doesNotMatch(JSON.stringify(plans), /Iron Rattler|quarry|crackaxle/i)
+  assert.doesNotMatch(guidePage(data.guideBySlug.get('height-requirements'), data).html, /Iron Rattler/)
+  const rankings = comparePage(data.compareBySlug.get('coaster-park-rankings'), data).html
+  assert.match(rankings, /Placement provisional/)
+  assert.match(rankings, /https:\/\/www\.sixflags\.com\/fiestatexas\/attractions\/iron-rattler/)
+  assert.doesNotMatch(rankings, /Iron Rattler alone justifies|Iron Rattler is the mission/)
+})
+
+test('accessibility availability keeps unverified, verified denial and offered services distinct', async () => {
+  const data = await loadData('coasterguide')
+  const park = data.parkBySlug.get('magic-mountain')
+  const fixture = {
+    ...park.attractions.find((ride) => ride.status === 'open'),
+    accessibility: { audioDescription: null, handheldCaptioning: false, assistiveListening: true, signLanguage: undefined },
+  }
+  const page = attractionPage(fixture, data).html
+  assert.match(page, /Audio description<\/dt>\s*<dd>Check with Guest Relations/)
+  assert.match(page, /Handheld captioning<\/dt>\s*<dd>Not offered/)
+  assert.match(page, /Assistive listening<\/dt>\s*<dd>Available/)
+  assert.match(page, /Sign language<\/dt>\s*<dd>Check with Guest Relations/)
 })
