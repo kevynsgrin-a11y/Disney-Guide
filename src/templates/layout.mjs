@@ -6,7 +6,7 @@ import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { ga4LoaderId } from '../lib/ga4.mjs'
 
 // CSS/JS URLs are cached as immutable: increment this when publishing changed assets.
-export const ASSET_VERSION = '30'
+export const ASSET_VERSION = '31'
 const v = (path) => `${path}?v=${ASSET_VERSION}`
 
 const TITLE_MAX = 66
