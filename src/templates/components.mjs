@@ -388,7 +388,7 @@ export function faqSection (faqs, { title = 'Frequently asked questions', id = '
  * Cards
  * ------------------------------------------------------------------ */
 
-export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', footer, image }) {
+export function card ({ id, href, eyebrow, title, summary, meta, badges, tone = '', footer, image }) {
   const inner = html`
     ${image ? html`<div class="card__media">${photo(image, { className: 'card__photo', sizes: '(min-width: 940px) 33vw, (min-width: 620px) 50vw, 100vw' })}</div>` : ''}
     ${eyebrow ? html`<p class="card__eyebrow">${eyebrow}</p>` : ''}
@@ -398,7 +398,7 @@ export function card ({ href, eyebrow, title, summary, meta, badges, tone = '', 
     ${meta && meta.length ? html`<ul class="card__meta">${meta.filter(Boolean).map((m) => html`<li><span>${m.label}</span><strong>${m.value}</strong></li>`)}</ul>` : ''}
     ${footer || ''}
   `
-  return html`<article class="card ${tone ? `card--${tone}` : ''}${image ? ' card--media' : ''}">${inner}</article>`
+  return html`<article class="card ${tone ? `card--${tone}` : ''}${image ? ' card--media' : ''}"${attrs({ id })}>${inner}</article>`
 }
 
 export function cardGrid (cards, { columns = 3, className = '' } = {}) {
@@ -458,6 +458,7 @@ export function attractionCard (attraction) {
 
 export function diningCard (restaurant) {
   return card({
+    id: restaurant.slug,
     href: restaurant.url,
     eyebrow: `${f.service(restaurant.service)}${restaurant.landInfo ? ` · ${restaurant.landInfo.name}` : ''}`,
     title: restaurant.name,
