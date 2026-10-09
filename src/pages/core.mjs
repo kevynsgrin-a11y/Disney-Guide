@@ -2,7 +2,7 @@ import { html, raw, paragraphs, inline } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
-import { urls } from '../lib/data.mjs'
+import { urls, attractionCoverage } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
 import * as SC from '../templates/seasonal-components.mjs'
 import { bandCovers, ganttBands, BUILD_MONTH_NUMBER } from '../seasonal/core.mjs'
@@ -11,6 +11,9 @@ import { BUILD_MONTH as BUILD_MONTH_RAW } from '../lib/staleness.mjs'
 import { BUILD_MONTH } from '../lib/staleness.mjs'
 import { MONTHS } from '../lib/seasonal-data.mjs'
 import { latestParkTimeZone } from '../lib/park-time-zone.mjs'
+import { isCurrentAttraction } from '../lib/eligibility.mjs'
+
+const coverageMode = (data) => data.operator === 'coasterguide' || data.site.operator === 'coasterguide'
 
 function parkCard (park, image) {
   return C.card({
@@ -20,7 +23,7 @@ function parkCard (park, image) {
     title: park.name,
     summary: park.tagline || park.summary,
     badges: [
-      { label: `${park.attractions.filter((a) => a.isOpen).length} attractions`, tone: '' },
+      { label: `${attractionCoverage(park).currentCount} ${park.operator === 'coasterguide' ? 'attractions covered' : 'attractions'}`, tone: '' },
       { label: `${park.heightAttractions.length} height limits`, tone: 'height' },
       { label: `${park.food.length} tracked snacks`, tone: 'good' },
     ],
@@ -175,7 +178,7 @@ function landingBats (until, timeZone) {
 
 export function homePage (data, seasonal) {
   const { site, parks } = data
-  const totalAttractions = data.allAttractions.filter((a) => a.isOpen).length
+  const totalAttractions = parks.reduce((count, park) => count + attractionCoverage(park).currentCount, 0)
   const totalFood = data.allFood.length
   const totalHeights = data.allHeightAttractions.length
   const totalDining = data.allDining.length
@@ -227,14 +230,16 @@ export function homePage (data, seasonal) {
     ${C.hero({
       eyebrow: `${data.parks.length} US parks · independent & unofficial`,
       title: 'Know exactly what your family can ride, eat, and skip.',
-      lede: 'Every height requirement, every ride worth queueing for, every snack worth the money — checked, dated, and built to work on park WiFi. No affiliate-driven rankings, no reprinted press releases.',
+      lede: coverageMode(data)
+        ? 'Recorded height requirements, attraction guides and curated snacks across the parks we cover — checked, dated, and built to work on park WiFi. Our catalog is guide coverage, not a complete official inventory or a report of what is open today.'
+        : 'Every height requirement, every ride worth queueing for, every snack worth the money — checked, dated, and built to work on park WiFi. No affiliate-driven rankings, no reprinted press releases.',
       actions: [
         { href: urls.heightChecker(), label: 'Check what your kid can ride', primary: true },
         { href: urls.foodTracker(), label: 'Build a snack list' },
       ],
       aside: html`
         ${C.statRow([
-          { value: totalAttractions, label: 'Attractions documented' },
+          { value: totalAttractions, label: coverageMode(data) ? 'Current attractions covered' : 'Attractions documented' },
           { value: totalHeights, label: 'Height requirements' },
           { value: totalFood, label: 'Snacks with real prices' },
           { value: totalDining, label: 'Places to eat' },
@@ -265,7 +270,9 @@ export function homePage (data, seasonal) {
     ${C.section({
       title: 'Start with your park',
       kicker: `The ${data.parks.length} parks`,
-      intro: 'Each park hub links to its full ride list, height chart, dining, printable map, accessibility notes, and a first-timer plan you can actually follow.',
+      intro: coverageMode(data)
+        ? 'Each park hub links to the attractions currently covered, recorded height rules, dining, a printable diagram, accessibility notes and a first-timer plan. Check official park information for the complete inventory and same-day availability.'
+        : 'Each park hub links to its full ride list, height chart, dining, printable map, accessibility notes, and a first-timer plan you can actually follow.',
       children: C.cardGrid(parks.map((park) => parkCard(park, data.photo[park.heroImage])), { columns: 3 }),
     })}
 
@@ -284,7 +291,7 @@ export function homePage (data, seasonal) {
             tone: 'feature',
             eyebrow: 'Interactive',
             title: 'Height Checker',
-            summary: 'Drag one slider to your child’s height and see, park by park, exactly which rides they clear and which they miss — including the ones they miss by an inch.',
+            summary: 'Drag one slider to your child’s height and see, park by park, the recorded height conditions, rules that need checking and near misses.',
           }),
           C.card({
             href: urls.foodTracker(),
@@ -298,7 +305,9 @@ export function homePage (data, seasonal) {
             tone: 'feature',
             eyebrow: 'Printable',
             title: 'Park maps',
-            summary: 'Clean schematic maps drawn from open geographic data — no clutter, no ads baked into the image, and they print on one page in black and white.',
+            summary: coverageMode(data)
+              ? 'Printable guide diagrams showing areas currently covered. Use the current official park maps for actual layout and navigation.'
+              : 'Clean schematic maps drawn from open geographic data — no clutter, no ads baked into the image, and they print on one page in black and white.',
           }),
         ], { columns: 3 })}
       `,
@@ -427,7 +436,9 @@ export function parksIndexPage (data) {
     ${C.hero({
       eyebrow: `All ${data.parks.length} parks`,
       title: 'Every park, side by side',
-      lede: 'Two resorts, six theme parks, and one honest answer to “which one should we actually do?” Pick a park for the deep dive, or jump straight to the comparison pages.',
+      lede: coverageMode(data)
+        ? `Compare the ${parks.length} parks covered by this guide. Attraction counts below describe current catalog records, not the parks’ complete official inventories or what is open today.`
+        : 'Two resorts, six theme parks, and one honest answer to “which one should we actually do?” Pick a park for the deep dive, or jump straight to the comparison pages.',
       tone: 'compact',
       image: data.photo['scene-coaster'],
     })}
@@ -436,7 +447,7 @@ export function parksIndexPage (data) {
       children: html`
         ${C.dataTable({
           columns: [
-            'Park', 'Resort', { label: 'Attractions', align: 'num', sort: 'number' },
+            'Park', 'Resort', { label: coverageMode(data) ? 'Current attractions covered' : 'Attractions', align: 'num', sort: 'number' },
             { label: 'Height limits', align: 'num', sort: 'number' },
             { label: 'Tallest', align: 'num', sort: 'number' }, 'Plan for',
           ],
@@ -445,7 +456,7 @@ export function parksIndexPage (data) {
           rows: parks.map((park) => [
             html`<a href="${park.url}">${park.name}</a>`,
             park.resortInfo ? park.resortInfo.shortName : park.resort,
-            html`<span data-value="${park.attractions.filter((a) => a.isOpen).length}">${park.attractions.filter((a) => a.isOpen).length}</span>`,
+            html`<span data-value="${attractionCoverage(park).currentCount}">${attractionCoverage(park).currentCount}</span>`,
             html`<span data-value="${park.heightAttractions.length}">${park.heightAttractions.length}</span>`,
             html`<span data-value="${park.stats && park.stats.tallestRequirement ? park.stats.tallestRequirement : 0}">${park.stats && park.stats.tallestRequirement ? `${park.stats.tallestRequirement}"` : '—'}</span>`,
             park.stats && park.stats.typicalFullDayHours ? park.stats.typicalFullDayHours : '—',
@@ -473,7 +484,9 @@ export function parksIndexPage (data) {
       page: {
         url: urls.parksIndex(),
         title: `All ${data.parks.length} parks compared`,
-        description: `Every park\u0027s sections and lands compared: attraction counts, height requirements, and how long each of the ${data.parks.length} parks actually takes — with the full guide for every one.`,
+        description: coverageMode(data)
+          ? `Compare ${data.parks.length} covered parks, current attraction catalog counts and recorded height requirements. Guide coverage is separate from same-day park availability.`
+          : `Every park\u0027s sections and lands compared: attraction counts, height requirements, and how long each of the ${data.parks.length} parks actually takes — with the full guide for every one.`,
         trail,
         modified: '2026-07-01',
       },
@@ -498,7 +511,7 @@ export function companyPages (data, seasonal) {
 
     const trail = [{ label: 'Home', href: '/' }, { label: company.shortName, href: urls.company(company.slug) }]
     const allHeights = parkList.flatMap((p) => p.heightAttractions)
-    const coasters = parkList.flatMap((p) => p.attractions.filter((a) => a.isOpen && a.type === 'roller-coaster'))
+    const coasters = parkList.flatMap((p) => p.attractions.filter((a) => isCurrentAttraction(a) && a.type === 'roller-coaster'))
     const frightEvents = (company.events || [])
       .map((slug) => seasonal && seasonal.eventBySlug ? seasonal.eventBySlug.get(slug) : null)
       .filter(Boolean)
@@ -511,7 +524,7 @@ export function companyPages (data, seasonal) {
         lede: company.tagline,
         meta: [
           { label: 'Parks', value: String(parkList.length) },
-          { label: 'Roller coasters', value: String(coasters.length) },
+          { label: coverageMode(data) ? 'Current coasters covered' : 'Roller coasters', value: String(coasters.length) },
           { label: 'Height minimums', value: String(allHeights.length) },
           { label: 'Fright Fest', value: frightEvents.length ? `${frightEvents.length} parks` : '—' },
         ],
@@ -541,7 +554,7 @@ export function companyPages (data, seasonal) {
       ${C.section({
         title: `Height requirements across ${company.shortName}`,
         kicker: 'The question everyone asks first',
-        intro: `Every roller coaster at the ${company.shortName} parks with a minimum height, shortest first. Sort any column.`,
+        intro: `${coverageMode(data) ? 'Current attraction records covered by this guide at' : 'Every roller coaster at'} the ${company.shortName} parks with a minimum height, shortest first. Maximum height, accompaniment and other restrictions apply separately; attraction staff decide final eligibility. Sort any column.`,
         children: html`
           ${C.dataTable({
             sortable: true,
@@ -555,7 +568,7 @@ export function companyPages (data, seasonal) {
               .map((a) => [
                 a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
                 html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
-                html`<span data-value="${a.heightIn}">${a.heightIn}" · ${Math.round(a.heightIn * 2.54)}cm</span>`,
+                C.heightRequirementCell(a, { centimetres: true }),
                 f.attractionType(a.type),
               ]),
           })}
@@ -565,9 +578,9 @@ export function companyPages (data, seasonal) {
 
       ${frightEvents.length ? C.section({
         tone: 'tint',
-        title: 'Fright Fest at every park',
-        kicker: 'Halloween, included with admission',
-        intro: `Each ${company.shortName} park runs its own Fright Fest — decorated midways and scare zones by day, haunts after dark, on top of the regular ride lineup. It is the busiest these parks get all year.`,
+        title: 'Fright Fest at the covered parks',
+        kicker: 'Admission and haunted-attraction access vary',
+        intro: `Check event admission and haunted-attraction access separately at each ${company.shortName} park. Terms depend on the park, event date and ticket or pass product; follow each event’s current official information before buying.`,
         children: C.cardGrid(frightEvents.map((event) => {
           const park = data.parkBySlug.get(event.parkSlug)
           return C.card({
@@ -593,7 +606,7 @@ export function companyPages (data, seasonal) {
       ${C.relatedLinks([
         { href: data.link.parkRankings, label: 'All ten parks, ranked', summary: 'Where the four Six Flags parks land against Knott’s, SeaWorld and Legoland' },
         data.link.firstTrip ? { href: data.link.firstTrip, label: 'Your first coaster trip', summary: 'The decisions that matter most, in order' } : null,
-        data.link.heights ? { href: data.link.heights, label: 'Every height requirement', summary: `All ${data.parks.length} parks in one table` } : null,
+        data.link.heights ? { href: data.link.heights, label: coverageMode(data) ? 'Recorded height requirements' : 'Every height requirement', summary: `All ${data.parks.length} parks in one table` } : null,
         { href: urls.eventsIndex(), label: 'Halloween events everywhere', summary: 'Fright Fest and every other haunt we cover' },
       ])}
     `
@@ -609,9 +622,9 @@ export function companyPages (data, seasonal) {
           // Both assume the events section exists, true for every company
           // in site.json today.
           title: `${company.name} parks compared`,
-          titleTail: `: ${coasters.length} coasters & Fright Fest 2026`,
+          titleTail: `: ${coasters.length} ${coverageMode(data) ? 'covered coasters' : 'coasters'} & Fright Fest 2026`,
           description: frightEvents.length
-            ? `All ${parkList.length} ${company.name} parks compared — ${coasters.length} roller coasters, every height requirement, and Fright Fest 2026 dates and maze-pass costs at each park.`
+            ? `${parkList.length} ${company.name} parks compared — ${coasters.length} ${coverageMode(data) ? 'current coaster records covered, recorded height rules' : 'roller coasters, every height requirement'}, and Fright Fest 2026 dates and maze-pass costs at each park.`
             : C.truncate(company.tagline, 155),
           trail,
           modified: '2026-09-30',
@@ -641,7 +654,7 @@ export function resortPages (data) {
         image: data.photo['scene-carousel'],
         meta: [
           { label: 'Theme parks', value: String(parkList.length) },
-          { label: 'Attractions', value: String(parkList.reduce((n, p) => n + p.attractions.filter((a) => a.isOpen).length, 0)) },
+          { label: coverageMode(data) ? 'Current attractions covered' : 'Attractions', value: String(parkList.reduce((n, p) => n + attractionCoverage(p).currentCount, 0)) },
           { label: 'Height requirements', value: String(allHeights.length) },
           { label: 'Places to eat', value: String(parkList.reduce((n, p) => n + p.dining.length, 0)) },
         ],
@@ -671,7 +684,7 @@ export function resortPages (data) {
       ${C.section({
         title: 'Height requirements across the resort',
         kicker: 'The question everyone asks first',
-        intro: `Every ride at ${resort.shortName} with a minimum height, shortest first. Sort any column.`,
+        intro: `${coverageMode(data) ? 'Current attraction records covered by this guide at' : 'Every ride at'} ${resort.shortName} with a minimum height, shortest first. Maximum height, accompaniment and other restrictions apply separately; attraction staff decide final eligibility. Sort any column.`,
         children: html`
           ${C.dataTable({
             sortable: true,
@@ -685,7 +698,7 @@ export function resortPages (data) {
               .map((a) => [
                 a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
                 html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
-                html`<span data-value="${a.heightIn}">${a.heightIn}" · ${Math.round(a.heightIn * 2.54)}cm</span>`,
+                C.heightRequirementCell(a, { centimetres: true }),
                 f.attractionType(a.type),
               ]),
           })}
@@ -715,7 +728,7 @@ export function resortPages (data) {
         data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'What each tier buys and when it is worth it' } : null,
         { href: data.link.firstTrip, label: 'Your first trip', summary: 'The five decisions that matter most' },
         { href: data.link.resortVsResort, label: data.compareBySlug.get(data.roleSlug.resortVsResort)?.title || 'Compare the resorts', summary: 'An actual verdict, not a shrug' },
-        { href: data.link.heights, label: 'Every height requirement', summary: `All ${data.parks.length} parks in one table` },
+        { href: data.link.heights, label: coverageMode(data) ? 'Recorded height requirements' : 'Every height requirement', summary: `All ${data.parks.length} parks in one table` },
       ])}
     `
 

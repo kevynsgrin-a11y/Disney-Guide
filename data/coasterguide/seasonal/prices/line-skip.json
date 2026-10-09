@@ -1,22 +1,12 @@
 {
   "slug": "line-skip",
   "title": "Line-Skip Pass Prices",
-  "titleTail": ": Fast Lane and Quick Queue, September 2026",
+  "titleTail": ": Magic Mountain update and dated park prices",
   "h1": "What a line-skip pass costs at every park on this site",
-  "description": "Fast Lane at the Six Flags and Knott's parks and Quick Queue at the SeaWorlds, priced as of September 2026 — and the honest nothing-to-buy answer for the Legolands.",
-  "summary": "Every park company here sells its own line-skip product and none of them work at the others: Fast Lane at the five Six Flags and Knott's parks since the merger retired THE FLASH Pass, Quick Queue at the three SeaWorlds, and nothing to buy at either Legoland. These are the bands, as of September 2026.",
-  "ownership": "This page is the price list. What each product does, how the reservation mechanics differ, and which tier to buy at which park are owned by the line-skip guide on the evergreen side of this site and are not restated here.",
+  "description": "Magic Mountain’s current Fast Lane Reserve/Ultimate terms and advertised starting price, plus other parks’ dated Fast Lane and Quick Queue examples.",
+  "summary": "Magic Mountain’s October 9, 2026 update distinguishes Fast Lane Reserve and Fast Lane Ultimate from older price models. Other parks’ existing September 2026 price examples retain their stated dates and source limits. Check the live product for your actual visit.",
+  "ownership": "This page records dated price evidence. Reservation mechanics, participating rides, admission and event exclusions, and buying considerations are explained in the line-skip guide.",
   "rows": [
-    {
-      "label": "Fast Lane at Magic Mountain, per person per day",
-      "resort": "southern-california",
-      "rangeUsd": [
-        45,
-        170
-      ],
-      "asOf": "September 2026",
-      "note": "The merged company prices Fast Lane by date at every legacy Six Flags park. Published 2026 calendars at Over Texas ran roughly $30–$170 across the season, and Magic Mountain's peaks sit at or above the top of that band on summer and haunt Saturdays."
-    },
     {
       "label": "Fast Lane at Six Flags Over Texas, per person per day",
       "resort": "texas",
@@ -48,14 +38,14 @@
       "note": "One wristband, unlimited use on the covered ride list for the day. Knott's own Fast Lane page listed from $75 in September 2026 with observed March Saturdays around $129; Scary Farm nights price separately above this band."
     },
     {
-      "label": "All Season Fast Lane add-on, Knott's or the Six Flags parks",
+      "label": "All Season Fast Lane add-on at Knott’s Berry Farm",
       "resort": "southern-california",
       "rangeUsd": [
         625,
         999
       ],
       "asOf": "September 2026",
-      "note": "A season-long add-on to a season pass. Listed at $999 at Knott's in September 2026 with promotional pricing observed down to the mid-$600s; it only pays against roughly six or more peak-day single purchases."
+      "note": "A season-long add-on to an associated season pass. Knott’s listed $999 in September 2026 with promotional pricing observed down to the mid-$600s. These historical Knott’s figures are not quotes for Magic Mountain’s current add-ons; compare the live price and participating-park terms with your own expected visits."
     },
     {
       "label": "Quick Queue Unlimited at SeaWorld Orlando, per person per day",
@@ -90,11 +80,12 @@
   ],
   "sections": [
     {
-      "heading": "The merger renamed the Six Flags product, and old advice is stale",
+      "heading": "Magic Mountain: a verified starting price, not an inferred range",
       "body": [
-        "The Cedar Fair–Six Flags merger consolidated the line-skip products entering 2026: the legacy Six Flags parks stopped selling THE FLASH Pass and now sell Fast Lane — the brand Knott's has used for years — under one company-wide system bought online, in the app, or at in-park service centers. Pre-merger All Park Flash products were honored through January 2026 and then converted.",
-        "What that means for price research is that anything published before 2026 about FLASH Pass tiers is describing a product that no longer exists at these parks. The reservation mechanics survive — the app schedules rides with discounted return windows — but the tier names, the season add-on pricing, and the park-by-park availability all changed with the rename, and the 2026 season pricing drew exactly the fan complaints you would expect after a re-pricing.",
-        "The tier advice in our line-skip guide still holds: on a weekday at any of these parks, buy nothing; on a regular summer weekend, the middle of the band; on a peak haunt-season Saturday, only the top of the band meaningfully changes the day."
+        "As of October 9, 2026, Magic Mountain’s official page advertised Daily Fast Lane starting from $49, plus applicable fees and taxes. That starting figure is not a quote for October 15, does not identify an upper price bound and is not assigned here to Reserve or Ultimate. The former $45–$170 Magic Mountain band inferred from another park has been removed.",
+        "Magic Mountain names two all-day products: Fast Lane Reserve and Fast Lane Ultimate. Reserve holds a virtual place and provides a return time; Ultimate generates immediate Fast Lane entry, not immediate boarding. Both allow one reservation at a time, with riding completed before checking in for the next ready reservation.",
+        "Park admission and Fright Fest Haunted Attractions are not included. Products are per guest, cannot be shared, have limited daily sales and selected-date validity, require a mobile browser with internet, and cover participating attractions subject to change. Check the live purchase flow and current participating rides before buying.",
+        "Sources checked October 9, 2026: [Magic Mountain Fast Lane and FAQs](https://www.sixflags.com/magicmountain/fast-lane) and [Six Flags Fast Lane program updates](https://www.sixflags.com/blog/fast-lane-updates). Older THE FLASH Pass advice is historical; a generic three-tier model does not describe Magic Mountain’s current pair of all-day products."
       ]
     },
     {
@@ -106,15 +97,15 @@
     }
   ],
   "howToSave": [
-    "Price the weekday before buying any pass. At the bottom of these bands — a $30–$45 Fast Lane weekday — the queues it skips are often short enough that the pass is solving a problem the calendar already solved for free.",
-    "Buy online rather than at the park for every product on this page. The gate-versus-online spread runs 20–35% on Quick Queue at the SeaWorlds and the dated Fast Lane products behave the same way.",
+    "Check the actual visit’s operating hours, ride availability, queues and exact-date quote before buying. A weekday may be quieter, but it does not establish that a pass is unnecessary.",
+    "Compare the final checkout price, fees and terms for the product you want. No universal online-versus-gate discount is verified for Magic Mountain’s current Reserve and Ultimate products.",
     "Check the bundle before the standalone product at SeaWorld. San Diego's Ultimate Bundle wrapped admission, All-Day Dining, and Quick Queue Unlimited into $139.99 in September 2026 — less than the Orlando standalone top of band alone.",
-    "Run the season arithmetic before the All Season add-on: at $625–$999 it only beats single days past roughly six peak visits, which is a enthusiast's calendar, not a family trip's.",
-    "Buy line-skip on the morning of the visit, not weeks ahead, where the product allows it — these are dynamically priced by expected demand, and a forecast change reprices the day."
+    "For a season add-on, compare its current quoted price with your own expected visits and check the associated admission pass and participating-park terms; there is no universal six-visit break-even point.",
+    "Check live sale availability before deciding when to purchase. Magic Mountain limits daily sales; neither availability at the gate nor a cheaper morning-of-visit price is guaranteed."
   ],
   "crossLinks": [
     {
-      "label": "The line-skip guide: which tier to buy at which park",
+      "label": "The line-skip guide: current products and rules",
       "href": "/guides/line-skip-passes/",
       "site": 1
     },
@@ -137,18 +128,23 @@
   "faqs": [
     {
       "q": "Can one line-skip pass cover two different companies' parks?",
-      "a": "No. Fast Lane works at the Six Flags and Knott's parks (one company), Quick Queue at the SeaWorlds (another), and the Legolands sell nothing comparable. A multi-park road trip means a separate line-skip decision per company, which is why our road-trip tool treats them as separate line items."
+      "a": "A single-day product is park- and date-specific. Season-pass and membership benefits have separate participating-park rules linked to the associated admission pass. Check the exact entitlement; shared Fast Lane branding does not establish park admission or access to every park."
     },
     {
       "q": "Is THE FLASH Pass still a thing?",
-      "a": "Not as a product you can buy in 2026. The merger moved the legacy Six Flags parks onto Fast Lane, Knott's long-standing brand, entering this season; anything that still tells you to price FLASH Pass tiers at Magic Mountain is a year stale."
+      "a": "Older THE FLASH Pass advice is historical at Magic Mountain. Its current official page names Fast Lane Reserve and Fast Lane Ultimate, and the Six Flags program update explains their reservation platform. Check the current park product rather than mapping old tiers onto it."
     }
   ],
   "freshness": {
-    "verified": "2026-09",
+    "verified": "2026-10",
     "confidence": "expected",
-    "sourceNote": "Bands observed September 2026 against the operators' own pages — sixflags.com Fast Lane pages for Knott's (from $75) and Great America, the Six Flags season-pass add-on pages carrying All Season Fast Lane at $999 with mid-$600 promotional pricing, seaworld.com's pricing guide for Orlando Quick Queue Unlimited ($143.99 online / $177.97 gate) and the $139.99 San Diego Ultimate Bundle — plus published 2026 Fast Lane date calendars at Over Texas (~$30–$170). The San Antonio Quick Queue band is inferred from sister-park products and is labelled as such in its row. Every figure is dynamic by date; nothing here is an operator announcement, so the page publishes ranges only.",
+    "sourceNote": "Magic Mountain product terms and Daily Fast Lane starting from $49 were retrieved from https://www.sixflags.com/magicmountain/fast-lane and corroborated for program mechanics by https://www.sixflags.com/blog/fast-lane-updates on October 9, 2026. This starting price is not a visit-date/tier quote or a price range; the previous modeled Magic Mountain row is removed. Other rows retain September 2026 observations and stated source limits: Knott’s from $75, Orlando Quick Queue Unlimited $143.99 online/$177.97 gate, San Diego $139.99 Ultimate Bundle, and Over Texas published calendar examples. Great Adventure/Great America and San Antonio rows remain planning estimates as their row notes explain; they are not new October verification.",
     "reviewBy": "2026-12",
     "cycle": "rolling"
-  }
+  },
+  "priceNote": {
+    "title": "Dated ranges and a starting-price quote",
+    "body": "The table retains other parks’ dated price ranges and source limits. Magic Mountain’s official starting-price quote is explained separately below; it is not a range or a quote for October 15. Check the live checkout price, fees and terms for your visit."
+  },
+  "tableCaption": "Each row keeps its stated observation date and source limits. Magic Mountain’s current starting-price quote appears below, rather than as an inferred range."
 }

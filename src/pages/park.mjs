@@ -2,12 +2,28 @@ import { html, raw, paragraphs, inline } from '../lib/html.mjs'
 import { renderPage } from '../templates/layout.mjs'
 import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
-import { urls } from '../lib/data.mjs'
+import { urls, attractionCoverage } from '../lib/data.mjs'
 import { renderParkMap } from '../lib/map.mjs'
 import { riderDataPayload } from './tools.mjs'
 import * as f from '../lib/format.mjs'
+import { isCurrentAttraction, isKnownHeight } from '../lib/eligibility.mjs'
 
 const crumbs = (park, ...rest) => [...park.breadcrumbTrail, ...rest]
+const coverageMode = (data) => data.operator === 'coasterguide' || data.site.operator === 'coasterguide'
+const attractionCountLabel = (data) => coverageMode(data) ? 'Current attractions covered' : 'Attractions'
+const directoryLink = (park, data) => coverageMode(data)
+  ? `${attractionCoverage(park).currentCount} current attractions covered`
+  : `All ${park.attractions.filter(isCurrentAttraction).length} attractions`
+
+function coverageNotice (park, data) {
+  if (!coverageMode(data)) return ''
+  const counts = attractionCoverage(park)
+  return C.callout({
+    type: 'note',
+    title: 'What this guide covers',
+    body: `${data.site.brand.shortName} covers ${counts.currentCount} current attractions at ${park.name} and keeps ${counts.nonCurrentCount} non-current records (${counts.catalogCount} catalog records in total). These counts describe this guide’s coverage, not the park’s complete official inventory. A current catalog record does not confirm availability today: temporary closures and day-of operations are separate. Check the park’s current attraction list and same-day operations before your visit.`,
+  })
+}
 
 /* ------------------------------------------------------------------ *
  * Park hub
@@ -15,15 +31,15 @@ const crumbs = (park, ...rest) => [...park.breadcrumbTrail, ...rest]
 
 export function parkHub (park, data) {
   const { site } = data
-  const open = park.attractions.filter((a) => a.isOpen)
+  const open = park.attractions.filter(isCurrentAttraction)
 
   const quickLinks = [
-    { href: urls.rides(park), label: `All ${open.length} attractions`, summary: 'The complete list, sortable and filterable' },
+    { href: urls.rides(park), label: directoryLink(park, data), summary: coverageMode(data) ? 'The attractions covered by this guide, sortable and filterable' : 'The complete list, sortable and filterable' },
     park.bestRides ? { href: urls.bestRides(park), label: 'Best rides, ranked', summary: 'An actual ranking, defended one by one' } : null,
     { href: urls.heights(park), label: 'Height requirements', summary: `${park.heightAttractions.length} rides with a minimum height` },
     { href: urls.dining(park), label: 'Where to eat', summary: `${park.dining.length} restaurants, carts, and lounges` },
     { href: urls.snacks(park), label: 'Best snacks', summary: `${park.food.length} tracked items with prices` },
-    { href: urls.map(park), label: 'Park map', summary: 'Printable, works offline' },
+    { href: urls.map(park), label: coverageMode(data) && !park.map ? 'Guide coverage diagram' : 'Park map', summary: 'Printable, works offline' },
     { href: urls.accessibility(park), label: 'Accessibility', summary: 'Transfers, rentals, quiet spaces' },
     { href: urls.firstTimer(park), label: 'First-timer guide', summary: 'A plan you can actually follow' },
   ].filter(Boolean)
@@ -37,7 +53,7 @@ export function parkHub (park, data) {
       image: data.photo[park.heroImage || (park.slug.charCodeAt(0) % 2 ? 'scene-coaster' : 'scene-carousel')],
       meta: [
         { label: 'Opened', value: f.humanDate(park.opened) },
-        { label: 'Attractions', value: String(open.length) },
+        { label: attractionCountLabel(data), value: String(open.length) },
         { label: 'Height requirements', value: String(park.heightAttractions.length) },
         park.stats && park.stats.typicalFullDayHours ? { label: 'A full day is', value: park.stats.typicalFullDayHours } : null,
         park.sizeAcres ? { label: 'Size', value: `${park.sizeAcres} acres` } : null,
@@ -53,6 +69,7 @@ export function parkHub (park, data) {
         <div class="split">
           <div class="prose prose--lede">
             ${paragraphs(park.intro)}
+            ${coverageNotice(park, data)}
             ${C.lastVerified(park.lastVerified)}
           </div>
           <div class="split__aside">
@@ -86,22 +103,22 @@ export function parkHub (park, data) {
       intro: 'If you only get a handful of long queues in you, spend them here.',
       children: html`
         ${C.cardGrid(park.headliners.map(C.attractionCard), { columns: 3 })}
-        ${park.bestRides ? html`<p class="mt-5"><a class="btn btn--primary" href="${urls.bestRides(park)}">All ${park.name} rides, ranked</a></p>` : ''}
+        ${park.bestRides ? html`<p class="mt-5"><a class="btn btn--primary" href="${urls.bestRides(park)}">${coverageMode(data) ? 'Our covered rides, ranked' : `All ${park.name} rides, ranked`}</a></p>` : ''}
       `,
     }) : ''}
 
     ${park.lands.length ? C.section({
       tone: 'tint',
-      title: 'The lands',
-      kicker: `${park.lands.length} distinct areas`,
-      intro: 'Walking order from the entrance. Each land page carries its full attraction and dining list.',
+      title: coverageMode(data) ? 'Areas covered by this guide' : 'The lands',
+      kicker: `${park.lands.length} ${coverageMode(data) ? 'area records covered' : 'distinct areas'}`,
+      intro: coverageMode(data) ? 'These are the area records covered here, with the attraction and dining records currently in our catalog. This is not a count of all official park lands.' : 'Walking order from the entrance. Each land page carries its full attraction and dining list.',
       children: C.cardGrid(park.lands.map((land) => C.card({
         href: land.url,
         eyebrow: land.opened ? `Opened ${land.opened}` : '',
         title: land.name,
         summary: land.summary,
         badges: [
-          { label: `${land.attractions.filter((a) => a.isOpen).length} attractions` },
+          { label: `${land.attractions.filter(isCurrentAttraction).length} ${coverageMode(data) ? 'attractions covered' : 'attractions'}` },
           land.dining.length ? { label: `${land.dining.length} places to eat`, tone: 'good' } : null,
         ].filter(Boolean),
         meta: land.anchorInfo ? [{ label: 'Headliner', value: land.anchorInfo.name }] : [],
@@ -149,7 +166,7 @@ export function parkHub (park, data) {
     ${C.relatedLinks([
       data.guideBySlug.has(data.queue.guideSlug) ? { href: urls.guide(data.queue.guideSlug), label: `${data.queue.name}, explained`, summary: 'Mechanics, booking windows, and whether to bother' } : null,
       { href: data.link.isItScary, label: 'Is it scary?', summary: 'What actually frightens small children' },
-      { href: urls.heightChecker(), label: 'Height checker', summary: 'One slider, every ride they clear' },
+      { href: urls.heightChecker(), label: 'Height checker', summary: 'Recorded height conditions and rules to check' },
       { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'We commit to an order' },
     ])}
   `
@@ -184,13 +201,14 @@ export function parkHub (park, data) {
 export function ridesPage (park, data) {
   const { site } = data
   const trail = crumbs(park, { label: 'Attractions', href: urls.rides(park) })
-  const open = park.attractions.filter((a) => a.isOpen)
+  const open = park.attractions.filter(isCurrentAttraction)
+  const counts = attractionCoverage(park)
 
   const rows = open.map((a) => [
     a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : html`<a href="#${a.slug}">${a.name}</a>`,
     a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
     f.attractionType(a.type),
-    html`<span data-value="${a.heightIn ?? -1}">${a.heightIn != null ? `${a.heightIn}"` : 'Unverified'}</span>`,
+    C.heightRequirementCell(a),
     html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
     html`<span data-value="${a.scary && a.scary.score ? a.scary.score : 0}">${a.scary && a.scary.score ? `${a.scary.score}/5` : '—'}</span>`,
     a.queueLabelShort,
@@ -200,23 +218,30 @@ export function ridesPage (park, data) {
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: park.name,
-      title: `Every attraction at ${park.name}`,
-      lede: `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and ${data.queue.name} status for each. Sort any column.`,
+      title: coverageMode(data) ? `Attractions currently covered by ${site.brand.shortName}` : `Every attraction at ${park.name}`,
+      lede: coverageMode(data)
+        ? `${counts.currentCount} current attraction records at ${park.name}, with height, intensity, scare factor and ${data.queue.name} information. ${counts.nonCurrentCount} non-current records are kept separately below. This directory describes our coverage, not the park’s complete official operating inventory.`
+        : `All ${open.length} operating attractions, shows, and experiences — with height, intensity, scare factor, and ${data.queue.name} status for each. Sort any column.`,
       tone: 'compact',
       meta: [
-        { label: 'Attractions', value: String(open.length) },
+        { label: attractionCountLabel(data), value: String(counts.currentCount) },
+        ...(coverageMode(data) ? [
+          { label: 'Catalog records', value: String(counts.catalogCount) },
+          { label: 'Non-current records', value: String(counts.nonCurrentCount) },
+        ] : []),
         { label: 'Height unverified', value: String(park.noHeightAttractions.length) },
         { label: 'Verified minimums', value: String(park.heightAttractions.length) },
-        { label: 'Lands', value: String(park.lands.length) },
+        { label: coverageMode(data) ? 'Areas covered' : 'Lands', value: String(counts.areasCovered) },
       ],
     })}
 
     ${C.section({
       children: html`
+        ${coverageNotice(park, data)}
         ${C.dataTable({
           sortable: true,
           className: 'data-table--stack',
-          caption: 'Tap any column heading to sort. Height is the minimum to ride.',
+          caption: 'Tap any column heading to sort. Height is a recorded minimum; maximum height, accompaniment and other rider rules also apply. Attraction staff decide final eligibility.',
           columns: [
             'Attraction', 'Land', 'Type',
             { label: 'Height', align: 'num', sort: 'number' },
@@ -232,33 +257,33 @@ export function ridesPage (park, data) {
 
     ${park.closedAttractions.length ? C.section({
       tone: 'tint',
-      title: 'Closed, and what replaced it',
+      title: coverageMode(data) ? 'Closed and non-current catalog records' : 'Closed, and what replaced it',
       kicker: 'No longer operating',
-      intro: 'These come up constantly in searches and in old guidebooks, so we keep them listed rather than quietly deleting them.',
+      intro: coverageMode(data) ? 'These reference records are excluded from current attraction and height totals. Their recorded status and source notes explain why; a retirement or permanent closure is distinct from a temporary day-of interruption.' : 'These come up constantly in searches and in old guidebooks, so we keep them listed rather than quietly deleting them.',
       children: html`
         ${C.dataTable({
           className: 'data-table--stack',
           columns: ['Attraction', 'Land', 'What happened'],
           rows: park.closedAttractions.map((a) => [
-            a.name,
-            a.landInfo ? a.landInfo.name : '—',
-            a.closedNote || 'Permanently closed.',
+            a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
+            a.landInfo ? a.landInfo.name : 'Historical location unverified',
+            a.closedNote || 'Not listed as current in this catalog; check the park for details.',
           ]),
         })}
       `,
     }) : ''}
 
     ${park.lands.map((land) => {
-      const list = land.attractions.filter((a) => a.isOpen)
+      const list = land.attractions.filter(isCurrentAttraction)
       if (!list.length) return ''
       return C.section({
         id: `land-${land.slug}`,
         title: land.name,
-        kicker: `${list.length} attraction${list.length === 1 ? '' : 's'}`,
+        kicker: `${list.length} attraction${list.length === 1 ? '' : 's'}${coverageMode(data) ? ' covered' : ''}`,
         intro: land.summary,
         children: html`
           ${list.map(C.attractionInline)}
-          <p class="mt-5"><a class="btn btn--ghost" href="${land.url}">Everything in ${land.name}</a></p>
+          <p class="mt-5"><a class="btn btn--ghost" href="${land.url}">${coverageMode(data) ? 'Our guide to' : 'Everything in'} ${land.name}</a></p>
         `,
       })
     })}
@@ -280,13 +305,15 @@ export function ridesPage (park, data) {
       page: {
         url: urls.rides(park),
         title: `${park.shortLabel} rides & attractions`,
-        titleTail: `: all ${open.length}`,
-        description: C.truncate(`All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and ${data.queue.name} status for every ride, show, and experience.`, 158),
+        titleTail: coverageMode(data) ? `: ${counts.currentCount} current records covered` : `: all ${open.length}`,
+        description: C.truncate(coverageMode(data)
+          ? `${site.brand.shortName} covers ${counts.currentCount} current attractions at ${park.name}, with ${counts.nonCurrentCount} non-current records kept separately. Check same-day park availability.`
+          : `All ${open.length} ${park.name} attractions with height requirements, intensity, scare factor, and ${data.queue.name} status for every ride, show, and experience.`, 158),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
       body,
-      schema: [S.itemList(site, { url: urls.rides(park), name: `${park.name} attractions`, items: open })],
+      schema: [S.itemList(site, { url: urls.rides(park), name: `${park.name} ${coverageMode(data) ? 'attractions covered by this guide' : 'attractions'}`, items: open })],
     }),
   }
 }
@@ -302,11 +329,25 @@ export function attractionPage (attraction, data) {
     { label: 'Attractions', href: urls.rides(park) },
     { label: attraction.name, href: attraction.url })
 
+  const current = isCurrentAttraction(attraction)
+  const faqs = current ? attraction.faqs : []
+  const historical = attraction.status === 'closed'
   const scary = attraction.scary || {}
   const acc = attraction.accessibility || {}
   const related = (attraction.relatedSlugs || [])
     .map((slug) => park.attractionBySlug.get(slug))
-    .filter(Boolean)
+    .filter((ride) => ride && isCurrentAttraction(ride))
+  const attractionSchema = S.touristAttraction(site, attraction)
+  if (!current) {
+    attractionSchema.publicAccess = false
+    attractionSchema.description = C.truncate(`Not currently operating. ${attraction.summary}`, 300)
+    attractionSchema.additionalProperty = (attractionSchema.additionalProperty || []).map((property) => (
+      property.name === 'Minimum height requirement'
+        ? { ...property, name: 'Recorded minimum height (not operating)' }
+        : property
+    ))
+    attractionSchema.additionalProperty.push({ '@type': 'PropertyValue', name: 'Operating status', value: 'Not currently operating' })
+  }
 
   const body = html`
     ${C.breadcrumbs(trail)}
@@ -315,32 +356,33 @@ export function attractionPage (attraction, data) {
       title: attraction.name,
       lede: attraction.summary,
       meta: [
-        { label: 'Minimum height', value: f.height(attraction.heightIn) },
+        { label: current ? 'Minimum height' : historical ? 'Former minimum height' : 'Recorded minimum height', value: f.height(attraction.heightIn) },
+        !attraction.landInfo ? { label: 'Location', value: historical ? 'Historical location unverified' : 'Location unverified' } : null,
         attraction.durationMinutes != null ? { label: 'Ride length', value: f.duration(attraction.durationMinutes) } : null,
-        { label: data.queue.name, value: attraction.queueLabelShort },
+        current ? { label: data.queue.name, value: attraction.queueLabelShort } : null,
         attraction.opened ? { label: 'Opened', value: String(attraction.opened) } : null,
       ].filter(Boolean),
       aside: html`
         ${C.factPanel([
           { label: 'Type', value: f.attractionType(attraction.type) },
-          { label: 'Height', value: f.height(attraction.heightIn), hint: attraction.heightNote },
+          { label: current ? 'Height' : historical ? 'Former height rule' : 'Recorded height rule', value: f.height(attraction.heightIn), hint: attraction.heightNote },
           { label: 'Intensity', value: f.intensityLabel(attraction.intensity) },
           { label: 'Motion sickness', value: f.motion(attraction.motionSickness) },
           { label: 'Getting wet', value: f.getsWet(attraction.getsWet) },
           { label: 'Indoor / outdoor', value: f.unslug(attraction.indoorOutdoor || 'mixed') },
           { label: 'Air conditioned', value: attraction.airConditioned ? 'Yes' : 'No' },
-          attraction.singleRider ? { label: 'Single rider', value: 'Available' } : null,
-          { label: 'Rider Switch', value: attraction.riderSwitch ? 'Available' : 'Not offered' },
+          current && attraction.singleRider ? { label: 'Single rider', value: 'Available' } : null,
+          current ? { label: 'Rider Switch', value: attraction.riderSwitch ? 'Available' : 'Not offered' } : null,
           attraction.goesUpsideDown ? { label: 'Inversions', value: 'Yes' } : null,
           attraction.goesBackwards ? { label: 'Travels backwards', value: 'Yes' } : null,
-        ].filter(Boolean), { title: 'Ride facts', columns: 1 })}
+        ].filter(Boolean), { title: current ? 'Ride facts' : historical ? 'Historical ride facts' : 'Recorded ride facts', columns: 1 })}
         ${C.lastVerified(attraction.lastVerified)}
       `,
     })}
 
-    ${!attraction.isOpen ? C.section({
+    ${!current ? C.section({
       tone: 'tight',
-      children: C.callout({ type: 'warning', title: 'Not currently operating', body: attraction.closedNote || 'This attraction is closed.' }),
+      children: C.callout({ type: 'warning', title: attraction.status === 'closed' ? 'Closed · preserved reference page' : 'Not currently operating', body: attraction.closedNote || 'This attraction is closed.' }),
     }) : ''}
 
     ${C.section({
@@ -354,7 +396,7 @@ export function attractionPage (attraction, data) {
 
             ${attraction.experience && attraction.experience.length ? html`
               <div class="doc-section" id="what-riding-is-like">
-                <h2>What riding it is actually like</h2>
+                <h2>${current ? 'What riding it is actually like' : 'What riding it was like'}</h2>
                 ${paragraphs(attraction.experience)}
               </div>` : ''}
 
@@ -387,27 +429,27 @@ export function attractionPage (attraction, data) {
               <p class="small muted"><a href="${urls.accessibility(park)}">Full ${park.name} accessibility guide →</a></p>
             </div>
 
-            ${C.tipList(attraction.tips)}
+            ${current ? C.tipList(attraction.tips) : ''}
           </div>
 
           <div class="split__aside">
-            ${C.factPanel([
+            ${current ? C.factPanel([
               attraction.bestTime ? { label: 'Best time to ride', value: attraction.bestTime } : null,
               attraction.typicalWait ? { label: 'Typical wait', value: attraction.typicalWait } : null,
               { label: data.queue.name, value: attraction.queueLabel },
-            ].filter(Boolean), { title: 'Timing', columns: 1 })}
-            ${attraction.heightIn ? C.callout({
+            ].filter(Boolean), { title: 'Timing', columns: 1 }) : ''}
+            ${current && isKnownHeight(attraction.heightIn) ? C.callout({
               type: 'tip',
-              title: `Not sure they will clear ${attraction.heightIn} inches?`,
-              body: `Our [height checker](${urls.heightChecker()}) shows every ride they can and cannot do at ${attraction.heightIn - 2} to ${attraction.heightIn + 2} inches, so you know before you queue.`,
+              title: `Check the ${attraction.heightIn}-inch minimum and other rules`,
+              body: `Our [height checker](${urls.heightChecker()}) screens recorded minimums and other verified conditions. Meeting a minimum does not grant permission to ride: maximum height, accompaniment, restraint fit and other restrictions apply separately. Attraction staff make the final eligibility determination.`,
             }) : ''}
-            ${attraction.hasSeasonalOverlay ? C.seasonalHandoff(attraction.name) : ''}
+            ${current && attraction.hasSeasonalOverlay ? C.seasonalHandoff(attraction.name) : ''}
           </div>
         </div>
       `,
     })}
 
-    ${C.faqSection(attraction.faqs, { title: `${attraction.name}: common questions` })}
+    ${C.faqSection(faqs, { title: `${attraction.name}: common questions` })}
 
     ${related.length ? C.relatedLinks(related.map((r) => ({
       href: r.url, label: r.name, summary: r.summary,
@@ -434,16 +476,16 @@ export function attractionPage (attraction, data) {
         // The park must appear in the title: Space Mountain, Haunted Mansion, Pirates and a dozen
         // others exist at both resorts, and undifferentiated titles cannibalise each other.
         title: `${attraction.name} (${park.shortLabel})`,
-        titleTail: attraction.titleTail ?? (attraction.heightIn ? ': height & scares' : ': is it scary?'),
-        description: C.truncate(`${answerLead}${attraction.summary} ${attraction.heightIn != null ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `Height requirement unverified at ${park.name}.`}`, 155),
+        titleTail: current ? attraction.titleTail ?? (attraction.heightIn ? ': height & scares' : ': is it scary?') : ': not currently operating',
+        description: C.truncate(`${!current ? 'Not currently operating; preserved for reference. ' : answerLead}${attraction.summary} ${current ? isKnownHeight(attraction.heightIn) ? `Minimum height ${attraction.heightIn} inches at ${park.name}.` : `Height requirement unverified at ${park.name}.` : ''}`, 155),
         trail,
         modified: `${attraction.lastVerified || '2026-07'}-01`,
         ogType: 'article',
       },
       body,
       schema: [
-        S.touristAttraction(site, attraction),
-        S.faqPage(site, { url: attraction.url, faqs: attraction.faqs }),
+        attractionSchema,
+        S.faqPage(site, { url: attraction.url, faqs }),
       ],
     }),
   }
@@ -457,7 +499,7 @@ export function landPage (land, data) {
   const { site } = data
   const park = land.park
   const trail = crumbs(park, { label: land.name, href: land.url })
-  const open = land.attractions.filter((a) => a.isOpen)
+  const open = land.attractions.filter(isCurrentAttraction)
 
   const body = html`
     ${C.breadcrumbs(trail)}
@@ -468,7 +510,7 @@ export function landPage (land, data) {
       tone: 'compact',
       meta: [
         land.opened ? { label: 'Opened', value: String(land.opened) } : null,
-        { label: 'Attractions', value: String(open.length) },
+        { label: attractionCountLabel(data), value: String(open.length) },
         { label: 'Places to eat', value: String(land.dining.length) },
         land.anchorInfo ? { label: 'Headliner', value: land.anchorInfo.name } : null,
       ].filter(Boolean),
@@ -479,6 +521,7 @@ export function landPage (land, data) {
         <div class="split">
           <div class="prose prose--lede">
             ${paragraphs(land.description)}
+            ${coverageNotice(park, data)}
             ${land.vibe ? C.callout({ type: 'note', title: 'What it feels like standing here', body: land.vibe }) : ''}
           </div>
           <div class="split__aside">
@@ -491,7 +534,8 @@ export function landPage (land, data) {
 
     ${open.length ? C.section({
       tone: 'tint',
-      title: `Attractions in ${land.name}`,
+      title: `${coverageMode(data) ? 'Attractions covered in' : 'Attractions in'} ${land.name}`,
+      intro: coverageMode(data) ? 'This list covers current catalog records in this area. It is not a complete official inventory or a same-day availability report.' : '',
       children: html`${open.map(C.attractionInline)}`,
     }) : ''}
 
@@ -508,7 +552,7 @@ export function landPage (land, data) {
 
     ${C.relatedLinks([
       { href: urls.map(park), label: `${park.name} map`, summary: 'See where this land sits' },
-      { href: urls.rides(park), label: 'All attractions', summary: `Every ride in ${park.name}` },
+      { href: urls.rides(park), label: coverageMode(data) ? 'Covered attractions' : 'All attractions', summary: coverageMode(data) ? `Our current catalog for ${park.name}` : `Every ride in ${park.name}` },
       ...park.lands.filter((l) => l.slug !== land.slug).slice(0, 2).map((l) => ({ href: l.url, label: l.name, summary: l.summary })),
     ], { title: 'Nearby' })}
   `
@@ -520,7 +564,7 @@ export function landPage (land, data) {
       page: {
         url: land.url,
         title: `${land.name} at ${park.shortLabel}`,
-        description: C.truncate(`${land.summary} ${open.length} attractions and ${land.dining.length} places to eat.`, 155),
+        description: C.truncate(`${land.summary} ${open.length} attractions${coverageMode(data) ? ' covered by this guide' : ''} and ${land.dining.length} places to eat.`, 155),
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -562,7 +606,7 @@ export function heightsPage (park, data) {
           sortable: true,
           className: 'data-table--stack',
           attrs: { 'data-heights-table': '' },
-          caption: `Every ${park.name} attraction with a minimum height, shortest first. Measured with shoes on, hats off, against a fixed stick.`,
+          caption: `Current ${park.name} attractions with verified minimums, shortest first. Maximum height, accompaniment and other rider restrictions apply separately; attraction staff decide final eligibility.`,
           columns: [
             'Attraction',
             { label: 'Height', align: 'num', sort: 'number' },
@@ -572,7 +616,7 @@ export function heightsPage (park, data) {
           ],
           rows: park.heightAttractions.map((a) => [
             a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
-            html`<span data-value="${a.heightIn}">${a.heightIn}" · ${Math.round(a.heightIn * 2.54)}cm</span>`,
+            C.heightRequirementCell(a, { centimetres: true }),
             a.landInfo ? html`<a href="${a.landInfo.url}">${a.landInfo.name}</a>` : '—',
             f.attractionType(a.type),
             html`<span data-value="${a.intensity || 0}">${f.intensityLabel(a.intensity)}</span>`,
@@ -587,7 +631,7 @@ export function heightsPage (park, data) {
       tone: 'tint',
       title: 'What can my child ride?',
       kicker: 'By height',
-      intro: 'Each band below shows what unlocks at that height and what is still out of reach.',
+      intro: 'Each band counts verified numerical minimums met at that height. A minimum alone does not establish permission: maximum height, accompanied-rider and other restrictions apply separately.',
       children: html`
         ${thresholds.map((threshold) => {
           const unlocked = park.heightAttractions.filter((a) => a.heightIn <= threshold)
@@ -596,11 +640,11 @@ export function heightsPage (park, data) {
           return html`
             <div class="doc-section" id="height-${threshold}">
               <h2>At ${threshold} inches (${Math.round(threshold * 2.54)}cm)</h2>
-              <p>A child who measures ${threshold} inches clears <strong>${unlocked.length}</strong> of the ${park.heightAttractions.length} verified numerical minimums at ${park.name}. Another ${park.noHeightAttractions.length} attractions have no verified height figure here; check them with the park.</p>
-              <p><strong>Newly unlocked at this height:</strong> ${f.list(justUnlocked.map((a) => a.name))}.</p>
+              <p>A child who measures ${threshold} inches meets <strong>${unlocked.length}</strong> of the ${park.heightAttractions.length} verified numerical minimums at ${park.name}. Another ${park.noHeightAttractions.length} attractions have no verified height figure here; check them with the park.</p>
+              <p><strong>Minimum first met at this height:</strong> ${f.list(justUnlocked.map((a) => a.name))}.</p>
               ${blocked.length
                 ? html`<p><strong>Still too short for:</strong> ${f.list(blocked.map((a) => `${a.name} (${a.heightIn}")`))}.</p>`
-                : html`<p>At ${threshold} inches your child clears every <strong>verified numerical minimum</strong> listed here. Check any unverified restrictions and other rider rules with the park.</p>`}
+                : html`<p>At ${threshold} inches your child meets every <strong>verified numerical minimum</strong> listed here. Check any unverified restrictions and other rider rules with the park.</p>`}
             </div>
           `
         })}
@@ -631,14 +675,14 @@ export function heightsPage (park, data) {
       title: 'How measuring actually works',
       children: html`
         <div class="prose">
-          <p>A cast member measures your child against a fixed stick at the entrance to each attraction: shoes on, hats off, standing straight. There is no discretion and no negotiating — the stick decides.</p>
-          <p>If your child is borderline, ask for a wristband at the first attraction that measures them. A coloured band means the height has been checked for the day and they will not be re-measured at every queue, which saves a lot of standing around and a lot of disappointment repeated seven times.</p>
-          <p>Thick-soled shoes are not cheating; they are simply how the measurement is taken. Hair that adds height is not — expect it to be flattened.</p>
+          <p>Ask Guest Relations for current height-measurement and wristband procedures. A wristband does not guarantee that later measurements or checks will be skipped.</p>
+          <p>Attraction staff make the final eligibility determination. Meeting a minimum alone does not establish permission to ride: any maximum height, accompanied-rider requirement, restraint fit and other posted restrictions apply separately.</p>
+          <p>Use an honest home measurement for planning, and follow the park’s measurement instructions when you arrive.</p>
         </div>
         ${C.callout({
           type: 'tip',
           title: 'Measure at home first, honestly',
-          body: 'Measure barefoot against a wall with a book flat on their head, then add the sole thickness of the shoes they will actually wear. Round down. A child measured optimistically at home is a child crying at the front of a 50-minute queue.',
+          body: 'Stand straight against a wall with a book flat on the head and record the measurement accurately. Round down rather than promising a borderline ride. Confirm the park’s current measurement procedure with Guest Relations.',
         })}
       `,
     })}
@@ -685,7 +729,7 @@ export function accessibilityPage (park, data) {
   // Grouped by what the attraction requires. Built from the data rather than a fixed key list, so
   // an unexpected transfer value shows up on the page instead of quietly vanishing from it.
   const transferGroups = { 'wheelchair-accessible': [], 'ecv-transfer': [], 'must-transfer': [] }
-  for (const attraction of park.attractions.filter((x) => x.isOpen)) {
+  for (const attraction of park.attractions.filter(isCurrentAttraction)) {
     const key = (attraction.accessibility && attraction.accessibility.transfer) || 'must-transfer'
     ;(transferGroups[key] = transferGroups[key] || []).push(attraction)
   }
@@ -820,7 +864,7 @@ export function firstTimerPage (park, data) {
       lede: 'A plan, not a list of adjectives. What to sort before you go, what order to do things in, and the mistakes that cost first-timers two hours a day.',
       tone: 'compact',
       actions: [
-        { href: urls.rides(park), label: 'See every attraction', primary: true },
+        { href: urls.rides(park), label: coverageMode(data) ? 'See covered attractions' : 'See every attraction', primary: true },
         { href: urls.map(park), label: 'Printable map' },
       ],
     })}
@@ -863,8 +907,8 @@ export function firstTimerPage (park, data) {
             ${C.factPanel([
               park.stats && park.stats.typicalFullDayHours ? { label: 'Plan for', value: park.stats.typicalFullDayHours } : null,
               park.stats && park.stats.minimumDaysRecommended ? { label: 'Days needed', value: `${park.stats.minimumDaysRecommended}` } : null,
-              { label: 'Attractions', value: String(park.attractions.filter((x) => x.isOpen).length) },
-              { label: 'Headliners', value: String(park.headliners.length) },
+              { label: attractionCountLabel(data), value: String(attractionCoverage(park).currentCount) },
+              { label: coverageMode(data) ? 'Headliners covered' : 'Headliners', value: String(park.headliners.length) },
             ].filter(Boolean), { title: park.name, columns: 1 })}
             ${C.linkGrid([
               { href: urls.heights(park), label: 'Height requirements' },
@@ -918,18 +962,21 @@ export function mapPage (park, data) {
   const { site } = data
   const trail = crumbs(park, { label: 'Map', href: urls.map(park) })
   const rendered = renderParkMap(park)
+  const coverageDiagram = coverageMode(data) && rendered && rendered.synthetic
 
   const body = html`
     ${C.breadcrumbs(trail)}
     ${C.hero({
       eyebrow: park.name,
-      title: `${park.name} map`,
-      lede: rendered && rendered.synthetic
+      title: coverageDiagram ? `${park.name} guide coverage diagram` : `${park.name} map`,
+      lede: coverageDiagram
+        ? 'An illustrative diagram of the areas currently covered by this guide. It does not establish their physical positions, walking directions or the park’s complete official layout. Use the current official park map for navigation.'
+        : rendered && rendered.synthetic
         ? 'A schematic showing how the lands sit relative to one another and the entrance. Drawn by us, prints on one page, and works with the network off.'
         : 'Drawn by us in the style of a mid-century illustrated park plate — no clutter, no ads baked into the image, every marker clickable. Download it, print it, and it still works with the network off.',
       tone: 'compact',
       actions: [
-        { href: urls.rides(park), label: 'Every attraction', primary: true },
+        { href: urls.rides(park), label: coverageMode(data) ? 'Covered attractions' : 'Every attraction', primary: true },
         { href: urls.snacks(park), label: 'Snacks by land' },
       ],
     })}
@@ -964,8 +1011,9 @@ export function mapPage (park, data) {
               ${park.hasMapPng ? html`<a class="btn btn--ghost btn--small" href="/assets/img/maps/${park.slug}-map@2x.png" download>Download PNG</a>` : ''}
             </div>
             <p class="map-attribution">
-              Original artwork by ${site.brand.name}, drawn from open geographic data including data
-              © OpenStreetMap contributors, available under the Open Database Licence. The vintage
+              ${coverageDiagram
+                ? html`Original illustrative diagram by ${site.brand.name}, arranged from this guide’s area records rather than surveyed geographic positions.`
+                : html`Original artwork by ${site.brand.name}, drawn from open geographic data including data © OpenStreetMap contributors, available under the Open Database Licence.`} The vintage
               styling uses generic cartographic devices — compass rose, ribbon title, ruled frame —
               and is not traced from, measured against, or styled after any official park map.
               Positions are schematic and not to scale. This is not an official park map.
@@ -973,11 +1021,16 @@ export function mapPage (park, data) {
             </p>
           </div>
           <div class="split__aside">
+            ${coverageMode(data) && park.officialMapUrl ? C.callout({
+              type: 'note',
+              title: 'Navigate with the current official park map',
+              body: `Use the [official ${park.name} Park Map & Directions page](${park.officialMapUrl}) for the current park guide and navigation. Our diagram shows guide coverage and does not confirm today’s availability.`,
+            }) : ''}
             ${C.factPanel(park.lands.map((land) => ({
               label: land.name,
-              value: html`<a href="${land.url}" data-land-link="${land.slug}">${land.attractions.filter((x) => x.isOpen).length} attractions</a>`,
+              value: html`<a href="${land.url}" data-land-link="${land.slug}">${land.attractions.filter(isCurrentAttraction).length} ${coverageMode(data) ? 'attractions covered' : 'attractions'}</a>`,
               hint: land.anchorInfo ? `Headliner: ${land.anchorInfo.name}` : null,
-            })), { title: 'The lands', columns: 1 })}
+            })), { title: coverageMode(data) ? 'Areas covered' : 'The lands', columns: 1 })}
             ${C.callout({
               type: 'tip',
               title: 'Save it before you go',
@@ -989,7 +1042,7 @@ export function mapPage (park, data) {
     })}
 
     ${C.relatedLinks([
-      { href: urls.rides(park), label: 'All attractions', summary: 'The full list' },
+      { href: urls.rides(park), label: coverageMode(data) ? 'Covered attractions' : 'All attractions', summary: coverageMode(data) ? 'Our current attraction catalog' : 'The full list' },
       { href: urls.dining(park), label: 'Where to eat', summary: 'By land' },
       { href: urls.accessibility(park), label: 'Accessibility', summary: 'Distances and transfers' },
       { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'A route through the park' },
@@ -1002,9 +1055,11 @@ export function mapPage (park, data) {
       site,
       page: {
         url: urls.map(park),
-        title: `${park.shortLabel} map`,
+        title: coverageDiagram ? `${park.shortLabel} guide coverage diagram` : `${park.shortLabel} map`,
         titleTail: ' (printable & offline)',
-        description: `A clean, printable schematic map of ${park.name} showing every land and its headliner attractions. Works offline once you have opened it.`,
+        description: coverageMode(data)
+          ? `A printable diagram of areas covered by this ${park.name} guide. Consult the official park map for actual layout and navigation.`
+          : `A clean, printable schematic map of ${park.name} showing every land and its headliner attractions. Works offline once you have opened it.`,
         trail,
         modified: `${park.lastVerified || '2026-07'}-01`,
       },
@@ -1026,12 +1081,12 @@ export function bestRidesPage (park, data) {
 
   const ranked = (doc.ranking || [])
     .map((entry) => ({ ...entry, attraction: resolve(entry.slug) }))
-    .filter((entry) => entry.attraction)
+    .filter((entry) => entry.attraction && isCurrentAttraction(entry.attraction))
     .sort((a, b) => a.rank - b.rank)
 
   const named = (list) => (list || [])
     .map((entry) => ({ ...entry, attraction: resolve(entry.slug) }))
-    .filter((entry) => entry.attraction)
+    .filter((entry) => entry.attraction && isCurrentAttraction(entry.attraction))
 
   const overrated = named(doc.overrated)
   const underrated = named(doc.underrated)
@@ -1049,7 +1104,7 @@ export function bestRidesPage (park, data) {
         { label: 'Last verified', value: f.humanDate(doc.lastVerified) },
       ],
       actions: [
-        { href: urls.rides(park), label: `All ${park.attractions.filter((a) => a.isOpen).length} attractions`, primary: true },
+        { href: urls.rides(park), label: directoryLink(park, data), primary: true },
         { href: urls.heights(park), label: 'Height requirements' },
       ],
     })}
@@ -1133,7 +1188,7 @@ export function bestRidesPage (park, data) {
     ${C.faqSection(doc.faqs, { title: `Best rides at ${park.name}: common questions` })}
 
     ${C.relatedLinks([
-      { href: urls.rides(park), label: 'Every attraction', summary: 'The full list, sortable' },
+      { href: urls.rides(park), label: coverageMode(data) ? 'Covered attractions' : 'Every attraction', summary: coverageMode(data) ? 'Our current catalog, sortable' : 'The full list, sortable' },
       { href: urls.heights(park), label: 'Height requirements', summary: 'What your child clears' },
       { href: urls.firstTimer(park), label: 'First-timer plan', summary: 'The order to do them in' },
       { href: data.link.parkRankings, label: 'Every park, ranked', summary: 'Zoom out' },

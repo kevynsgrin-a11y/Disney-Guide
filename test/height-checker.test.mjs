@@ -57,7 +57,7 @@ test('height checker never treats an unverified minimum as rider eligibility', a
   }
 
   let html = section()
-  assert.match(html, /0 verified rideable · 1 height unverified/)
+  assert.match(html, /0 height conditions met · 1 need checking/)
   assert.match(html, /data-blocked data-need="42">Journey to Atlantis/)
   assert.match(html, /data-blocked data-need="48">Manta/)
   assert.match(html, /data-blocked data-need="48">Arctic Rescue/)
@@ -66,13 +66,16 @@ test('height checker never treats an unverified minimum as rider eligibility', a
 
   move(42)
   html = section()
-  assert.match(html, /1 verified rideable · 1 height unverified/)
+  assert.match(html, /0 height conditions met · 2 need checking/)
+  assert.match(html, /data-unverified>Journey to Atlantis · check rider restrictions:/)
   assert.doesNotMatch(html, /data-blocked[^>]*>Journey to Atlantis/)
   assert.match(html, /data-blocked data-need="48">Manta/)
 
   move(48)
   html = section()
-  assert.match(html, /3 verified rideable · 1 height unverified/)
+  assert.match(html, /0 height conditions met · 4 need checking/)
+  assert.match(html, /data-unverified>Manta · check rider restrictions:/)
+  assert.match(html, /data-unverified>Arctic Rescue · check rider restrictions:/)
   assert.doesNotMatch(html, /data-blocked[^>]*>(?:Manta|Arctic Rescue)/)
   assert.match(html, /data-unverified>Tidal Twister · height unverified/)
 })

@@ -8,6 +8,20 @@
 (function () {
   'use strict'
 
+  function knownHeight (value) {
+    return typeof value === 'number' && Number.isFinite(value) && value >= 0
+  }
+
+  function heightStatus (inches, ride) {
+    if ((ride.s || 'open') !== 'open') return 'closed'
+    if (!knownHeight(ride.h) || !knownHeight(inches)) return 'unknown'
+    if (knownHeight(ride.max) && inches > ride.max) return 'over'
+    if (inches < ride.h) return ride.h - inches <= 2 ? 'near' : 'later'
+    if (knownHeight(ride.accompaniedBelow) && inches < ride.accompaniedBelow) return 'companion'
+    if (ride.restrictions && ride.restrictions.length) return 'review'
+    return 'now'
+  }
+
   function ready (fn) {
     if (document.readyState !== 'loading') fn()
     else document.addEventListener('DOMContentLoaded', fn)
@@ -68,7 +82,7 @@
         toast.setAttribute('role', 'status')
         host.appendChild(toast)
       }
-      toast.textContent = ride.n + ' just unlocked.'
+      toast.textContent = ride.n + ' now meets the verified height conditions. Staff make the final decision.'
       toast.setAttribute('data-open', '')
       clearTimeout(toastTimer)
       toastTimer = setTimeout(function () { toast.removeAttribute('data-open') }, 2500)
@@ -89,15 +103,18 @@
         var cant = []
         var unknown = []
         park.rides.forEach(function (ride) {
-          if (ride.h == null) {
+          var status = heightStatus(inches, ride)
+          if (status === 'closed') return
+          ride._heightStatus = status
+          if (status === 'unknown' || status === 'companion' || status === 'review') {
             unknown.push(ride)
             totalUnknown++
-          } else if (ride.h <= inches) {
+          } else if (status === 'now') {
             can.push(ride)
             totalCan++
             /* Crossing a threshold on this movement is the unlock moment; the tallest such
                ride is the one worth naming. */
-            if (prevInches != null && ride.h > prevInches && ride.h <= inches) {
+            if (prevInches != null && heightStatus(prevInches, ride) !== 'now') {
               if (!unlocked || ride.h > unlocked.h) unlocked = ride
             }
           }
@@ -108,12 +125,12 @@
         })
         /* Sorted by how close they are, so the nearest miss reads first — that is the one that
            decides whether a family waits a season or books now. */
-        var nearMiss = cant.filter(function (r) { return r.h - inches <= 2 })
+        var nearMiss = cant.filter(function (r) { return r._heightStatus === 'near' })
           .sort(function (a, b) { return a.h - b.h })
         return '<section class="hchecker__park">' +
           '<h3><a href="' + esc(park.url) + '">' + esc(park.name) + '</a> ' +
-          '<small>' + can.length + ' verified rideable' +
-          (unknown.length ? ' · ' + unknown.length + ' height unverified' : '') + '</small></h3>' +
+          '<small>' + can.length + ' height conditions met' +
+          (unknown.length ? ' · ' + unknown.length + ' need checking' : '') + '</small></h3>' +
           (nearMiss.length
             ? '<div class="nearmiss"><p class="nearmiss__title">' +
               (nearMiss.length === 1 ? 'One ride is just out of reach' : nearMiss.length + ' rides are just out of reach') +
@@ -132,10 +149,14 @@
               return '<li' + glow + '>' + esc(r.n) + '</li>'
             }).join('') +
             cant.map(function (r) {
-              return '<li data-blocked data-need="' + r.h + '">' + esc(r.n) + '</li>'
+              return '<li data-blocked data-need="' + r.h + '">' + esc(r.n) +
+                (r._heightStatus === 'over' ? ' · exceeds ' + r.max + ' in maximum' : '') + '</li>'
             }).join('') +
             unknown.map(function (r) {
-              return '<li data-unverified>' + esc(r.n) + ' · height unverified</li>'
+              var reason = r._heightStatus === 'companion'
+                ? 'supervising companion required below ' + r.accompaniedBelow + ' in'
+                : r._heightStatus === 'review' ? 'check rider restrictions: ' + r.restrictions.join('; ') : 'height unverified'
+              return '<li data-unverified>' + esc(r.n) + ' · ' + esc(reason) + '</li>'
             }).join('') +
           '</ul></section>'
       }).join('')
@@ -147,8 +168,8 @@
 
       announceResult(
         (useMetric ? cm + ' centimetres' : inches + ' inches') + ': ' +
-        totalCan + ' verified rideable, ' + totalCant + ' still too short, ' +
-        totalUnknown + ' with height unverified.'
+        totalCan + ' meet verified height conditions, ' + totalCant + ' outside height limits, ' +
+        totalUnknown + ' need checking. Attraction staff make the final eligibility determination.'
       )
 
       if (unlocked) announceUnlock(unlocked)
@@ -158,7 +179,7 @@
         var allClear = document.createElement('p')
         allClear.className = 'hchecker__toast'
         allClear.setAttribute('role', 'status')
-        allClear.textContent = 'They clear every verified height here.'
+        allClear.textContent = 'All listed height conditions are met. Attraction staff make the final eligibility determination.'
         document.querySelector('.hchecker') && document.querySelector('.hchecker').appendChild(allClear)
         setTimeout(function () { allClear.removeAttribute('data-open') }, 3000)
         setTimeout(function () { allClear.setAttribute('data-open', '') }, 50)

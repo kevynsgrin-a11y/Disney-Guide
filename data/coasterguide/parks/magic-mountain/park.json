@@ -15,9 +15,9 @@
   "tagline": "The self-declared coaster capital of the world, and for once the marketing is close to true.",
   "summary": "Six Flags Magic Mountain in Valencia holds more roller coasters than any other park on this site, stacked on a hillside an hour north of Los Angeles. It is a coaster park first and a theme park second, and the crowds are Disneyland-sized on summer Saturdays.",
   "intro": [
-    "Magic Mountain opened in 1971 as a family park and spent the next five decades collecting roller coasters the way other parks collect carousel horses. The count now sits around twenty depending on what is running, which is more than any other park this site covers, and the lineup runs from a 1971 mine train to a 4th-dimension coaster that rotates you independently of the track. Nobody leaves having ridden everything in one day for the first time.",
-    "The park is built on a real hill. The summit section — Samurai Summit, at the top of a long incline from the entrance — holds Tatsu, Ninja and the Superman tower, and the climb is a genuine fifteen-minute walk. Plan the geography before you plan the rides: the mistake everyone makes is racing up the hill at eleven, coming down at two, and going back up at four. Do the summit once, early, and work down through the day.",
-    "Magic Mountain is a Six Flags park, which means three practical things. The crowd floor is higher than the regional average in summer, the Flash Pass — Six Flags' line-skip product — is priced like the park knows it, and weekday operations in spring and autumn can be genuinely empty: the same coasters that run ninety-minute waits on a July Saturday are walk-ons on a September Wednesday. The single best decision available at this park is which kind of day to buy."
+    "Magic Mountain opened in 1971 as a family park and spent the next five decades building a broad coaster lineup. This guide currently tracks ten current coaster records, plus historical pages for retired X2 and permanently closed Superman: Escape from Krypton. That is the guide’s coverage, not a claim to the park’s complete operating coaster count; check current park operations before planning a visit.",
+    "The park is built on a hill, but official land labels matter when planning it: Ninja is in Samurai Summit, Tatsu is in Rapids Camp Crossing, Twisted Colossus is in Screampunk District and Goliath is in Goliath Plaza. Use the current official park map for walking routes rather than assuming those rides share a land.",
+    "Magic Mountain’s current all-day paid queue products are Fast Lane Reserve and Fast Lane Ultimate. They apply to participating rides under the selected date’s rules and availability. Check the operating calendar, current price and the party’s ride priorities before deciding whether a product adds value."
   ],
   "bestFor": [
     "Coaster enthusiasts",
@@ -31,11 +31,12 @@
     "Dark-ride and show people"
   ],
   "stats": {
-    "attractionCount": 12,
-    "ridesWithHeightRequirements": 11,
+    "attractionCount": 10,
+    "ridesWithHeightRequirements": 10,
     "tallestRequirement": 54,
     "typicalFullDayHours": "10–12 hours",
-    "minimumDaysRecommended": 1
+    "minimumDaysRecommended": 1,
+    "scope": "operating"
   },
   "lands": [
     {
@@ -43,23 +44,22 @@
       "name": "Six Flags Plaza",
       "order": 1,
       "opened": 1971,
-      "summary": "The entrance plaza, where Full Throttle's giant loop hangs over the front of the park like a gate.",
+      "summary": "The entrance plaza, home to Full Throttle’s launches and 160-foot loop.",
       "description": [
-        "The plaza is the park's front door and its most photographed corner, because Full Throttle's 160-foot top hat and vertical loop lean directly over the entry road. You pass under the ride on the way in, which is either a welcome or a warning depending on your party.",
-        "Beyond Full Throttle the plaza holds the park's main guest services, lockers and the tram drop from the parking lot. Goldrusher, the 1971 mine train that started all of this, still runs from the base of the hill here — it is the park's oldest coaster and worth one lap for the history even though it is the smallest thing on the mountain."
+        "Six Flags Plaza is Full Throttle’s official location. Six Flags describes a 70-mph launch, a 160-foot loop and a backwards launch out of the tunnel.",
+        "Beyond Full Throttle the plaza holds the park’s main guest services, lockers and the tram drop from the parking lot. Gold Rusher’s official location is METROPOLIS, so plan its stop separately."
       ],
-      "vibe": "Entry plaza energy: loud, vertical, and dominated by a coaster loop you walk under.",
+      "vibe": "Entry-plaza energy, with Full Throttle’s launches and loop.",
       "anchorAttraction": "full-throttle",
       "highlights": [
-        "Full Throttle's loop over the entry road",
-        "Goldrusher, the 1971 original",
+        "Full Throttle’s 160-foot loop in Six Flags Plaza",
         "Locker and guest services cluster"
       ],
       "eatHere": [
         "jbs-smokehouse"
       ],
       "tips": [
-        "Ride Full Thrust loops — Full Throttle — at rope drop from the plaza before the crowd migrates up the hill, then leave this area until evening.",
+        "Check Full Throttle’s current queue when passing through Six Flags Plaza; its minimum is 54 inches and other restrictions still apply.",
         "Buy lockers here, not at individual rides: several coasters require loose articles in a paid locker and the plaza lockers are the cheapest per-hour."
       ]
     },
@@ -67,44 +67,41 @@
       "slug": "dc-universe",
       "name": "DC Universe",
       "order": 2,
-      "summary": "The superhero strip, where Batman and The Riddler's Revenge run adjacent inverter-and-standup formation.",
+      "summary": "Batman: The Ride’s official land, separate from Riddler’s Revenge in METROPOLIS.",
       "description": [
-        "DC Universe is the park's most compact coaster corner: Batman's suspended queue and Riddler's stand-up track pack two intense rides within a hundred yards of each other. Both are B&M coasters from the 1990s golden era of that manufacturer, and both still out-perform rides half their age.",
-        "The theming is comic-book storefront level, which is to say minimal, but nobody comes here for set dressing. Come early or come late: the strip is close to the entrance and collects the first mid-morning crowd wave of the day."
+        "Six Flags places Batman: The Ride in DC UNIVERSE. The compact inverted coaster combines loops, rolls and turns in suspended seating.",
+        "The Riddler’s Revenge belongs to METROPOLIS, so use the official map to plan those as separate land stops rather than a single DC UNIVERSE cluster."
       ],
       "vibe": "Concrete and capes: high-intensity coasters with comic paint jobs and no shade to speak of.",
       "anchorAttraction": "batman-the-ride",
       "highlights": [
         "Batman: The Ride, the West Coast invert",
-        "The Riddler's Revenge, one of the last big stand-up coasters",
-        "Two intense coasters within a short walk of each other"
+        "Batman’s compact inversion layout"
       ],
       "eatHere": [],
       "tips": [
         "Do this strip in the first hour or after 5pm; between noon and 4pm both queues bake.",
-        "Riddler's stand-up restraints punish wrong posture — stand straight, not leaning, or the bicycle seat finds you."
+        "Check Batman’s restrictions and restraint fit with attraction staff before boarding."
       ]
     },
     {
       "slug": "samurai-summit",
       "name": "Samurai Summit",
       "order": 3,
-      "summary": "The top of the mountain: Tatsu, Ninja, Superman's tower and the best view of the whole park.",
+      "summary": "Ninja’s official land, with a preserved historical page for permanently closed Superman.",
       "description": [
-        "The summit is why Magic Mountain is called a mountain and not a hill. The walk up from the plaza is long, switchbacked and, in July, cruel — but it holds Tatsu, a flying coaster that glides off the summit with the whole Santa Clarita valley underneath you, plus Ninja's suspended swings through the trees and the Superman escape tower.",
-        "This is the one part of the park where ride order really matters. Tatsu's queue is the most popular on the mountain and builds by ten. Everyone's first morning instinct should be the climb straight to the summit, Tatsu first, then work the summit rides, then descend and never come back up."
+        "Six Flags places Ninja in Samurai Summit. The suspended coaster swings through the hillside’s trees and requires a 42-inch minimum plus separate physical requirements.",
+        "Superman: Escape from Krypton’s legacy listing also names Samurai Summit, but that ride is permanently closed. Tatsu’s official location is Rapids Camp Crossing; it is not assigned to this land."
       ],
-      "vibe": "Pine trees, altitude and flying coasters: the quietest corner of the park between the loudest rides.",
-      "anchorAttraction": "tatsu",
+      "vibe": "Hillside terrain and Ninja’s swinging suspended trains.",
+      "anchorAttraction": "ninja",
       "highlights": [
-        "Tatsu's pretzel loop off the summit edge",
-        "Ninja through the trees",
-        "Superman: Escape from Krypton's 415-foot spike",
-        "The valley view from the top"
+        "Ninja’s suspended swinging trains",
+        "Ninja’s 42-inch minimum"
       ],
       "eatHere": [],
       "tips": [
-        "Climb once, ride everything up here, and descend for good — the return trip up in the afternoon is the day-killer.",
+        "Use the official park map and Guest Relations guidance to plan access to Samurai Summit.",
         "Ninja is the summit's 42-inch ride and the one younger-sibling ride worth the climb."
       ]
     },
@@ -112,22 +109,21 @@
       "slug": "cyclone-bay",
       "name": "Cyclone Bay",
       "order": 4,
-      "summary": "The back corner where the wooden Colossus twins became Twisted Colossus and the racing continues.",
+      "summary": "A legacy area label retained for older food records in this guide.",
       "description": [
-        "Cyclone Bay holds the park's wooden-coaster heart. Colossus raced white wooden trains for four decades; after the 2015 Rocky Mountain conversion it races itself as Twisted Colossus, a steel-tracked hybrid that duels its own second train around the old footprint and includes a section where the track literally high-fives itself.",
-        "West Coast Racers, the launched racing coaster built with the park's partnership branding, sits alongside. This back corner is hot, loud and — on weekdays — the emptiest big-coaster real estate in the park."
+        "This guide’s older food data still uses the Cyclone Bay label. It is retained for those records, not as the current official land assignment for a coaster.",
+        "Use current official labels for ride planning: Twisted Colossus is in Screampunk District, Goliath is in Goliath Plaza and West Coast Racers is in The Underground."
       ],
-      "vibe": "Back-lot coaster yard: wood structure, steel track, racing trains and not much shade.",
-      "anchorAttraction": "twisted-colossus",
+      "vibe": "Legacy guide label; verify current names and locations.",
+      "anchorAttraction": null,
       "highlights": [
-        "Twisted Colossus racing itself",
-        "West Coast Racers' side-by-side launches",
-        "Goliath at the bay's edge"
+        "Legacy food-record label",
+        "Use the official map for current land names"
       ],
       "eatHere": [],
       "tips": [
-        "Twisted Colossus is at its best when both trains dispatch — if the queue is short, ask the ride hosts which dispatch pattern gets the duel.",
-        "This corner is the park's best afternoon zone: the crowds thin and the rides here keep capacity all day."
+        "Check the current official map before using an older area name for navigation.",
+        "No current coaster in this guide is assigned to Cyclone Bay."
       ]
     },
     {
@@ -155,17 +151,17 @@
       "slug": "rapids-camp-crossing",
       "name": "Rapids Camp Crossing",
       "order": 6,
-      "summary": "The family and water-ride lowlands, where the height requirements drop and the spray zones open.",
+      "summary": "Tatsu’s official land, combining a major flying coaster with the guide’s existing water-area coverage.",
       "description": [
-        "The crossing is where Magic Mountain remembers it was built as a family park in 1971. The rapids ride anchors it, the family coasters cluster around it, and the shade is better here than anywhere above it. On a hot day this is also the park's cooling strategy.",
-        "This is the zone for parties splitting up: the under-48-inch contingent can spend a genuine half-day here while the thrill riders work the summit and the bay, and Jet Stream-style soak rides give everyone a reason to reunite."
+        "Six Flags places Tatsu in Rapids Camp Crossing. Its flying ride position and pretzel loop make this a major thrill stop; the listed minimum is 54 inches.",
+        "This guide also keeps its existing water-area and dining coverage here. Check attraction-specific restrictions rather than treating the whole area as a lower-height family tier."
       ],
       "vibe": "Trees, water noise and strollers: the low-key corner where the park breathes.",
-      "anchorAttraction": null,
+      "anchorAttraction": "tatsu",
       "highlights": [
-        "The water rides' soak cycle",
-        "Family coaster tier in one cluster",
-        "The best shade on the mountain"
+        "Tatsu’s flying ride position",
+        "Tatsu’s pretzel loop",
+        "Tatsu’s 54-inch minimum"
       ],
       "eatHere": [
         "primos-pizzeria"
@@ -174,21 +170,101 @@
         "Do the water rides after two o'clock — you will dry out before the evening and the mid-afternoon line for the rapids moves fast.",
         "This is the meet-up zone for split parties: central, shaded, and visible."
       ]
+    },
+    {
+      "slug": "metropolis",
+      "name": "METROPOLIS",
+      "order": 7,
+      "summary": "The official land for Gold Rusher and The Riddler’s Revenge.",
+      "description": [
+        "Six Flags places Gold Rusher and The Riddler’s Revenge in METROPOLIS. Gold Rusher requires 48 inches; The Riddler’s Revenge requires 54 inches, and both have other ride restrictions.",
+        "Official Gold Rusher location and minimum-height reference: https://www.sixflags.com/magicmountain/attractions/gold-rusher."
+      ],
+      "vibe": "A stop for the park’s original mine-train coaster.",
+      "anchorAttraction": "goldrusher",
+      "highlights": [
+        "Gold Rusher, the 1971 original",
+        "The Riddler’s Revenge, the stand-up coaster"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Use the 48-inch minimum when planning Gold Rusher; ask attraction staff about all other restrictions."
+      ]
+    },
+    {
+      "slug": "the-underground",
+      "name": "The Underground",
+      "order": 8,
+      "summary": "West Coast Racers’ official land, with launched racing and four inversions.",
+      "description": [
+        "Six Flags places West Coast Racers in The Underground. It requires a 54-inch minimum and includes three zero-G rolls and one zero-G stall; plan for launches and inversions.",
+        "Official West Coast Racers location, minimum-height and inversion reference: https://www.sixflags.com/magicmountain/attractions/west-coast-racers."
+      ],
+      "vibe": "Racing-coaster launches and pit-stop theming.",
+      "anchorAttraction": "west-coast-racers",
+      "highlights": [
+        "West Coast Racers’ four inversions and racing launches",
+        "West Coast Racers’ 54-inch minimum"
+      ],
+      "eatHere": [],
+      "tips": [
+        "West Coast Racers is not an inversion-free beginner or motion-sensitive alternative."
+      ]
+    },
+    {
+      "slug": "screampunk-district",
+      "name": "Screampunk District",
+      "order": 9,
+      "summary": "Twisted Colossus’s official land.",
+      "description": [
+        "Six Flags places Twisted Colossus in Screampunk District. The hybrid coaster uses the former Colossus structure for its racing and inversion layout.",
+        "Use Screampunk District on the current official park map rather than the older Cyclone Bay label when planning this stop."
+      ],
+      "vibe": "Hybrid-coaster track and the former Colossus structure.",
+      "anchorAttraction": "twisted-colossus",
+      "highlights": [
+        "Twisted Colossus",
+        "Twisted Colossus’s listed 48-inch minimum"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Check current operations and all posted restrictions before riding."
+      ]
+    },
+    {
+      "slug": "goliath-plaza",
+      "name": "Goliath Plaza",
+      "order": 10,
+      "summary": "Goliath’s official land.",
+      "description": [
+        "Six Flags places Goliath in Goliath Plaza. The large non-inverting coaster combines a major drop, tunnel and sustained helix.",
+        "Use Goliath Plaza on the current official park map rather than treating Goliath as part of Cyclone Bay."
+      ],
+      "vibe": "Goliath’s drop and large-scale track.",
+      "anchorAttraction": "goliath",
+      "highlights": [
+        "Goliath",
+        "Goliath’s listed 48-inch minimum"
+      ],
+      "eatHere": [],
+      "tips": [
+        "Check the current queue and all posted restrictions before riding."
+      ]
     }
   ],
   "firstTimer": {
     "intro": [
       "Magic Mountain rewards a plan more than any other park in Southern California, because the hill punishes improvisation. The park's shape is a loop around a mountain with the marquee coasters at the far ends of it, and the mistake every first-timer makes is ping-ponging.",
-      "The one-sentence plan: up the hill at open, Tatsu first, work the summit, descend through DC Universe, hit the bay's big wood-and-steel in the afternoon, and finish on the plaza after the crowd thins."
+      "The plan: choose current ride priorities, use their official land assignments to plan a walking route, and check the day’s operations. Tatsu is in Rapids Camp Crossing; Ninja is a separate Samurai Summit stop."
     ],
     "beforeYouGo": [
       {
-        "title": "Buy the weekday, not the line-skip",
-        "body": "A September Wednesday at Magic Mountain is a walk-on park for the price of regular admission. A July Saturday plus a top-tier Flash Pass costs more and buys you less riding. Check the operating calendar first — the park runs weekday operations only in parts of the year."
+        "title": "Compare the date and current Fast Lane offer",
+        "body": "Check the operating calendar, current Fast Lane Reserve/Ultimate terms and selected-date price before buying. A quieter date may reduce the need, but a weekday does not guarantee short waits or make every product poor value."
       },
       {
         "title": "Measure everyone before you leave",
-        "body": "This park's height floor is higher than any Disney property: the headliners sit at 48 and 54 inches. A 46-inch child can ride Twisted Colossus but not Batman, and knowing the number before arrival prevents the gate-side negotiation."
+        "body": "The current coasters this guide tracks require 42, 48 or 54 inches. A 46-inch child can meet Ninja’s 42-inch minimum, but cannot meet Gold Rusher’s or Twisted Colossus’s 48-inch minimum. Check all other restrictions too; attraction staff make the final eligibility determination."
       },
       {
         "title": "Lockers are per-ride here",
@@ -206,15 +282,15 @@
       },
       {
         "time": "Rope drop",
-        "body": "Go directly up the hill to Tatsu. Yes, the walk is long. It is shorter than its queue at noon."
+        "body": "Prioritize Tatsu in Rapids Camp Crossing if it is operating and suitable for your party. Use the current official map for the route."
       },
       {
         "time": "First hour",
-        "body": "Tatsu, then Ninja while you are up top, then Superman if the tower is running — the summit clears in a lap."
+        "body": "After Tatsu, continue to the next suitable current ride. Ninja is a separate stop in Samurai Summit, subject to its 42-inch minimum and physical restrictions."
       },
       {
         "time": "Mid-morning",
-        "body": "Descend and do DC Universe: Batman and Riddler's Revenge back-to-back before the strip bakes."
+        "body": "Plan Batman: The Ride in DC UNIVERSE and The Riddler’s Revenge in METROPOLIS as separate land stops."
       }
     ],
     "middayPlan": [
@@ -224,7 +300,7 @@
       },
       {
         "time": "Early afternoon",
-        "body": "Work Cyclone Bay: Twisted Colossus and West Coast Racers hold capacity all day and this corner stays calm."
+        "body": "Twisted Colossus is in Screampunk District, Goliath is in Goliath Plaza and West Coast Racers is in The Underground. Choose the next stop using current queues, the map and the party’s full ride restrictions."
       },
       {
         "time": "Mid-afternoon",
@@ -243,19 +319,19 @@
     ],
     "rookieMistakes": [
       "Going up the mountain twice. Once is enough; twice is a wasted hour of walking.",
-      "Buying a top-tier Flash Pass for a weekday that doesn't need it — check the crowd calendar first.",
-      "Riding X2 on a full stomach as your first ride of the day. The rotations are not gentle.",
+      "Buying Fast Lane without checking the selected date, participating ride list, availability and current product terms.",
+      "Planning a current ride on X2 or Superman: Escape from Krypton. Both are permanently closed; their preserved pages are historical.",
       "Assuming the park closes at six. Check the hours; summer and fall haunt dates run later.",
-      "Skipping Goldrusher because it looks small — it's the 1971 original and the queue is never long."
+      "Treating Gold Rusher’s gentler profile as permission for a short rider — its official minimum is 48 inches."
     ],
     "ifYouOnlyHaveOneDay": [
-      "Rope-drop the hill and ride Tatsu first.",
-      "Ninja and Superman while up top.",
-      "Batman and Riddler's Revenge on the way down.",
-      "X2 early-afternoon when its queue dips at lunch.",
-      "Twisted Colossus and West Coast Racers in the bay.",
-      "Goliath late-afternoon as the sun drops.",
-      "Viper at sunset, Full Throttle at close."
+      "Consider Tatsu in Rapids Camp Crossing early if it is operating and suitable for your party.",
+      "Plan Ninja as a separate Samurai Summit stop; its 42-inch minimum does not replace physical restrictions.",
+      "Batman in DC UNIVERSE and Riddler’s Revenge in METROPOLIS for suitable riders.",
+      "Twisted Colossus in Screampunk District and Goliath in Goliath Plaza.",
+      "West Coast Racers in The Underground for riders meeting its 54-inch minimum and other restrictions.",
+      "Gold Rusher in METROPOLIS for riders meeting its 48-inch minimum and other restrictions.",
+      "Viper at sunset, Full Throttle at close, subject to the day’s operations."
     ]
   },
   "accessibility": {
@@ -301,8 +377,8 @@
       "Designated relief areas near the main entrance — confirm current locations at guest services"
     ],
     "sensoryNotes": [
-      "X2 and Full Throttle are the two loudest ride experiences on the mountain; both have onboard audio in the restrained seats.",
-      "The summit is high and exposed — guests with height anxiety should note Tatsu's station overlooks the drop.",
+      "Full Throttle combines launch noise and audio. West Coast Racers includes four inversions; its racing format does not make it a motion-sensitive alternative.",
+      "Tatsu’s flying position and hillside layout can create height exposure; its official land is Rapids Camp Crossing.",
       "The fall haunt overlay adds sudden scares along the midways after dark in season."
     ],
     "mobilityNotes": [
@@ -317,16 +393,16 @@
   },
   "tips": [
     {
-      "title": "The weekday discount is the real Flash Pass",
-      "body": "Spring and autumn Wednesdays run the same coasters as July Saturdays at a fraction of the crowd. If your dates flex, buy the quiet day instead of the skip-the-line product."
+      "title": "Check queues before deciding on Fast Lane",
+      "body": "The value of Fast Lane Reserve or Ultimate depends on the visit date, available rides, current queues and your priorities. Read the official selected-date offer rather than treating all weekdays or weekends as the same."
     },
     {
       "title": "Two cars on the mountain beat one",
-      "body": "For parties with mixed thrill tolerance, split at the summit base: thrill riders up top, everyone else to the crossing. The reunite point is obvious and shaded."
+      "body": "For mixed thrill tolerance, choose a reunion point on the official map before splitting up. Tatsu is in Rapids Camp Crossing and Ninja is in Samurai Summit; do not assign all thrill riders to one summit cluster."
     },
     {
-      "title": "Ride X2 in the middle of the day",
-      "body": "Its queue peaks at open and close; the lunch hours are its quietest window on most days."
+      "title": "Check retirement status before planning",
+      "body": "X2 is permanently retired and Superman: Escape from Krypton is permanently closed. The preserved attraction pages are historical and do not establish current ride availability."
     },
     {
       "title": "The refill bottle math",
@@ -344,41 +420,52 @@
   "faqs": [
     {
       "q": "How many roller coasters does Magic Mountain have?",
-      "a": "Around twenty depending on the season and what is running, which is the most of any park on this site and among the most of any park in the world. The exact count moves with retirements and new openings, so treat the current number as a range rather than a fixed figure."
+      "a": "This guide tracks ten current coaster records at Magic Mountain and keeps X2 and Superman: Escape from Krypton as historical pages. That is the site’s coverage, not the park’s complete operating coaster count. Check Six Flags’ current attraction list and daily operations for a park-wide count."
     },
     {
       "q": "Can you do Magic Mountain in one day?",
-      "a": "Yes, with a plan and a weekday. The hill makes naive touring expensive — go up once at open, work the summit, descend and never climb again. On a summer Saturday, one day covers the headliners only, and a second day or a line-skip product is the honest answer."
+      "a": "A single day can cover your current priorities if the operations, queues and walking route fit. Use the official land assignments and park map to reduce backtracking, then decide whether more time or a line-skip product suits the date."
     },
     {
       "q": "What is the height requirement situation at Magic Mountain?",
-      "a": "The headliner tier sits at 48 and 54 inches: X2, Twisted Colossus, Goliath and West Coast Racers at 48; Tatsu, Full Throttle, Viper, Batman and Riddler's Revenge at 54. Ninja at 42 inches is the summit's family entry. A child between 42 and 48 inches has a real but much smaller park here."
+      "a": "Among the current coasters this guide tracks, Ninja requires 42 inches; Gold Rusher, Goliath and Twisted Colossus require 48; West Coast Racers, Tatsu, Full Throttle, Viper, Batman and Riddler’s Revenge require 54. Gold Rusher is not an under-48-inch option. Height alone does not establish permission to ride; all other restrictions apply and attraction staff decide final eligibility."
     },
     {
-      "q": "Is the Flash Pass worth it at Magic Mountain?",
-      "a": "On weekdays in spring and autumn, usually not — the park runs near walk-on for its headline coasters. On summer and haunt-season weekends, it is the difference between ten and twenty-five rides and is priced accordingly. The line-skip guide on this site has the current pricing tiers."
+      "q": "Is Fast Lane worth it at Magic Mountain?",
+      "a": "Compare Fast Lane Reserve and Fast Lane Ultimate for your selected date and priorities. Reserve uses a virtual wait with a return time; Ultimate allows an immediate Fast Lane entrance reservation, not immediate boarding. Both limit you to one reservation at a time and participating rides subject to availability. Admission is separate, and [Fright Fest](/events/fright-fest-magic-mountain/) haunted attractions require their own pass; no fixed number of additional rides is guaranteed. Official terms: https://www.sixflags.com/magicmountain/fast-lane."
     },
     {
       "q": "How do I get to Magic Mountain without a car?",
-      "a": "It is possible and annoying. The Metrolink Santa Clarita line from downtown Los Angeles stops in Valencia with a short rideshare connection to the park. Most visitors drive; the park sits where the I-5 and SR-126 meet, about an hour north of downtown LA without traffic."
+      "a": "From Los Angeles Union Station, take Metrolink’s Antelope Valley Line to Newhall, then a Santa Clarita Transit connection to McBean Regional Transit Center and route 3 or 7 to Six Flags. Check current timetables for every leg and the last return connections before choosing transit for a [Fright Fest](/events/fright-fest-magic-mountain/) night; service after an 11 p.m. park exit is not guaranteed."
     },
     {
       "q": "What should I ride first at rope drop?",
-      "a": "Tatsu. Its queue is the most popular on the mountain and the walk up the hill is the price of arriving before it builds. Everyone else heads for X2 or Full Throttle near the entrance — let them."
+      "a": "Tatsu in Rapids Camp Crossing is a strong early option if it is operating and your party meets all restrictions. Plan Ninja separately in Samurai Summit and use the current map for the remaining land stops."
     },
     {
       "q": "Does Magic Mountain have good food?",
       "a": "It has adequate food at theme-park prices. The smokehouse locations and the plaza eateries are the reliable tier; the snack carts (funnel cake, churros) are the consistent win. Nobody visits this park for the dining, and the plan should treat eating as logistics, not an event."
+    },
+    {
+      "q": "Does a height wristband guarantee admission at later rides?",
+      "a": "Do not assume a measurement or wristband prevents later remeasurement. Ask Guest Relations about current measurement and wristband procedures, and follow each attraction’s posted restrictions. Attraction staff make the final eligibility determination. Source: https://www.sixflags.com/magicmountain/frequently-asked-questions"
+    },
+    {
+      "q": "Can we rely on transit after a late-night event?",
+      "a": "Check the dated return timetables before visiting: route 3 or 7 from Six Flags, the connection from McBean Regional Transit Center to Newhall, and the last Antelope Valley Line train toward Los Angeles. Do not assume the full trip is available after 11 p.m.; plan an earlier departure or arrange alternative transportation if the last connections do not fit."
     }
   ],
   "gettingThere": {
     "parking": "Large main lot off Magic Mountain Parkway, with preferred rows near the gate. The walk from standard rows runs five to ten minutes; trams serve the far rows seasonally.",
     "transportation": [
       "By car: roughly 35 miles north of downtown Los Angeles via I-5, exit Magic Mountain Parkway. Without traffic it is 35–40 minutes; with Friday traffic it is two hours.",
-      "By train: Metrolink's Santa Clarita line from LA Union Station, then a short rideshare from the Valencia station.",
-      "By rideshare: well-served, with a designated drop-off lane at the main gate."
+      "By transit from Los Angeles Union Station: Metrolink Antelope Valley Line to Newhall, then Santa Clarita Transit to McBean Regional Transit Center (MRTC), then route 3 or 7 to Six Flags. The city’s official guide lists routes 5/6, 4/14 or 12 for the Newhall–MRTC connection; use current schedules to choose the departure.",
+      "By rideshare: well-served, with a designated drop-off lane at the main gate.",
+      "Before a [Fright Fest](/events/fright-fest-magic-mountain/) visit, check the final return departure on each leg, including the last train from Newhall. A complete transit trip after an 11 p.m. park exit is not guaranteed; arrange an earlier exit or alternative transportation when needed.",
+      "Current [Santa Clarita Transit bus timetables](https://santaclaritatransit.com/routes-schedules/) and [Metrolink train timetables](https://metrolinktrains.com/schedules/). Official route references: [Santa Clarita Transit](https://santaclaritatransit.com/services/getting-to-six-flags-magic-mountain/) and [Metrolink](https://metrolinktrains.com/explore/los-angeles-county/six-flags-magic-mountain/)."
     ],
     "entranceNote": "Security screening is outside the plaza; the metal-detector line, not the turnstiles, is the morning bottleneck. Arrive twenty minutes before posted opening."
   },
-  "lastVerified": "2026-07"
+  "lastVerified": "2026-10",
+  "officialMapUrl": "https://www.sixflags.com/magicmountain/directions"
 }

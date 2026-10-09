@@ -10,6 +10,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { isKnownHeight, isCurrentAttraction } from '../src/lib/eligibility.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -256,10 +257,26 @@ async function validatePark (meta) {
     checkVerified(a, 'lastVerified', at)
     checkProse(a.summary, at, 'summary')
 
-    if (!landSlugs.has(a.land)) err(at, `land "${a.land}" is not declared in park.json`)
+    if (!landSlugs.has(a.land) && !(a.land == null && !isCurrentAttraction(a))) {
+      err(at, `land "${a.land}" is not declared in park.json (only non-current records may have an unverified null land)`)
+    }
 
-    if (a.heightIn != null && (!Number.isInteger(a.heightIn) || a.heightIn < 24 || a.heightIn > 60)) {
-      err(at, `heightIn must be an integer between 24 and 60 (got ${JSON.stringify(a.heightIn)})`)
+    if (a.heightIn != null && (!Number.isInteger(a.heightIn) || (a.heightIn !== 0 && (a.heightIn < 24 || a.heightIn > 60)))) {
+      err(at, `heightIn must be 0 for a verified no-minimum rule, or an integer between 24 and 60 (got ${JSON.stringify(a.heightIn)})`)
+    }
+    for (const key of ['heightMaxIn', 'accompaniedBelowIn']) {
+      if (a[key] != null && (!isKnownHeight(a[key]) || a[key] < 24 || a[key] > 96)) {
+        err(at, `${key} must be a finite number between 24 and 96 (got ${JSON.stringify(a[key])})`)
+      }
+      if (isKnownHeight(a[key]) && isKnownHeight(a.heightIn) && a[key] < a.heightIn) {
+        err(at, `${key} cannot be below heightIn`)
+      }
+    }
+    if (a.riderRestrictions != null && (!Array.isArray(a.riderRestrictions) || a.riderRestrictions.some((rule) => typeof rule !== 'string' || !rule.trim()))) {
+      err(at, 'riderRestrictions must be an array of non-empty strings')
+    }
+    if (a.aliases != null && (!Array.isArray(a.aliases) || a.aliases.some((alias) => typeof alias !== 'string' || !alias.trim()))) {
+      err(at, 'aliases must be an array of non-empty strings')
     }
     if (a.intensity != null && (!Number.isInteger(a.intensity) || a.intensity < 1 || a.intensity > 5)) {
       err(at, `intensity must be an integer 1–5 (got ${JSON.stringify(a.intensity)})`)
@@ -373,10 +390,12 @@ async function validatePark (meta) {
 
   /* -- derived stats -- */
   if (park.stats) {
-    const withHeight = attractions.filter((a) => a.heightIn != null)
+    if (park.stats.scope != null && !['all-records', 'operating'].includes(park.stats.scope)) err(P, 'stats.scope must be all-records or operating')
+    const countedAttractions = park.stats.scope === 'operating' ? attractions.filter(isCurrentAttraction) : attractions
+    const withHeight = countedAttractions.filter((a) => isKnownHeight(a.heightIn))
     const tallest = withHeight.reduce((max, a) => Math.max(max, a.heightIn), 0)
-    if (park.stats.attractionCount != null && park.stats.attractionCount !== attractions.length) {
-      err(P, `stats.attractionCount is ${park.stats.attractionCount} but attractions.json has ${attractions.length}`)
+    if (park.stats.attractionCount != null && park.stats.attractionCount !== countedAttractions.length) {
+      err(P, `stats.attractionCount is ${park.stats.attractionCount} but its ${park.stats.scope || 'all-records'} scope has ${countedAttractions.length}`)
     }
     if (park.stats.ridesWithHeightRequirements != null && park.stats.ridesWithHeightRequirements !== withHeight.length) {
       err(P, `stats.ridesWithHeightRequirements is ${park.stats.ridesWithHeightRequirements} but ${withHeight.length} attractions have a heightIn`)

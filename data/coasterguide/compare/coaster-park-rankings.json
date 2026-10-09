@@ -73,7 +73,7 @@
       "name": "Coaster depth",
       "winner": "magic-mountain",
       "cells": {
-        "magic-mountain": "Around twenty coasters — the most of any park on this site and among the most anywhere. The bottom of the roster is filler; the top eight are a full day of elite riding.",
+        "magic-mountain": "A deep coaster lineup, with ten current coaster records in this guide. X2 and Superman: Escape from Krypton are permanently closed; check the park’s current list for its complete operating count.",
         "great-adventure": "A dozen coasters headlined by El Toro, a genuine world-top-ten ride, with a deep supporting cast behind it.",
         "knotts-berry-farm": "Six to eight coasters depending on the season, with GhostRider as the anchor and a well-shaped spread above and below it.",
         "seaworld-orlando": "Five coasters, all good, three of them B&M — the best average quality per coaster on this site.",
@@ -124,9 +124,9 @@
     {
       "rank": 1,
       "key": "magic-mountain",
-      "headline": "Twenty coasters on a mountain, with a top tier nobody on this list matches for depth.",
+      "headline": "A deep lineup on a mountain, with a top tier that remains a full coaster day.",
       "body": [
-        "Magic Mountain wins on the criterion this list cares about most: more elite coasters per day than any park here. Tatsu, X2, Twisted Colossus, Goliath, Full Throttle and West Coast Racers are six rides that would each headline a different park on this list, and the weekday-quiet version of the park lets a good plan clear all of them by dinner.",
+        "Magic Mountain leads this ranking for its coaster-trip value. Tatsu, Twisted Colossus, Goliath, Full Throttle and West Coast Racers form a deep current lineup. X2 is permanently retired and Superman: Escape from Krypton is permanently closed; neither belongs in a current riding plan. West Coast Racers requires 54 inches and includes four inversions.",
         "The counterargument is the day itself: the hill punishes improvisation, the food is a means, and the summer-Saturday version of the park is the worst crowd experience on this site. First place is a judgment that riding depth outweighs those costs, which is the honest bias of a coaster site."
       ]
     },
@@ -245,7 +245,7 @@
   "pickThisIf": {
     "magic-mountain": [
       "Coaster count is the trip's whole point.",
-      "Your party is 48 inches and up, thrill-tolerant.",
+      "Your party is thrill-tolerant and understands that several headliners, including West Coast Racers and Full Throttle, require 54 inches.",
       "You can visit on a school-year weekday."
     ],
     "great-adventure": [
@@ -317,5 +317,5 @@
     }
   ],
   "related": [],
-  "lastVerified": "2026-07"
+  "lastVerified": "2026-10"
 }

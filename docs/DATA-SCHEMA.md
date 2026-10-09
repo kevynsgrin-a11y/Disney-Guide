@@ -31,9 +31,11 @@ no script carries a park list. The Disney operator's is:
 
 ### The paid queue product
 
-`lightningLane` on an attraction is a **tier**, not a brand: `multi-pass`, `single-pass`, or `none`.
-The enum is the same on every site because the underlying question is — is this attraction covered
-by the paid queue-skipping product, and at which tier.
+`lightningLane` is a legacy storage enum: `multi-pass`, `single-pass`, or `none`.
+It records the authored queue-access category, not a universal product tier model. Verify each
+park's current product, participating attractions and exclusions separately. For example, Magic
+Mountain's Fast Lane Reserve and Ultimate must not be described as a generic base/middle/top
+system, and a ride-access product does not establish haunted-attraction admission.
 
 What that product is *called* is not shared. Each operator declares it in `site.json`:
 
@@ -57,7 +59,9 @@ exception is an explicit comparison page where the contrast between the two prod
 
 1. **Evergreen only.** No seasonal parties, festivals, overlays, refurb news, or current-day
    Lightning Lane prices. Those belong under the operator's `seasonal/` tree. Where a ride has a seasonal overlay, describe the
-   permanent version and set `hasSeasonalOverlay: true`.
+   permanent version and set `hasSeasonalOverlay: true`. Evergreen travel and queue guidance may
+   use a named link to the canonical seasonal event page; keep event dates, prices and schedules
+   on that seasonal page. The reference checker permits only explicitly declared exact cross-links.
 2. **Every price and every volatile fact carries `lastVerified` (`"YYYY-MM"`).** Current date is
    **2026-07**. Use `"2026-07"` unless you have a specific earlier verification month.
 3. **Never reproduce Disney's copy.** Write original descriptions. Do not quote marketing copy, ride
@@ -170,14 +174,18 @@ exception is an explicit comparison page where the contrast between the two prod
     {
       "slug": "space-mountain",
       "name": "Space Mountain",
-      "land": "tomorrowland",                 // must match a land slug in park.json
+      "land": "tomorrowland",                 // must match park.json; non-current records may use null for an unverified historical location
       "type": "roller-coaster",               // see enum below
       "opened": 1975,
       "status": "open",                       // open | closed | under-construction | seasonal
       "closedNote": null,                     // required non-null when status !== "open"
 
-      "heightIn": 44,                         // integer inches, or null if no requirement
+      "heightIn": 44,                         // verified minimum inches; null/absent means unverified
       "heightNote": null,                     // e.g. "32in to ride, 54in to drive alone"
+      "heightMaxIn": null,                    // optional verified maximum, enforced separately
+      "accompaniedBelowIn": null,             // optional verified accompanied-rider threshold
+      "riderRestrictions": [],                // optional verified restrictions requiring separate checks
+      "aliases": [],                          // optional historical spellings for search; URL unchanged
 
       "durationMinutes": 2.5,
       "capacityPerHour": 2000,                // omit if unknown
@@ -410,8 +418,20 @@ These facts were verified as of **July 2026**. If your knowledge conflicts, thes
 | California Adventure | Redwood Creek Challenge Trail (zip line) | 42–63in, under 13 |
 | California Adventure | Incredicoaster | 48in |
 
-Both resorts measure with a fixed stick, shoes on, hats off; borderline guests receive an all-day
-colored wristband so they are not re-measured.
+Ask the park's Guest Relations about its current measurement and wristband procedures. A wristband
+does not guarantee that attraction staff will waive later measurement. Staff at each attraction make
+the final eligibility determination. Do not recommend adding shoe thickness to gain eligibility.
+
+Unknown minimums must render as unverified and never count as cleared. Current height results,
+headliners and operating counts exclude attractions whose status is not `open`. Height alone is
+not permission to ride: verified maxima, accompaniment and other restrictions must be checked
+separately. Preserve sourced restrictions in `heightNote`; structured fields above allow tools to
+apply numerical limits without interpreting prose or inventing a cutoff. Explicitly verified zero
+may represent no minimum; it is different from a missing value.
+
+`park.stats.scope: "operating"` counts only open attraction records for its attraction and height
+totals. Existing stats without this scope describe all documented records, including history;
+public operating and eligibility totals must still be derived from current records.
 
 ### 2026 attraction status — must be reflected
 

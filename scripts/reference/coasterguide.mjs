@@ -27,7 +27,9 @@
  * listed here AND retired in the dataset, that disagreement is a CONFLICT, not a footnote.
  */
 export const HEIGHTS = {
-  /* Valencia, California — the coaster capital claims 20 coasters; these are the stable ones. */
+  /* Valencia, California. Targeted corrections reviewed October 9, 2026 from supplied official
+     sources: /magicmountain/attractions/gold-rusher and /west-coast-racers. X2 and Superman
+     retain historical heights only; MUST_BE_CLOSED excludes them from current operation. */
   'magic-mountain': {
     x2: 48,
     tatsu: 54,
@@ -35,7 +37,8 @@ export const HEIGHTS = {
     'twisted colossus': 48,
     'full throttle': 54,
     'superman: escape from krypton': 48,
-    'west coast racers': 48,
+    'west coast racers': 54,
+    'gold rusher': 48,
     viper: 54,
     'batman: the ride': 54,
     "riddler's revenge": 54,
@@ -126,7 +129,7 @@ export const DUAL_HEIGHTS = {}
  *
  * Empty on purpose, and that is a stronger statement than it looks: this operator covers four
  * park companies, each with its own line-skip product (Fast Lane at the Six Flags parks and
- * Knott's — one product family since the merger retired THE FLASH Pass entering 2026 — Quick
+ * Knott's — with park-specific product formats and participating rides — Quick
  * Queue at SeaWorld, and no established equivalent at the US Legolands), and I would not stake a
  * build on which specific attractions each of those covers in 2026. The dataset carries authoring
  * judgement, flagged as such in the launch doc; per-attraction coverage is a human verification
@@ -149,20 +152,29 @@ export const VIRTUAL_QUEUE_ALLOWED = []
  * The guide must name each real product, must frame prices as of a date, and must never speak a
  * competitor's vocabulary.
  *
- * Updated September 2026: the merger moved the legacy Six Flags parks onto Fast Lane, so the
- * current-product name is Fast Lane at both the Six Flags parks and Knott's. THE FLASH Pass is
- * still a required mention — as the renamed product, exactly once, in historical framing —
- * because a reader who researched last year will arrive calling it that.
+ * Updated October 9, 2026 from the official Magic Mountain Fast Lane FAQ and program update:
+ * the current all-day products are Fast Lane Reserve and Fast Lane Ultimate, with one
+ * reservation at a time. Do not enforce a generic three-tier model or a chain-wide rename
+ * story; THE FLASH Pass is mentioned only as previous-program context. Park admission and
+ * Fright Fest Haunted Attractions are excluded. Product names are not universal queue tiers.
  */
 export const QUEUE_CLAIMS = {
   require: [
     {
-      re: /as of (september )?2026|september 2026/,
-      message: 'no "as of September 2026" framing — line-skip products are dynamically priced by date and must never read as fixed numbers',
+      re: /as of (?:september |october 9, )?2026|september 2026|october 9, 2026/i,
+      message: 'no dated 2026 framing — product terms and dynamic prices must be tied to their observation date',
     },
     {
-      re: /renamed FLASH Pass|retired THE FLASH Pass/i,
-      message: 'does not explain that Fast Lane replaced the retired FLASH Pass at the Six Flags parks entering 2026 — the rename is the fact every stale guide gets wrong',
+      re: /Fast Lane Reserve/i,
+      message: 'does not name Magic Mountain’s current Fast Lane Reserve product',
+    },
+    {
+      re: /Fast Lane Ultimate/i,
+      message: 'does not name Magic Mountain’s current Fast Lane Ultimate product',
+    },
+    {
+      re: /one reservation at a time/i,
+      message: 'does not explain the verified single active reservation rule',
     },
     {
       re: /fast lane/i,
@@ -185,8 +197,8 @@ export const QUEUE_CLAIMS = {
       message: 'speaks Disney vocabulary — Lightning Lane and Genie+ are the sister site\'s products, not these parks\'',
     },
     {
-      re: /express pass/i,
-      message: 'speaks Universal vocabulary — Express Pass is the other sister site\'s product',
+      re: /universal express|express pass at universal/i,
+      message: 'speaks Universal product vocabulary; Magic Mountain’s official Haunted Attractions Express Pass is separate and valid terminology',
     },
     {
       re: /fastpass/i,
@@ -203,12 +215,15 @@ export const QUEUE_CLAIMS = {
  * closure on this site. If the dataset lists either as operating, that is a hard failure.
  */
 export const MUST_BE_CLOSED = {
+  // X2: official Six Flags retirement announcement. Superman: March 28, 2025 reporting describes
+  // Jeff Harris confirming permanent closure to The Orange County Register; the legacy official ride page is not the source.
+  'magic-mountain': ['x2', 'superman: escape from krypton'],
   'great-adventure': ['kingda ka', 'zumanjaro'],
 }
 
 /** Attractions that must be present AND operating. Headliners only — omission is the failure mode. */
 export const MUST_BE_OPEN = {
-  'magic-mountain': ['x2', 'twisted colossus', 'goliath', 'tatsu'],
+  'magic-mountain': ['twisted colossus', 'goliath', 'tatsu', 'gold rusher', 'west coast racers'],
   'six-flags-over-texas': ['new texas giant', 'titan'],
   'great-adventure': ['el toro', 'nitro'],
   'great-america': ['raging bull', 'goliath'],
@@ -234,6 +249,9 @@ export const SNACK_PRICES = []
  * haunt and gets an enormous amount of search. Its dates, mazes and prices change every year, so
  * one canonical owner, under data/coasterguide/seasonal/.
  */
+// Evergreen travel and queue advice may link to the canonical event page; event details stay there.
+export const SEASONAL_REFERENCES = { 'fright fest': '/events/fright-fest-magic-mountain/' }
+
 export const SEASONAL = [
   "knott's scary farm", 'knotts scary farm', 'scary farm',
   'fright fest',

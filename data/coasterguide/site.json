@@ -66,7 +66,7 @@
     "name": "line-skip passes",
     "guideSlug": "line-skip-passes",
     "labels": {
-      "multi-pass": "Covered by a line-skip pass",
+      "multi-pass": "Listed for line-skip access; check current participation and availability",
       "single-pass": "Pay-per-ride skip",
       "none": "Standby only"
     },
@@ -139,11 +139,11 @@
         "lat": 33.9533,
         "lng": -118.0386
       },
-      "tagline": "Four parks, four companies, one traffic pattern: Magic Mountain's coaster count, Knott's haunt pedigree, Legoland's first coasters, and SeaWorld's dive machine.",
-      "summary": "Southern California holds four of the ten parks on this site and they could not be more different: a coaster capital, a haunted ghost town, a brick-built family park and a marine park with a floorless dive coaster. No single ticket links any of them.",
+      "tagline": "Four parks, one traffic pattern: Magic Mountain's coasters, Knott's haunt pedigree, Legoland's first coasters, and SeaWorld's dive machine.",
+      "summary": "Southern California holds four of the ten parks on this site: a coaster capital, a haunted ghost town, a brick-built family park and a marine park. Check each park's admission and any multi-park pass benefits before travel.",
       "intro": [
-        "Four of the ten parks this site covers sit within about a hundred miles of Los Angeles, and they are operated by four different companies. Six Flags Magic Mountain in Valencia is the region's coaster capital and the reason most enthusiasts fly in. Knott's Berry Farm in Buena Park is the oldest of the four and the home of America's original big haunt. Legoland California in Carlsbad is a first-coasters park for under-tens. SeaWorld San Diego rounds it out with a small, modern thrill lineup built around a waterfront.",
-        "The practical thing to understand is that nothing is shared. No multi-park ticket covers two of these parks, no line-skip product works across companies, and the pass ecosystems are separate. A Southern California coaster trip is two to four separate transactions, and the order you visit in should follow crowd logic — Magic Mountain on a weekday, Knott's on a weekday unless it is Scary Farm season, Legoland any morning, SeaWorld whenever the marine schedule suits you.",
+        "Four of the ten parks this site covers sit within about a hundred miles of Los Angeles, with their own admission and operating terms. Six Flags Magic Mountain in Valencia is the region's coaster capital and the reason most enthusiasts fly in. Knott's Berry Farm in Buena Park is the oldest of the four and the home of America's original big haunt. Legoland California in Carlsbad is a first-coasters park for under-tens. SeaWorld San Diego rounds it out with a small, modern thrill lineup built around a waterfront.",
+        "These parks have separate gate and event admission requirements. A single-day line-skip product is tied to its selected park and date; season-pass or membership add-ons have separate participating-park terms linked to the associated admission pass. Check those entitlements before planning a multi-park trip, then choose the order around each park’s schedule and your priorities.",
         "Traffic is the fourth park. Valencia, Buena Park, Carlsbad and Mission Bay are one to two hours apart on the freeways depending on when you drive, and the difference between a 7am start and a 9am start is often a full hour of I-5 or I-405. Plan the drives, not just the parks."
       ],
       "parks": [
@@ -152,7 +152,7 @@
         "legoland-california",
         "seaworld-san-diego"
       ],
-      "lightningLaneNote": "Each park sells its own product, and none of them work at the others: Fast Lane at Magic Mountain and Knott's (one product family since the merger retired the FLASH Pass), Quick Queue at SeaWorld, and no equivalent at Legoland. The line-skip guide prices all of them as of September 2026.",
+      "lightningLaneNote": "Magic Mountain sells Fast Lane Reserve and Fast Lane Ultimate with digital reservations. Knott’s has its own Fast Lane format; SeaWorld San Diego sells Quick Queue. Check each park’s current product, participating rides, date, admission and event exclusions in the line-skip guide.",
       "practical": [
         {
           "title": "Getting there",
@@ -236,7 +236,7 @@
         "six-flags-over-texas",
         "seaworld-san-antonio"
       ],
-      "lightningLaneNote": "Fast Lane at Six Flags Over Texas and Quick Queue at SeaWorld San Antonio are separate products at separate prices — see the line-skip guide for both, as of September 2026.",
+      "lightningLaneNote": "Over Texas is listed in Six Flags’ 2026 Fast Lane Reserve and Ultimate program update. SeaWorld San Antonio sells its separate Quick Queue product. Check each park’s current products, participating rides and exact-date quote; the line-skip guide explains the different rules.",
       "practical": [
         {
           "title": "Getting there",
@@ -277,7 +277,7 @@
       "parks": [
         "great-adventure"
       ],
-      "lightningLaneNote": "Fast Lane (the FLASH Pass successor since the merger) covers the coaster lineup here at tiered prices — see the line-skip guide for what it costs as of September 2026 and which rides it skips best.",
+      "lightningLaneNote": "Great Adventure is listed in Six Flags’ 2026 Fast Lane Reserve and Ultimate program update. Confirm its current products, participating rides, reservation terms and exact-date pricing on the park’s page; do not apply old FLASH Pass tiers.",
       "practical": [
         {
           "title": "Getting there",
@@ -318,7 +318,7 @@
       "parks": [
         "great-america"
       ],
-      "lightningLaneNote": "Fast Lane (the FLASH Pass successor since the merger) covers the headliners here — see the line-skip guide for pricing as of September 2026 and where it actually saves time.",
+      "lightningLaneNote": "Great America is listed in Six Flags’ 2026 Fast Lane Reserve and Ultimate program update. Confirm its current products, participating rides, reservation terms and exact-date pricing on the park’s page; do not assume identical coverage at other parks.",
       "practical": [
         {
           "title": "Getting there",
@@ -623,15 +623,15 @@
     }
   },
   "careerLadder": {
-    "note": "The ladder shows only heights this site has verified and published — 43 of the 63 documented coasters carry an asserted minimum; the rest stay off the rungs rather than guessed. Credits are your own riding history, kept on this device, and a permanently closed coaster can still be ticked for the record.",
-    "intro": "Regional parks are where families ladder up over years: the first coaster at 42 inches, the giants at 48, the extremes at 54. Pick a rider — the same saved riders as the height passport — and the ladder shows what is unlocked now, what unlocks at every rung across all ten parks, and, with a birthday saved, the projected months each rung arrives. Tick off coasters as you ride them; the credit count and the printable career card are yours alone."
+    "note": "The ladder uses only current documented coasters with verified numerical minimums; unknown heights stay off the rungs rather than being guessed. Maximum height, accompaniment and other rider restrictions are checked separately. Credits are your own riding history, kept on this device, and a permanently closed coaster can still be ticked for the historical record.",
+    "intro": "Regional parks are where families build coaster experience over years. Pick a saved rider to see current attractions at each listed minimum height and track coaster credits. A minimum-height match is planning guidance; all other restrictions and attraction staff’s decision still apply."
   },
   "companies": [
     {
       "slug": "six-flags",
       "name": "Six Flags",
       "shortName": "Six Flags",
-      "tagline": "Four Six Flags-branded parks, four metros, thirty-four roller coasters — the chain that built its name on coaster count.",
+      "tagline": "Four Six Flags-branded parks across four metros — a coaster-focused lineup with current rides and separately marked historical records.",
       "location": "Valencia CA, Gurnee IL, Arlington TX, Jackson NJ",
       "parks": [
         "magic-mountain",
@@ -646,15 +646,15 @@
         "fright-fest-great-adventure"
       ],
       "intro": [
-        "Six Flags is the brand most Americans picture when they picture a regional theme park, and this site covers its four flagship-branded parks: Six Flags Magic Mountain outside Los Angeles, Six Flags Great America outside Chicago, Six Flags Over Texas in Arlington, and Six Flags Great Adventure between New York and Philadelphia. They are the four biggest coaster lineups we track — thirty-four roller coasters between them, more than half of the sixty on this site.",
-        "What the four parks share is the formula: coaster-heavy lineups priced per park, a Halloween Fright Fest overlay on scheduled nights, and optional line-skip products. The current seasonal guide explains each park's admission and haunted-maze rules. What they do not share is a gate. These are four independent parks in four metro areas, each ticketed separately — there is no single Six Flags ticket that covers two of them, and nobody should plan a trip as if there were.",
+        "Six Flags is the brand most Americans picture when they picture a regional theme park, and this site covers its four flagship-branded parks: Six Flags Magic Mountain outside Los Angeles, Six Flags Great America outside Chicago, Six Flags Over Texas in Arlington, and Six Flags Great Adventure between New York and Philadelphia. The generated totals below count current coaster records covered by this guide; historical records are kept separately, and coverage is not a complete official operating inventory.",
+        "What the four parks share is the formula: coaster-heavy lineups priced per park, a Halloween Fright Fest overlay on scheduled nights, and optional line-skip products. The current seasonal guide explains each park’s admission and haunted-maze rules. Single-day products and event access remain park- and date-specific; season-pass or membership entitlements can have broader participating-park benefits tied to the associated admission pass. Check those terms before planning more than one park.",
         "One corporate note, because search results blur it: since the July 2024 merger of Six Flags and Cedar Fair, the combined Six Flags Entertainment Corporation also operates parks that do not carry the Six Flags brand — including Knott's Berry Farm, which this site covers separately. This page is about the four parks that actually fly the Six Flags flag. Within those four, the differences are bigger than the similarities: Magic Mountain is the coaster capital by volume, Over Texas is the 1961 original the chain is named for, Great Adventure is the Northeast's biggest lineup, and Great America is the Chicago answer to all of the above.",
         "Pick by geography first — the closest of the four is almost always the right one for a first visit — and by coaster ambition second: nobody flies across the country for Great America who would not rather be at Magic Mountain, and nobody in Arlington regrets skipping a flight."
       ],
       "practical": [
         {
           "title": "Four metros, four gates",
-          "body": "Valencia (Los Angeles), Gurnee (Chicago), Arlington (Dallas–Fort Worth) and Jackson (New York/Philadelphia corridor). Each park sells its own tickets and passes; nothing crosses over."
+          "body": "Valencia (Los Angeles), Gurnee (Chicago), Arlington (Dallas–Fort Worth) and Jackson (New York/Philadelphia corridor). Check each park’s admission and event requirements; single-day products are park- and date-specific, while season-pass benefits have separate participating-park terms."
         },
         {
           "title": "The original",
@@ -662,7 +662,7 @@
         },
         {
           "title": "The coaster capital",
-          "body": "Magic Mountain in Valencia runs twelve roller coasters — the most at any park this site covers, and four more than any other Six Flags listed here."
+          "body": "This guide tracks ten current Magic Mountain coaster records and preserves historical pages for retired X2 and Superman: Escape from Krypton, whose permanent closure was reported as park-confirmed. That is site coverage, not the park’s complete operating coaster count."
         },
         {
           "title": "Fright Fest admission and maze passes",

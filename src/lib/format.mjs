@@ -1,17 +1,20 @@
 /** Presentation-layer formatters. Pure functions, no I/O. */
+import { isKnownHeight } from './eligibility.mjs'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December']
 
 /** 44 -> "44in (112cm)" */
 export function height (inches) {
-  if (inches == null) return 'Height unverified'
+  if (!isKnownHeight(inches)) return 'Height unverified'
+  if (inches === 0) return 'No minimum height'
   return `${inches}in (${Math.round(inches * 2.54)}cm)`
 }
 
 /** 44 -> "44 inches" — for prose and alt text. */
 export function heightWords (inches) {
-  if (inches == null) return 'height unverified'
+  if (!isKnownHeight(inches)) return 'height unverified'
+  if (inches === 0) return 'no minimum height'
   return `${inches} inches`
 }
 

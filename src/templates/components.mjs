@@ -1,5 +1,6 @@
-import { html, raw, each, inline, paragraphs, escapeHtml, truncate } from '../lib/html.mjs'
+import { html, raw, each, inline, paragraphs, escapeHtml, truncate, attrs } from '../lib/html.mjs'
 import * as f from '../lib/format.mjs'
+import { isKnownHeight, isCurrentAttraction, eligibilityPayload } from '../lib/eligibility.mjs'
 
 /* ------------------------------------------------------------------ *
  * Structure
@@ -135,9 +136,29 @@ export function pill (label, tone = '') {
 }
 
 export function heightBadge (inches) {
-  if (inches == null) return html`<span class="hbadge hbadge--unverified">Height unverified</span>`
+  if (!isKnownHeight(inches)) return html`<span class="hbadge hbadge--unverified">Height unverified</span>`
   const tone = inches >= 44 ? 'tall' : inches >= 40 ? 'mid' : 'short'
   return html`<span class="hbadge hbadge--${tone}"><strong>${inches}"</strong><span>${Math.round(inches * 2.54)}cm</span></span>`
+}
+
+/** Keep numerical height screening and independent rider rules visible to people and tools. */
+export function heightRequirementCell (attraction, { centimetres = false } = {}) {
+  const rules = eligibilityPayload(attraction)
+  const details = [
+    rules.max != null ? `${rules.max}" maximum` : null,
+    rules.accompaniedBelow != null ? `Accompaniment required below ${rules.accompaniedBelow}"` : null,
+    ...rules.restrictions,
+  ].filter(Boolean)
+  const label = rules.h == null
+    ? 'Unverified'
+    : `${rules.h}"${centimetres ? ` · ${Math.round(rules.h * 2.54)}cm` : ''}`
+  return html`<span${attrs({
+    'data-value': rules.h ?? 'unverified',
+    'data-status': rules.s,
+    'data-height-max': rules.max,
+    'data-accompanied-below': rules.accompaniedBelow,
+    'data-rider-restrictions': rules.restrictions.length ? JSON.stringify(rules.restrictions) : null,
+  })}>${label}${details.length ? html`<span class="small muted"> · ${details.join('; ')}</span>` : ''}</span>`
 }
 
 export function lastVerified (date, label = 'Last verified') {
@@ -415,10 +436,10 @@ export function linkGrid (links, { columns = 3 } = {}) {
 
 export function attractionCard (attraction) {
   const badges = [
-    attraction.heightIn != null ? { label: `${attraction.heightIn}" min`, tone: 'height' } : { label: 'Height unverified', tone: '' },
-    attraction.lightningLane !== 'none' ? { label: attraction.queueLabelShort, tone: 'll' } : null,
-    !attraction.isOpen ? { label: 'Closed', tone: 'closed' } : null,
-    attraction.singleRider ? { label: 'Single rider', tone: '' } : null,
+    isKnownHeight(attraction.heightIn) ? { label: `${attraction.heightIn}" ${isCurrentAttraction(attraction) ? 'min' : attraction.status === 'closed' ? 'former min' : 'recorded min'}`, tone: 'height' } : { label: 'Height unverified', tone: '' },
+    isCurrentAttraction(attraction) && attraction.lightningLane !== 'none' ? { label: attraction.queueLabelShort, tone: 'll' } : null,
+    !isCurrentAttraction(attraction) ? { label: 'Closed', tone: 'closed' } : null,
+    isCurrentAttraction(attraction) && attraction.singleRider ? { label: 'Single rider', tone: '' } : null,
   ].filter(Boolean)
   return card({
     href: attraction.url,
@@ -505,13 +526,13 @@ export function attractionInline (attraction) {
       <p class="inline-attraction__meta">
         ${f.attractionType(attraction.type)}
         ${attraction.durationMinutes != null ? html` · ${f.duration(attraction.durationMinutes)}` : ''}
-        ${attraction.lightningLane !== 'none' ? html` · ${attraction.queueLabelShort}` : ''}
-        ${!attraction.isOpen ? html` · <strong class="is-closed">Closed</strong>` : ''}
+        ${isCurrentAttraction(attraction) && attraction.lightningLane !== 'none' ? html` · ${attraction.queueLabelShort}` : ''}
+        ${!isCurrentAttraction(attraction) ? html` · <strong class="is-closed">Closed</strong>` : ''}
       </p>
       <p class="inline-attraction__summary">${inline(attraction.summary)}</p>
       ${attraction.description && attraction.description.length
         ? html`<div class="inline-attraction__body">${paragraphs(attraction.description.slice(0, 1))}</div>` : ''}
-      ${attraction.tips && attraction.tips.length ? html`
+      ${isCurrentAttraction(attraction) && attraction.tips && attraction.tips.length ? html`
         <details class="inline-attraction__tips">
           <summary>Tips for ${attraction.name}</summary>
           ${bulletList(attraction.tips)}

@@ -30,7 +30,7 @@ function heightAppendix (data) {
     .map((a) => [
       a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
       html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
-      html`<span data-value="${a.heightIn}">${a.heightIn}"</span>`,
+      C.heightRequirementCell(a),
       html`<span data-value="${Math.round(a.heightIn * 2.54)}">${Math.round(a.heightIn * 2.54)}</span>`,
       f.attractionType(a.type),
     ])
@@ -48,9 +48,11 @@ function heightAppendix (data) {
   return C.section({
     id: 'every-height-requirement',
     tone: 'tint',
-    title: `Every height requirement at all ${data.parks.length} parks`,
-    kicker: 'Generated from our live dataset',
-    intro: `All ${data.allHeightAttractions.length} attractions with a minimum height, shortest first. This table is generated from the same data as every ride page on the site, so it cannot drift out of step with them.`,
+    title: data.operator === 'coasterguide' ? `Recorded height requirements across ${data.parks.length} covered parks` : `Every height requirement at all ${data.parks.length} parks`,
+    kicker: data.operator === 'coasterguide' ? 'Generated from our current catalog' : 'Generated from our live dataset',
+    intro: data.operator === 'coasterguide'
+      ? `${data.allHeightAttractions.length} current attraction records in this guide have a numerical minimum, shortest first. This is catalog coverage, not a complete official inventory or same-day availability report. The table uses the same records as our individual ride pages.`
+      : `All ${data.allHeightAttractions.length} attractions with a minimum height, shortest first. This table is generated from the same data as every ride page on the site, so it cannot drift out of step with them.`,
     children: html`
       ${C.dataTable({
         sortable: true,
@@ -58,11 +60,11 @@ function heightAppendix (data) {
         columns: ['Attraction', 'Park', { label: 'Inches', align: 'num', sort: 'number' }, { label: 'cm', align: 'num', sort: 'number' }, 'Type'],
         rows,
       })}
-      <h3 class="mt-6">What unlocks at each height</h3>
+      <h3 class="mt-6">Minimums met at each height</h3>
       ${C.dataTable({
         className: 'data-table--stack',
-        caption: 'Counting only verified numerical minimums; rides without a verified figure are not assumed rideable.',
-        columns: [{ label: 'Height', align: 'num', sort: 'number' }, { label: 'Rides now open to them', align: 'num', sort: 'number' }, 'Newly unlocked at this height'],
+        caption: 'Counting current attractions with verified numerical minimums. Unknown figures are not cleared; maximum height, accompaniment and other rider restrictions apply separately. Attraction staff make the final eligibility determination.',
+        columns: [{ label: 'Height', align: 'num', sort: 'number' }, { label: 'Numerical minimums met', align: 'num', sort: 'number' }, 'Minimum first met at this height'],
         rows: bands,
       })}
       <p class="mt-5"><a class="btn btn--primary" href="${urls.heightChecker()}">Try the interactive height checker</a></p>

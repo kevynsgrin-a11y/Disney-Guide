@@ -12,6 +12,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { isKnownHeight, isCurrentAttraction } from './eligibility.mjs'
 
 export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 export const DATA_DIR = join(ROOT, 'data')
@@ -49,6 +50,21 @@ export function scopeOf (site) {
  */
 export function parkOrder (site) {
   return (site.resorts || []).flatMap((resort) => resort.parks || [])
+}
+
+/** Catalog coverage counts; source status is independent of temporary, same-day availability. */
+export function attractionCoverage (park) {
+  const attractions = park.attractions || []
+  const current = attractions.filter(isCurrentAttraction)
+  const closed = attractions.filter((attraction) => attraction.status === 'closed')
+  return {
+    catalogCount: attractions.length,
+    currentCount: current.length,
+    nonCurrentCount: attractions.length - current.length,
+    closedCount: closed.length,
+    otherCount: attractions.length - current.length - closed.length,
+    areasCovered: (park.lands || []).length,
+  }
 }
 
 async function readJson (path) {
@@ -277,6 +293,7 @@ function index (data) {
   }
 
   for (const park of parks) {
+    park.operator = data.operator
     park.resortInfo = data.resortBySlug.get(park.resort) || null
     park.url = urls.park(park)
     // A compact label for titles and table cells. Attraction names repeat across resorts
@@ -295,7 +312,7 @@ function index (data) {
         ? urls.ride(park, attraction.slug)
         : `${urls.rides(park)}#${attraction.slug}`
       attraction.hasPage = Boolean(attraction.standalonePage)
-      attraction.isOpen = (attraction.status || 'open') === 'open'
+      attraction.isOpen = isCurrentAttraction(attraction)
       attraction.queueLabel = queueLabels[attraction.lightningLane] || 'Standby only'
       attraction.queueLabelShort = queueShort[attraction.lightningLane] || 'Standby'
     }
@@ -326,10 +343,10 @@ function index (data) {
 
     // Height rollup: every attraction with a requirement, tallest last.
     park.heightAttractions = park.attractions
-      .filter((a) => a.heightIn != null && a.isOpen)
+      .filter((a) => isKnownHeight(a.heightIn) && a.isOpen)
       .sort((a, b) => a.heightIn - b.heightIn || a.name.localeCompare(b.name))
     park.noHeightAttractions = park.attractions
-      .filter((a) => a.heightIn == null && a.isOpen)
+      .filter((a) => !isKnownHeight(a.heightIn) && a.isOpen)
       .sort((a, b) => a.name.localeCompare(b.name))
 
     park.headliners = park.attractions
@@ -338,6 +355,7 @@ function index (data) {
     park.pagedAttractions = park.attractions.filter((a) => a.hasPage)
     park.pagedDining = park.dining.filter((d) => d.hasPage)
     park.closedAttractions = park.attractions.filter((a) => (a.status || 'open') !== 'open')
+    park.coverage = attractionCoverage(park)
 
     park.topFood = park.food
       .slice()

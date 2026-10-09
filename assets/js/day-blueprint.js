@@ -50,7 +50,7 @@ var DayBlueprint = (function () {
       if (!riders.length) return ''
       return 'Saved riders on this device: ' + riders.map(function (r) {
         return r.name + ' (' + r.heightIn + ' in)'
-      }).join(', ') + '. Check the height ladder on each park page before committing the plan.';
+      }).join(', ') + '. Check current ride status, minimum and maximum heights, companion requirements and other restrictions before committing the plan. Attraction staff make the final eligibility determination.';
     } catch (e) { return '' }
   }
 
@@ -92,7 +92,7 @@ var DayBlueprint = (function () {
         (plan.notes.length ? '<details class="tool-notes"><summary>Why this order</summary><ul>' +
           plan.notes.map(function (n) { return '<li>' + esc(n) + '</li>' }).join('') + '</ul></details>' : '') +
         '<p class="field-note muted">Generated from our authored plan for ' + esc(park.name) +
-        ' — <a href="' + esc(park.url) + '">read the full park guide</a>. Verify hours and early-entry rules on the day; no live wait times are used or claimed.</p>' +
+        ' — <a href="' + esc(park.url) + '">read the full park guide</a>. Verify hours, ride availability and rider restrictions on the day; attraction staff make the final eligibility determination. No live wait times are used or claimed.</p>' +
         '<p><button class="btn btn--ghost" type="button" onclick="window.print()">Print this plan</button></p>'
     })
   }
