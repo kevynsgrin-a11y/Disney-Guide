@@ -414,7 +414,7 @@ main:focus { outline: none; }
 }
 .btn:active { transform: translateY(1px); }
 .btn--primary { background: var(--brand); color: #061310; }
-.btn--primary:hover { background: var(--brand-2); color: #fff; }
+.btn--primary:hover { background: var(--brand-2); color: #061310; }
 .btn--ghost { border-color: var(--line-strong); color: var(--ink); background: var(--surface); }
 .btn--ghost:hover { border-color: var(--brand-2); color: var(--brand-2); }
 .btn--small { padding: .4rem .8rem; font-size: .85rem; }
@@ -775,7 +775,7 @@ main:focus { outline: none; }
 .food-card:hover { border-color: var(--line-strong); box-shadow: var(--shadow-sm); }
 .food-card[data-state="tried"] { border-color: var(--good); background: linear-gradient(180deg, var(--good-soft), var(--surface) 30%); }
 .food-card[data-state="want"] { border-color: var(--accent); }
-.food-card[data-state="skip"] { opacity: .55; }
+.food-card[data-state="skip"] { opacity: 1; border-style: dashed; }
 .food-card__head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--space-3); }
 .food-card__name { font-size: var(--step-0); letter-spacing: -.01em; }
 .food-card__where { font-size: .82rem; color: var(--muted); margin-top: .1rem; }
