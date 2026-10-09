@@ -4,6 +4,7 @@ import * as C from '../templates/components.mjs'
 import * as S from '../lib/schema.mjs'
 import { urls, foodTrackerOrder } from '../lib/data.mjs'
 import * as f from '../lib/format.mjs'
+import { eligibilityPayload, isCurrentAttraction } from '../lib/eligibility.mjs'
 
 /* ------------------------------------------------------------------ *
  * Food Tracker
@@ -195,8 +196,8 @@ export function heightCheckerPage (data) {
         name: park.name,
         url: park.url,
         rides: park.attractions
-          .filter((a) => a.isOpen && ['roller-coaster', 'dark-ride', 'water-ride', 'simulator', 'spinner', 'train', 'boat-ride', 'interactive-game'].includes(a.type))
-          .map((a) => ({ n: a.name, h: a.heightIn })),
+          .filter((a) => isCurrentAttraction(a) && ['roller-coaster', 'dark-ride', 'water-ride', 'simulator', 'spinner', 'train', 'boat-ride', 'interactive-game'].includes(a.type))
+          .map((a) => ({ n: a.name, ...eligibilityPayload(a) })),
       }))
       .filter((p) => p.rides.length),
   }
@@ -208,7 +209,7 @@ export function heightCheckerPage (data) {
     ${C.hero({
       eyebrow: `Tool · all ${data.parks.length} parks`,
       title: 'What can my child ride?',
-      lede: 'Set one slider to your child’s height and see verified ride minimums, near misses, and rides whose height rules still need checking with the park. Measure with shoes on — that is how the parks do it.',
+      lede: 'Set one slider to your child’s height and see verified ride minimums, near misses, and rides whose height rules still need checking with the park. Height screens only the recorded rules; attraction staff make the final eligibility determination.',
       tone: 'compact',
     })}
 
@@ -228,9 +229,9 @@ export function heightCheckerPage (data) {
             </div>
             <div class="hchecker__save-rider" data-save-rider-hook></div>
             <div class="hchecker__summary">
-              <div class="hchecker__stat"><b data-height-can>—</b><span>verified rideable</span></div>
-              <div class="hchecker__stat"><b data-height-cant>—</b><span>still too short</span></div>
-              <div class="hchecker__stat"><b data-height-unknown>—</b><span>height unverified</span></div>
+              <div class="hchecker__stat"><b data-height-can>—</b><span>height conditions met</span></div>
+              <div class="hchecker__stat"><b data-height-cant>—</b><span>outside height limits</span></div>
+              <div class="hchecker__stat"><b data-height-unknown>—</b><span>needs rule checking</span></div>
             </div>
             <p class="center mt-4" data-print-hide>
               <button class="chip" type="button" data-height-unit aria-pressed="false">Show centimetres</button>
@@ -255,7 +256,7 @@ export function heightCheckerPage (data) {
     ${C.section({
       tone: 'tint',
       title: `Verified height requirements at all ${data.parks.length} parks`,
-      intro: 'These are the numerical minimums verified in this guide. Rides without a verified figure are not treated as rideable by the checker. Confirm current restrictions with the park.',
+      intro: 'These are the numerical minimums verified in this guide. Rides without a verified figure are not counted as cleared. Maximum height, accompaniment and other rider restrictions apply separately; attraction staff make the final eligibility determination.' + (data.operator === 'coasterguide' ? ' Counts include current catalog records only, not the park’s complete official inventory or an assurance that a ride is open today.' : ''),
       children: html`
         ${C.dataTable({
           sortable: true,
@@ -272,7 +273,7 @@ export function heightCheckerPage (data) {
             .map((a) => [
               a.hasPage ? html`<a href="${a.url}">${a.name}</a>` : a.name,
               html`<a href="${a.park.url}">${a.park.shortLabel}</a>`,
-              html`<span data-value="${a.heightIn}">${a.heightIn}"</span>`,
+              C.heightRequirementCell(a),
               html`<span data-value="${Math.round(a.heightIn * 2.54)}">${Math.round(a.heightIn * 2.54)}</span>`,
               f.attractionType(a.type),
             ]),
@@ -286,16 +287,16 @@ export function heightCheckerPage (data) {
         <div class="split split--even">
           <div class="prose">
             ${paragraphs([
-              'A cast member measures against a fixed stick at the attraction entrance: shoes on, hats off, standing straight. There is no discretion in it and no point arguing — the stick is the policy.',
-              'If your child is borderline, ask for a wristband at the first attraction that measures them. A coloured band means they have been measured for the day and will not be re-measured at every queue. It saves time and it saves your child being told no seven separate times.',
-              'Thick-soled shoes are not cheating — the measurement is taken with shoes on, so what they wear genuinely matters. Hair volume does not count and will be flattened.',
+              'Ask Guest Relations for current height-measurement and wristband procedures. A wristband does not guarantee that later measurements or checks will be skipped.',
+              'Attraction staff make the final eligibility determination. Meeting a minimum alone does not establish permission to ride: any maximum height, accompanied-rider requirement, restraint fit and other posted restrictions apply separately.',
+              'Use an honest home measurement for planning, and follow the park’s measurement instructions when you arrive.',
             ])}
           </div>
           <div>
             ${C.callout({
               type: 'tip',
               title: 'Measure honestly at home',
-              body: 'Barefoot against a wall, a book flat on the head, then add the sole thickness of the shoes they will actually wear. Round down. Optimistic home measurements are how families end up leaving a 50-minute queue in tears.',
+              body: 'Stand straight against a wall with a book flat on the head and record the measurement accurately. Round down rather than promising a borderline ride. Confirm the park’s current measurement procedure with Guest Relations.',
             })}
             ${C.callout({
               type: 'note',
@@ -329,7 +330,7 @@ export function heightCheckerPage (data) {
         titleTail: ': what can my kid ride?',
         description: `Set one slider to your child’s height and see verified ride minimums, near misses, and rides with unverified rules across all ${data.parks.length} parks.`,
         trail,
-        modified: '2026-09-26',
+        modified: '2026-10-09',
       },
       body,
       scripts: ['/assets/js/height-checker.js', '/assets/js/rider-profiles.js'],
@@ -337,7 +338,7 @@ export function heightCheckerPage (data) {
         S.webApplication(site, {
           url: urls.heightChecker(),
           name: `${site.brand.shortName} height checker`,
-          description: `Set one slider to your child's height and see every ride they can and cannot do at all ${data.parks.length} parks.`,
+          description: `Set one slider to your child's height and screen recorded height conditions and rules to check at all ${data.parks.length} parks.`,
         }),
       ],
     }),
@@ -518,8 +519,7 @@ export function careerLadderPage (data) {
       n: a.name,
       p: park.name,
       u: park.url,
-      h: a.heightIn ?? null,
-      s: a.status,
+      ...eligibilityPayload(a),
     })))
   const payload = {
     coasters,
@@ -538,7 +538,7 @@ export function careerLadderPage (data) {
       tone: 'compact',
       meta: [
         { label: 'Coasters documented', value: `${coasters.length}` },
-        { label: 'Asserted minimums', value: `${coasters.filter((c) => c.h != null).length}` },
+        { label: 'Current minimums', value: `${coasters.filter((c) => isCurrentAttraction(c) && c.h != null).length}` },
         { label: 'Account', value: 'None' },
       ],
     })}
@@ -547,7 +547,7 @@ export function careerLadderPage (data) {
         <div class="tool-sheet" data-career-ladder>
           <noscript><p>This tool runs in your browser and needs JavaScript. The height tables on each park page carry the same facts without it.</p></noscript>
         </div>
-        <p class="muted field-note">${payload.note}</p>
+        <p class="muted field-note">${payload.note} Minimums are screening rules; maximum heights, accompaniment and other restrictions apply separately. Attraction staff make the final eligibility determination.</p>
       `,
     })}
     <script type="application/json" id="career-data">${raw(JSON.stringify(payload))}</script>
@@ -560,17 +560,17 @@ export function careerLadderPage (data) {
       page: {
         url: urls.careerLadder(),
         title: 'Coaster Career Ladder',
-        titleTail: ': what unlocks at every height',
-        description: 'The height career across all ten coaster parks — what a rider clears now, what unlocks at 42, 48 and 54 inches, growth-projected rungs, and a credit counter for every coaster ridden.',
+        titleTail: ': minimums at every height',
+        description: 'Current coaster minimums across ten parks, separate rider restrictions, growth projections, and a credit counter that preserves historical rides.',
         trail,
-        modified: '2026-09-01',
+        modified: '2026-10-09',
       },
       body,
       scripts: ['/assets/js/rider-profiles.js', '/assets/js/career-ladder.js'],
       schema: [S.webApplication(site, {
         url: urls.careerLadder(),
         name: `${site.brand.shortName} Career Ladder`,
-        description: 'What unlocks at every height across ten coaster parks, with a personal credit counter kept on the device.',
+        description: 'Verified current minimums and separate rider restrictions across ten coaster parks, with a personal credit counter kept on the device.',
       })],
     }),
   }
@@ -735,8 +735,8 @@ export function riderDataPayload (data) {
     myRidersUrl: urls.myRiders(),
     attractions: data.parks.flatMap((park) =>
       park.heightAttractions
-        .filter((a) => a.isOpen)
-        .map((a) => ({ n: a.name, h: a.heightIn, p: park.shortLabel || park.name, u: urls.heights(park) }))
+        .filter(isCurrentAttraction)
+        .map((a) => ({ n: a.name, ...eligibilityPayload(a), p: park.shortLabel || park.name, u: urls.heights(park) }))
     ),
   }
 }
@@ -755,7 +755,7 @@ export function myRidersPage (data) {
     ${C.hero({
       eyebrow: 'Tool · the height passport',
       title: 'My Riders',
-      lede: `Save each child once — name, birthday, height, measured with shoes on. From then on this site knows your family: every height table labels itself for your riders, and growth bands project when each ride unlocks.`,
+      lede: `Save each child once — name, birthday, height, measured with shoes on. From then on this site knows your family: every height table labels the recorded conditions for your riders, and growth bands estimate when they may reach each minimum.`,
       tone: 'compact',
       meta: [
         { label: 'Riders', value: 'On this device' },
@@ -788,7 +788,7 @@ export function myRidersPage (data) {
             </div>
             <p class="field-note muted" data-form-note></p>
             <button class="btn btn--primary" type="submit">Save rider</button>
-            <p class="field-note muted">Stays on this device — no account, no sync, no email. Growth projections are banded estimates from typical growth by age, not promises; the height stick at the park always decides.</p>
+            <p class="field-note muted">Stays on this device — no account, no sync, no email. Growth projections are banded estimates from typical growth by age, not promises. Maximum height, accompanied-rider and other restrictions apply separately; attraction staff make the final eligibility determination. Ask Guest Relations about current measurement and wristband procedures.</p>
           </form>
           <div class="rider-list" data-my-riders></div>
         </div>
@@ -809,7 +809,7 @@ export function myRidersPage (data) {
         titleTail: ': the height passport',
         description: `Save your children's heights once and every height requirement across all ${data.parks.length} parks labels itself for your family — with growth projections for every ride they have not yet reached.`,
         trail,
-        modified: '2026-07-01',
+        modified: '2026-10-09',
       },
       body,
       scripts: ['/assets/js/rider-profiles.js'],
@@ -855,14 +855,14 @@ export function toolsIndex (data) {
           tone: 'feature',
           eyebrow: 'Saves on this device',
           title: 'Career Ladder',
-          summary: `The height career across all ${data.parks.length} parks: what a rider clears now, what unlocks at every rung, growth-projected dates, and a credit counter for every coaster ridden. Prints as a career card.`,
+          summary: `Verified current coaster minimums across all ${data.parks.length} parks, separate rider restrictions, growth projections, and historical ride credits. Prints as a career card.`,
         })] : []),
         C.card({
           href: urls.heightChecker(),
           tone: 'feature',
           eyebrow: 'Interactive',
           title: 'Height Checker',
-          summary: `One slider against ${data.allHeightAttractions.length} height requirements across all ${data.parks.length} parks. Shows what they clear, what they miss, and what they miss by an inch.`,
+          summary: `One slider against ${data.allHeightAttractions.length} height requirements across all ${data.parks.length} parks. Shows recorded height conditions, unknown rules and near misses.`,
         }),
         C.card({
           href: urls.foodTracker(),
@@ -890,7 +890,9 @@ export function toolsIndex (data) {
           tone: 'feature',
           eyebrow: 'Printable',
           title: 'Park maps',
-          summary: `Schematic maps for all ${data.parks.length} parks, drawn by us from open geographic data. One page, black and white, no signal required.`,
+          summary: data.operator === 'coasterguide'
+            ? `Printable guide diagrams for ${data.parks.length} covered parks. Consult the official park maps for actual layout and navigation.`
+            : `Schematic maps for all ${data.parks.length} parks, drawn by us from open geographic data. One page, black and white, no signal required.`,
         }),
       ], { columns: 3 }),
     })}
@@ -899,7 +901,7 @@ export function toolsIndex (data) {
       tone: 'tint',
       title: 'Park maps',
       children: C.linkGrid(parks.map((p) => ({
-        href: urls.map(p), label: `${p.name} map`, summary: `${p.lands.length} lands · printable`,
+        href: urls.map(p), label: `${p.name} ${data.operator === 'coasterguide' && !p.map ? 'guide diagram' : 'map'}`, summary: `${p.lands.length} ${data.operator === 'coasterguide' ? 'areas covered' : 'lands'} · printable`,
       })), { columns: 3 }),
     })}
   `

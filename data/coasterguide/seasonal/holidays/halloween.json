@@ -11,7 +11,7 @@
     {
       "heading": "What admission covers",
       "body": [
-        "The four Six Flags Fright Fests run with regular park admission or an eligible pass on scheduled nights. A Haunted Attractions Pass is required for their mazes. Six Flags Over Texas also requires that pass for the new Doc Varnum’s Hybrid Hell Pit scare zone.",
+        "The four Six Flags Fright Fests run with regular park admission or an eligible pass on scheduled nights. A Haunted Attractions Pass is required for their mazes. Six Flags Over Texas also requires that pass for the new Doc Varnum’s Hybrid Hell Pit scare zone. At Magic Mountain, a bundle can explicitly include park admission and maze access; maze Express is a separate queue upgrade unless included, and ordinary ride Fast Lane does not establish maze coverage.",
         "Knott’s Scary Farm and SeaWorld's Orlando and San Diego Howl-O-Scream events sell separate evening tickets. SeaWorld San Antonio includes Howl-O-Scream with park admission on scheduled dates. If mazes are your main goal, include the Six Flags maze pass when comparing costs."
       ]
     },
@@ -19,14 +19,15 @@
       "heading": "Family daytime and evening scares",
       "body": [
         "Magic Mountain and Over Texas run Tricks and Treats; Great Adventure and Great America run Kids Boo Fest. These are daytime activities with treat trails and family entertainment on scheduled dates.",
-        "Six Flags does not recommend Fright Fest for children under 13. Magic Mountain lists its daytime event from noon to 5 p.m. and Fright Fest from 6:30 p.m. to closing on specified dates; other parks publish their own schedules."
+        "Six Flags does not recommend Fright Fest for children under 13; that is age guidance rather than a stated prohibition. On Magic Mountain’s checked October 15 calendar, Unleashed is at 6:30 p.m. and the Fright Fest event block is 7–11 p.m.; the opening scaremony does not promise all mazes open at 6:30. Check the official app for individual times and the separate daytime event schedule."
       ]
     },
     {
       "heading": "Use the actual 2026 calendar",
       "body": [
         "Magic Mountain Fright Fest runs September 18 through November 1 on specified nights, including several Thursdays in October. Over Texas begins September 11, Great Adventure September 18 and Great America September 19; all four end November 1 on select nights.",
-        "The date range does not mean daily operation. Check the official park calendar for the exact date, closing time, showtime, maze availability and ride closures before making a plan."
+        "The date range does not mean daily operation. Check the official park calendar for the exact date, closing time, showtime, maze availability and ride closures before making a plan.",
+        "Magic Mountain’s official calendar, checked October 9, schedules Thursday, October 15 from 10:30 a.m. to 11 p.m. PDT and lists October 14 closed. Selected Thursday Fright Fest nights include October 15. Consult the [event guide](/events/fright-fest-magic-mountain/) for the admission and evening timing distinctions; re-entry is not permitted after 9 p.m."
       ]
     }
   ],
@@ -110,10 +111,10 @@
     }
   ],
   "freshness": {
-    "verified": "2026-09",
+    "verified": "2026-10",
     "confidence": "confirmed",
-    "sourceNote": "Checked September 26, 2026 against the official 2026 event pages for Six Flags Magic Mountain, Over Texas, Great Adventure and Great America. Dates, admission rules and daytime programs appear in their linked event records with source URLs.",
-    "reviewBy": "2026-10",
+    "sourceNote": "Checked September 26, 2026 against the official 2026 event pages for Six Flags Magic Mountain, Over Texas, Great Adventure and Great America. Dates, admission rules and daytime programs appear in their linked event records with source URLs. Magic Mountain date, admission and timing cross-references were rechecked October 9, 2026 against https://www.sixflags.com/magicmountain/events/fright-fest and the date-specific calendar payload for https://www.sixflags.com/magicmountain/park-hours?date=2026-10-15. The other parks were not reverified in this update.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   }
 }

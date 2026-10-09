@@ -4,22 +4,22 @@
     {
       "slug": "x2",
       "name": "X2",
-      "land": "samurai-summit",
+      "land": null,
       "type": "roller-coaster",
       "opened": 2002,
-      "status": "open",
-      "closedNote": null,
+      "status": "closed",
+      "closedNote": "Permanently retired. Six Flags explicitly announced X2’s retirement: https://www.sixflags.com/blog/retiring-x2-magic-mountain. This historical page preserves the ride’s URL; a surviving legacy attraction listing does not override the retirement announcement. Historical location unverified; no land is assigned from inference.",
       "heightIn": 48,
-      "heightNote": "48 inch minimum. The shoulder restraints also carry a maximum-lap-fit consideration larger riders should test at the entrance seat.",
+      "heightNote": "Historical minimum: 48 inches. X2 is permanently retired and unavailable to ride.",
       "durationMinutes": 2,
-      "lightningLane": "multi-pass",
+      "lightningLane": "none",
       "singleRider": false,
       "riderSwitch": true,
       "virtualQueue": false,
       "intensity": 5,
       "scary": {
         "score": 5, "darkness": 1, "drops": 5, "speed": 5, "loudness": 5, "startles": 3,
-        "notes": "The seats rotate you forwards off each drop, face-down, with no way to anticipate the next flip. It is the most disorienting ride on the mountain and the one that separates enthusiasts who like intensity from enthusiasts who like comfort. The onboard audio in the front-facing seats adds to the assault."
+        "notes": "Historical ride description: independently rotating seats changed orientation during drops and turns; onboard audio added loudness. X2 is permanently retired."
       },
       "motionSickness": "high",
       "getsWet": "none",
@@ -32,42 +32,40 @@
       "accessibility": {
         "transfer": "must-transfer",
         "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Full transfer into a rotating gondola seat with a complex restraint. There is a test seat at the entrance; larger riders should use it, as the restraint is among the least forgiving in the park."
+        "notes": "Historical ride configuration: transfer into rotating seats with restraints. X2 is permanently retired; these details are not current access instructions."
       },
       "tier": "headliner",
       "standalonePage": true,
-      "summary": "The 4th-dimension coaster whose seats rotate you independently of the track — face-down off the first drop, on your back into the raven turn, screaming the whole way.",
+      "summary": "Historical attraction: the retired 4th-dimension coaster whose seats rotated independently of the track.",
       "description": [
-        "X2 opened in 2002 as X and became X2 in a 2007 rebuild, and nothing else at Magic Mountain — or almost anywhere — rides like it. The trains are gondolas on an extra axis: the seats flip forwards and backwards on a schedule set by the track's profile, so you drop the 215-foot first hill face-first whether you want to or not.",
-        "The rebuild added onboard audio and fire effects to the signature raven turn. The result is a coaster that guests either rank first at the park or refuse to re-ride, and both reactions are correct. It is the park's signature thrill and its least forgiving restraint system at the same time.",
-        "X2 holds a 48-inch minimum, but the honest filter is not height — it is tolerance. This is the ride to skip rather than test if anyone in your party has reservations about being rotated face-down at 76 miles per hour."
+        "X2 is permanently retired. Six Flags’ retirement announcement is the source for its current status; this page remains as a historical record and does not recommend queueing or riding it.",
+        "X2 opened as X in 2002. Its trains used rotating seats on an additional axis, allowing the rider’s orientation to change independently of the track during drops and turns.",
+        "The later X2 version added onboard audio and effects. Those features describe the former ride experience; this page makes no claim about the cause of retirement."
       ],
       "experience": [
-        "The station loads slowly because every seat is a bench-rotate mechanism, so the queue moves in surges. Front-facing or rear-facing matters less than you would think — every seat flips. The lift is a conventional chain climb with a view of the whole valley, which is the calm before everything.",
-        "The first drop rotates you forward and down 215 feet face-first, and the track does not ask permission. The subsequent sequence — a raven turn with the flame effect, a twisting front-flip section, the inline twists — lands in whatever orientation the track decides. The final brake run arrives with the specific silence of a ride that has used up all your adrenaline.",
-        "Ride it once in the middle of the day when its queue dips, form your opinion, and re-ride at close if the opinion is yes. A surprising number of guests who hated it at noon want one more at ten at night."
+        "Historical experience: the rotating seats changed orientation during the first drop and subsequent elements, making the ride distinct from a conventional fixed-seat coaster.",
+        "This attraction is no longer a current riding option. Use the park’s operating attraction list when planning a visit."
       ],
       "tips": [
-        "Use the test seat before queueing — the restraint is the tightest fit at the park.",
-        "Ride midday: X2's queue peaks at open and close and dips during the lunch hours.",
-        "Empty your pockets completely; the loose-article policy is strictly enforced at this ride and the lockers are at the entrance.",
-        "Sit in the middle rows your first time — the rotation feels slightly more predictable there than in the lead gondola."
+        "Treat this page as history. Do not add X2 to a current itinerary or wait-time plan.",
+        "For status, use Six Flags’ explicit retirement announcement rather than a surviving legacy attraction page.",
+        "The former minimum height is historical information and never establishes current eligibility."
       ],
-      "bestTime": "11:30–14:00 on weekdays, or the last hour before close.",
-      "typicalWait": "45–70 minutes at peak; 15–25 at open, close and lunch hours on weekdays.",
+      "bestTime": "Not applicable — permanently retired.",
+      "typicalWait": "Not applicable — permanently retired.",
       "faqs": [
-        { "q": "Is X2 scary?", "a": "Yes, genuinely. The rotation puts you face-down into drops with no anticipation, and it is loud. It is the most intense ride at a park full of intense rides, and guests who handle every other coaster here sometimes tap out on this one." },
-        { "q": "What is the height requirement for X2?", "a": "48 inches. The restraint fit matters as much as the height — use the test seat if the rider is near either end of the size range." },
-        { "q": "Does X2 go upside down?", "a": "Constantly, and in the more disorienting way: the seats rotate you rather than the track holding you inverted. If you blackout-prone or motion-sensitive, this is the one to skip at the park." }
+        { "q": "Is X2 still operating?", "a": "No. Six Flags explicitly announced its permanent retirement. It is excluded from current operating counts, eligibility tools and ride itineraries." },
+        { "q": "Why is the X2 page still here?", "a": "The preserved URL provides historical context and source attribution. It is not a recommendation to ride, and it does not speculate about the reason for retirement." },
+        { "q": "What was X2’s height requirement?", "a": "The historical minimum in this guide is 48 inches. It does not confer current eligibility because the ride is permanently retired." }
       ],
       "relatedSlugs": ["tatsu", "goliath", "full-throttle"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10"
     },
     {
       "slug": "tatsu",
       "name": "Tatsu",
-      "land": "samurai-summit",
+      "land": "rapids-camp-crossing",
       "type": "roller-coaster",
       "opened": 2006,
       "status": "open",
@@ -99,11 +97,11 @@
       },
       "tier": "headliner",
       "standalonePage": true,
-      "summary": "The flying coaster that launches off the summit of the mountain — you ride face-down over the whole Santa Clarita valley before the pretzel loop folds the sky in half.",
+      "summary": "The terrain-hugging flying coaster in Rapids Camp Crossing, with a pretzel loop and views over the hillside.",
       "description": [
-        "Tatsu is a B&M flying coaster and the best thing on the mountain by most enthusiasts' reckoning. The station sits at the top of Samurai Summit, and after the lift the trains rotate to prone and the terrain falls away — the layout drops off the hillside, threads under a bridge and around the summit rides, using the mountain's own elevation as part of the ride.",
+        "Tatsu is a B&M flying coaster officially located in Rapids Camp Crossing. Its flying position, hillside layout and pretzel loop use the mountain’s terrain as part of the experience.",
         "Its signature is the 124-foot pretzel loop, the largest on a flying coaster when it opened: you crest a rise lying flat, the track folds you over backwards, and you pull through the loop lying on your back looking straight up at what you just fell out of. It is the single most forceful moment at this park.",
-        "Tatsu carries a 54-inch minimum, which makes it the summit's big-kid ride. Its queue is the park's most popular after X2, which is the entire case for rope-dropping it."
+        "Tatsu carries a 54-inch minimum. Prioritize it if it suits your party, then plan Ninja as a separate Samurai Summit stop."
       ],
       "experience": [
         "Boarding is standard seats, and then the floor drops and the seats rotate you forward to face the ground before the train even leaves the station. The lift hill gives you the valley in prone position — genuinely beautiful, and the calmest thirty seconds of the ride.",
@@ -114,23 +112,23 @@
         "Rope-drop it — this is the park's best ride and the queue proves it by 10:00.",
         "Look ahead, not down, through the flight sections; the track-line perspective is the whole point of flying coasters.",
         "The restraint clamps your calves and shoulders — glasses wearers should use a strap.",
-        "Ride before Ninja if you are doing the summit loop, not after; Tatsu's line only grows while you queue for its neighbor."
+        "Use the official park map to plan the separate Tatsu stop in Rapids Camp Crossing and Ninja stop in Samurai Summit."
       ],
       "bestTime": "Rope drop, full stop. Second-best is the last hour of operation.",
       "typicalWait": "60–90 minutes midday in season; 10–20 at rope drop on weekdays.",
       "faqs": [
-        { "q": "Is Tatsu better than X2?", "a": "For most riders, yes — Tatsu is intense without being disorienting, and the terrain flight is unique. X2 is the more extreme experience; Tatsu is the better ride. Enthusiasts argue this constantly and both sides are well represented." },
+        { "q": "Can I compare Tatsu and X2 on a current visit?", "a": "Tatsu remains a current riding option, subject to daily operations and restrictions. X2 is permanently retired; its preserved page is historical, so it cannot be part of a current ride comparison itinerary." },
         { "q": "What is the height requirement for Tatsu?", "a": "54 inches, the standard minimum for the park's biggest B&M coasters. There is no 48-inch tier on this one." },
         { "q": "Does the pretzel loop make people sick?", "a": "It is the highest-force moment at the park, and motion-sensitive riders do struggle with it. The flight sections before and after are gentle by comparison. If you are prone to motion sickness, ride it before lunch, not after." }
       ],
-      "relatedSlugs": ["x2", "ninja", "superman-escape-from-krypton"],
+      "relatedSlugs": ["ninja", "full-throttle"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10"
     },
     {
       "slug": "twisted-colossus",
       "name": "Twisted Colossus",
-      "land": "cyclone-bay",
+      "land": "screampunk-district",
       "type": "roller-coaster",
       "opened": 2015,
       "status": "open",
@@ -179,7 +177,7 @@
         "The 48-inch minimum plus lap-bar restraints make this the best first big coaster at the park.",
         "Late afternoon is its quietest window — the back corner empties after the lunch rush."
       ],
-      "bestTime": "Late afternoon in Cyclone Bay; the crowd drains uphill after lunch.",
+      "bestTime": "Check the current queue in Screampunk District; afternoon waits vary by day.",
       "typicalWait": "30–60 minutes in season; 10–20 weekday afternoons.",
       "faqs": [
         { "q": "Is Twisted Colossus a wooden coaster?", "a": "It is a hybrid: the original 1978 wooden structure supports new steel Ibox track, which is what lets it invert. It looks like a woodie and rides like a modern steel coaster, which is exactly the appeal." },
@@ -193,7 +191,7 @@
     {
       "slug": "goliath",
       "name": "Goliath",
-      "land": "cyclone-bay",
+      "land": "goliath-plaza",
       "type": "roller-coaster",
       "opened": 2000,
       "status": "open",
@@ -229,17 +227,17 @@
       "description": [
         "Goliath opened in 2000 as the park's giant drop machine: 255 feet down at 61 degrees, 85 miles per hour, into a course of hills and one extended helix that has become the ride's signature — a sustained high-g spiral that quietly dims the vision of riders in the front row.",
         "It carries a 48-inch minimum despite being one of the biggest drops at the park, which is the standing surprise of Magic Mountain's height ladder. The restraint is a lap bar, the seats are roomy, and the ride is speed-and-airtime rather than inversions.",
-        "The mid-course underground tunnel is the moment non-enthusiasts remember: full darkness at full speed, then daylight and the helix. Goliath does not have Tatsu's elegance or X2's chaos — it is simply enormous, and enormously re-ridable."
+        "The mid-course underground tunnel is the moment non-enthusiasts remember: full darkness at full speed, then daylight and the helix. Goliath does not have Tatsu's flying position — it is simply enormous, and enormously re-ridable."
       ],
       "experience": [
         "The lift gives you the whole back corner of the park, then the drop. Sixty-one degrees from 255 feet is a commitment the stomach registers before the brain does. The first hill's airtime float leads straight into the tunnel — dark, loud, disorienting for exactly the right number of seconds.",
         "The second half is the helix: a long descending spiral where the g-force builds and holds. Front-row riders describe the grey-out as a gentle fade at the edges; it passes before the brake run and is the ride's badge of honor among enthusiasts.",
-        "Because the restraint is a lap bar and the layout has no inversions, Goliath is the park's most accessible giant. Riders who bail on X2 and Batman frequently discover they are fine here, which makes it the confidence-builder of the mountain."
+        "The layout has no inversions, so it may appeal to riders avoiding loops. Its large drop, speed and sustained helix remain significant demands; a height minimum does not measure intensity tolerance."
       ],
       "tips": [
         "Front row for the grey-out helix; back row for the first-drop airtime.",
         "If tunnels in darkness are a no for a young rider, this is not the intro coaster — the tunnel is fast and total.",
-        "Queue in the late afternoon; the bay-side location keeps its line shorter than the summit rides all day.",
+        "Check the current queue when you reach Goliath Plaza; do not assume an afternoon wait.",
         "Hydrate before riding if you are sensitive to sustained g — the helix is where low water intake shows up."
       ],
       "bestTime": "After 15:00, when the crowds migrate back toward the plaza.",
@@ -249,9 +247,9 @@
         { "q": "What is the height requirement?", "a": "48 inches — surprisingly low for a 255-foot drop, and one of the reasons this park is so good for the 48-to-54 crowd." },
         { "q": "Is Goliath scary for kids at 48 inches?", "a": "The drop is the scariest single moment, and the tunnel darkness surprises first-timers. Kids who handle Twisted Colossus usually handle Goliath; kids who found Colossus at the edge should wait a season." }
       ],
-      "relatedSlugs": ["twisted-colossus", "superman-escape-from-krypton", "tatsu"],
+      "relatedSlugs": ["twisted-colossus", "goldrusher", "tatsu"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10"
     },
     {
       "slug": "full-throttle",
@@ -262,7 +260,7 @@
       "status": "open",
       "closedNote": null,
       "heightIn": 54,
-      "heightNote": null,
+      "heightNote": "54-inch minimum. Official source: https://www.sixflags.com/magicmountain/attractions/full-throttle. Height is one requirement; attraction staff make the final eligibility determination. Separate physical and medical restrictions require review in the official Magic Mountain accessibility guide (version 25-1.0.0): https://media.qrtiger.com/files/2025/07/gag_sfmm-hhla.pdf. No maximum or lower accompanied-rider exception for this ride is stated in that guide.",
       "durationMinutes": 1.5,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -271,7 +269,7 @@
       "intensity": 4,
       "scary": {
         "score": 3, "darkness": 1, "drops": 3, "speed": 4, "loudness": 3, "startles": 2,
-        "notes": "The launch is abrupt and the world-record vertical loop is bigger than it photographs from the freeway. The backwards section out of the loop's base surprises first-timers. Overall it reads as intense-but-friendly: no darkness, no disorientation."
+        "notes": "The launch reaches 70 mph and the 160-foot vertical loop adds height exposure. A stop in the tunnel is followed by a backwards launch, which can surprise first-time riders."
       },
       "motionSickness": "moderate",
       "getsWet": "none",
@@ -288,42 +286,47 @@
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "The plaza's launch coaster with the world's tallest vertical loop, hanging over the front gate — the ride every arriving guest walks under.",
+      "summary": "The Six Flags Plaza launch coaster: 70 mph, a 160-foot loop and a backwards launch from its tunnel.",
       "description": [
-        "Full Throttle is the park's front-door statement: a Premier launched coaster whose 160-foot vertical loop is visible from the freeway and which the entry road literally passes beneath. The launch hits 66 miles per hour into the loop, then a second launch reverses the train through the same loop's base backwards, and a third dribble of speed sends it over the top-hat.",
-        "The triple-launch structure makes it feel like three rides bolted into ninety seconds. It is also the most visible ride in the park, which means its queue collects everyone walking in at ten in the morning — the counter-move is to ride it at open (passing it on the way up the hill is fine; it loads fast) or at close.",
+        "Full Throttle is a Premier launch coaster in Six Flags Plaza. Six Flags lists a launch speed of 70 mph, a 160-foot loop and a 54-inch minimum. After stopping inside a tunnel, the train launches backwards before returning through the tunnel and over the outside of the loop.",
+        "The launches, backwards movement and loop define the ride. Check the park’s official attraction page for current operating information and all restrictions.",
         "At 54 inches it sits in the big-kid tier. For coaster-counting visitors it is a marquee credit; for families it is the one that sits at the top of the 'maybe next year' list."
       ],
       "experience": [
-        "The first launch is the whole ride in one move: 66 miles per hour off the station floor straight into the 160-foot loop, which is over before you finish registering the speed. The entry road passes beneath this thing, and from inside the train you understand why — the world goes vertical and the sky becomes the track.",
-        "The second launch is the surprise. The train slows, then reverses through the base of the same loop backwards, which rearranges your stomach in a way the forward pass did not. A third dribble of speed sends it over the top-hat, and then it is done — three rides bolted into ninety seconds.",
-        "Ride it at open or at close. The plaza location means its queue collects everyone walking in at ten in the morning, and the fast load cycle at the edges of the day means the line barely registers."
+        "From a complete stop, the launch reaches 70 mph into the 160-foot loop. The speed and change in orientation are the defining sensations.",
+        "The train stops in the tunnel and launches backwards. It then returns through the tunnel and travels around the outside of the loop, with hangtime near the top.",
+        "Consider Full Throttle when passing through Six Flags Plaza, subject to current operations and queues. An opening-time or late-day stop does not guarantee a short wait."
       ],
       "tips": [
         "Ride at close, not at open — the evening queue dies while the summit crowd is still upstairs.",
         "The backwards launch is the surprise; brace your neck against the headrest before the second launch.",
-        "This is the loudest coaster to stand under — the plaza photo spot by the loop gets the full effect."
+        "Use designated spectator areas in Six Flags Plaza and follow posted boundaries."
       ],
       "bestTime": "Last hour of operation.",
       "typicalWait": "20–40 minutes midday; under 15 at close.",
       "faqs": [],
 "faqs": [
-        {
-          "q": "Is Full Throttle scary?",
-          "a": "Less than it looks from the freeway. The launch is abrupt and the 160-foot loop is bigger than it photographs, but the ride reads as intense-but-friendly: no darkness and no disorientation. The backwards pass through the loop’s base is the one moment that surprises first-timers."
-        },
-        {
-          "q": "What is the height requirement for Full Throttle?",
-          "a": "54 inches. It sits in the park’s big-kid tier with Tatsu, Viper, Batman and Riddler’s Revenge — riders who clear 48 inches but not 54 have Goliath, Twisted Colossus, Superman and West Coast Racers instead."
-        },
-        {
-          "q": "Does Full Throttle go backwards?",
-          "a": "Yes — the second of its three launches reverses the train through the base of the vertical loop, which is the ride’s signature surprise. The rest of the circuit runs forwards."
-        }
-      ],
-            "relatedSlugs": ["x2", "viper"],
+  {
+    "q": "Is Full Throttle scary?",
+    "a": "The official ride description lists a 70-mph launch, a 160-foot loop and a backwards launch out of the tunnel. Those elements can challenge riders uneasy with speed, inversion or backwards movement."
+  },
+  {
+    "q": "What is the height requirement for Full Throttle?",
+    "a": "54 inches. West Coast Racers also requires 54 inches. Riders between 48 and 53 inches can meet the listed minimums for Gold Rusher, Goliath and Twisted Colossus, subject to their other restrictions and attraction staff’s final decision. X2 and Superman: Escape from Krypton are permanently closed."
+  },
+  {
+    "q": "Does Full Throttle go backwards?",
+    "a": "Yes. Six Flags’ official description says the train stops in a tunnel, launches backwards, then returns through the tunnel and around the outside of the loop."
+  },
+  {
+    "q": "How fast is Full Throttle?",
+    "a": "Six Flags lists 70 mph on its official attraction page. Its minimum remains 54 inches and its official location is Six Flags Plaza."
+  }
+],
+            "relatedSlugs": ["west-coast-racers", "viper"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding."]
     },
     {
       "slug": "superman-escape-from-krypton",
@@ -331,19 +334,19 @@
       "land": "samurai-summit",
       "type": "roller-coaster",
       "opened": 1997,
-      "status": "open",
-      "closedNote": null,
+      "status": "closed",
+      "closedNote": "Permanently closed, based on Hometown Station’s March 28, 2025 report that park president Jeff Harris confirmed the permanent closure to The Orange County Register: https://www.hometownstation.com/santa-clarita-news/community-news/six-flags-announces-permanent-closure-of-superman-ride-542671. Evidence type: reported park confirmation, not a direct quotation. The still-online official attraction page (https://www.sixflags.com/magicmountain/attractions/superman-escape-krypton) is a legacy listing, not a closure announcement.",
       "heightIn": 48,
-      "heightNote": null,
+      "heightNote": "Historical minimum: 48 inches. Superman: Escape from Krypton is permanently closed and unavailable to ride.",
       "durationMinutes": 1,
-      "lightningLane": "multi-pass",
+      "lightningLane": "none",
       "singleRider": false,
       "riderSwitch": true,
       "virtualQueue": false,
       "intensity": 4,
       "scary": {
         "score": 4, "darkness": 1, "drops": 5, "speed": 5, "loudness": 3, "startles": 3,
-        "notes": "Riding backwards up a 415-foot tower at 100 miles per hour is a pure adrenaline exposure with nothing to brace against but the seatback. The forward re-launch after the 2011 rebuild made it backwards-facing, which most riders find more frightening than the height itself suggests."
+        "notes": "Historical ride description: the backwards launch and tower climb created speed and height exposure. The attraction is permanently closed."
       },
       "motionSickness": "moderate",
       "getsWet": "none",
@@ -356,57 +359,56 @@
       "accessibility": {
         "transfer": "must-transfer",
         "audioDescription": false, "handheldCaptioning": false, "assistiveListening": false, "signLanguage": false, "serviceAnimals": false,
-        "notes": "Transfer into shuttle-style cars. The ride cycle is short and the unload is at station level."
+        "notes": "Historical ride configuration: transfer into shuttle cars. The attraction is permanently closed; this is not current access guidance."
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "The 415-foot L-shaped shuttle tower that launches you backwards at 100 mph — the summit's speed record and the tallest structure at the park.",
+      "summary": "Historical attraction: the permanently closed shuttle coaster with a backwards launch toward a 415-foot tower.",
       "description": [
-        "Superman opened in 1997 as one of the first linear-motor launch coasters in the world and held a speed record for a decade. The 2011 rebuild flipped the cars to face backwards: you accelerate away from the tower at 100 miles per hour, up the 415-foot spike, and hang weightless at the top with the entire valley behind your head.",
-        "The cycle is ninety seconds including load, which makes it one of the highest-throughput thrills per minute at the park. Weightlessness at the top is the point — the tower section slows to a crawl at the apex and the whole train floats for a beat before the drop back down.",
-        "Its 48-inch minimum is generous for the extremity of the experience, and the summit location makes it a natural pairing with Tatsu and Ninja on the morning loop."
+        "Superman: Escape from Krypton is permanently closed. Hometown Station’s March 28, 2025 report says park president Jeff Harris confirmed the permanent closure to The Orange County Register. This is reported park confirmation; the article does not directly quote Harris, and the still-online official attraction page does not announce closure.",
+        "The attraction opened in 1997 as an early linear-motor launch coaster. Its 2011 rebuild changed the cars to a backwards-facing launch toward the tower.",
+        "This preserved page describes the former ride for historical context. It is excluded from current rideable itineraries and height-eligibility results."
       ],
       "experience": [
-        "You board facing away from the tower, and that is the design. The launch takes you to 100 miles per hour with nothing visible ahead but the station behind you — nothing to brace against except the seatback, and no anticipation cue before the spike arrives.",
-        "The top is the point. The train slows to a crawl at 415 feet and hangs there, weightless, with the entire valley behind your head. For one held beat nobody in the train talks; then gravity takes it back down the length of the tower.",
-        "The whole cycle is about ninety seconds including load, the best thrill-per-minute trade on the mountain. Pair it with Tatsu and Ninja in one summit loop and the morning is spent well."
+        "Historical experience: the shuttle cars launched toward the tower facing backwards, climbed the spike and returned to the station.",
+        "These mechanics describe the former attraction. There is no current queue or riding opportunity to plan around."
       ],
       "tips": [
-        "Do it on the summit pass in the morning — nobody wants to climb back up for it at five.",
-        "The backwards launch disorients; commit to looking at the sky at the top rather than trying to orient.",
-        "Ride after Tatsu, before Ninja: the order minimizes backtracking at the summit."
+        "Do not include Superman: Escape from Krypton in a current summit itinerary.",
+        "For closure attribution, use the March 28, 2025 report of park confirmation; the legacy official attraction page does not announce closure.",
+        "The former minimum height is historical information and never establishes current eligibility."
       ],
-      "bestTime": "The morning summit window.",
-      "typicalWait": "15–30 minutes; the short cycle keeps it moving.",
+      "bestTime": "Not applicable — permanently closed.",
+      "typicalWait": "Not applicable — permanently closed.",
       "faqs": [],
 "faqs": [
         {
-          "q": "Is Superman: Escape from Krypton scary?",
-          "a": "Yes, in a pure-exposure way: you accelerate to 100 miles per hour facing backwards, with nothing visible ahead and nothing to brace against but the seatback. There are no inversions — the fear is speed and height, not disorientation."
+          "q": "Is Superman: Escape from Krypton operating?",
+          "a": "No. Hometown Station’s March 28, 2025 report says park president Jeff Harris confirmed the permanent closure to The Orange County Register. This guide records that as reported park confirmation, not a direct quotation."
         },
         {
-          "q": "What is the height requirement for Superman: Escape from Krypton?",
-          "a": "48 inches, which is generous for how extreme the ride feels. The short cycle and the summit location make it a natural pairing with Tatsu and Ninja on a morning loop."
+          "q": "Does the official Superman page announce closure?",
+          "a": "No. The still-online official attraction page is a legacy listing. The closure evidence is Hometown Station’s report that Jeff Harris confirmed permanent closure to The Orange County Register."
         },
         {
-          "q": "Does Superman: Escape from Krypton go upside down?",
-          "a": "No. The track is a 415-foot vertical spike: launch up, hang weightless at the top, drop back down. The cars face backwards after the 2011 rebuild, which is a different kind of disorienting than inversions."
+          "q": "What was Superman: Escape from Krypton’s minimum height?",
+          "a": "This guide retains 48 inches as historical information. The ride is permanently closed, so that figure does not make it a current riding option."
         }
       ],
             "relatedSlugs": ["tatsu", "ninja"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10"
     },
     {
       "slug": "west-coast-racers",
       "name": "West Coast Racers",
-      "land": "cyclone-bay",
+      "land": "the-underground",
       "type": "roller-coaster",
       "opened": 2019,
       "status": "open",
       "closedNote": null,
-      "heightIn": 48,
-      "heightNote": null,
+      "heightIn": 54,
+      "heightNote": "54-inch minimum. Official source: https://www.sixflags.com/magicmountain/attractions/west-coast-racers. Check all other posted restrictions; attraction staff make the final eligibility determination. Separate physical and medical restrictions require review in the official Magic Mountain accessibility guide (version 25-1.0.0): https://media.qrtiger.com/files/2025/07/gag_sfmm-hhla.pdf. No maximum or lower accompanied-rider exception for this ride is stated in that guide.",
       "durationMinutes": 2.5,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -414,14 +416,14 @@
       "virtualQueue": false,
       "intensity": 3,
       "scary": {
-        "score": 2, "darkness": 1, "drops": 2, "speed": 3, "loudness": 2, "startles": 1,
-        "notes": "Two launches, tight twists, no inversions — this is the modern family-thrill tier. The racing element is excitement rather than fear. Motion-sensitive riders handle it better than the loopers."
+        "score": 3, "darkness": 1, "drops": 2, "speed": 3, "loudness": 2, "startles": 1,
+        "notes": "Four launches and four inversions: three zero-G rolls and one zero-G stall. The racing and repeated changes in orientation can challenge riders sensitive to launches or inversions; this is not an inversion-free beginner option."
       },
-      "motionSickness": "low",
+      "motionSickness": "moderate",
       "getsWet": "none",
       "indoorOutdoor": "outdoor",
       "airConditioned": false,
-      "goesUpsideDown": false,
+      "goesUpsideDown": true,
       "goesBackwards": false,
       "hasSeasonalOverlay": false,
       "photoPass": false,
@@ -432,33 +434,33 @@
       },
       "tier": "major",
       "standalonePage": true,
-      "summary": "Two side-by-side launched tracks racing four-abreast through the bay — the modern family-thrill coaster and the park's best head-to-head show.",
+      "summary": "Side-by-side racing launches in The Underground, with four inversions: three zero-G rolls and one zero-G stall.",
       "description": [
-        "West Coast Racers is a Premier racing launch coaster: two separate tracks, four launches between them, and trains that genuinely race through crossings and helixes. It opened in 2019 as the park's first new big coaster in years and immediately became the family favorite of the thrill tier — 48 inches, no inversions, relentless but never brutal.",
+        "West Coast Racers is a Premier racing launch coaster in The Underground. Six Flags lists a 54-inch minimum and four inversions: three zero-G rolls and one zero-G stall. The side-by-side racing format combines launches, crossings and changes in orientation.",
         "The racing format gives it show value that single-track coasters lack: the two tracks cross and parallel each other constantly, and the outcome is different every cycle depending on dispatch timing. The pit-station theming — cars pulling in for tire changes mid-race — is the most complete theming at this park since the 1990s.",
-        "For visitors building a first-timer order, this is the calmest of the bay's three big rides and the best warm-down after Goliath's helix."
+        "Choose it for riders comfortable with launches and inversions. Its racing format does not make it an inversion-free alternative or establish that a motion-sensitive rider will tolerate it."
       ],
       "experience": [
         "Two tracks, two trains, and a race that is genuinely undecided every cycle. The four launches between the sides mean the lead swaps, and the crossings come close enough that the other train fills your peripheral vision mid-twist.",
-        "No inversions, and the layout is better for it: the interest is speed and near-misses rather than flipping. Motion-sensitive riders who cannot touch the park’s loopers handle this one, which is exactly why the family-thrill tier lives here.",
-        "The pit-station theming — cars pulling in mid-race for tire changes — is the most complete theming at this park since the 1990s and worth watching while you wait. It is also the best warm-down in the bay after Goliath’s helix."
+        "The four inversions include three zero-G rolls and one zero-G stall. These changes in orientation are part of the experience, so riders avoiding inversions should choose a different attraction.",
+        "The pit-station theming — cars pulling in mid-race for tire changes — gives the racing format a distinct identity. Allow for the full launch-and-inversion experience when deciding whether it suits your party."
       ],
       "tips": [
         "Both tracks ride differently — ask which is the red/blue side and do both if the queue allows.",
         "The racing outcome depends on dispatch timing; midday dispatches are likelier to be true side-by-side.",
-        "Pairs well with Twisted Colossus for the two-race afternoon in the bay."
+        "Plan a separate stop in The Underground; West Coast Racers is not in Cyclone Bay."
       ],
-      "bestTime": "Weekday afternoons when the bay empties.",
+      "bestTime": "Check the current queue when you reach The Underground.",
       "typicalWait": "20–40 minutes in season.",
       "faqs": [],
 "faqs": [
         {
           "q": "Is West Coast Racers scary?",
-          "a": "No — this is the modern family-thrill tier. Two launches and tight twists, but no inversions and nothing designed to frighten. Motion-sensitive riders who cannot handle the park’s loopers generally do fine here."
+          "a": "It has four launches and four inversions, including three zero-G rolls and one zero-G stall. Riders uneasy with inversions or sensitive to motion should assess those elements rather than treating it as a gentle racing ride."
         },
         {
           "q": "What is the height requirement for West Coast Racers?",
-          "a": "48 inches. It is the calmest of Cyclone Bay’s three big rides, which makes it the right graduation step between Ninja at 42 inches and the inversion coasters at 54."
+          "a": "54 inches, per Six Flags’ official attraction page. It is in The Underground. It is not an option for riders between 48 and 53 inches."
         },
         {
           "q": "Do the two West Coast Racers tracks really race?",
@@ -467,7 +469,8 @@
       ],
             "relatedSlugs": ["twisted-colossus", "goliath"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires two functioning arms, two functioning legs, and full upper and lower body control. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria.", "The official guide states: “Guests with Diabetes should not ride.”", "Remove medical assistance devices that are not permanently affixed to the body, as required by the official guide; check the full policy and ask attraction staff before boarding."]
     },
     {
       "slug": "viper",
@@ -580,17 +583,17 @@
       "description": [
         "Magic Mountain's Batman is the West Coast sibling of the 1992 Great America original, a first-generation B&M invert packing a vertical loop, zero-g roll, corkscrews and tight helixes into one of the smallest big-coaster footprints anywhere. Thirty years on, it remains the pacing benchmark other compact loopers are measured against.",
         "Because the layout is short and the trains never stop fighting, Batman is the purest forty-five seconds of intensity at the park. The suspended seats swing through the elements; the front row gets the cleanest inversion sensations, the back row gets whipped hardest.",
-        "Its 54-inch minimum is the gate. For riders tall enough, this and Riddler's Revenge make DC Universe the most intense acre at the park per square foot."
+        "Its listed minimum is 54 inches. Batman: The Ride is officially in DC UNIVERSE; The Riddler’s Revenge belongs to METROPOLIS, and height alone does not establish permission to ride."
       ],
       "experience": [
         "Your feet hang and the train never stops fighting. A vertical loop, a zero-g roll, corkscrews and hard helixes arrive with no filler between them — the layout is too short for any — which makes this the purest sustained forty-five seconds of intensity at the park.",
         "Row choice is a real decision. The front row gets the cleanest inversion sensations and the view of the track snapping away underneath you; the back row gets whipped hardest through the same elements. The ride is short enough to do both when the queue allows.",
-        "Thirty years on, it remains the pacing benchmark that other compact loopers are measured against. It shares DC Universe with The Riddler’s Revenge — one suspended in the air, one standing on its feet — and together they are the most intense acre per square foot at the park."
+        "Batman remains a compact inversion coaster in DC UNIVERSE. The Riddler’s Revenge is a separate stand-up coaster in METROPOLIS rather than another ride assigned to this land."
       ],
       "tips": [
         "Front row for the flight sensation; back row for force.",
         "The queue is shaded and themed — one of the few at this park where the wait itself is tolerable at midday.",
-        "Pair with Riddler next door; doing both in one pass through DC Universe beats circling back."
+        "Plan Batman in DC UNIVERSE and Riddler’s Revenge in METROPOLIS as separate land stops."
       ],
       "bestTime": "The first hour or after 17:00.",
       "typicalWait": "20–35 minutes midday.",
@@ -602,7 +605,7 @@
         },
         {
           "q": "What is the height requirement for Batman: The Ride?",
-          "a": "54 inches. With Riddler’s Revenge a hundred yards away at the same minimum, DC Universe is the most intense acre per square foot at the park for riders tall enough for both."
+          "a": "54 inches is the listed minimum. Batman is officially in DC UNIVERSE; all other posted restrictions and the attraction staff’s decision still apply."
         },
         {
           "q": "Which row is best on Batman: The Ride?",
@@ -616,7 +619,7 @@
     {
       "slug": "the-riddlers-revenge",
       "name": "The Riddler's Revenge",
-      "land": "dc-universe",
+      "land": "metropolis",
       "type": "roller-coaster",
       "opened": 1998,
       "status": "open",
@@ -652,7 +655,7 @@
       "description": [
         "The Riddler's Revenge is a 156-foot B&M stand-up coaster and the last of its size anywhere: stand-up coasters stopped being built, and the survivors are aging monuments. Riding it means standing against a bicycle seat through a vertical loop, two dive loops, an inclined loop and corkscrews — inversions feel categorically different on your feet.",
         "The technique matters: stand straight with the seat at the right height, and the ride is smooth; slouch or lean, and the restraints correct you at speed. First-timers should watch the load cycle once to see the posture.",
-        "As much artifact as attraction, it pairs with Batman as the DC Universe double — two 1990s B&Ms, one seated-suspended, one standing, showing a decade of ride design in a hundred yards."
+        "Six Flags officially places The Riddler’s Revenge in METROPOLIS. Batman: The Ride is a separate stop in DC UNIVERSE, so use the current park map when planning both."
       ],
       "experience": [
         "You stand the whole ride: a bicycle-style seat takes your weight, a harness clamps your torso, and the train leaves with you vertical. The first inversion is the adjustment lap — standing through a loop is a categorically different sensation, felt through your legs and spine instead of your shoulders.",
@@ -694,7 +697,7 @@
       "status": "open",
       "closedNote": null,
       "heightIn": 42,
-      "heightNote": null,
+      "heightNote": "42-inch minimum. Separate physical and medical restrictions require review in the official Magic Mountain accessibility guide (version 25-1.0.0): https://media.qrtiger.com/files/2025/07/gag_sfmm-hhla.pdf. No maximum or lower accompanied-rider exception for this ride is stated in that guide.",
       "durationMinutes": 2,
       "lightningLane": "multi-pass",
       "singleRider": false,
@@ -733,7 +736,7 @@
       ],
       "tips": [
         "The queue is one of the shadiest at the park — a good midday escape.",
-        "Ride after Tatsu and Superman on the summit loop; no backtracking.",
+        "Plan Ninja in Samurai Summit and Tatsu in Rapids Camp Crossing using the current park map.",
         "Sit mid-train: the swing amplitude is pleasant there and aggressive at the ends."
       ],
       "bestTime": "Anytime — the queue rarely exceeds twenty minutes.",
@@ -746,7 +749,7 @@
         },
         {
           "q": "What is the height requirement for Ninja?",
-          "a": "42 inches — the lowest coaster minimum of the twelve this guide tracks, and the only one below 48. Below that bracket, Goldrusher is the first-coaster step."
+          "a": "42 inches. It is the lowest minimum among the current coasters this guide tracks at Magic Mountain. Gold Rusher requires 48 inches and is not an alternative for a rider below 42 inches."
         },
         {
           "q": "Does Ninja go upside down?",
@@ -755,20 +758,21 @@
       ],
             "relatedSlugs": ["tatsu", "goldrusher"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "riderRestrictions": ["Maintain an upright seated position with the head against the headrest and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires at least one functioning arm and one functioning leg. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria."]
     },
     {
       "slug": "goldrusher",
-      "name": "Goldrusher",
-      "land": "six-flags-plaza",
+      "name": "Gold Rusher",
+      "land": "metropolis",
       "type": "roller-coaster",
       "opened": 1971,
       "status": "open",
       "closedNote": null,
-      "heightIn": null,
-      "heightNote": "The published minimum is low — verify the current figure on the park's own attraction page before promising a short rider.",
+      "heightIn": 48,
+      "heightNote": "48-inch minimum. Official source: https://www.sixflags.com/magicmountain/attractions/gold-rusher. Height alone does not establish permission to ride; attraction staff make the final eligibility determination. Separate physical and medical restrictions require review in the official Magic Mountain accessibility guide (version 25-1.0.0): https://media.qrtiger.com/files/2025/07/gag_sfmm-hhla.pdf. No maximum or lower accompanied-rider exception for this ride is stated in that guide.",
       "durationMinutes": 2,
-      "lightningLane": "none",
+      "lightningLane": "multi-pass",
       "singleRider": false,
       "riderSwitch": true,
       "virtualQueue": false,
@@ -794,39 +798,41 @@
       "standalonePage": true,
       "summary": "The 1971 mine train that opened with the park — the mountain's first coaster and still its gentlest.",
       "description": [
-        "Goldrusher predates everything else at Magic Mountain: it opened with the park on day one in May 1971, and its lift, tunnel and dip course have introduced children to roller coasters for over fifty years. It is small, slow and completely unbothered by any of the records its neighbors chase.",
-        "As a first coaster it is nearly perfect — a real lift hill, a real (small) drop, a dark tunnel and a brake run that arrives before anyone can get scared. Ride it for the history, or ride it with a four-year-old who will remember it forever."
+        "Gold Rusher predates everything else at Magic Mountain: it opened with the park on day one in May 1971, and its lift, tunnel and dip course have introduced children to roller coasters for over fifty years. It is small, slow and completely unbothered by any of the records its neighbors chase.",
+        "As an introduction to coasters it offers a real lift hill, a small drop and a dark tunnel. The official minimum is 48 inches, regardless of age, and the official location is METROPOLIS. The historical spelling Goldrusher remains useful when searching older guides."
       ],
       "experience": [
-        "A real chain lift, a small first drop, one short tunnel, and a brake run that arrives before anyone can get scared. About two minutes end to end, and somewhere in the train a four-year-old has just ridden their first roller coaster.",
+        "A chain lift, small drops and a short tunnel introduce the mine-train ride style. Plan for a rider who meets the 48-inch minimum and the attraction’s other requirements; age alone is no guide to eligibility.",
         "It opened with the park on day one in May 1971, which makes it the oldest ride on the mountain and the only one that predates every record its neighbors chase. The dips are mild, the speed is polite, and it is completely unbothered by all of it.",
         "Ride it for one of two reasons: you have a first-timer with you, or you care that this is the mine train that introduced three generations of Southern California children to coasters. There is no third reason, and neither of those needs one."
       ],
       "tips": [
         "Zero queue almost always — the perfect confidence-builder between big rides.",
-        "The tunnel mid-course is the 'scary' part for tiny riders; prepare them and they wear it like a badge.",
-        "Ride it early in the day as a warm-up, not as a substitute for the 48-inch tier with a tall-enough kid."
+        "The tunnel adds a brief dark section; prepare first-time riders who are uneasy in darkness.",
+        "Use it as a gentler warm-up for eligible riders at 48 inches or taller; it is not an under-48-inch option."
       ],
       "bestTime": "Anytime.",
       "typicalWait": "0–10 minutes.",
       "faqs": [],
 "faqs": [
         {
-          "q": "Is Goldrusher scary?",
+          "q": "Is Gold Rusher scary?",
           "a": "No. Small dips, mild speed and one short tunnel — the brake run arrives before anyone can get scared. It has been the first roller coaster for three generations of Southern California children, which is the design brief working as intended."
         },
         {
-          "q": "What ages is Goldrusher for?",
-          "a": "It is a genuine first coaster: a real lift hill, a small drop and a short tunnel, over in about two minutes. For a four-year-old that is exactly enough, and there is a reason it has been introducing children to coasters since 1971."
+          "q": "What is the height requirement for Gold Rusher?",
+          "a": "48 inches, according to Six Flags’ official attraction page. It is in METROPOLIS. All other ride restrictions still apply, and attraction staff make the final eligibility determination."
         },
         {
-          "q": "Why is Goldrusher worth riding?",
+          "q": "Why is Gold Rusher worth riding?",
           "a": "History, mostly. It opened with the park on day one in May 1971 and predates every record its neighbors chase. Ride it with a first-timer, or ride it because it is the oldest thing on the mountain — there is no third reason."
         }
       ],
             "relatedSlugs": ["ninja", "twisted-colossus"],
       "image": null,
-      "lastVerified": "2026-07"
+      "lastVerified": "2026-10",
+      "aliases": ["Goldrusher"],
+      "riderRestrictions": ["Maintain an upright seated position with the back against the seatback and keep arms, hands, legs and feet inside the vehicle.", "Step up and down into the vehicle; wheelchair users must transfer to the ride vehicle.", "The official guide requires at least three functioning appendages: one arm and two legs, or two arms and one leg. A full-body harness may permit riding when the extremity requirements are not met, if the harness manufacturer’s requirements are satisfied. Ask attraction staff to assess the applicable criteria."]
     }
   ]
 }

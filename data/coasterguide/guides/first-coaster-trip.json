@@ -13,9 +13,9 @@
   ],
   "keyPoints": [
     "Pick the park by your rider's height and tolerance before anything else — the 48-inch threshold decides half the day.",
-    "The crowd rule at regional parks is simple: school-year weekdays are calm, summer Saturdays are the year's peak.",
+    "School calendars and holidays can affect crowds; check whether the park opens on your date and assess current queues.",
     "Heat is a planning variable at the Texas and California parks in a way coastal visitors underestimate.",
-    "The rope drop — being at the gate before open — is worth more than any line-skip product on a weekday.",
+    "An opening-time start can help prioritize rides; compare that plan with the selected date’s queues and paid queue terms.",
     "Plan the loop once: these parks are bigger than they photograph, and ping-ponging is the top time-killer.",
     "Check the operating calendar before booking anything: regional parks run weekday gaps the resorts never do."
   ],
@@ -44,15 +44,15 @@
       "id": "three-arithmetic",
       "heading": "The three arithmetic problems",
       "body": [
-        "Height: measure your riders at home, shoes on, against a hard wall, and plan around the confirmed number. The 48-inch rung unlocks most of the headliners at these parks; 54 unlocks the rest. A family with one 47-inch rider plans a genuinely different day than a family of 54s, and pretending otherwise wastes the morning.",
-        "Crowds: the regional-park curve is school-shaped. School-year weekdays run calm to near-empty — the same coasters that queue ninety minutes on a July Saturday are walk-ons on a September Wednesday. Summer weekends and holiday weeks are the peaks, and the fall haunt-season Saturdays at the big parks are among the year's busiest single days anywhere.",
+        "Height: measure at home to plan, then verify each attraction’s current restrictions. The 48- and 54-inch rungs meet many listed minimums, but they do not clear a rider. Any maximum, accompaniment requirement, restraint-fit check and other restriction still applies, and attraction staff make the final decision.",
+        "Crowds: start with the dated operating calendar, school holidays and special events. A school-year weekday may be quieter, but some parks do not open every weekday and short queues are not guaranteed. Compare current operations and expected queues with the selected date’s paid queue products before choosing a plan.",
         "Heat: Texas in July is a survival problem, inland Southern California in August is a stamina problem, and Florida afternoons are thunderstorm o'clock — coasters close on distant lightning even under blue sky. The universal answer is the same shape: ride the exposed big coasters in the first two hours, spend the middle in shows, water rides and shade, and return to the big rides in the evening window."
       ],
       "list": {
         "title": "The arithmetic in one list",
         "items": [
-          "Height decides the ride list — measure at home and trust the number.",
-          "The school calendar decides the crowd — weekdays are the discount.",
+          "Height informs the ride list; all other restrictions and the attraction staff’s decision still apply.",
+          "The school and operating calendars inform the crowd plan; check the exact visit date.",
           "Weather decides the daily shape — mornings for the big rides, middles for the cool, evenings for the re-rides."
         ]
       }
@@ -61,17 +61,17 @@
       "id": "rope-drop",
       "heading": "The rope drop, and what it buys",
       "body": [
-        "Being at the gate twenty minutes before open — through security before it, in the park at the first minute — is the single highest-leverage move at every park on this site. The first hour buys the day's most popular rides at a fraction of their midday queues: Tatsu at Magic Mountain, El Toro at Great Adventure, Mako at SeaWorld, GhostRider at Knott's. On a weekday that hour can clear three headliners before the park feels full.",
-        "The skill is picking the right first ride, which differs from the crowd's instinct. The herd runs to the biggest drop or the closest marquee; the informed rope-drop targets the ride whose queue grows fastest and recovers slowest. Every park page on this site names its own answer — the general rule is that the farthest big coaster from the gate is usually the calmest first hour.",
-        "The second window matters almost as much: the last hour. Day-trippers with kids leave by dinner, and the final sixty minutes routinely run the day's shortest queues on the marquee rides. Front-load and back-load; let the middle be the show-and-shade part of the day."
+        "Arriving before the posted opening can help you prioritize a suitable ride early. Tatsu at Magic Mountain, El Toro at Great Adventure, Mako at SeaWorld and GhostRider at Knott’s are examples to consider, subject to current operations and your party’s restrictions. The number of rides completed depends on queues, capacity, downtime and walking time; an opening-time start does not guarantee a fixed result or replace the selected date’s paid queue comparison.",
+        "Choose the first ride for your party’s priorities and the day’s operations, then use the current map to plan the walking route. Check the live queue before committing to a long walk; distance from the gate alone does not establish which line will be shortest.",
+        "A later riding window may also fit the day, but queues and availability can change. Check the actual closing time, any special-event rules and the last transportation connections before relying on a final-hour ride plan."
       ]
     },
     {
       "id": "mistakes",
       "heading": "The rookie mistakes, ranked",
       "body": [
-        "The biggest is arriving at noon. Every regional-park queue curve peaks between one and four; arriving at open versus noon is routinely a two-to-one difference in rides completed on the same ticket. The second is ping-ponging: these parks are bigger than they photograph, and crossing Magic Mountain or Great Adventure repeatedly burns an hour of walking that a one-loop plan saves.",
-        "The third is misjudging the height ladder — bringing a 46-inch rider to a park whose headliners sit at 48 without a plan for what they can ride. The fourth is buying a line-skip product on a day that does not need it; the weekday versions of these parks make every tier a waste. The fifth is under-planning food: the good in-park options peak and empty like everything else, and the 11:30 lunch beats the 12:30 line everywhere on this site.",
+        "Arriving late leaves less time for your priorities, especially when queues or downtime reduce capacity. Repeatedly crossing a large park also consumes the day; use the current official map to connect suitable rides and break stops without unnecessary backtracking.",
+        "Another common mistake is misjudging the height ladder — bringing a 46-inch rider to a park whose headliners sit at 48 without a plan for suitable current rides. Buying a line-skip product without checking the selected date, available rides and current terms can also waste money. Plan food breaks and compare the product with the queues you expect rather than assuming it is always or never worthwhile on a weekday.",
         "And the sixth, gentler mistake: over-scheduling. These parks reward a plan of six to eight deliberate rides over a checklist of twenty; the difference between a good day and a great one is usually the re-rides of the thing you loved, not the credits you collected."
       ]
     },
@@ -80,7 +80,7 @@
       "heading": "What it costs, honestly",
       "body": [
         "The regional parks' base economics beat the destination resorts: single-day gates at the Six Flags and SeaWorld parks generally sit well below the Disney-tier parks, and the discount channels — online advance pricing, season-pass math for locals, the Coke-can-style promotions Six Flags runs — take real money off for anyone who books two weeks ahead instead of at the gate.",
-        "The add-ons are where budgets drift: parking, the line-skip products (see the dedicated guide — the short version is 'weekdays never, peak Saturdays maybe'), food at theme-park pricing, and the photo and souvenir funnel on the way out. A useful planning frame: budget the ticket, the parking and one meal per person as the fixed cost, and decide the line-skip question deliberately rather than at the gate.",
+        "The add-ons are where budgets drift: parking, line-skip products, food, photos and souvenirs. Budget the ticket, parking and meals first, then evaluate a paid queue product against its current selected-date price, participating attractions and your priorities. There is no universal weekday or weekend answer.",
         "Every price claim on this site is a range with a date attached, because all of these move. The 'as of July 2026' framing you see throughout is the honesty mechanism — the parks' own pages are the live numbers, and this site is the shape of the decision, not the receipt."
       ]
     }
@@ -90,8 +90,8 @@
     { "q": "How early should I actually arrive?", "a": "Twenty minutes before the posted opening, through security before that. The security line — not the turnstiles — is the morning bottleneck at most of these parks, and the first sixty minutes inside buy more riding than any other hour of the day." },
     { "q": "Are these parks good for non-riding members of the party?", "a": "Better than their reputation and worse than Disney. Knott's and the SeaWorld parks have real show-and-exhibit layers; Magic Mountain and Great Adventure are coasters-first with thinner alternates. The SeaWorld parks are the best choice when half the party would rather watch dolphins than ride dive coasters." },
     { "q": "One park in one day — realistic?", "a": "Yes at every park on this site with a rope-drop start and a one-loop plan. The failure mode is not time but ping-ponging and midday queues; fix the plan and the day fits. Two days matter only at Magic Mountain for full-credit seekers and at the parks paired with water-park halves." },
-    { "q": "What should I skip on a first trip?", "a": "The line-skip product on any weekday, the upcharged attractions before you know you want them, and the souvenir funnel at exit. Spend the savings on the second day or the good lunch — both buy more day than the extras do." }
+    { "q": "What should I skip on a first trip?", "a": "Skip purchases you have not checked against your party’s priorities. For a line-skip product, read the selected-date terms and participating ride list before buying; do not assume every weekday makes it unnecessary or every weekend makes it essential." }
   ],
   "related": ["height-requirements", "line-skip-passes"],
-  "lastVerified": "2026-07"
+  "lastVerified": "2026-10"
 }

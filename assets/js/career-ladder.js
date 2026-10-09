@@ -16,40 +16,58 @@
 var CareerLadder = (function () {
   'use strict'
 
+  function knownHeight (value) { return typeof value === 'number' && Number.isFinite(value) && value >= 0 }
+  function currentRide (ride) { return (ride.s || 'open') === 'open' }
+
   /* ---------- pure core (unit-tested) ---------- */
 
   /** Rungs ascending from the asserted minimums; one rung per distinct height. */
   function rungsFor (coasters) {
     var byHeight = {}
     var unverified = []
+    var historical = []
     for (var i = 0; i < coasters.length; i++) {
       var c = coasters[i]
-      if (c.h == null) { unverified.push(c); continue }
+      if (!currentRide(c)) { historical.push(c); continue }
+      if (!knownHeight(c.h)) { unverified.push(c); continue }
       (byHeight[c.h] = byHeight[c.h] || []).push(c)
     }
     var rungs = Object.keys(byHeight)
       .map(Number)
       .sort(function (a, b) { return a - b })
       .map(function (h) { return { h: h, items: byHeight[h] } })
-    return { rungs: rungs, unverified: unverified }
+    return { rungs: rungs, unverified: unverified, historical: historical }
   }
 
-  function statusFor (heightIn, reqIn) {
-    if (reqIn == null) return 'any'
+  function statusFor (heightIn, rule, confirmations) {
+    var ride = rule !== null && typeof rule === 'object' ? rule : { h: rule }
+    var reqIn = ride.h
+    confirmations = confirmations || {}
+    if (!currentRide(ride)) return 'closed'
+    if (!knownHeight(reqIn) || !knownHeight(heightIn)) return 'unknown'
+    if (knownHeight(ride.max) && heightIn > ride.max) return 'over'
+    if (heightIn < reqIn) return reqIn - heightIn <= 2 ? 'near' : 'later'
+    if (knownHeight(ride.accompaniedBelow) && heightIn < ride.accompaniedBelow && !confirmations.accompanied) return 'companion'
+    if (ride.restrictions && ride.restrictions.length && !confirmations.restrictionsConfirmed) return 'review'
     if (heightIn >= reqIn) return 'now'
-    return reqIn - heightIn <= 2 ? 'near' : 'later'
   }
 
   /** Summary counts for one height against every coaster. */
   function summaryFor (heightIn, coasters) {
-    var now = 0, near = 0, later = 0, unverified = 0
+    var now = 0, near = 0, later = 0, unverified = 0, checking = 0, over = 0, current = 0
     for (var i = 0; i < coasters.length; i++) {
       var c = coasters[i]
-      if (c.h == null) { unverified++; continue }
-      var s = statusFor(heightIn, c.h)
-      if (s === 'now') now++; else if (s === 'near') near++; else later++
+      if (!currentRide(c)) continue
+      current++
+      var s = statusFor(heightIn, c)
+      if (s === 'unknown') unverified++
+      else if (s === 'now') now++
+      else if (s === 'near') near++
+      else if (s === 'later') later++
+      else if (s === 'over') over++
+      else checking++
     }
-    return { now: now, near: near, later: later, unverified: unverified, total: coasters.length }
+    return { now: now, near: near, later: later, unverified: unverified, checking: checking, over: over, current: current, total: coasters.length }
   }
 
   function esc (s) {
@@ -114,9 +132,11 @@ var CareerLadder = (function () {
 
     var out = ''
     out += '<div class="career-summary">'
-    out += '<p>' + esc(chosen.name || 'This rider') + ' at <strong>' + heightIn + ' in</strong> clears <strong>' + summary.now + '</strong> posted minimums'
+    out += '<p>' + esc(chosen.name || 'This rider') + ' at <strong>' + heightIn + ' in</strong> meets <strong>' + summary.now + '</strong> verified height conditions among ' + summary.current + ' current coaster records covered by this guide'
     if (summary.near) out += ', with <strong>' + summary.near + '</strong> within two inches'
-    out += '. Credits: <strong>' + ridden + '</strong> of ' + summary.total + ' documented coasters ridden.</p>'
+    if (summary.checking + summary.unverified) out += '; ' + (summary.checking + summary.unverified) + ' need rider restrictions checked'
+    if (summary.over) out += '; ' + summary.over + ' exceed a maximum height'
+    out += '. Attraction staff make the final eligibility determination. Credits: <strong>' + ridden + '</strong> of ' + summary.total + ' documented coasters ridden, including historical rides.</p>'
     out += '</div>'
 
     out += '<div class="rider-ruler career-ruler" role="img" aria-label="Height ladder from ' +
@@ -136,7 +156,7 @@ var CareerLadder = (function () {
       out += '<span class="ruler__tick" aria-hidden="true"></span>'
       out += '<span class="ruler__label"><strong>' + rung.h + ' in</strong> · ' + rung.items.length + ' coaster' + (rung.items.length === 1 ? '' : 's') + '</span>'
       out += (state === 'cleared'
-        ? '<span class="ruler__state ruler__state--cleared">Cleared</span>'
+        ? '<span class="ruler__state ruler__state--cleared">Minimum met</span>'
         : '<span class="ruler__state ruler__state--ahead">' + (when || 'Not yet') + '</span>')
       out += '</li>'
 
@@ -150,7 +170,13 @@ var CareerLadder = (function () {
       }
 
       out += '<li class="career-rung__items">'
-      out += rung.items.map(function (c) { return creditRow(c) }).join('')
+      out += rung.items.map(function (c) {
+        var state = statusFor(heightIn, c)
+        var note = state === 'over' ? ' · exceeds ' + c.max + ' in maximum'
+          : state === 'companion' ? ' · supervising companion required below ' + c.accompaniedBelow + ' in'
+            : state === 'review' ? ' · check rider restrictions: ' + c.restrictions.join('; ') : ''
+        return creditRow(c, note)
+      }).join('')
       out += '</li>'
     }
     if (heightIn >= (ladder.rungs.length ? ladder.rungs[ladder.rungs.length - 1].h : Infinity)) {
@@ -167,6 +193,11 @@ var CareerLadder = (function () {
       out += '</details>'
     }
 
+    if (ladder.historical.length) {
+      out += '<details class="career-unverified"><summary>Historical credits — ' + ladder.historical.length + ' retired or non-operating documented coasters, excluded from current height results</summary>'
+      out += '<ul>' + ladder.historical.map(function (c) { return '<li>' + creditRow(c) + '</li>' }).join('') + '</ul></details>'
+    }
+
     out += '<div class="career-actions">'
     out += '<button class="btn btn--ghost" type="button" data-career-print>Print the career card</button>'
     out += '<a class="btn btn--ghost" href="' + esc(payload.myRidersUrl) + '">Manage riders</a>'
@@ -175,13 +206,13 @@ var CareerLadder = (function () {
     mount.innerHTML = out
   }
 
-  function creditRow (c) {
+  function creditRow (c, note) {
     var checked = credits.has(c.id) ? ' checked' : ''
-    var closed = c.s !== 'open' ? ' <span class="pill pill--closed">Permanently closed</span>' : ''
+    var closed = !currentRide(c) ? ' <span class="pill pill--closed">Not currently operating</span>' : ''
     return '<label class="career-credit">' +
       '<input type="checkbox" data-credit="' + esc(c.id) + '"' + checked + '> ' +
       '<span class="career-credit__name">' + esc(c.n) + '</span>' +
-      '<span class="career-credit__park">' + esc(c.p) + '</span>' + closed +
+      '<span class="career-credit__park">' + esc(c.p) + '</span>' + closed + (note ? esc(note) : '') +
       '</label>'
   }
 
@@ -253,7 +284,7 @@ var CareerLadder = (function () {
   }
 
   return {
-    _internals: { rungsFor: rungsFor, statusFor: statusFor, summaryFor: summaryFor },
+    _internals: { rungsFor: rungsFor, statusFor: statusFor, summaryFor: summaryFor, renderLadder: renderLadder },
     credits: credits,
     boot: boot,
   }

@@ -32,6 +32,7 @@ let MUST_BE_CLOSED = {}
 let MUST_BE_OPEN = {}
 let SNACK_PRICES = []
 let SEASONAL = []
+let SEASONAL_REFERENCES = {}
 let PARK_SLUGS = []
 let PLAUSIBLE_HEIGHTS = []
 let DUAL_HEIGHTS = {}
@@ -62,6 +63,7 @@ async function loadReference (operatorSlug) {
   MUST_BE_OPEN = ref.MUST_BE_OPEN || {}
   SNACK_PRICES = ref.SNACK_PRICES || []
   SEASONAL = ref.SEASONAL || []
+  SEASONAL_REFERENCES = ref.SEASONAL_REFERENCES || {}
   PLAUSIBLE_HEIGHTS = ref.PLAUSIBLE_HEIGHTS || []
   DUAL_HEIGHTS = ref.DUAL_HEIGHTS || {}
   QUEUE_ASSIGNMENT = ref.QUEUE_ASSIGNMENT || {}
@@ -353,8 +355,12 @@ async function checkProse () {
       for (const opener of FILLER_OPENERS) {
         if (prose.startsWith(opener)) fillerHits.set(`opens with "${opener}"`, (fillerHits.get(`opens with "${opener}"`) || 0) + 1)
       }
+      // A named link to its canonical seasonal page is navigation, not a second source of event
+      // dates or prices. Only explicitly declared, exact linked labels receive this exception.
+      const seasonalProse = Object.entries(SEASONAL_REFERENCES).reduce(
+        (text, [name, href]) => text.split(`[${name}](${href})`.toLowerCase()).join(' '), lower)
       for (const term of SEASONAL) {
-        if (lower.includes(term)) seasonalHits.set(term, (seasonalHits.get(term) || 0) + 1)
+        if (seasonalProse.includes(term)) seasonalHits.set(term, (seasonalHits.get(term) || 0) + 1)
       }
     }
 

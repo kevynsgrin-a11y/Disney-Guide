@@ -176,8 +176,8 @@ function buildSearchIndex (data, seasonal) {
     for (const land of park.lands) push(land.name, land.url, `Land · ${park.name}`, land.summary)
     for (const attraction of park.attractions) {
       push(attraction.name, attraction.url,
-        `${attraction.landInfo ? attraction.landInfo.name + ' · ' : ''}${park.shortName || park.name}`,
-        `${attraction.type} ${attraction.heightIn != null ? attraction.heightIn + ' inch height' : 'height unverified'} ${plain(attraction.summary)}`)
+        `${attraction.isOpen ? '' : 'Not currently operating · '}${attraction.landInfo ? attraction.landInfo.name + ' · ' : ''}${park.shortName || park.name}`,
+        `${(attraction.aliases || []).join(' ')} ${attraction.type} ${attraction.isOpen ? (attraction.heightIn != null ? attraction.heightIn + ' inch minimum' : 'height unverified') : 'not currently operating'} ${plain(attraction.summary)}`)
     }
     for (const restaurant of park.dining) {
       push(restaurant.name, restaurant.url, `${restaurant.cuisine} · ${park.shortName || park.name}`,
@@ -335,9 +335,11 @@ function buildLlmsTxt (site, data, seasonal) {
   const lines = []
   lines.push(`# ${site.brand.name}`)
   lines.push('')
-  lines.push(`> ${site.brand.tagline} Covers all six US Disney theme parks: attraction inventories, height requirements, ride-by-ride scare and motion assessments, accessibility detail, dining, curated food items with dated prices, and printable maps.`)
+  lines.push(data.operator === 'coasterguide'
+    ? `> ${site.brand.tagline} Covers selected attractions at ${data.parks.length} regional parks: recorded height requirements, ride-by-ride scare and motion assessments, accessibility detail, dining, and illustrative coverage diagrams. Catalog counts describe CoasterReady's coverage, not complete official inventories or availability today.`
+    : `> ${site.brand.tagline} Covers all six US Disney theme parks: attraction inventories, height requirements, ride-by-ride scare and motion assessments, accessibility detail, dining, curated food items with dated prices, and printable maps.`)
   lines.push('')
-  lines.push(`${site.legal.shortDisclaimer} Every data page carries a "last verified" month; the dataset behind this site was verified in July 2026. Prices and operating status change without notice — treat an older verification date as a guide rather than a guarantee.`)
+  lines.push(`${site.legal.shortDisclaimer} Every data page carries its own "last verified" month. Prices and operating status change without notice — treat an older verification date as a guide rather than a guarantee.`)
   lines.push('')
   lines.push('## How to read a dated claim on this site')
   lines.push('')

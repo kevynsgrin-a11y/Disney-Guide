@@ -96,7 +96,9 @@ function syntheticMap (park) {
   return {
     synthetic: true,
     viewBox: [0, 0, W, H],
-    note: 'Layout diagram — relative land positions only, not to scale.',
+    note: park.operator === 'coasterguide'
+      ? 'Illustrative guide coverage diagram — area positions are not verified geography. Use the official park map for navigation.'
+      : 'Layout diagram — relative land positions only, not to scale.',
     lands: lands.map((land, i) => {
       const mid = start + step * i + step / 2
       return {
@@ -203,6 +205,7 @@ function renderMarker (marker, park, standalone = false) {
 export function renderParkMap (park, { standalone = false } = {}) {
   const map = park.map || syntheticMap(park)
   if (!map) return null
+  const coverageDiagram = Boolean(map.synthetic && park.operator === 'coasterguide')
 
   const [vx, vy, vw, vh] = map.viewBox || [0, 0, 1000, 820]
   const lands = map.lands || []
@@ -218,9 +221,9 @@ export function renderParkMap (park, { standalone = false } = {}) {
 
   const svg = html`
     <svg class="parkmap parkmap--vintage" viewBox="${canvas.join(' ')}" role="img"
-         aria-label="Illustrated map of ${park.name} showing each land and its main attractions"
+         aria-label="${coverageDiagram ? `Illustrative guide coverage diagram for ${park.name}; area positions are not verified geography` : `Illustrated map of ${park.name} showing each land and its main attractions`}"
          xmlns="http://www.w3.org/2000/svg">
-      <title>${park.name} — illustrated park map</title>
+      <title>${park.name} — ${coverageDiagram ? 'illustrative guide coverage diagram' : 'illustrated park map'}</title>
       <desc>${map.note || 'Schematic layout of each land and its major attractions. Not to scale.'}</desc>
       ${raw(V.vintageDefs(id))}
       ${standalone ? raw(`<style>${V.STANDALONE_CSS}</style>`) : ''}
@@ -228,7 +231,7 @@ export function renderParkMap (park, { standalone = false } = {}) {
       ${raw(V.frame(canvas[0], canvas[1], canvas[2], canvas[3]))}
       ${raw(V.titleRibbon(escapeHtml(park.name), cx, vy - padTop + 30, Math.min(vw * 0.62, 460)))}
       ${raw(V.compassRose(vx + 62, vy - 4, 22))}
-      ${raw(V.scaleNote('Not to scale', vx + vw - 132, vy + vh + 14, 132))}
+      ${raw(V.scaleNote(coverageDiagram ? 'Coverage diagram' : 'Not to scale', vx + vw - 132, vy + vh + 14, 132))}
 
       ${(() => {
         const ground = groundShape(lands)

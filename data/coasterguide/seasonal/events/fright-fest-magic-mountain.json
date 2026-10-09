@@ -6,11 +6,11 @@
   "parkSlug": "magic-mountain",
   "category": "overlay",
   "season": "halloween",
-  "summary": "Six Flags Magic Mountain runs Fright Fest on select nights through November 1, 2026. Park admission covers the nighttime scare zones and shows; haunted mazes require a separate Haunted Attractions Pass. The park also offers Tricks and Treats for families during the day.",
+  "summary": "Six Flags Magic Mountain runs Fright Fest on select nights through November 1, 2026, including Thursday, October 15. Park admission or a valid pass covers the general event; haunted mazes require a Haunted Attractions Pass unless the selected bundle explicitly includes both. Maze Express and ordinary ride Fast Lane are separate products.",
   "h1": "Fright Fest at Six Flags Magic Mountain: what it is and whether it is worth it",
   "title": "Fright Fest Six Flags Magic Mountain",
   "titleTail": ": 2026 Hours & Dates",
-  "description": "Fright Fest at Six Flags Magic Mountain starts 6:30 p.m. and runs to close on select nights, September 18 to November 1, 2026, with dates, admission and maze-pass costs.",
+  "description": "Magic Mountain Fright Fest 2026: October 15 park hours, 6:30 p.m. opening scaremony, 7 p.m. event block, separate maze admission and Express options.",
   "typicalWindow": {
     "startsAround": "mid-September",
     "endsAround": "early November",
@@ -20,16 +20,17 @@
       "Sat",
       "Sun"
     ],
-    "hours": "6:30 p.m. to park closing on 2026 event nights"
+    "hours": "Promotional start: 6:30 p.m. opening scaremony. Check the selected date for the Fright Fest event block, individual attractions and showtimes."
   },
   "pricing": {
     "model": "included",
-    "asOf": "September 2026",
+    "asOf": "October 2026",
     "notes": [
-      "Regular park admission or a valid pass covers Fright Fest scare zones and shows on scheduled nights, but not haunted mazes.",
-      "A 2026 single-night Haunted Attractions Pass starts at $25 and does not include park admission.",
-      "The park lists a combined admission-and-maze bundle from $74; prices vary by date and taxes or processing fees can apply.",
-      "Fright Fest starts at 6:30 p.m. on listed nights. Re-entry is not permitted after 9 p.m."
+      "Every guest needs their own paid park admission ticket or valid pass. General scare zones and shows are part of the scheduled park event; admission alone does not include haunted maze access.",
+      "A Haunted Attractions Pass provides maze access on the night selected. Buy park admission separately unless the selected Fright Fest bundle explicitly includes park admission and haunted mazes.",
+      "Express is a separate haunted-attraction queue upgrade unless expressly included in the selected product. Ordinary ride Fast Lane does not establish maze admission or maze Express coverage.",
+      "No October 15 checkout price is verified here. The event page’s advertised starting prices are not a quote for that Thursday; select the date and review admission, maze access, Express, taxes, fees and any parking inclusion before paying.",
+      "Re-entry is not permitted after 9 p.m. Plan any exit or return around that cutoff, and check the park’s current terms."
     ]
   },
   "whatYouGet": [
@@ -39,9 +40,11 @@
     "A separate daytime family event, Tricks and Treats, on its own published schedule."
   ],
   "whatYouDont": [
-    "Haunted maze entry with a regular ticket or pass; the 2026 Haunted Attractions Pass is extra.",
-    "A promise that every ride operates during Fright Fest; check current ride closures and park hours.",
-    "A scare-free evening for young children; Six Flags does not recommend Fright Fest for guests under 13."
+    "Haunted maze entry with an ordinary park ticket or pass, unless the selected bundle explicitly includes maze admission.",
+    "Maze Express coverage from an ordinary ride Fast Lane purchase, or an assumption that Express is included with every Haunted Attractions Pass.",
+    "A promise that every maze opens at 6:30 p.m. or that every ride operates during Fright Fest; check individual attraction times and availability in the official app.",
+    "A scare-free evening for young children; Six Flags does not recommend Fright Fest for guests under 13. This is age guidance, not a stated prohibition on admission.",
+    "Re-entry after 9 p.m."
   ],
   "verdict": {
     "short": "Worth considering for a coaster day that continues into nighttime scare zones. Budget for a separate maze pass if haunted houses are the point of your visit.",
@@ -58,40 +61,66 @@
   },
   "strategy": [
     {
-      "heading": "Choose the exact night",
+      "heading": "Thursday, October 15: the checked calendar",
       "body": [
-        "The published range is not a nightly calendar. Check the park’s date-specific operating calendar before buying travel or tickets."
+        "Checked October 9, 2026: the official date-specific calendar schedules Thursday, October 15 from 10:30 a.m. to 11 p.m. PDT (America/Los_Angeles). Wednesday, October 14 is listed closed. A closed adjacent day does not mean Thursday is closed.",
+        "The October 15 calendar lists Unleashed, the opening scaremony, at 6:30 p.m. and the Fright Fest event block from 7 to 11 p.m. The promotional event-page start and the calendar event block describe different parts of the evening; they do not promise all haunted mazes open at 6:30.",
+        "Recheck the [official October 15 calendar](https://www.sixflags.com/magicmountain/park-hours?date=2026-10-15) before travel. Use the official Six Flags app for individual maze, scare-zone and show times and current operating changes."
       ]
     },
     {
-      "heading": "Price the mazes before you go",
+      "heading": "Choose a scheduled night",
       "body": [
-        "If you want haunted mazes, compare a Haunted Attractions Pass plus admission with the admission-and-maze bundle. Starting prices vary by date and may exclude fees."
+        "The published September 18–November 1 range is not a nightly calendar. The 2026 event page includes selected October Thursdays: October 8, 15, 22 and 29. Do not assume every weekday or every Thursday operates."
       ]
     },
     {
-      "heading": "Use the daytime family event",
+      "heading": "Price the right admission and queue products",
       "body": [
-        "Tricks and Treats offers less frightening Halloween activities before Fright Fest. Plan family activities first and leave before the night scares if younger guests are uncomfortable."
+        "Compare park admission plus a date-valid Haunted Attractions Pass with a bundle that explicitly includes both. Add maze Express only if wanted and available; check whether the chosen product already includes it.",
+        "Keep ordinary ride Fast Lane separate from haunted-attraction admission and Express. For October 15, confirm the selected date, product inclusions, taxes, processing fees and parking before buying; a generic starting price does not establish the total."
+      ]
+    },
+    {
+      "heading": "Plan the family handoff and any exit",
+      "body": [
+        "Tricks and Treats is the separate daytime family program on its own published schedule. Fright Fest is not recommended for children under 13; that warning is not an admission ban. Leave before evening scares if they do not suit your party.",
+        "Re-entry is not permitted after 9 p.m. Check current park procedures before leaving for a break."
       ]
     }
   ],
   "faqs": [
     {
       "q": "Is Fright Fest included with admission?",
-      "a": "The scare zones and shows are available with park admission on scheduled Fright Fest nights. Haunted mazes in 2026 require a separate Haunted Attractions Pass. Check the park’s current ticket terms for your selected date."
+      "a": "General scare zones and shows are part of the scheduled park event, and every guest needs their own paid admission ticket or valid pass. Haunted mazes require a Haunted Attractions Pass unless the selected bundle explicitly includes park admission and maze access. Check the product terms for the date selected."
+    },
+    {
+      "q": "Does Fright Fest run on Thursday, October 15, 2026?",
+      "a": "Yes. Checked October 9, the official calendar schedules October 15 park hours from 10:30 a.m. to 11 p.m. PDT (America/Los_Angeles). It lists Unleashed at 6:30 p.m. and the Fright Fest event block from 7 to 11 p.m. October 14 is listed closed. Recheck the date-specific calendar and official app before visiting."
     },
     {
       "q": "When does Fright Fest run in 2026?",
-      "a": "The park has announced select nights from September 18 through November 1, 2026. The range does not mean nightly operation; check the official park calendar for the exact date and hours of your visit."
+      "a": "Select nights from September 18 through November 1. The event page lists September 18–20 and 25–27; October 2–4, 8–11, 15–18, 22–25 and 29–31; and November 1. This includes selected Thursdays, including October 15, but does not mean nightly operation."
+    },
+    {
+      "q": "Are all haunted mazes open at 6:30 p.m.?",
+      "a": "Do not assume that. On October 15, the official calendar lists the Unleashed opening scaremony at 6:30 p.m. and the Fright Fest event block from 7 to 11 p.m. Check individual haunted-attraction and show times in the official Six Flags app; schedules can change."
     },
     {
       "q": "Is Fright Fest suitable for young children?",
-      "a": "Six Flags does not recommend the after-dark event for children under 13. The park also runs Tricks and Treats as a daytime, family-focused option on separately published dates."
+      "a": "Six Flags does not recommend Fright Fest for children under 13. This is a recommendation, not a stated age-based admission prohibition. Tricks and Treats is the separate daytime family option on its own published dates."
     },
     {
-      "q": "Do I need a maze pass?",
-      "a": "Yes, if you want to enter the 2026 haunted mazes. A normal park ticket or pass covers the general Fright Fest atmosphere but not maze admission. Check the park’s ticket page for current pass prices and fees."
+      "q": "Do I need a maze pass or Express?",
+      "a": "A Haunted Attractions Pass provides maze admission; park admission is separate unless an explicitly inclusive bundle is purchased. Maze Express is an optional queue upgrade, separate unless included in the selected product. Ordinary ride Fast Lane does not establish maze access or maze Express coverage."
+    },
+    {
+      "q": "What is the October 15 price?",
+      "a": "A date-selected checkout total has not been verified here. The event page’s starting prices do not establish October 15 pricing. Select that night and check product inclusions, taxes, fees and parking before paying."
+    },
+    {
+      "q": "Can I leave and re-enter during Fright Fest?",
+      "a": "Re-entry is not permitted after 9 p.m., according to the official event page. Confirm current park procedures before leaving for a break."
     }
   ],
   "crossLinks": [
@@ -110,10 +139,10 @@
     "tricks-and-treats-magic-mountain"
   ],
   "freshness": {
-    "verified": "2026-09",
+    "verified": "2026-10",
     "confidence": "confirmed",
-    "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest). The official page confirms select nights September 18–November 1, 2026, admission and maze-pass terms, and the 2026 lineup.",
-    "reviewBy": "2026-10",
+    "sourceNote": "Checked October 9, 2026 through verified HTTPS against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest) and the live date-specific calendar payload used by [the October 15 calendar](https://www.sixflags.com/magicmountain/park-hours?date=2026-10-15). The calendar’s park 906 record schedules October 15 10:30–23:00, Unleashed at 18:30 and Fright Fest 19:00–23:00; the October 14 record is closed. The event page confirms selected Thursdays, separate maze admission, Express upgrades, under-13 age guidance and no re-entry after 9 p.m. October 15 checkout prices and fees were not verified.",
+    "reviewBy": "2026-11",
     "cycle": "annual"
   },
   "editions": [
@@ -124,16 +153,22 @@
       "startDate": "2026-09-18",
       "endDate": "2026-11-01",
       "changes": [
-        "Fright Fest runs 6:30 p.m. to close on September 18–20 and 25–27; October 2–4, 8–11, 15–18, 22–25 and 29–31; and November 1.",
+        "Scheduled 2026 nights: September 18–20 and 25–27; October 2–4, 8–11, 15–18, 22–25 and 29–31; November 1. Selected Thursdays include October 8, 15, 22 and 29.",
+        "October 15 is scheduled from 10:30 a.m. to 11 p.m. PDT (America/Los_Angeles), checked October 9. October 14 is listed closed. Recheck the [official selected-date calendar](https://www.sixflags.com/magicmountain/park-hours?date=2026-10-15) before visiting.",
+        "The October 15 calendar lists Unleashed at 6:30 p.m. and the Fright Fest event block from 7 to 11 p.m. This is not a promise that every maze opens at 6:30; use the official app for individual times.",
+        "Each guest needs park admission or a valid pass. Maze entry requires a Haunted Attractions Pass unless a selected bundle explicitly includes both. Maze Express is a separate queue upgrade unless included; ordinary ride Fast Lane does not establish maze admission or maze Express.",
+        "Fright Fest is not recommended for children under 13; that is guidance, not a stated admission prohibition. Re-entry is not permitted after 9 p.m.",
+        "No October 15 checkout total has been verified. Generic advertised starting prices are not a quote for that night; verify selected-date prices, taxes, fees, parking and product inclusions.",
         "New 2026 mazes include Final Destination: Death’s Playground and Wolves’ Blood."
       ],
       "freshness": {
-        "verified": "2026-09",
+        "verified": "2026-10",
         "confidence": "confirmed",
-        "sourceNote": "Checked September 26, 2026 against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest). The official page confirms select nights September 18–November 1, 2026, admission and maze-pass terms, and the 2026 lineup.",
-        "reviewBy": "2026-10",
+        "sourceNote": "Checked October 9, 2026 through verified HTTPS against [the official event page](https://www.sixflags.com/magicmountain/events/fright-fest) and the live date-specific calendar payload used by [the October 15 calendar](https://www.sixflags.com/magicmountain/park-hours?date=2026-10-15). The calendar’s park 906 record schedules October 15 10:30–23:00, Unleashed at 18:30 and Fright Fest 19:00–23:00; the October 14 record is closed. The event page confirms selected Thursdays, separate maze admission, Express upgrades, under-13 age guidance and no re-entry after 9 p.m. October 15 checkout prices and fees were not verified.",
+        "reviewBy": "2026-11",
         "cycle": "annual"
-      }
+      },
+      "description": "Fright Fest at Magic Mountain in 2026: selected Thursdays, October 15 park hours and distinct opening, event and admission rules."
     }
   ]
 }

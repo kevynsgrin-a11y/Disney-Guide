@@ -154,15 +154,15 @@ export function pricePage (price, data) {
         ${SC.stalenessBanner(state)}
         ${C.callout({
           type: 'money',
-          title: 'Every figure here is a range',
-          body: `Prices vary by date, park, and demand ${scopeOf(site).venuePhrase}, so a single number would be wrong for almost everyone reading it. Each row carries the cycle it was checked against.`,
+          title: price.priceNote?.title || 'Every figure here is a range',
+          body: price.priceNote?.body || `Prices vary by date, park, and demand ${scopeOf(site).venuePhrase}, so a single number would be wrong for almost everyone reading it. Each row carries the cycle it was checked against.`,
         })}
       `,
     })}
 
     ${C.section({
       title: 'What it costs',
-      children: SC.priceTable(price.rows, { resorts: (data.site && data.site.resorts) || [], caption: `Checked ${SC.monthLabel(price.freshness.verified)}. Ranges, not fixed prices — see the note above.` }),
+      children: SC.priceTable(price.rows, { resorts: (data.site && data.site.resorts) || [], caption: price.tableCaption || `Checked ${SC.monthLabel(price.freshness.verified)}. Ranges, not fixed prices — see the note above.` }),
     })}
 
     ${price.sections && price.sections.length ? C.section({ children: SC.sectionBlocks(price.sections) }) : ''}

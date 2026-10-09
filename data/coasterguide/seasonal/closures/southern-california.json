@@ -2,12 +2,12 @@
   "resort": "southern-california",
   "slug": "southern-california",
   "title": "Southern California Closures and Construction",
-  "titleTail": ": What We Can Support, 2026-07",
+  "titleTail": ": Magic Mountain Retirement Updates, October 2026",
   "h1": "Southern California closures: what this site can actually support",
   "description": "The closure tracker for Magic Mountain, Knott's, Legoland California and SeaWorld San Diego — only what we can support, honestly framed.",
   "intro": [
     "This tracker lists only closures this site can support with confidence. Where nothing qualifies, it says so and stays empty — an honest empty tracker beats a confidently wrong one, and every park here has a current attraction list on its own site that outranks any third-party summary.",
-    "Items land here when a closure is confirmed and load-bearing for planning; they leave when the ride reopens or is removed. The verification month on each item says when it was last checked."
+    "Retirement items remain as historical planning warnings. The October 2026 update adds X2 and Superman: Escape from Krypton from the owner’s October 9 findings; it does not reverify the unrelated Montezooma’s Revenge entry."
   ],
   "items": [
     {
@@ -19,6 +19,26 @@
       "reopening": "as part of the Fiesta Village redevelopment",
       "reopeningConfidence": "expected",
       "note": "The 1978 flywheel-loop shuttle closed amid Fiesta Village's reimagining, and its return timeline has extended repeatedly. The park has indicated the ride is expected back; treat that as intention rather than schedule, and check the park's attraction list before promising anyone a ride."
+    },
+    {
+      "name": "X2",
+      "parkSlug": "magic-mountain",
+      "attractionSlug": "x2",
+      "status": "permanently-closed",
+      "since": null,
+      "reopening": null,
+      "reopeningConfidence": "confirmed",
+      "note": "Permanently retired per Six Flags’ explicit announcement: https://www.sixflags.com/blog/retiring-x2-magic-mountain. Added from the October 9, 2026 review findings; the announcement date is not asserted here. A surviving legacy attraction page does not override the announcement."
+    },
+    {
+      "name": "Superman: Escape from Krypton",
+      "parkSlug": "magic-mountain",
+      "attractionSlug": "superman-escape-from-krypton",
+      "status": "permanently-closed",
+      "since": "2025-03",
+      "reopening": null,
+      "reopeningConfidence": "confirmed",
+      "note": "Permanent closure reported by Hometown Station in March 2025, attributing park confirmation to Magic Mountain President Jeff Harris through the Orange County Register: https://www.hometownstation.com/santa-clarita-news/community-news/six-flags-announces-permanent-closure-of-superman-ride-542671. Evidence type: reported park confirmation. The still-online official attraction page is a legacy ride description, not a closure announcement: https://www.sixflags.com/magicmountain/attractions/superman-escape-krypton."
     }
   ],
   "crossLinks": [
@@ -29,9 +49,9 @@
     }
   ],
   "freshness": {
-    "verified": "2026-07",
+    "verified": "2026-10",
     "confidence": "expected",
-    "sourceNote": "Structure and policy of the tracker; the items carry their own verification months.",
+    "sourceNote": "X2’s official Six Flags retirement announcement and Hometown Station’s March 2025 reported park confirmation of Superman’s permanent closure were retrieved through verified HTTPS in October 2026. The Superman report attributes confirmation to Magic Mountain President Jeff Harris through the Orange County Register; it is not a closure announcement on the legacy official attraction page. The existing Montezooma’s Revenge entry was not reverified in this batch.",
     "reviewBy": "2026-12",
     "cycle": "rolling"
   }

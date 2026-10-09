@@ -109,7 +109,9 @@ export function legalPages (data, seasonal = null) {
           scope.coverageSentence,
         ],
         list: [
-          '**Every attraction** — height requirements, ride systems, scare and motion assessments, queue and single-rider detail, and a verdict on whether the wait is worth the payoff.',
+          site.operator === 'coasterguide'
+            ? '**Attractions covered by this guide** — recorded height requirements, ride systems, scare and motion assessments, and queue information. Current catalog records are separate from closed or historical pages. This is guide coverage, not a complete official inventory or a report of what is open today.'
+            : '**Every attraction** — height requirements, ride systems, scare and motion assessments, queue and single-rider detail, and a verdict on whether the wait is worth the payoff.',
           '**Dining and snacks** — restaurants with a standing character rather than a menu transcription, and curated snack lists with dated prices.',
           '**Accessibility and maps** — the provisions each park actually makes, and printable schematic maps that work with no signal.',
           `**[When to go](${urls.whenToGoIndex()})** — all twelve months graded, with crowd shape, cost level, climate normals, and the specific weeks worth targeting or avoiding inside each one.`,
@@ -599,8 +601,12 @@ export function legalPages (data, seasonal = null) {
         heading: 'Maps and open data',
         id: 'maps',
         body: [
-          'The maps on this site are our own artwork. They are drawn from open geographic data, including data © OpenStreetMap contributors, which is available under the Open Database License, and that source is credited on every page that carries a map.',
-          'A rendered, stylized map is a Produced Work under the ODbL rather than a copy of the database. Attribution to the data source is required and we give it. The license\'s share-alike condition attaches to the database, not to the artwork produced from it, so the maps themselves are ours and the copyright position above applies to them.',
+          site.operator === 'coasterguide'
+            ? 'The guide diagrams on this site are our own artwork. Illustrative coverage diagrams are arranged from the areas recorded in our catalog; they do not establish surveyed positions or the park’s complete layout. Consult current official park maps for navigation. Any authored geographic map identifies its actual source on its page.'
+            : 'The maps on this site are our own artwork. They are drawn from open geographic data, including data © OpenStreetMap contributors, which is available under the Open Database License, and that source is credited on every page that carries a map.',
+          site.operator === 'coasterguide'
+            ? 'Where an authored geographic map uses ODbL data, its page credits that data source. Illustrative catalog diagrams do not claim geographic positions from that database. The original artwork remains subject to the copyright position above.'
+            : 'A rendered, stylized map is a Produced Work under the ODbL rather than a copy of the database. Attribution to the data source is required and we give it. The license\'s share-alike condition attaches to the database, not to the artwork produced from it, so the maps themselves are ours and the copyright position above applies to them.',
         ],
       },
       {

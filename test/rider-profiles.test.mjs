@@ -159,7 +159,7 @@ const PAYLOAD = {
   attractions: [
     { n: 'Ninja', h: 42, p: 'Magic Mountain', u: '/mm/' },
     { n: 'Goliath', h: 48, p: 'Magic Mountain', u: '/mm/' },
-    { n: 'X2', h: 48, p: 'Magic Mountain', u: '/mm/' },
+    { n: 'Twisted Colossus', h: 48, p: 'Magic Mountain', u: '/mm/' },
     { n: 'Tatsu', h: 54, p: 'Magic Mountain', u: '/mm/' },
   ],
 }
@@ -168,8 +168,8 @@ test('the card ruler draws every rung, tallest first, with the marker between cl
   const rider = { id: 'r1', name: 'Maya', birthday: '2019-04-10', heightIn: 46, measuredOn: '2026-09-11' }
   const html = RiderProfiles._internals.rulerHTML(rider, PAYLOAD)
   assert.match(html, /class="ruler__rung ruler__rung--cleared"/) // 42 cleared
-  assert.match(html, /42 in<\/strong> · 1 ride unlocks/) // count at the rung
-  assert.match(html, /48 in<\/strong> · 2 rides unlock/)
+  assert.match(html, /42 in<\/strong> · 1 ride minimum/) // a minimum is not permission to board
+  assert.match(html, /48 in<\/strong> · 2 ride minimums/)
   assert.match(html, /ruler__rung--ahead/) // 48 and 54 ahead
   assert.match(html, /Maya — 46 in, measured 2026-09-11/)
   // Marker placement: exactly one marker, between the 48 and 42 rungs (not above 48)
