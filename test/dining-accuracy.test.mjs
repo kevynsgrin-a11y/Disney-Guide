@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { loadData } from '../src/lib/data.mjs'
+import { loadData, operators } from '../src/lib/data.mjs'
 import { diningHub, restaurantPage, snacksPage } from '../src/pages/dining.mjs'
 import { parkHub, landPage } from '../src/pages/park.mjs'
 import { foodTrackerPage } from '../src/pages/tools.mjs'
@@ -95,4 +95,34 @@ test('Disney dining retains its existing table-service reservation advice', asyn
   const page = diningHub(park, data)
   assert.match(visibleMain(page), /reservations are worth/)
   assert.doesNotMatch(visibleMain(page), /October 15, 2026 visit|unverified legacy records/)
+})
+
+test('canonical dining fragment links resolve to unique venue cards across all operators', async () => {
+  const idsIn = (page) => [...page.html.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1])
+  const uniqueIds = (page) => {
+    const ids = idsIn(page)
+    assert.equal(new Set(ids).size, ids.length, `${page.url} must not repeat an HTML ID`)
+    return ids
+  }
+  let anchoredVenues = 0
+  for (const operator of await operators()) {
+    const data = await loadData(operator.slug)
+    for (const park of data.parks) {
+      const directory = diningHub(park, data)
+      const directoryIds = uniqueIds(directory)
+      uniqueIds(parkHub(park, data))
+      for (const land of park.lands) uniqueIds(landPage(land, data))
+      for (const venue of park.dining.filter((record) => !record.hasPage)) {
+        const link = new URL(venue.url, data.site.brand.origin)
+        assert.equal(link.pathname, directory.url, `${venue.name} uses the existing canonical dining directory`)
+        assert.equal(decodeURIComponent(link.hash.slice(1)), venue.slug)
+        assert.equal(directoryIds.filter((id) => id === venue.slug).length, 1, `${venue.url} resolves to exactly one venue target`)
+        const card = directory.html.match(new RegExp(`<article\\b[^>]*\\bid="${venue.slug}"[^>]*>([\\s\\S]*?)<\\/article>`))
+        assert.ok(card, `${venue.name} has a card at its fragment target`)
+        assert.ok(card[1].includes(`href="${venue.url}"`), 'the card keeps its canonical link')
+        anchoredVenues++
+      }
+    }
+  }
+  assert.ok(anchoredVenues > 0, 'the regression checks actual non-standalone venue links')
 })

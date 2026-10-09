@@ -14,6 +14,9 @@
   }
 
   ready(function () {
+    var print = document.querySelector('[data-map-print]')
+    if (print) print.addEventListener('click', function () { window.print() })
+
     var svg = document.querySelector('svg.parkmap')
     if (!svg) return
 

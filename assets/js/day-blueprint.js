@@ -93,7 +93,8 @@ var DayBlueprint = (function () {
           plan.notes.map(function (n) { return '<li>' + esc(n) + '</li>' }).join('') + '</ul></details>' : '') +
         '<p class="field-note muted">Generated from our authored plan for ' + esc(park.name) +
         ' — <a href="' + esc(park.url) + '">read the full park guide</a>. Verify hours, ride availability and rider restrictions on the day; attraction staff make the final eligibility determination. No live wait times are used or claimed.</p>' +
-        '<p><button class="btn btn--ghost" type="button" onclick="window.print()">Print this plan</button></p>'
+        '<p><button class="btn btn--ghost" type="button" data-blueprint-print>Print this plan</button></p>'
+      out.querySelector('[data-blueprint-print]').addEventListener('click', function () { window.print() })
     })
   }
 
