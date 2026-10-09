@@ -126,7 +126,8 @@ var RoadTrip = (function () {
           return '<li><strong>' + esc(b.name) + ':</strong> ' + esc(b.band) + '</li>'
         }).join('') + '</ul>' : '') +
         '<p class="field-note muted">' + esc(data.note) + '</p>' +
-        '<p><button class="btn btn--ghost" type="button" onclick="window.print()">Print the itinerary</button></p>'
+        '<p><button class="btn btn--ghost" type="button" data-roadtrip-print>Print the itinerary</button></p>'
+      out.querySelector('[data-roadtrip-print]').addEventListener('click', function () { window.print() })
     })
   }
 
